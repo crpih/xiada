@@ -30,22 +30,22 @@ XIADA is an statistical POS tagger based on Markov models and developed with rub
 
 ## TRAIN
 
-  You can train the tagger entering `repo_root_directory` and then:
+  The tagger can be trained entering `repo_root_directory` and then run:
 
         cd training/bin
         make all
 
-  This command will generate different training databases in `repo_root_directory/training/databases`
+  This command will generate different training databases in `repo_root_directory/training/databases` (it will take several minutes to finish).
 
 ## CHECK
 
-To check all is working fine, from `repo_root_directory` run:
+To check that all is working fine, from `repo_root_directory` run:
 
     rake test
 
 ## RUN
 
-And, finally, we can run the tagger in several ways. Here is an example:
+And, finally, the tagger can be launched in several ways. Here is an example:
 
 ### Tag sentences inside an XML document
 
@@ -65,6 +65,6 @@ The output will be sent to STDOUT, so you can redirect it to another xml file:
 
     ruby running/bin/xiada_tagger.rb -v -x running/galician_xiada/xml_values.txt -f input.xml training/databases/galician_xiada/training_galician_xiada_escrita.db > output.xml 
 
-Or, as the output of the tagger is not tabbed, we use to pass the output through `xmllint` program this way:
+Or, as the output of the tagger is not very nice (it is not indented), we use to pass the output through `xmllint` program this way:
 
     ruby running/bin/xiada_tagger.rb -v -x running/galician_xiada/xml_values.txt -f input.xml training/databases/galician_xiada/training_galician_xiada_escrita.db | xmllint --format - > output.xml
