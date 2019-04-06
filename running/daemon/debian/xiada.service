@@ -1,0 +1,21 @@
+[Unit]
+Description=XIADA Tagger
+After=network.target
+
+[Service]
+User=xiada
+Group=staff
+Type=simple
+# Another Type option: forking
+User=xiada
+WorkingDirectory=/usr/local/xiada
+ExecStart=/usr/local/xiada/running/daemon/debian/xiada_daemon.sh
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=xiada
+
+# Other Restart options: or always, on-abort, etc
+
+[Install]
+WantedBy=multi-user.target

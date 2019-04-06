@@ -1,0 +1,350 @@
+a a beira de	Lp0	a a beira de	a a beira de
+a a beira	La0	a a beira	a a beira
+a a ceavoga	La0	a a ceavoga	a a ceavoga
+a a fin e a o cabo	La0	a a fin e a o cabo	a a fin e a o cabo
+a a fin	La0	a a fin	a a fin
+a a forza	La0	a a forza	a a forza
+a a longa	La0	a a longa	a a longa
+a a marxe	La0	a a marxe	a a marxe
+a a medida	La0	a a medida	a a medida
+a a parte	La0	a a parte	a a parte
+a a présa	La0	a a présa	a a présa
+a as avesas	La0	a as avesas	a as avesas
+a as carreiras	La0	a as carreiras	a as carreiras
+a as cegas	La0	a as cegas	a as cegas
+a as escuras	La0	a as escuras	a as escuras
+a as présas	La0	a as présas	a as présas
+a as rapadas	La0	a as rapadas	a as rapadas
+a as veces	La0	a as veces	a as veces
+a base de	Lp0	a base de	a base de
+a berros	La0	a berros	a berros
+a cabalo	La0	a cabalo	a cabalo
+a cachón	La0	a cachón	a cachón
+a cada canto	La0	a cada canto	a cada canto
+a cada pouco	La0	a cada pouco	a cada pouco
+a cambio	La0	a cambio	a cambio
+a canchaperna	La0	a canchaperna	a cachapernas
+a causa de	Lp0	a causa de	a causa de
+a cegas	La0	a cegas	a as cegas
+a chupe	La0	a chupe	a chupe
+a consecuencia de	Lp0	a consecuencia de	a consecuencia de
+a conta de	Lp0	a conta de	a a conta de
+a continuación	La0	a continuación	a continuación
+a contragusto	La0	a contragusto	a contragusto
+a contrapelo	La0	a contrapelo	a contrapelo
+a correr	La0	a correr	a correr
+a costa de	Lp0	a costa de	a a custa de
+acto seguido	La0	acto seguido	acto seguido
+a dereitas	La0	a dereitas	a dereitas
+a diario	La0	a diario	a diario
+a diferencia de	Lp0	a diferencia de	a diferenza de
+a diferenza de	Lp0	a diferenza de	a diferenza de
+a duras penas	La0	a duras penas	a duras penas
+a excepción de	Lp0	a excepción de	a excepción de
+a feito	La0	a feito	a feito
+a fin de contas	La0	a fin de contas	a fin de contas
+a fin de	Lp0	a fin de	a fin de
+a fondo	La0	a fondo	a fondo
+a forza de	Lp0	a forza de	a forza de
+agora ben	Lcs	agora ben	agora ben
+agora que	Lcs	agora que	agora que
+a gusto	La0	a gusto	a gusto
+a maiores	La0	a maiores	a maiores
+a mais	Lcc	a mais	e mais
+a medida que	Lcs	a medida que	a medida que
+a menos que	Lcs	a menos que	a menos que
+a modo	La0	a modo	amodo
+a nada que	Lcs	a nada que	a nada que
+a nado	La0	a nado	a nado
+a o azar	La0	a o azar	a o azar
+a o bordo de	Lp0	a o bordo de	a o bordo de
+a o cabo	La0	a o cabo	a o cabo
+a o completo	La0	a o completo	a o completo
+a o contrario	La0	a o contrario	a o contrario
+a o cuberto	La0	a o cuberto	a cuberto
+a o dereito	La0	a o dereito	a o dereito
+a o descuberto	La0	a o descuberto	a o descuberto
+a o fin e a o cabo	La0	a o fin e a o cabo	a a fin e a o cabo
+a o fin	La0	a o fin	a o fin
+a o lado	La0	a o lado	a o lado
+a o longo de	Lp0	a o longo de	a o longo de
+a o lonxe	La0	a o lonxe	a o lonxe
+a o mellor	La0	a o mellor	a o mellor
+a o menos	La0	a o menos	a o menos
+a o momentiño	La0	a o momento	a o momento
+a o momento	La0	a o momento	a o momento
+a o par de	Lp0	a o par de	a o par de
+a o parecer	La0	a o parecer	a o parecer
+a o par	La0	a o par	a o par
+a o pé de	Lp0	a o pé de	a o pé de
+a o pé	La0	a o pé	a o pé
+a o pouco	La0	a o pouco	a o pouco
+a o primeiro	La0	a o primeiro	a o primeiro
+a o quite	La0	a o quite	a o quite
+a o raro	La0	a o raro	a o raro
+a o redor de	Lp0	a o redor de	a o redor de
+a o respecto de	Lp0	a o respecto de	a respecto de
+a o respecto	La0	a o respecto	a o respecto
+a o revés	La0	a o revés	a o revés
+a os poucos	La0	a os poucos	a os poucos
+a os pouquiños	La0	a os poucos	a os poucos
+a o tanto	La0	a o tanto	a o tanto
+a o xeito	La0	a o xeito	a o xeito
+a par de	Lp0	a par de	a par de
+a pé	La0	a pé	a pé
+a penas	La0	a penas	apenas
+a penas	Lcs	a penas	apenas
+a pouco que	Lcs	a pouco que	a pouco que
+a pre	La0	a pre	a pre
+a propósito	La0	a propósito	a propósito
+a punto	La0	a punto	a punto
+a raíz de	Lp0	a raíz de	a raíz de
+a rastro	La0	a rastro	a rastro
+a razón de	Lp0	a razón de	a razón de
+a rebolos	La0	a rebolos	a rebolos
+a rente de	Lp0	a rente de	a rentes de
+a respecto de	Lp0	a respecto de	a respecto de
+a rolos	La0	a rolos	a rolos
+arredor de	Lp0	arredor de	arredor de
+así a todo	La0	así a todo	así e todo
+así como	Lcs	así como	así como
+así e todo	La0	así e todo	así e todo
+así mesmo	La0	así mesmo	así mesmo
+así pois	La0	así pois	así pois
+así que	Lcs	así que	así que
+a son	La0	a son	a son
+a tempo	La0	a tempo	a tempo
+a toda costa	La0	a toda costa	a toda costa
+a través	La0	a través	a través
+a un tempo	La0	a un tempo	a un tempo
+axiña que	Lcs	axiña que	axiña que
+beira de	Lp0	beira de	beira de
+ben como	Lcs	ben como	ben como
+ben non	La0	ben non	ben non
+ben que	Lcs	ben que	ben que
+cabo de	Lp0	cabo de	cabo de
+camiño de	Lp0	camiño de	camiño de
+cando menos	La0	cando menos	cando menos
+cando queira que	Lcs	cando queira que	cando queira que
+canto a	Lp0	canto a	canto a
+canto antes	La0	canto antes	canto antes
+cara a	Lp0	cara a	cara a
+catar se	Lcs	catar se	catar se
+como mínimo	La0	como mínimo	como mínimo
+como queira que	Lcs	como queira que	como queira que
+conforme a	Lp0	conforme a	conforme a
+con respecto a	Lp0	con respecto a	con respecto a
+con tal de que	Lcs	con tal de que	con tal de que
+con tal que	Lcs	con tal que	con tal que
+con todo	La0	con todo	con todo
+contra de	Lp0	contra de	contra de
+dacordo con	Lp0	dacordo con	de acordo con
+dado que	Lcs	dado que	dado que
+de abondo	La0	de abondo	dabondo
+de a cabalo	La0	de a cabalo	de a cabalo
+de acordo	La0	de acordo	de acordo
+de a feito	La0	de a feito	a feito
+de aí que	Lcs	de aí que	de aí que
+de alí a pouco	La0	de alí a pouco	de alí a pouco
+de alí a pouquiño	La0	de alí a pouco	de alí a pouco
+de aquí a pouco	La0	de aquí a pouco	de aquí a pouco
+de aquí a pouquiño	La0	de aquí a pouco	de aquí a pouco
+de broma	La0	de broma	de broma
+de bruzos	La0	de bruzos	de bruzos
+de camiño	La0	de camiño	de camiño
+de cara a	Lp0	de cara a	de cara a
+de certo	La0	de certo	de certo
+de contadiño	La0	de contado	decontado
+de contado	La0	de contado	decontado
+decontado que	Lcs	decontado que	decontado que
+de cor	La0	de cor	de cor
+de emprestado	La0	de emprestado	de emprestado
+de face	La0	de face	de face
+de feito	La0	de feito	de feito
+de fronte	La0	de fronte	de fronte
+de golpe	La0	de golpe	de golpe
+deica pouco	La0	deica pouco	deica pouco
+deica que	Lcs	deica que	deica que
+deica un pouco	La0	deica un pouco	deica un pouco
+de inmediato	La0	de inmediato	de inmediato
+de longo	La0	de longo	de longo
+de máis	La0	de máis	de máis
+de menos	La0	de menos	de menos
+de momento	La0	de momento	de momento
+de non ser que	Lcs	de non ser que	de non ser que
+de non ser se	Lcs	de non ser se	de non ser se
+de novo	La0	de novo	de novo
+dentro de	Lp0	dentro de	dentro de
+de o revés	La0	de o revés	de o revés
+de par de	Lp0	de par de	de par de
+de paso	La0	de paso	de paso
+de pé	La0	de pé	de pé
+de plano	La0	de plano	de plano
+de por vida	La0	de por vida	de por vida
+de présa	La0	de présa	a a présa
+de prestado	La0	de prestado	de prestado
+de pronto	La0	de pronto	de pronto
+de propósito	La0	de propósito	de propósito
+de raíz	La0	de raíz	de raíz
+de raro en raro	La0	de raro en raro	de raro en raro
+de repente	La0	de repente	de repente
+derredor de	Lp0	derredor de	derredor de
+de seguida	La0	de seguida	deseguida
+deseguida que	Lcs	deseguida que	deseguida que
+de seguidiña	La0	de seguida	deseguida
+de seguido	La0	de seguido	deseguido
+de seguro	La0	de seguro	de seguro
+de sobra	La0	de sobra	de sobra
+de tempo en tempo	La0	de tempo en tempo	de tempo en tempo
+de todo	La0	de todo	de todo
+de través de	Lp0	de través de	de través de
+de través	La0	de través	de través
+de vagar	La0	de vagar	devagar
+de verdade	La0	de verdade	de verdade
+de vez en cando	La0	de vez en cando	de vez en cando
+e iso que	Lcs	e iso que	e iso que
+e listo	La0	e listo	e listo
+e mais	Lcc	e mais	e mais
+en absoluto	La0	en absoluto	en absoluto
+en alto	La0	en alto	en alto
+en breve	La0	en breve	en breve
+en broma	La0	en broma	en broma
+en cambio	La0	en cambio	en cambio
+en canto a	Lp0	en canto a	en canto a
+en canto	Lcs	en canto	en canto
+en común	La0	en común	en común
+en conciencia	La0	en conciencia	en conciencia
+en concreto	La0	en concreto	en concreto
+ende ben	Lcs	ende ben	ende ben
+en definitiva	La0	en definitiva	en definitiva
+ende mal	Lcs	ende mal	ende mal
+en diante	La0	en diante	en diante
+en efecto	La0	en efecto	en efecto
+en especial	La0	en especial	en especial
+en fin	La0	en fin	en fin
+en firme	La0	en firme	en firme
+en frío	La0	en frío	en frío
+en fronte de	Lp0	en fronte de	en fronte de
+en fronte	La0	en fronte	en fronte
+en par de	Lp0	en par de	en par de
+en parte	La0	en parte	en parte
+en particular	La0	en particular	en particular
+en pé	La0	en pé	en pé
+en por de	Lp0	en por de	en por de
+en precario	La0	en precario	en precario
+en público	La0	en público	en público
+en punto	La0	en punto	en punto
+en rama	La0	en rama	en rama
+en relación a	Lp0	en relación a	en relación a
+en seguida	La0	en seguida	enseguida
+en seguidiña	La0	en seguida	enseguida
+en serio	La0	en serio	en serio
+en tanto	Lcs	en tanto	en tanto
+en tempo	La0	en tempo	en tempo
+en teoría	La0	en teoría	en teoría
+en todo caso	La0	en todo caso	en todo caso
+en torno a	Lp0	en torno a	en torno a
+entre tanto	Lcs	entre tanto	entre tanto
+en vango	La0	en vango	en vango
+en van	La0	en van	en van
+en verdade	La0	en verdade	en verdade
+e todo	La0	e todo	e todo
+fóra de	Lp0	fóra de	fóra de
+frente a	Lp0	frente a	fronte a
+fronte a	Lp0	fronte a	fronte a
+fronte por fronte	La0	fronte por fronte	fronte por fronte
+gracias a	Lp0	gracias a	grazas a
+grazas a	Lp0	grazas a	grazas a
+logo que	Lcs	logo que	logo que
+máis ben	La0	máis ben	máis ben
+mal como	Lcs	mal como	mal como
+mal que	Lcs	mal que	mal que
+menos mal	La0	menos mal	menos mal
+mentras que	Lcs	mentras que	mentres
+mentres que	Lcs	mentres que	mentres
+mentres tanto	La0	mentres tanto	mentres tanto
+mentres tanto	Lcs	mentres tanto	mentres
+mesmo que	Lcs	mesmo que	mesmo que
+nin que	Lcs	nin que	nin que
+non ben	La0	non ben	non ben
+onda non	Lcs	onda non	onda non
+onde queira	La0	onde queira	onde queira
+o outro antonte	La0	o outro antonte	o outro antonte
+ora ben	Lcs	ora ben	ora ben
+ora que	Lcs	ora que	ora que
+ou ben	Lcc	ou ben	ou ben
+ou sexa	Lcc	ou sexa	ou sexa
+pese a	Lp0	pese a	pese a
+pois ben	Lcs	pois ben	pois ben
+pois que	Lcs	pois que	pois que
+por aí	La0	por aí	por aí
+por ante	Lp0	por ante	por ante
+por canto	Lcs	por canto	por canto
+por cen	La0	por cen	por cento
+por certo	La0	por certo	por certo
+por completo	La0	por completo	por completo
+por conseguinte	Lcs	por conseguinte	por conseguinte
+por cousa de	Lp0	por cousa de	por cousa de
+por culpa de	Lp0	por culpa de	por culpa de
+por descontado	La0	por descontado	por suposto
+por encima	La0	por encima	por encima
+por enriba	La0	por enriba	por enriba
+por enteiro	La0	por enteiro	por enteiro
+por escrito	La0	por escrito	por escrito
+por fin	La0	por fin	por fin
+por fortuna	La0	por fortuna	por fortuna
+por igual	La0	por igual	por igual
+por la contra	La0	por a contra	por a contra
+por las boas	La0	por as boas	por as boas
+por las malas	La0	por as malas	por as malas
+por libre	La0	por libre	por libre
+por lo baixo	La0	por o baixo	por o baixo
+por lo contrario	La0	por o contrario	por o contrario
+por lo menos	La0	por o menos	por o menos
+por lo miudo	La0	por o miudo	por o miúdo
+por lo miúdo	La0	por o miúdo	por o miúdo
+por lo momento	La0	por o momento	por o momento
+por lo pronto	La0	por o pronto	por o de pronto
+por los zarapelos	La0	por os zarapelos	por os zarapelos
+por lo tanto	La0	por o tanto	por o tanto
+por lo tanto	Lcs	por o tanto	por o tanto
+por máis que	Lcs	por máis que	por máis que
+por medio de	Lp0	por medio de	por medio de
+por moito que	Lcs	por moito que	por moito que
+por pouco que	Lcs	por pouco que	por pouco que
+por riba	La0	por riba	por riba
+por separado	La0	por separado	por separado
+por suposto	La0	por suposto	por suposto
+por tanto	La0	por tanto	por tanto
+por tanto	Lcs	por tanto	por o tanto
+por veces	La0	por veces	por veces
+posto que	Lcs	posto que	posto que
+pouco a pouco	La0	pouco a pouco	pouco e pouco
+pouco e pouco	La0	pouco e pouco	pouco e pouco
+pouquiño a pouco	La0	pouco a pouco	pouco e pouco
+respecto a	Lp0	respecto a	respecto a
+respecto de	Lp0	respecto de	respecto de
+se ben	Lcs	se ben	se ben
+se cadra	La0	se cadra	se cadra
+se callar	La0	se callar	se callar
+sempre que	Lcs	sempre que	sempre que
+sen dúbida	La0	sen dúbida	sen dúbida
+sen embargo	La0	sen embargo	sen embargo
+senón que	Lcs	senón que	senón que
+si ben	Lcs	si ben	se ben
+sobre de	Lp0	sobre de	sobre de
+só que	Lcs	só que	só que
+tal vez	La0	tal vez	talvez
+tan presto	Lcs	tan presto	tan presto
+tan pronto	Lcs	tan pronto	tan pronto
+tras de	Lp0	tras de	tras de
+unha vez	La0	unha vez	unha vez
+unha vez	Lcs	unha vez	unha vez
+unha vez que	Lcs	unha vez que	unha vez
+verbo de	Lp0	verbo de	verbo de
+visto que	Lcs	visto que	visto que
+xa que	Lcs	xa que	xa que
+xa que logo	Lcs	xa que logo	xa que logo
+xunto a	Lp0	xunto a	xunto a
+xunto con	Lp0	xunto con	xunto con
+xunto de	Lp0	xunto de	xunto de

@@ -1,0 +1,261 @@
+# Formato campos: foma,etiqueta,lema,unidade[,x]
+# Palabras individuais
+
+no|No,Raa3ms,o,no,x
+na|Na,Raa3fs,o,na,x
+nos|Nos,Raa3mp,o,nos,x
+nas|Nas,Raa3fp,o,nas,x
+
+# ca: se antes está un adverbio comparador (máis, menos) ou vai
+# seguido de substantivo ou adxectivo masculino non é a contracción,
+# senón a conxunción:
+
+menos|máis|,W.,_,_	con,P,con,_	a,Ddfs,o,_,x	
+con,P,con,_	a,Ddfs,o,_,x	_,S.m.|A.m.,_,_
+
+# "ca": Temos que diferenciar a contracción non normativa da
+# conxunción subordinante. Se segue Scfs pode ser contracción mais se
+# seguen algúns dos elementos especificados é conxunción.  Cambiamos
+# Ddfs por artigo (D*), porque se despois de "ca" vén "o, a, os, as,
+# un, unha, uns, unhas" é Cs. E pódeselle sumar á regra tamén todos os
+# demostrativos, posesivos, e indefinidos masculinos.  Así
+# solucionamos tamén parte dos erros de "ca" como contracción non
+# normativa de "con" + "a" cando segue demostrativo. Non podemos
+# incluír os numerais masculinos na regra polos romanos.
+
+# Penso que temos que incorporar a unidade "ca" nas regras para
+# distinguir entre a contracción non normativa e a conxunción "ca",
+# porque senón impide que cando a contracción se grafa como "coa" dea
+# esa análise, proporcionando sempre a de Vpi de "coar". A maiores hai
+# que eliminar as etiquetas de posesivo e indefinido (pois si se
+# combina con eles, ou mellor, restrinxilo ós masculinos, de xeito que
+# a regra quede como segue:
+
+con,P,con,ca	a,Ddfs,o,ca,x	_,D*|E*|M*m.|I.m.|Rt*|S..p|A..p,_,_
+
+# a, o, os, as, non son artigo (a non ser que estean nunha
+# contracción) nin substantivo se despois vén unha forma verbal de
+# indicativo ou subxuntivo
+
+a|as|o|os,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós	_,V.i*|V.s*,_,_,x
+a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
+
+# se "o, a, os,as" están nunha contracción (polo tanto precedidos de
+# Preposición) e despois vén algo identificado como Verbo en
+# indicativo ou subxuntivo impide que esa combinación de etiquetas
+# sexa válida (nuns casos será incorrecta a análise como contracción
+# e noutros a análise como forma verbal conxugada):
+
+# => Isto non se pode representar así, así que de momento queda desactivada.
+# => Eva vai estudar se se pode desglosar e, se non é posible, quizais haxa
+# => que ampliar as posibilidades de representación das regras.
+
+#_,P,_,_,	a|as|o|os,Dd*,_,á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,	_,V.i*|V.s*,_,_,x
+
+
+
+# Regra xenérica que afecta ao artigo e ás formas conxugadas en indicativo ou subxuntivo.
+# Non son nin artigo nin substantivo:
+
+a|as|o|os,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
+a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
+
+# o,a,os,as precedidos de "como" e seguidos de preposición "de" que
+# non estea na unidade "da|das|dese|deses|destes" no n pode ser Raa*
+# (non quero que a regra afecte ás unidades "da|das", etc, porque poden
+# estar mal recoñecidas e ser formas verbais, en cuxo caso "o,a,..." si
+# sería pronome):
+
+como,_,como,_	_,Raa*,o,_,x	de,P,_,!da|das|dese|deses|destes_
+
+# A non é preposición se despois vén unha forma verbal de indicativo
+# ou subxuntivo:
+
+a,P,_,_,x	_,V.i*|V.s*,_,_
+
+# "a", se segue algún tipo de determinante masculino (artigo,
+# demostrativo, posesivo, indefinido) e non está en ningunha
+# contracción excepto "ca" [teño que sacar "ca" de aí pola ambigüidade
+# segmental, porque como Cs si é posible, anque non como contracción]
+# non pode ser o artigo. Non podo incluír os numerais masculinos na
+# regra polos romanos
+
+a,Ddfs,o,!á|da|coa|na|cá|prá|,x	_,D.ms|E.ms|M*ms|I.ms,_,_
+
+# IMPORTE(S): Temos que diferenciar o substantivo da forma verbal e 
+# para iso estableceremos as seguintes regras:
+# a) como verbo non pode ir precedido nin seguido de adxectivo;
+# b) tampouco pode ir precedido de artigo nin determinante masculino e
+# c) se vai precedido da preposición "por" e seguido da preposición
+# "de" é seguro substantivo:
+
+_,A*|D.m.|.d*,_,_,x	_,V0f*,impor,_	te,Ra*,te,_
+_,A*|D.m.|.d*,_,_,x	importe,V*,importar,_
+_,V0f*,impor,_	te,Ra*,te,_	_,A*,_,x,_
+importe,V*,importar,_	_,A*,_,_,x
+por,P,por,_	importe,V*,importar,_,x	de,P,de,_
+
+# CREO: Vpi10s e tamén Vpi30s seguido de Raa3ms. Cando segue
+# conxunción subordinante "que", precedido ou non do adverbio "non" é
+# 1ª persoa do singular de crer. son incompatibles dous directos
+# dependendo da mesma forma verbal, polo que se á forma "creo" lle
+# segue un "que" é imposible a análise como 3ª do singular máis
+# clítico:
+
+cre,Vpi30s,crer,_,x	o,Raa3ms,o,_	que,Cs,que,_
+
+# nos + verbo => ese nos nunca é contracción
+
+en,P,en,_	os,Ddmp,o,_,x	_,V*,_,_
+
+# de momento + verbo => de momento sempre é locución adverbial
+
+de,_,de,_	momento,_,momento,_,x	_,V*,_,_
+
+# "unha vez" non é locución cando ese "unha" forma parte dunha
+# contracción.
+
+de,P,de,dunha	unha vez,L*,unha vez,_,x
+con,P,con,cunha	unha vez,L*,unha vez,_,x
+en,P,en,nunha	unha vez,L*,unha vez,_,x
+
+# "a forza de" non pode ser locución cando ese "a" forma parte dunha
+# contracción
+
+de,P,de,dunha	a forza de,L*,a forza de,_,x
+con,P,con,cunha	a forza de,L*,a forza de,_,x
+en,P,en,nunha	a forza de,L*,a forza de,_,x
+a,P,a,á	a forza de,L*,a forza de,_,x
+
+# se + non => se nunca é Rao3aa (salvo que o "se" veña dun verbo con clíticos)
+
+# De aí que o nome do noso  santiño débese non tanto ao trosque que se
+# lle dá, como  ao enfeitamento da súa medieval  cabeza con enrouladas
+# guedellas ou "croques".
+
+se,Rao3aa,se,se,x	non,_,non,_
+
+# Se "se" está segudo de "se" e o primeiro non forma parte dunha forma
+# verbal con clítico, entón é Cs + Rao3aa; se "se" forma parte dunha
+# forma verbal con clítico e segue "se" (unidade), o segundo "se" é Cs
+# e o primeiro Rao3aa:
+
+se,Rao3aa,_,se,x	se,Rao3aa,_,_	_,V*|Rad*,_,_
+se,Rao3aa,_,!se	se,Rao3aa,_,se,x
+
+# Cando "se" está precedido da conxunción "coma" ou do adverbio
+# relativo "como" e segue pretérito de subxuntivo, o "se" non é Rao*,
+# senón Cs (ollo, pode ser pronome con "como", pero nese caso o "como"
+# sería Cs: "como se dese conta, non o faría"):
+
+coma,Cs,_,_	se,Rao3aa,se,se,x	_,Ves*_,_,_
+como,Wr,_,_	se,Rao3aa,se,se,x	_,Ves*_,_,_
+
+
+# "en canto" + verbo en subxuntivo => en canto sempre é locución conxuntiva:
+
+en,_,en,_	canto,_,canto,_,x	_,V.s*,_,_
+
+# "en canto a" seguida de artigo, substantivo plural ou substantivo
+# masculino sempre é locución prepositiva:
+
+en,_,en,_	canto,_,canto,_	a,_,a,_	_,D*,_,ao|aos|á|ás|ó|ós,x
+en,_,en,_	canto,_,canto,_	a,_,a,_,x	_,S..p|S.m.,_,_
+
+# "compre" seguido de infinitivo, non pode ser Vps30s de comprar.
+
+compre,Vps30s,comprar,_,x	_,V0f*,_,_
+
+# Estará mal formulada a regra de "compre"? É que non dá ningún
+# resultado correspondente ó verbo "comprar"...  Para completala pódense
+# incluír estas outras que digan que non pode ser do lema "cumprir" se
+# a) "compre" está seguido de Sc?p; b) o precede pronome ou relativo
+# non determinante:
+
+# => A regra anterior si que estaba mal (faltaba un tabulador), así
+# que de momento non activo estas regras.
+
+# compre,Vps30s,cumprir,_,x       _,Sc.p,_,_
+
+# _,R*|Tn*,_,_    compre,Vps30s,cumprir,_,x
+
+
+# verbo + cara a == cara a é Lp0
+
+_,V*,_,_	cara,_,_,_	a,_,_,_	_,_,o,_,x
+_,V*,_,_	cara,_,_,_	á,_,_,_,x
+_,V*,_,_	cara,_,_,_	a,_,_,_,x
+
+# "cara a", se segue algún adverbio como adiante, abaixo, alá, etc,
+# sempre é locución prepositiva. Non podemos estender a regra a todos
+# os adverbios porque con "aínda" e "case" pode ser artigo; e tampouco a
+# podemos estender só ós nucleares porque non sempre os etiqueta ben.
+
+cara,_,cara,_	a,Ddfs|P|Raa3fs|Scms,_,_,x	abaixo|adiante|diante|alá|aló|arriba|atrás|dentro|fóra|ningures,_,_,_
+cara,_,cara,_	a,Ddfs|P|Raa3fs|Scms,_,_,x	_,Wg|Wr,_,_
+
+# Tampouco poder ser A0fs, lema "caro", cando segue un adverbio coma
+# os especificados:
+
+cara,_,cara|caro,_	a,Ddfs|P|Raa3fs|Scms,_,_,x	abaixo|adiante|diante|alá|aló|arriba|atrás|dentro|fóra|ningures,_,_,_
+
+# "cara a" non pode ser P + P. Nese caso debería ser Lp. Hai que
+# confiar en que Lp sea a segunda máis probable.
+
+cara,P,cara,_	a,P,_,_,x	_,_,_,!ao|á|aos|ás|ó|ós
+cara,P,cara,_	a,P,_,_,	_,_,_,ao|á|aos|ás|ó|ós,x
+
+# PARA. Na combinación "para + Rao3aa|Ra* + V0f*" non é do verbo
+# "parar" senón preposición:
+
+para,Vpi30s,parar,_,x	_,Ra*,_,_	_,V0f*,_,_	
+
+# Forma verbal con "mos" enclítico fronte á 1ª persoa de plural. Se
+# precede "non", "que" ou "se" é a 1ª de plural. O mesmo se segue
+# adxectivo plural, participio plural, substantivo ou artigo. Así
+# mesmo, se está precedido de nós (Rt) ou dalgún pronome átono tamén é
+# a P4 (primeira do plural)
+
+non|aínda|que|se,_,_,_	_,V*,_,*mos	me,Rad1.s,me,_	os,Raa3mp,o,_,x
+nós,Rt*,_,_	_,V*,_,*mos	me,Rad1.s,me,_	os,Raa3mp,o,_,x
+_,Ra*,_,_	_,V*,_,*mos	me,Rad1.s,me,_	os,Raa3mp,o,_,x
+
+_,V*,_,*mos	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,A0.p|V0p0.p|Sc*|D*,_,_
+
+# ESTAMOS + XERUNDIO é a perífrase verbal (Vpi10p+V0x000) se despois
+# vén substantivo común, artigo ou pronome enclítico:
+
+está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,V0x000,_,_	_,Sc*|D*|Ra*A0.p|V0p0.p|,_,_	
+está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,_,en|ante|perante|diante,_
+
+# Nós é Rt e non Sp* a comezo de secuencia se despois vén un verbo en
+# indicativo de 1ª do plural; o mesmo se entre eles aparece un
+# adverbio nuclear: ??? Comprobar se se pode facer.
+# Mario: Non consigo que o etiquetador elixa Nós. De momento queda
+# deshabilitada a regras.
+
+#Nós,Sp*,_,_,x	_,V.i10p,_,_
+#Nós,Sp*,_,_,x	_,Wn,_,_	_,V.i10p,_,_,
+
+# A maior parte dos casos de "fora" etiquetados como W son verbo. A
+# única regra que se me ocorre para corrixir esta incidencia a de que
+# se segue participio impida a análise como W:
+
+fora,Wn|P,fora,_,x	_,V0p*,_,_,
+
+# aquel: Cando o precede o artigo masculino, sexa determinado ou
+# indeterminado, é o Substantivo: un aquel, o aquel, etc. Metino no
+# lexicón como nova entrada. Quizais non sexa preciso introducir esta
+# regra, anque non hai ningún caso no corpus de adestramento...
+
+_,D.ms,_,_,	aquel,E.ms,aquel,_,x
+
+# Artigo feminino cuxa unidade sexa "a" non pode ir seguido de
+# demostrativo.
+
+_,Ddfs,_,a,x	_,E*,_,_,
+
+# incluímos non está seguido de Verbo, rexeita esa análise:
+
+_,V*,_,_,	_,Ra*,_,se|o|os|a|as|nos,x	_,!V*|Ra*,_,_
+

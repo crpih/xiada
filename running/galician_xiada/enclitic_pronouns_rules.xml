@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../enclitic_pronouns_rules.dtd">
+<document>
+  <!-- Se aparece llelo/lle-lo, o lle refírese sempre ao plural. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">lle</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="next_enclitic">lo OR la OR los OR las OR -lo OR -la OR -los OR -las</evaluation>
+        </content>
+        <action>filter_tags</action>
+        <action param="lles">replace_form</action>
+        <filter>Rad3as OR Rad3ms OR Rad3fs</filter>
+      </condition>  
+    </condition>
+  </rule>
+  <!-- Se aparece lle seguido de calquera cousa que non sexa lo/-lo, o lle refírese sempre a singular. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">lle</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="next_enclitic">NOT lo AND NOT la AND NOT los AND NOT las AND NOT -lo AND NOT -la AND NOT -los AND NOT -las</evaluation>
+        </content>
+        <action>filter_tags</action>
+        <filter>Rad3ap OR Rad3mp OR Rad3fp</filter>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se aparece lle ao final da secuencia de enclíticos non pode ser terceira do plural. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="final_enclitic">lle</evaluation>
+      </content>
+      <action>filter_tags</action>
+      <filter>Rad3ap OR Rad3mp OR Rad3fp</filter>
+    </condition>
+  </rule>
+  <!-- Se aparece -lo/-la/-los/-las, hai que eliminarlles o guión -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="final_enclitic">-lo OR -la OR -los OR -las</evaluation>
+      </content>
+      <action param="-">remove_initial_character</action>
+    </condition>
+  </rule>
+  <!-- Se aparece o enclítico nos no medio dunha secuencia de enclíticos, non pode ser acusativo de terceira. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">nos</evaluation>
+      </content>
+      <action>filter_tags</action>
+      <filter>Raa3mp</filter>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">no</evaluation>
+      </content>
+      <action>filter_tags</action>
+      <filter>Raa3ms</filter>
+    </condition>
+  </rule>
+  <!-- Se aparece nolo ou no-lo, o no nunha pode ser acusativo. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">no</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="next_enclitic">lo OR la OR los OR las OR -lo OR -la OR -los OR -las</evaluation>
+        </content>
+        <action>filter_tags</action>
+        <action param="nos">replace_form</action>
+        <filter>Raa1ap OR Raa1fp OR Raa1mp</filter>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se aparece vo-lo ou volo, o vo debe reconstruírse a vos -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="intermediate_enclitic">vo</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="next_enclitic">lo OR la OR los OR las OR -lo OR -la OR -los OR -las</evaluation>
+        </content>
+        <action param="vos">replace_form</action>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se aparece no ao final da secuencia de enclíticos non pode ser pronome de primeira. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="final_enclitic">no</evaluation>
+      </content>
+      <action>filter_tags</action>
+      <filter>Raa1ap OR Rad1ap OR Raa1mp OR Raa1fp OR Rad1mp OR Rad1fp</filter>
+    </condition>
+  </rule>
+  <!-- Se a parte verbal NON remata en ditongo e a secuencia de clíticos remata
+  en nos, nunca vai ser pronome de terceira. -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="final_enclitic">nos</evaluation>
+      </content>
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT ei AND NOT éi AND NOT eu AND NOT éu AND NOT ou AND NOT óu AND NOT iu AND NOT íu AND NOT ai AND NOT ái</evaluation>
+        </content>
+        <action>filter_tags</action>
+        <filter>Raa3mp</filter>
+      </condition>
+    </condition>
+  </rule>
+</document>

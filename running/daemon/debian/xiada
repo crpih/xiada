@@ -1,0 +1,48 @@
+### BEGIN INIT INFO
+# Provides:          xiada
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start daemon at boot time
+# Description:       Enable service provided by daemon.
+### END INIT INFO
+
+#! /bin/sh
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+DAEMON=/usr/local/xiada/running/daemon/debian/xiada_daemon.sh
+
+NAME=xiada
+PIDFILE=/var/run/xiada/$NAME.pid
+
+test -f $DAEMON || exit 0
+
+case "$1" in
+  start)
+        echo "Starting xiada..." >&1
+	mkdir -p `dirname "$PIDFILE"`
+
+	start-stop-daemon --start --oknodo --pidfile $PIDFILE --chuid xiada:xiada --exec $DAEMON -m -b
+	;;
+
+  stop)
+	echo "Stopping xiada..." >&1
+	start-stop-daemon --stop --retry 5 --oknodo --pidfile $PIDFILE
+	;;
+
+  restart)
+	echo "Restarting xiada..." >&1
+	if start-stop-daemon --stop --retry 5 --oknodo --pidfile $PIDFILE; then
+		start-stop-daemon --start --oknodo --pidfile $PIDFILE --chuid xiada:xiada --exec $DAEMON -m -b
+	fi
+	;;
+
+  *)
+	N=/etc/init.d/${0##*/}
+	echo "Usage: $N {start|stop|restart}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

@@ -1,3 +1,7 @@
+test/galician_xiada/output/*_new.xml
+*.db
+log
+*.log
 *.gem
 *.rbc
 /.config

@@ -1,0 +1,365 @@
+a a custa de	Lp0	a a custa de	a a custa de
+a a emborca	La0	a a emborca	a a envorca
+a a envorca	La0	a a envorca	a a envorca
+a a garra	La0	a a garra	a a garra
+a a mantenta	La0	a a mantenta	a a mantenta
+a a rapañota	La0	a a rapañota	a a rapañota
+a as agachadas	La0	a as agachadas	a as agachadas
+a as atoutiñadas	La0	a as atoutiñadas	a as atoutiñadas
+a as baroutas	La0	a as baroutas	a as baroutas
+a as boleiradas	La0	a as boleiradas	a as boleiradas
+a as borcalladas	La0	a as borcalladas	a as vorcalladas
+a as cabaleirolas	La0	a as cabaleirolas	a as cabaleirolas
+a as cabaliñas	La0	a as cabaliñas	a as cabaliñas
+a as carranchapernas	La0	a as carranchapernas	a carranchapernas
+a as carranchas	La0	a as carranchas	a as carranchas
+a as emborcalladas	La0	a as emborcalladas	a as envorcalladas
+a as envorcalladas	La0	a as envorcalladas	a as envorcalladas
+a as escondidas	La0	a as escondidas	a as escondidas
+a as rapañotas	La0	a as rapañotas	a as rapañotas
+a as toas	La0	a as toas	a a toa
+a as vorcalladas	La0	a as vorcalladas	a as vorcalladas
+a a toa	La0	a a toa	a a toa
+a a zonza	La0	a a zonza	a a zonza
+a balavento	La0	a balavento	a balavento
+a baluto	La0	a baluto	a baluto
+a baravento	La0	a baravento	a balavento
+a barullo	La0	a barullo	a barullo
+ab intestato	La0	ab intestato	ab intestato
+a bordo	La0	a bordo	a bordo
+a cachapernas	La0	a cachapernas	a cachapernas
+a canchapernas	La0	a canchapernas	a cachapernas
+a carón	La0	a carón	a carón
+a carranchapernas	La0	a carranchapernas	a carranchapernas
+a carranchas	La0	a carranchas	a carranchas
+a cas de	Lp0	a cas de	a cas de
+a ceacú	La0	a ceacú	a ceacú
+acerca de	Lp0	acerca de	acerca de
+a contramán	La0	a contramán	a contramán
+a cotío	La0	a cotío	acotío
+a cuberto	La0	a cuberto	a cuberto
+a desbarate	La0	a desbarate	a desbarate
+a desbarato	La0	a desbarato	a desbarate
+a descomán	La0	a descomán	a descomán
+a deshora	La0	a deshora	a deshora
+a desmán	La0	a desmán	a desmán
+a destempo	La0	a destempo	a destempo
+ad hoc	La0	ad hoc	ad hoc
+ad hominem	La0	ad hominem	ad hominem
+ad libitum	La0	ad libitum	ad libitum
+ad litteram	La0	ad litteram	ad litteram
+a doután	La0	a doután	a doután
+ad pedem litterae	La0	ad pedem litterae	ad pedem litterae
+a eito	La0	a eito	a eito
+a embute	La0	a embute	a embute
+a escape	La0	a escape	a escape
+a esgalla	La0	a esgalla	a esgalla
+a expensas de	Lp0	a expensas de	a expensas de
+a favor	La0	a favor	a favor
+a flote	La0	a flote	a flote
+a fortiori	La0	a fortiori	a fortiori
+a gatiñas	La0	a gatiñas	a gatiñas
+a granel	La0	a granel	a granel
+aínda así	La0	aínda así	aínda así
+aínda cando	Lcs	aínda cando	aínda cando
+aínda que	Lcs	aínda que	aínda que
+a máis tardar	La0	a máis tardar	a máis tardar
+a medias	La0	a medias	a medias
+a miudo	La0	a miudo	a miúdo
+a miúdo	La0	a miúdo	a miúdo
+a modiño	La0	a modo	amodo
+a non ser que	Lcs	a non ser que	a non ser que
+a non ser se	Lcs	a non ser se	a non ser se
+ante meridiem	La0	ante meridiem	ante meridiem
+antes de antonte	La0	antes de antonte	antes de antonte
+a o agacho	La0	a o agacho	a o agacho
+a o biés	La0	a o biés	a o biés
+a o cabo de	Lp0	a o cabo de	a o cabo de
+a o carón	La0	a o carón	a carón
+a o carricho	La0	a o carricho	a o carricho
+a o chou	La0	a o chou	a o chou
+a o contraxeito	La0	a o contraxeito	a o contraxeito
+a o desbarate	La0	a o desbarate	a desbarate
+a o desbarato	La0	a o desbarato	a desbarate
+a o garete	La0	a o garete	a o garete
+a o nesgo	La0	a o nesgo	a o nesgo
+a o outro día	La0	a o outro día	a o outro día
+a o redor	La0	a o redor	a o redor
+a o rente	La0	a o rente	a rentes
+a os boleiróns	La0	a os boleiróns	a os boleiróns
+a os revorcos	La0	a os revorcos	a os revorcos
+a o través	La0	a o través	a o través
+a partir de	Lp0	a partir de	a partir de
+a pesar de	Lp0	a pesar de	a pesar de
+a piques	La0	a piques	a piques
+a poder de	Lp0	a poder de	a poder de
+a por de	Lp0	a por de	a por de
+a posteriori	La0	a posteriori	a posteriori
+a priori	La0	a priori	a priori
+a prol	La0	a prol	a prol
+a punto de	Lp0	a punto de	a punto de
+a queimarroupa	La0	a queimarroupa	a queimarroupa
+a recú	La0	a recú	a recú
+a regañadentes	La0	a regañadentes	a regañadentes
+a rente	La0	a rente	a rentes
+a rentes de	Lp0	a rentes de	a rentes de
+a rentes	La0	a rentes	a rentes
+a reo	La0	a reo	arreo
+a requichas	La0	a requichas	a requichas
+a retortoiro	La0	a retortoiro	a retortoiro
+a sabendas	La0	a sabendas	a sabendas
+a salvo	La0	a salvo	a salvo
+asemade que	Lcs	asemade que	asemade que
+a son de	Lp0	a son de	a son de
+a tentas	La0	a tentas	a tentas
+a teor de	Lp0	a teor de	a teor de
+a tergo	La0	a tergo	a tergo
+a tope	La0	a tope	a tope
+a traverso de	Lp0	a traverso de	a través de
+a través de	Lp0	a través de	a través de
+através de	Lp0	através de	a través de
+a traveso de	Lp0	a traveso de	a través de
+a treo	La0	a treo	a treo
+a treu	La0	a treu	a treo
+a xeito de	Lp0	a xeito de	a xeito de
+a xuízo de	Lp0	a xuízo de	a xuízo de
+bardante de	Lp0	bardante de	bardante de
+best seller	A0as	best seller	best-séller
+best seller	A0fs	best seller	best-séller
+best seller	A0ms	best seller	best-séller
+best sellers	A0ap	best seller	best-séller
+best sellers	A0fp	best seller	best-séller
+best sellers	A0mp	best seller	best-séller
+best seller	Scms	best seller	best-séller
+best sellers	Scmp	best seller	best-séller
+boca abaixo	La0	boca abaixo	boca abaixo
+captatio benevolentiae	Scfs	captatio benevolentiae	captatio benevolentiae
+carpe diem	Scms	carpe diem	carpe diem
+cas de	Lp0	cas de	cas de
+case que	La0	case que	case que
+con o gallo de	Lp0	con o gallo de	con o gallo de
+con relación a	Lp0	con relación a	con relación a
+constantes vitais	Scfp	constantes vitais	constantes vitais
+cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo
+cuarto de baño	Scms	cuarto de baño	cuarto de baño
+curriculum vitae	Scms	curriculum vitae	currículum vítae
+currículum vitae	Scms	currículum vitae	currículum vítae
+currículum vítae	Scms	currículum vítae	currículum vítae
+de acordo con	Lp0	de acordo con	de acordo con
+de antemán	La0	de antemán	de antemán
+de balde	La0	de balde	de balde
+de baluto	La0	de baluto	de baluto
+de cando en cando	La0	de cando en cando	de cando en cando
+de cando en vez	La0	de cando en vez	de cando en vez
+de carón	La0	de carón	de carón
+de cas de	Lp0	de cas de	de cas de
+de cheo	La0	de cheo	de cheo
+de contino	La0	de contino	decontino
+de cote	La0	de cote	decote
+de cotío	La0	de cotío	decotío
+de crequenas	La0	de crequenas	de crequenas
+de esguello	La0	de esguello	de esguello
+de facto	La0	de facto	de facto
+de forma que	Lcs	de forma que	de forma que
+de ganchete	La0	de ganchete	de ganchete
+de garra	La0	de garra	de garra
+de gatiñas	La0	de gatiñas	de gatiñas
+de improviso	La0	de improviso	de improviso
+de jure	La0	de jure	de jure
+delirium tremens	Scma	delirium tremens	delírium tremens
+delírium tremens	Scma	delírium tremens	delírium tremens
+delirium tremens	Scmp	delirium tremens	delírium tremens
+delírium tremens	Scmp	delírium tremens	delírium tremens
+delirium tremens	Scms	delirium tremens	delírium tremens
+delírium tremens	Scms	delírium tremens	delírium tremens
+de maneira que	Lcs	de maneira que	de maneira que
+de moca	La0	de moca	de moca
+de modo que	Lcs	de modo que	de modo que
+dende logo	La0	dende logo	dende logo
+de oídas	La0	de oídas	de oídas
+de o trinque	La0	de o trinque	de o trinque
+de par en par	La0	de par en par	de par en par
+de poutelas	La0	de poutelas	de poutelas
+de primeiras	La0	de primeiras	de primeiras
+de puntiñas	La0	de puntiñas	de puntiñas
+de querquena	La0	de querquena	de crequenas
+de recú	La0	de recú	de recú
+de reollo	La0	de reollo	de reollo
+desde logo	La0	desde logo	desde logo
+de socate	La0	de socate	de socate
+de socato	La0	de socato	de socate
+de súpeto	La0	de súpeto	de súpeto
+de vagariño	La0	de vagar	devagar
+de veras	La0	de veras	de veras
+de vez	La0	de vez	de vez
+de xeito que	Lcs	de xeito que	de xeito que
+disco duro	Scms	disco duro	disco duro
+discos duros	Scmp	disco duro	disco duro
+en balde	La0	en balde	en balde
+en baluto	La0	en baluto	en baluto
+en canto que	Lcs	en canto que	en canto
+en cas de	Lp0	en cas de	en cas de
+encol de	Lp0	encol de	encol de
+en contra	La0	en contra	en contra
+en crequenas	La0	en crequenas	en crequenas
+endoutro día	La0	endoutro día	endoutro día
+en favor	La0	en favor	en favor
+en fite	La0	en fite	en fite
+en función de	Lp0	en función de	en función de
+en lugar de	Lp0	en lugar de	en lugar de
+en materia de	Lp0	en materia de	en materia de
+en o entanto	La0	en o entanto	en o entanto
+en o entanto	Lcs	en o entanto	en o entanto
+en o tocante a	Lp0	en o tocante a	tocante a
+en porrancho	La0	en porrancho	en porrancho
+en premier	La0	en premier	en premier
+en principio	La0	en principio	en principio
+en querquena	La0	en querquena	en crequenas
+en realidade	La0	en realidade	en realidade
+en relación con	Lp0	en relación con	en relación con
+en tanto que	Lcs	en tanto que	en tanto
+entre lusco e fusco	La0	entre lusco e fusco	entre lusco e fusco
+en troques	La0	en troques	en troques
+en un santiamén	La0	en un santiamén	en un santiamén
+en vez de	Lp0	en vez de	en vez de
+en virtude de	Lp0	en virtude de	en virtude de
+en vivo	La0	en vivo	en vivo
+en xeral	La0	en xeral	en xeral
+escontra de	Lp0	escontra de	contra de
+ex aequo	La0	ex aequo	ex aequo
+ex cátedra	La0	ex cátedra	ex cáthedra
+ex cathedra	La0	ex cathedra	ex cáthedra
+ex cáthedra	La0	ex cáthedra	ex cáthedra
+ex-garda civil	Scas	ex-garda civil	ex-garda civil
+ex-garda civil	Scfs	ex-garda civil	ex-garda civil
+ex-garda civil	Scms	ex-garda civil	ex-garda civil
+ex libris	Scma	ex libris	ex libris
+ex libris	Scmp	ex libris	ex libris
+ex libris	Scms	ex libris	ex libris
+ex primeira ministra	Scfs	ex primeiro ministro	ex primeiro ministro
+ex primeiras ministras	Scfp	ex primeiro ministro	ex primeiro ministro
+ex primeiro ministro	Scms	ex primeiro ministro	ex primeiro ministro
+ex-primeiro ministro	Scms	ex-primeiro ministro	ex primeiro ministro
+ex primeiros ministros	Scmp	ex primeiro ministro	ex primeiro ministro
+ex profeso	La0	ex profeso	ex profeso
+ex-secretarias xerais	Scfp	ex-secretario xeral	ex secretario xeral
+ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral
+ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral
+ex-secretario xeral	Scms	ex-secretario xeral	ex secretario xeral
+extra muros	La0	extra muros	extra muros
+fite a fite	La0	fite a fite	fite a fite
+folla de lata	Scfs	folla de lata	folla de lata
+fútbol sala	Scms	fútbol sala	fútbol sala
+garda civil	Scas	garda civil	garda civil
+garda civil	Scfs	garda civil	garda civil
+garda civil	Scms	garda civil	garda civil
+gardas civís	Scap	garda civil	garda civil
+gardas civís	Scfp	garda civil	garda civil
+gardas civís	Scmp	garda civil	garda civil
+grosso modo	La0	grosso modo	grosso modo
+hábeas corpus	Scma	hábeas corpus	hábeas corpus
+hábeas corpus	Scmp	hábeas corpus	hábeas corpus
+hábeas corpus	Scms	hábeas corpus	hábeas corpus
+hip hop	Scms	hip hop	hip hop
+homo faber	Scma	homo faber	homo fáber
+homo fáber	Scma	homo fáber	homo fáber
+homo faber	Scmp	homo faber	homo fáber
+homo fáber	Scmp	homo fáber	homo fáber
+homo faber	Scms	homo faber	homo fáber
+homo fáber	Scms	homo fáber	homo fáber
+homo sapiens sapiens	Scma	homo sapiens sapiens	homo sapiens sapiens
+homo sapiens sapiens	Scmp	homo sapiens sapiens	homo sapiens sapiens
+homo sapiens sapiens	Scms	homo sapiens sapiens	homo sapiens sapiens
+homo sapiens	Scma	homo sapiens	homo sapiens
+homo sapiens	Scmp	homo sapiens	homo sapiens
+homo sapiens	Scms	homo sapiens	homo sapiens
+honoris causa	La0	honoris causa	honoris causa
+hoxe en día	La0	hoxe en día	hoxe en día
+hoxe por hoxe	La0	hoxe por hoxe	hoxe por hoxe
+in albis	La0	in albis	in albis
+in articulo mortis	La0	in articulo mortis	in articulo mortis
+in crescendo	La0	in crescendo	in crescendo
+inda ben non	Lcs	inda ben non	inda ben non
+inda que	Lcs	inda que	aínda que
+in extremis	La0	in extremis	in extremis
+in folio	La0	in folio	in folio
+in illo tempore	La0	in illo tempore	in illo tempore
+in medias res	La0	in medias res	in medias res
+in mente	La0	in mente	in mente
+in octavo	La0	in octavo	in octavo
+in pectore	La0	in pectore	in pectore
+in quarto	La0	in quarto	in quarto
+in situ	La0	in situ	in situ
+inter nos	La0	inter nos	inter nos
+in totum	La0	in totum	in totum
+intra muros	La0	intra muros	intra muros
+in vitro	La0	in vitro	in vitro
+in vivo	La0	in vivo	in vivo
+ipso facto	La0	ipso facto	ipso facto
+lato sensu	La0	lato sensu	lato sensu
+locus amoenus	Scma	locus amoenus	locus amoenus
+locus amoenus	Scmp	locus amoenus	locus amoenus
+locus amoenus	Scms	locus amoenus	locus amoenus
+mass media	Scmp	mass media	mass media
+mesa redonda	Scfs	mesa redonda	mesa redonda
+mesas redondas	Scfp	mesa redonda	mesa redonda
+modus operandi	Scms	modus operandi	modus operandi
+modus vivendi	Scms	modus vivendi	modus vivendi
+motu propio	La0	motu propio	motu propio
+mutatis mutandis	La0	mutatis mutandis	mutatis mutandis
+nen embargantes	La0	nen embargantes	non embargantes
+nin sequera	La0	nin sequera	nin sequera
+nin sequer	La0	nin sequer	nin sequera
+nin siquer	La0	nin siquer	nin sequera
+nin tan sequera	La0	nin tan sequera	nin tan sequera
+nin tan sequer	La0	nin tan sequer	nin tan sequera
+non embargante	La0	non embargante	non embargante
+non embargantes	La0	non embargantes	non embargante
+non obstante	La0	non obstante	non obstante
+onde quer	La0	onde quer	onde queira
+per capita	La0	per capita	per cápita
+per cápita	La0	per cápita	per cápita
+per se	La0	per se	per se
+play back	Scms	play back	playback
+por adiantado	La0	por adiantado	por adiantado
+por anticipado	La0	por anticipado	por anticipado
+por causa de	Lp0	por causa de	por causa de
+por cento	La0	por cento	por cento
+por contra	La0	por contra	por a contra
+por ende	La0	por ende	por ende
+por fas	La0	por fas	por fas
+por mor de	Lp0	por mor de	por mor de
+por nefas	La0	por nefas	por nefas
+por oídas	La0	por oídas	por oídas
+por se acaso	La0	por se acaso	por se acaso
+por un tris	La0	por un tris	por un tris
+post meridiem	La0	post meridiem	post meridiem
+primeira ministra	Scfs	primeiro ministro	primeiro ministro
+primeiras ministras	Scfp	primeiro ministro	primeiro ministro
+primeiro ministro	Scms	primeiro ministro	primeiro ministro
+primeiros ministros	Scmp	primeiro ministro	primeiro ministro
+prime time	Scms	prime time	prime time
+pro rata	La0	pro rata	pro rata
+quid pro quo	Scms	quid pro quo	quid pro quo
+rente de	Lp0	rente de	rentes de
+rentes de	Lp0	rentes de	rentes de
+secretarías xerais	Scfp	secretaría xeral	secretaría xeral
+secretarias xerais	Scfp	secretario xeral	secretario xeral
+secretaría xeral	Scfs	secretaría xeral	secretaría xeral
+secretaria xeral	Scfs	secretario xeral	secretario xeral
+secretarios xerais	Scmp	secretario xeral	secretario xeral
+secretario xeral	Scms	secretario xeral	secretario xeral
+sempre e cando	Lcs	sempre e cando	sempre e cando
+sine die	La0	sine die	sine die
+sine qua non	La0	sine qua non	sine qua non
+stricto sensu	La0	stricto sensu	stricto sensu
+strictu sensu	La0	strictu sensu	stricto sensu
+sub iudice	La0	sub iudice	sub iudice
+sui generis	La0	sui generis	sui generis
+tal cal	Lcs	tal cal	tal cal
+tocante a	Lp0	tocante a	tocante a
+totum revolutum	Scms	totum revolutum	tótum revolútum
+tótum revolútum	Scms	tótum revolútum	tótum revolútum
+urbi et orbi	La0	urbi et orbi	urbi et orbi
+verbi gratia	La0	verbi gratia	verbi gratia
+visto e prace	Scms	visto e prace	visto e prace

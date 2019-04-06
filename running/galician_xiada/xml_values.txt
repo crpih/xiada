@@ -1,0 +1,22 @@
+sentence_tag	oración
+expression_tag	expresión
+analysis_tag	análise
+analysis_unit_tag	análise_unidade
+unit_tag	unidade
+alternatives_tag	alternativas
+alternative_tag	alternativa
+tag_lemma_tag	etq_lema
+form_tag	forma
+tag_tag	etiqueta
+lemma_tag	lema
+hiperlemma_tag	hiperlema
+constituent_tag	constituínte
+valid_attr	válido
+valid_values	si	non
+qualifying_tag	información_adicional
+qualifying_tags	distinto	non_distinto	oración[distinto|non_distinto]	parágrafo[distinto|tipo|non_distinto]	nota	referencia_nota
+qualifying_inline_start_tags	inicio_poema	verso
+qualifying_inline_end_tags	fin_poema	verso
+ignoring_tags	distinto	oración[distinto]	parágrafo[distinto]	nota[tipo]	novo_verso
+empty_tags_included_info	referencia_nota	táboa
+not_segment_content_tags	subíndice	superíndice	fórmula

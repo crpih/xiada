@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../enclitic_verbs_rules.dtd">
+<document>
+  <!-- Se a parte verbal non ten til e hai dous clíticos, a combinación debe rechazarse -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="anywhere">NOT á AND NOT é AND NOT í AND NOT ó AND NOT ú</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation syllable_count="> 1"/>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Comezo de reglas desinencia átona máis etiqueta, as cales deben levar máis de un clítico-->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ói</evaluation>
+      </content>      
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vei30s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!--
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">óu</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vei30s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">estóu OR dóu OR vóu</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  -->
+  <!--
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">éi</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vei10s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">séi OR héi</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">réi</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vfi10s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">rás</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vfi20s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">rá</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="all">Vfi30s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">rán</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vfi30p</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ár</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s OR V0f10s OR V0f30s OR V0f000</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ín</evaluation>
+      </content>
+      <!-- Excepciones grupo Vic4a -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT abstraín AND NOT acaín AND NOT atraín AND NOT caín AND NOT choín AND NOT condoín AND NOT contraín AND NOT corroín AND NOT debaín AND NOT decaín AND NOT degraín AND NOT deschoín AND NOT descontraín AND NOT detraín AND NOT distraín AND NOT doín AND NOT esvaín AND NOT extraín AND NOT maltraín AND NOT moín AND NOT proín AND NOT raín AND NOT recaín AND NOT remoín AND NOT retraín AND NOT retrotraín AND NOT roín AND NOT substraín AND NOT subtraín AND NOT sustraín</evaluation>
+        </content>
+        <!-- Excepciones grupo Vic5b -->
+        <condition>
+          <target>verb_part</target>
+          <content>
+            <evaluation at="all">NOT desoín AND NOT entreoín AND NOT esvaín AND NOT oín AND NOT saín AND NOT sobresaín</evaluation>
+          </content>
+          <!-- Excepciones grupo Vic7a -->
+          <condition>
+            <target>verb_part</target>
+            <content>
+              <evaluation at="all">NOT abluín AND NOT afluín AND NOT argüín AND NOT atribuín AND NOT atuín AND NOT concluín AND NOT confluín AND NOT constituín AND NOT construín AND NOT contribuín AND NOT derruín AND NOT desatuín AND NOT desobstruín AND NOT desposuín AND NOT destituín AND NOT destruín AND NOT difluín AND NOT diluín AND NOT diminuín AND NOT disminuín AND NOT distribuín AND NOT efluín AND NOT esluín AND NOT estatuín AND NOT excluín AND NOT extruín AND NOT fluín AND NOT imbuín AND NOT incluín AND NOT influín AND NOT inmiscuín AND NOT instituín AND NOT instruín AND NOT intuín AND NOT luín AND NOT obstruín AND NOT ocluín AND NOT posuín AND NOT protuín AND NOT prostituín AND NOT puín AND NOT recluín AND NOT reconstituín AND NOT reconstruín AND NOT redistribuín AND NOT refluín AND NOT restituín AND NOT redargüín AND NOT retribuín AND NOT substituín AND NOT sustituín</evaluation>
+            </content>
+            <condition>
+              <target>verb_tags</target>
+              <content>
+                <evaluation at="anywhere">Vei10s</evaluation>
+              </content>
+              <condition>
+                <target>enclitic_part</target>
+                <content>
+                <evaluation syllable_count="== 1"/>
+                </content>
+                <action>reject</action>
+              </condition>
+            </condition>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">éu</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vei30s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ér</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s V0f10s OR V0f30s OR V0f000</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">íu</evaluation>
+      </content>
+      <!-- Excepciones grupo Vic5b -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT desoíu AND NOT entreoíu AND NOT esvaíu AND NOT oíu AND NOT saíu AND NOT sobresaíu</evaluation>
+        </content>
+        <!-- Excepciones grupo Vic7a -->
+        <condition>
+          <target>verb_part</target>
+          <content>
+            <evaluation at="all">NOT abluíu AND NOT afluíu AND NOT argüíu AND NOT atribuíu AND NOT atuíu AND NOT concluíu AND NOT confluíu AND NOT constituíu AND NOT construíu AND NOT contribuíu AND NOT derruíu AND NOT desatuíu AND NOT desobstruíu AND NOT desposuíu AND NOT destituíu AND NOT destruíu AND NOT difluíu AND NOT diluíu AND NOT diminuíu AND NOT disminuíu AND NOT distribuíu AND NOT efluíu AND NOT esluíu AND NOT estatuíu AND NOT excluíu AND NOT extruíu AND NOT fluíu AND NOT imbuíu AND NOT incluíu AND NOT influíu AND NOT instituíu AND NOT inmiscuíu AND NOT instruíu AND NOT intuíu AND NOT luíu AND NOT obstruíu AND NOT ocluíu AND NOT posuíu AND NOT protuíu AND NOT prostituíu AND NOT puíu AND NOT recluíu AND NOT reconstituíu AND NOT reconstruíu AND NOT redargüíu AND NOT redistribuíu AND NOT refluíu AND NOT restituíu AND NOT retribuíu AND NOT substituíu AND NOT sustituíu</evaluation>
+          </content>
+          <condition>
+            <target>verb_tags</target>
+            <content>
+              <evaluation at="anywhere">Vei30s</evaluation>
+            </content>
+            <condition>
+              <target>enclitic_part</target>
+              <content>
+                <evaluation syllable_count="== 1"/>
+              </content>
+              <action>reject</action>
+            </condition>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ír</evaluation>
+      </content>
+      <!-- Excepciones grupo Vic5b -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT desoír AND NOT entreoír AND NOT esvaír AND NOT oír AND NOT saír AND NOT sobresaír</evaluation>
+        </content>
+	<!-- Excepciones grupo Vic7a -->
+	<condition>
+          <target>verb_part</target>
+          <content>
+            <evaluation at="all">NOT abluír AND NOT afluír AND NOT argüír AND NOT atribuír AND NOT atuír AND NOT concluír AND NOT confluír AND NOT constituír AND NOT construír AND NOT contribuír AND NOT derruír AND NOT desatuír AND NOT desobstruír AND NOT desposuír AND NOT destituír AND NOT destruír AND NOT difluír AND NOT diluír AND NOT diminuír AND NOT disminuír AND NOT distribuír AND NOT efluír AND NOT esluír AND NOT estatuír AND NOT excluír AND NOT extruír AND NOT fluír AND NOT imbuír AND NOT incluír AND NOT influír AND NOT inmiscuír AND NOT instituír AND NOT instruír AND NOT intuír AND NOT luír AND NOT obstruír AND NOT ocluír AND NOT posuír AND NOT protuír AND NOT prostituír AND NOT puír AND NOT recluír AND NOT reconstituír AND NOT reconstruír AND NOT redargüír AND NOT redistribuír AND NOT refluír AND NOT restituír AND NOT retribuír AND NOT substituír AND NOT sustituír</evaluation>
+          </content>
+          <condition>
+            <target>verb_tags</target>
+            <content>
+              <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s OR V0f10s OR V0f30s OR V0f000</evaluation>
+            </content>
+            <condition>
+              <target>enclitic_part</target>
+              <content>
+		<evaluation syllable_count="== 1"/>
+              </content>
+              <action>reject</action>
+            </condition>
+          </condition>
+	</condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Para ter... -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">én</evaluation>
+      </content>
+      <!-- Excepciones: vén (diacrítico) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT vén</evaluation>
+        </content>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">V0m20s OR Vpi30s</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation syllable_count="== 1"/>
+            </content>
+            <action>reject</action>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">és</evaluation>
+      </content>
+      <!-- Excepciones: vés (diacrítico) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT vés</evaluation>
+        </content>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">Vpi20s</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation syllable_count="== 1"/>
+            </content>
+            <action>reject</action>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Para pór, antepor,... -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ón</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">V0m20s OR Vpi30s OR Vpi30p</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ór</evaluation>
+      </content>
+      <!-- Excepciones: pór (diacrítico) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT pór</evaluation>
+        </content>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">V0f000 OR V0f10s OR V0f30s</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation syllable_count="== 1"/>
+            </content>
+            <action>reject</action>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ós</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vpi20s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- para dicir, rir, ...-->
+  <!-- dío leva til, non se pode resolver así, as seguintes tres regras teñen
+  que ser revisadas. Non temos claro que resolvan todos os casos para os que
+  se deseñaron ??? -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ís</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vpi20s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Esta regla soluciona cousas como dio, xa que sempre que o primeiro enclítico
+  e o,a,os ou as, se a forma verbal acaba en i ou u, esta última vocal debe levar til -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">i</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="first">o OR a OR os OR as</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ín</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vpi30p</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- para estar-->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">án</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Vpi30p</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ás</evaluation>
+      </content>
+      <!-- Excepciones: dás (diacrítico) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="all">NOT dás</evaluation>
+        </content>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">Vpi20s</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation syllable_count="== 1"/>
+            </content>
+            <action>reject</action>
+          </condition>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- para facer, afacer, contrafacer, desafacer, desfacer, rarefacer, refacer,
+  satisfacer e tumefacer -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">fái</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">V0m20s OR Vpi30p</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation syllable_count="== 1"/>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se a forma verbal acaba en ditongo, non poden aparecer os alomorfos o e lo
+  como primeira parte da secuencia de clíticos, así como a segunda forma do artigo -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">ei OR éi OR eu OR éu OR ou OR óu OR iu OR íu OR ai OR ái OR oi OR ói</evaluation>
+      </content>
+      <check_default>no</check_default>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="first">o OR os OR a OR as OR la OR las OR lo OR los OR -lo OR -la OR -los OR -las</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se o verbo orixinal (antes de pegarlle os enclíticos) acaba en r ou s
+  (coa excepción do imperativo):
+
+  Sábese se a forma orixinal acaba en r ou s se é algún dos seguintes tempos e formas verbais:
+- Primeira ou terceira persoa do singular do futuro de subxuntivo e infinitivo conxugado
+- Infinitivo
+- Segunda persoa do singular ou plural de calquera tempo menos do imperativo
+- Primeira persoa do plural de calquera tempo -->
+  <rule>
+    <condition>
+      <target>verb_tags</target>
+      <content>
+        <evaluation at="anywhere">V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ??[^m]2?s OR ??[^m]2?p OR ???1?p</evaluation>
+      </content>
+      <!-- Se a parte verbal tamén acaba en r ou s, non pode levar o e lo como
+      primeiro clítico -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">s OR r</evaluation>
+        </content>
+        <check_default>no</check_default>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="first">o OR os OR a OR as OR lo OR la OR los OR las OR -lo OR -la OR -los OR -las</evaluation>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal tamén acaba en r ou s, non pode levar no ou na como
+      único enclítico -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">s OR r</evaluation>
+        </content>
+        <check_default>no</check_default>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="all">no OR na OR nas</evaluation>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal tamén acaba en s e é a primeira persoa do plural, o
+      primeiro clítico non pode ser se, me e no (nin nos) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">s</evaluation>
+        </content>
+        <check_default>no</check_default>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">???1?p</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation at="first">me OR mo OR mos OR ma OR mas OR no OR na OR nos OR nas</evaluation>
+            </content>
+            <action>filter_tags</action>
+            <filter>???1?p</filter>
+          </condition>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal tamén acaba en s e é a segunda persoa do plural, o
+      primeiro clítico non pode ser se, te ou che -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">s OR r</evaluation>
+        </content>
+        <check_default>no</check_default>
+        <condition>
+          <target>verb_tags</target>
+          <content>
+            <evaluation at="anywhere">???2?p</evaluation>
+          </content>
+          <condition>
+            <target>enclitic_part</target>
+            <content>
+              <evaluation at="first">te OR che OR cho OR cha OR chos OR chas</evaluation>
+            </content>
+            <action>filter_tags</action>
+            <filter>???2?p</filter>
+          </condition>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal non remata nin en r nin en s, e o pronome enclítico
+      é nos, hai que filtrar as etiquetas que indican que a forma remata en s menos
+      a de primeira plural -->
+      <!-- De todas as rematas orixinalmente en r ou s, unha vez
+      que lle pegamos os clíticos, a parte verbal que non remata nin en r nin en
+      s só pode ser primeira plural se o primeiro enclítico é nos -->
+      <!-- Nova regla para separar el nos de las dos siguientes. -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT s AND NOT r</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="first">nos</evaluation>
+          </content>
+          <action>filter_tags</action>
+          <check_default>no</check_default>
+          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p AND NOT V0m20s AND NOT V0m20p</filter>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal non remata nin en r nin en s, e o pronome enclítico
+      é no (sen ir seguido doutro pronome), hai que filtrar as etiquetas que indican
+      que a forma remata en s menos a de primeira plural. Non pode ir fusionado coa
+      regra anterior porque senón recoñecería cantabámono -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT s AND NOT r</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="all">no</evaluation>
+          </content>
+          <action>reject</action>
+          <check_default>no</check_default>
+        </condition>
+      </condition>
+      <!-- Un no no medio dunha combinación compórtase como un nos -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT s AND NOT r</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="not_end">no</evaluation>
+          </content>
+          <action>filter_tags</action>
+          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p AND NOT V0m20s AND NOT V0m20p</filter>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal non acaba nin en r nin en s, e o primeiro enclítico
+      é lo ou -lo, hai que filtrar as etiquetas que indican que a forma orixinal
+      non acababa en r ou s (indicadas máis arriba) -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT s AND NOT r</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="first">-lo OR -la OR -los OR -las OR lo OR la OR los OR las</evaluation>
+          </content>
+          <action>filter_tags</action>??[^m]2?s
+          <check_default>no</check_default>
+          <filter>NOT V0f10s AND NOT V0f30s AND NOT Vfs10s AND NOT Vfs30s AND NOT Vfsa0s AND NOT V0f000 AND NOT ??[^m]2?s AND NOT ??[^m]2?p AND NOT ???1?p</filter>
+        </condition>
+      </condition>
+      <!-- Se a parte verbal non acaba nin en r nin en s, e o primeiro enclítico
+      non é nin nos, nin no, nin lo, nin -lo, hai que filtrar as etiquetas que
+      indican que a forma orixinal acababa en r ou s -->
+      <condition>
+        <target>verb_part</target>
+        <content>
+          <evaluation at="end">NOT s AND NOT r</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="first">NOT -lo AND NOT -la AND NOT lo AND NOT la AND NOT -los AND NOT -las AND NOT los AND NOT las AND NOT nos AND NOT no</evaluation>
+          </content>
+          <action>filter_tags</action>
+          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p OR ???1?p AND NOT V0m20s AND NOT V0m20p AND NOT Vei20s</filter>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  
+  <!-- O clítico se só pode ir coa terceira persoa singular e plural de todos os
+  tempos verbais, e co infinitivo e o xerundio -->
+  <rule>
+    <condition>
+      <target>enclitic_part</target>
+      <content>
+        <evaluation at="first">se</evaluation>
+      </content>
+      <action>filter_tags</action>
+      <filter>NOT V0f000 AND NOT V0x000 AND NOT V??3</filter>
+    </condition>
+  </rule>
+  
+  <!-- Mario cree que se pode fusionar esta regra coa anterior poñendo ao principio
+  de filter Ves30s AND NOT ... -->
+  <!-- Si la forma verbal acaba en se, el enclítico no puede comenzar en se, para
+  evitar la cacofonía. Excepción: cósese. Hai que chequear que a etiqueta sexa
+  Ves10s ou Ves30s para evitar cousas como cantásese -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">se</evaluation>
+      </content>
+      <condition>
+        <target>verb_tags</target>
+        <content>
+          <evaluation at="anywhere">Ves30s</evaluation>
+        </content>
+        <condition>
+          <target>enclitic_part</target>
+          <content>
+            <evaluation at="first">se</evaluation>
+          </content>
+          <action>reject</action>
+        </condition>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Engadida: Intenta rechazar cousas como este=es+te -->
+  <rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="all">es</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="all">te</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </rule>
+  
+  <!-- Engadida: vo non pode ir coa segunda do singular. -->
+  <rule>
+    <condition>
+      <target>verb_tags</target>
+      <content>
+        <evaluation at="anywhere">???2?s</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="first">vo OR vos</evaluation>
+        </content>
+        <action>filter_tags</action>
+        <filter>???2?s</filter>
+      </condition>
+    </condition>
+  </rule>
+  
+  <!-- Engadida: Para evitar cousas como cantáchescha, cantáchesche, cantáchescho, etc. -->
+  <!-- Se a parte verbal remata en che ou ches e a etiqueta é Vei20s, o primeiro
+  clítico non pode ser ningunha combinación de che -->
+  <!-- (nota Mario: Se a etiqueta da parte verbal é Vei20s, a parte verbal remata
+  en che ou ches) -->
+  <rule>
+    <condition>
+      <target>verb_tags</target>
+      <content>
+        <evaluation at="anywhere">Vei20s</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="first">che OR ches OR cha OR chas OR cho OR chos</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </rule>
+  <!-- Se a parte verbal acaba en vocal ou n, non pode ir como primeiro enclítico no nin lo -->
+  <default_rule>
+    <condition>
+      <target>verb_part</target>
+      <content>
+        <evaluation at="end">á OR a OR e OR é OR i OR í OR o OR ó OR u OR ú OR n</evaluation>
+      </content>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="first">lo OR la OR las OR los OR -lo OR -la OR -los OR -las OR na OR nas</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+      <condition>
+        <target>enclitic_part</target>
+        <content>
+          <evaluation at="end">no</evaluation>
+        </content>
+        <action>reject</action>
+      </condition>
+    </condition>
+  </default_rule>
+</document>
