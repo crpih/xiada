@@ -3,3 +3,6 @@ Jorge Graña Gil, Miguel Ángel Molinero Álvarez
 
 This software is released under the terms of the GNU LESSER GENERAL
 PUBLIC LICENSE (version 3). See LICENSE file for details.
+
+Training corpora and lexicons included under training/corpus and
+training/lexicons can include their own LICENSES.
