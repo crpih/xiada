@@ -2,6 +2,10 @@
 
 XIADA is an statistical POS tagger based on Markov models and developed with ruby language. It treats XML documents natively, which allows anybody to tag XML documents in an easy way.
 
+## Project home page
+
+http://corpus.cirp.gal/xiada
+
 ## INSTALL
 
 1. Install ruby (> 2.0 version):
