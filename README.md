@@ -4,7 +4,7 @@ XIADA is an statistical POS tagger based on Markov models and developed with rub
 
 ## Project home page
 
-http://corpus.cirp.gal/xiada
+https://corpus.cirp.gal/xiada
 
 ## INSTALL
 
