@@ -1,18 +1,8 @@
 all: clean galician_xiada spanish_eslora
 
-galician_xiada: galician_xiada_validate galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
+galician_xiada: galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
-spanish_eslora: spanish_eslora_validate spanish_eslora_oral
-
-galician_xiada_validate:
-	ruby validate_tags.rb ../corpus/galician_xiada/corpus_xiada.tagged ../corpus/galician_xiada/kernel/xiada_kernel.tags
-	cat ../corpus/galician_xiada/corpus_xiada.tagged | ruby validate_all_fields.rb
-	cd ../lexicons/bin; make galician_xiada_validate; cd ../../bin
-
-spanish_eslora_validate:
-	ruby validate_tags.rb ../corpus/spanish_eslora/corpus_eslora.tagged ../corpus/spanish_eslora/kernel/eslora_kernel.tags
-	cat ../corpus/spanish_eslora/corpus_eslora.tagged | ruby validate_all_fields.rb
-	cd ../lexicons/bin; make spanish_eslora_validate; cd ../../bin
+spanish_eslora: spanish_eslora_oral
 
 galician_xiada_escrita:
 	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
