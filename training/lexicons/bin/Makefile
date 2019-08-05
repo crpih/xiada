@@ -1,11 +1,3 @@
-galician_xiada_validate:
-	ruby ../../bin/validate_tags.rb ../galician_xiada/lexicon_principal_completado.txt ../../corpus/galician_xiada/kernel/xiada_kernel.tags
-	cat ../galician_xiada/lexicon_principal_completado.txt | ruby ../../bin/validate_all_fields.rb
-
-spanish_eslora_validate:
-	ruby ../../bin/validate_tags.rb ../spanish_eslora/lexicon_principal_completado.txt ../../corpus/spanish_eslora/kernel/eslora_kernel.tags
-	cat ../spanish_eslora/lexicon_principal_completado.txt | ruby ../../bin/validate_all_fields.rb
-	
 galician_xiada_escrita:
 	ruby add_lexicons.rb ../../databases/galician_xiada/training_galician_xiada_escrita.db ../galician_xiada/contraccions.txt ../galician_xiada/lexicon_locucions_seguras.txt ../galician_xiada/lexicon_locucions_inseguras.txt ../galician_xiada/lexicon_abreviaturas.txt ../galician_xiada/lexicon_siglas.txt ../galician_xiada/lexicon_propios.txt ../galician_xiada/proper_nouns_links.txt ../galician_xiada/proper_nouns_candidate_tags.txt ../galician_xiada/lexicon_numerais_cardinais.txt ../galician_xiada/numerals_values.txt ../galician_xiada/lexicon_verbos_cliticos.txt ../galician_xiada/lexicon_cliticos.txt ../galician_xiada/lexicon_combinacions_cliticos.txt ../../corpus/galician_xiada/tags_info.txt
 
