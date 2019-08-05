@@ -1,0 +1,38 @@
+ave fénix	NCFS	ave fénix
+bel canto	NCMS	bel canto
+blue jeans	NCMP	blue jeans
+blue jeans	NCMS	blue jeans
+cada cual	PNMS	cada cual
+disc jockey	NCMS	disc jockey
+disc jockeys	NCMP	disc jockey
+el cual	PLMS	el cual
+grosso modo	W	grosso modo
+in albis	W	in albis
+in crescendo	W	in crescendo
+in fraganti	W	in fraganti
+la cual	PLFS	el cual
+las cuales	PLFP	el cual
+lo cual	PLNS	el cual
+los cuales	PLMP	el cual
+máster class	NCMP	máster class
+máster class	NCMS	máster class
+ménage á trois	NCMS	ménage á trois
+motu proprio	W	motu proprio
+music hall	NCMS	music hall
+music halls	NCMP	music hall
+panem et circenses	NCMS	panem et circenses
+per cápita	W	per cápita
+requiescat in pace	NCMS	requiescat in pace
+road movie	NCFS	road movie
+road movies	NCFP	road movie
+sine die	W	sine die
+unas cuantas	DNFP	unos cuantos
+unas cuantas	PNFP	unos cuantos
+unos cuantos	DNMP	unos cuantos
+unos cuantos	PNMP	unos cuantos
+un poco	PQNS	un poco
+un poco	W	un poco
+un poquitín	PQNS	un poco
+un poquitín	W	un poco
+un poquito	PQNS	un poco
+un poquito	W	un poco

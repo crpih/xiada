@@ -1,0 +1,10 @@
+al	a	a	a	X	/	el	el	el	DAMS
+conmigo	con	con	con	X	/	mí	mí	mí	PY1FSP
+conmigo	con	con	con	X	/	mí	mí	mí	PY1MSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3FPP
+consigo	con	con	con	X	/	sí	sí	sí	PY3FSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3MSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3NSP
+contigo	con	con	con	X	/	ti	ti	ti	PY2FSP
+contigo	con	con	con	X	/	ti	ti	ti	PY2MSP
+del	de	de	de	X	/	el	el	el	DAMS

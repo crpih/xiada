@@ -1,0 +1,409 @@
+AAS	Adj. Masc./Neut. Sing.
+Abreviatura	abreviatura
+AEL	Adj. Fem./Masc. Plur./Sing.
+AEP	Adj. Fem./Masc. Plur.
+AES	Adj. Fem./Masc. Sing.
+AFL	Adj. Fem. Plur./Sing.
+AFP	Adj. Fem. Plur.
+AFS	Adj. Fem. Sing.
+AIS	Adj. Fem./Masc./Neut. Sing.
+AML	Adj. Masc. Plur./Sing.
+AMP	Adj. Masc. Plur.
+AMS	Adj. Masc. Sing.
+ANS	Adj. Neut. Sing.
+C	Conj.
+DAFP	Det. Art.-Det. Fem. Plur.
+DAFS	Det. Art.-Det. Fem. Sing.
+DAMP	Det. Art.-Det. Masc. Plur.
+DAMS	Det. Art.-Det. Masc. Sing.
+DANS	Det. Art.-Det. Neut. Sing.
+DBEP	Det. Dist. Fem./Masc. Plur.
+DBES	Det. Dist. Fem./Masc. Sing.
+DBFP	Det. Art.-Indet. Fem. Plur.
+DBFP	Det. Dist. Fem. Plur.
+DBFS	Det. Art.-Indet. Fem. Sing.
+DBFS	Det. Dist. Fem. Sing.
+DBMP	Det. Art.-Indet. Masc. Plur.
+DBMP	Det. Dist. Masc. Plur.
+DBMS	Det. Art.-Indet. Masc. Sing.
+DBMS	Det. Dist. Masc. Sing.
+DCEP	Det. Num.-Card. Fem./Masc. Plur.
+DCFP	Det. Num.-Card. Fem. Plur.
+DCFS	Det. Num.-Card. Fem. Sing.
+DCMP	Det. Num.-Card. Masc. Plur.
+DCMS	Det. Num.-Card. Masc. Sing.
+DDEP	Det. Dem. Fem./Masc. Plur.
+DDES	Det. Dem. Fem./Masc. Sing.
+DDFP	Det. Dem. Fem. Plur.
+DDFS	Det. Dem. Fem. Sing.
+DDMP	Det. Dem. Masc. Plur.
+DDMS	Det. Dem. Masc. Sing.
+DDNS	Det. Dem. Neut. Sing.
+DEFP	Det. Refl. Fem. Plur.
+DEFS	Det. Refl. Fem. Sing.
+DEMP	Det. Refl. Masc. Plur.
+DEMS	Det. Refl. Masc. Sing.
+DGFP	Det. Glob. Fem. Plur.
+DGFS	Det. Glob. Fem. Sing.
+DGMP	Det. Glob. Masc. Plur.
+DGMS	Det. Glob. Masc. Sing.
+DGNS	Det. Glob. Neut. Sing.
+DIFP	Det. Art.-Indet. Fem. Plur.
+DIFS	Det. Art.-Indet. Fem. Sing.
+DIMP	Det. Art.-Indet. Masc. Plur.
+DIMS	Det. Art.-Indet. Masc. Sing.
+DLFP	Det. Rel. Fem. Plur.
+DLFS	Det. Rel. Fem. Sing.
+DLMP	Det. Rel. Masc. Plur.
+DLMS	Det. Rel. Masc. Sing.
+DNEP	Det. Indef. Com. Plur.
+DNES	Det. Indef. Fem./Masc. Sing.
+DNFP	Det. Indef. Fem. Plur.
+DNFS	Det. Indef. Fem. Sing.
+DNMP	Det. Indef. Masc. Plur.
+DNMS	Det. Indef. Masc. Sing.
+DOEL	Det. Comp. Fem./Masc. Plur./Sing.
+DOEP	Det. Comp. Fem./Masc. Plur.
+DOES	Det. Comp. Fem./Masc. Sing.
+DOFL	Det. Comp. Fem. Plur./Sing.
+DOFP	Det. Comp. Fem. Plur.
+DOFS	Det. Comp. Fem. Sing.
+DOML	Det. Comp. Masc. Plur./Sing.
+DOMP	Det. Comp. Masc. Plur.
+DOMS	Det. Comp. Masc. Sing.
+DPFP	Det. Num.-Part. Fem. Plur.
+DPFS	Det. Num.-Part. Fem. Sing.
+DPMP	Det. Num.-Part. Masc. Plur.
+DPMS	Det. Num.-Part. Masc. Sing.
+DQEP	Det. Cuant. Fem./Masc. Plur.
+DQES	Det. Cuant. Fem./Masc. Sing.
+DQFP	Det. Cuant. Fem. Plur.
+DQFS	Det. Cuant. Fem. Sing.
+DQMP	Det. Cuant. Masc. Plur.
+DQMS	Det. Cuant. Masc. Sing.
+DRFP	Det. Num.-Ord. Fem. Plur.
+DRFS	Det. Num.-Ord. Fem. Sing.
+DRMP	Det. Num.-Ord. Masc. Plur.
+DRMS	Det. Num.-Ord. Masc. Sing.
+DS1EP	Det. Pos. 1.ª-Pers.-Sing. Fem./Masc. Plur.
+DS1ES	Det. Pos. 1.ª-Pers.-Sing. Fem./Masc. Sing.
+DS1FP	Det. Pos. 1.ª-Pers.-Sing. Fem. Plur.
+DS1FS	Det. Pos. 1.ª-Pers.-Sing. Fem. Sing.
+DS1MP	Det. Pos. 1.ª-Pers.-Sing. Masc. Plur.
+DS1MS	Det. Pos. 1.ª-Pers.-Sing. Masc. Sing.
+DS2EP	Det. Pos. 2.ª-Pers.-Sing. Fem./Masc. Plur.
+DS2ES	Det. Pos. 2.ª-Pers.-Sing. Fem./Masc. Sing.
+DS2FP	Det. Pos. 2.ª-Pers.-Sing. Fem. Plur.
+DS2FS	Det. Pos. 2.ª-Pers.-Sing. Fem. Sing.
+DS2MP	Det. Pos. 2.ª-Pers.-Sing. Masc. Plur.
+DS2MS	Det. Pos. 2.ª-Pers.-Sing. Masc. Sing.
+DS3FP	Det. Pos. 3.ª-Pers.-Sing. Fem. Plur.
+DS3FS	Det. Pos. 3.ª-Pers.-Sing. Fem. Sing.
+DS3MP	Det. Pos. 3.ª-Pers.-Sing. Masc. Plur.
+DS3MS	Det. Pos. 3.ª-Pers.-Sing. Masc. Sing.
+DS4FP	Det. Pos. 1.ª-Pers.-Plur. Fem. Plur.
+DS4FS	Det. Pos. 1.ª-Pers.-Plur. Fem. Sing.
+DS4MP	Det. Pos. 1.ª-Pers.-Plur. Masc. Plur.
+DS4MS	Det. Pos. 1.ª-Pers.-Plur. Masc. Sing.
+DS5FP	Det. Pos. 2.ª-Pers.-Plur. Fem. Plur.
+DS5FS	Det. Pos. 2.ª-Pers.-Plur. Fem. Sing.
+DS5MP	Det. Pos. 2.ª-Pers.-Plur. Masc. Plur.
+DS5MS	Det. Pos. 2.ª-Pers.-Plur. Masc. Sing.
+DS6FP	Det. Pos. 3.ª-Pers.-Plur. Fem. Plur.
+DS6FS	Det. Pos. 3.ª-Pers.-Plur. Fem. Sing.
+DS6MP	Det. Pos. 3.ª-Pers.-Plur. Masc. Plur.
+DS6MS	Det. Pos. 3.ª-Pers.-Plur. Masc. Sing.
+DS7EP	Det. Pos. 3.ª-Pers.-Plur./Sing. Fem./Masc. Plur.
+DS7ES	Det. Pos. 3.ª-Pers.-Plur./Sing. Fem./Masc. Sing.
+DS7FP	Det. Pos. 3.ª-Pers.-Plur./Sing. Fem. Plur.
+DS7FS	Det. Pos. 3.ª-Pers.-Plur./Sing. Fem. Sing.
+DS7MP	Det. Pos. 3.ª-Pers.-Plur./Sing. Masc. Plur.
+DS7MS	Det. Pos. 3.ª-Pers.-Plur./Sing. Masc. Sing.
+DTEL	Det. Int.-Exc. Fem./Masc. Plur./Sing.
+DTEP	Det. Int.-Exc. Fem./Masc. Plur.
+DTES	Det. Int.-Exc. Fem./Masc. Sing.
+DTFL	Det. Int.-Exc. Fem. Plur./Sing.
+DTFP	Det. Int.-Exc. Fem. Plur.
+DTFS	Det. Int.-Exc. Fem. Sing.
+DTML	Det. Int.-Exc. Masc. Plur./Sing.
+DTMP	Det. Int.-Exc. Masc. Plur.
+DTMS	Det. Int.-Exc. Masc. Sing.
+I	Interj.
+NCEL	Sust. Com. Fem./Masc. Plur./Sing.
+NCEP	Sust. Com. Fem./Masc. Plur.
+NCES	Sust. Com. Fem./Masc. Sing.
+NCFL	Sust. Com. Fem. Plur./Sing.
+NCFP	Sust. Com. Fem. Plur.
+NCFS	Sust. Com. Fem. Sing.
+NCML	Sust. Com. Masc. Plur./Sing.
+NCMP	Sust. Com. Masc. Plur.
+NCMS	Sust. Com. Masc. Sing.
+NPFP	Sust. Prop. Fem. Plur.
+NPFS	Sust. Prop. Fem. Sing.
+NPMP	Sust. Prop. Masc. Plur.
+NPMS	Sust. Prop. Masc. Sing.
+NP	Sust. Prop.
+PBES	Pron. Dist. Fem./Masc. Sing.
+PCEP	Pron. Num.-Card. Fem./Masc. Plur.
+PCFP	Pron. Num.-Card. Fem. Plur.
+PCFS	Pron. Num.-Card. Fem. Sing.
+PCMP	Pron. Num.-Card. Masc. Plur.
+PCMS	Pron. Num.-Card. Masc. Sing.
+PDAS	Pron. Dem. Masc./Neut. Sing.
+PDEP	Pron. Dem. Fem./Masc. Plur.
+PDES	Pron. Dem. Com. Sing.
+PDFP	Pron. Dem. Fem. Plur.
+PDFS	Pron. Dem. Fem. Sing.
+PDMP	Pron. Dem. Masc. Plur.
+PDMS	Pron. Dem. Masc. Sing.
+PDNS	Pron. Dem. Neut. Sing.
+PEFP	Pron. Refl. Fem. Plur.
+PEFS	Pron. Refl. Fem. Sing.
+PEMP	Pron. Refl. Masc. Plur.
+PEMS	Pron. Refl. Masc. Sing.
+PENS	Pron. Refl. Neut. Sing.
+PGAS	Pron. Glob. Neut. Sing. 
+PGFP	Pron. Glob. Fem. Plur.
+PGFS	Pron. Glob. Fem. Sing.
+PGMP	Pron. Glob. Masc. Plur.
+PGMS	Pron. Glob. Masc. Sing.
+PGNS	Pron. Glob. Neut. Sing.
+PLAS	Pron. Rel. Masc./Neut. Sing.
+PLEL	Pron. Rel. Fem./Masc. Plur./Sing.
+PLEP	Pron. Rel. Fem./Masc. Plur.
+PLES	Pron. Rel. Fem./Masc. Sing.
+PLFP	Pron. Rel. Fem. Plur.
+PLFS	Pron. Rel. Fem. Sing.
+PLMP	Pron. Rel. Masc. Plur.
+PLMS	Pron. Rel. Masc. Sing.
+PLNS	Pron. Rel. Neut. Sing.
+PNEL	Pron. Indef. Masc./Fem. Plur./Sing.
+PNEP	Pron. Indef. Masc./Fem. Plur.
+PNES	Pron. Indef. Masc./Fem. Sing.
+PNFP	Pron. Indef. Fem. Plur.
+PNFS	Pron. Indef. Fem. Sing.
+PNMP	Pron. Indef. Masc. Plur.
+PNMS	Pron. Indef. Masc. Sing.
+PNNS	Pron. Indef. Neut. Sing.
+POAS	Pron. Comp. Masc./Neut. Sing.
+POEL	Pron. Comp. Fem./Masc. Plur./Sing. 
+POEP	Pron. Comp. Fem./Masc. Plur.
+POES	Pron. Comp. Fem./Masc. Plur.
+POFP	Pron. Comp. Fem. Plur.
+POFS	Pron. Comp. Fem. Sing.
+POIS	Pron. Comp. Fem./Masc./Neut. Sing.
+POMP	Pron. Comp. Masc. Plur.
+POMS	Pron. Comp. Masc. Sing.
+PONS	Pron. Comp. Neut. Sing.
+PPFP	Pron. Num.-Part. Fem. Plur.
+PPFS	Pron. Num.-Part. Fem. Sing.
+PPMP	Pron. Num.-Part. Masc. Plur.
+PPMS	Pron. Num.-Part. Masc. Sing.
+Q	Punt.
+PQAS	Pron. Cuant. Masc./Neut. Sing.
+PQEP	Pron. Cuant. Fem./Masc. Plur.
+PQES	Pron. Cuant. Fem./Masc. Sing.
+PQFP	Pron. Cuant. Fem. Plur.
+PQFS	Pron. Cuant. Fem. Sing.
+PQIS	Pron. Cuant. Fem./Masc./Neut. Sing.
+PQMP	Pron. Cuant. Masc. Plur.
+PQMS	Pron. Cuant. Masc. Sing.
+PQNS	Pron. Cuant. Neut. Sing.
+PRFP	Pron. Num.-Ord. Fem. Plur.
+PRFS	Pron. Num.-Ord. Fem. Sing.
+PRMP	Pron. Num.-Ord. Masc. Plur.
+PRMS	Pron. Num.-Ord. Masc. Sing.
+PRNS	Pron. Num.-Ord. Masc. Sing.
+PS1FP	Pron. Pos. 1.ª-Pers.-Sing. Fem. Plur.
+PS1FS	Pron. Pos. 1.ª-Pers.-Sing. Fem. Sing.
+PS1MP	Pron. Pos. 1.ª-Pers.-Sing. Masc. Plur.
+PS1MS	Pron. Pos. 1.ª-Pers.-Sing. Masc. Sing.
+PS1NS	Pron. Pos. 1.ª-Pers.-Sing. Neut. Sing.
+PS2FP	Pron. Pos. 2.ª-Pers.-Sing. Fem. Plur.
+PS2FS	Pron. Pos. 2.ª-Pers.-Sing. Fem. Sing.
+PS2MP	Pron. Pos. 2.ª-Pers.-Sing. Masc. Plur.
+PS2MS	Pron. Pos. 2.ª-Pers.-Sing. Masc. Sing.
+PS2NS	Pron. Pos. 2.ª-Pers.-Sing. Neut. Sing.
+PS3FP	Det. Pos. 3.ª-Pers.-Sing. Fem. Plur.
+PS3FS	Det. Pos. 3.ª-Pers.-Sing. Fem. Sing.
+PS3MP	Det. Pos. 3.ª-Pers.-Sing. Masc. Plur.
+PS3MS	Det. Pos. 3.ª-Pers.-Sing. Masc. Sing.
+PS4FP	Pron. Pos. 1.ª-Pers.-Plur. Fem. Plur.
+PS4FS	Pron. Pos. 1.ª-Pers.-Plur. Fem. Sing.
+PS4MP	Pron. Pos. 1.ª-Pers.-Plur. Masc. Plur.
+PS4MS	Pron. Pos. 1.ª-Pers.-Plur. Masc. Sing.
+PS4NS	Pron. Pos. 1.ª-Pers.-Plur. Neut. Sing.
+PS5FP	Pron. Pos. 2.ª-Pers.-Plur. Fem. Plur.
+PS5FS	Pron. Pos. 2.ª-Pers.-Plur. Fem. Sing.
+PS5MP	Pron. Pos. 2.ª-Pers.-Plur. Masc. Plur.
+PS5MS	Pron. Pos. 2.ª-Pers.-Plur. Masc. Sing.
+PS5NS	Pron. Pos. 2.ª-Pers.-Plur. Neut. Sing.
+PS6FP	Det. Pos. 3.ª-Pers.-Sing. Fem. Plur.
+PS6FS	Det. Pos. 3.ª-Pers.-Plur. Fem. Sing.
+PS6MP	Det. Pos. 3.ª-Pers.-Plur. Masc. Plur.
+PS6MS	Det. Pos. 3.ª-Pers.-Plur. Masc. Sing.
+PS7FP	Det. Pos. 3.ª-Pers.-Plur. Fem. Plur.
+PS7FS	Det. Pos. 3.ª-Pers.-Plur./Sing. Fem. Sing.
+PS7MP	Det. Pos. 3.ª-Pers.-Plur./Sing. Masc. Plur.
+PS7MS	Det. Pos. 3.ª-Pers.-Plur./Sing. Masc. Sing.
+PS7NS	Det. Pos. 3.ª-Pers.-Plur./Sing. Neut. Sing. 
+PTAS	Pron. Int.-Exc. Masc./Neut. Sing.
+PTEP	Pron. Int.-Exc. Fem./Masc. Plur.
+PTES	Pron. Int.-Exc. Fem./Masc. Sing.
+PTFP	Pron. Int.-Exc. Fem. Plur.
+PTFS	Pron. Int.-Exc. Fem. Sing.
+PTMP	Pron. Int.-Exc. Masc. Plur.
+PTMS	Pron. Int.-Exc. Masc. Sing.
+PTNS	Pron. Int.-Exc. Neut. Sing.
+PY1EPO	Pron. Pers. 1.ª-Pers. Fem./Masc. Plur. Acus.-Dat.-Med.
+PY1ESN	Pron. Pers. 1.ª-Pers. Fem./Masc. Sing. Nom.
+PY1ESO	Pron. Pers. 1.ª-Pers. Fem./Masc. Sing. Acus.-Dat.-Med.
+PY1ESP	Pron. Pers. 1.ª-Pers. Fem./Masc. Sing. Prep.
+PY1FPO	Pron. Pers. 1.ª-Pers. Fem. Plur. Acus.-Dat.-Med.
+PY1FPQ	Pron. Pers. 1.ª-Pers. Fem. Plur. Nom.-Prep.
+PY1FSN	Pron. Pers. 1.ª-Pers. Fem. Sing. Nom.
+PY1FSO	Pron. Pers. 1.ª-Pers. Fem. Sing. Acus.-Dat.-Med.
+PY1FSP	Pron. Pers. 1.ª-Pers. Fem. Sing. Prep.
+PY1MPO	Pron. Pers. 1.ª-Pers. Masc. Plur. Acus.-Dat.-Med.
+PY1MPQ	Pron. Pers. 1.ª-Pers. Masc. Plur. Nom.-Prep.
+PY1MSN	Pron. Pers. 1.ª-Pers. Masc. Sing. Nom.
+PY1MSO	Pron. Pers. 1.ª-Pers. Masc. Sing. Acus.-Dat.-Med.
+PY1MSP	Pron. Pers. 1.ª-Pers. Masc. Sing. Prep.
+PY2EPO	Pron. Pers. 2.ª-Pers. Fem./Masc. Plur. Acus.-Dat.-Med.
+PY2ESN	Pron. Pers. 2.ª-Pers. Fem./Masc. Sing. Nom.
+PY2ESO	Pron. Pers. 2.ª-Pers. Fem./Masc. Sing. Acus.-Dat.-Med.
+PY2ESP	Pron. Pers. 2.ª-Pers. Fem./Masc. Sing. Prep.
+PY2ESQ	Pron. Pers. 2.ª-Pers. Fem./Masc. Sing. Nom.-Prep.
+PY2FPO	Pron. Pers. 2.ª-Pers. Fem. Plur. Acus.-Dat.-Med.
+PY2FPQ	Pron. Pers. 2.ª-Pers. Fem. Plur. Nom.-Prep.
+PY2FSN	Pron. Pers. 2.ª-Pers. Fem. Sing. Nom.
+PY2FSO	Pron. Pers. 2.ª-Pers. Fem. Sing. Acus.-Dat.-Med.
+PY2FSP	Pron. Pers. 2.ª-Pers. Fem. Sing. Prep.
+PY2FSQ	Pron. Pers. 2.ª-Pers. Fem. Sing. Nom.-Prep.
+PY2MPO	Pron. Pers. 2.ª-Pers. Masc. Plur. Acus.-Dat.-Med.
+PY2MPQ	Pron. Pers. 2.ª-Pers. Masc. Plur. Nom.-Prep.
+PY2MSN	Pron. Pers. 2.ª-Pers. Masc. Sing. Nom.
+PY2MSO	Pron. Pers. 2.ª-Pers. Masc. Sing. Acus.-Dat.-Med.
+PY2MSP	Pron. Pers. 2.ª-Pers. Masc. Sing. Prep.
+PY2MSQ	Pron. Pers. 2.ª-Pers. Masc. Sing. Nom.-Prep.
+PY3ASD	Pron. Pers. 3.ª Masc./Neut. Sing. Dat.
+PY3ASO	Pron. Pers. 3.ª-Pers. Masc./Neut. Sing. Acus.-Dat.-Med.
+PY3ASP	Pron. Pers. 3.ª-Pers. Masc./Neut. Sing. Prep.
+PY3ASW	Pron. Pers. 3.ª-Pers. Masc./Neut. Sing. Acus.-Pred.
+PY3ELO	Pron. Pers. 3.ª-Pers. Masc./Fem. Plur./Sing. Acus.-Dat.-Med.
+PY3ELP	Pron. Pers. 3.ª-Pers. Masc./Fem. Plur./Sing. Prep.
+PY3EPD	Pron. Pers. 3.ª Fem./Masc. Plur. Dat.
+PY3EPO	Pron. Pers. 3.ª-Pers. Masc./Fem. Plur. Acus.-Dat.-Med.
+PY3EPP	Pron. Pers. 3.ª-Pers. Masc./Fem. Plur. Prep.
+PY3ESD	Pron. Pers. 3.ª Fem./Masc. Sing. Dat.
+PY3ESO	Pron. Pers. 3.ª-Pers. Masc./Fem. Sing. Acus.-Dat.-Med.
+PY3ESP	Pron. Pers. 3.ª-Pers. Masc./Fem. Sing. Prep.
+PY3FPA	Pron. Pers. 3.ª-Pers. Fem. Plur. Acus.
+PY3FPD	Pron. Pers. 3.ª Fem. Plur. Dat.
+PY3FPO	Pron. Pers. 3.ª-Pers. Fem. Plur. Acus.-Dat.-Med.
+PY3FPP	Pron. Pers. 3.ª-Pers. Masc. Plur. Prep.
+PY3FPQ	Pron. Pers. 3.ª-Pers. Fem. Plur. Nom.-Prep.
+PY3FSA	Pron. Pers. 3.ª-Pers. Fem. Sing. Acus.
+PY3FSD	Pron. Pers. 3.ª Fem. Sing. Dat.
+PY3FSO	Pron. Pers. 3.ª-Pers. Fem. Sing. Acus.-Dat.-Med.
+PY3FSP	Pron. Pers. 3.ª-Pers. Masc. Sing. Prep.
+PY3FSQ	Pron. Pers. 3.ª-Pers. Fem. Sing. Nom.-Prep.
+PY3ILO	Pron. Pers. 3.ª-Pers. Fem./Masc./Neut. Plur./Sing. Acus.-Dat.-Med.
+PY3ILP	Pron. Pers. 3.ª-Pers. Fem./Masc./Neut. Plur./Sing. Prep.
+PY3ISD	Pron. Pers. 3.ª-Pers. Fem./Masc./Neut. Sing. Dat.
+PY3ISO	Pron. Pers. 3.ª-Pers. Masc./Fem./Neut. Sing. Acus.-Dat.-Med.
+PY3ISP	Pron. Pers. 3.ª-Pers. Masc./Fem./Neut. Sing. Prep.
+PY3MPA	Pron. Pers. 3.ª-Pers. Masc. Plur. Acus.
+PY3MPD	Pron. Pers. 3.ª Masc. Plur. Dat.
+PY3MPO	Pron. Pers. 3.ª-Pers. Masc. Plur. Acus.-Dat.-Med.
+PY3MPP	Pron. Pers. 3.ª-Pers. Masc. Plur. Prep.
+PY3MPQ	Pron. Pers. 3.ª-Pers. Masc. Plur. Nom.-Prep.
+PY3MSD	Pron. Pers. 3.ª Masc. Sing. Dat.
+PY3MSO	Pron. Pers. 3.ª-Pers. Masc. Sing. Acus.-Dat.-Med.
+PY3MSP	Pron. Pers. 3.ª-Pers. Masc. Sing. Prep.
+PY3MSQ	Pron. Pers. 3.ª-Pers. Masc. Sing. Nom.-Prep.
+PY3MSW	Pron. Pers. 3.ª-Pers. Masc. Sing. Acus.-Pred.
+PY3NSD	Pron. Pers. 3.ª Neut. Sing. Dat.
+PY3NSO	Pron. Pers. 3.ª-Pers. Neut. Sing. Acus.-Dat.-Med.
+PY3NSP	Pron. Pers. 3.ª-Pers. Neut. Sing. Prep.
+PY3NSQ	Pron. Pers. 3.ª-Pers. Neut. Sing. Nom.-Prep.
+PY3NSW	Pron. Pers. 3.ª-Pers. Neut. Sing. Acus.-Pred.
+PY4EPQ	Pron. Pers. 2.ª-Cort. Fem./Masc. Plur. Nom.-Prep.
+PY4ESQ	Pron. Pers. 2.ª-Cort. Fem./Masc. Sing. Nom.-Prep.
+PY4FPQ	Pron. Pers. 2.ª-Cort. Fem. Plur. Nom.-Prep.
+PY4FSQ	Pron. Pers. 2.ª-Cort. Masc. Sing. Nom.-Prep.
+PY4MPQ	Pron. Pers. 2.ª-Cort. Masc. Plur. Nom.-Prep.
+PY4MSQ	Pron. Pers. 2.ª-Cort. Fem. Sing. Nom.-Prep.
+VGP	Verb. Ger. Pres.
+VIC1P	Verb. Ind. Pospret. 1.ª-Pers. Plur.
+VIC1S	Verb. Ind. Pospret. 1.ª-Pers. Sing.
+VIC2P	Verb. Ind. Pospret. 2.ª-Pers. Plur.
+VIC2S	Verb. Ind. Pospret. 2.ª-Pers. Sing.
+VIC3P	Verb. Ind. Pospret. 3.ª-Pers. Plur.
+VIC3S	Verb. Ind. Pospret. 3.ª-Pers. Sing.
+VIC4S	Verb. Ind. Pospret. 1.ª-3.ª-Pers. Sing.
+VIF1P	Verb. Ind. Fut. 1.ª-Pers. Plur.
+VIF1S	Verb. Ind. Fut. 1.ª-Pers. Sing.
+VIF2P	Verb. Ind. Fut. 2.ª-Pers. Plur.
+VIF2S	Verb. Ind. Fut. 2.ª-Pers. Sing.
+VIF3P	Verb. Ind. Fut. 3.ª-Pers. Plur.
+VIF3S	Verb. Ind. Fut. 3.ª-Pers. Sing.
+VII1P	Verb. Ind. Cop. 1.ª-Pers. Plur.
+VII1S	Verb. Ind. Cop. 1.ª-Pers. Sing.
+VII2P	Verb. Ind. Cop. 2.ª-Pers. Plur.
+VII2S	Verb. Ind. Cop. 2.ª-Pers. Sing.
+VII3P	Verb. Ind. Cop. 3.ª-Pers. Plur.
+VII3S	Verb. Ind. Cop. 3.ª-Pers. Sing.
+VII4S	Verb. Ind. Cop. 1.ª3.ª-Pers. Sing.
+VIP1P	Verb. Ind. Pres. 1.ª-Pers. Plur.
+VIP1S	Verb. Ind. Pres. 1.ª-Pers. Sing.
+VIP2P	Verb. Ind. Pres. 2.ª-Pers. Plur.
+VIP2S	Verb. Ind. Pres. 2.ª-Pers. Sing.
+VIP3P	Verb. Ind. Pres. 3.ª-Pers. Plur.
+VIP3S	Verb. Ind. Pres. 3.ª-Pers. Sing.
+VIS1P	Verb. Ind. Pret. 1.ª-Pers. Plur.
+VIS1S	Verb. Ind. Pret. 1.ª-Pers. Sing.
+VIS2P	Verb. Ind. Pret. 2.ª-Pers. Plur.
+VIS2S	Verb. Ind. Pret. 2.ª-Pers. Sing.
+VIS3P	Verb. Ind. Pret. 3.ª-Pers. Plur.
+VIS3S	Verb. Ind. Pret. 3.ª-Pers. Sing.
+VIT1P	Verb. Ind. Pres./Pret. 1.ª-Pers. Plur.
+VMP1P	Verb. Imper. Pres. 1.ª-Pers. Plur. 
+VMP2P	Verb. Imp. Pres. 2.ª-Plur. Sing.
+VMP2S	Verb. Imp. Pres. 2.ª-Pers. Sing.
+VMP3P	Verb. Imper. Pres. 3.ª-Pers. Plur.
+VMP3S	Verb. Imper. Pres. 3.ª-Pers. Sing.
+VNP	Verb. Inf. Pres.
+VPAS	Verb. Part. Masc./Neut. Sing.
+VPFP	Verb. Part. Fem. Plur.
+VPFS	Verb. Part. Fem. Sing.
+VPMP	Verb. Part. Masc. Plur.
+VPMS	Verb. Part. Masc. Sing.
+VPNS	Verb. Part. Neut. Sing.
+VSF1P	Verb. Subj. Fut. 1.ª-Pers. Plur.
+VSF1S	Verb. Subj. Fut. 1.ª-Pers. Sing.
+VSF2P	Verb. Subj. Fut. 2.ª-Pers. Plur.
+VSF2S	Verb. Subj. Fut. 2.ª-Pers. Sing.
+VSF3P	Verb. Subj. Fut. 3.ª-Pers. Plur.
+VSF3S	Verb. Subj. Fut. 3.ª-Pers. Sing.
+VSF4S	Verb. Subj. Fut. 1.ª/3.ª-Pers. Sing.
+VSI1P	Verb. Subj. Cop. 1.ª-Pers. Plur.
+VSI1S	Verb. Subj. Cop. 1.ª-Pers. Sing.
+VSI2P	Verb. Subj. Cop. 2.ª-Pers. Plur.
+VSI2S	Verb. Subj. Cop. 2.ª-Pers. Sing.
+VSI3P	Verb. Subj. Cop. 3.ª-Pers. Plur.
+VSI3S	Verb. Subj. Cop. 3.ª-Pers. Sing.
+VSI4S	Verb. Subj. Cop. 1.ª-3.ª-Pers. Sing.
+VSP1P	Verb. Subj. Pres. 1.ª-Pers. Plur.
+VSP1S	Verb. Subj. Pres. 1.ª-Pers. Sing.
+VSP2P	Verb. Subj. Pres. 2.ª-Pers. Plur.
+VSP2S	Verb. Subj. Pres. 2.ª-Pers. Sing.
+VSP3P	Verb. Subj. Pres. 3.ª-Pers. Plur.
+VSP3S	Verb. Subj. Pres. 3.ª-Pers. Sing.
+VSP4S	Verb. Subj. Pres. 3.ª-Pers. Sing.
+VTP1P	Verb. Imp./Subj. Pres. 1.ª-Pers. Plur.
+VTP3P	Verb. Imp./Subj. Pres. 3.ª-Pers. Plur.
+VTP4S	Verb. Imp./Subj. Pres. 1.ª/3.ª-Pers. Sing.
+VUP5S	Verb. Imp./Ind. Pres. 2.ª-Pers./-3.ª-Pers. Sing. 
+W	Adv.
+X	Prep.

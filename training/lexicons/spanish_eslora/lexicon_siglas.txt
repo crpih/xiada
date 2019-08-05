@@ -1,0 +1,153 @@
+ACB	NPFS	Asociación de Clubes de Baloncesto
+ADN	NCMP	ácido desoxirribonucleico
+ADN	NCMS	ácido desoxirribonucleico
+AM	NCFP	amplitude modulation
+AM	NCFS	amplitude modulation
+ARN	NCMP	ácido ribonucleico
+ARN	NCMS	ácido ribonucleico
+BBVA	NPMS	Banco de Bilbao Vizcaya
+BENEGÁ	NPMS	Bloque Nacionalista Galego
+BNG	NPMS	Bloque Nacionalista Galego
+CD	NCMP	compact disc
+CD	NCMS	compact Disc
+CD-ROM	NCMP	compact disc-read only memory
+CD-ROM	NCMS	compact disc-read only memory
+CDU	NPMS	Christlich-Demokratische Union Deutschlands
+CIEMAT	NPMS	Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
+CIF	NCMP	código de identificación fiscal
+CIF	NCMS	código de identificación fiscal
+CNMV	NPFS	Comisión Nacional del Mercado de Valores
+CONCACAF	NPFS	Confederation of North, Central American and Caribbean Association Football
+COU	NPEL	Curso de Orientación Universitaria
+CSU	NPMS	Christlich-Soziale Union in Bayern
+DEA	NPFS	Drug Enforcement Administration
+DEA	NPMS	Diploma de Estudios Avanzados
+DIN	NPMS	Deutsches Institut für Normung
+DNA	NCMP	deoxyribonucleic acid
+DNA	NCMS	deoxyribonucleic acid
+DNI	NCMP	documento nacional de identidad
+DNI	NCMS	documento nacional de identidad
+DST	NPMS	Direction de la Surveillance du Territoire
+DVD	NCMP	digital versatil disc
+DVD	NCMP	digital video disc
+DVD	NCMS	digital versatil disc
+DVD	NCMS	digital video disc
+EA	NPMS	Eusko Alkartasuna
+EH	NPMS	Euskal Herritarrok
+ESO	NPMS	European Southern Observatory
+ETA	NPMS	Euskadi Ta Askatasuna
+FBI	NPMS	Federal Bureau of Intelligence
+FIFA	NPFS	Fédération Internationale de Football Association
+FLN	NPMS	Frente Nacional de Liberación
+FM	NCFP	frecuencia modulada
+FM	NCFS	frecuencia modulada
+GEO	NPMP	Grupo Especial de Operación
+HB	NPMS	Herri Batasuna
+HDL	NCFP	high density lipoprotein
+HDL	NCFS	high density lipoprotein
+HIV	NCMP	human immunodeficiency virus
+HIV	NCMS	human immunodeficiency virus
+IRA	NPMS	Ejército Republicano Irlandés
+IRPF	NCMP	informe sobre de la renta de las personas físicas
+IRPF	NCMS	informe sobre de la renta de las personas físicas
+ISBN	NCMP	international standard book number
+ISBN	NCMS	international standard book number
+ISO	NPFP	International Standard Organization
+ISO	NPFS	International Standard Organization
+ISSN	NCMP	international standard series number
+ISSN	NCMS	international standard series number
+IU	NPMS	Izquierda Unida
+IVA	NCMP	impuesto sobre el valor añadido
+IVA	NCMS	impuesto sobre el valor añadido
+LDL	NCMP	low density lipoprotein
+LDL	NCMS	low density lipoprotein
+LP	NCMP	long play
+LP	NCMS	long play
+MAP	NPFS	Maghreb Arab Press
+Mercosur	NPMS	Mercado Común del Sur
+MIR	NCMP	médico interno residente
+MIR	NCMS	médico interno residente
+MPDL	NPMS	Movimiento por la Paz, el Desarme y la Libertad
+NASA	NPFS	National Aeronautics and Space Administration
+NBA	NPFS	National Basketball Association
+NIF	NCMP	número de identificación fiscal
+NIF	NCMS	número de identificación fiscal
+OCDE	NPFS	Organización para la Cooperación y el Desarrollo Económico
+OEA	NPFS	Organización de Estados Americanos
+OFM	NPFS	Orden de frailes menores
+OIT	NPFS	Oficina Internacional del Trabajo
+OM	NCFP	onda media
+OM	NCFS	onda media
+OMS	NPFS	Organización Mundial de la Salud
+ONCE	NPFS	Organización Nacional de Ciegos de España
+ONG	NCFP	organización no gubernamental
+ONG	NCFS	organización no gubernamental
+ONU	NPFS	Organización de las Naciones Unidas
+OPA	NCFP	oferta pública de adquisición de acciones
+OPA	NCFS	oferta pública de adquisición de acciones
+OPEP	NPFS	Organización de Países Exportadores de Petróleo
+OP	NPFS	Orden de predicadores
+OSA	NPFS	Orden de San Agustín
+OTAN	NPFS	Organización del Tratado del Atlántico Norte
+OTI	NPFS	Organización de Televisiones Iberoamericanas
+PAN	NPMS	Partido de Acción Nacional
+PC	NCMP	personal computer
+PC	NCMS	personal computer
+Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
+PIB	NCMP	producto interior bruto
+PIB	NCMS	producto interior bruto
+PMA	NPMS	Programa Mundial de Alimentos
+PNV	NPMS	Partido Nacionalista Vasco
+POD	NPMS	Plan de Organización Docente
+PP	NPMS	Partido Popular
+PRD	NPMS	Partido de la Revolución Democrática
+PRI	NPMS	Partido Revolucionario Institucional
+PSOE	NPMS	Partido Socialista Obrero Español
+PYME	NCFP	pequeña y mediana empresa
+PYME	NCFS	pequeña y mediana empresa
+RASD	NPFS	República Árabe Saharaui Democrática
+RDC	NPFS	República Democrática del Congo
+RNA	NCMP	ribonucleic acid
+RNA	NCMS	ribonucleic acid
+SAE	NPFS	Sociedad Anónima Española
+SCH	NPMS	Santander Central Hispano
+SD	NPFS	Sociedad Deportiva Compostela
+SEU	NPMP	Sindicato Español Universitario
+SI	NCMP	sistema internacional de unidades
+SI	NCMS	sistema internacional de unidades
+SI	NPFS	Societatis Iesu
+SJ	NPFS	Societatis Iesu
+SME	NCMP	sistema monetario europeo
+SME	NCMS	sistema monetario europeo
+SPD	NPMS	Sozialdemokratische Partei Deutschlands
+TAC	NCMP	tomografía axial computarizada
+TAC	NCMS	tomografía axial computarizada
+TAE	NCFP	tasa anual equivalente
+TAE	NCFS	tasa anual equivalente
+TIR	NPMP	Transport International Routier
+TIR	NPMS	Transport International Routier
+TNT	NPFS	Turner Network Television
+UCI	NCFP	unidad de cuidados intensivos
+UCI	NCFS	unidad de cuidados intensivos
+UE	NPFS	Unión Europea
+UFO	NCMP	unidentified flying object
+UFO	NCMS	unidentified flying object
+UGT	NPMS	Unión General de Trabajadores
+UHF	NCFP	ultra high frequency
+UHF	NCFS	ultra high frequency
+UNESCO	NPFS	United Nations Educational, Scientific and Cultural Organization
+UNICEF	NPFS	United Nations International Children's Emergency Fund
+URSS	NPFS	Unión de Repúblicas Socialistas Soviéticas
+USA	NPMS	United States of America
+USC	NPFS	Universidad de Santiago de Compostela
+UVI	NCFP	unidad de vigilancia intensiva
+UVI	NCFS	unidad de vigilancia intensiva
+VHF	NCFP	very high frequency
+VHF	NCFS	very high frequency
+VHS	NCMP	video home system
+VHS	NCMS	video home system
+VIH	NCMP	virus de inmunodeficiencia humana
+VIH	NCMS	virus de inmunodeficiencia humana
+VIP	NCMP	very important person
+VIP	NCMS	very important person
+VLT	NPMS	Very Large Telescope

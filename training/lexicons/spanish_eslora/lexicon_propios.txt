@@ -1,0 +1,251 @@
+Adobe Photoshop	NPEL	Adobe Photoshop
+Alameda	NPFS	Alameda
+América	NPEL	América
+Ana	NPFS	Ana
+Anatomía de Grey	NPEL	Anatomía de Grey
+Andorra	NPEL	Andorra
+Ángel	NPMS	Ángel
+Antiguo Oeste	NPMS	Antiguo Oeste
+Argentina	NPEL	Argentina
+Arosa	NPEL	Arosa
+Arzúa	NPEL	Arzúa
+Asociación de Clubes de Baloncesto	NPFS	Asociación de Clubes de Baloncesto
+Asturias	NPEL	Asturias
+Atapuerca	NPEL	Atapuerca
+Atlántico	NPMS	Atlántico
+Australia	NPEL	Australia
+Avelinos	NPMP	Avelino
+Ávila	NPEL	Ávila
+Ayuntamiento	NPMS	Ayuntamiento
+Baia	NPFS	Baia
+Baitúa	NPMP	Baitúa
+Banco de Bilbao Vizcaya	NPMS	Banco de Bilbao Vizcaya
+Barcelona	NPEL	Barcelona
+Bembibre	NPEL	Bembibre
+Benavente	NPMP	Benavente
+Bertamiráns	NPEL	Bertamiráns
+Bilbao	NPEL	Bilbao
+Bloque Nacionalista Galego	NPMS	Bloque Nacionalista Galego
+Bloque	NPMS	Bloque
+Brandon	NPMS	Brandon
+Brión	NPEL	Brión
+Bruselas	NPEL	Bruselas
+Burgos	NPEL	Burgos
+Cádiz	NPEL	Cádiz
+Cambados	NPEL	Cambados
+Cangas	NPEL	Cangas
+Cantabria	NPEL	Cantabria
+Carretas	NPEL	Carretas
+Castilla León	NPEL	Castilla León
+Castilla	NPEL	Castilla
+Castiñeiriño	NPMS	Castiñeiriño
+Catón	NPMS	Catón
+Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas	NPMS	Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
+Checoslovaquia	NPEL	Checoslovaquia
+Christlich-Demokratische Union Deutschlands	NPMS	Christlich-Demokratische Union Deutschlands
+Christlich-Soziale Union in Bayern	NPMS	Christlich-Soziale Union in Bayern
+Coliseo	NPMS	Coliseo
+Comisión Nacional del Mercado de Valores	NPFS	Comisión Nacional del Mercado de Valores
+Confederation of North, Central American and Caribbean Association Football	NPFS	Confederation of North, Central American and Caribbean Association Football
+Congregación de Jesús	NPEL	Congregación de Jesús
+Conxo	NPEL	Conxo
+Copa de Europa	NPFS	Copa de Europa
+Coruña	NPEL	Coruña
+Cruceiro do Galo	NPEL	Cruceiro do Galo
+Crucero del Gallo	NPEL	Crucero del Gallo
+Curros Enríquez	NPEL	Curros Enríquez
+Derecho	NPEL	Derecho
+Detroit	NPEL	Detroit
+Deutsches Institut für Normung	NPMS	Deutsches Institut für Normung
+Dios	NPMS	Dios
+Direction de la Surveillance du Territoire	NPMS	Direction de la Surveillance du Territoire
+Douglas Hofstadter	NPMS	Douglas Hofstadter
+Drug Enforcement Administration	NPFS	Drug Enforcement Administration
+Económicas	NPEL	Económicas
+Ejército Republicano Irlandés	NPMS	Ejército Republicano Irlandés
+El Algarve	NPEL	El Algarve
+El Corte Inglés	NPEL	El Corte Inglés
+El País	NPMS	El País
+Emilio	NPMS	Emilio
+Empresariales	NPEL	Empresariales
+Empresas	NPEL	Empresas
+Erasmus	NPEL	Erasmus
+España	NPEL	España
+Estado	NPMS	Estado
+Estados Unidos	NPEL	Estados Unidos
+Europa	NPEL	Europa
+Europa	NPFS	Europa
+European Southern Observatory	NPMS	European Southern Observatory
+Euskadi Ta Askatasuna	NPMS	Euskadi Ta Askatasuna
+Euskal Herritarrok	NPMS	Euskal Herritarrok
+Eusko Alkartasuna	NPMS	Eusko Alkartasuna
+Familia	NPMS	Familia
+Federal Bureau of Intelligence	NPMS	Federal Bureau of Intelligence
+Fédération Internationale de Football Association	NPFS	Fédération Internationale de Football Association
+Filología	NPEL	Filología
+Físicas	NPEL	Físicas
+Florencia	NPEL	Florencia
+Florencia	NPMS	Florencia
+Fontana de Trevi	NPFS	Fontana de Trevi
+Franco	NPEL	Franco
+Frente Nacional de Liberación	NPMS	Frente Nacional de Liberación
+Galeras	NPEL	Galeras
+Galicia	NPEL	Galicia
+Galway	NPEL	Galway
+Giuseppe	NPMS	Giuseppe
+Gödel, Escher, Bach	NPEL	Gödel, Escher, Bach
+Gran Hotel de La Toja	NPMS	Gran Hotel de La Toja
+Grupo Especial de Operación	NPMP	Grupo Especial de Operación
+Hacienda	NPEL	Hacienda
+Hacienda	NPES	Hacienda
+Héctor	NPMS	Héctor
+Herri Batasuna	NPMS	Herri Batasuna
+Highet	NPMS	Highet
+Historia	NPEL	Historia
+Huelva	NPEL	Huelva
+Huérfanas	NPFP	Huérfanas
+Huertas	NPEL	Huertas
+Intendente Mercantil	NPEL	Intendente Mercantil
+Intendente Mercantil	NPMS	Intendente Mercantil
+International Standard Organization	NPFP	International Standard Organization
+International Standard Organization	NPFS	International Standard Organization
+Internet	NPES	Internet
+Irlanda	NPEL	Irlanda
+Izquierda Unida	NPMS	Izquierda Unida
+Jorge	NPMS	Jorge
+Juliana	NPFS	Juliana
+La Argentina	NPEL	La Argentina
+La Baña	NPEL	La Baña
+La Bañeza	NPEL	La Bañeza
+La cultura clásica	NPEL	La cultura clásica
+La Milagrosa	NPEL	La Milagrosa
+Laraño	NPEL	Laraño
+La tradición clásica	NPEL	La tradición clásica
+La Voz de Galicia	NPFS	La Voz de Galicia
+Londres	NPEL	Londres
+Lugo	NPEL	Lugo
+Madrid	NPEL	Madrid
+Maghreb Arab Press	NPFS	Maghreb Arab Press
+Magisterio	NPEL	Magisterio
+Malta	NPEL	Malta
+Manu González	NPMS	Manu González
+Manu	NPMS	Manu
+María	NPFS	María
+Marías	NPFP	María
+Medicina	NPEL	Medicina
+Mediterráneo	NPMS	Mediterráneo
+Menchu	NPFS	Menchu
+Mercado Común del Sur	NPMS	Mercado Común del Sur
+Mercosur	NPMS	Mercado Común del Sur
+Miami	NPEL	Miami
+Miladies	NPEL	Miladies
+Milladoiro	NPEL	Milladoiro
+Milladoiro	NPMS	Milladoiro
+Mio Cid	NPEL	Mio Cid
+Movimiento por la Paz, el Desarme y la Libertad	NPMS	Movimiento por la Paz, el Desarme y la Libertad
+Muros	NPEL	Muros
+Nación	NPFS	Nación
+National Aeronautics and Space Administration	NPFS	National Aeronautics and Space Administration
+National Basketball Association	NPFS	National Basketball Association
+Navarra	NPEL	Navarra
+Navidades	NPFP	Navidad
+Navidad	NPEL	Navidad
+Navidad	NPFS	Navidad
+Noa	NPFS	Noa
+Nochebuenas	NPFP	Nochebuena
+Obradoiro	NPMS	Obradoiro
+Odontología	NPEL	Odontología
+Oeste	NPMS	Oeste
+Oficina Internacional del Trabajo	NPFS	Oficina Internacional del Trabajo
+Orden de frailes menores	NPFS	Orden de frailes menores
+Orden de predicadores	NPFS	Orden de predicadores
+Orden de San Agustín	NPFS	Orden de San Agustín
+Orense	NPEL	Orense
+Organización de Estados Americanos	NPFS	Organización de Estados Americanos
+Organización de las Naciones Unidas	NPFS	Organización de las Naciones Unidas
+Organización del Tratado del Atlántico Norte	NPFS	Organización del Tratado del Atlántico Norte
+Organización de Países Exportadores de Petróleo	NPFS	Organización de Países Exportadores de Petróleo
+Organización de Televisiones Iberoamericanas	NPFS	Organización de Televisiones Iberoamericanas
+Organización Mundial de la Salud	NPFS	Organización Mundial de la Salud
+Organización Nacional de Ciegos de España	NPFS	Organización Nacional de Ciegos de España
+Organización para la Cooperación y el Desarrollo Económico	NPFS	Organización para la Cooperación y el Desarrollo Económico
+Oviedo	NPEL	Oviedo
+Padrón	NPEL	Padrón
+Palacio de Raxoi	NPMS	Palacio de Raxoi
+Palencia	NPEL	Palencia
+París	NPEL	París
+Partido de Acción Nacional	NPMS	Partido de Acción Nacional
+Partido de la Revolución Democrática	NPMS	Partido de la Revolución Democrática
+Partido Nacionalista Vasco	NPMS	Partido Nacionalista Vasco
+Partido Popular	NPMS	Partido Popular
+Partido Revolucionario Institucional	NPMS	Partido Revolucionario Institucional
+Partido Socialista Obrero Español	NPMS	Partido Socialista Obrero Español
+Patria	NPFS	Patria
+Pedro	NPMS	Pedro
+Peleteiro	NPEL	Peleteiro
+Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
+Periodismo	NPEL	Periodismo
+Photoshop	NPEL	Photoshop
+Pirineo	NPMS	Pirineo
+Poema	NPMS	Poema
+Policía Local	NPFS	Policía Local
+Pombal	NPEL	Pombal
+Pontepedriña	NPEL	Pontepedriña
+Pontevedra	NPEL	Pontevedra
+Porriño	NPEL	Porriño
+Portela	NPEL	Portela
+Portomouro	NPEL	Portomouro
+Powerpoint	NPMS	Powerpoint
+Prisciliano	NPMS	Prisciliano
+Profesorado Mercantil Privado	NPEL	Profesorado Mercantil Privado
+Programa Experimental de Prescripción de Estupefacientes de Andalucía	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
+Programa Mundial de Alimentos	NPMS	Programa Mundial de Alimentos
+Proyecto Hombre	NPEL	Proyecto Hombre
+Proyecto Hombre	NPMS	Proyecto Hombre
+Puente de Rande	NPMS	Puente de Rande
+Quintana	NPFS	Quintana
+Rajoy	NPEL	Rajoy
+Raxoi	NPEL	Raxoi
+República Árabe Saharaui Democrática	NPFS	República Árabe Saharaui Democrática
+República Democrática del Congo	NPFS	República Democrática del Congo
+Ribeira	NPEL	Ribeira
+R	NPEL	R
+Rolling Stones	NPMP	Rolling Stones
+Roma	NPEL	Roma
+San Isidro	NPEL	San Isidro
+Santa Gadea	NPFS	Santa Gadea
+Santa Isabel	NPEL	Santa Isabel
+Santander Central Hispano	NPMS	Santander Central Hispano
+Santander	NPEL	Santander
+Santiago de Chile	NPEL	Santiago de Chile
+Santiago	NPEL	Santiago
+Seco	NPEL	Seco
+Semana Santa	NPFS	Semana Santa
+Sevilla	NPEL	Sevilla
+Sexta	NPFS	Sexta
+Sistema Cantábrico	NPMS	Sistema Cantábrico
+Sociedad Anónima Española	NPFS	Sociedad Anónima Española
+Sociedad Deportiva Compostela	NPFS	Sociedad Deportiva Compostela
+Societatis Iesu	NPFS	Societatis Iesu
+Sozialdemokratische Partei Deutschlands	NPMS	Sozialdemokratische Partei Deutschlands
+Transport International Routier	NPMP	Transport International Routier
+Transport International Routier	NPMS	Transport International Routier
+Turner Network Television	NPFS	Turner Network Television
+Un eterno y grácil bucle	NPEL	Un eterno y grácil bucle
+Unión Europea	NPFS	Unión Europea
+Unión General de Trabajadores	NPMS	Unión General de Trabajadores
+United Nations Educational, Scientific and Cultural Organization	NPFS	United Nations Educational, Scientific and Cultural Organization
+United Nations International Children's Emergency Fund	NPFS	United Nations International Children's Emergency Fund
+United States of America	NPMS	United States of America
+Universidad de Santiago de Compostela	NPFS	Universidad de Santiago de Compostela
+Vaticano	NPMS	Vaticano
+Venecia	NPEL	Venecia
+Venezuela	NPEL	Venezuela
+Very Large Telescope	NPMS	Very Large Telescope
+Vigo	NPEL	Vigo
+Vite	NPEL	Vite
+Vuelvamañana	NPEL	Vuelvamañana
+Xunta de Galicia	NPFS	Xunta de Galicia
+Xunta	NPFS	Xunta
+Zaragoza	NPEL	Zaragoza
+A cri sio	NPMS	Acrisio
