@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documento>
+  <fragmento>
+    <expresión>Es un muñeco pequeñito</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>Es</unidad>
+        <constituyente>
+          <forma>Es</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>Es</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>un</unidad>
+        <constituyente>
+          <forma>un</forma>
+          <etiqueta>DIMS</etiqueta>
+          <lema>un</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>muñeco</unidad>
+        <constituyente>
+          <forma>muñeco</forma>
+          <etiqueta>NCMS</etiqueta>
+          <lema>muñeco</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>pequeñito</unidad>
+        <constituyente>
+          <forma>pequeñito</forma>
+          <etiqueta>AMS</etiqueta>
+          <lema>*</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+</documento>
