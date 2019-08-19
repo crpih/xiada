@@ -9,7 +9,7 @@ gem 'dbi', '0.4.5'
 
 gem 'ffi'
 gem 'gdbm'
-
-# precond: sudo apt-get install libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
+gem 'rake', '~> 10.0'
+gem 'minitest', '~> 5.0'
 
 gem 'sqlite3', '1.3.10'
