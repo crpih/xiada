@@ -1,4 +1,5 @@
 test/galician_xiada/output/*_new.xml
+test/spanish_eslora/output/*_new.xml
 *.db
 log
 *.log
