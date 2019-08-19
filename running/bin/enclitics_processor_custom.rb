@@ -39,7 +39,7 @@ class EncliticsProcessorCustom
         # If there are several entries for the same tag and lemma, we
         # choose the word with the greater proximity score.
         p_score = proximity_score(recovery_word, verb_part)
-        STDERR.puts "p_score:#{p_score} recovert_word:#{recovery_word}, verb_part:#{verb_part}}"
+        # STDERR.puts "p_score:#{p_score} recovert_word:#{recovery_word}, verb_part:#{verb_part}}"
         if p_score >= max_p_score
           max_p_score = p_score
           final_recovery_word = recovery_word
