@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-require_relative "../galician_xiada/profile.rb"
+require_relative "../galician_xiada/enclitics_processor_custom.rb"
 
-class Profile
+class EncliticsProcessorCustom
   def initialize(sentence, dw, enclitics_hash)
     @sentence = sentence
     @dw = dw

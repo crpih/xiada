@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 require_relative "../bin/database_wrapper.rb"
 require_relative "../../lib/string_utils.rb"
-require_relative "../bin/profile.rb"
+require_relative "../bin/enclitics_processor_custom.rb"
 
 class EncliticsProcessor
   def initialize(sentence, dw, enclitics_hash)
@@ -9,10 +9,10 @@ class EncliticsProcessor
     @dw = dw
     @enclitics_hash = enclitics_hash
     xiada_profile = ENV["XIADA_PROFILE"]
-    @profile = Profile.new(@sentence, @dw, @enclitics_hash)
+    @enclitics_processor_custom = EncliticsProcessorCustom.new(@sentence, @dw, @enclitics_hash)
     case xiada_profile
     when "galician_xiada"
-      @profile.extend(ProfileGalicianXiada)
+      @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianXiada)
     end
   end
 
@@ -81,7 +81,7 @@ class EncliticsProcessor
           recovery = true
           relevant_verb_part_tokens = nil
           if recovery
-            relevant_verb_part_tokens = @profile.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
+            relevant_verb_part_tokens = @enclitics_processor_custom.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
           end
 
           # enclitic_part processing

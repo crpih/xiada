@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-module ProfileGalicianXiada
+module EncliticsProcessorCustomGalicianXiada
   def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
