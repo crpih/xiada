@@ -14,7 +14,7 @@ class Viterbi
     @pruning_system = PruningSystem.new
     @without_suffixes_words = Hash.new
     xiada_profile = ENV["XIADA_PROFILE"]
-    @lemmatizer = Lemmatizer.new()
+    @lemmatizer = Lemmatizer.new(@dw)
     case xiada_profile
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)

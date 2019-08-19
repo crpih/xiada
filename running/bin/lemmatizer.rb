@@ -3,7 +3,8 @@
 require_relative "../spanish_eslora/lemmatizer.rb"
 
 class Lemmatizer
-  def initialize
+  def initialize(dw)
+    @dw = dw
   end
 
   def lemmatize(word, tag, lemma)

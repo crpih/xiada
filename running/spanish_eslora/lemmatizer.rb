@@ -1,4 +1,27 @@
 # -*- coding: utf-8 -*-
 
 module LemmatizerSpanishEslora
+  def lemmatize(word, tag, lemma)
+    unless lemma
+      # Diminutives
+      if word =~ /ito$/
+        new_lemma = word.delete_suffix("ito") << ("o")
+        infos = @dw.get_emissions_info(word, ["%MS"])
+        return new_lemma if infos
+      elsif word =~ /ita$/
+        new_lemma = word.delete_suffix("ita") << ("o")
+        infos = @dw.get_emissions_info(word, ["%FS"])
+        return new_lemma if infos
+      elsif word =~ /itos$/
+        new_lemma = word.delete_suffix("itos") << ("o")
+        infos = @dw.get_emissions_info(word, ["%MP"])
+        return new_lemma if infos
+      elsif word =~ /ito$/
+        new_lemma = word.delete_suffix("itas") << ("o")
+        infos = @dw.get_emissions_info(word, ["%FP"])
+        return new_lemma if infos
+      end
+    end
+    return lemma ? lemma : "*"
+  end
 end
