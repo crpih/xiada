@@ -7,8 +7,8 @@ require "xiada/version"
 Gem::Specification.new do |spec|
   spec.name          = "xiada"
   spec.version       = Xiada::VERSION
-  spec.authors       = ["Mario Barcala"]
-  spec.email         = ["barcala@nlpgo.com"]
+  spec.authors       = ["NLPgo Technologies, S.L."]
+  spec.email         = ["xiada@nlpgo.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
