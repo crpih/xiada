@@ -7,8 +7,6 @@ class SpanishEsloraTaggingTests < Minitest::Test
     `#{command}`
   end
 
-  STDERR.puts "spanish #{__dir__}"
-
   Dir.glob("#{__dir__}/*.xml").each do |full_file_name|
     file_name = File.basename(full_file_name, ".*")
     define_method("test_#{file_name}") do
