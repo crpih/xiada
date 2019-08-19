@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 require_relative "../#{ENV["XIADA_PROFILE"]}/pruning_system.rb"
 require_relative "../../lib/string_utils.rb"
+require_relative "../bin/lemmatizer.rb"
 
 class Viterbi
   EMPTY_TAG = "###"
@@ -12,6 +13,12 @@ class Viterbi
     @tags = nil
     @pruning_system = PruningSystem.new
     @without_suffixes_words = Hash.new
+    xiada_profile = ENV["XIADA_PROFILE"]
+    @lemmatizer = Lemmatizer.new()
+    case xiada_profile
+    when "spanish_eslora"
+      @lemmatizer.extend(LemmatizerSpanishEslora)
+    end
   end
 
   def run(sentence)
@@ -53,7 +60,8 @@ class Viterbi
         if tag.token.token_type == :standard
           print "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            print "\t*"
+            lemma = @lemmatizer.lemmatize(tag.token.text, tag.value, nil)
+            print "\t#{lemma}"
           else
             print "\t#{tag.lemmas.keys[0]}"
           end
@@ -75,7 +83,8 @@ class Viterbi
         if tag.token.token_type == :standard
           result = result + "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            result = result + "\t*"
+            lemma = @lemmatizer.lemmatize(tag.token.text, tag.value, nil)
+            result = result + "\t#{lemma}"
           else
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
@@ -854,8 +863,9 @@ class Viterbi
         print " #{valid_attr}=\"#{positive_valid_value}\"" if tag_object.selected?
         puts ">"
         puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
-        puts "<#{lemma_tag}>*</#{lemma_tag}>"
-        puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
+        lemma = @lemmatizer.lemmatize(token.text, tag, nil)
+        puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
+        puts "<#{hiperlemma_tag}>#{lemma}</#{hiperlemma_tag}>" if hiperlemma_tag
         puts "</#{tag_lemma_tag}>"
       else
         one_valid = false
@@ -896,8 +906,9 @@ class Viterbi
         one_valid = true
         puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
         if tag_object.lemmas.empty?
-          puts "<#{lemma_tag}>*</#{lemma_tag}>"
-          puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
+          lemma = @lemmatizer.lemmatize(token.text, tag, nil)
+          puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
+          puts "<#{hiperlemma_tag}>#{lemma}</#{hiperlemma_tag}>" if hiperlemma_tag
         else
           tag_object.lemmas.keys.each do |lemma|
             if token.chunk_entity_exclude_transform
