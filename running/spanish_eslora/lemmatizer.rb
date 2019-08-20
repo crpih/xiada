@@ -9,15 +9,15 @@ module LemmatizerSpanishEslora
         infos = @dw.get_emissions_info(word, ["%MS"])
         return new_lemma if infos
       elsif word =~ /ita$/
-        new_lemma = word.delete_suffix("ita") << ("o")
+        new_lemma = word.delete_suffix("ita") << ("a")
         infos = @dw.get_emissions_info(word, ["%FS"])
         return new_lemma if infos
       elsif word =~ /itos$/
-        new_lemma = word.delete_suffix("itos") << ("o")
+        new_lemma = word.delete_suffix("itos") << ("os")
         infos = @dw.get_emissions_info(word, ["%MP"])
         return new_lemma if infos
-      elsif word =~ /ito$/
-        new_lemma = word.delete_suffix("itas") << ("o")
+      elsif word =~ /itas$/
+        new_lemma = word.delete_suffix("itas") << ("as")
         infos = @dw.get_emissions_info(word, ["%FP"])
         return new_lemma if infos
       end
