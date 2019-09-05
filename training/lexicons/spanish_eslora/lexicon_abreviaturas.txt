@@ -472,7 +472,6 @@ Cols.	Abreviatura	colegios
 cols.	Abreviatura	colonias
 cols.	Abreviatura	columnas
 Cols.	Abreviatura	coroneles
-cols.	NCEP	colecciones
 cols.	NCFP	colecciones
 cols.	NCFP	colonia
 cols.	NCFP	columnas

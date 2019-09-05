@@ -1664,11 +1664,6 @@ tiene	VIP3S	tener
 un	DIMS	un
 problema	NCMS	problema
 
-Detroit	NPEL	Detroit
-86	Cifra	86
-Miami	NPEL	Miami
-80	Cifra	80
-
 esas	DDFP	ese
 copas	NCFP	copa
 son	VIP3P	ser
@@ -3317,21 +3312,6 @@ pon	VMP2S	poner
 me	PY1ESO	me
 un	DIES	un
 <pausa/>	ETQ_PAUSA	<pausa/>
-
-981 56 31 00	Cifra	981 56 31 00
-
-22	Cifra	22
-+	Símbolo	+
-22	Cifra	22
-=	Símbolo	=
-44	Cifra	44
-
-Santiago	NPEL	Santiago
-,	Q	,
-20.30	Hora	20.30
-,	Q	,
-6 de marzo de 2017	Fecha	6 de marzo de 2017
-
 fui	VIS1S	ser
 repartidor	NCMS	repartidor
 y	C	y

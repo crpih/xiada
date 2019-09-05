@@ -8,6 +8,7 @@ ARN	NCMS	ácido ribonucleico
 BBVA	NPMS	Banco de Bilbao Vizcaya
 BENEGÁ	NPMS	Bloque Nacionalista Galego
 BNG	NPMS	Bloque Nacionalista Galego
+BUP	NPEL	Bachillerato Unificado Polivalente
 CD	NCMP	compact disc
 CD	NCMS	compact Disc
 CD-ROM	NCMP	compact disc-read only memory
@@ -82,6 +83,7 @@ OMS	NPFS	Organización Mundial de la Salud
 ONCE	NPFS	Organización Nacional de Ciegos de España
 ONG	NCFP	organización no gubernamental
 ONG	NCFS	organización no gubernamental
+ONGS	NCFP	organización no gubernamental
 ONU	NPFS	Organización de las Naciones Unidas
 OPA	NCFP	oferta pública de adquisición de acciones
 OPA	NCFS	oferta pública de adquisición de acciones
@@ -112,6 +114,7 @@ RNA	NCMS	ribonucleic acid
 SAE	NPFS	Sociedad Anónima Española
 SCH	NPMS	Santander Central Hispano
 SD	NPFS	Sociedad Deportiva Compostela
+SERGAS	NPMS	Servicio Gallego de Salud
 SEU	NPMP	Sindicato Español Universitario
 SI	NCMP	sistema internacional de unidades
 SI	NCMS	sistema internacional de unidades

@@ -1,15 +1,71 @@
+aire acondicionado	NCMS	aire acondicionado
+au pair	NCEL	au pair
+au pair	NCEP	au pair
+au pair	NCES	au pair
+au pair	NCFP	au pair
+au pair	NCFS	au pair
+au pair	NCMP	au pair
+au pair	NCMS	au pair
+au pairs	NCEP	au pair
+au pairs	NCFP	au pair
+au pairs	NCMP	au pair
 ave fénix	NCFS	ave fénix
 bel canto	NCMS	bel canto
+best seller	NCML	best seller
+best seller	NCMP	best seller
+best seller	NCMS	best seller
+best sellers	NCMP	best seller
+black bass	NCML	black bass
+black bass	NCMP	black bass
+black bass	NCMS	black bass
 blue jeans	NCMP	blue jeans
 blue jeans	NCMS	blue jeans
+bossa nova	NCFS	bossa nova
+boy scout	NCEL	boy scout
+boy scout	NCEP	boy scout
+boy scout	NCES	boy scout
+boy scout	NCFP	boy scout
+boy scout	NCFS	boy scout
+boy scout	NCMP	boy scout
+boy scout	NCMS	boy scout
+boy scouts	NCEP	boy scout
+boy scouts	NCFP	boy scout
+boy scouts	NCMP	boy scout
 cada cual	PNMS	cada cual
+carril bici	NCMS	carril bici
+carriles bici	NCMP	carril bici
+chunda chunda	NCML	chunda chunda
+chunda chunda	NCMP	chunda chunda
+chunda chunda	NCMS	chunda chunda
+chunda chundas	NCMP	chunda chunda
+chupa chups	NCML	chupa chups
+chupa chups	NCMP	chupa chups
+chupa chups	NCMS	chupa chups
+coche bomba	NCMS	coche bomba
+coche de línea	NCMS	coche de línea
+coches bomba	NCMP	coche bomba
+coches de línea	NCMP	coche de línea
+corre que te corre	W	corre que te corre
+de antemano	W	de antemano
+de Pascuas en viernes	W	de Pascuas en viernes
+de puta madre	W	de puta madre
+de putísima madre	W	de putísima madre
+de refilón	W	de refilón
+Dios mío	I	Dios mío
 disc jockey	NCMS	disc jockey
 disc jockeys	NCMP	disc jockey
+doble uve	NCFS	doble uve
 el cual	PLMS	el cual
+en plan	W	en plan
+en seguidita	W	en seguida
+fútbol sala	NCMS	fútbol sala
 grosso modo	W	grosso modo
+i griega	NCFS	i griega
+i latina	NCFS	i latina
 in albis	W	in albis
 in crescendo	W	in crescendo
 in fraganti	W	in fraganti
+in situ	W	in situ
 la cual	PLFS	el cual
 las cuales	PLFP	el cual
 lo cual	PLNS	el cual
@@ -17,22 +73,44 @@ los cuales	PLMP	el cual
 máster class	NCMP	máster class
 máster class	NCMS	máster class
 ménage á trois	NCMS	ménage á trois
+modus operandi	NCML	modus operandi
+modus operandi	NCMP	modus operandi
+modus operandi	NCMS	modus operandi
 motu proprio	W	motu proprio
+mountain bike	NCMS	mountain bike
 music hall	NCMS	music hall
 music halls	NCMP	music hall
+on line	W	on line
 panem et circenses	NCMS	panem et circenses
 per cápita	W	per cápita
+petit suisse	NCML	petit suisse
+petit suisse	NCMP	petit suisse
+petit suisse	NCMS	petit suisse
+petit suisses	NCMP	petit suisse
+pit bull	NCMS	pit bull
+pit bull terrier	NCMS	pit bull terrier
+punto pelota	I	punto pelota
 requiescat in pace	NCMS	requiescat in pace
 road movie	NCFS	road movie
 road movies	NCFP	road movie
+rock and roll	NCML	rock and roll
+rock and roll	NCMP	rock and roll
+rock and roll	NCMS	rock and roll
 sine die	W	sine die
+tiranosaurio rex	NCMS	tiranosaurio rex
+tiranosaurios rex	NCMP	tiranosaurio rex
 unas cuantas	DNFP	unos cuantos
 unas cuantas	PNFP	unos cuantos
 unos cuantos	DNMP	unos cuantos
 unos cuantos	PNMP	unos cuantos
 un poco	PQNS	un poco
 un poco	W	un poco
+un poquillo	PQNS	un poco
+un poquillo	W	un poco
 un poquitín	PQNS	un poco
 un poquitín	W	un poco
+un poquitito	PQNS	un poco
+un poquitito	W	un poco
 un poquito	PQNS	un poco
 un poquito	W	un poco
+uve doble	NCFS	uve doble
