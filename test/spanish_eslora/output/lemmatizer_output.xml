@@ -6,9 +6,9 @@
       <análisis_unidad>
         <unidad>Es</unidad>
         <constituyente>
-          <forma>Es</forma>
-          <etiqueta>NPEL</etiqueta>
-          <lema>Es</lema>
+          <forma>es</forma>
+          <etiqueta>VIP3S</etiqueta>
+          <lema>ser</lema>
         </constituyente>
       </análisis_unidad>
       <análisis_unidad>
@@ -33,6 +33,105 @@
           <forma>pequeñito</forma>
           <etiqueta>AMS</etiqueta>
           <lema>pequeño</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>No le gustan los perritos</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>No</unidad>
+        <constituyente>
+          <forma>no</forma>
+          <etiqueta>W</etiqueta>
+          <lema>no</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>le</unidad>
+        <constituyente>
+          <forma>le</forma>
+          <etiqueta>PY3ISD</etiqueta>
+          <lema>le</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>gustan</unidad>
+        <constituyente>
+          <forma>gustan</forma>
+          <etiqueta>VIP3P</etiqueta>
+          <lema>gustar</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>los</unidad>
+        <constituyente>
+          <forma>los</forma>
+          <etiqueta>DAMP</etiqueta>
+          <lema>el</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>perritos</unidad>
+        <constituyente>
+          <forma>perritos</forma>
+          <etiqueta>NCMP</etiqueta>
+          <lema>perro</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>Fue Albertito el que lo dijo</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>Fue</unidad>
+        <constituyente>
+          <forma>fue</forma>
+          <etiqueta>VIS3S</etiqueta>
+          <lema>ir</lema>
+          <lema>ser</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>Albertito</unidad>
+        <constituyente>
+          <forma>Albertito</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>Alberto</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>el</unidad>
+        <constituyente>
+          <forma>el</forma>
+          <etiqueta>DAMS</etiqueta>
+          <lema>el</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>que</unidad>
+        <constituyente>
+          <forma>que</forma>
+          <etiqueta>PLMS</etiqueta>
+          <lema>que</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>lo</unidad>
+        <constituyente>
+          <forma>lo</forma>
+          <etiqueta>PY3MSW</etiqueta>
+          <lema>lo</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>dijo</unidad>
+        <constituyente>
+          <forma>dijo</forma>
+          <etiqueta>VIS3S</etiqueta>
+          <lema>decir</lema>
         </constituyente>
       </análisis_unidad>
     </análisis>

@@ -641,7 +641,7 @@ class Viterbi
 
   def print_best_way_xml_without_alternatives_recursive(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
                                                         form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-    #puts "\n(print_best_way_xml_without_alternatives_recursive) token:#{token.text} type:#{token.token_type}"
+    #STDERR.puts "\n(print_best_way_xml_without_alternatives_recursive) token:#{token.text} type:#{token.token_type}"
     if token != nil
       if token.token_type == :standard
         token = print_valid_only_standard_unit(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag, form_tag,
@@ -769,7 +769,7 @@ class Viterbi
       token_aux = token_aux.next
     end
     last_token = prev_token_aux
-    #STDERR.puts "print_valid_only_standard_unit: first_token: #{first_token.text}, last_token: #{last_token.text} first_token_type:#{first_token.token_type} last_token_type:#{last_token.token_type}"
+    #STDERR.puts "(print_valid_only_standard_unit): first_token: #{first_token.text}, last_token: #{last_token.text} first_token_type:#{first_token.token_type} last_token_type:#{last_token.token_type}"
     print_valid_only_unit_aux(first_token, last_token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
                               constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
                               qualifying_tag)
@@ -818,7 +818,7 @@ class Viterbi
                                 constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
                                 qualifying_tag)
     puts "<#{analysis_unit_tag}>"
-    #puts "first_token: #{first_token.text} token_type:#{first_token.token_type} from:#{first_token.from} to:#{first_token.to}"
+    #STDERR.puts "(print_valid_only_unit_aux) first_token: #{first_token.text} token_type:#{first_token.token_type} from:#{first_token.from} to:#{first_token.to}"
     if first_token.chunk_entity_exclude_transform
       puts "<#{unit_tag}>#{@sentence.get_text(first_token.from, first_token.to)}</#{unit_tag}>"
     else
@@ -870,6 +870,7 @@ class Viterbi
       else
         one_valid = false
         tag_object.lemmas.keys.each do |lemma|
+          lemma = @lemmatizer.lemmatize(token.text, tag, lemma)
           print "<#{tag_lemma_tag}"
           if tag_object.selected? and !one_valid
             one_valid = true
@@ -893,6 +894,7 @@ class Viterbi
 
   def print_valid_only_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
                              form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
+    # STDERR.puts "(print_valid_only_token) token:#{token.text}"
     puts "<#{constituent_tag}>"
     if token.chunk_entity_exclude_transform
       puts "<#{form_tag}>#{token.text}</#{form_tag}>"
@@ -911,6 +913,7 @@ class Viterbi
           puts "<#{hiperlemma_tag}>#{lemma}</#{hiperlemma_tag}>" if hiperlemma_tag
         else
           tag_object.lemmas.keys.each do |lemma|
+            lemma = @lemmatizer.lemmatize(token.text, tag, lemma)
             if token.chunk_entity_exclude_transform
               puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
               puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag

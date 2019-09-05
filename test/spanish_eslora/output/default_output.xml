@@ -376,7 +376,7 @@
         <unidad>se</unidad>
         <constituyente>
           <forma>se</forma>
-          <etiqueta>PY3FSO</etiqueta>
+          <etiqueta>PY3EPO</etiqueta>
           <lema>se</lema>
         </constituyente>
       </análisis_unidad>
@@ -504,7 +504,7 @@
         <unidad>como</unidad>
         <constituyente>
           <forma>como</forma>
-          <etiqueta>X</etiqueta>
+          <etiqueta>W</etiqueta>
           <lema>como</lema>
         </constituyente>
       </análisis_unidad>
@@ -552,7 +552,7 @@
         <unidad>quien</unidad>
         <constituyente>
           <forma>quien</forma>
-          <etiqueta>PLMS</etiqueta>
+          <etiqueta>PLES</etiqueta>
           <lema>quien</lema>
         </constituyente>
       </análisis_unidad>
@@ -560,7 +560,7 @@
         <unidad>le</unidad>
         <constituyente>
           <forma>le</forma>
-          <etiqueta>PY3MSD</etiqueta>
+          <etiqueta>PY3ESD</etiqueta>
           <lema>le</lema>
         </constituyente>
       </análisis_unidad>
@@ -1026,7 +1026,7 @@
         </constituyente>
         <constituyente>
           <forma>le</forma>
-          <etiqueta>PY3ESD</etiqueta>
+          <etiqueta>PY3MSD</etiqueta>
           <lema>le</lema>
         </constituyente>
       </análisis_unidad>

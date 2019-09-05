@@ -2,7 +2,8 @@
 
 module LemmatizerSpanishEslora
   def lemmatize(word, tag, lemma)
-    unless lemma
+    # STDERR.puts "(lemmatize) word:#{word}, tag:#{tag}, lemma:#{lemma}"
+    if !lemma or tag =~ /^NP/ 
       # Diminutives
       if word =~ /ito$/
         new_lemma = word.delete_suffix("ito") << ("o")

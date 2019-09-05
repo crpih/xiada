@@ -44,7 +44,6 @@ muy	W	mucho
 <pausa/>	ETQ_PAUSA	<pausa/>
 muy	W	mucho
 <pausa/>	ETQ_PAUSA	<pausa/>
-d	ETQ_CORTADA	d
 <pausa/>	ETQ_PAUSA	<pausa/>
 tenemos	VIP1P	tener
 un	DCMS	un
@@ -588,7 +587,6 @@ a	X	a
 ver	VNP	ver
 yo	PY1ESN	yo
 ya	W	ya
-pa	ETQ_CORTADA	pa
 paro	VIP1S	parar
 <pausa/>	ETQ_PAUSA	<pausa/>
 paro	VIP1S	parar
@@ -1025,7 +1023,6 @@ bajo	NCMS	bajo
 de	X	de
 de	X	de
 la	DAFS	el
-aug	ETQ_CORTADA	aug
 <pausa/>	ETQ_PAUSA	<pausa/>
 de	X	de
 ese	DDMS	ese
@@ -1087,7 +1084,6 @@ que	C	que
 bueno	I	bueno
 las	DAFP	el
 primeras	DRFP	primer
-veinti	ETQ_CORTADA	veinti
 <pausa/>	ETQ_PAUSA	<pausa/>
 cuatro	DCFP	cuatro
 horas	NCFP	hora
@@ -1118,7 +1114,6 @@ primeros	DRMP	primer
 cursos	NCMP	curso
 
 eh	I	eh
-peque	ETQ_CORTADA	peque
 <pausa/>	ETQ_PAUSA	<pausa/>
 o sea	W	o sea
 en	X	en
@@ -1352,7 +1347,6 @@ no	W	no
 
 ay	I	ay
 mira	VMP2S	mirar
-noso	ETQ_CORTADA	noso
 ya	W	ya
 te	PY2ESO	te
 contaremos	VIF1P	contar
@@ -1379,7 +1373,6 @@ sí	W	sí
 <pausa/>	ETQ_PAUSA	<pausa/>
 ya	W	ya
 yo	PY1ESN	yo
-ha	ETQ_CORTADA	ha
 sé	VIP1S	saber
 de	X	de
 lo	DANS	el
@@ -1504,7 +1497,6 @@ mucha	DQFS	mucho
 gente	NCFS	gente
 va	VIP3S	ir
 a	X	a
-o	ETQ_CORTADA	o
 <pausa/>	ETQ_PAUSA	<pausa/>
 va	VIP3S	ir
 a	X	a
