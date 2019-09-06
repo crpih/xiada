@@ -3104,7 +3104,6 @@ más o menos	W	más o menos
 todo	PGAS	todo
 tal	PDAS	tal
 
-chi	NO_CATEGORIZADA	chi
 
 hay	VIP3S	haber
 análisis	NCML	análisis
@@ -23941,7 +23940,6 @@ sí	W	sí
 eso	PDNS	ese
 se	PY3NSO	se
 venía	VII3S	venir
-vir	NO_CATEGORIZADA	vir
 ¡	Q	¡
 eh	I	eh
 !	Q	!
@@ -23954,7 +23952,6 @@ euro	NCMS	euro
 
 se	PY3ISO	se
 venía	VII3S	venir
-vir	NO_CATEGORIZADA	vir
 <pausa/>	ETQ_PAUSA	<pausa/>
 
 ¿	Q	¿
@@ -34244,8 +34241,6 @@ por	X	por
 aquí	W	aquí
 en plan	W	en plan
 <pausa/>	ETQ_PAUSA	<pausa/>
-chi	NO_CATEGORIZADA	chi
-chi	NO_CATEGORIZADA	chi
 estaba	VII3S	estar
 todo	DGMS	todo
 el	DAMS	el
@@ -34288,7 +34283,6 @@ eeh	I	eeh
 Roma	NPEL	Roma
 era	VII3S	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
-titi	NO_CATEGORIZADA	titi
 <pausa/>	ETQ_PAUSA	<pausa/>
 sí	W	sí
 Citiavechia	NPEL	Citiavechia
@@ -51933,8 +51927,6 @@ cuánto	PTNS	cuánto
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 entonces	W	entonces
-lo	NO_CATEGORIZADA	lo
-lo	NO_CATEGORIZADA	lo
 los	DAMP	el
 colchones	NCMP	colchón
 <pausa/>	ETQ_PAUSA	<pausa/>
