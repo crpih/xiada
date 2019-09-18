@@ -475,11 +475,12 @@ class XMLListener
     @sentence.idioms_processing unless @remove_join_opt # Must be processed before numerals
     STDERR.puts "Processing proper nouns..."
     @sentence.proper_nouns_processing(@trained_proper_nouns, @remove_join_opt)
+    #@sentence.print(STDERR)
     STDERR.puts "Processing numerals..."
     @sentence.numerals_processing
     STDERR.puts "Processing enclitics..."
     @sentence.enclitics_processing
-    #@sentence.print(STDERR)
+    # @sentence.print(STDERR)
     STDERR.puts "Applying Viterbi..."
     #@sentence.print(STDERR)
     viterbi = Viterbi.new(@dw)
