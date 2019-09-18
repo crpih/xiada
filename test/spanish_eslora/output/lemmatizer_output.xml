@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <documento>
   <fragmento>
-    <expresión>Es un muñeco pequeñito</expresión>
+    <expresión>es un muñeco pequeñito</expresión>
     <análisis>
       <análisis_unidad>
-        <unidad>Es</unidad>
+        <unidad>es</unidad>
         <constituyente>
           <forma>es</forma>
           <etiqueta>VIP3S</etiqueta>
@@ -38,10 +38,10 @@
     </análisis>
   </fragmento>
   <fragmento>
-    <expresión>No le gustan los perritos</expresión>
+    <expresión>no le gustan los perritos</expresión>
     <análisis>
       <análisis_unidad>
-        <unidad>No</unidad>
+        <unidad>no</unidad>
         <constituyente>
           <forma>no</forma>
           <etiqueta>W</etiqueta>
@@ -83,10 +83,10 @@
     </análisis>
   </fragmento>
   <fragmento>
-    <expresión>Fue Albertito el que lo dijo</expresión>
+    <expresión>fue Albertito el que lo dijo</expresión>
     <análisis>
       <análisis_unidad>
-        <unidad>Fue</unidad>
+        <unidad>fue</unidad>
         <constituyente>
           <forma>fue</forma>
           <etiqueta>VIS3S</etiqueta>
@@ -99,7 +99,7 @@
         <constituyente>
           <forma>Albertito</forma>
           <etiqueta>NPEL</etiqueta>
-          <lema>Alberto</lema>
+          <lema>Albertito</lema>
         </constituyente>
       </análisis_unidad>
       <análisis_unidad>
@@ -132,6 +132,139 @@
           <forma>dijo</forma>
           <etiqueta>VIS3S</etiqueta>
           <lema>decir</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>Cáritas cortito Pepito rebujitos abrigadita abrochaditos Arco de Tito arregladita bendita Benito cargaditos colocaditas colocadito poquito a poco</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>Cáritas</unidad>
+        <constituyente>
+          <forma>Cáritas</forma>
+          <etiqueta>NPMS</etiqueta>
+          <lema>Cáritas</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>cortito</unidad>
+        <constituyente>
+          <forma>cortito</forma>
+          <etiqueta>AMS</etiqueta>
+          <lema>corto</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>Pepito</unidad>
+        <constituyente>
+          <forma>Pepito</forma>
+          <etiqueta>NPMS</etiqueta>
+          <lema>Pepe</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>rebujitos</unidad>
+        <constituyente>
+          <forma>rebujitos</forma>
+          <etiqueta>NCMP</etiqueta>
+          <lema>rebujo</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>abrigadita</unidad>
+        <constituyente>
+          <forma>abrigadita</forma>
+          <etiqueta>AAS</etiqueta>
+          <lema>abrigado</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>abrochaditos</unidad>
+        <constituyente>
+          <forma>abrochaditos</forma>
+          <etiqueta>AMP</etiqueta>
+          <lema>*</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>Arco de Tito</unidad>
+        <constituyente>
+          <forma>Arco de Tito</forma>
+          <etiqueta>NPMP</etiqueta>
+          <lema>Arco de Tito</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>arregladita</unidad>
+        <constituyente>
+          <forma>arregladita</forma>
+          <etiqueta>AFS</etiqueta>
+          <lema>arreglado</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>bendita</unidad>
+        <constituyente>
+          <forma>bendita</forma>
+          <etiqueta>NCFS</etiqueta>
+          <lema>*</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>Benito</unidad>
+        <constituyente>
+          <forma>Benito</forma>
+          <etiqueta>NPMS</etiqueta>
+          <lema>Benito</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>cargaditos</unidad>
+        <constituyente>
+          <forma>cargaditos</forma>
+          <etiqueta>AMP</etiqueta>
+          <lema>cargado</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>colocaditas</unidad>
+        <constituyente>
+          <forma>colocaditas</forma>
+          <etiqueta>AEP</etiqueta>
+          <lema>colocado</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>colocadito</unidad>
+        <constituyente>
+          <forma>colocadito</forma>
+          <etiqueta>NCMS</etiqueta>
+          <lema>colocado</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>poquito</unidad>
+        <constituyente>
+          <forma>poquito</forma>
+          <etiqueta>PQAS</etiqueta>
+          <lema>poco</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>a</unidad>
+        <constituyente>
+          <forma>a</forma>
+          <etiqueta>X</etiqueta>
+          <lema>a</lema>
+        </constituyente>
+      </análisis_unidad>
+      <análisis_unidad>
+        <unidad>poco</unidad>
+        <constituyente>
+          <forma>poco</forma>
+          <etiqueta>W</etiqueta>
+          <lema>poco</lema>
         </constituyente>
       </análisis_unidad>
     </análisis>
