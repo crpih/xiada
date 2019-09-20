@@ -15,7 +15,7 @@ module LemmatizerSpanishEslora
         new_lemma = word.delete_suffix("itas") << ("o")
       end
       if new_lemma
-        infos = @dw.get_emissions_info(new_lemma, ["NCMS","AMS"])
+        infos = @dw.get_emissions_info(new_lemma, ["NCMS","AMS","VPMS","PQMS"])
         # STDERR.puts "new_lemma: #{new_lemma}, infos:#{infos}"
         return new_lemma unless infos.empty?
       end
