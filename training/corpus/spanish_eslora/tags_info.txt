@@ -8,10 +8,4 @@ Q	closed	punctuation_mark
 C	closed	conjunction
 X	closed	preposition
 NP	opened	proper_noun
-Simb	opened	peripheric
-Hora	opened	peripheric
-Cifra	opened	peripheric
-Abreviatura	opened	peripheric
-ETQ_CORTADA	opened	any_word
-ETQ_LENGUA	closed	foreign
 ETQ_PAUSA	closed	puntuation_mark

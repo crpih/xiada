@@ -85,7 +85,7 @@ class DatabaseWrapper
   end
 
   def get_trigram_probability(tag_i, tag_j, tag_k)
-    # STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
+    #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
     result = @db.get_first_value("select log_aijk from trigram_frequencies where ti='#{SQLUtils.escape_SQL(tag_i)}' and tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
     if result == nil
       result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
