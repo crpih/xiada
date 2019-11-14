@@ -1,8 +1,10 @@
-all: clean galician_xiada spanish_eslora
+all: clean galician_xiada spanish_eslora spanish_eslora_new
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
 spanish_eslora: clean_spanish_eslora spanish_eslora_oral
+
+spanish_eslora_new: clean_spanish_eslora spanish_eslora_oral_new
 
 galician_xiada_escrita:
 	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
@@ -30,6 +32,12 @@ galician_xiada_relato:
 
 spanish_eslora_oral:
 	ruby xiada_training.rb ../corpus/spanish_eslora/corpus_eslora.tagged ../databases/spanish_eslora/training_spanish_eslora.db ../corpus/spanish_eslora/tags_info.txt ../lexicons/spanish_eslora/lexicon_principal_completado.txt
+	cd ../lexicons/bin; make spanish_eslora; cd ../../bin
+
+spanish_eslora_oral_new:
+	cat ../corpus/spanish_eslora/corpus_eslora.tagged | sed 's/fui\tVIS1S\tser/fui\tVIS1Sser\tser/;s/fuiste\tVIS2S\tser/fuiste\tVIS2Sser\tser/;s/fue\tVIS3S\tser/fue\tVIS3Sser\tser/;s/fuimos\tVIS1P\tser/fuimos\tVIS1Pser\tser/;s/fuísteis\tVIS2P\tser/fuísteis\tVIS2Pser\tser/;s/fueron\tVIS3P\tser/fueron\tVIS3Pser\tser/;s/fui\tVIS1S\tir/fui\tVIS1Sir\tir/;s/fuiste\tVIS2S\tir/fuiste\tVIS2Sir\tir/;s/fue\tVIS3S\tir/fue\tVIS3Sir\tir/;s/fuimos\tVIS1P\tir/fuimos\tVIS1Pir\tir/;s/fuisteis\tVIS2P\tir/fuisteis\tVIS2Pir\tir/;s/fueron\tVIS3P\tir/fueron\tVIS3Pir\tir/' > ../corpus/spanish_eslora/corpus_eslora_new.tagged
+	cat ../lexicons/spanish_eslora/lexicon_principal_completado.txt | sed 's/fui\tVIS1S\tser/fui\tVIS1Sser\tser/;s/fuiste\tVIS2S\tser/fuiste\tVIS2Sser\tser/;s/fue\tVIS3S\tser/fue\tVIS3Sser\tser/;s/fuimos\tVIS1P\tser/fuimos\tVIS1Pser\tser/;s/fuísteis\tVIS2P\tser/fuísteis\tVIS2Pser\tser/;s/fueron\tVIS3P\tser/fueron\tVIS3Pser\tser/;s/fui\tVIS1S\tir/fui\tVIS1Sir\tir/;s/fuiste\tVIS2S\tir/fuiste\tVIS2Sir\tir/;s/fue\tVIS3S\tir/fue\tVIS3Sir\tir/;s/fuimos\tVIS1P\tir/fuimos\tVIS1Pir\tir/;s/fuisteis\tVIS2P\tir/fuisteis\tVIS2Pir\tir/;s/fueron\tVIS3P\tir/fueron\tVIS3Pir\tir/' > ../lexicons/spanish_eslora/lexicon_principal_completado_new.txt
+	ruby xiada_training.rb ../corpus/spanish_eslora/corpus_eslora_new.tagged ../databases/spanish_eslora/training_spanish_eslora.db ../corpus/spanish_eslora/tags_info.txt ../lexicons/spanish_eslora/lexicon_principal_completado_new.txt
 	cd ../lexicons/bin; make spanish_eslora; cd ../../bin
 
 clean: clean_galician_xiada clean_spanish_eslora

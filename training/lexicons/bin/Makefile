@@ -18,3 +18,4 @@ galician_xiada_relato:
 
 spanish_eslora:
 	ruby add_lexicons.rb ../../databases/spanish_eslora/training_spanish_eslora.db ../spanish_eslora/contraccions.txt ../spanish_eslora/lexicon_locucions_seguras.txt ../spanish_eslora/lexicon_locucions_inseguras.txt ../spanish_eslora/lexicon_abreviaturas.txt ../spanish_eslora/lexicon_siglas.txt ../spanish_eslora/lexicon_propios.txt ../spanish_eslora/proper_nouns_links.txt ../spanish_eslora/proper_nouns_candidate_tags.txt ../spanish_eslora/lexicon_numerais_cardinais.txt ../spanish_eslora/numerals_values.txt ../spanish_eslora/lexicon_verbos_cliticos.txt ../spanish_eslora/lexicon_cliticos.txt ../spanish_eslora/lexicon_combinacions_cliticos.txt ../../corpus/spanish_eslora/tags_info.txt
+	
