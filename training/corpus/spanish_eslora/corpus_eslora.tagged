@@ -423,7 +423,7 @@ esa	DDFS	ese
 cena	NCFS	cena
 otro	DNMS	otro
 gallo	NCMS	gallo
-cantaría	VIC3s	cantar
+cantaría	VIC3S	cantar
 
 ¡	Q	¡
 qué	DTMS	qué
@@ -3302,6 +3302,81 @@ pon	VMP2S	poner
 me	PY1ESO	me
 un	DIES	un
 <pausa/>	ETQ_PAUSA	<pausa/>
+
+cada	DBMS	cada
+uno	PNMS	uno
+anda	VIP3S	andar
+a	X	a
+lo	DANS	el
+suyo	PS3NS	suyo
+
+pero	C	pero
+nada	PNNS	nada
+bueno	I	bueno
+después	W	después
+ellos	PY3MPQ	él
+andan	VIP6S	andar
+a	X	a
+lo	DANS	el
+suyo	PS6NS	suyo
+y	C	y
+<pausa/>	ETQ_PAUSA	<pausa/>
+y	C	y
+ahí	W	ahí
+viene	VIP3S	venir
+el	DAMS	el
+gordo	AMS	gordo
+y	C	y
+ya	W	ya
+se	PY3MSO	se
+nos	PY1EPO	nos
+sienta	VIP3S	sentar
+a	X	a
+el	DAMS	el
+lado	NCMS	lado
+<pausa_larga/>	ETQ_PAUSA	<pausa/>
+
+todo	PGAS	todo
+es	VIP3S	ser
+más	DOAS	más
+que	C	que
+mucho	PQAS	mucho
+
+bastante	PQIS	bastante
+es	VIP3S	ser
+más	DOIS	más
+que	C	que
+un poco	PQIS	un poco
+
+nada	PNNS	nada
+es	VIP3S	ser
+menos	DONS	menos
+que	C	que
+algo	PNNS	algo
+
+de	X	de
+esas	DDFP	ese
+cajas	NCFP	caja
+con	X	con
+gominolas	NCFP	gominola
+,	Q	,
+coge	VMP2S	coger
+una	PCFS	uno
+de	X	de
+cada	PBFS	cada
+
+
+de	X	de
+esos	DDMP	ese
+paquetes	NCMP	paquete
+con	X	con
+gominolas	NCFP	gominola
+,	Q	,
+coge	VMP2S	coger
+una	PCFS	uno
+de	X	de
+cada	PBMS	cada
+
 fui	VIS1S	ser
 repartidor	NCMS	repartidor
 y	C	y
