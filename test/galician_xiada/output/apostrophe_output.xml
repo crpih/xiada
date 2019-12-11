@@ -282,21 +282,12 @@
         </constituínte>
       </análise_unidade>
       <análise_unidade>
-        <unidade>Gerry</unidade>
+        <unidade>Gerry O'Connor</unidade>
         <constituínte>
-          <forma>Gerry</forma>
-          <etiqueta>Spms</etiqueta>
-          <lema>Gerry</lema>
-          <hiperlema>Gerry</hiperlema>
-        </constituínte>
-      </análise_unidade>
-      <análise_unidade>
-        <unidade>O'Connor</unidade>
-        <constituínte>
-          <forma>O'Connor</forma>
-          <etiqueta>A0ms</etiqueta>
-          <lema>*</lema>
-          <hiperlema>*</hiperlema>
+          <forma>Gerry O'Connor</forma>
+          <etiqueta>Sp00</etiqueta>
+          <lema>Gerry O'Connor</lema>
+          <hiperlema>Gerry O'Connor</hiperlema>
         </constituínte>
       </análise_unidade>
     </análise>

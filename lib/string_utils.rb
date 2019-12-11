@@ -54,7 +54,7 @@ class StringUtils
   end
 
   def self.first_only_upper?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑ][a-záéíóúñüöäëçâ@\-\)\(\/) ]+$/
+    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/ ]+$/ 
       return true
     else
       return false
@@ -62,7 +62,7 @@ class StringUtils
   end
 
   def self.alone_letter_upper?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑ]$/
+    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]$/
       return true
     else
       return false
@@ -70,7 +70,14 @@ class StringUtils
   end
 
   def self.propers_joined?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑ][a-záéíóúñüöäëçâ@\-\)\(\/) ]+-[A-ZÁÉÍÓÚÑ][a-záéíóúñüöäëçâ@\-\)\(\/) ]*$/
+    STDERR.puts "---#{str}---"
+    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/ ]+[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
+       # Barcelona-Tarragona
+       str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]+[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/ ||
+       # YouTube
+       str =~ /^([A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]*)*'[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/
+       # L'Oréal
+       # Gerry O'Connor
       return true
     else
       return false
@@ -94,7 +101,7 @@ class StringUtils
   end
 
   def self.all_lower?(str)
-    if str =~ /^[a-záéíóúñüöäëçâ]+$/
+    if str =~ /^[a-záéíóúñàèìòùäëïöüçâêîôûãõ]+$/
       return true
     else
       return false

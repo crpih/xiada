@@ -205,4 +205,56 @@
       </análisis_unidad>
     </análisis>
   </fragmento>
+  <fragmento>
+    <expresión>Carrà</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>Carrà</unidad>
+        <constituyente>
+          <forma>Carrà</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>Carrà</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>L'Oréal</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>L'Oréal</unidad>
+        <constituyente>
+          <forma>L'Oréal</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>L'Oréal</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>YouTube</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>YouTube</unidad>
+        <constituyente>
+          <forma>YouTube</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>YouTube</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
+  <fragmento>
+    <expresión>São Paulo</expresión>
+    <análisis>
+      <análisis_unidad>
+        <unidad>São Paulo</unidad>
+        <constituyente>
+          <forma>São Paulo</forma>
+          <etiqueta>NPEL</etiqueta>
+          <lema>São Paulo</lema>
+        </constituyente>
+      </análisis_unidad>
+    </análisis>
+  </fragmento>
 </documento>
