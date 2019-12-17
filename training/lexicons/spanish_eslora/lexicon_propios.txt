@@ -284,6 +284,8 @@ Periodismo	NPEL	Periodismo
 Photoshop	NPEL	Photoshop
 PIB	NCMP	producto interior bruto
 PIB	NCMS	producto interior bruto
+Pío doce	NPEL	Pío doce
+Pío doce	NPMS	Pío doce
 Pirineo	NPMS	Pirineo
 PMA	NPMS	Programa Mundial de Alimentos
 PNV	NPMS	Partido Nacionalista Vasco
@@ -399,6 +401,7 @@ VIP	NCMS	very important person
 Vite	NPEL	Vite
 VLT	NPMS	Very Large Telescope
 Vuelvamañana	NPEL	Vuelvamañana
+WhatsApp	NPEL	WhatsApp
 Xunta de Galicia	NPFS	Xunta de Galicia
 Xunta	NPFS	Xunta
 Zaragoza	NPEL	Zaragoza
@@ -585,3 +588,86 @@ Yanet	NPFS	Yanet
 Ángel	NPMS	Ángel
 Íñigo	NPMS	Íñigo
 Óscar	NPMS	Óscar
+Alicia de la Rocha	NPFS	Alicia de la Rocha
+Antena tres	NPEL	Antena tres
+American History X	NPEL	American History X
+Banco del Pobre	NPMS	Banco del Pobre
+Castilla y León	NPEL	Castilla y León
+D3	NPMS	D3
+Dios ke te crew	NPEL	Dios ke te crew
+Django desencadenado	NPEL	Django desencadenado
+El bosque animado	NPEL	El bosque animado
+El golpe	NPEL	El golpe
+El lado bueno de las cosas	NPEL	El lado bueno de las cosas
+El mago de Oz	NPEL	El mago de Oz
+El niño de el pijama de rayas	NPEL	El niño de el pijama de rayas
+El ojo crítico	NPEL	El ojo crítico
+El país	NPEL	El país
+El patito feo	NPEL	El patito feo
+FAO	NPFS	FAO
+Foster's	NPMS	Foster's
+Foster's Hollywood	NPMS	Foster's Hollywood
+Guerra y Paz	NPEL	Guerra y Paz
+James Franco	NPMS	James Franco
+Juego de tronos	NPEL	Juego de tronos
+King's	NPES	King's
+La chica invisible	NPEL	La chica invisible
+La granja	NPEL	La granja
+La huésped	NPEL	La huésped
+La lengua de las mariposas	NPEL	La lengua de las mariposas
+La noche más oscura	NPEL	La noche más oscura
+La ser	NPEL	La ser
+La vida es bella	NPEL	La vida es bella
+La voz de Galicia	NPEL	La voz de Galicia
+La voz dormida	NPEL	La voz dormida
+League of Legends	NPES	League of Legends
+Leo DiCaprio	NPMS	Leo DiCaprio
+Leonardo da Vinci	NPMS	Leonardo da Vinci
+Leonardo DiCaprio	NPMS	Leonardo DiCaprio
+Lo que el viento se llevó	NPEL	Lo que el viento se llevó
+LOL	NPMS	LOL
+Los cuentos de Canterbury	NPEL	Los cuentos de Canterbury
+Los juegos de el hambre	NPEL	Los juegos de el hambre
+Los miserables	NPEL	Los miserables
+Mar adentro	NPEL	Mar adentro
+Mi gran boda gitana	NPEL	Mi gran boda gitana
+Mi lucha	NPEL	Mi lucha
+Mil nueve	NPEL	Mil nueve
+Mitsubishi Evo Nueve	NPMS	Mitsubishi Evo Nueve
+Mujeres y Hombres	NPEL	Mujeres y Hombres
+Nadie debería morir	NPEL	Nadie debería morir
+Nova Caixa Galicia Banco	NPEL	Nova Caixa Galicia Banco
+Nova Galicia Banco	NPEL	Nova Galicia Banco
+O sol do verán	NPEL	O sol do verán
+O Son do verán	NPEL	O Son do verán
+OT	NPEL	OT
+Pablo sexto	NPMS	Pablo sexto
+Perro muerto a medianoche	NPEL	Perro muerto a medianoche
+Pesadilla antes de Navidad	NPEL	Pesadilla antes de Navidad
+Pío doce	NPEL	Pío doce
+Plaza del Obradoiro	NPFS	Plaza del Obradoiro
+Por siempre jamás	NPEL	Por siempre jamás
+Puerta del Camino	NPFS	Puerta del Camino
+Puerto de la Cruz	NPEL	Puerto de la Cruz
+Rapa da Folla	NPEL	Rapa da Folla
+Raffaella Carrà	NPFS	Raffaella Carrà
+Rúa del Villar	NPEL	Rúa del Villar
+Rúa del Villar	NPEL	Rúa del Villar
+Ruta de la Plata	NPEL	Ruta de la Plata
+Saber y Ganar	NPEL	Saber y Ganar
+Sagrada Familia	NPFS	Sagrada Familia
+São Paulo	NPES	São Paulo
+School of Rock	NPEL	School of Rock
+Sé lo que hicisteis	NPEL	Sé lo que hicisteis
+Sé lo que hicisteis la última semana	NPEL	Sé lo que hicisteis la última semana
+Sociedad de Amigos del País	NPFS	Sociedad de Amigos del País
+The Kiddy's Class	NPEL	The Kiddy's Class
+Tiempo de juego	NPEL	Tiempo de juego
+Todos los días de mi vida	NPEL	Todos los días de mi vida
+Torre de la Berenguela	NPFS	Torre de la Berenguela
+U2	NPEL	U2
+Un país para comérselo	NPEL	Un país para comérselo
+Veinticuatro horas	NPEL	Veinticuatro horas
+Viajando con Chester	NPEL	Viajando con Chester
+Visto en Facebook	NPEL	Visto en Facebook
+Y punto	NPEL	Y punto
