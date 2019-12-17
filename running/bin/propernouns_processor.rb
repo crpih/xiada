@@ -371,9 +371,10 @@ class ProperNounsProcessor
   def join_lexicon_proper_noun(from, to)
     #puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
-    results = @dw.get_tags_lemmas_emissions(token.text, @candidate_tags)
+    # results = @dw.get_tags_lemmas_emissions(token.text, @candidate_tags)
+    results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
     if results.empty?
-      results = @dw.get_proper_noun_tags(token.text) if results.empty?
+      results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|
         token.add_tag_lemma_emission(tag, token.text, token.text, 0.0, false)
       end

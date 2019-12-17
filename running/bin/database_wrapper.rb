@@ -29,6 +29,11 @@ class DatabaseWrapper
     return result
   end
 
+  def get_tags_lemmas_emissions_strict(word, tags)
+    # this function doen't check for suffix analysis nor open tags.
+    return get_emissions_info(word, tags)
+  end
+
   def get_tags_lemmas_emissions(word, tags)
     # STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
     max_length = 0
