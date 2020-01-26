@@ -1279,11 +1279,11 @@ no	W	no
 <pausa/>	ETQ_PAUSA	<pausa/>
 eeh	I	eeh
 se	PY3FPO	se
-mantendrán	VIF3P	mantener
+mantendrán	VIH3P	mantener
 las	DAFP	el
 mismas	PEFP	mismo
 que	PLFS	que
-será	VIF3S	ser
+será	VIH3S	ser
 la	DAFS	el
 música	NCFS	música
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -1328,13 +1328,13 @@ y	C	y
 tal	PDIS	tal
 <pausa/>	ETQ_PAUSA	<pausa/>
 
-tendré	VIF1S	tener
+tendré	VIH1S	tener
 que	C	que
 coger	VNP	coger
 el	DAMS	el
 
 puf	I	puf
-tendrás	VIF2S	tener
+tendrás	VIH2S	tener
 la	DAFS	el
 cabeza	NCFS	cabeza
 como	W	como
@@ -1348,10 +1348,10 @@ ay	I	ay
 mira	VMP2S	mirar
 ya	W	ya
 te	PY2ESO	te
-contaremos	VIF1P	contar
+contaremos	VIH1P	contar
 
 no	W	no
-estaréis	VIF2P	estar
+estaréis	VIH2P	estar
 en	X	en
 clase	NCFS	clase
 diciendo	VGP	decir
@@ -2036,7 +2036,7 @@ todo	PGMS	todo
 aquí	W	aquí
 
 mañana	W	mañana
-habrá	VIF3S	haber
+habrá	VIH3S	haber
 más	DOEL	más
 guardaespaldas	NCEL	guardaespaldas
 rascando	VGP	rascar
@@ -2100,7 +2100,7 @@ esto	PDNS	este
 
 las	DAFP	el
 primeras	PRFP	primero
-seremos	VIF1P	ser
+seremos	VIH1P	ser
 nosotras	PY1FPQ	nosotros
 ,	Q	,
 los	DAMP	el
@@ -2112,7 +2112,7 @@ la	DAFS	el
 clase	NCFS	clase
 de	X	de
 María	NPFS	María
-será	VIF3S	ser
+será	VIH3S	ser
 la	DAFS	el
 tercera	PRFS	tercero
 
@@ -2183,22 +2183,22 @@ tarde	W	tarde
 mis	DS1EP	mi
 guardaespaldas	NCEP	guardaespaldas
 me	PY1ESO	me
-protegerán	VIF3P	proteger
+protegerán	VIH3P	proteger
 
 mi	DS1ES	mi
 guardaespaldas	NCES	guardaespaldas
 me	PY1ESO	me
-protegerá	VIF3S	proteger
+protegerá	VIH3S	proteger
 
 tus	DS2EP	tu
 guardaespaldas	NCEP	guardaespaldas
 me	PY1ESO	me
-protegerán	VIF3P	proteger
+protegerán	VIH3P	proteger
 
 tu	DS2ES	tu
 guardaespaldas	NCES	guardaespaldas
 me	PY1ESO	me
-protegerá	VIF3S	proteger
+protegerá	VIH3S	proteger
 
 sus	DS3FP	su
 fotos	NCFP	foto
@@ -2305,21 +2305,21 @@ pan	NCMS	pan
 
 cuando	W	cuando
 llegue	VSP4S	llegar
-será	VIF3S	ser
+será	VIH3S	ser
 tarde	W	tarde
 
 cuando	W	cuando
 yo	PY1ESN	yo
 llegue	VSP1S	llegar
 ya	W	ya
-estarás	VIF2S	estar
+estarás	VIH2S	estar
 dormido	VPMS	dormir
 
 cuando	W	cuando
 lleguemos	VSP1P	llegar
 ya	W	ya
 tú	PY2ESN	tú
-estarás	VIF2S	estar
+estarás	VIH2S	estar
 durmiendo	VGP	dormir
 
 empieza	VUP5S	empezar
@@ -2793,11 +2793,11 @@ por	X	por
 sí	PY3ISP	sí
 
 adonde	W	adonde
-fueres	VSF2S	ir
+fueres	VSH2S	ir
 haz	VMP2S	hacer
 lo	DANS	el
 que	PLNS	que
-vieres	VSF2S	ver
+vieres	VSH2S	ver
 
 hay	VIP3S	haber
 que	C	que
@@ -2807,13 +2807,13 @@ ayuda	NCFS	ayuda
 venga	VSP3S	venir
 de	X	de
 donde	W	donde
-viniere	VSF3S	venir
+viniere	VSH3S	venir
 
 si	C	si
 así	W	así
 no	W	no
 lo	PY3ASW	lo
-hicieren	VSF3P	hacer
+hicieren	VSH3P	hacer
 ,	Q	,
 que	C	que
 la	DAFS	el
@@ -2823,20 +2823,20 @@ los	PY3MPA	lo
 demande	VSP3S	demandar
 
 os	PY2EPO	os
-haremos	VIF1P	hacer
+haremos	VIH1P	hacer
 todos	DGMP	todo
 los	DAMP	el
 males	NCMP	mal
 y	C	y
 daños	NCMP	daño
 que	PLMP	que
-pudiéremos	VSF1P	poder
+pudiéremos	VSH1P	poder
 
 si	C	si
 así	W	así
 no	W	no
 lo	PY3ASW	lo
-hiciereis	VSF2P	hacer
+hiciereis	VSH2P	hacer
 ,	Q	,
 que	C	que
 Dios	NPMS	Dios
@@ -2859,7 +2859,7 @@ hechos	NCMP	hecho
 en	X	en
 los cuales	PLMP	el cual
 jamás	W	jamás
-hubiere	VSF1S	haber
+hubiere	VSH1S	haber
 participado	VPMS	participar
 
 a	X	a
@@ -2931,7 +2931,7 @@ Marías	NPFP	María
 
 en	X	en
 agosto	NCMS	agosto
-iré	VIF1S	ir
+iré	VIH1S	ir
 a	X	a
 la	DAFS	el
 playa	NCFS	playa
@@ -2962,7 +2962,7 @@ comida	NCFS	comida
 
 sea	VSP4S	ser
 como	W	como
-fuere	VSF4S	ser
+fuere	VSH4S	ser
 es	VIP3S	ser
 indiferente	ANS	indiferente
 en	X	en
@@ -3009,7 +3009,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIF3S	venir
+vendrá	VIH3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3026,7 +3026,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIF3S	venir
+vendrá	VIH3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3042,7 +3042,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIF3S	venir
+vendrá	VIH3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3250,7 +3250,7 @@ con	X	con
 prioridad	NCFS	prioridad
 
 no	W	no
-haré	VIF1S	hacer
+haré	VIH1S	hacer
 yo	PY1ESN	yo
 tal	PDIS	tal
 ,	Q	,
@@ -4593,14 +4593,14 @@ no	W	no
 el	DAMS	el
 día	NCMS	día
 uno	PCMS	uno
-iré	VIF1S	ir
+iré	VIH1S	ir
 para	X	para
 allí	W	allí
 para	X	para
 Madrid	NPEL	Madrid
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
-volveré	VIF1S	volver
+volveré	VIH1S	volver
 el	DAMS	el
 día	NCMS	día
 dos	PCMS	dos
@@ -4608,7 +4608,7 @@ o	C	o
 así	W	así
 <pausa/>	ETQ_PAUSA	<pausa/>
 porque	C	porque
-habrá	VIF3S	haber
+habrá	VIH3S	haber
 que	C	que
 dormir	VNP	dormir
 allí	W	allí
@@ -4975,7 +4975,7 @@ son	VIP3P	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 las	DAFP	el
 grabaciones	NCFP	grabación
-podrán	VIF3P	poder
+podrán	VIH3P	poder
 ser	VNP	ser
 utilizadas	VPFP	utilizar
 en	X	en
@@ -5004,7 +5004,7 @@ sí	W	sí
 <pausa/>	ETQ_PAUSA	<pausa/>
 
 eh	I	eh
-podrán	VIF3P	poder
+podrán	VIH3P	poder
 ser	VNP	ser
 utilizadas	VPFP	utilizar
 en	X	en
@@ -6918,7 +6918,7 @@ alguna	DNFS	algún
 gente	NCFS	gente
 no	W	no
 <pausa/>	ETQ_PAUSA	<pausa/>
-querrá	VIF3S	querer
+querrá	VIH3S	querer
 recordar	VNP	recordar
 lo	PY3MSW	lo
 para	X	para
@@ -7041,11 +7041,11 @@ ahora	W	ahora
 bueno	I	bueno
 ya	W	ya
 la	PY3FSA	lo
-leeré	VIF1S	leer
+leeré	VIH1S	leer
 
 ya	W	ya
 la	PY3FSA	lo
-leeré	VIF1S	leer
+leeré	VIH1S	leer
 
 ya	W	ya
 conseguí	VIS1S	conseguir
@@ -8605,7 +8605,7 @@ bueno	I	bueno
 nada	PNNS	nada
 <pausa/>	ETQ_PAUSA	<pausa/>
 tú	PY2ESN	tú
-dirás	VIF2S	decir
+dirás	VIH2S	decir
 
 si	C	si
 quieres	VIP2S	querer
@@ -11047,7 +11047,7 @@ pero	C	pero
 que	C	que
 eso	PDNS	ese
 se	PY3ISO	se
-será	VIF3S	ser
+será	VIH3S	ser
 toda	DGFS	todo
 la	DAFS	el
 vida	NCFS	vida
@@ -12445,7 +12445,7 @@ de	X	de
 la	DAFS	el
 mili	NCFS	mili
 también	W	también
-tendrá	VIF3S	tener
+tendrá	VIH3S	tener
 unas cuantas	PNFP	unos cuantos
 
 estar	VNP	estar
@@ -12678,7 +12678,7 @@ el	DAMS	el
 mundo	NCMS	mundo
 bua	I	bua
 <pausa/>	ETQ_PAUSA	<pausa/>
-estarás	VIF2S	estar
+estarás	VIH2S	estar
 harto	AMS	harto
 de	X	de
 ir	VNP	ir
@@ -12770,7 +12770,7 @@ no	W	no
 sé	VIP1S	saber
 <pausa/>	ETQ_PAUSA	<pausa/>
 tú	PY2ESN	tú
-dirás	VIF2S	decir
+dirás	VIH2S	decir
 yo	PY1ESN	yo
 es que	W	es que
 no	W	no
@@ -15606,7 +15606,7 @@ veintinueve	PCMP	veintinueve
 así que	C	así que
 ya	W	ya
 me	PY1ESO	me
-contarás	VIF2S	contar
+contarás	VIH2S	contar
 
 pero	C	pero
 pero	C	pero
@@ -15931,7 +15931,7 @@ no	W	no
 y	C	y
 mmm	I	mmm
 me	PY1ESO	me
-recordaré	VIF1S	recordar
+recordaré	VIH1S	recordar
 siempre	W	siempre
 que	C	que
 llegué	VIS1S	llegar
@@ -16754,7 +16754,7 @@ o	C	o
 cuatro	DCMP	cuatro
 años	NCMP	año
 se	PY3ISO	se
-estabilizará	VIF3S	estabilizar
+estabilizará	VIH3S	estabilizar
 <pausa/>	ETQ_PAUSA	<pausa/>
 un poco	W	un poco
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -18841,7 +18841,7 @@ en	X	en
 todo	DGNS	todo
 lo	DANS	el
 que	PLNS	que
-será	VIF3S	ser
+será	VIH3S	ser
 posteriormente	W	posteriormente
 las	DAFP	el
 literaturas	NCFP	literatura
@@ -19104,7 +19104,7 @@ de	X	de
 papelería	NCFS	papelería
 <pausa/>	ETQ_PAUSA	<pausa/>
 eeh	I	eeh
-tendremos	VIF1P	tener
+tendremos	VIH1P	tener
 que	C	que
 <pausa/>	ETQ_PAUSA	<pausa/>
 lo	DANS	el
@@ -19119,7 +19119,7 @@ futuro	NCMS	futuro
 de	X	de
 el	DAMS	el
 negocio	NCMS	negocio
-estará	VIF3S	estar
+estará	VIH3S	estar
 donde	W	donde
 esté	VSP3S	estar
 y	C	y
@@ -19127,7 +19127,7 @@ cualquier	DNMS	cualquier
 día	NCMS	día
 de	X	de
 estos	PDMP	este
-tendremos	VIF1P	tener
+tendremos	VIH1P	tener
 que	C	que
 empezar	VNP	empezar
 a	X	a
@@ -19137,7 +19137,7 @@ y	C	y
 revistas	NCFP	revista
 y	C	y
 yo	PY1ESN	yo
-volveré	VIF1S	volver
+volveré	VIH1S	volver
 a	X	a
 tener	VNP	tener
 la	DAFS	el
@@ -21029,7 +21029,7 @@ pues	C	pues
 eeh	I	eeh
 <pausa/>	ETQ_PAUSA	<pausa/>
 eeh	I	eeh
-seguirá	VIF3S	seguir
+seguirá	VIH3S	seguir
 siendo	VGP	ser
 una	DIFS	un
 mierda	NCFS	mierda
@@ -24396,7 +24396,7 @@ decía	VII3S	decir
 <pausa/>	ETQ_PAUSA	<pausa/>
 ¿	Q	¿
 y	C	y
-serán	VIF3P	ser
+serán	VIH3P	ser
 los	DAMP	el
 nervios	NCMP	nervio
 ?	Q	?
@@ -24404,7 +24404,7 @@ y	C	y
 yo	PY1ESN	yo
 oía	VII1S	oír
 ¿	Q	¿
-serán	VIF3P	ser
+serán	VIH3P	ser
 los	DAMP	el
 nervios	NCMP	nervio
 ?	Q	?
@@ -24434,7 +24434,7 @@ y	C	y
 tal	PDIS	tal
 corriendo	VGP	correr
 ¿	Q	¿
-serán	VIF3P	ser
+serán	VIH3P	ser
 los	DAMP	el
 nervios	NCMP	nervio
 ?	Q	?
@@ -28349,7 +28349,7 @@ juego	NCMS	juego
 <pausa/>	ETQ_PAUSA	<pausa/>
 
 ya	W	ya
-aprenderán	VIF3P	aprender
+aprenderán	VIH3P	aprender
 ¿	Q	¿
 no	W	no
 ?	Q	?
@@ -28804,7 +28804,7 @@ no	W	no
 van	VIP3P	ir
 a	X	a
 venir	VNP	venir
-vendrán	VIF3P	venir
+vendrán	VIH3P	venir
 de	X	de
 turistas	NCFP	turista
 y	C	y
@@ -29091,7 +29091,7 @@ sí	W	sí
 
 sí	W	sí
 
-tendréis	VIF2P	tener
+tendréis	VIH2P	tener
 poco	DQMS	poco
 tiempo	NCMS	tiempo
 para	X	para
@@ -32104,7 +32104,7 @@ cosas	NCFP	cosa
 a	X	a
 mí	PY1ESP	mí
 me	PY1ESO	me
-verá	VIF3S	ver
+verá	VIH3S	ver
 joven	AES	joven
 
 porque	C	porque
@@ -32215,7 +32215,7 @@ públicos	AMP	público
 pues	C	pues
 <pausa/>	ETQ_PAUSA	<pausa/>
 pues	C	pues
-tendré	VIF1S	tener
+tendré	VIH1S	tener
 ir	VNP	ir
 me	PY1ESO	me
 para	X	para
@@ -33568,7 +33568,7 @@ tampoco	W	tampoco
 <pausa/>	ETQ_PAUSA	<pausa/>
 no	W	no
 sé	VIP1S	saber
-será	VIF3S	ser
+será	VIH3S	ser
 que	C	que
 ya	W	ya
 estoy	VIP1S	estar
@@ -35730,7 +35730,7 @@ sí	W	sí
 ahora	W	ahora
 supongo	VIP1S	suponer
 que	C	que
-habrá	VIF3S	haber
+habrá	VIH3S	haber
 menos	DOFS	menos
 gente	NCFS	gente
 también	W	también
@@ -36595,7 +36595,7 @@ todo	PGAS	todo
 allí	W	allí
 
 si	C	si
-montarán	VIF3P	montar
+montarán	VIH3P	montar
 algo	PNNS	algo
 de	X	de
 comercio	NCMS	comercio
@@ -36637,12 +36637,12 @@ no	W	no
 sé	VIP1S	saber
 supongo	VIP1S	suponer
 que	C	que
-montarán	VIF3P	montar
+montarán	VIH3P	montar
 cosas	NCFP	cosa
 porque	C	porque
 ahora	W	ahora
 se	PY3FSO	se
-irá	VIF3S	ir
+irá	VIH3S	ir
 a	X	a
 vivir	VNP	vivir
 muchísima	DQFS	mucho
@@ -37332,7 +37332,7 @@ más	W	más
 independientes	AEP	independiente
 
 ¿	Q	¿
-será	VIF3S	ser
+será	VIH3S	ser
 la	DAFS	el
 raza	NCFS	raza
 esta	DDFS	este
@@ -41311,7 +41311,7 @@ yo	PY1FSN	yo
 <pausa/>	ETQ_PAUSA	<pausa/>
 una	DIFS	un
 no	W	no
-será	VIF3S	ser
+será	VIH3S	ser
 para	X	para
 San Sebastián	NPEL	San Sebastián
 otra	PNFS	otro
@@ -41319,7 +41319,7 @@ para	X	para
 Teruel	NPEL	Teruel
 <pausa/>	ETQ_PAUSA	<pausa/>
 me	PY1FSO	me
-levantaréis	VIF2P	levantar
+levantaréis	VIH2P	levantar
 las	DAFP	el
 dos	PCFP	dos
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -41372,7 +41372,7 @@ a	X	a
 mañana	W	mañana
 se	PY3ILO	se
 lo	PY3ASW	lo
-diré	VIF1S	decir
+diré	VIH1S	decir
 
 claro	I	claro
 porque	C	porque
@@ -43291,9 +43291,9 @@ bueno	I	bueno
 pues	C	pues
 inglés	NCMS	inglés
 no	W	no
-sabré	VIF1S	saber
+sabré	VIH1S	saber
 la	PY3FSA	lo
-mandaré	VIF1S	mandar
+mandaré	VIH1S	mandar
 a	X	a
 clases	NCFP	clase
 pero	C	pero
@@ -45742,13 +45742,13 @@ claro	I	claro
 
 claro	I	claro
 
-habrá	VIF3S	haber
+habrá	VIH3S	haber
 algo	PNNS	algo
 
 <pausa/>	ETQ_PAUSA	<pausa/>
 mm	I	mm
 <pausa/>	ETQ_PAUSA	<pausa/>
-esperaremos	VIF1P	esperar
+esperaremos	VIH1P	esperar
 un	DIMS	un
 tiempo	NCMS	tiempo
 
@@ -48019,7 +48019,7 @@ sí	W	sí
 antes	W	antes
 era	VII4S	ser
 
-será	VIF3S	ser
+será	VIH3S	ser
 de	X	de
 eso	PDNS	ese
 que	C	que
@@ -49029,7 +49029,7 @@ ahora	W	ahora
 en	X	en
 el	DAMS	el
 verano	NCMS	verano
-vendrá	VIF3S	venir
+vendrá	VIH3S	venir
 toda	DGFS	todo
 la	DAFS	el
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -51331,7 +51331,7 @@ que	PLMS	que
 no	W	no
 sé	VIP1S	saber
 cómo	W	cómo
-estará	VIF3S	estar
+estará	VIH3S	estar
 ahora	W	ahora
 <pausa/>	ETQ_PAUSA	<pausa/>
 no	W	no

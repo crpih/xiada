@@ -5722,6 +5722,7 @@ antepongámo	VMP1P	anteponer
 antepóngan	VMP3P	anteponer
 antepónga	VMP3S	anteponer
 anteponiéndo	VGP	anteponer
+antepon	VMP2S	anteponer
 antepón	VMP2S	anteponer
 anticipad	VMP2P	anticipar
 anticipád	VMP2P	anticipar
@@ -9517,14 +9518,14 @@ auxiliar	VNP	auxiliar
 auxiliár	VNP	auxiliar
 auxilia	VMP2P	auxiliar
 auxiliá	VMP2P	auxiliar
-auxília	VMP2S	auxiliar
 auxilía	VMP2S	auxiliar
+auxília	VMP2S	auxiliar
 auxiliémos	VMP1P	auxiliar
 auxiliémo	VMP1P	auxiliar
-auxílien	VMP3P	auxiliar
 auxilíen	VMP3P	auxiliar
-auxílie	VMP3S	auxiliar
+auxílien	VMP3P	auxiliar
 auxilíe	VMP3S	auxiliar
+auxílie	VMP3S	auxiliar
 avalad	VMP2P	avalar
 avalád	VMP2P	avalar
 avalándo	VGP	avalar
@@ -15006,6 +15007,7 @@ compongámo	VMP1P	componer
 compóngan	VMP3P	componer
 compónga	VMP3S	componer
 componiéndo	VGP	componer
+compon	VMP2S	componer
 compón	VMP2S	componer
 comportad	VMP2P	comportar
 comportád	VMP2P	comportar
@@ -16521,6 +16523,7 @@ contrapongámo	VMP1P	contraponer
 contrapóngan	VMP3P	contraponer
 contrapónga	VMP3S	contraponer
 contraponiéndo	VGP	contraponer
+contrapon	VMP2S	contraponer
 contrapón	VMP2S	contraponer
 contrariad	VMP2P	contrariar
 contrariád	VMP2P	contrariar
@@ -18981,6 +18984,7 @@ depongámo	VMP1P	deponer
 depóngan	VMP3P	deponer
 depónga	VMP3S	deponer
 deponiéndo	VGP	deponer
+depon	VMP2S	deponer
 depón	VMP2S	deponer
 deportad	VMP2P	deportar
 deportád	VMP2P	deportar
@@ -20792,6 +20796,7 @@ descompongámo	VMP1P	descomponer
 descompóngan	VMP3P	descomponer
 descompónga	VMP3S	descomponer
 descomponiéndo	VGP	descomponer
+descompon	VMP2S	descomponer
 descompón	VMP2S	descomponer
 descomprimámos	VMP1P	descomprimir
 descomprimámo	VMP1P	descomprimir
@@ -25912,6 +25917,7 @@ dispongámo	VMP1P	disponer
 dispóngan	VMP3P	disponer
 dispónga	VMP3S	disponer
 disponiéndo	VGP	disponer
+dispon	VMP2S	disponer
 dispón	VMP2S	disponer
 disputad	VMP2P	disputar
 disputád	VMP2P	disputar
@@ -34572,14 +34578,14 @@ expatriar	VNP	expatriar
 expatriár	VNP	expatriar
 expatria	VMP2P	expatriar
 expatriá	VMP2P	expatriar
-expátria	VMP2S	expatriar
 expatría	VMP2S	expatriar
+expátria	VMP2S	expatriar
 expatriémos	VMP1P	expatriar
 expatriémo	VMP1P	expatriar
-expátrien	VMP3P	expatriar
 expatríen	VMP3P	expatriar
-expátrie	VMP3S	expatriar
+expátrien	VMP3P	expatriar
 expatríe	VMP3S	expatriar
+expátrie	VMP3S	expatriar
 expedid	VMP2P	expedir
 expedíd	VMP2P	expedir
 expedientad	VMP2P	expedientar
@@ -34770,6 +34776,7 @@ expongámo	VMP1P	exponer
 expóngan	VMP3P	exponer
 expónga	VMP3S	exponer
 exponiéndo	VGP	exponer
+expon	VMP2S	exponer
 expón	VMP2S	exponer
 exportad	VMP2P	exportar
 exportád	VMP2P	exportar
@@ -37247,14 +37254,14 @@ gloriar	VNP	gloriar
 gloriár	VNP	gloriar
 gloria	VMP2P	gloriar
 gloriá	VMP2P	gloriar
-glória	VMP2S	gloriar
 gloría	VMP2S	gloriar
+glória	VMP2S	gloriar
 gloriémos	VMP1P	gloriar
 gloriémo	VMP1P	gloriar
-glórien	VMP3P	gloriar
 gloríen	VMP3P	gloriar
-glórie	VMP3S	gloriar
+glórien	VMP3P	gloriar
 gloríe	VMP3S	gloriar
+glórie	VMP3S	gloriar
 glorificad	VMP2P	glorificar
 glorificád	VMP2P	glorificar
 glorificándo	VGP	glorificar
@@ -37880,6 +37887,7 @@ hablémos	VMP1P	hablar
 hablémo	VMP1P	hablar
 háblen	VMP3P	hablar
 háble	VMP3S	hablar
+habra	VIH3S	haber
 haced	VMP2P	hacer
 hacéd	VMP2P	hacer
 hacendad	VMP2P	hacendar
@@ -39259,6 +39267,7 @@ impongámo	VMP1P	imponer
 impóngan	VMP3P	imponer
 impónga	VMP3S	imponer
 imponiéndo	VGP	imponer
+impon	VMP2S	imponer
 impón	VMP2S	imponer
 importad	VMP2P	importar
 importád	VMP2P	importar
@@ -39881,6 +39890,7 @@ indispongámo	VMP1P	indisponer
 indispóngan	VMP3P	indisponer
 indispónga	VMP3S	indisponer
 indisponiéndo	VGP	indisponer
+indispon	VMP2S	indisponer
 indispón	VMP2S	indisponer
 individuad	VMP2P	individuar
 individuád	VMP2P	individuar
@@ -41060,6 +41070,7 @@ interpongámo	VMP1P	interponer
 interpóngan	VMP3P	interponer
 interpónga	VMP3S	interponer
 interponiéndo	VGP	interponer
+interpon	VMP2S	interponer
 interpón	VMP2S	interponer
 interpretad	VMP2P	interpretar
 interpretád	VMP2P	interpretar
@@ -43012,6 +43023,18 @@ lonjeémos	VMP1P	lonjear
 lonjeémo	VMP1P	lonjear
 lonjéen	VMP3P	lonjear
 lonjée	VMP3S	lonjear
+loquead	VMP2P	loquear
+loqueád	VMP2P	loquear
+loqueándo	VGP	loquear
+loquear	VNP	loquear
+loqueár	VNP	loquear
+loquea	VMP2P	loquear
+loqueá	VMP2P	loquear
+loquéa	VMP2S	loquear
+loqueémos	VMP1P	loquear
+loqueémo	VMP1P	loquear
+loquéen	VMP3P	loquear
+loquée	VMP3S	loquear
 losad	VMP2P	losar
 losád	VMP2P	losar
 losándo	VGP	losar
@@ -47098,6 +47121,7 @@ opongámo	VMP1P	oponer
 opóngan	VMP3P	oponer
 opónga	VMP3S	oponer
 oponiéndo	VGP	oponer
+opon	VMP2S	oponer
 opón	VMP2S	oponer
 opositad	VMP2P	opositar
 opositád	VMP2P	opositar
@@ -50168,6 +50192,7 @@ pospongámo	VMP1P	posponer
 pospóngan	VMP3P	posponer
 pospónga	VMP3S	posponer
 posponiéndo	VGP	posponer
+pospon	VMP2S	posponer
 pospón	VMP2S	posponer
 postergad	VMP2P	postergar
 postergád	VMP2P	postergar
@@ -50429,6 +50454,7 @@ predispongámo	VMP1P	predisponer
 predispóngan	VMP3P	predisponer
 predispónga	VMP3S	predisponer
 predisponiéndo	VGP	predisponer
+predispon	VMP2S	predisponer
 predispón	VMP2S	predisponer
 predominad	VMP2P	predominar
 predominád	VMP2P	predominar
@@ -50536,6 +50562,18 @@ preguntémos	VMP1P	preguntar
 preguntémo	VMP1P	preguntar
 pregúnten	VMP3P	preguntar
 pregúnte	VMP3S	preguntar
+prejubilad	VMP2P	prejubilar
+prejubilád	VMP2P	prejubilar
+prejubilándo	VGP	prejubilar
+prejubilar	VNP	prejubilar
+prejubilár	VNP	prejubilar
+prejubila	VMP2P	prejubilar
+prejubilá	VMP2P	prejubilar
+prejubíla	VMP2S	prejubilar
+prejubilémos	VMP1P	prejubilar
+prejubilémo	VMP1P	prejubilar
+prejubílen	VMP3P	prejubilar
+prejubíle	VMP3S	prejubilar
 prejuzgad	VMP2P	prejuzgar
 prejuzgád	VMP2P	prejuzgar
 prejuzgándo	VGP	prejuzgar
@@ -50846,6 +50884,7 @@ presupongámo	VMP1P	presuponer
 presupóngan	VMP3P	presuponer
 presupónga	VMP3S	presuponer
 presuponiéndo	VGP	presuponer
+presupon	VMP2S	presuponer
 presupón	VMP2S	presuponer
 presupuestad	VMP2P	presupuestar
 presupuestád	VMP2P	presupuestar
@@ -51013,6 +51052,18 @@ pringuémos	VMP1P	pringar
 pringuémo	VMP1P	pringar
 prínguen	VMP3P	pringar
 príngue	VMP3S	pringar
+prioricémos	VMP1P	priorizar
+prioricémo	VMP1P	priorizar
+priorícen	VMP3P	priorizar
+prioríce	VMP3S	priorizar
+priorizad	VMP2P	priorizar
+priorizád	VMP2P	priorizar
+priorizándo	VGP	priorizar
+priorizar	VNP	priorizar
+priorizár	VNP	priorizar
+prioriza	VMP2P	priorizar
+priorizá	VMP2P	priorizar
+prioríza	VMP2S	priorizar
 pristámos	VMP1P	prestir
 pristámo	VMP1P	prestir
 prístan	VMP3P	prestir
@@ -51527,6 +51578,7 @@ propongámo	VMP1P	proponer
 propóngan	VMP3P	proponer
 propónga	VMP3S	proponer
 proponiéndo	VGP	proponer
+propon	VMP2S	proponer
 propón	VMP2S	proponer
 proporcionad	VMP2P	proporcionar
 proporcionád	VMP2P	proporcionar
@@ -53589,6 +53641,7 @@ recompongámo	VMP1P	recomponer
 recompóngan	VMP3P	recomponer
 recompónga	VMP3S	recomponer
 recomponiéndo	VGP	recomponer
+recompon	VMP2S	recomponer
 recompón	VMP2S	recomponer
 reconcentrad	VMP2P	reconcentrar
 reconcentrád	VMP2P	reconcentrar
@@ -56188,6 +56241,7 @@ repongámo	VMP1P	reponer
 repóngan	VMP3P	reponer
 repónga	VMP3S	reponer
 reponiéndo	VGP	reponer
+repon	VMP2S	reponer
 repón	VMP2S	reponer
 reportad	VMP2P	reportar
 reportád	VMP2P	reportar
@@ -59906,6 +59960,7 @@ sobreexpongámo	VMP1P	sobreexponer
 sobreexpóngan	VMP3P	sobreexponer
 sobreexpónga	VMP3S	sobreexponer
 sobreexponiéndo	VGP	sobreexponer
+sobreexpon	VMP2S	sobreexponer
 sobreexpón	VMP2S	sobreexponer
 sobrellevad	VMP2P	sobrellevar
 sobrellevád	VMP2P	sobrellevar
@@ -59969,6 +60024,7 @@ sobrepongámo	VMP1P	sobreponer
 sobrepóngan	VMP3P	sobreponer
 sobrepónga	VMP3S	sobreponer
 sobreponiéndo	VGP	sobreponer
+sobrepon	VMP2S	sobreponer
 sobrepón	VMP2S	sobreponer
 sobreproteged	VMP2P	sobreproteger
 sobreprotegéd	VMP2P	sobreproteger
@@ -60830,6 +60886,7 @@ subexpongámo	VMP1P	subexponer
 subexpóngan	VMP3P	subexponer
 subexpónga	VMP3S	subexponer
 subexponiéndo	VGP	subexponer
+subexpon	VMP2S	subexponer
 subexpón	VMP2S	subexponer
 subid	VMP2P	subir
 subíd	VMP2P	subir
@@ -61363,6 +61420,7 @@ superpongámo	VMP1P	superponer
 superpóngan	VMP3P	superponer
 superpónga	VMP3S	superponer
 superponiéndo	VGP	superponer
+superpon	VMP2S	superponer
 superpón	VMP2S	superponer
 superpuébla	VMP2S	superpoblar
 superpuéblen	VMP3P	superpoblar
@@ -61448,6 +61506,7 @@ supongámo	VMP1P	suponer
 supóngan	VMP3P	suponer
 supónga	VMP3S	suponer
 suponiéndo	VGP	suponer
+supon	VMP2S	suponer
 supón	VMP2S	suponer
 suprimámos	VMP1P	suprimir
 suprimámo	VMP1P	suprimir
@@ -63337,6 +63396,7 @@ transpongámo	VMP1P	transponer
 transpóngan	VMP3P	transponer
 transpónga	VMP3S	transponer
 transponiéndo	VGP	transponer
+transpon	VMP2S	transponer
 transpón	VMP2S	transponer
 transportad	VMP2P	transportar
 transportád	VMP2P	transportar
@@ -63670,6 +63730,7 @@ traspongámo	VMP1P	trasponer
 traspóngan	VMP3P	trasponer
 traspónga	VMP3S	trasponer
 trasponiéndo	VGP	trasponer
+traspon	VMP2S	trasponer
 traspón	VMP2S	trasponer
 trasportad	VMP2P	trasportar
 trasportád	VMP2P	trasportar
@@ -65849,6 +65910,7 @@ yuxtapongámo	VMP1P	yuxtaponer
 yuxtapóngan	VMP3P	yuxtaponer
 yuxtapónga	VMP3S	yuxtaponer
 yuxtaponiéndo	VGP	yuxtaponer
+yuxtapon	VMP2S	yuxtaponer
 yuxtapón	VMP2S	yuxtaponer
 zafad	VMP2P	zafar
 zafád	VMP2P	zafar

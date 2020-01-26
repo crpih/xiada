@@ -1,4 +1,14 @@
+a desmano	W	a desmano
+a granel	W	a granel
 aire acondicionado	NCMS	aire acondicionado
+a el chou	W	a el chou
+a posteriori	W	a posteriori
+a priori	W	a priori
+a raja tabla	W	a raja tabla
+a rajatabla	W	a rajatabla
+a regaña dientes	W	a regaña dientes
+a regañadientes	W	a regañadientes
+a sabiendas	W	a sabiendas
 au pair	NCEL	au pair
 au pair	NCEP	au pair
 au pair	NCES	au pair
@@ -47,6 +57,7 @@ coches bomba	NCMP	coche bomba
 coches de línea	NCMP	coche de línea
 corre que te corre	W	corre que te corre
 de antemano	W	de antemano
+de carallada	W	de carallada
 de Pascuas en viernes	W	de Pascuas en viernes
 de puta madre	W	de puta madre
 de putísima madre	W	de putísima madre
@@ -58,6 +69,7 @@ doble uve	NCFS	doble uve
 el cual	PLMS	el cual
 en plan	W	en plan
 en seguidita	W	en seguida
+en vilo	W	en vilo
 fútbol sala	NCMS	fútbol sala
 grosso modo	W	grosso modo
 i griega	NCFS	i griega
@@ -73,6 +85,7 @@ los cuales	PLMP	el cual
 máster class	NCMP	máster class
 máster class	NCMS	máster class
 ménage á trois	NCMS	ménage á trois
+mi madriña	I	mi madriña
 modus operandi	NCML	modus operandi
 modus operandi	NCMP	modus operandi
 modus operandi	NCMS	modus operandi
@@ -80,6 +93,7 @@ motu proprio	W	motu proprio
 mountain bike	NCMS	mountain bike
 music hall	NCMS	music hall
 music halls	NCMP	music hall
+no obstante	W	no obstante
 on line	W	on line
 panem et circenses	NCMS	panem et circenses
 per cápita	W	per cápita
@@ -107,6 +121,8 @@ un poco	PQNS	un poco
 un poco	W	un poco
 un poquillo	PQNS	un poco
 un poquillo	W	un poco
+un poquiño	PQNS	un poco
+un poquiño	W	un poco
 un poquitín	PQNS	un poco
 un poquitín	W	un poco
 un poquitito	PQNS	un poco

@@ -181,7 +181,6 @@ a gatas	W	a gatas
 a golpe seguro	W	a golpe seguro
 a golpes	W	a golpes
 a grandes jornadas	W	a grandes jornadas
-a granel	W	a granel
 a gran velocidad	W	a gran velocidad
 a graves penas	W	a graves penas
 a grito herido	W	a grito herido
@@ -636,7 +635,6 @@ a poquitos	W	a poquitos
 a porfía	W	a porfía
 a pospelo	W	a pospelo
 a posta	W	a posta
-a posteriori	W	a posteriori
 a postura de regidor	W	a postura de regidor
 a pote	W	a pote
 a prado	W	a prado
@@ -659,7 +657,6 @@ a principios de mes	W	a principios de mes
 a principios de semana	W	a principios de semana
 a principios de siglo	W	a principios de siglo
 a principios	W	a principios
-a priori	W	a priori
 a prisa	W	a prisa
 a propósito de	X	a propósito de
 a prorrata	W	a prorrata
@@ -693,8 +690,6 @@ a rabiar	W	a rabiar
 a rachas	W	a rachas
 a ración	W	a ración
 a raíz de	X	a raíz de
-a raja tabla	W	a raja tabla
-a rajatabla	W	a rajatabla
 a ramal y media manta	W	a ramal y media manta
 a ramplón	W	a ramplón
 a rapa terrón	W	a rapa terrón
@@ -714,8 +709,6 @@ a reculones	W	a reculones
 a red barredera	W	a red barredera
 a redopelo	W	a redopelo
 a redropelo	W	a redropelo
-a regaña dientes	W	a regaña dientes
-a regañadientes	W	a regañadientes
 a regla	W	a regla
 a rehala	W	a rehala
 a remiendos	W	a remiendos
@@ -738,7 +731,6 @@ a rodeabrazo	W	a rodeabrazo
 a roso y velloso	W	a roso y velloso
 a rostro firme	W	a rostro firme
 a ruche	W	a ruche
-a sabiendas	W	a sabiendas
 a sabor de su paladar	W	a sabor de su paladar
 a sabor	W	a sabor
 a salto de mata	W	a salto de mata
@@ -1180,6 +1172,7 @@ de noche	W	de noche
 de non	W	de non
 de no ser porque	C	de no ser porque
 de no ser que	C	de no ser que
+dentro de	X	dentro de
 de nuestro motivo propio	W	de nuestro motivo propio
 de nueva planta	W	de nueva planta
 de nuevo	W	de nuevo
@@ -1772,7 +1765,6 @@ ni siquiera	W	ni siquiera
 ni torta	W	ni torta
 no bien	C	no bien
 no embargante	C	no embargante
-no obstante	W	no obstante
 no por	C	no por
 no sólo	W	no sólo
 o bien	C	o bien
