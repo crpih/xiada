@@ -18,6 +18,10 @@ class Viterbi
     case xiada_profile
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
+    when "galician_xiada"
+      @lemmatizer.extend(LemmatizerGalicianXiada)
+    when "galician_xiada_oral"
+      @lemmatizer.extend(LemmatizerGalicianXiada)
     end
   end
 
