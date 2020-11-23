@@ -4,6 +4,8 @@ class SQLUtils
 
   def self.escape_SQL(str)
     str = str.gsub(/'/,"''")
-    return str
+    str.gsub!("\*","%")
+    str.gsub!("\?","_")
+    str
   end
 end

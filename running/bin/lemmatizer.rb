@@ -8,7 +8,7 @@ class Lemmatizer
     @dw = dw
   end
 
-  def lemmatize(word, tag, lemma)
-    return lemma ? lemma : "*"
+  def lemmatize(word, tags)
+    return word ? word : "*"
   end
 end

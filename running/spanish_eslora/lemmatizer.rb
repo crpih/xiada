@@ -1,66 +1,52 @@
 # -*- coding: utf-8 -*-
 
 module LemmatizerSpanishEslora
-  def lemmatize(word, tag, lemma)
+  def lemmatize(word, tags)
     # ito/ita/itos/itas suffix treatment
-    if !lemma and tag !~ /^NP/ and word!=/áéíóú/
-      if word =~ /ito$/
-        new_lemma = word.delete_suffix("ito") << ("o")
-      elsif word =~ /ita$/
-        new_lemma = word.delete_suffix("ita") << ("o")
-      elsif word =~ /itos$/
-        new_lemma = word.delete_suffix("itos") << ("o")
-      elsif word =~ /itas$/
-        new_lemma = word.delete_suffix("itas") << ("o")
-      end
-      if new_lemma
-        infos = @dw.get_emissions_info(new_lemma, ["NCMS","AMS","VPMS","PQMS"])
-        # STDERR.puts "new_lemma: #{new_lemma}, infos:#{infos}"
-        return new_lemma unless infos.empty?
-      end
+    if word != /áéíóú/ and word =~ /it([oa]s?)$/
+      # cito/cita/citos/citas
+      new_word = word.gsub(/(cit[oa]s?)$/, '')
+      return @dw.get_emissions_info(new_word, ['NC*','A*','VP*','PQMS']) if new_word != word
+
+      # ito/ita/itos/itas
+      new_word = word.gsub(/it([oa]s?)$/, '\1')
+      return @dw.get_emissions_info(new_word, ['N*','A*','VP*','PQMS']) if new_word != word
     end
+
+    # super + ísimo
+
     # super prefix treatment
-    if !lemma
-      if word =~ /^super/
-        new_lemma = word.delete_prefix("super")
-        infos = @dw.get_emissions_info(new_lemma, nil)
-        return new_lemma unless infos.empty?
-      end
+
+    if word =~ /^super/
+      new_word = word.gsub(/^super/, '')
+      return @dw.get_emissions_info(new_word, ['A*','W*']) if new_word != word
     end
-    #ísimo/ísima/ísimos/ísimas treatment
-    rule_exceptions = ["tardísimo", "topísimo"]
-    if !lemma
-      if word =~ /ísimo$/
-        if rule_exceptions.include?(word)
-          new_lemma = word.delete_suffix("ísimo") << ("e")
-        else
-          new_lemma = word.delete_suffix("ísimo") << ("o")
-        end
-      elsif word =~ /ísima$/
-        if rule_exceptions.include?(word)
-          new_lemma = word.delete_suffix("ísima") << ("e")
-        else
-          new_lemma = word.delete_suffix("ísima") << ("o")
-        end
-      elsif word =~ /ísimos$/
-        if rule_exceptions.include?(word)
-          new_lemma = word.delete_suffix("ísimos") << ("e")
-        else
-          new_lemma = word.delete_suffix("ísimos") << ("o")
-        end
-      elsif word =~ /ísimas$/
-        if rule_exceptions.include?(word)
-          new_lemma = word.delete_suffix("ísimos") << ("e")
-        else
-          new_lemma = word.delete_suffix("ísimos") << ("o")
-        end
-      end
-      if new_lemma
-        infos = @dw.get_emissions_info(new_lemma, ["NCMS","AMS","W"])
-        STDERR.puts "new_lemma: #{new_lemma}, infos:#{infos}"
-        return new_lemma unless infos.empty?
-      end
+
+    # hiper + ísimo
+
+    # hiper prefix treatment
+
+    if word =~ /^hiper/
+      new_word = word.gsub(/^hiper/, '')
+      return @dw.get_emissions_info(new_word, ['A*','W*']) if new_word != word
     end
-    return lemma ? lemma : "*"
+
+    # ísimo/ísima/ísimos/ísimas treatment
+    # grandísimo => grande
+    # grandísima => grande
+    # altísima => alta
+    # altísimo => alto
+
+    if word =~ /ísim[oa]s?$/
+      new_word = word.gsub(/ísim[oa]s?/, 'e')
+      result = @dw.get_emissions_info(new_word, ['A*','W*'])
+      return result if new_word != word and !result.empty?
+
+      new_word = word.gsub(/ísim([oa]s?)/, '\1')
+      return @dw.get_emissions_info(new_word, ['A*','W*']) if new_word != word
+    end
+
+    []
+
   end
 end
