@@ -55,21 +55,7 @@ class DatabaseWrapper
       if result.empty?
         if (tags == nil) or (tags.empty?)
           suffixes = get_possible_suffixes(word)
-          # STDERR.puts "suffixes: #{suffixes}"
-          row_index = 1
-          query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes}) order by length desc"
-          @db.execute(query) do |row|
-            if row_index == 1
-              max_length = Integer(row[3])
-              result << row
-            elsif Integer(row[3]) == max_length
-              result << row
-            else
-              # max_length_undefined
-              break
-            end
-            row_index = row_index + 1
-          end
+          result = get_guesser_result(suffixes, nil, nil)
           if (result == nil) or (result.empty?)
             query = "select tk,null,null,log_ak from unigram_frequencies"
             opened_category_regexp = get_opened_category_regexp
@@ -83,6 +69,29 @@ class DatabaseWrapper
     end
     # STDERR.puts "result: #{result}"
     return result
+  end
+
+  def get_guesser_result(suffixes, lemma, tags)
+    result = []
+    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query << "and tag in (#{get_possible_tags(tags)})" if tags
+    query << "order by length desc"
+
+    row_index = 1
+    @db.execute(query) do |row|
+      row[1] = lemma if lemma
+      if row_index == 1
+        max_length = Integer(row[3])
+        result << row
+      elsif Integer(row[3]) == max_length
+        result << row
+      else
+        # max_length_undefined
+        break
+      end
+      row_index = row_index + 1
+    end
+    result
   end
 
   def get_open_tags_lemmas_emissions(word)

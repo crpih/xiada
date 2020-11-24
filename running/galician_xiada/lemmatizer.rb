@@ -4,8 +4,8 @@ module LemmatizerGalicianXiada
 
   def lemmatize(word, tags)
     # mente suffix treatment
-    if word =~ /^mente$/ # return the word without tilde
-    end
+    return @dw.get_guesser_result("'mente'", word, ['W*']) if word =~ /mente$/
+
     []
   end
 end

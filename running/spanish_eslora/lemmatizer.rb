@@ -46,6 +46,8 @@ module LemmatizerSpanishEslora
       return @dw.get_emissions_info(new_word, ['A*','W*']) if new_word != word
     end
 
+    # mente suffix treatment
+    return @dw.get_guesser_result("'mente'", word, ['W*']) if word =~ /mente$/
     []
 
   end
