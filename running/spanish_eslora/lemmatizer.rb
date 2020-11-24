@@ -13,7 +13,7 @@ module LemmatizerSpanishEslora
       return @dw.get_emissions_info(new_word, ['N*','A*','VP*','PQMS']) if new_word != word
     end
 
-    # super + ísimo
+    # super + ísimo: TODO
 
     # super prefix treatment
 
@@ -22,7 +22,7 @@ module LemmatizerSpanishEslora
       return @dw.get_emissions_info(new_word, ['A*','W*']) if new_word != word
     end
 
-    # hiper + ísimo
+    # hiper + ísimo: TODO
 
     # hiper prefix treatment
 
