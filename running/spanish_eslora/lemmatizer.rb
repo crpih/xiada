@@ -80,8 +80,8 @@ module LemmatizerSpanishEslora
       new_word = word.gsub(/lísim[oa]$/,'l')
       new_word << "es" if word =~/s$/
       StringUtils.tilde_combinations(new_word).each do |combination|
-        result = @dw.get_emissions_info(new_word, ['AF*']) if word =~/as?$/
-        result = @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
+        result = @dw.get_emissions_info(combination, ['AF*']) if word =~/as?$/
+        result = @dw.get_emissions_info(combination, ['AM*','AN*']) if word =~ /os?$/
 
         return result unless result.empty?
 
@@ -89,10 +89,10 @@ module LemmatizerSpanishEslora
     end
 
     # ferocísimo => feroz
-    # docísimo => doce
+    # dulcísimo => dulce
     if word =~ /císim[oa]s?$/
       new_word = word.gsub(/císim([oa]$)/,'z') if word =~ /[oa]$/
-      new_word = word.gsub(/císim([oa]$)/,'ces') if word =~ /s$/
+      new_word = word.gsub(/císim([oa]s$)/,'ces') if word =~ /s$/
       result = @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
       result = @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
       return result unless result.empty?
@@ -107,11 +107,11 @@ module LemmatizerSpanishEslora
     # listísimo => listo
     # gravísimo => grave
     if word =~ /ísim[oa]s?$/
-      new_word = word.gsub(/iísim([oa]s?)$/,'\1')
+      new_word = word.gsub(/ísim([oa]s?)$/,'\1')
       result = @dw.get_emissions_info(new_word, ['A*'])
       return result unless result.empty?
       if result.empty?
-        new_word = word.gsub(/iísim[oa](s?)$/,'e\1')
+        new_word = word.gsub(/ísim[oa](s?)$/,'e\1')
         return @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
         return @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
       end

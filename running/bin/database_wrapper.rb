@@ -24,6 +24,7 @@ class DatabaseWrapper
   end
 
   def get_emissions_info(word, tags)
+    #STDERR.puts "word:#{word}, tags:#{tags}"
     result = Array.new
     if (tags == nil) or (tags.empty?)
       # STDERR.puts "tags nil"
@@ -31,12 +32,14 @@ class DatabaseWrapper
         result << row
       end
     else
-      # STDERR.puts "tags not nil"
+      #STDERR.puts "tags not nil"
       tag_string = get_possible_tags(tags)
+      #STDERR.puts "tag_string: #{tag_string}"
       @db.execute("select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}' and tag in (#{tag_string})") do |row|
         result << row
       end
     end
+    #STDERR.puts "result:#{result}"
     return result
   end
 
@@ -463,7 +466,7 @@ class DatabaseWrapper
     tags.each do |tag|
       result << "," unless result.empty?
       if tag =~ /[\*\_]/
-        result << get_tags_from_regexp(SQLUtils.escape_SQL(tag))
+        result << get_tags_from_regexp(SQLUtils.escape_SQL_wildcards(tag))
       else
         result << "'#{SQLUtils.escape_SQL(tag)}'"
       end
@@ -476,7 +479,7 @@ class DatabaseWrapper
     @db.execute("select distinct(tk) from unigram_frequencies where tk like '#{tag_regexp}'") do |row|
       tag = row[0]
       result << "," unless result.empty?
-      result << "'#{SQLUtils.escape_SQL_wildcards(tag)}'"
+      result << "'#{SQLUtils.escape_SQL(tag)}'"
     end
     result
   end

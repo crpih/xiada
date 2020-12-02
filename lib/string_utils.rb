@@ -153,7 +153,7 @@ class StringUtils
       'u' => 'ú'
     }.freeze
     
-    accentes = vowels.values.join.freeze
+    accented = vowels.values.join.freeze
     base_word = self.to_lower(word)
     
     combinations = base_word.each_grapheme_cluster.map { |c| vowels.key?(c) ? [c, vowels[c]] : [c] }
@@ -162,7 +162,7 @@ class StringUtils
         word_combinations.map { |w| "#{w}#{char}" }
       end
     end
-    words.select { |w| w.count(ACCENTED) <= 1 }
+    words.select { |w| w.count(accented) <= 1 }
   end
 
 end

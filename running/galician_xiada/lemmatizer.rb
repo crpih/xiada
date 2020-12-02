@@ -50,13 +50,12 @@ module LemmatizerGalicianXiada
     # virtualísimo => virtual
     # facilísimo => fácil
     if word =~ /lísim[oa]s?$/
-      new_word = word.gsub(/lísim[oa]$/,'l')
+      new_word = word.gsub(/lísim[oa]s?$/,'l')
       new_word << "es" if word =~/s$/
       StringUtils.tilde_combinations(new_word).each do |combination|
-        result =  replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~/as?$/
-        result = replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A*f*']),"^A0","As") if word =~ /as?$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A*m*']),"^A0","As") if word =~ /os?$/
         return result unless result.empty?
-
       end
     end
 
@@ -64,7 +63,7 @@ module LemmatizerGalicianXiada
     # docísimo => doce
     if word =~ /císim[oa]s?$/
       new_word = word.gsub(/císim([oa]$)/,'z') if word =~ /[oa]$/
-      new_word = word.gsub(/císim([oa]$)/,'ces') if word =~ /s$/
+      new_word = word.gsub(/císim([oa]s$)/,'ces') if word =~ /s$/
       result = replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
       result = replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
       return result unless result.empty?
@@ -79,11 +78,11 @@ module LemmatizerGalicianXiada
     # listísimo => listo
     # gravísimo => grave
     if word =~ /ísim[oa]s?$/
-      new_word = word.gsub(/iísim([oa]s?)$/,'\1')
+      new_word = word.gsub(/ísim([oa]s?)$/,'\1')
       result = replace_tags(@dw.get_emissions_info(new_word, ['A*']),"^A0","As")
       return result unless result.empty?
       if result.empty?
-        new_word = word.gsub(/iísim[oa](s?)$/,'e\1')
+        new_word = word.gsub(/ísim[oa](s?)$/,'e\1')
         return replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
         return replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
       end
