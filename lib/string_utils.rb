@@ -143,4 +143,26 @@ class StringUtils
     new_string.gsub!(/&gt;/, ">")
     return new_string
   end
+
+  def self.tilde_combinations(word)
+    vowels = {
+      'a' => 'á',
+      'e' => 'é',
+      'i' => 'í',
+      'o' => 'ó',
+      'u' => 'ú'
+    }.freeze
+    
+    accentes = vowels.values.join.freeze
+    base_word = self.to_lower(word)
+    
+    combinations = base_word.each_grapheme_cluster.map { |c| vowels.key?(c) ? [c, vowels[c]] : [c] }
+    words = combinations.inject(['']) do |word_combinations, char_combinations|
+      char_combinations.flat_map do |char|
+        word_combinations.map { |w| "#{w}#{char}" }
+      end
+    end
+    words.select { |w| w.count(ACCENTED) <= 1 }
+  end
+
 end

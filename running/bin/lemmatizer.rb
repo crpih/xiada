@@ -12,4 +12,16 @@ class Lemmatizer
   def lemmatize(word, tags)
     return word ? word : "*"
   end
+
+  protected
+
+  # NOTE: This function breaks statistical model in some way
+  def replace_tags(dw_result, search_exp, replace_exp)
+    result = Array.new
+    dw_result.each do |row|
+      row[0].gsub!(/#{search_exp}/,"#{replace_exp}")
+      result << row
+    end
+    return result
+  end
 end
