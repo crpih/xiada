@@ -53,7 +53,8 @@ module LemmatizerGalicianXiada
       new_word = word.gsub(/lísim[oa]$/,'l')
       new_word << "es" if word =~/s$/
       StringUtils.tilde_combinations(new_word).each do |combination|
-        result = replace_tags(@dw.get_emissions_info(combination, ['A*']),"^A0","As")
+        result =  replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~/as?$/
+        result = replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
         return result unless result.empty?
 
       end
@@ -62,8 +63,10 @@ module LemmatizerGalicianXiada
     # ferocísimo => feroz
     # docísimo => doce
     if word =~ /císim[oa]s?$/
-      new_word = word.gsub(/císim([oa]s?$)/,'z') # TODO ??? (feroces)
-      result = replace_tags(@dw.get_emissions_info(new_word, ['A*']),"^A0","As")
+      new_word = word.gsub(/císim([oa]$)/,'z') if word =~ /[oa]$/
+      new_word = word.gsub(/císim([oa]$)/,'ces') if word =~ /s$/
+      result = replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
+      result = replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
       return result unless result.empty?
 
       new_word = word.gsub(/císim[oa](s?)$/,'ce\1')
@@ -75,15 +78,15 @@ module LemmatizerGalicianXiada
     # ísimo (default rule)
     # listísimo => listo
     # gravísimo => grave
-    if word =~ /ísim[oa]s?$/ # TODO ??? (revisar)
+    if word =~ /ísim[oa]s?$/
       new_word = word.gsub(/iísim([oa]s?)$/,'\1')
       result = replace_tags(@dw.get_emissions_info(new_word, ['A*']),"^A0","As")
+      return result unless result.empty?
       if result.empty?
         new_word = word.gsub(/iísim[oa](s?)$/,'e\1')
         return replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
         return replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
       end
-      return result
 
     end
 
