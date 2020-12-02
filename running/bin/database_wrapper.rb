@@ -476,7 +476,7 @@ class DatabaseWrapper
     @db.execute("select distinct(tk) from unigram_frequencies where tk like '#{tag_regexp}'") do |row|
       tag = row[0]
       result << "," unless result.empty?
-      result << "'#{SQLUtils.escape_SQL(tag)}'"
+      result << "'#{SQLUtils.escape_SQL_wildcards(tag)}'"
     end
     result
   end
