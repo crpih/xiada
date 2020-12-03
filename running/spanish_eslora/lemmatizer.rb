@@ -39,8 +39,7 @@ module LemmatizerSpanishEslora
     if word =~ /bilísim[oa]s?$/
       new_word = word.gsub(/bilísim[oa](s)?$/,'ble\1')
       return @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
-
-      return @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
+      return @dw.get_emissions_info(new_word, ['AM*','AN*','AA*']) if word =~ /os?$/
 
     end
     # riquísimo => rico
@@ -62,7 +61,7 @@ module LemmatizerSpanishEslora
       if result.empty?
         new_word = word.gsub(/güísim[oa](s?)$/,'güe\1')
         return @dw.get_emissions_info(new_word, ['AF*']) if word =~/as?$/
-        return @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
+        return @dw.get_emissions_info(new_word, ['AM*','AN*','AA*']) if word =~ /os?$/
 
       end
       return result
@@ -81,8 +80,7 @@ module LemmatizerSpanishEslora
       new_word << "es" if word =~/s$/
       StringUtils.tilde_combinations(new_word).each do |combination|
         result = @dw.get_emissions_info(combination, ['AF*']) if word =~/as?$/
-        result = @dw.get_emissions_info(combination, ['AM*','AN*']) if word =~ /os?$/
-
+        result = @dw.get_emissions_info(combination, ['AM*','AN*','AA*']) if word =~ /os?$/
         return result unless result.empty?
 
       end
@@ -94,12 +92,12 @@ module LemmatizerSpanishEslora
       new_word = word.gsub(/císim([oa]$)/,'z') if word =~ /[oa]$/
       new_word = word.gsub(/císim([oa]s$)/,'ces') if word =~ /s$/
       result = @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
-      result = @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
+      result = @dw.get_emissions_info(new_word, ['AM*','AN*','AA*']) if word =~ /os?$/
       return result unless result.empty?
 
       new_word = word.gsub(/císim[oa](s?)$/,'ce\1')
       return @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
-      return @dw.get_emissions_info(new_word, ['AM*']) if word =~ /os?$/
+      return @dw.get_emissions_info(new_word, ['AM*','AN*','AA*']) if word =~ /os?$/
 
     end
 
@@ -113,7 +111,7 @@ module LemmatizerSpanishEslora
       if result.empty?
         new_word = word.gsub(/ísim[oa](s?)$/,'e\1')
         return @dw.get_emissions_info(new_word, ['AF*']) if word =~ /as?$/
-        return @dw.get_emissions_info(new_word, ['AM*','AN*']) if word =~ /os?$/
+        return @dw.get_emissions_info(new_word, ['AM*','AN*','AA*']) if word =~ /os?$/
       end
 
     end
