@@ -1,3 +1,4 @@
+a a bartola	La0	a a bartola	a a bartola
 a a custa de	Lp0	a a custa de	a a custa de
 a a emborca	La0	a a emborca	a a envorca
 a a envorca	La0	a a envorca	a a envorca
@@ -17,6 +18,7 @@ a as emborcalladas	La0	a as emborcalladas	a as envorcalladas
 a as envorcalladas	La0	a as envorcalladas	a as envorcalladas
 a as escondidas	La0	a as escondidas	a as escondidas
 a as rapañotas	La0	a as rapañotas	a as rapañotas
+a as tentas	La0	a as tentas	a tentas
 a as toas	La0	a as toas	a a toa
 a as vorcalladas	La0	a as vorcalladas	a as vorcalladas
 a a toa	La0	a a toa	a a toa
@@ -28,13 +30,22 @@ a barullo	La0	a barullo	a barullo
 ab intestato	La0	ab intestato	ab intestato
 a bordo	La0	a bordo	a bordo
 a cachapernas	La0	a cachapernas	a cachapernas
+a cachón	La0	a cachón	a cachón
+a cal e canto	La0	a cal e canto	a cal e canto
 a canchapernas	La0	a canchapernas	a cachapernas
+a capella	La0	a capella	a capela
+a cappella	La0	a cappella	a capela
+a capricho	La0	a capricho	a capricho
 a carón	La0	a carón	a carón
 a carranchapernas	La0	a carranchapernas	a carranchapernas
 a carranchas	La0	a carranchas	a carranchas
 a cas de	Lp0	a cas de	a cas de
 a ceacú	La0	a ceacú	a ceacú
 acerca de	Lp0	acerca de	acerca de
+Acetobacter aceti	Snaa	Acetobacter aceti	Acetobacter aceti
+ácido fólico	Scms	ácido fólico	ácido fólico
+a ciencia certa	La0	a ciencia certa	a ciencia certa
+Acinetobacter baumannii	Snaa	Acinetobacter baumannii	Acinetobacter baumannii
 a contramán	La0	a contramán	a contramán
 a cotío	La0	a cotío	acotío
 a cuberto	La0	a cuberto	a cuberto
@@ -63,15 +74,25 @@ a granel	La0	a granel	a granel
 aínda así	La0	aínda así	aínda así
 aínda cando	Lcs	aínda cando	aínda cando
 aínda que	Lcs	aínda que	aínda que
+aire acondicionado	Scms	aire acondicionado	aire acondicionado
+algor mortis	Scms	algor mortis	algor mortis
+allo porro	Scms	allo porro	allo porro
+allos porros	Scmp	allo porro	allo porro
 a máis tardar	La0	a máis tardar	a máis tardar
+a mantenta	La0	a mantenta	a a mantenta
 a medias	La0	a medias	a medias
 a miudo	La0	a miudo	a miúdo
 a miúdo	La0	a miúdo	a miúdo
 a modiño	La0	a modo	amodo
+ano luz	Scms	ano luz	ano luz
 a non ser que	Lcs	a non ser que	a non ser que
 a non ser se	Lcs	a non ser se	a non ser se
+ano santo	Scms	ano santo	ano santo
+anos luz	Scmp	ano luz	ano luz
+anos santos	Scmp	ano santo	ano santo
 ante meridiem	La0	ante meridiem	ante meridiem
 antes de antonte	La0	antes de antonte	antes de antonte
+antre lusco e fusco	La0	antre lusco e fusco	entre lusco e fusco
 a o agacho	La0	a o agacho	a o agacho
 a o biés	La0	a o biés	a o biés
 a o cabo de	Lp0	a o cabo de	a o cabo de
@@ -81,6 +102,7 @@ a o chou	La0	a o chou	a o chou
 a o contraxeito	La0	a o contraxeito	a o contraxeito
 a o desbarate	La0	a o desbarate	a desbarate
 a o desbarato	La0	a o desbarato	a desbarate
+a o escuso	La0	a o escuso	a escuso
 a o garete	La0	a o garete	a o garete
 a o nesgo	La0	a o nesgo	a o nesgo
 a o outro día	La0	a o outro día	a o outro día
@@ -88,8 +110,10 @@ a o redor	La0	a o redor	a o redor
 a o rente	La0	a o rente	a rentes
 a os boleiróns	La0	a os boleiróns	a os boleiróns
 a os revorcos	La0	a os revorcos	a os revorcos
+a o tacho	La0	a o tacho	a o tacho
 a o través	La0	a o través	a o través
 a partir de	Lp0	a partir de	a partir de
+a partires de	Lp0	a partires de	a partir de
 a pesar de	Lp0	a pesar de	a pesar de
 a piques	La0	a piques	a piques
 a poder de	Lp0	a poder de	a poder de
@@ -99,6 +123,7 @@ a priori	La0	a priori	a priori
 a prol	La0	a prol	a prol
 a punto de	Lp0	a punto de	a punto de
 a queimarroupa	La0	a queimarroupa	a queimarroupa
+a raxatabla	La0	a raxatabla	a raxatabla
 a recú	La0	a recú	a recú
 a regañadentes	La0	a regañadentes	a regañadentes
 a rente	La0	a rente	a rentes
@@ -107,6 +132,7 @@ a rentes	La0	a rentes	a rentes
 a reo	La0	a reo	arreo
 a requichas	La0	a requichas	a requichas
 a retortoiro	La0	a retortoiro	a retortoiro
+arre demo	Y	arre demo	arre demo
 a sabendas	La0	a sabendas	a sabendas
 a salvo	La0	a salvo	a salvo
 asemade que	Lcs	asemade que	asemade que
@@ -121,8 +147,28 @@ através de	Lp0	através de	a través de
 a traveso de	Lp0	a traveso de	a través de
 a treo	La0	a treo	a treo
 a treu	La0	a treu	a treo
+a ultranza	La0	a ultranza	a ultranza
+ave fénix	Scfs	ave fénix	ave Fénix
+ave Fénix	Scfs	ave Fénix	ave Fénix
+a voleo	La0	a voleo	a voleo
 a xeito de	Lp0	a xeito de	a xeito de
 a xuízo de	Lp0	a xuízo de	a xuízo de
+azul celeste	A0as	azul celeste	azul celeste
+azul celeste	A0fs	azul celeste	azul celeste
+azul celeste	A0ms	azul celeste	azul celeste
+azul celeste	Scms	azul celeste	azul celeste
+azul cobalto	A0as	azul cobalto	azul cobalto
+azul cobalto	A0fs	azul cobalto	azul cobalto
+azul cobalto	A0ms	azul cobalto	azul cobalto
+azul cobalto	Scms	azul cobalto	azul cobalto
+azul mariño	A0as	azul mariño	azul mariño
+azul mariño	A0fs	azul mariño	azul mariño
+azul mariño	A0ms	azul mariño	azul mariño
+azul mariño	Scms	azul mariño	azul mariño
+azul turquesa	A0as	azul turquesa	azul turquesa
+azul turquesa	A0fs	azul turquesa	azul turquesa
+azul turquesa	A0ms	azul turquesa	azul turquesa
+azul turquesa	Scms	azul turquesa	azul turquesa
 bardante de	Lp0	bardante de	bardante de
 best seller	A0as	best seller	best-séller
 best seller	A0fs	best seller	best-séller
@@ -132,14 +178,49 @@ best sellers	A0fp	best seller	best-séller
 best sellers	A0mp	best seller	best-séller
 best seller	Scms	best seller	best-séller
 best sellers	Scmp	best seller	best-séller
+Betula alba	Snaa	Betula alba	Betula alba
 boca abaixo	La0	boca abaixo	boca abaixo
+cabaliño de mar	Scms	cabalo de mar	cabalo de mar
+cabaliño do demo	Scms	cabalo do demo	cabalo do demo
+cabaliños de mar	Scmp	cabalo de mar	cabalo de mar
+cabaliños do demo	Scmp	cabalo do demo	cabalo do demo
+cabalo de mar	Scms	cabalo de mar	cabalo de mar
+cabalo de vapor	Scms	cabalo de vapor	cabalo de vapor
+cabalo do demo	Scms	cabalo do demo	cabalo do demo
+cabalos de mar	Scmp	cabalo de mar	cabalo de mar
+cabalos de vapor	Scmp	cabalo de vapor	cabalo de vapor
+cabalos do demo	Scmp	cabalo do demo	cabalo do demo
+cable USB	Scms	cable USB	cable USB
+Campylobacter jejuni	Snaa	Campylobacter jejuni	Campylobacter jejuni
+cante hondo	Scms	cante hondo	cante hondo
+cante jondo	Scms	cante jondo	cante hondo
 captatio benevolentiae	Scfs	captatio benevolentiae	captatio benevolentiae
 carpe diem	Scms	carpe diem	carpe diem
 cas de	Lp0	cas de	cas de
 case que	La0	case que	case que
+Castanea vulgaris	Snaa	Castanea vulgaris	Castanea vulgaris
+ceo da boca	Scms	ceo da boca	ceo da boca
+ceu da boca	Scms	ceu da boca	ceo da boca
+chaleco antibalas	Scms	chaleco antibalas	chaleco antibalas
+chaleco salvavidas	Scms	chaleco salvavidas	chaleco salvavidas
+chalecos antibalas	Scmp	chaleco antibalas	chaleco antibalas
+chalecos salvavidas	Scmp	chaleco salvavidas	chaleco salvavidas
+coca cola	Scfs	coca cola	coca cola
+coche bomba	Scms	coche bomba	coche bomba
+coche de liña	Scms	coche de liña	coche de liña
+coche de línea	Scms	coche de línea	coche de liña
+coches bomba	Scmp	coche bomba	coche bomba
+coitus interruptus	Scma	coitus interruptus	coitus interruptus
+coitus interruptus	Scmp	coitus interruptus	coitus interruptus
+coitus interruptus	Scms	coitus interruptus	coitus interruptus
 con o gallo de	Lp0	con o gallo de	con o gallo de
 con relación a	Lp0	con relación a	con relación a
 constantes vitais	Scfp	constantes vitais	constantes vitais
+controis remoto	Scmp	control remoto	control remoto
+control remoto	Scms	control remoto	control remoto
+correo electrónico	Scms	correo electrónico	correo electrónico
+correos electrónicos	Scmp	correo electrónico	correo electrónico
+Corylus avellana	Snaa	Corylus avellana	Corylus avellana
 cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo
 cuarto de baño	Scms	cuarto de baño	cuarto de baño
 curriculum vitae	Scms	curriculum vitae	currículum vítae
@@ -149,6 +230,7 @@ de acordo con	Lp0	de acordo con	de acordo con
 de antemán	La0	de antemán	de antemán
 de balde	La0	de balde	de balde
 de baluto	La0	de baluto	de baluto
+de boca en boca	La0	de boca en boca	de boca en boca
 de cando en cando	La0	de cando en cando	de cando en cando
 de cando en vez	La0	de cando en vez	de cando en vez
 de carón	La0	de carón	de carón
@@ -158,6 +240,7 @@ de contino	La0	de contino	decontino
 de cote	La0	de cote	decote
 de cotío	La0	de cotío	decotío
 de crequenas	La0	de crequenas	de crequenas
+de esguella	La0	de esguella	de esguello
 de esguello	La0	de esguello	de esguello
 de facto	La0	de facto	de facto
 de forma que	Lcs	de forma que	de forma que
@@ -179,22 +262,57 @@ dende logo	La0	dende logo	dende logo
 de oídas	La0	de oídas	de oídas
 de o trinque	La0	de o trinque	de o trinque
 de par en par	La0	de par en par	de par en par
+de pe a pa	La0	de pe a pa	de pe a pa
 de poutelas	La0	de poutelas	de poutelas
 de primeiras	La0	de primeiras	de primeiras
+de prisa	La0	de prisa	de prisa
+de punta a cabo	La0	de punta a cabo	de punta a cabo
 de puntiñas	La0	de puntiñas	de puntiñas
+de puta madre	A0aa	de puta madre	de puta madre
+de puta madre	A0ap	de puta madre	de puta madre
+de puta madre	A0as	de puta madre	de puta madre
+de puta madre	A0fa	de puta madre	de puta madre
+de puta madre	A0fp	de puta madre	de puta madre
+de puta madre	A0fs	de puta madre	de puta madre
+de puta madre	A0ma	de puta madre	de puta madre
+de puta madre	A0mp	de puta madre	de puta madre
+de puta madre	A0ms	de puta madre	de puta madre
+de puta madre	La0	de puta madre	de puta madre
+de putísima madre	A0aa	de puta madre	de puta madre
+de putísima madre	A0ap	de puta madre	de puta madre
+de putísima madre	A0as	de puta madre	de puta madre
+de putísima madre	A0fa	de puta madre	de puta madre
+de putísima madre	A0fp	de puta madre	de puta madre
+de putísima madre	A0fs	de puta madre	de puta madre
+de putísima madre	A0ma	de puta madre	de puta madre
+de putísima madre	A0mp	de puta madre	de puta madre
+de putísima madre	A0ms	de puta madre	de puta madre
+de putísima madre	La0	de puta madre	de puta madre
 de querquena	La0	de querquena	de crequenas
 de recú	La0	de recú	de recú
 de reollo	La0	de reollo	de reollo
 desde logo	La0	desde logo	desde logo
+de sobra	La0	de sobra	de sobra
+de sobro	La0	de sobro	de sobra
 de socate	La0	de socate	de socate
 de socato	La0	de socato	de socate
+de sócato	La0	de sócato	de socate
+de sotaque	La0	de sotaque	de socate
 de súpeto	La0	de súpeto	de súpeto
+de unha tacada	La0	de unha tacada	de unha tacada
+de un tirón	La0	de un tirón	de un tirón
 de vagariño	La0	de vagar	devagar
 de veras	La0	de veras	de veras
 de vez	La0	de vez	de vez
 de xeito que	Lcs	de xeito que	de xeito que
+día santo	Scms	día santo	día santo
+días santos	Scmp	día santo	día santo
+Dios mío	Y	Dios mío	meu Deus
 disco duro	Scms	disco duro	disco duro
 discos duros	Scmp	disco duro	disco duro
+efecto invernadeiro	Scms	efecto invernadeiro	efecto invernadoiro
+efecto invernadoiro	Scms	efecto invernadoiro	efecto invernadoiro
+efectos invernadoiro	Scmp	efecto invernadoiro	efecto invernadoiro
 en balde	La0	en balde	en balde
 en baluto	La0	en baluto	en baluto
 en canto que	Lcs	en canto que	en canto
@@ -216,8 +334,29 @@ en premier	La0	en premier	en premier
 en principio	La0	en principio	en principio
 en querquena	La0	en querquena	en crequenas
 en realidade	La0	en realidade	en realidade
+en regla	A0aa	en regla	en regra
+en regla	A0ap	en regla	en regra
+en regla	A0as	en regla	en regra
+en regla	A0fa	en regla	en regra
+en regla	A0fp	en regla	en regra
+en regla	A0fs	en regla	en regra
+en regla	A0ma	en regla	en regra
+en regla	A0mp	en regla	en regra
+en regla	A0ms	en regla	en regra
+en regra	A0aa	en regra	en regra
+en regra	A0ap	en regra	en regra
+en regra	A0as	en regra	en regra
+en regra	A0fa	en regra	en regra
+en regra	A0fp	en regra	en regra
+en regra	A0fs	en regra	en regra
+en regra	A0ma	en regra	en regra
+en regra	A0mp	en regra	en regra
+en regra	A0ms	en regra	en regra
 en relación con	Lp0	en relación con	en relación con
+en silencio	La0	en silencio	en silencio
 en tanto que	Lcs	en tanto que	en tanto
+Enterobacter Sakazilii	Snaa	Enterobacter Sakazilii	Enterobacter sakazilii
+entre horas	La0	entre horas	entre horas
 entre lusco e fusco	La0	entre lusco e fusco	entre lusco e fusco
 en troques	La0	en troques	en troques
 en un santiamén	La0	en un santiamén	en un santiamén
@@ -241,7 +380,7 @@ ex primeiras ministras	Scfp	ex primeiro ministro	ex primeiro ministro
 ex primeiro ministro	Scms	ex primeiro ministro	ex primeiro ministro
 ex-primeiro ministro	Scms	ex-primeiro ministro	ex primeiro ministro
 ex primeiros ministros	Scmp	ex primeiro ministro	ex primeiro ministro
-ex profeso	La0	ex profeso	ex profeso
+ex profeso	La0	ex profeso	ex professo
 ex-secretarias xerais	Scfp	ex-secretario xeral	ex secretario xeral
 ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral
 ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral
@@ -260,24 +399,82 @@ grosso modo	La0	grosso modo	grosso modo
 hábeas corpus	Scma	hábeas corpus	hábeas corpus
 hábeas corpus	Scmp	hábeas corpus	hábeas corpus
 hábeas corpus	Scms	hábeas corpus	hábeas corpus
-hip hop	Scms	hip hop	hip hop
+helicobacter pilori	Snaa	Helicobacter pilori	Helicobacter pylori
+Helicobacter pilori	Snaa	Helicobacter pilori	Helicobacter pylori
+helicobacter pilory	Snaa	Helicobacter pilory	Helicobacter pylori
+Helicobacter pylori	Snaa	Helicobacter pylori	Helicobacter pylori
+hip hop	Scms	hip hop	hip-hop
+homo antecesor	Snaa	Homo antecesor	Homo antecessor
+homo antecessor	Snaa	Homo antecessor	Homo antecessor
+Homo antecessor	Snaa	Homo antecessor	Homo antecessor
+Homo Antecessor	Snaa	Homo antecessor	Homo antecessor
+Homo Bohemicus	Snaa	Homo bohemicus	Homo bohemicus
+homo consumens	Snaa	Homo consumens	Homo consumens
+Homo divinans	Snaa	Homo divinans	Homo divinans
+homo dixitalis	Snaa	Homo dixitalis	Homo digitalis
+homo dramaticus	Snaa	Homo dramaticus	Homo dramaticus
+Homo ecologicuas	Snaa	Homo ecologicuas	Homo ecologicus
+homo erectus	Snaa	Homo erectus	Homo erectus
+Homo erectus	Snaa	Homo erectus	Homo erectus
+Homo ergaster	Snaa	Homo ergaster	Homo ergaster
+Homo etnocéntricus	Snaa	Homo etnocéntricus	Homo etnocentricus
 homo faber	Scma	homo faber	homo fáber
 homo fáber	Scma	homo fáber	homo fáber
 homo faber	Scmp	homo faber	homo fáber
 homo fáber	Scmp	homo fáber	homo fáber
 homo faber	Scms	homo faber	homo fáber
 homo fáber	Scms	homo fáber	homo fáber
+homo faber	Snaa	Homo faber	Homo faber
+Homo floresiensis	Snaa	Homo floresiensis	Homo floresiensis
+homo fraguensis	Snaa	Homo fraguensis	Homo fraguensis
+homo galaicus	Snaa	Homo galaicus	Homo galaicus
+homo habilis	Snaa	Homo habilis	Homo habilis
+Homo habilis	Snaa	Homo habilis	Homo habilis
+Homo heidelbergense	Snaa	Homo heidelbergense	Homo heidelbergensis
+Homo heidelbergensis	Snaa	Homo heidelbergensis	Homo heidelbergensis
+Homo Heidelbergensis	Snaa	Homo heidelbergensis	Homo heidelbergensis
+homo industrialis	Snaa	Homo industrialis	Homo industrialis
+homo loquax	Snaa	Homo loquax	Homo loquax
+homo ludens	Snaa	Homo ludens	Homo ludens
+Homo naledi	Snaa	Homo naledi	Homo naledi
+Homo neanderthalensis	Snaa	Homo neanderthalensis	Homo neanderthalensis
+homo oecologicus 	Snaa	Homo oecologicus 	Homo ecologicus
+Homo oeconomicus	Snaa	Homo oeconomicus	Homo oeconomicus
+homo politicus	Snaa	Homo politicus	Homo politicus
+Homo praedator	Snaa	Homo praedator	Homo praedator
+homo rusticus	Snaa	Homo rusticus	Homo rusticus
+homo sacer	Snaa	Homo sacer	Homo sacer
+Homo Sacer	Snaa	Homo sacer	Homo sacer
 homo sapiens sapiens	Scma	homo sapiens sapiens	homo sapiens sapiens
 homo sapiens sapiens	Scmp	homo sapiens sapiens	homo sapiens sapiens
 homo sapiens sapiens	Scms	homo sapiens sapiens	homo sapiens sapiens
+homo sapiens sapiens	Snaa	Homo sapiens sapiens	Homo sapiens sapiens
+Homo sapiens sapiens	Snaa	Homo sapiens sapiens	Homo sapiens sapiens
 homo sapiens	Scma	homo sapiens	homo sapiens
 homo sapiens	Scmp	homo sapiens	homo sapiens
 homo sapiens	Scms	homo sapiens	homo sapiens
+homo sapiens	Snaa	Homo sapiens	Homo sapiens
+Homo sapiens	Snaa	Homo sapiens	Homo sapiens
+homo sapiens vulgaris	Snaa	Homo sapiens vulgaris	Homo sapiens vulgaris
+homo socius	Snaa	Homo socius	Homo socius
+homo typographicus	Snaa	Homo typographicus	Homo typographicus
+homo viator	Snaa	Homo viator	Homo viator
+homo videns	Snaa	Homo videns	Homo videns
 honoris causa	La0	honoris causa	honoris causa
+hora extraordinaria	Scfs	hora extraordinaria	hora extraordinaria
+hora extra	Scfs	hora extra	hora extraordinaria
+hora punta	Scfs	hora punta	hora punta
+horas extraordinarias	Scfp	hora extraordinaria	hora extraordinaria
+horas extra	Scfp	hora extra	hora extraordinaria
+horas extras	Scfp	hora extra	hora extraordinaria
+horas punta	Scfp	hora punta	hora punta
+horror vacui	Scms	horror vacui	horror vacui
 hoxe en día	La0	hoxe en día	hoxe en día
 hoxe por hoxe	La0	hoxe por hoxe	hoxe por hoxe
+i grego	Scms	i grego	i grego
 in albis	La0	in albis	in albis
-in articulo mortis	La0	in articulo mortis	in articulo mortis
+in articulo mortis	La0	in articulo mortis	in artículo mortis
+in artículo mortis	La0	in artículo mortis	in artículo mortis
 in crescendo	La0	in crescendo	in crescendo
 inda ben non	Lcs	inda ben non	inda ben non
 inda que	Lcs	inda que	aínda que
@@ -285,6 +482,8 @@ in extremis	La0	in extremis	in extremis
 in folio	La0	in folio	in folio
 in illo tempore	La0	in illo tempore	in illo tempore
 in medias res	La0	in medias res	in medias res
+in memoriam	La0	in memoriam	in memóriam
+in memorian	La0	in memorian	in memóriam
 in mente	La0	in mente	in mente
 in octavo	La0	in octavo	in octavo
 in pectore	La0	in pectore	in pectore
@@ -296,31 +495,75 @@ intra muros	La0	intra muros	intra muros
 in vitro	La0	in vitro	in vitro
 in vivo	La0	in vivo	in vivo
 ipso facto	La0	ipso facto	ipso facto
+Juniperus nana	Snaa	Juniperus nana	Juniperus nana
 lato sensu	La0	lato sensu	lato sensu
+leit motiv	Scma	leit motiv	leitmotiv
+leit motiv	Scmp	leit motiv	leitmotiv
+leit motiv	Scms	leit motiv	leitmotiv
+Liberibacter africanus	Snaa	Liberibacter africanus	Liberibacter africanus
 locus amoenus	Scma	locus amoenus	locus amoenus
 locus amoenus	Scmp	locus amoenus	locus amoenus
 locus amoenus	Scms	locus amoenus	locus amoenus
+manda carallo	Y	manda carallo	manda carallo
+mandos a distancia	Scmp	mando a distancia	mando a distancia
+marrón glacé	Scms	marrón glacé	marron glacé
 mass media	Scmp	mass media	mass media
+mea culpa	Scms	mea culpa	mea culpa
+memorias USB	Scfp	memoria USB	memoria USB
+memoria USB	Scfs	memoria USB	memoria USB
+ménage a trois	Scms	ménage a trois	ménage à trois
+ménage à trois	Scms	ménage à trois	ménage à trois
 mesa redonda	Scfs	mesa redonda	mesa redonda
 mesas redondas	Scfp	mesa redonda	mesa redonda
 modus operandi	Scms	modus operandi	modus operandi
 modus vivendi	Scms	modus vivendi	modus vivendi
+mortis causa	A0aa	mortis causa	mortis causa
+mortis causa	A0ap	mortis causa	mortis causa
+mortis causa	A0as	mortis causa	mortis causa
+mortis causa	A0fa	mortis causa	mortis causa
+mortis causa	A0fp	mortis causa	mortis causa
+mortis causa	A0fs	mortis causa	mortis causa
+mortis causa	A0ma	mortis causa	mortis causa
+mortis causa	A0mp	mortis causa	mortis causa
+mortis causa	A0ms	mortis causa	mortis causa
 motu propio	La0	motu propio	motu propio
+M. tuberculosis	Snaa	M. tuberculosis	Mycobacterium tuberculosis
 mutatis mutandis	La0	mutatis mutandis	mutatis mutandis
+mycobacterium tuberculosis	Snaa	mycobacterium tuberculosis	Mycobacterium tuberculosis
+Mycobacterium tuberculosis	Snaa	Mycobacterium tuberculosis	Mycobacterium tuberculosis
+Necora puber	Snaa	Necora puber	Necora puber
 nen embargantes	La0	nen embargantes	non embargantes
+nin a tiros	La0	nin a tiros	nin a tiros
 nin sequera	La0	nin sequera	nin sequera
 nin sequer	La0	nin sequer	nin sequera
 nin siquer	La0	nin siquer	nin sequera
+nin siquiera	La0	nin siquiera	nin sequera
 nin tan sequera	La0	nin tan sequera	nin tan sequera
 nin tan sequer	La0	nin tan sequer	nin tan sequera
 non embargante	La0	non embargante	non embargante
 non embargantes	La0	non embargantes	non embargante
 non obstante	La0	non obstante	non obstante
+Octopus bimaculoides	Snaa	Octopus bimaculoides	Octopus bimaculoides
+Octopus salutti	Snaa	Octopus salutti	Octopus salutii
+Octopus vulgaris	Snaa	Octopus vulgaris	Octopus vulgaris
 onde quer	La0	onde quer	onde queira
+on line	La0	on line	en liña
+open source	Scms	open source	open source
+O. salutti	Snaa	O. salutti	Octopus salutii
+paga extraordinaria	Scfs	paga extraordinaria	paga extraordinaria
+paga extra	Scfs	paga extra	paga extraordinaria
+pagas extraordinarias	Scfp	paga extraordinaria	paga extraordinaria
+pagas extra	Scfp	paga extra	paga extraordinaria
+pagas extras	Scfp	paga extra	paga extraordinaria
+Paracentrotus lividus	Snaa	Paracentrotus lividus	Paracentrotus lividus
+pen drive	Scms	pen drive	pen drive
 per capita	La0	per capita	per cápita
 per cápita	La0	per cápita	per cápita
 per se	La0	per se	per se
+pesie a	Lp0	pesie a	pese a
+Pinus pinaster	Snaa	Pinus pinaster	Pinus pinaster
 play back	Scms	play back	playback
+Pollicipes pollicipes	Snaa	Pollicipes pollicipes	Pollicipes pollicipes
 por adiantado	La0	por adiantado	por adiantado
 por anticipado	La0	por anticipado	por anticipado
 por causa de	Lp0	por causa de	por causa de
@@ -328,9 +571,13 @@ por cento	La0	por cento	por cento
 por contra	La0	por contra	por a contra
 por ende	La0	por ende	por ende
 por fas	La0	por fas	por fas
+por medio de	Lp0	por medio de	por medio de
+por meo de	Lp0	por meo de	por medio de
 por mor de	Lp0	por mor de	por mor de
 por nefas	La0	por nefas	por nefas
 por oídas	La0	por oídas	por oídas
+por regla xeral	La0	por regla xeral	por regra xeral
+por regra xeral	La0	por regra xeral	por regra xeral
 por se acaso	La0	por se acaso	por se acaso
 por un tris	La0	por un tris	por un tris
 post meridiem	La0	post meridiem	post meridiem
@@ -339,10 +586,19 @@ primeiras ministras	Scfp	primeiro ministro	primeiro ministro
 primeiro ministro	Scms	primeiro ministro	primeiro ministro
 primeiros ministros	Scmp	primeiro ministro	primeiro ministro
 prime time	Scms	prime time	prime time
+pro domo mea	La0	pro domo mea	pro domo mea
+pro domo sua	La0	pro domo sua	pro domo sua
 pro rata	La0	pro rata	pro rata
+Quercus pedunculata	Snaa	Quercus pedunculata	Quercus pedunculata
+Quercus pyrenaica	Snaa	Quercus pyrenaica	Quercus pyrenaica
+Quercus robur	Snaa	Quercus robur	Quercus robur
 quid pro quo	Scms	quid pro quo	quid pro quo
+regra de tres	Scfs	regra de tres	regra de tres
+regras de tres	Scfp	regra de tres	regra de tres
 rente de	Lp0	rente de	rentes de
 rentes de	Lp0	rentes de	rentes de
+rigor mortis	Scms	rigor mortis	rigor mortis
+sapo concho	Scms	sapo concho	sapoconcho
 secretarías xerais	Scfp	secretaría xeral	secretaría xeral
 secretarias xerais	Scfp	secretario xeral	secretario xeral
 secretaría xeral	Scfs	secretaría xeral	secretaría xeral
@@ -350,16 +606,69 @@ secretaria xeral	Scfs	secretario xeral	secretario xeral
 secretarios xerais	Scmp	secretario xeral	secretario xeral
 secretario xeral	Scms	secretario xeral	secretario xeral
 sempre e cando	Lcs	sempre e cando	sempre e cando
+silencio administrativo	Scms	silencio administrativo	silencio administrativo
+silencios administrativos	Scmp	silencio administrativo	silencio administrativo
 sine die	La0	sine die	sine die
 sine qua non	La0	sine qua non	sine qua non
+sobor de	Lp0	sobor de	sobre de
+sóbor de	Lp0	sóbor de	sobre de
+spin off	Scfa	spin off	spin-off
+spin off	Scfp	spin off	spin-off
+spin off	Scfs	spin off	spin-off
+start up	Scfa	start up	start-up
+start up	Scfp	start up	start-up
+start up	Scfs	start up	start-up
 stricto sensu	La0	stricto sensu	stricto sensu
 strictu sensu	La0	strictu sensu	stricto sensu
 sub iudice	La0	sub iudice	sub iudice
 sui generis	La0	sui generis	sui generis
+Sus coronaviricus	Snaa	Sus coronaviricus	Sus coronaviricus
 tal cal	Lcs	tal cal	tal cal
+tea de araña	Scfs	tea de araña	tea de araña
+teas de araña	Scfp	tea de araña	tea de araña
+terceira idade	Scfs	terceira idade	terceira idade
+tía avoa	Scfs	tío avó	tío avó
+tías avoas	Scfp	tío avó	tío avó
+tic tac	Scms	tic tac	tictac
+tic tac	Y	tic tac	tictac
+tie break	Scms	tie break	tie break
+tío avó	Scms	tío avó	tío avó
+tíos avós	Scmp	tío avó	tío avó
+tiro libre	Scms	tiro libre	tiro libre
+tiros libres	Scmp	tiro libre	tiro libre
 tocante a	Lp0	tocante a	tocante a
+todo terreo	A0aa	todo terreo	todo terreo
+todo terreo	A0ap	todo terreo	todo terreo
+todo terreo	A0as	todo terreo	todo terreo
+todo terreo	A0fa	todo terreo	todo terreo
+todo terreo	A0fp	todo terreo	todo terreo
+todo terreo	A0fs	todo terreo	todo terreo
+todo terreo	A0ma	todo terreo	todo terreo
+todo terreo	A0mp	todo terreo	todo terreo
+todo terreo	A0ms	todo terreo	todo terreo
+top les	Scms	top les	topless
+top manta	Scms	top manta	top manta
+top model	Scaa	top model	top model
+top models	Scap	top model	top model
+top models	Scfp	top model	top model
+top models	Scmp	top model	top model
 totum revolutum	Scms	totum revolutum	tótum revolútum
 tótum revolútum	Scms	tótum revolútum	tótum revolútum
+unidade de coidados intensivos	Scms	unidade de coidados intensivos	unidade de coidados intensivos
+unidade de vixilancia intensiva	Scfs	unidade de vixilancia intensiva	unidade de vixilancia intensiva
+unidade didáctica	Scfs	unidade didáctica	unidade didáctica
+unidades de coidados intensivos	Scmp	unidade de coidados intensivos	unidade de coidados intensivos
+unidades de vixilancia intensiva	Scfp	unidade de vixilancia intensiva	unidade de vixilancia intensiva
+unidades didáctica	Scfp	unidade didáctica	unidade didáctica
 urbi et orbi	La0	urbi et orbi	urbi et orbi
+vade retro	Y	vade retro	vade retro
+valedora de o pobo	Scfs	valedor de o pobo	valedor de o pobo
+valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo
+Valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo
+valedor de o pobo	Scms	valedor de o pobo	valedor de o pobo
+valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo
+Valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo
 verbi gratia	La0	verbi gratia	verbi gratia
+via crucis	Scms	via crucis	viacrucis
+vía crucis	Scms	vía crucis	viacrucis
 visto e prace	Scms	visto e prace	visto e prace

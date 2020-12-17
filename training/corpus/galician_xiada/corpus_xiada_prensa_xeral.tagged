@@ -204186,7 +204186,7 @@ o	Ddms	o
 posto	Scms	posto
 de	P	de
 traballo	Scms	traballo
-é	Vip30s	ser
+é	Vpi30s	ser
 o	Ddms	o
 que	Tnms	que
 deben	Vpi30p	deber
@@ -205062,12 +205062,12 @@ gañan	Vpi30p	gañar
 
 estes/as	Enxp	este
 non	Wn	non
-son	Vip30p	ser
+son	Vpi30p	ser
 os/as	Ddxp	o
 meus/miñas	Mn1sxp	meu
 ,	Q,	,
 senón que	Lcs	senón que
-son	Vip30p	ser
+son	Vpi30p	ser
 os/as	Ddxp	o
 teus/túas	Mn2sxp	teu
 .	Q.	.
@@ -205086,7 +205086,7 @@ teu/túa	Mn2sxs	teu
 
 estes/as	Enxp	este
 non	Wn	non
-son	Vip30p	ser
+son	Vpi30p	ser
 os/as	Ddxp	o
 meus/miñas	Md1sxp	meu
 alumnos/as	Scxp	alumno
@@ -205179,3 +205179,36 @@ dous/dúas	Ncaxp	dous
 primeiros/as	Nonxp	primeiro
 .	Q.	.
 
+en	P	en
+este	Edms	este
+nivel	Scms	nivel
+podemos	Vpi10p	poder
+ver	V0f000	ver
+especies	Scfp	especie
+de	P	de
+gran	A0ms	grande
+interese	Scms	interese
+económico	A0ms	económico
+como	Cs	como
+:	Q:	:
+ourizos de mar	Scmp	ourizo de mar
+(	Q(	(
+Paracentrotus lividus	Snaa	Paracentrotus lividus
+)	Q)	)
+,	Q,	,
+percebes	Scmp	percebe
+(	Q(	(
+Pollicipes pollicipes	Snaa	Pollicipes pollicipes
+)	Q)	)
+,	Q,	,
+nécoras	Scfp	nécora
+(	Q(	(
+Necora puber	Snaa	Necora puber
+)	Q)	)
+ou	Cc	ou
+os	Ddmp	o
+polbos	Scmp	polbo
+(	Q(	(
+Octopus vulgaris	Snaa	Octopus vulgaris
+)	Q)	)
+etc.	Za00	etc.
