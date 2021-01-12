@@ -96,4 +96,22 @@ module LemmatizerGalicianXiada
     end
     []
   end
+
+  def lemmatize_verb_with_enclitics(left_part)
+    # gh treatment
+    if left_part =~ /gh/
+      new_left_part = left_part.gsub(/gh/,'g')
+      return new_left_part
+    end
+    left_part
+  end
+
+  def lemmatize_verb_with_enclitics_reverse(original_left_part, left_part)
+    # gh treatment
+    if original_left_part =~ /gh/
+      new_left_part = left_part.gsub(/g/,'gh')
+      return new_left_part
+    end
+    left_part
+  end
 end

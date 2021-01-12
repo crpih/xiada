@@ -293,17 +293,31 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verbs_roots_info(left_candidate)
-    result = Array.new
+    result = []
     @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row
+    end
+    if result.empty?
+      @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
+        result << row
+      end
     end
     return result
   end
 
   def get_enclitic_verbs_roots_tags(left_candidate)
+    #STDERR.puts "left_candidate: #{left_candidate}"
     result = Array.new
     @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row[0]
+    end
+    if result.empty?
+      #STDERR.puts "result.empty"
+      #temp = SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))
+      #STDERR.puts "temp:#{temp}"
+      @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
+        result << row[0]
+      end
     end
     return result
   end
@@ -385,28 +399,38 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verb_roots_info(root, tags)
-    result = Array.new
+    result = []
     if (tags == nil) or (tags.empty?)
       @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}'") do |row|
         result << row
+      end
+      if result.empty?
+        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}'") do |row|
+          result << row
+        end
       end
     else
       tag_string = get_possible_tags(tags)
       @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}' and tag in (#{tag_string})") do |row|
         result << row
       end
+      if result.empty?
+        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
+          result << row
+        end
+      end       
     end
     return result
   end
 
-  def get_recovery_info(tag, lemma, from_lexicon)
+  def get_recovery_info(verb_part, tag, lemma, from_lexicon)
     from_lexicon_integer = 0
-    from_lexicon_integer = 1 if from_lexicon_integer
+    from_lexicon_integer = 1 if from_lexicon
     result = Array.new
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
       result << row
     end
-    return result
+    return restore_lemmatization(verb_part, result)
   end
 
   def get_peripheric_regexp
@@ -559,5 +583,12 @@ class DatabaseWrapper
       end
     end
     return category_regexp
+  end
+
+  def restore_lemmatization(verb_part, result)
+    result.each do |row|
+      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse(verb_part, row[0])
+    end
+    return result
   end
 end

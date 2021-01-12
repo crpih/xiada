@@ -13,6 +13,14 @@ class Lemmatizer
     return word ? word : "*"
   end
 
+  def lemmatize_verb_with_enclitics(left_part)
+    return left_part
+  end
+
+  def lemmatize_verb_with_enclitics_reverse(original_left_part, left_part)
+    return left_part
+  end
+
   protected
 
   # NOTE: This function breaks statistical model in some way

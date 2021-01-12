@@ -168,7 +168,7 @@ class XiadaTagger
     #sentence.print(STDERR)
     STDERR.puts "Processing enclitics..."
     sentence.enclitics_processing
-    #sentence.print
+    # sentence.print(STDERR)
     #sentence.print_reverse
     STDERR.puts "Applying Viterbi..."
     viterbi = Viterbi.new(dw)

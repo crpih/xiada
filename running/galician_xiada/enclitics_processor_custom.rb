@@ -2,6 +2,7 @@
 
 module EncliticsProcessorCustomGalicianXiada
   def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
+    STDERR.puts "verb_part: #{verb_part}"
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
     infos = @dw.get_enclitic_verb_roots_info(verb_part, verb_tags.split(" "))
@@ -10,9 +11,9 @@ module EncliticsProcessorCustomGalicianXiada
       lemma = info[1]
       hiperlemma = info[2]
       extra = info[3]
-      results = @dw.get_recovery_info(tag_value, lemma, true)
+      results = @dw.get_recovery_info(verb_part, tag_value, lemma, true)
       if results.empty?
-        results = @dw.get_recovery_info(tag_value, lemma, false)
+        results = @dw.get_recovery_info(verb_part, tag_value, lemma, false)
       end
       if results.empty?
         STDERR.puts "WARNING: Reverse info for tag:#{tag_value} and lemma:#{lemma} not found. Searching for verb_part: #{verb_part}"
