@@ -23,7 +23,7 @@ module EncliticsProcessorCustomGalicianXiada
       final_recovery_tag = String.new(tag_value)
       final_recovery_lemma = String.new(lemma)
       final_recovery_hiperlemma = String.new(hiperlemma)
-      final_recovery_log_b = -100 # To be changed ???
+      final_recovery_log_b = -100 # To be changed ??? TODO
       # STDERR.puts "results.size: #{results.size}"
       results.each do |result|
         recovery_word = result[0]
