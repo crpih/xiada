@@ -543,6 +543,7 @@ nin tan sequer	La0	nin tan sequer	nin tan sequera
 non embargante	La0	non embargante	non embargante
 non embargantes	La0	non embargantes	non embargante
 non obstante	La0	non obstante	non obstante
+non si	La0	non si	non si
 Octopus bimaculoides	Snaa	Octopus bimaculoides	Octopus bimaculoides
 Octopus salutti	Snaa	Octopus salutti	Octopus salutii
 Octopus vulgaris	Snaa	Octopus vulgaris	Octopus vulgaris
