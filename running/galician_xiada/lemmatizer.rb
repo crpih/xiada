@@ -92,7 +92,7 @@ module LemmatizerGalicianXiada
     # gh treatment
     if word =~ /gh/
       new_word = word.gsub(/gh/,'g')
-      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*'])
+      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
     end
     []
   end

@@ -298,7 +298,6 @@ mesmo que	Lcs	mesmo que	mesmo que
 meu Deus	Y	meu Deus	meu Deus
 nin que	Lcs	nin que	nin que
 non ben	La0	non ben	non ben
-non si	La0	non si	non si
 off line	La0	off line	off line
 onda non	Lcs	onda non	onda non
 onde queira	La0	onde queira	onde queira
