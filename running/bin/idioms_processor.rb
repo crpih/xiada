@@ -63,7 +63,7 @@ class IdiomsProcessor
     # STDERR.puts "(search_possible_start_points_alternative) token:#{token.text}"
     possible_start_points = Array.new
     while token.token_type != :end_alternative
-      idioms = @dw.get_idioms_match(token.text + " ")
+      idioms = @dw.get_multiword_match(token.text + " ")
       unless idioms.empty?
         #puts "possible_start_point_alternative: #{token.text}"
         possible_start_points << [token, true]
@@ -96,7 +96,7 @@ class IdiomsProcessor
         end
       elsif token.token_type == :standard
         # STDERR.puts "STANDARD token:#{token.text}"
-        idioms = @dw.get_idioms_match(token.text + " ")
+        idioms = @dw.get_multiword_match(token.text + " ")
         unless idioms.empty?
           #puts "possible_start_point: #{token.text}"
           possible_start_points << [token, false]
@@ -112,19 +112,20 @@ class IdiomsProcessor
     #puts "searching throw alternatives. token:#{token.text} type:#{token.token_type}"
     end_points = Array.new
     while token.token_type != :end_alternative
-      idioms = @dw.get_idioms_full(substring + " " + token.text)
+      idioms = @dw.get_multiword_full(substring + " " + token.text)
       unless idioms.empty?
         #puts "full. token:#{token.text} idiom: #{substring} #{token.text}"
         end_point = [token, true, substring + " " + token.text]
         # Second value indicates that the end_point is inside an alternative
-        if Integer(idioms[0][4]) == 1 # sure field of first tuple
+        unless @dw.is_idiom_unsure?(idioms[0][0])
+        # if Integer(idioms[0][4]) == 1 # sure field of first tuple
           end_point << true
         else
           end_point << false
         end
         end_points << end_point
       end
-      idioms = @dw.get_idioms_match(substring + " " + token.text)
+      idioms = @dw.get_multiword_match(substring + " " + token.text)
       if idioms.empty?
         break
       else
@@ -153,12 +154,13 @@ class IdiomsProcessor
         end
         break
       elsif token.token_type == :standard
-        idioms = @dw.get_idioms_full(substring + " " + token.text)
+        idioms = @dw.get_multiword_full(substring + " " + token.text)
         unless idioms.empty?
           #puts "end_point:#{token.text}"
           end_point = [token, false, substring + " " + token.text]
           # Second value indicates that the end_point is outside an alternative
-          if Integer(idioms[0][4]) == 1 # sure field of first tuple
+          unless @dw.is_idiom_unsure?(idioms[0][0])
+          #if Integer(idioms[0][4]) == 1 # sure field of first tuple
             end_point << true
             #puts "true"
           else
@@ -167,7 +169,7 @@ class IdiomsProcessor
           end
           end_points << end_point
         end
-        idioms = @dw.get_idioms_match(substring + " " + token.text)
+        idioms = @dw.get_multiword_match(substring + " " + token.text)
         if idioms.empty?
           #puts "break"
           break
