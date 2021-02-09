@@ -20,12 +20,12 @@ class IdiomsProcessor
     prev_to = nil
     possible_start_points.each_index do |index|
       possible_start_point = possible_start_points[index]
-      # STDERR.puts "index:#{index} possible_start_point:#{possible_start_point[0].text}"
+      #STDERR.puts "index:#{index} possible_start_point:#{possible_start_point[0].text}"
       from = possible_start_point[0]
       from_alternative = possible_start_point[1]
       # By now we use only the longest idiom
       end_point = end_points[index].last
-      # STDERR.puts "end_point: #{end_point}"
+      #STDERR.puts "end_point: #{end_point}"
       # STDERR.puts "end_point size: #{end_point.size}"
       to = end_point[0]
       to_alternative = end_point[1]
@@ -143,7 +143,7 @@ class IdiomsProcessor
     token = token.next
     while token.token_type != :end_sentence
       #puts "substring: #{substring}"
-      #puts "token text:#{token.text} token type:#{token.token_type}"
+      #STDERR.puts "token text:#{token.text} token type:#{token.token_type}"
       if token.token_type == :end_alternative
         token = token.next
       elsif token.token_type == :begin_alternative
@@ -154,10 +154,18 @@ class IdiomsProcessor
         end
         break
       elsif token.token_type == :standard
-        idioms = @dw.get_multiword_full(substring + " " + token.text)
+        if token.text != "."
+          idioms = @dw.get_multiword_full(substring + " " + token.text)
+        else
+          idioms = @dw.get_multiword_full(substring + token.text)
+        end
         unless idioms.empty?
           #puts "end_point:#{token.text}"
-          end_point = [token, false, substring + " " + token.text]
+          if token.text != "."
+            end_point = [token, false, substring + " " + token.text]
+          else
+            end_point = [token, false, substring + token.text]
+          end
           # Second value indicates that the end_point is outside an alternative
           unless @dw.is_idiom_unsure?(idioms[0][0])
           #if Integer(idioms[0][4]) == 1 # sure field of first tuple
@@ -190,16 +198,16 @@ class IdiomsProcessor
     end_points = Array.new
     possible_start_points.each do |possible_start_point|
       token = possible_start_point[0]
-      #puts "Searching end point for token:#{token.text}..."
+      #STDERR.puts "Searching end point for token:#{token.text}..."
       end_points_aux = search_end_points_aux(token)
-      #puts "end_points_aux:#{end_points_aux}"
+      #STDERR.puts "End_points_aux:#{end_points_aux}"
       end_points << end_points_aux
     end
     return end_points
   end
   
   def join_idiom(from, from_alternative, to, to_alternative, idiom, sure)
-    # STDERR.puts "Joining idiom from:#{from.text} (alternative:#{from_alternative}) to:#{to.text} (alternative:#{to_alternative}) idiom:#{idiom} sure:#{sure}"
+    #STDERR.puts "Joining idiom from:#{from.text} (alternative:#{from_alternative}) to:#{to.text} (alternative:#{to_alternative}) idiom:#{idiom} sure:#{sure}"
     if sure
       join_sure_idiom(from, from_alternative, to, to_alternative, idiom)
     else
