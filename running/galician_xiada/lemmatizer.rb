@@ -123,12 +123,16 @@ module LemmatizerGalicianXiada
     []
   end
 
+  # Function which is called before accesssing emission frequencies for verbs with enclitics pronouns.
   def lemmatize_verb_with_enclitics(left_part)
     # gh treatment
     if left_part =~ /gh/
       new_left_part = left_part.gsub(/gh/,'g')
       return new_left_part
     # auto treatment
+    elsif left_part =~ /^autor/
+      new_left_part = left_part.gsub(/^autor/,'')
+      return new_left_part
     elsif left_part =~ /^auto-?/
       new_left_part = left_part.gsub(/^auto-?/,'')
       return new_left_part
@@ -136,12 +140,16 @@ module LemmatizerGalicianXiada
     left_part
   end
 
+  # Function to tranform the word part when restoring a verb form with enclitics.
   def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
     # gh treatment
     if original_left_part =~ /gh/
       new_left_part = left_part.gsub(/g/,'gh')
       return new_left_part
     # auto treatment
+    elsif original_left_part =~/^autor/
+      new_left_part = left_part.gsub(/^(.)/,'autor\1')
+      return new_left_part
     elsif original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
       return new_left_part
@@ -149,6 +157,7 @@ module LemmatizerGalicianXiada
     left_part
   end
 
+  # Function to tranform the lemma part when restoring a verb form with enclitics.
   def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
     if original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
