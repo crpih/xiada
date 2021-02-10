@@ -163,12 +163,12 @@ class XiadaTagger
     STDERR.puts "Processing proper nouns..."
     sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
     #sentence.print
-    #STDERR.puts "Processing numerals..."
+    STDERR.puts "Processing numerals..."
     sentence.numerals_processing
     #sentence.print(STDERR)
     STDERR.puts "Processing enclitics..."
     sentence.enclitics_processing
-    # sentence.print(STDERR)
+    #sentence.print(STDERR)
     #sentence.print_reverse
     STDERR.puts "Applying Viterbi..."
     viterbi = Viterbi.new(dw)
