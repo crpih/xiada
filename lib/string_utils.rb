@@ -54,7 +54,7 @@ class StringUtils
   end
 
   def self.first_only_upper?(str)
-    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/ ]+$/ 
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/ ]+$/ 
       return true
     else
       return false
