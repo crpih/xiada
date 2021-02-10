@@ -652,6 +652,7 @@ class Sentence
         end
         tag_object.deltas.each do |prev_tag, delta|
           fd.puts "\t\tdelta=#{delta.value}, prev_tag=#{prev_tag}"
+          fd.puts "\t\tdelta.normalized=#{delta.normalized_value}, prev_tag=#{prev_tag}"
         end
       end
       unless token.nexts_ignored.empty?
