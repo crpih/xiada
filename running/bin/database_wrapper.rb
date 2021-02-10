@@ -322,11 +322,13 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verbs_roots_info(left_candidate)
+    #STDERR.puts "left_candidate: #{left_candidate}"
     result = []
     @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row
     end
     if result.empty?
+      #STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
       @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
         result << row
       end
@@ -453,6 +455,7 @@ class DatabaseWrapper
   end
 
   def get_recovery_info(verb_part, tag, lemma, from_lexicon)
+    #STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
     from_lexicon_integer = 0
     from_lexicon_integer = 1 if from_lexicon
     result = Array.new
@@ -615,9 +618,12 @@ class DatabaseWrapper
   end
 
   def restore_lemmatization(verb_part, result)
+    #STDERR.puts "(restore_lemmatization) verb_part: #{verb_part} result: #{result}"
     result.each do |row|
-      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse(verb_part, row[0])
+      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_word(verb_part, row[0])
+      row[2] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_lemma(verb_part, row[2])
     end
+    #STDERR.puts "(restore_lemmatization)2 verb_part: #{verb_part} result: #{result}"
     return result
   end
 end

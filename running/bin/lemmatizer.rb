@@ -32,4 +32,14 @@ class Lemmatizer
     end
     return result
   end
+
+  # NOTE: This function breaks statistical model in some way
+  def replace_lemmas(dw_result, search_exp, replace_exp)
+    result = Array.new
+    dw_result.each do |row|
+      row[1].gsub!(/#{search_exp}/,"#{replace_exp}")
+      result << row
+    end
+    return result
+  end
 end

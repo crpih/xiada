@@ -86,7 +86,32 @@ module LemmatizerGalicianXiada
         return replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
         return replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
       end
+    end
 
+    # auto-
+    # auto-axudas => auto-axuda
+    if word =~/^auto-/
+      new_word = word.gsub(/^auto-/, "")
+      result = @dw.get_emissions_info(new_word, ['A*','S*','W*', 'V*'])
+      result = replace_lemmas(result, "^(.)", 'auto-\1') unless result.empty?
+      return result unless result.empty?
+    elsif word =~/^auto/
+      # auto
+      # autoxestión => autoxestión
+      # autorreflexión => autorreflexión
+      double_r = false
+      new_word = word.gsub(/^auto/, "")
+      if new_word =~ /^rr/
+        new_word = word.gsub(/^autor/, "")
+        double_r = true
+      end
+      result = @dw.get_emissions_info(new_word, ['A*','S*','W*', 'V*'])
+      if double_r
+        result = replace_lemmas(result, "^(.)", 'autor\1') unless result.empty?
+      else
+        result = replace_lemmas(result, "^(.)", 'auto\1') unless result.empty?
+      end
+      return result unless result.empty?
     end
 
     # gh treatment
@@ -94,6 +119,7 @@ module LemmatizerGalicianXiada
       new_word = word.gsub(/gh/,'g')
       return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
     end
+
     []
   end
 
@@ -102,16 +128,33 @@ module LemmatizerGalicianXiada
     if left_part =~ /gh/
       new_left_part = left_part.gsub(/gh/,'g')
       return new_left_part
-    end
-    left_part
-  end
-
-  def lemmatize_verb_with_enclitics_reverse(original_left_part, left_part)
-    # gh treatment
-    if original_left_part =~ /gh/
-      new_left_part = left_part.gsub(/g/,'gh')
+    # auto treatment
+    elsif left_part =~ /^auto-?/
+      new_left_part = left_part.gsub(/^auto-?/,'')
       return new_left_part
     end
     left_part
   end
+
+  def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
+    # gh treatment
+    if original_left_part =~ /gh/
+      new_left_part = left_part.gsub(/g/,'gh')
+      return new_left_part
+    # auto treatment
+    elsif original_left_part =~/^(auto-?)/
+      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+      return new_left_part
+    end
+    left_part
+  end
+
+  def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
+    if original_left_part =~/^(auto-?)/
+      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+      return new_left_part
+    end
+    left_part
+  end
+
 end
