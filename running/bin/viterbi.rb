@@ -19,9 +19,10 @@ class Viterbi
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
-      # sentence.print(STDERR)
+      #sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
+      sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
@@ -270,7 +271,7 @@ class Viterbi
                                                               prev_tag.value,
                                                               tag.value)
                   #puts "calculating trigram: #{prev_prev_tag.value} #{prev_tag.value} #{tag.value}"
-                  normalized_current_delta = current_delta / (length + 1)
+                  normalized_current_delta = current_delta / Math.log(length + 1)
                   #puts "trigram:#{prev_prev_tag.value},#{prev_tag.value},#{tag.value}"
                   #puts "probability:#{@dw.get_trigram_probability(prev_prev_tag.value,prev_tag.value,tag.value)}"
                   #puts "deltas_aux[#{length}]=#{deltas_aux[length]} prev_delta:#{prev_delta.value}"
