@@ -322,13 +322,13 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verbs_roots_info(left_candidate)
-    STDERR.puts "left_candidate: #{left_candidate}"
+    #STDERR.puts "left_candidate: #{left_candidate}"
     result = []
     @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row
     end
     if result.empty?
-      STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
+      #STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
       @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
         result << row
       end
