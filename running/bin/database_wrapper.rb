@@ -622,6 +622,7 @@ class DatabaseWrapper
     result.each do |row|
       row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_word(verb_part, row[0])
       row[2] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_lemma(verb_part, row[2])
+      row[3] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_hiperlemma(verb_part, row[3])
     end
     #STDERR.puts "(restore_lemmatization)2 verb_part: #{verb_part} result: #{result}"
     return result

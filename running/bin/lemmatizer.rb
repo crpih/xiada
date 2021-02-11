@@ -42,4 +42,13 @@ class Lemmatizer
     end
     return result
   end
+
+  def replace_hiperlemmas(dw_result, search_exp, replace_exp)
+    result = Array.new
+    dw_result.each do |row|
+      row[2].gsub!(/#{search_exp}/,"#{replace_exp}")
+      result << row
+    end
+    return result
+  end
 end

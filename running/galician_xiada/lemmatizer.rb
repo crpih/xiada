@@ -93,8 +93,11 @@ module LemmatizerGalicianXiada
     if word =~/^auto-/
       new_word = word.gsub(/^auto-/, "")
       result = @dw.get_emissions_info(new_word, ['A*','S*','W*', 'V*'])
-      result = replace_lemmas(result, "^(.)", 'auto-\1') unless result.empty?
-      return result unless result.empty?
+      unless result.empty?
+        result = replace_lemmas(result, "^(.)", 'auto-\1')
+        result = replace_hiperlemmas(result, "^(.)", 'auto-\1')
+        return result
+      end
     elsif word =~/^auto/
       # auto
       # autoxestión => autoxestión
@@ -107,9 +110,15 @@ module LemmatizerGalicianXiada
       end
       result = @dw.get_emissions_info(new_word, ['A*','S*','W*', 'V*'])
       if double_r
-        result = replace_lemmas(result, "^(.)", 'autor\1') unless result.empty?
+        unless result.empty?
+          result = replace_lemmas(result, "^(.)", 'autor\1')
+          result = replace_hiperlemmas(result, "^(.)", 'autor\1')
+        end
       else
-        result = replace_lemmas(result, "^(.)", 'auto\1') unless result.empty?
+        unless result.empty?
+          result = replace_lemmas(result, "^(.)", 'auto\1')
+          result = replace_hiperlemmas(result, "^(.)", 'auto\1')
+        end
       end
       return result unless result.empty?
     end
@@ -166,4 +175,12 @@ module LemmatizerGalicianXiada
     left_part
   end
 
+    # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
+    def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
+      if original_left_part =~/^(auto-?)/
+        new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+        return new_left_part
+      end
+      left_part
+    end
 end
