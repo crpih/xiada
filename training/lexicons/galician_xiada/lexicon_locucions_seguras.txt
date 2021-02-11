@@ -4,6 +4,8 @@ a a emborca	La0	a a emborca	a a envorca
 a a envorca	La0	a a envorca	a a envorca
 a a garra	La0	a a garra	a a garra
 a a mantenta	La0	a a mantenta	a a mantenta
+a a miña vez	La0	a a miña vez	a a miña vez
+a a nosa vez	La0	a a nosa vez	a a nosa vez
 a a rapañota	La0	a a rapañota	a a rapañota
 a as agachadas	La0	a as agachadas	a as agachadas
 a as atoutiñadas	La0	a as atoutiñadas	a as atoutiñadas
@@ -20,6 +22,8 @@ a as escondidas	La0	a as escondidas	a as escondidas
 a as rapañotas	La0	a as rapañotas	a as rapañotas
 a as tentas	La0	a as tentas	a tentas
 a as toas	La0	a as toas	a a toa
+a a sua vez	La0	a a sua vez	a a súa vez
+a a súa vez	La0	a a súa vez	a a súa vez
 a as vorcalladas	La0	a as vorcalladas	a as vorcalladas
 a a toa	La0	a a toa	a a toa
 a a zonza	La0	a a zonza	a a zonza
