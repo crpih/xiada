@@ -22,7 +22,7 @@ class Viterbi
       #sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
-      sentence.print(STDERR)
+      #sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
