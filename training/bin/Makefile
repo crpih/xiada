@@ -7,27 +7,27 @@ spanish_eslora: clean_spanish_eslora spanish_eslora_oral
 spanish_eslora_new: clean_spanish_eslora spanish_eslora_oral_new
 
 galician_xiada_escrita:
-	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
+	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_escrita; cd ../../bin
 
 galician_xiada_oral:
-	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal_completado_oral.txt
+	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal_oral.txt
 	cd ../lexicons/bin; make galician_xiada_oral; cd ../../bin
 
 galician_xiada_prensa:
-	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa.tagged ../databases/galician_xiada/training_galician_xiada_prensa.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
+	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa.tagged ../databases/galician_xiada/training_galician_xiada_prensa.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_prensa; cd ../../bin
 
 galician_xiada_prensa_xeral:
-	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa_xeral.tagged ../databases/galician_xiada/training_galician_xiada_prensa_xeral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
+	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa_xeral.tagged ../databases/galician_xiada/training_galician_xiada_prensa_xeral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_prensa_xeral; cd ../../bin
 
 galician_xiada_prensa_economia:
-	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa_economia.tagged ../databases/galician_xiada/training_galician_xiada_prensa_economia.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
+	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_prensa_economia.tagged ../databases/galician_xiada/training_galician_xiada_prensa_economia.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_prensa_economia; cd ../../bin
 
 galician_xiada_relato:
-	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_relato.tagged ../databases/galician_xiada/training_galician_xiada_relato.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal_completado.txt
+	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_relato.tagged ../databases/galician_xiada/training_galician_xiada_relato.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_relato; cd ../../bin
 
 spanish_eslora_oral:
