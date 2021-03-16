@@ -4,7 +4,7 @@ module LemmatizerGalicianXiada
 
   def lemmatize(word, tags)
     # mente suffix treatment
-    return @dw.get_guesser_result("'mente'", word, ['W*']) if word =~ /mente$/
+    return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
     # ísimo/a/os/as suffix treatment
 
