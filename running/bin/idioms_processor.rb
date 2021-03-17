@@ -207,7 +207,7 @@ class IdiomsProcessor
   end
   
   def join_idiom(from, from_alternative, to, to_alternative, idiom, sure)
-    #STDERR.puts "Joining idiom from:#{from.text} (alternative:#{from_alternative}) to:#{to.text} (alternative:#{to_alternative}) idiom:#{idiom} sure:#{sure}"
+    # STDERR.puts "Joining idiom from:#{from.text} (alternative:#{from_alternative}) to:#{to.text} (alternative:#{to_alternative}) idiom:#{idiom} sure:#{sure}"
     if sure
       join_sure_idiom(from, from_alternative, to, to_alternative, idiom)
     else

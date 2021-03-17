@@ -20,7 +20,7 @@ galician_xiada_escrita_new:
 	cd ../lexicons/bin; make galician_xiada_escrita_new; cd ../../bin
 
 galician_xiada_oral:
-	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal_oral.txt
+	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_oral; cd ../../bin
 
 galician_xiada_prensa:
