@@ -720,9 +720,32 @@ class Sentence
     while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
       token = token.next
     end
-    # STDERR.puts "first token: #{token.text}"
-    token.replace_text(StringUtils.first_to_lower(token.text)) if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
-    # STDERR.puts "first token after first_to_lower: #{token.text}"
+    #STDERR.puts "first token: #{token.text}"
+    if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
+      (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil) and
+      !first_words_in_lexicon))
+      token.replace_text(StringUtils.first_to_lower(token.text)) 
+    end
+    #STDERR.puts "first token after first_to_lower: #{token.text}"
+  end
+
+  def first_words_in_lexicon
+    token = @first_token.next
+    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+      token = token.next
+    end
+    text_to_search = ""
+    word_counter = 1
+    while (token.token_type == :standard) and word_counter < 5
+      text_to_search << "#{token.text}"
+      result = @dw.get_emissions_info(text_to_search, nil)
+      #STDERR.puts "result:#{result}"
+      return true unless result.empty?
+      text_to_search << " "
+      token = token.next
+      word_counter = word_counter + 1
+    end
+    return false
   end
 
   def min_length
