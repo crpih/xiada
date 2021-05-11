@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require_relative "../../lib/string_utils.rb"
 
 module LemmatizerGalicianXiada
 
@@ -129,10 +130,25 @@ module LemmatizerGalicianXiada
       return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
     end
 
+    # iño
+    # process only simple words (the ones that don't have - or /)
+    if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
+      if word =~ /guiñ[oa]s?$/
+        new_word = word.gsub(/guiñ([oa]s?)$/,'g\1')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        return result unless result.empty?
+        if new_word !~/áéíóú/
+          new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
+          result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+          return result unless result.empty?
+        end
+      end
+    end
+
     []
   end
 
-  # Function which is called before accesssing emission frequencies for verbs with enclitics pronouns.
+  # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
   def lemmatize_verb_with_enclitics(left_part)
     # gh treatment
     if left_part =~ /gh/
@@ -175,12 +191,23 @@ module LemmatizerGalicianXiada
     left_part
   end
 
-    # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
-    def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
-      if original_left_part =~/^(auto-?)/
-        new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-        return new_left_part
-      end
-      left_part
+  # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
+  def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
+    if original_left_part =~/^(auto-?)/
+      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+      return new_left_part
     end
+    left_part
+  end
+
+  # Function which replace a vowel by the corresponding tilde one.
+  # vowel_position is the vowel order from the end.
+
+  def set_tilde(word, vowel_position)
+    if vowel_position == 3
+      word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+StringUtils.with_tilde($2)+$3 }
+    else
+      word
+    end
+  end
 end
