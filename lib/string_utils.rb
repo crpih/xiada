@@ -131,7 +131,6 @@ class StringUtils
   end
 
   def self.with_tilde(str)
-    STDERR.puts "str:#{str}"
     str = str.gsub(/A/, "Á")
     str = str.gsub(/E/, "É")
     str = str.gsub(/I/, "Í")

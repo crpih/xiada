@@ -130,10 +130,15 @@ module LemmatizerGalicianXiada
       return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
     end
 
-    # iño
+    # iño/a/os/as
     # process only simple words (the ones that don't have - or /)
     if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
       if word =~ /guiñ[oa]s?$/
+        # guiño/a/os/as
+        # amiguiño => amigo
+        # enruguiñas => enruga
+        # albondiguiñas => albóndiga
+        # estomaguiño => estómago
         new_word = word.gsub(/guiñ([oa]s?)$/,'g\1')
         result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
         return result unless result.empty?
