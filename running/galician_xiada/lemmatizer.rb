@@ -133,6 +133,7 @@ module LemmatizerGalicianXiada
     # iño/a/os/as
     # process only simple words (the ones that don't have - or /)
     if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
+
       if word =~ /guiñ[oa]s?$/
         # guiño/a/os/as
         # amiguiño => amigo
@@ -147,6 +148,19 @@ module LemmatizerGalicianXiada
           result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
           return result unless result.empty?
         end
+      end
+
+      if word =~ /lciñ[oa]s?$/
+        # lciño/a/os/as
+        # solciño => sol
+        # animalciños => animal
+        # descalciña => descalzo
+        new_word = word.gsub(/(l)ciñ[oa]s?$/,'\1')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        return result unless result.empty?
+        new_word = word.gsub(/(l)ciñ([oa]s?)$/,'\1z\2')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        return result unless result.empty?
       end
     end
 
