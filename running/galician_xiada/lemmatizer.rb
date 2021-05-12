@@ -234,17 +234,4 @@ module LemmatizerGalicianXiada
 
 end
 
-# periodico => vowel + vowel does not work
-
-def set_tilde(word, vowel_position)
-  case vowel_position
-  when 2
-    word.gsub(/([^aeiou]+[aeiou][^aeiou]+)([aeiou])([^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
-  when 3
-    word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
-  when 4
-    word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
-  else
-    word
-  end
 end
