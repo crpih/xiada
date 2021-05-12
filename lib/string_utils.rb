@@ -130,20 +130,6 @@ class StringUtils
     return str
   end
 
-  def self.with_tilde(str)
-    str = str.gsub(/A/, "Á")
-    str = str.gsub(/E/, "É")
-    str = str.gsub(/I/, "Í")
-    str = str.gsub(/O/, "Ó")
-    str = str.gsub(/U/, "Ú")
-    str = str.gsub(/a/, "á")
-    str = str.gsub(/e/, "é")
-    str = str.gsub(/i/, "í")
-    str = str.gsub(/o/, "ó")
-    str = str.gsub(/u/, "ú")
-    return str
-  end
-
   def self.replace_xml_conflicting_characters(string)
     new_string = String.new(string)
     new_string.gsub!(/&/, "&amp;")

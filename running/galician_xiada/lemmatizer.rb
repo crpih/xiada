@@ -220,13 +220,31 @@ module LemmatizerGalicianXiada
   end
 
   # Function which replace a vowel by the corresponding tilde one.
-  # vowel_position is the vowel order from the end.
+  # position is the vowel order from the end.
 
-  def set_tilde(word, vowel_position)
-    if vowel_position == 3
-      word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+StringUtils.with_tilde($2)+$3 }
-    else
-      word
-    end
+  def set_tilde(word, position)
+    characters = word.each_grapheme_cluster.to_a
+    vowel_positions = characters.each_with_index
+                                .select { |c, _| %w[a e i o u].include?(c) }
+                                .map(&:last)
+    vowel_index = vowel_positions[-position]
+    characters[vowel_index] = "#{characters[vowel_index]}\u0301".unicode_normalize
+    characters.join
+  end
+
+end
+
+# periodico => vowel + vowel does not work
+
+def set_tilde(word, vowel_position)
+  case vowel_position
+  when 2
+    word.gsub(/([^aeiou]+[aeiou][^aeiou]+)([aeiou])([^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
+  when 3
+    word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
+  when 4
+    word.gsub(/([^aeiou]+)([aeiou])([^aeiou]+[aeiou][^aeiou]+[aeiou][^aeiou]+[aeiou]s?$)/) { $1+"-"+$3 }
+  else
+    word
   end
 end
