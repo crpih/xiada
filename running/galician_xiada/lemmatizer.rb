@@ -233,5 +233,3 @@ module LemmatizerGalicianXiada
   end
 
 end
-
-end
