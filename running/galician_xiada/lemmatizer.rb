@@ -152,13 +152,19 @@ module LemmatizerGalicianXiada
 
       if word =~ /lciñ[oa]s?$/
         # lciño/a/os/as
-        # solciño => sol
-        # animalciños => animal
+        # solciño => sol (Scms)
+        # animalciños => animal (Scmp)
         # descalciña => descalzo
-        new_word = word.gsub(/(l)ciñ[oa]s?$/,'\1')
+        new_word = word.gsub(/(l)ciñ[oa]$/,'\1')
         result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
         return result unless result.empty?
-        new_word = word.gsub(/(l)ciñ([oa]s?)$/,'\1z\2')
+        new_word = word.gsub(/(l)ciñ[oa]s$/,'\1es')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        return result unless result.empty?
+        new_word = word.gsub(/(l)ciñ([oa])$/,'\1z\2')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        return result unless result.empty?
+        new_word = word.gsub(/(l)ciñ([oa])s$/,'\1z\2s')
         result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
         return result unless result.empty?
       end
