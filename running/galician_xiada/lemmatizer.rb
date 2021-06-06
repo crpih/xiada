@@ -168,6 +168,32 @@ module LemmatizerGalicianXiada
         result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
         return result unless result.empty?
       end
+      if word =~ /quiñ[oa]s?$/
+        # quiño/a/os/as
+        # plaquiñas => placas
+        # retaquiños => retacos
+        new_word = word.gsub(/quiñ([oa]s?)$/,'c\1')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+        return result unless result.empty?
+        result = @dw.get_emissions_info(new_word, ['V?i*','A?s','V0m*'])
+        unless result.empty?
+          if new_word !~ /áéíóú/
+            new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
+            # musiquiña => música / musiquiño => músico
+            result = @dw.get_emissions_info(new_word, [])
+            return result unless result.empty?
+          end
+        end
+        if new_word !~ /áéíóú/
+          new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
+          result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+          # faisquiñas => faíscas / periodiquiños => periódicos / politiquiñas =>> políticas
+          return result unless result.empty?
+        end
+        new_word = word.gsub(/quiñ[oa](s?)$/,'que\1')
+        result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+        return result unless result.empty?
+      end
     end
 
     []
@@ -233,9 +259,13 @@ module LemmatizerGalicianXiada
     vowel_positions = characters.each_with_index
                                 .select { |c, _| %w[a e i o u].include?(c) }
                                 .map(&:last)
-    vowel_index = vowel_positions[-position]
-    characters[vowel_index] = "#{characters[vowel_index]}\u0301".unicode_normalize
-    characters.join
+    if position <= vowel_positions.size
+      vowel_index = vowel_positions[-position]
+      characters[vowel_index] = "#{characters[vowel_index]}\u0301".unicode_normalize
+      characters.join
+    else
+      return word
+    end
   end
 
 end
