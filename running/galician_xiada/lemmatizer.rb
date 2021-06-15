@@ -259,24 +259,14 @@ module LemmatizerGalicianXiada
         # altarciño => altar
         # amorciño => amor
         # calamarciños => calamares
-        if word =~ /rciño$/
-          new_word = word.gsub(/rciño$/,'r')
-          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1ms") if word =~ /o$/
+        if word =~ /rciñ[oa]$/
+          new_word = word.gsub(/rciñ[oa]$/,'r')
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['A*','S*']))
           return result unless result.empty?
         end
-        if word =~ /rciños$/
-          new_word = word.gsub(/rciños$/,'res')
-          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1mp") if word =~ /os$/
-          return result unless result.empty?
-        end
-        if word =~ /rciña$/
-          new_word = word.gsub(/rciña$/,'r')
-          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1fs") if word =~ /a$/
-          return result unless result.empty?
-        end
-        if word =~ /rciñas$/
-          new_word = word.gsub(/rciñas$/,'res')
-          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1fp") if word =~ /as$/
+        if word =~ /rciñ[oa]s$/
+          new_word = word.gsub(/rciñ[oa]s$/,'res')
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['A*','S*']))
           return result unless result.empty?
         end
       end
@@ -416,11 +406,6 @@ module LemmatizerGalicianXiada
         return result unless result.empty?
       end
 
-
-
-
-
-
       # gh treatment
       if word =~ /gh/
         new_word = word.gsub(/gh/,'g')
@@ -428,6 +413,15 @@ module LemmatizerGalicianXiada
       end
     end
 
+    []
+  end
+
+  def gender_number_force_matching (word, result)
+    return result if result.empty?
+    return replace_tags(result, "..$","ms") if word =~/o$/
+    return replace_tags(result, "..$","fs") if word =~/a$/
+    return replace_tags(result, "..$","mp") if word =~/os$/
+    return replace_tags(result, "..$","fp") if word =~/as$/
     []
   end
 
@@ -485,7 +479,6 @@ module LemmatizerGalicianXiada
 
   # Function which replace a vowel by the corresponding tilde one.
   # position is the vowel order from the end.
-
   def set_tilde(word, position)
     characters = word.each_grapheme_cluster.to_a
     vowel_positions = characters.each_with_index
