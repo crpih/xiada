@@ -13,7 +13,6 @@ module LemmatizerGalicianXiada
     if word =~ /bilísim[oa]s?$/
       new_word = word.gsub(/bilísim[oa](s)?$/,'ble\1')
       return replace_tags(@dw.get_emissions_info(new_word, ['A*f*']),"^A0","As") if word =~ /as?$/
-
       return replace_tags(@dw.get_emissions_info(new_word, ['A*m*']),"^A0","As") if word =~ /os?$/
 
     end
@@ -175,7 +174,7 @@ module LemmatizerGalicianXiada
         new_word = word.gsub(/quiñ([oa]s?)$/,'c\1')
         result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
         return result unless result.empty?
-        result = @dw.get_emissions_info(new_word, ['V?i*','A?s','V0m*'])
+        result = @dw.get_emissions_info(new_word, ['V?i*','V?s','V0m*'])
         unless result.empty?
           if new_word !~ /áéíóú/
             new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
@@ -191,7 +190,129 @@ module LemmatizerGalicianXiada
           return result unless result.empty?
         end
         new_word = word.gsub(/quiñ[oa](s?)$/,'que\1')
+        # bosquiños => bosques
         result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+        return result unless result.empty?
+      end
+      if word =~ /nciñ[oa]s?$/
+        if word =~ /onciños?$/
+          # algodonciño => algodón
+          # cartonciños => cartóns
+          new_word = word.gsub(/onciño(s?)$/,'ón\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+        end
+        if word =~ /onciñas?$/
+          # cancionciña => canción
+          new_word = word.gsub(/onciña(s?)$/,'ón\1')
+          result = @dw.get_emissions_info(new_word, ['Scf*','A0f*'])
+          return result unless result.empty?
+          # chaponciñas => chaponas
+          new_word = word.gsub(/onciña(s?)$/,'ona\1')
+          result = @dw.get_emissions_info(new_word, ['Scf*','A0f*'])
+          return result unless result.empty?          
+        end
+        if word =~ /anciñ[oa]s?$/
+          # garavanciño => garavanzo
+          # crianciñas => crianzas
+          new_word = word.gsub(/anciñ([oa]s?)$/,'anz\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+          # mazanciña => mazán
+          new_word = word.gsub(/anciñ[oa](s?)$/,'án\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+          # vranciño => vran
+          new_word = word.gsub(/anciñ[oa](s?)$/,'an\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+        end
+        if word =~ /enciñas?$/
+          # trenciñas => tranzas
+          # fervenciña => fervenza
+          new_word = word.gsub(/enciñ(as?)$/,'enz\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+        end
+        if word =~ /inciñ[oa]s?$/
+          # pinciñas => pinzas
+          new_word = word.gsub(/inciñ([oa]s?)$/,'inz\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+          # xardinciños => xardíns
+          new_word = word.gsub(/inciñ[oa](s?)$/,'ín\1')
+          result = @dw.get_emissions_info(new_word, [])
+          return result unless result.empty?
+        end
+      end
+      if word =~ /ndiñ[oa]s?$/
+        # segundiño => segundo
+        # brandiños => brandos
+        # pasandiño => pasando
+        new_word = word.gsub(/ndiñ([oa]s?)$/,'nd\1')
+        result = @dw.get_emissions_info(new_word, [])
+        return result unless result.empty?
+      end
+      if word =~ /rciñ[oa]s?$/
+        # cogorciña => cogorza
+        # verciñas => verzas
+        # almorciño => almorzo
+        new_word = word.gsub(/rciñ([oa]s?)$/,'rz\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+
+        # calorciño => calor
+        # altarciño => altar
+        # amorciño => amor
+        # calamarciños => calamares
+        if word =~ /rciño$/
+          new_word = word.gsub(/rciño$/,'r')
+          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1ms") if word =~ /o$/
+          return result unless result.empty?
+        end
+        if word =~ /rciños$/
+          new_word = word.gsub(/rciños$/,'res')
+          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1mp") if word =~ /os$/
+          return result unless result.empty?
+        end
+        if word =~ /rciña$/
+          new_word = word.gsub(/rciña$/,'r')
+          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1fs") if word =~ /a$/
+          return result unless result.empty?
+        end
+        if word =~ /rciñas$/
+          new_word = word.gsub(/rciñas$/,'res')
+          result =  replace_tags(@dw.get_emissions_info(new_word, ['A*','S*']),"(..)..","\\1fp") if word =~ /as$/
+          return result unless result.empty?
+        end
+      end
+      if word =~ /[fmvx]iñ[oa]s?$/
+        # orfiños => orfos
+        # demiños => demos
+        # oviños => ovos
+        # bruxiñas => bruxas
+        # debuxiños => debuxos
+        new_word = word.gsub(/([fmvx])iñ([oa]s?)$/,'\1\2')
+        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        return result unless result.empty?
+        # xefiño => xefe
+        # lumiño => lume
+        # suaviñas => suaves
+        # traxiños => traxes
+        new_word = word.gsub(/([fmvx])iñ([oa]s?)$/,'\1e')
+        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        return result unless result.empty?
+      end
+      if word =~ /tiñ[oa]s?$/
+        # gatiños => gatos
+        # azoutiña => azouta
+        new_word = word.gsub(/tiñ([oa]s?)$/,'t\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*','W*','I*'])
+        return result unless result.empty?
+        # tomatiños => tomates
+        # amantiñas => amantes
+        new_word = word.gsub(/tiñ[oa](s?)$/,'te\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
         return result unless result.empty?
       end
     end
