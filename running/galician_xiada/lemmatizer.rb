@@ -123,12 +123,6 @@ module LemmatizerGalicianXiada
       return result unless result.empty?
     end
 
-    # gh treatment
-    if word =~ /gh/
-      new_word = word.gsub(/gh/,'g')
-      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
-    end
-
     # iño/a/os/as
     # process only simple words (the ones that don't have - or /)
     if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
@@ -314,6 +308,123 @@ module LemmatizerGalicianXiada
         new_word = word.gsub(/tiñ[oa](s?)$/,'te\1')
         result = @dw.get_emissions_info(new_word, ['S*','A*'])
         return result unless result.empty?
+      end
+      if word =~ /[bpñ]iñ[oa]s?$/
+        # trapiño => trapo
+        # castañiñas => castañas
+        # viñiño => viño
+        # barbiña => barba
+        # xoubiñas => xouba
+        new_word = word.gsub(/([bpñ])iñ([oa]s?)$/,'\1\2')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /biñ[oa]s?$/
+        # nubiñas => nubes
+        new_word = word.gsub(/biñ[oa]s?$/,'be')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /chiñ[oa]s?$/
+        # estuchiño => estuche
+        new_word = word.gsub(/chiñ[oa]s?$/,'che')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /lliñ[oa]s?$/
+        # ovelliñas => ovellas
+        new_word = word.gsub(/(ll)iñ([oa]s?)$/,'\1\2')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /rriñ[oa]s?$/
+        # aforriños => aforros
+        # churriñas => churras
+        new_word = word.gsub(/(rr)iñ([oa]s?)$/,'\1\2')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /chiñ[oa]s?$/
+        # aforriños => aforros
+        # churriñas => churras
+        new_word = word.gsub(/(ch)iñ([oa]s?)$/,'\1\2')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /ghiñ[oa]s?$/
+        # amighiñas => amigas
+        new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+      if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
+        # cadradiños => cadrados
+        # todiñas => todas
+        new_word = word.gsub(/diñ([oa]s?)$/,'d\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        return result unless result.empty?
+      end
+      if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
+        # bidogiño => bigode
+        # meirandiño => meirande
+        # humildiño => humilde
+        new_word = word.gsub(/diñ[oa](s?)$/,'de\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        return result unless result.empty?
+      end
+      if word =~ /uesiñ[oa]s?$/
+        if word =~/uesiño$/
+          # marquesiño => marqués
+          new_word = word.gsub(/uesiño$/,'ués')
+          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          return result unless result.empty?
+        end
+        if word =~/uesiña$/
+          # marquesiña => marquesa
+          new_word = word.gsub(/uesiña$/,'uesa')
+          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          return result unless result.empty?
+        end
+        if word =~/uesiños$/
+          # marquesiños => marqueses
+          new_word = word.gsub(/uesiños$/,'ueses')
+          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          return result unless result.empty?
+        end
+        if word =~/uesiñas$/
+          # marquesiñas => marquesas
+          new_word = word.gsub(/uesiñas$/,'uesas')
+          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          return result unless result.empty?
+        end
+      end
+      STDERR.puts "word:#{word}"
+      if word =~ /siñ[oa]s?$/ and word !~ /uesiñ[oa]s?$/
+        # tesiños => tesos
+        # raposiña => raposa
+        # camisiñas => camisas
+        new_word = word.gsub(/siñ([oa]s?)$/,'s\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+
+      if word =~ /siñ[oa]s?$/ and word !~ /uesiñ[oa]s?$/
+        # tesiña => tese
+        # tosiña => tose
+        new_word = word.gsub(/siñ[oa](s?)$/,'se\1')
+        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        return result unless result.empty?
+      end
+
+
+
+
+
+
+      # gh treatment
+      if word =~ /gh/
+        new_word = word.gsub(/gh/,'g')
+        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
       end
     end
 
