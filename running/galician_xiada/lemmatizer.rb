@@ -128,37 +128,35 @@ module LemmatizerGalicianXiada
     if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
 
       if word =~ /guiñ[oa]s?$/
-        # guiño/a/os/as
         # amiguiño => amigo
         # enruguiñas => enruga
         # albondiguiñas => albóndiga
         # estomaguiño => estómago
         new_word = word.gsub(/guiñ([oa]s?)$/,'g\1')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
         return result unless result.empty?
         if new_word !~/áéíóú/
           new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
-          result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
           return result unless result.empty?
         end
       end
 
       if word =~ /lciñ[oa]s?$/
-        # lciño/a/os/as
         # solciño => sol (Scms)
         # animalciños => animal (Scmp)
         # descalciña => descalzo
         new_word = word.gsub(/(l)ciñ[oa]$/,'\1')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
         return result unless result.empty?
         new_word = word.gsub(/(l)ciñ[oa]s$/,'\1es')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
         return result unless result.empty?
         new_word = word.gsub(/(l)ciñ([oa])$/,'\1z\2')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
         return result unless result.empty?
         new_word = word.gsub(/(l)ciñ([oa])s$/,'\1z\2s')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
         return result unless result.empty?
       end
       if word =~ /quiñ[oa]s?$/
@@ -166,9 +164,9 @@ module LemmatizerGalicianXiada
         # plaquiñas => placas
         # retaquiños => retacos
         new_word = word.gsub(/quiñ([oa]s?)$/,'c\1')
-        result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*']))
         return result unless result.empty?
-        result = @dw.get_emissions_info(new_word, ['V?i*','V?s','V0m*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['V?i*','V?s','V0m*']))
         unless result.empty?
           if new_word !~ /áéíóú/
             new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
@@ -179,13 +177,13 @@ module LemmatizerGalicianXiada
         end
         if new_word !~ /áéíóú/
           new_word = set_tilde(new_word, 3) # Maybe this doesn't cover all the casuistic
-          result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
-          # faisquiñas => faíscas / periodiquiños => periódicos / politiquiñas =>> políticas
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*']))
+          # faisquiñas => faiscas / periodiquiños => periódicos / politiquiñas =>> políticas
           return result unless result.empty?
         end
         new_word = word.gsub(/quiñ[oa](s?)$/,'que\1')
         # bosquiños => bosques
-        result = @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A0*','V0p0*','W*','I*']))
         return result unless result.empty?
       end
       if word =~ /nciñ[oa]s?$/
@@ -193,49 +191,49 @@ module LemmatizerGalicianXiada
           # algodonciño => algodón
           # cartonciños => cartóns
           new_word = word.gsub(/onciño(s?)$/,'ón\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
         end
         if word =~ /onciñas?$/
           # cancionciña => canción
           new_word = word.gsub(/onciña(s?)$/,'ón\1')
-          result = @dw.get_emissions_info(new_word, ['Scf*','A0f*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Scf*','A0f*']))
           return result unless result.empty?
           # chaponciñas => chaponas
           new_word = word.gsub(/onciña(s?)$/,'ona\1')
-          result = @dw.get_emissions_info(new_word, ['Scf*','A0f*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Scf*','A0f*']))
           return result unless result.empty?          
         end
         if word =~ /anciñ[oa]s?$/
           # garavanciño => garavanzo
           # crianciñas => crianzas
           new_word = word.gsub(/anciñ([oa]s?)$/,'anz\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
           # mazanciña => mazán
           new_word = word.gsub(/anciñ[oa](s?)$/,'án\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
           # vranciño => vran
           new_word = word.gsub(/anciñ[oa](s?)$/,'an\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
         end
         if word =~ /enciñas?$/
           # trenciñas => tranzas
           # fervenciña => fervenza
           new_word = word.gsub(/enciñ(as?)$/,'enz\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
         end
         if word =~ /inciñ[oa]s?$/
           # pinciñas => pinzas
           new_word = word.gsub(/inciñ([oa]s?)$/,'inz\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
           # xardinciños => xardíns
           new_word = word.gsub(/inciñ[oa](s?)$/,'ín\1')
-          result = @dw.get_emissions_info(new_word, [])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
           return result unless result.empty?
         end
       end
@@ -244,7 +242,9 @@ module LemmatizerGalicianXiada
         # brandiños => brandos
         # pasandiño => pasando
         new_word = word.gsub(/ndiñ([oa]s?)$/,'nd\1')
-        result = @dw.get_emissions_info(new_word, [])
+        STDERR.puts "result0:#{@dw.get_emissions_info(new_word, [])}"
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, []))
+        STDERR.puts "result:#{result}"
         return result unless result.empty?
       end
       if word =~ /rciñ[oa]s?$/
@@ -252,7 +252,7 @@ module LemmatizerGalicianXiada
         # verciñas => verzas
         # almorciño => almorzo
         new_word = word.gsub(/rciñ([oa]s?)$/,'rz\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
 
         # calorciño => calor
@@ -277,26 +277,26 @@ module LemmatizerGalicianXiada
         # bruxiñas => bruxas
         # debuxiños => debuxos
         new_word = word.gsub(/([fmvx])iñ([oa]s?)$/,'\1\2')
-        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*']))
         return result unless result.empty?
         # xefiño => xefe
         # lumiño => lume
         # suaviñas => suaves
         # traxiños => traxes
         new_word = word.gsub(/([fmvx])iñ([oa]s?)$/,'\1e')
-        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*']))
         return result unless result.empty?
       end
       if word =~ /tiñ[oa]s?$/
         # gatiños => gatos
         # azoutiña => azouta
         new_word = word.gsub(/tiñ([oa]s?)$/,'t\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*','W*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','W*','I*']))
         return result unless result.empty?
         # tomatiños => tomates
         # amantiñas => amantes
         new_word = word.gsub(/tiñ[oa](s?)$/,'te\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /[bpñ]iñ[oa]s?$/
@@ -306,52 +306,52 @@ module LemmatizerGalicianXiada
         # barbiña => barba
         # xoubiñas => xouba
         new_word = word.gsub(/([bpñ])iñ([oa]s?)$/,'\1\2')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /biñ[oa]s?$/
         # nubiñas => nubes
         new_word = word.gsub(/biñ[oa]s?$/,'be')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /chiñ[oa]s?$/
         # estuchiño => estuche
         new_word = word.gsub(/chiñ[oa]s?$/,'che')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /lliñ[oa]s?$/
         # ovelliñas => ovellas
         new_word = word.gsub(/(ll)iñ([oa]s?)$/,'\1\2')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /rriñ[oa]s?$/
         # aforriños => aforros
         # churriñas => churras
         new_word = word.gsub(/(rr)iñ([oa]s?)$/,'\1\2')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /chiñ[oa]s?$/
         # aforriños => aforros
         # churriñas => churras
         new_word = word.gsub(/(ch)iñ([oa]s?)$/,'\1\2')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /ghiñ[oa]s?$/
         # amighiñas => amigas
         new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
         # cadradiños => cadrados
         # todiñas => todas
         new_word = word.gsub(/diñ([oa]s?)$/,'d\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*']))
         return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
@@ -359,32 +359,32 @@ module LemmatizerGalicianXiada
         # meirandiño => meirande
         # humildiño => humilde
         new_word = word.gsub(/diñ[oa](s?)$/,'de\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*','I*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*']))
         return result unless result.empty?
       end
       if word =~ /uesiñ[oa]s?$/
         if word =~/uesiño$/
           # marquesiño => marqués
           new_word = word.gsub(/uesiño$/,'ués')
-          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
           return result unless result.empty?
         end
         if word =~/uesiña$/
           # marquesiña => marquesa
           new_word = word.gsub(/uesiña$/,'uesa')
-          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
           return result unless result.empty?
         end
         if word =~/uesiños$/
           # marquesiños => marqueses
           new_word = word.gsub(/uesiños$/,'ueses')
-          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
           return result unless result.empty?
         end
         if word =~/uesiñas$/
           # marquesiñas => marquesas
           new_word = word.gsub(/uesiñas$/,'uesas')
-          result = @dw.get_emissions_info(new_word, ['S*','A*'])
+          result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
           return result unless result.empty?
         end
       end
@@ -394,7 +394,7 @@ module LemmatizerGalicianXiada
         # raposiña => raposa
         # camisiñas => camisas
         new_word = word.gsub(/siñ([oa]s?)$/,'s\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
 
@@ -402,7 +402,7 @@ module LemmatizerGalicianXiada
         # tesiña => tese
         # tosiña => tose
         new_word = word.gsub(/siñ[oa](s?)$/,'se\1')
-        result = @dw.get_emissions_info(new_word, ['S*','A*'])
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*']))
         return result unless result.empty?
       end
 
@@ -416,12 +416,13 @@ module LemmatizerGalicianXiada
     []
   end
 
+  # Function to force gender and number in a result. This function may be removed if we split each iño/a/os/as rules into four (using gender and number specification in tags when calling to get_emissions_info)
   def gender_number_force_matching (word, result)
     return result if result.empty?
-    return replace_tags(result, "..$","ms") if word =~/o$/
-    return replace_tags(result, "..$","fs") if word =~/a$/
-    return replace_tags(result, "..$","mp") if word =~/os$/
-    return replace_tags(result, "..$","fp") if word =~/as$/
+    return replace_tags(result, "[mfa][spa]$","ms") if word =~/o$/
+    return replace_tags(result, "[mfa][spa]$","fs") if word =~/a$/
+    return replace_tags(result, "[mfa][spa]$","mp") if word =~/os$/
+    return replace_tags(result, "[mfa][spa]$","fp") if word =~/as$/
     []
   end
 
