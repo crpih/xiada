@@ -74,6 +74,25 @@ module LemmatizerGalicianXiada
 
     end
 
+    # preparadísimo => preparado
+    # convencidísimos => convencidos
+    # extendidísima => extendida
+    if word =~/[ai]dísim[oa]s?$/
+      new_word = word.gsub(/([ai])dísim([oa]s?)$/,'\1d\2')
+      result = replace_tags(@dw.get_emissions_info(new_word, ['V0p*', 'A*']),"^A0","As")
+      return result unless result.empty?
+    end
+
+    if word =~ /[ts]ísim[oa]s?$/
+      STDERR.puts "word:#{word}"
+      only_valids = [/abert[oa]s?/, /absolt[oa]s?/, /aces[oa]s?/, /acolleit[oa]s?/, /apres[oa]s?/, /avolt[oa]s?/, /colleit[oa]s?/, /comest[oa]s?/, /cubert[oa]s?/, /descrit[oa]s?/, /descubert[oa]s?/, /desenvolt[oa]s?/, /devolt[oa]s?/, /disolt[oa]s?/, /encolleit[oa]s?/, /encubert[oa]s?/, /entreabert[oa]s?/, /envolt[oa]s?/, /enxoit[oa]s?/, /ergueit[oa]s?/, /escolleit[oa]s?/, /escrit[oa]s?/, /frit[oa]s?/, /impres[oa]s?/, /mort[oa]s?/, /pres[oa]s?/, /prescrit[oa]s?/, /proscrit[oa]s?/, /provist[oa]s?/, /recolleit[oa]s?/, /recubert[oa]s?/, /resolt[oa]s?/, /revolt[oa]s?/]
+      new_word = word.gsub(/([ts])ísim([oa]s?)$/,'\1\2')
+      if only_valids.any? { |regex| regex.match?(new_word) }
+        result = replace_tags(@dw.get_emissions_info(new_word, ['V0p*', 'A*']),"^A0","As")
+        return result unless result.empty?
+      end
+    end
+
     # ísimo (default rule)
     # listísimo => listo
     # gravísimo => grave
