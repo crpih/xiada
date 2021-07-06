@@ -8,6 +8,8 @@ a a miña vez	La0	a a miña vez	a a miña vez
 a a nosa vez	La0	a a nosa vez	a a nosa vez
 a a rapañota	La0	a a rapañota	a a rapañota
 a as agachadas	La0	a as agachadas	a as agachadas
+a as apalpadas	La0	a as apalpadas	a as apalpadas
+a as apalpadiñas	La0	a as apalpadas	a as apalpadas
 a as atoutiñadas	La0	a as atoutiñadas	a as atoutiñadas
 a as baroutas	La0	a as baroutas	a as baroutas
 a as boleiradas	La0	a as boleiradas	a as boleiradas
@@ -49,6 +51,7 @@ Acanthus mollis	Snaa	Acanthus mollis	Acanthus mollis
 a capella	La0	a capella	a capela
 a cappella	La0	a cappella	a capela
 a capricho	La0	a capricho	a capricho
+a caronciño	La0	a carón	a carón
 a carón	La0	a carón	a carón
 a carranchapernas	La0	a carranchapernas	a carranchapernas
 a carranchas	La0	a carranchas	a carranchas
@@ -90,6 +93,7 @@ a escape	La0	a escape	a escape
 Aesculus hipocastanum	Snaa	Aesculus hipocastanum	Aesculus hipocastanum
 Aesculus hippocastanum	Snaa	Aesculus hippocastanum	Aesculus hippocastanum
 a esgalla	La0	a esgalla	a esgalla
+a esmo	La0	a esmo	a esmo
 a expensas de	Lp0	a expensas de	a expensas de
 a favor	La0	a favor	a favor
 a flote	La0	a flote	a flote
@@ -97,6 +101,7 @@ a fortiori	La0	a fortiori	a fortiori
 Agaricus sp.	Snaa	Agaricus sp.	Agaricus sp.
 a gatiñas	La0	a gatiñas	a gatiñas
 a granel	La0	a granel	a granel
+a gustiño	La0	a gusto	a gusto
 A. hippocastanum	Snaa	A. hippocastanum	Aesculus hippocastanum
 Ahnfeltiopsis pusilla	Snaa	Ahnfeltiopsis pusilla	Ahnfeltiopsis pusilla
 aínda así	La0	aínda así	aínda así
@@ -114,8 +119,10 @@ allo porro	Scms	allo porro	allo porro
 allos porros	Scmp	allo porro	allo porro
 Alloteuthis media	Snaa	Alloteuthis media	Alloteuthis media
 Alloteuthis subulata	Snaa	Alloteuthis subulata	Alloteuthis subulata
+all right	La0	all right	all right
 Alnus glutinosa	Snaa	Alnus glutinosa	Alnus glutinosa
 Alnus sp.	Snaa	Alnus sp.	Alnus sp.
+a lo menos	La0	a lo menos	alomenos
 a máis tardar	La0	a máis tardar	a máis tardar
 Amanita pantherina	Snaa	Amanita pantherina	Amanita pantherina
 Amanita phalloides	Snaa	Amanita phalloides	Amanita phalloides
@@ -238,6 +245,7 @@ A. terreus	Snaa	A. terreus	Aspergillus terreus
 Athaea officinalis	Snaa	Athaea officinalis	Athaea officinalis
 Atherina Presbyter	Snaa	Atherina Presbyter	Atherina presbyter
 a tope	La0	a tope	a tope
+a toutiñas	La0	a toutas	a as atoutiñadas
 a traverso de	Lp0	a traverso de	a través de
 a través de	Lp0	a través de	a través de
 através de	Lp0	através de	a través de
@@ -374,6 +382,7 @@ Cassia senna	Snaa	Cassia senna	Cassia senna
 Castanea sativa	Snaa	Castanea sativa	Castanea sativa
 Castanea vulgaris	Snaa	Castanea vulgaris	Castanea vulgaris
 Castor fiber	Snaa	Castor fiber	Castor fiber
+caxe que	La0	caxe que	case que
 C. difficile	Snaa	C. difficile	C. difficile
 Cedrus sp.	Snaa	Cedrus sp.	Cedrus sp.
 C. edule	Snaa	C. edule	C. edule
@@ -582,6 +591,7 @@ de veras	La0	de veras	de veras
 de vez	La0	de vez	de vez
 de xeito que	Lcs	de xeito que	de xeito que
 D. exoleta	Snaa	D. exoleta	D. exoleta
+diabete mellitus	Scfs	diabete mellitus	diabetes mellitus
 día santo	Scms	día santo	día santo
 días santos	Scmp	día santo	día santo
 Dicentrarchus labrax	Snaa	Dicentrarchus labrax	Dicentrarchus labrax
@@ -927,6 +937,7 @@ Laminaria ochroleuca	Snaa	Laminaria ochroleuca	Laminaria ochroleuca
 Larva megalopa	Snaa	Larva megalopa	Larva megalopa
 Larva mysis	Snaa	Larva mysis	Larva mysis
 Larva zoea	Snaa	Larva zoea	Larva zoea
+late night	Scms	late night	late night
 lato sensu	La0	lato sensu	lato sensu
 Laurus nobilis	Snaa	Laurus nobilis	Laurus nobilis
 Lavandula latifolia	Snaa	Lavandula latifolia	Lavandula latifolia
@@ -1002,6 +1013,8 @@ L. vulgaris	Snaa	L. vulgaris	L. vulgaris
 Lycopodiella inundata	Snaa	Lycopodiella inundata	Lycopodiella inundata
 Lysmata seticaudata	Snaa	Lysmata seticaudata	Lysmata seticaudata
 Ma�a squinado	Snaa	Ma�a squinado	Ma�a squinado
+macho alfa	Scms	macho alfa	macho alfa
+machos alfa	Scmp	macho alfa	macho alfa
 Macropipus corrugatus	Snaa	Macropipus corrugatus	Macropipus corrugatus
 Macropipus depurator	Snaa	Macropipus depurator	Macropipus depurator
 Macropipus puber	Snaa	Macropipus puber	Macropipus puber
@@ -1011,11 +1024,14 @@ Maja squinado	Snaa	Maja squinado	Maja squinado
 Malva silvestris	Snaa	Malva silvestris	Malva silvestris
 manda carallo	Y	manda carallo	manda carallo
 mandos a distancia	Scmp	mando a distancia	mando a distancia
+manu militari	La0	manu militari	manu militari
 Margaritifera margaritifera	Snaa	Margaritifera margaritifera	Margaritifera margaritifera
 Marmota marmota	Snaa	Marmota marmota	Marmota marmota
 marrón glacé	Scms	marrón glacé	marron glacé
 Marteilia refringens	Snaa	Marteilia refringens	Marteilia refringens
 Marteilia sp.	Snaa	Marteilia sp.	Marteilia sp.
+martiño peixeiro	Scms	martiño peixeiro	martiño peixeiro
+martiños peixeiros	Scmp	martiño peixeiro	martiño peixeiro
 mass media	Scmp	mass media	mass media
 Matricaria chamomilla	Snaa	Matricaria chamomilla	Matricaria chamomilla
 M. bovis	Snaa	M. bovis	M. bovis
@@ -1090,11 +1106,14 @@ Neisseria meningitidis	Snaa	Neisseria meningitidis	Neisseria meningitidis
 Nematodirus filicollis	Snaa	Nematodirus filicollis	Nematodirus filicollis
 Nematopsis sp.	Snaa	Nematopsis sp.	Nematopsis sp.
 nen embargantes	La0	nen embargantes	non embargantes
+nen xiquer	La0	nin xiquer	nin sequera
 Neosiphonia collabens	Snaa	Neosiphonia collabens	Neosiphonia collabens
 Neotinea maculata	Snaa	Neotinea maculata	Neotinea maculata
 Nephrops norvegicum	Snaa	Nephrops norvegicum	Nephrops norvegicum
 Nephrops norvegicus	Snaa	Nephrops norvegicus	Nephrops norvegicus
 Nereis aibuhitensis	Snaa	Nereis aibuhitensis	Nereis aibuhitensis
+night club	Scms	night club	night club
+night clubs	Scmp	night club	night club
 nin a tiros	La0	nin a tiros	nin a tiros
 nin sequera	La0	nin sequera	nin sequera
 nin sequer	La0	nin sequer	nin sequera
@@ -1102,6 +1121,7 @@ nin siquer	La0	nin siquer	nin sequera
 nin siquiera	La0	nin siquiera	nin sequera
 nin tan sequera	La0	nin tan sequera	nin tan sequera
 nin tan sequer	La0	nin tan sequer	nin tan sequera
+nin xiquer	La0	nin xiquer	nin sequera
 non embargante	La0	non embargante	non embargante
 non embargantes	La0	non embargantes	non embargante
 Nonioounatum boueanum	Snaa	Nonioounatum boueanum	Nonioounatum boueanum
@@ -1165,6 +1185,7 @@ Parietaria sp.	Snaa	Parietaria sp.	Parietaria sp.
 Paroctopus lolleini	Snaa	Paroctopus lolleini	Paroctopus lolleini
 Patella spp	Snaa	Patella spp	Patella spp.
 Patella vulgata	Snaa	Patella vulgata	Patella vulgata
+pay per view	Scms	pay per view	pay per view
 Pecten jacobeanus	Snaa	Pecten jacobeanus	Pecten jacobaeus
 Pecten jacobeus	Snaa	Pecten jacobeus	Pecten jacobaeus
 Pecten maximus	Snaa	Pecten maximus	Pecten maximus
@@ -1182,9 +1203,13 @@ Penicillium chrysogenum	Snaa	Penicillium chrysogenum	Penicillium chrysogenum
 Penicillium notatum	Snaa	Penicillium notatum	Penicillium notatum
 per capita	La0	per capita	per cápita
 per cápita	La0	per cápita	per cápita
+per in saecula saeculorum	La0	per in saecula saeculorum	per in saecula saeculorum
 Perkinsus mediterraneus	Snaa	Perkinsus mediterraneus	Perkinsus mediterraneus
 Perkinsus olseni	Snaa	Perkinsus olseni	Perkinsus olseni
+per saecula saeculorum	La0	per saecula saeculorum	per in saecula saeculorum
+per secula seculorum	La0	per secula seculorum	per in saecula saeculorum
 per se	La0	per se	per se
+pesia a	Lp0	pesia a	pese a
 pesie a	Lp0	pesie a	pese a
 Petrocoptis grandiflora	Snaa	Petrocoptis grandiflora	Petrocoptis grandiflora
 Petromyzxon marinus	Snaa	Petromyzxon marinus	Petromyzxon marinus
@@ -1242,7 +1267,10 @@ por adiantado	La0	por adiantado	por adiantado
 por anticipado	La0	por anticipado	por anticipado
 por causa de	Lp0	por causa de	por causa de
 por cento	La0	por cento	por cento
+porco bravo	Scms	porco bravo	porco bravo
+porco espiño	Scms	porco espiño	porco espiño
 por contra	La0	por contra	por a contra
+porco teixo	Scms	porco teixo	porco teixo
 por ende	La0	por ende	por ende
 por fas	La0	por fas	por fas
 por medio de	Lp0	por medio de	por medio de
@@ -1269,6 +1297,9 @@ primeiro ministro	Scms	primeiro ministro	primeiro ministro
 primeiros ministros	Scmp	primeiro ministro	primeiro ministro
 prime time	Scms	prime time	prime time
 Primula veris	Snaa	Primula veris	Primula veris
+primus inter pares	A0as	primus inter pares	primus inter pares
+primus inter pares	A0fs	primus inter pares	primus inter pares
+primus inter pares	A0ms	primus inter pares	primus inter pares
 pro domo mea	La0	pro domo mea	pro domo mea
 pro domo sua	La0	pro domo sua	pro domo sua
 pro rata	La0	pro rata	pro rata
@@ -1343,6 +1374,7 @@ Rumex pulcher	Snaa	Rumex pulcher	Rumex pulcher
 Rumex sp.	Snaa	Rumex sp.	Rumex sp.
 Ruscus aculeatus	Snaa	Ruscus aculeatus	Ruscus aculeatus
 Ruta graveolens	Snaa	Ruta graveolens	Ruta graveolens
+ruxe ruxe	Scms	ruxe ruxe	ruxerruxe
 Saccharina latissima	Snaa	Saccharina latissima	Saccharina latissima
 Saccharomyces boulardii	Snaa	Saccharomyces boulardii	Saccharomyces boulardii
 Saccharomyces cerevisiae	Snaa	Saccharomyces cerevisiae	Saccharomyces cerevisiae
@@ -1355,6 +1387,7 @@ Salpa Salpa	Snaa	Salpa Salpa	Salpa salpa
 Salvia officinalis	Snaa	Salvia officinalis	Salvia officinalis
 Salvia sp.	Snaa	Salvia sp.	Salvia sp.
 Sambucus nigra	Snaa	Sambucus nigra	Sambucus nigra
+san martiño	Scms	san martiño	sanmartiño
 Santolina melidensis	Snaa	Santolina melidensis	Santolina melidensis
 sapo concho	Scms	sapo concho	sapoconcho
 Saponaria officinalis	Snaa	Saponaria officinalis	Saponaria officinalis
@@ -1470,6 +1503,9 @@ strictu sensu	La0	strictu sensu	stricto sensu
 Strongillus vulgaris	Snaa	Strongillus vulgaris	Strongillus vulgaris
 Strongylus equinus	Snaa	Strongylus equinus	Strongylus equinus
 sub iudice	La0	sub iudice	sub iudice
+sui géneris	A0as	sui géneris	sui géneris
+sui géneris	A0fs	sui géneris	sui géneris
+sui géneris	A0ms	sui géneris	sui géneris
 sui generis	La0	sui generis	sui generis
 Sus coronaviricus	Snaa	Sus coronaviricus	Sus coronaviricus
 Sus mediterraneus	Snaa	Sus mediterraneus	Sus mediterraneus
@@ -1477,6 +1513,7 @@ Sus scrofa	Snaa	Sus scrofa	Sus scrofa
 S. uvarum	Snaa	S. uvarum	S. uvarum
 S. warneri	Snaa	S. warneri	S. warneri
 tal cal	Lcs	tal cal	tal cal
+talk show	Scms	talk show	talk show
 Talpa europaea	Snaa	Talpa europaea	Talpa europaea
 Tapes aureus	Snaa	Tapes aureus	Tapes aureus
 Tapes decussatus	Snaa	Tapes decussatus	Tapes decussatus
@@ -1533,6 +1570,7 @@ tótum revolútum	Scms	tótum revolútum	tótum revolútum
 T. platyphyllos	Snaa	T. platyphyllos	T. platyphyllos
 Trachurus trachurus	Snaa	Trachurus trachurus	Trachurus trachurus
 Trachurus Trachurus	Snaa	Trachurus Trachurus	Trachurus trachurus
+trending topic	Scms	trending topic	trending topic
 Treponema pallidum	Snaa	Treponema pallidum	Treponema pallidum
 Tricomonas fetus	Snaa	Tricomonas fetus	Tricomonas fetus
 Trifolium repens	Snaa	Trifolium repens	Trifolium repens

@@ -335,6 +335,7 @@ por libre	La0	por libre	por libre
 por lo baixo	La0	por o baixo	por o baixo
 por lo contrario	La0	por o contrario	por o contrario
 por lo menos	La0	por o menos	por o menos
+por lo miudiño	La0	por o miúdo	por o miúdo
 por lo miudo	La0	por o miudo	por o miúdo
 por lo miúdo	La0	por o miúdo	por o miúdo
 por lo momento	La0	por o momento	por o momento
