@@ -1,10 +1,8 @@
-all: clean galician_xiada spanish_eslora spanish_eslora_new
+all: clean galician_xiada spanish_eslora
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
 spanish_eslora: clean_spanish_eslora spanish_eslora_oral
-
-spanish_eslora_new: clean_spanish_eslora spanish_eslora_oral_new
 
 galician_xiada_escrita:
 	rm -f ../databases/galician_xiada/training_galician_xiada_escrita.db
