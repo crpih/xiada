@@ -255,7 +255,7 @@ _,Ddfs,_,a,x	_,E*,_,_,
 
 _,V*,_,_,	_,Ra*,_,se|o|os|a|as|nos,x	_,!V*|Ra*,_,_
 
-Novas regras lingüísticas para implementar.
+# Novas regras lingüísticas para implementar.
 
 # (35) Forma verbal rematada en ditongo "ei", "ou", acentuado ou non, se despois está seguido de "o,a,os,as" estas formas non poden ser etiquetadas como pronome átono de acusativo.
 
