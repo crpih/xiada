@@ -255,52 +255,52 @@ _,Ddfs,_,a,x	_,E*,_,_,
 
 _,V*,_,_,	_,Ra*,_,se|o|os|a|as|nos,x	_,!V*|Ra*,_,_
 
-# Novas regras ling¸Ìsticas para implementar.
+Novas regras lingüísticas para implementar.
 
-# (35) Forma verbal rematada en ditongo "ei", "ou", acentuado ou non, se despois est· seguido de "o,a,os,as" estas formas non poden ser etiquetadas como pronome ·tono de acusativo.
+# (35) Forma verbal rematada en ditongo "ei", "ou", acentuado ou non, se despois está seguido de "o,a,os,as" estas formas non poden ser etiquetadas como pronome átono de acusativo.
 
-# *ei|*ou|*Èi|Ûu,V*,_,_,	o|a|os|as,Raa3*,o,o|a|os|as,x
+*ei|*ou|*éi|óu,V*,_,_,	o|a|os|as,Raa3*,o,o|a|os|as,x
 
-# (36) Cos verbos estar, andar, ser, volver, comezar, empezar, chegar, vir, botar e poÒer, se despois segue 'a' e mais infinitivo -ou sexa, se È perÌfrase- e o 'a' conforma unidade propia -ou sexa, aparece como palabra independente- ese 'a' non pode ser Raa3fs nin Ddfs. Deste xeito orientamos a an·lise cara · preposiciÛn
+# (36) Cos verbos estar, andar, ser, volver, comezar, empezar, chegar, vir, botar e poñer, se despois segue 'a' e mais infinitivo -ou sexa, se é perífrase- e o 'a' conforma unidade propia -ou sexa, aparece como palabra independente- ese 'a' non pode ser Raa3fs nin Ddfs. Deste xeito orientamos a análise cara á preposición
 
-# _,V*,estar|andar|ser|volver|comezar|empezar|chegar|vir|botar|poÒer,_,	a,Raa3fs|Ddfs,_,a,x	*ar|*er|*ir*|*or,V0*,_,_
+_,V*,estar|andar|ser|volver|comezar|empezar|chegar|vir|botar|poñer,_,	a,Raa3fs|Ddfs,_,a,x	*ar|*er|*ir*|*or,V0*,_,_
 
-# (37) O indefinido ambos se est· seguido de "os dous" ou "as d˙as" non pode ser non determinante:
+# (37) O indefinido ambos se está seguido de "os dous" ou "as dúas" non pode ser non determinante:
 
-# ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_,
-# ambas,Infp,ambos,_,x	as,Ddfp,o,_,	d˙as,_,_,_,
+ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_,
+ambas,Infp,ambos,_,x	as,Ddfp,o,_,	dúas,_,_,_,
 
-# (38) Para evitar que tras preposiciÛn inequÌvoca poida vir forma conxugada de indicativo ou subxuntivo seguida de pronome de dativo (me) e de pronome de acusativo (o,a,os,as), de xeito que non desagregue en V + me + o|a|os|as (crema, cremas, prÈstamo, prÈstamos, rima, rimas, mordomo, mordomos, haima, haimas, dÌctamo, lema...)
+# (38) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguida de pronome de dativo (me) e de pronome de acusativo (o,a,os,as), de xeito que non desagregue en V + me + o|a|os|as (crema, cremas, préstamo, préstamos, rima, rimas, mordomo, mordomos, haima, haimas, díctamo, lema...)
 
-# con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_,
+con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_,
 
-# (39) Para evitar que tras preposiciÛn inequÌvoca poida vir forma conxugada de indicativo ou subxuntivo seguido de pronome de acusativo (con son o*, con son a*, con es la*; con fas la* etc):
+# (39) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguido de pronome de acusativo (con son o*, con son a*, con es la*; con fas la* etc):
 
-# con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as,
+con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as,
 
-# (40) Para completar a regra que di que "o,a,os,as" non pode ser artigo (a non ser que estea nunha contracciÛn) se despois vÈn forma verbal conxugada en indicativo, subxuntivo ou imperativo, imos restrinxir tamÈn a posible apariciÛn de "a" como preposiciÛn en contextos nos que alg˙n elemento atrae o clÌtico · posiciÛn anterior · forma verbal:
+# (40) Para completar a regra que di que "o,a,os,as" non pode ser artigo (a non ser que estea nunha contracción) se despois vén forma verbal conxugada en indicativo, subxuntivo ou imperativo, imos restrinxir tamén a posible aparición de "a" como preposición en contextos nos que algún elemento atrae o clítico á posición anterior á forma verbal:
 
-# non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_,
+non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_,
 
-# (41) Para evitar que "dÌa" sexa desagregado en V + Raa3 en casos como "dÌa tras dÌa", "dÌa a dÌa", "noite e dÌa", "dÌa e noite" etc.
+# (41) Para evitar que "día" sexa desagregado en V + Raa3 en casos como "día tras día", "día a día", "noite e día", "día e noite" etc.
 
-# di,V*,dicir,dÌa,x	a,Raa*,o,_,	tras|a,_,tras|a,tras|a,	dÌa,Scms,dÌa,dÌa,
-# noite,Scf,noite,noite,	e,Cc,e,e,	di,V*,dicir,dÌa,x
-# di,V*,dicir,dÌa,x	e,Cc,e,e,	noite,Scf,noite,noite,
+di,V*,dicir,día,x	a,Raa*,o,_,	tras|a,_,tras|a,tras|a,	día,Scms,día,día,
+noite,Scf,noite,noite,	e,Cc,e,e,	di,V*,dicir,día,x
+di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite,
 
-# (42) Para evitar que analice 'g˙stanos' e variantes como 'gustan + os Raa3mp', cando todos os casos corresponden a 'gusta + nos'. A 3™ de plural + clÌtico de acus non È unha cadea posible en galego, ou eso creo.
+# (42) Para evitar que analice 'gústanos' e variantes como 'gustan + os Raa3mp', cando todos os casos corresponden a 'gusta + nos'. A 3ª de plural + clítico de acus non é unha cadea posible en galego, ou eso creo.
 
-# gustan|gusten|gustaban|gustarÌan,_,_,_,x	os,Raa3mp,o,_,
+gustan|gusten|gustaban|gustarían,_,_,_,x	os,Raa3mp,o,_,
 
-# (43) O verbo 'vir' non ten usos transitivos, asÌ que 'vir + la ou las/Raa3f.' debe ir seguido de infinitivo. Se non o est·, ten que ser o substantivo, por tanto cortamos a an·lise como verbo con enclÌtico. O que non sei È se a 'x' que corta o camiÒo ten que estar no verbo ou no pronome. Entendo que no primeiro elemento que serÌa incorrecto. (para evitar a mesma an·lise con "vilo" meto no lexicÛn como segura a locuciÛn adverbial "en vilo", de modo que xa non teÒo que cubrilo con regra)
+# (43) O verbo 'vir' non ten usos transitivos, así que 'vir + la ou las/Raa3f.' debe ir seguido de infinitivo. Se non o está, ten que ser o substantivo, por tanto cortamos a análise como verbo con enclítico. O que non sei é se a 'x' que corta o camiño ten que estar no verbo ou no pronome. Entendo que no primeiro elemento que sería incorrecto. (para evitar a mesma análise con "vilo" meto no lexicón como segura a locución adverbial "en vilo", de modo que xa non teño que cubrilo con regra)
 
-# vir,_,_,vila|vilas,x	_,Raa3f.,_,_,	_,!V0f*,_,_
+vir,_,_,vila|vilas,x	_,Raa3f.,_,_,	_,!V0f*,_,_
 
-# (44) 'Cremos' (P4 do presente, ·s veces do pretÈrito, de crer) analizado como 'cre V* + me + os: non pode ir seguido de 'que', 'en' ou 'infinitivo':
+# (44) 'Cremos' (P4 do presente, ás veces do pretérito, de crer) analizado como 'cre V* + me + os: non pode ir seguido de 'que', 'en' ou 'infinitivo':
 
-# cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_,
-# cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_,
+cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_,
+cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_,
 
-# (45) AsÌ mesmo, non podemos ter forma verbal seguida de 'me + os', se est· precedida de 'como'; ten que ser necesariamente forma verbal de 1™ do plural e non desagregar en 3 constituÌntes: 
+# (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes: 
 
-# como,_,_,_,	_,_,_,*mos,	me,_,_,_,x	_,Raa3*,_,_,
+como,_,_,_,	_,_,_,*mos,	me,_,_,_,x	_,Raa3*,_,_,
