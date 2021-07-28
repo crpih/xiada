@@ -179,6 +179,7 @@ a o través	La0	a o través	a o través
 a partir de	Lp0	a partir de	a partir de
 a partires de	Lp0	a partires de	a partir de
 a pesar de	Lp0	a pesar de	a pesar de
+a pique	La0	a pique	a pique
 a piques	La0	a piques	a piques
 Apis mellifera	Snaa	Apis mellifera	Apis mellifera
 Apitrigla Obscura	Snaa	Apitrigla Obscura	Apitrigla obscura
@@ -698,6 +699,7 @@ entre lusco e fusco	La0	entre lusco e fusco	entre lusco e fusco
 en troques	La0	en troques	en troques
 en un santiamén	La0	en un santiamén	en un santiamén
 en vez de	Lp0	en vez de	en vez de
+en vilo	La0	en vilo	en vilo
 en virtude de	Lp0	en virtude de	en virtude de
 en vivo	La0	en vivo	en vivo
 en xeral	La0	en xeral	en xeral
