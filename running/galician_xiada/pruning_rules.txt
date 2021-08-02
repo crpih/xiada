@@ -11,8 +11,8 @@ nas|Nas,Raa3fp,o,nas,x
 # seguido de substantivo ou adxectivo masculino non é a contracción,
 # senón a conxunción:
 
-menos|máis|,W.,_,_	con,P,con,_	a,Ddfs,o,_,x	
-con,P,con,_	a,Ddfs,o,_,x	_,S.m.|A.m.,_,_
+menos|máis|,W.,_,_	con,P,con,ca	a,Ddfs,o,_,x
+con,P,con,ca	a,Ddfs,o,_,x	_,*m.|*fp,_,_
 
 # (3) "ca": Temos que diferenciar a contracción non normativa da
 # conxunción subordinante. Se segue Scfs pode ser contracción mais se
@@ -32,14 +32,13 @@ con,P,con,_	a,Ddfs,o,_,x	_,S.m.|A.m.,_,_
 # combina con eles, ou mellor, restrinxilo ós masculinos, de xeito que
 # a regra quede como segue:
 
-con,P,con,ca	a,Ddfs,o,ca,x	_,D*|E*|M*m.|I.m.|Rt*|S..p|A..p,_,_
+con,P,con,ca	a,Ddfs,o,_,x	_,D*|E*|M*m.|I.m.|R*|*p,_,_
 
 # (4) a, o, os, as, non son artigo (a non ser que estean nunha
 # contracción) nin substantivo se despois vén unha forma verbal de
 # indicativo ou subxuntivo
 
-a|as|o|os,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
-a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
+a|as|o|os,Dd*,_,!á|!da|!coa|!na|!cá|!prá|!ás|!das|!coas|!nas|!cás|!prás|!ó|!ao|!do|!co|!no|!có|!pró|!ós|!aos|!dos|!cos|!nos|!cós|!prós,x	_,V.i*|V.s*|V0m*,_,_
 
 # (5) se "o, a, os,as" están nunha contracción (polo tanto precedidos de
 # Preposición) e despois vén algo identificado como Verbo en
@@ -65,7 +64,9 @@ a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
 # estar mal recoñecidas e ser formas verbais, en cuxo caso "o,a,..." si
 # sería pronome):
 
-como,_,como,_	_,Raa*,o,_,x	de,P,_,!da|das|dese|deses|destes_
+como,_,como,_	_,Raa*,o,_,x	de,P,_,!da|!das|!dese|!deses|!destes_
+como,_,como,_	_,Raa*,o,_,x	de,P,_,da|das_	a|as,Ddf.,_,_,	_,*f.,_,_
+
 
 # (8) A non é preposición se despois vén unha forma verbal de indicativo
 # ou subxuntivo:
@@ -79,7 +80,7 @@ a,P,_,_,x	_,V.i*|V.s*,_,_
 # non pode ser o artigo. Non podo incluír os numerais masculinos na
 # regra polos romanos
 
-a,Ddfs,o,!á|da|coa|na|cá|prá|,x	_,D.ms|E.ms|M*ms|I.ms,_,_
+a,Ddfs,o,!á|!da|!coa|!na|!cá|!prá,x	_,D.ms|E.ms|M*ms|I.ms,_,_
 
 # (10) IMPORTE(S): Temos que diferenciar o substantivo da forma verbal e 
 # para iso estableceremos as seguintes regras:
@@ -121,10 +122,9 @@ en,P,en,nunha	unha vez,L*,unha vez,_,x
 # (15) "a forza de" non pode ser locución cando ese "a" forma parte dunha
 # contracción
 
-de,P,de,dunha	a forza de,L*,a forza de,_,x
-con,P,con,cunha	a forza de,L*,a forza de,_,x
-en,P,en,nunha	a forza de,L*,a forza de,_,x
-a,P,a,á	a forza de,L*,a forza de,_,x
+de,P,de,da	a forza de,L*,a forza de,_,x
+con,P,con,coa	a forza de,L*,a forza de,_,x
+en,P,en,na	a forza de,L*,a forza de,_,x
 
 # (16) se + non => se nunca é Rao3aa (salvo que o "se" veña dun verbo con clíticos)
 
@@ -141,14 +141,15 @@ se,Rao3aa,se,se,x	non,_,non,_
 
 se,Rao3aa,_,se,x	se,Rao3aa,_,_	_,V*|Rad*,_,_
 se,Rao3aa,_,!se	se,Rao3aa,_,se,x
+se,Rao3aa,_,se	se,Cs,_,se,x
 
 # (18) Cando "se" está precedido da conxunción "coma" ou do adverbio
 # relativo "como" e segue pretérito de subxuntivo, o "se" non é Rao*,
 # senón Cs (ollo, pode ser pronome con "como", pero nese caso o "como"
 # sería Cs: "como se dese conta, non o faría"):
 
-coma,Cs,_,_	se,Rao3aa,se,se,x	_,Ves*_,_,_
-como,Wr,_,_	se,Rao3aa,se,se,x	_,Ves*_,_,_
+coma,Cs,_,_	se,Rao3aa,se,se,x	_,Ves*,_,_
+como,Wr,_,_	se,Rao3aa,se,se,x	_,Ves*,_,_
 
 # (19) "en canto" + verbo en subxuntivo => en canto sempre é locución conxuntiva:
 
@@ -173,9 +174,11 @@ compre,Vps30s,comprar,_,x	_,V0f*,_,_
 # => A regra anterior si que estaba mal (faltaba un tabulador), así
 # que de momento non activo estas regras.
 
+compre,Vpi30s,cumprir,_,x	_,Sc.p,_,_
+
 # compre,Vps30s,cumprir,_,x       _,Sc.p,_,_
 
-# _,R*|Tn*,_,_    compre,Vps30s,cumprir,_,x
+_,R*|Tn*,_,_	compre,Vps30s,cumprir,_,x
 
 # (23) verbo + cara a == cara a é Lp0
 
@@ -221,7 +224,7 @@ _,V*,_,*mos	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,A0.p|V0p0.p|Sc*|D*,_,_
 # (29) ESTAMOS + XERUNDIO é a perífrase verbal (Vpi10p+V0x000) se despois
 # vén substantivo común, artigo ou pronome enclítico:
 
-está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,V0x000,_,_	_,Sc*|D*|Ra*A0.p|V0p0.p|,_,_	
+está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,V0x000,_,_	_,Sc*|D*|Ra*A0.p|V0p0.p|,_,_
 está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,_,en|ante|perante|diante,_
 
 # (30) Nós é Rt e non Sp* a comezo de secuencia se despois vén un verbo en
@@ -230,14 +233,14 @@ está,_,estar,_	me,Rad1.s,me,_	os,Raa3mp,o,_,x	_,_,en|ante|perante|diante,_
 # Mario: Non consigo que o etiquetador elixa Nós. De momento queda
 # deshabilitada a regras.
 
-#Nós,Sp*,_,_,x	_,V.i10p,_,_
-#Nós,Sp*,_,_,x	_,Wn,_,_	_,V.i10p,_,_,
+Nós,Sp*,_,_,x	_,V.i10p,_,_
+Nós,Sp*,_,_,x	_,Wn,_,_	_,V.i10p,_,_
 
 # (31) A maior parte dos casos de "fora" etiquetados como W son verbo. A
 # única regra que se me ocorre para corrixir esta incidencia a de que
 # se segue participio impida a análise como W:
 
-fora,Wn|P,fora,_,x	_,V0p*,_,_,
+fora,Wn|P,fora,_,x	_,V0p*,_,_
 
 # (32) aquel: Cando o precede o artigo masculino, sexa determinado ou
 # indeterminado, é o Substantivo: un aquel, o aquel, etc. Metino no
@@ -249,11 +252,11 @@ _,D.ms,_,_,	aquel,E.ms,aquel,_,x
 # (33) Artigo feminino cuxa unidade sexa "a" non pode ir seguido de
 # demostrativo.
 
-_,Ddfs,_,a,x	_,E*,_,_,
+_,Ddfs,_,a,x	_,E*,_,_
 
 # (34) incluímos non está seguido de Verbo, rexeita esa análise:
 
-_,V*,_,_,	_,Ra*,_,se|o|os|a|as|nos,x	_,!V*|Ra*,_,_
+_,V*,_,_,	_,Ra*,_,se|o|os|a|as|nos,x	_,!V*|!Ra*,_,_
 
 # Novas regras lingüísticas para implementar.
 
@@ -290,7 +293,7 @@ di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite,
 
 # (42) Para evitar que analice 'gústanos' e variantes como 'gustan + os Raa3mp', cando todos os casos corresponden a 'gusta + nos'. A 3ª de plural + clítico de acus non é unha cadea posible en galego, ou eso creo.
 
-gustan|gusten|gustaban|gustarían,_,_,_,x	os,Raa3mp,o,_,
+gustan|gusten|gustaban|gustarían,_,_,_	os,Raa3mp,o,_,x
 
 # (43) O verbo 'vir' non ten usos transitivos, así que 'vir + la ou las/Raa3f.' debe ir seguido de infinitivo. Se non o está, ten que ser o substantivo, por tanto cortamos a análise como verbo con enclítico. O que non sei é se a 'x' que corta o camiño ten que estar no verbo ou no pronome. Entendo que no primeiro elemento que sería incorrecto. (para evitar a mesma análise con "vilo" meto no lexicón como segura a locución adverbial "en vilo", de modo que xa non teño que cubrilo con regra)
 
@@ -303,4 +306,4 @@ cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_,
 
 # (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes: 
 
-como,_,_,_,	_,_,_,*mos,	me,_,_,_,x	_,Raa3*,_,_,
+como,_,_,_,	_,_,_,*mos,	me,_,_,_	_,Raa3*,_,_,x
