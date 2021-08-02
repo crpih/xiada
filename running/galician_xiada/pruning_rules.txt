@@ -270,26 +270,26 @@ _,V*,estar|andar|ser|volver|comezar|empezar|chegar|vir|botar|poñer,_,	a,Raa3fs|
 
 # (37) O indefinido ambos se está seguido de "os dous" ou "as dúas" non pode ser non determinante:
 
-ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_,
-ambas,Infp,ambos,_,x	as,Ddfp,o,_,	dúas,_,_,_,
+ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_
+ambas,Infp,ambos,_,x	as,Ddfp,o,_,	dúas,_,_,_
 
 # (38) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguida de pronome de dativo (me) e de pronome de acusativo (o,a,os,as), de xeito que non desagregue en V + me + o|a|os|as (crema, cremas, préstamo, préstamos, rima, rimas, mordomo, mordomos, haima, haimas, díctamo, lema...)
 
-con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_,
+con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_
 
 # (39) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguido de pronome de acusativo (con son o*, con son a*, con es la*; con fas la* etc):
 
-con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as,
+con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as
 
 # (40) Para completar a regra que di que "o,a,os,as" non pode ser artigo (a non ser que estea nunha contracción) se despois vén forma verbal conxugada en indicativo, subxuntivo ou imperativo, imos restrinxir tamén a posible aparición de "a" como preposición en contextos nos que algún elemento atrae o clítico á posición anterior á forma verbal:
 
-non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_,
+non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_
 
 # (41) Para evitar que "día" sexa desagregado en V + Raa3 en casos como "día tras día", "día a día", "noite e día", "día e noite" etc.
 
 di,V*,dicir,día,x	a,Raa*,o,_,	tras|a,_,tras|a,tras|a,	día,Scms,día,día,
 noite,Scf,noite,noite,	e,Cc,e,e,	di,V*,dicir,día,x
-di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite,
+di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite
 
 # (42) Para evitar que analice 'gústanos' e variantes como 'gustan + os Raa3mp', cando todos os casos corresponden a 'gusta + nos'. A 3ª de plural + clítico de acus non é unha cadea posible en galego, ou eso creo.
 
@@ -301,8 +301,8 @@ vir,_,_,vila|vilas,x	_,Raa3f.,_,_,	_,!V0f*,_,_
 
 # (44) 'Cremos' (P4 do presente, ás veces do pretérito, de crer) analizado como 'cre V* + me + os: non pode ir seguido de 'que', 'en' ou 'infinitivo':
 
-cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_,
-cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_,
+cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_
+cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_
 
 # (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes: 
 
