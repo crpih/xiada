@@ -254,23 +254,23 @@ end
 if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"estar|andar|ser|volver|comezar|empezar|chegar|vir|botar|poñer")) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(Raa3fs|Ddfs)$/) and (window[1][3] =~ /^(a)$/) and (window[2][0] =~ /^(.*ar|.*er|.*ir.*|.*or)$/) and (window[2][1] =~ /^(V0.*)$/)
 return 2
 end
-# RULE: ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_,
+# RULE: ambos,Inmp,ambos,_,x	os,Ddmp,o,_,	dous,_,_,_
 if (window[0][0] =~ /^(ambos)$/) and (window[0][1] =~ /^(Inmp)$/) and (match_some_lemma(window[0][2],"ambos")) and (window[1][0] =~ /^(os)$/) and (window[1][1] =~ /^(Ddmp)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][0] =~ /^(dous)$/)
 return 1
 end
-# RULE: ambas,Infp,ambos,_,x	as,Ddfp,o,_,	dúas,_,_,_,
+# RULE: ambas,Infp,ambos,_,x	as,Ddfp,o,_,	dúas,_,_,_
 if (window[0][0] =~ /^(ambas)$/) and (window[0][1] =~ /^(Infp)$/) and (match_some_lemma(window[0][2],"ambos")) and (window[1][0] =~ /^(as)$/) and (window[1][1] =~ /^(Ddfp)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][0] =~ /^(dúas)$/)
 return 1
 end
-# RULE: con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_,
+# RULE: con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	me,_,_,_,	_,Raa3*,_,_
 if (window[0][0] =~ /^(con|de|en|entre|para|sen)$/) and (window[0][1] =~ /^(P)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/) and (window[2][0] =~ /^(me)$/) and (window[3][1] =~ /^(Raa3.*)$/)
 return 2
 end
-# RULE: con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as,
+# RULE: con|de|en|entre|para|sen,P,_,_	_,V.i*|V.s*,_,_,x	_,Raa3*,_,!o|!a|!os|!as
 if (window[0][0] =~ /^(con|de|en|entre|para|sen)$/) and (window[0][1] =~ /^(P)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/) and (window[2][1] =~ /^(Raa3.*)$/) and (window[2][3] !~ /^(o|!a|!os|!as)$/)
 return 2
 end
-# RULE: non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_,
+# RULE: non,_,_,_,	a,P,a,_,x	_,V.i*|V.s*|V0m*,_,_
 if (window[0][0] =~ /^(non)$/) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(P)$/) and (match_some_lemma(window[1][2],"a")) and (window[2][1] =~ /^(V.i.*|V.s.*|V0m.*)$/)
 return 2
 end
@@ -282,7 +282,7 @@ end
 if (window[0][0] =~ /^(noite)$/) and (window[0][1] =~ /^(Scf)$/) and (match_some_lemma(window[0][2],"noite")) and (window[0][3] =~ /^(noite)$/) and (window[1][0] =~ /^(e)$/) and (window[1][1] =~ /^(Cc)$/) and (match_some_lemma(window[1][2],"e")) and (window[1][3] =~ /^(e)$/) and (window[2][0] =~ /^(di)$/) and (window[2][1] =~ /^(V.*)$/) and (match_some_lemma(window[2][2],"dicir")) and (window[2][3] =~ /^(día)$/)
 return 3
 end
-# RULE: di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite,
+# RULE: di,V*,dicir,día,x	e,Cc,e,e,	noite,Scf,noite,noite
 if (window[0][0] =~ /^(di)$/) and (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"dicir")) and (window[0][3] =~ /^(día)$/) and (window[1][0] =~ /^(e)$/) and (window[1][1] =~ /^(Cc)$/) and (match_some_lemma(window[1][2],"e")) and (window[1][3] =~ /^(e)$/) and (window[2][0] =~ /^(noite)$/) and (window[2][1] =~ /^(Scf)$/) and (match_some_lemma(window[2][2],"noite")) and (window[2][3] =~ /^(noite)$/)
 return 1
 end
@@ -294,11 +294,11 @@ end
 if (window[0][0] =~ /^(vir)$/) and (window[0][3] =~ /^(vila|vilas)$/) and (window[1][1] =~ /^(Raa3f.)$/) and (window[2][1] !~ /^(V0f.*)$/)
 return 1
 end
-# RULE: cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_,
+# RULE: cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_
 if (window[0][0] =~ /^(cre)$/) and (window[0][3] =~ /^(cremos)$/) and (window[1][0] =~ /^(me)$/) and (window[2][1] =~ /^(Raa3.*)$/) and (window[3][0] =~ /^(que|en)$/)
 return 1
 end
-# RULE: cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_,
+# RULE: cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_
 if (window[0][0] =~ /^(cre)$/) and (window[0][3] =~ /^(cremos)$/) and (window[1][0] =~ /^(me)$/) and (window[2][1] =~ /^(Raa3.*)$/) and (window[3][1] =~ /^(V0f.*)$/)
 return 1
 end
