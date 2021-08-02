@@ -2157,6 +2157,7 @@ Nova York	Sp00	Nova York
 Novas Xeracións de o PP de Galicia	Spfp	Novas Xeracións de o PP de Galicia
 Noya	Sp00	Noya
 Noé	Spm0	Noé
+Nós	Sp00	Nós
 Nuestra Señora de la Esperanza	Spfs	Nuestra Señora de la Esperanza
 Nueva Izquierda	Sp00	Nueva Izquierda
 Nueva Nación	Sp00	Nueva Nación
