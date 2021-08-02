@@ -267,11 +267,13 @@ class ProperNounsProcessor
       token = token.next
     end
     unless @sentence.original_first_lower
-      if StringUtils.all_lower?(token.text) and !token.tagged?
-        token.replace_text(StringUtils.first_to_upper(token.text))
+      if !token.tagged
+        if StringUtils.all_lower?(token.text)
+          token.replace_text(StringUtils.first_to_upper(token.text))
+          first_token_tolower = true
+        end
         first_token = token
         at_first_token = true
-        first_token_tolower = true
       end
     end
     #token = token.next if token.token_type != :end_sentence
