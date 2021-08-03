@@ -183,7 +183,7 @@ class EncliticsProcessor
       prev_tokens = new_prev_tokens
     end
 
-    end_alternative_token.reset_prevs
+    #end_alternative_token.reset_prevs
     prev_tokens.each do |prev_token|
       prev_token.add_next(end_alternative_token)
       prev_token.nexts_ignored = token.nexts_ignored.dup
