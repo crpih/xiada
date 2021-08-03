@@ -671,7 +671,7 @@ class Sentence
       end
       fd.puts ""
     elsif token.token_type == :begin_alternative
-      fd.puts "<alternatives>"
+      fd.puts "<alternatives> nexts:#{token.nexts.size}"
     elsif token.token_type == :end_alternative
       unless token.nexts_ignored.empty?
         fd.print "ignored tokens (end_alternative):\n"
@@ -683,7 +683,7 @@ class Sentence
           fd.puts ""
         end
       end
-      fd.puts "</alternatives>"
+      fd.puts "</alternatives> prevs:#{token.prevs.size}"
     elsif token.token_type == :begin_sentence
       fd.puts "<sentence>"
       unless token.nexts_ignored.empty?
