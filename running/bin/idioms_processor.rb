@@ -25,25 +25,24 @@ class IdiomsProcessor
       from_alternative = possible_start_point[1]
       # By now we use only the longest idiom
       end_point = end_points[index].last
-      #STDERR.puts "end_point: #{end_point}"
-      # STDERR.puts "end_point size: #{end_point.size}"
+      # STDERR.puts "end_point: #{end_point}"
       to = end_point[0]
       to_alternative = end_point[1]
       idiom = end_point[2]
       sure = end_point[3]
 
-      #unless to == nil or (prev_to != nil and from.from <= prev_to)
-      #  puts "*** IDIOM ***"
-      #  puts "from:#{from.text}"
-      #  puts "from_alternative: #{from_alternative}"
-      #  puts "from.from:#{from.from}"
-      #  puts "to: #{to.text}"
-      #  puts "to_alternative: #{to_alternative}"
-      #  puts "prev_to:#{prev_to}"
-      #  puts "idiom: #{idiom}"
-      #  puts "sure: #{sure}"
-      #  puts "*** /IDIOM ***"
-      #end
+      unless to == nil or (prev_to != nil and from.from <= prev_to)
+        #puts "*** IDIOM ***"
+        #puts "from:#{from.text}"
+        #puts "from_alternative: #{from_alternative}"
+        #puts "from.from:#{from.from}"
+        #puts "to: #{to.text}"
+        #puts "to_alternative: #{to_alternative}"
+        #puts "prev_to:#{prev_to}"
+        #puts "idiom: #{idiom}"
+        #puts "sure: #{sure}"
+        #puts "*** /IDIOM ***"
+      end
 
       # It could be an idiom inside another and situation change when processing the first one:
       # a a beira de --- beira de => Not regarded the second one by now
@@ -117,7 +116,7 @@ class IdiomsProcessor
         #puts "full. token:#{token.text} idiom: #{substring} #{token.text}"
         end_point = [token, true, substring + " " + token.text]
         # Second value indicates that the end_point is inside an alternative
-        unless @dw.is_idiom_unsure?(idioms[0][0])
+        if @dw.is_idiom_sure?(idioms[0][0])
         # if Integer(idioms[0][4]) == 1 # sure field of first tuple
           end_point << true
         else
@@ -137,17 +136,17 @@ class IdiomsProcessor
   end
   
   def search_end_points_aux(token)
-    #puts "search_end_points_aux token:#{token.text}"
+    #puts "\n\nsearch_end_points_aux token:#{token.text}"
     end_points = Array.new
     substring = token.text
     token = token.next
     while token.token_type != :end_sentence
-      #puts "substring: #{substring}"
+      #STDERR.puts "substring: #{substring}"
       #STDERR.puts "token text:#{token.text} token type:#{token.token_type}"
       if token.token_type == :end_alternative
         token = token.next
       elsif token.token_type == :begin_alternative
-        #puts "begin_alternative"
+        #STDERR.puts "begin_alternative"
         token.nexts.keys.each do |token_aux|
           end_points_aux = search_end_points_aux_alternative(token_aux, substring)
           end_points.concat(end_points_aux) unless end_points_aux.empty?
@@ -159,21 +158,23 @@ class IdiomsProcessor
         else
           idioms = @dw.get_multiword_full(substring + token.text)
         end
+        #STDERR.puts "idioms.empty?:#{idioms.empty?}"
+        #STDERR.puts "idioms:#{idioms}"
         unless idioms.empty?
-          #puts "end_point:#{token.text}"
+          #STDERR.puts "end_point:#{token.text}"
           if token.text != "."
             end_point = [token, false, substring + " " + token.text]
           else
             end_point = [token, false, substring + token.text]
           end
           # Second value indicates that the end_point is outside an alternative
-          unless @dw.is_idiom_unsure?(idioms[0][0])
+          if @dw.is_idiom_sure?(idioms[0][0])
           #if Integer(idioms[0][4]) == 1 # sure field of first tuple
             end_point << true
-            #puts "true"
+            #STDERR.puts "true"
           else
             end_point << false
-            #puts "false"
+            #STDERR.puts "false"
           end
           end_points << end_point
         end

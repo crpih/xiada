@@ -171,10 +171,10 @@ class DatabaseWrapper
     return result
   end
 
-  def is_idiom_unsure?(idiom)
+  def is_idiom_sure?(idiom)
     result = @db.get_first_value("select sure from idioms where idiom = '#{SQLUtils.escape_SQL(idiom)}'")
     if result == nil
-      return true
+      return false
     else
       result == 't' ? true : false
     end
@@ -183,8 +183,8 @@ class DatabaseWrapper
   def get_multiword_match(substring)
     result = Array.new
 
-    @db.execute("select word, tag, lemma, hiperlemma
-                 from emission_frequencies where word like '#{SQLUtils.escape_SQL(substring)}%'") do |row|
+    @db.execute("select idiom as word, tag, lemma, hiperlemma
+                 from idioms where word like '#{SQLUtils.escape_SQL(substring)}%'") do |row|
       result << row
     end
     return result
@@ -193,8 +193,8 @@ class DatabaseWrapper
   def get_multiword_full(idiom)
     result = Array.new
 
-    @db.execute("select word, tag, lemma, hiperlemma
-                 from emission_frequencies where word = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
+    @db.execute("select idiom as word, tag, lemma, hiperlemma
+                 from idioms where word = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
       result << row
     end
     return result
