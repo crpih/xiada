@@ -173,7 +173,7 @@ class XiadaTagger
     STDERR.puts "Applying Viterbi..."
     viterbi = Viterbi.new(dw)
     viterbi.run(sentence)
-    #sentence.print
+    #sentence.print(STDERR)
     #sentence.print_reverse
     viterbi.print_best_way
   end
