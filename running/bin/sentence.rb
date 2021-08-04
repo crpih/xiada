@@ -639,6 +639,7 @@ class Sentence
   end
 
   def print_token(fd, token)
+    return nil unless token
     if token.token_type == :standard
       text = token.text
       text = "nil" if text == nil
