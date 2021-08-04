@@ -581,6 +581,7 @@ class Sentence
   private
 
   def print_recursive(fd, token, way, ways)
+    return nil unless token
     if token.token_type == :standard
       print_token(fd, token)
       print_recursive(fd, token.next, way, ways)
