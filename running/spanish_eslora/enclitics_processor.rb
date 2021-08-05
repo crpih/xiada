@@ -369,7 +369,7 @@ class EncliticsProcessor
 
     results = @dw.get_emissions_info(token.text, nil)
     preserve_source_token = true unless results.empty?
-    if begin_alternative_token.nexts.size == 1
+    if begin_alternative_token.nexts.size == 1 and !preserve_source_token
       insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
     elsif inside_alternative
       #puts "inside_alternative"
