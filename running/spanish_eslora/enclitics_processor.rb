@@ -86,29 +86,29 @@ class EncliticsProcessor
 
           # enclitic_part processing
           enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, token.from, token.to, token)
-          if inside_alternative
-            token_aux = next_token
-            prev_tokens = end_alternative_token.prevs.keys
-            while token_aux.token_type != :end_alternative
-              new_prev_tokens = Array.new
-              prev_tokens.each do |prev_token|
-                prev_token.reset_nexts
-                new_token = Token.new(@sentence.text, token_aux.text, token_aux.token_type, token_aux.from, token_aux.to)
-                new_token.qualifying_info = token.qualifying_info.clone
-                prev_token.add_next(new_token)
-                new_token.add_prev(prev_token)
-                prev_token = new_token
-                new_prev_tokens << new_token
-              end
-              prev_tokens = new_prev_tokens
-              token_aux = token_aux.next
-            end
-            end_alternative_token.reset_prevs
-            prev_tokens.each do |prev_token|
-              prev_token.add_next(end_alternative_token)
-              end_alternative_token.add_prev(prev_token)
-            end
-          end
+          #if inside_alternative
+          #  token_aux = next_token
+          #  prev_tokens = end_alternative_token.prevs.keys
+          #  while token_aux.token_type != :end_alternative
+          #    new_prev_tokens = Array.new
+          #    prev_tokens.each do |prev_token|
+          #      prev_token.reset_nexts
+          #      new_token = Token.new(@sentence.text, token_aux.text, token_aux.token_type, token_aux.from, token_aux.to)
+          #      new_token.qualifying_info = token.qualifying_info.clone
+          #      prev_token.add_next(new_token)
+          #      new_token.add_prev(prev_token)
+          #      prev_token = new_token
+          #      new_prev_tokens << new_token
+          #    end
+          #    prev_tokens = new_prev_tokens
+          #    token_aux = token_aux.next
+          #  end
+          #  end_alternative_token.reset_prevs
+          #  prev_tokens.each do |prev_token|
+          #    prev_token.add_next(end_alternative_token)
+          #    end_alternative_token.add_prev(prev_token)
+          #  end
+          #end
         end # from if valid
       end # from unless
     end # from 0..max_index
@@ -121,6 +121,54 @@ class EncliticsProcessor
   # Function which process the enclitic part and create necessary
   # tokens linked to de verb_part(s) one(s)
   def enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
+    #STDERR.puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
+    relevant_verb_part_tokens.each do |relevant_verb_part_token|
+      begin_alternative_token.add_next(relevant_verb_part_token)
+      relevant_verb_part_token.add_prev(begin_alternative_token)
+      prev_token = relevant_verb_part_token
+
+      enclitic_elements = split_elements(enclitic_part)
+      enclitics = split_enclitics(enclitic_elements)
+      enclitics_forms = enclitics[0]
+      enclitics_tags = enclitics[1]
+      enclitics_lemmas = enclitics[2]
+
+      new_token = nil
+      enclitics_forms.each_index do |index|
+        result = filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
+        enclitic = result[0]
+        tags = result[1]
+        lemmas = result[2]
+        hiperlemmas = result[3]
+
+        #STDERR.puts "enclitic: #{enclitic}"
+        #STDERR.puts "tags: #{tags}"
+        #STDERR.puts "lemmas: #{lemmas}"
+        new_token = Token.new(@sentence.text, enclitic, :standard, from, to)
+        new_token.qualifying_info = token.qualifying_info.clone
+        #STDERR.puts "getting info, enclitic:#{enclitic}, tags:#{tags}"
+        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
+        infos.each do |info|
+          tag_value = info[0]
+          lemma = info[1]
+          hiperlemma = info[2]
+          log_b = Float(info[3])
+          #puts "adding tag:#{tag_value}"
+          new_token.add_tag_lemma_emission(tag_value, lemma, hiperlemma, log_b, false)
+        end
+        prev_token.reset_nexts
+        prev_token.add_next(new_token)
+        new_token.add_prev(prev_token)
+        prev_token = new_token
+      end
+      prev_token.add_next(end_alternative_token)
+      end_alternative_token.add_prev(prev_token)
+    end
+  end
+
+  # Function which process the enclitic part and create necessary
+  # tokens linked to de verb_part(s) one(s)
+  def enclitics_processing_orig(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     # puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
     #prev_tokens = end_alternative_token.prevs.keys
     prev_tokens = relevant_verb_part_tokens
@@ -183,7 +231,7 @@ class EncliticsProcessor
       prev_tokens = new_prev_tokens
     end
 
-    end_alternative_token.reset_prevs
+    #end_alternative_token.reset_prevs
     prev_tokens.each do |prev_token|
       prev_token.add_next(end_alternative_token)
       prev_token.nexts_ignored = token.nexts_ignored.dup
@@ -288,13 +336,42 @@ class EncliticsProcessor
     return result
   end
 
+  def insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
+    prev_token = token.prevs.keys.first
+    next_token = token.nexts.keys.first
+    #STDERR.puts "prev_token:#{prev_token.text}"
+    #STDERR.puts "next_token:#{next_token.text}"
+
+    prev_token.remove_next(token)
+    #token.remove_prev(prev_token)
+
+    next_token.remove_prev(token)
+    #token.remove_next(next_token) # Old token can't be unlinked because of the main recursive processing function
+
+    prev_token.add_next(begin_alternative_token.nexts.keys.first)
+    #STDERR.puts "prev_token.next: #{begin_alternative_token.nexts.keys.first.text}"
+
+    begin_alternative_token.nexts.keys.first.reset_prevs
+    begin_alternative_token.nexts.keys.first.add_prev(prev_token)
+
+    next_token.add_prev(end_alternative_token.prevs.keys.first)
+    #STDERR.puts "next_token.prev: #{end_alternative_token.prevs.keys.first.text}"
+    end_alternative_token.prevs.keys.first.reset_nexts
+    end_alternative_token.prevs.keys.first.add_next(next_token)
+
+    begin_alternative_token.reset_nexts
+    end_alternative_token.reset_prevs
+  end
+
   def insert_enclitic_alternatives(token, inside_alternative, begin_alternative_token, end_alternative_token)
+    # STDERR.puts "insert_enclitic_alternatives: token:#{token.text}, inside_alternative: #{inside_alternative}"
     preserve_source_token = false
 
     results = @dw.get_emissions_info(token.text, nil)
     preserve_source_token = true unless results.empty?
-
-    if inside_alternative
+    if begin_alternative_token.nexts.size == 1
+      insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
+    elsif inside_alternative
       #puts "inside_alternative"
       start_point_token = token
       before_start_point = token

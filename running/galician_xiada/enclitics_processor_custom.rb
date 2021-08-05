@@ -59,10 +59,10 @@ module EncliticsProcessorCustomGalicianXiada
         new_token = Token.new(@sentence.text, final_recovery_word, :standard, token_from, token_to)
         new_token.qualifying_info = token.qualifying_info.clone
         final_recovery_words[final_recovery_word] = new_token
-        begin_alternative_token.add_next(new_token)
-        new_token.add_prev(begin_alternative_token)
-        new_token.add_next(end_alternative_token)
-        # end_alternative_token.add_prev(new_token)
+        #begin_alternative_token.add_next(new_token)
+        #new_token.add_prev(begin_alternative_token)
+        #new_token.add_next(end_alternative_token)
+        #end_alternative_token.add_prev(new_token)
         relevant_tokens << new_token
       end
       final_recovery_words[final_recovery_word].add_tag_lemma_emission(final_recovery_tag, final_recovery_lemma, final_recovery_hiperlemma, final_recovery_log_b, false)
