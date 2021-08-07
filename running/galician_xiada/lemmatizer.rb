@@ -8,7 +8,6 @@ module LemmatizerGalicianXiada
     return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
     # ísimo/a/os/as suffix treatment
-
     # amabilísimo => amable
     if word =~ /bilísim[oa]s?$/
       new_word = word.gsub(/bilísim[oa](s)?$/,'ble\1')
@@ -140,11 +139,9 @@ module LemmatizerGalicianXiada
       end
       return result unless result.empty?
     end
-
     # iño/a/os/as
     # process only simple words (the ones that don't have - or /)
     if word =~ /iñ[oa]s?$/ and word !~ /[-\/]/
-
       if word =~ /guiñ[oa]s?$/
         # amiguiño => amigo
         # enruguiñas => enruga
@@ -367,7 +364,6 @@ module LemmatizerGalicianXiada
         return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
-        STDERR.puts "kk"
         # cadradiños => cadrados
         # todiñas => todas
         new_word = word.gsub(/diñ([oa]s?)$/,'d\1')
@@ -378,18 +374,15 @@ module LemmatizerGalicianXiada
         # bigodiño => bigode
         # humildiño => humilde
         new_word = word.gsub(/diñ[oa](s?)$/,'de\1')
-        STDERR.puts "word:#{word} new_word:#{new_word}"
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*','V0p0*']))
         return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word =~ /ndiñ[oa]s?$/
         # meirandiño => meirande
         new_word = word.gsub(/diñ[oa](s?)$/,'de\1')
-        STDERR.puts "word:#{word} new_word:#{new_word}"
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','I*','V0p0*']))
         return result unless result.empty?
       end
-
       if word =~ /uesiñ[oa]s?$/
         if word =~/uesiño$/
           # marquesiño => marqués
@@ -433,11 +426,12 @@ module LemmatizerGalicianXiada
         return result unless result.empty?
       end
 
-      # gh treatment
-      if word =~ /gh/
-        new_word = word.gsub(/gh/,'g')
-        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
-      end
+    end
+
+    # gh treatment
+    if word =~ /gh/
+      new_word = word.gsub(/gh/,'g')
+      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
     end
 
     []
