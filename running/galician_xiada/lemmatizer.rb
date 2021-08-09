@@ -48,12 +48,15 @@ module LemmatizerGalicianXiada
     end
     # virtualísimo => virtual
     # facilísimo => fácil
+    # Plural exception: cool
     if word =~ /lísim[oa]s?$/
       new_word = word.gsub(/lísim[oa]s?$/,'l')
-      new_word << "es" if word =~/s$/
+      new_word << "es" if word =~/s$/ and new_word != 'cool'
       StringUtils.tilde_combinations(new_word).each do |combination|
-        result = replace_tags(@dw.get_emissions_info(combination, ['A*f*']),"^A0","As") if word =~ /as?$/
-        result = replace_tags(@dw.get_emissions_info(combination, ['A*m*']),"^A0","As") if word =~ /os?$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A_fs']),"^A0fs","Asfs") if word =~ /a$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A_fp']),"^A0fp","Asfp") if word =~ /as$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A_ms']),"^A0ms","Asms") if word =~ /o$/
+        result = replace_tags(@dw.get_emissions_info(combination, ['A_mp']),"^A0mp","Asmp") if word =~ /os$/
         return result unless result.empty?
       end
     end
