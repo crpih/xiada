@@ -151,6 +151,24 @@ module EncliticsProcessorCustomGalicianXiada
       return recovery_word.gsub(/íu$/, "iu")
     end
 
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación non é o Vic5b nin o Vic7a, e se na parte dereita hai 2 ou máis clíticos silábicos, reconstrúe a forma verbal para -iu. Isto reconstruirá "abríuno-la" para "abriu" pero mantería “saíu” ou “incluíu”, respectivamente, para “saíucheme” ou “incluíuselle”.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and enclitic_syllables_length > 1 and extra !~ /Vic5/ and extra !~ /Vic7a/
+      return recovery_word.gsub(/íu$/, "iu")
+    end
+
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación non é o Vic5b nin o Vic7a, e se na parte dereita hai 1 ou 2 clíticos pero que constitúen unha única sílaba, reconstrúe a forma verbal para -íu. Isto reconstruiría "abríulle" para "abríu", o que sería o correcto atendendo ó que está no texto, pero mantería “saíu” ou “incluíu”, respectivamente, para “saíume” ou “incluíuse”.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and enclitic_syllables_length == 1 and extra !~ /Vic5b/ and extra !~ /Vic7a/
+      return recovery_word.gsub(/iu$/, "íu")
+    end
+
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación é o Vic5b ou o Vic7a, e se na parte dereita hai algún clítico ou segunda forma do artigo (sexa 1, sexa unha contracción silábica ou sexan 2 ou máis clíticos silábicos), reconstrúe a forma verbal para -íu. Isto reconstruirá "saíucheme", “incluíuselle”, "saíulle" e “incluíuse” para “saíu” e “incluíu”, respectivamente.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and (extra =~ /Vic5b/ or extra =~/Vic7a/)
+      return recovery_word.gsub(/iu$/, "íu")
+    end
+
     return recovery_word
   end
 end

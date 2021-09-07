@@ -361,13 +361,13 @@ class EncliticsProcessor
 # before rule 9 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 9
 # RULE: 9 DEPTH:1 CONDITION:1
-    if verb_part =~ /íu$/
+    if verb_part =~ /ír$/
 # RULE: 9 DEPTH:2 CONDITION:1
-    if verb_part !~ /^desoíu$/ and verb_part !~ /^entreoíu$/ and verb_part !~ /^esvaíu$/ and verb_part !~ /^oíu$/ and verb_part !~ /^saíu$/ and verb_part !~ /^sobresaíu$/
+    if verb_part !~ /^desoír$/ and verb_part !~ /^entreoír$/ and verb_part !~ /^esvaír$/ and verb_part !~ /^oír$/ and verb_part !~ /^saír$/ and verb_part !~ /^sobresaír$/
 # RULE: 9 DEPTH:3 CONDITION:1
-    if verb_part !~ /^abluíu$/ and verb_part !~ /^afluíu$/ and verb_part !~ /^argüíu$/ and verb_part !~ /^atribuíu$/ and verb_part !~ /^atuíu$/ and verb_part !~ /^concluíu$/ and verb_part !~ /^confluíu$/ and verb_part !~ /^constituíu$/ and verb_part !~ /^construíu$/ and verb_part !~ /^contribuíu$/ and verb_part !~ /^derruíu$/ and verb_part !~ /^desatuíu$/ and verb_part !~ /^desobstruíu$/ and verb_part !~ /^desposuíu$/ and verb_part !~ /^destituíu$/ and verb_part !~ /^destruíu$/ and verb_part !~ /^difluíu$/ and verb_part !~ /^diluíu$/ and verb_part !~ /^diminuíu$/ and verb_part !~ /^disminuíu$/ and verb_part !~ /^distribuíu$/ and verb_part !~ /^efluíu$/ and verb_part !~ /^esluíu$/ and verb_part !~ /^estatuíu$/ and verb_part !~ /^excluíu$/ and verb_part !~ /^extruíu$/ and verb_part !~ /^fluíu$/ and verb_part !~ /^imbuíu$/ and verb_part !~ /^incluíu$/ and verb_part !~ /^influíu$/ and verb_part !~ /^instituíu$/ and verb_part !~ /^inmiscuíu$/ and verb_part !~ /^instruíu$/ and verb_part !~ /^intuíu$/ and verb_part !~ /^luíu$/ and verb_part !~ /^obstruíu$/ and verb_part !~ /^ocluíu$/ and verb_part !~ /^posuíu$/ and verb_part !~ /^protuíu$/ and verb_part !~ /^prostituíu$/ and verb_part !~ /^puíu$/ and verb_part !~ /^recluíu$/ and verb_part !~ /^reconstituíu$/ and verb_part !~ /^reconstruíu$/ and verb_part !~ /^redargüíu$/ and verb_part !~ /^redistribuíu$/ and verb_part !~ /^refluíu$/ and verb_part !~ /^restituíu$/ and verb_part !~ /^retribuíu$/ and verb_part !~ /^substituíu$/ and verb_part !~ /^sustituíu$/
+    if verb_part !~ /^abluír$/ and verb_part !~ /^afluír$/ and verb_part !~ /^argüír$/ and verb_part !~ /^atribuír$/ and verb_part !~ /^atuír$/ and verb_part !~ /^concluír$/ and verb_part !~ /^confluír$/ and verb_part !~ /^constituír$/ and verb_part !~ /^construír$/ and verb_part !~ /^contribuír$/ and verb_part !~ /^derruír$/ and verb_part !~ /^desatuír$/ and verb_part !~ /^desobstruír$/ and verb_part !~ /^desposuír$/ and verb_part !~ /^destituír$/ and verb_part !~ /^destruír$/ and verb_part !~ /^difluír$/ and verb_part !~ /^diluír$/ and verb_part !~ /^diminuír$/ and verb_part !~ /^disminuír$/ and verb_part !~ /^distribuír$/ and verb_part !~ /^efluír$/ and verb_part !~ /^esluír$/ and verb_part !~ /^estatuír$/ and verb_part !~ /^excluír$/ and verb_part !~ /^extruír$/ and verb_part !~ /^fluír$/ and verb_part !~ /^imbuír$/ and verb_part !~ /^incluír$/ and verb_part !~ /^influír$/ and verb_part !~ /^inmiscuír$/ and verb_part !~ /^instituír$/ and verb_part !~ /^instruír$/ and verb_part !~ /^intuír$/ and verb_part !~ /^luír$/ and verb_part !~ /^obstruír$/ and verb_part !~ /^ocluír$/ and verb_part !~ /^posuír$/ and verb_part !~ /^protuír$/ and verb_part !~ /^prostituír$/ and verb_part !~ /^puír$/ and verb_part !~ /^recluír$/ and verb_part !~ /^reconstituír$/ and verb_part !~ /^reconstruír$/ and verb_part !~ /^redargüír$/ and verb_part !~ /^redistribuír$/ and verb_part !~ /^refluír$/ and verb_part !~ /^restituír$/ and verb_part !~ /^retribuír$/ and verb_part !~ /^substituír$/ and verb_part !~ /^sustituír$/
 # RULE: 9 DEPTH:4 CONDITION:1
-    if verb_tags =~ /Vei30s/
+    if verb_tags =~ /Vfs10s|Vfs30s|Vfsa0s|V0f10s|V0f30s|V0f000/
 # RULE: 9 DEPTH:5 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
@@ -380,14 +380,12 @@ class EncliticsProcessor
 # before rule 10 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 10
 # RULE: 10 DEPTH:1 CONDITION:1
-    if verb_part =~ /ír$/
+    if verb_part =~ /én$/
 # RULE: 10 DEPTH:2 CONDITION:1
-    if verb_part !~ /^desoír$/ and verb_part !~ /^entreoír$/ and verb_part !~ /^esvaír$/ and verb_part !~ /^oír$/ and verb_part !~ /^saír$/ and verb_part !~ /^sobresaír$/
+    if verb_part !~ /^vén$/
 # RULE: 10 DEPTH:3 CONDITION:1
-    if verb_part !~ /^abluír$/ and verb_part !~ /^afluír$/ and verb_part !~ /^argüír$/ and verb_part !~ /^atribuír$/ and verb_part !~ /^atuír$/ and verb_part !~ /^concluír$/ and verb_part !~ /^confluír$/ and verb_part !~ /^constituír$/ and verb_part !~ /^construír$/ and verb_part !~ /^contribuír$/ and verb_part !~ /^derruír$/ and verb_part !~ /^desatuír$/ and verb_part !~ /^desobstruír$/ and verb_part !~ /^desposuír$/ and verb_part !~ /^destituír$/ and verb_part !~ /^destruír$/ and verb_part !~ /^difluír$/ and verb_part !~ /^diluír$/ and verb_part !~ /^diminuír$/ and verb_part !~ /^disminuír$/ and verb_part !~ /^distribuír$/ and verb_part !~ /^efluír$/ and verb_part !~ /^esluír$/ and verb_part !~ /^estatuír$/ and verb_part !~ /^excluír$/ and verb_part !~ /^extruír$/ and verb_part !~ /^fluír$/ and verb_part !~ /^imbuír$/ and verb_part !~ /^incluír$/ and verb_part !~ /^influír$/ and verb_part !~ /^inmiscuír$/ and verb_part !~ /^instituír$/ and verb_part !~ /^instruír$/ and verb_part !~ /^intuír$/ and verb_part !~ /^luír$/ and verb_part !~ /^obstruír$/ and verb_part !~ /^ocluír$/ and verb_part !~ /^posuír$/ and verb_part !~ /^protuír$/ and verb_part !~ /^prostituír$/ and verb_part !~ /^puír$/ and verb_part !~ /^recluír$/ and verb_part !~ /^reconstituír$/ and verb_part !~ /^reconstruír$/ and verb_part !~ /^redargüír$/ and verb_part !~ /^redistribuír$/ and verb_part !~ /^refluír$/ and verb_part !~ /^restituír$/ and verb_part !~ /^retribuír$/ and verb_part !~ /^substituír$/ and verb_part !~ /^sustituír$/
+    if verb_tags =~ /V0m20s|Vpi30s/
 # RULE: 10 DEPTH:4 CONDITION:1
-    if verb_tags =~ /Vfs10s|Vfs30s|Vfsa0s|V0f10s|V0f30s|V0f000/
-# RULE: 10 DEPTH:5 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
@@ -395,15 +393,14 @@ class EncliticsProcessor
     end
     end
     end
-    end
 # before rule 11 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 11
 # RULE: 11 DEPTH:1 CONDITION:1
-    if verb_part =~ /én$/
+    if verb_part =~ /és$/
 # RULE: 11 DEPTH:2 CONDITION:1
-    if verb_part !~ /^vén$/
+    if verb_part !~ /^vés$/
 # RULE: 11 DEPTH:3 CONDITION:1
-    if verb_tags =~ /V0m20s|Vpi30s/
+    if verb_tags =~ /Vpi20s/
 # RULE: 11 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
@@ -415,52 +412,49 @@ class EncliticsProcessor
 # before rule 12 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 12
 # RULE: 12 DEPTH:1 CONDITION:1
-    if verb_part =~ /és$/
+    if verb_part =~ /ón$/
 # RULE: 12 DEPTH:2 CONDITION:1
-    if verb_part !~ /^vés$/
+    if verb_tags =~ /V0m20s|Vpi30s|Vpi30p/
 # RULE: 12 DEPTH:3 CONDITION:1
-    if verb_tags =~ /Vpi20s/
-# RULE: 12 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
-    end
     end
     end
     end
 # before rule 13 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 13
 # RULE: 13 DEPTH:1 CONDITION:1
-    if verb_part =~ /ón$/
+    if verb_part =~ /ór$/
 # RULE: 13 DEPTH:2 CONDITION:1
-    if verb_tags =~ /V0m20s|Vpi30s|Vpi30p/
+    if verb_part !~ /^pór$/
 # RULE: 13 DEPTH:3 CONDITION:1
+    if verb_tags =~ /V0f000|V0f10s|V0f30s/
+# RULE: 13 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
+    end
     end
     end
     end
 # before rule 14 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 14
 # RULE: 14 DEPTH:1 CONDITION:1
-    if verb_part =~ /ór$/
+    if verb_part =~ /ós$/
 # RULE: 14 DEPTH:2 CONDITION:1
-    if verb_part !~ /^pór$/
+    if verb_tags =~ /Vpi20s/
 # RULE: 14 DEPTH:3 CONDITION:1
-    if verb_tags =~ /V0f000|V0f10s|V0f30s/
-# RULE: 14 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
     end
     end
     end
-    end
 # before rule 15 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 15
 # RULE: 15 DEPTH:1 CONDITION:1
-    if verb_part =~ /ós$/
+    if verb_part =~ /ís$/
 # RULE: 15 DEPTH:2 CONDITION:1
     if verb_tags =~ /Vpi20s/
 # RULE: 15 DEPTH:3 CONDITION:1
@@ -473,30 +467,30 @@ class EncliticsProcessor
 # before rule 16 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 16
 # RULE: 16 DEPTH:1 CONDITION:1
-    if verb_part =~ /ís$/
+    if verb_part =~ /i$/
 # RULE: 16 DEPTH:2 CONDITION:1
-    if verb_tags =~ /Vpi20s/
-# RULE: 16 DEPTH:3 CONDITION:1
+    if enclitic_part =~ /^o|^a|^os|^as/
+      result = [false, nil, nil, nil]
+      return result
+    end
+    end
+# before rule 17 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 17
+# RULE: 17 DEPTH:1 CONDITION:1
+    if verb_part =~ /ín$/
+# RULE: 17 DEPTH:2 CONDITION:1
+    if verb_tags =~ /Vpi30p/
+# RULE: 17 DEPTH:3 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
     end
     end
     end
-# before rule 17 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 17
-# RULE: 17 DEPTH:1 CONDITION:1
-    if verb_part =~ /i$/
-# RULE: 17 DEPTH:2 CONDITION:1
-    if enclitic_part =~ /^o|^a|^os|^as/
-      result = [false, nil, nil, nil]
-      return result
-    end
-    end
 # before rule 18 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 18
 # RULE: 18 DEPTH:1 CONDITION:1
-    if verb_part =~ /ín$/
+    if verb_part =~ /án$/
 # RULE: 18 DEPTH:2 CONDITION:1
     if verb_tags =~ /Vpi30p/
 # RULE: 18 DEPTH:3 CONDITION:1
@@ -509,84 +503,71 @@ class EncliticsProcessor
 # before rule 19 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 19
 # RULE: 19 DEPTH:1 CONDITION:1
-    if verb_part =~ /án$/
+    if verb_part =~ /ás$/
 # RULE: 19 DEPTH:2 CONDITION:1
-    if verb_tags =~ /Vpi30p/
+    if verb_part !~ /^dás$/
 # RULE: 19 DEPTH:3 CONDITION:1
+    if verb_tags =~ /Vpi20s/
+# RULE: 19 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
+    end
     end
     end
     end
 # before rule 20 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 20
 # RULE: 20 DEPTH:1 CONDITION:1
-    if verb_part =~ /ás$/
+    if verb_part =~ /fái$/
 # RULE: 20 DEPTH:2 CONDITION:1
-    if verb_part !~ /^dás$/
+    if verb_tags =~ /V0m20s|Vpi30p/
 # RULE: 20 DEPTH:3 CONDITION:1
-    if verb_tags =~ /Vpi20s/
-# RULE: 20 DEPTH:4 CONDITION:1
     if syllable_count(enclitic_part) == 1
       result = [false, nil, nil, nil]
       return result
-    end
     end
     end
     end
 # before rule 21 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
 # RULE: 21
 # RULE: 21 DEPTH:1 CONDITION:1
-    if verb_part =~ /fái$/
-# RULE: 21 DEPTH:2 CONDITION:1
-    if verb_tags =~ /V0m20s|Vpi30p/
-# RULE: 21 DEPTH:3 CONDITION:1
-    if syllable_count(enclitic_part) == 1
-      result = [false, nil, nil, nil]
-      return result
-    end
-    end
-    end
-# before rule 22 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 22
-# RULE: 22 DEPTH:1 CONDITION:1
     if verb_part =~ /ei$|éi$|eu$|éu$|ou$|óu$|iu$|íu$|ai$|ái$|oi$|ói$/
       check_default = false
-# RULE: 22 DEPTH:2 CONDITION:1
+# RULE: 21 DEPTH:2 CONDITION:1
     if enclitic_part =~ /^o|^os|^a|^as|^la|^las|^lo|^los|^-lo|^-la|^-los|^-las/
       result = [false, nil, nil, nil]
       return result
     end
     end
-# before rule 23 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 23
-# RULE: 23 DEPTH:1 CONDITION:1
+# before rule 22 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 22
+# RULE: 22 DEPTH:1 CONDITION:1
     if verb_tags =~ /V0f10s|V0f30s|Vfs10s|Vfs30s|Vfsa0s|V0f000|..[^m]2.s|..[^m]2.p|...1.p/
-# RULE: 23 DEPTH:2 CONDITION:1
+# RULE: 22 DEPTH:2 CONDITION:1
     if verb_part =~ /s$|r$/
       check_default = false
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^o|^os|^a|^as|^lo|^la|^los|^las|^-lo|^-la|^-los|^-las/
       result = [false, nil, nil, nil]
       return result
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:2
+# RULE: 22 DEPTH:2 CONDITION:2
     if verb_part =~ /s$|r$/
       check_default = false
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^no$|^na$|^nas$/
       result = [false, nil, nil, nil]
       return result
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:3
+# RULE: 22 DEPTH:2 CONDITION:3
     if verb_part =~ /s$/
       check_default = false
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if verb_tags =~ /...1.p/
-# RULE: 23 DEPTH:4 CONDITION:1
+# RULE: 22 DEPTH:4 CONDITION:1
     if enclitic_part =~ /^me|^mo|^mos|^ma|^mas|^no|^na|^nos|^nas/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -607,12 +588,12 @@ class EncliticsProcessor
     end
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:4
+# RULE: 22 DEPTH:2 CONDITION:4
     if verb_part =~ /s$|r$/
       check_default = false
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if verb_tags =~ /...2.p/
-# RULE: 23 DEPTH:4 CONDITION:1
+# RULE: 22 DEPTH:4 CONDITION:1
     if enclitic_part =~ /^te|^che|^cho|^cha|^chos|^chas/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -633,9 +614,9 @@ class EncliticsProcessor
     end
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:5
+# RULE: 22 DEPTH:2 CONDITION:5
     if verb_part !~ /s$/ and verb_part !~ /r$/
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^nos/
       check_default = false
     if verb_tags != nil
@@ -656,18 +637,18 @@ class EncliticsProcessor
     end
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:6
+# RULE: 22 DEPTH:2 CONDITION:6
     if verb_part !~ /s$/ and verb_part !~ /r$/
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^no$/
       check_default = false
       result = [false, nil, nil, nil]
       return result
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:7
+# RULE: 22 DEPTH:2 CONDITION:7
     if verb_part !~ /s$/ and verb_part !~ /r$/
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^no.$/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -687,9 +668,9 @@ class EncliticsProcessor
     end
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:8
+# RULE: 22 DEPTH:2 CONDITION:8
     if verb_part !~ /s$/ and verb_part !~ /r$/
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^-lo|^-la|^-los|^-las|^lo|^la|^los|^las/
       check_default = false
     if verb_tags != nil
@@ -710,9 +691,9 @@ class EncliticsProcessor
     end
     end
     end
-# RULE: 23 DEPTH:2 CONDITION:9
+# RULE: 22 DEPTH:2 CONDITION:9
     if verb_part !~ /s$/ and verb_part !~ /r$/
-# RULE: 23 DEPTH:3 CONDITION:1
+# RULE: 22 DEPTH:3 CONDITION:1
     if enclitic_part !~ /^-lo/ and enclitic_part !~ /^-la/ and enclitic_part !~ /^lo/ and enclitic_part !~ /^la/ and enclitic_part !~ /^-los/ and enclitic_part !~ /^-las/ and enclitic_part !~ /^los/ and enclitic_part !~ /^las/ and enclitic_part !~ /^nos/ and enclitic_part !~ /^no/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -733,9 +714,9 @@ class EncliticsProcessor
     end
     end
     end
-# before rule 24 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 24
-# RULE: 24 DEPTH:1 CONDITION:1
+# before rule 23 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 23
+# RULE: 23 DEPTH:1 CONDITION:1
     if enclitic_part =~ /^se/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -754,34 +735,34 @@ class EncliticsProcessor
       end
     end
     end
-# before rule 25 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 25
-# RULE: 25 DEPTH:1 CONDITION:1
+# before rule 24 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 24
+# RULE: 24 DEPTH:1 CONDITION:1
     if verb_part =~ /se$/
-# RULE: 25 DEPTH:2 CONDITION:1
+# RULE: 24 DEPTH:2 CONDITION:1
     if verb_tags =~ /Ves30s/
-# RULE: 25 DEPTH:3 CONDITION:1
+# RULE: 24 DEPTH:3 CONDITION:1
     if enclitic_part =~ /^se/
       result = [false, nil, nil, nil]
       return result
     end
     end
     end
-# before rule 26 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 26
-# RULE: 26 DEPTH:1 CONDITION:1
+# before rule 25 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 25
+# RULE: 25 DEPTH:1 CONDITION:1
     if verb_part =~ /^es$/
-# RULE: 26 DEPTH:2 CONDITION:1
+# RULE: 25 DEPTH:2 CONDITION:1
     if enclitic_part =~ /^te$/
       result = [false, nil, nil, nil]
       return result
     end
     end
-# before rule 27 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 27
-# RULE: 27 DEPTH:1 CONDITION:1
+# before rule 26 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 26
+# RULE: 26 DEPTH:1 CONDITION:1
     if verb_tags =~ /...2.s/
-# RULE: 27 DEPTH:2 CONDITION:1
+# RULE: 26 DEPTH:2 CONDITION:1
     if enclitic_part =~ /^vo|^vos/
     if verb_tags != nil
       verb_tags_array = verb_tags.split(/ /)
@@ -801,27 +782,27 @@ class EncliticsProcessor
     end
     end
     end
-# before rule 28 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-# RULE: 28
-# RULE: 28 DEPTH:1 CONDITION:1
+# before rule 27 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+# RULE: 27
+# RULE: 27 DEPTH:1 CONDITION:1
     if verb_tags =~ /Vei20s/
-# RULE: 28 DEPTH:2 CONDITION:1
+# RULE: 27 DEPTH:2 CONDITION:1
     if enclitic_part =~ /^che|^ches|^cha|^chas|^cho|^chos/
       result = [false, nil, nil, nil]
       return result
     end
     end
-# before default rule 29 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
-#    DEFAULT RULE: 29
+# before default rule 28 verb_part:#{verb_part}, verb_tags:#{verb_tags}, enclitic_part:#{enclitic_part}
+#    DEFAULT RULE: 28
     if check_default
-# RULE: 29 DEPTH:1 CONDITION:1
+# RULE: 28 DEPTH:1 CONDITION:1
     if verb_part =~ /á$|a$|e$|é$|i$|í$|o$|ó$|u$|ú$|n$/
-# RULE: 29 DEPTH:2 CONDITION:1
+# RULE: 28 DEPTH:2 CONDITION:1
     if enclitic_part =~ /^lo|^la|^las|^los|^-lo|^-la|^-los|^-las|^na|^nas/
       result = [false, nil, nil, nil]
       return result
     end
-# RULE: 29 DEPTH:2 CONDITION:2
+# RULE: 28 DEPTH:2 CONDITION:2
     if enclitic_part =~ /no$/
       result = [false, nil, nil, nil]
       return result
