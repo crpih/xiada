@@ -56,7 +56,7 @@ class Viterbi
           if tag.lemmas.keys.empty?
             print "\t*"
           else
-            print "\t#{tag.lemmas.keys[0]}"
+            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys]}"
           end
           puts ""
         end
