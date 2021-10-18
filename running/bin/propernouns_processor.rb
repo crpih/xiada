@@ -249,6 +249,17 @@ class ProperNounsProcessor
     #STDERR.puts "joining standard proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+    # if the token is in uppercase in the lexicon, we add the other tags too.
+    results = @dw.get_tags_lemmas_emissions(token.text, nil)
+    results.each do |result|
+      tag_value = result[0]
+      lemma = result[1]
+      hiperlemma = result[2]
+      #STDERR.puts "tag_value:#{tag_value}, lemma:#{lemma}, hiperlemma:#{hiperlemma}"
+      log_b = Float(result[3])
+      #STDERR.puts "log_b:#{log_b}"
+      token.add_tag_lemma_emission(tag_value, lemma, hiperlemma, 0.0, false)
+    end
     #STDERR.puts "candidate tags: #{@candidate_tags}"
     return token
   end
