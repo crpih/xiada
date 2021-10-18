@@ -723,9 +723,11 @@ class Sentence
       token = token.next
     end
     #STDERR.puts "first token: #{token.text}"
+    #if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
+    #  (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil) and
+    #  !first_words_in_lexicon))
     if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
-      (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil) and
-      !first_words_in_lexicon))
+      (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
       token.replace_text(StringUtils.first_to_lower(token.text)) 
     end
     #STDERR.puts "first token after first_to_lower: #{token.text}"
