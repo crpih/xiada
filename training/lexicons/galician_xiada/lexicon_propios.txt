@@ -1103,6 +1103,7 @@ Esteban Beltrán	Spm0	Esteban Beltrán
 Estefanía	Spf0	Estefanía
 Esteiro	Sp00	Esteiro
 Ester	Spf0	Ester
+Estévez	Sp00	Estévez
 Estevo	Spm0	Estevo
 Esther	Spf0	Esther
 Esther Arcas	Spf0	Esther Arcas
@@ -1149,6 +1150,7 @@ F-15E	Sp00	F-15E
 F-16	Spms	F-16
 FIA-Pontevedra	Sp00	FIA-Pontevedra
 Fabiano	Spm0	Fabiano
+Facebook	Sp00	Facebook
 Facenda	Sp00	Facenda
 Facenda	Spfs	Facenda
 Facultade de Ciencias Económicas e Empresariais	Spfs	Facultade de Ciencias Económicas e Empresariais
@@ -1364,6 +1366,7 @@ Gonzalo Uriarte	Spm0	Gonzalo Uriarte
 González	Sp00	González
 González Manchón	Sp00	González Manchón
 González Sobral	Sp00	González Sobral
+Google	Sp00	Google
 Goran Aleksic	Spm0	Goran Aleksic
 Gordon Brown	Spm0	Gordon Brown
 Gore	Sp00	Gore
@@ -1568,6 +1571,7 @@ Jaime Mayor Oreja	Spm0	Jaime Mayor Oreja
 James Fox	Spm0	James Fox
 Jamie Shea	Spm0	Jamie Shea
 Jarcujak	Sp00	Jarcujak
+Javier	Spm0	Javier
 Javier Arenas	Spm0	Javier Arenas
 Javier Balza	Spm0	Javier Balza
 Javier Barreiro	Spm0	Javier Barreiro
@@ -1622,6 +1626,7 @@ Josep	Spm0	Josep
 Josep Borrell	Spm0	Josep Borrell
 Josep Piqué	Spm0	Josep Piqué
 Joseph Losey	Spm0	Joseph Losey
+José	Spm0	José
 José Alberto Piñeiro	Spm0	José Alberto Piñeiro
 José Antonio Ardanza	Spm0	José Antonio Ardanza
 José Antonio Farto	Spm0	José Antonio Farto
@@ -1949,6 +1954,7 @@ Martín Llamas Nistal	Spm0	Martín Llamas Nistal
 Martín Torrijos	Spm0	Martín Torrijos
 Martínez	Sp00	Martínez
 Martínez Sánchez	Sp00	Martínez Sánchez
+Maruja	Spf0	Maruja
 Maruxa	Spf0	Maruxa
 Mary Robinson	Spf0	Mary Robinson
 María	Spf0	María
