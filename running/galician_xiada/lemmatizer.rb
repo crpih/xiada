@@ -469,6 +469,7 @@ module LemmatizerGalicianXiada
 
   # Function to tranform the word part when restoring a verb form with enclitics.
   def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
+    #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
     # gh treatment
     if original_left_part =~ /gh/
       new_left_part = left_part.gsub(/g/,'gh')
@@ -476,10 +477,10 @@ module LemmatizerGalicianXiada
     # auto treatment
     elsif original_left_part =~/^autor/
       new_left_part = left_part.gsub(/^(.)/,'autor\1')
-      return new_left_part
+      return new_left_part unless new_left_part =~ /^autoauto/
     elsif original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part
+      return new_left_part unless new_left_part =~ /^autoauto/
     end
     left_part
   end
@@ -488,7 +489,7 @@ module LemmatizerGalicianXiada
   def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
     if original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part
+      return new_left_part unless new_left_part =~ /^autoauto/
     end
     left_part
   end
@@ -497,7 +498,7 @@ module LemmatizerGalicianXiada
   def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
     if original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part
+      return new_left_part  unless new_left_part =~ /^autoauto/
     end
     left_part
   end
