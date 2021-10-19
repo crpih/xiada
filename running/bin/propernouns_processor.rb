@@ -153,8 +153,8 @@ class ProperNounsProcessor
       if token.token_type == :standard
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
-            StringUtils.propers_joined?(token.text)) and !token.tagged?
-          # STDERR.puts "inside"
+            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
+          #STDERR.puts "inside"
           # Beginning of a standard proper noun
           last_token = find_last_token(token)
           unless last_token == nil
@@ -178,7 +178,7 @@ class ProperNounsProcessor
     last_token = token
     token = token.next
     while token.token_type == :standard
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)
+      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.valid_upper_and_lower?(token.text)
         last_token = token
         token = token.next
       elsif link?(token.text)
@@ -248,9 +248,11 @@ class ProperNounsProcessor
   def join_standard_proper_noun(from, to)
     #STDERR.puts "joining standard proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
+    #STDERR.puts "token.text: #{token.text}"
     token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
     # if the token is in uppercase in the lexicon, we add the other tags too.
-    results = @dw.get_tags_lemmas_emissions(token.text, nil)
+    results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
+    #STDERR.puts "results:#{results}"
     results.each do |result|
       tag_value = result[0]
       lemma = result[1]
@@ -382,10 +384,11 @@ class ProperNounsProcessor
   end
 
   def join_lexicon_proper_noun(from, to)
-    #puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
+    STDERR.puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     # results = @dw.get_tags_lemmas_emissions(token.text, @candidate_tags)
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
+    STDERR.puts "results: #{results}"
     if results.empty?
       results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|

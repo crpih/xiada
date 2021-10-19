@@ -69,6 +69,14 @@ class StringUtils
     end
   end
 
+  def self.valid_upper_and_lower?(str)
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕa-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]+[a-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]\+?$/
+      return true
+    else
+      return false
+    end
+  end
+
   def self.propers_joined?(str)
     if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]+[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Barcelona-Tarragona
