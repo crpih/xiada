@@ -1661,3 +1661,254 @@ visto e prace	Scms	visto e prace	visto e prace
 Vitis vinifera	Snaa	Vitis vinifera	Vitis vinifera
 Zea mays	Snaa	Zea mays	Zea mays
 Zeus Faber	Snaa	Zeus Faber	Zeus faber
+AA. EE.	Za00	AA. EE.	
+AA. PP.	Za00	AA. PP.	
+AA. VV.	Za00	AA. VV.	
+ab init.	Za00	ab init.	
+a. C.	Za00	a. C.	
+A. C.	Za00	A. C.	
+a. de C.	Za00	a. de C.	
+a. de X. C.	Za00	a. de X. C.	
+ad init.	Za00	ad init.	
+adv. l.	Za00	adv. l.	
+adv. m.	Za00	adv. m.	
+adv. t.	Za00	adv. t.	
+A. D.	Za00	A. D.	
+A. M. D. G.	Za00	A. M. D. G.	
+a. m.	Za00	a. m.	
+art. cit.	Za00	art. cit.	
+art. det.	Za00	art. det.	
+art. indet.	Za00	art. indet.	
+A. R.	Za00	A. R.	
+A. T.	Za00	A. T.	
+a. X. C.	Za00	a. X. C.	
+b. o.	Za00	b. o.	
+C. A.	Za00	C. A.	
+C. A.	Zafs	C. A.	
+CC. AA.	Zafp	C. A.	
+CC. LL.	Za00	CC. LL.	
+CC. LL.	Zafp	C. L.	
+CC. MM.	Za00	CC. MM.	
+CC. OO.	Za00	CC. OO.	
+C. F.	Za00	C. F.	
+C. L.	Zafs	C. L.	
+conx. adv.	Za00	conx. adv.	
+conx. cond.	Za00	conx. cond.	
+conx. cop.	Za00	conx. cop.	
+conx. disx.	Za00	conx. disx.	
+conx. il.	Za00	conx. il.	
+C. P.	Za00	C. P.	
+d. C.	Za00	d. C.	
+d. de C.	Za00	d. de C.	
+d. de X. C.	Za00	d. de X. C.	
+d. e. p.	Za00	d. e. p.	
+D. E. P.	Za00	D. E. P.	
+D. F.	Za00	D. F.	
+D. L.	Za00	D. L.	
+D. m.	Za00	D. m.	
+D. N. I.	Za00	D. N. I.	
+D. P.	Za00	D. P.	
+d. X. C.	Za00	d. X. C.	
+D. X.	Za00	D. X.	
+ead. pag.	Za00	ead. pag.	
+E. C.	Za00	E. C.	
+ed. ampl.	Za00	ed. ampl.	
+ed. aum.	Za00	ed. aum.	
+ed. cit.	Za00	ed. cit.	
+ed. corr.	Za00	ed. corr.	
+ed. crít.	Za00	ed. crít.	
+ed. dipl.	Za00	ed. dipl.	
+ed. facs.	Za00	ed. facs.	
+ed. lit.	Za00	ed. lit.	
+ed. orix.	Za00	ed. orix.	
+ed. pal.	Za00	ed. pal.	
+ed. prínc.	Za00	ed. prínc.	
+ed. rev.	Za00	ed. rev.	
+EE. LL.	Zafp	E. L.	
+EE. RR.	Zafp	E. R.	
+EE. UU.	Za00	EE. UU.	
+e. g. e.	Za00	e. g. e.	
+e. g.	Za00	e. g.	
+e. l.	Za00	e. l.	
+E. L.	Zafs	E. L.	
+Emcia. Revma.	Zafs	Emcia. Revma.	
+Emma. Sra.	Zafs	Emmo. Sr.	
+Emmo. Sr.	Zams	Emmo. Sr.	
+E. M.	Za00	E. M.	
+e. p. d.	Za00	e. p. d.	
+E. P D.	Za00	E. P D.	
+e. p. m.	Za00	e. p. m.	
+E. P. M.	Za00	E. P. M.	
+E. R.	Zafs	E. R.	
+et al.	Za00	et al.	
+et seq.	Za00	et seq.	
+Excma. Sra.	Zafs	Excmo. Sr.	
+Excmo. Sr.	Zams	Excmo. Sr.	
+F. C.	Zams	F. C.	
+FF. AA.	Za00	FF. AA.	
+FF. CC.	Zamp	F. C.	
+FF. NN.	Za00	FF. NN.	
+f. f.	Za00	f. f.	
+Fís. Atóm.	Za00	Fís. Atóm.	
+Fisiol. Anim.	Za00	Fisiol. Anim.	
+Fisiol. Vex.	Za00	Fisiol. Vex.	
+Fís. Quím.	Za00	Fís. Quím.	
+F. P.	Za00	F. P.	
+fut. pret.	Za00	fut. pret.	
+f. v.	Za00	f. v.	
+h. e.	Za00	h. e.	
+i. e.	Za00	i. e.	
+Ilma. Sra.	Zafs	Ilmo. Sr.	
+Ilmo. Sr.	Zams	Ilmo. Sr.	
+inf. conx.	Za00	inf. conx.	
+i. q.	Za00	i. q.	
+k. o.	Za00	k. o.	
+K. O.	Za00	K. O.	
+l. cl.	Za00	l. cl.	
+l. c.	Za00	l. c.	
+loc. adv.	Za00	loc. adv.	
+loc. adx.	Za00	loc. adx.	
+loc. cit.	Za00	loc. cit.	
+loc. conx.	Za00	loc. conx.	
+loc. lat.	Za00	loc. lat.	
+loc. prep.	Za00	loc. prep.	
+loc. s.	Za00	loc. s.	
+l. vg.	Za00	l. vg.	
+M. I. Sra.	Zafs	M. I. Sr.	
+M. I. Sr.	Zams	M. I. Sr.	
+m. n.	Za00	m. n.	
+N.ª S.ª	Zafs	N. S.	
+N. B.	Za00	N. B.	
+n. c.	Za00	n. c.	
+N. da R.	Za00	N. da R.	
+N. do A.	Za00	N. do A.	
+N. do C.	Za00	N. do C.	
+N. do E.	Za00	N. do E.	
+N. do T.	Za00	N. do T.	
+n. p.	Za00	n. p.	
+N. S.	Za00	N. S.	
+N. T.	Za00	N. T.	
+num. card.	Za00	num. card.	
+num. ord.	Za00	num. ord.	
+ob. cit.	Za00	ob. cit.	
+o. cit.	Za00	o. cit.	
+o. c.	Za00	o. c.	
+O. C.	Za00	O. C.	
+o.c.	Za00	o.c.	o. c.
+O. M.	Zafs	O. M.	
+OO. AA. AA.	Za00	OO. AA. AA.	
+OO. AA.CC.	Za00	OO. AA.CC.	
+OO. AA.	Za00	OO. AA.	
+OO. MM.	Zafp	O. M.	
+OO. PP.	Za00	OO. PP.	
+op. cit.	Za00	op. cit.	op. cit.
+Op. cit.	Za00	op. cit.	op. cit.
+o. p.	Za00	o. p.	
+p. a.	Za00	p. a.	
+P. A.	Za00	P. A.	
+P. B.	Za00	P. B.	
+P. D.	Za00	P. D.	
+p. ext.	Za00	p. ext.	
+p. ex.	Za00	p. ex.	
+p. e.	Za00	p. e.	
+p.e.	Za00	p.e.	p. ex.
+P. M. A.	Za00	P. M. A.	
+p. m.	Za00	p. m.	
+P. M.	Za00	P. M.	
+P. N.	Za00	P. N.	
+por ext.	Za00	por ext.	
+p. o.	Za00	p. o.	
+P. O.	Za00	P. O.	
+p. p.	Za00	p. p.	
+P. P.	Za00	P. P.	
+pron. át.	Za00	pron. át.	
+pron. pers.	Za00	pron. pers.	
+pron. pos.	Za00	pron. pos.	
+pron. rel.	Za00	pron. rel.	
+pron. tón.	Za00	pron. tón.	
+P. S.	Za00	P. S.	
+p. u.	Za00	p. u.	
+P. V. P.	Za00	P. V. P.	
+q. b. s. m.	Za00	q. b. s. m.	
+q. b. s. p.	Za00	q. b. s. p.	
+q. D. g.	Za00	q. D. g.	
+Q. D. G.	Za00	Q. D. G.	
+q. e. g. e.	Za00	q. e. g. e.	
+q. e. p. d.	Za00	q. e. p. d.	
+q. s. g. h.	Za00	q. s. g. h.	
+Quím. Anal.	Za00	Quím. Anal.	
+Quím. Fís.	Za00	Quím. Fís.	
+Quím. Inorg.	Za00	Quím. Inorg.	
+Quím. Org.	Za00	Quím. Org.	
+q. v.	Za00	q. v.	
+R. C.	Za00	R. C.	
+R. D. L.	Za00	R. D. L.	
+R. D.	Zams	R. D.	
+r. i. p.	Za00	r. i. p.	
+R. I. P.	Za00	R. I. P.	
+R. O.	Zafs	R. O.	
+r. p. m.	Za00	r. p. m.	
+RR. DD.	Zamp	R. D.	
+RR. OO.	Zafp	R. O.	
+S. A. I.	Za00	S. A. I.	
+S. A. R.	Za00	S. A. R.	
+S. A. S.	Za00	S. A. S.	
+s. a.	Za00	s. a.	
+S. A.	Za00	S. A.	
+sdade. ltda.	Zafs	sdade. ltda.	
+S. D. M.	Za00	S. D. M.	
+s. d.	Za00	s. d.	
+S. en C.	Za00	S. en C.	
+s. e. o. o.	Za00	s. e. o. o.	
+s. e.	Za00	s. e.	
+S. E.	Za00	S. E.	
+s. l. e. a.	Za00	s. l. e. a.	
+s. l. n. a.	Za00	s. l. n. a.	
+s. l.	Za00	s. l.	
+S. L.	Za00	S. L.	
+S. M. I.	Za00	S. M. I.	
+S. M.	Za00	S. M.	
+s. n.	Za00	s. n.	
+S. N.	Za00	S. N.	
+S. P.	Za00	S. P.	
+S. R. M.	Za00	S. R. M.	
+SS. AA.	Zafp	S. A.	
+SS. EE.	Zafp	S. E.	
+SS. MM.	Zafp	S. M.	
+s. s.	Za00	s. s.	
+S. S.	Za00	S. S.	
+s. v.	Za00	s. v.	
+T. C.	Za00	T. C.	
+tít. orix.	Za00	tít. orix.	
+T. S.	Za00	T. S.	
+tte. cor.	Za00	tte. cor.	
+UU. AA.	Za00	UU. AA.	
+V. A. R.	Za00	V. A. R.	
+v. a.	Za00	v. a.	
+V. A.	Za00	V. A.	
+V. B.	Za00	V. B.	
+v. e pr.	Za00	v. e pr.	
+V. e Pr.	Za00	V. e Pr.	
+V. E.	Zafs	V. E.	
+v. gr.	Za00	v. gr.	
+v. g.	Za00	v. g.	
+v. i.	Za00	v. i.	
+V. I.	Za00	V. I.	
+V. M.	Zafs	V. M.	
+v. o. s.	Za00	v. o. s.	
+V. O. S.	Za00	V. O. S.	
+v. o.	Za00	v. o.	
+V. O.	Za00	V. O.	
+v. p.	Za00	v. p.	
+V. S. I.	Za00	V. S. I.	
+v. s.	Za00	v. s.	
+V. S.	Za00	V. S.	
+v. t.	Za00	v. t.	
+VV. AA.	Za00	VV. AA.	
+VV. AA.	Zafp	V. A.	
+VV. EE.	Zafp	V. E.	
+VV. MM.	Zafp	V. M.	
+W. C.	Za00	W. C.	
+X. C.	Za00	X. C.	
+x. p.	Za00	x. p.	
+XX. AA.	Za00	XX. AA.	
