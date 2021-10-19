@@ -176,7 +176,7 @@ class DatabaseWrapper
     if result == nil
       return false
     else
-      result == 't' ? true : false
+      result == 1 ? true : false
     end
   end
 
