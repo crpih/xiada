@@ -2298,6 +2298,9 @@ CC OO	Zg00	CC OO
 CC. OO.	Zg00	CC. OO.
 CC.OO.	Zg00	CC.OO.
 CCOO	Zg00	CCOO	
+C. C.  . O. O.	Zg00	C. C.  . O. O.	CC. OO.
+C.C. .O.O.	Zg00	C.C. .O.O.	CC. OO.
+CC OO	Zg00	CC OO	CC. OO.
 CC OO	Zgfp	CC OO
 CC. OO.	Zgfp	CC. OO.
 CC.OO.	Zgfp	CC.OO.
@@ -4892,6 +4895,9 @@ EET	Zgfs	EET
 EE UU	Zg00	EE UU
 EE. UU.	Zg00	EE. UU.
 EE.UU.	Zg00	EE.UU.
+E. E.  . U. U.	Zg00	E. E.  . U. U.	EE. UU.
+E.E. .U.U.	Zg00	E.E. .U.U.	EE. UU.
+EE UU	Zg00	EE UU	EE. UU.
 EEUU	Zg00	EEUU	EE UU
 E. E.	Zg00	E. E.	
 E.E.	Zg00	E.E.	

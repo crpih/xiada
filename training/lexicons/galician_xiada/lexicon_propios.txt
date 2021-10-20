@@ -52,6 +52,7 @@ Acuicultura	Sp00	Acuicultura
 Ada	Spf0	Ada
 Adalberto	Spm0	Adalberto
 Adams	Sp00	Adams
+Adán	Spm0	Adán
 Adela	Spf0	Adela
 Adelaida	Spf0	Adelaida
 Ademar	Spm0	Ademar
@@ -66,9 +67,9 @@ Adolfo	Spm0	Adolfo
 Adoración	Spf0	Adoración
 Adriana	Spf0	Adriana
 Adriático	Spms	Adriático
-Adán	Spm0	Adán
 Aena	Sp00	Aena
 Afonso	Spm0	Afonso
+África	Sp00	África
 Agamfec	Sp00	Agamfec
 Agamfec	Spfs	Agamfec
 Agani	Sp00	Agani
@@ -80,13 +81,17 @@ Agricultura	Sp00	Agricultura
 Agricultura e Pesca	Sp00	Agricultura e Pesca
 Agroinvés	Sp00	Agroinvés
 Agrupación Astronómica de Madrid	Spfs	Agrupación Astronómica de Madrid
+Águeda	Spf0	Águeda
 Aguiar	Sp00	Aguiar
+Águila	Sp00	Águila
 Agus	Spf0	Agus
-Agustina	Spf0	Agustina
 Agustín	Spm0	Agustín
+Agustina	Spf0	Agustina
 Ahtisaari	Sp00	Ahtisaari
 Air Europa	Sp00	Air Europa
 Airbus	Sp00	Airbus
+Âkil	Sp00	Âkil
+Álava	Sp00	Álava
 Albacete	Sp00	Albacete
 Albania	Sp00	Albania
 Albert Gore	Spm0	Albert Gore
@@ -102,15 +107,17 @@ Alcaldía de Bilbao	Spfs	Alcaldía de Bilbao
 Alcaldía de Santiago de Compostela	Spfs	Alcaldía de Santiago de Compostela
 Alcaldía de Vigo	Spfs	Alcaldía de Vigo
 Alcaldía de Vitoria	Spfs	Alcaldía de Vitoria
+Alcàsser	Sp00	Alcàsser
 Alcibíades	Spm0	Alcibíades
 Alcoa	Sp00	Alcoa
 Alcoa Inespal	Sp00	Alcoa Inespal
+Alcobaça	Sp00	Alcobaça
 Aleixo	Spm0	Aleixo
 Alejandro Agag	Spm0	Alejandro Agag
 Alejandro Cercas	Spm0	Alejandro Cercas
 Alejo Vidal-Quadras	Spm0	Alejo Vidal-Quadras
-Alemania	Sp00	Alemania
 Alemaña	Sp00	Alemaña
+Alemania	Sp00	Alemania
 Alex	Spm0	Alex
 Alexandr Kotenkov	Spm0	Alexandr Kotenkov
 Alexandra	Spf0	Alexandra
@@ -148,11 +155,13 @@ Altavista Magallanes	Sp00	Altavista Magallanes
 Alternativa de os Veciños	Sp00	Alternativa de os Veciños
 Alto Comisionado de a ONU para os refuxiados	Spms	Alto Comisionado de a ONU para os refuxiados
 Alto Comisionado de as Nacións Unidas para os Refuxiados	Spms	Alto Comisionado de as Nacións Unidas para os Refuxiados
+Alúmina Aluminio	Sp00	Alúmina Aluminio
 Aluminum Company of America	Sp00	Aluminum Company of America
+Álvarez	Sp00	Álvarez
+Álvaro	Spm0	Álvaro
 Alvedro	Sp00	Alvedro
 Alvedro-El Prat	Sp00	Alvedro-El Prat
 Alxeria	Sp00	Alxeria
-Alúmina Aluminio	Sp00	Alúmina Aluminio
 Amador	Spm0	Amador
 Amalia	Spf0	Amalia
 Amancio	Spm0	Amancio
@@ -162,15 +171,15 @@ Amandi	Sp00	Amandi
 Amao	Spm0	Amao
 Amara	Spf0	Amara
 Amberes	Sp00	Amberes
+América	Sp00	América
+América Látina	Sp00	América Látina
 America Online	Sp00	America Online
+Américo	Spm0	Américo
 Ames	Sp00	Ames
 Amio	Sp00	Amio
 Amnesia	Sp00	Amnesia
 Amnistía Internacional	Sp00	Amnistía Internacional
 Amparo	Spf0	Amparo
-América	Sp00	América
-América Látina	Sp00	América Látina
-Américo	Spm0	Américo
 Ana	Spf0	Ana
 Ana Botella	Spf0	Ana Botella
 Ana Carril	Spf0	Ana Carril
@@ -183,21 +192,29 @@ Anastasio	Spm0	Anastasio
 Ancla de Oro	Spfs	Ancla de Oro
 Andalucía	Sp00	Andalucía
 Andreasen	Sp00	Andreasen
-Andrew Ramírez	Spm0	Andrew Ramírez
 Andrés	Spm0	Andrés
 Andrés Gaos	Spm0	Andrés Gaos
+Andrew Ramírez	Spm0	Andrew Ramírez
 Andrómeda	Sp00	Andrómeda
 Anestesia	Sp00	Anestesia
 Anfaco	Sp00	Anfaco
+Ángel Cameselle	Spm0	Ángel Cameselle
+Ángel López Romalde	Spm0	Ángel López Romalde
+Ángeles Campos	Spf0	Ángeles Campos
 Angels Barceló	Spf0	Angels Barceló
 Anguita	Sp00	Anguita
+Aníbal Otero	Spm0	Aníbal Otero
 Ano Internacional de os Maiores	Spms	Ano Internacional de os Maiores
 Ano Santo Compostelán	Spms	Ano Santo Compostelán
 Anselmo	Spm0	Anselmo
 Ansoney	Sp00	Ansoney
 Antealtares	Sp00	Antealtares
 Antena 3	Sp00	Antena 3
+Antígona	Spf0	Antígona
 Antoine Lahad	Spm0	Antoine Lahad
+Antón	Spm0	Antón
+Antón Louro	Spm0	Antón Louro
+Antón Pombo	Spm0	Antón Pombo
 Antona	Spf0	Antona
 Antonia	Spf0	Antonia
 Antonieta	Spf0	Antonieta
@@ -216,16 +233,12 @@ Antonio Merino	Spm0	Antonio Merino
 Antonio Moreno Barberá	Spm0	Antonio Moreno Barberá
 Antonio Romero	Spm0	Antonio Romero
 Antonio Vázquez	Spm0	Antonio Vázquez
-Antígona	Spf0	Antígona
-Antón	Spm0	Antón
-Antón Louro	Spm0	Antón Louro
-Antón Pombo	Spm0	Antón Pombo
 Anxa	Spf0	Anxa
+Ánxel	Spm0	Ánxel
 Anxo	Spm0	Anxo
 Anxo Guerreiro	Spm0	Anxo Guerreiro
 Anxo Louzao	Spm0	Anxo Louzao
 Anxos	Spf0	Anxos
-Aníbal Otero	Spm0	Aníbal Otero
 Aquilino	Spm0	Aquilino
 Aquitania	Sp00	Aquitania
 Arafat	Sp00	Arafat
@@ -233,6 +246,8 @@ Aragón	Sp00	Aragón
 Arana	Sp00	Arana
 Aranga	Sp00	Aranga
 Arcade	Sp00	Arcade
+Área Metropolitana	Spfs	Área Metropolitana
+Área de Inmunoloxía	Spfs	Área de Inmunoloxía
 Arenas	Sp00	Arenas
 Argentaria	Sp00	Argentaria
 Arias Salgado	Sp00	Arias Salgado
@@ -242,10 +257,11 @@ Arlecchino	Spm0	Arlecchino
 Arlequín	Spm0	Arlequín
 Armada	Spfs	Armada
 Armando	Spm0	Armando
+Arnáiz	Sp00	Arnáiz
 Arnaldo Otegi	Spm0	Arnaldo Otegui
 Arnaldo Otegui	Spm0	Arnaldo Otegui
 Arnulfo Arias	Spm0	Arnulfo Arias
-Arnáiz	Sp00	Arnáiz
+Arón	Spm0	Arón
 Arousa	Sp00	Arousa
 Arqueoloxía desde o aire	Sp00	Arqueoloxía desde o aire
 Arquitecto Marcide	Spms	Arquitecto Marcide
@@ -263,7 +279,6 @@ Artús	Spm0	Artús
 Arxentina	Sp00	Arxentina
 Arzalluz	Sp00	Arzalluz
 Arzúa-Melide	Sp00	Arzúa-Melide
-Arón	Spm0	Arón
 As Nogais	Sp00	As Nogais
 As Palmas	Sp00	As Palmas
 As Pontes	Sp00	As Pontes
@@ -290,6 +305,7 @@ Asociación de Pais de Alumnos	Spfs	Asociación de Pais de Alumnos
 Asociación de Telespectadores e Radioíntes	Spfs	Asociación de Telespectadores e Radioíntes
 Asociación de Xemelgos de Alfaro	Spfs	Asociación de Xemelgos de Alfaro
 Asorey	Sp00	Asorey
+Assunção	Spfs	Assunção
 Asturias	Sp00	Asturias
 Asunción	Spf0	Asunción
 Asuntos Exteriores	Sp00	Asuntos Exteriores
@@ -330,6 +346,7 @@ Autoridade Portuaria	Spfs	Autoridade Portuaria
 Autoservicios Familia	Sp00	Autoservicios Familia
 Avelino	Spm0	Avelino
 Aviaco	Sp00	Aviaco
+Ávila	Sp00	Ávila
 Avilés	Sp00	Avilés
 Avión	Sp00	Avión
 Axencia Municipal de Emprego	Spfs	Axencia Municipal de Emprego
@@ -354,6 +371,7 @@ Banco Central	Spms	Banco Central
 Bandeira Verde de Galicia 1999	Sp00	Bandeira Verde de Galicia 1999
 Barak	Sp00	Barak
 Baraxas	Sp00	Baraxas
+Bárbara	Spf0	Bárbara
 Barbie	Spf0	Barbie
 Barcala	Sp00	Barcala
 Barcelona	Sp00	Barcelona
@@ -377,6 +395,7 @@ Belas Artes	Sp00	Belas Artes
 Belgrado	Sp00	Belgrado
 Beliador	Spm0	Beliador
 Beltrán	Sp00	Beltrán
+Bélxica	Sp00	Bélxica
 Benavente	Sp00	Benavente
 Benedicto	Spm0	Benedicto
 Benigna	Spf0	Benigna
@@ -389,8 +408,10 @@ Berlín	Sp00	Berlín
 Bernal	Sp00	Bernal
 Bernaldo	Spm0	Bernaldo
 Bernardo	Spm0	Bernardo
+Berners-Lee	Sp00	Berners-Lee
 Berta	Spf0	Berta
 Berto	Spm0	Berto
+Bértola	Sp00	Bértola
 Bertomeu	Spm0	Bertomeu
 Beta	Sp00	Beta
 Betanzos	Sp00	Betanzos
@@ -419,8 +440,8 @@ Bogarde	Sp00	Bogarde
 Bogotá	Sp00	Bogotá
 Boiro	Sp00	Boiro
 Boletín de Caixa Galicia	Spms	Boletín de Caixa Galicia
-Bolonia	Sp00	Bolonia
 Boloña	Sp00	Boloña
+Bolonia	Sp00	Bolonia
 Bolsa	Sp00	Bolsa
 Bonaval	Sp00	Bonaval
 Bonn	Sp00	Bonn
@@ -428,16 +449,17 @@ Bono	Sp00	Bono
 Bonxe	Sp00	Bonxe
 Boris	Spm0	Boris
 Boris Eltsin	Spm0	Boris Eltsin
-Borja Semper	Spm0	Borja Semper
-Borrell	Sp00	Borrell
-Borrás	Sp00	Borrás
 Borís Eltsin	Spm0	Borís Eltsin
+Borja Semper	Spm0	Borja Semper
+Borrás	Sp00	Borrás
+Borrell	Sp00	Borrell
 Bos Aires	Sp00	Bos Aires
 Bosko Jankovic	Spm0	Bosko Jankovic
 Bosnia	Sp00	Bosnia
 Bosnia Herzogovina	Sp00	Bosnia Herzogovina
 Bosnia-Herzegovina	Sp00	Bosnia-Herzegovina
 Boston	Sp00	Boston
+Bóveda	Sp00	Bóveda
 Bradford	Sp00	Bradford
 Brandariz	Sp00	Brandariz
 Brasil	Sp00	Brasil
@@ -450,9 +472,9 @@ Bretaña	Sp00	Bretaña
 Brick Lane	Sp00	Brick Lane
 Briga	Spf0	Briga
 Brigitte	Spf0	Brigitte
+Brión	Sp00	Brión
 Bristol	Sp00	Bristol
 Brixton	Sp00	Brixton
-Brión	Sp00	Brión
 Brock van der Bogaerde	Spm0	Brock van der Bogaerde
 Bruxelas	Sp00	Bruxelas
 Bryan Yuzne	Spm0	Bryan Yuzne
@@ -461,15 +483,11 @@ Buckingham Palace	Spms	Buckingham Palace
 Budapest	Sp00	Budapest
 Bueu	Sp00	Bueu
 Bulgaria	Sp00	Bulgaria
+Buño	Sp00	Buño
 Burela	Sp00	Burela
 Burgo de as Nacións	Spfs	Burgo de as Nacións
 Burgos	Sp00	Burgos
 Butaca Especial	Sp00	Butaca Especial
-Buño	Sp00	Buño
-Bárbara	Spf0	Bárbara
-Bélxica	Sp00	Bélxica
-Bértola	Sp00	Bértola
-Bóveda	Sp00	Bóveda
 CIG-Ensino	Sp00	CIG-Ensino
 CIG-Ensino	Spfs	CIG-Ensino
 CV 1D Cumial-Salgueiros	Sp00	CV 1D Cumial-Salgueiros
@@ -478,6 +496,9 @@ Cabezas	Sp00	Cabezas
 Cabo de o Mundo	Sp00	Cabo de o Mundo
 Cabo de o mundo	Sp00	Cabo de o mundo
 Cacak	Sp00	Cacak
+Cáceres	Sp00	Cáceres
+Cáchira	Sp00	Cáchira
+Cádiz	Sp00	Cádiz
 Caixa Galicia	Sp00	Caixa Galicia
 Caixa Ourense	Sp00	Caixa Ourense
 Caixa Pontevedra	Sp00	Caixa Pontevedra
@@ -486,6 +507,15 @@ Caixa de Pontevedra	Sp00	Caixa de Pontevedra
 Caixavigo	Sp00	Caixavigo
 Caixavigo , Ourense e Pontevedra	Sp00	Caixavigo , Ourense e Pontevedra
 California	Sp00	California
+Cámara	Spfs	Cámara
+Cámara Baixa	Spfs	Cámara Baixa
+Cámara de Comercio	Spfs	Cámara de Comercio
+Cámara de Comercio , Industria e Navegación de Santiago	Spfs	Cámara de Comercio , Industria e Navegación de Santiago
+Cámara de Comercio de Pontevedra	Spfs	Cámara de Comercio de Pontevedra
+Cámara de Comercio de Santiago	Spfs	Cámara de Comercio de Santiago
+Cámara de Comercio de a Coruña	Spfs	Cámara de Comercio de a Coruña
+Cámara de Deputados	Spfs	Cámara de Deputados
+Cámaras de Comercio	Spfp	Cámaras de Comercio
 Camariñas	Sp00	Camariñas
 Cambados	Sp00	Cambados
 Cambre	Sp00	Cambre
@@ -494,14 +524,15 @@ Camila	Spf0	Camila
 Camilo	Spm0	Camilo
 Camilo Nogueira	Spm0	Camilo Nogueira
 Camilo Veiras Candal	Spm0	Camilo Veiras Candal
-Camino Noia	Spf0	Camino Noia
 Camiño Francés	Spms	Camiño Francés
+Camino Noia	Spf0	Camino Noia
 Camiño de Santiago	Spms	Camiño de Santiago
 Camiño de Santiago de Compostela	Spms	Camiño de Santiago de Compostela
 Campaña Verán-99	Sp00	Campaña Verán-99
 Campos	Sp00	Campos
 Campsa	Sp00	Campsa
 Canadá	Sp00	Canadá
+Cánada	Sp00	Cánada
 Canal BBV	Sp00	Canal BBV
 Canal Satélite	Sp00	Canal Satélite
 Canal Satélite Digital	Sp00	Canal Satélite Digital
@@ -509,6 +540,9 @@ Canarias	Sp00	Canarias
 Canarias	Spfp	Canarias
 Canavaggio	Sp00	Canavaggio
 Candeloria	Spf0	Candeloria
+Cándida	Spf0	Cándida
+Cándido	Spm0	Cándido
+Cándido Méndez	Spm0	Cándido Méndez
 Cangas	Sp00	Cangas
 Cantabria	Sp00	Cantabria
 Capela Sixtina	Spfs	Capela Sixtina
@@ -527,8 +561,8 @@ Carlos	Spm0	Carlos
 Carlos Alberto González Príncipe	Spm0	Carlos Alberto González Príncipe
 Carlos Arnáiz	Spm0	Carlos Arnáiz
 Carlos Casares	Spm0	Carlos Casares
-Carlos Echavarri Guerra	Spm0	Carlos Echavarri Guerra
 Carlos Echávarri	Spm0	Carlos Echávarri
+Carlos Echavarri Guerra	Spm0	Carlos Echavarri Guerra
 Carlos González Príncipe	Spm0	Carlos González Príncipe
 Carlos González Reigosa	Spm0	Carlos González Reigosa
 Carlos Kase	Spm0	Carlos Kase
@@ -612,6 +646,8 @@ Cerceda	Sp00	Cerceda
 Cereixido	Sp00	Cereixido
 Cervantes	Sp00	Cervantes
 Cervo	Sp00	Cervo
+César	Spm0	César
+César Milstein	Spm0	César Milstein
 Cesáreo	Spm0	Cesáreo
 Ceuta	Sp00	Ceuta
 Chantada	Sp00	Chantada
@@ -625,6 +661,7 @@ Chechu	Spm0	Chechu
 Chernomirdin	Sp00	Chernomirdin
 Chernormirdin	Sp00	Chernormirdin
 Chiapa	Sp00	Chiapa
+Chicísimo.com	Sp00	Chicísimo.com
 Chile	Sp00	Chile
 China	Sp00	China
 Christopher Stone	Spm0	Christopher Stone
@@ -650,14 +687,15 @@ Clemente	Spm0	Clemente
 Clemente Jesús Muñiz Guardado	Spm0	Clemente Jesús Muñiz Guardado
 Clementina Díez de Baldeón	Spf0	Clementina Díez de Baldeón
 Cleostrata	Spf0	Cleostrata
-Clesa	Sp00	Clesa
 Cleóstrata	Spf0	Cleóstrata
+Clesa	Sp00	Clesa
 Clinton	Sp00	Clinton
 Clinton-Eltsin	Sp00	Clinton-Eltsin
 Club	Spms	Club
 Club Financeiro de Vigo	Spms	Club Financeiro de Vigo
 Coalición Canaria	Sp00	Coalición Canaria
 Cochón	Sp00	Cochón
+Código de Conducta Política	Spms	Código de Conducta Política
 Cohen	Sp00	Cohen
 Coimbra	Sp00	Coimbra
 Colexio Maior Fonseca	Spms	Colexio Maior Fonseca
@@ -667,10 +705,9 @@ Colexio de Educación Secundaria de San Román de Cervantes	Spms	Colexio de Educ
 Coliseo	Spms	Coliseo
 Colmenar	Sp00	Colmenar
 Colombia	Sp00	Colombia
-Colonia	Sp00	Colonia
 Colón	Sp00	Colón
+Colonia	Sp00	Colonia
 Comercio	Sp00	Comercio
-Comisiones Obreras	Spms	Comisiones Obreras
 Comisión	Spfs	Comisión
 Comisión Económica de as Nacións Unidas para Europa	Spfs	Comisión Económica de as Nacións Unidas para Europa
 Comisión Especial de o Transporte Aéreo de Galicia	Spfs	Comisión Especial de o Transporte Aéreo de Galicia
@@ -686,6 +723,7 @@ Comisión de Medio Ambiente	Spfs	Comisión de Medio Ambiente
 Comisión de Pesca	Spfs	Comisión de Pesca
 Comisión de Sanidade	Spfs	Comisión de Sanidade
 Comisión de Transporte Aéreo de Galicia	Spfs	Comisión de Transporte Aéreo de Galicia
+Comisiones Obreras	Spms	Comisiones Obreras
 Comisións Obreiras	Sp00	Comisións Obreiras
 Comité	Spms	Comité
 Comité Electoral	Spms	Comité Electoral
@@ -786,8 +824,8 @@ Constancio	Spm0	Constancio
 Constante	Spm0	Constante
 Constantino	Spm0	Constantino
 Constantinopla	Sp00	Constantinopla
-Constitucional	Spms	Constitucional
 Constitución	Spfs	Constitución
+Constitucional	Spms	Constitucional
 Consum	Sp00	Consum
 Contigo	Spms	Contigo
 Convención de Xenebra	Spfs	Convención de Xenebra
@@ -797,6 +835,7 @@ Cooperativa de Armadores de Vigo	Spfs	Cooperativa de Armadores de Vigo
 Cooperativa de Vigo	Spfs	Cooperativa de Vigo
 Coordinación	Sp00	Coordinación
 Coordinación e Avaliación Asistencial	Sp00	Coordinación e Avaliación Asistencial
+Córdoba	Sp00	Córdoba
 Cornell University Medical	Spfs	Cornell University Medical
 Corpo Nacional de Policía	Spms	Corpo Nacional de Policía
 Corpo de Xestión	Spms	Corpo de Xestión
@@ -828,34 +867,14 @@ Cuartel Supremo Aliado	Spms	Cuartel Supremo Aliado
 Cuarto de o Comandante	Sp00	Cuarto de o Comandante
 Cuba	Sp00	Cuba
 Cuco Pérez	Spm0	Cuco Pérez
+Cuíña	Sp00	Cuíña
+Cuíña Crespo	Sp00	Cuíña Crespo
 Culleredo	Sp00	Culleredo
 Cultura	Sp00	Cultura
 Cumio de Berlín	Spms	Cumio de Berlín
 Cunqueiro	Sp00	Cunqueiro
 Curran	Sp00	Curran
 Curtis	Sp00	Curtis
-Cuíña	Sp00	Cuíña
-Cuíña Crespo	Sp00	Cuíña Crespo
-Cáceres	Sp00	Cáceres
-Cáchira	Sp00	Cáchira
-Cádiz	Sp00	Cádiz
-Cámara	Spfs	Cámara
-Cámara Baixa	Spfs	Cámara Baixa
-Cámara de Comercio	Spfs	Cámara de Comercio
-Cámara de Comercio , Industria e Navegación de Santiago	Spfs	Cámara de Comercio , Industria e Navegación de Santiago
-Cámara de Comercio de Pontevedra	Spfs	Cámara de Comercio de Pontevedra
-Cámara de Comercio de Santiago	Spfs	Cámara de Comercio de Santiago
-Cámara de Comercio de a Coruña	Spfs	Cámara de Comercio de a Coruña
-Cámara de Deputados	Spfs	Cámara de Deputados
-Cámaras de Comercio	Spfp	Cámaras de Comercio
-Cánada	Sp00	Cánada
-Cándida	Spf0	Cándida
-Cándido	Spm0	Cándido
-Cándido Méndez	Spm0	Cándido Méndez
-César	Spm0	César
-César Milstein	Spm0	César Milstein
-Código de Conducta Política	Spms	Código de Conducta Política
-Córdoba	Sp00	Córdoba
 Dadik	Spm0	Dadik
 Damián	Spm0	Damián
 Damián Villalaín	Spm0	Damián Villalaín
@@ -880,6 +899,7 @@ Declaración de Canarias	Spfs	Declaración de Canarias
 Decreto 12/1994	Spms	Decreto 12/1994
 Decreto 42/1998	Spms	Decreto 42/1998
 Decreto 89/1997	Spms	Decreto 89/1997
+Dédalo	Sp00	Dédalo
 Defensa	Sp00	Defensa
 Defensa Civil	Spfs	Defensa Civil
 Defensor de el Pueblo	Spms	Defensor de el Pueblo
@@ -914,6 +934,14 @@ Derry	Sp00	Derry
 Desiderio	Spm0	Desiderio
 Despedida de solteiro	Sp00	Despedida de solteiro
 Deus	Spm0	Deus
+Día Internacional de o Traballador	Spms	Día Internacional de o Traballador
+Día de Europa	Spms	Día de Europa
+Día de a Santa Cruz	Spms	Día de a Santa Cruz
+Día de as Letras Galegas	Sp00	Día de as Letras Galegas
+Día de as Letras Galegas	Spms	Día de as Letras Galegas
+Día de o Traballo	Spms	Día de o Traballo
+Día mundial sen tabaco	Spms	Día mundial sen tabaco
+Día sen Televisión	Spms	Día sen Televisión
 Diagnóstico	Sp00	Diagnóstico
 Diamantina	Spf0	Diamantina
 Diamantino	Spm0	Diamantino
@@ -942,6 +970,7 @@ Divinas Palabras	Sp00	Divinas Palabras
 División Territorial de Caixa Galicia	Spfs	División Territorial de Caixa Galicia
 Djakovica	Sp00	Djakovica
 Docampo	Sp00	Docampo
+Dolce&Gabbana	Sp00	Dolce&Gabbanna
 Dolores Rodríguez Núñez	Spf0	Dolores Rodríguez Núñez
 Dolores Villarino	Spf0	Dolores Villarino
 Dominga	Spf0	Dominga
@@ -950,6 +979,7 @@ Dominique Strauss-Kahn	Spm0	Dominique Strauss-Kahn
 Dominó de o Camiño	Spms	Dominó de o Camiño
 Dominó de o Camiño de Santiago	Spms	Dominó de o Camiño de Santiago
 Donald Shelbourne	Spm0	Donald Shelbourne
+Doñana	Sp00	Doñana
 Donato	Spm0	Donato
 Doncela guerreira	Spfs	Doncela guerreira
 Dores	Spf0	Dores
@@ -960,7 +990,6 @@ Dositeo Rodríguez	Spm0	Dositeo Rodríguez
 Dostoievski	Spm0	Dostoievski
 Doutor TNT	Spms	Doutor TNT
 Downing Street	Sp00	Downing Street
-Doñana	Sp00	Doñana
 Dragana Dimic	Spf0	Dragana Dimic
 Duarte	Spm0	Duarte
 Dublín	Sp00	Dublín
@@ -970,15 +999,6 @@ Dumia	Spf0	Dumia
 Durres	Sp00	Durres
 Dusan Matkovic	Spm0	Dusan Matkovic
 Dusseldorf	Sp00	Dusseldorf
-Dédalo	Sp00	Dédalo
-Día Internacional de o Traballador	Spms	Día Internacional de o Traballador
-Día de Europa	Spms	Día de Europa
-Día de a Santa Cruz	Spms	Día de a Santa Cruz
-Día de as Letras Galegas	Sp00	Día de as Letras Galegas
-Día de as Letras Galegas	Spms	Día de as Letras Galegas
-Día de o Traballo	Spms	Día de o Traballo
-Día mundial sen tabaco	Spms	Día mundial sen tabaco
-Día sen Televisión	Spms	Día sen Televisión
 Ecequiel	Spm0	Ecequiel
 Echávarri	Sp00	Echávarri
 Eco de Moscova	Spfs	Eco de Moscova
@@ -1018,6 +1038,7 @@ Eleazar	Spm0	Eleazar
 Elena	Spf0	Elena
 Elena Pisonera	Spf0	Elena Pisonera
 Eleuterio	Spm0	Eleuterio
+Elías	Spm0	Elías
 Elisa	Spf0	Elisa
 Elisa Fernández de la Vega	Spf0	Elisa Fernández de la Vega
 Eliseo	Spm0	Eliseo
@@ -1026,10 +1047,9 @@ Elliot	Sp00	Elliot
 Eloi	Spm0	Eloi
 Elpidio	Spm0	Elpidio
 Eltsin	Spfs	Eltsin
+Elviña	Sp00	Elviña
 Elvira	Spf0	Elvira
 Elvis	Spm0	Elvis
-Elviña	Sp00	Elviña
-Elías	Spm0	Elías
 Embaixada	Spfs	Embaixada
 Embaixada de Australia	Spfs	Embaixada de Australia
 Emigración a a fin de o mundo	Sp00	Emigración a a fin de o mundo
@@ -1089,6 +1109,7 @@ España	Sp00	España
 Espí	Sp00	Espí
 Espí Martínez	Sp00	Espí Martínez
 Esquerda de Galicia	Sp00	Esquerda de Galicia
+Estaçãou	Sp00	Estaçãou
 Estación Depuradora de San Vicente de o Mar	Spfs	Estación Depuradora de San Vicente de o Mar
 Estado	Spms	Estado
 Estado Maior de a Armada	Spms	Estado Maior de a Armada
@@ -1126,8 +1147,8 @@ Eurozona	Spfs	Eurozona
 Euscadi	Sp00	Euscadi
 Eusebio	Spm0	Eusebio
 Euskal Herria	Sp00	Euskal Herria
-Euskal Herritarrok	Sp00	Euskal Herritarrok
 Euskal Herría	Sp00	Euskal Herría
+Euskal Herritarrok	Sp00	Euskal Herritarrok
 Eutimio Arias	Spm0	Eutimio Arias
 Euxenia	Spf0	Euxenia
 Euxenio	Spm0	Euxenio
@@ -1138,21 +1159,24 @@ Evgueni Primakov	Spm0	Evgueni Primakov
 Executiva	Spfs	Executiva
 Executiva Federal	Spfs	Executiva Federal
 Executivo	Spms	Executivo
-Exipto	Sp00	Exipto
-Explorer	Spms	Explorer
-Exteriores	Sp00	Exteriores
 Exército	Spms	Exército
 Exército Republicano Irlandés	Spms	Exército Republicano Irlandés
 Exército de Liberación de Kósovo	Spms	Exército de Liberación de Kósovo
 Exército de o Aire	Spms	Exército de o Aire
 Exército de o Sur de o Líbano	Spms	Exército de o Sur de o Líbano
+Exipto	Sp00	Exipto
+Explorer	Spms	Explorer
+Exteriores	Sp00	Exteriores
 F-15E	Sp00	F-15E
 F-16	Spms	F-16
+FEOGA-Garantía	Sp00	FEOGA-Garantía
 FIA-Pontevedra	Sp00	FIA-Pontevedra
 Fabiano	Spm0	Fabiano
+Fábrica de Tabacos	Spfs	Fábrica de Tabacos
 Facebook	Sp00	Facebook
 Facenda	Sp00	Facenda
 Facenda	Spfs	Facenda
+Facilisimo.com	Sp00	Facilisimo.com
 Facultade de Ciencias Económicas e Empresariais	Spfs	Facultade de Ciencias Económicas e Empresariais
 Facultade de Ciencias Sociais	Spfs	Facultade de Ciencias Sociais
 Facultade de Económicas	Spfs	Facultade de Económicas
@@ -1166,6 +1190,7 @@ Fanto	Spm0	Fanto
 Farruco	Spm0	Farruco
 Farto	Sp00	Farto
 Faustino	Spm0	Faustino
+Feáns	Sp00	Feáns
 Federación	Spfs	Federación
 Federación Galega de Autoescolas	Spfs	Federación Galega de Autoescolas
 Federación Galega de Parques Empresariais	Spfs	Federación Galega de Parques Empresariais
@@ -1190,25 +1215,26 @@ Felipe	Spm0	Felipe
 Felipe González	Spm0	Felipe González
 Felipe Ruiz	Spm0	Felipe Ruiz
 Felisa	Spf0	Felisa
+Félix	Spm0	Félix
+Félix Ormazábal	Spm0	Félix Ormazábal
 Fermín	Spm0	Fermín
 Fermín Díaz	Spm0	Fermín Díaz
+Fernández Álvarez	Sp00	Fernández Álvarez
+Fernández Lores	Sp00	Fernández Lores
+Fernández Reinosa	Sp00	Fernández Reinosa
 Fernando	Spm0	Fernando
 Fernando Espí Martínez	Spm0	Fernando Espí Martínez
 Fernando Garea	Spm0	Fernando Garea
-Fernando Jiménez Herrero	Spm0	Fernando Jiménez Herrero
 Fernando Jáuregui	Spm0	Fernando Jáuregui
+Fernando Jiménez Herrero	Spm0	Fernando Jiménez Herrero
 Fernando Rodríguez	Spm0	Fernando Rodríguez
 Fernando Villalonga	Spm0	Fernando Villalonga
-Fernández Lores	Sp00	Fernández Lores
-Fernández Reinosa	Sp00	Fernández Reinosa
-Fernández Álvarez	Sp00	Fernández Álvarez
 Ferreiro	Sp00	Ferreiro
 Ferro	Sp00	Ferro
 Ferrol	Sp00	Ferrol
 Ferrol-Betanzos	Sp00	Ferrol-Betanzos
 Ferrolterra	Sp00	Ferrolterra
 Festa de o Capón	Spfs	Festa de o Capón
-Feáns	Sp00	Feáns
 Fiatex	Sp00	Fiatex
 Fiatex	Spms	Fiatex
 Fiatyr	Sp00	Fiatyr
@@ -1218,9 +1244,9 @@ Figueirido	Sp00	Figueirido
 Filharmonía	Spfs	Filharmonía
 Filipe	Spm0	Filipe
 Filmax	Sp00	Filmax
+Filócrates	Spm0	Filócrates
 Filomena	Spf0	Filomena
 Filosofía	Sp00	Filosofía
-Filócrates	Spm0	Filócrates
 Fina	Spf0	Fina
 Finanzas	Sp00	Finanzas
 Finlandia	Sp00	Finlandia
@@ -1249,8 +1275,8 @@ Foro de Ermua	Spms	Foro de Ermua
 Forteza	Sp00	Forteza
 Forteza Vila	Sp00	Forteza Vila
 Forza Aérea	Spfs	Forza Aérea
-Forzas Armadas	Spfp	Forzas Armadas
 Forzas Aéreas de Israel	Spfp	Forzas Aéreas de Israel
+Forzas Armadas	Spfp	Forzas Armadas
 Forzas de Seguridade de o Estado	Spfp	Forzas de Seguridade de o Estado
 Fox	Spfs	Fox
 Foz	Sp00	Foz
@@ -1262,6 +1288,7 @@ Francia	Sp00	Francia
 Francisca	Spf0	Francisca
 Francisca Sauquillo	Spf0	Francisca Sauquillo
 Francisco	Spm0	Francisco
+Francisco Álvarez Cascos	Spm0	Francisco Álvarez Cascos
 Francisco Cal	Spm0	Francisco Cal
 Francisco Cal Pardo	Spm0	Francisco Cal Pardo
 Francisco Castro	Spm0	Francisco Castro
@@ -1272,7 +1299,6 @@ Francisco García	Spm0	Francisco García
 Francisco García-Bobadilla	Spm0	Francisco García-Bobadilla
 Francisco Sineiro	Spm0	Francisco Sineiro
 Francisco Vázquez	Spm0	Francisco Vázquez
-Francisco Álvarez Cascos	Spm0	Francisco Álvarez Cascos
 Franco	Sp00	Franco
 Frankfurt	Sp00	Frankfurt
 Freitag	Sp00	Freitag
@@ -1295,9 +1321,6 @@ Fundación Pública Escola Galega de Administración Sanitaria	Spfs	Fundación P
 Fundación Regino Giráldez Boo e María de el Carmen Groba Varela	Spfs	Fundación Regino Giráldez Boo e María de el Carmen Groba Varela
 Fundación Xoán Piñeiro	Spfs	Fundación Xoán Piñeiro
 Fuxan os Ventos	Sp00	Fuxan os Ventos
-Fábrica de Tabacos	Spfs	Fábrica de Tabacos
-Félix	Spm0	Félix
-Félix Ormazábal	Spm0	Félix Ormazábal
 G-8	Spms	G-8
 GBU-28	Sp00	GBU-28
 Gabinete Técnico de Apoio a o Téxtil	Spms	Gabinete Técnico de Apoio a o Téxtil
@@ -1333,11 +1356,13 @@ Genaro Martínez Sánchez	Spm0	Genaro Martínez Sánchez
 Generalitat	Spfs	Generalitat
 Generalitat Valenciana	Sp00	Generalitat Valenciana
 Generalitat de Cataluña	Spfs	Generalitat de Cataluña
+Génova	Sp00	Génova
 George Lucas	Spm0	George Lucas
 Gerardo	Spm0	Gerardo
 Gerardo Fernández Albor	Spm0	Gerardo Fernández Albor
 Gerardo Galeote	Spm0	Gerardo Galeote
 Gerardo Gayoso	Spm0	Gerardo Gayoso
+Gerês-Xurés	Sp00	Gerês-Xurés
 Gerhard Schroder	Spm0	Gerhard Schroder
 Gerhard Schroeder	Spm0	Gerhard Schroeder
 Gerhard Schroeder	Spms	Gerhard Schroeder
@@ -1357,15 +1382,17 @@ Goberno de Pequín	Spms	Goberno de Pequín
 Goián	Sp00	Goián
 Gol	Sp00	Gol
 Golani	Sp00	Golani
+Gómez	Sp00	Gómez
+Gómez Santamarina	Sp00	Gómez Santamarina
 Gondomar	Sp00	Gondomar
-Gonzalo	Spm0	Gonzalo
-Gonzalo Rodríguez	Spm0	Gonzalo Rodríguez
-Gonzalo Rodríguez Tenreiro	Spm0	Gonzalo Rodríguez Tenreiro
-Gonzalo Rodríguez Álvarez	Spm0	Gonzalo Rodríguez Álvarez
-Gonzalo Uriarte	Spm0	Gonzalo Uriarte
 González	Sp00	González
 González Manchón	Sp00	González Manchón
 González Sobral	Sp00	González Sobral
+Gonzalo	Spm0	Gonzalo
+Gonzalo Rodríguez	Spm0	Gonzalo Rodríguez
+Gonzalo Rodríguez Álvarez	Spm0	Gonzalo Rodríguez Álvarez
+Gonzalo Rodríguez Tenreiro	Spm0	Gonzalo Rodríguez Tenreiro
+Gonzalo Uriarte	Spm0	Gonzalo Uriarte
 Google	Sp00	Google
 Goran Aleksic	Spm0	Goran Aleksic
 Gordon Brown	Spm0	Gordon Brown
@@ -1399,15 +1426,16 @@ Guadalaxara	Sp00	Guadalaxara
 Guadalupe	Spf0	Guadalupe
 Guennadi Ziugánov	Spm0	Guennadi Ziugánov
 Guerra de o Golfo	Spfs	Guerra de o Golfo
+Guillén	Spm0	Guillén
 Guillerme	Spm0	Guillerme
 Guillerme Vázquez	Spm0	Guillerme Vázquez
 Guillermo	Spm0	Guillermo
 Guillermo Fernández-Obanza	Spm0	Guillermo Fernández-Obanza
 Guillermo Mesonero	Spm0	Guillermo Mesonero
 Guillermo Mesonero Romano	Spm0	Guillermo Mesonero Romano
-Guillén	Spm0	Guillén
 Guinea	Sp00	Guinea
 Guipúscoa	Sp00	Guipúscoa
+Guísamo	Sp00	Guísamo
 Guitiriz	Sp00	Guitiriz
 Guivati	Sp00	Guivati
 Gumersinda	Spf0	Gumersinda
@@ -1415,10 +1443,6 @@ Gumersindo	Spm0	Gumersindo
 Gustavo	Spm0	Gustavo
 Gustavo Losada	Spm0	Gustavo Losada
 Gutiérrez Aragón	Sp00	Gutiérrez Aragón
-Guísamo	Sp00	Guísamo
-Génova	Sp00	Génova
-Gómez	Sp00	Gómez
-Gómez Santamarina	Sp00	Gómez Santamarina
 Habana	Sp00	Habana
 Haia	Spfs	Haia
 Hall	Sp00	Hall
@@ -1433,16 +1457,19 @@ Harrier AV-8B	Spms	Harrier AV-8B
 Hashim Taci	Spm0	Hashim Taci
 Hassan II	Spm0	Hassan II
 Hawai	Sp00	Hawai
+Héctor Moreneli	Spm0	Héctor Moreneli
 Helena	Spf0	Helena
+Hélène	Spfs	Hélène
 Helms Burton	Sp00	Helms Burton
 Helsinki	Sp00	Helsinki
 Henrique	Spm0	Henrique
+Hércules	Spm0	Hércules
 Hermenexilda	Spf0	Hermenexilda
 Hermexildo	Spm0	Hermexildo
 Herminia	Spf0	Herminia
 Herminio	Spm0	Herminio
-Hernando	Sp00	Hernando
 Hernández Cochón	Sp00	Hernández Cochón
+Hernando	Sp00	Hernando
 Herri Batasuna	Sp00	Herri Batasuna
 Hierro	Sp00	Hierro
 Hillary Clinton	Spf0	Hillary Clinton
@@ -1476,8 +1503,6 @@ Humanidades	Sp00	Humanidades
 Humberto Fernández	Spm0	Humberto Fernández
 Humberto Hernández Reinoso	Spm0	Humberto Hernández Reinoso
 Hungría	Sp00	Hungría
-Héctor Moreneli	Spm0	Héctor Moreneli
-Hércules	Spm0	Hércules
 I Congreso Nacional de a Sociedade Española de Cirurxía Bucal	Spms	I Congreso Nacional de a Sociedade Española de Cirurxía Bucal
 I congreso nacional de cirurxía bucal	Spms	I congreso nacional de cirurxía bucal
 IAC-80	Sp00	IAC-80
@@ -1505,9 +1530,11 @@ Illa de a Toxa	Spfs	Illa de a Toxa
 Illas Canarias	Sp00	Illas Canarias
 Indar	Sp00	Indar
 India	Sp00	India
+Índice Manpower	Sp00	Índice Manpower
 Industria	Sp00	Industria
 Industria , Comercio e Minería	Sp00	Industria , Comercio e Minería
 Industria e Comercio	Sp00	Industria e Comercio
+Inés	Spf0	Inés
 Inespal	Sp00	Inespal
 Informativos Telecinco	Sp00	Informativos Telecinco
 Inglaterra	Sp00	Inglaterra
@@ -1531,14 +1558,13 @@ Internet	Sp00	Internet
 Internet Explorer	Spms	Internet Explorer
 Interreg III	Sp00	Interreg III
 Investigación e Técnicas de Mercado	Sp00	Investigación e Técnicas de Mercado
-Inés	Spf0	Inés
+Irán	Sp00	Irán
 Iraq	Sp00	Iraq
 Iria	Spf0	Iria
 Irimia	Spf0	Irimia
 Irlanda	Sp00	Irlanda
 Irlanda de o Norte	Sp00	Irlanda de o Norte
 Irmandade de Centros Galegos en Euscadi	Spfs	Irmandade de Centros Galegos en Euscadi
-Irán	Sp00	Irán
 Irún	Sp00	Irún
 Isa	Spf0	Isa
 Isaac	Spm0	Isaac
@@ -1556,9 +1582,9 @@ Israel	Sp00	Israel
 Istambul	Sp00	Istambul
 Italia	Sp00	Italia
 Iugoslavia	Sp00	Iugoslavia
-Ivanov	Sp00	Ivanov
 Iván	Spm0	Iván
 Iván Marcos	Spm0	Iván Marcos
+Ivanov	Sp00	Ivanov
 Izquierda Andaluza	Sp00	Izquierda Andaluza
 Izquierda Unida	Sp00	Izquierda Unida
 Jack	Spm0	Jack
@@ -1606,8 +1632,8 @@ Joan	Spm0	Joan
 Joan Lerma	Spm0	Joan Lerma
 Joan Reventós	Spm0	Joan Reventós
 Joao Cravinho	Spm0	Joao Cravinho
-Joaquin Almunia	Spm0	Joaquin Almunia
 Joaquín	Spm0	Joaquín
+Joaquin Almunia	Spm0	Joaquin Almunia
 Joaquín Almunia	Spm0	Joaquín Almunia
 Joaquín Brea	Spm0	Joaquín Brea
 Joe	Spm0	Joe
@@ -1621,11 +1647,6 @@ Jorge Fernández	Spm0	Jorge Fernández
 Jorge Pascual Llorens	Spm0	Jorge Pascual Llorens
 Jorge Perugorría	Spm0	Jorge Perugorría
 Joschka Fischer	Spm0	Joschka Fischer
-Jose Borrell	Spm0	Jose Borrell
-Josep	Spm0	Josep
-Josep Borrell	Spm0	Josep Borrell
-Josep Piqué	Spm0	Josep Piqué
-Joseph Losey	Spm0	Joseph Losey
 José	Spm0	José
 José Alberto Piñeiro	Spm0	José Alberto Piñeiro
 José Antonio Ardanza	Spm0	José Antonio Ardanza
@@ -1641,6 +1662,7 @@ José Benito López Costa	Spm0	José Benito López Costa
 José Benito Vázquez Chaves	Spm0	José Benito Vázquez Chaves
 José Blanco	Spm0	José Blanco
 José Bono	Spm0	José Bono
+Jose Borrell	Spm0	Jose Borrell
 José Borrell	Spm0	José Borrell
 José Carracao Gutiérrez	Spm0	José Carracao Gutiérrez
 José Cora	Spm0	José Cora
@@ -1650,15 +1672,15 @@ José Enrique Elvira	Spm0	José Enrique Elvira
 José Enrique Serrano	Spm0	José Enrique Serrano
 José Folchi	Spm0	José Folchi
 José Hierro	Spm0	José Hierro
+José Luís Álvarez	Spm0	José Luís Álvarez
 José Luis Arribas Llorente	Spm0	José Luis Arribas Llorente
 José Luis Gómez	Spm0	José Luis Gómez
 José Luis Jorcano	Spm0	José Luis Jorcano
-José Luis Morlanes	Spm0	José Luis Morlanes
 José Luis Méndez	Spm0	José Luis Méndez
 José Luis Méndez López	Spm0	José Luis Méndez López
+José Luis Morlanes	Spm0	José Luis Morlanes
 José Luis Rodríguez Zapatero	Spm0	José Luis Rodríguez Zapatero
 José Luis Taboada	Sp00	José Luis Taboada
-José Luís Álvarez	Spm0	José Luís Álvarez
 José Manuel Amoedo	Spm0	José Manuel Amoedo
 José Manuel Barreiro	Spm0	José Manuel Barreiro
 José Manuel Fernández Norniella	Spm0	José Manuel Fernández Norniella
@@ -1689,6 +1711,10 @@ José Ramón Fuertes	Spm0	José Ramón Fuertes
 José Ramón Gómez	Spm0	José Ramón Gómez
 José Vilar	Spm0	José Vilar
 José Vilar Casal	Spm0	José Vilar Casal
+Josep	Spm0	Josep
+Josep Borrell	Spm0	Josep Borrell
+Josep Piqué	Spm0	Josep Piqué
+Joseph Losey	Spm0	Joseph Losey
 Jo~ao Cravinho	Spm0	Jo~ao Cravinho
 Juan	Spm0	Juan
 Juan Antonio Garrido	Spm0	Juan Antonio Garrido
@@ -1723,15 +1749,15 @@ Juanito	Spm0	Juanito
 Juaristi	Sp00	Juaristi
 Judy Garland	Spf0	Judy Garland
 Julia Uceda	Spf0	Julia Uceda
+Julián	Spm0	Julián
 Julio	Spm0	Julio
 Julio Aldemira	Spm0	Julio Aldemira
+Julio Álvarez	Spm0	Julio Álvarez
 Julio Anguita	Spm0	Julio Anguita
 Julio Antonio Blázquez García	Spm0	Julio Antonio Blázquez García
 Julio Dios Ramallo	Spm0	Julio Dios Ramallo
 Julio Fernández	Spm0	Julio Fernández
 Julio Fernández Gayoso	Spm0	Julio Fernández Gayoso
-Julio Álvarez	Spm0	Julio Álvarez
-Julián	Spm0	Julián
 Junta Aragonesista	Spfs	Junta Aragonesista
 Juste	Sp00	Juste
 Justo de Benito	Spm0	Justo de Benito
@@ -1744,13 +1770,13 @@ Kohler	Sp00	Kohler
 Konrad Freytag	Spm0	Konrad Freytag
 Kosava	Sp00	Kosava
 Kosovo	Sp00	Kosovo
+Kósovo	Sp00	Kósovo
 Kotenkov	Sp00	Kotenkov
 Kraljevo	Sp00	Kraljevo
 Kremlin	Spms	Kremlin
 Krusik	Spms	Krusik
 Kukes	Sp00	Kukes
 Kyrie	Spms	Kyrie
-Kósovo	Sp00	Kósovo
 La Caixa	Sp00	La Caixa
 La Capella Reial de Catalunya	Sp00	La Capella Reial de Catalunya
 La Princesa	Sp00	La Princesa
@@ -1760,9 +1786,11 @@ La mitad del cielo	Spfs	La mitad del cielo
 Lab	Sp00	Lab
 Labacolla	Sp00	Labacolla
 Laboratorio de Sanidade Exterior de Vigo	Spms	Laboratorio de Sanidade Exterior de Vigo
+Laíño	Sp00	Laíño
 Lalín	Sp00	Lalín
 Lalín-A Estrada	Sp00	Lalín-A Estrada
 Lamas	Sp00	Lamas
+Láncara	Sp00	Láncara
 Lancelot	Spm0	Lancelot
 Landín	Sp00	Landín
 Lanzarote	Sp00	Lanzarote
@@ -1774,7 +1802,8 @@ Laureano	Spm0	Laureano
 Laureano Oubiña	Spm0	Laureano Oubiña
 Lavacolla	Sp00	Lavacolla
 Laza	Sp00	Laza
-Laíño	Sp00	Laíño
+Lázaro	Spm0	Lázaro
+Lázaro Fernández	Spm0	Lázaro Fernández
 Le Monde	Sp00	Le Monde
 Leandro	Spm0	Leandro
 Leavy	Sp00	Leavy
@@ -1790,6 +1819,7 @@ Leicester	Sp00	Leicester
 Leira	Sp00	Leira
 Leis Fidalgo	Sp00	Leis Fidalgo
 Lendoiro	Sp00	Lendoiro
+León	Sp00	León
 Leonardo	Spm0	Leonardo
 Leonardo di Caprio	Spm0	Leonardo di Caprio
 Leonel	Spm0	Leonel
@@ -1802,13 +1832,13 @@ Levante	Sp00	Levante
 Ley Helmes-Burton	Spfs	Ley Helmes-Burton
 Leyma	Sp00	Leyma
 Leyma-Lactaria	Spms	Leyma-Lactaria
-León	Sp00	León
+Líbano	Sp00	Líbano
 Libro Branco de Enerxía	Spms	Libro Branco de Enerxía
 Libro de Oro de a Cámara de Santiago	Spms	Libro de Oro de a Cámara de Santiago
 Lidia	Spf0	Lidia
 Limia	Sp00	Limia
-Lindsay Kemp	Spm0	Lindsay Kemp
 Lindín	Sp00	Lindín
+Lindsay Kemp	Spm0	Lindsay Kemp
 Lino	Spm0	Lino
 Lisboa	Sp00	Lisboa
 Liverpool	Sp00	Liverpool
@@ -1823,6 +1853,8 @@ Lois Pérez Castrillo	Spm0	Lois Pérez Castrillo
 Lojane	Sp00	Lojane
 Loli	Spf0	Loli
 Londres	Sp00	Londres
+López Besteiro	Sp00	López Besteiro
+López Costa	Sp00	López Costa
 Lorenzo	Spm0	Lorenzo
 Los Angeles Daily News	Spms	Los Angeles Daily News
 Los Verdes	Spmp	Los Verdes
@@ -1839,12 +1871,13 @@ Luar	Sp00	Luar
 Luar en a Lubre	Sp00	Luar en a Lubre
 Lucas	Spm0	Lucas
 Luchino Visconti	Spm0	Luchino Visconti
+Lucía	Spf0	Lucía
 Luciano	Spm0	Luciano
 Lucinda	Spf0	Lucinda
-Lucía	Spf0	Lucía
 Ludolfo Paramio	Spm0	Ludolfo Paramio
 Lugo	Sp00	Lugo
 Luis	Spm0	Luis
+Luís	Spm0	Luís
 Luis Boza	Spm0	Luis Boza
 Luis Braga de a Cruz	Spm0	Luis Braga de a Cruz
 Luis Caramés Viéitez	Spm0	Luis Caramés Viéitez
@@ -1857,20 +1890,13 @@ Luis Parente Parente	Spm0	Luis Parente Parente
 Luis Pérez	Spm0	Luis Pérez
 Luis Sepúlveda	Spm0	Luis Sepúlveda
 Luis Yáñez	Spm0	Luis Yáñez
+Luísa	Spf0	Luísa
 Luisito	Spm0	Luisito
 Lustres Rivas	Sp00	Lustres Rivas
 Luton	Sp00	Luton
 Luxemburgo	Sp00	Luxemburgo
 Luzane	Sp00	Luzane
 Luzani	Sp00	Luzani
-Luís	Spm0	Luís
-Luísa	Spf0	Luísa
-Láncara	Sp00	Láncara
-Lázaro	Spm0	Lázaro
-Lázaro Fernández	Spm0	Lázaro Fernández
-Líbano	Sp00	Líbano
-López Besteiro	Sp00	López Besteiro
-López Costa	Sp00	López Costa
 M.T.F.	Sp00	M.T.F.
 MS T	Sp00	MS T
 Mabel Rivera	Spf0	Mabel Rivera
@@ -1885,6 +1911,7 @@ Magariños	Sp00	Magariños
 Magdalena	Sp00	Magdalena
 Mahía	Sp00	Mahía
 Mailoc	Spm0	Mailoc
+Málaga	Sp00	Málaga
 Malina Mala	Sp00	Malina Mala
 Mallorca	Sp00	Mallorca
 Mamadou Kane	Spm0	Mamadou Kane
@@ -1911,8 +1938,8 @@ Manuel Lourenzo	Spm0	Manuel Lourenzo
 Manuel Méndez	Spm0	Manuel Méndez
 Manuel Noya	Spm0	Manuel Noya
 Manuel Parga	Spm0	Manuel Parga
-Manuel Pimentel	Spm0	Manuel Pimentel
 Manuel Pérez	Spm0	Manuel Pérez
+Manuel Pimentel	Spm0	Manuel Pimentel
 Manuela	Spf0	Manuela
 Manuela Lema	Spf0	Manuela Lema
 Manuela López Besteiro	Spf0	Manuela López Besteiro
@@ -1931,32 +1958,6 @@ Margarida	Spf0	Margarida
 Margarita Cardoso	Spf0	Margarita Cardoso
 Margarita Montero	Spf0	Margarita Montero
 Mari	Spf0	Mari
-Mariano	Spm0	Mariano
-Mariano Rajoy	Spm0	Mariano Rajoy
-Mario	Spm0	Mario
-Marisa Tanzini	Spf0	Marisa Tanzini
-Marián Bañobre	Spf0	Marián Bañobre
-Mariña	Spf0	Mariña
-Markov	Sp00	Markov
-Marrocos	Sp00	Marrocos
-Marrozos	Sp00	Marrozos
-Marta	Spf0	Marta
-Marta Diéguez Rodríguez	Spf0	Marta Diéguez Rodríguez
-Marta González	Spf0	Marta González
-Marta González Manchón	Spf0	Marta González Manchón
-Martin Erdmann	Spm0	Martin Erdmann
-Martiño	Spm0	Martiño
-Martorell	Sp00	Martorell
-Martti Ahtisaar	Spm0	Martti Ahtisaar
-Martti Ahtisaari	Spm0	Martti Ahtisaari
-Martín	Spm0	Martín
-Martín Llamas Nistal	Spm0	Martín Llamas Nistal
-Martín Torrijos	Spm0	Martín Torrijos
-Martínez	Sp00	Martínez
-Martínez Sánchez	Sp00	Martínez Sánchez
-Maruja	Spf0	Maruja
-Maruxa	Spf0	Maruxa
-Mary Robinson	Spf0	Mary Robinson
 María	Spf0	María
 María Dolores Bueno Ramírez	Spf0	María Dolores Bueno Ramírez
 María García	Spf0	María García
@@ -1968,24 +1969,55 @@ María Milosevic	Spf0	María Milosevic
 María San Gil	Spf0	María San Gil
 María Xosé Gómez	Spf0	María Xosé Gómez
 María Xosé Rodríguez Galdo	Spf0	María Xosé Rodríguez Galdo
+Marián Bañobre	Spf0	Marián Bañobre
+Mariano	Spm0	Mariano
+Mariano Rajoy	Spm0	Mariano Rajoy
 Marín	Sp00	Marín
+Mariña	Spf0	Mariña
+Mario	Spm0	Mario
+Marisa Tanzini	Spf0	Marisa Tanzini
+Markov	Sp00	Markov
+Marrocos	Sp00	Marrocos
+Marrozos	Sp00	Marrozos
+Marta	Spf0	Marta
+Marta Diéguez Rodríguez	Spf0	Marta Diéguez Rodríguez
+Marta González	Spf0	Marta González
+Marta González Manchón	Spf0	Marta González Manchón
+Martín	Spm0	Martín
+Martin Erdmann	Spm0	Martin Erdmann
+Martín Llamas Nistal	Spm0	Martín Llamas Nistal
+Martín Torrijos	Spm0	Martín Torrijos
+Martínez	Sp00	Martínez
+Martínez Sánchez	Sp00	Martínez Sánchez
+Martiño	Spm0	Martiño
+Martorell	Sp00	Martorell
+Martti Ahtisaar	Spm0	Martti Ahtisaar
+Martti Ahtisaari	Spm0	Martti Ahtisaari
+Maruja	Spf0	Maruja
+Maruxa	Spf0	Maruxa
+Mary Robinson	Spf0	Mary Robinson
 Masma	Sp00	Masma
-Massimo DÁlema	Spm0	Massimo DÁlema
 Masó	Sp00	Masó
+Massimo DÁlema	Spm0	Massimo DÁlema
+Máster de Administración Financeira e Tributaria	Spms	Máster de Administración Financeira e Tributaria
+Matán Vilnaí	Sp00	Matán Vilnaí
 Matanzas	Sp00	Matanzas
 Mateo	Spm0	Mateo
 Materno Infantil	Spms	Materno Infantil
 Matilde	Spf0	Matilde
 Matutes	Sp00	Matutes
-Matán Vilnaí	Sp00	Matán Vilnaí
 Mauro	Spm0	Mauro
 Max	Spm0	Max
 Maximinio Zumalave	Spm0	Maximinio Zumalave
 Maximino	Spm0	Maximino
+Máximo García	Spm0	Máximo García
 Mayor	Sp00	Mayor
 Mayor Oreja	Sp00	Mayor Oreja
 Mayor Zaragoza	Sp00	Mayor Zaragoza
 Medicina	Sp00	Medicina
+Médicos Internos Residentes	Spmp	Médicos Internos Residentes
+Médicos de o Mundo	Sp00	Médicos de o Mundo
+Médicos sen Fronteiras	Sp00	Médicos sen Fronteiras
 Medio Ambiente	Sp00	Medio Ambiente
 Medio Ambiente de Galicia 1999	Sp00	Medio Ambiente de Galicia 1999
 Mediterráneo	Spms	Mediterráneo
@@ -1995,14 +2027,16 @@ Meira	Sp00	Meira
 Meixoeiro	Spms	Meixoeiro
 Melchor	Spm0	Melchor
 Melgaso	Sp00	Melgaso
-Melide	Sp00	Melide
 Meliá	Spfs	Meliá
+Melide	Sp00	Melide
 Melón	Sp00	Melón
 Memento	Sp00	Memento
+Méndez	Sp00	Méndez
+Méndez Ferrín	Sp00	Méndez Ferrín
 Mercash Sar	Sp00	Mercash Sar
+Mercé	Spf0	Mercé
 Mercedes	Spf0	Mercedes
 Mercedes Peón	Spf0	Mercedes Peón
-Mercé	Spf0	Mercé
 Merino	Sp00	Merino
 Merlín	Spm0	Merlín
 Mes de a Cultura	Spms	Mes de a Cultura
@@ -2012,28 +2046,31 @@ Mesa por a Normalización Lingüística	Spfs	Mesa por a Normalización Lingüís
 Mesonero	Sp00	Mesonero
 Mesoneros	Sp00	Mesoneros
 Mestre Braghetone	Spms	Mestre Braghetone
+Métodos de estatística e de investigación operativa	Spms	Métodos de estatística e de investigación operativa
+México	Sp00	México
 Miami	Sp00	Miami
 Michael Caplan	Spm0	Michael Caplan
 Michael Winner	Spm0	Michael Winner
+Michaëlis	Spfs	Michaëlis
 Michavila	Sp00	Michavila
 Michel Gabaudan	Spm0	Michel Gabaudan
 Michel Léveque	Spm0	Michel Léveque
 Microsoft	Sp00	Microsoft
 Mig	Sp00	Mig
 Miguel	Spm0	Miguel
+Miguel Ángel	Spm0	Miguel Ángel
+Miguel Ángel Capón	Spm0	Miguel Ángel Capón
 Miguel Chana	Spm0	Miguel Chana
 Miguel Chana Martín	Spm0	Miguel Chana Martín
 Miguel Herrero	Spm0	Miguel Herrero
 Miguel Littin	Spm0	Miguel Littin
-Miguel Ángel	Spm0	Miguel Ángel
-Miguel Ángel Capón	Spm0	Miguel Ángel Capón
 Miguélez	Sp00	Miguélez
+Milán	Sp00	Milán
 Milladoiro	Sp00	Milladoiro
 Milo Taboada	Spm0	Milo Taboada
 Milosevic	Sp00	Milosevic
 Milstein	Sp00	Milstein
 Milucha	Spf0	Milucha
-Milán	Sp00	Milán
 Mingo	Sp00	Mingo
 Minia	Spf0	Minia
 Ministerio	Spms	Ministerio
@@ -2049,6 +2086,7 @@ Ministerio de Pesca	Spms	Ministerio de Pesca
 Ministerio de Sanidade	Spms	Ministerio de Sanidade
 Ministerio para as Administracións Públicas	Spms	Ministerio para as Administracións Públicas
 Minnesotta	Sp00	Minnesotta
+Miño	Spms	Miño
 Miquel Iceta	Spm0	Miquel Iceta
 Mir	Spms	Mir
 Mira Lema	Spf0	Mira Lema
@@ -2058,7 +2096,6 @@ Mireya Moscoso	Spf0	Mireya Moscoso
 Missa Salisburgensis	Sp00	Missa Salisburgensis
 Mitch	Spms	Mitch
 Mitrovica	Sp00	Mitrovica
-Miño	Spms	Miño
 Mladjan Dinkic	Spm0	Mladjan Dinkic
 Moaña	Sp00	Moaña
 Modesto	Spm0	Modesto
@@ -2066,12 +2103,15 @@ Moisés	Spm0	Moisés
 Mokasin	Sp00	Mokasin
 Molina	Sp00	Molina
 Momo	Spm0	Momo
+Mónaco	Sp00	Mónaco
 Moncho	Spm0	Moncho
 Moncloa	Sp00	Moncloa
 Mondoñedo	Sp00	Mondoñedo
 Mondragón	Sp00	Mondragón
 Monforte	Sp00	Monforte
 Monforte de Lemos	Sp00	Monforte de Lemos
+Mónica	Spf0	Mónica
+Mónica Ridruejo	Spf0	Mónica Ridruejo
 Monsanto	Sp00	Monsanto
 Monserrat	Spf0	Monserrat
 Monte Palomar	Spms	Monte Palomar
@@ -2098,6 +2138,7 @@ Movemento de Solidariedade con Cuba	Spms	Movemento de Solidariedade con Cuba
 Movemento por a Paz , o Desarmamento e a Liberdade	Spms	Movemento por a Paz , o Desarmamento e a Liberdade
 Mozart	Sp00	Mozart
 Mrcajevci	Sp00	Mrcajevci
+Muíños	Sp00	Muíños
 Muras	Sp00	Muras
 Murcia	Sp00	Murcia
 Muros	Sp00	Muros
@@ -2107,20 +2148,7 @@ Museo de as Peregrinacións	Spms	Museo de as Peregrinacións
 Museo de o Prado	Spms	Museo de o Prado
 Mutti	Sp00	Mutti
 Muxía	Sp00	Muxía
-Muíños	Sp00	Muíños
-Málaga	Sp00	Málaga
-Máster de Administración Financeira e Tributaria	Spms	Máster de Administración Financeira e Tributaria
-Máximo García	Spm0	Máximo García
-Médicos Internos Residentes	Spmp	Médicos Internos Residentes
-Médicos de o Mundo	Sp00	Médicos de o Mundo
-Médicos sen Fronteiras	Sp00	Médicos sen Fronteiras
-Méndez	Sp00	Méndez
-Méndez Ferrín	Sp00	Méndez Ferrín
-Métodos de estatística e de investigación operativa	Spms	Métodos de estatística e de investigación operativa
-México	Sp00	México
-Mónaco	Sp00	Mónaco
-Mónica	Spf0	Mónica
-Mónica Ridruejo	Spf0	Mónica Ridruejo
+MySpace	Sp00	MySpace
 N-634	Spfs	N-634
 N-VI	Spfs	N-VI
 Nacional Center For Simulation	Spfs	Nacional Center For Simulation
@@ -2130,6 +2158,7 @@ Nalini T. Suthenthiraja	Spf0	Nalini T. Suthenthiraja
 Namibia	Sp00	Namibia
 Nancho Novo	Spm0	Nancho Novo
 Napoleón	Spm0	Napoleón
+Nápoles	Sp00	Nápoles
 Narciso	Spm0	Narciso
 Natalia	Spf0	Natalia
 Navajas	Sp00	Navajas
@@ -2150,28 +2179,27 @@ Nicolás	Spm0	Nicolás
 Nicolás Redondo	Spm0	Nicolás Redondo
 Nigrán	Sp00	Nigrán
 Nikolái Aksenenko	Spm0	Nikolái Aksenenko
+Niñodaguia	Sp00	Niñodaguia
 Nis	Sp00	Nis
 Nivardo	Spm0	Nivardo
-Niñodaguia	Sp00	Niñodaguia
+Noé	Spm0	Noé
 Nogueira	Sp00	Nogueira
 Noia	Sp00	Noia
 Noruega	Sp00	Noruega
+Nós	Sp00	Nós
 Nosa Señora de a Concepción	Spf0	Nosa Señora de a Concepción
 Nostián	Sp00	Nostián
 Nottingham	Sp00	Nottingham
 Nova York	Sp00	Nova York
 Novas Xeracións de o PP de Galicia	Spfp	Novas Xeracións de o PP de Galicia
 Noya	Sp00	Noya
-Noé	Spm0	Noé
-Nós	Sp00	Nós
+Núcleo Vello	Spms	Núcleo Vello
 Nuestra Señora de la Esperanza	Spfs	Nuestra Señora de la Esperanza
 Nueva Izquierda	Sp00	Nueva Izquierda
 Nueva Nación	Sp00	Nueva Nación
+Núñez Morgades	Sp00	Núñez Morgades
 Nuria Arca	Spf0	Nuria Arca
 Nuria Esther Arcas Fernández	Spf0	Nuria Esther Arcas Fernández
-Nápoles	Sp00	Nápoles
-Núcleo Vello	Spms	Núcleo Vello
-Núñez Morgades	Sp00	Núñez Morgades
 O Barco	Sp00	O Barco
 O Barco de Valdeorras	Sp00	O Barco de Valdeorras
 O Bolo	Sp00	O Bolo
@@ -2218,11 +2246,11 @@ Ogata	Sp00	Ogata
 Ohio	Sp00	Ohio
 Olaia Baleato	Sp00	Olaia Baleato
 Olaia Fernández	Spf0	Olaia Fernández
+Olé	Sp00	Olé
 Oleg Sisúyev	Spm0	Oleg Sisúyev
 Olegaria	Spf0	Olegaria
 Oleiros	Sp00	Oleiros
 Oliver	Spm0	Oliver
-Olé	Sp00	Olé
 Omar Torrijos	Spm0	Omar Torrijos
 Omni, alarma nuclear	Sp00	Omni, alarma nuclear
 Orballo de media noite	Sp00	Orballo de media noite
@@ -2247,9 +2275,10 @@ Ortigueira	Sp00	Ortigueira
 Ortodisca	Sp00	Ortodisca
 Orzamentos Xerais de o Estado	Spmp	Orzamentos Xerais de o Estado
 Orzán	Sp00	Orzán
+Os Ánxeles	Sp00	Os Ánxeles
 Os Balcáns	Sp00	Os Balcáns
 Os Balcáns	Spmp	Os Balcáns
-Os Ánxeles	Sp00	Os Ánxeles
+Óscar	Spm0	Óscar
 Oseira	Sp00	Oseira
 Oslo	Sp00	Oslo
 Otegi	Sp00	Otegi
@@ -2267,17 +2296,18 @@ Pablo González Moreiras	Spm0	Pablo González Moreiras
 Pablo Iglesias	Spm0	Pablo Iglesias
 Pablo Molins	Spm0	Pablo Molins
 Pablo Vaamonde	Spm0	Pablo Vaamonde
+Pacífico	Sp00	Pacífico
 Paco	Spm0	Paco
 Paco Vázquez	Spm0	Paco Vázquez
 Pacto de Estella	Spms	Pacto de Estella
 Pacto de Toledo	Spms	Pacto de Toledo
 Pacto sobre o Emprego	Spms	Pacto sobre o Emprego
 Pacto sobre o emprego	Spms	Pacto sobre o emprego
-Pacífico	Sp00	Pacífico
 Paderne de Allariz	Sp00	Paderne de Allariz
 Padornelo	Sp00	Padornelo
 Padrón	Sp00	Padrón
 Paio	Spm0	Paio
+País Basco	Sp00	País Basco
 Palacio Real	Spms	Palacio Real
 Palacio de Congresos de Madrid	Spms	Palacio de Congresos de Madrid
 Palacio de Congresos de Santiago	Spms	Palacio de Congresos de Santiago
@@ -2287,8 +2317,8 @@ Palestina	Sp00	Palestina
 Palmira	Spf0	Palmira
 Palmou	Sp00	Palmou
 Pamela	Spf0	Pamela
-Pamplona	Sp00	Pamplona
 Pampín	Sp00	Pampín
+Pamplona	Sp00	Pamplona
 Panamá	Sp00	Panamá
 Pantón	Sp00	Pantón
 Papantoniu	Sp00	Papantoniu
@@ -2297,6 +2327,7 @@ Paradela	Sp00	Paradela
 Parador Nacional de Baiona	Spms	Parador Nacional de Baiona
 Paradores	Sp00	Paradores
 Paradores de Turismo	Sp00	Paradores de Turismo
+París	Sp00	París
 Parlamento	Spms	Parlamento
 Parlamento Europeo	Spms	Parlamento Europeo
 Parlamento de Cataluña	Spms	Parlamento de Cataluña
@@ -2315,7 +2346,6 @@ Partido Socialista de Galicia	Spms	Partido Socialista de Galicia
 Partido Unionista de o Úlster	Spms	Partido Unionista de o Úlster
 Partido de Deus	Sp00	Partido de Deus
 Partido de o Congreso	Spm0	Partido de o Congreso
-París	Sp00	París
 Pasarón	Sp00	Pasarón
 Pascual	Sp00	Pascual
 Pascual	Spm0	Pascual
@@ -2338,7 +2368,6 @@ Pazo de Fonseca	Spms	Pazo de Fonseca
 Pazo de Raxoi	Spms	Pazo de Raxoi
 Pazo de os deportes Paco Paz	Spms	Pazo de os deportes Paco Paz
 Pazos Torres	Sp00	Pazos Torres
-País Basco	Sp00	País Basco
 Pec	Sp00	Pec
 Pedro	Spm0	Pedro
 Pedro Alfonso Ocho Ledesma	Spm0	Pedro Alfonso Ocho Ledesma
@@ -2354,8 +2383,8 @@ Pedrosa	Sp00	Pedrosa
 Pedroso	Sp00	Pedroso
 Pegaso	Sp00	Pegaso
 Peinador	Sp00	Peinador
-Pentium	Sp00	Pentium
 Pentágono	Spms	Pentágono
+Pentium	Sp00	Pentium
 Pepa	Spf0	Pepa
 Pepe	Spm0	Pepe
 Pequín	Sp00	Pequín
@@ -2363,6 +2392,8 @@ Percival	Spm0	Percival
 Peregrinacións	Sp00	Peregrinacións
 Pereiras-A Venda de o Río	Sp00	Pereiras-A Venda de o Río
 Pereiro de Aguiar	Sp00	Pereiro de Aguiar
+Pérez Gómez	Sp00	Pérez Gómez
+Pérez Touriño	Sp00	Pérez Touriño
 Perfecto	Spm0	Perfecto
 Perpetua	Spf0	Perpetua
 Persoal	Sp00	Persoal
@@ -2380,11 +2411,11 @@ Pilar	Spf0	Pilar
 Pilar Farjas	Spf0	Pilar Farjas
 Pilar García Negro	Spf0	Pilar García Negro
 Pimentel	Sp00	Pimentel
+Piñeiro	Sp00	Piñeiro
 Pinochet	Sp00	Pinochet
 Piqué	Sp00	Piqué
 Pita	Sp00	Pita
 Pittsburgh	Sp00	Pittsburgh
-Piñeiro	Sp00	Piñeiro
 Plan	Spms	Plan
 Plan Marshall	Spms	Plan Marshall
 Plan de Autoprotección	Spms	Plan de Autoprotección
@@ -2410,8 +2441,6 @@ Policía Autónoma Basca	Spfs	Policía Autónoma Basca
 Policía Local	Spfs	Policía Local
 Policía Nacional	Sp00	Policía Nacional
 Policía Nacional	Spfs	Policía Nacional
-Politur	Sp00	Politur
-Polonia	Sp00	Polonia
 Política Agraria Comunitaria	Spfs	Política Agraria Comunitaria
 Política Educativa	Sp00	Política Educativa
 Política Municipal	Sp00	Política Municipal
@@ -2419,13 +2448,16 @@ Política Pesqueira Común	Spfs	Política Pesqueira Común
 Política Territorial	Sp00	Política Territorial
 Política Territorial , Obras Públicas e Vivenda	Sp00	Política Territorial , Obras Públicas e Vivenda
 Políticas	Sp00	Políticas
+Politur	Sp00	Politur
+Polonia	Sp00	Polonia
 Pombal	Sp00	Pombal
 Ponteareas	Sp00	Ponteareas
 Pontedeume	Sp00	Pontedeume
 Pontenova	Sp00	Pontenova
 Pontevedra	Sp00	Pontevedra
-Porriño	Sp00	Porriño
 Porrás	Sp00	Porrás
+Porriño	Sp00	Porriño
+Pórtico	Sp00	Pórtico
 Porto-Rial	Sp00	Porto-Rial
 Portomarín	Sp00	Portomarín
 Portugal	Sp00	Portugal
@@ -2454,6 +2486,7 @@ Primeiro de Maio	Spms	Primeiro de Maio
 Principado	Sp00	Principado
 Principado de Asturias	Sp00	Principado de Asturias
 Principado de Mónaco	Sp00	Principado de Mónaco
+Príncipe	Sp00	Príncipe
 Pristina	Sp00	Pristina
 Prizren	Sp00	Prizren
 Pro-Río	Sp00	Pro-Río
@@ -2466,7 +2499,6 @@ Provence	Sp00	Provence
 Proxecto Fiatex	Spms	Proxecto Fiatex
 Proxecto de lei de ordenación de a edificación	Spms	Proxecto de lei de ordenación de a edificación
 Prudencio	Spm0	Prudencio
-Príncipe	Sp00	Príncipe
 Psicoloxía de o traballo e de as Organizacións	Sp00	Psicoloxía de o traballo e de as Organizacións
 Psicopedagoxía	Sp00	Psicopedagoxía
 Puente de el Mundo	Spfs	Puente de el Mundo
@@ -2478,9 +2510,6 @@ Punta Arnela	Sp00	Punta Arnela
 Purificación	Spf0	Purificación
 Putin	Sp00	Putin
 Puxeiros	Sp00	Puxeiros
-Pérez Gómez	Sp00	Pérez Gómez
-Pérez Touriño	Sp00	Pérez Touriño
-Pórtico	Sp00	Pórtico
 Quico	Spm0	Quico
 Quince	Spmp	Quince
 Quindós	Sp00	Quindós
@@ -2490,6 +2519,7 @@ Quintiliana	Spf0	Quintiliana
 Quique	Spm0	Quique
 Quiroga	Sp00	Quiroga
 R. Guerrini	Sp00	R. Guerrini
+Rábade	Sp00	Rábade
 Radio Galega	Spfs	Radio Galega
 Radio Obradoiro	Sp00	Radio Obradoiro
 Radio Televisión de Galicia	Spfs	Radio Televisión de Galicia
@@ -2507,10 +2537,9 @@ Rajiv Gandhi	Spm0	Rajiv Gandhi
 Rajoy	Sp00	Rajoy
 Ram	Sp00	Ram
 Rambouillet	Sp00	Rambouillet
-Ramiro	Spm0	Ramiro
 Ramiráns	Sp00	Ramiráns
-Ramstein	Sp00	Ramstein
 Ramírez	Sp00	Ramírez
+Ramiro	Spm0	Ramiro
 Ramón	Spm0	Ramón
 Ramón Alonso Fernández	Spm0	Ramón Alonso Fernández
 Ramón Arias	Spm0	Ramón Arias
@@ -2519,12 +2548,13 @@ Ramón Jáuregui	Spm0	Ramón Jáuregui
 Ramón Piñeiro	Spm0	Ramón Piñeiro
 Ramón Poch	Spm0	Ramón Poch
 Ramón Rego	Spm0	Ramón Rego
+Ramstein	Sp00	Ramstein
 Rande	Sp00	Rande
 Raquel	Spf0	Raquel
 Rato	Sp00	Rato
+Raúl	Spm0	Raúl
 Raxoi	Sp00	Raxoi
 Rayment	Sp00	Rayment
-Raúl	Spm0	Raúl
 Real Academia Galega	Spfs	Real Academia Galega
 Real Academia de Medicina e Cirurxía de Galicia	Spfs	Real Academia de Medicina e Cirurxía de Galicia
 Real Decreto	Spms	Real Decreto
@@ -2569,6 +2599,8 @@ Ribeira	Sp00	Ribeira
 Ribó	Sp00	Ribó
 Ricardo	Spm0	Ricardo
 Ridruejo	Sp00	Ridruejo
+Río Segura	Sp00	Río Segura
+Ríos	Sp00	Ríos
 Risga	Sp00	Risga
 Rita	Spf0	Rita
 Roberto	Spm0	Roberto
@@ -2576,8 +2608,8 @@ Roberto Blanco Torres	Spm0	Roberto Blanco Torres
 Roberto García Calvo	Spm0	Roberto García Calvo
 Roberto Iglesias Domínguez	Spm0	Roberto Iglesias Domínguez
 Robustiano	Spm0	Robustiano
-Rock Hudson	Spm0	Rock Hudson
 Rocío	Spf0	Rocío
+Rock Hudson	Spm0	Rock Hudson
 Rodolfo	Spm0	Rodolfo
 Rodrigo	Spm0	Rodrigo
 Rodrigo Rato	Spm0	Rodrigo Rato
@@ -2587,11 +2619,11 @@ Rodríguez Lamas	Sp00	Rodríguez Lamas
 Rolda de Toledo	Sp00	Rolda de Toledo
 Rolda de noite	Spfs	Rolda de noite
 Roma	Sp00	Roma
+Román	Spm0	Román
 Romanía	Sp00	Romanía
 Romario	Spm0	Romario
 Romay	Sp00	Romay
 Romay Beccaría	Sp00	Romay Beccaría
-Román	Spm0	Román
 Roque	Spm0	Roque
 Rosa	Spf0	Rosa
 Rosa Conde	Spf0	Rosa Conde
@@ -2617,9 +2649,6 @@ Ruiz Gallardón	Sp00	Ruiz Gallardón
 Rumanía	Sp00	Rumanía
 Rusia	Sp00	Rusia
 Ruta Xacobea	Sp00	Ruta Xacobea
-Rábade	Sp00	Rábade
-Río Segura	Sp00	Río Segura
-Ríos	Sp00	Ríos
 SER	Sp00	SER
 SOS Familia	Spfs	SOS Familia
 Sabela	Spf0	Sabela
@@ -2640,12 +2669,12 @@ Salimat	Sp00	Salimat
 Salimat 99	Sp00	Salimat 99
 Salnés	Sp00	Salnés
 Salomé	Spf0	Salomé
-Salvador	Spm0	Salvador
 Salón	Spms	Salón
 Salón Internacional de o Turismo de Cataluña	Spms	Salón Internacional de o Turismo de Cataluña
 Salón Nobre de Fonseca	Spms	Salón Nobre de Fonseca
 Salón Principal	Spms	Salón Principal
 Salón de Alimentación de o Atlántico	Spms	Salón de Alimentación de o Atlántico
+Salvador	Spm0	Salvador
 Samos	Sp00	Samos
 Sampaio	Sp00	Sampaio
 Samuel	Spm0	Samuel
@@ -2663,6 +2692,9 @@ San Sebastián	Sp00	San Sebastián
 San Tomé	Sp00	San Tomé
 San Vicente	Sp00	San Vicente
 San Vicente de o Mar	Sp00	San Vicente de o Mar
+Sánchez	Sp00	Sánchez
+Sánchez Arévalo	Sp00	Sánchez Arévalo
+Sánchez de León	Sp00	Sánchez de León
 Sanctus	Spms	Sanctus
 Sanidade	Sp00	Sanidade
 Sanidade e Asuntos Sociais	Sp00	Sanidade e Asuntos Sociais
@@ -2683,18 +2715,18 @@ Santo Sava	Sp00	Santo Sava
 Sara	Spf0	Sara
 Saraxevo	Sp00	Saraxevo
 Sarria	Sp00	Sarria
-Saul	Spm0	Saul
-Saul Takahashi	Spm0	Saul Takahashi
-Savine Vode	Sp00	Savine Vode
 Saúde	Sp00	Saúde
 Saúde Pública	Sp00	Saúde Pública
+Saul	Spm0	Saul
 Saúl	Spm0	Saúl
+Saul Takahashi	Spm0	Saul Takahashi
+Savine Vode	Sp00	Savine Vode
 Schroeder	Sp00	Schroeder
 Schubert	Spm0	Schubert
 Scotland Yard	Sp00	Scotland Yard
 Seat	Sp00	Seat
-Sebastiana	Spf0	Sebastiana
 Sebastián	Spm0	Sebastián
+Sebastiana	Spf0	Sebastiana
 Secretaría Xeral de o Sergas	Spfs	Secretaría Xeral de o Sergas
 Secretaría de Estado de Asuntos Penitenciarios	Spfs	Secretaría de Estado de Asuntos Penitenciarios
 Secretaría de Estado de Comercio , Turismo e Pemes	Spfs	Secretaría de Estado de Comercio , Turismo e Pemes
@@ -2723,9 +2755,9 @@ Serbia	Sp00	Serbia
 Sergas	Spms	Sergas
 Sergi	Spm0	Sergi
 Sergio Marqués	Spm0	Sergio Marqués
-Serguei Stepashin	Spm0	Serguei Stepashin
 Serguéi Ivanenko	Spm0	Serguéi Ivanenko
 Serguéi Markov	Spms	Serguéi Markov
+Serguei Stepashin	Spm0	Serguei Stepashin
 Serguéi Stepashin	Spm0	Serguéi Stepashin
 Serguéi Stepashin	Spms	Serguéi Stepashin
 Serra	Sp00	Serra
@@ -2755,8 +2787,8 @@ Silva	Sp00	Silva
 Silvia	Spf0	Silvia
 Silvio	Spm0	Silvio
 Simeón	Spm0	Simeón
-Simulador de Navegación de o Camiño de Santiago	Spms	Simulador de Navegación de o Camiño de Santiago
 Simón	Spm0	Simón
+Simulador de Navegación de o Camiño de Santiago	Spms	Simulador de Navegación de o Camiño de Santiago
 Sinbad	Spm0	Sinbad
 Sindicato Interino de o Ensino Galego	Spms	Sindicato Interino de o Ensino Galego
 Sindicato UXT	Spms	Sindicato UXT
@@ -2795,20 +2827,17 @@ Stravinsky	Sp00	Stravinsky
 Straw	Sp00	Straw
 Strobe Talbott	Spm0	Strobe Talbott
 Studio B	Spfs	Studio B
+Suárez Canal	Sp00	Suárez Canal
+Suárez Quintanilla	Sp00	Suárez Quintanilla
 Subcomisión de Asuntos Monetarios	Spfs	Subcomisión de Asuntos Monetarios
 Sudáfrica	Sp00	Sudáfrica
 Suecia	Sp00	Suecia
+Suíza	Sp00	Suíza
 Supremo	Spms	Supremo
 Surcin	Sp00	Surcin
 Susana	Spf0	Susana
 Susana Doval González	Spf0	Susana Doval González
 Suso	Spm0	Suso
-Suárez Canal	Sp00	Suárez Canal
-Suárez Quintanilla	Sp00	Suárez Quintanilla
-Suíza	Sp00	Suíza
-Sánchez	Sp00	Sánchez
-Sánchez Arévalo	Sp00	Sánchez Arévalo
-Sánchez de León	Sp00	Sánchez de León
 Tabacalera	Sp00	Tabacalera
 Taboada	Sp00	Taboada
 Taboadadela	Sp00	Taboadadela
@@ -2902,6 +2931,7 @@ Tribunal de o Xurado	Spms	Tribunal de o Xurado
 Trimble	Sp00	Trimble
 Trip	Spfs	Trip
 Troia	Sp00	Troia
+Trois-Frères	Sp00	Trois-Frères
 Tucho	Spm0	Tucho
 Tui	Sp00	Tui
 Turespaña	Sp00	Turespaña
@@ -2914,6 +2944,7 @@ UGT Galicia	Sp00	UGT Galicia
 Ulises	Spm0	Ulises
 Ulla	Sp00	Ulla
 Ulster	Sp00	Ulster
+Úlster	Sp00	Úlster
 Ultratur	Sp00	Ultratur
 Ultratur Andalucía	Spfs	Ultratur Andalucía
 Ultratur Portugal-Viajes y Turismo	Spfs	Ultratur Portugal-Viajes y Turismo
@@ -2926,6 +2957,13 @@ Unidade de Alcoloxía	Spfs	Unidade de Alcoloxía
 Unidade de Trastornos Alimentarios	Spfs	Unidade de Trastornos Alimentarios
 Unidade de Trastornos de a Alimentación	Spfs	Unidade de Trastornos de a Alimentación
 Unidade de Trastornos en a Alimentación	Spfs	Unidade de Trastornos en a Alimentación
+Unión	Spfs	Unión
+Unión Europea	Sp00	Unión Europea
+Unión Europea	Spfs	Unión Europea
+Unión Fenosa	Sp00	Unión Fenosa
+Unión de el Pueblo Navarro	Sp00	Unión de el Pueblo Navarro
+Unión por Panamá	Sp00	Unión por Panamá
+Unións Agrarias	Sp00	Unións Agrarias
 Universidade	Spfs	Universidade
 Universidade Nacional de Educación a Distancia	Sp00	Universidade Nacional de Educación a Distancia
 Universidade de Bahía Blanca	Spfs	Universidade de Bahía Blanca
@@ -2941,13 +2979,6 @@ Universidade de Western Oritario	Spfs	Universidade de Western Oritario
 Universidade de a Coruña	Spfs	Universidade de a Coruña
 Universidade de verán	Spfs	Universidade de verán
 University Medical Center	Spms	University Medical Center
-Unión	Spfs	Unión
-Unión Europea	Sp00	Unión Europea
-Unión Europea	Spfs	Unión Europea
-Unión Fenosa	Sp00	Unión Fenosa
-Unión de el Pueblo Navarro	Sp00	Unión de el Pueblo Navarro
-Unión por Panamá	Sp00	Unión por Panamá
-Unións Agrarias	Sp00	Unións Agrarias
 Urraca	Spf0	Urraca
 Uruguai	Sp00	Uruguai
 Uxía	Spf0	Uxía
@@ -2963,15 +2994,18 @@ VIII Xornadas galegas sobre o alcolismo	Spfp	VIII Xornadas galegas sobre o alcol
 Vaamonde	Sp00	Vaamonde
 Valencia	Sp00	Valencia
 Valensa	Sp00	Valensa
-Valentina Karachentseva	Spfs	Valentina Karachentseva
 Valentín	Spm0	Valentín
+Valentina Karachentseva	Spfs	Valentina Karachentseva
 Valga	Sp00	Valga
 Valjevo	Sp00	Valjevo
 Valladolid	Sp00	Valladolid
 Vallarino	Sp00	Vallarino
 Varadeiro	Sp00	Varadeiro
 Varela Durán	Sp00	Varela Durán
+Varèse	Sp00	Varèse
 Variety	Sp00	Variety
+Vázquez	Sp00	Vázquez
+Vázquez Chaves	Sp00	Vázquez Chaves
 Vegalsa	Sp00	Vegalsa
 Vego Supermercados	Sp00	Vego Supermercados
 Vegonsa	Sp00	Vegonsa
@@ -2986,6 +3020,8 @@ Ventura	Spm0	Ventura
 Verdes	Spmp	Verdes
 Verea	Sp00	Verea
 Verín	Sp00	Verín
+Vía Digital	Sp00	Vía Digital
+Vía Láctea	Spfs	Vía Láctea
 Viajes Amado	Spfs	Viajes Amado
 Viajes Politur	Sp00	Viajes Politur
 Viajes Politur	Spfs	Viajes Politur
@@ -2997,7 +3033,12 @@ Vicente Sánchez de León	Spm0	Vicente Sánchez de León
 Vicerrectorado de Coordinación	Spms	Vicerrectorado de Coordinación
 Vicerrectorado de Estudiantes	Spms	Vicerrectorado de Estudiantes
 Victim	Sp00	Victim
+Víctor	Spm0	Víctor
 Victor Chernomirdin	Spm0	Víctor Chernomirdin
+Víctor Chernomirdin	Spm0	Víctor Chernomirdin
+Víctor Manuel P.P.	Spm0	Víctor Manuel P.P.
+Víctor Ríos	Spm0	Víctor Ríos
+Víctor Sahuquillo	Spm0	Víctor Sahuquillo
 Victoria	Spf0	Victoria
 Viena	Sp00	Viena
 Vietnam	Sp00	Vietnam
@@ -3033,15 +3074,6 @@ Viviano	Spm0	Viviano
 Vivir Viajes	Spfs	Vivir Viajes
 Vladan Bojic	Spm0	Vladan Bojic
 Vladímir Putin	Spm0	Vladímir Putin
-Vázquez	Sp00	Vázquez
-Vázquez Chaves	Sp00	Vázquez Chaves
-Vía Digital	Sp00	Vía Digital
-Vía Láctea	Spfs	Vía Láctea
-Víctor	Spm0	Víctor
-Víctor Chernomirdin	Spm0	Víctor Chernomirdin
-Víctor Manuel P.P.	Spm0	Víctor Manuel P.P.
-Víctor Ríos	Spm0	Víctor Ríos
-Víctor Sahuquillo	Spm0	Víctor Sahuquillo
 WWF / Adena	Sp00	WWF / Adena
 Wald	Sp00	Wald
 Walter	Spm0	Walter
@@ -3080,6 +3112,7 @@ Xacinta	Spf0	Xacinta
 Xacinto	Spm0	Xacinto
 Xacobeo	Spms	Xacobeo
 Xacobeo 99	Spms	Xacobeo 99
+Xácome	Spm0	Xácome
 Xadrez de o Camiño de Santiago	Spms	Xadrez de o Camiño de Santiago
 Xaime	Spm0	Xaime
 Xaime Illa	Spm0	Xaime Illa
@@ -3109,7 +3142,6 @@ Xerome	Spm0	Xerome
 Xertrude	Spf0	Xertrude
 Xerusalén	Sp00	Xerusalén
 Xerusalén desde o aire	Sp00	Xerusalén desde o aire
-Xesusa	Spf0	Xesusa
 Xesé	Spm0	Xesé
 Xesús	Spm0	Xesús
 Xesús Díaz	Spm0	Xesús Díaz
@@ -3117,6 +3149,7 @@ Xesús Laíño Briones	Spm0	Xesús Laíño Briones
 Xesús Palmou	Spm0	Xesús Palmou
 Xesús Pérez Varela	Spm0	Xesús Pérez Varela
 Xesús Vega	Spm0	Xesús Vega
+Xesusa	Spf0	Xesusa
 Xian	Sp00	Xian
 Xil	Spm0	Xil
 Ximonde	Sp00	Ximonde
@@ -3124,12 +3157,14 @@ Xinzo	Sp00	Xinzo
 Xinzo de Limia	Sp00	Xinzo de Limia
 Xiradela	Sp00	Xiradela
 Xixón	Sp00	Xixón
+Xoán	Spm0	Xoán
+Xoán Hermida	Spm0	Xoán Hermida
+Xoán Paulo II	Spm0	Xoán Paulo II
 Xoana	Spf0	Xoana
-Xoaquina	Spf0	Xoaquina
 Xoaquín	Spm0	Xoaquín
+Xoaquina	Spf0	Xoaquina
 Xosafat	Spm0	Xosafat
 Xose	Spm0	Xose
-Xosefa	Spf0	Xosefa
 Xosé	Spm0	Xosé
 Xosé Cuíña	Spm0	Xosé Cuíña
 Xosé Cuíña Crespo	Spm0	Xosé Cuíña Crespo
@@ -3141,14 +3176,12 @@ Xosé Manuel Pazos	Spm0	Xosé Manuel Pazos
 Xosé Manuel Romay Beccaría	Spm0	Xosé Manuel Romay Beccaría
 Xosé María Hernández Cochón	Spm0	Xosé María Hernández Cochón
 Xosé Sánchez Bugallo	Spm0	Xosé Sánchez Bugallo
-Xoán	Spm0	Xoán
-Xoán Hermida	Spm0	Xoán Hermida
-Xoán Paulo II	Spm0	Xoán Paulo II
+Xosefa	Spf0	Xosefa
 Xudas	Spm0	Xudas
 Xulgado de Instrucción	Spms	Xulgado de Instrucción
 Xulgado número 9 de Instrucción	Spms	Xulgado número 9 de Instrucción
-Xulio	Spm0	Xulio
 Xulián	Spm0	Xulián
+Xulio	Spm0	Xulio
 Xunta	Spfs	Xunta
 Xunta Xeral	Spfs	Xunta Xeral
 Xunta Xeral de o Principado	Spfs	Xunta Xeral de o Principado
@@ -3163,7 +3196,7 @@ Xurxo	Spm0	Xurxo
 Xustiza	Sp00	Xustiza
 Xustiza	Spfs	Xustiza
 Xusto	Spm0	Xusto
-Xácome	Spm0	Xácome
+Yábloko	Sp00	Yábloko
 Yahoo España	Sp00	Yahoo España
 Yakovica	Sp00	Yakovica
 Yannos Papantoniu	Spm0	Yannos Papantoniu
@@ -3172,8 +3205,8 @@ Yebra-Pimentel	Sp00	Yebra-Pimentel
 Yevgueni Primakov	Spm0	Yevgueni Primakov
 Yogures Nestlé	Sp00	Yogures Nestlé
 Yolanda Morillo	Spf0	Yolanda Morillo
+YouTube	Sp00	YouTube
 Yuri Luzhkov	Spm0	Yuri Luzhkov
-Yábloko	Sp00	Yábloko
 Zabell	Sp00	Zabell
 Zacarías	Spm0	Zacarías
 Zamora	Sp00	Zamora
@@ -3191,20 +3224,6 @@ Zoran Matkovic	Spm0	Zoran Matkovic
 Zoran Zivkovic	Spm0	Zoran Zivkovic
 Zuberoa	Sp00	Zuberoa
 Zutabe	Sp00	Zutabe
+iPad	Sp00	iPad
+laSexta	Sp00	laSexta
 valentina	Spf0	valentina
-África	Sp00	África
-Águeda	Spf0	Águeda
-Águila	Sp00	Águila
-Álava	Sp00	Álava
-Álvarez	Sp00	Álvarez
-Álvaro	Spm0	Álvaro
-Ángel Cameselle	Spm0	Ángel Cameselle
-Ángel López Romalde	Spm0	Ángel López Romalde
-Ángeles Campos	Spf0	Ángeles Campos
-Ánxel	Spm0	Ánxel
-Área Metropolitana	Spfs	Área Metropolitana
-Área de Inmunoloxía	Spfs	Área de Inmunoloxía
-Ávila	Sp00	Ávila
-Índice Manpower	Sp00	Índice Manpower
-Óscar	Spm0	Óscar
-Úlster	Sp00	Úlster
