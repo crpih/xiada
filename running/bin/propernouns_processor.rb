@@ -56,8 +56,7 @@ class ProperNounsProcessor
           unless last_token == nil
             alternatives = get_proper_noun_alternatives(token, last_token)
             alternatives.each do |alternative|
-              #puts "alternative: #{alternative}"
-              trained_proper_nouns[alternative] = true
+             trained_proper_nouns[alternative] = true
             end
             prev_token = last_token
             token = last_token.next
@@ -457,12 +456,12 @@ class ProperNounsProcessor
   end
 
   def get_proper_noun_alternatives_aux(from, to)
-    #puts "\nget_proper_noun_alternatives_aux from:#{from.text} to:#{to.text}"
+    #STDERR.puts "\nget_proper_noun_alternatives_aux from:#{from.text} to:#{to.text}"
     result = Array.new
     token = from
     if from != to
       new_token_text = String.new(token.text)
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)
+      if (StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)) and @dw.not_in_lexicon_or_only_substantive?(token.text)
         result << new_token_text
         new_token_text = String.new(new_token_text)
       end
@@ -486,7 +485,7 @@ class ProperNounsProcessor
     end
     #puts "result:"
     #result.each do |item|
-    #  puts "item:#{item}"
+    #  STDERR.puts "item:#{item}"
     #end
     return result
   end
