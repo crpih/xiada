@@ -287,6 +287,7 @@ Bacillus thuringiensis israeliensis	Snaa	Bacillus thuringiensis israeliensis	Bac
 Bacilus anthracis	Snaa	Bacilus anthracis	Bacilus anthracis
 Bacteriastrum byalinum	Snaa	Bacteriastrum byalinum	Bacteriastrum byalinum
 Bacteroides nodosus	Snaa	Bacteroides nodosus	Bacteroides nodosus
+baño maría	Scms	baño maría	baño maría
 bardante de	Lp0	bardante de	bardante de
 Barlia robertiana	Snaa	Barlia robertiana	Barlia robertiana
 Bauhinia blackeana	Snaa	Bauhinia blackeana	Bauhinia blackeana
@@ -319,6 +320,7 @@ Boops Boops	Snaa	Boops Boops	Boops boops
 Borago officinalis	Snaa	Borago officinalis	Borago officinalis
 Borrago officinalis	Snaa	Borrago officinalis	Borago officinalis
 Borrelia burgdoferi	Snaa	Borrelia burgdoferi	Borrelia burgdoferi
+bossa nova	Scfs	bossa nova	bossa nova
 Botriomices equi	Snaa	Botriomices equi	Botriomices equi
 Botrytis cinerea	Snaa	Botrytis cinerea	Botrytis cinerea
 Brama Brama	Snaa	Brama Brama	Brama brama

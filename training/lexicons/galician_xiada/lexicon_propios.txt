@@ -3225,5 +3225,6 @@ Zoran Zivkovic	Spm0	Zoran Zivkovic
 Zuberoa	Sp00	Zuberoa
 Zutabe	Sp00	Zutabe
 iPad	Sp00	iPad
+iPhone	Sp00	iPhone
 laSexta	Sp00	laSexta
 valentina	Spf0	valentina
