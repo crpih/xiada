@@ -179,10 +179,11 @@ class Suffixes
       @suffixes_tags_probs[key] = Float(freq) / @frequencies[suffix]
     end
   end
-  
-  def proper_noun_or_closed(tag)
-    result = tag=~/Sp|P|C|D|E|T|M|I|R|G|L|Q/
-    return result
-  end
+
+# Commented on 15/11/2021: Not used
+#  def proper_noun_or_closed(tag)
+#    result = tag=~/Sp|P|C|D|E|T|M|I|R|G|L|Q/
+#    return result
+#  end
   
 end
