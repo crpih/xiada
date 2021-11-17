@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -134,6 +134,14 @@ class Sentence
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
+      # Split parents
+      elsif token != "" and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
+        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
+        tokens_aux = token.split(/ |([\(\)])/)
+        STDERR.puts "tokens_aux:#{tokens_aux}"
+        tokens_aux.each do |token_aux|
+          tokens_new << token_aux if token_aux != ""
+        end
       elsif token != ""
         # STDERR.puts "inside3"
         tokens_new << token
