@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -155,7 +155,7 @@ class Sentence
     index = 0
     while (index < tokens.size)
       token = tokens[index]
-      STDERR.puts "token:#{token}, index:#{index}, tokens.size:#{tokens.size}"
+      #STDERR.puts "token:#{token}, index:#{index}, tokens.size:#{tokens.size}"
       if token =~ /^https?/ and (index + 2 < tokens.size)
         new_token = token
         new_full_token = "#{new_token}"
