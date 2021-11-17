@@ -159,7 +159,6 @@ module LemmatizerGalicianXiada
           return result unless result.empty?
         end
       end
-
       if word =~ /lciñ[oa]s?$/
         # solciño => sol (Scms)
         # animalciños => animal (Scmp)
@@ -420,7 +419,6 @@ module LemmatizerGalicianXiada
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
         return result unless result.empty?
       end
-
       if word =~ /siñ[oa]s?$/ and word !~ /uesiñ[oa]s?$/
         # tesiña => tese
         # tosiña => tose
@@ -428,7 +426,11 @@ module LemmatizerGalicianXiada
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
         return result unless result.empty?
       end
-
+      # Regra por defecto
+      # horiña, peliños, groliño, etc.
+      new_word = word.gsub(/iñ([oa]s?)$/,'\1')
+      result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*']))
+      return result unless result.empty?
     end
 
     # gh treatment
