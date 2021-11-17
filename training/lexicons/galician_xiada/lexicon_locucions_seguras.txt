@@ -33,21 +33,12 @@ a balavento	La0	a balavento	a balavento
 a baluto	La0	a baluto	a baluto
 a baravento	La0	a baravento	a balavento
 a barullo	La0	a barullo	a barullo
-Abies nordmanniana	Snaa	Abies nordmanniana	Abies nordmanniana
 ab intestato	La0	ab intestato	ab intestato
 a bordo	La0	a bordo	a bordo
-Abortus equi	Snaa	Abortus equi	Abortus equi
 a cachapernas	La0	a cachapernas	a cachapernas
 a cachón	La0	a cachón	a cachón
-Acacia dealbata	Snaa	Acacia dealbata	Acacia dealbata
-Acacia melanoxylon	Snaa	Acacia melanoxylon	Acacia melanoxylon
 a cal e canto	La0	a cal e canto	a cal e canto
 a canchapernas	La0	a canchapernas	a cachapernas
-Acanthocardia echinata	Snaa	Acanthocardia echinata	Acanthocardia echinata
-Acanthocardia Echinata	Snaa	Acanthocardia Echinata	Acanthocardia echinata
-Acanthocardia tuberculata	Snaa	Acanthocardia tuberculata	Acanthocardia tuberculata
-Acanthocardia Tuberculata	Snaa	Acanthocardia Tuberculata	Acanthocardia tuberculata
-Acanthus mollis	Snaa	Acanthus mollis	Acanthus mollis
 a capella	La0	a capella	a capela
 a cappella	La0	a cappella	a capela
 a capricho	La0	a capricho	a capricho
@@ -58,22 +49,11 @@ a carranchas	La0	a carranchas	a carranchas
 a cas de	Lp0	a cas de	a cas de
 a ceacú	La0	a ceacú	a ceacú
 acerca de	Lp0	acerca de	acerca de
-Acer pseudoplatanus	Snaa	Acer pseudoplatanus	Acer pseudoplatanus
-Acer pseudoplátanus	Snaa	Acer pseudoplátanus	Acer pseudoplatanus
-Acer sp.	Snaa	Acer sp.	Acer sp.
-Acetobacter aceti	Snaa	Acetobacter aceti	Acetobacter aceti
-Achillea millefolium	Snaa	Achillea millefolium	Achillea millefolium
 ácido fólico	Scms	ácido fólico	ácido fólico
 a ciencia certa	La0	a ciencia certa	a ciencia certa
-Acinetobacter baumannii	Snaa	Acinetobacter baumannii	Acinetobacter baumannii
 a contramán	La0	a contramán	a contramán
 a cotío	La0	a cotío	acotío
-Actinobacillus lignieresi	Snaa	Actinobacillus lignieresi	Actinobacillus lignieresi
-Actinomyces bovis	Snaa	Actinomyces bovis	Actinomyces bovis
-Actinomyces necrophorus	Snaa	Actinomyces necrophorus	Actinomyces necrophorus
 a cuberto	La0	a cuberto	a cuberto
-adenocarpus sp.	Snaa	adenocarpus sp.	Adenocarpus sp.
-Adenocarpus sp.	Snaa	Adenocarpus sp.	Adenocarpus sp.
 a desbarate	La0	a desbarate	a desbarate
 a desbarato	La0	a desbarato	a desbarate
 a descomán	La0	a descomán	a descomán
@@ -86,76 +66,41 @@ ad libitum	La0	ad libitum	ad libitum
 ad litteram	La0	ad litteram	ad litteram
 a doután	La0	a doután	a doután
 ad pedem litterae	La0	ad pedem litterae	ad pedem litterae
-Aedes aegypti	Snaa	Aedes aegypti	Aedes aegypti
 a eito	La0	a eito	a eito
 a embute	La0	a embute	a embute
 a escape	La0	a escape	a escape
-Aesculus hipocastanum	Snaa	Aesculus hipocastanum	Aesculus hipocastanum
-Aesculus hippocastanum	Snaa	Aesculus hippocastanum	Aesculus hippocastanum
 a esgalla	La0	a esgalla	a esgalla
 a esmo	La0	a esmo	a esmo
 a expensas de	Lp0	a expensas de	a expensas de
 a favor	La0	a favor	a favor
 a flote	La0	a flote	a flote
 a fortiori	La0	a fortiori	a fortiori
-Agaricus sp.	Snaa	Agaricus sp.	Agaricus sp.
 a gatiñas	La0	a gatiñas	a gatiñas
 a granel	La0	a granel	a granel
 a gustiño	La0	a gusto	a gusto
-A. hippocastanum	Snaa	A. hippocastanum	Aesculus hippocastanum
-Ahnfeltiopsis pusilla	Snaa	Ahnfeltiopsis pusilla	Ahnfeltiopsis pusilla
 aínda así	La0	aínda así	aínda así
 aínda cando	Lcs	aínda cando	aínda cando
 aínda que	Lcs	aínda que	aínda que
 aire acondicionado	Scms	aire acondicionado	aire acondicionado
-Alaria esculenta	Snaa	Alaria esculenta	Alaria esculenta
 algor mortis	Scms	algor mortis	algor mortis
-Alitta virens	Snaa	Alitta virens	Alitta virens
-Allium schmitzii	Snaa	Allium schmitzii	Allium schmitzii
-Allium schoenoprasum	Snaa	Allium schoenoprasum	Allium schoenoprasum
-Allium schoenoprasum var. duriminum	Snaa	Allium schoenoprasum var. duriminum	Allium schoenoprasum var. duriminum
-Allium victorialis	Snaa	Allium victorialis	Allium victorialis
 allo porro	Scms	allo porro	allo porro
 allos porros	Scmp	allo porro	allo porro
-Alloteuthis media	Snaa	Alloteuthis media	Alloteuthis media
-Alloteuthis subulata	Snaa	Alloteuthis subulata	Alloteuthis subulata
 all right	La0	all right	all right
-Alnus glutinosa	Snaa	Alnus glutinosa	Alnus glutinosa
-Alnus sp.	Snaa	Alnus sp.	Alnus sp.
 a lo menos	La0	a lo menos	alomenos
 a máis tardar	La0	a máis tardar	a máis tardar
-Amanita pantherina	Snaa	Amanita pantherina	Amanita pantherina
-Amanita phalloides	Snaa	Amanita phalloides	Amanita phalloides
 a mantenta	La0	a mantenta	a a mantenta
 a medias	La0	a medias	a medias
 a miudo	La0	a miudo	a miúdo
 a miúdo	La0	a miúdo	a miúdo
-Ammodytes Tobianus	Snaa	Ammodytes Tobianus	Ammodytes tobianus
-Ammophila arenaria	Snaa	Ammophila arenaria	Ammophila arenaria
 a modiño	La0	a modo	amodo
-Anacamptis morio	Snaa	Anacamptis morio	Anacamptis morio
-Anacamptis morio subsp. picta	Snaa	Anacamptis morio subsp. picta	Anacamptis morio subsp. picta
-Anacra negra	Snaa	Anacra negra	Anacra negra
-Anaplasma marginal	Snaa	Anaplasma marginal	Anaplasma marginale
-Anchusa azurea	Snaa	Anchusa azurea	Anchusa azurea
-Androrchis langei	Snaa	Androrchis langei	Androrchis langei
-Androrchis olbiensis	Snaa	Androrchis olbiensis	Androrchis olbiensis
-Anemonia viridis	Snaa	Anemonia viridis	Anemonia viridis
-A. níger	Snaa	A. níger	Aspergillus niger
 ano luz	Scms	ano luz	ano luz
-Anomalinatum blathicum	Snaa	Anomalinatum blathicum	Anomalinatum blathicum
-Anomia ephippium	Snaa	Anomia ephippium	Anomia ephippium
 a non ser que	Lcs	a non ser que	a non ser que
 a non ser se	Lcs	a non ser se	a non ser se
-Anopheles atroparvus	Snaa	Anopheles atroparvus	Anopheles atroparvus
-Anoplocephala magna	Snaa	Anoplocephala magna	Anoplocephala magna
-Anoplocephala perfoliata	Snaa	Anoplocephala perfoliata	Anoplocephala perfoliata
 ano santo	Scms	ano santo	ano santo
 anos luz	Scmp	ano luz	ano luz
 anos santos	Scmp	ano santo	ano santo
 ante meridiem	La0	ante meridiem	ante meridiem
 antes de antonte	La0	antes de antonte	antes de antonte
-Anthyllis cytisoides	Snaa	Anthyllis cytisoides	Anthyllis cytisoides
 antre lusco e fusco	La0	antre lusco e fusco	entre lusco e fusco
 a o agacho	La0	a o agacho	a o agacho
 a o biés	La0	a o biés	a o biés
@@ -181,9 +126,6 @@ a partires de	Lp0	a partires de	a partir de
 a pesar de	Lp0	a pesar de	a pesar de
 a pique	La0	a pique	a pique
 a piques	La0	a piques	a piques
-Apis mellifera	Snaa	Apis mellifera	Apis mellifera
-Apitrigla Obscura	Snaa	Apitrigla Obscura	Apitrigla obscura
-Apium graveolans	Snaa	Apium graveolans	Apium graveolans
 a poder de	Lp0	a poder de	a poder de
 a por de	Lp0	a por de	a por de
 a posteriori	La0	a posteriori	a posteriori
@@ -192,59 +134,22 @@ a prol	La0	a prol	a prol
 a punto de	Lp0	a punto de	a punto de
 a queimarroupa	La0	a queimarroupa	a queimarroupa
 a raxatabla	La0	a raxatabla	a raxatabla
-Arbutus unedo	Snaa	Arbutus unedo	Arbutus unedo
-Architeuthis dux	Snaa	Architeuthis dux	Architeuthis dux
 a recú	La0	a recú	a recú
 a regañadentes	La0	a regañadentes	a regañadentes
-Arenicola marina	Snaa	Arenicola marina	Arenicola marina
 a rente	La0	a rente	a rentes
 a rentes de	Lp0	a rentes de	a rentes de
 a rentes	La0	a rentes	a rentes
 a reo	La0	a reo	arreo
 a requichas	La0	a requichas	a requichas
 a retortoiro	La0	a retortoiro	a retortoiro
-Argentina Spyraena	Snaa	Argentina Spyraena	Argentina spyraena
-Aristaeomorpha foliacea	Snaa	Aristaeomorpha foliacea	Aristaeomorpha foliacea
-Aristeus antennatus	Snaa	Aristeus antennatus	Aristeus antennatus
-Armeria maritima	Snaa	Armeria maritima	Armeria maritima
-Armeria merinoi	Snaa	Armeria merinoi	Armeria merinoi
-Armeria pubigera	Snaa	Armeria pubigera	Armeria pubigera
-Arnica montana	Snaa	Arnica montana	Arnica montana
-Arola macha	Snaa	Arola macha	Arola macha
 arre demo	Y	arre demo	arre demo
-Artemis exoleta	Snaa	Artemis exoleta	Artemis exoleta
-Artemisia absinthium	Snaa	Artemisia absinthium	Artemisia absinthium
-Artemisia vulgaris	Snaa	Artemisia vulgaris	Artemisia vulgaris
-Arum italicum	Snaa	Arum italicum	Arum italicum
-Arum sp.	Snaa	Arum sp.	Arum sp.
-Arundo donax	Snaa	Arundo donax	Arundo donax
-Arvicola sapidus	Snaa	Arvicola sapidus	Arvicola sapidus
 a sabendas	La0	a sabendas	a sabendas
 a salvo	La0	a salvo	a salvo
-Ascaris lumbricoides	Snaa	Ascaris lumbricoides	Ascaris lumbricoides
-A. schmitzii	Snaa	A. schmitzii	A. schmitzii
-A. schoenoprasum	Snaa	A. schoenoprasum	A. schoenoprasum
 asemade que	Lcs	asemade que	asemade que
 a son de	Lp0	a son de	a son de
-Asparagopsis armata	Snaa	Asparagopsis armata	Asparagopsis armata
-Asparragus officinalis	Snaa	Asparragus officinalis	Asparragus officinalis
-Aspergillus flavus	Snaa	Aspergillus flavus	Aspergillus flavus
-Aspergillus fumigatus	Snaa	Aspergillus fumigatus	Aspergillus fumigatus
-Aspergillus niger	Snaa	Aspergillus niger	Aspergillus niger
-Aspergillus parasiticus	Snaa	Aspergillus parasiticus	Aspergillus parasiticus
-Aspergillus terreus	Snaa	Aspergillus terreus	Aspergillus terreus
-Asphodelus albus	Snaa	Asphodelus albus	Asphodelus albus
-Aspitrigla Cuculus	Snaa	Aspitrigla Cuculus	Aspitrigla cuculus
-Astacus elephas	Snaa	Astacus elephas	Astacus elephas
-Astacus marinus	Snaa	Astacus marinus	Astacus marinus
-Asterococus micoides	Snaa	Asterococus micoides	Asterococus micoides
-Atelecyclus undecimdentatus	Snaa	Atelecyclus undecimdentatus	Atelecyclus undecimdentatus
 a tentas	La0	a tentas	a tentas
 a teor de	Lp0	a teor de	a teor de
 a tergo	La0	a tergo	a tergo
-A. terreus	Snaa	A. terreus	Aspergillus terreus
-Athaea officinalis	Snaa	Athaea officinalis	Athaea officinalis
-Atherina Presbyter	Snaa	Atherina Presbyter	Atherina presbyter
 a tope	La0	a tope	a tope
 a toutiñas	La0	a toutas	a as atoutiñadas
 a traverso de	Lp0	a traverso de	a través de
@@ -253,12 +158,9 @@ através de	Lp0	através de	a través de
 a traveso de	Lp0	a traveso de	a través de
 a treo	La0	a treo	a treo
 a treu	La0	a treu	a treo
-A. tuberculata	Snaa	A. tuberculata	A. tuberculata
 a ultranza	La0	a ultranza	a ultranza
 ave fénix	Scfs	ave fénix	ave Fénix
 ave Fénix	Scfs	ave Fénix	ave Fénix
-Avena sp.	Snaa	Avena sp.	Avena sp.
-Avena strigosa	Snaa	Avena strigosa	Avena strigosa
 a voleo	La0	a voleo	a voleo
 a xeito de	Lp0	a xeito de	a xeito de
 a xuízo de	Lp0	a xuízo de	a xuízo de
@@ -278,25 +180,8 @@ azul turquesa	A0as	azul turquesa	azul turquesa
 azul turquesa	A0fs	azul turquesa	azul turquesa
 azul turquesa	A0ms	azul turquesa	azul turquesa
 azul turquesa	Scms	azul turquesa	azul turquesa
-Babesia bigemina	Snaa	Babesia bigemina	Babesia bigemina
-Babesia caballi	Snaa	Babesia caballi	Babesia caballi
-Babesia equi	Snaa	Babesia equi	Babesia equi
-Bacillus anthracis	Snaa	Bacillus anthracis	Bacillus anthracis
-Bacillus cereus	Snaa	Bacillus cereus	Bacillus cereus
-Bacillus thuringiensis israeliensis	Snaa	Bacillus thuringiensis israeliensis	Bacillus thuringiensis israeliensis
-Bacilus anthracis	Snaa	Bacilus anthracis	Bacilus anthracis
-Bacteriastrum byalinum	Snaa	Bacteriastrum byalinum	Bacteriastrum byalinum
-Bacteroides nodosus	Snaa	Bacteroides nodosus	Bacteroides nodosus
 baño maría	Scms	baño maría	baño maría
 bardante de	Lp0	bardante de	bardante de
-Barlia robertiana	Snaa	Barlia robertiana	Barlia robertiana
-Bauhinia blackeana	Snaa	Bauhinia blackeana	Bauhinia blackeana
-Belamcanda chinensis	Snaa	Belamcanda chinensis	Belamcanda chinensis
-Bellis perennis	Snaa	Bellis perennis	Bellis perennis
-Belone Belone	Snaa	Belone Belone	Belone belone
-Berberis vulgaris	Snaa	Berberis vulgaris	Berberis vulgaris
-Beryx Decadactylus	Snaa	Beryx Decadactylus	Beryx decadactylus
-Beryx splendes	Snaa	Beryx splendes	Beryx splendes
 best seller	A0as	best seller	best-séller
 best seller	A0fs	best seller	best-séller
 best seller	A0ms	best seller	best-séller
@@ -305,35 +190,8 @@ best sellers	A0fp	best seller	best-séller
 best sellers	A0mp	best seller	best-séller
 best seller	Scms	best seller	best-séller
 best sellers	Scmp	best seller	best-séller
-Betula alba	Snaa	Betula alba	Betula alba
-Betula celtiberica	Snaa	Betula celtiberica	Betula celtiberica
-Betula celtibérica	Snaa	Betula celtibérica	Betula celtiberica
-Betula sp.	Snaa	Betula sp.	Betula sp.
-Bifurcaria bifurcata	Snaa	Bifurcaria bifurcata	Bifurcaria bifurcata
-Bison bison	Snaa	Bison bison	Bison bison
-Bison bonasus	Snaa	Bison bonasus	Bison bonasus
-Bison priscus	Snaa	Bison priscus	Bison priscus
 boca abaixo	La0	boca abaixo	boca abaixo
-Bombus pascuorum	Snaa	Bombus pascuorum	Bombus pascuorum
-Bombus terrestris	Snaa	Bombus terrestris	Bombus terrestris
-Boops Boops	Snaa	Boops Boops	Boops boops
-Borago officinalis	Snaa	Borago officinalis	Borago officinalis
-Borrago officinalis	Snaa	Borrago officinalis	Borago officinalis
-Borrelia burgdoferi	Snaa	Borrelia burgdoferi	Borrelia burgdoferi
 bossa nova	Scfs	bossa nova	bossa nova
-Botriomices equi	Snaa	Botriomices equi	Botriomices equi
-Botrytis cinerea	Snaa	Botrytis cinerea	Botrytis cinerea
-Brama Brama	Snaa	Brama Brama	Brama brama
-Brasicca oleracea	Snaa	Brasicca oleracea	Brasicca oleracea
-Briza sp.	Snaa	Briza sp.	Briza sp.
-Bromus sp.	Snaa	Bromus sp.	Bromus sp.
-Brucela abortus	Snaa	Brucela abortus	Brucella abortus
-Brucellas abortus	Snaa	Brucellas abortus	Brucella abortus
-Buccinum undatum	Snaa	Buccinum undatum	Buccinum undatum
-Bufo calamita	Snaa	Bufo calamita	Bufo calamita
-Bufo spinosus	Snaa	Bufo spinosus	Bufo spinosus
-Burhinus oedicnemus	Snaa	Burhinus oedicnemus	Burhinus oedicnemus
-Buxus sempervirens	Snaa	Buxus sempervirens	Buxus sempervirens
 cabaliño de mar	Scms	cabalo de mar	cabalo de mar
 cabaliño do demo	Scms	cabalo do demo	cabalo do demo
 cabaliños de mar	Scmp	cabalo de mar	cabalo de mar
@@ -345,175 +203,39 @@ cabalos de mar	Scmp	cabalo de mar	cabalo de mar
 cabalos de vapor	Scmp	cabalo de vapor	cabalo de vapor
 cabalos do demo	Scmp	cabalo do demo	cabalo do demo
 cable USB	Scms	cable USB	cable USB
-Caenorhabditis elegans	Snaa	Caenorhabditis elegans	Caenorhabditis elegans
-Caernohabditis elegans	Snaa	Caernohabditis elegans	Caenorhabditis elegans
-Calanus finmarchus	Snaa	Calanus finmarchus	Calanus finmarchus
-Calendula arvensis	Snaa	Calendula arvensis	Calendula arvensis
-Calendula officinalis	Snaa	Calendula officinalis	Calendula officinalis
-Callista chione	Snaa	Callista chione	Callista chione
-Callitriche sp.	Snaa	Callitriche sp.	Callitriche sp.
-Calluna sp.	Snaa	Calluna sp.	Calluna sp.
-Calluna vulgaris	Snaa	Calluna vulgaris	Calluna vulgaris
-Calystegia soldanella	Snaa	Calystegia soldanella	Calystegia soldanella
-Camellia sinensis	Snaa	Camellia sinensis	Camellia sinensis
-Campylobacter jejuni	Snaa	Campylobacter jejuni	Campylobacter jejuni
-Cancer gammarus	Snaa	Cancer gammarus	Cancer gammarus
-Cancer pagurus	Snaa	Cancer pagurus	Cancer pagurus
-Candida albicans	Snaa	Candida albicans	Candida albicans
-Candida spp	Snaa	Candida spp	Candida spp.
-C. angulata	Snaa	C. angulata	C. angulata
-Canis familiaris	Snaa	Canis familiaris	Canis familiaris
-canis lupus familiaris	Snaa	canis lupus familiaris	Canis lupus familiaris
-Canis lupus gallaicus	Snaa	Canis lupus gallaicus	Canis lupus gallaicus
-Canis lupus signatus	Snaa	Canis lupus signatus	Canis lupus signatus
-Canis lupus	Snaa	Canis lupus	Canis lupus
 cante hondo	Scms	cante hondo	cante hondo
 cante jondo	Scms	cante jondo	cante hondo
-Capra Aegagrus	Snaa	Capra Aegagrus	Capra aegagrus
-Capreolus capreolus	Snaa	Capreolus capreolus	Capreolus capreolus
 captatio benevolentiae	Scfs	captatio benevolentiae	captatio benevolentiae
-Carcinus maenas	Snaa	Carcinus maenas	Carcinus maenas
-Cardium echinatum	Snaa	Cardium echinatum	Cardium echinatum
-Cardium edule	Snaa	Cardium edule	Cardium edule
-Cardium tuberculatum	Snaa	Cardium tuberculatum	Cardium tuberculatum
-Carex sp.	Snaa	Carex sp.	Carex sp.
-Carnicus maenas	Snaa	Carnicus maenas	Carnicus maenas
 carpe diem	Scms	carpe diem	carpe diem
 cas de	Lp0	cas de	cas de
 case que	La0	case que	case que
-Cassia fistula	Snaa	Cassia fistula	Cassia fistula
-Cassia senna	Snaa	Cassia senna	Cassia senna
-Castanea sativa	Snaa	Castanea sativa	Castanea sativa
-Castanea vulgaris	Snaa	Castanea vulgaris	Castanea vulgaris
-Castor fiber	Snaa	Castor fiber	Castor fiber
 caxe que	La0	caxe que	case que
-C. difficile	Snaa	C. difficile	C. difficile
-Cedrus sp.	Snaa	Cedrus sp.	Cedrus sp.
-C. edule	Snaa	C. edule	C. edule
-Celtis sp.	Snaa	Celtis sp.	Celtis sp.
-Centarium umbellatum	Snaa	Centarium umbellatum	Centarium umbellatum
-Centaurea borjae	Snaa	Centaurea borjae	Centaurea borjae
-Centaurea calcitrapa	Snaa	Centaurea calcitrapa	Centaurea calcitrapa
-Centaurea ultreiae	Snaa	Centaurea ultreiae	Centaurea ultreiae
 ceo da boca	Scms	ceo da boca	ceo da boca
-Cephenemyia stimulator	Snaa	Cephenemyia stimulator	Cephenemyia stimulator
-Cerastoderma edule	Snaa	Cerastoderma edule	Cerastoderma edule
-Cerastoderma Edule	Snaa	Cerastoderma Edule	Cerastoderma edule
-Cerastoderma glaucum	Snaa	Cerastoderma glaucum	Cerastoderma glaucum
-Cerastoderma lamarcki	Snaa	Cerastoderma lamarcki	Cerastoderma lamarcki
-Cervus elaphus	Snaa	Cervus elaphus	Cervus elaphus
 ceu da boca	Scms	ceu da boca	ceo da boca
-C. glaucum	Snaa	C. glaucum	C. glaucum
-Chaceon offinis	Snaa	Chaceon offinis	Chaceon offinis
-Chaetoceros socialis	Snaa	Chaetoceros socialis	Chaetoceros socialis
-Chalampys varia	Snaa	Chalampys varia	Chalampys varia
 chaleco antibalas	Scms	chaleco antibalas	chaleco antibalas
 chaleco salvavidas	Scms	chaleco salvavidas	chaleco salvavidas
 chalecos antibalas	Scmp	chaleco antibalas	chaleco antibalas
 chalecos salvavidas	Scmp	chaleco salvavidas	chaleco salvavidas
-Chamaerops sp.	Snaa	Chamaerops sp.	Chamaerops sp.
-Chamelea gallina	Snaa	Chamelea gallina	Chamelea gallina
-Chamelea Gallina	Snaa	Chamelea Gallina	Chamelea gallina
-Charadrius alexandrinus	Snaa	Charadrius alexandrinus	Charadrius alexandrinus
-Charonia nodifera	Snaa	Charonia nodifera	Charonia nodifera
-Charonia rubicunda	Snaa	Charonia rubicunda	Charonia rubicunda
-Chelidonium majus	Snaa	Chelidonium majus	Chelidonium majus
-Chelon labrosus	Snaa	Chelon labrosus	Chelon labrosus
-Chelon Labrosus	Snaa	Chelon Labrosus	Chelon labrosus
-Chenopodium sp.	Snaa	Chenopodium sp.	Chenopodium sp.
-Chioglossa lusitánica	Snaa	Chioglossa lusitánica	Chioglossa lusitanica
-Chlamydia trachomatis	Snaa	Chlamydia trachomatis	Chlamydia trachomatis
-Chlamys opercularis	Snaa	Chlamys opercularis	Chlamys opercularis
-Chlamys varia	Snaa	Chlamys varia	Chlamys varia
-Chondrus crispus	Snaa	Chondrus crispus	Chondrus crispus
-chorioptes bovis	Snaa	chorioptes bovis	Chorioptes bovis
-Ciliata Mustela	Snaa	Ciliata Mustela	Ciliata mustela
-Cirsiam sp.	Snaa	Cirsiam sp.	Cirsiam sp.
-Cistus sp.	Snaa	Cistus sp.	Cistus sp.
-Clausinella gallina	Snaa	Clausinella gallina	Clausinella gallina
-Claviceps purpurea	Snaa	Claviceps purpurea	Claviceps purpurea
-Clostridium botulinum	Snaa	Clostridium botulinum	Clostridium botulinum
-Clostridium difficile	Snaa	Clostridium difficile	Clostridium difficile
-Clostridium hemolíticum	Snaa	Clostridium hemolíticum	Clostridium hemoliticum
-Clostridium perfringens	Snaa	Clostridium perfringens	Clostridium perfringens
-Clostridium tetani	Snaa	Clostridium tetani	Clostridium tetani
-Cluppea Sprattus	Snaa	Cluppea Sprattus	Cluppea sprattus
-C. multisetosum	Snaa	C. multisetosum	C. multisetosum
 coca cola	Scfs	coca cola	coca cola
-coccinella septempunctata	Snaa	coccinella septempunctata	Coccinella septempunctata
-Coccinella septempunctata	Snaa	Coccinella septempunctata	Coccinella septempunctata
 coche bomba	Scms	coche bomba	coche bomba
 coche de liña	Scms	coche de liña	coche de liña
 coche de línea	Scms	coche de línea	coche de liña
 coches bomba	Scmp	coche bomba	coche bomba
-Codium fragile sub sp. fragile	Snaa	Codium fragile sub sp. fragile	Codium fragile sub sp. fragile
-Codium spp.	Snaa	Codium spp.	Codium spp.
-Codium sp.	Snaa	Codium sp.	Codium sp.
 coitus interruptus	Scma	coitus interruptus	coitus interruptus
 coitus interruptus	Scmp	coitus interruptus	coitus interruptus
 coitus interruptus	Scms	coitus interruptus	coitus interruptus
-Conger Conger	Snaa	Conger Conger	Conger conger
-Conium maculatun	Snaa	Conium maculatun	Conium maculatun
 con o gallo de	Lp0	con o gallo de	con o gallo de
 con relación a	Lp0	con relación a	con relación a
 constantes vitais	Scfp	constantes vitais	constantes vitais
 controis remoto	Scmp	control remoto	control remoto
 control remoto	Scms	control remoto	control remoto
-Convolvulus arvensis	Snaa	Convolvulus arvensis	Convolvulus arvensis
-Convolvulus sepium	Snaa	Convolvulus sepium	Convolvulus sepium
-Coris Julis	Snaa	Coris Julis	Coris julis
-Corophium multisetosum	Snaa	Corophium multisetosum	Corophium multisetosum
 correo electrónico	Scms	correo electrónico	correo electrónico
 correos electrónicos	Scmp	correo electrónico	correo electrónico
-Corvus corax	Snaa	Corvus corax	Corvus corax
-Corvus coroe	Snaa	Corvus coroe	Corvus corone
-Corvus corone	Snaa	Corvus corone	Corvus corone
-Corylus avellana	Snaa	Corylus avellana	Corylus avellana
-Corynebacterium diphteriae	Snaa	Corynebacterium diphteriae	Corynebacterium diphtheriae
-Corynebacterium equi	Snaa	Corynebacterium equi	Corynebacterium equi
-Corynebacterium pseudo-tuberculosis	Snaa	Corynebacterium pseudo-tuberculosis	Corynebacterium pseudo-tuberculosis
-Corynebacterium pyogenes	Snaa	Corynebacterium pyogenes	Corynebacterium pyogenes
-Crangon crangon	Snaa	Crangon crangon	Crangon crangon
-Crangon vulgaris	Snaa	Crangon vulgaris	Crangon vulgaris
-Crassostrea angulata	Snaa	Crassostrea angulata	Crassostrea angulata
-Crassostrea gigas	Snaa	Crassostrea gigas	Crassostrea gigas
-Crassostrea virginica	Snaa	Crassostrea virginica	Crassostrea virginica
-Crataegus monogyna	Snaa	Crataegus monogyna	Crataegus monogyna
-Crisanthemum myconis	Snaa	Crisanthemum myconis	Crisanthemum myconis
-Crithmum maritimum	Snaa	Crithmum maritimum	Crithmum maritimum
-Crocuta crocuta	Snaa	Crocuta crocuta	Crocuta crocuta
-Crysanthemun parthenium	Snaa	Crysanthemun parthenium	Crysanthemun parthenium
-Crytosporidium parvum	Snaa	Crytosporidium parvum	Crytosporidium parvum
-Ctenarytaina eucalipti	Snaa	Ctenarytaina eucalipti	Ctenarytaina eucalypti
-Ctenosiphonia hypnoides	Snaa	Ctenosiphonia hypnoides	Ctenosiphonia hypnoides
 cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo
 cuarto de baño	Scms	cuarto de baño	cuarto de baño
-Cuculus micropterus	Snaa	Cuculus micropterus	Cuculus micropterus
-C. ultreiae	Snaa	C. ultreiae	C. ultreiae
-Cunninghamella bertholletiae	Snaa	Cunninghamella bertholletiae	Cunninghamella bertholletiae
-Cupressus sp.	Snaa	Cupressus sp.	Cupressus sp.
-Cupresus sp.	Snaa	Cupresus sp.	Cupressus sp.
 curriculum vitae	Scms	curriculum vitae	currículum vítae
 currículum vitae	Scms	currículum vitae	currículum vítae
 currículum vítae	Scms	currículum vítae	currículum vítae
-Curtuteria sp.	Snaa	Curtuteria sp.	Curtuteria sp.
-Cyclospora cayetanensis	Snaa	Cyclospora cayetanensis	Cyclospora cayetanensis
-Cynomolgus macaques	Snaa	Cynomolgus macaques	Cynomolgus macaques
-Cyperus involucratus	Snaa	Cyperus involucratus	Cyperus involucratus
-Cyperus sp.	Snaa	Cyperus sp.	Cyperus sp.
-Cystoseira baccata	Snaa	Cystoseira baccata	Cystoseira baccata
-Cytherea chione	Snaa	Cytherea chione	Cytherea chione
-Cytisus scoparius	Snaa	Cytisus scoparius	Cytisus scoparius
-Cytisus sp.	Snaa	Cytisus sp.	Cytisus sp.
-Cytisus striatus	Snaa	Cytisus striatus	Cytisus striatus
-Dactylis glomerata	Snaa	Dactylis glomerata	Dactylis glomerata
-Dactylorhiza cantabrica	Snaa	Dactylorhiza cantabrica	Dactylorhiza cantabrica
-Dactylorhiza elata	Snaa	Dactylorhiza elata	Dactylorhiza elata
-Dactylorhiza insularis	Snaa	Dactylorhiza insularis	Dactylorhiza insularis
-Dactylorhiza sambucina	Snaa	Dactylorhiza sambucina	Dactylorhiza sambucina
-Daphnia magna	Snaa	Daphnia magna	Daphnia magna
-Datura stramonium	Snaa	Datura stramonium	Datura stramonium
-D. cantabrica	Snaa	D. cantabrica	D. cantabrica
 de acordo con	Lp0	de acordo con	de acordo con
 de antemán	La0	de antemán	de antemán
 de balde	La0	de balde	de balde
@@ -545,7 +267,6 @@ delirium tremens	Scms	delirium tremens	delírium tremens
 delírium tremens	Scms	delírium tremens	delírium tremens
 de maneira que	Lcs	de maneira que	de maneira que
 de moca	La0	de moca	de moca
-demodex bovis	Snaa	demodex bovis	Demodex bovis
 de modo que	Lcs	de modo que	de modo que
 dende logo	La0	dende logo	dende logo
 de oídas	La0	de oídas	de oídas
@@ -581,7 +302,6 @@ de querquena	La0	de querquena	de crequenas
 de recú	La0	de recú	de recú
 de reollo	La0	de reollo	de reollo
 desde logo	La0	desde logo	desde logo
-Desmarestia dudresnayi	Snaa	Desmarestia dudresnayi	Desmarestia dudresnayi
 de sobra	La0	de sobra	de sobra
 de sobro	La0	de sobro	de sobra
 de socate	La0	de socate	de socate
@@ -595,52 +315,15 @@ de vagariño	La0	de vagar	devagar
 de veras	La0	de veras	de veras
 de vez	La0	de vez	de vez
 de xeito que	Lcs	de xeito que	de xeito que
-D. exoleta	Snaa	D. exoleta	D. exoleta
 diabete mellitus	Scfs	diabete mellitus	diabetes mellitus
 día santo	Scms	día santo	día santo
 días santos	Scmp	día santo	día santo
-Dicentrarchus labrax	Snaa	Dicentrarchus labrax	Dicentrarchus labrax
-Dictiocaulus arnfieldi	Snaa	Dictiocaulus arnfieldi	Dictiocaulus arnfieldi
-Dictyocaulus filaria	Snaa	Dictyocaulus filaria	Dictyocaulus filaria
-Digitalis purpurea	Snaa	Digitalis purpurea	Digitalis purpurea
-Digitalis thapsi	Snaa	Digitalis thapsi	Digitalis thapsi
-D. insularis	Snaa	D. insularis	D. insularis
 Dios mío	Y	Dios mío	meu Deus
-Diplodus cervinus	Snaa	Diplodus cervinus	Diplodus cervinus
-Diplodus puntazzo	Snaa	Diplodus puntazzo	Diplodus puntazzo
-Diplodus Sargus	Snaa	Diplodus Sargus	Diplodus sargus
-Diplodus vulgaris	Snaa	Diplodus vulgaris	Diplodus vulgaris
 disco duro	Scms	disco duro	disco duro
 discos duros	Scmp	disco duro	disco duro
-Dityocaulus viviparus	Snaa	Dityocaulus viviparus	Dityocaulus viviparus
-D. magna	Snaa	D. magna	D. magna
-Donax trunculus	Snaa	Donax trunculus	Donax trunculus
-Donax Trunculus	Snaa	Donax Trunculus	Donax trunculus
-Donax vittatus	Snaa	Donax vittatus	Donax vittatus
-Dosinia exoleta	Snaa	Dosinia exoleta	Dosinia exoleta
-Dosinia lupinus	Snaa	Dosinia lupinus	Dosinia lupinus
-D. purpurea	Snaa	D. purpurea	D. purpurea
-Drosophila melanogaster	Snaa	Drosophila melanogaster	Drosophila melanogaster
-Dryas octopetala	Snaa	Dryas octopetala	Dryas octopetala
-Dryas octopétala	Snaa	Dryas octopétala	Dryas octopetala
-D. sambucina	Snaa	D. sambucina	D. sambucina
-D. thapsi	Snaa	D. thapsi	D. thapsi
-E. camaldulensis	Snaa	E. camaldulensis	E. camaldulensis
-E. chaffeensis	Snaa	E. chaffeensis	E. chaffeensis
-Echinius sculentus	Snaa	Echinius sculentus	Echinius sculentus
-Echinococus multilocularis	Snaa	Echinococus multilocularis	Echinococus multilocularis
-Echinus esculentus	Snaa	Echinus esculentus	Echinus esculentus
-Echium sp.	Snaa	Echium sp.	Echium sp.
-E. cinerea	Snaa	E. cinerea	E. cinerea
-E. coli	Snaa	E. coli	Escherichia coli
-E. ensis	Snaa	E. ensis	E. ensis
 efecto invernadeiro	Scms	efecto invernadeiro	efecto invernadoiro
 efecto invernadoiro	Scms	efecto invernadoiro	efecto invernadoiro
 efectos invernadoiro	Scmp	efecto invernadoiro	efecto invernadoiro
-Eimerias faurei	Snaa	Eimerias faurei	Eimeria faurei
-Eledone aldrovandii	Snaa	Eledone aldrovandii	Eledone aldrovandii
-Eledone cirrosa	Snaa	Eledone cirrosa	Eledone cirrosa
-Elona quimperiana	Snaa	Elona quimperiana	Elona quimperiana
 en balde	La0	en balde	en balde
 en baluto	La0	en baluto	en baluto
 en canto que	Lcs	en canto que	en canto
@@ -653,9 +336,6 @@ endoutro día	La0	endoutro día	endoutro día
 en favor	La0	en favor	en favor
 en fite	La0	en fite	en fite
 en función de	Lp0	en función de	en función de
-Engraulis Encrasicholus	Snaa	Engraulis Encrasicholus	Engraulis encrasicholus
-Engraulis encrasicolus	Snaa	Engraulis encrasicolus	Engraulis encrasicolus
-Engraulis	Snaa	Engraulis	Engraulis
 en lugar de	Lp0	en lugar de	en lugar de
 en materia de	Lp0	en materia de	en materia de
 en o entanto	La0	en o entanto	en o entanto
@@ -686,18 +366,7 @@ en regra	A0mp	en regra	en regra
 en regra	A0ms	en regra	en regra
 en relación con	Lp0	en relación con	en relación con
 en silencio	La0	en silencio	en silencio
-Ensis arcuatus	Snaa	Ensis arcuatus	Ensis arcuatus
-Ensis directus	Snaa	Ensis directus	Ensis directus
-Ensis ensis	Snaa	Ensis ensis	Ensis ensis
-Ensis Ensis	Snaa	Ensis Ensis	Ensis ensis
-Ensis magnus	Snaa	Ensis magnus	Ensis magnus
-Ensis minor	Snaa	Ensis minor	Ensis minor
-Ensis siliqua	Snaa	Ensis siliqua	Ensis siliqua
-Ensis terranovensis	Snaa	Ensis terranovensis	Ensis terranovensis
 en tanto que	Lcs	en tanto que	en tanto
-Enterobacter Sakazilii	Snaa	Enterobacter Sakazilii	Enterobacter sakazilii
-Enterococcus faecalis	Snaa	Enterococcus faecalis	Enterococcus faecalis
-Entoloma lividum	Snaa	Entoloma lividum	Entoloma lividum
 entre horas	La0	entre horas	entre horas
 entre lusco e fusco	La0	entre lusco e fusco	entre lusco e fusco
 en troques	La0	en troques	en troques
@@ -707,30 +376,7 @@ en vilo	La0	en vilo	en vilo
 en virtude de	Lp0	en virtude de	en virtude de
 en vivo	La0	en vivo	en vivo
 en xeral	La0	en xeral	en xeral
-Epigonus Telescopus	Snaa	Epigonus Telescopus	Epigonus telescopus
-Epinephelus guaza	Snaa	Epinephelus guaza	Epinephelus guaza
-Epipactis palustris	Snaa	Epipactis palustris	Epipactis palustris
-Equisetum arvense	Snaa	Equisetum arvense	Equisetum arvense
-Equisetum ramosissimum	Snaa	Equisetum ramosissimum	Equisetum ramosissimum
-Equus Asinus	Snaa	Equus Asinus	Equus sinus
-Equus caballus	Snaa	Equus caballus	Equus caballus
-Erica cinerea	Snaa	Erica cinerea	Erica cinerea
-Erica sp.	Snaa	Erica sp.	Erica sp.
-Erica tetralix	Snaa	Erica tetralix	Erica tetralix
-Erica umbellata	Snaa	Erica umbellata	Erica umbellata
-Eryngium maritimum	Snaa	Eryngium maritimum	Eryngium maritimum
-Erythroglossum lusitanicum	Snaa	Erythroglossum lusitanicum	Erythroglossum lusitanicum
-Escherichia coli	Snaa	Escherichia coli	Escherichia coli
 escontra de	Lp0	escontra de	contra de
-estafilococus aureus	Snaa	estafilococus aureus	Staphylococcus aureus
-Estreptococus equi	Snaa	Estreptococus equi	Estreptococus equi
-E. tetralix	Snaa	E. tetralix	E. tetralix
-Eucalyptus camaldulensis	Snaa	Eucalyptus camaldulensis	Eucalyptus camaldulensis
-Eucalyptus globulus	Snaa	Eucalyptus globulus	Eucalyptus globulus
-Eucalyptus glóbulus	Snaa	Eucalyptus glóbulus	Eucalyptus globulus
-Eucalytus globulus	Snaa	Eucalytus globulus	Eucalyptus globulus
-Euphorbia sp.	Snaa	Euphorbia sp.	Euphorbia sp.
-Euphorbia uliginosa	Snaa	Euphorbia uliginosa	Euphorbia uliginosa
 ex aequo	La0	ex aequo	ex aequo
 ex cátedra	La0	ex cátedra	ex cáthedra
 ex cathedra	La0	ex cathedra	ex cáthedra
@@ -752,127 +398,32 @@ ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral
 ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral
 ex-secretario xeral	Scms	ex-secretario xeral	ex secretario xeral
 extra muros	La0	extra muros	extra muros
-Fagus sylvatica	Snaa	Fagus sylvatica	Fagus sylvatica
-F. culmorum	Snaa	F. culmorum	F. culmorum
-Festuca arundinacea	Snaa	Festuca arundinacea	Festuca arundinacea
-F. excelsior	Snaa	F. excelsior	F. excelsior
-F. graminearum	Snaa	F. graminearum	F. graminearum
 fite a fite	La0	fite a fite	fite a fite
-Foeniculun vulgare	Snaa	Foeniculun vulgare	Foeniculun vulgare
 folla de lata	Scfs	folla de lata	folla de lata
-Fragaria vesca	Snaa	Fragaria vesca	Fragaria vesca
-Fraxinus angustifolia	Snaa	Fraxinus angustifolia	Fraxinus angustifolia
-Fraxinus excelsior	Snaa	Fraxinus excelsior	Fraxinus excelsior
-Fraxinus sp.	Snaa	Fraxinus sp.	Fraxinus sp.
-Fumaria sp.	Snaa	Fumaria sp.	Fumaria sp.
-Fusarium sp.	Snaa	Fusarium sp.	Fusarium sp.
-Fusobacterium necrophorumBalanus	Snaa	Fusobacterium necrophorumBalanus	Fusobacterium necrophorumBalanus
 fútbol sala	Scms	fútbol sala	fútbol sala
-F. verticillioides	Snaa	F. verticillioides	F. verticillioides
-Gagea nevadensis	Snaa	Gagea nevadensis	Gagea nevadensis
-Gageas nevadensis	Snaa	Gageas nevadensis	Gageas nevadensis
-Gagea soleirolii	Snaa	Gagea soleirolii	Gagea soleirolii
-Gaidropsarus mediterraneus	Snaa	Gaidropsarus mediterraneus	Gaidropsarus mediterraneus
-Galathea strigosa	Snaa	Galathea strigosa	Galathea strigosa
-Galemys pyrenaicus	Snaa	Galemys pyrenaicus	Galemys pyrenaicus
-Galium aparine	Snaa	Galium aparine	Galium aparine
-Gallus gallus	Snaa	Gallus gallus	Gallus gallus
 garda civil	Scas	garda civil	garda civil
 garda civil	Scfs	garda civil	garda civil
 garda civil	Scms	garda civil	garda civil
 gardas civís	Scap	garda civil	garda civil
 gardas civís	Scfp	garda civil	garda civil
 gardas civís	Scmp	garda civil	garda civil
-Gari depressa	Snaa	Gari depressa	Gari depressa
-Gelidium corneum	Snaa	Gelidium corneum	Gelidium corneum
-Gentiana lutea	Snaa	Gentiana lutea	Gentiana lutea
-Ginkgo biloba	Snaa	Ginkgo biloba	Ginkgo biloba
-Glis glis	Snaa	Glis glis	Glis glis
-Glycymeris glycymeris	Snaa	Glycymeris glycymeris	Glycymeris glycymeris
-Glycyrrhiza glabra	Snaa	Glycyrrhiza glabra	Glycyrrhiza glabra
-Gonyaulax polyedra	Snaa	Gonyaulax polyedra	Gonyaulax polyedra
-Gracilaria spp.	Snaa	Gracilaria spp.	Gracilaria spp.
-Gracilariopsis longissima	Snaa	Gracilariopsis longissima	Gracilariopsis longissima
-Griffithsia opuntioides	Snaa	Griffithsia opuntioides	Griffithsia opuntioides
 grosso modo	La0	grosso modo	grosso modo
-Gryphaea angulata	Snaa	Gryphaea angulata	Gryphaea angulata
-Gymnamodytes Semisquamatus	Snaa	Gymnamodytes Semisquamatus	Gymnamodytes semisquamatus
 hábeas corpus	Scma	hábeas corpus	hábeas corpus
 hábeas corpus	Scmp	hábeas corpus	hábeas corpus
 hábeas corpus	Scms	hábeas corpus	hábeas corpus
-Haemonchus contortus	Snaa	Haemonchus contortus	Haemonchus contortus
-Halimium sp.	Snaa	Halimium sp.	Halimium sp.
-Haliotis tuberculata	Snaa	Haliotis tuberculata	Haliotis tuberculata
-Haliotis vulgaris	Snaa	Haliotis vulgaris	Haliotis vulgaris
-Hedera helix	Snaa	Hedera helix	Hedera helix
-Helianthus annuus	Snaa	Helianthus annuus	Helianthus annuus
-helicobacter pilori	Snaa	Helicobacter pilori	Helicobacter pylori
-Helicobacter pilori	Snaa	Helicobacter pilori	Helicobacter pylori
-helicobacter pilory	Snaa	Helicobacter pilory	Helicobacter pylori
-Helicobacter pylori	Snaa	Helicobacter pylori	Helicobacter pylori
-Helicolenus Dactylopterus	Snaa	Helicolenus Dactylopterus	Helicolenus dactylopterus
-Helleborus Níger	Snaa	Helleborus Níger	Helleborus niger
-Hevea brasiliensis	Snaa	Hevea brasiliensis	Hevea brasiliensis
 hip hop	Scms	hip hop	hip-hop
-Homarus gammarus	Snaa	Homarus gammarus	Homarus gammarus
-Homarus vulgaris	Snaa	Homarus vulgaris	Homarus vulgaris
-Hommarus gammarus	Snaa	Hommarus gammarus	Homarus gammarus
-homo antecesor	Snaa	Homo antecesor	Homo antecessor
-homo antecessor	Snaa	Homo antecessor	Homo antecessor
-Homo antecessor	Snaa	Homo antecessor	Homo antecessor
-Homo Antecessor	Snaa	Homo antecessor	Homo antecessor
-Homo Bohemicus	Snaa	Homo bohemicus	Homo bohemicus
-homo consumens	Snaa	Homo consumens	Homo consumens
-Homo divinans	Snaa	Homo divinans	Homo divinans
-homo dixitalis	Snaa	Homo dixitalis	Homo digitalis
-homo dramaticus	Snaa	Homo dramaticus	Homo dramaticus
-Homo ecologicuas	Snaa	Homo ecologicuas	Homo ecologicus
-homo erectus	Snaa	Homo erectus	Homo erectus
-Homo erectus	Snaa	Homo erectus	Homo erectus
-Homo ergaster	Snaa	Homo ergaster	Homo ergaster
-Homo etnocéntricus	Snaa	Homo etnocéntricus	Homo etnocentricus
 homo faber	Scma	homo faber	homo fáber
 homo fáber	Scma	homo fáber	homo fáber
 homo faber	Scmp	homo faber	homo fáber
 homo fáber	Scmp	homo fáber	homo fáber
 homo faber	Scms	homo faber	homo fáber
 homo fáber	Scms	homo fáber	homo fáber
-homo faber	Snaa	Homo faber	Homo faber
-Homo floresiensis	Snaa	Homo floresiensis	Homo floresiensis
-homo fraguensis	Snaa	Homo fraguensis	Homo fraguensis
-homo galaicus	Snaa	Homo galaicus	Homo galaicus
-homo habilis	Snaa	Homo habilis	Homo habilis
-Homo habilis	Snaa	Homo habilis	Homo habilis
-Homo heidelbergense	Snaa	Homo heidelbergense	Homo heidelbergensis
-Homo heidelbergensis	Snaa	Homo heidelbergensis	Homo heidelbergensis
-Homo Heidelbergensis	Snaa	Homo heidelbergensis	Homo heidelbergensis
-homo industrialis	Snaa	Homo industrialis	Homo industrialis
-homo loquax	Snaa	Homo loquax	Homo loquax
-homo ludens	Snaa	Homo ludens	Homo ludens
-Homo naledi	Snaa	Homo naledi	Homo naledi
-Homo neanderthalensis	Snaa	Homo neanderthalensis	Homo neanderthalensis
-homo oecologicus 	Snaa	Homo oecologicus 	Homo ecologicus
-Homo oeconomicus	Snaa	Homo oeconomicus	Homo oeconomicus
-homo politicus	Snaa	Homo politicus	Homo politicus
-Homo praedator	Snaa	Homo praedator	Homo praedator
-homo rusticus	Snaa	Homo rusticus	Homo rusticus
-homo sacer	Snaa	Homo sacer	Homo sacer
-Homo Sacer	Snaa	Homo sacer	Homo sacer
 homo sapiens sapiens	Scma	homo sapiens sapiens	homo sapiens sapiens
 homo sapiens sapiens	Scmp	homo sapiens sapiens	homo sapiens sapiens
 homo sapiens sapiens	Scms	homo sapiens sapiens	homo sapiens sapiens
-homo sapiens sapiens	Snaa	Homo sapiens sapiens	Homo sapiens sapiens
-Homo sapiens sapiens	Snaa	Homo sapiens sapiens	Homo sapiens sapiens
 homo sapiens	Scma	homo sapiens	homo sapiens
 homo sapiens	Scmp	homo sapiens	homo sapiens
 homo sapiens	Scms	homo sapiens	homo sapiens
-homo sapiens	Snaa	Homo sapiens	Homo sapiens
-Homo sapiens	Snaa	Homo sapiens	Homo sapiens
-homo sapiens vulgaris	Snaa	Homo sapiens vulgaris	Homo sapiens vulgaris
-homo socius	Snaa	Homo socius	Homo socius
-homo typographicus	Snaa	Homo typographicus	Homo typographicus
-homo viator	Snaa	Homo viator	Homo viator
-homo videns	Snaa	Homo videns	Homo videns
 honoris causa	La0	honoris causa	honoris causa
 hora extraordinaria	Scfs	hora extraordinaria	hora extraordinaria
 hora extra	Scfs	hora extra	hora extraordinaria
@@ -881,26 +432,10 @@ horas extraordinarias	Scfp	hora extraordinaria	hora extraordinaria
 horas extra	Scfp	hora extra	hora extraordinaria
 horas extras	Scfp	hora extra	hora extraordinaria
 horas punta	Scfp	hora punta	hora punta
-Hordeum sp.	Snaa	Hordeum sp.	Hordeum sp.
 horror vacui	Scms	horror vacui	horror vacui
 hoxe en día	La0	hoxe en día	hoxe en día
 hoxe por hoxe	La0	hoxe por hoxe	hoxe por hoxe
-Humulus lupulus	Snaa	Humulus lupulus	Humulus lupulus
-Hupercia selago	Snaa	Hupercia selago	Huperzia selago
-Huperzia selago	Snaa	Huperzia selago	Huperzia selago
-Hyla arborea arborea	Snaa	Hyla arborea arborea	Hyla arborea arborea
-Hyla arborea molleri	Snaa	Hyla arborea molleri	Hyla arborea molleri
-Hyla arborea	Snaa	Hyla arborea	Hyla arborea
-Hyla japonica	Snaa	Hyla japonica	Hyla japonica
-Hyoscyamus albus	Snaa	Hyoscyamus albus	Hyoscyamus albus
-Hyoscyamus niger	Snaa	Hyoscyamus niger	Hyoscyamus niger
-Hypecoum procumbres	Snaa	Hypecoum procumbres	Hypecoum procumbres
-Hypericum perforatum	Snaa	Hypericum perforatum	Hypericum perforatum
-Hyperoplus Lanceolatus	Snaa	Hyperoplus Lanceolatus	Hyperoplus lanceolatus
 i grego	Scms	i grego	i grego
-Ilex aquifolium	Snaa	Ilex aquifolium	Ilex aquifolium
-Illex coindetti	Snaa	Illex coindetti	Illex coindetti
-I. longissimum	Snaa	I. longissimum	I. longissimum
 in albis	La0	in albis	in albis
 in articulo mortis	La0	in articulo mortis	in artículo mortis
 in artículo mortis	La0	in artículo mortis	in artículo mortis
@@ -909,7 +444,6 @@ inda ben non	Lcs	inda ben non	inda ben non
 inda que	Lcs	inda que	aínda que
 in extremis	La0	in extremis	in extremis
 in folio	La0	in folio	in folio
-Inia geoffrensis	Snaa	Inia geoffrensis	Inia geoffrensis
 in illo tempore	La0	in illo tempore	in illo tempore
 in medias res	La0	in medias res	in medias res
 in memoriam	La0	in memoriam	in memóriam
@@ -925,151 +459,32 @@ intra muros	La0	intra muros	intra muros
 in vitro	La0	in vitro	in vitro
 in vivo	La0	in vivo	in vivo
 ipso facto	La0	ipso facto	ipso facto
-Isoetes fluitans	Snaa	Isoetes fluitans	Isoetes fluitans
-Isoetes histrix	Snaa	Isoetes histrix	Isoetes histrix
-Isoetes longissimum	Snaa	Isoetes longissimum	Isoetes longissimum
-Isoetes velatum subsp. longissimum	Snaa	Isoetes velatum subsp. longissimum	Isoetes velatum subsp. longissimum
-Ixodes dammini	Snaa	Ixodes dammini	Ixodes dammini
-Juglans regia	Snaa	Juglans regia	Juglans regia
-Juncus sp.	Snaa	Juncus sp.	Juncus sp.
-Juniperus nana	Snaa	Juniperus nana	Juniperus nana
-Labrus mixtus	Snaa	Labrus mixtus	Labrus mixtus
-Lactobacillus acidophilus	Snaa	Lactobacillus acidophilus	Lactobacillus acidophilus
-Lactobacillus dekbrueckii	Snaa	Lactobacillus dekbrueckii	Lactobacillus dekbrueckii
-Laevicardium norvegicum	Snaa	Laevicardium norvegicum	Laevicardium norvegicum
-Lamian sp.	Snaa	Lamian sp.	Lamian sp.
-Laminaria hyperborea	Snaa	Laminaria hyperborea	Laminaria hyperborea
-Laminaria ochroleuca	Snaa	Laminaria ochroleuca	Laminaria ochroleuca
-Larva megalopa	Snaa	Larva megalopa	Larva megalopa
-Larva mysis	Snaa	Larva mysis	Larva mysis
-Larva zoea	Snaa	Larva zoea	Larva zoea
 late night	Scms	late night	late night
 lato sensu	La0	lato sensu	lato sensu
-Laurus nobilis	Snaa	Laurus nobilis	Laurus nobilis
-Lavandula latifolia	Snaa	Lavandula latifolia	Lavandula latifolia
-Lavandula sp.	Snaa	Lavandula sp.	Lavandula sp.
-Lavandula stoechas sub. sampaiana Rozeira	Snaa	Lavandula stoechas sub. sampaiana Rozeira	Lavandula stoechas sub. sampaiana Rozeira
-Leander serratus	Snaa	Leander serratus	Leander serratus
-Lecrercia adecarboxylata	Snaa	Lecrercia adecarboxylata	Leclercia adecarboxylata
 leit motiv	Scma	leit motiv	leitmotiv
 leit motiv	Scmp	leit motiv	leitmotiv
 leit motiv	Scms	leit motiv	leitmotiv
-Lepas anatifera	Snaa	Lepas anatifera	Lepas anatifera
-Lepidorhombus Boscii	Snaa	Lepidorhombus Boscii	Lepidorhombus boscii
-Lepidorhombus wiffiagonis	Snaa	Lepidorhombus wiffiagonis	Lepidorhombus wiffiagonis
-Leptinotarsa decemlineata	Snaa	Leptinotarsa decemlineata	Leptinotarsa decemlineata
-Leptocilindrus danicus	Snaa	Leptocilindrus danicus	Leptocilindrus danicus
-Leptosiphonia schousboei	Snaa	Leptosiphonia schousboei	Leptosiphonia schousboei
-Leptospira bovis	Snaa	Leptospira bovis	Leptospira bovis
-Leptospira equina	Snaa	Leptospira equina	Leptospira equina
-Leucanthemum gallaecicum	Snaa	Leucanthemum gallaecicum	Leucanthemum gallaecicum
-Liberibacter africanus	Snaa	Liberibacter africanus	Liberibacter africanus
-Linaria aeruginea	Snaa	Linaria aeruginea	Linaria aeruginea
-Linaria arenaria	Snaa	Linaria arenaria	Linaria arenaria
-Linaria sp.	Snaa	Linaria sp.	Linaria sp.
-Linfanxitis farciminosa	Snaa	Linfanxitis farciminosa	Linfanxitis farciminosa
-Linfanxitis ulcerosa	Snaa	Linfanxitis ulcerosa	Linfanxitis ulcerosa
-Liocarcinus depurator	Snaa	Liocarcinus depurator	Liocarcinus depurator
-Liocarnicus corrugatus	Snaa	Liocarnicus corrugatus	Liocarnicus corrugatus
-Listera ovata	Snaa	Listera ovata	Listera ovata
-Listeria monocytogenes	Snaa	Listeria monocytogenes	Listeria monocytogenes
-Lithospermun postratum	Snaa	Lithospermun postratum	Lithospermun postratum
-Litorina littorea	Snaa	Litorina littorea	Littorina littorea
-Littorina littoralis	Snaa	Littorina littoralis	Littorina littoralis
-Littorina littorea	Snaa	Littorina littorea	Littorina littorea
-Littorina saxatilis	Snaa	Littorina saxatilis	Littorina saxatilis
-Liza aurata	Snaa	Liza aurata	Liza aurata
-Liza Aurata	Snaa	Liza Aurata	Liza aurata
-Liza ramada	Snaa	Liza ramada	Liza ramada
-Liza Ramada	Snaa	Liza Ramada	Liza ramada
-Liza saliens	Snaa	Liza saliens	Liza saliens
-Liza Saliens	Snaa	Liza Saliens	Liza saliens
-L. littoralis	Snaa	L. littoralis	L. littoralis
-L. lutraria	Snaa	L. lutraria	L. lutraria
-L. magna	Snaa	L. magna	L. magna
 locus amoenus	Scma	locus amoenus	locus amoenus
 locus amoenus	Scmp	locus amoenus	locus amoenus
 locus amoenus	Scms	locus amoenus	locus amoenus
-Loligo forbesi	Snaa	Loligo forbesi	Loligo forbesi
-Loligo vulgaris	Snaa	Loligo vulgaris	Loligo vulgaris
-Lolium multiflorum	Snaa	Lolium multiflorum	Lolium multiflorum
-Lolium perenne	Snaa	Lolium perenne	Lolium perenne
-Lonicera periclymenum	Snaa	Lonicera periclymenum	Lonicera periclymenum
-Lonicera peryclimenum	Snaa	Lonicera peryclimenum	Lonicera periclymenum
-Lopha (Ostreola) stentina	Snaa	Lopha (Ostreola) stentina	Lopha (Ostreola) stentina
-Lopha stentina	Snaa	Lopha stentina	Lopha stentina
-Lopha Stentina	Snaa	Lopha Stentina	Lopha stentina
-Lophius Budegassa	Snaa	Lophius Budegassa	Lophius budegassa
-Lophius piscatorius	Snaa	Lophius piscatorius	Lophius piscatorius
-Lophius Piscatorius	Snaa	Lophius Piscatorius	Lophius piscatorius
-Lotus corniculatus	Snaa	Lotus corniculatus	Lotus corniculatus
-Loxia curvirostra	Snaa	Loxia curvirostra	Loxia curvirostra
-L. saxatilis	Snaa	L. saxatilis	L. saxatilis
-Lucamus cervus	Snaa	Lucamus cervus	Lucanus cervus
-lucanus cervus	Snaa	lucanus cervus	Lucanus cervus
-Lucanus cervus	Snaa	Lucanus cervus	Lucanus cervus
-Lura picuda	Snaa	Lura picuda	Lura picuda
-Lura pota	Snaa	Lura pota	Lura pota
-Lutraria angustior	Snaa	Lutraria angustior	Lutraria angustior
-Lutraria ellíptica	Snaa	Lutraria ellíptica	Lutraria elliptica
-Lutraria lutraria	Snaa	Lutraria lutraria	Lutraria lutraria
-Lutraria magna	Snaa	Lutraria magna	Lutraria magna
-Lutraria Spp	Snaa	Lutraria Spp	Lutraria spp.
-L. vulgaris	Snaa	L. vulgaris	L. vulgaris
-Lycopodiella inundata	Snaa	Lycopodiella inundata	Lycopodiella inundata
-Lysmata seticaudata	Snaa	Lysmata seticaudata	Lysmata seticaudata
-Ma�a squinado	Snaa	Ma�a squinado	Ma�a squinado
 macho alfa	Scms	macho alfa	macho alfa
 machos alfa	Scmp	macho alfa	macho alfa
-Macropipus corrugatus	Snaa	Macropipus corrugatus	Macropipus corrugatus
-Macropipus depurator	Snaa	Macropipus depurator	Macropipus depurator
-Macropipus puber	Snaa	Macropipus puber	Macropipus puber
-Mactra corallina	Snaa	Mactra corallina	Mactra corallina
-Magnolia grandiflora	Snaa	Magnolia grandiflora	Magnolia grandiflora
-Maja squinado	Snaa	Maja squinado	Maja squinado
-Malva silvestris	Snaa	Malva silvestris	Malva silvestris
 manda carallo	Y	manda carallo	manda carallo
 mandos a distancia	Scmp	mando a distancia	mando a distancia
 manu militari	La0	manu militari	manu militari
-Margaritifera margaritifera	Snaa	Margaritifera margaritifera	Margaritifera margaritifera
-Marmota marmota	Snaa	Marmota marmota	Marmota marmota
 marrón glacé	Scms	marrón glacé	marron glacé
-Marteilia refringens	Snaa	Marteilia refringens	Marteilia refringens
-Marteilia sp.	Snaa	Marteilia sp.	Marteilia sp.
 martiño peixeiro	Scms	martiño peixeiro	martiño peixeiro
 martiños peixeiros	Scmp	martiño peixeiro	martiño peixeiro
 mass media	Scmp	mass media	mass media
-Matricaria chamomilla	Snaa	Matricaria chamomilla	Matricaria chamomilla
-M. bovis	Snaa	M. bovis	M. bovis
-M. crassitesta	Snaa	M. crassitesta	M. crassitesta
 mea culpa	Scms	mea culpa	mea culpa
-M. edulis	Snaa	M. edulis	M. edulis
-Melissa officinalis	Snaa	Melissa officinalis	Melissa officinalis
 memorias USB	Scfp	memoria USB	memoria USB
 memoria USB	Scfs	memoria USB	memoria USB
 ménage a trois	Scms	ménage a trois	ménage à trois
 ménage à trois	Scms	ménage à trois	ménage à trois
-Mentha piperata	Snaa	Mentha piperata	Mentha piperata
-Mentha rothundifolia	Snaa	Mentha rothundifolia	Mentha rothundifolia
-Mentha rotundifolia	Snaa	Mentha rotundifolia	Mentha rotundifolia
-Mentha sativa	Snaa	Mentha sativa	Mentha sativa
-Mercurialis annua	Snaa	Mercurialis annua	Mercurialis annua
-Merlangius Merlangius	Snaa	Merlangius Merlangius	Merlangius merlangius
-Merluccius Merluccius	Snaa	Merluccius Merluccius	Merluccius merluccius
 mesa redonda	Scfs	mesa redonda	mesa redonda
 mesas redondas	Scfp	mesa redonda	mesa redonda
-M. galloprovincialis	Snaa	M. galloprovincialis	M. galloprovincialis
-Micromesistius poutassou	Snaa	Micromesistius poutassou	Micromesistius poutassou
-Microsporum equinum	Snaa	Microsporum equinum	Microsporum equinum
-Microtus nivalis	Snaa	Microtus nivalis	Microtus nivalis
-Microtus oeconomus	Snaa	Microtus oeconomus	Microtus oeconomus
 modus operandi	Scms	modus operandi	modus operandi
 modus vivendi	Scms	modus vivendi	modus vivendi
-Molva Macrohthalma	Snaa	Molva Macrohthalma	Molva macrohthalma
-Molva Molva	Snaa	Molva Molva	Molva molva
-Monodonta lineata	Snaa	Monodonta lineata	Monodonta lineata
-Monodonta linneata	Snaa	Monodonta linneata	Monodonta lineata
-Moraxella bovis	Snaa	Moraxella bovis	Moraxella bovis
 mortis causa	A0aa	mortis causa	mortis causa
 mortis causa	A0ap	mortis causa	mortis causa
 mortis causa	A0as	mortis causa	mortis causa
@@ -1079,45 +494,10 @@ mortis causa	A0fs	mortis causa	mortis causa
 mortis causa	A0ma	mortis causa	mortis causa
 mortis causa	A0mp	mortis causa	mortis causa
 mortis causa	A0ms	mortis causa	mortis causa
-Morus sp.	Snaa	Morus sp.	Morus sp.
 motu propio	La0	motu propio	motu propio
-M. refringens	Snaa	M. refringens	M. refringens
-M. tuberculosis	Snaa	M. tuberculosis	Mycobacterium tuberculosis
-Muellerius Capilaria	Snaa	Muellerius Capilaria	Muellerius capillaris
-Mugil cephalus	Snaa	Mugil cephalus	Mugil cephalus
-Mullus Surmuletus	Snaa	Mullus Surmuletus	Mullus surmuletus
-Muscari neglectum	Snaa	Muscari neglectum	Muscari neglectum
 mutatis mutandis	La0	mutatis mutandis	mutatis mutandis
-Mycobacterium marinum	Snaa	Mycobacterium marinum	Mycobacterium marinum
-Mycobacterium paratuberculosis	Snaa	Mycobacterium paratuberculosis	Mycobacterium paratuberculosis
-mycobacterium tuberculosis	Snaa	mycobacterium tuberculosis	Mycobacterium tuberculosis
-Mycobacterium tuberculosis	Snaa	Mycobacterium tuberculosis	Mycobacterium tuberculosis
-Myosotis sp.	Snaa	Myosotis sp.	Myosotis sp.
-Myrica gale	Snaa	Myrica gale	Myrica gale
-Myrtus communis	Snaa	Myrtus communis	Myrtus communis
-Myrtus sp.	Snaa	Myrtus sp.	Myrtus sp.
-Mythilus pianulanus	Snaa	Mythilus pianulanus	Mythilus pianulanus
-Mytilus edulis	Snaa	Mytilus edulis	Mytilus edulis
-Mytilus galloprovincialis	Snaa	Mytilus galloprovincialis	Mytilus galloprovincialis
-Mytilus Galloprovincialis	Snaa	Mytilus Galloprovincialis	Mytilus galloprovincialis
-Mytilus sp.	Snaa	Mytilus sp.	Mytilus sp.
-Narcissus asturiensis	Snaa	Narcissus asturiensis	Narcissus asturiensis
-Narcissus rupicola	Snaa	Narcissus rupicola	Narcissus rupicola
-Narcissus sp.	Snaa	Narcissus sp.	Narcissus sp.
-Necora puber	Snaa	Necora puber	Necora puber
-Nécora puber	Snaa	Nécora puber	Necora puber
-Nefritis purulenta	Snaa	Nefritis purulenta	Nefritis purulenta
-Neisseria menigitidis	Snaa	Neisseria menigitidis	Neisseria menigitidis
-Neisseria meningitidis	Snaa	Neisseria meningitidis	Neisseria meningitidis
-Nematodirus filicollis	Snaa	Nematodirus filicollis	Nematodirus filicollis
-Nematopsis sp.	Snaa	Nematopsis sp.	Nematopsis sp.
 nen embargantes	La0	nen embargantes	non embargantes
 nen xiquer	La0	nin xiquer	nin sequera
-Neosiphonia collabens	Snaa	Neosiphonia collabens	Neosiphonia collabens
-Neotinea maculata	Snaa	Neotinea maculata	Neotinea maculata
-Nephrops norvegicum	Snaa	Nephrops norvegicum	Nephrops norvegicum
-Nephrops norvegicus	Snaa	Nephrops norvegicus	Nephrops norvegicus
-Nereis aibuhitensis	Snaa	Nereis aibuhitensis	Nereis aibuhitensis
 night club	Scms	night club	night club
 night clubs	Scmp	night club	night club
 nin a tiros	La0	nin a tiros	nin a tiros
@@ -1130,145 +510,27 @@ nin tan sequer	La0	nin tan sequer	nin tan sequera
 nin xiquer	La0	nin xiquer	nin sequera
 non embargante	La0	non embargante	non embargante
 non embargantes	La0	non embargantes	non embargante
-Nonioounatum boueanum	Snaa	Nonioounatum boueanum	Nonioounatum boueanum
 non obstante	La0	non obstante	non obstante
 non si	La0	non si	non si
-Nucella lapillus	Snaa	Nucella lapillus	Nucella lapillus
-Nymphaea alba	Snaa	Nymphaea alba	Nymphaea alba
-Octopus bimaculoides	Snaa	Octopus bimaculoides	Octopus bimaculoides
-Octopus salutti	Snaa	Octopus salutti	Octopus salutii
-Octopus vulgaris	Snaa	Octopus vulgaris	Octopus vulgaris
-Oerskovia xanthineolytica	Snaa	Oerskovia xanthineolytica	Oerskovia xanthineolytica
-Oesophagostomum Columbianum	Snaa	Oesophagostomum Columbianum	Oesophagostomum columbianum
-Oesophagostomun radiatum	Snaa	Oesophagostomun radiatum	Oesophagostomun radiatum
-Olea europaea	Snaa	Olea europaea	Olea europaea
-Olea sp.	Snaa	Olea sp.	Olea sp.
-Omphalodes littoralis gallaecia	Snaa	Omphalodes littoralis gallaecia	Omphalodes littoralis gallaecia
-Omphalodes littoralis	Snaa	Omphalodes littoralis	Omphalodes littoralis
-Omphalodes littoralis subsp. gallaecica	Snaa	Omphalodes littoralis subsp. gallaecica	Omphalodes littoralis subsp. gallaecica
-Oncorhynchus kisutch	Snaa	Oncorhynchus kisutch	Oncorhynchus kisutch
 onde quer	La0	onde quer	onde queira
 on line	La0	on line	en liña
 open source	Scms	open source	open source
-Ophrys apifera	Snaa	Ophrys apifera	Ophrys apifera
-Orchis longebracteata	Snaa	Orchis longebracteata	Orchis longebracteata
-Origanum vulgare	Snaa	Origanum vulgare	Origanum vulgare
-Oryctolagus cuniculus	Snaa	Oryctolagus cuniculus	Oryctolagus cuniculus
-O. salutti	Snaa	O. salutti	Octopus salutii
-Ostertagia ostertagi	Snaa	Ostertagia ostertagi	Ostertagia ostertagi
-Ostrea angulata	Snaa	Ostrea angulata	Ostrea angulata
-Ostrea edulis	Snaa	Ostrea edulis	Ostrea edulis
-Ostrea plicata	Snaa	Ostrea plicata	Ostrea plicata
-Ostrea stentina	Snaa	Ostrea stentina	Ostrea stentina
-Otanthus marítimus	Snaa	Otanthus marítimus	Otanthus maritimus
-Pachygrapsus marmoratus	Snaa	Pachygrapsus marmoratus	Pachygrapsus marmoratus
 paga extraordinaria	Scfs	paga extraordinaria	paga extraordinaria
 paga extra	Scfs	paga extra	paga extraordinaria
 pagas extraordinarias	Scfp	paga extraordinaria	paga extraordinaria
 pagas extra	Scfp	paga extra	paga extraordinaria
 pagas extras	Scfp	paga extra	paga extraordinaria
-Pagellus Acarne	Snaa	Pagellus Acarne	Pagellus acarne
-Pagellus bogaraveo	Snaa	Pagellus bogaraveo	Pagellus bogaraveo
-Pagellus Bogaraveo	Snaa	Pagellus Bogaraveo	Pagellus bogaraveo
-Pagellus Erythrinus	Snaa	Pagellus Erythrinus	Pagellus erythrinus
-Palaemon adspersus	Snaa	Palaemon adspersus	Palaemon adspersus
-Palaemon elegans	Snaa	Palaemon elegans	Palaemon elegans
-Palaemonetes varians	Snaa	Palaemonetes varians	Palaemonetes varians
-Palaemon serratus	Snaa	Palaemon serratus	Palaemon serratus
-Palaemon squilla	Snaa	Palaemon squilla	Palaemon squilla
-Palinurus elephas	Snaa	Palinurus elephas	Palinurus elephas
-Palinurus mauritanicus	Snaa	Palinurus mauritanicus	Palinurus mauritanicus
-Palinurus vulgaris	Snaa	Palinurus vulgaris	Palinurus vulgaris
-Palmaria palmata	Snaa	Palmaria palmata	Palmaria palmata
-Panulirus regius	Snaa	Panulirus regius	Panulirus regius
-Papaver rhoeas	Snaa	Papaver rhoeas	Papaver rhoeas
-Papaver somniferum	Snaa	Papaver somniferum	Papaver somniferum
-Papaver sp.	Snaa	Papaver sp.	Papaver sp.
-Paracentrotus lividus	Snaa	Paracentrotus lividus	Paracentrotus lividus
-Parapenaeus longirostris	Snaa	Parapenaeus longirostris	Parapenaeus longirostris
-Parietaria officinalis	Snaa	Parietaria officinalis	Parietaria officinalis
-Parietaria sp.	Snaa	Parietaria sp.	Parietaria sp.
-Paroctopus lolleini	Snaa	Paroctopus lolleini	Paroctopus lolleini
-Patella spp	Snaa	Patella spp	Patella spp.
-Patella vulgata	Snaa	Patella vulgata	Patella vulgata
 pay per view	Scms	pay per view	pay per view
-Pecten jacobeanus	Snaa	Pecten jacobeanus	Pecten jacobaeus
-Pecten jacobeus	Snaa	Pecten jacobeus	Pecten jacobaeus
-Pecten maximus	Snaa	Pecten maximus	Pecten maximus
-Pectunculus glycymeris	Snaa	Pectunculus glycymeris	Pectunculus glycymeris
-Pectunculus Glycymeris	Snaa	Pectunculus Glycymeris	Pectunculus glycymeris
-Pedicularis sylvatica	Snaa	Pedicularis sylvatica	Pedicularis sylvatica
-P. elegans	Snaa	P. elegans	P. elegans
-Pelophylax perezi	Snaa	Pelophylax perezi	Pelophylax perezi
-Penaeus foliaceus	Snaa	Penaeus foliaceus	Penaeus foliaceus
-Penaeus kerathurus	Snaa	Penaeus kerathurus	Penaeus kerathurus
-Penaeus monodon	Snaa	Penaeus monodon	Penaeus monodon
-Penaeus trisulcatus	Snaa	Penaeus trisulcatus	Penaeus trisulcatus
 pen drive	Scms	pen drive	pen drive
-Penicillium chrysogenum	Snaa	Penicillium chrysogenum	Penicillium chrysogenum
-Penicillium notatum	Snaa	Penicillium notatum	Penicillium notatum
 per capita	La0	per capita	per cápita
 per cápita	La0	per cápita	per cápita
 per in saecula saeculorum	La0	per in saecula saeculorum	per in saecula saeculorum
-Perkinsus mediterraneus	Snaa	Perkinsus mediterraneus	Perkinsus mediterraneus
-Perkinsus olseni	Snaa	Perkinsus olseni	Perkinsus olseni
 per saecula saeculorum	La0	per saecula saeculorum	per in saecula saeculorum
 per secula seculorum	La0	per secula seculorum	per in saecula saeculorum
 per se	La0	per se	per se
 pesia a	Lp0	pesia a	pese a
 pesie a	Lp0	pesie a	pese a
-Petrocoptis grandiflora	Snaa	Petrocoptis grandiflora	Petrocoptis grandiflora
-Petromyzxon marinus	Snaa	Petromyzxon marinus	Petromyzxon marinus
-Petroselinum hortense	Snaa	Petroselinum hortense	Petroselinum hortense
-P. falciparum	Snaa	P. falciparum	P. falciparum
-P. fluorescens	Snaa	P. fluorescens	P. fluorescens
-P. fragi	Snaa	P. fragi	P. fragi
-Pharus legumen	Snaa	Pharus legumen	Pharus legumen
-Phicys Phicys	Snaa	Phicys Phicys	Phycis Phycis
-Phoenix sp.	Snaa	Phoenix sp.	Phoenix sp.
-Pholas dactylus	Snaa	Pholas dactylus	Pholas dactylus
-Phycis Blennoides	Snaa	Phycis Blennoides	Phycis blennoides
-Phyllostachys sp.	Snaa	Phyllostachys sp.	Phyllostachys sp.
-Pimpinela anisum	Snaa	Pimpinela anisum	Pimpinela anisum
-Piñeiro sylvestris	Snaa	Piñeiro sylvestris	Pinus sylvestris
-Pinetum pinastri	Snaa	Pinetum pinastri	Pinetum pinastri
-Pinguicula lusitanica	Snaa	Pinguicula lusitanica	Pinguicula lusitanica
-Pinna nobilis	Snaa	Pinna nobilis	Pinna nobilis
-Pinus insignis	Snaa	Pinus insignis	Pinus insignis
-Pinus pinaster	Snaa	Pinus pinaster	Pinus pinaster
-Pinus radiata	Snaa	Pinus radiata	Pinus radiata
-Pinus sp.	Snaa	Pinus sp.	Pinus sp.
-Pinus sylvestris	Snaa	Pinus sylvestris	Pinus sylvestris
-Pirimela denticulata	Snaa	Pirimela denticulata	Pirimela denticulata
-P. jacobaeus	Snaa	P. jacobaeus	P. jacobaeus
-P. japonicus	Snaa	P. japonicus	P. japonicus
-Plantago coronopus	Snaa	Plantago coronopus	Plantago coronopus
-Plantago lanceolata	Snaa	Plantago lanceolata	Plantago lanceolata
-Plantago major	Snaa	Plantago major	Plantago major
-Plantago sp.	Snaa	Plantago sp.	Plantago sp.
-Platananus hybrida	Snaa	Platananus hybrida	Platanus hybrida
-Platanus hybrida	Snaa	Platanus hybrida	Platanus hybrida
-Platanus sp.	Snaa	Platanus sp.	Platanus sp.
-Platichthys Flesus	Snaa	Platichthys Flesus	Platichthys flesus
 play back	Scms	play back	playback
-Plesiopenaeus edwardsianus	Snaa	Plesiopenaeus edwardsianus	Plesiopenaeus edwardsianus
-P. lividus	Snaa	P. lividus	P. lividus
-Pneumocistis carinii	Snaa	Pneumocistis carinii	Pneumocystis carinii
-Pneumocystis carinii	Snaa	Pneumocystis carinii	Pneumocystis carinii
-Pollachius Pollachius	Snaa	Pollachius Pollachius	Pollachius pollachius
-Pollicipes cornucopia	Snaa	Pollicipes cornucopia	Pollicipes cornucopia
-Pollicipes pollicipes	Snaa	Pollicipes pollicipes	Pollicipes pollicipes
-P. olseni	Snaa	P. olseni	P. olseni
-Polybius henslowi	Snaa	Polybius henslowi	Polybius henslowi
-Polygala sp.	Snaa	Polygala sp.	Polygala sp.
-Polygomun persicaria	Snaa	Polygomun persicaria	Polygonum persicaria
-Polygonum persicaria	Snaa	Polygonum persicaria	Polygonum persicaria
-Polygonum sp.	Snaa	Polygonum sp.	Polygonum sp.
-Polyneura bonnemaisonii	Snaa	Polyneura bonnemaisonii	Polyneura bonnemaisonii
-Polyprion americanus	Snaa	Polyprion americanus	Polyprion americanus
-Polyprion Americanus	Snaa	Polyprion Americanus	Polyprion americanus
-Polysiphonia scopulorum	Snaa	Polysiphonia scopulorum	Polysiphonia scopulorum
-Populus sp.	Snaa	Populus sp.	Populus sp.
 por adiantado	La0	por adiantado	por adiantado
 por anticipado	La0	por anticipado	por anticipado
 por causa de	Lp0	por causa de	por causa de
@@ -1287,275 +549,69 @@ por oídas	La0	por oídas	por oídas
 por regla xeral	La0	por regla xeral	por regra xeral
 por regra xeral	La0	por regra xeral	por regra xeral
 por se acaso	La0	por se acaso	por se acaso
-Portulacea oleracea	Snaa	Portulacea oleracea	Portulacea oleracea
-Portunus puber	Snaa	Portunus puber	Portunus puber
 por un tris	La0	por un tris	por un tris
 post meridiem	La0	post meridiem	post meridiem
-Potamogeton sp.	Snaa	Potamogeton sp.	Potamogeton sp.
-Potentilla erecta	Snaa	Potentilla erecta	Potentilla erecta
-P. ovale	Snaa	P. ovale	P. ovale
-P. pinaster	Snaa	P. pinaster	Pinus pinaster
-P. putida	Snaa	P. putida	P. putida
-P. radiata	Snaa	P. radiata	P. radiata
 primeira ministra	Scfs	primeiro ministro	primeiro ministro
 primeiras ministras	Scfp	primeiro ministro	primeiro ministro
 primeiro ministro	Scms	primeiro ministro	primeiro ministro
 primeiros ministros	Scmp	primeiro ministro	primeiro ministro
 prime time	Scms	prime time	prime time
-Primula veris	Snaa	Primula veris	Primula veris
 primus inter pares	A0as	primus inter pares	primus inter pares
 primus inter pares	A0fs	primus inter pares	primus inter pares
 primus inter pares	A0ms	primus inter pares	primus inter pares
 pro domo mea	La0	pro domo mea	pro domo mea
 pro domo sua	La0	pro domo sua	pro domo sua
 pro rata	La0	pro rata	pro rata
-Proteus mirabilis	Snaa	Proteus mirabilis	Proteus mirabilis
-Protostrongilus Rufescens	Snaa	Protostrongilus Rufescens	Protostrongylus rufescens
-Prunus avium	Snaa	Prunus avium	Prunus avium
-Prunus lusitanica	Snaa	Prunus lusitanica	Prunus lusitanica
-Prunus sp.	Snaa	Prunus sp.	Prunus sp.
-Psammobia (Gobraeus) depressa	Snaa	Psammobia (Gobraeus) depressa	Psammobia (Gobraeus) depressa
-Psetta Maxima	Snaa	Psetta Maxima	Psetta maxima
-Pseudomonas aeruginosa	Snaa	Pseudomonas aeruginosa	Pseudomonas aeruginosa
-Pseudomonas spp.	Snaa	Pseudomonas spp.	Pseudomonas spp.
-Ptedirium aquilinum	Snaa	Ptedirium aquilinum	Pteridium aquilinum
-Pteridium aquilinum	Snaa	Pteridium aquilinum	Pteridium aquilinum
-P. vivax	Snaa	P. vivax	P. vivax
-P. vulgata	Snaa	P. vulgata	P. vulgata
-Pyrus codrata	Snaa	Pyrus codrata	Pyrus codrata
-Pyrus sp.	Snaa	Pyrus sp.	Pyrus sp.
-Pytimus lusitanica	Snaa	Pytimus lusitanica	Pytimus lusitanica
-P. zigzag	Snaa	P. zigzag	P. zigzag
-Quercetum roboris	Snaa	Quercetum roboris	Quercetum roboris
-Quercus audegarensis	Snaa	Quercus audegarensis	Quercus audegarensis
-Quercus ilex	Snaa	Quercus ilex	Quercus ilex
-Quercus pedunculata	Snaa	Quercus pedunculata	Quercus pedunculata
-Quercus petraea	Snaa	Quercus petraea	Quercus petraea
-Quercus pyrenaica	Snaa	Quercus pyrenaica	Quercus pyrenaica
-Quercus robur	Snaa	Quercus robur	Quercus robur
-Quercus rubra	Snaa	Quercus rubra	Quercus rubra
-Quercus sp.	Snaa	Quercus sp.	Quercus sp.
-Quercus suber	Snaa	Quercus suber	Quercus suber
 quid pro quo	Scms	quid pro quo	quid pro quo
-Racomitrium lanuginosum	Snaa	Racomitrium lanuginosum	Racomitrium lanuginosum
-Raia microcellata	Snaa	Raia microcellata	Raia microcellata
-Raia undulata	Snaa	Raia undulata	Raia undulata
-Rana perezi	Snaa	Rana perezi	Rana perezi
-Ranunculus ficaria	Snaa	Ranunculus ficaria	Ranunculus ficaria
-Ranunculus repens	Snaa	Ranunculus repens	Ranunculus repens
-R. bulbocodium	Snaa	R. bulbocodium	R. bulbocodium
-R. clusiana	Snaa	R. clusiana	R. clusiana
 regra de tres	Scfs	regra de tres	regra de tres
 regras de tres	Scfp	regra de tres	regra de tres
 rente de	Lp0	rente de	rentes de
 rentes de	Lp0	rentes de	rentes de
-Rhinosporidium seeberi	Snaa	Rhinosporidium seeberi	Rhinosporidium seeberi
-Rhizomucor purillus	Snaa	Rhizomucor purillus	Rhizomucor purillus
-Rickettsia prowazekii	Snaa	Rickettsia prowazekii	Rickettsia prowazekii
 rigor mortis	Scms	rigor mortis	rigor mortis
-Robinia pseudoacacia	Snaa	Robinia pseudoacacia	Robinia pseudoacacia
-Rochalimae henselae	Snaa	Rochalimae henselae	Rochalimae henselae
-Rododendrom ponticum	Snaa	Rododendrom ponticum	Rododendrom ponticum
-Rododendron ponticum	Snaa	Rododendron ponticum	Rododendron ponticum
-Romulea bulbocodium	Snaa	Romulea bulbocodium	Romulea bulbocodium
-Romulea columnae	Snaa	Romulea columnae	Romulea columnae
-Romulea coronata	Snaa	Romulea coronata	Romulea coronata
-Romulea ramiflora	Snaa	Romulea ramiflora	Romulea ramiflora
-Romulea tenella Sampaio var. purpurea	Snaa	Romulea tenella Sampaio var. purpurea	Romulea tenella Sampaio var. purpurea
-Romulea tenella	Snaa	Romulea tenella	Romulea tenella
-Romulea uliginosa	Snaa	Romulea uliginosa	Romulea uliginosa
-Rondeletiola minor	Snaa	Rondeletiola minor	Rondeletiola minor
-Rosmarinus officinale	Snaa	Rosmarinus officinale	Rosmarinus officinale
-Rosmarinus officinalis	Snaa	Rosmarinus officinalis	Rosmarinus officinalis
-Rossia macrosoma	Snaa	Rossia macrosoma	Rossia macrosoma
-R. ramiflora	Snaa	R. ramiflora	R. ramiflora
-Rubus sp.	Snaa	Rubus sp.	Rubus sp.
-Ruditapes decussatus	Snaa	Ruditapes decussatus	Ruditapes decussatus
-Ruditapes Decussatus	Snaa	Ruditapes Decussatus	Ruditapes decussatus
-Ruditapes philippinarum	Snaa	Ruditapes philippinarum	Ruditapes philippinarum
-Ruditapes Philippinarum	Snaa	Ruditapes Philippinarum	Ruditapes philippinarum
-Ruditapes phillipinarum	Snaa	Ruditapes phillipinarum	Ruditapes phillipinarum
-Rumex acetosa	Snaa	Rumex acetosa	Rumex acetosa
-Rumex pulcher	Snaa	Rumex pulcher	Rumex pulcher
-Rumex sp.	Snaa	Rumex sp.	Rumex sp.
-Ruscus aculeatus	Snaa	Ruscus aculeatus	Ruscus aculeatus
-Ruta graveolens	Snaa	Ruta graveolens	Ruta graveolens
 ruxe ruxe	Scms	ruxe ruxe	ruxerruxe
-Saccharina latissima	Snaa	Saccharina latissima	Saccharina latissima
-Saccharomyces boulardii	Snaa	Saccharomyces boulardii	Saccharomyces boulardii
-Saccharomyces cerevisiae	Snaa	Saccharomyces cerevisiae	Saccharomyces cerevisiae
-Saccharomyces ellipsoideus	Snaa	Saccharomyces ellipsoideus	Saccharomyces ellipsoideus
-Saccharonmyces cerevisiae	Snaa	Saccharonmyces cerevisiae	Saccharonmyces cerevisiae
-Salix sp.	Snaa	Salix sp.	Salix sp.
-Salmonella abortus equi	Snaa	Salmonella abortus equi	Salmonella abortus equi
-Salmo salar	Snaa	Salmo salar	Salmo salar
-Salpa Salpa	Snaa	Salpa Salpa	Salpa salpa
-Salvia officinalis	Snaa	Salvia officinalis	Salvia officinalis
-Salvia sp.	Snaa	Salvia sp.	Salvia sp.
-Sambucus nigra	Snaa	Sambucus nigra	Sambucus nigra
 san martiño	Scms	san martiño	sanmartiño
-Santolina melidensis	Snaa	Santolina melidensis	Santolina melidensis
 sapo concho	Scms	sapo concho	sapoconcho
-Saponaria officinalis	Snaa	Saponaria officinalis	Saponaria officinalis
-Sarcoptes equi	Snaa	Sarcoptes equi	Sarcoptes equi
-Sarcoptes scabiei	Snaa	Sarcoptes scabiei	Sarcoptes scabiei
-Sardina pilchardus	Snaa	Sardina pilchardus	Sardina pilchardus
-Sardiña pilchardus	Snaa	Sardiña pilchardus	Sardina pilchardus
-Sargassum muticum	Snaa	Sargassum muticum	Sargassum muticum
-Scedosporium inflactum	Snaa	Scedosporium inflactum	Scedosporium inflactum
-Schisandra chinensis	Snaa	Schisandra chinensis	Schisandra chinensis
-S. coagulasa negativo	Snaa	S. coagulasa negativo	Staphylococcus coagulasa negativo 
-Scomber Colias	Snaa	Scomber Colias	Scomber colias
-Scomberesox Saurus	Snaa	Scomberesox Saurus	Scomberesox saurus
-Scomber scombrus	Snaa	Scomber scombrus	Scomber scombrus
-Scomber Scombrus	Snaa	Scomber Scombrus	Scomber scombrus
-Scophthalmus maximus	Snaa	Scophthalmus maximus	Scophthalmus maximus
-Scopthalmus Rhombus	Snaa	Scopthalmus Rhombus	Scopthalmus rhombus
-Scorpaena Porcus	Snaa	Scorpaena Porcus	Scorpaena porcus
-Scorpaena Scrofa	Snaa	Scorpaena Scrofa	Scorpaena scrofa
-Scrobicularia piperata	Snaa	Scrobicularia piperata	Scrobicularia piperata
-Scrobicularia plana	Snaa	Scrobicularia plana	Scrobicularia plana
-Scyliorhinus canicula	Snaa	Scyliorhinus canicula	Scyliorhinus canicula
-Scyliorhinus canícula	Snaa	Scyliorhinus canícula	Scyliorhinus canicula
-Scyllarides latus	Snaa	Scyllarides latus	Scyllarides latus
-Scyllarus arctus	Snaa	Scyllarus arctus	Scyllarus arctus
-Secale cereale	Snaa	Secale cereale	Secale cereale
 secretarías xerais	Scfp	secretaría xeral	secretaría xeral
 secretarias xerais	Scfp	secretario xeral	secretario xeral
 secretaría xeral	Scfs	secretaría xeral	secretaría xeral
 secretaria xeral	Scfs	secretario xeral	secretario xeral
 secretarios xerais	Scmp	secretario xeral	secretario xeral
 secretario xeral	Scms	secretario xeral	secretario xeral
-Sede intensa	Snaa	Sede intensa	Sede intensa
-Sedum album	Snaa	Sedum album	Sedum album
-Sempervivum tectorum	Snaa	Sempervivum tectorum	Sempervivum tectorum
 sempre e cando	Lcs	sempre e cando	sempre e cando
-Senecio vulgaris	Snaa	Senecio vulgaris	Senecio vulgaris
-Sepia elegans	Snaa	Sepia elegans	Sepia elegans
-Sepia officinalis	Snaa	Sepia officinalis	Sepia officinalis
-Sepia orbignyana	Snaa	Sepia orbignyana	Sepia orbignyana
-S. epidermidis con	Snaa	S. epidermidis con	S. epidermidis con
-S. epidermidis	Snaa	S. epidermidis	S. epidermidis
-Sepieta oweniana	Snaa	Sepieta oweniana	Sepieta oweniana
-Sepiola atlántica	Snaa	Sepiola atlántica	Sepiola atlantica
-Serapias cordigera	Snaa	Serapias cordigera	Serapias cordigera
-Serapias gregaria	Snaa	Serapias gregaria	Serapias gregaria
-Serapias lingua	Snaa	Serapias lingua	Serapias lingua
-Serapias parviflora	Snaa	Serapias parviflora	Serapias parviflora
-Serapias stenopetala	Snaa	Serapias stenopetala	Serapias stenopetala
-Serapias strictiflora foi	Snaa	Serapias strictiflora foi	Serapias strictiflora foi
-Serapias strictiflora	Snaa	Serapias strictiflora	Serapias strictiflora
-Serjania lethalis	Snaa	Serjania lethalis	Serjania lethalis
-Serranus Cabrilla	Snaa	Serranus Cabrilla	Serranus cabrilla
-Setaria equina	Snaa	Setaria equina	Setaria equina
-S. haemolyticus	Snaa	S. haemolyticus	S. haemolyticus
-Shigella equuli	Snaa	Shigella equuli	Shigella equuli
-S. hominis	Snaa	S. hominis	S. hominis
-Shympodus Bailloni	Snaa	Shympodus Bailloni	Shympodus bailloni
-Shympodus Cinereus	Snaa	Shympodus Cinereus	Shympodus cinereus
-Shympodus Melops	Snaa	Shympodus Melops	Shympodus melops
 silencio administrativo	Scms	silencio administrativo	silencio administrativo
 silencios administrativos	Scmp	silencio administrativo	silencio administrativo
 sine die	La0	sine die	sine die
 sine qua non	La0	sine qua non	sine qua non
-S. iniae	Snaa	S. iniae	S. iniae
-Skeletonema costatum	Snaa	Skeletonema costatum	Skeletonema costatum
-S. latissima	Snaa	S. latissima	S. latissima
-S. lugdunensis	Snaa	S. lugdunensis	S. lugdunensis
 sobor de	Lp0	sobor de	sobre de
 sóbor de	Lp0	sóbor de	sobre de
-Solanum dulcamara	Snaa	Solanum dulcamara	Solanum dulcamara
-Solanum sp.	Snaa	Solanum sp.	Solanum sp.
-Solea senegalensis	Snaa	Solea senegalensis	Solea senegalensis
-Solea Solea	Snaa	Solea Solea	Solea solea
-Solecurtus legumen	Snaa	Solecurtus legumen	Solecurtus legumen
-Solen ensis	Snaa	Solen ensis	Solen ensis
-Solen marginatus	Snaa	Solen marginatus	Solen marginatus
-Solen Marginatus	Snaa	Solen Marginatus	Solen marginatus
-Solen siliqua	Snaa	Solen siliqua	Solen siliqua
-Solen vagina	Snaa	Solen vagina	Solen vagina
-Sorbus aucuparia	Snaa	Sorbus aucuparia	Sorbus aucuparia
-Sorex minutus	Snaa	Sorex minutus	Sorex minutus
-Sparus aurata	Snaa	Sparus aurata	Sparus aurata
-Sparus Aurata	Snaa	Sparus Aurata	Sparus aurata
-Sparus Pagrus	Snaa	Sparus Pagrus	Sparus pagrus
-S. parviflora	Snaa	S. parviflora	S. parviflora
-Sphaerechinus granularis	Snaa	Sphaerechinus granularis	Sphaerechinus granularis
 spin off	Scfa	spin off	spin-off
 spin off	Scfp	spin off	spin-off
 spin off	Scfs	spin off	spin-off
-Spiranthes aestivalis	Snaa	Spiranthes aestivalis	Spiranthes aestivalis
-Spisula Solida	Snaa	Spisula Solida	Spisula solida
-Spondyliosoma cantharus	Snaa	Spondyliosoma cantharus	Spondyliosoma cantharus
-S. pyogenes	Snaa	S. pyogenes	S. pyogenes
-Squilla mantis	Snaa	Squilla mantis	Squilla mantis
-S. saprophyticus	Snaa	S. saprophyticus	S. saprophyticus
-S. schleiferi	Snaa	S. schleiferi	S. schleiferi
-Stahl cultivaron bacterias	Snaa	Stahl cultivaron bacterias	Stahl cultivaron bacterias
-Staphylococcus aureus	Snaa	Staphylococcus aureus	Staphylococcus aureus
-Staphylococcus epidermis	Snaa	Staphylococcus epidermis	Staphylococcus epidermidis
-Staphylococcus lugdunensis	Snaa	Staphylococcus lugdunensis	Staphylococcus lugdunensis
-Staphylococcus spp.	Snaa	Staphylococcus spp.	Staphylococcus spp.
 start up	Scfa	start up	start-up
 start up	Scfp	start up	start-up
 start up	Scfs	start up	start-up
-Stomatococcus mucilaginosus	Snaa	Stomatococcus mucilaginosus	Stomatococcus mucilaginosus
-Streptococcus iniae	Snaa	Streptococcus iniae	Streptococcus iniae
-Streptococcus pneumoniae	Snaa	Streptococcus pneumoniae	Streptococcus pneumoniae
-Streptococcus pyogenes	Snaa	Streptococcus pyogenes	Streptococcus pyogenes
-Streptococus pneumoniae	Snaa	Streptococus pneumoniae	Streptococus pneumoniae
 stricto sensu	La0	stricto sensu	stricto sensu
 strictu sensu	La0	strictu sensu	stricto sensu
-Strongillus vulgaris	Snaa	Strongillus vulgaris	Strongillus vulgaris
-Strongylus equinus	Snaa	Strongylus equinus	Strongylus equinus
 sub iudice	La0	sub iudice	sub iudice
 sui géneris	A0as	sui géneris	sui géneris
 sui géneris	A0fs	sui géneris	sui géneris
 sui géneris	A0ms	sui géneris	sui géneris
 sui generis	La0	sui generis	sui generis
-Sus coronaviricus	Snaa	Sus coronaviricus	Sus coronaviricus
-Sus mediterraneus	Snaa	Sus mediterraneus	Sus mediterraneus
-Sus scrofa	Snaa	Sus scrofa	Sus scrofa
-S. uvarum	Snaa	S. uvarum	S. uvarum
-S. warneri	Snaa	S. warneri	S. warneri
 tal cal	Lcs	tal cal	tal cal
 talk show	Scms	talk show	talk show
-Talpa europaea	Snaa	Talpa europaea	Talpa europaea
-Tapes aureus	Snaa	Tapes aureus	Tapes aureus
-Tapes decussatus	Snaa	Tapes decussatus	Tapes decussatus
-Tapes pullastra	Snaa	Tapes pullastra	Tapes pullastra
-Tapes rhomboideus	Snaa	Tapes rhomboideus	Tapes rhomboideus
-Taraxacum officinale	Snaa	Taraxacum officinale	Taraxacum officinale
-Taraxacum officinalis	Snaa	Taraxacum officinalis	Taraxacum officinalis
-Taxus baccata	Snaa	Taxus baccata	Taxus baccata
 tea de araña	Scfs	tea de araña	tea de araña
 teas de araña	Scfp	tea de araña	tea de araña
-Tellina real	Snaa	Tellina real	Tellina real
-Tellina tenuis	Snaa	Tellina tenuis	Tellina tenuis
 terceira idade	Scfs	terceira idade	terceira idade
-Tetrao urogallus	Snaa	Tetrao urogallus	Tetrao urogallus
-Teucrium scorodonia	Snaa	Teucrium scorodonia	Teucrium scorodonia
-Theileria dispar	Snaa	Theileria dispar	Theileria dispar
-Thymus sp.	Snaa	Thymus sp.	Thymus sp.
-Thymus vulgaris	Snaa	Thymus vulgaris	Thymus vulgaris
 tía avoa	Scfs	tío avó	tío avó
 tías avoas	Scfp	tío avó	tío avó
 tic tac	Scms	tic tac	tictac
 tic tac	Y	tic tac	tictac
 tie break	Scms	tie break	tie break
-Tiffaniella capitata	Snaa	Tiffaniella capitata	Tiffaniella capitata
-Tilia cordata	Snaa	Tilia cordata	Tilia cordata
-Tilia platyphyllos	Snaa	Tilia platyphyllos	Tilia platyphyllos
-Tilia tomentosa	Snaa	Tilia tomentosa	Tilia tomentosa
-Tillia sp.	Snaa	Tillia sp.	Tillia sp.
 tío avó	Scms	tío avó	tío avó
 tíos avós	Scmp	tío avó	tío avó
 tiro libre	Scms	tiro libre	tiro libre
 tiros libres	Scmp	tiro libre	tiro libre
-Tissilago farfara	Snaa	Tissilago farfara	Tissilago farfara
 tocante a	Lp0	tocante a	tocante a
-Todarodes sagitattus	Snaa	Todarodes sagitattus	Todarodes sagitattus
-Todaropsis eblanae	Snaa	Todaropsis eblanae	Todaropsis eblanae
 todo terreo	A0aa	todo terreo	todo terreo
 todo terreo	A0ap	todo terreo	todo terreo
 todo terreo	A0as	todo terreo	todo terreo
@@ -1568,47 +624,20 @@ todo terreo	A0ms	todo terreo	todo terreo
 top les	Scms	top les	topless
 top manta	Scms	top manta	top manta
 top model	Scaa	top model	top model
+top model	Scap	top model	top model
+top model	Scas	top model	top model
+top model	Scfa	top model	top model
+top model	Scfp	top model	top model
+top model	Scfs	top model	top model
+top model	Scma	top model	top model
+top model	Scmp	top model	top model
+top model	Scms	top model	top model
 top models	Scap	top model	top model
 top models	Scfp	top model	top model
 top models	Scmp	top model	top model
 totum revolutum	Scms	totum revolutum	tótum revolútum
 tótum revolútum	Scms	tótum revolútum	tótum revolútum
-T. platyphyllos	Snaa	T. platyphyllos	T. platyphyllos
-Trachurus trachurus	Snaa	Trachurus trachurus	Trachurus trachurus
-Trachurus Trachurus	Snaa	Trachurus Trachurus	Trachurus trachurus
 trending topic	Scms	trending topic	trending topic
-Treponema pallidum	Snaa	Treponema pallidum	Treponema pallidum
-Tricomonas fetus	Snaa	Tricomonas fetus	Tricomonas fetus
-Trifolium repens	Snaa	Trifolium repens	Trifolium repens
-Trifolium sp.	Snaa	Trifolium sp.	Trifolium sp.
-Trigla Lucerna	Snaa	Trigla Lucerna	Trigla lucerna
-Trigla Lyra	Snaa	Trigla Lyra	Trigla lyra
-Trigloporus Lastoviza	Snaa	Trigloporus Lastoviza	Trigloporus lastoviza
-Tripanosoma brucei	Snaa	Tripanosoma brucei	Tripanosoma brucei
-Tripanosoma equinum	Snaa	Tripanosoma equinum	Tripanosoma equinum
-Tripanosoma equiperdum	Snaa	Tripanosoma equiperdum	Tripanosoma equiperdum
-Tripanosoma evansi	Snaa	Tripanosoma evansi	Tripanosoma evansi
-Trisopterus Luscus	Snaa	Trisopterus Luscus	Trisopterus luscus
-Trisopterus minutus	Snaa	Trisopterus minutus	Trisopterus minutus
-Triticum sp.	Snaa	Triticum sp.	Triticum sp.
-Triton nodifer	Snaa	Triton nodifer	Triton nodifer
-T. tomentosa	Snaa	T. tomentosa	T. tomentosa
-Tuberaria globularifolia	Snaa	Tuberaria globularifolia	Tuberaria globularifolia
-Tursiops truncatus 	Snaa	Tursiops truncatus 	Tursiops truncatus 
-Tursiops Truncatus	Snaa	Tursiops Truncatus	Tursiops truncatus
-Tussilago fárfara	Snaa	Tussilago fárfara	Tussilago farfara
-Typha sp.	Snaa	Typha sp.	Typha sp.
-Ulex europaeus	Snaa	Ulex europaeus	Ulex europaeus
-Ulex europeus	Snaa	Ulex europeus	Ulex europeus
-Ulex sp.	Snaa	Ulex sp.	Ulex sp.
-Ulmus sp.	Snaa	Ulmus sp.	Ulmus sp.
-Ulva australis	Snaa	Ulva australis	Ulva australis
-Ulva rigida	Snaa	Ulva rigida	Ulva rigida
-Ulva rotundata	Snaa	Ulva rotundata	Ulva rotundata
-Ulva spp.	Snaa	Ulva spp.	Ulva spp.
-Ulva sp.	Snaa	Ulva sp.	Ulva sp.
-Umbilicus pendulinus	Snaa	Umbilicus pendulinus	Umbilicus pendulinus
-Undaria pinnatifida	Snaa	Undaria pinnatifida	Undaria pinnatifida
 unidade de coidados intensivos	Scms	unidade de coidados intensivos	unidade de coidados intensivos
 unidade de vixilancia intensiva	Scfs	unidade de vixilancia intensiva	unidade de vixilancia intensiva
 unidade didáctica	Scfs	unidade didáctica	unidade didáctica
@@ -1616,11 +645,6 @@ unidades de coidados intensivos	Scmp	unidade de coidados intensivos	unidade de c
 unidades de vixilancia intensiva	Scfp	unidade de vixilancia intensiva	unidade de vixilancia intensiva
 unidades didáctica	Scfp	unidade didáctica	unidade didáctica
 urbi et orbi	La0	urbi et orbi	urbi et orbi
-Ursus arctos	Snaa	Ursus arctos	Ursus arctos
-Urtica dioica	Snaa	Urtica dioica	Urtica dioica
-Urtica sp.	Snaa	Urtica sp.	Urtica sp.
-Vaccinium myrtillus	Snaa	Vaccinium myrtillus	Vaccinium myrtillus
-Vaccinium myrtyllus	Snaa	Vaccinium myrtyllus	Vaccinium myrtyllus
 vade retro	Y	vade retro	vade retro
 valedora de o pobo	Scfs	valedor de o pobo	valedor de o pobo
 valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo
@@ -1628,41 +652,10 @@ Valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo
 valedor de o pobo	Scms	valedor de o pobo	valedor de o pobo
 valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo
 Valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo
-Valeriana officinalis	Snaa	Valeriana officinalis	Valeriana officinalis
-V. cholerae	Snaa	V. cholerae	V. cholerae
-Venerupis aurea	Snaa	Venerupis aurea	Venerupis aurea
-Venerupis Aurea	Snaa	Venerupis Aurea	Venerupis aurea
-Venerupis decussata	Snaa	Venerupis decussata	Venerupis decussata
-Venerupis philippinarum	Snaa	Venerupis philippinarum	Venerupis philippinarum
-Venerupis pullastra	Snaa	Venerupis pullastra	Venerupis pullastra
-Venerupis Pullastra	Snaa	Venerupis Pullastra	Venerupis pullastra
-Venerupis rhomboides	Snaa	Venerupis rhomboides	Venerupis rhomboides
-Venerupis Rhomboides	Snaa	Venerupis Rhomboides	Venerupis rhomboides
-Venerupis rhomboideus	Snaa	Venerupis rhomboideus	Venerupis rhomboideus
-Venerupis senegalensis	Snaa	Venerupis senegalensis	Venerupis senegalensis
-Venus decussata	Snaa	Venus decussata	Venus decussata
-Venus fasciata	Snaa	Venus fasciata	Venus fasciata
-Venus gallina	Snaa	Venus gallina	Venus gallina
-Venus striatula	Snaa	Venus striatula	Venus striatula
-Venus verrucosa	Snaa	Venus verrucosa	Venus verrucosa
-Venus Verrucosa	Snaa	Venus Verrucosa	Venus verrucosa
-Verbascum tapsus	Snaa	Verbascum tapsus	Verbascum tapsus
-Verbascum thapsus	Snaa	Verbascum thapsus	Verbascum thapsus
-Verbena officinalis	Snaa	Verbena officinalis	Verbena officinalis
 verbi gratia	La0	verbi gratia	verbi gratia
 via crucis	Scms	via crucis	viacrucis
 vía crucis	Scms	vía crucis	viacrucis
-Vibrio cholerae	Snaa	Vibrio cholerae	Vibrio cholerae
-Vibrio comma	Snaa	Vibrio comma	Vibrio comma
-Vibrio fetus	Snaa	Vibrio fetus	Vibrio fetus
-Vinca sp.	Snaa	Vinca sp.	Vinca sp.
-Viola odorata	Snaa	Viola odorata	Viola odorata
-Viola sp.	Snaa	Viola sp.	Viola sp.
-Viola tricolor	Snaa	Viola tricolor	Viola tricolor
 visto e prace	Scms	visto e prace	visto e prace
-Vitis vinifera	Snaa	Vitis vinifera	Vitis vinifera
-Zea mays	Snaa	Zea mays	Zea mays
-Zeus Faber	Snaa	Zeus Faber	Zeus faber
 AA. EE.	Za00	AA. EE.	
 AA. PP.	Za00	AA. PP.	
 AA. VV.	Za00	AA. VV.	

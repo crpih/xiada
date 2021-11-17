@@ -467,7 +467,7 @@ coas/cos	con	con	con	P	/	as/os	o	o	Ddxp
 c@s	con	con	con	P	/	@s	o	o	Ddxp
 c@	con	con	con	P	/	@	o	o	Ddxs
 delo	de	de	de	P	/	elo	el	el	Rtp3ns
-nelo	en	en	en	P	/	elo	el	el	Rtp3ns
+delo	de	de	de	P	/	elo	el	el	Rtp3ns
 do/da	de	de	de	P	/	o/a	o	o	Ddxs
 da/do	de	de	de	P	/	a/o	o	o	Ddxs
 dos/das	de	de	de	P	/	os/as	o	o	Ddxp

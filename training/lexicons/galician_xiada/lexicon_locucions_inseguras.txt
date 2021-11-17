@@ -47,7 +47,6 @@ a excepción de	Lp0	a excepción de	a excepción de
 a feito	La0	a feito	a feito
 a fin de contas	La0	a fin de contas	a fin de contas
 a fin de	Lp0	a fin de	a fin de
-A. flavus	Snaa	A. flavus	Aspergillus flavus
 a fondo	La0	a fondo	a fondo
 a forza de	Lp0	a forza de	a forza de
 agora ben	Lcs	agora ben	agora ben
