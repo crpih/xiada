@@ -27,7 +27,7 @@ class Words
   end
 
   def add_word(word, tag, lemma, hiperlemma, from_lexicon)
-    hiperlemma = lemma unless hiperlemma
+    hiperlemma = "" unless hiperlemma
     key = word + "&&&" + tag
     @corpus_size = @corpus_size + 1
     @real_corpus_size = @real_corpus_size + 1 unless word == @empty_word
