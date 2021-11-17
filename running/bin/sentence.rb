@@ -121,7 +121,7 @@ class Sentence
         # STDERR.puts "tokens_new: #{tokens_new}"
         #STDERR.puts "inside1"
         # URIS treatment
-      elsif token =~ /(http[s]:\/\/[a-z\.?#\/=]+)(\.)?/
+      elsif token =~ /(https?:\/\/[a-z\.?#\/=]+)(\.)?/
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and - at the beginning
@@ -135,10 +135,9 @@ class Sentence
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
       # Split parents
-      elsif token != "" and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
+      elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
         token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
         tokens_aux = token.split(/ |([\(\)])/)
-        STDERR.puts "tokens_aux:#{tokens_aux}"
         tokens_aux.each do |token_aux|
           tokens_new << token_aux if token_aux != ""
         end
@@ -150,6 +149,30 @@ class Sentence
     tokens = tokens_new
 
     #STDERR.puts "(tokenize) tokens:#{tokens}"
+
+    # URLs with query string detection
+    tokens_new = Array.new
+    index = 0
+    while (index < tokens.size)
+      token = tokens[index]
+      STDERR.puts "token:#{token}, index:#{index}, tokens.size:#{tokens.size}"
+      if token =~ /^https?/ and (index + 2 < tokens.size)
+        new_token = token
+        new_full_token = "#{new_token}"
+        index = index + 1
+        new_token = tokens[index]
+        new_full_token << "#{new_token}"
+        index = index + 1
+        new_token = tokens[index]
+        new_full_token << "#{new_token}"
+        tokens_new << new_full_token
+        index = index + 1
+      else
+        tokens_new << token
+        index = index + 1
+      end
+    end
+    tokens = tokens_new
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
