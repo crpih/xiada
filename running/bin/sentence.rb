@@ -121,7 +121,7 @@ class Sentence
         # STDERR.puts "tokens_new: #{tokens_new}"
         #STDERR.puts "inside1"
         # URIS treatment
-      elsif token =~ /(https?:\/\/[a-z\.?#\/=]+)(\.)?/
+      elsif token =~ /(^https?:\/\/[a-z0-9\.?#\/=]+)(\.)?/
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and - at the beginning
@@ -156,7 +156,7 @@ class Sentence
     while (index < tokens.size)
       token = tokens[index]
       #STDERR.puts "token:#{token}, index:#{index}, tokens.size:#{tokens.size}"
-      if token =~ /^https?/ and (index + 2 < tokens.size)
+      if token =~ /^https?/ and (index + 2 < tokens.size) and (tokens[index+1]=~/[_?]/)
         new_token = token
         new_full_token = "#{new_token}"
         index = index + 1
@@ -173,6 +173,7 @@ class Sentence
       end
     end
     tokens = tokens_new
+    #STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
@@ -302,8 +303,8 @@ class Sentence
       offset = 0
       from = 0
       tokens.each do |token_text|
-        # STDERR.puts "text: #{text}"
-        # STDERR.puts "token_text: #{token_text}"
+        #STDERR.puts "text: #{text}"
+        #STDERR.puts "token_text: #{token_text}"
         from = text.index(token_text, offset)
         to = from + token_text.length - 1
         token = Token.new(self.text, String.new(token_text), :standard, from + @current_text_offset, to + @current_text_offset)
