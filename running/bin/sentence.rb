@@ -107,7 +107,7 @@ class Sentence
     tokens_new = Array.new
     tokens.each_index do |index|
       token = tokens[index]
-      # STDERR.puts "token_src: #{token} index:#{index}"
+      STDERR.puts "token_src: #{token} index:#{index}"
       # identifiers at the beginning of the sentence
       if index == 0 and token =~ /^[0-9A-Za-z]+\)/
         tokens_new << token
@@ -121,7 +121,7 @@ class Sentence
         # STDERR.puts "tokens_new: #{tokens_new}"
         #STDERR.puts "inside1"
         # URIS treatment
-      elsif token =~ /(^https?:\/\/[a-z0-9\.?#\/=]+)(\.)?/
+      elsif token =~ /(^https?:\/\/[a-z0-9\.?#\/=\-]+)(\.)?/
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and - at the beginning
@@ -148,7 +148,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    #STDERR.puts "(tokenize) tokens:#{tokens}"
+    STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # URLs with query string detection
     tokens_new = Array.new
