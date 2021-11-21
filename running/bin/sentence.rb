@@ -148,7 +148,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    STDERR.puts "(tokenize) tokens:#{tokens}"
+    #STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # URLs with query string detection
     tokens_new = Array.new
