@@ -107,7 +107,7 @@ class Sentence
     tokens_new = Array.new
     tokens.each_index do |index|
       token = tokens[index]
-      STDERR.puts "token_src: #{token} index:#{index}"
+      # STDERR.puts "token_src: #{token} index:#{index}"
       # identifiers at the beginning of the sentence
       if index == 0 and token =~ /^[0-9A-Za-z]+\)/
         tokens_new << token
