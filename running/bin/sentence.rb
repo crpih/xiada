@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+#    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -124,11 +124,12 @@ class Sentence
       elsif token =~ /(^https?:\/\/[a-z0-9\.?#\/=\-]+)(\.)?/
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
-      # We separate ,:'- from not numeric words and simbols at the end of any word and - at the beginning
-      elsif token != "" and token =~ /^([\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ]+)([,:'\-\)]?)$/
+      # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
+      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ]+)([']?)([,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
+        tokens_new << $4 if $4 and $4 != ""
       # We separate ,:'-) from numbers at the end of any word
       elsif token != "" and token =~ /^([\(]?)([\-]?[0-9]+[,\.]?[0-9+]?)([,:'\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
@@ -148,7 +149,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    #STDERR.puts "(tokenize) tokens:#{tokens}"
+#    STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # URLs with query string detection
     tokens_new = Array.new
