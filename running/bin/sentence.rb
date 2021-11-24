@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-#    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -125,7 +125,7 @@ class Sentence
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
-      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ]+)([']?)([,:\-\)]?)$/
+      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ0-9<\/>]+[.]?)([']?)([,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
@@ -156,12 +156,12 @@ class Sentence
     index = 0
     while (index < tokens.size)
       token = tokens[index]
-      if token =~ /[0-9]+/ and (index < tokens.size)
+      if token =~ /^[0-9]+$/ and (index < tokens.size)
         new_token = token
         new_full_token = "#{new_token}"
         new_index = index + 1
         new_token = tokens[new_index]
-        while new_token =~ /[0-9]+/ and (new_index < tokens.size)
+        while new_token =~ /^[0-9]+$/ and (new_index < tokens.size)
           new_full_token << " #{new_token}"
           new_index = new_index + 1
           new_token = tokens[new_index] if (new_index < tokens.size)
@@ -184,7 +184,7 @@ class Sentence
       tokens = restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
     end
     # STDERR.puts "token.size: #{tokens.size}"
-    # STDERR.puts "(tokenize) tokens:#{tokens}"
+    # STDERR.puts "(tokenize) tokens (final):#{tokens}"
 
     return tokens
   end
@@ -356,7 +356,7 @@ class Sentence
       # or it is included in the lexicon to build the alternatives.
 
       if last_token.text =~ /\.$/ and (@acronyms[last_token.text] != nil or @abbreviations[last_token.text] != nil)
-        #STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
+        STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
         last_token_without_end_point = last_token.text.gsub(/\.$/, "")
         result = @dw.get_emissions_info(last_token_without_end_point, nil)
         lexicon_not_abbreviation = false

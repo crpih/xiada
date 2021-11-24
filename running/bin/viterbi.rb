@@ -19,7 +19,7 @@ class Viterbi
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
-      #sentence.print(STDERR)
+      # sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
       #sentence.print(STDERR)
@@ -183,6 +183,7 @@ class Viterbi
     #STDERR.puts "\ninitialization of token:#{token.text} type:#{token.token_type} from_viterbi:#{token.from_viterbi} tagged:#{token.tagged}"
     if token != nil
       if token.token_type == :standard
+        #STDERR.puts "without_suffixes_words: #{@without_suffixes_words}"
         unless @without_suffixes_words[String.new(token.text)]
           #STDERR.puts "entra"
           results = @dw.get_tags_lemmas_emissions(token.text, token.tags.keys)
@@ -234,12 +235,12 @@ class Viterbi
 
   def recurrence_step_token(token)
     if token != nil
-      # STDERR.puts "\nrecurrence_token: #{token.text} token_type:#{token.token_type}"
+      #STDERR.puts "\nrecurrence_token: #{token.text} token_type:#{token.token_type}"
       if (token.token_type == :standard) or (token.token_type == :end_sentence)
 
-        #puts "\nEVALUATING TOKEN:#{token.text} token_object:#{token}"
+        #STDERR.puts "\nEVALUATING TOKEN:#{token.text} token_object:#{token}"
         token.tags.values.each do |tag|
-          #puts "\nEvaluating tag:#{tag.value} tag_object:#{tag}"
+          #STDERR.puts "Evaluating tag:#{tag.value} tag_object:#{tag}"
           #deltas_aux = Hash.new
           deltas = Hash.new
           prev_tokens = prev_tokens_calculation(token)

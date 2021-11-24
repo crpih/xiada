@@ -49,16 +49,18 @@ class DatabaseWrapper
   end
 
   def get_tags_lemmas_emissions(word, tags)
-    # STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
+    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
     max_length = 0
     result = get_emissions_info(word, tags)
     if result.empty?
       result = @lemmatizer.lemmatize(word, tags)
       #result = get_emissions_info(word, tags)
+      # STDERR.puts "result.empty: next result: #{}"
       if result.empty?
         if (tags == nil) or (tags.empty?)
           suffixes = get_possible_suffixes(word)
           result = get_guesser_result(suffixes, nil, nil)
+          # STDERR.puts "suffixes: #{suffixes} result:#{result}"
           if (result == nil) or (result.empty?)
             query = "select tk,null,null,log_ak from unigram_frequencies"
             opened_category_regexp = get_opened_category_regexp
@@ -70,7 +72,7 @@ class DatabaseWrapper
         end
       end
     end
-    # STDERR.puts "result: #{result}"
+    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word}, tags: #{tags}, result: #{result}"
     return result
   end
 
