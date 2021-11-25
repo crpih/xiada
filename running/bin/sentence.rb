@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -125,7 +125,7 @@ class Sentence
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
-      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ0-9<\/>]+[.]?)([']?)([,:\-\)]?)$/
+      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñA-ZÑÁÉÍÓÚ0-9<\/>\+\-]+[.]?)([']?)([,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
@@ -149,7 +149,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    # STDERR.puts "(tokenize) tokens:#{tokens}"
+    STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
