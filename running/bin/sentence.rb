@@ -102,7 +102,7 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
+    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
@@ -149,7 +149,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    STDERR.puts "(tokenize) tokens:#{tokens}"
+    #STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
