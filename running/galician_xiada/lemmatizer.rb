@@ -454,12 +454,13 @@ module LemmatizerGalicianXiada
 
   # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
   def lemmatize_verb_with_enclitics(left_part)
+    # STDERR.puts "lemmatize_verb_with_enclitics: #{left_part}"
     # gh treatment
     if left_part =~ /gh/
       new_left_part = left_part.gsub(/gh/,'g')
       return new_left_part
     # auto treatment
-    elsif left_part =~ /^autor/
+    elsif left_part =~ /^autorr/
       new_left_part = left_part.gsub(/^autor/,'')
       return new_left_part
     elsif left_part =~ /^auto-?/
@@ -477,7 +478,7 @@ module LemmatizerGalicianXiada
       new_left_part = left_part.gsub(/g/,'gh')
       return new_left_part
     # auto treatment
-    elsif original_left_part =~/^autor/
+    elsif original_left_part =~/^autorr/
       new_left_part = left_part.gsub(/^(.)/,'autor\1')
       return new_left_part unless new_left_part =~ /^autoauto/
     elsif original_left_part =~/^(auto-?)/
