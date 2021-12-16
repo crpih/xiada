@@ -356,7 +356,7 @@ class Sentence
       # or it is included in the lexicon to build the alternatives.
 
       if last_token.text =~ /\.$/ and (@acronyms[last_token.text] != nil or @abbreviations[last_token.text] != nil)
-        STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
+        # STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
         last_token_without_end_point = last_token.text.gsub(/\.$/, "")
         result = @dw.get_emissions_info(last_token_without_end_point, nil)
         lexicon_not_abbreviation = false
