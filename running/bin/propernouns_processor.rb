@@ -20,13 +20,13 @@ class ProperNounsProcessor
       STDERR.puts "Processing basic proper nouns"
       process_basic_proper_nouns
     else
-      STDERR.puts "Processing trained proper nouns"
+      # STDERR.puts "Processing trained proper nouns"
       process_trained_proper_nouns(trained_proper_nouns) unless trained_proper_nouns == nil
-      STDERR.puts "Processing lexicon proper nouns"
-      process_lexicon_proper_nouns
-      STDERR.puts "Processing standard proper nouns"
+      # STDERR.puts "Processing standard proper nouns"
       process_standard_proper_nouns
-      STDERR.puts "Processing regexp proper nouns"
+      # STDERR.puts "Processing lexicon proper nouns"
+      process_lexicon_proper_nouns
+      # STDERR.puts "Processing regexp proper nouns"
       process_regexp_proper_nouns
     end
   end
