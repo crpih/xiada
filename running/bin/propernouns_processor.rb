@@ -56,7 +56,7 @@ class ProperNounsProcessor
           unless last_token == nil
             alternatives = get_proper_noun_alternatives(token, last_token)
             alternatives.each do |alternative|
-             trained_proper_nouns[alternative] = true
+              trained_proper_nouns[alternative] = true if @dw.get_emissions_info(StringUtils.to_lower(alternative), nil).empty?
             end
             prev_token = last_token
             token = last_token.next
