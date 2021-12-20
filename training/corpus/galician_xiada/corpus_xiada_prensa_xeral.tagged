@@ -1170,7 +1170,7 @@ a	Ddfs	o
 obra	Scfs	obra
 de	P	de
 Guillermo Cabrera Infante	Spm0	Guillermo Cabrera Infante
-foi	Vei30s	ser
+foi	Vei30sser	ser
 prohibida	V0p0fs	prohibir
 en	P	en
 Cuba	Sp00	Cuba
@@ -1451,7 +1451,7 @@ opinión	Scfs	opinión
 sobre	P	sobre
 a	Ddfs	o
 emisora	Scfs	emisora
-fose	Ves30s	ser
+fose	Ves30sser	ser
 moi	Wm	moito
 comentada	V0p0fs	comentar
 .	Q.	.
@@ -1683,7 +1683,7 @@ Filgueira Valverde	Sp00	Filgueira Valverde
 ,	Q,	,
 etc	Za00	etc
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 uns	Dimp	un
 obstáculo	Scms	obstáculo
 para	P	para
@@ -3505,7 +3505,7 @@ venceu	Vei30s	vencer
 a	P	a
 Carlos Príncipe	Spm0	Carlos Príncipe
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 elixido	V0p0ms	elixir
 secretario	Scms	secretario
 comarcal	A0ms	comarcal
@@ -3606,7 +3606,7 @@ de	P	de
 a	Ddfs	o
 dirección	Scfs	dirección
 galega	A0fs	galego
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 lle	Rad3ms	lle
@@ -3787,7 +3787,7 @@ de	P	de
 agora	Wn	agora
 ,	Q,	,
 que	Cs	que
-fose	Ves30s	ser
+fose	Ves30sser	ser
 o	Ddms	o
 substituto	Scms	substituto
 de	P	de
@@ -3863,7 +3863,7 @@ de	P	de
 Vigo	Sp00	Vigo
 ,	Q,	,
 que	Tnfs	que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 disolta	V0p0fs	disolver
 para	P	para
 apartar	V0f000	apartar
@@ -4581,7 +4581,7 @@ que	Tnms	que
 o	Raa3ms	o
 alterou	Vei30s	alterar
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tanto	Wn	tanto
 comprobar	V0f000	comprobar
 que	Cs	que
@@ -4769,7 +4769,7 @@ en	P	en
 Vigo	Sp00	Vigo
 ,	Q,	,
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 ese	Edms	ese
 momento	Scms	momento
@@ -4900,7 +4900,7 @@ non	Wn	non
 era	Vii30s	ser
 necesario	A0ms	necesario
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 suficiente	A0fs	suficiente
 con	P	con
 unha	Difs	un
@@ -5781,7 +5781,7 @@ gustaría	Vci30s	gustar
 me	Rad1as	me
 que	Cs	que
 así	Wn	así
-fose	Ves30s	ser
+fose	Ves30sser	ser
 .	Q.	.
 
 en	P	en
@@ -6600,7 +6600,7 @@ montou	Vei30s	montar
 ,	Q,	,
 o	Ddms	o
 rexeitamento	Scms	rexeitamento
-foi	Vei30s	ser
+foi	Vei30sser	ser
 total	A0ms	total
 .	Q.	.
 
@@ -7920,7 +7920,7 @@ propoñan	Vps30p	propoñer
 _	Q_	_
 se	Cs	se
 tal	Infs	tal
-for	Vfs30s	ser
+for	Vfs30sser	ser
 a	Ddfs	o
 súa	Md3pfs	seu
 vontade	Scfs	vontade
@@ -8201,7 +8201,7 @@ de	P	de
 a	Ddfs	o
 Unión Europea	Spfs	Unión Europea
 )	Q)	)
-foron	Vei30p	ser
+foron	Vei30pser	ser
 capaces	A0mp	capaz
 de	P	de
 traballar	V0f000	traballar
@@ -8786,7 +8786,7 @@ o	Ddms	o
 Novo Riazor	Spms	Novo Riazor
 ,	Q,	,
 que	Tnms	que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 apresentado	V0p0ms	apresentar
 por	P	por
 lo	Ddms	o
@@ -8941,7 +8941,7 @@ materialización	Scfs	materialización
 
 e	Cc	e
 así	Wn	así
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ,	Q,	,
 efectivamente	Wn	efectivamente
 .	Q.	.
@@ -9520,7 +9520,7 @@ salientábel	A0ms	salientábel
 de	P	de
 estas	Edfp	este
 intervencións	Scfp	intervención
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 unánime	A0ms	unánime
 recoñecemento	Scms	recoñecemento
@@ -9569,7 +9569,7 @@ marzo	Scms	marzo
 
 a	Ddfs	o
 Plataforma Nunca Máis	Spfs	Plataforma Nunca Máis
-foi	Vei30s	ser
+foi	Vei30sser	ser
 chamada	V0p0fs	chamar
 a	P	a
 comparecer	V0f000	comparecer
@@ -12068,7 +12068,7 @@ agora	Wn	agora
 ?	Q?	?
 
 ese	Enms	ese
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -12549,7 +12549,7 @@ de	P	de
 a	Ddfs	o
 gaiteira	Scfs	gaiteiro
 Susana Seivane	Spf0	Susana Seivane
-foron	Vei30p	ser
+foron	Vei30pser	ser
 elixidos	V0p0mp	elixir
 finalistas	Scmp	finalista
 de	P	de
@@ -12617,7 +12617,7 @@ quen	Tnas	quen
 afirma	Vpi30s	afirmar
 que	Cs	que
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 a	Ddfs	o
 estrutura	Scfs	estrutura
 orgánica	A0fs	orgánico
@@ -12839,7 +12839,7 @@ por	P	por
 lo	Ddms	o
 PSOE	Zgms	PSOE
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 importante	A0fs	importante
 .	Q.	.
 
@@ -13712,7 +13712,7 @@ que	Tnms	que
 acumulou	Vei30s	acumular
 o	Ddms	o
 que	Tnms	que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 bispo	Scms	bispo
 auxiliar	A0ms	auxiliar
 de	P	de
@@ -13896,7 +13896,7 @@ autor	Scms	autor
 de	P	de
 a	Ddfs	o
 versión	Scfs	versión
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Antón Valcárcel y López de Lemos	Spm0	Antón Valcárcel y López de Lemos
 (	Q(	(
 Ourense	Sp00	Ourense
@@ -14379,7 +14379,7 @@ tradución	Scfs	tradución
 definitiva	A0fs	definitivo
 
 Xuntanza Editorial	Sp00	Xuntanza Editorial
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 mentora	Scfs	mentor
 de	P	de
@@ -14409,7 +14409,7 @@ editor	Scms	editor
 ,	Q,	,
 Raúl Seoane	Spm0	Raúl Seoane
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Valentín Arias	Spm0	Valentín Arias
 ,	Q,	,
 que	Tnms	que
@@ -14835,7 +14835,7 @@ xeral	A0ms	xeral
 precisar	V0f000	precisar
 algunhas	Idfp	algún
 frases	Scfp	frase
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 máis	Wm	máis
 difícil	A0ms	difícil
@@ -15131,7 +15131,7 @@ nosos	Md1pmp	noso
 actores	Scmp	actor
 e	Cc	e
 actrices	Scfp	actor
-fosen	Ves30p	ser
+fosen	Ves30pser	ser
 coñecidos	V0p0mp	coñecer
 fóra	Wn	fóra
 de	P	de
@@ -15368,7 +15368,7 @@ extemporáneos	A0mp	extemporáneo
 e	Cc	e
 o	Ddms	o
 resultado	Scms	resultado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 este	Enms	este
 ,	Q,	,
 a	Ddfs	o
@@ -16767,7 +16767,7 @@ que	Tnms	que
 aquí	Wn	aquí
 verdadeiramente	Wn	verdadeiramente
 houbo	Vei30s	haber
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 feroz	A0fs	feroz
 purga	Scfs	purga
@@ -17957,7 +17957,7 @@ e	Cc	e
 Un doce emprego	Sp00	Un doce emprego
 ,	Q,	,
 que	Tnmp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 escritos	V0p0mp	escribir
 en	P	en
 as	Ddfp	o
@@ -17976,7 +17976,7 @@ edición	Scfs	edición
 .	Q.	.
 
 Contos por palabras	Sp00	Contos por palabras
-foi	Vei30s	ser
+foi	Vei30sser	ser
 merecente	A0ms	merecente
 en	P	en
 o	Ddms	o
@@ -17987,7 +17987,7 @@ o	Ddms	o
 premio	Scms	premio
 Lazarillo	Sp00	Lazarillo
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 incluído	V0p0ms	incluír
 en	P	en
 a	Ddfs	o
@@ -18779,7 +18779,7 @@ a	P	a
 o	Ddms	o
 inferno	Scms	inferno
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Ravensbruck	Sp00	Ravensbruck
 .	Q.	.
 
@@ -19014,7 +19014,7 @@ non	Wn	non
 sabía	Vii30s	saber
 moito	Wn	moito
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 os	Ddmp	o
 profesores	Scmp	profesor
 que	Tnmp	que
@@ -19772,7 +19772,7 @@ obras	Scfp	obra
 que	Tnfp	que
 aínda	Wn	aínda
 non	Wn	non
-foron	Vei30p	ser
+foron	Vei30pser	ser
 tocadas	V0p0fp	tocar
 ,	Q,	,
 que	Tnfp	que
@@ -22049,7 +22049,7 @@ Amenábar	Sp00	Amenábar
 ademais	Wn	ademais
 artista	Scms	artista
 porque	Cs	porque
-foi	Vei30s	ser
+foi	Vei30sser	ser
 quen	Tnas	quen
 de	P	de
 recrear	V0f000	recrear
@@ -22175,7 +22175,7 @@ a	Ddfs	o
 película	Scfs	película
 máis	Wn	máis
 premiada	V0p0fs	premiar
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ,	Q,	,
 por	P	por
 outra	Idfs	outro
@@ -22674,7 +22674,7 @@ seu	Md3sms	seu
 esforzo	Scms	esforzo
 "	Q"	"
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 só	Wn	só
 por	P	por
 Alemaña	Sp00	Alemaña
@@ -22795,7 +22795,7 @@ que	Cs	que
 o	Ddms	o
 Berlín	Spms	Berlín
 nazi	A0ms	nazi
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tomado	V0p0ms	tomar
 por	P	por
 los	Ddmp	o
@@ -22831,7 +22831,7 @@ de	P	de
 Hiroshima	Sp00	Hiroshima
 e	Cc	e
 Nagasaki	Sp00	Nagasaki
-foran	Vli30p	ser
+foran	Vli30pser	ser
 guindadas	V0p0fp	guindar
 por	P	por
 los	Ddmp	o
@@ -23425,7 +23425,7 @@ que	Tnmp	que
 falei	Vei10s	falar
 antes	Wn	antes
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 durante	P	durante
 moito	Idms	moito
 tempo	Scms	tempo
@@ -23658,7 +23658,7 @@ abandono	Scms	abandono
 de	P	de
 a	Ddfs	o
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 vítima	Scfs	vítima
 teñen	Vpi30p	ter
 a	Ddfs	o
@@ -23740,7 +23740,7 @@ a	P	a
 a	Ddfs	o
 cidade	Scfs	cidade
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 berce	Scms	berce
 de	P	de
 a	Ddfs	o
@@ -24131,7 +24131,7 @@ traballo	Scms	traballo
 por	P	por
 se	Cs	se
 todo	Inms	todo
-fose	Ves30s	ser
+fose	Ves30sser	ser
 pouco	Wn	pouco
 ,	Q,	,
 tamén	Wn	tamén
@@ -24143,7 +24143,7 @@ Felipe González	Spm0	Felipe González
 ,	Q,	,
 a	Ddfs	o
 Comandancia da Flota	Spfs	Comandancia da Flota
-foi	Vei30s	ser
+foi	Vei30sser	ser
 trasladada	V0p0fs	trasladar
 de	P	de
 Ferrol	Sp00	Ferrol
@@ -24181,7 +24181,7 @@ galega	A0fs	galego
 de	P	de
 o	Ddms	o
 mar	Scms	mar
-foi	Vei30s	ser
+foi	Vei30sser	ser
 desposuída	V0p0fs	desposuír
 de	P	de
 a	Ddfs	o
@@ -24382,7 +24382,7 @@ porque	Cs	porque
 o	Ddms	o
 seu	Md3pms	seu
 posto	Scms	posto
-foi	Vei30s	ser
+foi	Vei30sser	ser
 borrado	V0p0ms	borrar
 de	P	de
 o	Ddms	o
@@ -24456,7 +24456,7 @@ seguir	V0f000	seguir
 sendo	V0x000	ser
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 o	Ddms	o
 tocante	A0ms	tocante
@@ -24536,7 +24536,7 @@ estranxeiro	Scms	estranxeiro
 .	Q.	.
 
 nunca	Wn	nunca
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tan	Wm	tanto
 barato	A0ms	barato
 alugar	V0f000	alugar
@@ -24693,7 +24693,7 @@ un	Dims	un
 cadro	Scms	cadro
 superior	A0ms	superior
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 despedido	V0p0ms	despedir
 debido	V0p0ms	deber
 a	Ddfs	o
@@ -24862,7 +24862,7 @@ de	P	de
 unha	Difs	un
 cidade	Scfs	cidade
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 creada	V0p0fs	crear
 para	P	para
 o	Ddms	o
@@ -25028,7 +25028,7 @@ o	Ddms	o
 de	P	de
 1999	Ncnms	1999
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 mellor	Acms	mellor
 ca	Cs	ca
 este	Enms	este
@@ -25055,7 +25055,7 @@ perda	Scfs	perda
 de	P	de
 traballo	Scms	traballo
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 neta	A0fs	neto
 .	Q.	.
 
@@ -25204,7 +25204,7 @@ segundo	P	segundo
 Cagiao	Sp00	Cagiao
 ,	Q,	,
 isto	Enns	este
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 dificultou	Vei30s	dificultar
@@ -25488,7 +25488,7 @@ en	P	en
 o	Ddms	o
 seu	Md3sms	seu
 día	Scms	día
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 principal	A0ms	principal
 promotor	Scms	promotor
@@ -25954,7 +25954,7 @@ deslocalización	Scfs	deslocalización
 
 o	Ddms	o
 2004	Ncnms	2004
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 bon	A0ms	bon
 ano	Scms	ano
@@ -28150,7 +28150,7 @@ moi	Wm	moito
 recentemente	Wn	recentemente
 se	Rao3aa	se
 lle	Rad3ms	lle
-foi	Vei30s	ir
+foi	Vei30sir	ir
 de	P	de
 o	Ddms	o
 partido	Scms	partido
@@ -29034,7 +29034,7 @@ a	Ddfs	o
 oposición	Scfs	oposición
 esixiron	Vei30p	esixir
 que	Cs	que
-fosen	Ves30p	ser
+fosen	Ves30pser	ser
 interrogados	V0p0mp	interrogar
 confidentes	Scmp	confidente
 e	Cc	e
@@ -29793,7 +29793,7 @@ de	P	de
 O Carmel	Sp00	O Carmel
 e	Cc	e
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 considerada	V0p0fs	considerar
 de	P	de
 "	Q"	"
@@ -29807,7 +29807,7 @@ pensado	V0p0ms	pensar
 e	Cc	e
 a	Ddfs	o
 cousa	Scfs	cousa
-foi	Vei30s	ir
+foi	Vei30sir	ir
 se	Rao3aa	se
 lle	Rad3as	lle
 de	P	de
@@ -30223,7 +30223,7 @@ xustificada	V0p0fs	xustificar
 
 sexa	Vps30s	ser
 como	Wr	como
-for	Vfs30s	ser
+for	Vfs30sser	ser
 ,	Q,	,
 chegou	Vei30s	chegar
 a	Ddfs	o
@@ -30425,7 +30425,7 @@ pensar	V0f000	pensar
 que	Cs	que
 o	Ddms	o
 2003	Ncnms	2003
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 ano	Scms	ano
 moi	Wm	moito
@@ -31209,7 +31209,7 @@ marxinalidade	Scfs	marxinalidade
 
 o	Ddms	o
 Programa Fome Zero	Spms	Programa Fome Zero
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 estrela	Scfs	estrela
 de	P	de
@@ -31839,7 +31839,7 @@ Estado	Spms	Estado
 ,	Q,	,
 Rio Grande do Sul	Sp00	Rio Grande do Sul
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 duro	A0ms	duro
 golpe	Scms	golpe
@@ -32043,7 +32043,7 @@ que	Cs	que
 o	Ddms	o
 referendo	Scms	referendo
 non	Wn	non
-fose	Ves30s	ser
+fose	Ves30sser	ser
 vinculante	A0ms	vinculante
 pero	Cs	pero
 ,	Q,	,
@@ -32298,7 +32298,7 @@ Nunca Máis	Sp00	Nunca Máis
 ,	Q,	,
 que	Tnms	que
 si	Wn	si
-foi	Vei30s	ser
+foi	Vei30sser	ser
 quen	Tnas	quen
 de	P	de
 contrarrestar	V0f000	contrarrestar
@@ -32509,7 +32509,7 @@ que	Cs	que
 as	Ddfp	o
 súas	Md3sfp	seu
 consecuencias	Scfp	consecuencia
-foron	Vei30p	ser
+foron	Vei30pser	ser
 moi	Wm	moito
 nocivas	A0fp	nocivo
 para	P	para
@@ -33675,7 +33675,7 @@ recordo	Scms	recordo
 de	P	de
 o	Ddms	o
 que	Tnms	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 .	Q.	.
 
 as	Ddfp	o
@@ -33755,7 +33755,7 @@ remexen	Vpi30p	remexer
 en	P	en
 o	Ddms	o
 que	Tnms	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 algunha	Idfs	algún
 vez	Scfs	vez
 as	Ddfp	o
@@ -33844,7 +33844,7 @@ momentos	Scmp	momento
 en	P	en
 que	Tnmp	que
 todo	Inms	todo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 auga	Scfs	auga
 ,	Q,	,
 en	P	en
@@ -34342,7 +34342,7 @@ días	Scmp	día
 de	P	de
 a	Ddfs	o
 catástrofe	Scfs	catástrofe
-foron	Vei30p	ser
+foron	Vei30pser	ser
 as	Ddfp	o
 persoas	Scfp	persoa
 de	P	de
@@ -35202,7 +35202,7 @@ resto	Scms	resto
 de	P	de
 os	Ddmp	o
 campamentos	Scmp	campamento
-foran	Vli30p	ser
+foran	Vli30pser	ser
 desmantelados	V0p0mp	desmantelar
 sen	P	sen
 que	Cs	que
@@ -35257,7 +35257,7 @@ forza	Scfs	forza
 de	P	de
 a	Ddfs	o
 auga	Scfs	auga
-foi	Vei30s	ser
+foi	Vei30sser	ser
 brutal	A0fs	brutal
 en	P	en
 a	Ddfs	o
@@ -36845,7 +36845,7 @@ anos	Scmp	ano
 ,	Q,	,
 Óscar Ibáñez	Spm0	Óscar Ibáñez
 sempre	Wn	sempre
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 gran	A0fs	grande
 esperanza	Scfs	esperanza
@@ -37187,7 +37187,7 @@ o	Ddms	o
 gaiteiro	Scms	gaiteiro
 a	Ddfs	o
 experiencia	Scfs	experiencia
-foi	Vei30s	ser
+foi	Vei30sser	ser
 "	Q"	"
 incríbel	A0fs	incríbel
 "	Q"	"
@@ -37378,7 +37378,7 @@ pero	Cs	pero
 representa	Vpi30s	representar
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 miña	Md1sfs	meu
 traxectoria	Scfs	traxectoria
@@ -38036,7 +38036,7 @@ de	P	de
 Xove	Sp00	Xove
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 1984	Ncnms	1984
 ou	Cc	ou
@@ -38071,7 +38071,7 @@ pesqueiro	Scms	pesqueiro
 de	P	de
 Morás	Sp00	Morás
 e	Cc	e
-foran	Vli30p	ser
+foran	Vli30pser	ser
 moitos	Inmp	moito
 os	Ddmp	o
 mariñeiros	Scmp	mariñeiro
@@ -39003,7 +39003,7 @@ descifrar	V0f000	descifrar
 la	Raa3fs	o
 coma	Cs	coma
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 un	Dims	un
 libro	Scms	libro
 .	Q.	.
@@ -39299,7 +39299,7 @@ máis	Wm	máis
 para	P	para
 min	Rtp1as	min
 Pontevedra	Sp00	Pontevedra
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 experiencia	Scfs	experiencia
 moi	Wm	moito
@@ -39596,7 +39596,7 @@ dous	Ncdmp	dous
 premios	Scmp	premio
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 traballo	Scms	traballo
 feito	V0p0ms	facer
@@ -40744,7 +40744,7 @@ retablo	Scms	retablo
 interveu	Vei30s	intervir
 Patrimonio	Sp00	Patrimonio
 e	Cc	e
-foi	Vei30s	ir
+foi	Vei30sir	ir
 se	Rao3aa	se
 retirando	V0x000	retirar
 o	Ddms	o
@@ -40854,7 +40854,7 @@ seu	Md3sms	seu
 momento	Scms	momento
 o	Ddms	o
 achado	Scms	achado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 grande	A0ms	grande
 acontecemento	Scms	acontecemento
@@ -40871,7 +40871,7 @@ de	P	de
 a	Ddfs	o
 Natividade	Spfs	Natividade
 mesmo	Wn	mesmo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 protagonista	Scfs	protagonista
 de	P	de
 un	Dims	un
@@ -40938,7 +40938,7 @@ nosa	Md1pfs	noso
 sorpresa	Scfs	sorpresa
 e	Cc	e
 admiración	Scfs	admiración
-foi	Vei30s	ser
+foi	Vei30sser	ser
 maiúscula	A0fs	maiúsculo
 diante	Wn	diante
 de	P	de
@@ -41033,7 +41033,7 @@ veciños	Scmp	veciño
 a	Ddfs	o
 primeira	Nodfs	primeiro
 visita	Scfs	visita
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ,	Q,	,
 pois	Wn	pois
 ,	Q,	,
@@ -41870,7 +41870,7 @@ se	Cs	se
 o	Ddms	o
 século	Scms	século
 XIX	Ncnms	XIX
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 de	P	de
 a	Ddfs	o
@@ -42608,7 +42608,7 @@ de	P	de
 contidos	Scmp	contido
 ,	Q,	,
 que	Tnmp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 apartados	V0p0mp	apartar
 de	P	de
 o	Ddms	o
@@ -42803,7 +42803,7 @@ a	Ddfs	o
 Ría de Vigo	Spfs	Ría de Vigo
 en	P	en
 Vinte mil leguas de viaxe submarina	Sp00	Vinte mil leguas de viaxe submarina
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 primeira	Nodfs	primeiro
 exposición	Scfs	exposición
@@ -43333,7 +43333,7 @@ cando	Wr	cando
 o	Ddms	o
 transatlántico	Scms	transatlántico
 Santa María	Sp00	Santa María
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ocupado	V0p0ms	ocupar
 por	P	por
 lo	Ddms	o
@@ -44536,7 +44536,7 @@ anos	Scmp	ano
 o	Ddms	o
 sector	Scms	sector
 industrial	A0ms	industrial
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 maior	Acms	maior
 consumidor	Scms	consumidor
@@ -45619,7 +45619,7 @@ fármacos	Scmp	fármaco
 .	Q.	.
 
 cal	Gnms	cal
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 papel	Scms	papel
 de	P	de
@@ -45856,7 +45856,7 @@ a	Ddfs	o
 industria	Scfs	industria
 farmacéutica	A0fs	farmacéutico
 galega	A0fs	galego
-foi	Vei30s	ser
+foi	Vei30sser	ser
 fundamental	A0fs	fundamental
 en	P	en
 a	Ddfs	o
@@ -46177,7 +46177,7 @@ ceder	V0f000	ceder
 
 se	Cs	se
 non	Wn	non
-fose	Ves30s	ser
+fose	Ves30sser	ser
 por	P	por
 la	Ddfs	o
 penicilina	Scfs	penicilina
@@ -46236,7 +46236,7 @@ descubrimento	Scms	descubrimento
 de	P	de
 a	Ddfs	o
 estreptomicina	Scfs	estreptomicina
-foi	Vei30s	ser
+foi	Vei30sser	ser
 algo	Inms	algo
 milagroso	A0ms	milagroso
 para	P	para
@@ -46248,7 +46248,7 @@ a	Ddfs	o
 temida	A0fs	temido
 peste	Scfs	peste
 branca	A0fs	branco
-foi	Vei30s	ir
+foi	Vei30sir	ir
 desaparecendo	V0x000	desaparecer
 .	Q.	.
 
@@ -46257,7 +46257,7 @@ combinación	Scfs	combinación
 de	P	de
 tres	Ncdmp	tres
 fármacos	Scmp	fármaco
-foi	Vei30s	ser
+foi	Vei30sser	ser
 decisiva	A0fs	decisivo
 para	P	para
 a	Ddfs	o
@@ -46341,7 +46341,7 @@ en	P	en
 o	Ddms	o
 seu	Md3pms	seu
 día	Scms	día
-foron	Vei30p	ser
+foron	Vei30pser	ser
 capaces	A0mp	capaz
 de	P	de
 illar	V0f000	illar
@@ -46372,7 +46372,7 @@ o	Ddms	o
 caso	Scms	caso
 de	P	de
 España	Sp00	España
-foi	Vei30s	ser
+foi	Vei30sser	ser
 fundamental	A0fs	fundamental
 a	Ddfs	o
 labor	Scfs	labor
@@ -46460,7 +46460,7 @@ houbo	Vei30s	haber
 en	P	en
 este	Edms	este
 eido	Scms	eido
-foron	Vei30p	ser
+foron	Vei30pser	ser
 espectaculares	A0mp	espectacular
 .	Q.	.
 
@@ -48415,7 +48415,7 @@ para	P	para
 que	Cs	que
 a	Ddfs	o
 lingua	Scfs	lingua
-fose	Ves30s	ser
+fose	Ves30sser	ser
 unha	Difs	un
 política	Scfs	política
 central	A0fs	central
@@ -48665,7 +48665,7 @@ eles	Rtn3mp	el
 en	P	en
 a	Ddfs	o
 Xunta	Spfs	Xunta
-foron	Vei30p	ser
+foron	Vei30pser	ser
 por	P	por
 consenso	Scms	consenso
 ,	Q,	,
@@ -49171,7 +49171,7 @@ temos	Vpi10p	ter
 algúns	Idmp	algún
 anos	Scmp	ano
 e	Cc	e
-fomos	Vei10p	ser
+fomos	Vei10pser	ser
 galego falantes	Scmp	galego falante
 de	P	de
 sempre	Wn	sempre
@@ -50416,7 +50416,7 @@ peculiar	A0ms	peculiar
 
 o	Ddms	o
 resultado	Scms	resultado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	P	a
 o	Ddms	o
 mesmo	Idms	mesmo
@@ -51591,7 +51591,7 @@ culturalismo	Scms	culturalismo
 '	Q'	'
 pero	Cs	pero
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 grande	A0ms	grande
 proxecto	Scms	proxecto
@@ -51831,7 +51831,7 @@ Diccionario Enciclopédico de Don Eladio González	Spms	Diccionario Enciclopédi
 )	Q)	)
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 director	Scms	director
 literario	A0ms	literario
 de	P	de
@@ -51897,7 +51897,7 @@ posguerra	Scfs	posguerra
 
 en	P	en
 1967	Ncnms	1967
-foi	Vei30s	ser
+foi	Vei30sser	ser
 elixido	V0p0ms	elixir
 membro	Scms	membro
 numerario	A0ms	numerario
@@ -51930,7 +51930,7 @@ ano	Scms	ano
 de	P	de
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 seu	Md3sms	seu
 primeiro	Nodms	primeiro
@@ -51994,7 +51994,7 @@ autonómica	A0fs	autonómico
 (	Q(	(
 1981-1985	Ncnms	1981-1985
 )	Q)	)
-foi	Vei30s	ser
+foi	Vei30sser	ser
 deputado	Scms	deputado
 galeguista	A0ms	galeguista
 independente	A0ms	independente
@@ -54838,7 +54838,7 @@ que	Tnfs	que
 eu	Rtn1as	eu
 seguín	Vei10s	seguir
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 de	P	de
 a	Ddfs	o
@@ -55121,7 +55121,7 @@ aquela	Edfs	aquel
 polémica	Scfs	polémica
 con	P	con
 Franco Grande	Sp00	Franco Grande
-foi	Vei30s	ser
+foi	Vei30sser	ser
 agria	A0fs	agrio
 ?	Q?	?
 
@@ -55401,7 +55401,7 @@ inmobilismo	Scms	inmobilismo
 
 a	Ddfs	o
 tradición	Scfs	tradición
-foi	Vei30s	ser
+foi	Vei30sser	ser
 atacada	V0p0fs	atacar
 moitas	Idfp	moito
 veces	Scfp	vez
@@ -55730,7 +55730,7 @@ con	P	con
 elas	Rtp3fp	el
 .	Q.	.
 
-foron	Vei30p	ser
+foron	Vei30pser	ser
 creadas	V0p0fp	crear
 para	P	para
 se	Rao3aa	se
@@ -55810,7 +55810,7 @@ paternalista	A0ms	paternalista
 "	Q"	"
 ,	Q,	,
 isto	Enns	este
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 veu	Vei30s	vir
@@ -58114,7 +58114,7 @@ máis	Inmp	máis
 de	P	de
 os	Ddmp	o
 textos	Scmp	texto
-foron	Vei30p	ser
+foron	Vei30pser	ser
 escolmados	V0p0mp	escolmar
 de	P	de
 diferentes	A0fp	diferente
@@ -58517,7 +58517,7 @@ valía	Scfs	valía
 ,	Q,	,
 aínda que	Lcs	aínda que
 non	Wn	non
-fose	Ves30s	ser
+fose	Ves30sser	ser
 ata	P	ata
 os	Ddmp	o
 últimos	A0mp	último
@@ -59949,7 +59949,7 @@ por descontado	La0	por descontado
 Portugal	Sp00	Portugal
 ,	Q,	,
 pois	Cs	pois
-foi	Vei30s	ir
+foi	Vei30sir	ir
 en	P	en
 Sintra	Sp00	Sintra
 _	Q_	_
@@ -61052,7 +61052,7 @@ aparecen	Vpi30p	aparecer
 polémicas	Scfp	polémica
 como	Cs	como
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 trebo	Scms	trebo
 de	P	de
 que	Cs	que
@@ -61331,7 +61331,7 @@ que	Cs	que
 Photoespaña, XI Festival Internacional de Fotografia y Artes Visuales	Sp00	Photoespaña, XI Festival Internacional de Fotografia y Artes Visuales
 ,	Q,	,
 sempre	Wn	sempre
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 maneira	Scfs	maneira
 como	Cs	como
@@ -61525,7 +61525,7 @@ e	Cc	e
 desde logo	La0	desde logo
 se	Cs	se
 Photoespaña	Sp00	Photoespaña
-fose	Ves30s	ser
+fose	Ves30sser	ser
 só	Wn	só
 as	Ddfp	o
 mostras	Scfp	mostra
@@ -63399,7 +63399,7 @@ nova	A0fs	novo
 entrega	Scfs	entrega
 como	Cs	como
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 o	Ddms	o
 seu	Md3sms	seu
 debut	Scms	debut
@@ -64548,7 +64548,7 @@ que	Tnfs	que
 padecen	Vpi30p	padecer
 ,	Q,	,
 sempre	Wn	sempre
-foi	Vei30s	ser
+foi	Vei30sser	ser
 así	Wn	así
 ?	Q?	?
 
@@ -65140,7 +65140,7 @@ o	Ddms	o
 seu	Md3sms	seu
 irmán	Scms	irmán
 Emilio	Spm0	Emilio
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 único	A0ms	único
 que	Tnms	que
@@ -65674,7 +65674,7 @@ mudaron	Vei30p	mudar
 o	Ddms	o
 nome	Scms	nome
 pero	Cs	pero
-foron	Vei30p	ser
+foron	Vei30pser	ser
 importados	V0p0mp	importar
 para	P	para
 o	Ddms	o
@@ -66076,7 +66076,7 @@ emparentada	V0p0fs	emparentar
 con	P	con
 a	Ddfs	o
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 presidenta	Scfs	presidente
 de	P	de
 Bolivia	Sp00	Bolivia
@@ -69272,7 +69272,7 @@ España	Sp00	España
 aínda que	Lcs	aínda que
 as	Ddfp	o
 estadías	Scfp	estadía
-foron	Vei30p	ser
+foron	Vei30pser	ser
 curtas	A0fp	curto
 .	Q.	.
 
@@ -69859,7 +69859,7 @@ maioría	Scfs	maioría
 de	P	de
 os	Ddmp	o
 lobos	Scmp	lobo
-foron	Vei30p	ser
+foron	Vei30pser	ser
 exterminados	V0p0mp	exterminar
 a	P	a
 tiros	Scmp	tiro
@@ -69908,7 +69908,7 @@ lobos	Scmp	lobo
 en	P	en
 O Morrazo	Sp00	O Morrazo
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 encabezada	V0p0fs	encabezar
 por	P	por
 lo	Ddms	o
@@ -70415,7 +70415,7 @@ caza	Scfs	caza
 este	Edms	este
 s.	Zams	s.
 XVI	Ncnms	XVI
-foi	Vei30s	ser
+foi	Vei30sser	ser
 de	P	de
 grande	A0fs	grande
 invasión	Scfs	invasión
@@ -70985,7 +70985,7 @@ a	Ddfs	o
 viña	Scfs	viña
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 o	Ddms	o
 1999	Ncnms	1999
@@ -70993,7 +70993,7 @@ cando	Wr	cando
 deixa	Vpi30s	deixar
 a	Ddfs	o
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 até	P	até
 ese	Edms	ese
 momento	Scms	momento
@@ -71760,7 +71760,7 @@ a	Ddfs	o
 que	Tnfs	que
 os	Ddmp	o
 canteiros	Scmp	canteiro
-foron	Vei30p	ser
+foron	Vei30pser	ser
 os	Ddmp	o
 principais	A0mp	principal
 testemuños	Scmp	testemuño
@@ -72143,7 +72143,7 @@ o	Ddms	o
 que	Tnms	que
 os	Ddmp	o
 callos	Scmp	callos
-foron	Vei30p	ser
+foron	Vei30pser	ser
 o	Ddms	o
 prato	Scms	prato
 estelar	A0ms	estelar
@@ -72186,7 +72186,7 @@ gañador	Scms	gañador
 de	P	de
 este	Edms	este
 certame	Scms	certame
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 canteiro	Scms	canteiro
 de	P	de
@@ -74345,7 +74345,7 @@ auxiliares	A0fp	auxiliar
 de	P	de
 os	Ddmp	o
 estaleiros	Scmp	estaleiro
-foron	Vei30p	ser
+foron	Vei30pser	ser
 quen	Tnaa	quen
 de	P	de
 internacionalizar	V0f000	internacionalizar
@@ -74368,7 +74368,7 @@ reconversión	Scfs	reconversión
 mediante	P	mediante
 xubilacións	Scfp	xubilación
 anticipadas	A0fp	anticipado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 disparate	Scms	disparate
 que	Tnms	que
@@ -75129,7 +75129,7 @@ pelexaban	Vii30p	pelexar
 .	Q.	.
 
 se	Cs	se
-foi	Vei30s	ser
+foi	Vei30sser	ser
 imposíbel	A0ms	imposíbel
 parar	V0f000	parar
 a	Ddfs	o
@@ -76130,7 +76130,7 @@ os	Ddmp	o
 escasos	A0mp	escaso
 flocos	Scmp	floco
 pendentes	A0mp	pendente
-foron	Vei30p	ir
+foron	Vei30pir	ir
 resolvendo	V0x000	resolver
 se	Rao3aa	se
 en	P	en
@@ -76257,7 +76257,7 @@ Xosé Sánchez Bugallo	Spm0	Xosé Sánchez Bugallo
 a	P	a
 a	Ddfs	o
 Comisión Executiva Federal	Spfs	Comisión Executiva Federal
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -76426,7 +76426,7 @@ puro	A0ms	puro
 carácter	Scms	carácter
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 súa	Md3sfs	seu
 estrea	Scfs	estrea
@@ -77040,7 +77040,7 @@ máis	Wm	máis
 contundente	A0fs	contundente
 e	Cc	e
 imprevista	A0fs	imprevisto
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 defensa	Scfs	defensa
 que	Tnfs	que
@@ -77799,7 +77799,7 @@ organización	Scfs	organización
 .	Q.	.
 
 primeiro	Wn	primeiro
-foron	Vei30p	ser
+foron	Vei30pser	ser
 as	Ddfp	o
 irmás	Scfp	irmán
 Bruño	Sp00	Bruño
@@ -77896,7 +77896,7 @@ extorsión	Scfs	extorsión
 .	Q.	.
 
 logo	Wn	logo
-foron	Vei30p	ser
+foron	Vei30pser	ser
 detidos	V0p0mp	deter
 durante	P	durante
 algunhas	Idfp	algún
@@ -77931,7 +77931,7 @@ anos	Scmp	ano
 que	Tnms	que
 hai	Vpi30s	haber
 25	Ncnmp	25
-fora	Vli30s	ser
+fora	Vli30sser	ser
 secuestrado	V0p0ms	secuestrar
 por	P	por
 non	Wn	non
@@ -78531,7 +78531,7 @@ o	Ddms	o
 .	Q.	.
 
 tamén	Wn	tamén
-foi	Vei30s	ser
+foi	Vei30sser	ser
 notoria	A0fs	notorio
 a	Ddfs	o
 ausencia	Scfs	ausencia
@@ -78571,7 +78571,7 @@ falta	Scfs	falta
 de	P	de
 consenso	Scms	consenso
 tamén	Wn	tamén
-foi	Vei30s	ser
+foi	Vei30sser	ser
 patente	A0fs	patente
 en materia de	Lp0	en materia de
 enerxías	Scfp	enerxía
@@ -79471,7 +79471,7 @@ operación	Scfs	operación
 militar	A0fs	militar
 ,	Q,	,
 ben	Cc	ben
-fose	Ves30s	ser
+fose	Ves30sser	ser
 seguindo	V0x000	seguir
 a	Ddfs	o
 versión	Scfs	versión
@@ -79483,7 +79483,7 @@ operación	Scfs	operación
 de	P	de
 intelixencia	Scfs	intelixencia
 ben	Cc	ben
-fose	Ves30s	ser
+fose	Ves30sser	ser
 mediante	P	mediante
 un	Dims	un
 rescate	Scms	rescate
@@ -79936,7 +79936,7 @@ paz	Scfs	paz
 cuxa	Tdfs	cuxo
 primeira	Nodfs	primeiro
 medida	Scfs	medida
-fose	Ves30s	ser
+fose	Ves30sser	ser
 a	Ddfs	o
 liberación	Scfs	liberación
 de	P	de
@@ -80226,7 +80226,7 @@ non	Wn	non
 importa	Vpi30s	importar
 que	Cs	que
 aquela	Enfs	aquel
-fose	Ves30s	ser
+fose	Ves30sser	ser
 obra	Scfs	obra
 de	P	de
 un	Dims	un
@@ -80390,7 +80390,7 @@ indicadores	Scmp	indicador
 macroeconómicos	A0mp	macroeconómico
 de	P	de
 Alemaña	Sp00	Alemaña
-foron	Vei30p	ser
+foron	Vei30pser	ser
 moi	Wm	moito
 favorábeis	A0mp	favorábel
 en	P	en
@@ -80781,7 +80781,7 @@ sector	Scms	sector
 industrial	A0ms	industrial
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 colocado	V0p0ms	colocar
 en	P	en
 o	Ddms	o
@@ -81063,7 +81063,7 @@ de	P	de
 Alejandro Valverde	Spm0	Alejandro Valverde
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 maillot	Scms	maillot
 amarelo	A0ms	amarelo
 en	P	en
@@ -81093,7 +81093,7 @@ aínda que	Lcs	aínda que
 en	P	en
 a	Ddfs	o
 contrarreloxo	Scfs	contrarreloxo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 superior	A0ms	superior
 a	P	a
 o	Ddms	o
@@ -81124,7 +81124,7 @@ o	Ddms	o
 Torneo das Nacións	Spms	Torneo das Nacións
 ,	Q,	,
 Xavi Román	Spm0	Xavi Román
-foi	Vei30s	ser
+foi	Vei30sser	ser
 fichado	V0p0ms	fichar
 por	P	por
 un	Dims	un
@@ -81320,7 +81320,7 @@ o	Ddms	o
 Torneo das Nacións	Spms	Torneo das Nacións
 ,	Q,	,
 onde	Wr	onde
-foi	Vei30s	ser
+foi	Vei30sser	ser
 subcampioa	Scfs	subcampión
 .	Q.	.
 
@@ -81414,7 +81414,7 @@ o	Ddms	o
 combinado	Scms	combinado
 de	P	de
 baloncesto	Scms	baloncesto
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Rubén Domínguez	Spm0	Rubén Domínguez
 ,	Q,	,
 segundo	Scms	segundo
@@ -81439,7 +81439,7 @@ en	P	en
 Girona	Sp00	Girona
 ,	Q,	,
 Xavi Román	Spm0	Xavi Román
-foi	Vei30s	ser
+foi	Vei30sser	ser
 contratado	V0p0ms	contratar
 por	P	por
 lo	Ddms	o
@@ -81455,7 +81455,7 @@ carencia	Scfs	carencia
 .	Q.	.
 
 tampouco	Wn	tampouco
-foi	Vei30s	ser
+foi	Vei30sser	ser
 casualidade	Scfs	casualidade
 .	Q.	.
 
@@ -81601,7 +81601,7 @@ eles	Rtp3mp	el
 quizais	Wn	quizais
 o	Ddms	o
 mellor	Acms	mellor
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 galego-asturiano	A0ms	galego-asturiano
 Pablo Álvarez	Spm0	Pablo Álvarez
@@ -81690,7 +81690,7 @@ se	Rao3aa	se
 a	P	a
 Lotina	Sp00	Lotina
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 cedido	V0p0ms	ceder
 a	P	a
 o	Ddms	o
@@ -81931,7 +81931,7 @@ fichaxe	Scfs	fichaxe
 de	P	de
 un	Dims	un
 internacional	Scms	internacional
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 de	P	de
 Francisco Noguerol	Spm0	Francisco Noguerol
@@ -82481,7 +82481,7 @@ herdada	V0p0fs	herdar
 de	P	de
 o	Ddms	o
 franquismo	Scms	franquismo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 definitivamente	Wn	definitivamente
 e	Cc	e
 naturalmente	Wn	naturalmente
@@ -82654,7 +82654,7 @@ de	P	de
 política	Scfs	política
 ,	Q,	,
 que	Cs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 fixemos	Vei10p	facer
@@ -83208,7 +83208,7 @@ CEG	Zg00	CEG
 )	Q)	)
 e	Cc	e
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 clausurada	V0p0fs	clausurar
 por	P	por
 lo	Ddms	o
@@ -84365,7 +84365,7 @@ Verían	Spms	Verían
 ,	Q,	,
 que	Tnms	que
 só	Wn	só
-foi	Vei30s	ser
+foi	Vei30sser	ser
 capaz	A0ms	capaz
 de	P	de
 empatar	V0f000	empatar
@@ -84825,7 +84825,7 @@ ambos	Idmp	ambos
 os	Ddmp	o
 dous	Ncdmp	dous
 xogadores	Scmp	xogador
-foron	Vei30p	ser
+foron	Vei30pser	ser
 titulares	Scmp	titular
 indiscutibles	A0mp	indiscutible
 en	P	en
@@ -85404,7 +85404,7 @@ este	Edms	este
 rapaz	Scms	rapaz
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -85900,7 +85900,7 @@ que	Tnms	que
 os	Ddmp	o
 españois	Scmp	español
 sempre	Wn	sempre
-foron	Vei30p	ir
+foron	Vei30pir	ir
 por	P	por
 detrás	Wn	detrás
 pero	Cs	pero
@@ -86937,7 +86937,7 @@ ambulancia	Scfs	ambulancia
 medicalizada	A0fs	medicalizado
 ,	Q,	,
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 informada	V0p0fs	informar
 de	P	de
 que	Cs	que
@@ -87506,7 +87506,7 @@ os	Ddmp	o
 cidadáns	Scmp	cidadán
 ,	Q,	,
 aínda que	Lcs	aínda que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 vicepresidente	Scms	vicepresidente
 de	P	de
@@ -87562,7 +87562,7 @@ os	Ddmp	o
 telespectadores	Scmp	telespectador
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tamén	Wn	tamén
 Anxo Quintana	Spm0	Anxo Quintana
 o	Ddms	o
@@ -87786,7 +87786,7 @@ paso	Scms	paso
 de	P	de
 o	Ddms	o
 tempo	Scms	tempo
-foi	Vei30s	ir
+foi	Vei30sir	ir
 se	Rao3aa	se
 diluíndo	V0x000	diluír
 cando	Wr	cando
@@ -88202,7 +88202,7 @@ presentador	Scms	presentador
 
 "	Q"	"
 se	Cs	se
-fose	Ves10s	ser
+fose	Ves10sser	ser
 o	Ddms	o
 alcalde	Scms	alcalde
 o	Ddms	o
@@ -88246,7 +88246,7 @@ honrado	A0ms	honrado
 .	Q.	.
 
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 elixido	V0p0ms	elixir
 alcalde	Scms	alcalde
 de	P	de
@@ -88284,7 +88284,7 @@ serviría	Vci10s	servir
 
 se	Cs	se
 eu	Rtn1ms	eu
-fose	Ves10s	ser
+fose	Ves10sser	ser
 alcalde	Scms	alcalde
 de	P	de
 A Coruña	Sp00	A Coruña
@@ -88913,7 +88913,7 @@ Vilar de Santos	Sp00	Vilar de Santos
 
 e	Cc	e
 non	Wn	non
-foi	Vei30s	ir
+foi	Vei30sir	ir
 pedir	V0f000	pedir
 o	Ddms	o
 voto	Scms	voto
@@ -89249,7 +89249,7 @@ un	Dims	un
 reloxo	Scms	reloxo
 "	Q"	"
 porque	Cs	porque
-foi	Vei30s	ser
+foi	Vei30sser	ser
 gobernado	V0p0ms	gobernar
 por	P	por
 unha	Difs	un
@@ -90866,7 +90866,7 @@ ilusionada	A0fs	ilusionado
 nacemento	Scms	nacemento
 
 Donald Trump	Spm0	Donald Trump
-foi	Vei30s	ser
+foi	Vei30sser	ser
 avó	Scms	avó
 de	P	de
 unha	Difs	un
@@ -90920,7 +90920,7 @@ a	Ddfs	o
 súa	Md3sfs	seu
 esposa	Scfs	esposo
 Vanessa	Spf0	Vanessa
-foron	Vei30p	ser
+foron	Vei30pser	ser
 pais	Scmp	pai
 en	P	en
 Nova York	Sp00	Nova York
@@ -90999,7 +90999,7 @@ anos	Scmp	ano
 ,	Q,	,
 o	Ddms	o
 Rei	Spms	Rei
-foi	Vei30s	ir
+foi	Vei30sir	ir
 de	P	de
 regata	Scfs	regata
 en	P	en
@@ -91281,7 +91281,7 @@ conxunto	A0ms	conxunto
 logo	Wn	logo
 o	Ddms	o
 Rei	Spms	Rei
-foi	Vei30s	ir
+foi	Vei30sir	ir
 para	P	para
 Valencia	Sp00	Valencia
 a	P	a
@@ -91531,7 +91531,7 @@ xuvenil	A0ms	xuvenil
 con	P	con
 o	Ddms	o
 Liceo	Spms	Liceo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 campión	Scms	campión
 de	P	de
 Europa	Sp00	Europa
@@ -91818,7 +91818,7 @@ poeta	Scms	poeta
 o	Ddms	o
 actor	Scms	actor
 Pepe Viyuela	Spm0	Pepe Viyuela
-foi	Vei30s	ser
+foi	Vei30sser	ser
 proclamado	V0p0ms	proclamar
 onte	Wn	onte
 gañador	Scms	gañador
@@ -92290,7 +92290,7 @@ competición	Scfs	competición
 
 a	Ddfs	o
 imaxe	Scfs	imaxe
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tomada	V0p0fs	tomar
 en	P	en
 Alemaña	Sp00	Alemaña
@@ -92347,7 +92347,7 @@ plena	A0fs	pleno
 faena	Scfs	faena
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 a	Ddfs	o
 localidade	Scfs	localidade
@@ -92359,7 +92359,7 @@ teletipos	Scmp	teletipo
 non	Wn	non
 din	Vpi30p	dicir
 quen	Gnms	quen
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 gañador	Scms	gañador
 .	Q.	.
@@ -92527,7 +92527,7 @@ máis	Wn	máis
 de	P	de
 2.800	Ncdmp	2.800
 tíckets	Scmp	tícket
-foron	Vei30p	ser
+foron	Vei30pser	ser
 vendidos	V0p0mp	vender
 xa	Wn	xa
 para	P	para
@@ -93099,7 +93099,7 @@ galego	A0ms	galego
 o	Ddms	o
 fotógrafo	Scms	fotógrafo
 Ramón Caamaño	Spm0	Ramón Caamaño
-foi	Vei30s	ser
+foi	Vei30sser	ser
 soterrado	V0p0ms	soterrar
 onte	Wn	onte
 en	P	en
@@ -93115,7 +93115,7 @@ de	P	de
 a	Ddfs	o
 Costa da Morte	Spfs	Costa da Morte
 Ramón Caamaño	Spm0	Ramón Caamaño
-foi	Vei30s	ser
+foi	Vei30sser	ser
 enterrado	V0p0ms	enterrar
 en	P	en
 a	Ddfs	o
@@ -93223,7 +93223,7 @@ Barca	Spfs	Barca
 tras	P	tras
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 enterrado	V0p0ms	enterrar
 en	P	en
 o	Ddms	o
@@ -93486,7 +93486,7 @@ o	Ddms	o
 único	A0ms	único
 vehículo	Scms	vehículo
 implicado	A0ms	implicado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 Renault 19 Chamade	Spms	Renault 19 Chamade
 ,	Q,	,
@@ -93682,7 +93682,7 @@ a	Ddfs	o
 súa	Md3sfs	seu
 obra	Scfs	obra
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 escusa	Scfs	escusa
 perfecta	A0fs	perfecto
@@ -93724,7 +93724,7 @@ a	Ddfs	o
 súa	Md3sfs	seu
 vila	Scfs	vila
 natal	A0fs	natal
-foron	Vei30p	ser
+foron	Vei30pser	ser
 os	Ddmp	o
 contidos	Scmp	contido
 de	P	de
@@ -93803,7 +93803,7 @@ http://centros.edu.xunta.es/ceipalexandrerodriguez/maria/maria_marino.htm	Zo00	h
 .	Q.	.
 
 internet	Scfs	internet
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 principal	A0fs	principal
 fonte	Scfs	fonte
@@ -94377,7 +94377,7 @@ facendo	V0x000	facer
 país	Scms	país
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 moi	Wm	moito
 gratificante	A0ms	gratificante
 para	P	para
@@ -94862,7 +94862,7 @@ e	Cc	e
 a	Ddfs	o
 súa	Md3sfs	seu
 mensaxe	Scfs	mensaxe
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 esperabamos	Vii10p	esperar
@@ -95043,7 +95043,7 @@ Alasca	Sp00	Alasca
 (	Q(	(
 EE UU	Zg00	EE UU
 )	Q)	)
-foi	Vei30s	ser
+foi	Vei30sser	ser
 trasladada	V0p0fs	trasladar
 a	P	a
 terra	Scfs	terra
@@ -95270,7 +95270,7 @@ a	Ddfs	o
 nena	Scfs	neno
 británica	A0fs	británico
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 secuestrada	V0p0fs	secuestrar
 o	Ddms	o
 pasado	A0ms	pasado
@@ -95323,7 +95323,7 @@ de	P	de
 catro	Ncdmp	catro
 anos	Scmp	ano
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 secuestrada	V0p0fs	secuestrar
 en	P	en
 O Algarve	Sp00	O Algarve
@@ -95354,7 +95354,7 @@ la	Raa3fs	o
 "	Q"	"
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 mensaxe	Scfs	mensaxe
 que	Tnfs	que
@@ -95380,7 +95380,7 @@ Kate McCann	Spf0	Kate McCann
 ,	Q,	,
 que	Tnmp	que
 onte	Wn	onte
-foron	Vei30p	ser
+foron	Vei30pser	ser
 vistos	V0p0mp	ver
 por	P	por
 lo	Ddms	o
@@ -95560,7 +95560,7 @@ en	P	en
 os	Ddmp	o
 últimos	A0mp	último
 días	Scmp	día
-foron	Vei30p	ser
+foron	Vei30pser	ser
 interrogados	V0p0mp	interrogar
 ,	Q,	,
 en relación a	Lp0	en relación a
@@ -95629,7 +95629,7 @@ ata	P	ata
 a	Ddfs	o
 zona	Scfs	zona
 e	Cc	e
-foron	Vei30p	ser
+foron	Vei30pser	ser
 moitos	Inmp	moito
 os	Ddmp	o
 famosos	Scmp	famoso
@@ -96055,7 +96055,7 @@ turístico	A0ms	turístico
 de	P	de
 San Bartolomé de Tirajana	Sp00	San Bartolomé de Tirajana
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 lugar	Scms	lugar
 de	P	de
@@ -96078,7 +96078,7 @@ de	P	de
 a	Ddfs	o
 mañá	Scfs	mañá
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 avistado	V0p0ms	avistar
 en	P	en
 primeiro	Nodms	primeiro
@@ -96165,7 +96165,7 @@ a	Ddfs	o
 mañá	Scfs	mañá
 ,	Q,	,
 Canarias	Sp00	Canarias
-fora	Vli30s	ser
+fora	Vli30sser	ser
 escenario	Scms	escenario
 xa	Wn	xa
 de	P	de
@@ -96529,7 +96529,7 @@ cadáver	Scms	cadáver
 de	P	de
 un	Dims	un
 home	Scms	home
-foi	Vei30s	ser
+foi	Vei30sser	ser
 rescatado	V0p0ms	rescatar
 de	P	de
 un	Dims	un
@@ -96724,7 +96724,7 @@ anos	Scmp	ano
 de	P	de
 idade	Scfs	idade
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 detido	V0p0ms	deter
 acusado	V0p0ms	acusar
 de	P	de
@@ -98362,14 +98362,14 @@ V.R.G.	Sp00	V.R.G.
 ,	Q,	,
 que	Tnms	que
 xa	Wn	xa
-fora	Vli30s	ser
+fora	Vli30sser	ser
 detido	V0p0ms	deter
 en	P	en
 24	Ncdfp	24
 ocasións	Scfp	ocasión
 anteriores	A0fp	anterior
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 arrestado	V0p0ms	arrestar
 por	P	por
 un	Dims	un
@@ -98394,7 +98394,7 @@ de	P	de
 25	Ncdmp	25
 anos	Scmp	ano
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 detido	V0p0ms	deter
 e	Cc	e
 acusado	V0p0ms	acusar
@@ -98560,7 +98560,7 @@ domingo	Scms	domingo
 6	Ncnms	6
 de	P	de
 maio	Scms	maio
-fora	Vli30s	ser
+fora	Vli30sser	ser
 moi	Wm	moito
 comentada	V0p0fs	comentar
 ,	Q,	,
@@ -98617,7 +98617,7 @@ Cécilia Sarkozy	Spf0	Cécilia Sarkozy
 pero	Cs	pero
 asegura	Vpi30s	asegurar
 que	Cs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 el	Rtn3ms	el
 quen	Tnms	quen
 decidiu	Vei30s	decidir
@@ -98676,7 +98676,7 @@ ese	Edms	ese
 día	Scms	día
 ,	Q,	,
 Sarkozy	Sp00	Sarkozy
-foi	Vei30s	ir
+foi	Vei30sir	ir
 votar	V0f000	votar
 en	P	en
 compañía	Scfs	compañía
@@ -100516,7 +100516,7 @@ _	Q_	_
 igual	Wn	igual
 que	Cs	que
 agora	Wn	agora
-foron	Vei30p	ser
+foron	Vei30pser	ser
 suspendidos	V0p0mp	suspender
 a	P	a
 dous	Ncdmp	dous
@@ -101671,7 +101671,7 @@ por lo tanto	La0	por o tanto
 ,	Q,	,
 "	Q"	"
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 posible	A0ms	posible
 algún	Idms	algún
 tipo	Scms	tipo
@@ -101990,7 +101990,7 @@ Méndez Romeu	Sp00	Méndez Romeu
 .	Q.	.
 
 "	Q"	"
-foron	Vei30p	ser
+foron	Vei30pser	ser
 outros	Idmp	outro
 motivos	Scmp	motivo
 ,	Q,	,
@@ -102460,7 +102460,7 @@ que	Cs	que
 ningunha	Idfs	ningún
 proposta	Scfs	proposta
 empresarial	A0fs	empresarial
-foi	Vei30s	ser
+foi	Vei30sser	ser
 rexeitada	V0p0fs	rexeitar
 por	P	por
 non	Wn	non
@@ -102475,7 +102475,7 @@ mesmo	Idms	mesmo
 xeito	Scms	xeito
 que	Cs	que
 ningunha	Infs	ningún
-foi	Vei30s	ser
+foi	Vei30sser	ser
 admitida	V0p0fs	admitir
 só	Wn	só
 por	P	por
@@ -102774,7 +102774,7 @@ feitos	Scmp	feito
 ,	Q,	,
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 negado	V0p0ms	negar
 por	P	por
 lo	Ddms	o
@@ -102904,7 +102904,7 @@ que	Cs	que
 a	Ddfs	o
 súa	Md3sfs	seu
 cidade	Scfs	cidade
-fose	Ves30s	ser
+fose	Ves30sser	ser
 como	Cs	como
 Pontevedra	Sp00	Pontevedra
 ,	Q,	,
@@ -103250,7 +103250,7 @@ de	P	de
 cidade	Scfs	cidade
 ,	Q,	,
 que	Tnms	que
-fomos	Vei10p	ir
+fomos	Vei10pir	ir
 executando	V0x000	executar
 en	P	en
 estes	Edmp	este
@@ -103964,7 +103964,7 @@ sentido	Scms	sentido
 recordou	Vei30s	recordar
 que	Cs	que
 López Abella	Sp00	López Abella
-foi	Vei30s	ser
+foi	Vei30sser	ser
 chamada	V0p0fs	chamar
 a	P	a
 declarar	V0f000	declarar
@@ -104265,7 +104265,7 @@ difamación	Scfs	difamación
 de	P	de
 a	Ddfs	o
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 obxecto	Scms	obxecto
 a	Ddfs	o
 deputada	Scfs	deputado
@@ -105107,7 +105107,7 @@ tributo	Scms	tributo
 a	P	a
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 conselleiro	Scms	conselleiro
 ,	Q,	,
 deputado	Scms	deputado
@@ -105158,7 +105158,7 @@ verán	Scms	verán
 pasado	A0ms	pasado
 e	Cc	e
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ex	A0ms	ex
 conselleiro	Scms	conselleiro
 en	P	en
@@ -105273,7 +105273,7 @@ o	Ddms	o
 Paseo	Spms	Paseo
 non	Wn	non
 se	Rao3aa	se
-foi	Vei30s	ir
+foi	Vei30sir	ir
 "	Q"	"
 .	Q.	.
 
@@ -105386,7 +105386,7 @@ Iago Tabarés	Spm0	Iago Tabarés
 ,	Q,	,
 asegurou	Vei30s	asegurar
 que	Cs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 acto	Scms	acto
 "	Q"	"
@@ -105413,7 +105413,7 @@ político	Scms	político
 "	Q"	"
 ,	Q,	,
 como	Wr	como
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Rodríguez Pena	Sp00	Rodríguez Pena
 .	Q.	.
 
@@ -105635,7 +105635,7 @@ o	Ddms	o
 documento	Scms	documento
 que	Tnms	que
 lle	Rad3as	lle
-foi	Vei30s	ser
+foi	Vei30sser	ser
 presentado	V0p0ms	presentar
 onte	Wn	onte
 a	P	a
@@ -106243,7 +106243,7 @@ de	P	de
 euros	Scmp	euro
 ,	Q,	,
 que	Tnfp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 aprobadas	V0p0fp	aprobar
 por	P	por
 lo	Ddms	o
@@ -107977,7 +107977,7 @@ opinou	Vei30s	opinar
 que	Cs	que
 o	Ddms	o
 xoves	Scms	xoves
-foi	Vei30s	ser
+foi	Vei30sser	ser
 "	Q"	"
 un	Dims	un
 gran	A0ms	grande
@@ -108112,7 +108112,7 @@ a	Ddfs	o
 Lei de igualdade efectiva de mulleres e homes	Spfs	Lei de igualdade efectiva de mulleres e homes
 ,	Q,	,
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 aprobada	V0p0fs	aprobar
 con	P	con
 192	Ncdmp	192
@@ -108648,7 +108648,7 @@ a	P	a
 as	Ddfp	o
 iniciais	Scfp	inicial
 A.S.A.	Sp00	A.S.A.
-foi	Vei30s	ser
+foi	Vei30sser	ser
 imputado	V0p0ms	imputar
 onte	Wn	onte
 por	P	por
@@ -109558,7 +109558,7 @@ chamada	Scfs	chamada
 .	Q.	.
 
 "	Q"	"
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 chamada	Scfs	chamada
 moi	Wm	moito
@@ -110500,7 +110500,7 @@ actúa	Vpi30s	actuar
 "	Q"	"
 como	Cs	como
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 monolingüe	A0ms	monolingüe
 "	Q"	"
 
@@ -110533,7 +110533,7 @@ Estado	Spms	Estado
 actúan	Vpi30p	actuar
 como	Cs	como
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 monolingue	A0fs	monolingue
 .	Q.	.
 
@@ -110953,7 +110953,7 @@ unha	Infs	un
 de	P	de
 a	Ddfs	o
 que	Tnfs	que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 vivenda	Scfs	vivenda
 de	P	de
 Rosalía de Castro	Spf0	Rosalía de Castro
@@ -111159,7 +111159,7 @@ de	P	de
 esta	Edfs	este
 casa	Scfs	casa
 que	Tnfs	que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 de	P	de
 alugueiro	Scms	alugueiro
 ,	Q,	,
@@ -111214,7 +111214,7 @@ de	P	de
 decembro	Scms	decembro
 a	P	a
 febreiro	Scms	febreiro
-foron	Vei30p	ser
+foron	Vei30pser	ser
 case	Wm	case
 un	Ncdms	un
 grao	Scms	grao
@@ -111248,7 +111248,7 @@ en	P	en
 o	Ddms	o
 hemisferio	Scms	hemisferio
 norte	Scms	norte
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 fenómeno	Scms	fenómeno
 estacional	A0ms	estacional
@@ -111277,7 +111277,7 @@ en	P	en
 o	Ddms	o
 hemisferio	Scms	hemisferio
 norte	Scms	norte
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 máis	Wm	máis
 cálido	A0ms	cálido
@@ -111325,7 +111325,7 @@ febreiro	Scms	febreiro
 ,	Q,	,
 as	Ddfp	o
 temperaturas	Scfp	temperatura
-foron	Vei30p	ser
+foron	Vei30pser	ser
 de	P	de
 0,72	Ncdmp	0,72
 graos	Scmp	grao
@@ -111361,7 +111361,7 @@ en	P	en
 o	Ddms	o
 hemisferio	Scms	hemisferio
 norte	Scms	norte
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 fenómeno	Scms	fenómeno
 estacional	A0ms	estacional
@@ -111445,7 +111445,7 @@ non obstante	La0	non obstante
 ,	Q,	,
 ese	Edms	ese
 incremento	Scms	incremento
-foi	Vei30s	ser
+foi	Vei30sser	ser
 tres	Ncdfp	tres
 veces	Scfp	vez
 superior	A0ms	superior
@@ -112237,7 +112237,7 @@ con	P	con
 Lula	Sp00	Lula
 
 este	Enms	este
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 primeiro	Nodms	primeiro
 acto	Scms	acto
@@ -112970,7 +112970,7 @@ internet	Scfs	internet
 o	Ddms	o
 ano	Scms	ano
 pasado	A0ms	pasado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 Díaz Pardo	Sp00	Díaz Pardo
 
@@ -113461,7 +113461,7 @@ distrofia	Scfs	distrofia
 muscular	A0fs	muscular
 e	Cc	e
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 desconectada	V0p0fs	desconectar
 de	P	de
 o	Ddms	o
@@ -113474,7 +113474,7 @@ vida	Scfs	vida
 o	Ddms	o
 mércores	Scms	mércores
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 incinerados	V0p0mp	incinerar
 .	Q.	.
 
@@ -114103,7 +114103,7 @@ franquista	A0fs	franquista
 que	Tnfp	que
 en	P	en
 2006	Ncnms	2006
-foron	Vei30p	ser
+foron	Vei30pser	ser
 homenaxeados	V0p0mp	homenaxear
 dentro de	Lp0	dentro de
 a	Ddfs	o
@@ -115717,7 +115717,7 @@ trío	Scms	trío
 de	P	de
 Os Azores	Sp00	Os Azores
 "	Q"	"
-foi	Vei30s	ser
+foi	Vei30sser	ser
 errónea	A0fs	erróneo
 .	Q.	.
 
@@ -116087,7 +116087,7 @@ Atocha	Sp00	Atocha
 o	Ddms	o
 escritor	Scms	escritor
 José Saramago	Spm0	José Saramago
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 encargado	Scms	encargado
 de	P	de
@@ -116959,7 +116959,7 @@ Huarte	Sp00	Huarte
 ,	Q,	,
 respectivamente	Wn	respectivamente
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 atacados	V0p0mp	atacar
 a	Ddfs	o
 noite	Scfs	noite
@@ -118867,7 +118867,7 @@ o	Ddms	o
 poder	Scms	poder
 ,	Q,	,
 de feito	La0	de feito
-foi	Vei30s	ser
+foi	Vei30sser	ser
 xulgado	V0p0ms	xulgar
 e	Cc	e
 a	Ddfs	o
@@ -118878,7 +118878,7 @@ a	Ddfs	o
 morte	Scfs	morte
 por	P	por
 aforcamento	Scms	aforcamento
-foi	Vei30s	ser
+foi	Vei30sser	ser
 executada	V0p0fs	executar
 ,	Q,	,
 así como	Lcs	así como
@@ -118921,7 +118921,7 @@ Portugal	Sp00	Portugal
 ,	Q,	,
 e	Cc	e
 nunca	Wn	nunca
-foron	Vei30p	ser
+foron	Vei30pser	ser
 atopadas	V0p0fp	atopar
 .	Q.	.
 
@@ -119179,7 +119179,7 @@ fogo	Scms	fogo
 amigo	A0ms	amigo
 "	Q"	"
 estadounidense	A0ms	estadounidense
-foi	Vei30s	ser
+foi	Vei30sser	ser
 "	Q"	"
 ilegal	A0fs	ilegal
 "	Q"	"
@@ -119291,7 +119291,7 @@ a	Ddfs	o
 luz	Scfs	luz
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ilegal	A0ms	ilegal
 ,	Q,	,
 porque	Cs	porque
@@ -119305,7 +119305,7 @@ e	Cc	e
 en	P	en
 ese	Edms	ese
 sentido	Scms	sentido
-foi	Vei30s	ser
+foi	Vei30sser	ser
 delituoso	A0ms	delituoso
 "	Q"	"
 ,	Q,	,
@@ -119449,7 +119449,7 @@ non obstante	La0	non obstante
 ,	Q,	,
 a	Ddfs	o
 moción	Scfs	moción
-foi	Vei30s	ser
+foi	Vei30sser	ser
 derrotada	V0p0fs	derrotar
 por	P	por
 50	Ncdmp	50
@@ -120542,7 +120542,7 @@ fai	Vpi30s	facer
 52	Ncdmp	52
 anos	Scmp	ano
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 director	Scms	director
 xeral	A0ms	xeral
 de	P	de
@@ -120633,7 +120633,7 @@ a	P	a
 Cuba	Sp00	Cuba
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 por	P	por
 volta	Scfs	volta
 de	P	de
@@ -120904,7 +120904,7 @@ natureza	Scfs	natureza
 ...	Q...	...
 
 primeiro	Wn	primeiro
-foi	Vei30s	ser
+foi	Vei30sser	ser
 No desterro. Visións galegas	Sp00	No desterro. Visións galegas
 (	Q(	(
 A Habana	Sp00	A Habana
@@ -121879,7 +121879,7 @@ escasos	A0mp	escaso
 ,	Q,	,
 pero	Cs	pero
 se	Cs	se
-fose	Ves30s	ser
+fose	Ves30sser	ser
 hai	Vpi30s	haber
 só	Wn	só
 un	Dims	un
@@ -121910,7 +121910,7 @@ o	Ddms	o
 millo	Scms	millo
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 os	Ddmp	o
 últimos	A0mp	último
@@ -122085,7 +122085,7 @@ que	Tnmp	que
 o	Ddms	o
 90	Ncnms	90
 por cento	La0	por cento
-foron	Vei30p	ser
+foron	Vei30pser	ser
 para	P	para
 mulleres	Scfp	muller
 .	Q.	.
@@ -122107,7 +122107,7 @@ paro	Scms	paro
 o	Ddms	o
 ano	Scms	ano
 pasado	A0ms	pasado
-fora	Ves30s	ser
+fora	Ves30sser	ser
 a	Ddfs	o
 máis	Wm	máis
 baixa	A0fs	baixo
@@ -122149,7 +122149,7 @@ dende	P	dende
 que	Cs	que
 don	Scms	don
 Adolfo Suárez	Spms	Adolfo Suárez
-foi	Vei30s	ser
+foi	Vei30sser	ser
 designado	V0p0ms	designar
 presidente	Scms	presidente
 de	P	de
@@ -122168,7 +122168,7 @@ que	Tnms	que
 lembro	Vpi10s	lembrar
 como	Cs	como
 se	Cs	se
-fora	Ves30s	ser
+fora	Ves30sser	ser
 hoxe	Wn	hoxe
 aínda que	Lcs	aínda que
 era	Vii10s	ser
@@ -122253,7 +122253,7 @@ non	Wn	non
 imaxinou	Vei30s	imaxinar
 aquela	Edfs	aquel
 nena	Scfs	neno
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ata	P	ata
 que	Gdms	que
 punto	Scms	punto
@@ -122339,7 +122339,7 @@ tería	Vci10s	ter
 unha	Difs	un
 filla	Scfs	fillo
 se	Cs	se
-fora	Ves30s	ser
+fora	Ves30sser	ser
 posíbel	A0ms	posíbel
 que	Cs	que
 esta	Edfs	este
@@ -123476,7 +123476,7 @@ amarga	A0fs	amargo
 experiencia	Scfs	experiencia
 :	Q:	:
 
-fun	Vei10s	ser
+fun	Vei10sser	ser
 coordinador	Scms	coordinador
 de	P	de
 esa	Edfs	ese
@@ -124517,7 +124517,7 @@ e	Cc	e
 misteriosos	A0mp	misterioso
 que	Tnmp	que
 non	Wn	non
-foron	Vei30p	ser
+foron	Vei30pser	ser
 vistos	V0p0mp	ver
 endexamais	Wn	endexamais
 .	Q.	.
@@ -125209,7 +125209,7 @@ que	Cs	que
 o	Ddms	o
 ditame	Scms	ditame
 xudicial	A0ms	xudicial
-foi	Vei30s	ser
+foi	Vei30sser	ser
 atinado	A0ms	atinado
 e	Cc	e
 de	P	de
@@ -127706,7 +127706,7 @@ cen	Ncdfp	cen
 preguntas	Scfp	pregunta
 que	Tnfp	que
 non	Wn	non
-foron	Vei30p	ser
+foron	Vei30pser	ser
 tales	Infp	tal
 corresponde	Vpi30s	corresponder
 lle	Rad3ms	lle
@@ -127832,7 +127832,7 @@ partes	Scfp	parte
 ,	Q,	,
 ese	Edms	ese
 espazo	Scms	espazo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ideado	V0p0ms	idear
 para	P	para
 achegar	V0f000	achegar
@@ -127890,7 +127890,7 @@ en	P	en
 segundo	P	segundo
 que	Gdms	que
 caso	Scms	caso
-foi	Vei30s	ser
+foi	Vei30sser	ser
 demasiado	Wm	demasiado
 frío	A0ms	frío
 con	P	con
@@ -127913,7 +127913,7 @@ iso	Enns	ese
 sí	Wn	sí
 ,	Q,	,
 Milá	Sp00	Milá
-foi	Vei30s	ser
+foi	Vei30sser	ser
 quen	Tnas	quen
 de	P	de
 facer	V0f000	facer
@@ -127954,7 +127954,7 @@ formato	Scms	formato
 o	Ddms	o
 presidente	Scms	presidente
 Zapatero	Spms	Zapatero
-foi	Vei30s	ir
+foi	Vei30sir	ir
 de	P	de
 menos	Wn	menos
 a	P	a
@@ -128012,7 +128012,7 @@ mar	Scms	mar
 de	P	de
 rumores	Scmp	rumor
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -128886,7 +128886,7 @@ unha	Difs	un
 inoportuna	A0fs	inoportuno
 caída	Scfs	caída
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 asasinado	V0p0ms	asasinar
 por	P	por
 los	Ddmp	o
@@ -130393,7 +130393,7 @@ este	Enms	este
 de	P	de
 versións	Scfp	versión
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 editado	V0p0ms	editar
 dentro	Wn	dentro
 de	P	de
@@ -130554,7 +130554,7 @@ que	Tnms	que
 con	P	con
 o	Ddms	o
 tempo	Scms	tempo
-foi	Vei30s	ir
+foi	Vei30sir	ir
 adquirindo	V0x000	adquirir
 derroteiros	Scmp	derroteiro
 de	P	de
@@ -131672,7 +131672,7 @@ tal	Wn	tal
 e	Cc	e
 como	Wr	como
 "	Q"	"
-foi	Vei30s	ser
+foi	Vei30sser	ser
 constituído	V0p0ms	constituír
 en	P	en
 un	Dims	un
@@ -131690,7 +131690,7 @@ que	Tnms	que
 todos	Inmp	todo
 soñamos	Vei10p	soñar
 que	Cs	que
-fose	Ves30s	ser
+fose	Ves30sser	ser
 :	Q:	:
 
 o	Ddms	o
@@ -133516,7 +133516,7 @@ que	Cs	que
 o	Ddms	o
 ciclo	Scms	ciclo
 Revelando Voces	Sp00	Revelando Voces
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 boa	A0fs	bo
 iniciativa	Scfs	iniciativa
@@ -135659,7 +135659,7 @@ ademais	Wn	ademais
 "	Q"	"
 o	Ddms	o
 PSdeG	Zgms	PSdeG
-foi	Vei30s	ser
+foi	Vei30sser	ser
 pioneiro	Scms	pioneiro
 en	P	en
 o	Ddms	o
@@ -136848,7 +136848,7 @@ por	P	por
 la	Ddfs	o
 Cortes Xerais	Spfp	Cortes Xerais
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 xustificada	V0p0fs	xustificar
 por	P	por
 lo	Ddms	o
@@ -139344,7 +139344,7 @@ estado	Scms	estado
 de	P	de
 saúde	Scfs	saúde
 que	Tnfp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 realizadas	V0p0fp	realizar
 por	P	por
 membros	Scmp	membro
@@ -139604,7 +139604,7 @@ severo	A0ms	severo
 un	Dims	un
 logro	Scms	logro
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 posible	A0ms	posible
 "	Q"	"
 grazas a	Lp0	grazas a
@@ -139770,7 +139770,7 @@ principal	A0fs	principal
 vía	Scfs	vía
 de	P	de
 contaxio	Scms	contaxio
-foron	Vei30p	ser
+foron	Vei30pser	ser
 as	Ddfp	o
 relacións	Scfp	relación
 sexuais	A0fp	sexual
@@ -140616,7 +140616,7 @@ Marisol López	Spf0	Marisol López
 a	Ddfs	o
 "	Q"	"
 reunión	Scfs	reunión
-foi	Vei30s	ser
+foi	Vei30sser	ser
 cordial	A0fs	cordial
 "	Q"	"
 e	Cc	e
@@ -141490,7 +141490,7 @@ Moscoso	Sp00	Moscoso
 
 o	Ddms	o
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -141568,7 +141568,7 @@ mítico	A0ms	mítico
 en	P	en
 Galicia	Sp00	Galicia
 xa que	Lcs	xa que
-fora	Vli30s	ser
+fora	Vli30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -143162,7 +143162,7 @@ o	Ddms	o
 Congreso	Spms	Congreso
 ,	Q,	,
 onde	Wr	onde
-foi	Vei30s	ser
+foi	Vei30sser	ser
 aprobada	V0p0fs	aprobar
 ,	Q,	,
 por	P	por
@@ -143660,7 +143660,7 @@ a	Ddfs	o
 experiencia	Scfs	experiencia
 de	P	de
 BATA	Zg00	BATA
-foi	Vei30s	ser
+foi	Vei30sser	ser
 decisiva	A0fs	decisivo
 en	P	en
 a	Ddfs	o
@@ -144780,7 +144780,7 @@ www.correotv.es	Zo00	www.correotv.es
 
 o	Ddms	o
 galardón	Scms	galardón
-foi	Vei30s	ser
+foi	Vei30sser	ser
 recollido	V0p0ms	recoller
 onte	Wn	onte
 por	P	por
@@ -144828,7 +144828,7 @@ categorías	Scfp	categoría
 de	P	de
 as	Ddfp	o
 cales	Tnfp	cal
-foron	Vei30p	ser
+foron	Vei30pser	ser
 seleccionadas	V0p0fp	seleccionar
 27	Ncdfp	27
 finalistas	A0fp	finalista
@@ -144849,7 +144849,7 @@ de	P	de
 Iniciativa	Sp00	Iniciativa
 o	Ddms	o
 premio	Scms	premio
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 a	Ddfs	o
 empresa	Scfs	empresa
@@ -144913,7 +144913,7 @@ deprofundislapelicula.com	Zo00	deprofundislapelicula.com
 o	Ddms	o
 premio	Scms	premio
 E-Comerce	Sp00	E-Comerce
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 Turismo de Santiago	Sp00	Turismo de Santiago
 ,	Q,	,
@@ -145043,7 +145043,7 @@ publicitarias	A0fp	publicitario
 en	P	en
 a	Ddfs	o
 rede	Scfs	rede
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 a	Ddfs	o
 axencia	Scfs	axencia
@@ -145074,7 +145074,7 @@ o	Ddms	o
 apartado	Scms	apartado
 de	P	de
 Mellor Aplicación On-Line	Sp00	Mellor Aplicación On-Line
-foi	Vei30s	ser
+foi	Vei30sser	ser
 premiada	V0p0fs	premiar
 a	Ddfs	o
 empresa	Scfs	empresa
@@ -146992,7 +146992,7 @@ pero	Cs	pero
 finalmente	Wn	finalmente
 estes	Edmp	este
 grupos	Scmp	grupo
-foron	Vei30p	ser
+foron	Vei30pser	ser
 incapaces	A0mp	incapaz
 de	P	de
 entender	V0f000	entender
@@ -147207,7 +147207,7 @@ pero	Cs	pero
 o	Ddms	o
 acordo	Scms	acordo
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 posíbel	A0ms	posíbel
 .	Q.	.
 
@@ -148208,7 +148208,7 @@ PSOE	Zgms	PSOE
 
 a	Ddfs	o
 enquisa	Scfs	enquisa
-foi	Vei30s	ser
+foi	Vei30sser	ser
 encargada	V0p0fs	encargar
 por	P	por
 lo	Ddms	o
@@ -148630,7 +148630,7 @@ a	Ddfs	o
 militar	Scfs	militar
 británica	A0fs	británico
 Faye Turney	Spf0	Faye Turney
-foi	Vei30s	ser
+foi	Vei30sser	ser
 aprazada	V0p0fs	aprazar
 indefinidamente	Wn	indefinidamente
 por mor de	Lp0	por mor de
@@ -148937,7 +148937,7 @@ de	P	de
 a	Ddfs	o
 ONU	Zgfs	ONU
 cando	Wr	cando
-foron	Vei30p	ser
+foron	Vei30pser	ser
 apresados	V0p0mp	apresar
 .	Q.	.
 
@@ -149139,7 +149139,7 @@ o	Ddms	o
 Parlamento	Spms	Parlamento
 británico	A0ms	británico
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 enviado	V0p0ms	enviar
 por	P	por
 fax	Scms	fax
@@ -149198,7 +149198,7 @@ de	P	de
 a	Ddfs	o
 mariña	Scfs	mariña
 capturados	A0mp	capturado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 algo	Inms	algo
 "	Q"	"
 equivocado	A0ms	equivocado
@@ -152943,7 +152943,7 @@ asturiano	A0ms	asturiano
 Adrián López	Spm0	Adrián López
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 titular	Scms	titular
 en	P	en
 o	Ddms	o
@@ -154110,7 +154110,7 @@ a	Ddfs	o
 medalla	Scfs	medalla
 de	P	de
 prata	Scfs	prata
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 Alemaña	Sp00	Alemaña
 e	Cc	e
@@ -154689,7 +154689,7 @@ en	P	en
 o	Ddms	o
 servizo	Scms	servizo
 prestado	V0p0ms	prestar
-foi	Vei30s	ser
+foi	Vei30sser	ser
 moi	Wm	moito
 diferente	A0fs	diferente
 .	Q.	.
@@ -154706,7 +154706,7 @@ un	Dims	un
 %	Zs00	%
 de	P	de
 cirurxías	Scfp	cirurxía
-foron	Vei30p	ser
+foron	Vei30pser	ser
 aprazadas	V0p0fp	aprazar
 ,	Q,	,
 a	Ddfs	o
@@ -154796,7 +154796,7 @@ central	A0ms	central
 de	P	de
 o	Ddms	o
 día	Scms	día
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 manifestación	Scfs	manifestación
 celebrada	V0p0fs	celebrar
@@ -156127,7 +156127,7 @@ destino	Scms	destino
 :	Q:	:
 
 esa	Enfs	ese
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 súa	Md3afs	seu
 teima	Scfs	teima
@@ -156906,7 +156906,7 @@ universo	Scms	universo
 ¿	Q¿	¿
 e	Cc	e
 non	Wn	non
-foron	Vei30p	ir
+foron	Vei30pir	ir
 parar	V0f000	parar
 diante	Wn	diante
 de	P	de
@@ -157375,7 +157375,7 @@ destino	Scms	destino
 de	P	de
 a	Ddfs	o
 emigración	Scfs	emigración
-foran	Ves30p	ser
+foran	Ves30pser	ser
 as	Ddfp	o
 cidades	Scfp	cidade
 de	P	de
@@ -157638,7 +157638,7 @@ debería	Vci30s	deber
 retornar	V0f000	retornar
 en canto	Lcs	en canto
 lle	Rad3ms	lle
-fose	Ves30s	ser
+fose	Ves30sser	ser
 posible	A0ms	posible
 )	Q)	)
 e	Cc	e
@@ -157829,7 +157829,7 @@ en	P	en
 Irlanda	Sp00	Irlanda
 
 Como en Irlanda	Sp00	Como en Irlanda
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -157928,7 +157928,7 @@ posibilistas	A0mp	posibilista
 
 e	Cc	e
 así	Wn	así
-foi	Vei30s	ser
+foi	Vei30sser	ser
 como	Wr	como
 un	Inms	un
 se	Rao3aa	se
@@ -158384,7 +158384,7 @@ de	P	de
 Jules Verne	Spm0	Jules Verne
 e	Cc	e
 non	Wn	non
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 famoso	A0ms	famoso
 episodio	Scms	episodio
@@ -158498,7 +158498,7 @@ heroe	Scms	heroe
 romántico	A0ms	romántico
 :	Q:	:
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 mariño	Scms	mariño
 ,	Q,	,
 pescador	Scms	pescador
@@ -158621,7 +158621,7 @@ en	P	en
 o	Ddms	o
 buscador	Scms	buscador
 e	Cc	e
-fun	Vei10s	ser
+fun	Vei10sser	ser
 feliz	A0as	feliz
 a	P	a
 o	Ddms	o
@@ -159409,7 +159409,7 @@ amor	Scms	amor
 
 ¿	Q¿	¿
 que	Gnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 pasou	Vei30s	pasar
@@ -159478,7 +159478,7 @@ de	P	de
 o	Ddms	o
 señor	Scms	señor
 Gage	Spms	Gage
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ter	V0f000	ter
 un	Dims	un
 cranio	Scms	cranio
@@ -159875,7 +159875,7 @@ xornal	Scms	xornal
 .	Q.	.
 
 alí	Wn	alí
-foi	Vei30s	ser
+foi	Vei30sser	ser
 secretario	Scms	secretario
 de	P	de
 o	Ddms	o
@@ -161209,7 +161209,7 @@ que	Tnms	que
 provocou	Vei30s	provocar
 a	Ddfs	o
 prohibición	Scfs	prohibición
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Midnight Hot	Sp00	Midnight Hot
 ,	Q,	,
 que	Tnas	que
@@ -161237,7 +161237,7 @@ semiespidas	A0fp	semiespido
 a	Ddfs	o
 mesma	Idfs	mesmo
 medida	Scfs	medida
-foi	Vei30s	ser
+foi	Vei30sser	ser
 aplicada	V0p0fs	aplicar
 o	Ddms	o
 pasado	A0ms	pasado
@@ -163335,7 +163335,7 @@ futuro	Scms	futuro
 .	Q.	.
 
 Salvando a Grace	Sp00	Salvando a Grace
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 serie	Scfs	serie
 máis	Wn	máis
@@ -164295,7 +164295,7 @@ como	Cs	como
 os	Ddmp	o
 tres	Ncdmp	tres
 tripulantes	Scmp	tripulante
-foron	Vei30p	ser
+foron	Vei30pser	ser
 postos	V0p0mp	poñer
 a	P	a
 disposición	Scfs	disposición
@@ -164480,7 +164480,7 @@ eslora	Scfs	eslora
 ,	Q,	,
 o	Ddms	o
 barco	Scms	barco
-foi	Vei30s	ser
+foi	Vei30sser	ser
 abordado	V0p0ms	abordar
 ,	Q,	,
 a	Ddfs	o
@@ -164522,7 +164522,7 @@ e	Cc	e
 as	Ddfp	o
 persoas	Scfp	persoa
 detidas	V0p0fp	deter
-foron	Vei30p	ser
+foron	Vei30pser	ser
 postas	V0p0fp	poñer
 a	P	a
 disposición	Scfs	disposición
@@ -165063,7 +165063,7 @@ Galicia	Sp00	Galicia
 o	Ddms	o
 99,59	Ncnms	99,59
 %	Zs00	%
-foi	Vei30s	ser
+foi	Vei30sser	ser
 en	P	en
 territorio	Scms	territorio
 pontevedrés	A0ms	pontevedrés
@@ -166574,7 +166574,7 @@ en	P	en
 a	Ddfs	o
 semana	Scfs	semana
 pasada	A0fs	pasado
-foron	Vei30p	ser
+foron	Vei30pser	ser
 xa	Wn	xa
 catro	Ncnfp	catro
 a	P	a
@@ -167131,7 +167131,7 @@ resposta	Scfs	resposta
 a	P	a
 o	Ddms	o
 alcalde	Scms	alcalde
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 concelleiro	Scms	concelleiro
 de	P	de
@@ -168532,7 +168532,7 @@ leves	A0mp	leve
 
 o	Ddms	o
 sábado	Scms	sábado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 peor	Acms	peor
 día	Scms	día
@@ -168899,7 +168899,7 @@ de	P	de
 o	Ddms	o
 sinistro	Scms	sinistro
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 rescatadas	V0p0fp	rescatar
 un	Dims	un
 home	Scms	home
@@ -169126,7 +169126,7 @@ obxectivo	Scms	obxectivo
 de	P	de
 o	Ddms	o
 informe	Scms	informe
-foi	Vei30s	ser
+foi	Vei30sser	ser
 buscar	V0f000	buscar
 resposta	Scfs	resposta
 a	P	a
@@ -169596,7 +169596,7 @@ gran	A0fs	grande
 repercusión	Scfs	repercusión
 "	Q"	"
 se	Cs	se
-fosen	Ves30p	ser
+fosen	Ves30pser	ser
 gobernantes	Scap	gobernante
 
 outra	Infs	outro
@@ -169972,7 +169972,7 @@ que	Cs	que
 os	Ddmp	o
 seus	Md3pmp	seu
 fillos	Scmp	fillo
-fosen	Ves30p	ser
+fosen	Ves30pser	ser
 o	Ddms	o
 que	Tnms	que
 eles	Rtn3mp	el
@@ -170457,7 +170457,7 @@ definir	V0f000	definir
 o	Ddms	o
 futuro	Scms	futuro
 profesional	A0ms	profesional
-foron	Vei30p	ser
+foron	Vei30pser	ser
 vencidas	V0p0fp	vencer
 por	P	por
 las	Ddfp	o
@@ -170584,7 +170584,7 @@ as	Ddfp	o
 respostas	Scfp	resposta
 máis	Wn	máis
 mencionadas	V0p0fp	mencionar
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 de	P	de
 o	Ddms	o
@@ -170624,7 +170624,7 @@ hai	Vpi30s	haber
 outros	Inmp	outro
 que	Tnmp	que
 se	Cs	se
-fosen	Ves30p	ser
+fosen	Ves30pser	ser
 xefes	Scmp	xefe
 de	P	de
 o	Ddms	o
@@ -171892,7 +171892,7 @@ anos	Scmp	ano
 ,	Q,	,
 cuxa	Tdfs	cuxo
 casa	Scfs	casa
-foi	Vei30s	ser
+foi	Vei30sser	ser
 destruída	V0p0fs	destruír
 por	P	por
 lo	Ddms	o
@@ -173140,7 +173140,7 @@ A Coruña	Sp00	A Coruña
 cans	Scmp	can
 con	P	con
 microchip	Scms	microchip
-foron	Vei30p	ser
+foron	Vei30pser	ser
 localizados	V0p0mp	localizar
 e	Cc	e
 devoltos	V0p0mp	devolver
@@ -174194,7 +174194,7 @@ procedente	A0ms	procedente
 de	P	de
 Baiona	Sp00	Baiona
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 avistado	V0p0ms	avistar
 en	P	en
 as	Ddfp	o
@@ -174211,7 +174211,7 @@ decembro	Scms	decembro
 pasado	A0ms	pasado
 ,	Q,	,
 aínda que	Lcs	aínda que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 bautizado	V0p0ms	bautizar
 o	Ddms	o
 5	Ncnms	5
@@ -174386,7 +174386,7 @@ de	P	de
 euros	Scmp	euro
 
 Cineuropa	Sp00	Cineuropa
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 única	A0fs	único
 de	P	de
@@ -175406,7 +175406,7 @@ Galicia	Sp00	Galicia
 e	Cc	e
 eu	Rtn1ms	eu
 que	Tnms	que
-fora	Vli10s	ser
+fora	Vli10sser	ser
 un	Inms	un
 de	P	de
 os	Ddmp	o
@@ -176293,7 +176293,7 @@ iso	Enns	ese
 .	Q.	.
 
 pero	Cs	pero
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 figura	Scfs	figura
 moi	Wm	moito
@@ -177105,7 +177105,7 @@ moi	Wm	moito
 bo	A0ms	bo
 ,	Q,	,
 que	Tnms	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 feito	V0p0ms	facer
 independentemente	Wn	independentemente
 e	Cc	e
@@ -177574,7 +177574,7 @@ segunda	Nodfs	segundo
 guerra	Scfs	guerra
 mundial	A0fs	mundial
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 detido	V0p0ms	deter
 e	Cc	e
 condenado	V0p0ms	condenar
@@ -177680,7 +177680,7 @@ de	P	de
 o	Ddms	o
 1953	Ncnms	1953
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 posto	V0p0ms	poñer
 en	P	en
 liberdade	Scfs	liberdade
@@ -177713,7 +177713,7 @@ segredo	Scms	segredo
 en	P	en
 ese	Edms	ese
 período	Scms	período
-foi	Vei30s	ser
+foi	Vei30sser	ser
 curado	V0p0ms	curar
 de	P	de
 un	Dims	un
@@ -177989,7 +177989,7 @@ despois	Wn	despois
 _	Q_	_
 1970	Ncnms	1970
 _	Q_	_
-foi	Vei30s	ser
+foi	Vei30sser	ser
 cando	Wr	cando
 a	Ddfs	o
 Academia Sueca	Spfs	Academia Sueca
@@ -178006,7 +178006,7 @@ que	Tnms	que
 o	Ddms	o
 escritor	Scms	escritor
 non	Wn	non
-foi	Vei30s	ir
+foi	Vei30sir	ir
 recibir	V0f000	recibir
 a	P	a
 Estocolmo	Sp00	Estocolmo
@@ -178448,7 +178448,7 @@ a	Ddfs	o
 Unión Soviética	Spfs	Unión Soviética
 .	Q.	.
 
-foi	Vei30s	ser
+foi	Vei30sser	ser
 unha	Difs	un
 felicidade	Scfs	felicidade
 que	Cs	que
@@ -178568,7 +178568,7 @@ retorno	Scms	retorno
 en	P	en
 o	Ddms	o
 1994	Ncnms	1994
-foi	Vei30s	ser
+foi	Vei30sser	ser
 todo	Idms	todo
 un	Dims	un
 acontecemento	Scms	acontecemento
@@ -179047,7 +179047,7 @@ preparar	V0f000	preparar
 a	Ddfs	o
 edición	Scfs	edición
 impresa	A0fs	impreso
-foi	Vei30s	ser
+foi	Vei30sser	ser
 agora	Wn	agora
 .	Q.	.
 
@@ -179286,7 +179286,7 @@ Francisco Leiro	Spm0	Francisco Leiro
 :	Q:	:
 
 "	Q"	"
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 proceso	Scms	proceso
 de	P	de
@@ -179297,7 +179297,7 @@ e	Cc	e
 mesmo	Wn	mesmo
 o	Ddms	o
 libro	Scms	libro
-foi	Vei30s	ser
+foi	Vei30sser	ser
 escrito	V0p0ms	escribir
 en parte	La0	en parte
 en	P	en
@@ -179365,7 +179365,7 @@ de	P	de
 facer	V0f000	facer
 poesía	Scfs	poesía
 ,	Q,	,
-fose	Ves30s	ser
+fose	Ves30sser	ser
 quen	Tnfs	quen
 prologara	Ves30s	prologar
 "	Q"	"
@@ -179652,7 +179652,7 @@ de	P	de
 Ledger	Sp00	Ledger
 xa que	Lcs	xa que
 ela	Rtn3fs	el
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 primeira	Nodfs	primeiro
 persoa	Scfs	persoa
@@ -180131,7 +180131,7 @@ súa	Md3sfs	seu
 herdanza	Scfs	herdanza
 ,	Q,	,
 que	Tnfs	que
-foi	Vei30s	ir
+foi	Vei30sir	ir
 a	P	a
 parar	V0f000	parar
 a	P	a
@@ -180571,7 +180571,7 @@ semana	Scfs	semana
 que	Tnms	que
 en	P	en
 Lugo	Sp00	Lugo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 o	Ddms	o
 que	Tnms	que
 menos	Wm	menos
@@ -180705,7 +180705,7 @@ proba	Scfs	proba
 de	P	de
 a	Ddfs	o
 normalidade	Scfs	normalidade
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 concesión	Scfs	concesión
 de	P	de
@@ -180996,7 +180996,7 @@ surxeu	Vei30s	surxir
 en	P	en
 Poblenou de Barcelona	Sp00	Poblenou de Barcelona
 e	Cc	e
-foi	Vei30s	ser
+foi	Vei30sser	ser
 creado	V0p0ms	crear
 por	P	por
 un	Dims	un
@@ -181910,7 +181910,7 @@ tempo	Scms	tempo
 ,	Q,	,
 máis	Wm	máis
 firmas	Scfp	firma
-foron	Vei30p	ir
+foron	Vei30pir	ir
 sumando	V0x000	sumar
 se	Rao3aa	se
 ,	Q,	,
@@ -182176,7 +182176,7 @@ camiñar	V0f000	camiñar
 ...	Q...	...
 .	Q.	.
 
-fun	Vei10s	ir
+fun	Vei10sir	ir
 por	P	por
 esas	Edfp	ese
 sombras	Scfp	sombra
@@ -182694,7 +182694,7 @@ seguidos	A0mp	seguido
 45	Ncdmp	45
 días	Scmp	día
 ,	Q,	,
-foron	Vei30p	ser
+foron	Vei30pser	ser
 días	Scmp	día
 plenos	A0mp	pleno
 de	P	de
@@ -182762,7 +182762,7 @@ Club de Natación Helios	Spms	Club de Natación Helios
 ese	Edms	ese
 club	Scms	club
 onde	Wr	onde
-fomos	Vei10p	ser
+fomos	Vei10pser	ser
 parte	Scfs	parte
 nós	Rtn1ap	nós
 tamén	Wn	tamén
@@ -183059,7 +183059,7 @@ de	P	de
 que	Cs	que
 o	Ddms	o
 acto	Scms	acto
-foi	Vei30s	ser
+foi	Vei30sser	ser
 convocado	V0p0ms	convocar
 por	P	por
 la	Ddfs	o
@@ -183603,7 +183603,7 @@ Rubalcaba	Sp00	Rubalcaba
 ,	Q,	,
 a	Ddfs	o
 casa	Scfs	casa
-foi	Vei30s	ser
+foi	Vei30sser	ser
 alugada	V0p0fs	alugar
 en	P	en
 xaneiro	Scms	xaneiro
@@ -183947,7 +183947,7 @@ de	P	de
 aprobar	V0f000	aprobar
 un	Dims	un
 Plan de Dereitos Humanos	Spms	Plan de Dereitos Humanos
-foi	Vei30s	ser
+foi	Vei30sser	ser
 anunciado	V0p0ms	anunciar
 por	P	por
 Fernández de la Vega	Sp00	Fernández de la Vega
@@ -184409,7 +184409,7 @@ pasado	A0ms	pasado
 de	P	de
 agosto	Scms	agosto
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 notificada	V0p0fs	notificar
 onte	Wn	onte
 a	P	a
@@ -184444,7 +184444,7 @@ Goberno	Spms	Goberno
 vasco	A0ms	vasco
 ,	Q,	,
 que	Tnfs	que
-foi	Vei30s	ser
+foi	Vei30sser	ser
 presentada	V0p0fs	presentar
 ante	P	ante
 o	Ddms	o
@@ -185521,7 +185521,7 @@ horas	Scfp	hora
 
 cando	Wr	cando
 finalmente	Wn	finalmente
-foi	Vei30s	ser
+foi	Vei30sser	ser
 interrogado	V0p0ms	interrogar
 ,	Q,	,
 os	Ddmp	o
@@ -185763,7 +185763,7 @@ de	P	de
 cando	Wr	cando
 dúas	Ncdfp	dous
 mulleres	Scfp	muller
-foron	Vei30p	ser
+foron	Vei30pser	ser
 detidas	V0p0fp	deter
 en	P	en
 Erez	Sp00	Erez
@@ -185799,7 +185799,7 @@ de	P	de
 cando	Wr	cando
 unha	Difs	un
 suicida	Scfs	suicida
-foi	Vei30s	ser
+foi	Vei30sser	ser
 detida	V0p0fs	deter
 tamén	Wn	tamén
 en	P	en
@@ -185977,7 +185977,7 @@ cal	Tnms	cal
 se	Rao3aa	se
 estudará	Vfi30s	estudar
 se	Cs	se
-foi	Vei30s	ser
+foi	Vei30sser	ser
 eficaz	A0fs	eficaz
 e	Cc	e
 se	Rao3aa	se
@@ -187056,7 +187056,7 @@ partes	Scfp	parte
 porque	Cs	porque
 se	Cs	se
 non	Wn	non
-fose	Ves30s	ser
+fose	Ves30sser	ser
 así	Wn	así
 ,	Q,	,
 o	Ddms	o
@@ -188063,7 +188063,7 @@ Servizo Público de Emprego	Spms	Servizo Público de Emprego
 
 a	Ddfs	o
 comunidade	Scfs	comunidade
-foi	Vei30s	ser
+foi	Vei30sser	ser
 a	Ddfs	o
 que	Tnfs	que
 liderou	Vei30s	liderar
@@ -189086,7 +189086,7 @@ que	Cs	que
 decenas	Scfp	decena
 de	P	de
 familias	Scfp	familia
-foron	Vei30p	ir
+foron	Vei30pir	ir
 a	P	a
 o	Ddms	o
 paro	Scms	paro
@@ -189273,7 +189273,7 @@ pero	Cs	pero
 o	Ddms	o
 seu	Md3sms	seu
 remate	Scms	remate
-foi	Vei30s	ser
+foi	Vei30sser	ser
 conxurado	V0p0ms	conxurar
 por	P	por
 Aranzubia	Sp00	Aranzubia
@@ -189748,7 +189748,7 @@ Real Madrid	Spms	Real Madrid
 pero	Cs	pero
 as	Ddfp	o
 negociacións	Scfp	negociación
-foron	Vei30p	ser
+foron	Vei30pser	ser
 "	Q"	"
 impedidas	V0p0fp	impedir
 "	Q"	"
@@ -189994,7 +189994,7 @@ Xixón	Sp00	Xixón
 
 esta	Edfs	este
 medida	Scfs	medida
-foi	Vei30s	ser
+foi	Vei30sser	ser
 mal	Wn	mal
 acollida	V0p0fs	acoller
 por	P	por
@@ -190369,7 +190369,7 @@ de	P	de
 forma	Scfs	forma
 moi	Wm	moito
 diferente	A0fs	diferente
-foi	Vei30s	ser
+foi	Vei30sser	ser
 recibida	V0p0fs	recibir
 a	Ddfs	o
 sinatura	Scfs	sinatura
@@ -190524,7 +190524,7 @@ Asturias	Sp00	Asturias
 ,	Q,	,
 onde	Wr	onde
 sempre	Wn	sempre
-fomos	Vei10p	ser
+fomos	Vei10pser	ser
 moi	Wm	moito
 ben	Wn	ben
 tratados	V0p0mp	tratar
@@ -190796,7 +190796,7 @@ onte	Wn	onte
 por	P	por
 antonte	Wn	antonte
 )	Q)	)
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 día	Scms	día
 marabilloso	A0ms	marabilloso
@@ -191449,7 +191449,7 @@ algúns	Inmp	algún
 de	P	de
 eles	Rtp3mp	el
 "	Q"	"
-foron	Vei30p	ser
+foron	Vei30pser	ser
 adestrados	V0p0mp	adestrar
 "	Q"	"
 para	P	para
@@ -192298,7 +192298,7 @@ que	Cs	que
 a	Ddfs	o
 depresión	Scfs	depresión
 se	Rao3aa	se
-fora	Ves30s	ir
+fora	Ves30sir	ir
 desprazando	V0x000	desprazar
 cara a	Lp0	cara a
 o	Ddms	o
@@ -192456,7 +192456,7 @@ sismo	Scms	sismo
 o	Ddms	o
 lume	Scms	lume
 olímpico	A0ms	olímpico
-foi	Vei30s	ser
+foi	Vei30sser	ser
 recibido	V0p0ms	recibir
 en	P	en
 Mianyang	Sp00	Mianyang
@@ -192487,7 +192487,7 @@ Estadio de Jiuzhou	Spms	Estadio de Jiuzhou
 que	Tnms	que
 durante	P	durante
 semanas	Scfp	semana
-foi	Vei30s	ser
+foi	Vei30sser	ser
 improvisado	A0ms	improvisado
 centro	Scms	centro
 de	P	de
@@ -192588,7 +192588,7 @@ de	P	de
 os	Ddmp	o
 185	Ncdmp	185
 remudistas	Scmp	remudista
-foi	Vei30s	ser
+foi	Vei30sser	ser
 Pu Guoqiang	Spm0	Pu Guoqiang
 ,	Q,	,
 que	Tnms	que
@@ -192765,7 +192765,7 @@ o	Ddms	o
 pasado	A0ms	pasado
 sábado	Scms	sábado
 aparentemente	Wn	aparentemente
-foi	Vei30s	ser
+foi	Vei30sser	ser
 múltiple	A0ms	múltiple
 ,	Q,	,
 por	P	por
@@ -192844,7 +192844,7 @@ hoxe	Wn	hoxe
 por	P	por
 onte	Wn	onte
 )	Q)	)
-foi	Vei30s	ser
+foi	Vei30sser	ser
 evacuado	V0p0ms	evacuar
 en	P	en
 helicóptero	Scms	helicóptero
@@ -194676,7 +194676,7 @@ fracasado	V0p0ms	fracasar
 porque	Cs	porque
 o	Ddms	o
 proceso	Scms	proceso
-foi	Vei30s	ser
+foi	Vei30sser	ser
 máis	Wm	máis
 rápido	A0ms	rápido
 en	P	en
@@ -195068,7 +195068,7 @@ público	A0ms	público
 
 este	Edms	este
 grupo	Scms	grupo
-foi	Vei30s	ser
+foi	Vei30sser	ser
 fundado	V0p0ms	fundar
 por	P	por
 estes	Edmp	este
@@ -195262,7 +195262,7 @@ en	P	en
 condicións	Scfp	condición
 adversas	A0fp	adverso
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 capaz	A0ms	capaz
 de	P	de
 crear	V0f000	crear
@@ -195712,7 +195712,7 @@ por	P	por
 todas	Idfp	todo
 estas	Edfp	este
 razóns	Scfp	razón
-foi	Vei30s	ser
+foi	Vei30sser	ser
 por	P	por
 las	Ddfp	o
 que	Tnfp	que
@@ -197065,7 +197065,7 @@ o	Ddms	o
 feito	Scms	feito
 de	P	de
 que	Cs	que
-fose	Ves30s	ser
+fose	Ves30sser	ser
 precisamente	Wn	precisamente
 en	P	en
 o	Ddms	o
@@ -198118,7 +198118,7 @@ con	P	con
 a	Ddfs	o
 loita	Scfs	loita
 armada	A0fs	armado
-foi	Vei30s	ser
+foi	Vei30sser	ser
 utilizada	V0p0fs	utilizar
 tamén	Wn	tamén
 por	P	por
@@ -198440,7 +198440,7 @@ proceso	Scms	proceso
 e	Cc	e
 sexa	Vps30s	ser
 cal	Tnfs	cal
-for	Vfs30s	ser
+for	Vfs30sser	ser
 a	Ddfs	o
 fórmula	Scfs	fórmula
 final	A0fs	final
@@ -198487,7 +198487,7 @@ de	P	de
 ,	Q,	,
 pero	Cs	pero
 finalmente	Wn	finalmente
-foron	Vei30p	ser
+foron	Vei30pser	ser
 admitidas	V0p0fp	admitir
 12	Ncnfp	12
 ,	Q,	,
@@ -198559,7 +198559,7 @@ e	Cc	e
 dixesen	Ves30p	dicir
 que	Cs	que
 non	Wn	non
-fun	Vei10s	ser
+fun	Vei10sser	ser
 un	Dims	un
 bo	A0ms	bo
 presidente	Scms	presidente
@@ -198620,7 +198620,7 @@ en	P	en
 unha	Difs	un
 primeira	Nodfs	primeiro
 fase	Scfs	fase
-foron	Vei30p	ser
+foron	Vei30pser	ser
 seleccionados	V0p0mp	seleccionar
 15	Ncdmp	15
 expedientes	Scmp	expediente
@@ -199785,7 +199785,7 @@ Hernández Cochón	Sp00	Hernández Cochón
 ,	Q,	,
 explique	Vps30s	explicar
 cáles	Gnfp	cal
-foron	Vei30p	ser
+foron	Vei30pser	ser
 as	Ddfp	o
 causas	Scfp	causa
 e	Cc	e
@@ -201077,7 +201077,7 @@ padres	Scmp	padre
 e	Cc	e
 sus	Md3smp	su
 padres	Scmp	padre
-fomos	Vei10p	ir
+fomos	Vei10pir	ir
 unha	Difs	un
 vez	Scfs	vez
 ver	V0f000	ver
@@ -201813,7 +201813,7 @@ de	P	de
 os	Ddmp	o
 universos	Scmp	universo
 que	Tnmp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 seus	Mn3smp	seu
 .	Q.	.
 
@@ -201890,7 +201890,7 @@ e	Cc	e
 os	Ddmp	o
 de	P	de
 Lugo	Sp00	Lugo
-foron	Vei30p	ser
+foron	Vei30pser	ser
 os	Ddmp	o
 primeiros	Nonmp	primeiro
 en	P	en
@@ -202181,7 +202181,7 @@ soa	A0fs	só
 .	Q.	.
 
 Ivina	Spf0	Ivina
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 outro	Idms	outro
 home	Scms	home
@@ -202210,7 +202210,7 @@ partido	Scms	partido
 .	Q.	.
 
 a a fin	La0	a a fin
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ela	Rtn3fs	el
 a	Ddfs	o
 que	Tnfs	que
@@ -203005,7 +203005,7 @@ a	Ddfs	o
 súa	Mn3pfs	seu
 .	Q.	.
 
-fun	Vei10s	ir
+fun	Vei10sir	ir
 a	P	a
 o	Ddms	o
 parque	Scms	parque
@@ -203141,7 +203141,7 @@ fortuna	Scfs	fortuna
 ,	Q,	,
 quenquera	Inaa	quenquera
 que	Tnaa	que
-fose	Ves30s	ser
+fose	Ves30sser	ser
 pasara	Vli30s	pasar
 de	P	de
 largo	Scms	largo
@@ -203545,7 +203545,7 @@ policía	Scms	policía
 
 realmente	Wn	realmente
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 milagre	Scms	milagre
 ,	Q,	,
@@ -203726,7 +203726,7 @@ metades	Vps20p	meter
 .	Q.	.
 
 iso	Enns	ese
-foi	Vei30s	ser
+foi	Vei30sser	ser
 por	P	por
 fixer	Vfsa0s	facer
 todo	Idms	todo
@@ -203965,7 +203965,7 @@ as	Ddfp	o
 medidas	Scfp	medida
 a	P	a
 tomar	V0f000	tomar
-foran	Ves30p	ser
+foran	Ves30pser	ser
 xa	Wn	xa
 as	Ddfp	o
 tan	Wm	tanto
@@ -204055,7 +204055,7 @@ agradecida	A0fs	agradecido
 
 só	Wn	só
 se	Cs	se
-foras	Ves20s	ser
+foras	Ves20sser	ser
 radiotelegrafista	Scas	radiotelegrafista
 ,	Q,	,
 médico	Scms	médico
