@@ -492,7 +492,7 @@ module LemmatizerGalicianXiada
   def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
     if original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part unless new_left_part =~ /^autoauto/
+      return new_left_part unless new_left_part =~ /^autor?auto/
     end
     left_part
   end
@@ -501,7 +501,7 @@ module LemmatizerGalicianXiada
   def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
     if original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part  unless new_left_part =~ /^autoauto/
+      return new_left_part  unless new_left_part =~ /^autor?auto/
     end
     left_part
   end
@@ -511,7 +511,7 @@ module LemmatizerGalicianXiada
   def set_tilde(word, position)
     characters = word.each_grapheme_cluster.to_a
     vowel_positions = characters.each_with_index
-                                .select { |c, _| %w[a e i o u].include?(c) }
+                                .select { |c, _| %w[a e i o u á é í ó ú].include?(c) }
                                 .map(&:last)
     if position <= vowel_positions.size
       vowel_index = vowel_positions[-position]
