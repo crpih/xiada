@@ -480,10 +480,10 @@ module LemmatizerGalicianXiada
     # auto treatment
     elsif original_left_part =~/^autorr/
       new_left_part = left_part.gsub(/^(.)/,'autor\1')
-      return new_left_part unless new_left_part =~ /^autoauto/
+      return new_left_part unless new_left_part =~ /^autor?auto/
     elsif original_left_part =~/^(auto-?)/
       new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part unless new_left_part =~ /^autoauto/
+      return new_left_part unless new_left_part =~ /^autor?auto/
     end
     left_part
   end
