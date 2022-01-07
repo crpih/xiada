@@ -5,8 +5,7 @@ module LemmatizerGalicianXiada
 
   def lemmatize(word, tags)
     # mente suffix treatment
-    #return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
-    return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, "") if word =~ /mente$/
+    return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
     # ísimo/a/os/as suffix treatment
     # amabilísimo => amable
@@ -116,8 +115,7 @@ module LemmatizerGalicianXiada
       result = @dw.get_emissions_info(new_word, ['A*','S*','W*', 'V*'])
       unless result.empty?
         result = replace_lemmas(result, "^(.)", 'auto-\1')
-        # result = replace_hiperlemmas(result, "^(.)", 'auto-\1')
-        result = replace_hiperlemmas(result, nil, "")
+        result = replace_hiperlemmas(result, "^(.)", 'auto-\1')
         return result
       end
     elsif word =~/^auto/
@@ -134,14 +132,12 @@ module LemmatizerGalicianXiada
       if double_r
         unless result.empty?
           result = replace_lemmas(result, "^(.)", 'autor\1')
-          # result = replace_hiperlemmas(result, "^(.)", 'autor\1')
-          result = replace_hiperlemmas(result, nil, "")
+          result = replace_hiperlemmas(result, "^(.)", 'autor\1')
         end
       else
         unless result.empty?
           result = replace_lemmas(result, "^(.)", 'auto\1')
-          # result = replace_hiperlemmas(result, "^(.)", 'auto\1')
-          result = replace_hiperlemmas(result, nil, "")
+          result = replace_hiperlemmas(result, "^(.)", 'auto\1')
         end
       end
       return result unless result.empty?
