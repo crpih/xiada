@@ -81,7 +81,7 @@ class Viterbi
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
             result = result + "\t#{lemma}"
-            result = result + "/#{hiperlemma}" if hiperlemma != lemma
+            result = result + "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
           end
           result = result + "\t\t"
         end
