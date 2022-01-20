@@ -17,9 +17,9 @@ class EncliticsProcessorCustom
       tag_value = info[0]
       lemma = info[1]
       hiperlemma = info[2]
-      results = @dw.get_recovery_info(tag_value, lemma, true)
+      results = @dw.get_recovery_info(verb_part, tag_value, lemma, true)
       if results.empty?
-        results = @dw.get_recovery_info(tag_value, lemma, false)
+        results = @dw.get_recovery_info(verb_part, tag_value, lemma, false)
       end
       if results.empty?
         STDERR.puts "WARNING: Reverse info for tag:#{tag_value} and lemma:#{lemma} not found. Searching for verb_part: #{verb_part}"

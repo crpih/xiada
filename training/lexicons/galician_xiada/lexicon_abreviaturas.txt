@@ -1,3 +1,21 @@
+1.ª	Zafs	1.º	1.º
+1ª	Zafs	1º	1.º
+1.º	Zams	1.º	1.º
+1º	Zams	1º	1.º
+2.ª	Zafs	2.º	2.º
+2ª	Zafs	2º	2.º
+2.º	Zams	2.º	2.º
+2º	Zams	2º	2.º
+3.ª	Zafs	3.º	3.º
+3ª	Zafs	3º	3.º
+3.º	Zams	3.º	3.º
+3º	Zams	3º	3.º
+4.ª	Zafs	4.º	4.º
+4ª	Zafs	4º	4.º
+4.º	Zams	4.º	4.º
+4º	Zams	4º	4.º
+5.ª	Zafs	5.º	5.º
+5ª	Zafs	5º	5.º
 AA. EE.	Za00	AA. EE.	
 AA. PP.	Za00	AA. PP.	
 AA. VV.	Za00	AA. VV.	
@@ -120,7 +138,8 @@ c/c	Za00	c/c
 célt.	Za00	célt.	
 cents	Zamp	cent	cént.
 cént.	Za00	cént.	
-cfr.	Za00	cfr.	
+cfr.	Za00	cfr.	cfr.
+Cfr.	Za00	cfr.	cfr.
 cf.	Za00	cf.	
 C. F.	Za00	C. F.	
 ch/	Za00	ch/	
@@ -471,7 +490,6 @@ mil.	Za00	mil.
 Mil.	Za00	Mil.	
 Miner.	Za00	Miner.	
 minist.	Za00	minist.	
-min.	Za00	min.	
 mín.	Za00	mín.	
 M. I. Sra.	Zafs	M. I. Sr.	
 M. I. Sr.	Zams	M. I. Sr.	
@@ -524,6 +542,7 @@ Oceanog.	Za00	Oceanog.
 o. cit.	Za00	o. cit.	
 o. c.	Za00	o. c.	
 O. C.	Za00	O. C.	
+o.c.	Za00	o.c.	o. c.
 Odont.	Za00	Odont.	
 Oftal.	Za00	Oftal.	
 Oft.	Za00	Oft.	
@@ -534,7 +553,8 @@ OO. AA.CC.	Za00	OO. AA.CC.
 OO. AA.	Za00	OO. AA.	
 OO. MM.	Zafp	O. M.	
 OO. PP.	Za00	OO. PP.	
-op. cit.	Za00	op. cit.	
+op. cit.	Za00	op. cit.	op. cit.
+Op. cit.	Za00	op. cit.	op. cit.
 Ópt.	Za00	Ópt.	
 opúsc.	Za00	opúsc.	
 o. p.	Za00	o. p.	
@@ -588,6 +608,7 @@ p/o	Za00	p/o
 p. o.	Za00	p. o.	
 P. O.	Za00	P. O.	
 ppal.	Za00	ppal.	
+ppmm	Zafp	ppmm	
 p. p.	Za00	p. p.	
 P. P.	Za00	P. P.	
 pp.	Zafp	p.	

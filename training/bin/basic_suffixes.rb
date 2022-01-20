@@ -17,7 +17,7 @@ class BasicSuffixes
     @tags_freqs = Array.new(@max_suffix_length) {Hash.new}
     @tags_info = tags_info
     # STDERR.puts "tags_info: #{@tags_info}"
-    @proper_noun_or_closed_regexp = proper_noun_or_closed_regexp
+    @proper_noun_or_scientific_or_closed_regexp = proper_noun_or_scientific_or_closed_regexp
   end
   
   def calculate_frequencies
@@ -69,8 +69,8 @@ class BasicSuffixes
   private
   
   def add_word(word, tag, freq)
-    # STDERR.puts "add_word(word, tag, freq): (#{word},#{tag},#{freq}) proper_noun_or_closed?:#{proper_noun_or_closed?(tag)}"
-    unless proper_noun_or_closed?(tag)
+    # STDERR.puts "add_word(word, tag, freq): (#{word},#{tag},#{freq}) proper_noun_or_scientific_or_closed?:#{proper_noun_or_scientific_or_closed?(tag)}"
+    unless proper_noun_or_scientific_or_closed?(tag)
       max_length = @max_suffix_length
       max_length = word.length-1 if (word.length-1) < @max_suffix_length
       (1..max_length).each do |suffix_length|
@@ -98,15 +98,22 @@ class BasicSuffixes
   end
   
   # Proper nouns are not good candidates for suffixes: "Ministro de Facenda"
-  def proper_noun_or_closed?(tag)
-    # STDERR.puts "tag:#{tag}, @proper_noun_or_closed_regexp:#{@proper_noun_or_closed_regexp}"
-    result = tag=~/#{@proper_noun_or_closed_regexp}/
+  def proper_noun_or_scientific_or_closed?(tag)
+    # STDERR.puts "tag:#{tag}, @proper_noun_or_scientific_or_closed_regexp:#{@proper_noun_or_scientific_or_closed_regexp}"
+    result = tag=~/#{@proper_noun_or_scientific_or_closed_regexp}/
     return result
   end
   
-  def proper_noun_or_closed_regexp
+  def proper_noun_or_scientific_or_closed_regexp
     regexp = nil
     @tags_info["proper_noun"].each do |category|
+      if regexp == nil
+        regexp = "^#{category}"
+      else
+        regexp << "|^" << category
+      end
+    end
+    @tags_info["scientific"].each do |category|
       if regexp == nil
         regexp = "^#{category}"
       else

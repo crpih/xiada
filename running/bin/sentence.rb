@@ -102,19 +102,18 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
-    # STDERR.puts "\n\n(tokenize) tokens_aux0:#{tokens}"
+    #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
     tokens.each_index do |index|
       token = tokens[index]
-      # STDERR.puts "token_src: #{token}"
+      # STDERR.puts "token_src: #{token} index:#{index}"
       # identifiers at the beginning of the sentence
-      if index == 0 and token =~ /[0-9A-Za-z]+\)/
+      if index == 0 and token =~ /^[0-9A-Za-z]+\)/
         tokens_new << token
         # if a number ends with dot or comma, we separate this dot in a new token.
         # it occurs in identifiers at the begining of the sentence
       elsif token =~ /^(\(?)([0-9]+[\.,\/:'][0-9]+%?)(\)?)([\.,])$/ or token =~ /^(\(?)([0-9]+%?)(\)?)([\.,])$/
-        #STDruby xiERR.puts "inside0"
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
@@ -122,36 +121,27 @@ class Sentence
         # STDERR.puts "tokens_new: #{tokens_new}"
         #STDERR.puts "inside1"
         # URIS treatment
-      elsif token =~ /http:\/\//
-        if token =~ /(.*)([\.,\('])/
-          tokens_new << $1
-          tokens_new << $2
-        else
-          tokens_new << token
-        end
-        # We separate "(" and ")" when it's not inside a word nor as part of an identifier (and also apply the next rule if the word ends with ",",":" or "'")
-        # ' character inside word or number must not be segmented.
-      elsif token != "" and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
-            token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
-        # STDERR.puts "inside1"
-        #STDERR.puts "tokens_new_prev: #{tokens_new}"
-        if token =~ /^-/ # if it start with hyphen we segment also the hyphen
-          tokens_aux = token.split(/([-\(\),:'])/)
-        else
-          tokens_aux = token.split(/([\(\),:'])/)
-        end
+      elsif token =~ /(^https?:\/\/.+)(\.)?/
+          tokens_new << $1 if $1 and $1 != ""
+          tokens_new << $2 if $2 and $2 != ""
+      # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
+      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñàèìòùäëïöüçâêîôûãõA-ZÑÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÇÂÊÎÔÛ0-9<\/>\+\-=º@.]+)([']?)([,:\-\)]?)$/
+        tokens_new << $1 if $1 and $1 != ""
+        tokens_new << $2 if $2 and $2 != ""
+        tokens_new << $3 if $3 and $3 != ""
+        tokens_new << $4 if $4 and $4 != ""
+      # We separate ,:'-) from numbers at the end of any word
+      elsif token != "" and token =~ /^([\(]?)([\-]?[0-9]+[,\.]?[0-9+]?)([,:'\-\)]?)$/
+        tokens_new << $1 if $1 and $1 != ""
+        tokens_new << $2 if $2 and $2 != ""
+        tokens_new << $3 if $3 and $3 != ""
+      # Split parents
+      elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
+        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
+        tokens_aux = token.split(/ |([\(\)])/)
         tokens_aux.each do |token_aux|
           tokens_new << token_aux if token_aux != ""
         end
-        # STDERR.puts "tokens_new: #{tokens_new}"
-        # We separate ",", ":" e "'" from not numeric words and simbols at the end of any word/number.
-      elsif token != "" and (token =~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ]+[,:']$/ or token =~ /[,:']$/)
-        # STDERR.puts "inside2"
-        tokens_aux = token.split(/([,:'])/)
-        tokens_aux.each do |token_aux|
-          tokens_new << token_aux if token_aux != ""
-        end
-        # STDERR.puts "tokens_new: #{tokens_new}"
       elsif token != ""
         # STDERR.puts "inside3"
         tokens_new << token
@@ -159,19 +149,19 @@ class Sentence
     end
     tokens = tokens_new
 
-    # STDERR.puts "(tokenize) tokens_aux1:#{tokens}"
+    #STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
     index = 0
     while (index < tokens.size)
       token = tokens[index]
-      if token =~ /[0-9]+/ and (index < tokens.size)
+      if token =~ /^[0-9]+$/ and (index < tokens.size)
         new_token = token
         new_full_token = "#{new_token}"
         new_index = index + 1
         new_token = tokens[new_index]
-        while new_token =~ /[0-9]+/ and (new_index < tokens.size)
+        while new_token =~ /^[0-9]+$/ and (new_index < tokens.size)
           new_full_token << " #{new_token}"
           new_index = new_index + 1
           new_token = tokens[new_index] if (new_index < tokens.size)
@@ -194,7 +184,7 @@ class Sentence
       tokens = restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
     end
     # STDERR.puts "token.size: #{tokens.size}"
-    # STDERR.puts "(tokenize) tokens:#{tokens}"
+    # STDERR.puts "(tokenize) tokens (final):#{tokens}"
 
     return tokens
   end
@@ -289,8 +279,8 @@ class Sentence
       offset = 0
       from = 0
       tokens.each do |token_text|
-        # STDERR.puts "text: #{text}"
-        # STDERR.puts "token_text: #{token_text}"
+        #STDERR.puts "text: #{text}"
+        #STDERR.puts "token_text: #{token_text}"
         from = text.index(token_text, offset)
         to = from + token_text.length - 1
         token = Token.new(self.text, String.new(token_text), :standard, from + @current_text_offset, to + @current_text_offset)
@@ -366,7 +356,7 @@ class Sentence
       # or it is included in the lexicon to build the alternatives.
 
       if last_token.text =~ /\.$/ and (@acronyms[last_token.text] != nil or @abbreviations[last_token.text] != nil)
-        #STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
+        # STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
         last_token_without_end_point = last_token.text.gsub(/\.$/, "")
         result = @dw.get_emissions_info(last_token_without_end_point, nil)
         lexicon_not_abbreviation = false
@@ -581,6 +571,7 @@ class Sentence
   private
 
   def print_recursive(fd, token, way, ways)
+    return nil unless token
     if token.token_type == :standard
       print_token(fd, token)
       print_recursive(fd, token.next, way, ways)
@@ -639,6 +630,7 @@ class Sentence
   end
 
   def print_token(fd, token)
+    return nil unless token
     if token.token_type == :standard
       text = token.text
       text = "nil" if text == nil
@@ -652,6 +644,7 @@ class Sentence
         end
         tag_object.deltas.each do |prev_tag, delta|
           fd.puts "\t\tdelta=#{delta.value}, prev_tag=#{prev_tag}"
+          fd.puts "\t\tdelta.normalized=#{delta.normalized_value}, prev_tag=#{prev_tag}"
         end
       end
       unless token.nexts_ignored.empty?
@@ -670,7 +663,7 @@ class Sentence
       end
       fd.puts ""
     elsif token.token_type == :begin_alternative
-      fd.puts "<alternatives>"
+      fd.puts "<alternatives> nexts:#{token.nexts.size}"
     elsif token.token_type == :end_alternative
       unless token.nexts_ignored.empty?
         fd.print "ignored tokens (end_alternative):\n"
@@ -682,7 +675,7 @@ class Sentence
           fd.puts ""
         end
       end
-      fd.puts "</alternatives>"
+      fd.puts "</alternatives> prevs:#{token.prevs.size}"
     elsif token.token_type == :begin_sentence
       fd.puts "<sentence>"
       unless token.nexts_ignored.empty?
@@ -719,9 +712,34 @@ class Sentence
     while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
       token = token.next
     end
-    # STDERR.puts "first token: #{token.text}"
-    token.replace_text(StringUtils.first_to_lower(token.text)) if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
-    # STDERR.puts "first token after first_to_lower: #{token.text}"
+    #STDERR.puts "first token: #{token.text}"
+    #if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
+    #  (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil) and
+    #  !first_words_in_lexicon))
+    if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
+      (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
+      token.replace_text(StringUtils.first_to_lower(token.text)) 
+    end
+    #STDERR.puts "first token after first_to_lower: #{token.text}"
+  end
+
+  def first_words_in_lexicon
+    token = @first_token.next
+    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+      token = token.next
+    end
+    text_to_search = ""
+    word_counter = 1
+    while (token.token_type == :standard) and word_counter < 5
+      text_to_search << "#{token.text}"
+      result = @dw.get_emissions_info(text_to_search, nil)
+      #STDERR.puts "result:#{result}"
+      return true unless result.empty?
+      text_to_search << " "
+      token = token.next
+      word_counter = word_counter + 1
+    end
+    return false
   end
 
   def min_length

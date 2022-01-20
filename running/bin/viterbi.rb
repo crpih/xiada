@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 require_relative "../#{ENV["XIADA_PROFILE"]}/pruning_system.rb"
 require_relative "../../lib/string_utils.rb"
-require_relative "../bin/lemmatizer.rb"
 
 class Viterbi
   EMPTY_TAG = "###"
@@ -13,12 +12,6 @@ class Viterbi
     @tags = nil
     @pruning_system = PruningSystem.new
     @without_suffixes_words = Hash.new
-    xiada_profile = ENV["XIADA_PROFILE"]
-    @lemmatizer = Lemmatizer.new(@dw)
-    case xiada_profile
-    when "spanish_eslora"
-      @lemmatizer.extend(LemmatizerSpanishEslora)
-    end
   end
 
   def run(sentence)
@@ -29,6 +22,7 @@ class Viterbi
       # sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
+      #sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
@@ -60,10 +54,9 @@ class Viterbi
         if tag.token.token_type == :standard
           print "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            lemma = @lemmatizer.lemmatize(tag.token.text, tag.value, nil)
-            print "\t#{lemma}"
+            print "\t*"
           else
-            print "\t#{tag.lemmas.keys[0]}"
+            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys]}"
           end
           puts ""
         end
@@ -83,13 +76,12 @@ class Viterbi
         if tag.token.token_type == :standard
           result = result + "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            lemma = @lemmatizer.lemmatize(tag.token.text, tag.value, nil)
-            result = result + "\t#{lemma}"
+            result = result + "\t*"
           else
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
             result = result + "\t#{lemma}"
-            result = result + "/#{hiperlemma}" if hiperlemma != lemma
+            result = result + "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
           end
           result = result + "\t\t"
         end
@@ -191,6 +183,7 @@ class Viterbi
     #STDERR.puts "\ninitialization of token:#{token.text} type:#{token.token_type} from_viterbi:#{token.from_viterbi} tagged:#{token.tagged}"
     if token != nil
       if token.token_type == :standard
+        #STDERR.puts "without_suffixes_words: #{@without_suffixes_words}"
         unless @without_suffixes_words[String.new(token.text)]
           #STDERR.puts "entra"
           results = @dw.get_tags_lemmas_emissions(token.text, token.tags.keys)
@@ -242,12 +235,12 @@ class Viterbi
 
   def recurrence_step_token(token)
     if token != nil
-      # STDERR.puts "\nrecurrence_token: #{token.text} token_type:#{token.token_type}"
+      #STDERR.puts "\nrecurrence_token: #{token.text} token_type:#{token.token_type}"
       if (token.token_type == :standard) or (token.token_type == :end_sentence)
 
-        #puts "\nEVALUATING TOKEN:#{token.text} token_object:#{token}"
+        #STDERR.puts "\nEVALUATING TOKEN:#{token.text} token_object:#{token}"
         token.tags.values.each do |tag|
-          #puts "\nEvaluating tag:#{tag.value} tag_object:#{tag}"
+          #STDERR.puts "Evaluating tag:#{tag.value} tag_object:#{tag}"
           #deltas_aux = Hash.new
           deltas = Hash.new
           prev_tokens = prev_tokens_calculation(token)
@@ -279,7 +272,7 @@ class Viterbi
                                                               prev_tag.value,
                                                               tag.value)
                   #puts "calculating trigram: #{prev_prev_tag.value} #{prev_tag.value} #{tag.value}"
-                  normalized_current_delta = current_delta / (length + 1)
+                  normalized_current_delta = current_delta / Math.log(length + 1)
                   #puts "trigram:#{prev_prev_tag.value},#{prev_tag.value},#{tag.value}"
                   #puts "probability:#{@dw.get_trigram_probability(prev_prev_tag.value,prev_tag.value,tag.value)}"
                   #puts "deltas_aux[#{length}]=#{deltas_aux[length]} prev_delta:#{prev_delta.value}"
@@ -863,14 +856,12 @@ class Viterbi
         print " #{valid_attr}=\"#{positive_valid_value}\"" if tag_object.selected?
         puts ">"
         puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
-        lemma = @lemmatizer.lemmatize(token.text, tag, nil)
-        puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-        puts "<#{hiperlemma_tag}>#{lemma}</#{hiperlemma_tag}>" if hiperlemma_tag
+        puts "<#{lemma_tag}>*</#{lemma_tag}>"
+        puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
         puts "</#{tag_lemma_tag}>"
       else
         one_valid = false
         tag_object.lemmas.keys.each do |lemma|
-          lemma = @lemmatizer.lemmatize(token.text, tag, lemma)
           print "<#{tag_lemma_tag}"
           if tag_object.selected? and !one_valid
             one_valid = true
@@ -908,12 +899,10 @@ class Viterbi
         one_valid = true
         puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
         if tag_object.lemmas.empty?
-          lemma = @lemmatizer.lemmatize(token.text, tag, nil)
-          puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-          puts "<#{hiperlemma_tag}>#{lemma}</#{hiperlemma_tag}>" if hiperlemma_tag
+          puts "<#{lemma_tag}>*</#{lemma_tag}>"
+          puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
         else
           tag_object.lemmas.keys.each do |lemma|
-            lemma = @lemmatizer.lemmatize(token.text, tag, lemma)
             if token.chunk_entity_exclude_transform
               puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
               puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag

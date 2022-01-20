@@ -2,6 +2,7 @@
 
 module EncliticsProcessorCustomGalicianXiada
   def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
+    #STDERR.puts "verb_part: #{verb_part}"
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
     infos = @dw.get_enclitic_verb_roots_info(verb_part, verb_tags.split(" "))
@@ -10,9 +11,9 @@ module EncliticsProcessorCustomGalicianXiada
       lemma = info[1]
       hiperlemma = info[2]
       extra = info[3]
-      results = @dw.get_recovery_info(tag_value, lemma, true)
+      results = @dw.get_recovery_info(verb_part, tag_value, lemma, true)
       if results.empty?
-        results = @dw.get_recovery_info(tag_value, lemma, false)
+        results = @dw.get_recovery_info(verb_part, tag_value, lemma, false)
       end
       if results.empty?
         STDERR.puts "WARNING: Reverse info for tag:#{tag_value} and lemma:#{lemma} not found. Searching for verb_part: #{verb_part}"
@@ -22,7 +23,7 @@ module EncliticsProcessorCustomGalicianXiada
       final_recovery_tag = String.new(tag_value)
       final_recovery_lemma = String.new(lemma)
       final_recovery_hiperlemma = String.new(hiperlemma)
-      final_recovery_log_b = -100 # To be changed ???
+      final_recovery_log_b = -100 # To be changed ??? TODO
       # STDERR.puts "results.size: #{results.size}"
       results.each do |result|
         recovery_word = result[0]
@@ -58,10 +59,10 @@ module EncliticsProcessorCustomGalicianXiada
         new_token = Token.new(@sentence.text, final_recovery_word, :standard, token_from, token_to)
         new_token.qualifying_info = token.qualifying_info.clone
         final_recovery_words[final_recovery_word] = new_token
-        begin_alternative_token.add_next(new_token)
-        new_token.add_prev(begin_alternative_token)
-        new_token.add_next(end_alternative_token)
-        end_alternative_token.add_prev(new_token)
+        #begin_alternative_token.add_next(new_token)
+        #new_token.add_prev(begin_alternative_token)
+        #new_token.add_next(end_alternative_token)
+        #end_alternative_token.add_prev(new_token)
         relevant_tokens << new_token
       end
       final_recovery_words[final_recovery_word].add_tag_lemma_emission(final_recovery_tag, final_recovery_lemma, final_recovery_hiperlemma, final_recovery_log_b, false)
@@ -148,6 +149,24 @@ module EncliticsProcessorCustomGalicianXiada
 
     if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and enclitic_syllables_length > 1 and extra =~ /Vc3/
       return recovery_word.gsub(/íu$/, "iu")
+    end
+
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación non é o Vic5b nin o Vic7a, e se na parte dereita hai 2 ou máis clíticos silábicos, reconstrúe a forma verbal para -iu. Isto reconstruirá "abríuno-la" para "abriu" pero mantería “saíu” ou “incluíu”, respectivamente, para “saíucheme” ou “incluíuselle”.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and enclitic_syllables_length > 1 and extra !~ /Vic5/ and extra !~ /Vic7a/
+      return recovery_word.gsub(/íu$/, "iu")
+    end
+
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación non é o Vic5b nin o Vic7a, e se na parte dereita hai 1 ou 2 clíticos pero que constitúen unha única sílaba, reconstrúe a forma verbal para -íu. Isto reconstruiría "abríulle" para "abríu", o que sería o correcto atendendo ó que está no texto, pero mantería “saíu” ou “incluíu”, respectivamente, para “saíume” ou “incluíuse”.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and enclitic_syllables_length == 1 and extra !~ /Vic5b/ and extra !~ /Vic7a/
+      return recovery_word.gsub(/iu$/, "íu")
+    end
+
+    # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo, remata en -íu e a etiqueta é de 3a persoa singular do pretérito de indicativo (Vei30s), se o grupo de derivación é o Vic5b ou o Vic7a, e se na parte dereita hai algún clítico ou segunda forma do artigo (sexa 1, sexa unha contracción silábica ou sexan 2 ou máis clíticos silábicos), reconstrúe a forma verbal para -íu. Isto reconstruirá "saíucheme", “incluíuselle”, "saíulle" e “incluíuse” para “saíu” e “incluíu”, respectivamente.
+
+    if verb_part =~ /íu$/ and tag_value =~ /Vei30s/ and (extra =~ /Vic5b/ or extra =~/Vic7a/)
+      return recovery_word.gsub(/iu$/, "íu")
     end
 
     return recovery_word

@@ -302,19 +302,19 @@
       </condition>
     </condition>
   </rule>
-  <rule>
+<!--  <rule>
     <condition>
       <target>verb_part</target>
       <content>
         <evaluation at="end">íu</evaluation>
       </content>
-      <!-- Excepciones grupo Vic5b -->
+      Excepciones grupo Vic5b
       <condition>
         <target>verb_part</target>
         <content>
           <evaluation at="all">NOT desoíu AND NOT entreoíu AND NOT esvaíu AND NOT oíu AND NOT saíu AND NOT sobresaíu</evaluation>
         </content>
-        <!-- Excepciones grupo Vic7a -->
+        Excepciones grupo Vic7a
         <condition>
           <target>verb_part</target>
           <content>
@@ -337,6 +337,7 @@
       </condition>
     </condition>
   </rule>
+  -->
   <rule>
     <condition>
       <target>verb_part</target>

@@ -1264,7 +1264,7 @@ sabes	VIP2S	saber
 puedes	VIP2S	poder
 contar	VNP	contar
 adónde	W	adónde
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 el	DAMS	el
 último	AMS	último
 viaje	NCMS	viaje
@@ -2774,7 +2774,7 @@ por	X	por
 sí	PY3ILP	sí
 no	W	no
 ,	Q	,
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 gracias a	X	gracias a
 mí	PY1ESP	mí
 
@@ -3377,7 +3377,7 @@ una	PCFS	uno
 de	X	de
 cada	PBMS	cada
 
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 repartidor	NCMS	repartidor
 y	C	y
 después	W	después
@@ -3398,11 +3398,11 @@ y	C	y
 a	X	a
 qué	DTMS	qué
 colegio	NCMS	colegio
-fuiste	VIS2S	ir
+fuiste	VIS2Sir	ir
 ?	Q	?
 
 ¿	Q	¿
-fuiste	VIS2S	ir
+fuiste	VIS2Sir	ir
 aquí	W	aquí
 en	X	en
 Santiago	NPEL	Santiago
@@ -3412,7 +3412,7 @@ Santiago	NPEL	Santiago
 sí	W	sí
 <pausa/>	ETQ_PAUSA	<pausa/>
 primero	W	primero
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 un	DIMS	un
 par	NCMS	par
 de	X	de
@@ -4715,15 +4715,15 @@ que	PLMS	que
 ¿	Q	¿
 y	C	y
 siempre	W	siempre
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 así	W	así
 ?	Q	?
 ¿	Q	¿
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 peor	W	peor
 ?	Q	?
 ¿	Q	¿
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 de	X	de
 ?	Q	?
 
@@ -9220,7 +9220,7 @@ algún	DNMS	algún
 otro	DNMS	otro
 año	NCMS	año
 que	PLMS	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 eso	PDNS	ese
 estar	VNP	estar
@@ -10257,7 +10257,7 @@ sitios	NCMP	sitio
 a	X	a
 los	DAMP	el
 que	PLMP	que
-fuiste	VIS2S	ir
+fuiste	VIS2Sir	ir
 ¿	Q	¿
 con	X	con
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -10521,7 +10521,7 @@ bastante	W	bastante
 joven	AES	joven
 <pausa/>	ETQ_PAUSA	<pausa/>
 bueno	I	bueno
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 el	DAMS	el
 cuartel	NCMS	cuartel
@@ -10552,7 +10552,7 @@ mi	DS1MS	mi
 mi	DS1MS	mi
 primer	DRMS	primer
 trabajo	NCMS	trabajo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 en	X	en
 una	DIFS	un
 agencia	NCFS	agencia
@@ -10574,7 +10574,7 @@ historia	NCFS	historia
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 después	W	después
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 visitador	NCMS	visitador
 médico	AMS	médico
@@ -11349,7 +11349,7 @@ nada más	W	nada más
 meter	VNP	meter
 nos	PY1EPO	nos
 <pausa/>	ETQ_PAUSA	<pausa/>
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 bueno	I	bueno
 a	X	a
@@ -11394,7 +11394,7 @@ una	DIFS	un
 pizzería	NCFS	pizzería
 
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 nada más	W	nada más
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -11880,7 +11880,7 @@ el	DAMS	el
 lo	DANS	el
 de	X	de
 yo	PY1MSN	yo
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 ya	W	ya
 te	PY2ESO	te
 digo	VIP1S	decir
@@ -11930,7 +11930,7 @@ que	C	que
 <pausa/>	ETQ_PAUSA	<pausa/>
 mi	DS1MS	mi
 padre	NCMS	padre
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 visitador	NCMS	visitador
 médico	AMS	médico
 y	C	y
@@ -12245,7 +12245,7 @@ final	NCMS	final
 mira	VMP2S	mirar
 tú	PY2ESN	tú
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 caer	VNP	caer
 
@@ -12323,7 +12323,7 @@ yo	PY1MSN	yo
 a	X	a
 la	DAFS	el
 mili	NCFS	mili
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 debí	VIS1S	deber
 de	X	de
 ir	VNP	ir
@@ -12337,7 +12337,7 @@ algo	PNNS	algo
 así	W	así
 <pausa/>	ETQ_PAUSA	<pausa/>
 además	W	además
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 voluntario	NCMS	voluntario
 <pausa/>	ETQ_PAUSA	<pausa/>
 tenía	VII1S	tener
@@ -12364,7 +12364,7 @@ aah	I	aah
 
 y	C	y
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 hacer	VNP	hacer
 la	DAFS	el
@@ -12615,7 +12615,7 @@ para	X	para
 ahí	W	ahí
 
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 un	DIMS	un
 malentendido	NCMS	malentendido
 o	C	o
@@ -12647,7 +12647,7 @@ el	DAMS	el
 lado	NCMS	lado
 
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 por	X	por
 eso	PDNS	ese
 por	X	por
@@ -12829,7 +12829,7 @@ sí	W	sí
 he	VIP1S	haber
 estado	VPMS	estar
 ahí	W	ahí
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 ver	VNP	ver
 a	X	a
@@ -12955,7 +12955,7 @@ siempre	W	siempre
 sana	AFS	sano
 porque	C	porque
 yo	PY1ESN	yo
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 deportista	NCES	deportista
 toda	DGFS	todo
 la	DAFS	el
@@ -12991,7 +12991,7 @@ de	X	de
 Telefónica	NPEL	Telefónica
 
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 mucho	W	mucho
 me	PY1ESO	me
 lo	PY3ASW	lo
@@ -13191,7 +13191,7 @@ tranquilamente	W	tranquilamente
 ahora	W	ahora
 no	W	no
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
@@ -13202,7 +13202,7 @@ cosa	NCFS	cosa
 
 resumiendo	VGP	resumir
 así	W	así
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 la	DAFS	el
 <pausa/>	ETQ_PAUSA	<pausa/>
 la	DAFS	el
@@ -13776,7 +13776,7 @@ tenías	VII2S	tener
 porque	C	porque
 yo	PY1ESN	yo
 hasta	W	hasta
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 el	DAMS	el
 colegio	NCMS	colegio
@@ -13784,7 +13784,7 @@ allí	W	allí
 que	C	que
 hoy en día	W	hoy en día
 
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 y	C	y
 empecé	VIS1S	empezar
 a	X	a
@@ -14227,7 +14227,7 @@ la	DAFS	el
 gente	NCFS	gente
 mayor	AFS	mayor
 nosotros	PY1MPQ	nosotros
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 ver	VNP	ver
 los	PY3MPA	lo
@@ -14861,7 +14861,7 @@ más	W	más
 
 y	C	y
 ahí	W	ahí
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 donde	W	donde
 me	PY1ESO	me
 enseñaron	VIS3P	enseñar
@@ -15011,7 +15011,7 @@ años	NCMP	año
 y	C	y
 mmm	I	mmm
 
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 la	DAFS	el
 escuela	NCFS	escuela
@@ -15022,7 +15022,7 @@ Piñeiro	NPEL	Piñeiro
 a	X	a
 qué	DTFS	qué
 edad	NCFS	edad
-fuiste	VIS2S	ir
+fuiste	VIS2Sir	ir
 a	X	a
 la	DAFS	el
 escuela	NCFS	escuela
@@ -15450,11 +15450,11 @@ me	PY1ESO	me
 denunciaron	VIS3P	denunciar
 que	PLMP	que
 me	PY1ESO	me
-fueron	VIS3P	ir
+fueron	VIS3Pir	ir
 a	X	a
 el	DAMS	el
 embargo	NCMS	embargo
-fueron	VIS3P	ser
+fueron	VIS3Pser	ser
 los	DAMP	el
 últimos	AMP	último
 en	X	en
@@ -15616,7 +15616,7 @@ empecé	VIS1S	empezar
 a	X	a
 salir	VNP	salir
 yo	PY1MSN	yo
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 muy	W	mucho
 prematuro	AMS	prematuro
 en	X	en
@@ -15660,7 +15660,7 @@ iba	VII3S	ir
 el	DAMS	el
 baile	NCMS	baile
 siempre	W	siempre
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 un	DIMS	un
 bailarín	NCMS	bailarín
 por	X	por
@@ -15691,7 +15691,7 @@ espalda	NCFS	espalda
 que	C	que
 <pausa/>	ETQ_PAUSA	<pausa/>
 que	C	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 lo	DANS	el
 que	PLNS	que
 te	PY2ESO	te
@@ -15991,7 +15991,7 @@ entonces	W	entonces
 en	X	en
 ese	DDMS	ese
 momento	NCMS	momento
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 haciendo	VGP	hacer
 lo	DANS	el
 que	PLNS	que
@@ -16001,7 +16001,7 @@ pude	VIS1S	poder
 mejorar	VNP	mejorar
 lo	PY3MSW	lo
 lo	PY3MSW	lo
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 mejorar	VNP	mejorar
 
@@ -16027,7 +16027,7 @@ muy	W	mucho
 poquito	DQMS	poco
 tiempo	NCMS	tiempo
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 por	X	por
 el	DAMS	el
@@ -16054,7 +16054,7 @@ por	X	por
 la	DAFS	el
 primera	PRFS	primero
 sí	W	sí
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 joder	I	joder
 
 eso	PDNS	ese
@@ -16064,7 +16064,7 @@ verdad	NCFS	verdad
 
 el	DAMS	el
 segundo	PRMS	segundo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 pues	C	pues
 
 como	W	como
@@ -16986,7 +16986,7 @@ lo	DANS	el
 que	PLNS	que
 se	PY3ESO	se
 hizo	VIS3S	hacer
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 eeh	I	eeh
 <pausa/>	ETQ_PAUSA	<pausa/>
 dar	VNP	dar
@@ -19321,25 +19321,25 @@ eeh	I	eeh
 saliendo	VGP	salir
 de	X	de
 aquí	W	aquí
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 una	DCFS	un
 semana	NCFS	semana
 que	PLFS	que
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 con	X	con
 un	DIMS	un
 amiguete	NCMS	amiguete
 hasta	X	hasta
 Barcelona	NPEL	Barcelona
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 en	X	en
 coche	NCMS	coche
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 una	DCFS	un
 semana	NCFS	semana
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -21301,7 +21301,7 @@ mis	DS1MP	mi
 amigos	NCMP	amigo
 <pausa/>	ETQ_PAUSA	<pausa/>
 no	W	no
-fuimos	VIS1P	ser
+fuimos	VIS1Pser	ser
 conscientes	AMP	consciente
 <pausa/>	ETQ_PAUSA	<pausa/>
 de	X	de
@@ -22273,10 +22273,10 @@ ah	I	ah
 claro	I	claro
 en	X	en
 Semana Santa	NPFS	Semana Santa
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 <pausa/>	ETQ_PAUSA	<pausa/>
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 a	X	a
 Andorra	NPEL	Andorra
@@ -22293,14 +22293,14 @@ eh	I	eh
 para	X	para
 esquiar	VNP	esquiar
 y	C	y
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 esquiar	VNP	esquiar
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 
 y	C	y
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 Andorra	NPEL	Andorra
 sí	W	sí
@@ -22689,14 +22689,14 @@ señor	NCMS	señor
 marchó	VIS3S	marchar
 delante	W	delante
 pero	C	pero
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 detrás	W	detrás
 <pausa/>	ETQ_PAUSA	<pausa/>
 después	W	después
 mi	DS1ES	mi
 y	C	y
 le	PY3ESD	le
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 bien	W	bien
 allá	W	allá
 y	C	y
@@ -22984,7 +22984,7 @@ años	NCMP	año
 hasta	X	hasta
 que	C	que
 se	PY3MSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 mayor	AMS	mayor
 y	C	y
 él	PY3MSQ	él
@@ -23273,7 +23273,7 @@ eh	I	eh
 pff	I	pff
 <pausa/>	ETQ_PAUSA	<pausa/>
 yo	PY1ESN	yo
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 el	DAMS	el
 médico	NCMS	médico
@@ -23607,7 +23607,7 @@ precisamente	W	precisamente
 <pausa/>	ETQ_PAUSA	<pausa/>
 eh	I	eh
 eh	I	eh
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 cuando	W	cuando
 yo	PY1ESN	yo
 vine	VIS1S	venir
@@ -23663,7 +23663,7 @@ gente	NCFS	gente
 y	C	y
 tal	PDIS	tal
 y	C	y
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 
 y	C	y
 la	DAFS	el
@@ -23907,7 +23907,7 @@ todo	DGNS	todo
 lo	DANS	el
 que	PLNS	que
 pusieron	VIS3P	poner
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 por	X	por
 redondeo	NCMS	redondeo
 ahora	W	ahora
@@ -24281,7 +24281,7 @@ digo	VIP1S	decir
 es	VIP3S	ser
 como	W	como
 se	PY3ISO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 perdiendo	VGP	perder
 <pausa/>	ETQ_PAUSA	<pausa/>
 como	W	como
@@ -24766,7 +24766,7 @@ víspera	NCFS	víspera
 inauguración	NCFS	inauguración
 <pausa/>	ETQ_PAUSA	<pausa/>
 que	C	que
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 el	DAMS	el
 alcalde	NCMS	alcalde
 a	X	a
@@ -24829,7 +24829,7 @@ era	VII3S	ser
 era	VII3S	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 primero	W	primero
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 de	X	de
 confección	NCFS	confección
 
@@ -25083,7 +25083,7 @@ mil novecientos cuarenta y cinco	PCMS	mil novecientos cuarenta y cinco
 
 y	C	y
 después	W	después
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 
 bueno	I	bueno
 
@@ -25207,7 +25207,7 @@ que	PLMS	que
 había	VII3S	haber
 
 después	W	después
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 cuando	W	cuando
 
 que	C	que
@@ -25235,7 +25235,7 @@ la	DAFS	el
 primera	DRFS	primer
 bloque	NCMS	bloque
 que	C	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 los	DAMP	el
 pisos	NCMP	piso
 donde	W	donde
@@ -25249,7 +25249,7 @@ y	C	y
 y	C	y
 esta	PDFS	este
 siempre	W	siempre
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 su	DS3FS	su
 casa	NCFS	casa
 entonces	W	entonces
@@ -25331,7 +25331,7 @@ por ejemplo	W	por ejemplo
 
 porque	C	porque
 yo	PY1MSN	yo
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 maestro	AMS	maestro
 de	X	de
 de	X	de
@@ -25339,7 +25339,7 @@ muchas	DQFP	mucho
 o sea	W	o sea
 
 yo	PY1MSN	yo
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 o sea	W	o sea
 aprendiz	NCMS	aprendiz
 también	W	también
@@ -25654,7 +25654,7 @@ que	C	que
 ese	DDMS	ese
 esa	DDFS	ese
 evolución	NCFS	evolución
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 para	X	para
 mejor	W	mejor
 para	X	para
@@ -25721,7 +25721,7 @@ los	DAMP	el
 la	DAFS	el
 evolución	NCFS	evolución
 que	PLFS	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 viniendo	VGP	venir
 
 no	W	no
@@ -25869,7 +25869,7 @@ el	DAMS	el
 el	DAMS	el
 el	DAMS	el
 que	PLMS	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 jefe	NCMS	jefe
 el	DAMS	el
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -26022,7 +26022,7 @@ no	W	no
 el	DAMS	el
 otro	DNMS	otro
 día	NCMS	día
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 
 <pausa/>	ETQ_PAUSA	<pausa/>
 sí	W	sí
@@ -26619,7 +26619,7 @@ a	X	a
 el	DAMS	el
 final	NCMS	final
 quién	PTMS	quién
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 a	X	a
 la	DAFS	el
 mili	NCFS	mili
@@ -28058,7 +28058,7 @@ tal	PDIS	tal
 y	C	y
 fff	I	fff
 no	W	no
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 capaz	AES	capaz
 de	X	de
 terminar	VNP	terminar
@@ -29492,7 +29492,7 @@ sabes	VIP2S	saber
 y	C	y
 creo	VIP1S	creer
 que	C	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 por	X	por
 eso	PDNS	ese
@@ -31890,9 +31890,9 @@ hago	VIP1S	hacer
 
 caray	I	caray
 
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 aun	W	aun
 bajó	VIS3S	bajar
 la	DAFS	el
@@ -33173,7 +33173,7 @@ dos	DCMP	dos
 años	NCMP	año
 porque	C	porque
 eso	PDNS	ese
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 en	X	en
 quinto	PRMS	quinto
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -33798,7 +33798,7 @@ otra	PNFS	otro
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 tercero	PRMS	tercero
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 como	W	como
 el	DAMS	el
 último	AMS	último
@@ -33815,19 +33815,19 @@ las	DAFP	el
 clases	NCFP	clase
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 
 sí	W	sí
 
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 muy	W	mucho
 agradable	AIS	agradable
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 no	W	no
 sé	VIP1S	saber
 
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 muy	W	mucho
 divertido	VPAS	divertir
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -33839,7 +33839,7 @@ excursiones	NCFP	excursión
 ¿	Q	¿
 a	X	a
 dónde	W	dónde
-fuisteis	VIS2P	ir
+fuisteis	VIS2Pir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 por ejemplo	W	por ejemplo
 ?	Q	?
@@ -34408,7 +34408,7 @@ bueno	I	bueno
 <pausa/>	ETQ_PAUSA	<pausa/>
 la	DAFS	el
 coña	NCFS	coña
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 que	C	que
 <pausa/>	ETQ_PAUSA	<pausa/>
 nosotros	PY1MPQ	nosotros
@@ -34587,14 +34587,14 @@ Fontana de Trevi	NPFS	Fontana de Trevi
 y	C	y
 todo	DGNS	todo
 esto	PDNS	este
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 fiu	I	fiu
 hola	I	hola
 ¿	Q	¿
 sabes	VIP2S	saber
 ?	Q	?
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 en plan	W	en plan
 coche	NCMS	coche
 te	PY2ESO	te
@@ -34603,7 +34603,7 @@ digo	VIP1S	decir
 en serio	W	en serio
 
 ah	I	ah
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 el	DAMS	el
 Vaticano	NPMS	Vaticano
@@ -34628,7 +34628,7 @@ porque	C	porque
 a	X	a
 el	DAMS	el
 Coliseo	NPMS	Coliseo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 por	X	por
 la	DAFS	el
 tarde	NCFS	tarde
@@ -34642,7 +34642,7 @@ por	X	por
 la	DAFS	el
 mañana	NCMS	mañana
 ?	Q	?
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 el	DAMS	el
 Vaticano	NPMS	Vaticano
@@ -34865,7 +34865,7 @@ ahí	W	ahí
 
 nosotros	PY1MPQ	nosotros
 siempre	W	siempre
-fuimos	VIS1P	ser
+fuimos	VIS1Pser	ser
 pandilla	NCFS	pandilla
 de	X	de
 chicas	NCFP	chico
@@ -36166,20 +36166,20 @@ emigraron	VIS3P	emigrar
 sí	W	sí
 porque	C	porque
 se	PY3EPO	se
-fueron	VIS3P	ir
+fueron	VIS3Pir	ir
 con	X	con
 <pausa/>	ETQ_PAUSA	<pausa/>
 bueno	I	bueno
 mi	DS1FS	mi
 madre	NCFS	madre
 se	PY3FSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 sola	AFS	solo
 <pausa/>	ETQ_PAUSA	<pausa/>
 mi	DS1MS	mi
 padre	NCMS	padre
 se	PY3MSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 con	X	con
 sus	DS7MP	su
 padres	NCMP	padre
@@ -37374,7 +37374,7 @@ la	DAFS	el
 perra	NCFS	perro
 porque	C	porque
 le	PY3FSD	le
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 a	X	a
 comer	VNP	comer
 a	X	a
@@ -37550,7 +37550,7 @@ imposible	AIS	imposible
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 es que	W	es que
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 corriendo	VGP	correr
 y	C	y
 no	W	no
@@ -37640,7 +37640,7 @@ enfermedad	NCFS	enfermedad
 de	X	de
 tu	DS2MS	tu
 abuelo	NCMS	abuelo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 muy	W	mucho
 dura	AFS	duro
 así	W	así
@@ -37773,7 +37773,7 @@ entonces	W	entonces
 lo	DANS	el
 más	W	más
 jorobado	VPNS	jorobar
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 cuando	W	cuando
 encamó	VIS3S	encamar
@@ -37820,7 +37820,7 @@ Santiago de Chile	NPEL	Santiago de Chile
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 yo	PY1ESN	yo
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 una	DCFS	un
 vez	NCFS	vez
 a	X	a
@@ -37944,11 +37944,11 @@ madre	NCFS	madre
 después	W	después
 pues	C	pues
 se	PY3FSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 ella	PY3FSQ	él
 sola	AFS	solo
 
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 un poco	W	un poco
 así	W	así
 
@@ -37962,7 +37962,7 @@ ir	VNP	ir
 a	X	a
 
 se	PY3FSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 sola	AFS	solo
 porque	C	porque
 no	W	no
@@ -38237,7 +38237,7 @@ en fin	W	en fin
 entonces	W	entonces
 eeh	I	eeh
 se	PY3MSO	se
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 para	X	para
 allá	W	allá
 y	C	y
@@ -38410,10 +38410,10 @@ acuerdas	VIP2S	acordar
 bueno	I	bueno
 pues	C	pues
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 todo	PGAS	todo
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 mucha	DQFS	mucho
 gente	NCFS	gente
 que	PLFS	que
@@ -38496,20 +38496,20 @@ entonces	W	entonces
 bueno	I	bueno
 allá	W	allá
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 estuvimos	VIS1P	estar
 pues	C	pues
 no	W	no
 sé	VIP1S	saber
 si	C	si
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 el	DAMS	el
 fin de semana	NCMS	fin de semana
 o	C	o
 lo	DANS	el
 que	PLNS	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 
 sí	W	sí
 sí	W	sí
@@ -38536,12 +38536,12 @@ crucé	VIS1S	cruzar
 el	DAMS	el
 Atlántico	NPMS	Atlántico
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 París	NPEL	París
 <pausa/>	ETQ_PAUSA	<pausa/>
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 Londres	NPEL	Londres
 con	X	con
@@ -38830,7 +38830,7 @@ entonces	W	entonces
 eemm	I	eemm
 <pausa/>	ETQ_PAUSA	<pausa/>
 yo	PY1FSN	yo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 cuando	W	cuando
 cuando	W	cuando
 aterrizamos	VIT1P	aterrizar
@@ -39014,7 +39014,7 @@ la	DAFS	el
 suerte	NCFS	suerte
 que	PLFS	que
 tuve	VIS1S	tener
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 que	C	que
 en	X	en
 el	DAMS	el
@@ -39030,10 +39030,10 @@ la	DAFS	el
 maleta	NCFS	maleta
 o sea	W	o sea
 es que	W	es que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 un	DIMS	un
 cristo	NCMS	cristo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 un	DIMS	un
 cristo	NCMS	cristo
 total	AMS	total
@@ -39059,7 +39059,7 @@ ambulancias	NCFP	ambulancia
 entonces	W	entonces
 yo	PY1FSN	yo
 me	PY1FSO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 sola	AFS	solo
 
 aay	I	aay
@@ -39156,7 +39156,7 @@ atendió	VIS3S	atender
 en	X	en
 ese	DDMS	ese
 momento	NCMS	momento
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 la	DAFS	el
 mía	PS1FS	mío
 pero	C	pero
@@ -39301,7 +39301,7 @@ entonces	W	entonces
 un poco	W	un poco
 creo	VIP1S	creer
 que	C	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 lo	DANS	el
 que	PLNS	que
 me	PY1FSO	me
@@ -39342,11 +39342,11 @@ Emilio	NPMS	Emilio
 <pausa/>	ETQ_PAUSA	<pausa/>
 pero	C	pero
 no	W	no
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 suficiente	AIS	suficiente
 y	C	y
 entonces	W	entonces
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 la	DAFS	el
 hora	NCFS	hora
 y	C	y
@@ -39371,7 +39371,7 @@ mal	W	mal
 entonces	W	entonces
 
 ahí	W	ahí
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 donde	W	donde
 me	PY1ESO	me
 vine	VIS1S	venir
@@ -39415,7 +39415,7 @@ que	W	que
 yo	PY1ESN	yo
 pensaba	VII1S	pensar
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 cuando	W	cuando
 me	PY1ESO	me
 hundí	VIS1S	hundir
@@ -39607,7 +39607,7 @@ bueno	I	bueno
 entonces	W	entonces
 <pausa/>	ETQ_PAUSA	<pausa/>
 esto	PDNS	este
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 en	X	en
 octubre	NCMS	octubre
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -39619,7 +39619,7 @@ noviembre	NCMS	noviembre
 la	DAFS	el
 chica	NCFS	chico
 que	PLFS	que
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 ver	VNP	ver
 a	X	a
@@ -39665,8 +39665,8 @@ bueno	I	bueno
 aparte	W	aparte
 de	X	de
 que	C	que
-fui	VIS1S	ir
-fui	VIS1S	ir
+fui	VIS1Sir	ir
+fui	VIS1Sir	ir
 en	X	en
 una	DIFS	un
 avioneta	NCFS	avioneta
@@ -39953,7 +39953,7 @@ esto	PDNS	este
 ?	Q	?
 porque	C	porque
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 Santiago	NPEL	Santiago
 <pausa/>	ETQ_PAUSA	<pausa/>
 o	C	o
@@ -39964,7 +39964,7 @@ avión	NCMS	avión
 y	C	y
 después	W	después
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 en	X	en
 tren	NCMS	tren
 de	X	de
@@ -40079,7 +40079,7 @@ perdida	AFS	perdido
 o sea	W	o sea
 mi	DS1FS	mi
 táctica	NCFS	táctica
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 el	DAMS	el
 de	X	de
 delante	W	delante
@@ -40402,7 +40402,7 @@ todo	PGAS	todo
 yo	PY1FSN	yo
 es que	W	es que
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 así	W	así
 <pausa/>	ETQ_PAUSA	<pausa/>
 llevaba	VII1S	llevar
@@ -40742,7 +40742,7 @@ después	W	después
 
 me	PY1ESO	me
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 para	X	para
 el	DAMS	el
@@ -41922,7 +41922,7 @@ pegaba	VII3S	pegar
 nada	W	nada
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 la	DAFS	el
 boda	NCFS	boda
@@ -42758,7 +42758,7 @@ principio	NCMS	principio
 las	DAFP	el
 grandes	AFP	grande
 áreas	NCFP	área
-fueron	VIS3P	ser
+fueron	VIS3Pser	ser
 un	DIMS	un
 furor	NCMS	furor
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -43217,7 +43217,7 @@ vivía	VII1S	vivir
 sola	AFS	solo
 cuando	W	cuando
 me	PY1FSO	me
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 llegando	VGP	llegar
 la	DAFS	el
 edad	NCFS	edad
@@ -43391,7 +43391,7 @@ dependienta	NCFS	dependienta
 y	C	y
 cuando	W	cuando
 me	PY1ESO	me
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 vamos	I	vamos
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -43807,7 +43807,7 @@ ya	W	ya
 
 en fin	W	en fin
 
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 ¿	Q	¿
 sabes	VIP2S	saber
@@ -43817,7 +43817,7 @@ mujer	NCFS	mujer
 o sea	W	o sea
 yo	PY1ESN	yo
 siempre	W	siempre
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 un poco	W	un poco
 
 claro	I	claro
@@ -44265,17 +44265,17 @@ sin	X	sin
 ver	VNP	ver
 los	PY3MPA	lo
 
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 <pausa/>	ETQ_PAUSA	<pausa/>
 no	W	no
 no	W	no
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 muy	W	mucho
 agradable	AIS	agradable
 para	X	para
 mí	PY1FSP	mí
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 muy	W	mucho
 agradable	ANS	agradable
 volver	VNP	volver
@@ -44376,7 +44376,7 @@ vacaciones	NCFP	vacación
 que	W	que
 no	W	no
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 ningún	DNMS	ningún
 sitio	NCMS	sitio
@@ -44412,7 +44412,7 @@ claro	I	claro
 pues	C	pues
 no	W	no
 nos	PY1EPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 de	X	de
 vacaciones	NCFP	vacación
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -44472,7 +44472,7 @@ y	C	y
 tal	PDIS	tal
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 guay	AIS	guay
 <pausa/>	ETQ_PAUSA	<pausa/>
 porque	C	porque
@@ -45517,7 +45517,7 @@ bueno	I	bueno
 es	VIP3S	ser
 así	W	así
 
-fui	VIS1S	ser
+fui	VIS1Sser	ser
 una	DCFS	un
 persona	NCFS	persona
 
@@ -45653,7 +45653,7 @@ en	X	en
 todo	DGMS	todo
 momento	NCMS	momento
 
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 cuando	W	cuando
 me	PY1ESO	me
@@ -45878,7 +45878,7 @@ Galicia	NPEL	Galicia
 ?	Q	?
 ¿	Q	¿
 cómo	W	cómo
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 ?	Q	?
 
 y	C	y
@@ -45921,7 +45921,7 @@ casa	NCFS	casa
 mmm	I	mmm
 
 siempre	W	siempre
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 un	DIMS	un
 matriarcado	NCMS	matriarcado
 
@@ -45949,7 +45949,7 @@ conducía	VII3S	conducir
 un	DIMS	un
 coche	NCMS	coche
 <pausa/>	ETQ_PAUSA	<pausa/>
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 de	X	de
 casi	W	casi
 de	X	de
@@ -46075,7 +46075,7 @@ porque	C	porque
 claro	I	claro
 ellas	PY3FPQ	él
 siempre	W	siempre
-fueron	VIS3P	ir
+fueron	VIS3Pir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 muy	W	muy
 por	X	por
@@ -46542,7 +46542,7 @@ entonces	W	entonces
 eeh	I	eeh
 <pausa/>	ETQ_PAUSA	<pausa/>
 yo	PY1FSN	yo
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 de	X	de
 el	DAES	el
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -46566,7 +46566,7 @@ peluquería	NCFS	peluquería
 a	X	a
 la	DAFS	el
 floristería	NCFS	floristería
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 tres	DCFP	tres
 veces	NCFP	vez
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -46727,7 +46727,7 @@ marmolería	NCFS	marmolería
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 poco a poco	W	poco a poco
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 subiendo	VGP	subir
 
 ¡	Q	¡
@@ -47150,7 +47150,7 @@ lo	PY3MSW	lo
 rompí	VIS1S	romper
 yo	PY1ESN	yo
 que	C	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 fulano	NCMS	fulano
 me	PY1ESO	me
 da	VIP3S	dar
@@ -47610,7 +47610,7 @@ matrimonios	NCMP	matrimonio
 <pausa/>	ETQ_PAUSA	<pausa/>
 que	PLMP	que
 nos	PY1MPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 Portugal	NPEL	Portugal
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -47625,7 +47625,7 @@ plazas	NCFP	plaza
 y	C	y
 allá	W	allá
 nos	PY1MPO	nos
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 
 y	C	y
 vino	VIS3S	venir
@@ -47833,7 +47833,7 @@ otro	DNMS	otro
 tío	NCMS	tío
 <pausa/>	ETQ_PAUSA	<pausa/>
 que	PLMS	que
-fue	VIS3S	ser
+fue	VIS3Sser	ser
 curtidor	NCMS	curtidor
 
 en	X	en
@@ -48126,11 +48126,11 @@ y	C	y
 y	C	y
 de	X	de
 ella	PY3FSQ	él
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 ya	W	ya
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 ya	W	ya
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 después	W	después
 pedían	VII3P	pedir
@@ -48270,7 +48270,7 @@ Cuba	NPEL	Cuba
 después	W	después
 prácticamente	W	prácticamente
 también	W	también
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 todas	PGFP	todo
 sí	W	sí
@@ -48283,7 +48283,7 @@ por ahí	W	por ahí
 Bilbao	NPMS	Bilbao
 todo	DGMS	todo
 
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 Barcelona	NPEL	Barcelona
 en	X	en
@@ -49372,7 +49372,7 @@ la	DAFS	el
 Calderería	NPFS	Calderería
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 a	X	a
 el	DAMS	el
 colegio	NCMS	colegio
@@ -50932,7 +50932,7 @@ y	C	y
 <pausa/>	ETQ_PAUSA	<pausa/>
 y	C	y
 también	W	también
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 a	X	a
 Barraña	NPEL	Barraña
 algunos	DNMP	algún
@@ -51094,7 +51094,7 @@ desde	X	desde
 Laredo	NPEL	Laredo
 <pausa/>	ETQ_PAUSA	<pausa/>
 pues	C	pues
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 de	X	de
 excursión	NCFS	excursión
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -51140,7 +51140,7 @@ posiblemente	W	posiblemente
 después	W	después
 <pausa/>	ETQ_PAUSA	<pausa/>
 que	W	que
-fuimos	VIS1P	ir
+fuimos	VIS1Pir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 poquitos	DQMP	poco
 días	NCMP	día
@@ -51190,7 +51190,7 @@ sola	AFS	solo
 
 sí	W	sí
 <pausa/>	ETQ_PAUSA	<pausa/>
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 me	PY1ESO	me
 ha	VIP3S	haber
 pillado	VPMS	pillar
@@ -51206,7 +51206,7 @@ a	X	a
 <pausa/>	ETQ_PAUSA	<pausa/>
 porque	C	porque
 usted	PY4ESQ	usted
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 hace	VIP3S	hacer
 
 tú	PY2ESN	tú
@@ -51221,7 +51221,7 @@ en	X	en
 la	DAFS	el
 época	NCFS	época
 que	PLFS	que
-fui	VIS1S	ir
+fui	VIS1Sir	ir
 yo	PY1ESN	yo
 
 yo	PY1ESN	yo
@@ -51337,7 +51337,7 @@ ahora	W	ahora
 no	W	no
 sé	VIP1S	saber
 si	C	si
-fuiste	VIS2S	ir
+fuiste	VIS2Sir	ir
 <pausa/>	ETQ_PAUSA	<pausa/>
 Xauen	NPMS	Xauen
 era	VII3S	ser
@@ -51352,7 +51352,7 @@ moro	AMS	moro
 pero	C	pero
 usted	PY4ESQ	usted
 cuando	W	cuando
-fue	VIS3S	ir
+fue	VIS3Sir	ir
 también	W	también
 ?	Q	?
 
@@ -54054,3 +54054,7 @@ no	W	no
 no	W	no
 necesariamente	W	necesariamente
 
+
+fuiste	VIS2Sser	ser
+
+fuisteis	VIS2Pser	ser

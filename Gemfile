@@ -9,7 +9,7 @@ gem 'dbi', '0.4.5'
 
 gem 'ffi'
 gem 'gdbm'
-gem 'rake', '~> 10.0'
+gem 'rake', '~> 13.0'
 gem 'minitest', '~> 5.0'
 
 gem 'sqlite3', '1.3.10'

@@ -2298,6 +2298,9 @@ CC OO	Zg00	CC OO
 CC. OO.	Zg00	CC. OO.
 CC.OO.	Zg00	CC.OO.
 CCOO	Zg00	CCOO	
+C. C.  . O. O.	Zg00	C. C.  . O. O.	CC. OO.
+C.C. .O.O.	Zg00	C.C. .O.O.	CC. OO.
+CC OO	Zg00	CC OO	CC. OO.
 CC OO	Zgfp	CC OO
 CC. OO.	Zgfp	CC. OO.
 CC.OO.	Zgfp	CC.OO.
@@ -4892,7 +4895,10 @@ EET	Zgfs	EET
 EE UU	Zg00	EE UU
 EE. UU.	Zg00	EE. UU.
 EE.UU.	Zg00	EE.UU.
-EEUU	Zg00	EEUU	
+E. E.  . U. U.	Zg00	E. E.  . U. U.	EE. UU.
+E.E. .U.U.	Zg00	E.E. .U.U.	EE. UU.
+EE UU	Zg00	EE UU	EE. UU.
+EEUU	Zg00	EEUU	EE UU
 E. E.	Zg00	E. E.	
 E.E.	Zg00	E.E.	
 EE	Zg00	EE	
@@ -5308,6 +5314,9 @@ EUDOR	Zg00	EUDOR
 E. U. D. O. R.	Zgfs	E. U. D. O. R.	
 E.U.D.O.R.	Zgfs	E.U.D.O.R.	
 EUDOR	Zgfs	EUDOR	
+E. U. -. E. G.	Zg00	E. U. -. E. G.	EU-EG
+E.U.-.E.G.	Zg00	E.U.-.E.G.	EU-EG
+EU-EG	Zg00	EU-EG	EU-EG
 E. U. L. I. B. O. R.	Zg00	E. U. L. I. B. O. R.	
 E.U.L.I.B.O.R.	Zg00	E.U.L.I.B.O.R.	
 EULIBOR	Zg00	EULIBOR	
@@ -8947,6 +8956,9 @@ NBS	Zg00	NBS
 N. B. S.	Zgms	N. B. S.	
 N.B.S.	Zgms	N.B.S.	
 NBS	Zgms	NBS	
+N. C. G.	Zg00	N. C. G.	NCG
+N.C.G.	Zg00	N.C.G.	NCG
+NCG	Zg00	NCG	NCG
 N. E. G.	Zg00	N. E. G.	
 N.E.G.	Zg00	N.E.G.	
 NEG	Zg00	NEG	
@@ -9340,19 +9352,19 @@ ONGD	Zgfp	ONGD
 O. N. G. D.	Zgfs	O. N. G. D.	
 O.N.G.D.	Zgfs	O.N.G.D.	
 ONGD	Zgfs	ONGD	
-ONG's	Zgfp	ONG	
-O. N. G.	Zg00	O. N. G.	
-O.N.G.	Zg00	O.N.G.	
-ONG	Zg00	ONG	
-O. N. G.	Zgfa	O. N. G.	
-O.N.G.	Zgfa	O.N.G.	
-ONG	Zgfa	ONG	
-O. N. G.	Zgfp	O. N. G.	
-O.N.G.	Zgfp	O.N.G.	
-ONG	Zgfp	ONG	
-O. N. G.	Zgfs	O. N. G.	
-O.N.G.	Zgfs	O.N.G.	
-ONG	Zgfs	ONG	
+ONG's	Zgfp	ONG	ONG
+O. N. G.	Zg00	O. N. G.	ONG
+O.N.G.	Zg00	O.N.G.	ONG
+ONG	Zg00	ONG	ONG
+O. N. G.	Zgfa	O. N. G.	ONG
+O.N.G.	Zgfa	O.N.G.	ONG
+ONG	Zgfa	ONG	ONG
+O. N. G.	Zgfp	O. N. G.	ONG
+O.N.G.	Zgfp	O.N.G.	ONG
+ONG	Zgfp	ONG	ONG
+O. N. G.	Zgfs	O. N. G.	ONG
+O.N.G.	Zgfs	O.N.G.	ONG
+ONG	Zgfs	ONG	ONG
 O. N. T.	Zg00	O. N. T.	
 O.N.T.	Zg00	O.N.T.	
 ONT	Zg00	ONT	
@@ -9762,9 +9774,21 @@ PC	Zgms	PC
 P. D. A.	Zg00	P. D. A.	
 P.D.A.	Zg00	P.D.A.	
 PDA	Zg00	PDA	
+P. D. A.	Zg00	P. D. A.	PDA
+P.D.A.	Zg00	P.D.A.	PDA
+PDA	Zg00	PDA	PDA
 P. D. A.	Zgfs	P. D. A.	
 P.D.A.	Zgfs	P.D.A.	
 PDA	Zgfs	PDA	
+P. D. A.	Zgma	P. D. A.	PDA
+P.D.A.	Zgma	P.D.A.	PDA
+PDA	Zgma	PDA	PDA
+P. D. A.	Zgmp	P. D. A.	PDA
+P.D.A.	Zgmp	P.D.A.	PDA
+PDA	Zgmp	PDA	PDA
+P. D. A.	Zgms	P. D. A.	PDA
+P.D.A.	Zgms	P.D.A.	PDA
+PDA	Zgms	PDA	PDA
 P. D. I.	Zg00	P. D. I.	
 P.D.I.	Zg00	P.D.I.	
 PDI	Zg00	PDI	
@@ -9810,18 +9834,24 @@ PEC	Zg00	PEC
 P. E. C.	Zgms	P. E. C.	
 P.E.C.	Zgms	P.E.C.	
 PEC	Zgms	PEC	
-P. E. M. E.	Zg00	P. E. M. E.	
-P.E.M.E.	Zg00	P.E.M.E.	
-PEME	Zg00	PEME	
-P. E. M. E.	Zgfa	P. E. M. E.	
-P.E.M.E.	Zgfa	P.E.M.E.	
-PEME	Zgfa	PEME	
-P. E. M. E.	Zgfp	P. E. M. E.	
-P.E.M.E.	Zgfp	P.E.M.E.	
-PEME	Zgfp	PEME	
-P. E. M. E.	Zgfs	P. E. M. E.	
-P.E.M.E.	Zgfs	P.E.M.E.	
-PEME	Zgfs	PEME	
+P. E. M. E. S.	Zg00	P. E. M. E.	peme
+P.E.M.E.S.	Zg00	P.E.M.E.	peme
+PEMES	Zg00	PEME	peme
+P. E. M. E. S.	Zgfp	P. E. M. E.	peme
+P.E.M.E.S.	Zgfp	P.E.M.E.	peme
+PEMES	Zgfp	PEME	peme
+P. E. M. E.	Zg00	P. E. M. E.	peme
+P.E.M.E.	Zg00	P.E.M.E.	peme
+PEME	Zg00	PEME	peme
+P. E. M. E.	Zgfa	P. E. M. E.	peme
+P.E.M.E.	Zgfa	P.E.M.E.	peme
+PEME	Zgfa	PEME	peme
+P. E. M. E.	Zgfp	P. E. M. E.	peme
+P.E.M.E.	Zgfp	P.E.M.E.	peme
+PEME	Zgfp	PEME	peme
+P. E. M. E.	Zgfs	P. E. M. E.	peme
+P.E.M.E.	Zgfs	P.E.M.E.	peme
+PEME	Zgfs	PEME	peme
 P. E. N.	Zg00	P. E. N.	
 P.E.N.	Zg00	P.E.N.	
 PEN	Zg00	PEN	
@@ -11470,6 +11500,9 @@ SYSOP	Zgms	SYSOP
 T. A. C.	Zg00	T. A. C.	
 T.A.C.	Zg00	T.A.C.	
 TAC	Zg00	TAC	
+T. A. C.	Zgfa	T. A. C.	
+T.A.C.	Zgfa	T.A.C.	
+TAC	Zgfa	TAC	
 T. A. C.	Zgfp	T. A. C.	
 T.A.C.	Zgfp	T.A.C.	
 TAC	Zgfp	TAC	

@@ -3,6 +3,7 @@ require "rubygems"
 require "dbi"
 require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
+require_relative "../bin/lemmatizer.rb"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
@@ -10,9 +11,20 @@ class DatabaseWrapper
 
   def initialize(db_name)
     @db = SQLite3::Database.open(db_name)
+    xiada_profile = ENV["XIADA_PROFILE"]
+    @lemmatizer = Lemmatizer.new(self)
+    case xiada_profile
+    when "spanish_eslora"
+      @lemmatizer.extend(LemmatizerSpanishEslora)
+    when "galician_xiada"
+      @lemmatizer.extend(LemmatizerGalicianXiada)
+    when "galician_xiada_oral"
+      @lemmatizer.extend(LemmatizerGalicianXiada)
+    end
   end
 
   def get_emissions_info(word, tags)
+    #STDERR.puts "word:#{word}, tags:#{tags}"
     result = Array.new
     if (tags == nil) or (tags.empty?)
       # STDERR.puts "tags nil"
@@ -20,12 +32,14 @@ class DatabaseWrapper
         result << row
       end
     else
-      # STDERR.puts "tags not nil"
+      #STDERR.puts "tags not nil"
       tag_string = get_possible_tags(tags)
+      #STDERR.puts "tag_string: #{tag_string}"
       @db.execute("select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}' and tag in (#{tag_string})") do |row|
         result << row
       end
     end
+    #STDERR.puts "result:#{result}"
     return result
   end
 
@@ -35,39 +49,54 @@ class DatabaseWrapper
   end
 
   def get_tags_lemmas_emissions(word, tags)
-    # STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
+    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
     max_length = 0
     result = get_emissions_info(word, tags)
     if result.empty?
-      if (tags == nil) or (tags.empty?)
-        suffixes = get_possible_suffixes(word)
-        # STDERR.puts "suffixes: #{suffixes}"
-        row_index = 1
-        query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes}) order by length desc"
-        @db.execute(query) do |row|
-          if row_index == 1
-            max_length = Integer(row[3])
-            result << row
-          elsif Integer(row[3]) == max_length
-            result << row
-          else
-            # max_length_undefined
-            break
-          end
-          row_index = row_index + 1
-        end
-        if (result == nil) or (result.empty?)
-          query = "select tk,null,null,log_ak from unigram_frequencies"
-          opened_category_regexp = get_opened_category_regexp
-          # STDERR.puts "opened_category_regexp: #{opened_category_regexp}"
-          @db.execute(query) do |row|
-            result << row if row[0] =~ /#{opened_category_regexp}/
+      result = @lemmatizer.lemmatize(word, tags)
+      #result = get_emissions_info(word, tags)
+      # STDERR.puts "result.empty: next result: #{}"
+      if result.empty?
+        if (tags == nil) or (tags.empty?)
+          suffixes = get_possible_suffixes(word)
+          result = get_guesser_result(suffixes, nil, nil)
+          # STDERR.puts "suffixes: #{suffixes} result:#{result}"
+          if (result == nil) or (result.empty?)
+            query = "select tk,null,null,log_ak from unigram_frequencies"
+            opened_category_regexp = get_opened_category_regexp
+            # STDERR.puts "opened_category_regexp: #{opened_category_regexp}"
+            @db.execute(query) do |row|
+              result << row if row[0] =~ /#{opened_category_regexp}/
+            end
           end
         end
       end
     end
-    # STDERR.puts "result: #{result}"
+    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word}, tags: #{tags}, result: #{result}"
     return result
+  end
+
+  def get_guesser_result(suffixes, lemma, tags)
+    result = []
+    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query << "and tag in (#{get_possible_tags(tags)})" if tags
+    query << "order by length desc"
+
+    row_index = 1
+    @db.execute(query) do |row|
+      row[1] = lemma if lemma
+      if row_index == 1
+        max_length = Integer(row[3])
+        result << row
+      elsif Integer(row[3]) == max_length
+        result << row
+      else
+        # max_length_undefined
+        break
+      end
+      row_index = row_index + 1
+    end
+    result
   end
 
   def get_open_tags_lemmas_emissions(word)
@@ -96,7 +125,7 @@ class DatabaseWrapper
       result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
       if result == nil
         result = @db.get_first_value("select log_ak from unigram_frequencies where tk='#{SQLUtils.escape_SQL(tag_k)}'")
-        # STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
+        #STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
         return Float(result)
       else
         # STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
@@ -139,6 +168,35 @@ class DatabaseWrapper
 
     @db.execute("select idiom, tag, lemma, hiperlemma, sure
                  from idioms where idiom = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
+      result << row
+    end
+    return result
+  end
+
+  def is_idiom_sure?(idiom)
+    result = @db.get_first_value("select sure from idioms where idiom = '#{SQLUtils.escape_SQL(idiom)}'")
+    if result == nil
+      return false
+    else
+      result == 1 ? true : false
+    end
+  end
+
+  def get_multiword_match(substring)
+    result = Array.new
+
+    @db.execute("select idiom as word, tag, lemma, hiperlemma
+                 from idioms where word like '#{SQLUtils.escape_SQL(substring)}%'") do |row|
+      result << row
+    end
+    return result
+  end
+
+  def get_multiword_full(idiom)
+    result = Array.new
+
+    @db.execute("select idiom as word, tag, lemma, hiperlemma
+                 from idioms where word = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
       result << row
     end
     return result
@@ -266,17 +324,33 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verbs_roots_info(left_candidate)
-    result = Array.new
+    #STDERR.puts "left_candidate: #{left_candidate}"
+    result = []
     @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row
+    end
+    if result.empty?
+      #STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
+      @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
+        result << row
+      end
     end
     return result
   end
 
   def get_enclitic_verbs_roots_tags(left_candidate)
+    #STDERR.puts "left_candidate: #{left_candidate}"
     result = Array.new
     @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
       result << row[0]
+    end
+    if result.empty?
+      #STDERR.puts "result.empty"
+      #temp = SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))
+      #STDERR.puts "temp:#{temp}"
+      @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
+        result << row[0]
+      end
     end
     return result
   end
@@ -358,28 +432,39 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verb_roots_info(root, tags)
-    result = Array.new
+    result = []
     if (tags == nil) or (tags.empty?)
       @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}'") do |row|
         result << row
+      end
+      if result.empty?
+        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}'") do |row|
+          result << row
+        end
       end
     else
       tag_string = get_possible_tags(tags)
       @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}' and tag in (#{tag_string})") do |row|
         result << row
       end
+      if result.empty?
+        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
+          result << row
+        end
+      end       
     end
     return result
   end
 
-  def get_recovery_info(tag, lemma, from_lexicon)
+  def get_recovery_info(verb_part, tag, lemma, from_lexicon)
+    #STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
     from_lexicon_integer = 0
-    from_lexicon_integer = 1 if from_lexicon_integer
+    from_lexicon_integer = 1 if from_lexicon
     result = Array.new
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
       result << row
     end
-    return result
+    return restore_lemmatization(verb_part, result)
   end
 
   def get_peripheric_regexp
@@ -435,15 +520,26 @@ class DatabaseWrapper
   private
 
   def get_possible_tags(tags)
-    result = nil
+    result = ""
     tags.each do |tag|
-      if result == nil
-        result = "'#{SQLUtils.escape_SQL(tag)}'"
+      result << "," unless result.empty?
+      if tag =~ /[\*\_]/
+        result << get_tags_from_regexp(SQLUtils.escape_SQL_wildcards(tag))
       else
-        result = result + ",'#{SQLUtils.escape_SQL(tag)}'"
+        result << "'#{SQLUtils.escape_SQL(tag)}'"
       end
     end
-    return result
+    result
+  end
+
+  def get_tags_from_regexp(tag_regexp)
+    result = ""
+    @db.execute("select distinct(tk) from unigram_frequencies where tk like '#{tag_regexp}'") do |row|
+      tag = row[0]
+      result << "," unless result.empty?
+      result << "'#{SQLUtils.escape_SQL(tag)}'"
+    end
+    result
   end
 
   def get_possible_suffixes(word)
@@ -521,5 +617,14 @@ class DatabaseWrapper
       end
     end
     return category_regexp
+  end
+
+  def restore_lemmatization(verb_part, result)
+    result.each do |row|
+      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_word(verb_part, row[0])
+      row[2] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_lemma(verb_part, row[2])
+      row[3] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_hiperlemma(verb_part, row[3])
+    end
+    return result
   end
 end

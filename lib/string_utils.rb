@@ -54,7 +54,7 @@ class StringUtils
   end
 
   def self.first_only_upper?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/ ]+$/ 
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]+$/ 
       return true
     else
       return false
@@ -62,7 +62,15 @@ class StringUtils
   end
 
   def self.alone_letter_upper?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]$/
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]$/
+      return true
+    else
+      return false
+    end
+  end
+
+  def self.valid_upper_and_lower?(str)
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕa-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]+[a-záéíóúñàèìòùçäëïöüâêîôûãõ@\)\(\/]\+?$/
       return true
     else
       return false
@@ -70,11 +78,13 @@ class StringUtils
   end
 
   def self.propers_joined?(str)
-    if str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/ ]+[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]+[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Barcelona-Tarragona
-       str =~ /^[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]+[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/ ||
+       str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]+[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/ ||
        # YouTube
-       str =~ /^([A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]*)*'[A-ZÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/
+       str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]*)*&[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
+       # Dolce&Gabbana
+       str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]*)*'[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/
        # L'Oréal
        # Gerry O'Connor
       return true
@@ -143,4 +153,26 @@ class StringUtils
     new_string.gsub!(/&gt;/, ">")
     return new_string
   end
+
+  def self.tilde_combinations(word)
+    vowels = {
+      'a' => 'á',
+      'e' => 'é',
+      'i' => 'í',
+      'o' => 'ó',
+      'u' => 'ú'
+    }.freeze
+    
+    accented = vowels.values.join.freeze
+    base_word = self.to_lower(word)
+    
+    combinations = base_word.each_grapheme_cluster.map { |c| vowels.key?(c) ? [c, vowels[c]] : [c] }
+    words = combinations.inject(['']) do |word_combinations, char_combinations|
+      char_combinations.flat_map do |char|
+        word_combinations.map { |w| "#{w}#{char}" }
+      end
+    end
+    words.select { |w| w.count(accented) <= 1 }
+  end
+
 end

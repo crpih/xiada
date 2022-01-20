@@ -20,13 +20,13 @@ class ProperNounsProcessor
       STDERR.puts "Processing basic proper nouns"
       process_basic_proper_nouns
     else
-      STDERR.puts "Processing trained proper nouns"
+      # STDERR.puts "Processing trained proper nouns"
       process_trained_proper_nouns(trained_proper_nouns) unless trained_proper_nouns == nil
-      STDERR.puts "Processing lexicon proper nouns"
-      process_lexicon_proper_nouns
-      STDERR.puts "Processing standard proper nouns"
+      # STDERR.puts "Processing standard proper nouns"
       process_standard_proper_nouns
-      STDERR.puts "Processing regexp proper nouns"
+      # STDERR.puts "Processing lexicon proper nouns"
+      process_lexicon_proper_nouns
+      # STDERR.puts "Processing regexp proper nouns"
       process_regexp_proper_nouns
     end
   end
@@ -56,8 +56,7 @@ class ProperNounsProcessor
           unless last_token == nil
             alternatives = get_proper_noun_alternatives(token, last_token)
             alternatives.each do |alternative|
-              #puts "alternative: #{alternative}"
-              trained_proper_nouns[alternative] = true
+              trained_proper_nouns[alternative] = true if @dw.get_emissions_info(StringUtils.to_lower(alternative), nil).empty?
             end
             prev_token = last_token
             token = last_token.next
@@ -153,8 +152,8 @@ class ProperNounsProcessor
       if token.token_type == :standard
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
-            StringUtils.propers_joined?(token.text)) and !token.tagged?
-          # STDERR.puts "inside"
+            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
+          #STDERR.puts "inside"
           # Beginning of a standard proper noun
           last_token = find_last_token(token)
           unless last_token == nil
@@ -178,7 +177,7 @@ class ProperNounsProcessor
     last_token = token
     token = token.next
     while token.token_type == :standard
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)
+      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.valid_upper_and_lower?(token.text)
         last_token = token
         token = token.next
       elsif link?(token.text)
@@ -248,7 +247,20 @@ class ProperNounsProcessor
   def join_standard_proper_noun(from, to)
     #STDERR.puts "joining standard proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
+    #STDERR.puts "token.text: #{token.text}"
     token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+    # if the token is in uppercase in the lexicon, we add the other tags too.
+    results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
+    #STDERR.puts "results:#{results}"
+    results.each do |result|
+      tag_value = result[0]
+      lemma = result[1]
+      hiperlemma = result[2]
+      #STDERR.puts "tag_value:#{tag_value}, lemma:#{lemma}, hiperlemma:#{hiperlemma}"
+      log_b = Float(result[3])
+      #STDERR.puts "log_b:#{log_b}"
+      token.add_tag_lemma_emission(tag_value, lemma, hiperlemma, 0.0, false)
+    end
     #STDERR.puts "candidate tags: #{@candidate_tags}"
     return token
   end
@@ -267,11 +279,13 @@ class ProperNounsProcessor
       token = token.next
     end
     unless @sentence.original_first_lower
-      if StringUtils.all_lower?(token.text) and !token.tagged?
-        token.replace_text(StringUtils.first_to_upper(token.text))
+      if !token.tagged
+        if StringUtils.all_lower?(token.text)
+          token.replace_text(StringUtils.first_to_upper(token.text))
+          first_token_tolower = true
+        end
         first_token = token
         at_first_token = true
-        first_token_tolower = true
       end
     end
     #token = token.next if token.token_type != :end_sentence
@@ -369,10 +383,11 @@ class ProperNounsProcessor
   end
 
   def join_lexicon_proper_noun(from, to)
-    #puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
+    #STDERR.puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     # results = @dw.get_tags_lemmas_emissions(token.text, @candidate_tags)
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
+    #STDERR.puts "results: #{results}"
     if results.empty?
       results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|
@@ -441,12 +456,12 @@ class ProperNounsProcessor
   end
 
   def get_proper_noun_alternatives_aux(from, to)
-    #puts "\nget_proper_noun_alternatives_aux from:#{from.text} to:#{to.text}"
+    #STDERR.puts "\nget_proper_noun_alternatives_aux from:#{from.text} to:#{to.text}"
     result = Array.new
     token = from
     if from != to
       new_token_text = String.new(token.text)
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)
+      if (StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text)) and @dw.not_in_lexicon_or_only_substantive?(token.text)
         result << new_token_text
         new_token_text = String.new(new_token_text)
       end
@@ -470,7 +485,7 @@ class ProperNounsProcessor
     end
     #puts "result:"
     #result.each do |item|
-    #  puts "item:#{item}"
+    #  STDERR.puts "item:#{item}"
     #end
     return result
   end

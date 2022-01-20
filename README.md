@@ -24,7 +24,7 @@ http://corpus.cirp.gal/xiada
 
 ## INSTALL
 
-1. Install ruby (> 2.0 version):
+1. Install ruby (> 2.5.0 version):
 
     Our preferred way is through [rbenv](https://github.com/rbenv/rbenv)/[ruby-build](https://github.com/rbenv/ruby-build).
 

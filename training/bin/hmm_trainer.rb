@@ -34,7 +34,7 @@ class HMMTrainer
             word, tag, lemma, hiperlemma = content
           else
             word, tag, lemma = content
-            hiperlemma = lemma
+            hiperlemma = ""
           end
           puts "word:#{word} does not have tag and/or lemma" if tag.empty? or lemma.empty?
           @words.add_word(word, tag, lemma, hiperlemma, true)
@@ -70,7 +70,7 @@ class HMMTrainer
           if @words.get_lemmas(word, tag) and @words.get_lemmas(word, tag)[0][1]
             hiperlemma = @words.get_lemmas(word, tag)[0][1]
           else
-            hiperlemma = lemma
+            hiperlemma = ""
           end
           corpus_words_count = corpus_words_count + 1
           # puts "word,tag,lemma:#{word},#{tag},#{lemma}\n"

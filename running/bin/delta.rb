@@ -7,7 +7,7 @@ class Delta
   
   def initialize(value, prev_delta, length, tag)
     @value = value
-    @normalized_value = value / length
+    @normalized_value = value / Math.log(length)
     @prev_delta = prev_delta
     @length = length
     @tag = tag
