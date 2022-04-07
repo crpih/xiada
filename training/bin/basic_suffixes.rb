@@ -113,11 +113,13 @@ class BasicSuffixes
         regexp << "|^" << category
       end
     end
-    @tags_info["scientific"].each do |category|
-      if regexp == nil
-        regexp = "^#{category}"
-      else
-        regexp << "|^" << category
+    if @tags_info["scientific"]
+      @tags_info["scientific"].each do |category|
+        if regexp == nil
+          regexp = "^#{category}"
+        else
+          regexp << "|^" << category
+        end
       end
     end
     @tags_info["closed"].each do |category|
