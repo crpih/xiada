@@ -72,7 +72,7 @@ class Sentence
       #STDERR.puts "text: #{text}"
       #STDERR.puts "qualifying_info:#{qualifying_info} class:#{qualifying_info.class}"
       tokens = tokenize(text, chunk_exclude_segmentation, ignore_content_info, qualifying_info)
-      #STDERR.puts "tokenize(text): #{tokens}"
+      STDERR.puts "tokenize(text): #{tokens}"
     else
       tokens = nil
     end
@@ -125,7 +125,7 @@ class Sentence
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
-      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñàèìòùäëïöüçâêîôûãõA-ZÑÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÇÂÊÎÔÛ0-9<\/>\+\-=º@.]+)([']?)([,:\-\)]?)$/
+      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñàèìòùäëïöüçâêîôûãõA-ZÑÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÇÂÊÎÔÛ0-9'<\/>\+\-=º@.]+)([']?)([,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
@@ -149,7 +149,7 @@ class Sentence
     end
     tokens = tokens_new
 
-    #STDERR.puts "(tokenize) tokens:#{tokens}"
+    STDERR.puts "(tokenize) tokens:#{tokens}"
 
     # Numbers separated by spaces detection
     tokens_new = Array.new
@@ -184,7 +184,7 @@ class Sentence
       tokens = restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
     end
     # STDERR.puts "token.size: #{tokens.size}"
-    # STDERR.puts "(tokenize) tokens (final):#{tokens}"
+    STDERR.puts "(tokenize) tokens (final):#{tokens}"
 
     return tokens
   end

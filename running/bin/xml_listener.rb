@@ -468,13 +468,14 @@ class XMLListener
     # STDERR.puts "@remove_join_opt:#{@remove_join_opt}, @full_ignored:#{@sentence.full_ignored?}"
     #if not @sentence.full_ignored? or (@sentence.full_ignored? and @remove_join_opt)
     #@sentence.print(STDERR)
+    STDERR.puts "Processing proper nouns..."
+    @sentence.proper_nouns_processing(@trained_proper_nouns, @remove_join_opt)
+    #@sentence.print(STDERR)
     STDERR.puts "Processing contractions..."
     @sentence.contractions_processing
     #@sentence.print(STDERR)
-    STDERR.puts "Processing idioms..."
+    #STDERR.puts "Processing idioms..."
     @sentence.idioms_processing unless @remove_join_opt # Must be processed before numerals
-    STDERR.puts "Processing proper nouns..."
-    @sentence.proper_nouns_processing(@trained_proper_nouns, @remove_join_opt)
     #@sentence.print(STDERR)
     STDERR.puts "Processing numerals..."
     @sentence.numerals_processing

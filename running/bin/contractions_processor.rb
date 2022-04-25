@@ -16,12 +16,14 @@ class ContractionsProcessor
   private
   
   def process_recursive(token, way, inside_alternative)
-    #puts "processing token:#{token.text}, way:#{way}"
+    #STDERR.puts "processing token:#{token.text}, way:#{way}, tagged:#{token.tagged?}"
     if token.token_type != :end_sentence
       if token.token_type == :standard
-        contractions = get_contractions(token.text)
-        if contractions.length != 0
-          token = process_contraction(token,contractions, inside_alternative)
+        unless token.tagged?
+          contractions = get_contractions(token.text)
+          if contractions.length != 0
+            token = process_contraction(token,contractions, inside_alternative)
+          end
         end
         process_recursive(token.next, 1, inside_alternative)
       elsif token.token_type == :begin_alternative

@@ -3,7 +3,7 @@ require_relative '../../../lib/sql_utils.rb'
 
 class ProperNouns
 
-  MAX_NUM_COMPONENTS = 15
+  MAX_NUM_COMPONENTS = 105
 
   def initialize(file_name, links_file_name, candidate_tags_file_name)
     @file_name = file_name

@@ -7,7 +7,7 @@ require_relative "../bin/lemmatizer.rb"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
-  PROPER_NOUNS_MAX_NUM_COMPONENTS = 15
+  PROPER_NOUNS_MAX_NUM_COMPONENTS = 106
 
   def initialize(db_name)
     @db = SQLite3::Database.open(db_name)
@@ -24,7 +24,7 @@ class DatabaseWrapper
   end
 
   def get_emissions_info(word, tags)
-    #STDERR.puts "word:#{word}, tags:#{tags}"
+    STDERR.puts "word:#{word}, tags:#{tags}"
     result = Array.new
     if (tags == nil) or (tags.empty?)
       # STDERR.puts "tags nil"
@@ -228,6 +228,7 @@ class DatabaseWrapper
         ids_string = get_possible_ids(ids)
         query = "select id from proper_nouns where #{column_name} = '#{SQLUtils.escape_SQL(proper_noun_component)}' and id in (#{ids_string})"
       end
+      STDERR.puts "query:#{query}"
       @db.execute(query) do |row|
         result << row[0]
       end
