@@ -474,14 +474,15 @@ class XMLListener
     STDERR.puts "Processing contractions..."
     @sentence.contractions_processing
     #@sentence.print(STDERR)
-    #STDERR.puts "Processing idioms..."
+    STDERR.puts "Processing idioms..."
     @sentence.idioms_processing unless @remove_join_opt # Must be processed before numerals
     #@sentence.print(STDERR)
     STDERR.puts "Processing numerals..."
     @sentence.numerals_processing
     STDERR.puts "Processing enclitics..."
     @sentence.enclitics_processing
-    # @sentence.print(STDERR)
+    #@sentence.print(STDERR)
+
     STDERR.puts "Applying Viterbi..."
     #@sentence.print(STDERR)
     viterbi = Viterbi.new(@dw)

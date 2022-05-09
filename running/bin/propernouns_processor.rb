@@ -20,13 +20,13 @@ class ProperNounsProcessor
       STDERR.puts "Processing basic proper nouns"
       process_basic_proper_nouns
     else
-      # STDERR.puts "Processing trained proper nouns"
+      STDERR.puts "Processing trained proper nouns"
       #process_trained_proper_nouns(trained_proper_nouns) unless trained_proper_nouns == nil
-      # STDERR.puts "Processing standard proper nouns"
+      STDERR.puts "Processing standard proper nouns"
       #process_standard_proper_nouns
-      # STDERR.puts "Processing lexicon proper nouns"
+      STDERR.puts "Processing lexicon proper nouns"
       process_lexicon_proper_nouns
-      # STDERR.puts "Processing regexp proper nouns"
+      STDERR.puts "Processing regexp proper nouns"
       #process_regexp_proper_nouns
     end
   end
@@ -294,44 +294,44 @@ class ProperNounsProcessor
     while token.token_type != :end_sentence
       if token.token_type == :standard
         ids = @dw.get_proper_nouns_match(token.text, 1, nil)
-        STDERR.puts "token: #{token.text} ids:#{ids}"
+        #STDERR.puts "token: #{token.text} ids:#{ids}"
         unless ids.empty?
           start_token = token
           end_token = nil
           proper_noun = token.text
-          STDERR.puts "token: #{token.text}"
+          #STDERR.puts "token: #{token.text}"
           def_ids = @dw.get_proper_noun_ids(proper_noun)
-          STDERR.puts "def_ids: #{def_ids}"
+          #STDERR.puts "def_ids: #{def_ids}"
           unless def_ids.empty? # Proper noun detected
-            STDERR.puts "detected"
+            #STDERR.puts "detected"
             end_token = token
             if at_first_token
               proper_noun_num_tokens = proper_noun_num_tokens + 1
               proper_noun_detected_at_first = true
             end
           end
-          STDERR.puts "out"
+          #STDERR.puts "out"
 
           ids_index = 2
           token_afterwards = token
           token = token.next
           num_tokens = 0
           while token.token_type == :standard
-            STDERR.puts "token2: #{token.text}"
-            STDERR.puts "ids_index:#{ids_index}, ids:#{ids}"
+            #STDERR.puts "token2: #{token.text}"
+            #STDERR.puts "ids_index:#{ids_index}, ids:#{ids}"
             new_ids = @dw.get_proper_nouns_match(token.text, ids_index, ids)
-            STDERR.puts "new_ids:#{new_ids}"
+            #STDERR.puts "new_ids:#{new_ids}"
             if new_ids.empty?
-              STDERR.puts "break"
+              #STDERR.puts "break"
               break
             else # We can follow a proper noun
-              STDERR.puts "follow"
+              #STDERR.puts "follow"
               num_tokens = num_tokens + 1
               proper_noun = proper_noun + " #{token.text}"
               new_def_ids = @dw.get_proper_noun_ids(proper_noun)
-              STDERR.puts "new_def_ids:#{new_def_ids}"
+              #STDERR.puts "new_def_ids:#{new_def_ids}"
               unless new_def_ids.empty? # Longer proper noun detected
-                STDERR.puts "detected"
+                #STDERR.puts "detected"
                 end_token = token
                 def_ids = new_def_ids
                 if at_first_token
@@ -342,13 +342,13 @@ class ProperNounsProcessor
                 token_afterwords = token
               end
             end
-            STDERR.puts "sae"
+            #STDERR.puts "sae"
             token = token.next
             ids_index = ids_index + 1
           end
-          STDERR.puts "token_saída: #{token.text} type: #{token.token_type}"
+          #STDERR.puts "token_saída: #{token.text} type: #{token.token_type}"
           token = token_afterwards
-          STDERR.puts "2 token:#{token.text}"
+          #STDERR.puts "2 token:#{token.text}"
           unless end_token == nil
             end_token_aux = find_last_token(end_token) # try to follow proper noun with standard rules
             end_token = end_token_aux unless end_token_aux == nil
@@ -356,7 +356,7 @@ class ProperNounsProcessor
             token = join_lexicon_proper_noun(start_token, end_token)
             first_token = token if at_first_token
           end
-          STDERR.puts "3 token:#{token.text}"
+          #STDERR.puts "3 token:#{token.text}"
         end # from unless ids.empty?
       elsif token.token_type == :begin_alternative
         while token.token_type != :end_alternative
@@ -404,11 +404,11 @@ class ProperNounsProcessor
   end
 
   def join_lexicon_proper_noun(from, to)
-    STDERR.puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
+    #STDERR.puts "joining lexicon proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     # results = @dw.get_tags_lemmas_emissions(token.text, @candidate_tags)
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
-    STDERR.puts "results: #{results}"
+    #STDERR.puts "results: #{results}"
     if results.empty?
       results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|

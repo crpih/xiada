@@ -24,7 +24,7 @@ class DatabaseWrapper
   end
 
   def get_emissions_info(word, tags)
-    STDERR.puts "word:#{word}, tags:#{tags}"
+    #STDERR.puts "word:#{word}, tags:#{tags}"
     result = Array.new
     if (tags == nil) or (tags.empty?)
       # STDERR.puts "tags nil"
@@ -55,16 +55,16 @@ class DatabaseWrapper
     if result.empty?
       result = @lemmatizer.lemmatize(word, tags)
       result = get_emissions_info(word, tags)
-      # STDERR.puts "result.empty: next result: #{}"
+      #STDERR.puts "result.empty: next result: #{result}"
       if result.empty?
         if (tags == nil) or (tags.empty?)
           suffixes = get_possible_suffixes(word)
           result = get_guesser_result(suffixes, nil, nil)
-          # STDERR.puts "suffixes: #{suffixes} result:#{result}"
+          #STDERR.puts "suffixes: #{suffixes} result:#{result}"
           if (result == nil) or (result.empty?)
             query = "select tk,null,null,log_ak from unigram_frequencies"
             opened_category_regexp = get_opened_category_regexp
-            # STDERR.puts "opened_category_regexp: #{opened_category_regexp}"
+            #STDERR.puts "opened_category_regexp: #{opened_category_regexp}"
             @db.execute(query) do |row|
               result << row if row[0] =~ /#{opened_category_regexp}/
             end
@@ -228,7 +228,7 @@ class DatabaseWrapper
         ids_string = get_possible_ids(ids)
         query = "select id from proper_nouns where #{column_name} = '#{SQLUtils.escape_SQL(proper_noun_component)}' and id in (#{ids_string})"
       end
-      STDERR.puts "query:#{query}"
+      #STDERR.puts "query:#{query}"
       @db.execute(query) do |row|
         result << row[0]
       end
