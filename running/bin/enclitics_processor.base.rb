@@ -48,7 +48,7 @@ class EncliticsProcessor
   end
 
   def try_enclitics(token, inside_alternative)
-    # STDERR.puts "try_enclitics(#{token.text})"
+    STDERR.puts "try_enclitics(#{token.text})"
     some_valid = false
     prev_token = token.prev
     next_token = token.next
@@ -56,6 +56,7 @@ class EncliticsProcessor
     end_alternative_token = Token.new(@sentence.text, nil, :end_alternative, token.from, token.to)
     begin_alternative_token.qualifying_info = token.qualifying_info.clone
     end_alternative_token.qualifying_info = token.qualifying_info.clone
+    STDERR.puts "0 begin_alternative_token.nexts:#{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
     word = token.text
     max_index = word.length - 2
     (0..max_index).each do |index|
@@ -72,10 +73,10 @@ class EncliticsProcessor
         if valid
           some_valid = true
           # Valid enclitics decomposition was found
-          # STDERR.puts "VALID DECOMPOSITION: #{token.text}"
-          # STDERR.puts "verb_part: #{verb_part}"
-          # STDERR.puts "enclitic_part: #{enclitic_part}"
-          # STDERR.puts "verb_tags: #{verb_tags}"
+          STDERR.puts "VALID DECOMPOSITION: #{token.text}"
+          STDERR.puts "verb_part: #{verb_part}"
+          STDERR.puts "enclitic_part: #{enclitic_part}"
+          STDERR.puts "verb_tags: #{verb_tags}"
           # verb_part processing
           # pending: solution for non recovery mode (spanish)???
           recovery = true
@@ -83,6 +84,7 @@ class EncliticsProcessor
           if recovery
             relevant_verb_part_tokens = @enclitics_processor_custom.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
           end
+          STDERR.puts "1 begin_alternative_token.nexts:#{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
 
           # enclitic_part processing
           enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, token.from, token.to, token)
@@ -114,6 +116,7 @@ class EncliticsProcessor
     end # from 0..max_index
     if some_valid
       # insert created new ways inside Sentence structure
+      #STDERR.puts "begin_alternative_token.nexts: #{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
       insert_enclitic_alternatives(token, inside_alternative, begin_alternative_token, end_alternative_token)
     end
   end
@@ -122,9 +125,13 @@ class EncliticsProcessor
   # tokens linked to de verb_part(s) one(s)
   def enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     #STDERR.puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
+    #STDERR.puts "3 begin_alternative_token.nexts:#{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
     relevant_verb_part_tokens.each do |relevant_verb_part_token|
+      #STDERR.puts "relevant_verb_part_token: #{relevant_verb_part_token.text}"
       begin_alternative_token.add_next(relevant_verb_part_token)
       relevant_verb_part_token.add_prev(begin_alternative_token)
+      #STDERR.puts "3b begin_alternative_token.nexts:#{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
+
       prev_token = relevant_verb_part_token
 
       enclitic_elements = split_elements(enclitic_part)
@@ -163,6 +170,11 @@ class EncliticsProcessor
       end
       prev_token.add_next(end_alternative_token)
       end_alternative_token.add_prev(prev_token)
+      # new
+      end_alternative_token.remove_prev(relevant_verb_part_token)
+      relevant_verb_part_token.remove_next(end_alternative_token)
+      # end new
+      #STDERR.puts "4 begin_alternative_token.nexts:#{begin_alternative_token.nexts.size} end_alternative_token.prevs:#{end_alternative_token.prevs.size}"
     end
   end
 
@@ -322,6 +334,8 @@ class EncliticsProcessor
   end
 
   def insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
+    STDERR.puts "insert_enclitic_alternatives_basic: token:#{token.text}, inside_alternative: #{inside_alternative}"
+
     prev_token = token.prevs.keys.first
     next_token = token.nexts.keys.first
     #STDERR.puts "prev_token:#{prev_token.text}"
@@ -349,15 +363,17 @@ class EncliticsProcessor
   end
 
   def insert_enclitic_alternatives(token, inside_alternative, begin_alternative_token, end_alternative_token)
-    # STDERR.puts "insert_enclitic_alternatives: token:#{token.text}, inside_alternative: #{inside_alternative}"
+    STDERR.puts "insert_enclitic_alternatives: token:#{token.text}, inside_alternative: #{inside_alternative}"
+
     preserve_source_token = false
 
     results = @dw.get_emissions_info(token.text, nil)
+    STDERR.puts "results:#{results}"
     preserve_source_token = true unless results.empty?
     if begin_alternative_token.nexts.size == 1 and !preserve_source_token
       insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
     elsif inside_alternative
-      #puts "inside_alternative"
+      STDERR.puts "inside_alternative"
       start_point_token = token
       before_start_point = token
       while start_point_token.token_type != :begin_alternative
@@ -384,14 +400,15 @@ class EncliticsProcessor
       begin_alternative_token.reset_nexts
       end_alternative_token.reset_prevs
     else
+      STDERR.puts "else"
       prev_token = token.prev
       next_token = token.next
       prev_token.reset_nexts
       next_token.reset_prevs
       start_point_token = begin_alternative_token
       finish_point_token = end_alternative_token
-
       if preserve_source_token
+        STDERR.puts "preserve_source_token:#{preserve_source_token}"
         # Insert token in alternatives
         token.reset_prevs
         token.reset_nexts

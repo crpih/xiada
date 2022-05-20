@@ -275,11 +275,11 @@ class ProperNounsProcessor
     proper_noun_num_tokens = 0
 
     token = @sentence.first_token.next
-    STDERR.puts "token0: #{token.text}"
+    #STDERR.puts "token0: #{token.text}"
     while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
       token = token.next
     end
-    STDERR.puts "token1: #{token.text}"
+    #STDERR.puts "token1: #{token.text}"
     unless @sentence.original_first_lower
       if !token.tagged
         if StringUtils.all_lower?(token.text)

@@ -25,6 +25,7 @@ class Viterbi
       #sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
+      #STDERR.puts "tags:#{@tags}"
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
       break if without_suffixes_words_size == without_suffixes_words_new_size
     end
@@ -499,7 +500,8 @@ class Viterbi
     full_window << element # We store current tag and source delta index
 
     while current_delta != nil
-      # STDERR.puts "current_delta_tag: #{current_delta.tag.value}"
+      #STDERR.puts "current_delta_tag: #{current_delta.tag.value}"
+      #STDERR.puts "lemmas:#{current_delta.tag.lemmas}"
       tags_window = update_window(full_window)
       window = convert_window_to_prunning_format(tags_window)
       #print_window(window)
@@ -569,6 +571,7 @@ class Viterbi
     tags_way = Array.new
     full_window.reverse.each do |element|
       element[0].selected = true
+      #STDERR.puts "element[0].selected:#{element[0].selected}"
       tags_way << element[0]
     end
 

@@ -481,13 +481,14 @@ class XMLListener
     @sentence.numerals_processing
     STDERR.puts "Processing enclitics..."
     @sentence.enclitics_processing
-    #@sentence.print(STDERR)
+    @sentence.print(STDERR)
 
     STDERR.puts "Applying Viterbi..."
     #@sentence.print(STDERR)
     viterbi = Viterbi.new(@dw)
     viterbi.run(@sentence)
     #@sentence.print(STDERR)
+    #@sentence.print_reverse
     if @valid_opt
       viterbi.print_best_way_xml_without_alternatives(@xml_values["sentence_tag"][0], @xml_values["expression_tag"][0], @sentence_tag_attributes,
                                                       @xml_values["analysis_tag"][0], @xml_values["analysis_unit_tag"][0],
