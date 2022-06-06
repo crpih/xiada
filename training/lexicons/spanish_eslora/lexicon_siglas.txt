@@ -5,24 +5,37 @@ AENA	NPEL	Aeropuertos Españoles y Navegación Aérea
 AGADER	NPFS	Axencia Galega de Desenvolvemento Rural
 AM	NCFP	amplitude modulation
 AM	NCFS	amplitude modulation
-ARCO	NPEL	Feria Internacional de Arte Contemporáneo
+ARCO	NPES	Feria Internacional de Arte Contemporáneo de Madrid
 ARN	NCMP	ácido ribonucleico
 ARN	NCMS	ácido ribonucleico
+AVE	NCML	Alta Velocidad Española
+AVE	NCMP	Alta Velocidad Española
 AVE	NCMS	Alta Velocidad Española
 AVEs	NCMP	Alta Velocidad Española
 BBC	NPFS	British Broadcasting Corporation
 BBVA	NPMS	Banco de Bilbao Vizcaya
 BENEGÁ	NPMS	Bloque Nacionalista Galego
+BMW	NPEL	Bayerische Motoren Werke
+BMW	NPEP	Bayerische Motoren Werke
+BMW	NPES	Bayerische Motoren Werke
+BMW	NPFL	Bayerische Motoren Werke
+BMW	NPFP	Bayerische Motoren Werke
+BMW	NPFS	Bayerische Motoren Werke
+BMW	NPML	Bayerische Motoren Werke
+BMW	NPMP	Bayerische Motoren Werke
 BMW	NPMS	Bayerische Motoren Werke
 BNG	NPMS	Bloque Nacionalista Galego
 BUP	NPEL	Bachillerato Unificado Polivalente
+BUP	NPMS	Bachillerato Unificado Polivalente
+CAP	NPEL	Curso de Aptitud Pedagógica
 CAP	NPMS	Curso de Aptitud Pedagógica
+CD	NCML	compact disc
 CD	NCMP	compact disc
-CD	NCMS	compact Disc
+CD	NCMS	compact disc
 CD-ROM	NCMP	compact disc-read only memory
 CD-ROM	NCMS	compact disc-read only memory
-CDs	NCMP	compact disc
 CDU	NPMS	Christlich-Demokratische Union Deutschlands
+CDs	NCMP	compact disc
 CEE	NPFS	Comunidad Económica Europea
 CIEMAT	NPMS	Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
 CIF	NCMP	código de identificación fiscal
@@ -33,17 +46,24 @@ CNMV	NPFS	Comisión Nacional del Mercado de Valores
 CO2	NCMS	dióxido de carbono
 CONCACAF	NPFS	Confederation of North, Central American and Caribbean Association Football
 COU	NPEL	Curso de Orientación Universitaria
+COU	NPMS	Curso de Orientación Universitaria
 CPI	NPMS	Centro Público Integrado
 CSI	NPEL	Crime Scene Investigation
+CSI	NPML	Crime Scene Investigation
+CSI	NPMP	Crime Scene Investigation
+CSI	NPMS	Crime Scene Investigation
 CSU	NPMS	Christlich-Soziale Union in Bayern
 DART	NCMS	Dublin Area Rapid Transit
-DEA	NPFS	Drug Enforcement Administration
+DART	NPMS	Dublin Area Rapid Transit
 DEA	NPMS	Diploma de Estudios Avanzados
 DIN	NPMS	Deutsches Institut für Normung
+DJ	NCEL	disc jockey
 DJ	NCEP	disc jockey
 DJ	NCES	disc jockey
+DJ	NCFL	disc jockey
 DJ	NCFP	disc jockey
 DJ	NCFS	disc jockey
+DJ	NCML	disc jockey
 DJ	NCMP	disc jockey
 DJ	NCMS	disc jockey
 DJs	NCEP	disc jockey
@@ -52,46 +72,58 @@ DJs	NCMP	disc jockey
 DLC	NCMS	DownLoadable Content
 DNA	NCMP	deoxyribonucleic acid
 DNA	NCMS	deoxyribonucleic acid
+DNI	NCML	documento nacional de identidad
 DNI	NCMP	documento nacional de identidad
 DNI	NCMS	documento nacional de identidad
 DS	NPEL	Diseño de Software
+DS	NPES	Diseño de Software
 DST	NPMS	Direction de la Surveillance du Territoire
-DVD	NCMP	digital versatil disc
 DVD	NCMP	digital video disc
-DVD	NCMS	digital versatil disc
 DVD	NCMS	digital video disc
 EA	NPMS	Eusko Alkartasuna
 EGB	NPEL	Educación General Básica
+EGB	NPES	Educación General Básica
 EGB	NPFS	Educación General Básica
 EH	NPMS	Euskal Herritarrok
 ENDESA	NPEL	Empresa Nacional de Electricidad Sociedad Anónima
-ESO	NPMS	European Southern Observatory
+ENDESA	NPES	Empresa Nacional de Electricidad Sociedad Anónima
+ESO	NPFS	Educación Secundaria Obligatoria
+ETA	NPES	Euskadi Ta Askatasuna
+ETA	NPFS	Euskadi Ta Askatasuna
 ETA	NPMS	Euskadi Ta Askatasuna
 FAO	NPFS	Organización de las Naciones Unidas para la Alimentación y la Agricultura
 FBI	NPMS	Federal Bureau of Intelligence
 FEGAS	NCFS	Federación Gallega de Actividades Subacuáticas
+FEGAS	NPFS	Federación Gallega de Actividades Subacuáticas
 FIFA	NPFS	Fédération Internationale de Football Association
 FLN	NPMS	Frente Nacional de Liberación
 FM	NCFP	frecuencia modulada
 FM	NCFS	frecuencia modulada
 FOL	NPEL	Formación y Orientación Laboral
 FP	NPEL	Formación Profesional
+FP	NPES	Formación Profesional
 FP	NPFS	Formación Profesional
 FP	NPMS	Formación Profesional
 GEO	NPMP	Grupo Especial de Operación
+GP	NPMS	Gran Premio
 GPS	NCMP	Global Positioning System
 GPS	NCMS	Global Positioning System
 GTI	NPMS	Gran Turismo Inyección
 HB	NPMS	Herri Batasuna
+HD	NPEL	High Definition
 HDL	NCFP	high density lipoprotein
 HDL	NCFS	high density lipoprotein
-HD	NPEL	High Definition
 HIV	NCMP	human immunodeficiency virus
 HIV	NCMS	human immunodeficiency virus
+IBI	NCMS	impuesto sobre bienes inmuebles 
 ICONA	NPMS	Instituto para la Conservación de la Naturaleza
+ID	NCFL	identificación
+ID	NCFP	identificación
+ID	NCFS	identificación
 IES	NPMS	Instituto de Educación Secundaria
 IMSERSO	NPMS	Instituto de Mayores y Servicios Sociales
 INEF	NPEL	Instituto Nacional de Educación Física
+INEF	NPES	Instituto Nacional de Educación Física
 INEM	NPMS	Instituto Nacional de Empleo
 INI	NPMS	Instituto Nacional de Industria
 INSALUD	NPMS	Instituto Nacional da Salud
@@ -115,20 +147,26 @@ LDL	NCMS	low density lipoprotein
 LED	NCMS	light-emitting diode
 LG	NPEL	Lucky Goldstar
 LOL	NPEL	League of Legends
+LOL	NPES	League of Legends
 LOL	NPMS	League of Legends
 LOMCE	NPFS	Ley Orgánica 8/2013 para la mejora de la calidad educativa
+LP	NCML	long play
 LP	NCMP	long play
 LP	NCMS	long play
 MAP	NPFS	Maghreb Arab Press
 MBNA	NPEL	Maryland Bank National Association
+MBNA	NPES	Maryland Bank National Association
 MEC	NPMS	Ministerio de Educación y Cultura
-Mercosur	NPMS	Mercado Común del Sur
 MIR	NCMP	médico interno residente
 MIR	NCMS	médico interno residente
+MP3	NCML	MPEG Audio Layer III
 MP3	NCMP	MPEG Audio Layer III
 MP3	NCMS	MPEG Audio Layer III
 MPDL	NPMS	Movimiento por la Paz, el Desarme y la Libertad
 MTV	NPEL	Music Television
+MTV	NPES	Music Television
+MTV	NPFS	Music Television
+Mercosur	NPMS	Mercado Común del Sur
 NASA	NPFS	National Aeronautics and Space Administration
 NBA	NPFS	National Basketball Association
 NG	NCEL	no grado
@@ -142,31 +180,30 @@ OM	NCFP	onda media
 OM	NCFS	onda media
 OMS	NPFS	Organización Mundial de la Salud
 ONCE	NPFS	Organización Nacional de Ciegos de España
+ONG	NCFL	organización no gubernamental
 ONG	NCFP	organización no gubernamental
 ONG	NCFS	organización no gubernamental
 ONGS	NCFP	organización no gubernamental
 ONU	NPFS	Organización de las Naciones Unidas
+OP	NPFS	Orden de predicadores
 OPA	NCFP	oferta pública de adquisición de acciones
 OPA	NCFS	oferta pública de adquisición de acciones
 OPE	NPFS	Oferta Pública de Empleo
 OPEP	NPFS	Organización de Países Exportadores de Petróleo
-OP	NPFS	Orden de predicadores
 OSA	NPFS	Orden de San Agustín
+OT	NPES	Operación Triunfo
+OT	NPMS	Operación Triunfo
 OTAN	NPFS	Organización del Tratado del Atlántico Norte
 OTI	NPFS	Organización de Televisiones Iberoamericanas
-OT	NPMS	Operación Triunfo
 OX	NPEL	Organización e Xestión
+OX	NPES	Organización e Xestión
 PAN	NPMS	Partido de Acción Nacional
-PAS	NCEL	personal de administración y servicios
-PAS	NCEP	personal de administración y servicios
-PAS	NCES	personal de administración y servicios
-PAS	NCFP	Personal de Administración y Servicios
-PAS	NCFS	Personal de Administración y Servicios
-PAS	NCMP	Personal de Administración y Servicios
-PAS	NCMS	Personal de Administración y Servicios
+PAS	NCMS	personal de administración y servicios
 PC	NCMP	personal computer
 PC	NCMS	personal computer
-Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
+PDF	NCML	Portable Document Format
+PDF	NCMP	Portable Document Format
+PDF	NCMS	Portable Document Format
 PIB	NCMP	producto interior bruto
 PIB	NCMS	producto interior bruto
 PMA	NPMS	Programa Mundial de Alimentos
@@ -175,12 +212,16 @@ POD	NPMS	Plan de Organización Docente
 PP	NPMS	Partido Popular
 PRD	NPMS	Partido de la Revolución Democrática
 PRESEGAL	NPEL	Proyecto para el estudio sociolingüístico del español de Galicia
+PRESEGAL	NPES	Proyecto para el estudio sociolingüístico del español de Galicia
 PRI	NPMS	Partido Revolucionario Institucional
 PSG	NCES	personal de servicios generales
+PSG	NCMS	personal de servicios generales
 PSOE	NPMS	Partido Socialista Obrero Español
 PTD	NPEL	Patología y Terapéutica Dental
+PTD	NPES	Patología y Terapéutica Dental
 PYME	NCFP	pequeña y mediana empresa
 PYME	NCFS	pequeña y mediana empresa
+Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
 RASD	NPFS	República Árabe Saharaui Democrática
 RDC	NPFS	República Democrática del Congo
 RNA	NCMP	ribonucleic acid
@@ -188,36 +229,40 @@ RNA	NCMS	ribonucleic acid
 SAE	NPFS	Sociedad Anónima Española
 SCH	NPMS	Santander Central Hispano
 SD	NPFS	Sociedad Deportiva Compostela
-SERGAS	NPMS	Servicio Gallego de Salud
+SERGAS	NPMS	Servizo Galego de Saúde
+SEU	NPML	Sindicato Español Universitario
+SEU	NPMP	Sindicato Español Universitario
 SEU	NPMS	Sindicato Español Universitario
 SEUs	NPMP	Sindicato Español Universitario
 SGAE	NPFS	Sociedad General de Autores y Editores
-SIDA	NCMS	síndrome de inmunodeficiencia adquirida
-SI	NCMP	sistema internacional de unidades
-SI	NCMS	sistema internacional de unidades
 SI	NPEL	Sistemas Inteligentes
-SI	NPFS	Societatis Iesu
+SIDA	NCMS	síndrome de inmunodeficiencia adquirida
 SJ	NPFS	Societatis Iesu
 SME	NCMP	sistema monetario europeo
 SME	NCMS	sistema monetario europeo
-Sogama	NPEL	Sociedade Galega do Medio Ambiente
 SPD	NPMS	Sozialdemokratische Partei Deutschlands
+Sogama	NPEL	Sociedade Galega do Medio Ambiente
+Sogama	NPES	Sociedade Galega do Medio Ambiente
 TAC	NCMP	tomografía axial computarizada
 TAC	NCMS	tomografía axial computarizada
 TAE	NCFP	tasa anual equivalente
 TAE	NCFS	tasa anual equivalente
+TFG	NCMS	trabajo de fin de grado
 TFG	NPMS	trabajo de fin de grado
+TFNG	NCMS	trabajo de fin de no grado
 TFNG	NPMS	trabajo de fin de no grado
 TIR	NPMP	Transport International Routier
 TIR	NPMS	Transport International Routier
 TNT	NPFS	Turner Network Television
 TOEFL	NPMS	Test of English as a Foreign Language
 UCD	NPFS	Unión de Centro Democrático
+UCI	NCFL	unidad de cuidados intensivos
 UCI	NCFP	unidad de cuidados intensivos
 UCI	NCFS	unidad de cuidados intensivos
 UE	NPFS	Unión Europea
 UFO	NCMP	unidentified flying object
 UFO	NCMS	unidentified flying object
+UGT	NPFS	Unión General de Trabajadores
 UGT	NPMS	Unión General de Trabajadores
 UHF	NCFP	ultra high frequency
 UHF	NCFS	ultra high frequency
@@ -228,11 +273,15 @@ UPG	NPFS	Unión do Pobo Galego
 URSS	NPFS	Unión de Repúblicas Socialistas Soviéticas
 USA	NPMS	United States of America
 USB	NPEL	Universal Serial Bus
+USB	NPML	universal serial bus
+USB	NPMP	universal serial bus
+USB	NPMS	universal serial bus
 USC	NPFS	Universidad de Santiago de Compostela
 UVI	NCFP	unidad de vigilancia intensiva
 UVI	NCFS	unidad de vigilancia intensiva
 VHF	NCFP	very high frequency
 VHF	NCFS	very high frequency
+VHS	NCML	video home system
 VHS	NCMP	video home system
 VHS	NCMS	video home system
 VIH	NCMP	virus de inmunodeficiencia humana
@@ -240,4 +289,3 @@ VIH	NCMS	virus de inmunodeficiencia humana
 VIP	NCMP	very important person
 VIP	NCMS	very important person
 VLT	NPMS	Very Large Telescope
-SEU	NPMP	Sindicato Español Universitario

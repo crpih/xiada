@@ -2,6 +2,7 @@ a desmano	W	a desmano
 a granel	W	a granel
 aire acondicionado	NCMS	aire acondicionado
 a el chou	W	a el chou
+a lo mejor	W	a lo mejor
 a posteriori	W	a posteriori
 a priori	W	a priori
 a raja tabla	W	a raja tabla

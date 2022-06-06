@@ -107,14 +107,14 @@ Emilio	NPMS	Emilio
 Empresariales	NPEL	Empresariales
 Empresas	NPEL	Empresas
 Erasmus	NPEL	Erasmus
-ESO	NPMS	European Southern Observatory
+ESO	NPMS	Enseñanza Secundaria Obligatoria
 España	NPEL	España
 Estado	NPMS	Estado
 Estados Unidos	NPEL	Estados Unidos
 ETA	NPMS	Euskadi Ta Askatasuna
 Europa	NPEL	Europa
 Europa	NPFS	Europa
-European Southern Observatory	NPMS	European Southern Observatory
+Enseñanza Secundaria Obligatoria	NPMS	Enseñanza Secundaria Obligatoria
 Euskadi Ta Askatasuna	NPMS	Euskadi Ta Askatasuna
 Euskal Herritarrok	NPMS	Euskal Herritarrok
 Eusko Alkartasuna	NPMS	Eusko Alkartasuna
