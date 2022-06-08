@@ -20,7 +20,7 @@ module LemmatizerSpanishEslora
 
     if word =~ /^super/
       new_word = word.gsub(/^super/,'')
-      return @dw.get_emissions_info(new_word, ['A*','W']) if new_word != word
+      return @dw.get_emissions_info(new_word, ['A*','W','VP*']) if new_word != word
     end
 
     # hiper + ísimo: TODO
