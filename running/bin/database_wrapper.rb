@@ -54,7 +54,7 @@ class DatabaseWrapper
     result = get_emissions_info(word, tags)
     if result.empty?
       result = @lemmatizer.lemmatize(word, tags)
-      result = get_emissions_info(word, tags)
+      # result = get_emissions_info(word, tags)
       # STDERR.puts "result.empty: next result: #{}"
       if result.empty?
         if (tags == nil) or (tags.empty?)
