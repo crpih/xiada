@@ -19,7 +19,9 @@ class NumeralsProcessor
   end
   
   def process
-    process_ordinals
+    # TODO: ordinals can't be joined: primer segundo must be separated
+    # IDEA: Treat the same way than cardinals (generated lexicon)
+    # process_ordinals
     process_numbers
     process_cardinals
   end
