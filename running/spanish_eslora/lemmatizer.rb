@@ -2,7 +2,7 @@
 
 module LemmatizerSpanishEslora
   def lemmatize(word, tags)
-    # STDERR.puts "(lemmatize) word: #{word}"
+    #STDERR.puts "(lemmatize) word: #{word}"
     # ito/ita/itos/itas suffix treatment
 #    if word != /áéíóú/ and word =~ /it([oa]s?)$/
 ##      # cito/cita/citos/citas
@@ -329,7 +329,7 @@ module LemmatizerSpanishEslora
       end
       #if word =~ /ghit[oa]s?$/
       #  # amighitas => amigas
-      result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['N*','A*','VP*']))
+      #result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['N*','A*','VP*']))
       ##  new_word = word.gsub(/ghit([oa]s?)$/,'g\1')
       #  return result unless result.empty?
       #end
@@ -374,6 +374,7 @@ module LemmatizerSpanishEslora
       end
       if word =~ /sit[oa]s?$/ and word !~ /uesit[oa]s?$/
         # camisitas => camisas
+        # besitos => besos
         new_word = word.gsub(/sit([oa]s?)$/,'s\1')
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['N*','A*','VP*']))
         return result unless result.empty?
