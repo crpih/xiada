@@ -122,6 +122,7 @@ class EncliticsProcessor
   # tokens linked to de verb_part(s) one(s)
   def enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     #STDERR.puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
+    end_alternative_token.reset_prevs
     relevant_verb_part_tokens.each do |relevant_verb_part_token|
       begin_alternative_token.add_next(relevant_verb_part_token)
       relevant_verb_part_token.add_prev(begin_alternative_token)
