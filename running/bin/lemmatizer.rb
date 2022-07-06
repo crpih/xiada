@@ -10,7 +10,8 @@ class Lemmatizer
   end
 
   def lemmatize(word, tags)
-    return word ? word : "*"
+    return []
+    #return word ? word : "*"
   end
 
   def lemmatize_verb_with_enclitics(left_part)
