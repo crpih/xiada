@@ -4,6 +4,7 @@ require_relative "../../lib/string_utils.rb"
 module LemmatizerGalicianXiada
 
   def lemmatize(word, tags)
+    STDERR.puts "lemmatize:#{word}"
     # mente suffix treatment
     return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
@@ -435,8 +436,9 @@ module LemmatizerGalicianXiada
 
     # gh treatment
     if word =~ /gh/
+
       new_word = word.gsub(/gh/,'g')
-      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*'])
+      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
     end
 
     []
