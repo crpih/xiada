@@ -56,6 +56,7 @@ class EncliticsProcessor
     end_alternative_token = Token.new(@sentence.text, nil, :end_alternative, token.from, token.to)
     begin_alternative_token.qualifying_info = token.qualifying_info.clone
     end_alternative_token.qualifying_info = token.qualifying_info.clone
+    end_alternative_token.nexts_ignored = token.nexts_ignored.clone
     word = token.text
     max_index = word.length - 2
     (0..max_index).each do |index|
@@ -355,6 +356,7 @@ class EncliticsProcessor
     begin_alternative_token.nexts.keys.first.reset_prevs
     begin_alternative_token.nexts.keys.first.add_prev(prev_token)
 
+    end_alternative_token.prevs.keys.first.nexts_ignored = end_alternative_token.nexts_ignored.clone
     next_token.add_prev(end_alternative_token.prevs.keys.first)
     #STDERR.puts "next_token.prev: #{end_alternative_token.prevs.keys.first.text}"
     end_alternative_token.prevs.keys.first.reset_nexts
