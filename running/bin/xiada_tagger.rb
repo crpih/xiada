@@ -48,7 +48,7 @@ class XiadaTagger
       $stdout = orig_stdout
     elsif @options[:socket]
       puts "Litening on socket: #{@options[:socket]}"
-      hostname = "localhost"
+      hostname = "127.0.0.1"
       server = TCPServer.new(hostname, @options[:socket])
       while (socket = server.accept)
         if (sentence = socket.gets)
