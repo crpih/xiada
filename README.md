@@ -158,3 +158,14 @@ Or, as the output of the tagger is not very nice (it is not indented), we use to
 
     ruby running/bin/xiada_tagger.rb -v -x running/spanish_eslora/xml_values.txt -f input.xml training/databases/spanish_eslora/training_spanish_eslora.db | xmllint --format - > output.xml
 
+## Build docker image
+
+Build image with:
+
+```bash
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger:latest .
+```
+
+Existing training databases are copied inside the image.
+Por 4000 is exposed.
+`XIADA_PROFILE` must be defined to run the container. 
