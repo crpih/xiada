@@ -12,6 +12,14 @@ COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
 RUN --mount=type=ssh bundle install
 
+ARG XIADA_PROFILE
+ARG XIADA_DATABASE=$XIADA_PROFILE
+
+ENV XIADA_PROFILE=$XIADA_PROFILE
+ENV XIADA_DATABASE=$XIADA_DATABASE
+
 COPY . /myapp
 EXPOSE 4000
-CMD ruby running/bin/xiada_tagger.rb -s 4000 training/databases/${XIADA_PROFILE}/training_${XIADA_PROFILE}_escrita.db
+CMD ruby running/bin/xiada_tagger.rb \
+    -x running/${XIADA_PROFILE}/xml_values.txt \
+    -s 4000 training/databases/${XIADA_PROFILE}/training_${XIADA_DATABASE}.db

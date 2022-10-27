@@ -80,8 +80,8 @@ class Viterbi
           else
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
-            result = result + "\t#{lemma}"
-            result = result + "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
+            result += "\t#{lemma}\t#{tag.token.get_unit}\t#{tag.token.from}\t#{tag.token.to}"
+            result += "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
           end
           result = result + "\t\t"
         end
