@@ -51,14 +51,21 @@ class XiadaTagger
       hostname = "0.0.0.0"
       server = TCPServer.new(hostname, @options[:socket])
       while (socket = server.accept)
-        if (command = socket.gets)
-          command.chomp!
+        trained_proper_nouns = {}
+        loop do
+          command = socket.gets
+          command&.chomp!
           if command == 'TRAIN_PROPER_NOUNS'
             listener = XMLListenerTrainProperNouns.new(@xml_values, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash)
             REXML::Document.parse_stream(socket, listener)
             trained_proper_nouns = listener.get_trained_proper_nouns
+          elsif command.nil? || command == 'CLOSE'
+            socket.close
+            break
           else
             sentence = socket.gets
+            next if sentence.nil?
+
             sentence.chomp!
             result = nil
             if command == 'ONLY_UNITS'
@@ -68,7 +75,6 @@ class XiadaTagger
             end
             socket.puts(result)
           end
-          socket.close
         end
       end
     else
@@ -190,7 +196,7 @@ class XiadaTagger
     #sentence.add_chunk(encoded_line,nil,nil,nil,nil)
     sentence.add_chunk(line, nil, nil, nil, nil)
     sentence.finish
-    sentence.contractions_processing
+    sentence.contractions_processing unless remove_join
     sentence.idioms_processing unless remove_join # Must be processed before numerals
     sentence.proper_nouns_processing(trained_proper_nouns, remove_join)
     sentence.numerals_processing
