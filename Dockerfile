@@ -17,9 +17,11 @@ ARG XIADA_DATABASE=$XIADA_PROFILE
 
 ENV XIADA_PROFILE=$XIADA_PROFILE
 ENV XIADA_DATABASE=$XIADA_DATABASE
+ENV XIADA_OPTIONS=''
 
 COPY . /myapp
 EXPOSE 4000
 CMD ruby running/bin/xiada_tagger.rb \
     -x running/${XIADA_PROFILE}/xml_values.txt \
-    -s 4000 training/databases/${XIADA_PROFILE}/training_${XIADA_DATABASE}.db
+    -s 4000 training/databases/${XIADA_PROFILE}/training_${XIADA_DATABASE}.db \
+    ${XIADA_OPTIONS}
