@@ -2,6 +2,8 @@ all: clean galician_xiada spanish_eslora
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
+galician_palmed: clean_galician_palmed galician_palmed
+
 spanish_eslora: clean_spanish_eslora spanish_eslora_oral
 
 tagset_evaluation: clean_tagset_evaluation tagset_evaluation_default
@@ -10,6 +12,11 @@ galician_xiada_escrita:
 	rm -f ../databases/galician_xiada/training_galician_xiada_escrita.db
 	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_escrita; cd ../../bin
+
+galician_palmed:
+	rm -f ../databases/galician_palmed/training_galician_palmed.db
+	ruby xiada_training.rb ../corpus/galician_palmed/corpus_xiada_escrita.tagged ../databases/galician_palmed/training_galician_palmed.db ../corpus/galician_palmed/tags_info.txt ../lexicons/galician_palmed/lexicon_principal.txt
+	cd ../lexicons/bin; make galician_palmed; cd ../../bin
 
 galician_xiada_oral:
 	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal.txt
@@ -39,12 +46,15 @@ tagset_evaluation_default:
 	ruby xiada_training.rb ../corpus/tagset_evaluation/corpus_tagset_evaluation.tagged ../databases/tagset_evaluation/training_tagset_evaluation.db ../corpus/tagset_evaluation/tags_info.txt ../lexicons/tagset_evaluation/lexicon_principal.txt
 	cd ../lexicons/bin; make tagset_evaluation; cd ../../bin
 
-clean: clean_galician_xiada clean_spanish_eslora
+clean: clean_galician_xiada clean_spanish_eslora clean_galician_palmed
 	find .. -name "*~" | xargs rm -f
 
 clean_galician_xiada:
 	rm -f ../databases/galician_xiada/*.db
 	rm -f ../databases/galician_xiada_oral/*.db
+
+clean_galician_palmed:
+	rm -f ../databases/galician_palmed/*.db
 
 clean_spanish_eslora:
 	rm -f ../databases/spanish_eslora/*.db
