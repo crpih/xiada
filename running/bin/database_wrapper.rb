@@ -43,6 +43,19 @@ class DatabaseWrapper
     return result
   end
 
+  def get_emissions_info_variants(word, tags, variants)
+    result = get_emissions_info(word, tags)
+    if result.empty?
+      variants.each do |variant|
+        if variant
+          result = get_emissions_info(variant, tags)
+          return result unless result.empty?
+        end
+      end
+    end
+    return result
+  end
+
   def get_tags_lemmas_emissions_strict(word, tags)
     # this function doen't check for suffix analysis nor open tags.
     return get_emissions_info(word, tags)
