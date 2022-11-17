@@ -438,10 +438,10 @@ module LemmatizerGalicianXiada
     if word =~ /gh/
       if word =~ /gh[aou]/
         new_word = word.gsub(/gh/,'g')
-        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
+        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','I*','R*'])
       elsif word =~ /gh[ei]/
         new_word = word.gsub(/gh/,'gu')
-        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
+        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','I*','R*'])
       end
     end
 
