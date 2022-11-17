@@ -6,7 +6,6 @@ module LemmatizerGalicianXiada
   def lemmatize(word, tags)
     STDERR.puts "lemmatize:#{word}"
 
-    STDERR.puts "word:#{word}"
     # mente suffix treatment
     return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
@@ -438,6 +437,7 @@ module LemmatizerGalicianXiada
 
     # gh treatment
     if word =~ /gh/
+      STDERR.puts "GHEADA"
       if word =~ /gh[aou]/
         new_word = word.gsub(/gh/,'g')
         return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','I*','R*'])
