@@ -5,6 +5,8 @@ module LemmatizerGalicianXiada
 
   def lemmatize(word, tags)
     STDERR.puts "lemmatize:#{word}"
+
+    STDERR.puts "word:#{word}"
     # mente suffix treatment
     return replace_hiperlemmas(@dw.get_guesser_result("'mente'", word, ['W*']), nil, word) if word =~ /mente$/
 
@@ -360,11 +362,11 @@ module LemmatizerGalicianXiada
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
         return result unless result.empty?
       end
-#      if word =~ /ghiñ[oa]s?$/
-#        # amighiñas => amigas
-#        new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
-#        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
-#        return result unless result.empty?
+      if word =~ /ghiñ[oa]s?$/
+        # amighiñas => amigas
+        new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
+        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
+         return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
         # cadradiños => cadrados
