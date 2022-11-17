@@ -360,11 +360,11 @@ module LemmatizerGalicianXiada
         result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
         return result unless result.empty?
       end
-      if word =~ /ghiñ[oa]s?$/
-        # amighiñas => amigas
-        new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
-        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
-        return result unless result.empty?
+#      if word =~ /ghiñ[oa]s?$/
+#        # amighiñas => amigas
+#        new_word = word.gsub(/ghiñ([oa]s?)$/,'g\1')
+#        result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['S*','A*','V0p0*']))
+#        return result unless result.empty?
       end
       if word =~ /diñ[oa]s?$/ and word !~ /ndiñ[oa]s?$/
         # cadradiños => cadrados
@@ -436,9 +436,13 @@ module LemmatizerGalicianXiada
 
     # gh treatment
     if word =~ /gh/
-
-      new_word = word.gsub(/gh/,'g')
-      return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
+      if word =~ /gh[aou]/
+        new_word = word.gsub(/gh/,'g')
+        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
+      elsif word =~ /gh[ei]/
+        new_word = word.gsub(/gh/,'gu')
+        return @dw.get_emissions_info(new_word, ['Sc*','A*','V*','W*','N*','Y*','Z*','I*','R*'])
+      end
     end
 
     []
@@ -459,8 +463,12 @@ module LemmatizerGalicianXiada
     # STDERR.puts "lemmatize_verb_with_enclitics: #{left_part}"
     # gh treatment
     if left_part =~ /gh/
-      new_left_part = left_part.gsub(/gh/,'g')
-      return new_left_part
+      if left_part =~ /gh[aou]/
+        new_left_part = left_part.gsub(/gh/,'g')
+        return new_left_part
+      elsif left_part =~/gh[ei]/
+        new_left_part = left_part.gsub(/gh/,'gu')
+      end
     # auto treatment
     elsif left_part =~ /^autorr/
       new_left_part = left_part.gsub(/^autor/,'')
@@ -477,7 +485,12 @@ module LemmatizerGalicianXiada
     #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
     # gh treatment
     if original_left_part =~ /gh/
-      new_left_part = left_part.gsub(/g/,'gh')
+      if left_part =~ /gh[aou]/
+        new_left_part = left_part.gsub(/gh/,'g')
+        return new_left_part
+      elsif left_part =~/gh[ei]/
+        new_left_part = left_part.gsub(/gh/,'gu')
+      end
       return new_left_part
     # auto treatment
     elsif original_left_part =~/^autorr/
