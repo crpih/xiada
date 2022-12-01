@@ -5065,7 +5065,7 @@ parecen	Vpi30p	parecer
 definitivos	A0mp	definitivo
 e	Cc	e
 a o cabo de	Lp0	a o cabo de
-os	Ddms	o
+os	Ddmp	o
 anos	Scmp	ano
 esvaen	Vpi30p	esvaer
 se	Rao3aa	se
@@ -11785,8 +11785,7 @@ vén	Vpi30s	vir
 de	P	de
 ser	V0f000	ser
 elixido	V0p0ms	elixir
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 novo	A0ms	novo
@@ -19680,9 +19679,7 @@ obra	Scfs	obra
 de	P	de
 outro	Idms	outro
 instrumento	Scms	instrumento
-en	P	en
-base	Scfs	base
-a	P	a
+en base a	Lp0	en base a
 un	Dims	un
 feito	Scms	feito
 :	Q:	:
@@ -29480,7 +29477,7 @@ actuar	V0f000	actuar
 .	Q.	.
 
 poño	Vpi10s	poñer
-lles	Rad3ms	lle
+lles	Rad3mp	lle
 a	Ddfs	o
 gorra	Scfs	gorra
 e	Cc	e
@@ -48146,8 +48143,7 @@ xustiza	Scfs	xustiza
 
 Marisol López	Spf0	Marisol López
 ,	Q,	,
-secretaria	Scfs	secretario
-xeral	A0fs	xeral
+secretaria xeral	Scfs	secretario xeral
 de	P	de
 Política Lingüística	Sp00	Política Lingüística
 
@@ -56307,15 +56303,11 @@ breve	A0fs	breve
 que	Tnfs	que
 se	Rao3aa	se
 le	Vpi30s	ler
-de	P	de
-un	Dims	un
-tirón	Scms	tirón
+de un tirón	La0	de un tirón
 .	Q.	.
 
 "	Q"	"
-de	P	de
-un	Dims	un
-tirón	Scms	tirón
+de un tirón	La0	de un tirón
 "	Q"	"
 non	Wn	non
 equivale	Vpi30s	equivaler
@@ -66456,8 +66448,7 @@ gases	Scmp	gas
 que	Tnmp	que
 producen	Vpi30p	producir
 o	Ddms	o
-efecto	Scms	efecto
-invernadoiro	Scms	invernadoiro
+efecto invernadoiro	Scms	efecto invernadoiro
 .	Q.	.
 
 entre	P	entre
@@ -69751,9 +69742,7 @@ interesados	V0p0mp	interesar
 en	P	en
 esta	Edfs	este
 solicitude	Scfs	solicitude
-en	P	en
-base	Scfs	base
-a	P	a
+en base a	Lp0	en base a
 que	Cs	que
 .	Q.	.
 
@@ -78391,8 +78380,7 @@ global	A0ms	global
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 ONU	Zgfs	ONU
@@ -87366,8 +87354,7 @@ a	Ddfs	o
 renuncia	Scfs	renuncia
 de	P	de
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSdeG	Zgms	PSdeG
@@ -87970,8 +87957,7 @@ de	P	de
 a	Ddfs	o
 Xunta	Spfs	Xunta
 e	Cc	e
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 os	Ddmp	o
 socialistas	Scmp	socialista
@@ -102082,8 +102068,7 @@ a	Ddfs	o
 intervención	Scfs	intervención
 de	P	de
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSdeG	Zgms	PSdeG
@@ -103449,8 +103434,7 @@ lixo	Scms	lixo
 "	Q"	"
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Vicepresidencia	Spfs	Vicepresidencia
@@ -103524,8 +103508,7 @@ de	P	de
 San Caetano	Sp00	San Caetano
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 e	Cc	e
 de	P	de
 Relacións Institucionais	Sp00	Relacións Institucionais
@@ -103668,8 +103651,7 @@ en	P	en
 A Pobra do Caramiñal	Sp00	A Pobra do Caramiñal
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 afirmou	Vei30s	afirmar
 que	Cs	que
 se	Cs	se
@@ -104068,8 +104050,7 @@ nervios	Scmp	nervio
 "	Q"	"
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PPdeG	Zgms	PPdeG
@@ -104165,8 +104146,7 @@ o	Ddms	o
 comportamento	Scms	comportamento
 de	P	de
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Vicepresidencia	Spfs	Vicepresidencia
@@ -104273,8 +104253,7 @@ por	P	por
 parte	Scfs	parte
 de	P	de
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 xa que	Lcs	xa que
 as	Ddfp	o
 afirmacións	Scfp	afirmación
@@ -107866,8 +107845,7 @@ Pilar Bardem	Spf0	Pilar Bardem
 ademais	Wn	ademais
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PP	Zgms	PP
@@ -108046,8 +108024,7 @@ súa	Md3sfs	seu
 banda	Scfs	banda
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PP	Zgms	PP
@@ -110331,8 +110308,7 @@ Península	Spfs	Península
 .	Q.	.
 
 a	Ddfs	o
-secretaria	Scfs	secretario
-xeral	A0fs	xeral
+secretaria xeral	Scfs	secretario xeral
 de	P	de
 Política Lingüística	Sp00	Política Lingüística
 de	P	de
@@ -111513,8 +111489,7 @@ por	P	por
 los	Ddmp	o
 gases	Scmp	gas
 de	P	de
-efecto	Scms	efecto
-invernadoiro	Scms	invernadoiro
+efecto invernadoiro	Scms	efecto invernadoiro
 ,	Q,	,
 producidos	V0p0mp	producir
 por	P	por
@@ -116646,8 +116621,7 @@ mesma	Idfs	mesmo
 liña	Scfs	liña
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PP	Zgms	PP
@@ -117725,8 +117699,7 @@ modernizan	Vpi30p	modernizar
 "	Q"	"
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Asociación Unificada da Garda Civil	Spfs	Asociación Unificada da Garda Civil
@@ -120395,10 +120368,7 @@ o	Ddms	o
 que	Tnms	que
 o	Raa3ms	o
 levou	Vei30s	levar
-a	P	a
-a	Ddfs	o
-súa	Md3sfs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 a	P	a
 desempeñar	V0f000	desempeñar
 cargos	Scmp	cargo
@@ -125645,10 +125615,7 @@ numerosos	A0mp	numeroso
 factores	Scmp	factor
 ,	Q,	,
 que	Tnmp	que
-a	P	a
-a	Ddfs	o
-súa	Md3pfs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 afectaron	Vei30p	afectar
 a	P	a
 o	Ddms	o
@@ -133370,8 +133337,7 @@ que	Tnfp	que
 merecen	Vpi30p	merecer
 ser	V0f000	ser
 escoitadas	V0p0fp	escoitar
-en	P	en
-silencio	Scms	silencio
+en silencio	La0	en silencio
 .	Q.	.
 
 butacas	Scfp	butaca
@@ -135359,8 +135325,7 @@ Marrocos	Sp00	Marrocos
 listas	A0fp	listo
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 Pesca Marítima	Sp00	Pesca Marítima
 ,	Q,	,
@@ -136482,8 +136447,7 @@ as	Ddfp	o
 intervirán	Vfi30p	intervir
 Xosé Vicente	Spm0	Xosé Vicente
 ,	Q,	,
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 ;	Q;	;
 e	Cc	e
 Anxo Quintana	Spm0	Anxo Quintana
@@ -136513,8 +136477,7 @@ as	Ddfp	o
 intervirán	Vfi30p	intervir
 o	Ddms	o
 novo	A0ms	novo
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 e	Cc	e
 Francisco Jorquera	Spm0	Francisco Jorquera
 ,	Q,	,
@@ -137258,8 +137221,7 @@ a	Ddfs	o
 Unidade Muller e Ciencia	Spfs	Unidade Muller e Ciencia
 
 a	Ddfs	o
-secretaria	Scfs	secretario
-xeral	A0fs	xeral
+secretaria xeral	Scfs	secretario xeral
 de	P	de
 Igualdade	Sp00	Igualdade
 ,	Q,	,
@@ -140570,8 +140532,7 @@ a	Ddfs	o
 reunión	Scfs	reunión
 de	P	de
 a	Ddfs	o
-secretaria	Scfs	secretario
-xeral	A0fs	xeral
+secretaria xeral	Scfs	secretario xeral
 de	P	de
 Política Lingüística	Sp00	Política Lingüística
 ,	Q,	,
@@ -140875,8 +140836,7 @@ Callón	Sp00	Callón
 discrepou	Vei30s	discrepar
 de	P	de
 a	Ddfs	o
-secretaria	Scfs	secretario
-xeral	A0fs	xeral
+secretaria xeral	Scfs	secretario xeral
 e	Cc	e
 censurou	Vei30s	censurar
 que	Cs	que
@@ -146178,8 +146138,7 @@ fronte a	Lp0	fronte a
 isto	Enns	este
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 Partido Popular	Spms	Partido Popular
@@ -147693,8 +147652,7 @@ Tribunal	Spms	Tribunal
 mentres	Wn	mentres
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PP	Zgms	PP
@@ -147803,8 +147761,7 @@ CEP	Zg00	CEP
 ,	Q,	,
 o	Ddms	o
 seu	Md3sms	seu
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 ,	Q,	,
 Ignacio López	Spm0	Ignacio López
 ,	Q,	,
@@ -149322,8 +149279,7 @@ caso	Scms	caso
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 Nacións Unidas	Sp00	Nacións Unidas
 ,	Q,	,
@@ -171340,10 +171296,7 @@ a	Ddfs	o
 Asociación Internacional para Microbicidas	Spfs	Asociación Internacional para Microbicidas
 .	Q.	.
 
-a	P	a
-a	Ddfs	o
-súa	Md3sfs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 ,	Q,	,
 España	Sp00	España
 colabora	Vpi30s	colaborar
@@ -173504,10 +173457,7 @@ o	Ddms	o
 Regiac	Zgms	Regiac
 que	Tnms	que
 ,	Q,	,
-a	P	a
-a	Ddfs	o
-súa	Md3sfs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 ,	Q,	,
 remitirá	Vfi30s	remitir
 un	Dims	un
@@ -174064,7 +174014,7 @@ o	Ddms	o
 golfiño	Scms	golfiño
 mular	A0ms	mular
 (	Q(	(
-Tursiops Truncatus	Sp00	Tursiops Truncatus
+Tursiops Truncatus	Snaa	Tursiops Truncatus
 )	Q)	)
 ten	Vpi30s	ter
 unha	Difs	un
@@ -183765,8 +183715,7 @@ lle	Rad3ms	lle
 onte	Wn	onte
 a	P	a
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 ONU	Zgfs	ONU
@@ -183917,8 +183866,7 @@ anunciou	Vei30s	anunciar
 lle	Rad3ms	lle
 a	P	a
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 ONU	Zgfs	ONU
@@ -186137,8 +186085,7 @@ mentres que	Lcs	mentres que
 portarán	Vfi30p	portar
 metralladoras	Scfp	metralladora
 e	Cc	e
-chalecos	Scmp	chaleco
-antibalas	A0mp	antibalas
+chalecos antibalas	Scmp	chaleco antibalas
 cando	Wr	cando
 estean	Vps30p	estar
 apostados	A0mp	apostado
@@ -189425,8 +189372,7 @@ mostrou	Vei30s	mostrar
 perigo	Scms	perigo
 en	P	en
 os	Ddmp	o
-tiros	Scmp	tiro
-libres	A0mp	libre
+tiros libres	Scmp	tiro libre
 con	P	con
 Sergio	Spm0	Sergio
 ,	Q,	,

@@ -1,8 +1,8 @@
-a a beira de	Lp0	a a beira de	a a beira de
 a a beira	La0	a a beira	a a beira
+a a beira de	Lp0	a a beira de	a a beira de
 a a ceavoga	La0	a a ceavoga	a a ceavoga
-a a fin e a o cabo	La0	a a fin e a o cabo	a a fin e a o cabo
 a a fin	La0	a a fin	a a fin
+a a fin e a o cabo	La0	a a fin e a o cabo	a a fin e a o cabo
 a a forza	La0	a a forza	a a forza
 a a longa	La0	a a longa	a a longa
 a a marxe	La0	a a marxe	a a marxe
@@ -36,7 +36,6 @@ a contragusto	La0	a contragusto	a contragusto
 a contrapelo	La0	a contrapelo	a contrapelo
 a correr	La0	a correr	a correr
 a costa de	Lp0	a costa de	a a custa de
-acto seguido	La0	acto seguido	acto seguido
 a dereitas	La0	a dereitas	a dereitas
 a diario	La0	a diario	a diario
 a diferencia de	Lp0	a diferencia de	a diferenza de
@@ -45,14 +44,11 @@ a duras penas	La0	a duras penas	a duras penas
 a escuso	La0	a escuso	a escuso
 a excepción de	Lp0	a excepción de	a excepción de
 a feito	La0	a feito	a feito
-a fin de contas	La0	a fin de contas	a fin de contas
 a fin de	Lp0	a fin de	a fin de
+a fin de contas	La0	a fin de contas	a fin de contas
 a fondo	La0	a fondo	a fondo
 a forza de	Lp0	a forza de	a forza de
-agora ben	Lcs	agora ben	agora ben
-agora que	Lcs	agora que	agora que
 a gusto	La0	a gusto	a gusto
-alto o fogo	Scms	alto o fogo	alto o fogo
 a maiores	La0	a maiores	a maiores
 a mais	Lcc	a mais	e mais
 a medida que	Lcs	a medida que	a medida que
@@ -68,8 +64,8 @@ a o contrario	La0	a o contrario	a o contrario
 a o cuberto	La0	a o cuberto	a cuberto
 a o dereito	La0	a o dereito	a o dereito
 a o descuberto	La0	a o descuberto	a o descuberto
-a o fin e a o cabo	La0	a o fin e a o cabo	a a fin e a o cabo
 a o fin	La0	a o fin	a o fin
+a o fin e a o cabo	La0	a o fin e a o cabo	a a fin e a o cabo
 a o lado	La0	a o lado	a o lado
 a o longo de	Lp0	a o longo de	a o longo de
 a o lonxe	La0	a o lonxe	a o lonxe
@@ -77,38 +73,48 @@ a o mellor	La0	a o mellor	a o mellor
 a o menos	La0	a o menos	a o menos
 a o momentiño	La0	a o momento	a o momento
 a o momento	La0	a o momento	a o momento
+a o par	La0	a o par	a o par
 a o par de	Lp0	a o par de	a o par de
 a o parecer	La0	a o parecer	a o parecer
-a o par	La0	a o par	a o par
-a o pé de	Lp0	a o pé de	a o pé de
-a o pé	La0	a o pé	a o pé
 a o pouco	La0	a o pouco	a o pouco
 a o primeiro	La0	a o primeiro	a o primeiro
+a o pé	La0	a o pé	a o pé
+a o pé de	Lp0	a o pé de	a o pé de
 a o quite	La0	a o quite	a o quite
 a o raro	La0	a o raro	a o raro
 a o redor de	Lp0	a o redor de	a o redor de
-a o respecto de	Lp0	a o respecto de	a respecto de
 a o respecto	La0	a o respecto	a o respecto
+a o respecto de	Lp0	a o respecto de	a respecto de
 a o revés	La0	a o revés	a o revés
-a os poucos	La0	a os poucos	a os poucos
-a os pouquiños	La0	a os poucos	a os poucos
 a o tanto	La0	a o tanto	a o tanto
 a o xeito	La0	a o xeito	a o xeito
+a os poucos	La0	a os poucos	a os poucos
+a os pouquiños	La0	a os poucos	a os poucos
 a par de	Lp0	a par de	a par de
-a pé	La0	a pé	a pé
 a penas	La0	a penas	apenas
 a penas	Lcs	a penas	apenas
 a pouco que	Lcs	a pouco que	a pouco que
 a pre	La0	a pre	a pre
 a propósito	La0	a propósito	a propósito
 a punto	La0	a punto	a punto
-a raíz de	Lp0	a raíz de	a raíz de
+a pé	La0	a pé	a pé
 a rastro	La0	a rastro	a rastro
 a razón de	Lp0	a razón de	a razón de
+a raíz de	Lp0	a raíz de	a raíz de
 a rebolos	La0	a rebolos	a rebolos
 a rente de	Lp0	a rente de	a rentes de
 a respecto de	Lp0	a respecto de	a respecto de
 a rolos	La0	a rolos	a rolos
+a son	La0	a son	a son
+a tal hora	La0	a tal hora	a tal hora
+a tempo	La0	a tempo	a tempo
+a toda costa	La0	a toda costa	a toda costa
+a través	La0	a través	a través
+a un tempo	La0	a un tempo	a un tempo
+acto seguido	La0	acto seguido	acto seguido
+agora ben	Lcs	agora ben	agora ben
+agora que	Lcs	agora que	agora que
+alto o fogo	Scms	alto o fogo	alto o fogo
 arredor de	Lp0	arredor de	arredor de
 así a todo	La0	así a todo	así e todo
 así como	Lcs	así como	así como
@@ -116,12 +122,6 @@ así e todo	La0	así e todo	así e todo
 así mesmo	La0	así mesmo	así mesmo
 así pois	La0	así pois	así pois
 así que	Lcs	así que	así que
-a son	La0	a son	a son
-a tal hora	La0	a tal hora	a tal hora
-a tempo	La0	a tempo	a tempo
-a toda costa	La0	a toda costa	a toda costa
-a través	La0	a través	a través
-a un tempo	La0	a un tempo	a un tempo
 axiña que	Lcs	axiña que	axiña que
 beira de	Lp0	beira de	beira de
 ben como	Lcs	ben como	ben como
@@ -142,24 +142,24 @@ catar se	Lcs	catar se	catar se
 coches de línea	Scmp	coche de línea	coches de liña
 como mínimo	La0	como mínimo	como mínimo
 como queira que	Lcs	como queira que	como queira que
-conforme a	Lp0	conforme a	conforme a
 con respecto a	Lp0	con respecto a	con respecto a
 con tal de que	Lcs	con tal de que	con tal de que
 con tal que	Lcs	con tal que	con tal que
 con todo	La0	con todo	con todo
+conforme a	Lp0	conforme a	conforme a
 contra de	Lp0	contra de	contra de
 contra reloxo	Scfs	contra reloxo	contrarreloxo
 dacordo con	Lp0	dacordo con	de acordo con
 dado que	Lcs	dado que	dado que
-de abondo	La0	de abondo	dabondo
 de a cabalo	La0	de a cabalo	de a cabalo
-de acordo	La0	de acordo	de acordo
 de a feito	La0	de a feito	a feito
-de aí que	Lcs	de aí que	de aí que
+de abondo	La0	de abondo	dabondo
+de acordo	La0	de acordo	de acordo
 de alí a pouco	La0	de alí a pouco	de alí a pouco
 de alí a pouquiño	La0	de alí a pouco	de alí a pouco
 de aquí a pouco	La0	de aquí a pouco	de aquí a pouco
 de aquí a pouquiño	La0	de aquí a pouco	de aquí a pouco
+de aí que	Lcs	de aí que	de aí que
 de broma	La0	de broma	de broma
 de bruzos	La0	de bruzos	de bruzos
 de camiño	La0	de camiño	de camiño
@@ -167,25 +167,20 @@ de cara a	Lp0	de cara a	de cara a
 de certo	La0	de certo	de certo
 de contadiño	La0	de contado	decontado
 de contado	La0	de contado	decontado
-decontado que	Lcs	decontado que	decontado que
 de cor	La0	de cor	de cor
 de emprestado	La0	de emprestado	de emprestado
 de face	La0	de face	de face
 de feito	La0	de feito	de feito
 de fronte	La0	de fronte	de fronte
 de golpe	La0	de golpe	de golpe
-deica pouco	La0	deica pouco	deica pouco
-deica que	Lcs	deica que	deica que
-deica un pouco	La0	deica un pouco	deica un pouco
 de inmediato	La0	de inmediato	de inmediato
 de longo	La0	de longo	de longo
-de máis	La0	de máis	de máis
 de menos	La0	de menos	de menos
 de momento	La0	de momento	de momento
+de máis	La0	de máis	de máis
 de non ser que	Lcs	de non ser que	de non ser que
 de non ser se	Lcs	de non ser se	de non ser se
 de novo	La0	de novo	de novo
-dentro de	Lp0	dentro de	dentro de
 de o revés	La0	de o revés	de o revés
 de paisano	A0aa	de paisano	de paisano
 de paisano	A0ap	de paisano	de paisano
@@ -199,71 +194,74 @@ de paisano	A0ms	de paisano	de paisano
 de paisano	La0	de paisano	de paisano
 de par de	Lp0	de par de	de par de
 de paso	La0	de paso	de paso
-de pé	La0	de pé	de pé
 de plano	La0	de plano	de plano
 de por vida	La0	de por vida	de por vida
-de présa	La0	de présa	a a présa
 de prestado	La0	de prestado	de prestado
 de pronto	La0	de pronto	de pronto
 de propósito	La0	de propósito	de propósito
-de raíz	La0	de raíz	de raíz
+de présa	La0	de présa	a a présa
+de pé	La0	de pé	de pé
 de raro en raro	La0	de raro en raro	de raro en raro
+de raíz	La0	de raíz	de raíz
 de repente	La0	de repente	de repente
 de rodillas	La0	de rodillas	de rodillas
-derredor de	Lp0	derredor de	derredor de
 de seguida	La0	de seguida	deseguida
-deseguida que	Lcs	deseguida que	deseguida que
 de seguidiña	La0	de seguida	deseguida
 de seguido	La0	de seguido	deseguido
 de seguro	La0	de seguro	de seguro
 de tempo en tempo	La0	de tempo en tempo	de tempo en tempo
 de todo	La0	de todo	de todo
-de través de	Lp0	de través de	de través de
 de través	La0	de través	de través
+de través de	Lp0	de través de	de través de
 de unha tirada	La0	de unha tirada	de unha tirada
 de vagar	La0	de vagar	devagar
 de verdade	La0	de verdade	de verdade
 de vez en cando	La0	de vez en cando	de vez en cando
 de xeonllos	La0	de xeonllos	de xeonllos
 de xoenllos	La0	de xoenllos	de xeonllos
+decontado que	Lcs	decontado que	decontado que
+deica pouco	La0	deica pouco	deica pouco
+deica que	Lcs	deica que	deica que
+deica un pouco	La0	deica un pouco	deica un pouco
+dentro de	Lp0	dentro de	dentro de
+derredor de	Lp0	derredor de	derredor de
+deseguida que	Lcs	deseguida que	deseguida que
 e iso que	Lcs	e iso que	e iso que
 e listo	La0	e listo	e listo
 e mais	Lcc	e mais	e mais
+e todo	La0	e todo	e todo
 en absoluto	La0	en absoluto	en absoluto
 en alto	La0	en alto	en alto
 en base a	Lp0	en base a	en base a
 en breve	La0	en breve	en breve
 en broma	La0	en broma	en broma
 en cambio	La0	en cambio	en cambio
-en canto a	Lp0	en canto a	en canto a
 en canto	Lcs	en canto	en canto
-encefalopatía esponxiforme	Scfs	encefalopatía esponxiforme	encefalopatía esponxiforme
+en canto a	Lp0	en canto a	en canto a
 en común	La0	en común	en común
 en conciencia	La0	en conciencia	en conciencia
 en concreto	La0	en concreto	en concreto
-ende ben	Lcs	ende ben	ende ben
 en definitiva	La0	en definitiva	en definitiva
-ende mal	Lcs	ende mal	ende mal
 en detalle	La0	en detalle	en detalle
 en diante	La0	en diante	en diante
 en efecto	La0	en efecto	en efecto
 en especial	La0	en especial	en especial
 en fin	La0	en fin	en fin
 en firme	La0	en firme	en firme
-en frío	La0	en frío	en frío
-en fronte de	Lp0	en fronte de	en fronte de
 en fronte	La0	en fronte	en fronte
+en fronte de	Lp0	en fronte de	en fronte de
+en frío	La0	en frío	en frío
 en liña	La0	en liña	en liña
-en orde a	Lp0	en orde a	en orde a
 en orde	La0	en orde	en orde
+en orde a	Lp0	en orde a	en orde a
 en par de	Lp0	en par de	en par de
 en parte	La0	en parte	en parte
 en particular	La0	en particular	en particular
-en pé	La0	en pé	en pé
 en por de	Lp0	en por de	en por de
 en precario	La0	en precario	en precario
-en público	La0	en público	en público
 en punto	La0	en punto	en punto
+en pé	La0	en pé	en pé
+en público	La0	en público	en público
 en rama	La0	en rama	en rama
 en relación a	Lp0	en relación a	en relación a
 en seguida	La0	en seguida	enseguida
@@ -274,19 +272,20 @@ en tempo	La0	en tempo	en tempo
 en teoría	La0	en teoría	en teoría
 en todo caso	La0	en todo caso	en todo caso
 en torno a	Lp0	en torno a	en torno a
-entre tanto	Lcs	entre tanto	entre tanto
-en vango	La0	en vango	en vango
 en van	La0	en van	en van
+en vango	La0	en vango	en vango
 en verdade	La0	en verdade	en verdade
-e todo	La0	e todo	e todo
-fóra de	Lp0	fóra de	fóra de
+encefalopatía esponxiforme	Scfs	encefalopatía esponxiforme	encefalopatía esponxiforme
+ende ben	Lcs	ende ben	ende ben
+ende mal	Lcs	ende mal	ende mal
+entre tanto	Lcs	entre tanto	entre tanto
 frente a	Lp0	frente a	fronte a
 fronte a	Lp0	fronte a	fronte a
 fronte por fronte	La0	fronte por fronte	fronte por fronte
+fóra de	Lp0	fóra de	fóra de
 gracias a	Lp0	gracias a	grazas a
 grazas a	Lp0	grazas a	grazas a
 logo que	Lcs	logo que	logo que
-máis ben	La0	máis ben	máis ben
 mal como	Lcs	mal como	mal como
 mal que	Lcs	mal que	mal que
 mando a distancia	Scms	mando a distancia	mando a distancia
@@ -297,12 +296,13 @@ mentres tanto	La0	mentres tanto	mentres tanto
 mentres tanto	Lcs	mentres tanto	mentres
 mesmo que	Lcs	mesmo que	mesmo que
 meu Deus	Y	meu Deus	meu Deus
+máis ben	La0	máis ben	máis ben
 nin que	Lcs	nin que	nin que
 non ben	La0	non ben	non ben
+o outro antonte	La0	o outro antonte	o outro antonte
 off line	La0	off line	off line
 onda non	Lcs	onda non	onda non
 onde queira	La0	onde queira	onde queira
-o outro antonte	La0	o outro antonte	o outro antonte
 ora ben	Lcs	ora ben	ora ben
 ora que	Lcs	ora que	ora que
 ou ben	Lcc	ou ben	ou ben
@@ -310,8 +310,8 @@ ou sexa	Lcc	ou sexa	ou sexa
 pese a	Lp0	pese a	pese a
 pois ben	Lcs	pois ben	pois ben
 pois que	Lcs	pois que	pois que
-por aí	La0	por aí	por aí
 por ante	Lp0	por ante	por ante
+por aí	La0	por aí	por aí
 por canto	Lcs	por canto	por canto
 por cen	La0	por cen	por cento
 por certo	La0	por certo	por certo
@@ -339,11 +339,12 @@ por lo miudo	La0	por o miudo	por o miúdo
 por lo miúdo	La0	por o miúdo	por o miúdo
 por lo momento	La0	por o momento	por o momento
 por lo pronto	La0	por o pronto	por o de pronto
-por los zarapelos	La0	por os zarapelos	por os zarapelos
 por lo tanto	La0	por o tanto	por o tanto
 por lo tanto	Lcs	por o tanto	por o tanto
-por máis que	Lcs	por máis que	por máis que
+por lo visto	La0	por o visto	por o visto
+por los zarapelos	La0	por os zarapelos	por os zarapelos
 por moito que	Lcs	por moito que	por moito que
+por máis que	Lcs	por máis que	por máis que
 por pouco que	Lcs	por pouco que	por pouco que
 por riba	La0	por riba	por riba
 por separado	La0	por separado	por separado

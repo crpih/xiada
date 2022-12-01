@@ -3444,8 +3444,7 @@ galego	A0ms	galego
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 os	Ddmp	o
 socialistas	Scmp	socialista
@@ -41226,8 +41225,7 @@ outra	Idfs	outro
 banda	Scfs	banda
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 Unión Centrista	Sp00	Unión Centrista
 (	Q(	(
@@ -45581,10 +45579,7 @@ gasto	Scms	gasto
 público	A0ms	público
 e	Cc	e
 ,	Q,	,
-a	P	a
-a	Ddfs	o
-súa	Md3afs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 ,	Q,	,
 un	Dims	un
 alarmante	A0ms	alarmante
@@ -51773,8 +51768,7 @@ que	Tnfs	que
 segundo	Cs	segundo
 dixo	Vei30s	dicir
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 Banco de Santander	Spms	Banco de Santander
@@ -51877,8 +51871,7 @@ a	Ddfs	o
 xunta	Scfs	xunta
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 entidade	Scfs	entidade
@@ -53057,8 +53050,7 @@ de	P	de
 o	Ddms	o
 número	Scms	número
 de	P	de
-horas	Scfp	hora
-extras	A0fp	extra
+horas extras	Scfp	hora extra
 ,	Q,	,
 o	Ddms	o
 aumento	Scms	aumento
@@ -70685,8 +70677,7 @@ lle	Rad3ms	lle
 onte	Wn	onte
 a	P	a
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 UGT	Zg00	UGT
 ,	Q,	,
@@ -76033,8 +76024,7 @@ e	Cc	e
 construcción	Scfs	construcción
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 CCOO	Zg00	CCOO
 ,	Q,	,
@@ -76047,8 +76037,7 @@ súa	Md3sfs	seu
 indignación	Scfs	indignación
 ante	P	ante
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PP	Zgms	PP
@@ -76141,8 +76130,7 @@ electoralista	A0fs	electoralista
 así mesmo	La0	así mesmo
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 CCOO	Zg00	CCOO
 trasladou	Vei30s	trasladar
@@ -76169,8 +76157,7 @@ temporalidade	Scfs	temporalidade
 ,	Q,	,
 reducir	V0f000	reducir
 las	Ddfp	o
-horas	Scfp	hora
-extraordinarias	A0fp	extraordinario
+horas extraordinarias	Scfp	hora extraordinaria
 e	Cc	e
 compatibilizar	V0f000	compatibilizar
 la	Ddfs	o
@@ -90238,8 +90225,7 @@ a	Ddfs	o
 OPEP	Zgfs	OPEP
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Asociación Española de Operadores de Productos Petrolíferos	Spfs	Asociación Española de Operadores de Productos Petrolíferos
@@ -97784,8 +97770,7 @@ intensidade	Scfs	intensidade
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 CCOO	Zg00	CCOO
 ,	Q,	,
@@ -107128,8 +107113,7 @@ públicos	A0mp	público
 mentres	Wn	mentres
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 Política Económica e Defensa da Competencia	Sp00	Política Económica e Defensa da Competencia
 ,	Q,	,
@@ -107285,8 +107269,7 @@ mercados	Scmp	mercado
 mentres	Wn	mentres
 ,	Q,	,
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Unión Sindical Obrera	Spfs	Unión Sindical Obrera
@@ -109052,8 +109035,7 @@ Italia	Sp00	Italia
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Organización de Productores de Polo	Spfs	Organización de Productores de Polo
@@ -115380,8 +115362,7 @@ data	Scfs	data
 o	Ddms	o
 cargo	Scms	cargo
 de	P	de
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 entidade	Scfs	entidade
@@ -117239,8 +117220,7 @@ o	Ddms	o
 Goberno	Spms	Goberno
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSdeG	Zgms	PSdeG
@@ -117559,8 +117539,7 @@ así mesmo	La0	así mesmo
 ,	Q,	,
 os	Ddmp	o
 dous	Ncdmp	dous
-secretarios	Scmp	secretario
-xerais	A0mp	xeral
+secretarios xerais	Scmp	secretario xeral
 consideraron	Vei30p	considerar
 que	Cs	que
 en	P	en
@@ -120723,8 +120702,7 @@ o	Ddms	o
 Congreso	Spms	Congreso
 a	P	a
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSOE	Zgms	PSOE
@@ -121011,8 +120989,7 @@ en contra	La0	en contra
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSOE	Zgms	PSOE
@@ -121152,9 +121129,7 @@ controlar	V0f000	controlar
 e	Cc	e
 erradicar	V0f000	erradicar
 la	Ddfs	o
-encefalopatía	Scfs	encefalopatía
-esponxiforme	A0fs	esponxiforme
-bovina	A0fs	bovino
+encefalopatía esponxiforme bovina	Scfs	encefalopatía esponxiforme bovina
 (	Q(	(
 EEB	Zg00	EEB
 )	Q)	)
@@ -128909,8 +128884,7 @@ o	Ddms	o
 mercado	Scms	mercado
 de	P	de
 vehículos	Scmp	vehículo
-todo	Idms	todo
-terreo	Scms	terreo
+todo terreo	A0mp	todo terreo
 caeu	Vei30s	caer
 o	Ddms	o
 5,35	Ncnms	5,35
@@ -128947,8 +128921,7 @@ o	Ddms	o
 mercado	Scms	mercado
 de	P	de
 vehículos	Scmp	vehículo
-todo	Idms	todo
-terreo	Scms	terreo
+todo terreo	A0mp	todo terreo
 caeu	Vei30s	caer
 un	Dims	un
 4,67	Ncnms	4,67
@@ -129837,8 +129810,7 @@ o	Ddms	o
 Centro de Datos de Enelven	Spms	Centro de Datos de Enelven
 para	P	para
 coñecer	V0f000	coñecer
-en	P	en
-detalle	Scms	detalle
+en detalle	La0	en detalle
 todos	Idmp	todo
 los	Ddmp	o
 aspectos	Scmp	aspecto
@@ -135131,8 +135103,7 @@ Deputación da Coruña	Spfs	Deputación da Coruña
 ;	Q;	;
 Xesús Palmou	Spm0	Xesús Palmou
 ,	Q,	,
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PPdeG	Zgms	PPdeG
@@ -147486,8 +147457,7 @@ o	Ddms	o
 cartel	Scms	cartel
 e	Cc	e
 futuro	A0ms	futuro
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 organización	Scfs	organización
@@ -148690,8 +148660,7 @@ de	P	de
 o	Ddms	o
 2001	Ncnms	2001
 a	Ddfs	o
-secretaría	Scfs	secretaría
-xeral	A0fs	xeral
+secretaría xeral	Scfs	secretaría xeral
 de	P	de
 o	Ddms	o
 cártel	Scms	cártel
@@ -167831,8 +167800,7 @@ foi	Vei30sser	ser
 destacada	V0p0fs	destacar
 por	P	por
 lo	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 política	Scfs	política
 económica	A0fs	económico
@@ -169536,9 +169504,7 @@ aparición	Scfs	aparición
 de	P	de
 a	Ddfs	o
 famosa	A0fs	famoso
-encefalopatía	Scfs	encefalopatía
-esponxiforme	A0fs	esponxiforme
-bovina	A0fs	bovino
+encefalopatía esponxiforme bovina	Scfs	encefalopatía esponxiforme bovina
 ,	Q,	,
 pronto	Wn	pronto
 fará	Vfi30s	facer
@@ -175242,8 +175208,7 @@ gasóleo	Scms	gasóleo
 ,	Q,	,
 asegurou	Vei30s	asegurar
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 Asociación Española de Operadores de Productos Petrolíferos	Spfs	Asociación Española de Operadores de Productos Petrolíferos
@@ -175293,8 +175258,7 @@ automoción	Scfs	automoción
 .	Q.	.
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 a	Ddfs	o
 AOP	Zgfs	AOP
@@ -178512,10 +178476,7 @@ o	Ddms	o
 diñeiro	Scms	diñeiro
 .	Q.	.
 
-a	P	a
-a	Ddfs	o
-súa	Md3pfs	seu
-vez	Scfs	vez
+a a súa vez	La0	a a súa vez
 ,	Q,	,
 os	Ddmp	o
 operadores	Scmp	operador
@@ -189710,8 +189671,7 @@ seu	Md3sms	seu
 encontro	Scms	encontro
 con	P	con
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSE	Zgms	PSE
@@ -191320,8 +191280,7 @@ as	Ddfp	o
 familias	Scfp	familia
 
 o	Ddms	o
-secretario	Scms	secretario
-xeral	A0ms	xeral
+secretario xeral	Scms	secretario xeral
 de	P	de
 o	Ddms	o
 PSOE	Zgms	PSOE
@@ -203836,9 +203795,7 @@ e	Cc	e
 gastos	Scmp	gasto
 realiza	Vpi30s	realizar
 se	Rao3aa	se
-en	P	en
-base	Scfs	base
-a	P	a
+en base a	Lp0	en base a
 criterios	Scmp	criterio
 arbitrarios	A0mp	arbitrario
 derivados	V0p0mp	derivar
@@ -206856,7 +206813,7 @@ a	Ddfs	o
 actual	A0fs	actual
 LOFCA	Zgfs	LOFCA
 e	Cc	e
-criase	Ves30s	crear
+criase	Ves30s	criar
 o	Ddms	o
 marco	Scms	marco
 normativo	A0ms	normativo
@@ -219655,10 +219612,7 @@ sen	P	sen
 que	Cs	que
 supuxera	Ves30s	supoñer
 ,	Q,	,
-a	P	a
-a	Ddfs	o
-sua	Md3sfs	seu
-vez	Scfs	vez
+a a sua vez	La0	a a sua vez
 ,	Q,	,
 a	Ddfs	o
 preséncia	Scfs	preséncia
@@ -233452,9 +233406,7 @@ tratando	V0x000	tratar
 de	P	de
 configurar	V0f000	configurar
 la	Raa3fs	o
-en	P	en
-base	Scfs	base
-a	P	a
+en base a	Lp0	en base a
 un	Dims	un
 modelo	Scms	modelo
 ,	Q,	,
@@ -234791,8 +234743,7 @@ europeo	A0ms	europeo
 empezando	V0x000	empezar
 por	P	por
 las	Ddfp	o
-horas	Scfp	hora
-extraordinarias	A0fp	extraordinario
+horas extraordinarias	Scfp	hora extraordinaria
 ,	Q,	,
 por	P	por
 lo	Ddms	o
@@ -239849,9 +239800,7 @@ a	Ddfs	o
 análise	Scfs	análise
 está	Vpi30s	estar
 realizada	V0p0fs	realizar
-en	P	en
-base	Scfs	base
-a	P	a
+en base a	Lp0	en base a
 as	Ddfp	o
 contas	Scfp	conta
 anuais	A0fp	anual
