@@ -72113,7 +72113,7 @@ o	Ddms	o
 que	Tnms	que
 se	Rao3aa	se
 ven	Vpi30p	ver
-abocados	A0mp	abocado
+abocados	V0p0mp	abocar
 .	Q.	.
 
 en	P	en
@@ -75042,7 +75042,7 @@ recursos	Scmp	recurso
 pagados	V0p0mp	pagar
 e	Cc	e
 están	Vpi30p	estar
-abocados	A0mp	abocado
+abocados	V0p0mp	abocar
 a	P	a
 a	Ddfs	o
 suspensión	Scfs	suspensión
@@ -78221,12 +78221,12 @@ global	A0ms	global
 a teor de	P	a teor de
 a	Ddfs	o
 temática	Scfs	temática
-abordada	A0fs	abordado
+abordada	V0p0fs	abordar
 e	Cc	e
 de	P	de
 as	Ddfp	o
 posturas	Scfp	postura
-afincadas	A0fp	afincado
+afincadas	V0p0fp	afincar
 ,	Q,	,
 pode	Vpi30s	poder
 se	Rao3aa	se
@@ -143400,7 +143400,7 @@ algúns	Inmp	algún
 de	P	de
 os	Ddmp	o
 seus	Md3smp	seu
-álbumes	Scmp	álbum
+álbumes	Scmp	álbume
 ilustrados	A0mp	ilustrado
 a	P	a
 unha	Difs	un
@@ -198250,7 +198250,7 @@ lácteo	A0ms	lácteo
 especialmente	Wm	especialmente
 de	P	de
 base	Scfs	base
-cooperativa	A0fs	cooperativa
+cooperativa	A0fs	cooperativo
 .	Q.	.
 
 a	P	a
@@ -205158,6 +205158,29 @@ polbos	Scmp	polbo
 Octopus vulgaris	Snaa	Octopus vulgaris
 )	Q)	)
 etc.	Za00	etc.
+
+bos	A0mp	bo
+exemplos	Scmp	exemplo
+de	P	de
+parodia	Scfs	parodia
+son	Vpi30p	ser
+o	Raa3ms	o
+os	Ddmp	o
+diccionarios	Scmp	diccionario
+,	Q,	,
+e	Cc	e
+dentro	Wn	dentro
+de	P	de
+eles	Rtp3mp	el
+prefixos	Scmp	prefixo
+como	Cs	como
+meta-	Zx00	meta-
+,	Q,	,
+para-	Zx00	para-
+ou	Cc	ou
+pseudo-	Zx00	pseudo-
+.	Q.	.
+
 
 foche	Vei20sir	ir
 

@@ -5260,7 +5260,7 @@ familias	Scfp	familia
 que	Tnfp	que
 se	Rao3aa	se
 ven	Vpi30p	ver
-abocadas	A0fp	abocado
+abocadas	V0p0fp	abocar
 a	P	a
 agardar	V0f000	agardar
 mellores	Acmp	mellor
@@ -74182,7 +74182,7 @@ un	Inms	un
 de	P	de
 os	Ddmp	o
 temas	Scmp	tema
-abordados	A0mp	abordado
+abordados	V0p0mp	abordar
 onte	Wn	onte
 foi	Vei30sser	ser
 a	Ddfs	o
@@ -94775,7 +94775,7 @@ a	Ddfs	o
 que	Tnfs	que
 se	Rao3aa	se
 ven	Vpi30p	ver
-abocadas	A0fp	abocado
+abocadas	V0p0fp	abocar
 as	Ddfp	o
 plantas	Scfp	planta
 de	P	de
@@ -242959,7 +242959,7 @@ lácteo	A0ms	lácteo
 especialmente	Wm	especialmente
 de	P	de
 base	Scfs	base
-cooperativa	A0fs	cooperativa
+cooperativa	A0fs	cooperativo
 .	Q.	.
 
 a	P	a
@@ -249867,6 +249867,29 @@ polbos	Scmp	polbo
 Octopus vulgaris	Snaa	Octopus vulgaris
 )	Q)	)
 etc.	Za00	etc.
+
+bos	A0mp	bo
+exemplos	Scmp	exemplo
+de	P	de
+parodia	Scfs	parodia
+son	Vpi30p	ser
+o	Raa3ms	o
+os	Ddmp	o
+diccionarios	Scmp	diccionario
+,	Q,	,
+e	Cc	e
+dentro	Wn	dentro
+de	P	de
+eles	Rtp3mp	el
+prefixos	Scmp	prefixo
+como	Cs	como
+meta-	Zx00	meta-
+,	Q,	,
+para-	Zx00	para-
+ou	Cc	ou
+pseudo-	Zx00	pseudo-
+.	Q.	.
+
 
 foche	Vei20sir	ir
 
