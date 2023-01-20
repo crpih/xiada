@@ -19,7 +19,7 @@ module LemmatizerGalicianXiada
     end
     # riquísimo => rico
     if word =~ /quísim[oa]s?$/
-      new_word = word.gsub(/bilísim([oa]s?$)/,'c\1')
+      new_word = word.gsub(/quísim([oa]s?$)/,'c\1')
       return replace_tags(@dw.get_emissions_info(new_word, ['A*']),"^A0","As")
 
     end
