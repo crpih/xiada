@@ -5,6 +5,7 @@ require_relative '../test_helper'
 require_relative '../../running/bin/lemmatizer'
 require_relative '../../running/bin/database_wrapper'
 require_relative '../../running/galician_xiada/lemmatizer'
+require_relative '../../running/galician_xiada/lemmatizer_refactor'
 
 def gender_number_variations(word)
   return word unless word.end_with?('o')
@@ -25,7 +26,7 @@ describe LemmatizerGalicianXiada do
       ENV['XIADA_PROFILE'] = 'galician_xiada'
       db_file = "training/databases/galician_xiada/#{database_name}.db"
       dw = DatabaseWrapper.new(db_file)
-      lemmatizer = Lemmatizer.new(dw).extend(LemmatizerGalicianXiada)
+      lemmatizer = Lemmatizer.new(dw).extend(LemmatizerGalicianXiadaRefactor)
 
       current = WORDS.each_with_object({}) do |word, result|
         lemmas = lemmatizer.lemmatize(word, nil)
@@ -40,7 +41,7 @@ describe LemmatizerGalicianXiada do
 
       expected = JSON.parse(File.read("test/regression/#{database_name}/selected.json"))
       current.each do |word, result|
-        assert_equal expected[word], result
+        assert_equal expected[word], result, "Failed lemmatization for: #{word}"
       end
     end
   end
