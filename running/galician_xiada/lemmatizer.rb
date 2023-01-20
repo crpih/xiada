@@ -211,7 +211,7 @@ module LemmatizerGalicianXiada
           new_word_2 = set_tilde(new_word, 2) # Maybe this doesn't cover all the casuistic
           variants = [gheada_to_cannonical(new_word_2)]
           result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word_2, ['Sc*','A*','V0p0*','V0x000','W*','I*'], variants))
-          return result unless result.empty?         
+          return result unless result.empty?
         end
         new_word = word.gsub(/quiñ[oa](s?)$/,'que\1')
         # bosquiños => bosques
@@ -238,7 +238,7 @@ module LemmatizerGalicianXiada
           new_word = word.gsub(/onciña(s?)$/,'ona\1')
           variants = [gheada_to_cannonical(new_word)]
           result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['Scf*','A0f*'], variants))
-          return result unless result.empty?          
+          return result unless result.empty?
         end
         if word =~ /anciñ[oa]s?$/
           # garavanciño => garavanzo
@@ -376,7 +376,7 @@ module LemmatizerGalicianXiada
         # ovelliñas => ovellas
         new_word = word.gsub(/(ll)iñ([oa]s?)$/,'\1\2')
         variants = [gheada_to_cannonical(new_word)]
-        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*']), variants)
+        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))
         return result unless result.empty?
       end
       if word =~ /rriñ[oa]s?$/
@@ -384,7 +384,7 @@ module LemmatizerGalicianXiada
         # churriñas => churras
         new_word = word.gsub(/(rr)iñ([oa]s?)$/,'\1\2')
         variants = [gheada_to_cannonical(new_word)]
-        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants∫))
+        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))
         return result unless result.empty?
       end
       if word =~ /chiñ[oa]s?$/
