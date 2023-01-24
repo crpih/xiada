@@ -464,7 +464,7 @@ class DatabaseWrapper
         @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
           result << row
         end
-      end       
+      end
     end
     return result
   end
@@ -530,8 +530,6 @@ class DatabaseWrapper
     return true
   end
 
-  private
-
   def get_possible_tags(tags)
     result = ""
     tags.each do |tag|
@@ -544,6 +542,8 @@ class DatabaseWrapper
     end
     result
   end
+
+  private
 
   def get_tags_from_regexp(tag_regexp)
     result = ""
