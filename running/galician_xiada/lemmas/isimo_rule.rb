@@ -12,12 +12,9 @@ module Lemmas
       super(all_possible_tags)
       @tilde_transform = TildeTransform.new(all_possible_tags)
       # Precalculate tag lists
-      @a_tags = tags_for('A.*').freeze
-      @av_tags = tags_for('V0p.*', 'A.*').freeze
-      @a_gn_tags = {
-        'a' => { '' => tags_for('A.*fs').freeze, 's' => tags_for('A.*fp').freeze }.freeze,
-        'o' => { '' => tags_for('A.*ms').freeze, 's' => tags_for('A.*mp').freeze }.freeze
-      }.freeze
+      @a_tags = tags_for('A.*')
+      @av_tags = tags_for('V0p.*', 'A.*')
+      @a_gn_tags = tags_by_gn('A.*')
     end
 
     def apply_query(query)

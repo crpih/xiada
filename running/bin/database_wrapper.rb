@@ -91,7 +91,7 @@ class DatabaseWrapper
 
   def get_guesser_result(suffixes, lemma, tags)
     result = []
-    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query = "select tag,null,null,log_b from guesser_frequencies where suffix in (#{suffixes})"
     query << "and tag in (#{get_possible_tags(tags)})" if tags
     query << "order by length desc"
 

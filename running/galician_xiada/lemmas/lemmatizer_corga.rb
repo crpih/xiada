@@ -16,6 +16,7 @@ module Lemmas
       @auto_rule = AutoRule.new(@tags)
       @isimo_rule = IsimoRule.new(@tags)
       @gheada_transform = GheadaTransform.new(@tags)
+      @inho_rule = InhoRule.new(@tags)
     end
 
     def call(word)
@@ -30,6 +31,9 @@ module Lemmas
           end
         end,
         *@auto_rule.(query) do |qa|
+          find(qa)
+        end,
+        *@inho_rule.(query) do |qa|
           find(qa)
         end
       ]

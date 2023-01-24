@@ -3,7 +3,10 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class InhoRule < Rule
-    TAG_PATTERNS = %w[].freeze
+    TAG_GN_REPLACEMENTS = {
+      'a' => { '' => 'fs', 's' => 'fp' }.freeze,
+      'o' => { '' => 'ms', 's' => 'mp' }.freeze,
+    }.freeze
 
     def initialize(all_possible_tags)
       super(all_possible_tags)
@@ -33,15 +36,27 @@ module Lemmas
         # animalciños => animal (Scmp)
         # descalciña => descalzo
         search_base = base.delete_suffix('c')
-        [*query.copy(search_base, @tags),
-         *query.copy("#{search_base}es", @tags),
-         *query.copy("#{search_base}z#{g}#{n}", @tags)]
+        if n == 's' # When plural
+          [*query.copy("#{search_base}es", @tags),
+           *query.copy("#{search_base}z#{g}#{n}", @tags)]
+        else
+          [*query.copy(search_base, @tags),
+           *query.copy("#{search_base}z#{g}#{n}", @tags)]
+        end
       elsif base.end_with?('qu')
         # quiño/a/os/as
         # plaquiñas => placas
         # retaquiños => retacos
         # TODO
       end
+    end
+
+    def apply_result(result)
+      g, n = result.query.word.match(/iñ([oa])(s?)\z/).captures
+
+      # Forcefully replace gender and number of the tag based on the original word gender and number
+      # TODO: Investigate if it is better to perform the search with the correct tags to begin with
+      result.copy(result.tag.sub(/[maf][spa]/, TAG_GN_REPLACEMENTS[g][n]))
     end
   end
 end
