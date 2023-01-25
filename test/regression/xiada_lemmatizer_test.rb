@@ -30,7 +30,7 @@ describe LemmatizerGalicianXiada do
 
       current = WORDS.each_with_object({}) do |word, result|
         lemmas = lemmatizer.lemmatize(word, nil)
-        result[word] = lemmas unless lemmas.empty?
+        result[word] = lemmas if lemmas&.any?
       end
 
       # Save current results as expected if ENV variable defined
@@ -40,8 +40,8 @@ describe LemmatizerGalicianXiada do
       end
 
       expected = JSON.parse(File.read("test/regression/#{database_name}/selected.json"))
-      current.each do |word, result|
-        assert_equal expected[word], result, "Failed lemmatization for: #{word}"
+      expected.each do |word, result|
+        assert_equal result, current[word], "Failed lemmatization for: #{word}"
       end
     end
   end

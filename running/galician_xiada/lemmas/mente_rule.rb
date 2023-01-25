@@ -9,13 +9,13 @@ module Lemmas
       @w_tags = tags_for('W.*')
     end
     def apply_query(query)
-      return unless query.search_word.end_with?('mente')
+      return unless query.word.end_with?('mente')
 
-      query.copy(query.search_word, @w_tags)
+      query.copy(query.word, @w_tags)
     end
 
-    def apply_result(result)
-      result.copy(nil, nil, result.query.word)
+    def apply_result(query, result)
+      result.copy(nil, nil, query.word)
     end
   end
 end

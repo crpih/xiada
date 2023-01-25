@@ -8,9 +8,9 @@ module LemmatizerGalicianXiadaRefactor
 
   def lemmatize(word, _tags)
     result = new_lemmatizer.call(word)
-    return result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } unless result.nil?
+    return result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } if result&.any?
 
-    fallback_lemmatize(word, nil)
+    # fallback_lemmatize(word, nil)
   end
 
   private

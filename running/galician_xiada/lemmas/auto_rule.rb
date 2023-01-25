@@ -9,7 +9,7 @@ module Lemmas
     end
 
     def apply_query(query)
-      return unless query.search_word.match(/\Aauto(-?)(.*)\z/)
+      return unless query.word.match(/\Aauto(-?)(.*)\z/)
 
       _hyphen, base = Regexp.last_match.captures
 
@@ -24,8 +24,8 @@ module Lemmas
       end
     end
 
-    def apply_result(result)
-      hyphen = result.query.word.match(/\Aauto(-?)/).captures.first
+    def apply_result(query, result)
+      hyphen = query.prev.word.match(/\Aauto(-?)/).captures.first
 
       if result.lemma.start_with?('r') && hyphen.empty?
         # autorreflexión => reflexión => autorreflexión

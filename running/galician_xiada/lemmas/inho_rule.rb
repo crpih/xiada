@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 require_relative '../../bin/lemmas/rule'
+require_relative 'utils'
 
 module Lemmas
   class InhoRule < Rule
-    TAG_GN_REPLACEMENTS = {
-      'a' => { '' => 'fs', 's' => 'fp' }.freeze,
-      'o' => { '' => 'ms', 's' => 'mp' }.freeze,
-    }.freeze
+    include Utils
 
     def initialize(all_possible_tags)
       super(all_possible_tags)
@@ -21,7 +19,7 @@ module Lemmas
     end
 
     def apply_query(query)
-      return unless query.search_word.match(/(.+)iñ([oa])(s?)\z/) && !query.search_word.include?('-')
+      return unless query.word.match(/(.+)iñ([oa])(s?)\z/) && !query.word.include?('-')
 
       base, g, n = Regexp.last_match.captures
 
@@ -47,16 +45,24 @@ module Lemmas
         # quiño/a/os/as
         # plaquiñas => placas
         # retaquiños => retacos
-        # TODO
+        # musiquiña => música
+        # musiquiño => músico
+        # faisquiñas => faíscas
+        # periodiquiños => periódicos
+        # politiquiñas => políticas
+        search_base = "#{base}c#{g}#{n}"
+        [*query.copy(search_base, @tags),
+         *query.copy(search_base, @v_tags),
+         *tilde_variants(search_base).map { |v| query.copy(v, @tags) }]
       end
     end
 
-    def apply_result(result)
-      g, n = result.query.word.match(/iñ([oa])(s?)\z/).captures
+    def apply_result(query, result)
+      g, n = query.prev.word.match(/iñ([oa])(s?)\z/).captures
 
       # Forcefully replace gender and number of the tag based on the original word gender and number
       # TODO: Investigate if it is better to perform the search with the correct tags to begin with
-      result.copy(result.tag.sub(/[maf][spa]/, TAG_GN_REPLACEMENTS[g][n]))
+      result.copy(replace_tag_gn(result.tag, g, n))
     end
   end
 end

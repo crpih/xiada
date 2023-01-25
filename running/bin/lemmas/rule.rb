@@ -2,6 +2,11 @@
 
 module Lemmas
   class Rule
+    TAG_GN_REPLACEMENTS = {
+      'a' => { '' => 'fs', 's' => 'fp' }.freeze,
+      'o' => { '' => 'ms', 's' => 'mp' }.freeze,
+    }.freeze
+
     attr_reader :tags
 
     def initialize(all_possible_tags)
@@ -9,22 +14,22 @@ module Lemmas
     end
 
     def call(query)
-      queries = apply_query(query)
-      return if queries.nil?
+      queries = Array(apply_query(query))
 
-      # Keep result of  first query that generates a non-empty result
-      Array(queries).each do |q|
+      # Keep result of first query that generates a non-empty result
+      queries.each do |q|
         result = yield q
-        return result.map { |r| apply_result(r) } if result&.any?
+        return result.map { |r| apply_result(q, r) } if result&.any?
       end
-      nil
+      # If none of the generated queries returned a result, return empty array
+      []
     end
 
     def apply_query(query)
       query
     end
 
-    def apply_result(result)
+    def apply_result(_query, result)
       result
     end
 
@@ -48,6 +53,10 @@ module Lemmas
           's' => m_tags.filter { |t| t.end_with?('p') }.freeze,
         }.freeze
       }.freeze
+    end
+
+    def replace_tag_gn(tag, g, n)
+      tag.sub(/[maf][spa]/, TAG_GN_REPLACEMENTS[g][n])
     end
   end
 end

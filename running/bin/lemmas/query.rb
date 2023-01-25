@@ -2,16 +2,16 @@
 
 module Lemmas
   class Query
-    attr_reader :word, :search_word, :tags
-    def initialize(word, tags, search_word = nil)
+    attr_reader :prev, :word, :tags
+    def initialize(prev, word, tags)
+      @prev = prev
       @word = word
-      @search_word = search_word || word
       @tags = tags
     end
 
-    def copy(search_word, tags = nil)
+    def copy(word, tags = nil)
       valid_tags = tags.nil? ? @tags : @tags & tags
-      Query.new(@word, valid_tags, search_word)
+      Query.new(self, word, valid_tags)
     end
   end
 end
