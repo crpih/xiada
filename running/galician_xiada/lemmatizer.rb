@@ -280,9 +280,9 @@ module LemmatizerGalicianXiada
         end
       end
       if word =~ /ndiñ[oa]s?$/
-        # segundiño => segundo
-        # brandiños => brandos
-        # pasandiño => pasando
+          # segundiño => segundo
+          # brandiños => brandos
+          # pasandiño => pasando
         new_word = word.gsub(/ndiñ([oa]s?)$/,'nd\1')
         variants = [gheada_to_cannonical(new_word)]
         result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'], variants))
@@ -360,6 +360,7 @@ module LemmatizerGalicianXiada
       end
       if word =~ /biñ[oa]s?$/
         # nubiñas => nubes
+        # FIXME: Real rule is: nubiñas => nube
         new_word = word.gsub(/biñ[oa]s?$/,'be')
         variants = [gheada_to_cannonical(new_word)]
         result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))

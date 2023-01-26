@@ -22,22 +22,23 @@ module Lemmas
 
     def call(word)
       query = Query.new(nil, word, @tags)
-      [
-        *@mente_rule.(query) do |qa|
-          find_guesser('mente', qa)
-        end,
-        *gheada_variants(query.word).flat_map do |variant|
-          @isimo_rule.(query.copy(variant)) do |qb|
+      gheada_variants(query.word).flat_map do |variant|
+        gh_query = query.copy(variant)
+        [
+          *@mente_rule.(gh_query) do |qa|
+            find_guesser('mente', qa)
+          end,
+          *@isimo_rule.(gh_query) do |qb|
             find(qb)
+          end,
+          *@auto_rule.(gh_query) do |qa|
+            find(qa)
+          end,
+          *@inho_rule.(gh_query) do |qa|
+            find(qa)
           end
-        end,
-        *@auto_rule.(query) do |qa|
-          find(qa)
-        end,
-        *@inho_rule.(query) do |qa|
-          find(qa)
-        end
-      ]
+        ]
+      end
     end
 
     private

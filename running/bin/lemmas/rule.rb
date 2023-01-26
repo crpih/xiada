@@ -10,7 +10,7 @@ module Lemmas
     attr_reader :tags
 
     def initialize(all_possible_tags)
-      @tags = all_possible_tags
+      @all_tags = all_possible_tags
     end
 
     def call(query)
@@ -36,7 +36,7 @@ module Lemmas
     protected
 
     def tags_for(*patterns)
-      patterns.flat_map { |p| @tags.filter { |t| t.match?(p) } }.uniq.freeze
+      patterns.flat_map { |p| @all_tags.filter { |t| t.match?(p) } }.uniq.freeze
     end
 
     def tags_by_gn(*patterns)
