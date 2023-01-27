@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Coa Serie Louisiana de Richard Misrach quedo paralizada.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Coa</unidade>
+<constituínte>
+<forma>con</forma>
+<etiqueta>P</etiqueta>
+<lema>con</lema>
+<hiperlema>con</hiperlema>
+</constituínte>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Serie Louisiana de Richard Misrach</unidade>
+<constituínte>
+<forma>Serie Louisiana de Richard Misrach</forma>
+<etiqueta>Spfs</etiqueta>
+<lema>Serie Louisiana de Richard Misrach</lema>
+<hiperlema>Serie Louisiana de Richard Misrach</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>quedo</unidade>
+<constituínte>
+<forma>quedo</forma>
+<etiqueta>Vpi10s</etiqueta>
+<lema>quedar</lema>
+<hiperlema>quedar</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>paralizada</unidade>
+<constituínte>
+<forma>paralizada</forma>
+<etiqueta>A0fs</etiqueta>
+<lema>paralizado</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Claus &amp; Lucas, de Agota Kristof.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Claus</unidade>
+<constituínte>
+<forma>claus</forma>
+<etiqueta>A0mp</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>&amp;</unidade>
+<constituínte>
+<forma>&amp;</forma>
+<etiqueta>Scmp</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Lucas</unidade>
+<constituínte>
+<forma>Lucas</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Lucas</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>,</unidade>
+<constituínte>
+<forma>,</forma>
+<etiqueta>Q,</etiqueta>
+<lema>,</lema>
+<hiperlema>,</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>de</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Agota Kristof</unidade>
+<constituínte>
+<forma>Agota Kristof</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Agota Kristof</lema>
+<hiperlema>Agota Kristof</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

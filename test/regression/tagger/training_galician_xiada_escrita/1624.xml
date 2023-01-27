@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>E, máis en concreto, todas queren ser a raíña Elsa de Frozen.</expresión>
+<análise>
+<análise_unidade>
+<unidade>E</unidade>
+<constituínte>
+<forma>e</forma>
+<etiqueta>Cc</etiqueta>
+<lema>e</lema>
+<hiperlema>e</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>,</unidade>
+<constituínte>
+<forma>,</forma>
+<etiqueta>Q,</etiqueta>
+<lema>,</lema>
+<hiperlema>,</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>máis</unidade>
+<constituínte>
+<forma>máis</forma>
+<etiqueta>Wm</etiqueta>
+<lema>máis</lema>
+<hiperlema>máis</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>en concreto</unidade>
+<constituínte>
+<forma>en concreto</forma>
+<etiqueta>La0</etiqueta>
+<lema>en concreto</lema>
+<hiperlema>en concreto</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>,</unidade>
+<constituínte>
+<forma>,</forma>
+<etiqueta>Q,</etiqueta>
+<lema>,</lema>
+<hiperlema>,</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>todas</unidade>
+<constituínte>
+<forma>todas</forma>
+<etiqueta>Infp</etiqueta>
+<lema>todo</lema>
+<hiperlema>todo</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>queren</unidade>
+<constituínte>
+<forma>queren</forma>
+<etiqueta>Vpi30p</etiqueta>
+<lema>querer</lema>
+<hiperlema>querer</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>ser</unidade>
+<constituínte>
+<forma>ser</forma>
+<etiqueta>V0f000</etiqueta>
+<lema>ser</lema>
+<hiperlema>ser</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>a</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>raíña</unidade>
+<constituínte>
+<forma>raíña</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>raíña</lema>
+<hiperlema>raíña</hiperlema>
+<lema>rei</lema>
+<hiperlema>rei</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Elsa de Frozen</unidade>
+<constituínte>
+<forma>Elsa de Frozen</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Elsa de Frozen</lema>
+<hiperlema>Elsa de Frozen</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

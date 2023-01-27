@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Tamén tomarán a palabra Manuel Pérez, Carlos Mantilla e Mariano Rajoy.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Tamén</unidade>
+<constituínte>
+<forma>tamén</forma>
+<etiqueta>Wn</etiqueta>
+<lema>tamén</lema>
+<hiperlema>tamén</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>tomarán</unidade>
+<constituínte>
+<forma>tomarán</forma>
+<etiqueta>Vfi30p</etiqueta>
+<lema>tomar</lema>
+<hiperlema>tomar</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>a</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>palabra</unidade>
+<constituínte>
+<forma>palabra</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>palabra</lema>
+<hiperlema>palabra</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Manuel Pérez</unidade>
+<constituínte>
+<forma>Manuel Pérez</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Manuel Pérez</lema>
+<hiperlema>Manuel Pérez</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>,</unidade>
+<constituínte>
+<forma>,</forma>
+<etiqueta>Q,</etiqueta>
+<lema>,</lema>
+<hiperlema>,</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Carlos Mantilla</unidade>
+<constituínte>
+<forma>Carlos Mantilla</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Carlos Mantilla</lema>
+<hiperlema>Carlos Mantilla</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>e</unidade>
+<constituínte>
+<forma>e</forma>
+<etiqueta>Cc</etiqueta>
+<lema>e</lema>
+<hiperlema>e</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Mariano Rajoy</unidade>
+<constituínte>
+<forma>Mariano Rajoy</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Mariano Rajoy</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

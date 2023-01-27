@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Xapón e Seúl amplían a Zona Económica</expresión>
+<análise>
+<análise_unidade>
+<unidade>Xapón</unidade>
+<constituínte>
+<forma>Xapón</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Xapón</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>e</unidade>
+<constituínte>
+<forma>e</forma>
+<etiqueta>Cc</etiqueta>
+<lema>e</lema>
+<hiperlema>e</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Seúl</unidade>
+<constituínte>
+<forma>Seúl</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Seúl</lema>
+<hiperlema>Seúl</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>amplían</unidade>
+<constituínte>
+<forma>amplían</forma>
+<etiqueta>Vpi30p</etiqueta>
+<lema>ampliar</lema>
+<hiperlema>ampliar</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>a</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Zona Económica</unidade>
+<constituínte>
+<forma>Zona Económica</forma>
+<etiqueta>Spfs</etiqueta>
+<lema>Zona Económica</lema>
+<hiperlema>Zona Económica</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

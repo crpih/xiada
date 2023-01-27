@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>The National!</expresión>
+<análise>
+<análise_unidade>
+<unidade>The</unidade>
+<constituínte>
+<forma>the</forma>
+<etiqueta>A0as</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>National</unidade>
+<constituínte>
+<forma>National</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>National</lema>
+<hiperlema>National</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>!</unidade>
+<constituínte>
+<forma>!</forma>
+<etiqueta>Q!</etiqueta>
+<lema>!</lema>
+<hiperlema>!</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

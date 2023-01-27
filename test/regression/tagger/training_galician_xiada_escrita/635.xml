@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Era Miguel Noguera.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Era</unidade>
+<constituínte>
+<forma>era</forma>
+<etiqueta>Vii30s</etiqueta>
+<lema>ser</lema>
+<hiperlema>ser</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Miguel Noguera</unidade>
+<constituínte>
+<forma>Miguel Noguera</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Miguel Noguera</lema>
+<hiperlema>Miguel Noguera</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>
