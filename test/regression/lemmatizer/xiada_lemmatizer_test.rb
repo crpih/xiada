@@ -1,11 +1,11 @@
 require 'sqlite3'
 require 'json'
 require 'fileutils'
-require_relative '../test_helper'
-require_relative '../../running/bin/lemmatizer'
-require_relative '../../running/bin/database_wrapper'
-require_relative '../../running/galician_xiada/lemmatizer'
-require_relative '../../running/galician_xiada/lemmatizer_refactor'
+require_relative '../../test_helper'
+require_relative '../../../running/bin/lemmatizer'
+require_relative '../../../running/bin/database_wrapper'
+require_relative '../../../running/galician_xiada/lemmatizer'
+require_relative '../../../running/galician_xiada/lemmatizer_refactor'
 
 def gender_number_variations(word)
   return word unless word.end_with?('o')
@@ -14,7 +14,7 @@ def gender_number_variations(word)
   [word, "#{word}s", "#{base}a", "#{base}as"]
 end
 
-WORDS = File.readlines('test/regression/selected_words.txt', chomp: true)
+WORDS = File.readlines('test/regression/lemmatizer/xiada_selected_words.txt', chomp: true)
             .flat_map { |w| gender_number_variations(w) }
 
 DATABASES = %w[training_galician_xiada_escrita].freeze
@@ -35,11 +35,11 @@ describe LemmatizerGalicianXiada do
 
       # Save current results as expected if ENV variable defined
       if ENV['XIADA_SAVE_RESULT']
-        FileUtils.mkdir_p("test/regression/#{database_name}")
-        File.write("test/regression/#{database_name}/selected.json", JSON.pretty_generate(current))
+        FileUtils.mkdir_p("#{__dir__}/#{database_name}")
+        File.write("#{__dir__}/#{database_name}/selected.json", JSON.pretty_generate(current))
       end
 
-      expected = JSON.parse(File.read("test/regression/#{database_name}/selected.json"))
+      expected = JSON.parse(File.read("#{__dir__}/#{database_name}/selected.json"))
       expected.each do |word, result|
         assert_equal result, current[word], "Failed lemmatization for: #{word}"
       end
