@@ -186,7 +186,7 @@ proceso	Scms	proceso
 e	Cc	e
 sexa	Vps30s	ser
 cal	Tnfs	cal
-for	Vfs30s	ser
+for	Vfs30sser	ser
 a	Ddfs	o
 fórmula	Scfs	fórmula
 final	A0fs	final
@@ -233,7 +233,7 @@ de	P	de
 ,	Q,	,
 pero	Cs	pero
 finalmente	Wn	finalmente
-foron	Vei30p	ser
+foron	Vei30pser	ser
 admitidas	V0p0fp	admitir
 12	Ncnfp	12
 ,	Q,	,
@@ -305,7 +305,7 @@ e	Cc	e
 dixesen	Ves30p	dicir
 que	Cs	que
 non	Wn	non
-fun	Vei10s	ser
+fun	Vei10sser	ser
 un	Dims	un
 bo	A0ms	bo
 presidente	Scms	presidente
@@ -366,7 +366,7 @@ en	P	en
 unha	Difs	un
 primeira	Nodfs	primeiro
 fase	Scfs	fase
-foron	Vei30p	ser
+foron	Vei30pser	ser
 seleccionados	V0p0mp	seleccionar
 15	Ncdmp	15
 expedientes	Scmp	expediente
@@ -1531,7 +1531,7 @@ Hernández Cochón	Sp00	Hernández Cochón
 ,	Q,	,
 explique	Vps30s	explicar
 cáles	Gnfp	cal
-foron	Vei30p	ser
+foron	Vei30pser	ser
 as	Ddfp	o
 causas	Scfp	causa
 e	Cc	e
@@ -2823,7 +2823,7 @@ padres	Scmp	padre
 e	Cc	e
 sus	Md3smp	su
 padres	Scmp	padre
-fomos	Vei10p	ir
+fomos	Vei10pir	ir
 unha	Difs	un
 vez	Scfs	vez
 ver	V0f000	ver
@@ -3559,7 +3559,7 @@ de	P	de
 os	Ddmp	o
 universos	Scmp	universo
 que	Tnmp	que
-foron	Vei30p	ser
+foron	Vei30pser	ser
 seus	Mn3smp	seu
 .	Q.	.
 
@@ -3636,7 +3636,7 @@ e	Cc	e
 os	Ddmp	o
 de	P	de
 Lugo	Sp00	Lugo
-foron	Vei30p	ser
+foron	Vei30pser	ser
 os	Ddmp	o
 primeiros	Nonmp	primeiro
 en	P	en
@@ -3927,7 +3927,7 @@ soa	A0fs	só
 .	Q.	.
 
 Ivina	Spf0	Ivina
-foi	Vei30s	ser
+foi	Vei30sser	ser
 para	P	para
 outro	Idms	outro
 home	Scms	home
@@ -3956,7 +3956,7 @@ partido	Scms	partido
 .	Q.	.
 
 a a fin	Wn	a a fin
-foi	Vei30s	ser
+foi	Vei30sser	ser
 ela	Rtn3fs	el
 a	Ddfs	o
 que	Tnfs	que
@@ -4751,7 +4751,7 @@ a	Ddfs	o
 súa	Mn3pfs	seu
 .	Q.	.
 
-fun	Vei10s	ir
+fun	Vei10sir	ir
 a	P	a
 o	Ddms	o
 parque	Scms	parque
@@ -4887,7 +4887,7 @@ fortuna	Scfs	fortuna
 ,	Q,	,
 quenquera	Inaa	quenquera
 que	Tnaa	que
-fose	Ves30s	ser
+fose	Ves30sser	ser
 pasara	Vli30s	pasar
 de	P	de
 largo	Scms	largo
@@ -5291,7 +5291,7 @@ policía	Scms	policía
 
 realmente	Wn	realmente
 ,	Q,	,
-foi	Vei30s	ser
+foi	Vei30sser	ser
 un	Dims	un
 milagre	Scms	milagre
 ,	Q,	,
@@ -5472,7 +5472,7 @@ metades	Vps20p	meter
 .	Q.	.
 
 iso	Enns	ese
-foi	Vei30s	ser
+foi	Vei30sser	ser
 por	P	por
 fixer	Vfsa0s	facer
 todo	Idms	todo
@@ -5711,7 +5711,7 @@ as	Ddfp	o
 medidas	Scfp	medida
 a	P	a
 tomar	V0f000	tomar
-foran	Ves30p	ser
+foran	Ves30pser	ser
 xa	Wn	xa
 as	Ddfp	o
 tan	Wm	tanto
@@ -5801,7 +5801,7 @@ agradecida	A0fs	agradecido
 
 só	Wn	só
 se	Cs	se
-foras	Ves20s	ser
+foras	Ves20sser	ser
 radiotelegrafista	Scas	radiotelegrafista
 ,	Q,	,
 médico	Scms	médico
