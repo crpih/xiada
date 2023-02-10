@@ -19,11 +19,11 @@ end
 def training_test_split(corpus)
   _lang, name = corpus.split('_')
 
-  tagged_sentences = read_tagged_sentences("training/corpus/#{corpus}/src/corpus_#{name}_without_kernel")
+  tagged_sentences = read_tagged_sentences("training/corpus/#{corpus}/src_test/corpus_#{name}_without_kernel")
 
   training, test = tagged_sentences.partition { rand < 0.8 }
 
-  kernel_sentences = read_tagged_sentences("training/corpus/#{corpus}/src/#{name}_kernel")
+  kernel_sentences = read_tagged_sentences("training/corpus/#{corpus}/src_test/#{name}_kernel")
 
   training_with_kernel = kernel_sentences.concat(training)
 
