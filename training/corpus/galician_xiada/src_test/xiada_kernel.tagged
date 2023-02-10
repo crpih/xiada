@@ -6988,6 +6988,8 @@ foche	Vei20sser	ser
 
 foches	Vei20sir	ir
 
+foi	Vei30sir	ir
+
 for	Vfs10sir	ir
 
 for	Vfs10sser	ser
@@ -6999,6 +7001,24 @@ for	Vfsa0sir	ir
 for	Vfsa0sser	ser
 
 fora	Vesa0sir	ir
+
+fora	Ves10sir	ir
+
+fora	Ves10sser	ser
+
+fora	Vli10sir	ir
+
+fora	Vli10sser	ser
+
+fora	Vli30sir	ir
+
+fora	Vli30sser	ser
+
+fora	Vlia0sir	ir
+
+fora	Vlia0sser	ser
+
+fora	Vesa0sser	ser
 
 forades	Ves20pser	ser
 
@@ -7022,6 +7042,14 @@ fóramos	Vli10pser	ser
 
 foras	Vli20sir	ir
 
+foras	Vli20sser	ser
+
+foras	Ves20sir	ir
+
+foran	Vli30pir	ir
+
+foran	Vli30pser	ser
+
 fordes	Vfs20pir	ir
 
 fordes	Vfs20pser	ser
@@ -7038,6 +7066,10 @@ formos	Vfs10pir	ir
 
 formos	Vfs10pser	ser
 
+foron	Vei30pir	ir
+
+fose	Ves10sir	ir
+
 fosedes	Ves20pir	ir
 
 fósedes	Ves20pir	ir
@@ -7045,6 +7077,10 @@ fósedes	Ves20pir	ir
 fosedes	Ves20pser	ser
 
 fósedes	Ves20pser	ser
+
+fose	Ves30sir	ir
+
+fosen	Ves30pir	ir
 
 fostes	Vei20pir	ir
 
@@ -7057,3 +7093,5 @@ fuche	Vei20sser	ser
 fumos	Vei10pir	ir
 
 fumos	Vei10pser	ser
+
+estiver	Vfs30s	ser
