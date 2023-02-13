@@ -1,5 +1,6 @@
 require 'tempfile'
 require 'stringio'
+require 'json'
 require 'diff-lcs'
 require 'nxml'
 
@@ -65,8 +66,8 @@ def parse_output_document(text)
   rules = Nxml.root :document, format: ->(e) { e[:document_content] } do
     element :document_content, format: ->(e) { e[:oración] } do
       sequence :oración, format: ->(e) { e[:análise] } do
-        element :análise, format: ->(e) { e[:análise_unidade] } do
-          sequence :análise_unidade, format: ->(e) { e[:constituínte].flatten(1) } do
+        element :análise, format: ->(e) { e[:análise_unidade].flatten(1) } do
+          sequence :análise_unidade, format: ->(e) { e[:constituínte] } do
             sequence :constituínte, format: ->(e) { e.values_at(:forma, :etiqueta, :lema) } do
               element_content :forma
               element_content :etiqueta
@@ -137,7 +138,7 @@ CORPUS.each do |corpus|
     input.unlink
   end
 
-  file("test/precision/summary/#{corpus}.txt" => %W[
+  file("test/precision/summary/#{corpus}.json" => %W[
     test/precision/results/#{corpus}_result.tagged
     test/precision/corpus/#{corpus}_test.tagged
   ]) do |t|
@@ -146,21 +147,26 @@ CORPUS.each do |corpus|
       sentences: 0,
       elements: 0,
       segmentation_errors: Hash.new(0),
+      category_errors: 0,
       tag_errors: 0,
       lemma_errors: 0
     }
 
     result = parse_sentences(File.read(result_file))
     test = parse_sentences(File.read(test_file))
+    summary[:sentences] = test.size
     test.zip(result).each do |reference, predicted|
       summary[:elements] += reference.size
       length_difference = predicted.size - reference.size
       summary[:segmentation_errors][length_difference] += 1 unless length_difference.zero?
       _, reference_tags, reference_lemmas = reference.transpose
       _, predicted_tags, predicted_lemmas = predicted.transpose
+      reference_categories = reference_tags.map { |t| t[0] }
+      predicted_categories = predicted_tags.map { |t| t[0] }
+      summary[:category_errors] += Diff::LCS.sdiff(reference_categories, predicted_categories).count { |c| c.action == "!" }
       summary[:tag_errors] += Diff::LCS.sdiff(reference_tags, predicted_tags).count { |c| c.action == "!" }
       summary[:lemma_errors] += Diff::LCS.sdiff(reference_lemmas, predicted_lemmas).count { |c| c.action == "!" }
     end
-    File.write(t.name, summary.to_json)
+    File.write(t.name, JSON.pretty_generate(summary))
   end
 end
