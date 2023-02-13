@@ -1,5 +1,6 @@
 require 'tempfile'
 require 'stringio'
+require 'diff-lcs'
 require 'nxml'
 
 CORPUS = %w[galician_xiada spanish_eslora].freeze
@@ -135,5 +136,31 @@ CORPUS.each do |corpus|
     input.close
     input.unlink
   end
-end
 
+  file("test/precision/summary/#{corpus}.txt" => %W[
+    test/precision/results/#{corpus}_result.tagged
+    test/precision/corpus/#{corpus}_test.tagged
+  ]) do |t|
+    result_file, test_file = t.sources
+    summary = {
+      sentences: 0,
+      elements: 0,
+      segmentation_errors: Hash.new(0),
+      tag_errors: 0,
+      lemma_errors: 0
+    }
+
+    result = parse_sentences(File.read(result_file))
+    test = parse_sentences(File.read(test_file))
+    test.zip(result).each do |reference, predicted|
+      summary[:elements] += reference.size
+      length_difference = predicted.size - reference.size
+      summary[:segmentation_errors][length_difference] += 1 unless length_difference.zero?
+      _, reference_tags, reference_lemmas = reference.transpose
+      _, predicted_tags, predicted_lemmas = predicted.transpose
+      summary[:tag_errors] += Diff::LCS.sdiff(reference_tags, predicted_tags).count { |c| c.action == "!" }
+      summary[:lemma_errors] += Diff::LCS.sdiff(reference_lemmas, predicted_lemmas).count { |c| c.action == "!" }
+    end
+    File.write(t.name, summary.to_json)
+  end
+end
