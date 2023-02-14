@@ -138,6 +138,16 @@ CORPUS.each do |corpus|
     input.unlink
   end
 
+  ResultToken = Struct.new(:form, :tag, :lemma) do
+    def category
+      tag[0]
+    end
+
+    def ==(other)
+      form == other.form
+    end
+  end
+
   file("test/precision/summary/#{corpus}.json" => %W[
     test/precision/results/#{corpus}_result.tagged
     test/precision/corpus/#{corpus}_test.tagged
@@ -146,7 +156,7 @@ CORPUS.each do |corpus|
     summary = {
       sentences: 0,
       elements: 0,
-      segmentation_errors: Hash.new(0),
+      segmentation_errors: 0,
       category_errors: 0,
       tag_errors: 0,
       lemma_errors: 0
@@ -156,16 +166,17 @@ CORPUS.each do |corpus|
     test = parse_sentences(File.read(test_file))
     summary[:sentences] = test.size
     test.zip(result).each do |reference, predicted|
-      summary[:elements] += reference.size
-      length_difference = predicted.size - reference.size
-      summary[:segmentation_errors][length_difference] += 1 unless length_difference.zero?
-      _, reference_tags, reference_lemmas = reference.transpose
-      _, predicted_tags, predicted_lemmas = predicted.transpose
-      reference_categories = reference_tags.map { |t| t[0] }
-      predicted_categories = predicted_tags.map { |t| t[0] }
-      summary[:category_errors] += Diff::LCS.sdiff(reference_categories, predicted_categories).count { |c| c.action == "!" }
-      summary[:tag_errors] += Diff::LCS.sdiff(reference_tags, predicted_tags).count { |c| c.action == "!" }
-      summary[:lemma_errors] += Diff::LCS.sdiff(reference_lemmas, predicted_lemmas).count { |c| c.action == "!" }
+      reference_tokens = reference.map { |e| ResultToken.new(*e) }
+      predicted_tokens = predicted.map { |e| ResultToken.new(*e) }
+
+      summary[:elements] += reference_tokens.size
+      # It is simpler to calculate #diff to count segmentation errors and #sdiff to count tag errors
+      summary[:segmentation_errors] += Diff::LCS.diff(reference_tokens, predicted_tokens).size
+      Diff::LCS.sdiff(reference_tokens, predicted_tokens).filter { |c| c.action == '=' }.each do |change|
+        summary[:tag_errors] += 1 if change.old_element.tag != change.new_element.tag
+        summary[:category_errors] += 1 if change.old_element.category != change.new_element.category
+        summary[:lemma_errors] += 1 if change.old_element.lemma != change.new_element.lemma
+      end
     end
     File.write(t.name, JSON.pretty_generate(summary))
   end
