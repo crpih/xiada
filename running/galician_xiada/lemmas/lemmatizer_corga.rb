@@ -6,6 +6,14 @@ require_relative 'auto_rule'
 require_relative 'isimo_rule'
 require_relative 'mente_rule'
 require_relative 'inho_rule'
+require_relative 'ex_rule'
+require_relative 'meta_rule'
+require_relative 'etno_rule'
+require_relative 'macro_rule'
+require_relative 'micro_rule'
+require_relative 'xeo_rule'
+require_relative 'multi_rule'
+require_relative 'tele_rule'
 
 module Lemmas
   class LemmatizerCorga
@@ -18,30 +26,67 @@ module Lemmas
       @auto_rule = AutoRule.new(@tags)
       @isimo_rule = IsimoRule.new(@tags)
       @inho_rule = InhoRule.new(@tags)
+      @ex_rule = ExRule.new(@tags)
+      @meta_rule = MetaRule.new(@tags)
+      @etno_rule = EtnoRule.new(@tags)
+      @macro_rule = MacroRule.new(@tags)
+      @micro_rule = MicroRule.new(@tags)
+      @xeo_rule = XeoRule.new(@tags)
+      @multi_rule = MultiRule.new(@tags)
+      @tele_rule = TeleRule.new(@tags)
     end
 
     def call(word)
-      query = Query.new(nil, word, @tags)
-      gheada_variants(query.word).flat_map do |variant|
-        gh_query = query.copy(variant)
+      gheada_queries(Query.new(nil, word, @tags)) do |query|
         [
-          *@mente_rule.(gh_query) do |qa|
-            find_guesser('mente', qa)
+          *suffix_rules(query),
+          *@auto_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
           end,
-          *@isimo_rule.(gh_query) do |qb|
-            find(qb)
+          *@ex_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
           end,
-          *@auto_rule.(gh_query) do |qa|
-            find(qa)
+          *@meta_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
           end,
-          *@inho_rule.(gh_query) do |qa|
-            find(qa)
-          end
+          *@etno_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
+          *@macro_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
+          *@micro_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
+          *@xeo_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
+          *@multi_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
+          *@tele_rule.(query) do |qa|
+            [*suffix_rules(qa), *find(qa)]
+          end,
         ]
       end
     end
 
     private
+
+    def gheada_queries(query)
+      gheada_variants(query.word).flat_map do |variant|
+        gh_query = query.copy(variant)
+        yield gh_query
+      end
+    end
+
+    def suffix_rules(query)
+      [
+        *@mente_rule.(query) { |qa| find_guesser('mente', qa) },
+        *@isimo_rule.(query) { |qa| find(qa) },
+        *@inho_rule.(query)  { |qa| find(qa) },
+      ]
+    end
 
     def find(query)
       @dw.get_emissions_info(query.word, query.tags)
