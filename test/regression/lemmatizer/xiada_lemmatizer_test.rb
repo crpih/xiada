@@ -41,7 +41,12 @@ describe LemmatizerGalicianXiada do
 
       expected = JSON.parse(File.read("#{__dir__}/#{database_name}/selected.json"))
       WORDS.each do |word|
-        assert_equal expected[word], current[word], "Failed lemmatization for: #{word}"
+        expected_word = expected[word]
+        if expected_word.nil?
+          assert_nil current[word], "Failed lemmatization for: #{word}"
+        else
+          assert_equal expected_word, current[word], "Failed lemmatization for: #{word}"
+        end
       end
     end
   end

@@ -39,7 +39,6 @@ module Lemmas
     def call(word)
       gheada_queries(Query.new(nil, word, @tags)) do |query|
         [
-          *suffix_rules(query),
           *@auto_rule.(query) do |qa|
             [*suffix_rules(qa), *find(qa)]
           end,
@@ -67,6 +66,7 @@ module Lemmas
           *@tele_rule.(query) do |qa|
             [*suffix_rules(qa), *find(qa)]
           end,
+          *suffix_rules(query),
         ]
       end
     end
