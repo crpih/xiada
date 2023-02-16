@@ -9,13 +9,12 @@ module Lemmas
     end
 
     def apply_query(query)
+      return if %w[multidade multidude].include?(query.word) # Exceptions
       return unless query.word.match(/\Amulti(-?)(.*)\z/)
 
       hyphen, base = Regexp.last_match.captures
 
       if hyphen.empty?
-        return if %w[multidade multidude].include?(query.word) # Exceptions
-
         if base.start_with?('rr')
           query.copy(base.delete_prefix('r'), @tags)
         else

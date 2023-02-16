@@ -96,6 +96,7 @@ tosiña
 horiña
 peliños
 groliño
+ex-primeiro ministro
 ex-esposo
 ex-alumnas
 ex-diputados
@@ -103,6 +104,7 @@ ex-Alca
 ex-Beatle
 ex-Checoslovaquia
 ex-alumniño
+meta-lo
 meta-literario
 metaliterario
 metadatos

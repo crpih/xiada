@@ -10,6 +10,7 @@ module Lemmas
 
     def apply_query(query)
       return unless query.word.match(/\Ameta(-?)(.*)\z/)
+      return if %w[meta-lo meta-la meta-los meta-las].include?(query.word)
 
       hyphen, base = Regexp.last_match.captures
 

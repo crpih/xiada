@@ -1953,6 +1953,14 @@
       -10.00604414086122
     ]
   ],
+  "ex-primeiro ministro": [
+    [
+      "Scms",
+      "ex-primeiro ministro",
+      "exprimeiro ministro",
+      -8.920017779380462
+    ]
+  ],
   "ex-esposo": [
     [
       "Scms",
@@ -2005,6 +2013,30 @@
       "ex-diputado",
       "exdeputado",
       -10.689236703555197
+    ]
+  ],
+  "ex-Alca": [
+    [
+      "Sp00",
+      "Alca",
+      "Alca",
+      0.0
+    ]
+  ],
+  "ex-Beatle": [
+    [
+      "Sp00",
+      "Beatle",
+      "Beatle",
+      0.0
+    ]
+  ],
+  "ex-Checoslovaquia": [
+    [
+      "Sp00",
+      "Checoslovaquia",
+      "Checoslovaquia",
+      0.0
     ]
   ],
   "ex-alumniño": [

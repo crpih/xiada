@@ -5,7 +5,7 @@ module Lemmas
   class ExRule < Rule
     def initialize(all_possible_tags)
       super(all_possible_tags)
-      @tags = tags_for('A.*', 'S.*')
+      @tags = tags_for('A.*', 'Sc.*')
     end
 
     def apply_query(query)

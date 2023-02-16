@@ -7,6 +7,7 @@ require_relative 'isimo_rule'
 require_relative 'mente_rule'
 require_relative 'inho_rule'
 require_relative 'ex_rule'
+require_relative 'ex_proper_rule'
 require_relative 'meta_rule'
 require_relative 'etno_rule'
 require_relative 'macro_rule'
@@ -22,11 +23,13 @@ module Lemmas
     def initialize(database_wrapper)
       @dw = database_wrapper
       @tags = @dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
+
       @mente_rule = MenteRule.new(@tags)
       @auto_rule = AutoRule.new(@tags)
       @isimo_rule = IsimoRule.new(@tags)
       @inho_rule = InhoRule.new(@tags)
       @ex_rule = ExRule.new(@tags)
+      @ex_proper_rule = ExProperRule.new(@tags)
       @meta_rule = MetaRule.new(@tags)
       @etno_rule = EtnoRule.new(@tags)
       @macro_rule = MacroRule.new(@tags)
@@ -41,6 +44,9 @@ module Lemmas
         [
           *@auto_rule.(query) do |qa|
             [*suffix_rules(qa), *find(qa)]
+          end,
+          *@ex_proper_rule.(query) do |qa|
+            proper_noun(qa)
           end,
           *@ex_rule.(query) do |qa|
             [*suffix_rules(qa), *find(qa)]
@@ -96,6 +102,10 @@ module Lemmas
     def find_guesser(suffix, query)
       @dw.get_guesser_result("'#{suffix}'", query.word, query.tags)
          .map { |tag, lemma, hyperlemma, lob_b| Result.new(query, tag, lemma, hyperlemma, lob_b) }
+    end
+
+    def proper_noun(query)
+      [Result.new(query, 'Sp00', query.word, query.word, 0.0)]
     end
   end
 end
