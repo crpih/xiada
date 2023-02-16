@@ -17,7 +17,7 @@ class DatabaseWrapper
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
     when "galician_xiada"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(LemmatizerGalicianXiadaRefactor)
     when "galician_xiada_oral"
       @lemmatizer.extend(LemmatizerGalicianXiada)
     end
