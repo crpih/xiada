@@ -286,6 +286,8 @@ A. M. S.	Zg00	A. M. S.
 A. M. S.	Zgfs	A. M. S.	
 A. M. T. E. G. A.	Zg00	A. M. T. E. G. A.	AMTEGA
 A. M. T. E. G. A.	Zgfs	A. M. T. E. G. A.	AMTEGA
+A. N. -. P. G.	Zg00	A. N. -. P. G.	AN-PG
+A. N. -. P. G.	Zgfs	A. N. -. P. G.	AN-PG
 A. N. A.	Zg00	A. N. A.	
 A. N. A.	Zgfs	A. N. A.	
 A. N. A. F. E.	Zg00	A. N. A. F. E.	
@@ -394,8 +396,8 @@ A. R. Q.	Zg00	A. R. Q.
 A. R. Q.	Zgfa	A. R. Q.	
 A. R. Q.	Zgfp	A. R. Q.	
 A. R. Q.	Zgfs	A. R. Q.	
-A. S. -. P. G.	Zg00	A. S. -. P. G.	
-A. S. -. P. G.	Zgfs	A. S. -. P. G.	
+A. S. -. P. G.	Zg00	A. S. -. P. G.	AS-PG
+A. S. -. P. G.	Zgfs	A. S. -. P. G.	AS-PG
 A. S. A.	Zg00	A. S. A.	
 A. S. A.	Zgfs	A. S. A.	
 A. S. B.	Zg00	A. S. B.	
@@ -424,8 +426,8 @@ A. S. P. A. S.	Zg00	A. S. P. A. S.
 A. S. P. A. S.	Zgfa	A. S. P. A. S.	
 A. S. P. A. S.	Zgfp	A. S. P. A. S.	
 A. S. P. A. S.	Zgfs	A. S. P. A. S.	
-A. S. P. G.	Zg00	A. S. P. G.	
-A. S. P. G.	Zgfs	A. S. P. G.	
+A. S. P. G.	Zg00	A. S. P. G.	AS-PG
+A. S. P. G.	Zgfs	A. S. P. G.	AS-PG
 A. S. P. L. A.	Zg00	A. S. P. L. A.	
 A. S. P. L. A.	Zgfs	A. S. P. L. A.	
 A. S. T. A. N. O.	Zg00	A. S. T. A. N. O.	
