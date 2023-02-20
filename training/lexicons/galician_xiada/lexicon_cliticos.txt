@@ -1,11 +1,13 @@
+-la	Ddfs	o
+-las	Ddfp	o
+-lo	Ddms	o
+-los	Ddmp	o
 a	Raa3fs	o
 as	Raa3fp	o
 che	Rad2as	che
 che	Rad2fs	che
 che	Rad2ms	che
--la	Ddfs	o
 la	Raa3fs	o
--las	Ddfp	o
 las	Raa3fp	o
 lle	Rad3ap	lle
 lle	Rad3as	lle
@@ -16,9 +18,7 @@ lle	Rad3ms	lle
 lles	Rad3ap	lle
 lles	Rad3fp	lle
 lles	Rad3mp	lle
--lo	Ddms	o
 lo	Raa3ms	o
--los	Ddmp	o
 los	Raa3mp	o
 me	Raa1as	me
 me	Raa1fs	me
@@ -29,6 +29,7 @@ me	Rad1ms	me
 me	Raf1as	me
 me	Raf1fs	me
 me	Raf1ms	me
+n@s	Raa3xp	o
 na	Raa3fs	o
 nas	Raa3fp	o
 no	Raa1ap	nos

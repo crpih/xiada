@@ -641,6 +641,7 @@ par.	Za00	par.
 part.	Za00	part.	
 pass.	Za00	pass.	
 pat.	Za00	pat.	
+paxs	Zafp	pax	páx.
 pdo.	Zams	pdo.	
 pdta.	Zafs	pdte.	
 pdte.	Zams	pdte.	
@@ -660,6 +661,7 @@ pospret.	Za00	pospret.
 poét.	Za00	poét.	
 pp.	Zafp	p.	
 ppal.	Za00	ppal.	
+ppm	Zafp	ppm	
 ppmm	Zafp	ppmm	
 pr.	Za00	pr.	
 pral.	Za00	pral.	
@@ -688,8 +690,9 @@ ptas.	Zafp	pta.
 ptg.	Za00	ptg.	
 publ.	Za00	publ.	
 pza.	Zafs	pza.	
-páx.	Zafs	páx.	
-páxs.	Zafp	páx.	
+páx.	Zafs	páx.	páx.
+páxs	Zafp	páx	páx.
+páxs.	Zafp	páx.	páx.
 q. D. g.	Za00	q. D. g.	
 q. b. s. m.	Za00	q. b. s. m.	
 q. b. s. p.	Za00	q. b. s. p.	
