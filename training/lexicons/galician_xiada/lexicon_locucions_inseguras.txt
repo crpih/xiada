@@ -97,6 +97,7 @@ a pouco que	Cs	a pouco que	a pouco que
 a pre	Wn	a pre	a pre
 a propósito	Wn	a propósito	a propósito
 a punto	Wn	a punto	a punto
+a punto de	P	a punto de	a punto de
 a pé	Wn	a pé	a pé
 a rastro	Wn	a rastro	a rastro
 a razón de	P	a razón de	a razón de
