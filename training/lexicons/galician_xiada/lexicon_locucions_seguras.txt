@@ -117,7 +117,6 @@ a por de	P	a por de	a por de
 a posteriori	Wn	a posteriori	a posteriori
 a priori	Wn	a priori	a priori
 a prol	Wn	a prol	a prol
-a punto de	P	a punto de	a punto de
 a queimarroupa	Wn	a queimarroupa	a queimarroupa
 a raxatabla	Wn	a raxatabla	a raxatabla
 a recú	Wn	a recú	a recú

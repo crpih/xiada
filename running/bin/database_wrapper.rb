@@ -121,7 +121,6 @@ class DatabaseWrapper
     end
     return result
   end
-
   def get_bigram_probability(tag_j, tag_k)
     result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
     if result == nil
@@ -141,11 +140,11 @@ class DatabaseWrapper
         #STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
         return Float(result)
       else
-        # STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
+        #STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
         return Float(result)
       end
     else
-      # STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
+      #STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
       return Float(result)
     end
   end
