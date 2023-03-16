@@ -6,7 +6,7 @@
 <unidade>Non obstante</unidade>
 <constituínte>
 <forma>non obstante</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>non obstante</lema>
 <hiperlema>non obstante</hiperlema>
 </constituínte>
@@ -66,12 +66,30 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>en relación ó</unidade>
+<unidade>en</unidade>
 <constituínte>
-<forma>en relación a</forma>
-<etiqueta>Lp0</etiqueta>
-<lema>en relación a</lema>
-<hiperlema>en relación a</hiperlema>
+<forma>en</forma>
+<etiqueta>P</etiqueta>
+<lema>en</lema>
+<hiperlema>en</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>relación</unidade>
+<constituínte>
+<forma>relación</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>relación</lema>
+<hiperlema>relación</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>ó</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>P</etiqueta>
+<lema>a</lema>
+<hiperlema>a</hiperlema>
 </constituínte>
 <constituínte>
 <forma>o</forma>

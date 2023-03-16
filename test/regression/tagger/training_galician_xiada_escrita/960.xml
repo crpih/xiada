@@ -60,9 +60,7 @@
 <unidade>fora</unidade>
 <constituínte>
 <forma>fora</forma>
-<etiqueta>Vli30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vli30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -191,7 +189,7 @@
 <unidade>ao redor da</unidade>
 <constituínte>
 <forma>a o redor de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a o redor de</lema>
 <hiperlema>a o redor de</hiperlema>
 </constituínte>

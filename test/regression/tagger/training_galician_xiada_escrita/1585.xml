@@ -24,9 +24,9 @@
 <unidade>a</unidade>
 <constituínte>
 <forma>a</forma>
-<etiqueta>P</etiqueta>
-<lema>a</lema>
-<hiperlema>a</hiperlema>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -78,7 +78,7 @@
 <unidade>reportaxes</unidade>
 <constituínte>
 <forma>reportaxes</forma>
-<etiqueta>Scmp</etiqueta>
+<etiqueta>Scfp</etiqueta>
 <lema>reportaxe</lema>
 <hiperlema>reportaxe</hiperlema>
 </constituínte>

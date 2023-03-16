@@ -3,21 +3,12 @@
 <expresión>Tom Cruise.</expresión>
 <análise>
 <análise_unidade>
-<unidade>Tom</unidade>
+<unidade>Tom Cruise</unidade>
 <constituínte>
-<forma>tom</forma>
-<etiqueta>Scms</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Cruise</unidade>
-<constituínte>
-<forma>Cruise</forma>
-<etiqueta>Spms</etiqueta>
-<lema>Cruise</lema>
-<hiperlema>Cruise</hiperlema>
+<forma>Tom Cruise</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Tom Cruise</lema>
+<hiperlema>Tom Cruise</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

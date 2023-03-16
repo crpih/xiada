@@ -90,9 +90,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -182,9 +180,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -387,21 +383,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>de</unidade>
+<unidade>de acordo</unidade>
 <constituínte>
-<forma>de</forma>
-<etiqueta>P</etiqueta>
-<lema>de</lema>
-<hiperlema>de</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>acordo</unidade>
-<constituínte>
-<forma>acordo</forma>
-<etiqueta>Scms</etiqueta>
-<lema>acordo</lema>
-<hiperlema>acordo</hiperlema>
+<forma>de acordo</forma>
+<etiqueta>Wn</etiqueta>
+<lema>de acordo</lema>
+<hiperlema>de acordo</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -65,30 +65,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Hispanic Society</unidade>
+<unidade>Hispanic Society of America</unidade>
 <constituínte>
-<forma>Hispanic Society</forma>
+<forma>Hispanic Society of America</forma>
 <etiqueta>Spfs</etiqueta>
-<lema>Hispanic Society</lema>
-<hiperlema>Hispanic Society</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>of</unidade>
-<constituínte>
-<forma>of</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>America</unidade>
-<constituínte>
-<forma>America</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>America</lema>
-<hiperlema>America</hiperlema>
+<lema>Hispanic Society of America</lema>
+<hiperlema>Hispanic Society of America</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -122,7 +104,7 @@
 <unidade>xunto cun</unidade>
 <constituínte>
 <forma>xunto con</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>xunto con</lema>
 <hiperlema>xunto con</hiperlema>
 </constituínte>

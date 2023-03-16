@@ -15,7 +15,7 @@
 <unidade>desde logo</unidade>
 <constituínte>
 <forma>desde logo</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>desde logo</lema>
 <hiperlema>desde logo</hiperlema>
 </constituínte>
@@ -24,27 +24,25 @@
 <unidade>se</unidade>
 <constituínte>
 <forma>se</forma>
-<etiqueta>Cs</etiqueta>
+<etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema>se</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>Photoespaña</unidade>
 <constituínte>
 <forma>Photoespaña</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spm0</etiqueta>
 <lema>Photoespaña</lema>
-<hiperlema></hiperlema>
+<hiperlema>Photoespaña</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>fose</unidade>
 <constituínte>
 <forma>fose</forma>
-<etiqueta>Ves30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Ves30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>

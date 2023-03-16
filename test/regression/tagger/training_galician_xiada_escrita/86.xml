@@ -159,9 +159,7 @@
 <unidade>fosen</unidade>
 <constituínte>
 <forma>fosen</forma>
-<etiqueta>Ves30p</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Ves30pser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -179,7 +177,7 @@
 <unidade>mesmas</unidade>
 <constituínte>
 <forma>mesmas</forma>
-<etiqueta>Idfp</etiqueta>
+<etiqueta>Infp</etiqueta>
 <lema>mesmo</lema>
 <hiperlema>mesmo</hiperlema>
 </constituínte>

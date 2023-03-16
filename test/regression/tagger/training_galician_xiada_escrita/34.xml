@@ -180,7 +180,7 @@
 <unidade>pasado</unidade>
 <constituínte>
 <forma>pasado</forma>
-<etiqueta>A0ms</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>pasado</lema>
 <hiperlema>pasado</hiperlema>
 </constituínte>
@@ -189,7 +189,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Cs</etiqueta>
+<etiqueta>Tnms</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -234,7 +234,7 @@
 <unidade>a diario</unidade>
 <constituínte>
 <forma>a diario</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>a diario</lema>
 <hiperlema>a diario</hiperlema>
 </constituínte>

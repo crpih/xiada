@@ -162,7 +162,7 @@
 <unidade>adiante</unidade>
 <constituínte>
 <forma>adiante</forma>
-<etiqueta>Wm</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>adiante</lema>
 <hiperlema>adiante</hiperlema>
 </constituínte>
@@ -252,11 +252,9 @@
 <unidade>foron</unidade>
 <constituínte>
 <forma>foron</forma>
-<etiqueta>Vei30p</etiqueta>
+<etiqueta>Vei30pir</etiqueta>
 <lema>ir</lema>
 <hiperlema>ir</hiperlema>
-<lema>ser</lema>
-<hiperlema>ser</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

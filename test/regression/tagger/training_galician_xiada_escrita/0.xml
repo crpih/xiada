@@ -3,21 +3,12 @@
 <expresión>Jorge Régula non será perigoso porque non irá armado, ou polo menos iso din os seus amigos, os mesmos colombianos que lle pasarán a droga en Boadilla.</expresión>
 <análise>
 <análise_unidade>
-<unidade>Jorge</unidade>
+<unidade>Jorge Régula</unidade>
 <constituínte>
-<forma>jorge</forma>
-<etiqueta>A0aa</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Régula</unidade>
-<constituínte>
-<forma>Régula</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Régula</lema>
-<hiperlema>Régula</hiperlema>
+<forma>Jorge Régula</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Jorge Régula</lema>
+<hiperlema>Jorge Régula</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -105,7 +96,7 @@
 <unidade>polo menos</unidade>
 <constituínte>
 <forma>por lo menos</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>por o menos</lema>
 <hiperlema>por o menos</hiperlema>
 </constituínte>

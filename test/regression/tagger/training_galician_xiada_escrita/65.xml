@@ -6,7 +6,7 @@
 <unidade>Se cadra</unidade>
 <constituínte>
 <forma>se cadra</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>se cadra</lema>
 <hiperlema>se cadra</hiperlema>
 </constituínte>
@@ -15,7 +15,7 @@
 <unidade>este</unidade>
 <constituínte>
 <forma>este</forma>
-<etiqueta>Edms</etiqueta>
+<etiqueta>Enms</etiqueta>
 <lema>este</lema>
 <hiperlema>este</hiperlema>
 </constituínte>
@@ -60,16 +60,16 @@
 <unidade>un</unidade>
 <constituínte>
 <forma>un</forma>
-<etiqueta>Dims</etiqueta>
+<etiqueta>Ncnms</etiqueta>
 <lema>un</lema>
-<hiperlema>un</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>tanto</unidade>
 <constituínte>
 <forma>tanto</forma>
-<etiqueta>Inms</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>tanto</lema>
 <hiperlema>tanto</hiperlema>
 </constituínte>
@@ -78,9 +78,9 @@
 <unidade>sofisticado</unidade>
 <constituínte>
 <forma>sofisticado</forma>
-<etiqueta>A0ms</etiqueta>
-<lema>sofisticado</lema>
-<hiperlema>sofisticado</hiperlema>
+<etiqueta>V0p0ms</etiqueta>
+<lema>sofisticar</lema>
+<hiperlema>sofisticar</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

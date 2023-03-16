@@ -120,7 +120,7 @@
 <unidade>a pesar de</unidade>
 <constituínte>
 <forma>a pesar de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a pesar de</lema>
 <hiperlema>a pesar de</hiperlema>
 </constituínte>
@@ -210,12 +210,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>de novo</unidade>
+<unidade>de</unidade>
 <constituínte>
-<forma>de novo</forma>
-<etiqueta>La0</etiqueta>
-<lema>de novo</lema>
-<hiperlema>de novo</hiperlema>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>novo</unidade>
+<constituínte>
+<forma>novo</forma>
+<etiqueta>A0ms</etiqueta>
+<lema>novo</lema>
+<hiperlema>novo</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

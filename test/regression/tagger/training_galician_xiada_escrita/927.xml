@@ -48,9 +48,9 @@
 <unidade>Franco</unidade>
 <constituínte>
 <forma>Franco</forma>
-<etiqueta>Spm0</etiqueta>
+<etiqueta>Sp00</etiqueta>
 <lema>Franco</lema>
-<hiperlema>Franco</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -77,7 +77,7 @@
 <unidade>xa que logo</unidade>
 <constituínte>
 <forma>xa que logo</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>xa que logo</lema>
 <hiperlema></hiperlema>
 </constituínte>

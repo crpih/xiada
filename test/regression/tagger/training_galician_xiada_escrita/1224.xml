@@ -120,7 +120,7 @@
 <unidade>ó longo dos</unidade>
 <constituínte>
 <forma>a o longo de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a o longo de</lema>
 <hiperlema>a o longo de</hiperlema>
 </constituínte>
@@ -318,7 +318,7 @@
 <unidade>dende logo</unidade>
 <constituínte>
 <forma>dende logo</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>dende logo</lema>
 <hiperlema>dende logo</hiperlema>
 </constituínte>
@@ -327,7 +327,7 @@
 <unidade>moita</unidade>
 <constituínte>
 <forma>moita</forma>
-<etiqueta>Infs</etiqueta>
+<etiqueta>Idfs</etiqueta>
 <lema>moito</lema>
 <hiperlema>moito</hiperlema>
 </constituínte>
@@ -336,9 +336,9 @@
 <unidade>garra</unidade>
 <constituínte>
 <forma>garra</forma>
-<etiqueta>Vpi30s</etiqueta>
-<lema>garrar</lema>
-<hiperlema>garrar</hiperlema>
+<etiqueta>Scfs</etiqueta>
+<lema>garra</lema>
+<hiperlema>garra</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -390,7 +390,7 @@
 <unidade>aínda que</unidade>
 <constituínte>
 <forma>aínda que</forma>
-<etiqueta>Lcs</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>aínda que</lema>
 <hiperlema>aínda que</hiperlema>
 </constituínte>

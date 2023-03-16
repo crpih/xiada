@@ -231,7 +231,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -240,9 +240,7 @@
 <unidade>fun</unidade>
 <constituínte>
 <forma>fun</forma>
-<etiqueta>Vei10s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei10sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -485,9 +483,7 @@
 <unidade>fose</unidade>
 <constituínte>
 <forma>fose</forma>
-<etiqueta>Ves30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Ves30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>

@@ -80,9 +80,7 @@
 <unidade>foron</unidade>
 <constituínte>
 <forma>foron</forma>
-<etiqueta>Vei30p</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30pser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -100,7 +98,7 @@
 <unidade>en relación coas</unidade>
 <constituínte>
 <forma>en relación con</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>en relación con</lema>
 <hiperlema>en relación con</hiperlema>
 </constituínte>

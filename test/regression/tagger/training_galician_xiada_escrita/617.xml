@@ -155,7 +155,7 @@
 <unidade>Juan</unidade>
 <constituínte>
 <forma>Juan</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spm0</etiqueta>
 <lema>Juan</lema>
 <hiperlema>Juan</hiperlema>
 </constituínte>
@@ -245,30 +245,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Maison</unidade>
+<unidade>Maison &amp; Objet de París</unidade>
 <constituínte>
-<forma>Maison</forma>
+<forma>Maison &amp; Objet de París</forma>
 <etiqueta>Spms</etiqueta>
-<lema>Maison</lema>
-<hiperlema>Maison</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>&amp;</unidade>
-<constituínte>
-<forma>&amp;</forma>
-<etiqueta>Vfi30s</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Objet de París</unidade>
-<constituínte>
-<forma>Objet de París</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Objet de París</lema>
-<hiperlema>Objet de París</hiperlema>
+<lema>Maison &amp; Objet de París</lema>
+<hiperlema>Maison &amp; Objet de París</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

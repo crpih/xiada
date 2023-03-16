@@ -16,8 +16,8 @@
 <constituínte>
 <forma>teleprinter</forma>
 <etiqueta>Scms</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<lema>teleprinter</lema>
+<hiperlema>teleprinter</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -117,9 +117,9 @@
 <unidade>televendedor</unidade>
 <constituínte>
 <forma>televendedor</forma>
-<etiqueta>A0ms</etiqueta>
-<lema>televendedor</lema>
-<hiperlema>televendedor</hiperlema>
+<etiqueta>Scms</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

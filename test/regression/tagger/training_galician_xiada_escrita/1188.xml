@@ -21,21 +21,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>arredor</unidade>
+<unidade>arredor dos</unidade>
 <constituínte>
-<forma>arredor</forma>
-<etiqueta>Wn</etiqueta>
-<lema>arredor</lema>
-<hiperlema>arredor</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>dos</unidade>
-<constituínte>
-<forma>de</forma>
+<forma>arredor de</forma>
 <etiqueta>P</etiqueta>
-<lema>de</lema>
-<hiperlema>de</hiperlema>
+<lema>arredor de</lema>
+<hiperlema>arredor de</hiperlema>
 </constituínte>
 <constituínte>
 <forma>os</forma>

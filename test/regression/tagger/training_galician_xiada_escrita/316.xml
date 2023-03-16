@@ -60,9 +60,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -134,7 +132,7 @@
 <unidade>a través dela</unidade>
 <constituínte>
 <forma>a través de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a través de</lema>
 <hiperlema>a través de</hiperlema>
 </constituínte>
@@ -359,7 +357,7 @@
 <unidade>lles</unidade>
 <constituínte>
 <forma>lles</forma>
-<etiqueta>Rad3mp</etiqueta>
+<etiqueta>Rad3ap</etiqueta>
 <lema>lle</lema>
 <hiperlema></hiperlema>
 </constituínte>

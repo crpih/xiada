@@ -69,9 +69,9 @@
 <unidade>ex-xuíz</unidade>
 <constituínte>
 <forma>ex-xuíz</forma>
-<etiqueta>Scms</etiqueta>
-<lema>ex-xuíz</lema>
-<hiperlema>ex-xuíz</hiperlema>
+<etiqueta>Scfs</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -87,7 +87,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Tnfs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -96,9 +96,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -197,9 +195,9 @@
 <unidade>se</unidade>
 <constituínte>
 <forma>se</forma>
-<etiqueta>Rao3aa</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -215,7 +213,7 @@
 <unidade>a carón</unidade>
 <constituínte>
 <forma>a carón</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>a carón</lema>
 <hiperlema>a carón</hiperlema>
 </constituínte>

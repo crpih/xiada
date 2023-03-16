@@ -69,7 +69,7 @@
 <unidade>a través da</unidade>
 <constituínte>
 <forma>a través de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a través de</lema>
 <hiperlema>a través de</hiperlema>
 </constituínte>
@@ -174,12 +174,27 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>á marxe</unidade>
+<unidade>á</unidade>
 <constituínte>
-<forma>a a marxe</forma>
-<etiqueta>La0</etiqueta>
-<lema>a a marxe</lema>
-<hiperlema>a a marxe</hiperlema>
+<forma>a</forma>
+<etiqueta>P</etiqueta>
+<lema>a</lema>
+<hiperlema>a</hiperlema>
+</constituínte>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>marxe</unidade>
+<constituínte>
+<forma>marxe</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>marxe</lema>
+<hiperlema>marxe</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -432,7 +447,7 @@
 <unidade>de xeito que</unidade>
 <constituínte>
 <forma>de xeito que</forma>
-<etiqueta>Lcs</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>de xeito que</lema>
 <hiperlema>de xeito que</hiperlema>
 </constituínte>

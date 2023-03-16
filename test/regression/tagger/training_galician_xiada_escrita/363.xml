@@ -5,10 +5,10 @@
 <análise_unidade>
 <unidade>Becerril</unidade>
 <constituínte>
-<forma>becerril</forma>
-<etiqueta>Scms</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<forma>Becerril</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Becerril</lema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -51,7 +51,7 @@
 <unidade>pese a</unidade>
 <constituínte>
 <forma>pese a</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>pese a</lema>
 <hiperlema>pese a</hiperlema>
 </constituínte>

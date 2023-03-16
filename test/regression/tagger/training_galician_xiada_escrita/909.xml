@@ -141,7 +141,7 @@
 <unidade>por veces</unidade>
 <constituínte>
 <forma>por veces</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>por veces</lema>
 <hiperlema>por veces</hiperlema>
 </constituínte>
@@ -219,27 +219,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>ás</unidade>
+<unidade>ás veces</unidade>
 <constituínte>
-<forma>a</forma>
-<etiqueta>P</etiqueta>
-<lema>a</lema>
-<hiperlema>a</hiperlema>
-</constituínte>
-<constituínte>
-<forma>as</forma>
-<etiqueta>Ddfp</etiqueta>
-<lema>o</lema>
-<hiperlema>o</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>veces</unidade>
-<constituínte>
-<forma>veces</forma>
-<etiqueta>Scfp</etiqueta>
-<lema>vez</lema>
-<hiperlema>vez</hiperlema>
+<forma>a as veces</forma>
+<etiqueta>Wn</etiqueta>
+<lema>a as veces</lema>
+<hiperlema>a as veces</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

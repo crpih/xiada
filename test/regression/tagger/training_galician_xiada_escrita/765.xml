@@ -24,7 +24,7 @@
 <unidade>Einstein</unidade>
 <constituínte>
 <forma>Einstein</forma>
-<etiqueta>Spm0</etiqueta>
+<etiqueta>Spf0</etiqueta>
 <lema>Einstein</lema>
 <hiperlema>Einstein</hiperlema>
 </constituínte>
@@ -33,7 +33,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Tnfs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -42,7 +42,7 @@
 <unidade>de verdade</unidade>
 <constituínte>
 <forma>de verdade</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>de verdade</lema>
 <hiperlema>de verdade</hiperlema>
 </constituínte>

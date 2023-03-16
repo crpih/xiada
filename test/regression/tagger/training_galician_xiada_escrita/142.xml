@@ -24,7 +24,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -33,9 +33,7 @@
 <unidade>foramos</unidade>
 <constituínte>
 <forma>foramos</forma>
-<etiqueta>Ves10p</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Ves10pser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -44,9 +42,9 @@
 <unidade>recibidos</unidade>
 <constituínte>
 <forma>recibidos</forma>
-<etiqueta>V0p0mp</etiqueta>
-<lema>recibir</lema>
-<hiperlema>recibir</hiperlema>
+<etiqueta>A0mp</etiqueta>
+<lema>recibido</lema>
+<hiperlema>recibido</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

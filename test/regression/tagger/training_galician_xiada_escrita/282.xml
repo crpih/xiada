@@ -15,18 +15,16 @@
 <unidade>Berlusconi</unidade>
 <constituínte>
 <forma>Berlusconi</forma>
-<etiqueta>Spm0</etiqueta>
+<etiqueta>Sp00</etiqueta>
 <lema>Berlusconi</lema>
-<hiperlema>Berlusconi</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -35,7 +33,7 @@
 <unidade>duramente</unidade>
 <constituínte>
 <forma>duramente</forma>
-<etiqueta>Wn</etiqueta>
+<etiqueta>Wm</etiqueta>
 <lema>duramente</lema>
 <hiperlema>duramente</hiperlema>
 </constituínte>
@@ -401,7 +399,7 @@
 <unidade>xunto ós</unidade>
 <constituínte>
 <forma>xunto a</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>xunto a</lema>
 <hiperlema>xunto a</hiperlema>
 </constituínte>

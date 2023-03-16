@@ -130,7 +130,7 @@
 <unidade>populares</unidade>
 <constituínte>
 <forma>populares</forma>
-<etiqueta>A0mp</etiqueta>
+<etiqueta>A0fp</etiqueta>
 <lema>popular</lema>
 <hiperlema>popular</hiperlema>
 </constituínte>
@@ -139,7 +139,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnmp</etiqueta>
+<etiqueta>Tnfp</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -148,9 +148,7 @@
 <unidade>foron</unidade>
 <constituínte>
 <forma>foron</forma>
-<etiqueta>Vei30p</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30pser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>

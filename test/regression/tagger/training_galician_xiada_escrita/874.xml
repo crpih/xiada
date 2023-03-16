@@ -15,7 +15,7 @@
 <unidade>Rupert</unidade>
 <constituínte>
 <forma>rupert</forma>
-<etiqueta>Scms</etiqueta>
+<etiqueta>Scfs</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -24,9 +24,9 @@
 <unidade>Murdoch</unidade>
 <constituínte>
 <forma>Murdoch</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spfs</etiqueta>
 <lema>Murdoch</lema>
-<hiperlema></hiperlema>
+<hiperlema>Murdoch</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -231,7 +231,7 @@
 </constituínte>
 <constituínte>
 <forma>lle</forma>
-<etiqueta>Rad3ms</etiqueta>
+<etiqueta>Rad3as</etiqueta>
 <lema>lle</lema>
 <hiperlema></hiperlema>
 </constituínte>
@@ -240,16 +240,16 @@
 <unidade>a</unidade>
 <constituínte>
 <forma>a</forma>
-<etiqueta>P</etiqueta>
-<lema>a</lema>
-<hiperlema>a</hiperlema>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>Efe Parks</unidade>
 <constituínte>
 <forma>Efe Parks</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spfs</etiqueta>
 <lema>Efe Parks</lema>
 <hiperlema>Efe Parks</hiperlema>
 </constituínte>

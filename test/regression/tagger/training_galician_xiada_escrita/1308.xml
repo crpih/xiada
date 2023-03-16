@@ -51,9 +51,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -98,18 +96,16 @@
 <unidade>se</unidade>
 <constituínte>
 <forma>se</forma>
-<etiqueta>Rao3aa</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>fose</unidade>
 <constituínte>
 <forma>fose</forma>
-<etiqueta>Ves30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Ves30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -190,7 +186,7 @@
 <unidade>de primeiras</unidade>
 <constituínte>
 <forma>de primeiras</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>de primeiras</lema>
 <hiperlema>de primeiras</hiperlema>
 </constituínte>

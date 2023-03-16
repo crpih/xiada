@@ -72,21 +72,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Qianzhousaurus</unidade>
+<unidade>Qianzhousaurus sinensis</unidade>
 <constituínte>
-<forma>Qianzhousaurus</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Qianzhousaurus</lema>
-<hiperlema>Qianzhousaurus</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>sinensis</unidade>
-<constituínte>
-<forma>sinensis</forma>
-<etiqueta>A0ap</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<forma>Qianzhousaurus sinensis</forma>
+<etiqueta>Snaa</etiqueta>
+<lema>Qianzhousaurus sinensis</lema>
+<hiperlema>Qianzhousaurus sinensis</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -102,9 +93,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>

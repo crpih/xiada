@@ -42,7 +42,7 @@
 <unidade>en breve</unidade>
 <constituínte>
 <forma>en breve</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>en breve</lema>
 <hiperlema>en breve</hiperlema>
 </constituínte>
@@ -126,27 +126,18 @@
 <unidade>optimistas</unidade>
 <constituínte>
 <forma>optimistas</forma>
-<etiqueta>A0fp</etiqueta>
+<etiqueta>Scmp</etiqueta>
 <lema>optimista</lema>
 <hiperlema>optimista</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>xa</unidade>
+<unidade>xa que</unidade>
 <constituínte>
-<forma>xa</forma>
-<etiqueta>Wn</etiqueta>
-<lema>xa</lema>
-<hiperlema>xa</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>que</unidade>
-<constituínte>
-<forma>que</forma>
+<forma>xa que</forma>
 <etiqueta>Cs</etiqueta>
-<lema>que</lema>
-<hiperlema>que</hiperlema>
+<lema>xa que</lema>
+<hiperlema>xa que</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

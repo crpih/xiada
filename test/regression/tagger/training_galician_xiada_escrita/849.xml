@@ -443,16 +443,16 @@
 <unidade>Parlamento de Galicia</unidade>
 <constituínte>
 <forma>Parlamento de Galicia</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spms</etiqueta>
 <lema>Parlamento de Galicia</lema>
-<hiperlema>Parlamento de Galicia</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>a partir das</unidade>
 <constituínte>
 <forma>a partir de</forma>
-<etiqueta>Lp0</etiqueta>
+<etiqueta>P</etiqueta>
 <lema>a partir de</lema>
 <hiperlema>a partir de</hiperlema>
 </constituínte>

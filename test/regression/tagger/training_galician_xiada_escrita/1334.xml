@@ -84,7 +84,7 @@
 <unidade>se cadra</unidade>
 <constituínte>
 <forma>se cadra</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>se cadra</lema>
 <hiperlema>se cadra</hiperlema>
 </constituínte>
@@ -126,12 +126,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>pois que</unidade>
+<unidade>pois</unidade>
 <constituínte>
-<forma>pois que</forma>
-<etiqueta>Lcs</etiqueta>
-<lema>pois que</lema>
-<hiperlema>pois que</hiperlema>
+<forma>pois</forma>
+<etiqueta>Cs</etiqueta>
+<lema>pois</lema>
+<hiperlema>pois</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>que</unidade>
+<constituínte>
+<forma>que</forma>
+<etiqueta>Cs</etiqueta>
+<lema>que</lema>
+<hiperlema>que</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

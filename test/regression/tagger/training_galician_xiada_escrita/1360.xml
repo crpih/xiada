@@ -33,11 +33,9 @@
 <unidade>foron</unidade>
 <constituínte>
 <forma>foron</forma>
-<etiqueta>Vei30p</etiqueta>
+<etiqueta>Vei30pir</etiqueta>
 <lema>ir</lema>
 <hiperlema>ir</hiperlema>
-<lema>ser</lema>
-<hiperlema>ser</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -278,7 +276,7 @@
 <unidade>xa que</unidade>
 <constituínte>
 <forma>xa que</forma>
-<etiqueta>Lcs</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>xa que</lema>
 <hiperlema>xa que</hiperlema>
 </constituínte>

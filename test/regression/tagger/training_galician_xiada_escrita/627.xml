@@ -192,7 +192,7 @@
 <unidade>a priori</unidade>
 <constituínte>
 <forma>a priori</forma>
-<etiqueta>La0</etiqueta>
+<etiqueta>Wn</etiqueta>
 <lema>a priori</lema>
 <hiperlema>a priori</hiperlema>
 </constituínte>
@@ -279,57 +279,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Brothers</unidade>
+<unidade>Brothers and Sisters of the Eternal Son</unidade>
 <constituínte>
-<forma>Brothers</forma>
+<forma>Brothers and Sisters of the Eternal Son</forma>
 <etiqueta>Spms</etiqueta>
-<lema>Brothers</lema>
-<hiperlema>Brothers</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>and</unidade>
-<constituínte>
-<forma>and</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Sisters</unidade>
-<constituínte>
-<forma>Sisters</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Sisters</lema>
-<hiperlema>Sisters</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>of</unidade>
-<constituínte>
-<forma>of</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>the</unidade>
-<constituínte>
-<forma>the</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Eternal Son</unidade>
-<constituínte>
-<forma>Eternal Son</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Eternal Son</lema>
-<hiperlema>Eternal Son</hiperlema>
+<lema>Brothers and Sisters of the Eternal Son</lema>
+<hiperlema>Brothers and Sisters of the Eternal Son</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -60,9 +60,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -80,7 +78,7 @@
 <unidade>propio</unidade>
 <constituínte>
 <forma>propio</forma>
-<etiqueta>Idms</etiqueta>
+<etiqueta>A0ms</etiqueta>
 <lema>propio</lema>
 <hiperlema>propio</hiperlema>
 </constituínte>
@@ -89,7 +87,7 @@
 <unidade>Camilo Fontán</unidade>
 <constituínte>
 <forma>Camilo Fontán</forma>
-<etiqueta>Spms</etiqueta>
+<etiqueta>Spm0</etiqueta>
 <lema>Camilo Fontán</lema>
 <hiperlema>Camilo Fontán</hiperlema>
 </constituínte>
@@ -98,7 +96,7 @@
 <unidade>quen</unidade>
 <constituínte>
 <forma>quen</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Tnfs</etiqueta>
 <lema>quen</lema>
 <hiperlema>quen</hiperlema>
 </constituínte>

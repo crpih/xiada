@@ -24,9 +24,7 @@
 <unidade>foi</unidade>
 <constituínte>
 <forma>foi</forma>
-<etiqueta>Vei30s</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30sser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -113,12 +111,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>arredor do</unidade>
+<unidade>arredor</unidade>
 <constituínte>
-<forma>arredor de</forma>
-<etiqueta>Lp0</etiqueta>
-<lema>arredor de</lema>
-<hiperlema>arredor de</hiperlema>
+<forma>arredor</forma>
+<etiqueta>Wn</etiqueta>
+<lema>arredor</lema>
+<hiperlema>arredor</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>do</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
 </constituínte>
 <constituínte>
 <forma>o</forma>

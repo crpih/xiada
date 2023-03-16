@@ -213,7 +213,7 @@
 <unidade>futuro.</unidade>
 <constituínte>
 <forma>futuro.</forma>
-<etiqueta>Za00</etiqueta>
+<etiqueta>Zams</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -222,9 +222,9 @@
 <unidade>29</unidade>
 <constituínte>
 <forma>29</forma>
-<etiqueta>Ncdfp</etiqueta>
+<etiqueta>Ncnms</etiqueta>
 <lema>29</lema>
-<hiperlema>29</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -336,7 +336,7 @@
 <unidade>como</unidade>
 <constituínte>
 <forma>como</forma>
-<etiqueta>Wr</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>como</lema>
 <hiperlema>como</hiperlema>
 </constituínte>
@@ -441,7 +441,7 @@
 <unidade>Arturo Ripstein</unidade>
 <constituínte>
 <forma>Arturo Ripstein</forma>
-<etiqueta>Spm0</etiqueta>
+<etiqueta>Sp00</etiqueta>
 <lema>Arturo Ripstein</lema>
 <hiperlema>Arturo Ripstein</hiperlema>
 </constituínte>

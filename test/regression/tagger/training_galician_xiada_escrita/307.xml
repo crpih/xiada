@@ -102,7 +102,7 @@
 <unidade>Santa Catalina de Siena</unidade>
 <constituínte>
 <forma>Santa Catalina de Siena</forma>
-<etiqueta>Spf0</etiqueta>
+<etiqueta>Sp00</etiqueta>
 <lema>Santa Catalina de Siena</lema>
 <hiperlema>Santa Catalina de Siena</hiperlema>
 </constituínte>
@@ -147,7 +147,7 @@
 <unidade>Kafka</unidade>
 <constituínte>
 <forma>Kafka</forma>
-<etiqueta>Spf0</etiqueta>
+<etiqueta>Sp00</etiqueta>
 <lema>Kafka</lema>
 <hiperlema>Kafka</hiperlema>
 </constituínte>
@@ -285,7 +285,7 @@
 <unidade>súa</unidade>
 <constituínte>
 <forma>súa</forma>
-<etiqueta>Md3pfs</etiqueta>
+<etiqueta>Md3sfs</etiqueta>
 <lema>seu</lema>
 <hiperlema>seu</hiperlema>
 </constituínte>

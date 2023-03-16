@@ -3,12 +3,21 @@
 <expresión>Tras da representación de "Cantuxa"</expresión>
 <análise>
 <análise_unidade>
-<unidade>Tras da</unidade>
+<unidade>Tras</unidade>
 <constituínte>
-<forma>tras de</forma>
-<etiqueta>Lp0</etiqueta>
-<lema>tras de</lema>
-<hiperlema>tras de</hiperlema>
+<forma>tras</forma>
+<etiqueta>P</etiqueta>
+<lema>tras</lema>
+<hiperlema>tras</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>da</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
 </constituínte>
 <constituínte>
 <forma>a</forma>

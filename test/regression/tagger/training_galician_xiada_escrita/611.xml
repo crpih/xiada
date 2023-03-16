@@ -138,37 +138,19 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>'Fast Times</unidade>
+<unidade>'Fast Times at Ridgemont</unidade>
 <constituínte>
-<forma>'Fast Times</forma>
+<forma>'Fast Times at Ridgemont</forma>
 <etiqueta>Sp00</etiqueta>
-<lema>'Fast Times</lema>
-<hiperlema>'Fast Times</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>at</unidade>
-<constituínte>
-<forma>at</forma>
-<etiqueta>A0aa</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Ridgemont</unidade>
-<constituínte>
-<forma>Ridgemont</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Ridgemont</lema>
-<hiperlema>Ridgemont</hiperlema>
+<lema>'Fast Times at Ridgemont</lema>
+<hiperlema>'Fast Times at Ridgemont</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>High'</unidade>
 <constituínte>
 <forma>High'</forma>
-<etiqueta>Vpi30s</etiqueta>
+<etiqueta>Ncnms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>

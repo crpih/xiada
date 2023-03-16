@@ -42,9 +42,7 @@
 <unidade>foron</unidade>
 <constituínte>
 <forma>foron</forma>
-<etiqueta>Vei30p</etiqueta>
-<lema>ir</lema>
-<hiperlema>ir</hiperlema>
+<etiqueta>Vei30pser</etiqueta>
 <lema>ser</lema>
 <hiperlema>ser</hiperlema>
 </constituínte>
@@ -215,12 +213,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>dentro do</unidade>
+<unidade>dentro</unidade>
 <constituínte>
-<forma>dentro de</forma>
-<etiqueta>Lp0</etiqueta>
-<lema>dentro de</lema>
-<hiperlema>dentro de</hiperlema>
+<forma>dentro</forma>
+<etiqueta>Wn</etiqueta>
+<lema>dentro</lema>
+<hiperlema>dentro</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>do</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
 </constituínte>
 <constituínte>
 <forma>o</forma>

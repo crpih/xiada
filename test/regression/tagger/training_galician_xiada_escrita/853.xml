@@ -192,12 +192,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>xa que</unidade>
+<unidade>xa</unidade>
 <constituínte>
-<forma>xa que</forma>
-<etiqueta>Lcs</etiqueta>
-<lema>xa que</lema>
-<hiperlema>xa que</hiperlema>
+<forma>xa</forma>
+<etiqueta>Wn</etiqueta>
+<lema>xa</lema>
+<hiperlema>xa</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>que</unidade>
+<constituínte>
+<forma>que</forma>
+<etiqueta>Cs</etiqueta>
+<lema>que</lema>
+<hiperlema>que</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -108,30 +108,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>World</unidade>
+<unidade>World of Warcraft</unidade>
 <constituínte>
-<forma>World</forma>
+<forma>World of Warcraft</forma>
 <etiqueta>Sp00</etiqueta>
-<lema>World</lema>
-<hiperlema>World</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>of</unidade>
-<constituínte>
-<forma>of</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Warcraft</unidade>
-<constituínte>
-<forma>Warcraft</forma>
-<etiqueta>Spfs</etiqueta>
-<lema>Warcraft</lema>
-<hiperlema>Warcraft</hiperlema>
+<lema>World of Warcraft</lema>
+<hiperlema>World of Warcraft</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -144,30 +126,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Warlords</unidade>
+<unidade>Warlords of Draenor</unidade>
 <constituínte>
-<forma>Warlords</forma>
+<forma>Warlords of Draenor</forma>
 <etiqueta>Sp00</etiqueta>
-<lema>Warlords</lema>
-<hiperlema>Warlords</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>of</unidade>
-<constituínte>
-<forma>of</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Draenor</unidade>
-<constituínte>
-<forma>Draenor</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Draenor</lema>
-<hiperlema>Draenor</hiperlema>
+<lema>Warlords of Draenor</lema>
+<hiperlema>Warlords of Draenor</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -634,8 +598,8 @@
 <constituínte>
 <forma>multiusuario</forma>
 <etiqueta>A0ms</etiqueta>
-<lema>multiusuario</lema>
-<hiperlema>multiusuario</hiperlema>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -749,7 +713,7 @@
 <unidade>xa que</unidade>
 <constituínte>
 <forma>xa que</forma>
-<etiqueta>Lcs</etiqueta>
+<etiqueta>Cs</etiqueta>
 <lema>xa que</lema>
 <hiperlema>xa que</hiperlema>
 </constituínte>
