@@ -8,7 +8,7 @@
 <forma>D'Alema</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>D'Alema</lema>
-<hiperlema>D'Alema</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -26,7 +26,7 @@
 <forma>Antonio</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Antonio</lema>
-<hiperlema>Antonio</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -44,7 +44,7 @@
 <forma>Pietro</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Pietro</lema>
-<hiperlema>Pietro</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -69,9 +69,9 @@
 <unidade>ex-xuíz</unidade>
 <constituínte>
 <forma>ex-xuíz</forma>
-<etiqueta>Scfs</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<etiqueta>Scms</etiqueta>
+<lema>ex-xuíz</lema>
+<hiperlema>exxuíz</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -290,7 +290,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -401,7 +401,7 @@
 <forma>Alcaldía de Roma</forma>
 <etiqueta>Spfs</etiqueta>
 <lema>Alcaldía de Roma</lema>
-<hiperlema>Alcaldía de Roma</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -437,7 +437,7 @@
 <forma>Francesco Rutelli</forma>
 <etiqueta>Spms</etiqueta>
 <lema>Francesco Rutelli</lema>
-<hiperlema>Francesco Rutelli</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -464,7 +464,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

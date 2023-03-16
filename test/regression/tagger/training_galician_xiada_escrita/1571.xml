@@ -80,7 +80,7 @@
 <forma>Fernando</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Fernando</lema>
-<hiperlema>Fernando</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -152,7 +152,7 @@
 <forma>Gonçalo de Sousa</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Gonçalo de Sousa</lema>
-<hiperlema>Gonçalo de Sousa</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -187,7 +187,7 @@
 <forma>a</forma>
 <etiqueta>Raa3fs</etiqueta>
 <lema>o</lema>
-<hiperlema></hiperlema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -214,7 +214,7 @@
 <forma>lle</forma>
 <etiqueta>Rad3as</etiqueta>
 <lema>lle</lema>
-<hiperlema></hiperlema>
+<hiperlema>lle</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

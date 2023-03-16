@@ -26,7 +26,7 @@
 <forma>Pedro</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Pedro</lema>
-<hiperlema>Pedro</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -140,7 +140,7 @@
 <forma>Kepa Junkera</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Kepa Junkera</lema>
-<hiperlema>Kepa Junkera</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -260,7 +260,7 @@
 <forma>me</forma>
 <etiqueta>Raa1as</etiqueta>
 <lema>me</lema>
-<hiperlema></hiperlema>
+<hiperlema>me</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

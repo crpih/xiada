@@ -16,8 +16,8 @@
 <constituínte>
 <forma>macrodiscoteca</forma>
 <etiqueta>Scfs</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<lema>macrodiscoteca</lema>
+<hiperlema>macrodiscoteca</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -26,7 +26,7 @@
 <forma>Dona Dana</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Dona Dana</lema>
-<hiperlema>Dona Dana</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -53,7 +53,7 @@
 <forma>Touro</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Touro</lema>
-<hiperlema>Touro</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -77,7 +77,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -370,7 +370,7 @@
 <forma>Nati Mistral</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Nati Mistral</lema>
-<hiperlema>Nati Mistral</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -415,7 +415,7 @@
 <forma>Mágicos</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Mágicos</lema>
-<hiperlema>Mágicos</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

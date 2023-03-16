@@ -50,7 +50,7 @@
 <forma>Mando Único</forma>
 <etiqueta>Spms</etiqueta>
 <lema>Mando Único</lema>
-<hiperlema>Mando Único</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -74,7 +74,7 @@
 <forma>Loita Contraterrorista Francisco Álvarez</forma>
 <etiqueta>Spfs</etiqueta>
 <lema>Loita Contraterrorista Francisco Álvarez</lema>
-<hiperlema>Loita Contraterrorista Francisco Álvarez</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -335,7 +335,7 @@
 <forma>Seguridade Rafael Vera</forma>
 <etiqueta>Spfs</etiqueta>
 <lema>Seguridade Rafael Vera</lema>
-<hiperlema>Seguridade Rafael Vera</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -344,7 +344,7 @@
 <forma>lle</forma>
 <etiqueta>Rad3fs</etiqueta>
 <lema>lle</lema>
-<hiperlema></hiperlema>
+<hiperlema>lle</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -443,13 +443,13 @@
 <forma>lle</forma>
 <etiqueta>Rad3fs</etiqueta>
 <lema>lle</lema>
-<hiperlema></hiperlema>
+<hiperlema>lle</hiperlema>
 </constituínte>
 <constituínte>
 <forma>o</forma>
 <etiqueta>Raa3ms</etiqueta>
 <lema>o</lema>
-<hiperlema></hiperlema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

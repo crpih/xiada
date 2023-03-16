@@ -236,7 +236,7 @@
 <forma>nos</forma>
 <etiqueta>Rad1ap</etiqueta>
 <lema>nos</lema>
-<hiperlema></hiperlema>
+<hiperlema>nos</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -258,12 +258,30 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>a punto de</unidade>
+<unidade>a</unidade>
 <constituínte>
-<forma>a punto de</forma>
+<forma>a</forma>
 <etiqueta>P</etiqueta>
-<lema>a punto de</lema>
-<hiperlema>a punto de</hiperlema>
+<lema>a</lema>
+<hiperlema>a</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>punto</unidade>
+<constituínte>
+<forma>punto</forma>
+<etiqueta>Scms</etiqueta>
+<lema>punto</lema>
+<hiperlema>punto</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>de</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

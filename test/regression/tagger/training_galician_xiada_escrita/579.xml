@@ -32,7 +32,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -65,7 +65,7 @@
 <forma>Xunta Directiva</forma>
 <etiqueta>Spfs</etiqueta>
 <lema>Xunta Directiva</lema>
-<hiperlema>Xunta Directiva</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -87,9 +87,9 @@
 <unidade>clúster</unidade>
 <constituínte>
 <forma>clúster</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<etiqueta>Scms</etiqueta>
+<lema>clúster</lema>
+<hiperlema>clúster</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -194,7 +194,7 @@
 <forma>Esther Medina</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Esther Medina</lema>
-<hiperlema>Esther Medina</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

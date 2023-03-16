@@ -131,7 +131,7 @@
 <forma>che</forma>
 <etiqueta>Rad2as</etiqueta>
 <lema>che</lema>
-<hiperlema></hiperlema>
+<hiperlema>che</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -158,7 +158,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -173,7 +173,7 @@
 <forma>te</forma>
 <etiqueta>Raf2as</etiqueta>
 <lema>te</lema>
-<hiperlema></hiperlema>
+<hiperlema>te</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -189,9 +189,9 @@
 <unidade>gángster</unidade>
 <constituínte>
 <forma>gángster</forma>
-<etiqueta>A0as</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<etiqueta>Scms</etiqueta>
+<lema>gángster</lema>
+<hiperlema>gánster</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -209,7 +209,7 @@
 <forma>te</forma>
 <etiqueta>Raa2as</etiqueta>
 <lema>te</lema>
-<hiperlema></hiperlema>
+<hiperlema>te</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

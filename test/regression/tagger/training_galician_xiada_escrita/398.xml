@@ -26,7 +26,7 @@
 <forma>Barak</forma>
 <etiqueta>Spms</etiqueta>
 <lema>Barak</lema>
-<hiperlema>Barak</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -92,7 +92,7 @@
 <forma>lle</forma>
 <etiqueta>Rad3ms</etiqueta>
 <lema>lle</lema>
-<hiperlema></hiperlema>
+<hiperlema>lle</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -176,7 +176,7 @@
 <forma>o</forma>
 <etiqueta>Raa3ms</etiqueta>
 <lema>o</lema>
-<hiperlema></hiperlema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -407,7 +407,7 @@
 <forma>se</forma>
 <etiqueta>Rao3aa</etiqueta>
 <lema>se</lema>
-<hiperlema></hiperlema>
+<hiperlema>se</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -434,7 +434,7 @@
 <forma>Movemento</forma>
 <etiqueta>Spms</etiqueta>
 <lema>Movemento</lema>
-<hiperlema>Movemento</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -458,7 +458,7 @@
 <forma>Resistencia Islámica</forma>
 <etiqueta>Spfs</etiqueta>
 <lema>Resistencia Islámica</lema>
-<hiperlema>Resistencia Islámica</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

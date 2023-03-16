@@ -98,7 +98,7 @@
 <forma>Literatura Mínima</forma>
 <etiqueta>Sp00</etiqueta>
 <lema>Literatura Mínima</lema>
-<hiperlema>Literatura Mínima</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -124,8 +124,8 @@
 <constituínte>
 <forma>microtextos</forma>
 <etiqueta>Scmp</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<lema>microtexto</lema>
+<hiperlema>microtexto</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
