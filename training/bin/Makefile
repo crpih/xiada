@@ -15,7 +15,7 @@ galician_xiada_escrita:
 
 galician_palmed:
 	rm -f ../databases/galician_palmed/training_galician_palmed.db
-	ruby xiada_training.rb ../corpus/galician_palmed/corpus_xiada_escrita.tagged ../databases/galician_palmed/training_galician_palmed.db ../corpus/galician_palmed/tags_info.txt ../lexicons/galician_palmed/lexicon_principal.txt
+	ruby xiada_training.rb ../corpus/galician_palmed/corpus_xiada_escrita_adaptado.tagged ../databases/galician_palmed/training_galician_palmed.db ../corpus/galician_palmed/tags_info.txt ../lexicons/galician_palmed/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_palmed; cd ../../bin
 
 galician_xiada_oral:
