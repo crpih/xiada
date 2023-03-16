@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>O apartheid israelí</expresión>
+<análise>
+<análise_unidade>
+<unidade>O</unidade>
+<constituínte>
+<forma>o</forma>
+<etiqueta>Ddms</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>apartheid</unidade>
+<constituínte>
+<forma>apartheid</forma>
+<etiqueta>Scms</etiqueta>
+<lema>apartheid</lema>
+<hiperlema>apartheid</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>israelí</unidade>
+<constituínte>
+<forma>israelí</forma>
+<etiqueta>A0ms</etiqueta>
+<lema>israelí</lema>
+<hiperlema>israelí</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Informática en movemento</expresión>
+<análise>
+<análise_unidade>
+<unidade>Informática</unidade>
+<constituínte>
+<forma>informática</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>informática</lema>
+<hiperlema>informática</hiperlema>
+<lema>informático</lema>
+<hiperlema>informático</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>en</unidade>
+<constituínte>
+<forma>en</forma>
+<etiqueta>P</etiqueta>
+<lema>en</lema>
+<hiperlema>en</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>movemento</unidade>
+<constituínte>
+<forma>movemento</forma>
+<etiqueta>Scms</etiqueta>
+<lema>movemento</lema>
+<hiperlema>movemento</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

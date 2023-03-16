@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Feijoo acariciándolle a orella a Manuel Fraga</expresión>
+<análise>
+<análise_unidade>
+<unidade>Feijoo</unidade>
+<constituínte>
+<forma>Feijoo</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Feijoo</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>acariciándolle</unidade>
+<constituínte>
+<forma>acariciando</forma>
+<etiqueta>V0x000</etiqueta>
+<lema>acariciar</lema>
+<hiperlema>acariciar</hiperlema>
+</constituínte>
+<constituínte>
+<forma>lle</forma>
+<etiqueta>Rad3as</etiqueta>
+<lema>lle</lema>
+<hiperlema>lle</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>a</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>Ddfs</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>orella</unidade>
+<constituínte>
+<forma>orella</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>orella</lema>
+<hiperlema>orella</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>a</unidade>
+<constituínte>
+<forma>a</forma>
+<etiqueta>P</etiqueta>
+<lema>a</lema>
+<hiperlema>a</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Manuel Fraga</unidade>
+<constituínte>
+<forma>Manuel Fraga</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Manuel Fraga</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Roberto Zompi (Magneti Marelli) e Victor Tuson (Canonical) participarán en LibreCon 2015</expresión>
+<análise>
+<análise_unidade>
+<unidade>Roberto Zompi</unidade>
+<constituínte>
+<forma>Roberto Zompi</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Roberto Zompi</lema>
+<hiperlema>Roberto Zompi</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>(</unidade>
+<constituínte>
+<forma>(</forma>
+<etiqueta>Q(</etiqueta>
+<lema>(</lema>
+<hiperlema>(</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Magneti Marelli</unidade>
+<constituínte>
+<forma>Magneti Marelli</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Magneti Marelli</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>)</unidade>
+<constituínte>
+<forma>)</forma>
+<etiqueta>Q)</etiqueta>
+<lema>)</lema>
+<hiperlema>)</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>e</unidade>
+<constituínte>
+<forma>e</forma>
+<etiqueta>Cc</etiqueta>
+<lema>e</lema>
+<hiperlema>e</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Victor Tuson</unidade>
+<constituínte>
+<forma>Victor Tuson</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Victor Tuson</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>(</unidade>
+<constituínte>
+<forma>(</forma>
+<etiqueta>Q(</etiqueta>
+<lema>(</lema>
+<hiperlema>(</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Canonical</unidade>
+<constituínte>
+<forma>Canonical</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Canonical</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>)</unidade>
+<constituínte>
+<forma>)</forma>
+<etiqueta>Q)</etiqueta>
+<lema>)</lema>
+<hiperlema>)</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>participarán</unidade>
+<constituínte>
+<forma>participarán</forma>
+<etiqueta>Vfi30p</etiqueta>
+<lema>participar</lema>
+<hiperlema>participar</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>en</unidade>
+<constituínte>
+<forma>en</forma>
+<etiqueta>P</etiqueta>
+<lema>en</lema>
+<hiperlema>en</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>LibreCon</unidade>
+<constituínte>
+<forma>LibreCon</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>LibreCon</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>2015</unidade>
+<constituínte>
+<forma>2015</forma>
+<etiqueta>Ncnms</etiqueta>
+<lema>2015</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

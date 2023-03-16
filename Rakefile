@@ -1,5 +1,7 @@
+require 'fileutils'
 require "bundler/gem_tasks"
 require "rake/testtask"
+require_relative 'test/precision/tasks'
 
 Rake::TestTask.new(:test) do |t|
   t.libs << "test"

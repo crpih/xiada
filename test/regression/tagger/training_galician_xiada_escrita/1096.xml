@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Unha delicia.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Unha</unidade>
+<constituínte>
+<forma>unha</forma>
+<etiqueta>Difs</etiqueta>
+<lema>un</lema>
+<hiperlema>un</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>delicia</unidade>
+<constituínte>
+<forma>delicia</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>delicia</lema>
+<hiperlema>delicia</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>XVII Carreira Popular de Negreira patrocinada por Feiraco.</expresión>
+<análise>
+<análise_unidade>
+<unidade>XVII</unidade>
+<constituínte>
+<forma>XVII</forma>
+<etiqueta>Ncnas</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Carreira Popular de Negreira</unidade>
+<constituínte>
+<forma>Carreira Popular de Negreira</forma>
+<etiqueta>Spfs</etiqueta>
+<lema>Carreira Popular de Negreira</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>patrocinada</unidade>
+<constituínte>
+<forma>patrocinada</forma>
+<etiqueta>V0p0fs</etiqueta>
+<lema>patrocinar</lema>
+<hiperlema>patrocinar</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>por</unidade>
+<constituínte>
+<forma>por</forma>
+<etiqueta>P</etiqueta>
+<lema>por</lema>
+<hiperlema>por</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Feiraco</unidade>
+<constituínte>
+<forma>Feiraco</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Feiraco</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

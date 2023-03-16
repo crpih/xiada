@@ -19,7 +19,7 @@ module LemmatizerGalicianXiada
     end
     # riquísimo => rico
     if word =~ /quísim[oa]s?$/
-      new_word = word.gsub(/bilísim([oa]s?$)/,'c\1')
+      new_word = word.gsub(/quísim([oa]s?$)/,'c\1')
       return replace_tags(@dw.get_emissions_info(new_word, ['A*']),"^A0","As")
 
     end
@@ -211,7 +211,7 @@ module LemmatizerGalicianXiada
           new_word_2 = set_tilde(new_word, 2) # Maybe this doesn't cover all the casuistic
           variants = [gheada_to_cannonical(new_word_2)]
           result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word_2, ['Sc*','A*','V0p0*','V0x000','W*','I*'], variants))
-          return result unless result.empty?         
+          return result unless result.empty?
         end
         new_word = word.gsub(/quiñ[oa](s?)$/,'que\1')
         # bosquiños => bosques
@@ -238,7 +238,7 @@ module LemmatizerGalicianXiada
           new_word = word.gsub(/onciña(s?)$/,'ona\1')
           variants = [gheada_to_cannonical(new_word)]
           result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['Scf*','A0f*'], variants))
-          return result unless result.empty?          
+          return result unless result.empty?
         end
         if word =~ /anciñ[oa]s?$/
           # garavanciño => garavanzo
@@ -280,9 +280,9 @@ module LemmatizerGalicianXiada
         end
       end
       if word =~ /ndiñ[oa]s?$/
-        # segundiño => segundo
-        # brandiños => brandos
-        # pasandiño => pasando
+          # segundiño => segundo
+          # brandiños => brandos
+          # pasandiño => pasando
         new_word = word.gsub(/ndiñ([oa]s?)$/,'nd\1')
         variants = [gheada_to_cannonical(new_word)]
         result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['Sc*','A*','V0p0*','V0x000','W*','I*'], variants))
@@ -360,6 +360,7 @@ module LemmatizerGalicianXiada
       end
       if word =~ /biñ[oa]s?$/
         # nubiñas => nubes
+        # FIXME: Real rule is: nubiñas => nube
         new_word = word.gsub(/biñ[oa]s?$/,'be')
         variants = [gheada_to_cannonical(new_word)]
         result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))
@@ -376,7 +377,7 @@ module LemmatizerGalicianXiada
         # ovelliñas => ovellas
         new_word = word.gsub(/(ll)iñ([oa]s?)$/,'\1\2')
         variants = [gheada_to_cannonical(new_word)]
-        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*']), variants)
+        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))
         return result unless result.empty?
       end
       if word =~ /rriñ[oa]s?$/
@@ -384,7 +385,7 @@ module LemmatizerGalicianXiada
         # churriñas => churras
         new_word = word.gsub(/(rr)iñ([oa]s?)$/,'\1\2')
         variants = [gheada_to_cannonical(new_word)]
-        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants∫))
+        result = gender_number_force_matching(word, @dw.get_emissions_info_variants(new_word, ['S*','A*','V0p0*'], variants))
         return result unless result.empty?
       end
       if word =~ /chiñ[oa]s?$/

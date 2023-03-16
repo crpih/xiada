@@ -17,7 +17,7 @@ class DatabaseWrapper
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
     when "galician_xiada"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(LemmatizerGalicianXiadaRefactor)
     when "galician_xiada_oral"
       @lemmatizer.extend(LemmatizerGalicianXiada)
     end
@@ -91,7 +91,7 @@ class DatabaseWrapper
 
   def get_guesser_result(suffixes, lemma, tags)
     result = []
-    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query = "select tag,null,null,log_b from guesser_frequencies where suffix in (#{suffixes})"
     query << "and tag in (#{get_possible_tags(tags)})" if tags
     query << "order by length desc"
 
@@ -463,7 +463,7 @@ class DatabaseWrapper
         @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
           result << row
         end
-      end       
+      end
     end
     return result
   end
@@ -529,8 +529,6 @@ class DatabaseWrapper
     return true
   end
 
-  private
-
   def get_possible_tags(tags)
     result = ""
     tags.each do |tag|
@@ -543,6 +541,8 @@ class DatabaseWrapper
     end
     result
   end
+
+  private
 
   def get_tags_from_regexp(tag_regexp)
     result = ""

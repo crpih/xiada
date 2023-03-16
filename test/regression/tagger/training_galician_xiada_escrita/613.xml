@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>O que en realidade é bastante cool!</expresión>
+<análise>
+<análise_unidade>
+<unidade>O</unidade>
+<constituínte>
+<forma>o</forma>
+<etiqueta>Ddms</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>que</unidade>
+<constituínte>
+<forma>que</forma>
+<etiqueta>Tnms</etiqueta>
+<lema>que</lema>
+<hiperlema>que</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>en realidade</unidade>
+<constituínte>
+<forma>en realidade</forma>
+<etiqueta>Wn</etiqueta>
+<lema>en realidade</lema>
+<hiperlema>en realidade</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>é</unidade>
+<constituínte>
+<forma>é</forma>
+<etiqueta>Vpi30s</etiqueta>
+<lema>ser</lema>
+<hiperlema>ser</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>bastante</unidade>
+<constituínte>
+<forma>bastante</forma>
+<etiqueta>Wm</etiqueta>
+<lema>bastante</lema>
+<hiperlema>bastante</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>cool</unidade>
+<constituínte>
+<forma>cool</forma>
+<etiqueta>A0ms</etiqueta>
+<lema>cool</lema>
+<hiperlema>cool</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>!</unidade>
+<constituínte>
+<forma>!</forma>
+<etiqueta>Q!</etiqueta>
+<lema>!</lema>
+<hiperlema>!</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>
