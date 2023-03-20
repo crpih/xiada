@@ -1,5 +1,3 @@
-amablemente
-amabilísimo
 riquísimo
 vaguísimo
 ambigüísimo
@@ -162,3 +160,5 @@ teleconexións
 telerrealidade
 teleensino
 telensino
+ghitarra
+gherra

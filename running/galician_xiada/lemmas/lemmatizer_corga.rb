@@ -73,6 +73,9 @@ module Lemmas
             [*suffix_rules(qa), *find(qa)]
           end,
           *suffix_rules(query),
+          # LemmatizerCorga#lemmatizer won't be called if the term exists literally
+          # So this is useful only for gheada variants: gherra => guerra and ghitarra => guitarra
+          *find(query)
         ]
       end
     end
