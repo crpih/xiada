@@ -9,7 +9,7 @@ describe 'XiadaTagger' do
 
   DATABASES.each do |database_name|
     CSV.foreach("#{__dir__}/examples.csv").map(&:first).each_with_index do | example, i|
-      it example do
+      it "#{i}.xml #{example}" do
         input = Tempfile.new
         input.write <<~XML
           <?xml version="1.0" encoding="UTF-8"?>
