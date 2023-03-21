@@ -3,6 +3,8 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class MultiRule < Rule
+    include Utils
+
     def initialize(all_possible_tags)
       super(all_possible_tags)
       @tags = tags_for('A.*', 'Sc.*', 'V.*', 'W.*')
@@ -29,11 +31,11 @@ module Lemmas
       hyphen = query.prev.word.match(/\Amulti(-?)/).captures.first
 
       if hyphen.empty? && result.lemma.start_with?('i')
-        result.copy(nil, "mult#{result.lemma}", "multi#{result.hyperlemma}")
+        result.copy(nil, "mult#{result.lemma}", if_hyperlemma(result) { |v| "multi#{v}" })
       elsif result.lemma.start_with?('r')
-        result.copy(nil, "multir#{hyphen}#{result.lemma}", "multir#{result.hyperlemma}")
+        result.copy(nil, "multir#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "multir#{v}" })
       else
-        result.copy(nil, "multi#{hyphen}#{result.lemma}", "multi#{result.hyperlemma}")
+        result.copy(nil, "multi#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "multi#{v}" })
       end
     end
   end

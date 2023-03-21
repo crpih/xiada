@@ -3,6 +3,8 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class ExRule < Rule
+    include Utils
+
     def initialize(all_possible_tags)
       super(all_possible_tags)
       @tags = tags_for('A.*', 'Sc.*')
@@ -16,7 +18,7 @@ module Lemmas
     end
 
     def apply_result(query, result)
-      result.copy(nil, "ex-#{result.lemma}", "ex#{result.hyperlemma}")
+      result.copy(nil, "ex-#{result.lemma}", if_hyperlemma(result) { |v| "ex#{v}" })
     end
   end
 end

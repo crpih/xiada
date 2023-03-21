@@ -3,6 +3,8 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class MetaRule < Rule
+    include Utils
+
     def initialize(all_possible_tags)
       super(all_possible_tags)
       @tags = tags_for('A.*', 'Sc.*')
@@ -30,11 +32,11 @@ module Lemmas
 
       # Keep double 'a' in lemma in the case of 'metaanalise', remove it in 'metanálise'
       if hyphen.empty? && result.lemma.start_with?('a') && !query.prev.word.match?(/\Ameta[aá]/)
-        result.copy(nil, "met#{result.lemma}", "meta#{result.hyperlemma}")
+        result.copy(nil, "met#{result.lemma}", if_hyperlemma(result) { |v| "meta#{v}" })
       elsif result.lemma.start_with?('r')
-        result.copy(nil, "metar#{hyphen}#{result.lemma}", "metar#{result.hyperlemma}")
+        result.copy(nil, "metar#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "metar#{v}" })
       else
-        result.copy(nil, "meta#{hyphen}#{result.lemma}", "meta#{result.hyperlemma}")
+        result.copy(nil, "meta#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "meta#{v}" })
       end
     end
   end

@@ -18,4 +18,10 @@ module Utils
     variant = has_gheada ? word.gsub(/gh[aeiou]/, GHEADA_REPLACEMENTS) : nil
     [word, *variant]
   end
+
+  def if_hyperlemma(result)
+    return result.hyperlemma if result.hyperlemma.nil? || result.hyperlemma.empty?
+
+    yield result.hyperlemma
+  end
 end

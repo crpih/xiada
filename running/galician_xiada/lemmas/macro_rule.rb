@@ -3,6 +3,8 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class MacroRule < Rule
+    include Utils
+
     def initialize(all_possible_tags)
       super(all_possible_tags)
       @tags = tags_for('A.*', 'Sc.*', 'V.*')
@@ -25,13 +27,13 @@ module Lemmas
 
       # Keep double 'o' in lemma in the case of 'macroorganismo', remove it in 'macrorganismo'
       if hyphen.empty? && result.lemma.start_with?('o') && !query.prev.word.match?(/\Amacro[oó]/)
-        result.copy(nil, "macr#{result.lemma}", "macro#{result.hyperlemma}")
+        result.copy(nil, "macr#{result.lemma}", if_hyperlemma(result) { |v| "macro#{v}" })
       elsif hyphen.empty? && result.lemma.start_with?('r')
-        result.copy(nil, "macror#{hyphen}#{result.lemma}", "macror#{result.hyperlemma}")
+        result.copy(nil, "macror#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "macror#{v}" })
       elsif result.lemma.start_with?('r')
-        result.copy(nil, "macro#{hyphen}#{result.lemma}", "macror#{result.hyperlemma}")
+        result.copy(nil, "macro#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "macror#{v}" })
       else
-        result.copy(nil, "macro#{hyphen}#{result.lemma}", "macro#{result.hyperlemma}")
+        result.copy(nil, "macro#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "macro#{v}" })
       end
     end
   end

@@ -3,6 +3,8 @@ require_relative '../../bin/lemmas/rule'
 
 module Lemmas
   class TeleRule < Rule
+    include Utils
+
     def initialize(all_possible_tags)
       super(all_possible_tags)
       @tags = tags_for('A.*', 'Sc.*', 'V.*', 'W.*')
@@ -28,13 +30,13 @@ module Lemmas
       hyphen, base = query.prev.word.match(/\Atele(-?)(.*)/).captures
 
       if hyphen.empty? && base.start_with?('e')
-        result.copy(nil, "tele#{result.lemma}", "tele#{result.hyperlemma}")
+        result.copy(nil, "tele#{result.lemma}", if_hyperlemma(result) { |v| "tele#{v}" })
       elsif hyphen.empty? && result.lemma.start_with?('e')
-        result.copy(nil, "tel#{result.lemma}", "tele#{result.hyperlemma}")
+        result.copy(nil, "tel#{result.lemma}", if_hyperlemma(result) { |v| "tele#{v}" })
       elsif result.lemma.start_with?('r')
-        result.copy(nil, "teler#{hyphen}#{result.lemma}", "teler#{result.hyperlemma}")
+        result.copy(nil, "teler#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "teler#{v}" })
       else
-        result.copy(nil, "tele#{hyphen}#{result.lemma}", "tele#{result.hyperlemma}")
+        result.copy(nil, "tele#{hyphen}#{result.lemma}", if_hyperlemma(result) { |v| "tele#{v}" })
       end
     end
   end
