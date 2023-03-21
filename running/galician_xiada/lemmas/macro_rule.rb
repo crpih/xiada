@@ -23,8 +23,11 @@ module Lemmas
     def apply_result(query, result)
       hyphen = query.prev.word.match(/\Amacro(-?)/).captures.first
 
-      if hyphen.empty? && result.lemma.start_with?('o')
+      # Keep double 'o' in lemma in the case of 'macroorganismo', remove it in 'macrorganismo'
+      if hyphen.empty? && result.lemma.start_with?('o') && !query.prev.word.match?(/\Amacro[oó]/)
         result.copy(nil, "macr#{result.lemma}", "macro#{result.hyperlemma}")
+      elsif hyphen.empty? && result.lemma.start_with?('r')
+        result.copy(nil, "macror#{hyphen}#{result.lemma}", "macror#{result.hyperlemma}")
       elsif result.lemma.start_with?('r')
         result.copy(nil, "macro#{hyphen}#{result.lemma}", "macror#{result.hyperlemma}")
       else

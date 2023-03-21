@@ -13,5 +13,9 @@ module Lemmas
       base = Regexp.last_match.captures.first
       query.copy(base)
     end
+
+    def apply_result(query, result)
+      result.copy(nil, "ex-#{result.lemma}", '')
+    end
   end
 end

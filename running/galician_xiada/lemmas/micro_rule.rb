@@ -27,10 +27,13 @@ module Lemmas
     def apply_result(query, result)
       hyphen = query.prev.word.match(/\Amicro(-?)/).captures.first
 
-      if hyphen.empty? && result.lemma.start_with?('o')
+      # Keep double 'o' in lemma in the case of 'microorganismo', remove it in 'microrganismo'
+      if hyphen.empty? && result.lemma.start_with?('o') && !query.prev.word.match?(/\Amicro[oó]/)
         result.copy(nil, "micro#{result.lemma}", "micro#{result.hyperlemma}")
-      elsif result.lemma.start_with?('r')
+      elsif hyphen.empty? && result.lemma.start_with?('r')
         result.copy(nil, "micror#{hyphen}#{result.lemma}", "micror#{result.hyperlemma}")
+      elsif result.lemma.start_with?('r')
+        result.copy(nil, "micro#{hyphen}#{result.lemma}", "micror#{result.hyperlemma}")
       else
         result.copy(nil, "micro#{hyphen}#{result.lemma}", "micro#{result.hyperlemma}")
       end

@@ -1,3 +1,5 @@
+amablemente
+amabilísimo
 riquísimo
 vaguísimo
 ambigüísimo
@@ -108,6 +110,7 @@ metaliterario
 metadatos
 metarrelato
 metanálise
+metaanálise
 etno-nacionalismo
 etno-lingüísticas
 etno-relixiosa
@@ -119,9 +122,11 @@ macro-lingüísticas
 macro-redada
 macro-organigrama
 macroacontecemento
-macroredada
 macrorredada
 macroperación
+macrorganismos
+macroorganismos
+macrorrede
 micro-ficha
 micro-relatos
 micro-organismos
@@ -134,6 +139,7 @@ microrepetidores
 microrredada
 microfibriña
 microrganismos
+microorganismos
 xeo-localízanse
 xeo-lingüístico
 xeo-radar

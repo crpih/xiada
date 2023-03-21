@@ -2164,24 +2164,24 @@
   "ex-Alca": [
     [
       "Sp00",
-      "Alca",
-      "Alca",
+      "ex-Alca",
+      "",
       0.0
     ]
   ],
   "ex-Beatle": [
     [
       "Sp00",
-      "Beatle",
-      "Beatle",
+      "ex-Beatle",
+      "",
       0.0
     ]
   ],
   "ex-Checoslovaquia": [
     [
       "Sp00",
-      "Checoslovaquia",
-      "Checoslovaquia",
+      "ex-Checoslovaquia",
+      "",
       0.0
     ]
   ],
@@ -2315,6 +2315,20 @@
     [
       "Scms",
       "metanálise",
+      "meta",
+      -11.1182073999587
+    ]
+  ],
+  "metaanálise": [
+    [
+      "Scfs",
+      "metaanálise",
+      "metaanálise",
+      -7.678295506115854
+    ],
+    [
+      "Scms",
+      "metaanálise",
       "meta",
       -11.1182073999587
     ]
@@ -2495,32 +2509,52 @@
       -7.657057724894145
     ]
   ],
-  "macroredada": [
+  "macrorredada": [
     [
       "Scfs",
-      "macroredada",
+      "macrorredada",
       "macrorredada",
       -11.07949288777801
     ],
     [
       "V0p0fs",
-      "macroredar",
+      "macrorredar",
       "macrorredar",
       -9.118773178450692
     ]
   ],
-  "macrorredada": [
+  "macroorganismos": [
+    [
+      "Scmp",
+      "macroorganismo",
+      "macroorganismo",
+      -8.062522833002308
+    ]
+  ],
+  "macrorrede": [
     [
       "Scfs",
-      "macroredada",
-      "macrorredada",
-      -11.07949288777801
+      "macrorrede",
+      "macrorrede",
+      -6.697466253104128
     ],
     [
-      "V0p0fs",
-      "macroredar",
+      "Vps10s",
       "macrorredar",
-      -9.118773178450692
+      "macrorredar",
+      -8.889170455363413
+    ],
+    [
+      "Vps30s",
+      "macrorredar",
+      "macrorredar",
+      -9.087155271405804
+    ],
+    [
+      "Vpsa0s",
+      "macrorredar",
+      "macrorredar",
+      -8.88447171813916
     ]
   ],
   "micro-ficha": [
@@ -2546,7 +2580,7 @@
   "micro-relatos": [
     [
       "Scmp",
-      "micror-relato",
+      "micro-relato",
       "microrrelato",
       -7.705847889063577
     ]

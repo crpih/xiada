@@ -28,7 +28,8 @@ module Lemmas
     def apply_result(query, result)
       hyphen = query.prev.word.match(/\Ameta(-?)/).captures.first
 
-      if hyphen.empty? && result.lemma.start_with?('a')
+      # Keep double 'a' in lemma in the case of 'metaanalise', remove it in 'metanálise'
+      if hyphen.empty? && result.lemma.start_with?('a') && !query.prev.word.match?(/\Ameta[aá]/)
         result.copy(nil, "met#{result.lemma}", "meta#{result.hyperlemma}")
       elsif result.lemma.start_with?('r')
         result.copy(nil, "metar#{hyphen}#{result.lemma}", "metar#{result.hyperlemma}")
