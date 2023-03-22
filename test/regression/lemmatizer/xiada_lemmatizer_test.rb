@@ -15,6 +15,8 @@ def gender_number_variations(word)
 end
 
 WORDS = File.readlines('test/regression/lemmatizer/xiada_selected_words.txt', chomp: true)
+            .map { |l| l.split('#').first&.strip } # Remove comments
+            .reject(&:nil?).reject(&:empty?) # Skip blank lines
             .flat_map { |w| gender_number_variations(w) }
 
 DATABASES = %w[training_galician_xiada_escrita].freeze

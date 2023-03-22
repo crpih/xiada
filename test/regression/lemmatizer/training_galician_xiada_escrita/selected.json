@@ -509,14 +509,22 @@
     [
       "Scfp",
       "auto-axuda",
-      "auto-axuda",
+      "autoaxuda",
       -6.034779084833792
     ],
     [
       "Vpi20s",
       "auto-axudar",
-      "auto-axudar",
+      "autoaxudar",
       -8.98969370086056
+    ]
+  ],
+  "auto-organismos": [
+    [
+      "Scmp",
+      "auto-organismo",
+      "autoorganismo",
+      -8.062522833002308
     ]
   ],
   "autoxestión": [
@@ -539,6 +547,22 @@
       "autorreflexión",
       "autorreflexión",
       -8.30690416553823
+    ]
+  ],
+  "autorganismos": [
+    [
+      "Scmp",
+      "autorganismo",
+      "autoorganismo",
+      -8.062522833002308
+    ]
+  ],
+  "autoorganismos": [
+    [
+      "Scmp",
+      "autoorganismo",
+      "autoorganismo",
+      -8.062522833002308
     ]
   ],
   "amiguiño": [
@@ -2249,6 +2273,22 @@
       -7.974532844130228
     ]
   ],
+  "meta-relato": [
+    [
+      "Scms",
+      "meta-relato",
+      "metarrelato",
+      -7.62169983849222
+    ]
+  ],
+  "meta-relatos": [
+    [
+      "Scmp",
+      "meta-relato",
+      "metarrelato",
+      -7.705847889063577
+    ]
+  ],
   "metaliterario": [
     [
       "A0ms",
@@ -2377,6 +2417,14 @@
       -10.386345707218064
     ]
   ],
+  "etno-organismos": [
+    [
+      "Scmp",
+      "etno-organismo",
+      "etnoorganismo",
+      -8.062522833002308
+    ]
+  ],
   "etnopaisaxe": [
     [
       "Scfs",
@@ -2411,6 +2459,22 @@
       "etnorelixioso",
       "etnorrelixioso",
       -10.386345707218064
+    ]
+  ],
+  "etnorganismos": [
+    [
+      "Scmp",
+      "etnorganismo",
+      "etnoorganismo",
+      -8.062522833002308
+    ]
+  ],
+  "etnoorganismos": [
+    [
+      "Scmp",
+      "etnoorganismo",
+      "etnoorganismo",
+      -8.062522833002308
     ]
   ],
   "macro-acordo": [
@@ -2521,6 +2585,22 @@
       "macrorredar",
       "macrorredar",
       -9.118773178450692
+    ]
+  ],
+  "macroperación": [
+    [
+      "Scfs",
+      "macroperación",
+      "macrooperación",
+      -6.388145005548867
+    ]
+  ],
+  "macrorganismos": [
+    [
+      "Scmp",
+      "macrorganismo",
+      "macroorganismo",
+      -8.062522833002308
     ]
   ],
   "macroorganismos": [
@@ -2682,13 +2762,13 @@
   "microrepetidores": [
     [
       "A0mp",
-      "microrrepetidor",
+      "microrepetidor",
       "microrrepetidor",
       -10.103894576876467
     ],
     [
       "Scmp",
-      "microrrepetidor",
+      "microrepetidor",
       "microrrepetidor",
       -10.701580162617567
     ]
@@ -2718,7 +2798,7 @@
   "microrganismos": [
     [
       "Scmp",
-      "microorganismo",
+      "microrganismo",
       "microorganismo",
       -8.062522833002308
     ]
@@ -2775,6 +2855,14 @@
       -10.425060219398755
     ]
   ],
+  "xeo-organismos": [
+    [
+      "Scmp",
+      "xeo-organismo",
+      "xeoorganismo",
+      -8.062522833002308
+    ]
+  ],
   "xeobotánica": [
     [
       "A0fs",
@@ -2817,6 +2905,22 @@
       -11.1182073999587
     ]
   ],
+  "xeorganismos": [
+    [
+      "Scmp",
+      "xeorganismo",
+      "xeoorganismo",
+      -8.062522833002308
+    ]
+  ],
+  "xeoorganismos": [
+    [
+      "Scmp",
+      "xeoorganismo",
+      "xeoorganismo",
+      -8.062522833002308
+    ]
+  ],
   "multi-xogador": [
     [
       "A0ms",
@@ -2834,7 +2938,7 @@
   "multi-robot": [
     [
       "Scms",
-      "multir-robot",
+      "multi-robot",
       "multirrobot",
       -11.1182073999587
     ]
@@ -2845,6 +2949,20 @@
       "multi-idioma",
       "multiidioma",
       -7.562859338469287
+    ]
+  ],
+  "multi-relixiosa": [
+    [
+      "A0fs",
+      "multi-relixioso",
+      "multirrelixioso",
+      -8.033874644103209
+    ],
+    [
+      "Scfs",
+      "multi-relixioso",
+      "multirrelixioso",
+      -10.386345707218064
     ]
   ],
   "multicitar": [
@@ -2910,7 +3028,7 @@
   "multiidioma": [
     [
       "Scms",
-      "multidioma",
+      "multiidioma",
       "multiidioma",
       -7.562859338469287
     ],
@@ -2944,13 +3062,13 @@
   "multirelixiosa": [
     [
       "A0fs",
-      "multirrelixioso",
+      "multirelixioso",
       "multirrelixioso",
       -8.033874644103209
     ],
     [
       "Scfs",
-      "multirrelixioso",
+      "multirelixioso",
       "multirrelixioso",
       -10.386345707218064
     ]
@@ -3029,6 +3147,14 @@
       "multinstrumentista",
       "multiinstrumentista",
       -11.1182073999587
+    ]
+  ],
+  "tele-realidade": [
+    [
+      "Scfs",
+      "tele-realidade",
+      "telerrealidade",
+      -6.4843730376434205
     ]
   ],
   "tele-asistencia": [
