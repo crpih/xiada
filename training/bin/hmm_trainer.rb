@@ -195,6 +195,12 @@ class HMMTrainer
       end
     end
 
+    puts "Building table word_tag_lemma_frequencies..."
+    db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, frequency integer, primary key(word,tag,lemma))")
+    @words.word_tag_lemma_count.each do |(word, tag, lemma), count|
+      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, frequency) VALUES (?, ?, ?, ?)', word, tag, lemma, count)
+    end
+
     db.execute("create table integer_values (variable_name text, value integer)")
     db.execute("insert into integer_values (variable_name, value) values ('corpus_size','#{@ngrams.corpus_size}')")
     db.execute("insert into integer_values (variable_name, value) values ('real_corpus_size','#{@ngrams.real_corpus_size}')") # excluding nils

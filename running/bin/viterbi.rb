@@ -914,24 +914,23 @@ class Viterbi
           puts "<#{lemma_tag}>*</#{lemma_tag}>"
           puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
         else
-          tag_object.lemmas.keys.each do |lemma|
-            if token.chunk_entity_exclude_transform
-              puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-              if hiperlemma_tag
-                if tag_object.hiperlemmas[lemma]
-                  puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
-                else
-                  puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-                end
+          lemma = @dw.get_most_frequent_lemma(token.text, tag, tag_object.lemmas.keys)
+          if token.chunk_entity_exclude_transform
+            puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
               end
-            else
-              puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-              if hiperlemma_tag
-                if tag_object.hiperlemmas[lemma]
-                  puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
-                else
-                  puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-                end
+            end
+          else
+            puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
               end
             end
           end

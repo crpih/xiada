@@ -542,6 +542,18 @@ class DatabaseWrapper
     result
   end
 
+  def get_most_frequent_lemma(word, tag, lemmas)
+    query = <<~SQL
+      SELECT lemma
+      FROM word_tag_lemma_frequencies
+      WHERE word = ? AND tag = ? AND lemma IN (#{(['?'] * lemmas.length).join(',')})
+      ORDER BY frequency DESC
+      LIMIT 1
+    SQL
+    # If (word, tag, lemma) is not found, return the first lemma in the list
+    @db.execute(query, word, tag, *lemmas)&.first&.first || lemmas.first
+  end
+
   private
 
   def get_tags_from_regexp(tag_regexp)
