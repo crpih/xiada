@@ -20,8 +20,10 @@ module Lemmas
   class LemmatizerCorga
     include Utils
 
-    def initialize(database_wrapper)
+    def initialize(database_wrapper, gheada: true, seseo: false)
       @dw = database_wrapper
+      @gheada = gheada
+      @seseo = seseo
       @tags = @dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
 
       @mente_rule = MenteRule.new(@tags)
@@ -40,60 +42,67 @@ module Lemmas
     end
 
     def call(word)
-      gheada_queries(Query.new(nil, word, @tags)) do |query|
-        [
-          *@auto_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@ex_proper_rule.(query) do |qa|
-            proper_noun(qa)
-          end,
-          *@ex_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@meta_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@etno_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@macro_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@micro_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@xeo_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@multi_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *@tele_rule.(query) do |qa|
-            [*suffix_rules(qa), *find(qa)]
-          end,
-          *suffix_rules(query),
-          # LemmatizerCorga#lemmatizer won't be called if the term exists literally
-          # So this is useful only for gheada variants: gherra => guerra and ghitarra => guitarra
-          *find(query)
-        ]
+      gheada_queries(Query.new(nil, word, @tags)) do |q|
+        seseo_queries(q) do |q|
+          [
+            *@auto_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@ex_proper_rule.(q) do |q|
+              proper_noun(q)
+            end,
+            *@ex_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@meta_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@etno_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@macro_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@micro_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@xeo_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@multi_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *@tele_rule.(q) do |q|
+              [*suffix_rules(q), *find(q)]
+            end,
+            *suffix_rules(q),
+            # LemmatizerCorga#lemmatizer won't be called if the term exists literally
+            # So this is useful only for gheada variants: gherra => guerra and ghitarra => guitarra
+            *find(q)
+          ]
+        end
       end
     end
 
     private
 
     def gheada_queries(query)
-      gheada_variants(query.word).flat_map do |variant|
-        gh_query = query.copy(variant)
-        yield gh_query
-      end
+      return yield query unless @gheada
+
+      gheada_variants(query.word).flat_map { |v| yield query.copy(v) }
+    end
+
+    def seseo_queries(query)
+      return yield query unless @seseo
+
+      seseo_variants(query.word).flat_map { |v| yield query.copy(v) }
     end
 
     def suffix_rules(query)
       [
         *@mente_rule.(query) { |qa| find_guesser('mente', qa) },
         *@isimo_rule.(query) { |qa| find(qa) },
-        *@inho_rule.(query)  { |qa| find(qa) },
+        *@inho_rule.(query) { |qa| find(qa) },
       ]
     end
 

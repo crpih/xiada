@@ -2,7 +2,30 @@
 
 module Utils
   VOWELS = { 'a' => 'á', 'e' => 'é', 'i' => 'í', 'o' => 'ó', 'u' => 'ú' }.freeze
-  GHEADA_REPLACEMENTS = { 'gha' => 'ga', 'ghe' => 'gue', 'ghi' => 'gui', 'gho' => 'go', 'ghu' => 'gu' }.freeze
+  GHEADA_REPLACEMENTS = {
+    'gha' => 'ga',
+    'ghá' => 'gá',
+    'ghe' => 'gue',
+    'ghé' => 'gué',
+    'ghi' => 'gui',
+    'ghí' => 'guí',
+    'gho' => 'go',
+    'ghó' => 'gó',
+    'ghu' => 'gu',
+    'ghú' => 'gú'
+  }.freeze
+  SESEO_REPLACEMENTS = {
+    'sa' => 'za',
+    'sá' => 'zá',
+    'se' => 'ce',
+    'sé' => 'cé',
+    'si' => 'ci',
+    'sí' => 'cí',
+    'so' => 'zo',
+    'só' => 'zó',
+    'su' => 'zu',
+    'sú' => 'zú'
+  }.freeze
 
   def tilde_variants(word)
     variants = word.each_char.with_index.filter_map do |char, i|
@@ -15,7 +38,13 @@ module Utils
 
   def gheada_variants(word)
     has_gheada = GHEADA_REPLACEMENTS.keys.any? { |k| word.include?(k) }
-    variant = has_gheada ? word.gsub(/gh[aeiou]/, GHEADA_REPLACEMENTS) : nil
+    variant = has_gheada ? word.gsub(/gh[aáeéiíoóuú]/, GHEADA_REPLACEMENTS) : nil
+    [word, *variant]
+  end
+
+  def seseo_variants(word)
+    has_seseo = SESEO_REPLACEMENTS.keys.any? { |k| word.include?(k) }
+    variant = has_seseo ? word.gsub(/s[aáeéiíoóuú]/, SESEO_REPLACEMENTS) : nil
     [word, *variant]
   end
 
