@@ -20,7 +20,7 @@ module Lemmas
   class LemmatizerCorga
     include Utils
 
-    def initialize(database_wrapper, gheada: true, seseo: false)
+    def initialize(database_wrapper, gheada: true, seseo: true)
       @dw = database_wrapper
       @gheada = gheada
       @seseo = seseo
