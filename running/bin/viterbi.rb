@@ -19,7 +19,7 @@ class Viterbi
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
-      # sentence.print(STDERR)
+      sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
       #sentence.print(STDERR)

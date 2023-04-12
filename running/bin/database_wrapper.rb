@@ -389,9 +389,11 @@ class DatabaseWrapper
   end
 
   # It does not work for segmental ambiguity inside enclitic pronouns. It does not
-  # exist for Galician language
+  # exist for Galician language. It does not work if we have two different token decomposition for the main contraction too:
+  # contracted_form = token1 + token2 and contracted_form = token3 + token4, where token3 is different from token1 or token4 is different from token2.
   def insert_word_tag_lemma(result, entry, word, tag, lemma, position)
-    #puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "result:#{result}"
     if result[entry] == nil
       result[entry] = Array.new
     end
@@ -421,6 +423,7 @@ class DatabaseWrapper
     result = Hash.new
     @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
       pronoun_category = @db.get_first_value("select category from tags_info where name='pronoun'")
+      #STDERR.puts "\nrow:#{row}"
       if row[2] =~ /#{pronoun_category}/
         unless insert_word_tag_lemma(result, row[0], row[1], row[2], row[3], 1)
           puts "Insertion error for contraction:#{row[0]} (first component)"
