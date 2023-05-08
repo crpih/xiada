@@ -23,7 +23,4 @@ ENV XIADA_OPTIONS=''
 
 COPY . /myapp
 EXPOSE 4000
-CMD ruby running/bin/xiada_tagger.rb \
-    -x running/${XIADA_PROFILE}/xml_values.txt \
-    -s 4000 training/databases/${XIADA_PROFILE}/training_${XIADA_DATABASE}.db \
-    ${XIADA_OPTIONS}
+CMD ruby running/bin/server.rb -o 0.0.0.0 -p 4000 2>&1
