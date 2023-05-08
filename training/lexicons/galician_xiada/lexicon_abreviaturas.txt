@@ -1,243 +1,453 @@
 1.ª	Zafs	1.º	1.º
-1ª	Zafs	1º	1.º
 1.º	Zams	1.º	1.º
+1ª	Zafs	1º	1.º
 1º	Zams	1º	1.º
 2.ª	Zafs	2.º	2.º
-2ª	Zafs	2º	2.º
 2.º	Zams	2.º	2.º
+2ª	Zafs	2º	2.º
 2º	Zams	2º	2.º
 3.ª	Zafs	3.º	3.º
-3ª	Zafs	3º	3.º
 3.º	Zams	3.º	3.º
+3ª	Zafs	3º	3.º
 3º	Zams	3º	3.º
 4.ª	Zafs	4.º	4.º
-4ª	Zafs	4º	4.º
 4.º	Zams	4.º	4.º
+4ª	Zafs	4º	4.º
 4º	Zams	4º	4.º
 5.ª	Zafs	5.º	5.º
 5ª	Zafs	5º	5.º
+A.	Zafs	A.	
+A. C.	Za00	A. C.	
+A. D.	Za00	A. D.	
+A. M. D. G.	Za00	A. M. D. G.	
+A. R.	Za00	A. R.	
+A. T.	Za00	A. T.	
+AA.	Zafp	A.	
 AA. EE.	Za00	AA. EE.	
 AA. PP.	Za00	AA. PP.	
 AA. VV.	Za00	AA. VV.	
-AA.	Zafp	A.	
-ab init.	Za00	ab init.	
-abl.	Za00	abl.	
-abrev.	Za00	abrev.	
-abr.	Za00	abr.	
-acad.	Za00	acad.	
-acep.	Za00	acep.	
 Acúst.	Za00	Acúst.	
-acus.	Za00	acus.	
-a/c	Za00	a/c	
-a. C.	Za00	a. C.	
-A. C.	Za00	A. C.	
-a. de C.	Za00	a. de C.	
-a. de X. C.	Za00	a. de X. C.	
-ad init.	Za00	ad init.	
-admón.	Za00	admón.	
-admtvo.	Zams	admtvo.	
-adm.	Za00	adm.	
-adv. l.	Za00	adv. l.	
-adv. m.	Za00	adv. m.	
-adv. t.	Za00	adv. t.	
-adv.	Za00	adv.	
-adx.	Za00	adx.	
-A. D.	Za00	A. D.	
 Aerod.	Za00	Aerod.	
 Aeron.	Za00	Aeron.	
-afma.	Zafs	afmo.	
-afmo.	Zams	afmo.	
-a/f	Za00	a/f	
 Agr.	Za00	Agr.	
-ag.	Za00	ag.	
-alc.	Za00	alc.	
 Alim.	Za00	Alim.	
-alt.	Za00	alt.	
-Álx.	Za00	Álx.	
-al.	Za00	al.	
-A. M. D. G.	Za00	A. M. D. G.	
-Amox.	Za00	Amox.	
-a. m.	Za00	a. m.	
 Anat.	Za00	Anat.	
-anón.	Za00	anón.	
-antepret.	Za00	antepret.	
 Antrop.	Za00	Antrop.	
-ant.	Za00	ant.	
-apdo.	Zams	apdo.	
 Apic.	Za00	Apic.	
-apmto.	Zams	apmto.	
-aprox.	Za00	aprox.	
-aptdo.	Zams	aptdo.	
-ap.	Za00	ap.	
-Arcbpo.	Zams	Arcbpo.	
-arc.	Za00	arc.	
 Arc.	Za00	Arc.	
+Arcbpo.	Zams	Arcbpo.	
 Arit.	Za00	Arit.	
+Arq.	Za00	Arq.	
 Arqueol.	Za00	Arqueol.	
 Arquit.	Za00	Arquit.	
-arq.	Za00	arq.	
-Arq.	Za00	Arq.	
-art. cit.	Za00	art. cit.	
-art. det.	Za00	art. det.	
-art. indet.	Za00	art. indet.	
-arts.	Zamp	art.	
-art.	Zams	art.	
-A. R.	Za00	A. R.	
-ár.	Za00	ár.	
-asdo.	Za00	asdo.	
-asoc.	Za00	asoc.	
-Asp.	Za00	Asp.	
 Astrof.	Za00	Astrof.	
 Astron.	Za00	Astron.	
-Atb.	Za00	Atb.	
-atta.	Zafs	atto.	
-atte.	Za00	atte.	
-atto.	Zams	atto.	
-A. T.	Za00	A. T.	
-át.	Za00	át.	
-aum.	Za00	aum.	
-aux.	Za00	aux.	
-avda.	Zafs	avda.	
-avd.	Za00	avd.	
-av.	Za00	av.	
-a. X. C.	Za00	a. X. C.	
-axud.	Za00	axud.	
-A.	Zafs	A.	
-bco.	Zams	bco.	
-bda.	Zafs	bda.	
-bibl.	Za00	bibl.	
-biogr.	Za00	biogr.	
+B.	Za00	B.	
 Biog.	Za00	Biog.	
 Biol.	Za00	Biol.	
 Bioq.	Za00	Bioq.	
-Bleo.	Za00	Bleo.	
-bl.	Za00	bl.	
-b/n	Za00	b/n	
-bol.	Za00	bol.	
 Bot.	Za00	Bot.	
-b. o.	Za00	b. o.	
 Bras.	Za00	Bras.	
-b.	Za00	b.	
-B.	Za00	B.	
-cam.	Za00	cam.	
-cap.	Za00	cap.	
-Cap.	Za00	Cap.	
-cast.	Za00	cast.	
-cat.	Za00	cat.	
-ca.	Za00	ca.	
-Ca.	Za00	Ca.	
 C. A.	Za00	C. A.	
 C. A.	Zafs	C. A.	
+C. F.	Za00	C. F.	
+C. L.	Zafs	C. L.	
+C. P.	Za00	C. P.	
 C.ª	Zafs	C.ª	
 CC. AA.	Zafp	C. A.	
 CC. LL.	Za00	CC. LL.	
 CC. LL.	Zafp	C. L.	
 CC. MM.	Za00	CC. MM.	
 CC. OO.	Za00	CC. OO.	
-c/c	Za00	c/c	
-célt.	Za00	célt.	
-cents	Zamp	cent	cént.
-cént.	Za00	cént.	
-cfr.	Za00	cfr.	cfr.
 Cfr.	Za00	cfr.	cfr.
-cf.	Za00	cf.	
-C. F.	Za00	C. F.	
-ch/	Za00	ch/	
-ch.	Za00	ch.	
-cía.	Zafs	cía.	
-Cig.	Za00	Cig.	
-cit.	Za00	cit.	
-clás.	Za00	clás.	
-Clav.	Za00	Clav.	
-cl.	Za00	cl.	
-Cl.	Za00	Cl.	
-C. L.	Zafs	C. L.	
-cód.	Za00	cód.	
-col.	Za00	col.	
-compl.	Za00	compl.	
-comp.	Za00	comp.	
-com.	Za00	com.	
 Com.	Za00	Com.	
+D.	Zams	D.	
+D. E. P.	Za00	D. E. P.	
+D. F.	Za00	D. F.	
+D. L.	Za00	D. L.	
+D. N. I.	Za00	D. N. I.	
+D. P.	Za00	D. P.	
+D. X.	Za00	D. X.	
+D. m.	Za00	D. m.	
+D./DÂª	Zaxs	D.	D.
+D.ª	Zafs	D.	
+Der.	Za00	Der.	
+Dna.	Zafs	D.	
+Dr.	Zams	Dr.	
+Dra.	Zafs	Dr.	
+E. C.	Za00	E. C.	
+E. L.	Zafs	E. L.	
+E. M.	Za00	E. M.	
+E. P D.	Za00	E. P D.	
+E. P. M.	Za00	E. P. M.	
+E. R.	Zafs	E. R.	
+EE. LL.	Zafp	E. L.	
+EE. RR.	Zafp	E. R.	
+EE. UU.	Za00	EE. UU.	
+Ecol.	Za00	Ecol.	
+Econ.	Za00	Econ.	
+Electr.	Za00	Electr.	
+Electrón.	Za00	Electrón.	
+Em.ª	Zafs	Em.ª	
+Emcia.	Zafs	Emcia.	
+Emcia. Revma.	Zafs	Emcia. Revma.	
+Emma.	Zafs	Emma.	
+Emma. Sra.	Zafs	Emmo. Sr.	
+Emmo.	Zams	Emmo.	
+Emmo. Sr.	Zams	Emmo. Sr.	
+Enol.	Za00	Enol.	
+Enxeñ.	Za00	Enxeñ.	
+Estat.	Za00	Estat.	
+Exc.ª	Zafs	Exc.ª	
+Excma.	Zafs	Excmo.	
+Excma. Sra.	Zafs	Excmo. Sr.	
+Excmo.	Zams	Excmo.	
+Excmo. Sr.	Zams	Excmo. Sr.	
+F. C.	Zams	F. C.	
+F. P.	Za00	F. P.	
+FF. AA.	Za00	FF. AA.	
+FF. CC.	Zamp	F. C.	
+FF. NN.	Za00	FF. NN.	
+Farm.	Za00	Farm.	
+Fig.	Za00	Fig.	Fig.
+Filos.	Za00	Filos.	
+Fisiol.	Za00	Fisiol.	
+Fisiol. Anim.	Za00	Fisiol. Anim.	
+Fisiol. Vex.	Za00	Fisiol. Vex.	
+Fon.	Za00	Fon.	
+Fonol.	Za00	Fonol.	
+Fot.	Za00	Fot.	
+Fr.	Za00	Fr.	
+Fís.	Za00	Fís.	
+Fís. Atóm.	Za00	Fís. Atóm.	
+Fís. Quím.	Za00	Fís. Quím.	
+Gram.	Za00	Gram.	
+Heráld.	Za00	Heráld.	
+Hidrol.	Za00	Hidrol.	
+Hist.	Za00	Hist.	
+I.	Za00	I.	
+Ict.	Za00	Ict.	
+Il.	Za00	Il.	
+Ilma.	Zafs	Ilmo.	
+Ilma. Sra.	Zafs	Ilmo. Sr.	
+Ilmo.	Zams	Ilmo.	
+Ilmo. Sr.	Zams	Ilmo. Sr.	
+Iltma.	Zafs	Iltmo.	
+Iltmo.	Zams	Iltmo.	
+Iltre.	Zaas	Iltre.	
+Iltre.	Zafs	Iltre.	
+Iltre.	Zams	Iltre.	
+Inform.	Za00	Inform.	
+K. O.	Za00	K. O.	
+L/	Za00	L/	
+Ling.	Za00	Ling.	
+Lit.	Za00	Lit.	
+M.	Zafs	M.	
+M. I. Sr.	Zams	M. I. Sr.	
+M. I. Sra.	Zafs	M. I. Sr.	
+MM.	Zafp	M.	
+Magfa.	Zafs	Magfo.	
+Magfo.	Zams	Magfo.	
+Mar.	Za00	Mar.	
+Mat.	Za00	Mat.	
+Mec.	Za00	Mec.	
+Med.	Za00	Med.	
+Metal.	Za00	Metal.	
+Meteor.	Za00	Meteor.	
+Metrol.	Za00	Metrol.	
+Mil.	Za00	Mil.	
+Miner.	Za00	Miner.	
+Mit.	Za00	Mit.	
+Mons.	Za00	Mons.	
+Ms.	Zams	Ms.	
+Mss.	Zamp	Ms.	
+Mús.	Za00	Mús.	
+N. B.	Za00	N. B.	
+N. S.	Za00	N. S.	
+N. T.	Za00	N. T.	
+N. da R.	Za00	N. da R.	
+N. do A.	Za00	N. do A.	
+N. do C.	Za00	N. do C.	
+N. do E.	Za00	N. do E.	
+N. do T.	Za00	N. do T.	
+N.ª S.ª	Zafs	N. S.	
+NN.GG.	Zafp	NN.GG.	
+Nº	Zams	Nº	
+O. C.	Za00	O. C.	
+O. M.	Zafs	O. M.	
+OO. AA.	Za00	OO. AA.	
+OO. AA. AA.	Za00	OO. AA. AA.	
+OO. AA.CC.	Za00	OO. AA.CC.	
+OO. MM.	Zafp	O. M.	
+OO. PP.	Za00	OO. PP.	
+Oceanog.	Za00	Oceanog.	
+Odont.	Za00	Odont.	
+Oftal.	Za00	Oftal.	
+Op. cit.	Za00	op. cit.	op. cit.
+Ornit.	Za00	Ornit.	
+P.	Za00	P.	
+P.	Zams	P.	
+P. A.	Za00	P. A.	
+P. B.	Za00	P. B.	
+P. D.	Za00	P. D.	
+P. M.	Za00	P. M.	
+P. M. A.	Za00	P. M. A.	
+P. N.	Za00	P. N.	
+P. O.	Za00	P. O.	
+P. P.	Za00	P. P.	
+P. S.	Za00	P. S.	
+P. V. P.	Za00	P. V. P.	
+PP.	Zamp	P.	
+Paleont.	Za00	Paleont.	
+Pol.	Za00	Pol.	
+Psic.	Za00	Psic.	
+Psiq.	Za00	Psiq.	
+Q. D. G.	Za00	Q. D. G.	
+Quím.	Za00	Quím.	
+Quím. Anal.	Za00	Quím. Anal.	
+Quím. Fís.	Za00	Quím. Fís.	
+Quím. Inorg.	Za00	Quím. Inorg.	
+Quím. Org.	Za00	Quím. Org.	
+R.	Za00	R.	
+R. C.	Za00	R. C.	
+R. D.	Zams	R. D.	
+R. D. L.	Za00	R. D. L.	
+R. I. P.	Za00	R. I. P.	
+R. O.	Zafs	R. O.	
+RR. DD.	Zamp	R. D.	
+RR. OO.	Zafp	R. O.	
+Rda.	Zafs	Rdo.	
+Rdo.	Zams	Rdo.	
+Rel.	Za00	Rel.	
+Rep.	Za00	Rep.	
+Rev.	Za00	Rev.	
+Rma.	Zafs	Rmo.	
+Rmo.	Zams	Rmo.	
+Rvda.	Zafs	Rvdo.	
+Rvdo.	Zams	Rvdo.	
+S.	Za00	S.	
+S. A.	Za00	S. A.	
+S. A. I.	Za00	S. A. I.	
+S. A. R.	Za00	S. A. R.	
+S. A. S.	Za00	S. A. S.	
+S. D. M.	Za00	S. D. M.	
+S. E.	Za00	S. E.	
+S. L.	Za00	S. L.	
+S. M.	Za00	S. M.	
+S. M. I.	Za00	S. M. I.	
+S. N.	Za00	S. N.	
+S. P.	Za00	S. P.	
+S. R. M.	Za00	S. R. M.	
+S. S.	Za00	S. S.	
+S. en C.	Za00	S. en C.	
+S.ª	Zafs	Sr.	Sr.
+SS. AA.	Zafp	S. A.	
+SS. EE.	Zafp	S. E.	
+SS. MM.	Zafp	S. M.	
+Sma.	Zafs	Sma.	
+Smo.	Zams	Smo.	
+Sociol.	Za00	Sociol.	
+Sr.	Zams	Sr.	Sr.
+Sr./Sra.	Zaxs	Sr.	Sr.
+Sra.	Zafs	Sr.	Sr.
+Sras.	Zafp	Sr.	Sr.
+Sres.	Zamp	Sr.	Sr.
+Srta.	Zafs	Srta.	
+Sta.	Zafs	Sto.	
+Sto.	Zams	Sto.	
+T.	Za00	T.	
+T. C.	Za00	T. C.	
+T. S.	Za00	T. S.	
+Tecnol.	Za00	Tecnol.	
+Telecom.	Za00	Telecom.	
+Teol.	Za00	Teol.	
+Topog.	Za00	Topog.	
+UU. AA.	Za00	UU. AA.	
+V. A.	Za00	V. A.	
+V. A. R.	Za00	V. A. R.	
+V. B.	Za00	V. B.	
+V. E.	Zafs	V. E.	
+V. I.	Za00	V. I.	
+V. M.	Zafs	V. M.	
+V. O.	Za00	V. O.	
+V. O. S.	Za00	V. O. S.	
+V. S.	Za00	V. S.	
+V. S. I.	Za00	V. S. I.	
+V. e Pr.	Za00	V. e Pr.	
+VV. AA.	Za00	VV. AA.	
+VV. AA.	Zafp	V. A.	
+VV. EE.	Zafp	V. E.	
+VV. MM.	Zafp	V. M.	
+Vde.	Zaas	Vde.	
+Vde.	Zafs	Vde.	
+Vde.	Zams	Vde.	
+Vdes.	Zaap	Vde.	
+Vdes.	Zafp	Vde.	
+Vdes.	Zamp	Vde.	
+Veter.	Za00	Veter.	
+Vitic.	Za00	Vitic.	
+W. C.	Za00	W. C.	
+X. C.	Za00	X. C.	
+XX. AA.	Za00	XX. AA.	
+Xen.	Za00	Xen.	
+Xeogr.	Za00	Xeogr.	
+Xeol.	Za00	Xeol.	
+Xeom.	Za00	Xeom.	
+Xeomorf.	Za00	Xeomorf.	
+Xurisp.	Za00	Xurisp.	
+Zool.	Za00	Zool.	
+a. C.	Za00	a. C.	
+a. X. C.	Za00	a. X. C.	
+a. de C.	Za00	a. de C.	
+a. de X. C.	Za00	a. de X. C.	
+a. m.	Za00	a. m.	
+a/c	Za00	a/c	
+a/f	Za00	a/f	
+ab init.	Za00	ab init.	
+abl.	Za00	abl.	
+abr.	Za00	abr.	
+abrev.	Za00	abrev.	
+acad.	Za00	acad.	
+acep.	Za00	acep.	
+acus.	Za00	acus.	
+ad init.	Za00	ad init.	
+adm.	Za00	adm.	
+admtvo.	Zams	admtvo.	
+admón.	Za00	admón.	
+adv.	Za00	adv.	
+adv. l.	Za00	adv. l.	
+adv. m.	Za00	adv. m.	
+adv. t.	Za00	adv. t.	
+adx.	Za00	adx.	
+afma.	Zafs	afmo.	
+afmo.	Zams	afmo.	
+ag.	Za00	ag.	
+al.	Za00	al.	
+alc.	Za00	alc.	
+alt.	Za00	alt.	
+ant.	Za00	ant.	
+antepret.	Za00	antepret.	
+anón.	Za00	anón.	
+ap.	Za00	ap.	
+apdo.	Zams	apdo.	
+apmto.	Zams	apmto.	
+aprox.	Za00	aprox.	
+aptdo.	Zams	aptdo.	
+arc.	Za00	arc.	
+arq.	Za00	arq.	
+art	Zams	art.	art.
+art.	Zams	art.	
+art. cit.	Za00	art. cit.	
+art. det.	Za00	art. det.	
+art. indet.	Za00	art. indet.	
+arts.	Zamp	art.	
+asdo.	Za00	asdo.	
+asoc.	Za00	asoc.	
+atta.	Zafs	atto.	
+atte.	Za00	atte.	
+atto.	Zams	atto.	
+aum.	Za00	aum.	
+aux.	Za00	aux.	
+av.	Za00	av.	
+avd.	Za00	avd.	
+avda.	Zafs	avda.	
+axud.	Za00	axud.	
+b.	Za00	b.	
+b. o.	Za00	b. o.	
+b/n	Za00	b/n	
+bco.	Zams	bco.	
+bda.	Zafs	bda.	
+bibl.	Za00	bibl.	
+biogr.	Za00	biogr.	
+bl.	Za00	bl.	
+bol.	Za00	bol.	
+c.	Za00	c.	
+c/	Za00	c/	
+c/c	Za00	c/c	
+c/u	Za00	c/u	
+ca.	Za00	ca.	
+cam.	Za00	cam.	
+cap.	Za00	cap.	
+cast.	Za00	cast.	
+cat.	Za00	cat.	
+cents	Zamp	cent	cént.
+cf.	Za00	cf.	
+cfr.	Za00	cfr.	cfr.
+ch.	Za00	ch.	
+ch/	Za00	ch/	
+cit.	Za00	cit.	
+cl.	Za00	cl.	
+clás.	Za00	clás.	
+col.	Za00	col.	
+com.	Za00	com.	
+comp.	Za00	comp.	
+compl.	Za00	compl.	
 conc.	Za00	conc.	
 cond.	Za00	cond.	
-contr.	Za00	contr.	
 cont.	Za00	cont.	
+contr.	Za00	contr.	
+conx.	Za00	conx.	
 conx. adv.	Za00	conx. adv.	
 conx. cond.	Za00	conx. cond.	
 conx. cop.	Za00	conx. cop.	
 conx. disx.	Za00	conx. disx.	
 conx. il.	Za00	conx. il.	
-conx.	Za00	conx.	
 coord.	Za00	coord.	
-corp.	Za00	corp.	
 cor.	Za00	cor.	
+corp.	Za00	corp.	
 cp.	Za00	cp.	
-C. P.	Za00	C. P.	
 crít.	Za00	crít.	
-Cr.	Za00	Cr.	
 cta.	Zafs	cta.	
-Cta.	Zafs	Cta.	
 cte.	Za00	cte.	
-c/u	Za00	c/u	
-c/	Za00	c/	
-c.	Za00	c.	
-dat.	Za00	dat.	
-D.ª	Zafs	D.	
+célt.	Za00	célt.	
+cént.	Za00	cént.	
+cía.	Zafs	cía.	
+cód.	Za00	cód.	
+d.	Za00	d.	
 d. C.	Za00	d. C.	
-D./DÂª	Zaxs	D.	D.
+d. X. C.	Za00	d. X. C.	
 d. de C.	Za00	d. de C.	
 d. de X. C.	Za00	d. de X. C.	
+d. e. p.	Za00	d. e. p.	
+d/v	Za00	d/v	
+dat.	Za00	dat.	
 deb.	Za00	deb.	
 dec.	Za00	dec.	
 del.	Za00	del.	
 dem.	Za00	dem.	
-Denst.	Za00	Denst.	
-depto.	Zams	depto.	
-d. e. p.	Za00	d. e. p.	
 dep.	Za00	dep.	
-D. E. P.	Za00	D. E. P.	
+depto.	Zams	depto.	
 der.	Za00	der.	
-Der.	Za00	Der.	
 desp.	Za00	desp.	
 desus.	Za00	desus.	
-determ.	Za00	determ.	
 det.	Za00	det.	
-D. F.	Za00	D. F.	
+determ.	Za00	determ.	
 dic.	Za00	dic.	
 dim.	Za00	dim.	
 dipl.	Za00	dipl.	
-dir.ª	Zafs	dir.	
 dir.	Zams	dir.	
+dir.ª	Zafs	dir.	
 disp.	Za00	disp.	
 div.	Za00	div.	
-D. L.	Za00	D. L.	
-D. m.	Za00	D. m.	
-Dna.	Zafs	D.	
-D. N. I.	Za00	D. N. I.	
 doc.	Za00	doc.	
 dom.	Za00	dom.	
-dpto.	Zams	dpto.	
 dpt.°	Za00	dpt.°	
-D. P.	Za00	D. P.	
-Dra.	Zafs	Dr.	
-Dr.	Zams	Dr.	
+dpto.	Zams	dpto.	
 dta.	Zafs	dto.	
 dto.	Zams	dto.	
-Dto.	Zams	Dto.	
 dupdo.	Zams	dupdo.	
 dupl.	Za00	dupl.	
-d/v	Za00	d/v	
-d. X. C.	Za00	d. X. C.	
-D. X.	Za00	D. X.	
-d.	Za00	d.	
-D.	Zams	D.	
-ead. pag.	Za00	ead. pag.	
-Ecol.	Za00	Ecol.	
-econ.	Za00	econ.	
-Econ.	Za00	Econ.	
-Eco.	Za00	Eco.	
+e.	Za00	e.	
+e. g.	Za00	e. g.	
+e. g. e.	Za00	e. g. e.	
+e. l.	Za00	e. l.	
+e. p. d.	Za00	e. p. d.	
+e. p. m.	Za00	e. p. m.	
+e/	Za00	e/	
 e/c	Za00	e/c	
-E. C.	Za00	E. C.	
+ead. pag.	Za00	ead. pag.	
+econ.	Za00	econ.	
+ed.	Za00	ed.	
 ed. ampl.	Za00	ed. ampl.	
 ed. aum.	Za00	ed. aum.	
 ed. cit.	Za00	ed. cit.	
@@ -245,215 +455,121 @@ ed. corr.	Za00	ed. corr.
 ed. crít.	Za00	ed. crít.	
 ed. dipl.	Za00	ed. dipl.	
 ed. facs.	Za00	ed. facs.	
-edit.	Za00	edit.	
 ed. lit.	Za00	ed. lit.	
 ed. orix.	Za00	ed. orix.	
 ed. pal.	Za00	ed. pal.	
 ed. prínc.	Za00	ed. prínc.	
 ed. rev.	Za00	ed. rev.	
+edit.	Za00	edit.	
 educ.	Za00	educ.	
-ed.	Za00	ed.	
-EE. LL.	Zafp	E. L.	
-EE. RR.	Zafp	E. R.	
-EE. UU.	Za00	EE. UU.	
-efect.	Za00	efect.	
 ef.	Za00	ef.	
-e. g. e.	Za00	e. g. e.	
-e. g.	Za00	e. g.	
-Electrón.	Za00	Electrón.	
-Electr.	Za00	Electr.	
-e. l.	Za00	e. l.	
-E. L.	Zafs	E. L.	
-Em.ª	Zafs	Em.ª	
-Emcia. Revma.	Zafs	Emcia. Revma.	
-Emcia.	Zafs	Emcia.	
-Emma. Sra.	Zafs	Emmo. Sr.	
-Emma.	Zafs	Emma.	
-Emmo. Sr.	Zams	Emmo. Sr.	
-Emmo.	Zams	Emmo.	
-E. M.	Za00	E. M.	
+efect.	Za00	efect.	
 enc.	Za00	enc.	
-Enf.	Za00	Enf.	
-Enol.	Za00	Enol.	
 entpl.	Za00	entpl.	
-Enxeñ.	Za00	Enxeñ.	
 enx.	Za00	enx.	
-Eo.	Za00	Eo.	
-e. p. d.	Za00	e. p. d.	
-E. P D.	Za00	E. P D.	
 epíl.	Za00	epíl.	
-Epi.	Za00	Epi.	
-e. p. m.	Za00	e. p. m.	
-E. P. M.	Za00	E. P. M.	
-E. R.	Zafs	E. R.	
-escr.	Za00	escr.	
 esc.	Za00	esc.	
-Espir.	Za00	Espir.	
+escr.	Za00	escr.	
 esp.	Za00	esp.	
+esq	Zafs	esq.	
+esq.	Za00	esq.	
 esqda.	Zafs	esqdo.	
 esqdo.	Zams	esqdo.	
-esq.	Za00	esq.	
-esq	Zafs	esq.	
-estat.	Za00	estat.	
-Estat.	Za00	Estat.	
-estr.	Za00	estr.	
 est.	Za00	est.	
+estat.	Za00	estat.	
+estr.	Za00	estr.	
 et al.	Za00	et al.	
-etc.	Za00	etc.	
 et seq.	Za00	et seq.	
-Exc.ª	Zafs	Exc.ª	
-exclam.	Za00	exclam.	
-excl.	Za00	excl.	
-Excma. Sra.	Zafs	Excmo. Sr.	
-Excma.	Zafs	Excmo.	
-Excmo. Sr.	Zams	Excmo. Sr.	
-Excmo.	Zams	Excmo.	
-exc.	Za00	exc.	
-exped.	Za00	exped.	
-exp.	Za00	exp.	
-Exp.	Za00	Exp.	
-ext.	Za00	ext.	
-Ext.	Za00	Ext.	
+etc.	Za00	etc.	
 ex.	Za00	ex.	
-e/	Za00	e/	
-e.	Za00	e.	
-fábr.	Za00	fábr.	
+exc.	Za00	exc.	
+excl.	Za00	excl.	
+exclam.	Za00	exclam.	
+exp.	Za00	exp.	
+exped.	Za00	exped.	
+ext.	Za00	ext.	
+f.	Za00	f.	
+f. f.	Za00	f. f.	
+f. v.	Za00	f. v.	
+f.ª	Zafs	f.ª	
+f.°	Zams	f.°	
+f/	Za00	f/	
 facs.	Za00	facs.	
 fact.	Za00	fact.	
 fam.	Za00	fam.	
-Farm.	Za00	Farm.	
 fasc.	Za00	fasc.	
-f.ª	Zafs	f.ª	
 fca.	Zafs	fca.	
-F. C.	Zams	F. C.	
 febr.	Za00	febr.	
 fec.	Za00	fec.	
 fem.	Za00	fem.	
 fest.	Za00	fest.	
-FF. AA.	Za00	FF. AA.	
-FF. CC.	Zamp	F. C.	
-FF. NN.	Za00	FF. NN.	
-f. f.	Za00	f. f.	
 fig.	Za00	fig.	
-Fig.	Za00	Fig.	Fig.
-Filos.	Za00	Filos.	
-Fís. Atóm.	Za00	Fís. Atóm.	
-Fisiol. Anim.	Za00	Fisiol. Anim.	
-Fisiol. Vex.	Za00	Fisiol. Vex.	
-Fisiol.	Za00	Fisiol.	
-Fís. Quím.	Za00	Fís. Quím.	
-Fís.	Za00	Fís.	
-fonol.	Za00	fonol.	
-Fonol.	Za00	Fonol.	
 fon.	Za00	fon.	
-Fon.	Za00	Fon.	
-Fot.	Za00	Fot.	
-F. P.	Za00	F. P.	
-fra.	Zafs	fra.	
+fonol.	Za00	fonol.	
 fr.	Za00	fr.	
-Fr.	Za00	Fr.	
-fut. pret.	Za00	fut. pret.	
+fra.	Zafs	fra.	
 fut.	Za00	fut.	
-f. v.	Za00	f. v.	
-f/	Za00	f/	
-f.	Za00	f.	
-f.°	Zams	f.°	
+fut. pret.	Za00	fut. pret.	
+fábr.	Za00	fábr.	
 gal.	Za00	gal.	
-Glc.	Za00	Glc.	
 glos.	Za00	glos.	
 gob.	Za00	gob.	
-gót.	Za00	gót.	
-gráf.	Za00	gráf.	
-Gram.	Za00	Gram.	
 gr.	Za00	gr.	
+gráf.	Za00	gráf.	
 gta.	Zafs	gta.	
-hab.	Za00	hab.	
-Hb.	Za00	Hb.	
-Hcto.	Zams	Hcto.	
-Hct.	Za00	Hct.	
-Heráld.	Za00	Heráld.	
-her.	Za00	her.	
+gót.	Za00	gót.	
+h.	Za00	h.	
 h. e.	Za00	h. e.	
-He.	Za00	He.	
-Hgb.	Za00	Hgb.	
-Hidrol.	Za00	Hidrol.	
-Hist.	Za00	Hist.	
+hab.	Za00	hab.	
+her.	Za00	her.	
 hol.	Za00	hol.	
 hra.	Zafs	hro.	
 hro.	Zams	hro.	
-H.<superíndice>a</superíndice>	Zafs	H.<superíndice>a</superíndice>	
-Hto.	Zams	Hto.	
-h.	Za00	h.	
-ibid.	Za00	ibid.	
-ib.	Za00	ib.	
-Ict.	Za00	Ict.	
-id.	Za00	id.	
-íd.	Za00	íd.	
+i.	Za00	i.	
 i. e.	Za00	i. e.	
+i. q.	Za00	i. q.	
+ib.	Za00	ib.	ibídem
+ibid.	Za00	ibid.	ibídem
+id.	Za00	id.	
 igr.	Za00	igr.	
-Ilma. Sra.	Zafs	Ilmo. Sr.	
-Ilma.	Zafs	Ilmo.	
-Ilmo. Sr.	Zams	Ilmo. Sr.	
-Ilmo.	Zams	Ilmo.	
-Iltma.	Zafs	Iltmo.	
-Iltmo.	Zams	Iltmo.	
-Iltre.	Zaas	Iltre.	
-Iltre.	Zafs	Iltre.	
-Iltre.	Zams	Iltre.	
 il.	Za00	il.	
-Il.	Za00	Il.	
+imp.	Za00	imp.	
 imperat.	Za00	imperat.	
 imperf.	Za00	imperf.	
 impr.	Za00	impr.	
-imp.	Za00	imp.	
-Im.	Za00	Im.	
+inc.	Za00	inc.	
 incl.	Za00	incl.	
 incompl.	Za00	incompl.	
-inc.	Za00	inc.	
+ind.	Za00	ind.	
 indef.	Za00	indef.	
 indic.	Za00	indic.	
-ind.	Za00	ind.	
-índ.	Za00	índ.	
-inf. conx.	Za00	inf. conx.	
-Inform.	Za00	Inform.	
 inf.	Za00	inf.	
-Ing.	Za00	Ing.	
-Inh.	Za00	Inh.	
+inf. conx.	Za00	inf. conx.	
 insep.	Za00	insep.	
 inst.	Za00	inst.	
-interrog.	Za00	interrog.	
-interr.	Za00	interr.	
-interx.	Za00	interx.	
-introd.	Za00	introd.	
-intr.	Za00	intr.	
 int.	Za00	int.	
-Int.	Za00	Int.	
-Int	Za00	Int	
-i. q.	Za00	i. q.	
+interr.	Za00	interr.	
+interrog.	Za00	interrog.	
+interx.	Za00	interx.	
+intr.	Za00	intr.	
+introd.	Za00	introd.	
 irreg.	Za00	irreg.	
 it.	Za00	it.	
-ít.	Za00	ít.	
-iv.	Za00	iv.	
-i.	Za00	i.	
-I.	Za00	I.	
 k. o.	Za00	k. o.	
-K. O.	Za00	K. O.	
-lat.	Za00	lat.	
-Lat.	Za00	Lat.	
-lav.	Za00	lav.	
-lca.	Zafs	lca.	
-l. cl.	Za00	l. cl.	
-lco.	Zams	lco.	
+l.	Za00	l.	
 l. c.	Za00	l. c.	
+l. cl.	Za00	l. cl.	
+l. vg.	Za00	l. vg.	
+lat.	Za00	lat.	
+lca.	Zafs	lca.	
+lco.	Zams	lco.	
 lda.	Zafs	ldo.	
 ldo.	Zams	ldo.	
+lic.	Za00	lic.	
 licda.	Zafs	licdo.	
 licdo.	Zams	licdo.	
-lic.	Za00	lic.	
-Lig.	Za00	Lig.	
-Ling.	Za00	Ling.	
 lit.	Za00	lit.	
-Lit.	Za00	Lit.	
+loc.	Za00	loc.	
 loc. adv.	Za00	loc. adv.	
 loc. adx.	Za00	loc. adx.	
 loc. cit.	Za00	loc. cit.	
@@ -461,214 +577,133 @@ loc. conx.	Za00	loc. conx.
 loc. lat.	Za00	loc. lat.	
 loc. prep.	Za00	loc. prep.	
 loc. s.	Za00	loc. s.	
-loc.	Za00	loc.	
 lonx.	Za00	lonx.	
 loq.	Za00	loq.	
-ltda.	Zafs	ltd.	
 ltd.	Za00	ltd.	
-l. vg.	Za00	l. vg.	
-l.	Za00	l.	
-L/	Za00	L/	
-Magfa.	Zafs	Magfo.	
-Magfo.	Zams	Magfo.	
-maiúsc.	Za00	maiúsc.	
-Mamo.	Za00	Mamo.	
-mar.	Za00	mar.	
-Mar.	Za00	Mar.	
-masc.	Za00	masc.	
-Mat.	Za00	Mat.	
-máx.	Za00	máx.	
-mecan.	Za00	mecan.	
-Mec.	Za00	Mec.	
-Med.	Za00	Med.	
-Men.	Za00	Men.	
-mercad.	Za00	mercad.	
-Metal.	Za00	Metal.	
-Meteor.	Za00	Meteor.	
-Metrol.	Za00	Metrol.	
-mil.	Za00	mil.	
-Mil.	Za00	Mil.	
-Miner.	Za00	Miner.	
-minist.	Za00	minist.	
-mín.	Za00	mín.	
-M. I. Sra.	Zafs	M. I. Sr.	
-M. I. Sr.	Zams	M. I. Sr.	
-Mit.	Za00	Mit.	
-MM.	Zafp	M.	
-m. n.	Za00	m. n.	
-mod.	Za00	mod.	
-Mons.	Za00	Mons.	
-Mov.	Za00	Mov.	
-mrs.	Zamp	mr.	mr.
-mr.	Zams	mr.	mr.
-mss.	Zamp	ms.	
-Mss.	Zamp	Ms.	
-ms.	Zams	ms.	
-Ms.	Zams	Ms.	
-mun.	Za00	mun.	
-Mús.	Za00	Mús.	
+ltda.	Zafs	ltd.	
 m.	Za00	m.	
-M.	Zafs	M.	
-N.ª S.ª	Zafs	N. S.	
-N. B.	Za00	N. B.	
+m. n.	Za00	m. n.	
+maiúsc.	Za00	maiúsc.	
+mar.	Za00	mar.	
+masc.	Za00	masc.	
+mecan.	Za00	mecan.	
+mercad.	Za00	mercad.	
+mil.	Za00	mil.	
+minist.	Za00	minist.	
+mod.	Za00	mod.	
+mr.	Zams	mr.	mr.
+mrs.	Zamp	mr.	mr.
+ms.	Zams	ms.	
+mss.	Zamp	ms.	
+mun.	Za00	mun.	
+máx.	Za00	máx.	
+mín.	Za00	mín.	
+n.	Za00	n.	
 n. c.	Za00	n. c.	
-N. da R.	Za00	N. da R.	
-N. do A.	Za00	N. do A.	
-N. do C.	Za00	N. do C.	
-N. do E.	Za00	N. do E.	
-N. do T.	Za00	N. do T.	
+n. p.	Za00	n. p.	
+n.°	Zams	n.°	
+n.º	Zams	n.º	
 neg.	Za00	neg.	
 neol.	Za00	neol.	
-Neo.	Za00	Neo.	
-Neuro.	Za00	Neuro.	
-NN.GG.	Zafp	NN.GG.	
 nom.	Za00	nom.	
-n.º	Zams	n.º	
-nº	Zams	nº	
-Nº	Zams	Nº	
-n. p.	Za00	n. p.	
-Nr.	Za00	Nr.	
-N. S.	Za00	N. S.	
-N. T.	Za00	N. T.	
+num.	Za00	num.	
 num. card.	Za00	num. card.	
 num. ord.	Za00	num. ord.	
-num.	Za00	num.	
+nº	Zams	nº	
 núm.	Zams	núm.	
-n.	Za00	n.	
-n.°	Zams	n.°	
+o.	Za00	o.	
+o. c.	Za00	o. c.	
+o. cit.	Za00	o. cit.	
+o. p.	Za00	o. p.	
+o.c.	Za00	o.c.	o. c.
+o/	Za00	o/	
 ob. cit.	Za00	ob. cit.	
 obs.	Za00	obs.	
-Oceanog.	Za00	Oceanog.	
-o. cit.	Za00	o. cit.	
-o. c.	Za00	o. c.	
-O. C.	Za00	O. C.	
-o.c.	Za00	o.c.	o. c.
-Odont.	Za00	Odont.	
-Oftal.	Za00	Oftal.	
-Oft.	Za00	Oft.	
 of.	Za00	of.	
-O. M.	Zafs	O. M.	
-OO. AA. AA.	Za00	OO. AA. AA.	
-OO. AA.CC.	Za00	OO. AA.CC.	
-OO. AA.	Za00	OO. AA.	
-OO. MM.	Zafp	O. M.	
-OO. PP.	Za00	OO. PP.	
-op. cit.	Za00	op. cit.	op. cit.
-Op. cit.	Za00	op. cit.	op. cit.
-Ópt.	Za00	Ópt.	
-opúsc.	Za00	opúsc.	
-o. p.	Za00	o. p.	
 op.	Za00	op.	
+op. cit.	Za00	op. cit.	
+opúsc.	Za00	opúsc.	
 orix.	Za00	orix.	
-Ornit.	Za00	Ornit.	
-Ot.	Za00	Ot.	
-Ov.	Za00	Ov.	
-o/	Za00	o/	
-o.	Za00	o.	
-Pac.	Za00	Pac.	
-Paleont.	Za00	Paleont.	
-part.	Za00	part.	
+p.	Za00	p.	
+p.	Zafs	p.	
+p. a.	Za00	p. a.	
+p. e.	Za00	p. e.	
+p. ex.	Za00	p. ex.	
+p. ext.	Za00	p. ext.	
+p. m.	Za00	p. m.	
+p. o.	Za00	p. o.	
+p. p.	Za00	p. p.	
+p. u.	Za00	p. u.	
+p.e.	Za00	p.e.	p. ex.
+p.°	Zams	p.°	
+p/o	Za00	p/o	
 par.	Za00	par.	
+part.	Za00	part.	
 pass.	Za00	pass.	
 pat.	Za00	pat.	
-páxs.	Zafp	páx.	
-páx.	Zafs	páx.	
-p. a.	Za00	p. a.	
-P. A.	Za00	P. A.	
-P. B.	Za00	P. B.	
+paxs	Zafp	pax	páx.
 pdo.	Zams	pdo.	
 pdta.	Zafs	pdte.	
 pdte.	Zams	pdte.	
-P. D.	Za00	P. D.	
 pen.	Za00	pen.	
-Pen.	Za00	Pen.	
 perf.	Za00	perf.	
 perg.	Za00	perg.	
 pers.	Za00	pers.	
-p. ext.	Za00	p. ext.	
-p. ex.	Za00	p. ex.	
 pex.	Za00	pex.	
-p. e.	Za00	p. e.	
-p.e.	Za00	p.e.	p. ex.
-plusc.	Za00	plusc.	
 pl.	Za00	pl.	
-P. M. A.	Za00	P. M. A.	
-p. m.	Za00	p. m.	
-P. M.	Za00	P. M.	
-P. N.	Za00	P. N.	
+plusc.	Za00	plusc.	
 pob.	Za00	pob.	
-poét.	Za00	poét.	
-Pol.	Za00	Pol.	
 pop.	Za00	pop.	
 por ext.	Za00	por ext.	
 port.	Za00	port.	
-pospret.	Za00	pospret.	
 pos.	Za00	pos.	
-p/o	Za00	p/o	
-p. o.	Za00	p. o.	
-P. O.	Za00	P. O.	
-ppal.	Za00	ppal.	
-ppmm	Zafp	ppmm	
-p. p.	Za00	p. p.	
-P. P.	Za00	P. P.	
+pospret.	Za00	pospret.	
+poét.	Za00	poét.	
 pp.	Zafp	p.	
-PP.	Zamp	P.	
+ppal.	Za00	ppal.	
+ppm	Zafp	ppm	
+ppmm	Zafp	ppmm	
+pr.	Za00	pr.	
 pral.	Za00	pral.	
 pref.	Za00	pref.	
 prelim.	Za00	prelim.	
 prep.	Za00	prep.	
-presb.	Za00	presb.	
 pres.	Za00	pres.	
+presb.	Za00	presb.	
 pret.	Za00	pret.	
 prnl.	Za00	prnl.	
 proc.	Za00	proc.	
-prof.ª	Zafs	prof.	
 prof.	Za00	prof.	
 prof.	Zams	prof.	
-pról.	Za00	pról.	
-pron. át.	Za00	pron. át.	
+prof.ª	Zafs	prof.	
+pron.	Za00	pron.	
 pron. pers.	Za00	pron. pers.	
 pron. pos.	Za00	pron. pos.	
 pron. rel.	Za00	pron. rel.	
 pron. tón.	Za00	pron. tón.	
-pron.	Za00	pron.	
+pron. át.	Za00	pron. át.	
 prov.	Za00	prov.	
-pr.	Za00	pr.	
-Psic.	Za00	Psic.	
-Psiq.	Za00	Psiq.	
-P. S.	Za00	P. S.	
-ptas.	Zafp	pta.	
+pról.	Za00	pról.	
+ps	Zamp	p	
 pta.	Zafs	pta.	
+ptas.	Zafp	pta.	
 ptg.	Za00	ptg.	
-Pto.	Za00	Pto.	
 publ.	Za00	publ.	
-p. u.	Za00	p. u.	
-P. V. P.	Za00	P. V. P.	
-Px.	Za00	Px.	
-p.	Za00	p.	
-P.	Za00	P.	
-p.	Zafs	p.	
-p.°	Zams	p.°	
-P.	Zams	P.	
 pza.	Zafs	pza.	
+páx.	Zafs	páx.	páx.
+páxs	Zafp	páx	páx.
+páxs.	Zafp	páx.	páx.
+q. D. g.	Za00	q. D. g.	
 q. b. s. m.	Za00	q. b. s. m.	
 q. b. s. p.	Za00	q. b. s. p.	
-q. D. g.	Za00	q. D. g.	
-Q. D. G.	Za00	Q. D. G.	
 q. e. g. e.	Za00	q. e. g. e.	
 q. e. p. d.	Za00	q. e. p. d.	
 q. s. g. h.	Za00	q. s. g. h.	
-Quím. Anal.	Za00	Quím. Anal.	
-Quím. Fís.	Za00	Quím. Fís.	
-Quím. Inorg.	Za00	Quím. Inorg.	
-Quím. Org.	Za00	Quím. Org.	
-Quím.	Za00	Quím.	
 q. v.	Za00	q. v.	
-R. C.	Za00	R. C.	
-Rda.	Zafs	Rdo.	
-R. D. L.	Za00	R. D. L.	
-Rdo.	Zams	Rdo.	
-R. D.	Zams	R. D.	
+r.	Za00	r.	
+r. i. p.	Za00	r. i. p.	
+r. p. m.	Za00	r. p. m.	
+r/	Za00	r/	
 rec.	Za00	rec.	
 red.	Za00	red.	
 reed.	Za00	reed.	
@@ -676,202 +711,111 @@ ref.	Za00	ref.
 reg.	Za00	reg.	
 reimpr.	Za00	reimpr.	
 rel.	Za00	rel.	
-Rel.	Za00	Rel.	
 reprod.	Za00	reprod.	
-Rep.	Za00	Rep.	
 rev.	Za00	rev.	
-Rev.	Za00	Rev.	
 rex.	Za00	rex.	
-r. i. p.	Za00	r. i. p.	
-R. I. P.	Za00	R. I. P.	
-Rma.	Zafs	Rmo.	
-Rmo.	Zams	Rmo.	
-R. O.	Zafs	R. O.	
-r. p. m.	Za00	r. p. m.	
-RR. DD.	Zamp	R. D.	
-RR. OO.	Zafp	R. O.	
 rte.	Za00	rte.	
-Rvda.	Zafs	Rvdo.	
-Rvdo.	Zams	Rvdo.	
-r/	Za00	r/	
-r.	Za00	r.	
-R.	Za00	R.	
-S. A. I.	Za00	S. A. I.	
-sarx.	Za00	sarx.	
-S. A. R.	Za00	S. A. R.	
-S. A. S.	Za00	S. A. S.	
-Sat.	Za00	Sat.	
-s/a	Za00	s/a	
+s.	Za00	s.	
+s.	Zaas	s.	
+s.	Zafs	s.	
+s.	Zams	s.	
 s. a.	Za00	s. a.	
-S. A.	Za00	S. A.	
-S.ª	Zafs	Sr.	Sr.
-sc.	Za00	sc.	
-sdade. ltda.	Zafs	sdade. ltda.	
-sdade.	Za00	sdade.	
-S. D. M.	Za00	S. D. M.	
 s. d.	Za00	s. d.	
-secret.	Za00	secret.	
+s. e.	Za00	s. e.	
+s. e. o. o.	Za00	s. e. o. o.	
+s. l.	Za00	s. l.	
+s. l. e. a.	Za00	s. l. e. a.	
+s. l. n. a.	Za00	s. l. n. a.	
+s. n.	Za00	s. n.	
+s. s.	Za00	s. s.	
+s. v.	Za00	s. v.	
+s/a	Za00	s/a	
+s/e	Za00	s/e	
+s/l	Za00	s/l	
+s/n	Za00	s/n	
+sarx.	Za00	sarx.	
+sc.	Za00	sc.	
+sdade.	Za00	sdade.	
+sdade. ltda.	Zafs	sdade. ltda.	
 sec.	Za00	sec.	
-séc.	Za00	séc.	
-Sed.	Za00	Sed.	
-segs.	Zaap	seg.	
-segs.	Zafp	seg.	
-segs.	Zamp	seg.	
+secret.	Za00	secret.	
 seg.	Zaas	seg.	
 seg.	Zafs	seg.	
 seg.	Zams	seg.	
-S. en C.	Za00	S. en C.	
-s. e. o. o.	Za00	s. e. o. o.	
+segs.	Zaap	seg.	
+segs.	Zafp	seg.	
+segs.	Zamp	seg.	
 serv.	Za00	serv.	
-s/e	Za00	s/e	
-s. e.	Za00	s. e.	
-S. E.	Za00	S. E.	
-símb.	Za00	símb.	
-Síndr.	Za00	Síndr.	
-sing.	Za00	sing.	
 sin.	Za00	sin.	
-Sín.	Za00	Sín.	
-s. l. e. a.	Za00	s. l. e. a.	
-s. l. n. a.	Za00	s. l. n. a.	
-s/l	Za00	s/l	
-s. l.	Za00	s. l.	
-sl.	Za00	sl.	
-S. L.	Za00	S. L.	
-Sma.	Zafs	Sma.	
-Sme.	Za00	Sme.	
-S. M. I.	Za00	S. M. I.	
-Smo.	Zams	Smo.	
-S. M.	Za00	S. M.	
-s/n	Za00	s/n	
-s. n.	Za00	s. n.	
-S. N.	Za00	S. N.	
-Sociol.	Za00	Sociol.	
+sing.	Za00	sing.	
 soc.	Za00	soc.	
-S. P.	Za00	S. P.	
-Sras.	Zafp	Sr.	Sr.
-Sra.	Zafs	Sr.	Sr.
-Sres.	Zamp	Sr.	Sr.
-S. R. M.	Za00	S. R. M.	
-Sr./Sra.	Zaxs	Sr.	Sr.
-Srta.	Zafs	Srta.	
-Sr.	Zams	Sr.	Sr.
-SS. AA.	Zafp	S. A.	
-SS. EE.	Zafp	S. E.	
-SS. MM.	Zafp	S. M.	
-s. s.	Za00	s. s.	
-S. S.	Za00	S. S.	
 ss.	Zaap	s.	
 ss.	Zafp	s.	
 ss.	Zamp	s.	
-Sta.	Zafs	Sto.	
-Sto.	Zams	Sto.	
 subst.	Za00	subst.	
 subt.	Za00	subt.	
 subx.	Za00	subx.	
 suf.	Za00	suf.	
 sum.	Za00	sum.	
+sup.	Za00	sup.	
 superl.	Za00	superl.	
 supl.	Za00	supl.	
-sup.	Za00	sup.	
-Sup.	Za00	Sup.	
-Susp.	Za00	Susp.	
-s. v.	Za00	s. v.	
-s.	Za00	s.	
-S.	Za00	S.	
-s.	Zaas	s.	
-s.	Zafs	s.	
-s.	Zams	s.	
-T. C.	Za00	T. C.	
-Tecnol.	Za00	Tecnol.	
-Telecom.	Za00	Telecom.	
-teléf.	Za00	teléf.	
-telfno.	Za00	telfno.	
+séc.	Za00	séc.	
+símb.	Za00	símb.	
+t.	Za00	t.	
+t/	Za00	t/	
 tel.	Za00	tel.	
-Teol.	Za00	Teol.	
+telfno.	Za00	telfno.	
+teléf.	Za00	teléf.	
+test.	Za00	test.	
 testam.	Za00	testam.	
 testem.	Za00	testem.	
-test.	Za00	test.	
 tfno.	Za00	tfno.	
 tip.	Za00	tip.	
-tít. orix.	Za00	tít. orix.	
-tít.	Za00	tít.	
-Topog.	Za00	Topog.	
-Tóp.	Za00	Tóp.	
 trad.	Za00	trad.	
 transf.	Za00	transf.	
 trat.	Za00	trat.	
 trav.	Za00	trav.	
-T.<superíndice>a</superíndice>	Zafs	T.<superíndice>a</superíndice>	
-T. S.	Za00	T. S.	
-tte. cor.	Za00	tte. cor.	
 tte.	Za00	tte.	
+tte. cor.	Za00	tte. cor.	
 tv.	Za00	tv.	
-t/	Za00	t/	
-t.	Za00	t.	
-T.	Za00	T.	
-últ.	Za00	últ.	
+tít.	Za00	tít.	
+tít. orix.	Za00	tít. orix.	
+u.	Za00	u.	
 univ.	Za00	univ.	
 urb.	Za00	urb.	
-UU. AA.	Za00	UU. AA.	
-u.	Za00	u.	
-var.	Za00	var.	
-V. A. R.	Za00	V. A. R.	
-Vax.	Za00	Vax.	
+v.	Za00	v.	
 v. a.	Za00	v. a.	
-V. A.	Za00	V. A.	
-V. B.	Za00	V. B.	
-Vdes.	Zaap	Vde.	
-Vdes.	Zafp	Vde.	
-Vdes.	Zamp	Vde.	
-Vde.	Zaas	Vde.	
-Vde.	Zafs	Vde.	
-Vde.	Zams	Vde.	
 v. e pr.	Za00	v. e pr.	
-V. e Pr.	Za00	V. e Pr.	
-vers.	Za00	vers.	
-Veter.	Za00	Veter.	
-V. E.	Zafs	V. E.	
-v. gr.	Za00	v. gr.	
 v. g.	Za00	v. g.	
-vid.	Za00	vid.	
-Vitic.	Za00	Vitic.	
+v. gr.	Za00	v. gr.	
 v. i.	Za00	v. i.	
-V. I.	Za00	V. I.	
-V. M.	Zafs	V. M.	
+v. o.	Za00	v. o.	
+v. o. s.	Za00	v. o. s.	
+v. p.	Za00	v. p.	
+v. s.	Za00	v. s.	
+v. t.	Za00	v. t.	
+v/	Za00	v/	
+var.	Za00	var.	
+vers.	Za00	vers.	
+vid.	Za00	vid.	
 voc.	Za00	voc.	
 vol.	Za00	vol.	
-v. o. s.	Za00	v. o. s.	
-V. O. S.	Za00	V. O. S.	
-v. o.	Za00	v. o.	
-V. O.	Za00	V. O.	
-v. p.	Za00	v. p.	
-V. S. I.	Za00	V. S. I.	
-v. s.	Za00	v. s.	
 vs.	Za00	vs.	
-V. S.	Za00	V. S.	
-v. t.	Za00	v. t.	
 vulg.	Za00	vulg.	
-VV. AA.	Za00	VV. AA.	
-VV. AA.	Zafp	V. A.	
-VV. EE.	Zafp	V. E.	
-VV. MM.	Zafp	V. M.	
-v/	Za00	v/	
-v.	Za00	v.	
-W. C.	Za00	W. C.	
-X. C.	Za00	X. C.	
-Xen.	Za00	Xen.	
-Xeogr.	Za00	Xeogr.	
-Xeol.	Za00	Xeol.	
-Xeomorf.	Za00	Xeomorf.	
-Xeom.	Za00	Xeom.	
-xerm.	Za00	xerm.	
-xer.	Za00	xer.	
-x/p	Za00	x/p	
-x. p.	Za00	x. p.	
-xud.	Za00	xud.	
-Xurisp.	Za00	Xurisp.	
-xur.	Za00	xur.	
-XX. AA.	Za00	XX. AA.	
-x/	Za00	x/	
 x.	Za00	x.	
-Zool.	Za00	Zool.	
+x. p.	Za00	x. p.	
+x/	Za00	x/	
+x/p	Za00	x/p	
+xer.	Za00	xer.	
+xerm.	Za00	xerm.	
+xud.	Za00	xud.	
+xur.	Za00	xur.	
+Álx.	Za00	Álx.	
+Ópt.	Za00	Ópt.	
+ár.	Za00	ár.	
+át.	Za00	át.	
+íd.	Za00	íd.	
+índ.	Za00	índ.	
+ít.	Za00	ít.	
+últ.	Za00	últ.	

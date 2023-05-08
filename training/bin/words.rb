@@ -3,7 +3,7 @@ require "gdbm"
 
 class Words
   attr_reader :corpus_size, :real_corpus_size, :frequencies, :probabilities,
-              :tag_frequencies, :from_lexicon
+              :tag_frequencies, :from_lexicon, :word_tag_lemma_count
 
   def initialize(empty_word, memmory)
     @empty_word = empty_word
@@ -15,6 +15,7 @@ class Words
       @word_frequencies = Hash.new
       @probabilities = Hash.new
       @from_lexicon = Hash.new
+      @word_tag_lemma_count = Hash.new(0)
     else
       @frequencies = GDBM.new("frequencies.data", 0666, GDBM::NEWDB)
       @tag_frequencies = GDBM.new("tag_frequencies.data", 0666, GDBM::NEWDB)
@@ -64,6 +65,7 @@ class Words
     elsif not find(@lemmas[key], lemma)
       @lemmas[key] << [lemma, hiperlemma]
     end
+    @word_tag_lemma_count[[word, tag, lemma]] += 1
   end
 
   def get_frequency(word, tag)

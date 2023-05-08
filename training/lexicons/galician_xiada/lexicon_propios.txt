@@ -286,6 +286,8 @@ A. M. S.	Zg00	A. M. S.
 A. M. S.	Zgfs	A. M. S.	
 A. M. T. E. G. A.	Zg00	A. M. T. E. G. A.	AMTEGA
 A. M. T. E. G. A.	Zgfs	A. M. T. E. G. A.	AMTEGA
+A. N. -. P. G.	Zg00	A. N. -. P. G.	AN-PG
+A. N. -. P. G.	Zgfs	A. N. -. P. G.	AN-PG
 A. N. A.	Zg00	A. N. A.	
 A. N. A.	Zgfs	A. N. A.	
 A. N. A. F. E.	Zg00	A. N. A. F. E.	
@@ -394,8 +396,8 @@ A. R. Q.	Zg00	A. R. Q.
 A. R. Q.	Zgfa	A. R. Q.	
 A. R. Q.	Zgfp	A. R. Q.	
 A. R. Q.	Zgfs	A. R. Q.	
-A. S. -. P. G.	Zg00	A. S. -. P. G.	
-A. S. -. P. G.	Zgfs	A. S. -. P. G.	
+A. S. -. P. G.	Zg00	A. S. -. P. G.	AS-PG
+A. S. -. P. G.	Zgfs	A. S. -. P. G.	AS-PG
 A. S. A.	Zg00	A. S. A.	
 A. S. A.	Zgfs	A. S. A.	
 A. S. B.	Zg00	A. S. B.	
@@ -424,8 +426,8 @@ A. S. P. A. S.	Zg00	A. S. P. A. S.
 A. S. P. A. S.	Zgfa	A. S. P. A. S.	
 A. S. P. A. S.	Zgfp	A. S. P. A. S.	
 A. S. P. A. S.	Zgfs	A. S. P. A. S.	
-A. S. P. G.	Zg00	A. S. P. G.	
-A. S. P. G.	Zgfs	A. S. P. G.	
+A. S. P. G.	Zg00	A. S. P. G.	AS-PG
+A. S. P. G.	Zgfs	A. S. P. G.	AS-PG
 A. S. P. L. A.	Zg00	A. S. P. L. A.	
 A. S. P. L. A.	Zgfs	A. S. P. L. A.	
 A. S. T. A. N. O.	Zg00	A. S. T. A. N. O.	
@@ -487,25 +489,35 @@ A. W. E. P. A. A. q.	Zg00	A. W. E. P. A. A. q.
 A. W. E. P. A. A. q.	Zgfs	A. W. E. P. A. A. q.	
 A. X. E.	Zg00	A. X. E.	
 A. X. E.	Zgfs	A. X. E.	
+A. aphyodes	Snaa	A. aphyodes	Apristurus aphyodes
+A. baumannii	Snaa	A. baumannii	Acinetobacter baumannii
+A. chinensis	Snaa	A. chinensis	Actinidia chinensis
 A. d. e. g. a.	Zg00	A. d. e. g. a.	
 A. d. e. n. a.	Zg00	A. d. e. n. a.	
+A. dracunculoides	Snaa	A. dracunculoides	Acanthocheilonema dracunculoides
 A. flavus	Snaa	A. flavus	Aspergillus flavus
 A. hippocastanum	Snaa	A. hippocastanum	Aesculus hippocastanum
+A. melanoasper	Snaa	A. melanoasper	Apristurus melanoasper
 A. n. f. a. c.	Zg00	A. n. f. a. c.	
 A. n. i. a. c. a. m.	Zg00	A. n. i. a. c. a. m.	
 A. níger	Snaa	A. níger	Aspergillus niger
-A. schmitzii	Snaa	A. schmitzii	A. schmitzii
-A. schoenoprasum	Snaa	A. schoenoprasum	A. schoenoprasum
+A. nodosum	Snaa	A. nodosum	Ascophyllum nodosum
+A. oleosa	Snaa	A. oleosa	Aldrovandia oleosa
+A. profundorum	Snaa	A. profundorum	Apristurus profundorum
+A. reconditum	Snaa	A. reconditum	Acanthocheilonema reconditum
+A. schmitzii	Snaa	A. schmitzii	Allium schmitzii
+A. schoenoprasum	Snaa	A. schoenoprasum	Allium schoenoprasum
 A. terreus	Snaa	A. terreus	Aspergillus terreus
 A. tuberculata	Snaa	A. tuberculata	A. tuberculata
-AA EE	Zg00	AA EE
-AA EE	Zgfs	AA EE
-AA PP	Zg00	AA PP
-AA PP	Zgfp	AA PP
-AA. EE.	Zg00	AA. EE.
-AA. EE.	Zgfs	AA. EE.
-AA. PP.	Zg00	AA. PP.
-AA. PP.	Zgfp	AA. PP.
+A. tumefaciens	Snaa	A. tumefaciens	Agrobacterium tumefaciens
+AA EE	Zg00	AA EE	
+AA EE	Zgfs	AA EE	
+AA PP	Zg00	AA PP	
+AA PP	Zgfp	AA PP	
+AA. EE.	Zg00	AA. EE.	
+AA. EE.	Zgfs	AA. EE.	
+AA. PP.	Zg00	AA. PP.	
+AA. PP.	Zgfp	AA. PP.	
 ABC	Sp00	ABC
 ABC digital	Sp00	ABC digital
 ACNUR	Sp00	ACNUR
@@ -626,9 +638,11 @@ Abyssocottus boulengeri	Snaa	Abyssocottus boulengeri	Abyssocottus boulengeri
 Abyssocottus korotneffi	Snaa	Abyssocottus korotneffi	Abyssocottus korotneffi
 Acacia confusa	Snaa	Acacia confusa	Acacia confusa
 Acacia dealbata	Snaa	Acacia dealbata	Acacia dealbata
+Acacia dealbata Link	Snaa	Acacia dealbata Link	Acacia dealbata
 Acacia farnesiana	Snaa	Acacia farnesiana	Acacia farnesiana
 Acacia mangium	Snaa	Acacia mangium	Acacia mangium
 Acacia melanoxylon	Snaa	Acacia melanoxylon	Acacia melanoxylon
+Acacia melanoxylon R. Br.	Snaa	Acacia melanoxylon R. Br.	Acacia melanoxylon
 Acacia myrtifolia	Snaa	Acacia myrtifolia	Acacia myrtifolia
 Acacia nigrescens	Snaa	Acacia nigrescens	Acacia nigrescens
 Acacia tortilis	Snaa	Acacia tortilis	Acacia tortilis
@@ -666,6 +680,8 @@ Acanthocardia Tuberculata	Snaa	Acanthocardia Tuberculata	Acanthocardia tubercula
 Acanthocardia aculeata	Snaa	Acanthocardia aculeata	Acanthocardia aculeata
 Acanthocardia echinata	Snaa	Acanthocardia echinata	Acanthocardia echinata
 Acanthocardia tuberculata	Snaa	Acanthocardia tuberculata	Acanthocardia tuberculata
+Acanthocheilonema dracunculoides	Snaa	Acanthocheilonema dracunculoides	Acanthocheilonema dracunculoides
+Acanthocheilonema reconditum	Snaa	Acanthocheilonema reconditum	Acanthocheilonema reconditum
 Acanthocheilonema viteae	Snaa	Acanthocheilonema viteae	Acanthocheilonema viteae
 Acanthochitona crinita	Snaa	Acanthochitona crinita	Acanthochitona crinita
 Acanthocobitis botia	Snaa	Acanthocobitis botia	Acanthocobitis botia
@@ -802,6 +818,7 @@ Achalinus meiguensis	Snaa	Achalinus meiguensis	Achalinus meiguensis
 Acharia tragodes	Snaa	Acharia tragodes	Acharia tragodes
 Achatina achatina	Snaa	Achatina achatina	Achatina achatina
 Achatina fulica	Snaa	Achatina fulica	Achatina fulica
+Achatinella apexfulva	Snaa	Achatinella apexfulva	Achatinella apexfulva
 Acheilognathus chankaensis	Snaa	Acheilognathus chankaensis	Acheilognathus chankaensis
 Acheilognathus koreensis	Snaa	Acheilognathus koreensis	Acheilognathus koreensis
 Acheilognathus macropterus	Snaa	Acheilognathus macropterus	Acheilognathus macropterus
@@ -1025,6 +1042,7 @@ Actinia xanthogrammica	Snaa	Actinia xanthogrammica	Actinia xanthogrammica
 Actinidia arguta	Snaa	Actinidia arguta	Actinidia arguta
 Actinidia chinensis	Snaa	Actinidia chinensis	Actinidia chinensis
 Actinidia chinensis var. chinensis	Snaa	Actinidia chinensis var. chinensis	Actinidia chinensis var. chinensis
+Actinidia chinesis	Snaa	Actinidia chinesis	Actinidia chinensis
 Actinidia deliciosa	Snaa	Actinidia deliciosa	Actinidia deliciosa
 Actinidia eriantha	Snaa	Actinidia eriantha	Actinidia eriantha
 Actinidia fulvicoma var. lanata	Snaa	Actinidia fulvicoma var. lanata	Actinidia fulvicoma var. lanata
@@ -1391,6 +1409,7 @@ Agarophyton chilensis	Snaa	Agarophyton chilensis	Agarophyton chilensis
 Agarophyton tenuistipitatum	Snaa	Agarophyton tenuistipitatum	Agarophyton tenuistipitatum
 Agarum clathratum	Snaa	Agarum clathratum	Agarum clathratum
 Agarum cribosum	Snaa	Agarum cribosum	Agarum cribosum
+Agasicles hygrophila	Snaa	Agasicles hygrophila	Agasicles hygrophila
 Agasol	Sp00	Agasol
 Agassizia scrobiculata	Snaa	Agassizia scrobiculata	Agassizia scrobiculata
 Agastache foeniculum	Snaa	Agastache foeniculum	Agastache foeniculum
@@ -1511,6 +1530,7 @@ Agrobacterium aurantiacum	Snaa	Agrobacterium aurantiacum	Agrobacterium aurantiac
 Agrobacterium radiobacter	Snaa	Agrobacterium radiobacter	Agrobacterium radiobacter
 Agrobacterium rhizogenes	Snaa	Agrobacterium rhizogenes	Agrobacterium rhizogenes
 Agrobacterium sp.	Snaa	Agrobacterium sp.	Agrobacterium sp.
+Agrobacterium tumefaciens	Snaa	Agrobacterium tumefaciens	Agrobacterium tumefaciens
 Agrobacterium vitis	Snaa	Agrobacterium vitis	Agrobacterium vitis
 Agrocybe aegerita	Snaa	Agrocybe aegerita	Agrocybe aegerita
 Agrocybe cylindracea	Snaa	Agrocybe cylindracea	Agrocybe cylindracea
@@ -1553,6 +1573,7 @@ Ahmed Abdel Rahman	Spm0	Ahmed Abdel Rahman
 Ahmed Jalfan Ghailani	Spm0	Ahmed Jalfan Ghailani
 Ahnfeltiopsis pusilla	Snaa	Ahnfeltiopsis pusilla	Ahnfeltiopsis pusilla
 Ahtisaari	Sp00	Ahtisaari
+Aidanosagitta alvarinoae	Snaa	Aidanosagitta alvarinoae	Aidanosagitta alvarinoae
 Aigialus parvus	Snaa	Aigialus parvus	Aigialus parvus
 Ailanthus altissima	Snaa	Ailanthus altissima	Ailanthus altissima
 Ailuroedus dentirostris	Snaa	Ailuroedus dentirostris	Ailuroedus dentirostris
@@ -1767,6 +1788,7 @@ Aldo Leopold 	Spm0	Aldo Leopold
 Aldo Rossi	Spm0	Aldo Rossi
 Aldrey	Sp00	Aldrey
 Aldrichetta forsteri	Snaa	Aldrichetta forsteri	Aldrichetta forsteri
+Aldrovandia oleosa	Snaa	Aldrovandia oleosa	Aldrovandia oleosa
 Alebra thoracica	Snaa	Alebra thoracica	Alebra thoracica
 Alectis alexandrina	Snaa	Alectis alexandrina	Alectis alexandrina
 Alectis alexandrinus	Snaa	Alectis alexandrinus	Alectis alexandrinus
@@ -1942,7 +1964,9 @@ Allium porrum	Snaa	Allium porrum	Allium porrum
 Allium reticulatum	Snaa	Allium reticulatum	Allium reticulatum
 Allium sativum	Snaa	Allium sativum	Allium sativum
 Allium schmitzii	Snaa	Allium schmitzii	Allium schmitzii
+Allium schmitzii Coutinho	Snaa	Allium schmitzii Coutinho	Allium schmitzii
 Allium schoenoprasum	Snaa	Allium schoenoprasum	Allium schoenoprasum
+Allium schoenoprasum L.	Snaa	Allium schoenoprasum L.	Allium schoenoprasum
 Allium schoenoprasum var. duriminum	Snaa	Allium schoenoprasum var. duriminum	Allium schoenoprasum var. duriminum
 Allium sibiricum	Snaa	Allium sibiricum	Allium sibiricum
 Allium textile	Snaa	Allium textile	Allium textile
@@ -2098,6 +2122,7 @@ Altamira	Sp00	Altamira
 Altavista	Sp00	Altavista
 Altavista Magallanes	Sp00	Altavista Magallanes
 Alternanthera caracasana	Snaa	Alternanthera caracasana	Alternanthera caracasana
+Alternanthera philoxeroides	Snaa	Alternanthera philoxeroides	Alternanthera philoxeroides
 Alternaria alternata	Snaa	Alternaria alternata	Alternaria alternata
 Alternaria botrytis	Snaa	Alternaria botrytis	Alternaria botrytis
 Alternaria brassicicola	Snaa	Alternaria brassicicola	Alternaria brassicicola
@@ -2166,6 +2191,7 @@ Amandava subflava	Snaa	Amandava subflava	Amandava subflava
 Amandi	Sp00	Amandi
 Amanita bisporigera	Snaa	Amanita bisporigera	Amanita bisporigera
 Amanita brunnescens	Snaa	Amanita brunnescens	Amanita brunnescens
+Amanita caesarea	Snaa	Amanita caesarea	Amanita caesarea
 Amanita exitialis	Snaa	Amanita exitialis	Amanita exitialis
 Amanita fuliginea	Snaa	Amanita fuliginea	Amanita fuliginea
 Amanita fuligineoides	Snaa	Amanita fuligineoides	Amanita fuligineoides
@@ -2174,6 +2200,7 @@ Amanita ocreata	Snaa	Amanita ocreata	Amanita ocreata
 Amanita pallidorosea	Snaa	Amanita pallidorosea	Amanita pallidorosea
 Amanita pantherina	Snaa	Amanita pantherina	Amanita pantherina
 Amanita phalloides	Snaa	Amanita phalloides	Amanita phalloides
+Amanita phaloides	Snaa	Amanita phaloides	Amanita phalloides
 Amanita rimosa	Snaa	Amanita rimosa	Amanita rimosa
 Amanita suballiacea	Snaa	Amanita suballiacea	Amanita suballiacea
 Amanita virosa	Snaa	Amanita virosa	Amanita virosa
@@ -3323,9 +3350,11 @@ Apis subterranea	Snaa	Apis subterranea	Apis subterranea
 Apis terrestris	Snaa	Apis terrestris	Apis terrestris
 Apitrigla Obscura	Snaa	Apitrigla Obscura	Apitrigla obscura
 Apium graveolans	Snaa	Apium graveolans	Apium graveolans
+Apium graveolans L.	Snaa	Apium graveolans L.	Apium graveolans
 Apium graveolens	Snaa	Apium graveolens	Apium graveolens
 Apium graveolens var. rapaceum	Snaa	Apium graveolens var. rapaceum	Apium graveolens var. rapaceum
 Apjohnia tropica	Snaa	Apjohnia tropica	Apjohnia tropica
+Aplidium albicans	Snaa	Aplidium albicans	Aplidium albicans
 Aplidium conicum	Snaa	Aplidium conicum	Aplidium conicum
 Aplocheilus curvinotus	Snaa	Aplocheilus curvinotus	Aplocheilus curvinotus
 Aplocheilus javanicus	Snaa	Aplocheilus javanicus	Aplocheilus javanicus
@@ -3393,8 +3422,13 @@ Apostichopus parvimensis	Snaa	Apostichopus parvimensis	Apostichopus parvimensis
 Appalachioria falcifera	Snaa	Appalachioria falcifera	Appalachioria falcifera
 Appias drusilla	Snaa	Appias drusilla	Appias drusilla
 Apriona germari	Snaa	Apriona germari	Apriona germari
+Apristurus aphyodes	Snaa	Apristurus aphyodes	Apristurus aphyodes
+Apristurus laurossonii	Snaa	Apristurus laurossonii	Apristurus laurossonii
+Apristurus melanoasper	Snaa	Apristurus melanoasper	Apristurus melanoasper
+Apristurus profundorum	Snaa	Apristurus profundorum	Apristurus profundorum
 Aproin	Sp00	Aproin
 Aproteles bulmerae	Snaa	Aproteles bulmerae	Aproteles bulmerae
+Apseudopsis adami	Snaa	Apseudopsis adami	Apseudopsis adami
 Apsilus fuscus	Snaa	Apsilus fuscus	Apsilus fuscus
 Aptenia cordifolia	Snaa	Aptenia cordifolia	Aptenia cordifolia
 Aptenodytes chrysocome	Snaa	Aptenodytes chrysocome	Aptenodytes chrysocome
@@ -3424,6 +3458,7 @@ Aquaspirillum itersonii	Snaa	Aquaspirillum itersonii	Aquaspirillum itersonii
 Aquaspirillum magnetotacticum	Snaa	Aquaspirillum magnetotacticum	Aquaspirillum magnetotacticum
 Aquaspirillum serpens	Snaa	Aquaspirillum serpens	Aquaspirillum serpens
 Aquatica lateralis	Snaa	Aquatica lateralis	Aquatica lateralis
+Aquatifolia Fluitans	Snaa	Aquatifolia Fluitans	Aquatifolia fluitans
 Aquifex aeolicus	Snaa	Aquifex aeolicus	Aquifex aeolicus
 Aquifex pyrophilus	Snaa	Aquifex pyrophilus	Aquifex pyrophilus
 Aquila adalberti	Snaa	Aquila adalberti	Aquila adalberti
@@ -3567,6 +3602,7 @@ Arbutus canariensis	Snaa	Arbutus canariensis	Arbutus canariensis
 Arbutus menziesii	Snaa	Arbutus menziesii	Arbutus menziesii
 Arbutus procera	Snaa	Arbutus procera	Arbutus procera
 Arbutus unedo	Snaa	Arbutus unedo	Arbutus unedo
+Arbutus unedo L.	Snaa	Arbutus unedo L.	Arbutus unedo
 Arca candida	Snaa	Arca candida	Arca candida
 Arca imbricata	Snaa	Arca imbricata	Arca imbricata
 Arca kiyonoi	Snaa	Arca kiyonoi	Arca kiyonoi
@@ -3830,6 +3866,7 @@ Armand Guerra	Spm0	Armand Guerra
 Armand Mattelart	Spm0	Armand Mattelart
 Armando	Spm0	Armando
 Armani	Sp00	Armani
+Armatoplana celta	Snaa	Armatoplana celta	Armatoplana celta
 Armaxedón	Sp00	Armaxedón
 Armeniaca mume	Snaa	Armeniaca mume	Armeniaca mume
 Armeniaca vulgaris	Snaa	Armeniaca vulgaris	Armeniaca vulgaris
@@ -4134,6 +4171,7 @@ Asparagus maritimus	Snaa	Asparagus maritimus	Asparagus maritimus
 Asparagus officinalis	Snaa	Asparagus officinalis	Asparagus officinalis
 Asparagus scaber	Snaa	Asparagus scaber	Asparagus scaber
 Asparragus officinalis	Snaa	Asparragus officinalis	Asparragus officinalis
+Asparragus officinalis L.	Snaa	Asparragus officinalis L.	Asparragus officinalis
 Aspasma minima	Snaa	Aspasma minima	Aspasma minima
 Aspergillus aculeatus	Snaa	Aspergillus aculeatus	Aspergillus aculeatus
 Aspergillus alliaceus	Snaa	Aspergillus alliaceus	Aspergillus alliaceus
@@ -4200,6 +4238,7 @@ Asplenium trichomanes	Snaa	Asplenium trichomanes	Asplenium trichomanes
 Aspongopus chinensis	Snaa	Aspongopus chinensis	Aspongopus chinensis
 Asprella australis	Snaa	Asprella australis	Asprella australis
 Aspronema dorsivittatum	Snaa	Aspronema dorsivittatum	Aspronema dorsivittatum
+Assio flammeus	Snaa	Assio flammeus	Assio flammeus
 Assumpció Forcada	Spf0	Assumpció Forcada
 Assunção	Spfs	Assunção
 Astacus astacus	Snaa	Astacus astacus	Astacus astacus
@@ -4266,6 +4305,7 @@ Astragalus pelecinus	Snaa	Astragalus pelecinus	Astragalus pelecinus
 Astragalus penduliflorus	Snaa	Astragalus penduliflorus	Astragalus penduliflorus
 Astragalus pilosus	Snaa	Astragalus pilosus	Astragalus pilosus
 Astragalus sinicus	Snaa	Astragalus sinicus	Astragalus sinicus
+Astralophitecus afarensis	Snaa	Astralophitecus afarensis	Australopithecus afarensis
 Astrangia haimei	Snaa	Astrangia haimei	Astrangia haimei
 Astrangia lajollaensis	Snaa	Astrangia lajollaensis	Astrangia lajollaensis
 Astrantia major	Snaa	Astrantia major	Astrantia major
@@ -4508,6 +4548,7 @@ Austinograea rodriguezensis	Snaa	Austinograea rodriguezensis	Austinograea rodrig
 Austinograea yunohana	Snaa	Austinograea yunohana	Austinograea yunohana
 Australia	Sp00	Australia
 Australoheros facetus	Snaa	Australoheros facetus	Australoheros facetus
+Australopithecus afarensis	Snaa	Australopithecus afarensis	Australopithecus afarensis
 Australopyrum velutinum	Snaa	Australopyrum velutinum	Australopyrum velutinum
 Austrelaps labialis	Snaa	Austrelaps labialis	Austrelaps labialis
 Austrelaps superbus	Snaa	Austrelaps superbus	Austrelaps superbus
@@ -4774,6 +4815,7 @@ B. L. O. B.	Zgmp	B. L. O. B.
 B. M.	Zg00	B. M.	
 B. M.	Zgfs	B. M.	
 B. M.	Zgms	B. M.	
+B. M. J.	Zg00	B. M. J.	
 B. M. W.	Zg00	B. M. W.	
 B. M. W.	Zgfs	B. M. W.	
 B. N.	Zg00	B. N.	
@@ -4857,6 +4899,17 @@ B. a. n. e. s. p. a.	Zg00	B. a. n. e. s. p. a.
 B. a. n. e. s. p. a.	Zgms	B. a. n. e. s. p. a.	
 B. a. p. r. o.	Zg00	B. a. p. r. o.	
 B. a. p. r. o.	Zgms	B. a. p. r. o.	
+B. bistriatus	Snaa	B. bistriatus	Burhinus bistriatus
+B. calamita	Snaa	B. calamita	Bufo calamita
+B. capensis	Snaa	B. capensis	Burhinus capensis
+B. erythropus	Snaa	B. erythropus	Boletus erythropus
+B. frondosa	Snaa	B. frondosa	Bidens frondosa
+B. giganteus	Snaa	B. giganteus	Burhinus giganteus
+B. magnirostris	Snaa	B. magnirostris	Burhinus magnirostris
+B. pinnophillus	Snaa	B. pinnophillus	Boletus pinophilus
+B. spinosus	Snaa	B. spinosus	Bufo spinosus
+B. superciliaris	Snaa	B. superciliaris	Burhinus superciliaris
+B. vermiculatus	Snaa	B. vermiculatus	Burhinus vermiculatus
 Baamonde	Sp00	Baamonde
 Babakina anadoni	Snaa	Babakina anadoni	Babakina anadoni
 Babesia bigemina	Snaa	Babesia bigemina	Babesia bigemina
@@ -5330,6 +5383,7 @@ Basilinna leucotis	Snaa	Basilinna leucotis	Basilinna leucotis
 Basilio	Spm0	Basilio
 Basiliscus plumifrons	Snaa	Basiliscus plumifrons	Basiliscus plumifrons
 Basiliscus vittatus	Snaa	Basiliscus vittatus	Basiliscus vittatus
+Basilosaurus isis	Snaa	Basilosaurus isis	Basilosaurus isis
 Basiphyllaea corallicola	Snaa	Basiphyllaea corallicola	Basiphyllaea corallicola
 Bassaricyon gabbii	Snaa	Bassaricyon gabbii	Bassaricyon gabbii
 Bassariscus astutus	Snaa	Bassariscus astutus	Bassariscus astutus
@@ -5686,6 +5740,7 @@ Bibio marci	Snaa	Bibio marci	Bibio marci
 Bibio xanthopus	Snaa	Bibio xanthopus	Bibio xanthopus
 Bicyclus anynana	Snaa	Bicyclus anynana	Bicyclus anynana
 Bidens formosa	Snaa	Bidens formosa	Bidens formosa
+Bidens frondosa	Snaa	Bidens frondosa	Bidens frondosa
 Bidens nivea	Snaa	Bidens nivea	Bidens nivea
 Bidens pilosa	Snaa	Bidens pilosa	Bidens pilosa
 Bieito	Spm0	Bieito
@@ -5930,10 +5985,14 @@ Bolbometopon muricatum	Snaa	Bolbometopon muricatum	Bolbometopon muricatum
 Bolborhynchus lineola	Snaa	Bolborhynchus lineola	Bolborhynchus lineola
 Boleophthalmus pectinirostris	Snaa	Boleophthalmus pectinirostris	Boleophthalmus pectinirostris
 Boletín de Caixa Galicia	Spms	Boletín de Caixa Galicia
+Boletus aereus	Snaa	Boletus aereus	Boletus aereus
 Boletus bovinus	Snaa	Boletus bovinus	Boletus bovinus
 Boletus edulis	Snaa	Boletus edulis	Boletus edulis
 Boletus elegans	Snaa	Boletus elegans	Boletus elegans
 Boletus igniarius	Snaa	Boletus igniarius	Boletus igniarius
+Boletus pinophilus	Snaa	Boletus pinophilus	Boletus pinophilus
+Boletus regius	Snaa	Boletus regius	Boletus regius
+Boletus reticulatus	Snaa	Boletus reticulatus	Boletus reticulatus
 Boletus spadiceus	Snaa	Boletus spadiceus	Boletus spadiceus
 Bolinus brandaris	Snaa	Bolinus brandaris	Bolinus brandaris
 Bolitoglossa adspersa	Snaa	Bolitoglossa adspersa	Bolitoglossa adspersa
@@ -6059,7 +6118,7 @@ Borrelia afzelii	Snaa	Borrelia afzelii	Borrelia afzelii
 Borrelia andersonii	Snaa	Borrelia andersonii	Borrelia andersonii
 Borrelia anserina	Snaa	Borrelia anserina	Borrelia anserina
 Borrelia bissettii	Snaa	Borrelia bissettii	Borrelia bissettii
-Borrelia burgdoferi	Snaa	Borrelia burgdoferi	Borrelia burgdoferi
+Borrelia burgdoferi	Snaa	Borrelia burgdoferi	Borrelia burgdorferi
 Borrelia burgdorferi	Snaa	Borrelia burgdorferi	Borrelia burgdorferi
 Borrelia garinii	Snaa	Borrelia garinii	Borrelia garinii
 Borrelia hermsii	Snaa	Borrelia hermsii	Borrelia hermsii
@@ -6081,6 +6140,8 @@ Borrow	Sp00	Borrow
 Borszczowia aralocaspica	Snaa	Borszczowia aralocaspica	Borszczowia aralocaspica
 Borxa	Sp00	Borxa
 Bos Aires	Sp00	Bos Aires
+Bos Primigenius	Snaa	Bos Primigenius	Bos primigenius
+Bos Taurus	Snaa	Bos Taurus	Bos taurus
 Bos bison	Snaa	Bos bison	Bos bison
 Bos frontalis	Snaa	Bos frontalis	Bos frontalis
 Bos gaurus	Snaa	Bos gaurus	Bos gaurus
@@ -6360,6 +6421,7 @@ Bratman	Sp00	Bratman
 Braulio	Spm0	Braulio
 Braulio Amaro	Spm0	Braulio Amaro
 Braulio de el Palacio	Spm0	Braulio de el Palacio
+Brava galega	Snaa	Brava galega	Brava galega
 Bravo	Sp00	Bravo
 Bread and Roses	Sp00	Bread and Roses
 Bregmaceros mcclellandi	Snaa	Bregmaceros mcclellandi	Bregmaceros mcclellandi
@@ -6544,6 +6606,7 @@ Bryopsis maxima	Snaa	Bryopsis maxima	Bryopsis maxima
 Bryopsis plumosa	Snaa	Bryopsis plumosa	Bryopsis plumosa
 Bryotropha similis	Snaa	Bryotropha similis	Bryotropha similis
 Bryoxiphium norvegicum	Snaa	Bryoxiphium norvegicum	Bryoxiphium norvegicum
+Brythis crini	Snaa	Brythis crini	Brithys crini
 Bryttus humilis	Snaa	Bryttus humilis	Bryttus humilis
 Bryum capillare	Snaa	Bryum capillare	Bryum capillare
 Bryum squarrosum	Snaa	Bryum squarrosum	Bryum squarrosum
@@ -6736,10 +6799,15 @@ Burchardia umbellata	Snaa	Burchardia umbellata	Burchardia umbellata
 Burela	Sp00	Burela
 Burgo de as Nacións	Spfs	Burgo de as Nacións
 Burgos	Sp00	Burgos
+Burhinus bistriatus	Snaa	Burhinus bistriatus	Burhinus bistriatus
+Burhinus capensis	Snaa	Burhinus capensis	Burhinus capensis
+Burhinus giganteus	Snaa	Burhinus giganteus	Burhinus giganteus
 Burhinus grallarius	Snaa	Burhinus grallarius	Burhinus grallarius
 Burhinus magnirostris	Snaa	Burhinus magnirostris	Burhinus magnirostris
 Burhinus oedicnemus	Snaa	Burhinus oedicnemus	Burhinus oedicnemus
 Burhinus senegalensis	Snaa	Burhinus senegalensis	Burhinus senegalensis
+Burhinus superciliaris	Snaa	Burhinus superciliaris	Burhinus superciliaris
+Burhinus vermiculatus	Snaa	Burhinus vermiculatus	Burhinus vermiculatus
 Burke	Sp00	Burke
 Burkholderia cepacia	Snaa	Burkholderia cepacia	Burkholderia cepacia
 Burkholderia gladioli	Snaa	Burkholderia gladioli	Burkholderia gladioli
@@ -7492,6 +7560,10 @@ C. X. T.	Zgfs	C. X. T.
 C. X. T. G.	Zg00	C. X. T. G.	
 C. X. T. G.	Zgfs	C. X. T. G.	
 C. angulata	Snaa	C. angulata	C. angulata
+C. burmanicum	Snaa	C. burmanicum	Cornupalpatum burmanicum
+C. canadensis	Snaa	C. canadensis	C. canadensis
+C. crenata	Snaa	C. crenata	Castanea crenata
+C. crispus	Snaa	C. crispus	Chondrus crispus
 C. difficile	Snaa	C. difficile	C. difficile
 C. e. g. a. d. i.	Zg00	C. e. g. a. d. i.	
 C. e. g. a. d. i.	Zgms	C. e. g. a. d. i.	
@@ -7502,36 +7574,38 @@ C. e. n. d. a. r.	Zgms	C. e. n. d. a. r.
 C. e. r. m. i.	Zg00	C. e. r. m. i.	
 C. e. r. m. i.	Zgms	C. e. r. m. i.	
 C. edule	Snaa	C. edule	C. edule
+C. fluminea	Snaa	C. fluminea	Corbicula fluminea
 C. glaucum	Snaa	C. glaucum	C. glaucum
 C. i. U.	Zg00	C. i. U.	
+C. mollisima	Snaa	C. mollisima	Castanea mollissima
 C. multisetosum	Snaa	C. multisetosum	C. multisetosum
 C. o. n. c. a. p. a.	Zg00	C. o. n. c. a. p. a.	
 C. o. n. f. a. p. a.	Zg00	C. o. n. f. a. p. a.	
 C. o. n. f. e. b. a. s. k.	Zg00	C. o. n. f. e. b. a. s. k.	
 C. o. n. f. e. m. e. t. a. l.	Zg00	C. o. n. f. e. m. e. t. a. l.	
-C. ultreiae	Snaa	C. ultreiae	C. ultreiae
+C. ultreiae	Snaa	C. ultreiae	Centaurea ultreiae
 C.C. .O.O.	Zg00	C.C. .O.O.	CC. OO.
 C.D. .R.O.M.	Zg00	C.D. .R.O.M.	
 C.D. .R.O.M.	Zgma	C.D. .R.O.M.	
 C.D. .R.O.M.	Zgmp	C.D. .R.O.M.	
 C.D. .R.O.M.	Zgms	C.D. .R.O.M.	
-CC AA	Zg00	CC AA
-CC AA	Zgfp	CC AA
-CC LL	Zg00	CC LL
-CC LL	Zgfp	CC LL
-CC MM	Zg00	CC MM
-CC MM	Zgfp	CC MM
-CC OO	Zg00	CC OO
+CC AA	Zg00	CC AA	
+CC AA	Zgfp	CC AA	
+CC LL	Zg00	CC LL	
+CC LL	Zgfp	CC LL	
+CC MM	Zg00	CC MM	
+CC MM	Zgfp	CC MM	
+CC OO	Zg00	CC OO	
 CC OO	Zg00	CC OO	CC. OO.
-CC OO	Zgfp	CC OO
-CC. AA.	Zg00	CC. AA.
-CC. AA.	Zgfp	CC. AA.
-CC. LL.	Zg00	CC. LL.
-CC. LL.	Zgfp	CC. LL.
-CC. MM.	Zg00	CC. MM.
-CC. MM.	Zgfp	CC. MM.
-CC. OO.	Zg00	CC. OO.
-CC. OO.	Zgfp	CC. OO.
+CC OO	Zgfp	CC OO	
+CC. AA.	Zg00	CC. AA.	
+CC. AA.	Zgfp	CC. AA.	
+CC. LL.	Zg00	CC. LL.	
+CC. LL.	Zgfp	CC. LL.	
+CC. MM.	Zg00	CC. MM.	
+CC. MM.	Zgfp	CC. MM.	
+CC. OO.	Zg00	CC. OO.	
+CC. OO.	Zgfp	CC. OO.	
 CD ROM	Zg00	CD ROM	
 CD ROM	Zgma	CD ROM	
 CD ROM	Zgmp	CD ROM	
@@ -7706,6 +7780,7 @@ Calea orizabensis	Snaa	Calea orizabensis	Calea orizabensis
 Caledoniscincus austrocaledonicus	Snaa	Caledoniscincus austrocaledonicus	Caledoniscincus austrocaledonicus
 Calendula arvensis	Snaa	Calendula arvensis	Calendula arvensis
 Calendula officinalis	Snaa	Calendula officinalis	Calendula officinalis
+Calendula officinalis L.	Snaa	Calendula officinalis L.	Calendula officinalis
 Calephelis virginiensis	Snaa	Calephelis virginiensis	Calephelis virginiensis
 Calero	Sp00	Calero
 Cali	Sp00	Cali
@@ -7900,6 +7975,7 @@ Calophasis humiae	Snaa	Calophasis humiae	Calophasis humiae
 Calophasis mikado	Snaa	Calophasis mikado	Calophasis mikado
 Calophyllum inophyllum	Snaa	Calophyllum inophyllum	Calophyllum inophyllum
 Calopogon tuberosus	Snaa	Calopogon tuberosus	Calopogon tuberosus
+Calopterix virgo	Snaa	Calopterix virgo	Calopterix virgo
 Calopteryx aequabilis	Snaa	Calopteryx aequabilis	Calopteryx aequabilis
 Calopteryx dimidiata	Snaa	Calopteryx dimidiata	Calopteryx dimidiata
 Calopteryx maculata	Snaa	Calopteryx maculata	Calopteryx maculata
@@ -8025,6 +8101,7 @@ Camissonia boothii	Snaa	Camissonia boothii	Camissonia boothii
 Camnula pellucida	Snaa	Camnula pellucida	Camnula pellucida
 Campaea perlata	Snaa	Campaea perlata	Campaea perlata
 Campaña Verán-99	Sp00	Campaña Verán-99
+Campanella caesia Romagn	Snaa	Campanella caesia Romagn	Campanella caesia
 Campanula medium	Snaa	Campanula medium	Campanula medium
 Campanula serpyllifolia	Snaa	Campanula serpyllifolia	Campanula serpyllifolia
 Campanula trachelium	Snaa	Campanula trachelium	Campanula trachelium
@@ -8159,6 +8236,7 @@ Cangas	Sp00	Cangas
 Canis adustus	Snaa	Canis adustus	Canis adustus
 Canis aureus	Snaa	Canis aureus	Canis aureus
 Canis familiaris	Snaa	Canis familiaris	Canis familiaris
+Canis familiaris L.	Snaa	Canis familiaris L.	Canis familiaris
 Canis latrans	Snaa	Canis latrans	Canis latrans
 Canis lupus	Snaa	Canis lupus	Canis lupus
 Canis lupus familiaris	Snaa	Canis lupus familiaris	Canis lupus familiaris
@@ -8550,6 +8628,8 @@ Carpiodes asiaticus	Snaa	Carpiodes asiaticus	Carpiodes asiaticus
 Carpiodes carpio	Snaa	Carpiodes carpio	Carpiodes carpio
 Carpiodes cyprinus	Snaa	Carpiodes cyprinus	Carpiodes cyprinus
 Carpobrotus chilensis	Snaa	Carpobrotus chilensis	Carpobrotus chilensis
+Carpobrotus edulis	Snaa	Carpobrotus edulis	Carpobrotus edulis
+Carpobrotus sp.	Snaa	Carpobrotus sp.	Carpobrotus sp.
 Carpococcyx renauldi	Snaa	Carpococcyx renauldi	Carpococcyx renauldi
 Carpocoris fuscispinus	Snaa	Carpocoris fuscispinus	Carpocoris fuscispinus
 Carpocoris mediterraneus	Snaa	Carpocoris mediterraneus	Carpocoris mediterraneus
@@ -8641,6 +8721,7 @@ Castalia alba	Snaa	Castalia alba	Castalia alba
 Castalia punctata	Snaa	Castalia punctata	Castalia punctata
 Castanea crenata	Snaa	Castanea crenata	Castanea crenata
 Castanea sativa	Snaa	Castanea sativa	Castanea sativa
+Castanea sativa Miller	Snaa	Castanea sativa Miller	Castanea sativa
 Castanea vulgaris	Snaa	Castanea vulgaris	Castanea vulgaris
 Castanopsis chinensis	Snaa	Castanopsis chinensis	Castanopsis chinensis
 Castela	Sp00	Castela
@@ -8815,6 +8896,7 @@ Celeus flavus	Snaa	Celeus flavus	Celeus flavus
 Celeus grammicus	Snaa	Celeus grammicus	Celeus grammicus
 Celia	Spf0	Celia
 Celia Villalobos	Spf0	Celia Villalobos
+Celidonium majus	Snaa	Celidonium majus	Chelidonium majus
 Celina	Spf0	Celina
 Celithemis elisa	Snaa	Celithemis elisa	Celithemis elisa
 Cellana exarata	Snaa	Cellana exarata	Cellana exarata
@@ -8853,6 +8935,7 @@ Centaurea americana	Snaa	Centaurea americana	Centaurea americana
 Centaurea benedicta	Snaa	Centaurea benedicta	Centaurea benedicta
 Centaurea borjae	Snaa	Centaurea borjae	Centaurea borjae
 Centaurea calcitrapa	Snaa	Centaurea calcitrapa	Centaurea calcitrapa
+Centaurea calcitrapa L.	Snaa	Centaurea calcitrapa L.	Centaurea calcitrapa
 Centaurea cyanus	Snaa	Centaurea cyanus	Centaurea cyanus
 Centaurea jacea subsp. nigra	Snaa	Centaurea jacea subsp. nigra	Centaurea jacea subsp. nigra
 Centaurea nigra	Snaa	Centaurea nigra	Centaurea nigra
@@ -9023,6 +9106,7 @@ Ceratitis capitata	Snaa	Ceratitis capitata	Ceratitis capitata
 Ceratitis cosyra	Snaa	Ceratitis cosyra	Ceratitis cosyra
 Ceratitis fasciventris	Snaa	Ceratitis fasciventris	Ceratitis fasciventris
 Ceratitis rosa	Snaa	Ceratitis rosa	Ceratitis rosa
+Ceratium furca	Snaa	Ceratium furca	Ceratium furca
 Ceratium horridum	Snaa	Ceratium horridum	Ceratium horridum
 Ceratochloa cathartica	Snaa	Ceratochloa cathartica	Ceratochloa cathartica
 Ceratocystis pilifera	Snaa	Ceratocystis pilifera	Ceratocystis pilifera
@@ -9491,6 +9575,7 @@ Charybdis hellerii	Snaa	Charybdis hellerii	Charybdis hellerii
 Charybdis japonica	Snaa	Charybdis japonica	Charybdis japonica
 Charybdis maritima	Snaa	Charybdis maritima	Charybdis maritima
 Chascanopsetta lugubris	Snaa	Chascanopsetta lugubris	Chascanopsetta lugubris
+Chasmanthe eathiopica	Snaa	Chasmanthe eathiopica	Chasmanthe aethiopica
 Chassalia chartacea	Snaa	Chassalia chartacea	Chassalia chartacea
 Chassalia parviflora	Snaa	Chassalia parviflora	Chassalia parviflora
 Chateaubriend	Spm0	Chateaubriend
@@ -9558,6 +9643,7 @@ Chelidonichthys obscurus	Snaa	Chelidonichthys obscurus	Chelidonichthys obscurus
 Chelidonichthys spp	Snaa	Chelidonichthys spp	Chelidonichthys spp
 Chelidonium diphyllum	Snaa	Chelidonium diphyllum	Chelidonium diphyllum
 Chelidonium majus	Snaa	Chelidonium majus	Chelidonium majus
+Chelidonium majus L.	Snaa	Chelidonium majus L.	Chelidonium majus
 Chelmon rostratus	Snaa	Chelmon rostratus	Chelmon rostratus
 Chelo	Spf0	Chelo
 Chelo López	Spf0	Chelo López
@@ -9673,7 +9759,9 @@ Chinchilla chinchilla	Snaa	Chinchilla chinchilla	Chinchilla chinchilla
 Chinchilla lanigera	Snaa	Chinchilla lanigera	Chinchilla lanigera
 Chinemys reevesii	Snaa	Chinemys reevesii	Chinemys reevesii
 Chiococca alba	Snaa	Chiococca alba	Chiococca alba
+Chioglossa lusitanica	Snaa	Chioglossa lusitanica	Chioglossa lusitanica
 Chioglossa lusitánica	Snaa	Chioglossa lusitánica	Chioglossa lusitanica
+Chioglossa lussitanica	Snaa	Chioglossa lussitanica	Chioglossa lusitanica
 Chionactis occipitalis	Snaa	Chionactis occipitalis	Chionactis occipitalis
 Chionis albus	Snaa	Chionis albus	Chionis albus
 Chionis minor	Snaa	Chionis minor	Chionis minor
@@ -9715,6 +9803,7 @@ Chironomus notescens	Snaa	Chironomus notescens	Chironomus notescens
 Chironomus pallidivittatus	Snaa	Chironomus pallidivittatus	Chironomus pallidivittatus
 Chironomus piger	Snaa	Chironomus piger	Chironomus piger
 Chironomus plumosus	Snaa	Chironomus plumosus	Chironomus plumosus
+Chironomus riparius	Snaa	Chironomus riparius	Chironomus riparius
 Chironomus tentans	Snaa	Chironomus tentans	Chironomus tentans
 Chironomus thummi	Snaa	Chironomus thummi	Chironomus thummi
 Chironomus thummi piger	Snaa	Chironomus thummi piger	Chironomus thummi piger
@@ -9902,6 +9991,7 @@ Chondrus nipponicus	Snaa	Chondrus nipponicus	Chondrus nipponicus
 Chondrus ocellatus	Snaa	Chondrus ocellatus	Chondrus ocellatus
 Chondrus verrucosus	Snaa	Chondrus verrucosus	Chondrus verrucosus
 Chondrus yendoi	Snaa	Chondrus yendoi	Chondrus yendoi
+Chondus crispus	Snaa	Chondus crispus	Chondrus crispus
 Chopin	Sp00	Chopin
 Chorda lomentaria	Snaa	Chorda lomentaria	Chorda lomentaria
 Chordaria flagelliformis	Snaa	Chordaria flagelliformis	Chordaria flagelliformis
@@ -10406,6 +10496,7 @@ Citula armata	Snaa	Citula armata	Citula armata
 Ciudad Juárez	Sp00	Ciudad Juárez
 Civettictis civetta	Snaa	Civettictis civetta	Civettictis civetta
 Cladia aggregata	Snaa	Cladia aggregata	Cladia aggregata
+Cladium mariscus	Snaa	Cladium mariscus	Cladium mariscus
 Cladonia apodocarpa	Snaa	Cladonia apodocarpa	Cladonia apodocarpa
 Cladonia arbuscula	Snaa	Cladonia arbuscula	Cladonia arbuscula
 Cladonia grayi	Snaa	Cladonia grayi	Cladonia grayi
@@ -10421,6 +10512,7 @@ Cladrastis lutea	Snaa	Cladrastis lutea	Cladrastis lutea
 Claes	Sp00	Claes
 Claire Randall	Spf0	Claire Randall
 Clamator glandarius	Snaa	Clamator glandarius	Clamator glandarius
+Clamidia Pneumoniae	Snaa	Clamidia Pneumoniae	Chlamydia pneumoniae
 Clanga clanga	Snaa	Clanga clanga	Clanga clanga
 Clanga pomarina	Snaa	Clanga pomarina	Clanga pomarina
 Clangula hyemalis	Snaa	Clangula hyemalis	Clangula hyemalis
@@ -10536,6 +10628,7 @@ Cliona vastifica	Snaa	Cliona vastifica	Cliona vastifica
 Clione limacina	Snaa	Clione limacina	Clione limacina
 Clisiocampa californica	Snaa	Clisiocampa californica	Clisiocampa californica
 Clitocybe dealbata	Snaa	Clitocybe dealbata	Clitocybe dealbata
+Clitocybe geotropa	Snaa	Clitocybe geotropa	Clitocybe geotropa
 Clitocybe gibba	Snaa	Clitocybe gibba	Clitocybe gibba
 Clitocybe nebularis	Snaa	Clitocybe nebularis	Clitocybe nebularis
 Clitopilus passeckerianus	Snaa	Clitopilus passeckerianus	Clitopilus passeckerianus
@@ -11373,6 +11466,7 @@ Corallococcus coralloides	Snaa	Corallococcus coralloides	Corallococcus coralloid
 Corallus caninus	Snaa	Corallus caninus	Corallus caninus
 Corallus enydris	Snaa	Corallus enydris	Corallus enydris
 Corallus hortulanus enydris	Snaa	Corallus hortulanus enydris	Corallus hortulanus enydris
+Corbicula fluminea	Snaa	Corbicula fluminea	Corbicula fluminea
 Corbicula japonica	Snaa	Corbicula japonica	Corbicula japonica
 Corbicula manilensis	Snaa	Corbicula manilensis	Corbicula manilensis
 Corbicula spp	Snaa	Corbicula spp	Corbicula spp
@@ -11422,6 +11516,7 @@ Coridón	Sp00	Coridón
 Corín Tellado	Spf0	Corín Tellado
 Corina	Spf0	Corina
 Corina Porro	Spf0	Corina Porro
+Corinebacterium Piógenes	Snaa	Corinebacterium Piógenes	Corynebacterium pyogenes
 Corinna	Spf0	Corinna
 Coriolus hirsutus	Snaa	Coriolus hirsutus	Coriolus hirsutus
 Coriolus versicolor	Snaa	Coriolus versicolor	Coriolus versicolor
@@ -11438,6 +11533,7 @@ Cornellà	Sp00	Cornellà
 Cornu aspersum	Snaa	Cornu aspersum	Cornu aspersum
 Cornufer pelewensis	Snaa	Cornufer pelewensis	Cornufer pelewensis
 Cornufer vitianus	Snaa	Cornufer vitianus	Cornufer vitianus
+Cornupalpatum burmanicum	Snaa	Cornupalpatum burmanicum	Cornupalpatum burmanicum
 Cornus alternifolia	Snaa	Cornus alternifolia	Cornus alternifolia
 Cornus amomum subsp. obliqua	Snaa	Cornus amomum subsp. obliqua	Cornus amomum subsp. obliqua
 Cornus canadensis	Snaa	Cornus canadensis	Cornus canadensis
@@ -11470,6 +11566,7 @@ Correlingua	Sp00	Correlingua
 Correos	Spmp	Correos
 Corrigiola litoralis	Snaa	Corrigiola litoralis	Corrigiola litoralis
 Cortaderia selloana	Snaa	Cortaderia selloana	Cortaderia selloana
+Cortaderia seollana	Snaa	Cortaderia seollana	Cortaderia selloana
 Cortázar	Sp00	Cortázar
 Corte Suprema	Spfs	Corte Suprema
 Cortegada	Sp00	Cortegada
@@ -11487,6 +11584,7 @@ Corvina albiflora	Snaa	Corvina albiflora	Corvina albiflora
 Corvina belangerii	Snaa	Corvina belangerii	Corvina belangerii
 Corvina grypota	Snaa	Corvina grypota	Corvina grypota
 Corvinella corvina	Snaa	Corvinella corvina	Corvinella corvina
+Corvus Corax	Snaa	Corvus Corax	Corvus corax
 Corvus afer	Snaa	Corvus afer	Corvus afer
 Corvus albus	Snaa	Corvus albus	Corvus albus
 Corvus brachyrhynchos	Snaa	Corvus brachyrhynchos	Corvus brachyrhynchos
@@ -11518,6 +11616,7 @@ Corydalus cognatus	Snaa	Corydalus cognatus	Corydalus cognatus
 Corydalus cornutus	Snaa	Corydalus cornutus	Corydalus cornutus
 Corylus americana	Snaa	Corylus americana	Corylus americana
 Corylus avellana	Snaa	Corylus avellana	Corylus avellana
+Corylus avellana L.	Snaa	Corylus avellana L.	Corylus avellana
 Corylus colurna	Snaa	Corylus colurna	Corylus colurna
 Corylus cornuta	Snaa	Corylus cornuta	Corylus cornuta
 Corylus maxima	Snaa	Corylus maxima	Corylus maxima
@@ -11772,6 +11871,7 @@ Crepidula lessoni	Snaa	Crepidula lessoni	Crepidula lessoni
 Crepidula maculosa	Snaa	Crepidula maculosa	Crepidula maculosa
 Crepidula odites	Snaa	Crepidula odites	Crepidula odites
 Crepidula plana	Snaa	Crepidula plana	Crepidula plana
+Crepipatella dilatata	Snaa	Crepipatella dilatata	Crepipatella dilatata
 Crepis alpina	Snaa	Crepis alpina	Crepis alpina
 Crepis biennis	Snaa	Crepis biennis	Crepis biennis
 Crepis blattarioides	Snaa	Crepis blattarioides	Crepis blattarioides
@@ -12054,6 +12154,7 @@ Cryptotympana dubia	Snaa	Cryptotympana dubia	Cryptotympana dubia
 Crypturellus tataupa	Snaa	Crypturellus tataupa	Crypturellus tataupa
 Crypturus perdicarius	Snaa	Crypturus perdicarius	Crypturus perdicarius
 Crysanthemun parthenium	Snaa	Crysanthemun parthenium	Crysanthemun parthenium
+Crysanthemun parthenium Bernhardi	Snaa	Crysanthemun parthenium Bernhardi	Chrysanthemum parthenium
 Crystallogobius linearis	Snaa	Crystallogobius linearis	Crystallogobius linearis
 Crytosporidium parvum	Snaa	Crytosporidium parvum	Crytosporidium parvum
 Ctenarytaina eucalipti	Snaa	Ctenarytaina eucalipti	Ctenarytaina eucalypti
@@ -12447,6 +12548,7 @@ Cymbidium speciosissimum	Snaa	Cymbidium speciosissimum	Cymbidium speciosissimum
 Cymbium olla	Snaa	Cymbium olla	Cymbium olla
 Cymbosema roseum	Snaa	Cymbosema roseum	Cymbosema roseum
 Cymbovula acicularis	Snaa	Cymbovula acicularis	Cymbovula acicularis
+Cymodocea nodosa	Snaa	Cymodocea nodosa	Cymodocea nodosa
 Cymophora venezuelensis	Snaa	Cymophora venezuelensis	Cymophora venezuelensis
 Cynanthus latirostris	Snaa	Cynanthus latirostris	Cynanthus latirostris
 Cynara cardunculus	Snaa	Cynara cardunculus	Cynara cardunculus
@@ -12815,13 +12917,16 @@ D. X. P. L.	Zgfs	D. X. P. L.
 D. X. T.	Zg00	D. X. T.	
 D. X. T.	Zgfs	D. X. T.	
 D. Y. A.	Zg00	D. Y. A.	
-D. cantabrica	Snaa	D. cantabrica	D. cantabrica
+D. atrox	Snaa	D. atrox	Dorudon atrox
+D. cantabrica	Snaa	D. cantabrica	Dactylorhiza cantabrica
 D. exoleta	Snaa	D. exoleta	D. exoleta
-D. insularis	Snaa	D. insularis	D. insularis
+D. immitis	Snaa	D. immitis	Dirofilaria immitis
+D. insularis	Snaa	D. insularis	Dactylorhiza insularis
 D. magna	Snaa	D. magna	D. magna
-D. purpurea	Snaa	D. purpurea	D. purpurea
-D. sambucina	Snaa	D. sambucina	D. sambucina
-D. thapsi	Snaa	D. thapsi	D. thapsi
+D. purpurea	Snaa	D. purpurea	Digitalis purpurea
+D. repens	Snaa	D. repens	Dirofilaria repens
+D. sambucina	Snaa	D. sambucina	Dactylorhiza sambucina
+D. thapsi	Snaa	D. thapsi	Digitalis thapsi
 Daboecia cantabrica	Snaa	Daboecia cantabrica	Daboecia cantabrica
 Daboia palaestinae	Snaa	Daboia palaestinae	Daboia palaestinae
 Daboia russelii	Snaa	Daboia russelii	Daboia russelii
@@ -13057,6 +13162,7 @@ Deilephila elpenor	Snaa	Deilephila elpenor	Deilephila elpenor
 Deinagkistrodon acutus	Snaa	Deinagkistrodon acutus	Deinagkistrodon acutus
 Deinococcus proteolyticus	Snaa	Deinococcus proteolyticus	Deinococcus proteolyticus
 Deinococcus radiodurans	Snaa	Deinococcus radiodurans	Deinococcus radiodurans
+Deinocroton draculi	Snaa	Deinocroton draculi	Deinocroton draculi
 Deinonema sp.	Snaa	Deinonema sp.	Deinonema sp.
 Deinopis subrufa	Snaa	Deinopis subrufa	Deinopis subrufa
 Deiopeia aurea	Snaa	Deiopeia aurea	Deiopeia aurea
@@ -13069,6 +13175,7 @@ Delegación	Spfs	Delegación
 Delegación Provincial	Spfs	Delegación Provincial
 Delegación Provincial de a Consellería de Educación	Spfs	Delegación Provincial de a Consellería de Educación
 Delesseria fimbriata	Snaa	Delesseria fimbriata	Delesseria fimbriata
+Delesseria sanguinea	Snaa	Delesseria sanguinea	Delesseria sanguinea
 Deleya marina	Snaa	Deleya marina	Deleya marina
 Delftia acidovorans	Snaa	Delftia acidovorans	Delftia acidovorans
 Delia	Spf0	Delia
@@ -13121,6 +13228,7 @@ Demetrias atricapillus	Snaa	Demetrias atricapillus	Demetrias atricapillus
 Demetrio	Spm0	Demetrio
 Democracia Galega	Sp00	Democracia Galega
 Demodex brevis	Snaa	Demodex brevis	Demodex brevis
+Demodex follicorum	Snaa	Demodex follicorum	Demodex folliculorum
 Demodex folliculorum	Snaa	Demodex folliculorum	Demodex folliculorum
 Demoscopia	Sp00	Demoscopia
 Dendragapus canadensis	Snaa	Dendragapus canadensis	Dendragapus canadensis
@@ -13339,6 +13447,7 @@ Desiderio	Spm0	Desiderio
 Desmana moschata	Snaa	Desmana moschata	Desmana moschata
 Desmanthodium fruticosum	Snaa	Desmanthodium fruticosum	Desmanthodium fruticosum
 Desmapsamma anchorata	Snaa	Desmapsamma anchorata	Desmapsamma anchorata
+Desmarestia aculeata	Snaa	Desmarestia aculeata	Desmarestia aculeata
 Desmarestia dudresnayi	Snaa	Desmarestia dudresnayi	Desmarestia dudresnayi
 Desmodillus auricularis	Snaa	Desmodillus auricularis	Desmodillus auricularis
 Desmodium canadense	Snaa	Desmodium canadense	Desmodium canadense
@@ -13573,6 +13682,7 @@ Dileptus margaritifer	Snaa	Dileptus margaritifer	Dileptus margaritifer
 Dillenia indica	Snaa	Dillenia indica	Dillenia indica
 Dillenia speciosa	Snaa	Dillenia speciosa	Dillenia speciosa
 Dilsea californica	Snaa	Dilsea californica	Dilsea californica
+Dilsea carnosa	Snaa	Dilsea carnosa	Dilsea carnosa
 Diludia corallina	Snaa	Diludia corallina	Diludia corallina
 Dimeresia howellii	Snaa	Dimeresia howellii	Dimeresia howellii
 Dimerostemma vestitum	Snaa	Dimerostemma vestitum	Dimerostemma vestitum
@@ -13769,6 +13879,7 @@ Diretmoides veriginae	Snaa	Diretmoides veriginae	Diretmoides veriginae
 Diretmus argenteus	Snaa	Diretmus argenteus	Diretmus argenteus
 Dirk Bogarde	Spm0	Dirk Bogarde
 Dirofilaria immitis	Snaa	Dirofilaria immitis	Dirofilaria immitis
+Dirofilaria repens	Snaa	Dirofilaria repens	Dirofilaria repens
 Disa cardinalis	Snaa	Disa cardinalis	Disa cardinalis
 Disa glandulosa	Snaa	Disa glandulosa	Disa glandulosa
 Disa grandiflora	Snaa	Disa grandiflora	Disa grandiflora
@@ -13778,6 +13889,7 @@ Disa tenella	Snaa	Disa tenella	Disa tenella
 Disa tripetaloides	Snaa	Disa tripetaloides	Disa tripetaloides
 Disa uniflora	Snaa	Disa uniflora	Disa uniflora
 Discodoris atromaculata	Snaa	Discodoris atromaculata	Discodoris atromaculata
+Discoglossus galganoi	Snaa	Discoglossus galganoi	Discoglossus galganoi
 Discoglossus sardus	Snaa	Discoglossus sardus	Discoglossus sardus
 Discopyge ommata	Snaa	Discopyge ommata	Discopyge ommata
 Discorsopagurus schmitti	Snaa	Discorsopagurus schmitti	Discorsopagurus schmitti
@@ -13900,6 +14012,7 @@ Doronicum columnae	Snaa	Doronicum columnae	Doronicum columnae
 Dorosoma cepedianum	Snaa	Dorosoma cepedianum	Dorosoma cepedianum
 Dorotea	Spf0	Dorotea
 Dorotheanthus bellidiformis	Snaa	Dorotheanthus bellidiformis	Dorotheanthus bellidiformis
+Dorudon atrox	Snaa	Dorudon atrox	Dorudon atrox
 Dorvillea erucaeformis	Snaa	Dorvillea erucaeformis	Dorvillea erucaeformis
 Doryfera ludovicae	Snaa	Doryfera ludovicae	Doryfera ludovicae
 Doryphora decemlineata	Snaa	Doryphora decemlineata	Doryphora decemlineata
@@ -13987,6 +14100,7 @@ Drosera peltata	Snaa	Drosera peltata	Drosera peltata
 Drosera petiolaris	Snaa	Drosera petiolaris	Drosera petiolaris
 Drosera regia	Snaa	Drosera regia	Drosera regia
 Drosera rotundifolia	Snaa	Drosera rotundifolia	Drosera rotundifolia
+Drosophila Melanogaster	Snaa	Drosophila Melanogaster	Drosophila melanogaster
 Drosophila acanthoptera	Snaa	Drosophila acanthoptera	Drosophila acanthoptera
 Drosophila adiastola	Snaa	Drosophila adiastola	Drosophila adiastola
 Drosophila adunca	Snaa	Drosophila adunca	Drosophila adunca
@@ -14138,6 +14252,7 @@ Dryocichloides montanus	Snaa	Dryocichloides montanus	Dryocichloides montanus
 Dryocoetes autographus	Snaa	Dryocoetes autographus	Dryocoetes autographus
 Dryocopus martius	Snaa	Dryocopus martius	Dryocopus martius
 Dryocopus pileatus	Snaa	Dryocopus pileatus	Dryocopus pileatus
+Dryocosmus kuriphilus	Snaa	Dryocosmus kuriphilus	Dryocosmus kuriphilus
 Dryomys laniger	Snaa	Dryomys laniger	Dryomys laniger
 Dryomys nitedula	Snaa	Dryomys nitedula	Dryomys nitedula
 Dryophytes chrysoscelis	Snaa	Dryophytes chrysoscelis	Dryophytes chrysoscelis
@@ -14231,6 +14346,8 @@ E. C. G.	Zgmp	E. C. G.
 E. C. G.	Zgms	E. C. G.	
 E. C. H. O.	Zg00	E. C. H. O.	
 E. C. H. O.	Zgfs	E. C. H. O.	
+E. C. I. M. A. T.	Zg00	E. C. I. M. A. T.	ECIMAT
+E. C. I. M. A. T.	Zgfs	E. C. I. M. A. T.	ECIMAT
 E. C. I. P.	Zg00	E. C. I. P.	
 E. C. I. P.	Zgmp	E. C. I. P.	
 E. C. O. F. Í. N.	Zg00	E. C. O. F. Í. N.	
@@ -14243,6 +14360,7 @@ E. C. U.	Zg00	E. C. U.
 E. C. U.	Zgfa	E. C. U.	
 E. C. U.	Zgfp	E. C. U.	
 E. C. U.	Zgfs	E. C. U.	
+E. Coli	Snaa	E. Coli	Escherichia coli
 E. D. C.	Zg00	E. D. C.	
 E. D. C.	Zgfs	E. D. C.	
 E. D. I.	Zg00	E. D. I.	
@@ -14441,27 +14559,33 @@ E. chaffeensis	Snaa	E. chaffeensis	E. chaffeensis
 E. cinerea	Snaa	E. cinerea	E. cinerea
 E. coli	Snaa	E. coli	Escherichia coli
 E. ensis	Snaa	E. ensis	E. ensis
+E. faecalis	Snaa	E. faecalis	Enterococcus faecalis
+E. faecium	Snaa	E. faecium	Enterococcus faecium
 E. g. a. n. e. t.	Zg00	E. g. a. n. e. t.	
+E. globulus	Snaa	E. globulus	Eucalyptus globulus
 E. l. n. o. s. a.	Zg00	E. l. n. o. s. a.	
+E. maidenii	Snaa	E. maidenii	Eucalyptus maidenii
 E. n. c. e.	Zg00	E. n. c. e.	
 E. r. i. m. s. a.	Zg00	E. r. i. m. s. a.	
+E. saligna	Snaa	E. saligna	Eucalyptus saligna
 E. tetralix	Snaa	E. tetralix	E. tetralix
 E. u. r. i. b. o. r.	Zg00	E. u. r. i. b. o. r.	
 E. u. r. í. b. o. r.	Zg00	E. u. r. í. b. o. r.	
 E. u. r. i. b. o. r.	Zgms	E. u. r. i. b. o. r.	
 E. u. r. í. b. o. r.	Zgms	E. u. r. í. b. o. r.	
 E.E. .U.U.	Zg00	E.E. .U.U.	EE. UU.
-EE LL	Zg00	EE LL
-EE LL	Zgfp	EE LL
-EE RR	Zg00	EE RR
-EE RR	Zgfp	EE RR
-EE UU	Zg00	EE UU
+EE LL	Zg00	EE LL	
+EE LL	Zgfp	EE LL	
+EE RR	Zg00	EE RR	
+EE RR	Zgfp	EE RR	
+EE UU	Zg00	EE UU	EE UU
 EE UU	Zg00	EE UU	EE. UU.
-EE. LL.	Zg00	EE. LL.
-EE. LL.	Zgfp	EE. LL.
-EE. RR.	Zg00	EE. RR.
-EE. RR.	Zgfp	EE. RR.
-EE. UU.	Zg00	EE. UU.
+EE. LL.	Zg00	EE. LL.	
+EE. LL.	Zgfp	EE. LL.	
+EE. RR.	Zg00	EE. RR.	
+EE. RR.	Zgfp	EE. RR.	
+EE. UU.	Zg00	EE. UU.	EE UU
+EE.UU.	Zg00	EE.UU.	EE UU
 EEUU	Zg00	EEUU	EE UU
 Eacles imperialis	Snaa	Eacles imperialis	Eacles imperialis
 Earina autumnalis	Snaa	Earina autumnalis	Earina autumnalis
@@ -14560,6 +14684,7 @@ Ecsenius bicolor	Snaa	Ecsenius bicolor	Ecsenius bicolor
 Ectatomma brunneum	Snaa	Ectatomma brunneum	Ectatomma brunneum
 Ectatomma quadridens	Snaa	Ectatomma quadridens	Ectatomma quadridens
 Ectatomma tuberculatum	Snaa	Ectatomma tuberculatum	Ectatomma tuberculatum
+Ecteinascidia turbinata	Snaa	Ecteinascidia turbinata	Ecteinascidia turbinata
 Ectocarpus crinitus	Snaa	Ectocarpus crinitus	Ectocarpus crinitus
 Ectocarpus siliculosus	Snaa	Ectocarpus siliculosus	Ectocarpus siliculosus
 Ectocarpus variabilis	Snaa	Ectocarpus variabilis	Ectocarpus variabilis
@@ -14982,6 +15107,7 @@ Ensifer adhaerens	Snaa	Ensifer adhaerens	Ensifer adhaerens
 Ensifer medicae	Snaa	Ensifer medicae	Ensifer medicae
 Ensino Secundario Obrigatorio	Sp00	Ensino Secundario Obrigatorio
 Ensis Ensis	Snaa	Ensis Ensis	Ensis ensis
+Ensis Minor	Snaa	Ensis Minor	Ensis minor
 Ensis arcuatus	Snaa	Ensis arcuatus	Ensis arcuatus
 Ensis directus	Snaa	Ensis directus	Ensis directus
 Ensis ensis	Snaa	Ensis ensis	Ensis ensis
@@ -15135,6 +15261,7 @@ Epigonus telescopus	Snaa	Epigonus telescopus	Epigonus telescopus
 Epilachna pustulosa	Snaa	Epilachna pustulosa	Epilachna pustulosa
 Epilachna varivestis	Snaa	Epilachna varivestis	Epilachna varivestis
 Epilachna vigintioctomaculata	Snaa	Epilachna vigintioctomaculata	Epilachna vigintioctomaculata
+Epilobium hirsutum L.	Snaa	Epilobium hirsutum L.	Epilobium hirsutum
 Epilobium rigidum	Snaa	Epilobium rigidum	Epilobium rigidum
 Epilobocera sinuatifrons	Snaa	Epilobocera sinuatifrons	Epilobocera sinuatifrons
 Epimachus albertisi	Snaa	Epimachus albertisi	Epimachus albertisi
@@ -15227,6 +15354,7 @@ Equisetum majus	Snaa	Equisetum majus	Equisetum majus
 Equisetum palustre	Snaa	Equisetum palustre	Equisetum palustre
 Equisetum pratense	Snaa	Equisetum pratense	Equisetum pratense
 Equisetum ramosissimum	Snaa	Equisetum ramosissimum	Equisetum ramosissimum
+Equisetum ramosissimun	Snaa	Equisetum ramosissimun	Equisetum ramosissimum
 Equisetum scirpoides	Snaa	Equisetum scirpoides	Equisetum scirpoides
 Equisetum sylvaticum	Snaa	Equisetum sylvaticum	Equisetum sylvaticum
 Equisetum telmateia	Snaa	Equisetum telmateia	Equisetum telmateia
@@ -15236,7 +15364,12 @@ Equula leuciscus	Snaa	Equula leuciscus	Equula leuciscus
 Equula nuchalis	Snaa	Equula nuchalis	Equula nuchalis
 Equula splendens	Snaa	Equula splendens	Equula splendens
 Equulites leuciscus	Snaa	Equulites leuciscus	Equulites leuciscus
-Equus Asinus	Snaa	Equus Asinus	Equus sinus
+Equus Asinus	Snaa	Equus Asinus	Equus asinus
+Equus Gmelini	Snaa	Equus Gmelini	Equus gmelini
+Equus Grácilis	Snaa	Equus Grácilis	Equus gracilis
+Equus Przewalskii	Snaa	Equus Przewalskii	Equus przewalskii
+Equus Stenonis	Snaa	Equus Stenonis	Equus stenonis
+Equus Xermánicus	Snaa	Equus Xermánicus	Equus caballus germanicus
 Equus africanus asinus	Snaa	Equus africanus asinus	Equus africanus asinus
 Equus asinus	Snaa	Equus asinus	Equus asinus
 Equus burchelli	Snaa	Equus burchelli	Equus burchelli
@@ -15282,6 +15415,8 @@ Erias	Sp00	Erias
 Erica arborea	Snaa	Erica arborea	Erica arborea
 Erica australis	Snaa	Erica australis	Erica australis
 Erica carnea	Snaa	Erica carnea	Erica carnea
+Erica ciliaris	Snaa	Erica ciliaris	Erica ciliaris
+Erica cilliaris	Snaa	Erica cilliaris	Erica ciliaris
 Erica cinerea	Snaa	Erica cinerea	Erica cinerea
 Erica herbacea	Snaa	Erica herbacea	Erica herbacea
 Erica scoparia	Snaa	Erica scoparia	Erica scoparia
@@ -15418,6 +15553,7 @@ Eryx johnii	Snaa	Eryx johnii	Eryx johnii
 Eryx miliaris	Snaa	Eryx miliaris	Eryx miliaris
 Eryx miliaris nogaiorum	Snaa	Eryx miliaris nogaiorum	Eryx miliaris nogaiorum
 Eryx tataricus	Snaa	Eryx tataricus	Eryx tataricus
+Esacus magnirostris	Snaa	Esacus magnirostris	Esacus magnirostris
 Escarpia laminata	Snaa	Escarpia laminata	Escarpia laminata
 Escarpia southwardae	Snaa	Escarpia southwardae	Escarpia southwardae
 Escarpia spicata	Snaa	Escarpia spicata	Escarpia spicata
@@ -15523,6 +15659,7 @@ Eubacterium rectale	Snaa	Eubacterium rectale	Eubacterium rectale
 Eubalaena australis	Snaa	Eubalaena australis	Eubalaena australis
 Eubalaena glacialis	Snaa	Eubalaena glacialis	Eubalaena glacialis
 Eubalaena japonica	Snaa	Eubalaena japonica	Eubalaena japonica
+Eubalena glacialis	Snaa	Eubalena glacialis	Eubalaena glacialis
 Eubasilissa regina	Snaa	Eubasilissa regina	Eubasilissa regina
 Eublaberus distanti	Snaa	Eublaberus distanti	Eublaberus distanti
 Eublaberus posticus	Snaa	Eublaberus posticus	Eublaberus posticus
@@ -15534,6 +15671,7 @@ Eucalyptus aromaphloia	Snaa	Eucalyptus aromaphloia	Eucalyptus aromaphloia
 Eucalyptus baxteri	Snaa	Eucalyptus baxteri	Eucalyptus baxteri
 Eucalyptus botryoides	Snaa	Eucalyptus botryoides	Eucalyptus botryoides
 Eucalyptus camaldulensis	Snaa	Eucalyptus camaldulensis	Eucalyptus camaldulensis
+Eucalyptus camaldulensis Dehn	Snaa	Eucalyptus camaldulensis Dehn	Eucalyptus camaldulensis
 Eucalyptus citriodora	Snaa	Eucalyptus citriodora	Eucalyptus citriodora
 Eucalyptus cladocalyx	Snaa	Eucalyptus cladocalyx	Eucalyptus cladocalyx
 Eucalyptus cloeziana	Snaa	Eucalyptus cloeziana	Eucalyptus cloeziana
@@ -15547,6 +15685,7 @@ Eucalyptus eximia	Snaa	Eucalyptus eximia	Eucalyptus eximia
 Eucalyptus ficifolia	Snaa	Eucalyptus ficifolia	Eucalyptus ficifolia
 Eucalyptus globulus	Snaa	Eucalyptus globulus	Eucalyptus globulus
 Eucalyptus glóbulus	Snaa	Eucalyptus glóbulus	Eucalyptus globulus
+Eucalyptus globulus Labill	Snaa	Eucalyptus globulus Labill	Eucalyptus globulus
 Eucalyptus globulus subsp. globulus	Snaa	Eucalyptus globulus subsp. globulus	Eucalyptus globulus subsp. globulus
 Eucalyptus goniocalyx var. nitens	Snaa	Eucalyptus goniocalyx var. nitens	Eucalyptus goniocalyx var. nitens
 Eucalyptus grandis	Snaa	Eucalyptus grandis	Eucalyptus grandis
@@ -15636,6 +15775,7 @@ Eugenia dysenterica	Snaa	Eugenia dysenterica	Eugenia dysenterica
 Eugenia jambos	Snaa	Eugenia jambos	Eugenia jambos
 Eugenia javanica	Snaa	Eugenia javanica	Eugenia javanica
 Eugenio Riobó	Spm0	Eugenio Riobó
+Euglandina rosea	Snaa	Euglandina rosea	Euglandina rosea
 Euglena anabaena	Snaa	Euglena anabaena	Euglena anabaena
 Euglena deses	Snaa	Euglena deses	Euglena deses
 Euglena geniculata	Snaa	Euglena geniculata	Euglena geniculata
@@ -15737,6 +15877,7 @@ Euphagus carolinus	Snaa	Euphagus carolinus	Euphagus carolinus
 Euphagus cyanocephalus	Snaa	Euphagus cyanocephalus	Euphagus cyanocephalus
 Euphausia spp	Snaa	Euphausia spp	Euphausia spp
 Euphausia superba	Snaa	Euphausia superba	Euphausia superba
+Euphidryas aurinia	Snaa	Euphidryas aurinia	Euphydryas aurinia
 Euphilotes enoptes	Snaa	Euphilotes enoptes	Euphilotes enoptes
 Euphilotes pallescens	Snaa	Euphilotes pallescens	Euphilotes pallescens
 Euphlyctis cyanophlyctis	Snaa	Euphlyctis cyanophlyctis	Euphlyctis cyanophlyctis
@@ -15822,6 +15963,7 @@ Eurydema gebleri	Snaa	Eurydema gebleri	Eurydema gebleri
 Eurydice pulchra	Snaa	Eurydice pulchra	Eurydice pulchra
 Euryhaliotrema grandis	Snaa	Euryhaliotrema grandis	Euryhaliotrema grandis
 Euryhaliotrematoides grandis	Snaa	Euryhaliotrematoides grandis	Euryhaliotrematoides grandis
+Euryleptodes galikias	Snaa	Euryleptodes galikias	Euryleptodes galikias
 Eurymus meadii	Snaa	Eurymus meadii	Eurymus meadii
 Eurynia dilatata	Snaa	Eurynia dilatata	Eurynia dilatata
 Euryoryzomys macconnelli	Snaa	Euryoryzomys macconnelli	Euryoryzomys macconnelli
@@ -16244,22 +16386,24 @@ F. i. d. a. c.	Zg00	F. i. d. a. c.
 F. i. d. a. c.	Zgma	F. i. d. a. c.	
 F. i. d. a. c.	Zgmp	F. i. d. a. c.	
 F. i. d. a. c.	Zgms	F. i. d. a. c.	
+F. serratus	Snaa	F. serratus	Fucus serratus
 F. u. n. c. a. s.	Zg00	F. u. n. c. a. s.	
 F. u. n. c. a. s.	Zgfs	F. u. n. c. a. s.	
 F. verticillioides	Snaa	F. verticillioides	F. verticillioides
+F. vesiculosus	Snaa	F. vesiculosus	Fucus vesiculosus
 FEOGA-Garantía	Sp00	FEOGA-Garantía
-FF AA	Zg00	FF AA
-FF AA	Zgfp	FF AA
-FF CC	Zg00	FF CC
-FF CC	Zgmp	FF CC
-FF NN	Zg00	FF NN
-FF NN	Zgfp	FF NN
-FF. AA.	Zg00	FF. AA.
-FF. AA.	Zgfp	FF. AA.
-FF. CC.	Zg00	FF. CC.
-FF. CC.	Zgmp	FF. CC.
-FF. NN.	Zg00	FF. NN.
-FF. NN.	Zgfp	FF. NN.
+FF AA	Zg00	FF AA	
+FF AA	Zgfp	FF AA	
+FF CC	Zg00	FF CC	
+FF CC	Zgmp	FF CC	
+FF NN	Zg00	FF NN	
+FF NN	Zgfp	FF NN	
+FF. AA.	Zg00	FF. AA.	
+FF. AA.	Zgfp	FF. AA.	
+FF. CC.	Zg00	FF. CC.	
+FF. CC.	Zgmp	FF. CC.	
+FF. NN.	Zg00	FF. NN.	
+FF. NN.	Zgfp	FF. NN.	
 FIA-Pontevedra	Sp00	FIA-Pontevedra
 Faba vulgaris	Snaa	Faba vulgaris	Faba vulgaris
 Fabiano	Spm0	Fabiano
@@ -16331,8 +16475,10 @@ Farfantepenaeus subtilis	Snaa	Farfantepenaeus subtilis	Farfantepenaeus subtilis
 Farruco	Spm0	Farruco
 Farruquiño	Sp00	Farruquiño
 Farto	Sp00	Farto
+Fasciola Hepática	Snaa	Fasciola Hepática	Fasciola hepatica
 Fasciola gigantica	Snaa	Fasciola gigantica	Fasciola gigantica
 Fasciola hepatica	Snaa	Fasciola hepatica	Fasciola hepatica
+Fasciola hepática	Snaa	Fasciola hepática	Fasciola hepatica
 Fasciolaria tulipa	Snaa	Fasciolaria tulipa	Fasciolaria tulipa
 Faustino	Spm0	Faustino
 Favia favus	Snaa	Favia favus	Favia favus
@@ -16342,6 +16488,7 @@ Favites complanata	Snaa	Favites complanata	Favites complanata
 Favites halicora	Snaa	Favites halicora	Favites halicora
 Favites pentagona	Snaa	Favites pentagona	Favites pentagona
 Favites valenciennesi	Snaa	Favites valenciennesi	Favites valenciennesi
+Favosipora purpurea	Snaa	Favosipora purpurea	Favosipora purpurea
 Faxonius limosus	Snaa	Faxonius limosus	Faxonius limosus
 Fazia fascifrons	Snaa	Fazia fascifrons	Fazia fascifrons
 Fdez. Ordóñez	Sp00	Fdez. Ordóñez
@@ -16479,6 +16626,9 @@ Ficus elastica	Snaa	Ficus elastica	Ficus elastica
 Ficus indica	Snaa	Ficus indica	Ficus indica
 Ficus nitida	Snaa	Ficus nitida	Ficus nitida
 Ficus pumila var. awkeotsang	Snaa	Ficus pumila var. awkeotsang	Ficus pumila var. awkeotsang
+Ficus religiosus	Snaa	Ficus religiosus	Ficus religiosa
+Ficus relixiosa	Snaa	Ficus relixiosa	Ficus religiosa
+Ficus vesiculosos	Snaa	Ficus vesiculosos	Fucus vesiculosos
 Fidel Castro	Spm0	Fidel Castro
 Figueiras	Sp00	Figueiras
 Figueirido	Sp00	Figueirido
@@ -17021,7 +17171,7 @@ Gagea lutea	Snaa	Gagea lutea	Gagea lutea
 Gagea minima	Snaa	Gagea minima	Gagea minima
 Gagea nevadensis	Snaa	Gagea nevadensis	Gagea nevadensis
 Gagea soleirolii	Snaa	Gagea soleirolii	Gagea soleirolii
-Gageas nevadensis	Snaa	Gageas nevadensis	Gageas nevadensis
+Gageas nevadensis	Snaa	Gagea nevadensis	Gagea nevadensis
 Gaidropsarus ensis	Snaa	Gaidropsarus ensis	Gaidropsarus ensis
 Gaidropsarus mediterraneus	Snaa	Gaidropsarus mediterraneus	Gaidropsarus mediterraneus
 Gaidropsarus spp	Snaa	Gaidropsarus spp	Gaidropsarus spp
@@ -17159,6 +17309,7 @@ Gardenia jasminoides	Snaa	Gardenia jasminoides	Gardenia jasminoides
 Gardnerella vaginalis	Snaa	Gardnerella vaginalis	Gardnerella vaginalis
 Gardnerycteris crenulatum	Snaa	Gardnerycteris crenulatum	Gardnerycteris crenulatum
 Gari depressa	Snaa	Gari depressa	Gari depressa
+Gari depressa Tryon	Snaa	Gari depressa Tryon	Gari depressa
 Garritornis isidorei	Snaa	Garritornis isidorei	Garritornis isidorei
 Garrodia nereis	Snaa	Garrodia nereis	Garrodia nereis
 Garrulax leucolophus	Snaa	Garrulax leucolophus	Garrulax leucolophus
@@ -17271,6 +17422,7 @@ Genetta victoriae	Snaa	Genetta victoriae	Genetta victoriae
 Genicanthus lamarck	Snaa	Genicanthus lamarck	Genicanthus lamarck
 Genicanthus melanospilos	Snaa	Genicanthus melanospilos	Genicanthus melanospilos
 Genista aetnensis	Snaa	Genista aetnensis	Genista aetnensis
+Genista ancistrocarpa	Snaa	Genista ancistrocarpa	Genista ancistrocarpa
 Genista juncea	Snaa	Genista juncea	Genista juncea
 Genista maderensis	Snaa	Genista maderensis	Genista maderensis
 Genista sagittalis	Snaa	Genista sagittalis	Genista sagittalis
@@ -17561,6 +17713,7 @@ Glirulus japonicus	Snaa	Glirulus japonicus	Glirulus japonicus
 Glis glis	Snaa	Glis glis	Glis glis
 Globicephala macrorhynchus	Snaa	Globicephala macrorhynchus	Globicephala macrorhynchus
 Globicephala melaena	Snaa	Globicephala melaena	Globicephala melaena
+Globicephala melaena	Snaa	Globicephala melaena	Globicephala melas
 Globicephala melas	Snaa	Globicephala melas	Globicephala melas
 Globicephala scammoni	Snaa	Globicephala scammoni	Globicephala scammoni
 Globisporangium hypogynum	Snaa	Globisporangium hypogynum	Globisporangium hypogynum
@@ -17810,7 +17963,9 @@ Gonostoma denudatum atlanticum	Snaa	Gonostoma denudatum atlanticum	Gonostoma den
 Gonostoma gracile	Snaa	Gonostoma gracile	Gonostoma gracile
 Gonyaulax catenella	Snaa	Gonyaulax catenella	Gonyaulax catenella
 Gonyaulax cohorticula	Snaa	Gonyaulax cohorticula	Gonyaulax cohorticula
+Gonyaulax poliedra	Snaa	Gonyaulax poliedra	Gonyaulax polyedra
 Gonyaulax polyedra	Snaa	Gonyaulax polyedra	Gonyaulax polyedra
+Gonyaulax spinifera	Snaa	Gonyaulax spinifera	Gonyaulax spinifera
 Gonyaulax tamarensis	Snaa	Gonyaulax tamarensis	Gonyaulax tamarensis
 González	Sp00	González
 González Manchón	Sp00	González Manchón
@@ -18189,6 +18344,10 @@ H. T. M. L.	Zgfs	H. T. M. L.
 H. T. T. P.	Zg00	H. T. T. P.	
 H. T. T. P.	Zgms	H. T. T. P.	
 H. U. N. O. S. A.	Zg00	H. U. N. O. S. A.	
+H. contortus	Snaa	H. contortus	Haemonchus contortus
+H. elongata	Snaa	H. elongata	Himanthalia elongata
+H. guttulatus	Snaa	H. guttulatus	Hippocampus guttulatus
+H. sapiens	Snaa	H. sapiens	Homo sapiens
 Habana	Sp00	Habana
 Habenaria ciliaris	Snaa	Habenaria ciliaris	Habenaria ciliaris
 Habenaria repens	Snaa	Habenaria repens	Habenaria repens
@@ -18310,6 +18469,7 @@ Haliclona oculata	Snaa	Haliclona oculata	Haliclona oculata
 Haliclystus antarcticus	Snaa	Haliclystus antarcticus	Haliclystus antarcticus
 Halictus ligatus	Snaa	Halictus ligatus	Halictus ligatus
 Halictus rubicundus	Snaa	Halictus rubicundus	Halictus rubicundus
+Halidrys siliquosa	Snaa	Halidrys siliquosa	Halidrys siliquosa
 Halimium sp.	Snaa	Halimium sp.	Halimium sp.
 Halimochirus uradoi	Snaa	Halimochirus uradoi	Halimochirus uradoi
 Haliotis asinina	Snaa	Haliotis asinina	Haliotis asinina
@@ -18536,6 +18696,8 @@ Helianthus tuberosus	Snaa	Helianthus tuberosus	Helianthus tuberosus
 Helichrysum foetidum	Snaa	Helichrysum foetidum	Helichrysum foetidum
 Helichrysum italicum	Snaa	Helichrysum italicum	Helichrysum italicum
 Helichrysum petiolare	Snaa	Helichrysum petiolare	Helichrysum petiolare
+Helichrysum picardii	Snaa	Helichrysum picardii	Helichrysum picardii
+Helichrysum picardii variedade virescens	Snaa	Helichrysum picardii variedade virescens	Helichrysum serotinum subsp. picardii
 Helicobacter acinonychis	Snaa	Helicobacter acinonychis	Helicobacter acinonychis
 Helicobacter acinonyx	Snaa	Helicobacter acinonyx	Helicobacter acinonyx
 Helicobacter bizzozeronii	Snaa	Helicobacter bizzozeronii	Helicobacter bizzozeronii
@@ -18873,6 +19035,7 @@ Heteroxenia fuscescens	Snaa	Heteroxenia fuscescens	Heteroxenia fuscescens
 Heuchera micrantha	Snaa	Heuchera micrantha	Heuchera micrantha
 Heuchera sanguinea	Snaa	Heuchera sanguinea	Heuchera sanguinea
 Hevea brasiliensis	Snaa	Hevea brasiliensis	Hevea brasiliensis
+Hevea brasillensis	Snaa	Hevea brasillensis	Hevea brasillensis
 Hexacentris mysorensis	Snaa	Hexacentris mysorensis	Hexacentris mysorensis
 Hexagenia atrocaudata	Snaa	Hexagenia atrocaudata	Hexagenia atrocaudata
 Hexagenia limbata	Snaa	Hexagenia limbata	Hexagenia limbata
@@ -18880,6 +19043,7 @@ Hexagenia rigida	Snaa	Hexagenia rigida	Hexagenia rigida
 Hexagrammos otakii	Snaa	Hexagrammos otakii	Hexagrammos otakii
 Hexamita muris	Snaa	Hexamita muris	Hexamita muris
 Hexanchus griseus	Snaa	Hexanchus griseus	Hexanchus griseus
+Hexaples trunculus	Snaa	Hexaples trunculus	Hexaplex trunculus
 Hexaplex trunculus	Snaa	Hexaplex trunculus	Hexaplex trunculus
 Hexaprotodon liberiensis	Snaa	Hexaprotodon liberiensis	Hexaprotodon liberiensis
 Hexophthalma dolichocephala	Snaa	Hexophthalma dolichocephala	Hexophthalma dolichocephala
@@ -18905,6 +19069,7 @@ Hilary Clinton	Spf0	Hilary Clinton
 Hilary Swank	Spf0	Hilary Swank
 Hillary Clinton	Spf0	Hillary Clinton
 Hilsa kelee	Snaa	Hilsa kelee	Hilsa kelee
+Himanthalia elongata	Snaa	Himanthalia elongata	Himanthalia elongata
 Himantolophus albinares	Snaa	Himantolophus albinares	Himantolophus albinares
 Himantolophus groenlandicus	Snaa	Himantolophus groenlandicus	Himantolophus groenlandicus
 Himantopus himantopus	Snaa	Himantopus himantopus	Himantopus himantopus
@@ -18959,6 +19124,7 @@ Hippolais icterina	Snaa	Hippolais icterina	Hippolais icterina
 Hippolais polyglotta	Snaa	Hippolais polyglotta	Hippolais polyglotta
 Hippolyte antarctica	Snaa	Hippolyte antarctica	Hippolyte antarctica
 Hipponoe jeffreysii	Snaa	Hipponoe jeffreysii	Hipponoe jeffreysii
+Hippophae rhamnoides	Snaa	Hippophae rhamnoides	Hippophae rhamnoides
 Hippopotamus amphibius	Snaa	Hippopotamus amphibius	Hippopotamus amphibius
 Hipposideros abae	Snaa	Hipposideros abae	Hipposideros abae
 Hipposideros armiger terasensis	Snaa	Hipposideros armiger terasensis	Hipposideros armiger terasensis
@@ -19068,6 +19234,7 @@ Holothuria arguinensis	Snaa	Holothuria arguinensis	Holothuria arguinensis
 Holothuria atra	Snaa	Holothuria atra	Holothuria atra
 Holothuria edulis	Snaa	Holothuria edulis	Holothuria edulis
 Holothuria floridana	Snaa	Holothuria floridana	Holothuria floridana
+Holothuria forskali	Snaa	Holothuria forskali	Holothuria forskali
 Holothuria frondosa	Snaa	Holothuria frondosa	Holothuria frondosa
 Holothuria fuscogilva	Snaa	Holothuria fuscogilva	Holothuria fuscogilva
 Holothuria fuscopunctata	Snaa	Holothuria fuscopunctata	Holothuria fuscopunctata
@@ -19125,6 +19292,7 @@ Homopholis antongilensis	Snaa	Homopholis antongilensis	Homopholis antongilensis
 Homorocoryphus dubius	Snaa	Homorocoryphus dubius	Homorocoryphus dubius
 Homoroselaps lacteus	Snaa	Homoroselaps lacteus	Homoroselaps lacteus
 Homostichanthus duerdeni	Snaa	Homostichanthus duerdeni	Homostichanthus duerdeni
+Honckenya peploides	Snaa	Honckenya peploides	Honckenya peploides
 Hong Kong	Sp00	Hong Kong
 Hongeo koreana	Snaa	Hongeo koreana	Hongeo koreana
 Honorina	Spf0	Honorina
@@ -19149,6 +19317,7 @@ Hoplocercus annularis	Snaa	Hoplocercus annularis	Hoplocercus annularis
 Hoplocercus spinosus	Snaa	Hoplocercus spinosus	Hoplocercus spinosus
 Hoplocoryphella grandis	Snaa	Hoplocoryphella grandis	Hoplocoryphella grandis
 Hoplomys gymnurus	Snaa	Hoplomys gymnurus	Hoplomys gymnurus
+Hoploplana elisabelloi	Snaa	Hoploplana elisabelloi	Hoploplana elisabelloi
 Hoplopterus spinosus	Snaa	Hoplopterus spinosus	Hoplopterus spinosus
 Hoplosternum littorale	Snaa	Hoplosternum littorale	Hoplosternum littorale
 Hoplostethus atlanticus	Snaa	Hoplostethus atlanticus	Hoplostethus atlanticus
@@ -19238,6 +19407,7 @@ Hupercia selago	Snaa	Hupercia selago	Huperzia selago
 Huperzia drummondii	Snaa	Huperzia drummondii	Huperzia drummondii
 Huperzia lucidula	Snaa	Huperzia lucidula	Huperzia lucidula
 Huperzia selago	Snaa	Huperzia selago	Huperzia selago
+Huperzia selago (L.) Bernh. ex Schrank & C.F.P. Mart.	Snaa	Huperzia selago (L.) Bernh. ex Schrank & C.F.P. Mart.	Huperzia selago
 Hurtado	Sp00	Hurtado
 Huso dauricus	Snaa	Huso dauricus	Huso dauricus
 Huso huso	Snaa	Huso huso	Huso huso
@@ -19308,6 +19478,7 @@ Hydrocharis morsusranae	Snaa	Hydrocharis morsusranae	Hydrocharis morsusranae
 Hydrochoerus hydrochaeris	Snaa	Hydrochoerus hydrochaeris	Hydrochoerus hydrochaeris
 Hydrocoloeus minutus	Snaa	Hydrocoloeus minutus	Hydrocoloeus minutus
 Hydrocotyle verticillata	Snaa	Hydrocotyle verticillata	Hydrocotyle verticillata
+Hydrocotyle vulgaris	Snaa	Hydrocotyle vulgaris	Hydrocotyle vulgaris
 Hydrocynus brasiliensis	Snaa	Hydrocynus brasiliensis	Hydrocynus brasiliensis
 Hydrodamalis gigas	Snaa	Hydrodamalis gigas	Hydrodamalis gigas
 Hydrodictyon reticulatum	Snaa	Hydrodictyon reticulatum	Hydrodictyon reticulatum
@@ -19983,7 +20154,7 @@ I. g. a. e. m.	Zg00	I. g. a. e. m.
 I. g. a. e. m.	Zgms	I. g. a. e. m.	
 I. g. a. p. e.	Zg00	I. g. a. p. e.	
 I. g. a. p. e.	Zgms	I. g. a. p. e.	
-I. longissimum	Snaa	I. longissimum	I. longissimum
+I. longissimum	Snaa	I. longissimum	Isoetes longissimum
 I. m. s. e. r. s. o.	Zg00	I. m. s. e. r. s. o.	
 I. m. s. e. r. s. o.	Zgms	I. m. s. e. r. s. o.	
 I. n. e. g. a.	Zg00	I. n. e. g. a.	
@@ -20006,6 +20177,7 @@ Iberia	Sp00	Iberia
 Iberia 6402 Madrid-México	Sp00	Iberia 6402 Madrid-México
 Iberis amara	Snaa	Iberis amara	Iberis amara
 Iberoamérica	Sp00	Iberoamérica
+Iberolacerta monticola	Snaa	Iberolacerta monticola	Iberolacerta monticola
 Ibicella lutea	Snaa	Ibicella lutea	Ibicella lutea
 Ibidium vernale	Snaa	Ibidium vernale	Ibidium vernale
 Ibiza	Sp00	Ibiza
@@ -20817,6 +20989,7 @@ Juncus campestris var. multiflorus	Snaa	Juncus campestris var. multiflorus	Juncu
 Juncus conglomeratus	Snaa	Juncus conglomeratus	Juncus conglomeratus
 Juncus effusus	Snaa	Juncus effusus	Juncus effusus
 Juncus effusus var. conglomeratus	Snaa	Juncus effusus var. conglomeratus	Juncus effusus var. conglomeratus
+Juncus maritimus	Snaa	Juncus maritimus	Juncus maritimus
 Juncus sp.	Snaa	Juncus sp.	Juncus sp.
 Juncus squarrosus	Snaa	Juncus squarrosus	Juncus squarrosus
 Jungermannia dilatata	Snaa	Jungermannia dilatata	Jungermannia dilatata
@@ -20871,6 +21044,7 @@ K. K. K.	Zgms	K. K. K.
 K. P. A.	Zg00	K. P. A.	
 K. P. A.	Zgfs	K. P. A.	
 K. Raikkonen	Sp00	K. Raikkonen
+K. pneumoniae	Snaa	K. pneumoniae	Klebsiella pneumoniae
 Kadsura chinensis	Snaa	Kadsura chinensis	Kadsura chinensis
 Kaempferia decora	Snaa	Kaempferia decora	Kaempferia decora
 Kaempferia galanga	Snaa	Kaempferia galanga	Kaempferia galanga
@@ -20960,6 +21134,7 @@ Kitasatospora kifunensis	Snaa	Kitasatospora kifunensis	Kitasatospora kifunensis
 Kiwa tyleri	Snaa	Kiwa tyleri	Kiwa tyleri
 Kladothrips rugosus	Snaa	Kladothrips rugosus	Kladothrips rugosus
 Klainedoxa gabonensis	Snaa	Klainedoxa gabonensis	Klainedoxa gabonensis
+Klebisella pneumoniae	Snaa	Klebisella pneumoniae	Klebsiella pneumoniae
 Klebsiella aerogenes	Snaa	Klebsiella aerogenes	Klebsiella aerogenes
 Klebsiella ornithinolytica	Snaa	Klebsiella ornithinolytica	Klebsiella ornithinolytica
 Klebsiella oxytoca	Snaa	Klebsiella oxytoca	Klebsiella oxytoca
@@ -21172,13 +21347,16 @@ L. X. C. A.	Zg00	L. X. C. A.
 L. X. C. A.	Zgfs	L. X. C. A.	
 L. X. T.	Zg00	L. X. T.	
 L. X. T.	Zgfs	L. X. T.	
-L. littoralis	Snaa	L. littoralis	L. littoralis
+L. fabalis	Snaa	L. fabalis	Littorina fabalis
+L. hyperborea	Snaa	L. hyperborea	Laminaria hyperborea
+L. littoralis	Snaa	L. littoralis	Littorina littoralis
 L. lutraria	Snaa	L. lutraria	L. lutraria
 L. magna	Snaa	L. magna	L. magna
 L. o. r. e. x.	Zg00	L. o. r. e. x.	
 L. o. r. e. x.	Zgfs	L. o. r. e. x.	
 L. o. s. e. n.	Zg00	L. o. s. e. n.	
 L. o. s. e. n.	Zgfs	L. o. s. e. n.	
+L. ochroleuca	Snaa	L. ochroleuca	Laminaria ochroleuca
 L. saxatilis	Snaa	L. saxatilis	L. saxatilis
 L. vulgaris	Snaa	L. vulgaris	L. vulgaris
 La Caixa	Sp00	La Caixa
@@ -21231,11 +21409,13 @@ Lacerta lemniscata	Snaa	Lacerta lemniscata	Lacerta lemniscata
 Lacerta lepida	Snaa	Lacerta lepida	Lacerta lepida
 Lacerta maculatum	Snaa	Lacerta maculatum	Lacerta maculatum
 Lacerta mauritanica	Snaa	Lacerta mauritanica	Lacerta mauritanica
+Lacerta monticola	Snaa	Lacerta monticola	Iberolacerta monticola
 Lacerta muralis	Snaa	Lacerta muralis	Lacerta muralis
 Lacerta muricata	Snaa	Lacerta muricata	Lacerta muricata
 Lacerta mystacea	Snaa	Lacerta mystacea	Lacerta mystacea
 Lacerta peloponnesiaca	Snaa	Lacerta peloponnesiaca	Lacerta peloponnesiaca
 Lacerta saxicola	Snaa	Lacerta saxicola	Lacerta saxicola
+Lacerta schreiberi	Snaa	Lacerta schreiberi	Lacerta schreiberi
 Lacerta tiliguerta	Snaa	Lacerta tiliguerta	Lacerta tiliguerta
 Lacerta viridis	Snaa	Lacerta viridis	Lacerta viridis
 Lacerta vivipara	Snaa	Lacerta vivipara	Lacerta vivipara
@@ -21257,6 +21437,7 @@ Lacrimispora saccharolytica	Snaa	Lacrimispora saccharolytica	Lacrimispora saccha
 Lactarius blennius	Snaa	Lactarius blennius	Lactarius blennius
 Lactarius chrysorrheus	Snaa	Lactarius chrysorrheus	Lactarius chrysorrheus
 Lactarius deceptivus	Snaa	Lactarius deceptivus	Lactarius deceptivus
+Lactarius deliciosus	Snaa	Lactarius deliciosus	Lactarius deliciosus
 Lactarius deterrimus	Snaa	Lactarius deterrimus	Lactarius deterrimus
 Lactarius indigo	Snaa	Lactarius indigo	Lactarius indigo
 Lactarius lactarius	Snaa	Lactarius lactarius	Lactarius lactarius
@@ -21331,6 +21512,7 @@ Lagenorhynchus electra	Snaa	Lagenorhynchus electra	Lagenorhynchus electra
 Lagenorhynchus obliquidens	Snaa	Lagenorhynchus obliquidens	Lagenorhynchus obliquidens
 Lagenorhynchus obscurus	Snaa	Lagenorhynchus obscurus	Lagenorhynchus obscurus
 Lagerstroemia speciosa	Snaa	Lagerstroemia speciosa	Lagerstroemia speciosa
+Lagocephalus laevigatus	Snaa	Lagocephalus laevigatus	Lagocephalus laevigatus
 Lagocephalus lagocephalus	Snaa	Lagocephalus lagocephalus	Lagocephalus lagocephalus
 Lagocephalus lagocephalus lagocephalus	Snaa	Lagocephalus lagocephalus lagocephalus	Lagocephalus lagocephalus lagocephalus
 Lagodon rhomboides	Snaa	Lagodon rhomboides	Lagodon rhomboides
@@ -21480,6 +21662,7 @@ Larix laricina	Snaa	Larix laricina	Larix laricina
 Larix occidentalis	Snaa	Larix occidentalis	Larix occidentalis
 Larrea tridentata	Snaa	Larrea tridentata	Larrea tridentata
 Larryleachia cactiformis	Snaa	Larryleachia cactiformis	Larryleachia cactiformis
+Larus Michahellis	Snaa	Larus Michahellis	Larus michahellis
 Larus argentatus	Snaa	Larus argentatus	Larus argentatus
 Larus atricilla	Snaa	Larus atricilla	Larus atricilla
 Larus audouinii	Snaa	Larus audouinii	Larus audouinii
@@ -21887,6 +22070,8 @@ Lepilemur seali	Snaa	Lepilemur seali	Lepilemur seali
 Lepilemur septentrionalis	Snaa	Lepilemur septentrionalis	Lepilemur septentrionalis
 Lepilemur septentrionalis ankaranensis	Snaa	Lepilemur septentrionalis ankaranensis	Lepilemur septentrionalis ankaranensis
 Lepiopomus miniatus	Snaa	Lepiopomus miniatus	Lepiopomus miniatus
+Lepiota brunneoincarnata	Snaa	Lepiota brunneoincarnata	Lepiota brunneoincarnata
+Lepiota brunnioencarnata	Snaa	Lepiota brunnioencarnata	Lepiota brunneoincarnata
 Lepiota magnispora	Snaa	Lepiota magnispora	Lepiota magnispora
 Lepiota molybdites	Snaa	Lepiota molybdites	Lepiota molybdites
 Lepiota ventriosospora	Snaa	Lepiota ventriosospora	Lepiota ventriosospora
@@ -22321,6 +22506,7 @@ Linfanxitis ulcerosa	Snaa	Linfanxitis ulcerosa	Linfanxitis ulcerosa
 Lingula reevii	Snaa	Lingula reevii	Lingula reevii
 Lingula unguis	Snaa	Lingula unguis	Lingula unguis
 Lingulodinium polyedra	Snaa	Lingulodinium polyedra	Lingulodinium polyedra
+Lingulodinium polyedrum	Snaa	Lingulodinium polyedrum	Lingulodinium polyedrum
 Linnaea amabilis	Snaa	Linnaea amabilis	Linnaea amabilis
 Linnaea borealis	Snaa	Linnaea borealis	Linnaea borealis
 Lino	Spm0	Lino
@@ -22442,9 +22628,11 @@ Lithognathus mormyrus	Snaa	Lithognathus mormyrus	Lithognathus mormyrus
 Lithognathus spp	Snaa	Lithognathus spp	Lithognathus spp
 Lithophaga lithophaga	Snaa	Lithophaga lithophaga	Lithophaga lithophaga
 Lithophyllon concinna	Snaa	Lithophyllon concinna	Lithophyllon concinna
+Lithoplocamia lithistoides	Snaa	Lithoplocamia lithistoides	Lithoplocamia lithistoides
 Lithospermum erythrorhizon	Snaa	Lithospermum erythrorhizon	Lithospermum erythrorhizon
 Lithospermum officinale var. erythrorhizon	Snaa	Lithospermum officinale var. erythrorhizon	Lithospermum officinale var. erythrorhizon
 Lithospermun postratum	Snaa	Lithospermun postratum	Lithospermun postratum
+Lithothamnion coralioides	Snaa	Lithothamnion coralioides	Lithothamnion corallioides
 Litocranius walleri	Snaa	Litocranius walleri	Litocranius walleri
 Litomosoides carinii	Snaa	Litomosoides carinii	Litomosoides carinii
 Litomosoides sigmodontis	Snaa	Litomosoides sigmodontis	Litomosoides sigmodontis
@@ -22474,6 +22662,7 @@ Litoria rubella	Snaa	Litoria rubella	Litoria rubella
 Litoria splendida	Snaa	Litoria splendida	Litoria splendida
 Litoria xanthomera	Snaa	Litoria xanthomera	Litoria xanthomera
 Litorina littorea	Snaa	Litorina littorea	Littorina littorea
+Littorina fabalis	Snaa	Littorina fabalis	Littorina fabalis
 Littorina littoralis	Snaa	Littorina littoralis	Littorina littoralis
 Littorina littorea	Snaa	Littorina littorea	Littorina littorea
 Littorina obtusata	Snaa	Littorina obtusata	Littorina obtusata
@@ -22498,6 +22687,7 @@ Liza ramada	Snaa	Liza ramada	Liza ramada
 Liza richardsonii	Snaa	Liza richardsonii	Liza richardsonii
 Liza saliens	Snaa	Liza saliens	Liza saliens
 Lizarra	Sp00	Lizarra
+Lizzia alvarinoae	Snaa	Lizzia alvarinoae	Lizzia alvarinoae
 Llamazares	Sp00	Llamazares
 Lleida	Sp00	Lleida
 Lluch	Sp00	Lluch
@@ -22673,6 +22863,7 @@ Lopha Stentina	Snaa	Lopha Stentina	Lopha stentina
 Lopha cristagalli	Snaa	Lopha cristagalli	Lopha cristagalli
 Lopha stentina	Snaa	Lopha stentina	Lopha stentina
 Lophanthus rugosus	Snaa	Lophanthus rugosus	Lophanthus rugosus
+Lophelia pertusa	Snaa	Lophelia pertusa	Lophelia pertusa
 Lophiidae	Snaa	Lophiidae	Lophiidae
 Lophiodes caulinaris	Snaa	Lophiodes caulinaris	Lophiodes caulinaris
 Lophiomus caulinaris	Snaa	Lophiomus caulinaris	Lophiomus caulinaris
@@ -23313,7 +23504,7 @@ M. bovis	Snaa	M. bovis	M. bovis
 M. crassitesta	Snaa	M. crassitesta	M. crassitesta
 M. e. r. c. o. s. u. r.	Zg00	M. e. r. c. o. s. u. r.	
 M. e. r. c. o. s. u. r.	Zgms	M. e. r. c. o. s. u. r.	
-M. edulis	Snaa	M. edulis	M. edulis
+M. edulis	Snaa	M. edulis	Mytilus edulis
 M. galloprovincialis	Snaa	M. galloprovincialis	M. galloprovincialis
 M. i. b. o. r.	Zg00	M. i. b. o. r.	
 M. í. b. o. r.	Zg00	M. í. b. o. r.	
@@ -23413,7 +23604,10 @@ Macroglossa erato	Snaa	Macroglossa erato	Macroglossa erato
 Macroglossum stellatarum	Snaa	Macroglossum stellatarum	Macroglossum stellatarum
 Macroglossus minimus	Snaa	Macroglossus minimus	Macroglossus minimus
 Macroglossus spelaeus	Snaa	Macroglossus spelaeus	Macroglossus spelaeus
+Macrolepiota phaeodisca	Snaa	Macrolepiota phaeodisca	Macrolepiota phaeodisca
 Macrolepiota procera	Snaa	Macrolepiota procera	Macrolepiota procera
+Macrolepiota rachodes	Snaa	Macrolepiota rachodes	Macrolepiota rhacodes
+Macrolepiota rhacodes	Snaa	Macrolepiota rhacodes	Macrolepiota rhacodes
 Macronectes giganteus	Snaa	Macronectes giganteus	Macronectes giganteus
 Macronectes giganteus halli	Snaa	Macronectes giganteus halli	Macronectes giganteus halli
 Macronectes halli	Snaa	Macronectes halli	Macronectes halli
@@ -23497,6 +23691,7 @@ Madrepora angulosa	Snaa	Madrepora angulosa	Madrepora angulosa
 Madrepora dianthus	Snaa	Madrepora dianthus	Madrepora dianthus
 Madrepora fragum	Snaa	Madrepora fragum	Madrepora fragum
 Madrepora limax	Snaa	Madrepora limax	Madrepora limax
+Madrepora oculata	Snaa	Madrepora oculata	Madrepora oculata
 Madrepora peltata	Snaa	Madrepora peltata	Madrepora peltata
 Madrepora serailia	Snaa	Madrepora serailia	Madrepora serailia
 Madrid	Sp00	Madrid
@@ -23647,6 +23842,7 @@ Manolo	Spm0	Manolo
 Manorina melanocephala	Snaa	Manorina melanocephala	Manorina melanocephala
 Mans Unidas	Sp00	Mans Unidas
 Mans Unidas de Santiago	Sp00	Mans Unidas de Santiago
+Mansa galega	Snaa	Mansa galega	Mansa galega
 Manta alfredi	Snaa	Manta alfredi	Manta alfredi
 Manta birostris	Snaa	Manta birostris	Manta birostris
 Manta spp	Snaa	Manta spp	Manta spp
@@ -23682,8 +23878,11 @@ Mar Iglesias	Spf0	Mar Iglesias
 Maragall	Sp00	Maragall
 Maranta bicolor	Snaa	Maranta bicolor	Maranta bicolor
 Maranta galanga	Snaa	Maranta galanga	Maranta galanga
+Marasmiellus ciesianus	Snaa	Marasmiellus ciesianus	Marasmiellus ciesianus
+Marasmiellus mesosporus Singer 	Snaa	Marasmiellus mesosporus Singer 	Marasmiellus mesosporus
 Marasmius perniciosus	Snaa	Marasmius perniciosus	Marasmius perniciosus
 Marasmius scorodonius	Snaa	Marasmius scorodonius	Marasmius scorodonius
+Marasmus oreades	Snaa	Marasmus oreades	Marasmius oreades
 Marathrum schiedeanum	Snaa	Marathrum schiedeanum	Marathrum schiedeanum
 Maratus rainbowi	Snaa	Maratus rainbowi	Maratus rainbowi
 Maratus splendens	Snaa	Maratus splendens	Maratus splendens
@@ -23774,6 +23973,7 @@ Marinobacter hydrocarbonoclasticus	Snaa	Marinobacter hydrocarbonoclasticus	Marin
 Marinococcus halophilus	Snaa	Marinococcus halophilus	Marinococcus halophilus
 Mario	Spm0	Mario
 Marion King Hubber rober	Spf0	Marion King Hubber rober
+Marionia gemmi	Snaa	Marionia gemmi	Marionia gemmi
 Marisa	Spf0	Marisa
 Marisa Alén	Spf0	Marisa Alén
 Marisa Gil	Spf0	Marisa Gil
@@ -23906,6 +24106,7 @@ Mastigoproctus giganteus	Snaa	Mastigoproctus giganteus	Mastigoproctus giganteus
 Mastocarpus corymbiferus	Snaa	Mastocarpus corymbiferus	Mastocarpus corymbiferus
 Mastocarpus harveyanus	Snaa	Mastocarpus harveyanus	Mastocarpus harveyanus
 Mastocarpus spinosus	Snaa	Mastocarpus spinosus	Mastocarpus spinosus
+Mastocarpus stelatus	Snaa	Mastocarpus stelatus	Mastocarpus stellatus
 Mastocarpus stellatus	Snaa	Mastocarpus stellatus	Mastocarpus stellatus
 Mastocarpus stiriatus	Snaa	Mastocarpus stiriatus	Mastocarpus stiriatus
 Mastomys coucha	Snaa	Mastomys coucha	Mastomys coucha
@@ -23927,6 +24128,7 @@ Matteuccia struthiopteris	Snaa	Matteuccia struthiopteris	Matteuccia struthiopter
 Matthiola incana	Snaa	Matthiola incana	Matthiola incana
 Matthiola tricuspidata	Snaa	Matthiola tricuspidata	Matthiola tricuspidata
 Matutes	Sp00	Matutes
+Mauremys leprosa	Snaa	Mauremys leprosa	Mauremys leprosa
 Mauremys reevesii	Snaa	Mauremys reevesii	Mauremys reevesii
 Mauricio	Spm0	Mauricio
 Mauro	Spm0	Mauro
@@ -24258,12 +24460,15 @@ Mentha diemenica	Snaa	Mentha diemenica	Mentha diemenica
 Mentha gracilis	Snaa	Mentha gracilis	Mentha gracilis
 Mentha longifolia	Snaa	Mentha longifolia	Mentha longifolia
 Mentha piperata	Snaa	Mentha piperata	Mentha piperata
+Mentha piperata L.	Snaa	Mentha piperata L.	Mentha piperata
 Mentha piperita	Snaa	Mentha piperita	Mentha piperita
 Mentha pulegium	Snaa	Mentha pulegium	Mentha pulegium
 Mentha requienii	Snaa	Mentha requienii	Mentha requienii
 Mentha rothundifolia	Snaa	Mentha rothundifolia	Mentha rothundifolia
+Mentha rothundifolia (L.) Hudson	Snaa	Mentha rothundifolia (L.) Hudson	Mentha rotundifolia
 Mentha rotundifolia	Snaa	Mentha rotundifolia	Mentha rotundifolia
 Mentha sativa	Snaa	Mentha sativa	Mentha sativa
+Mentha sativa L.	Snaa	Mentha sativa L.	Mentha sativa
 Mentha satureioides	Snaa	Mentha satureioides	Mentha satureioides
 Mentha spicata	Snaa	Mentha spicata	Mentha spicata
 Mentha spicata var. longifolia	Snaa	Mentha spicata var. longifolia	Mentha spicata var. longifolia
@@ -24366,6 +24571,7 @@ Mesoclemmys nasuta	Snaa	Mesoclemmys nasuta	Mesoclemmys nasuta
 Mesocricetus auratus	Snaa	Mesocricetus auratus	Mesocricetus auratus
 Mesocricetus brandti	Snaa	Mesocricetus brandti	Mesocricetus brandti
 Mesodesma donacium	Snaa	Mesodesma donacium	Mesodesma donacium
+Mesodinium rubrum	Snaa	Mesodinium rubrum	Mesodinium rubrum
 Mesodontrachia fitzroyana	Snaa	Mesodontrachia fitzroyana	Mesodontrachia fitzroyana
 Mesomexovis subcristatus	Snaa	Mesomexovis subcristatus	Mesomexovis subcristatus
 Mesomys hispidus	Snaa	Mesomys hispidus	Mesomys hispidus
@@ -24413,6 +24619,7 @@ Metacarcinus magister	Snaa	Metacarcinus magister	Metacarcinus magister
 Metachirus nudicaudatus	Snaa	Metachirus nudicaudatus	Metachirus nudicaudatus
 Metacordyceps chlamydosporia	Snaa	Metacordyceps chlamydosporia	Metacordyceps chlamydosporia
 Metacrinia nichollsi	Snaa	Metacrinia nichollsi	Metacrinia nichollsi
+Metagryne bicolumnata	Snaa	Metagryne bicolumnata	Metagryne bicolumnata
 Metajapyx subterraneus	Snaa	Metajapyx subterraneus	Metajapyx subterraneus
 Metallina lampros	Snaa	Metallina lampros	Metallina lampros
 Metallosphaera prunae	Snaa	Metallosphaera prunae	Metallosphaera prunae
@@ -24663,6 +24870,7 @@ Microcosmus vulgaris	Snaa	Microcosmus vulgaris	Microcosmus vulgaris
 Microcotyle sebastis	Snaa	Microcotyle sebastis	Microcotyle sebastis
 Microctonus hyperodae	Snaa	Microctonus hyperodae	Microctonus hyperodae
 Microcycas calocoma	Snaa	Microcycas calocoma	Microcycas calocoma
+Microcystis Aeruginosa	Snaa	Microcystis Aeruginosa	Microcystis aeruginosa
 Microcystis aeruginosa	Snaa	Microcystis aeruginosa	Microcystis aeruginosa
 Microcystis viridis	Snaa	Microcystis viridis	Microcystis viridis
 Microdipodops megacephalus	Snaa	Microdipodops megacephalus	Microdipodops megacephalus
@@ -24940,6 +25148,8 @@ Miquel Iceta	Spm0	Miquel Iceta
 Mir	Spms	Mir
 Mira Lema	Spf0	Mira Lema
 Mirabilis jalapa	Snaa	Mirabilis jalapa	Mirabilis jalapa
+Mirabilis jalappa	Snaa	Mirabilis jalappa	Mirabilis jalappa
+Mirabilis jalappa L.	Snaa	Mirabilis jalappa L.	Mirabilis jalappa
 Mirabilis nyctaginea	Snaa	Mirabilis nyctaginea	Mirabilis nyctaginea
 Miracorvina angolensis	Snaa	Miracorvina angolensis	Miracorvina angolensis
 Miramella alpina	Snaa	Miramella alpina	Miramella alpina
@@ -25499,6 +25709,7 @@ Mycale laxissima	Snaa	Mycale laxissima	Mycale laxissima
 Mycalesis mineus	Snaa	Mycalesis mineus	Mycalesis mineus
 Myceliophthora thermophila	Snaa	Myceliophthora thermophila	Myceliophthora thermophila
 Mycena epipterygia	Snaa	Mycena epipterygia	Mycena epipterygia
+Mycena rubromarginata	Snaa	Mycena rubromarginata	Mycena rubromarginata
 Mycena viridimarginata	Snaa	Mycena viridimarginata	Mycena viridimarginata
 Mycetinis scorodonius	Snaa	Mycetinis scorodonius	Mycetinis scorodonius
 Mycetohabitans rhizoxinica	Snaa	Mycetohabitans rhizoxinica	Mycetohabitans rhizoxinica
@@ -25677,6 +25888,7 @@ Myotis daubentonii	Snaa	Myotis daubentonii	Myotis daubentonii
 Myotis davidii	Snaa	Myotis davidii	Myotis davidii
 Myotis dominicensis	Snaa	Myotis dominicensis	Myotis dominicensis
 Myotis emarginatus	Snaa	Myotis emarginatus	Myotis emarginatus
+Myotis escalerai	Snaa	Myotis escalerai	Myotis escalerai
 Myotis evotis	Snaa	Myotis evotis	Myotis evotis
 Myotis formosus	Snaa	Myotis formosus	Myotis formosus
 Myotis frater	Snaa	Myotis frater	Myotis frater
@@ -25733,6 +25945,7 @@ Myrichthys maculosus	Snaa	Myrichthys maculosus	Myrichthys maculosus
 Myrichthys ocellatus	Snaa	Myrichthys ocellatus	Myrichthys ocellatus
 Myriochila fastidiosa	Snaa	Myriochila fastidiosa	Myriochila fastidiosa
 Myriochila undulata	Snaa	Myriochila undulata	Myriochila undulata
+Myriophyllum aquaticum	Snaa	Myriophyllum aquaticum	Myriophyllum aquaticum
 Myriopteris lanosa	Snaa	Myriopteris lanosa	Myriopteris lanosa
 Myriopteris lindheimeri	Snaa	Myriopteris lindheimeri	Myriopteris lindheimeri
 Myripristis berndti	Snaa	Myripristis berndti	Myripristis berndti
@@ -25778,6 +25991,7 @@ Mysis relicta	Snaa	Mysis relicta	Mysis relicta
 Mysis salemaai	Snaa	Mysis salemaai	Mysis salemaai
 Mystacides interjectus	Snaa	Mystacides interjectus	Mystacides interjectus
 Mystacina tuberculata	Snaa	Mystacina tuberculata	Mystacina tuberculata
+Mystrium camillae	Snaa	Mystrium camillae	Mystrium camillae
 Mystromys albicaudatus	Snaa	Mystromys albicaudatus	Mystromys albicaudatus
 Mystus bleekeri	Snaa	Mystus bleekeri	Mystus bleekeri
 Mystus cavasius	Snaa	Mystus cavasius	Mystus cavasius
@@ -25810,6 +26024,7 @@ Mytilus sp.	Snaa	Mytilus sp.	Mytilus sp.
 Mytilus spp	Snaa	Mytilus spp	Mytilus spp
 Mytilus trossulus	Snaa	Mytilus trossulus	Mytilus trossulus
 Mytilus viridis	Snaa	Mytilus viridis	Mytilus viridis
+Mytilusgallo provincialis	Snaa	Mytilusgallo provincialis	Mytilus galloprovincialis
 Myurella affinis	Snaa	Myurella affinis	Myurella affinis
 Myurella nebulosa	Snaa	Myurella nebulosa	Myurella nebulosa
 Myxicola infundibulum	Snaa	Myxicola infundibulum	Myxicola infundibulum
@@ -25981,18 +26196,22 @@ Nápoles	Sp00	Nápoles
 Narceus annularis	Snaa	Narceus annularis	Narceus annularis
 Narcine entemedor	Snaa	Narcine entemedor	Narcine entemedor
 Narciso	Spm0	Narciso
+Narcissus asturienses	Snaa	Narcissus asturienses	Narcissus asturiensis
 Narcissus asturiensis	Snaa	Narcissus asturiensis	Narcissus asturiensis
 Narcissus bulbocodium	Snaa	Narcissus bulbocodium	Narcissus bulbocodium
 Narcissus cavanillesii	Snaa	Narcissus cavanillesii	Narcissus cavanillesii
+Narcissus cyclamineus	Snaa	Narcissus cyclamineus	Narcissus cyclamineus
 Narcissus elegans	Snaa	Narcissus elegans	Narcissus elegans
 Narcissus jonquilla	Snaa	Narcissus jonquilla	Narcissus jonquilla
 Narcissus odorus	Snaa	Narcissus odorus	Narcissus odorus
 Narcissus papyraceus	Snaa	Narcissus papyraceus	Narcissus papyraceus
 Narcissus pseudonarcissus	Snaa	Narcissus pseudonarcissus	Narcissus pseudonarcissus
+Narcissus pseudonarcissus nobilis	Snaa	Narcissus pseudonarcissus nobilis	Narcissus pseudonarcissus nobilis
 Narcissus rupicola	Snaa	Narcissus rupicola	Narcissus rupicola
 Narcissus serotinus	Snaa	Narcissus serotinus	Narcissus serotinus
 Narcissus sp.	Snaa	Narcissus sp.	Narcissus sp.
 Narcissus tazetta	Snaa	Narcissus tazetta	Narcissus tazetta
+Narcissus x Dezanus	Snaa	Narcissus x Dezanus	Narcissus x Dezanus
 Nardoa novaecaledoniae	Snaa	Nardoa novaecaledoniae	Nardoa novaecaledoniae
 Nardosmia japonica	Snaa	Nardosmia japonica	Nardosmia japonica
 Nardus stricta	Snaa	Nardus stricta	Nardus stricta
@@ -26159,6 +26378,7 @@ Neochauliodes bowringi	Snaa	Neochauliodes bowringi	Neochauliodes bowringi
 Neochauliodes punctatolosus	Snaa	Neochauliodes punctatolosus	Neochauliodes punctatolosus
 Neochen jubata	Snaa	Neochen jubata	Neochen jubata
 Neocirrhites armatus	Snaa	Neocirrhites armatus	Neocirrhites armatus
+Neoclinus blanchardi	Snaa	Neoclinus blanchardi	Neoclinus blanchardi
 Neocnus	Snaa	Neocnus	Neocnus
 Neoconocephalus triops	Snaa	Neoconocephalus triops	Neoconocephalus triops
 Neocosmospora pisi	Snaa	Neocosmospora pisi	Neocosmospora pisi
@@ -26251,6 +26471,7 @@ Neotoma mexicana	Snaa	Neotoma mexicana	Neotoma mexicana
 Neotoma micropus	Snaa	Neotoma micropus	Neotoma micropus
 Neotomodon alstoni	Snaa	Neotomodon alstoni	Neotomodon alstoni
 Neotragus moschatus	Snaa	Neotragus moschatus	Neotragus moschatus
+Neotrogla curvata	Snaa	Neotrogla curvata	Neotrogla curvata
 Neotrygon kuhlii	Snaa	Neotrygon kuhlii	Neotrygon kuhlii
 Neotrypaea californiensis	Snaa	Neotrypaea californiensis	Neotrypaea californiensis
 Neottia	Snaa	Neottia	Neottia
@@ -26666,6 +26887,7 @@ Nyctomys sumichrasti	Snaa	Nyctomys sumichrasti	Nyctomys sumichrasti
 Nyctophilus arnhemensis	Snaa	Nyctophilus arnhemensis	Nyctophilus arnhemensis
 Nyctotherus ovalis	Snaa	Nyctotherus ovalis	Nyctotherus ovalis
 Nymphaea alba	Snaa	Nymphaea alba	Nymphaea alba
+Nymphaea alba L.	Snaa	Nymphaea alba L.	Nymphaea alba
 Nymphaea mexicana	Snaa	Nymphaea mexicana	Nymphaea mexicana
 Nymphaea odorata	Snaa	Nymphaea odorata	Nymphaea odorata
 Nymphalis antiopa	Snaa	Nymphalis antiopa	Nymphalis antiopa
@@ -26676,6 +26898,7 @@ Nymphalis progne	Snaa	Nymphalis progne	Nymphalis progne
 Nymphalis urticae	Snaa	Nymphalis urticae	Nymphalis urticae
 Nymphes myrmeleonoides	Snaa	Nymphes myrmeleonoides	Nymphes myrmeleonoides
 Nymphicus hollandicus	Snaa	Nymphicus hollandicus	Nymphicus hollandicus
+Nymphoides peltata	Snaa	Nymphoides peltata	Nymphoides peltata
 Nymphon australe	Snaa	Nymphon australe	Nymphon australe
 Nymphon gracile	Snaa	Nymphon gracile	Nymphon gracile
 Nypa fruticans	Snaa	Nypa fruticans	Nypa fruticans
@@ -26808,6 +27031,10 @@ O. N. G. D.	Zg00	O. N. G. D.
 O. N. G. D.	Zgfa	O. N. G. D.	
 O. N. G. D.	Zgfp	O. N. G. D.	
 O. N. G. D.	Zgfs	O. N. G. D.	
+O. N. G. S.	Zg00	O. N. G.	ONG
+O. N. G. S.	Zgfp	O. N. G.	ONG
+O. N. G. s.	Zg00	O. N. G.	ONG
+O. N. G. s.	Zgfp	O. N. G.	ONG
 O. N. T.	Zg00	O. N. T.	
 O. N. T.	Zgfs	O. N. T.	
 O. N. U.	Zg00	O. N. U.	
@@ -26864,26 +27091,26 @@ O. X. M.	Zg00	O. X. M.
 O. X. M.	Zgmp	O. X. M.	
 O. p. m. e. g. a.	Zg00	O. p. m. e. g. a.	
 O. salutti	Snaa	O. salutti	Octopus salutii
-OO AA	Zg00	OO AA
-OO AA	Zgmp	OO AA
-OO AA AA	Zg00	OO AA AA
-OO AA AA	Zgmp	OO AA AA
-OO AA CC	Zg00	OO AA CC
-OO AA CC	Zgmp	OO AA CC
-OO MM	Zg00	OO MM
-OO MM	Zgfp	OO MM
-OO PP	Zg00	OO PP
-OO PP	Zgfp	OO PP
-OO. AA.	Zg00	OO. AA.
-OO. AA.	Zgmp	OO. AA.
-OO. AA. AA.	Zg00	OO. AA. AA.
-OO. AA. AA.	Zgmp	OO. AA. AA.
-OO. AA. CC.	Zg00	OO. AA. CC.
-OO. AA. CC.	Zgmp	OO. AA. CC.
-OO. MM.	Zg00	OO. MM.
-OO. MM.	Zgfp	OO. MM.
-OO. PP.	Zg00	OO. PP.
-OO. PP.	Zgfp	OO. PP.
+OO AA	Zg00	OO AA	
+OO AA	Zgmp	OO AA	
+OO AA AA	Zg00	OO AA AA	
+OO AA AA	Zgmp	OO AA AA	
+OO AA CC	Zg00	OO AA CC	
+OO AA CC	Zgmp	OO AA CC	
+OO MM	Zg00	OO MM	
+OO MM	Zgfp	OO MM	
+OO PP	Zg00	OO PP	
+OO PP	Zgfp	OO PP	
+OO. AA.	Zg00	OO. AA.	
+OO. AA.	Zgmp	OO. AA.	
+OO. AA. AA.	Zg00	OO. AA. AA.	
+OO. AA. AA.	Zgmp	OO. AA. AA.	
+OO. AA. CC.	Zg00	OO. AA. CC.	
+OO. AA. CC.	Zgmp	OO. AA. CC.	
+OO. MM.	Zg00	OO. MM.	
+OO. MM.	Zgfp	OO. MM.	
+OO. PP.	Zg00	OO. PP.	
+OO. PP.	Zgfp	OO. PP.	
 Oasisia alvinae	Snaa	Oasisia alvinae	Oasisia alvinae
 Obama	Sp00	Obama
 Obelia geniculata	Snaa	Obelia geniculata	Obelia geniculata
@@ -27111,6 +27338,7 @@ Oldenlandia affinis	Snaa	Oldenlandia affinis	Oldenlandia affinis
 Oldenlandia diffusa	Snaa	Oldenlandia diffusa	Oldenlandia diffusa
 Olé	Sp00	Olé
 Olea europaea	Snaa	Olea europaea	Olea europaea
+Olea europaea L.	Snaa	Olea europaea L.	Olea europaea
 Olea maderensis	Snaa	Olea maderensis	Olea maderensis
 Olea sp.	Snaa	Olea sp.	Olea sp.
 Oleg Sisúyev	Spm0	Oleg Sisúyev
@@ -27169,7 +27397,7 @@ Ommatophoca rossii	Snaa	Ommatophoca rossii	Ommatophoca rossii
 Omni, alarma nuclear	Sp00	Omni, alarma nuclear
 Omocestus viridulus	Snaa	Omocestus viridulus	Omocestus viridulus
 Omphalodes littoralis	Snaa	Omphalodes littoralis	Omphalodes littoralis
-Omphalodes littoralis gallaecia	Snaa	Omphalodes littoralis gallaecia	Omphalodes littoralis gallaecia
+Omphalodes littoralis gallaecia	Snaa	Omphalodes littoralis gallaecia	Omphalodes littoralis gallaecica
 Omphalodes littoralis subsp. gallaecica	Snaa	Omphalodes littoralis subsp. gallaecica	Omphalodes littoralis subsp. gallaecica
 Omphalodes verna	Snaa	Omphalodes verna	Omphalodes verna
 Omphalotus olearius	Snaa	Omphalotus olearius	Omphalotus olearius
@@ -27238,6 +27466,7 @@ Oocystis solitaria	Snaa	Oocystis solitaria	Oocystis solitaria
 Oospora egyptiaca	Snaa	Oospora egyptiaca	Oospora egyptiaca
 Oostethus brachyurus	Snaa	Oostethus brachyurus	Oostethus brachyurus
 Opaepele loihi	Snaa	Opaepele loihi	Opaepele loihi
+Operagrapha gyrocarpa	Snaa	Operagrapha gyrocarpa	Opegrapha gyrocarpa
 Ophelia bimaculata	Snaa	Ophelia bimaculata	Ophelia bimaculata
 Ophibolus gentilis	Snaa	Ophibolus gentilis	Ophibolus gentilis
 Ophicephalus lucius	Snaa	Ophicephalus lucius	Ophicephalus lucius
@@ -27285,8 +27514,10 @@ Ophryotrocha labronica	Snaa	Ophryotrocha labronica	Ophryotrocha labronica
 Ophrys	Snaa	Ophrys	Ophrys
 Ophrys apifera	Snaa	Ophrys apifera	Ophrys apifera
 Ophrys arachnitiformis subsp. archipelagi	Snaa	Ophrys arachnitiformis subsp. archipelagi	Ophrys arachnitiformis subsp. archipelagi
+Ophrys araneola	Snaa	Ophrys araneola	Ophrys araneola
 Ophrys cernua	Snaa	Ophrys cernua	Ophrys cernua
 Ophrys exaltata subsp. archipelagi	Snaa	Ophrys exaltata subsp. archipelagi	Ophrys exaltata subsp. archipelagi
+Ophrys kallaikia	Snaa	Ophrys kallaikia	Ophrys kallaikia
 Ophrys sphegodes	Snaa	Ophrys sphegodes	Ophrys sphegodes
 Ophthalmotilapia ventralis	Snaa	Ophthalmotilapia ventralis	Ophthalmotilapia ventralis
 Opisthacanthus cayaporum	Snaa	Opisthacanthus cayaporum	Opisthacanthus cayaporum
@@ -27312,6 +27543,7 @@ Oporornis agilis	Snaa	Oporornis agilis	Oporornis agilis
 Oporornis formosus	Snaa	Oporornis formosus	Oporornis formosus
 Oporornis philadelphia	Snaa	Oporornis philadelphia	Oporornis philadelphia
 Oporornis tolmiei	Snaa	Oporornis tolmiei	Oporornis tolmiei
+Oprhys araneola	Snaa	Oprhys araneola	Ophrys araneola
 Opsanus tau	Snaa	Opsanus tau	Opsanus tau
 Opsariichthys bidens	Snaa	Opsariichthys bidens	Opsariichthys bidens
 Opuntia cardona	Snaa	Opuntia cardona	Opuntia cardona
@@ -27447,6 +27679,7 @@ Ornithomya avicularia	Snaa	Ornithomya avicularia	Ornithomya avicularia
 Ornithomya fringillina	Snaa	Ornithomya fringillina	Ornithomya fringillina
 Ornithomyia pallida	Snaa	Ornithomyia pallida	Ornithomyia pallida
 Ornithoptera paradisea	Snaa	Ornithoptera paradisea	Ornithoptera paradisea
+Ornithopus x ciesianus	Snaa	Ornithopus x ciesianus	Ornithopus x ciesianus
 Ornithorhynchus anatinus	Snaa	Ornithorhynchus anatinus	Ornithorhynchus anatinus
 Orobanche americana	Snaa	Orobanche americana	Orobanche americana
 Orobanche arenaria	Snaa	Orobanche arenaria	Orobanche arenaria
@@ -27704,6 +27937,8 @@ Owenia fusiformis	Snaa	Owenia fusiformis	Owenia fusiformis
 Oxalis corniculata	Snaa	Oxalis corniculata	Oxalis corniculata
 Oxalis dillenii	Snaa	Oxalis dillenii	Oxalis dillenii
 Oxalis megalorrhiza	Snaa	Oxalis megalorrhiza	Oxalis megalorrhiza
+Oxalis pes-caprae	Snaa	Oxalis pes-caprae	Oxalis pes-caprae
+Oxalis pes-capreae	Snaa	Oxalis pes-capreae	Oxalis pes-caprae
 Oxalis spiralis	Snaa	Oxalis spiralis	Oxalis spiralis
 Oxalis stricta	Snaa	Oxalis stricta	Oxalis stricta
 Oxalis tuberosa	Snaa	Oxalis tuberosa	Oxalis tuberosa
@@ -27714,6 +27949,7 @@ Oxybelis aeneus	Snaa	Oxybelis aeneus	Oxybelis aeneus
 Oxybelis fulgidus	Snaa	Oxybelis fulgidus	Oxybelis fulgidus
 Oxycoccus macrocarpus	Snaa	Oxycoccus macrocarpus	Oxycoccus macrocarpus
 Oxydromus propinquus	Snaa	Oxydromus propinquus	Oxydromus propinquus
+Oxygastra curtisii	Snaa	Oxygastra curtisii	Oxygastra curtisii
 Oxylebius pictus	Snaa	Oxylebius pictus	Oxylebius pictus
 Oxymeris dimidiata	Snaa	Oxymeris dimidiata	Oxymeris dimidiata
 Oxymycterus dasytrichus	Snaa	Oxymycterus dasytrichus	Oxymycterus dasytrichus
@@ -27847,6 +28083,8 @@ P. E. M. E.	Zgfp	P. E. M. E.	peme
 P. E. M. E.	Zgfs	P. E. M. E.	peme
 P. E. M. E. S.	Zg00	P. E. M. E.	peme
 P. E. M. E. S.	Zgfp	P. E. M. E.	peme
+P. E. M. E. s.	Zg00	P. E. M. E.	peme
+P. E. M. E. s.	Zgfp	P. E. M. E.	peme
 P. E. N.	Zg00	P. E. N.	
 P. E. N.	Zgms	P. E. N.	
 P. E. P. R. I.	Zg00	P. E. P. R. I.	
@@ -27996,6 +28234,7 @@ P. X. O. U.	Zg00	P. X. O. U.
 P. X. O. U.	Zgms	P. X. O. U.	
 P. a. d. r. e.	Zg00	P. a. d. r. e.	
 P. a. d. r. e.	Zgms	P. a. d. r. e.	
+P. aeruginosa	Snaa	P. aeruginosa	Pseudomonas aeruginosa
 P. e. p. r. i.	Zg00	P. e. p. r. i.	
 P. e. p. r. i.	Zgma	P. e. p. r. i.	
 P. e. p. r. i.	Zgmp	P. e. p. r. i.	
@@ -28004,15 +28243,19 @@ P. elegans	Snaa	P. elegans	P. elegans
 P. falciparum	Snaa	P. falciparum	P. falciparum
 P. fluorescens	Snaa	P. fluorescens	P. fluorescens
 P. fragi	Snaa	P. fragi	P. fragi
+P. gingivalis	Snaa	P. gingivalis	Porphyromonas gingivalis
 P. jacobaeus	Snaa	P. jacobaeus	P. jacobaeus
 P. japonicus	Snaa	P. japonicus	P. japonicus
 P. lividus	Snaa	P. lividus	P. lividus
 P. olseni	Snaa	P. olseni	P. olseni
 P. ovale	Snaa	P. ovale	P. ovale
+P. palmata	Snaa	P. palmata	Palmaria palmata
+P. perezi	Snaa	P. perezi	Pelophylax perezi
 P. pinaster	Snaa	P. pinaster	Pinus pinaster
 P. putida	Snaa	P. putida	P. putida
 P. r. o. p. o. l. o.	Zg00	P. r. o. p. o. l. o.	
 P. radiata	Snaa	P. radiata	P. radiata
+P. tapanuliensis	Snaa	P. tapanuliensis	Pongo tapanuliensis
 P. vivax	Snaa	P. vivax	P. vivax
 P. vulgata	Snaa	P. vulgata	P. vulgata
 P. zigzag	Snaa	P. zigzag	P. zigzag
@@ -28132,6 +28375,9 @@ Pagrus pagrus	Snaa	Pagrus pagrus	Pagrus pagrus
 Pagrus spp	Snaa	Pagrus spp	Pagrus spp
 Pagrus vulgaris	Snaa	Pagrus vulgaris	Pagrus vulgaris
 Paguma larvata	Snaa	Paguma larvata	Paguma larvata
+Paguristes Candelae	Snaa	Paguristes Candelae	Paguristes candelae
+Paguristes candelae	Snaa	Paguristes candelae	Paguristes candelae
+Paguristes marocanus	Snaa	Paguristes marocanus	Paguristes marocanus
 Paguristes turgidus	Snaa	Paguristes turgidus	Paguristes turgidus
 Pagurus bernhardus	Snaa	Pagurus bernhardus	Pagurus bernhardus
 Pagurus granosimanus	Snaa	Pagurus granosimanus	Pagurus granosimanus
@@ -28615,6 +28861,7 @@ Pardo de Guevara	Sp00	Pardo de Guevara
 Pardo de Vera	Sp00	Pardo de Vera
 Pardofelis badia	Snaa	Pardofelis badia	Pardofelis badia
 Pardofelis marmorata	Snaa	Pardofelis marmorata	Pardofelis marmorata
+Parecentrotus lividus	Snaa	Parecentrotus lividus	Paracentrotus lividus
 Parechinus angulosus	Snaa	Parechinus angulosus	Parechinus angulosus
 Parelaphostrongylus tenuis	Snaa	Parelaphostrongylus tenuis	Parelaphostrongylus tenuis
 Paremblemaria aspera	Snaa	Paremblemaria aspera	Paremblemaria aspera
@@ -28630,7 +28877,9 @@ Parias hageni	Snaa	Parias hageni	Parias hageni
 Parides photinus	Snaa	Parides photinus	Parides photinus
 Parietaria diffusa	Snaa	Parietaria diffusa	Parietaria diffusa
 Parietaria judaica	Snaa	Parietaria judaica	Parietaria judaica
+Parietaria judaica L.	Snaa	Parietaria judaica L.	Parietaria judaica
 Parietaria officinalis	Snaa	Parietaria officinalis	Parietaria officinalis
+Parietaria officinalis L.	Snaa	Parietaria officinalis L.	Parietaria officinalis
 Parietaria sp.	Snaa	Parietaria sp.	Parietaria sp.
 París	Sp00	París
 Paris polyphylla	Snaa	Paris polyphylla	Paris polyphylla
@@ -29108,6 +29357,7 @@ Peltohyas australis	Snaa	Peltohyas australis	Peltohyas australis
 Peltoperla arcuata	Snaa	Peltoperla arcuata	Peltoperla arcuata
 Peltophorum pterocarpum	Snaa	Peltophorum pterocarpum	Peltophorum pterocarpum
 Peltorhamphus novaezeelandiae	Snaa	Peltorhamphus novaezeelandiae	Peltorhamphus novaezeelandiae
+Pelvetia canaliculata	Snaa	Pelvetia canaliculata	Pelvetia canaliculata
 Pelvetia fastigiata	Snaa	Pelvetia fastigiata	Pelvetia fastigiata
 Pelvicachromis humilis	Snaa	Pelvicachromis humilis	Pelvicachromis humilis
 Pelvicachromis pulcher	Snaa	Pelvicachromis pulcher	Pelvicachromis pulcher
@@ -29369,10 +29619,12 @@ Perideridia kelloggii	Snaa	Perideridia kelloggii	Perideridia kelloggii
 Peridinium bipes	Snaa	Peridinium bipes	Peridinium bipes
 Peridinium foliaceum	Snaa	Peridinium foliaceum	Peridinium foliaceum
 Peridinium gatunense	Snaa	Peridinium gatunense	Peridinium gatunense
+Peridinium ponticum	Snaa	Peridinium ponticum	Peridinium ponticum
 Peridinium willei	Snaa	Peridinium willei	Peridinium willei
 Perilla frutescens	Snaa	Perilla frutescens	Perilla frutescens
 Perilla ocymoides	Snaa	Perilla ocymoides	Perilla ocymoides
 Perimyotis subflavus	Snaa	Perimyotis subflavus	Perimyotis subflavus
+Perina curnowii	Snaa	Perina curnowii	Perina curnowii
 Perina nuda	Snaa	Perina nuda	Perina nuda
 Perinereis aibuhitensis	Snaa	Perinereis aibuhitensis	Perinereis aibuhitensis
 Perinereis cultrifera	Snaa	Perinereis cultrifera	Perinereis cultrifera
@@ -29564,6 +29816,7 @@ Petroscirtes atrodorsalis	Snaa	Petroscirtes atrodorsalis	Petroscirtes atrodorsal
 Petroscirtes breviceps	Snaa	Petroscirtes breviceps	Petroscirtes breviceps
 Petroselinum crispum	Snaa	Petroselinum crispum	Petroselinum crispum
 Petroselinum hortense	Snaa	Petroselinum hortense	Petroselinum hortense
+Petroselinum hortense Hoffman	Snaa	Petroselinum hortense Hoffman	Petroselinum hortense
 Petrosia ficiformis	Snaa	Petrosia ficiformis	Petrosia ficiformis
 Petrus rupestris	Snaa	Petrus rupestris	Petrus rupestris
 Petterus macaco	Snaa	Petterus macaco	Petterus macaco
@@ -29622,6 +29875,7 @@ Phaethornis pretrei	Snaa	Phaethornis pretrei	Phaethornis pretrei
 Phaethornis superciliosus	Snaa	Phaethornis superciliosus	Phaethornis superciliosus
 Phaffia rhodozyma	Snaa	Phaffia rhodozyma	Phaffia rhodozyma
 Phainopepla nitens	Snaa	Phainopepla nitens	Phainopepla nitens
+Phaisanus gallus	Snaa	Phaisanus gallus	Phasianus gallus
 Phaius tancarvilleae	Snaa	Phaius tancarvilleae	Phaius tancarvilleae
 Phakopsora pachyrhizi	Snaa	Phakopsora pachyrhizi	Phakopsora pachyrhizi
 Phalacrocorax aristotelis	Snaa	Phalacrocorax aristotelis	Phalacrocorax aristotelis
@@ -29795,6 +30049,7 @@ Philometra overstreeti	Snaa	Philometra overstreeti	Philometra overstreeti
 Philypnodon breviceps	Snaa	Philypnodon breviceps	Philypnodon breviceps
 Philypnodon grandiceps	Snaa	Philypnodon grandiceps	Philypnodon grandiceps
 Phlebia radiata	Snaa	Phlebia radiata	Phlebia radiata
+Phlebiella boidinii	Snaa	Phlebiella boidinii	Phlebiella boidinii
 Phlebiopsis gigantea	Snaa	Phlebiopsis gigantea	Phlebiopsis gigantea
 Phlebotomus duboscqi	Snaa	Phlebotomus duboscqi	Phlebotomus duboscqi
 Phlebotomus papatasi	Snaa	Phlebotomus papatasi	Phlebotomus papatasi
@@ -29832,6 +30087,7 @@ Phocaeicola vulgatus	Snaa	Phocaeicola vulgatus	Phocaeicola vulgatus
 Phocarctos hookeri	Snaa	Phocarctos hookeri	Phocarctos hookeri
 Phocoena	Snaa	Phocoena	Phocoena
 Phocoena phocoena	Snaa	Phocoena phocoena	Phocoena phocoena
+Phocoena sinus	Snaa	Phocoena sinus	Phocoena sinus
 Phocoenoides dalli	Snaa	Phocoenoides dalli	Phocoenoides dalli
 Phocoenoides dalli dalli	Snaa	Phocoenoides dalli dalli	Phocoenoides dalli dalli
 Phodopus campbelli	Snaa	Phodopus campbelli	Phodopus campbelli
@@ -29915,6 +30171,7 @@ Photorhabdus luminescens	Snaa	Photorhabdus luminescens	Photorhabdus luminescens
 Photorhabdus luminescens subsp. laumondii	Snaa	Photorhabdus luminescens subsp. laumondii	Photorhabdus luminescens subsp. laumondii
 Photorhabdus temperata	Snaa	Photorhabdus temperata	Photorhabdus temperata
 Photuris pensylvanica	Snaa	Photuris pensylvanica	Photuris pensylvanica
+Phoxinus phoxinus	Snaa	Phoxinus phoxinus	Phoxinus phoxinus
 Phragmatopoma californica	Snaa	Phragmatopoma californica	Phragmatopoma californica
 Phragmatopoma caudata	Snaa	Phragmatopoma caudata	Phragmatopoma caudata
 Phragmatopoma virgini	Snaa	Phragmatopoma virgini	Phragmatopoma virgini
@@ -30079,6 +30336,7 @@ Phylloscopus trochiloides plumbeitarsus	Snaa	Phylloscopus trochiloides plumbeita
 Phylloscopus trochilus	Snaa	Phylloscopus trochilus	Phylloscopus trochilus
 Phylloscopus tytleri	Snaa	Phylloscopus tytleri	Phylloscopus tytleri
 Phylloscopus yunnanensis	Snaa	Phylloscopus yunnanensis	Phylloscopus yunnanensis
+Phyllostachys bambusoides	Snaa	Phyllostachys bambusoides	Phyllostachys bambusoides
 Phyllostachys flexuosa	Snaa	Phyllostachys flexuosa	Phyllostachys flexuosa
 Phyllostachys sp.	Snaa	Phyllostachys sp.	Phyllostachys sp.
 Phyllostaurus siculus	Snaa	Phyllostaurus siculus	Phyllostaurus siculus
@@ -30138,6 +30396,7 @@ Phytomonas marginata	Snaa	Phytomonas marginata	Phytomonas marginata
 Phytomyza horticola	Snaa	Phytomyza horticola	Phytomyza horticola
 Phytomyza ilicicola	Snaa	Phytomyza ilicicola	Phytomyza ilicicola
 Phytomyza ilicis	Snaa	Phytomyza ilicis	Phytomyza ilicis
+Phytophthora alni subsp. alni	Snaa	Phytophthora alni subsp. alni	Phytophthora alni subsp. alni
 Phytophthora brassicae	Snaa	Phytophthora brassicae	Phytophthora brassicae
 Phytophthora capsici	Snaa	Phytophthora capsici	Phytophthora capsici
 Phytophthora cinnamomi	Snaa	Phytophthora cinnamomi	Phytophthora cinnamomi
@@ -30152,6 +30411,7 @@ Phytophthora parasitica	Snaa	Phytophthora parasitica	Phytophthora parasitica
 Phytophthora ramorum	Snaa	Phytophthora ramorum	Phytophthora ramorum
 Phytophthora sojae	Snaa	Phytophthora sojae	Phytophthora sojae
 Phytophthora syringae	Snaa	Phytophthora syringae	Phytophthora syringae
+Phytophtora cinamoni	Snaa	Phytophtora cinamoni	Phytophthora cinnamoni
 Phytoplasma australiense	Snaa	Phytoplasma australiense	Phytoplasma australiense
 Phytoplasma vitis	Snaa	Phytoplasma vitis	Phytoplasma vitis
 Phytopythium vexans	Snaa	Phytopythium vexans	Phytopythium vexans
@@ -30223,6 +30483,7 @@ Picus formicivorus	Snaa	Picus formicivorus	Picus formicivorus
 Picus leucotos	Snaa	Picus leucotos	Picus leucotos
 Picus major	Snaa	Picus major	Picus major
 Picus melanochloros	Snaa	Picus melanochloros	Picus melanochloros
+Picus minor	Snaa	Picus minor	Picus minor
 Picus principalis	Snaa	Picus principalis	Picus principalis
 Picus sharpei	Snaa	Picus sharpei	Picus sharpei
 Picus vaillantii	Snaa	Picus vaillantii	Picus vaillantii
@@ -30304,6 +30565,7 @@ Pinna nobilis	Snaa	Pinna nobilis	Pinna nobilis
 Pinna pectinata	Snaa	Pinna pectinata	Pinna pectinata
 Pinna rigida	Snaa	Pinna rigida	Pinna rigida
 Pinochet	Sp00	Pinochet
+Pinus Pinaster	Snaa	Pinus Pinaster	Pinus pinaster
 Pinus araucana	Snaa	Pinus araucana	Pinus araucana
 Pinus aristata var. longaeva	Snaa	Pinus aristata var. longaeva	Pinus aristata var. longaeva
 Pinus armandii	Snaa	Pinus armandii	Pinus armandii
@@ -30365,6 +30627,7 @@ Pinus patula	Snaa	Pinus patula	Pinus patula
 Pinus pentaphylla var. himekomatsu	Snaa	Pinus pentaphylla var. himekomatsu	Pinus pentaphylla var. himekomatsu
 Pinus peuce	Snaa	Pinus peuce	Pinus peuce
 Pinus pinaster	Snaa	Pinus pinaster	Pinus pinaster
+Pinus pinaster Aiton	Snaa	Pinus pinaster Aiton	Pinus pinaster
 Pinus pinea	Snaa	Pinus pinea	Pinus pinea
 Pinus ponderosa	Snaa	Pinus ponderosa	Pinus ponderosa
 Pinus ponderosa subsp. coulteri	Snaa	Pinus ponderosa subsp. coulteri	Pinus ponderosa subsp. coulteri
@@ -30380,6 +30643,7 @@ Pinus sitchensis	Snaa	Pinus sitchensis	Pinus sitchensis
 Pinus sp.	Snaa	Pinus sp.	Pinus sp.
 Pinus strobus	Snaa	Pinus strobus	Pinus strobus
 Pinus sylvestris	Snaa	Pinus sylvestris	Pinus sylvestris
+Pinus sylvestris L.	Snaa	Pinus sylvestris L.	Pinus sylvestris
 Pinus tabuliformis	Snaa	Pinus tabuliformis	Pinus tabuliformis
 Pinus taeda	Snaa	Pinus taeda	Pinus taeda
 Pinus thunbergiana	Snaa	Pinus thunbergiana	Pinus thunbergiana
@@ -30760,6 +31024,9 @@ Plumbago auriculata	Snaa	Plumbago auriculata	Plumbago auriculata
 Plumeria acutifolia	Snaa	Plumeria acutifolia	Plumeria acutifolia
 Plumeria rubra	Snaa	Plumeria rubra	Plumeria rubra
 Plumiperla diversa	Snaa	Plumiperla diversa	Plumiperla diversa
+Plumularia bathyalis	Snaa	Plumularia bathyalis	Plumularia bathyalis
+Plumularia contraria	Snaa	Plumularia contraria	Plumularia contraria
+Plumularia pseudocontraria	Snaa	Plumularia pseudocontraria	Plumularia pseudocontraria
 Pluralibacter gergoviae	Snaa	Pluralibacter gergoviae	Pluralibacter gergoviae
 Plutella maculipennis	Snaa	Plutella maculipennis	Plutella maculipennis
 Plutella xylostella	Snaa	Plutella xylostella	Plutella xylostella
@@ -30772,6 +31039,7 @@ Pluvianus aegyptius	Snaa	Pluvianus aegyptius	Pluvianus aegyptius
 Pluvianus cinereus	Snaa	Pluvianus cinereus	Pluvianus cinereus
 Pneumatophorus colias	Snaa	Pneumatophorus colias	Pneumatophorus colias
 Pneumocistis carinii	Snaa	Pneumocistis carinii	Pneumocystis carinii
+Pneumococcus pneumoniae	Snaa	Pneumococcus pneumoniae	Streptococcus pneumoniae
 Pneumocystis carinii	Snaa	Pneumocystis carinii	Pneumocystis carinii
 Pneumocystis jirovecii	Snaa	Pneumocystis jirovecii	Pneumocystis jirovecii
 Pnigalio mediterraneus	Snaa	Pnigalio mediterraneus	Pnigalio mediterraneus
@@ -31115,6 +31383,7 @@ Pongamiopsis amygdalina	Snaa	Pongamiopsis amygdalina	Pongamiopsis amygdalina
 Pongo abelii	Snaa	Pongo abelii	Pongo abelii
 Pongo pygmaeus	Snaa	Pongo pygmaeus	Pongo pygmaeus
 Pongo pygmaeus abelii	Snaa	Pongo pygmaeus abelii	Pongo pygmaeus abelii
+Pongo tapanuliensis	Snaa	Pongo tapanuliensis	Pongo tapanuliensis
 Pons	Sp00	Pons
 Pontastacus leptodactylus	Snaa	Pontastacus leptodactylus	Pontastacus leptodactylus
 Ponteareas	Sp00	Ponteareas
@@ -31244,6 +31513,7 @@ Porzana porzana	Snaa	Porzana porzana	Porzana porzana
 Porzana pusilla	Snaa	Porzana pusilla	Porzana pusilla
 Posada	Sp00	Posada
 Posidonia oceanica	Snaa	Posidonia oceanica	Posidonia oceanica
+Posidonia oceánica	Snaa	Posidonia oceánica	Posidonia oceanica
 Potamides telescopium	Snaa	Potamides telescopium	Potamides telescopium
 Potamochoerus larvatus	Snaa	Potamochoerus larvatus	Potamochoerus larvatus
 Potamochoerus porcus	Snaa	Potamochoerus porcus	Potamochoerus porcus
@@ -31267,6 +31537,7 @@ Potentilla lindleyi	Snaa	Potentilla lindleyi	Potentilla lindleyi
 Potentilla reptans	Snaa	Potentilla reptans	Potentilla reptans
 Potentilla vesca	Snaa	Potentilla vesca	Potentilla vesca
 Poterium officinale	Snaa	Poterium officinale	Poterium officinale
+Potomida littoralis	Snaa	Potomida littoralis	Potomida littoralis
 Potorous gilbertii	Snaa	Potorous gilbertii	Potorous gilbertii
 Potorous longipes	Snaa	Potorous longipes	Potorous longipes
 Potorous tridactylus	Snaa	Potorous tridactylus	Potorous tridactylus
@@ -31582,6 +31853,7 @@ Psammobia (Gobraeus) depressa	Snaa	Psammobia (Gobraeus) depressa	Psammobia (Gobr
 Psammocora contigua	Snaa	Psammocora contigua	Psammocora contigua
 Psammocora digitata	Snaa	Psammocora digitata	Psammocora digitata
 Psammocora stellata	Snaa	Psammocora stellata	Psammocora stellata
+Psammodromus alginus	Snaa	Psammodromus alginus	Psammodromus algirus
 Psammodromus algirus	Snaa	Psammodromus algirus	Psammodromus algirus
 Psammomys obesus	Snaa	Psammomys obesus	Psammomys obesus
 Psammomys vexillaris	Snaa	Psammomys vexillaris	Psammomys vexillaris
@@ -31674,6 +31946,7 @@ Pseudobulweria aterrima	Snaa	Pseudobulweria aterrima	Pseudobulweria aterrima
 Pseudobulweria rostrata	Snaa	Pseudobulweria rostrata	Pseudobulweria rostrata
 Pseudobutyrivibrio xylanivorans	Snaa	Pseudobutyrivibrio xylanivorans	Pseudobutyrivibrio xylanivorans
 Pseudocalanus elongatus	Snaa	Pseudocalanus elongatus	Pseudocalanus elongatus
+Pseudocarans dentex	Snaa	Pseudocarans dentex	Pseudocaranx dentex
 Pseudocaranx dentex	Snaa	Pseudocaranx dentex	Pseudocaranx dentex
 Pseudocarcinus gigas	Snaa	Pseudocarcinus gigas	Pseudocarcinus gigas
 Pseudocardium sachalinense	Snaa	Pseudocardium sachalinense	Pseudocardium sachalinense
@@ -31765,6 +32038,7 @@ Pseudomonas spp.	Snaa	Pseudomonas spp.	Pseudomonas spp.
 Pseudomonas straminea	Snaa	Pseudomonas straminea	Pseudomonas straminea
 Pseudomonas stutzeri	Snaa	Pseudomonas stutzeri	Pseudomonas stutzeri
 Pseudomonas syringae	Snaa	Pseudomonas syringae	Pseudomonas syringae
+Pseudomonas syringae pv. actinidiae 	Snaa	Pseudomonas syringae pv. actinidiae 	Pseudomonas syringae pv. actinidiae 
 Pseudomonas taetrolens	Snaa	Pseudomonas taetrolens	Pseudomonas taetrolens
 Pseudomonas testosteroni	Snaa	Pseudomonas testosteroni	Pseudomonas testosteroni
 Pseudomonas tolaasii	Snaa	Pseudomonas tolaasii	Pseudomonas tolaasii
@@ -32013,6 +32287,7 @@ Pteropus vampyrus	Snaa	Pteropus vampyrus	Pteropus vampyrus
 Pteropus vetulus	Snaa	Pteropus vetulus	Pteropus vetulus
 Pteropus woodfordi	Snaa	Pteropus woodfordi	Pteropus woodfordi
 Pteroscion peli	Snaa	Pteroscion peli	Pteroscion peli
+Pterospatum tridentatum	Snaa	Pterospatum tridentatum	Pterospartum tridentatum
 Pterospora andromedea	Snaa	Pterospora andromedea	Pterospora andromedea
 Pterostichus chalcites	Snaa	Pterostichus chalcites	Pterostichus chalcites
 Pterostichus cupreus	Snaa	Pterostichus cupreus	Pterostichus cupreus
@@ -32122,6 +32397,7 @@ Puy	Sp00	Puy
 Puy Lecumberri	Sp00	Puy Lecumberri
 Puya mirabilis	Snaa	Puya mirabilis	Puya mirabilis
 Puya raimondii	Snaa	Puya raimondii	Puya raimondii
+Pycnodus mokattamensis	Snaa	Pycnodus mokattamensis	Pycnodus mokattamensis
 Pycnonotus barbatus	Snaa	Pycnonotus barbatus	Pycnonotus barbatus
 Pycnonotus cafer	Snaa	Pycnonotus cafer	Pycnonotus cafer
 Pycnonotus jocosus	Snaa	Pycnonotus jocosus	Pycnonotus jocosus
@@ -32255,6 +32531,9 @@ Q. H.	Zg00	Q. H.
 Q. H.	Zgfs	Q. H.	
 Q. L.	Zg00	Q. L.	
 Q. L.	Zgfs	Q. L.	
+Q. pyrenaica	Snaa	Q. pyrenaica	Quercus pyrenaica
+Q. robur	Snaa	Q. robur	Quercus robur
+Qianzhousaurus sinensis	Snaa	Qianzhousaurus sinensis	Qianzhousaurus sinensis
 Qinlingacris taibaiensis	Snaa	Qinlingacris taibaiensis	Qinlingacris taibaiensis
 Quadrula pustulosa	Snaa	Quadrula pustulosa	Quadrula pustulosa
 Quadrula quadrula	Snaa	Quadrula quadrula	Quadrula quadrula
@@ -32302,11 +32581,15 @@ Quercus pedunculata	Snaa	Quercus pedunculata	Quercus pedunculata
 Quercus petraea	Snaa	Quercus petraea	Quercus petraea
 Quercus pubescens	Snaa	Quercus pubescens	Quercus pubescens
 Quercus pyrenaica	Snaa	Quercus pyrenaica	Quercus pyrenaica
+Quercus pyrenaica Willd	Snaa	Quercus pyrenaica Willd	Quercus pyrenaica
+Quercus pyrenaica Willd.	Snaa	Quercus pyrenaica Willd.	Quercus pyrenaica
 Quercus robur	Snaa	Quercus robur	Quercus robur
+Quercus robur L.	Snaa	Quercus robur L.	Quercus robur
 Quercus rotundifolia	Snaa	Quercus rotundifolia	Quercus rotundifolia
 Quercus rubra	Snaa	Quercus rubra	Quercus rubra
 Quercus sp.	Snaa	Quercus sp.	Quercus sp.
 Quercus suber	Snaa	Quercus suber	Quercus suber
+Quercus suber L.	Snaa	Quercus suber L.	Quercus suber
 Quercus tomentella	Snaa	Quercus tomentella	Quercus tomentella
 Quercus trojana	Snaa	Quercus trojana	Quercus trojana
 Quercus turbinella	Snaa	Quercus turbinella	Quercus turbinella
@@ -32435,19 +32718,22 @@ R. T. V. G.	Zg00	R. T. V. G.
 R. T. V. G.	Zgfs	R. T. V. G.	
 R. X. U.	Zg00	R. X. U.	
 R. X. U.	Zgms	R. X. U.	
-R. bulbocodium	Snaa	R. bulbocodium	R. bulbocodium
-R. clusiana	Snaa	R. clusiana	R. clusiana
+R. bulbocodium	Snaa	R. bulbocodium	Romulea bulbocodium
+R. clusiana	Snaa	R. clusiana	Romulea clusiana
 R. e. g. i. a. c.	Zg00	R. e. g. i. a. c.	
 R. e. g. i. a. c.	Zgms	R. e. g. i. a. c.	
-R. ramiflora	Snaa	R. ramiflora	R. ramiflora
-RR DD	Zg00	RR DD
-RR DD	Zgmp	RR DD
-RR OO	Zg00	RR OO
-RR OO	Zgfp	RR OO
-RR. DD.	Zg00	RR. DD.
-RR. DD.	Zgmp	RR. DD.
-RR. OO.	Zg00	RR. OO.
-RR. OO.	Zgfp	RR. OO.
+R. prolixus	Snaa	R. prolixus	Rhodnius prolixus
+R. pseudoacacia	Snaa	R. pseudoacacia	Robinia pseudoacacia
+R. ramiflora	Snaa	R. ramiflora	Romulea ramiflora
+R. venosa	Snaa	R. venosa	Rapana venosa
+RR DD	Zg00	RR DD	
+RR DD	Zgmp	RR DD	
+RR OO	Zg00	RR OO	
+RR OO	Zgfp	RR OO	
+RR. DD.	Zg00	RR. DD.	
+RR. DD.	Zgmp	RR. DD.	
+RR. OO.	Zg00	RR. OO.	
+RR. OO.	Zgfp	RR. OO.	
 Rábade	Sp00	Rábade
 Rachycentron canadum	Snaa	Rachycentron canadum	Rachycentron canadum
 Racomitrium lanuginosum	Snaa	Racomitrium lanuginosum	Racomitrium lanuginosum
@@ -33240,6 +33526,7 @@ Rhynchospiza stolzmanni	Snaa	Rhynchospiza stolzmanni	Rhynchospiza stolzmanni
 Rhynchospiza strigiceps	Snaa	Rhynchospiza strigiceps	Rhynchospiza strigiceps
 Rhynchosporium secalis	Snaa	Rhynchosporium secalis	Rhynchosporium secalis
 Rhynchotus rufescens	Snaa	Rhynchotus rufescens	Rhynchotus rufescens
+Rhynchozoon papuliferum	Snaa	Rhynchozoon papuliferum	Rhynchozoon papuliferum
 Rhyparobia maderae	Snaa	Rhyparobia maderae	Rhyparobia maderae
 Rhyticeros cassidix	Snaa	Rhyticeros cassidix	Rhyticeros cassidix
 Rhyticeros corrugatus	Snaa	Rhyticeros corrugatus	Rhyticeros corrugatus
@@ -33255,6 +33542,7 @@ Ribes californicum	Snaa	Ribes californicum	Ribes californicum
 Ribes indecorum	Snaa	Ribes indecorum	Ribes indecorum
 Ribes malvaceum var. indecorum	Snaa	Ribes malvaceum var. indecorum	Ribes malvaceum var. indecorum
 Ribes nigrum	Snaa	Ribes nigrum	Ribes nigrum
+Ribes rubrum-nigrum	Snaa	Ribes rubrum-nigrum	Ribes rubrum-nigrum
 Ribes speciosum	Snaa	Ribes speciosum	Ribes speciosum
 Ribó	Sp00	Ribó
 Ricardo	Spm0	Ricardo
@@ -33354,7 +33642,9 @@ Roberto Blanco Torres	Spm0	Roberto Blanco Torres
 Roberto García Calvo	Spm0	Roberto García Calvo
 Roberto Iglesias Domínguez	Spm0	Roberto Iglesias Domínguez
 Robinia caragana	Snaa	Robinia caragana	Robinia caragana
+Robinia pseudo-acacia	Snaa	Robinia pseudo-acacia	Robinia pseudoacacia
 Robinia pseudoacacia	Snaa	Robinia pseudoacacia	Robinia pseudoacacia
+Robinia pseudoacacia L.	Snaa	Robinia pseudoacacia L.	Robinia pseudoacacia
 Robinia sepium	Snaa	Robinia sepium	Robinia sepium
 Robinsia catherinae	Snaa	Robinsia catherinae	Robinsia catherinae
 Roboastra europaea	Snaa	Roboastra europaea	Roboastra europaea
@@ -33495,9 +33785,11 @@ Rubia cordifolia	Snaa	Rubia cordifolia	Rubia cordifolia
 Rubia palustris	Snaa	Rubia palustris	Rubia palustris
 Rubia tinctorum	Snaa	Rubia tinctorum	Rubia tinctorum
 Rubrivivax gelatinosus	Snaa	Rubrivivax gelatinosus	Rubrivivax gelatinosus
+Rubus Fruticosus	Snaa	Rubus Fruticosus	Rubus fruticosus
 Rubus allegheniensis	Snaa	Rubus allegheniensis	Rubus allegheniensis
 Rubus argutus	Snaa	Rubus argutus	Rubus argutus
 Rubus flagellaris	Snaa	Rubus flagellaris	Rubus flagellaris
+Rubus fruticosus	Snaa	Rubus fruticosus	Rubus fruticosus
 Rubus idaeus	Snaa	Rubus idaeus	Rubus idaeus
 Rubus niveus	Snaa	Rubus niveus	Rubus niveus
 Rubus occidentalis	Snaa	Rubus occidentalis	Rubus occidentalis
@@ -33516,6 +33808,7 @@ Rudesinda	Spf0	Rudesinda
 Ruditapes Decussatus	Snaa	Ruditapes Decussatus	Ruditapes decussatus
 Ruditapes Philippinarum	Snaa	Ruditapes Philippinarum	Ruditapes philippinarum
 Ruditapes decussatus	Snaa	Ruditapes decussatus	Ruditapes decussatus
+Ruditapes philipinarum	Snaa	Ruditapes philipinarum	Ruditapes philipinarum
 Ruditapes philippinarum	Snaa	Ruditapes philippinarum	Ruditapes philippinarum
 Ruditapes phillipinarum	Snaa	Ruditapes phillipinarum	Ruditapes phillipinarum
 Ruditapes variegatus	Snaa	Ruditapes variegatus	Ruditapes variegatus
@@ -33526,9 +33819,13 @@ Rugova	Sp00	Rugova
 Ruiz Gallardón	Sp00	Ruiz Gallardón
 Rumanía	Sp00	Rumanía
 Rumex acetosa	Snaa	Rumex acetosa	Rumex acetosa
+Rumex acetosa L.	Snaa	Rumex acetosa L.	Rumex acetosa
 Rumex crispus	Snaa	Rumex crispus	Rumex crispus
 Rumex obtusifolius	Snaa	Rumex obtusifolius	Rumex obtusifolius
+Rumex obtusifolius L.	Snaa	Rumex obtusifolius L.	Rumex obtusifolius
 Rumex pulcher	Snaa	Rumex pulcher	Rumex pulcher
+Rumex pulcher L.	Snaa	Rumex pulcher L.	Rumex pulcher
+Rumex rupestris	Snaa	Rumex rupestris	Rumex rupestris
 Rumex sp.	Snaa	Rumex sp.	Rumex sp.
 Rumfordia penninervis	Snaa	Rumfordia penninervis	Rumfordia penninervis
 Rumina decollata	Snaa	Rumina decollata	Rumina decollata
@@ -33554,6 +33851,7 @@ Ruscus reticulatus	Snaa	Ruscus reticulatus	Ruscus reticulatus
 Rusia	Sp00	Rusia
 Ruspolia dubia	Snaa	Ruspolia dubia	Ruspolia dubia
 Ruspolia lineosa	Snaa	Ruspolia lineosa	Ruspolia lineosa
+Russula virescens	Snaa	Russula virescens	Russula virescens
 Ruta Xacobea	Sp00	Ruta Xacobea
 Ruta graveolens	Snaa	Ruta graveolens	Ruta graveolens
 Ruthia magnifica subsp. Calyptogena magnifica	Snaa	Ruthia magnifica subsp. Calyptogena magnifica	Ruthia magnifica subsp. Calyptogena magnifica
@@ -33656,6 +33954,8 @@ S. E. R. E. M.	Zg00	S. E. R. E. M.
 S. E. R. E. M.	Zgms	S. E. R. E. M.	
 S. E. R. G. A. S.	Zg00	S. E. R. G. A. S.	
 S. E. R. G. A. S.	Zgms	S. E. R. G. A. S.	
+S. E. T. A. C.	Zg00	S. E. T. A. C.	SETAC
+S. E. T. A. C.	Zgfs	S. E. T. A. C.	SETAC
 S. G. A. E.	Zg00	S. G. A. E.	
 S. G. A. E.	Zgfs	S. G. A. E.	
 S. G. E.	Zg00	S. G. E.	
@@ -33839,6 +34139,7 @@ S. Y. N. C. O. M.	Zgms	S. Y. N. C. O. M.
 S. Y. S. O. P.	Zg00	S. Y. S. O. P.	
 S. Y. S. O. P.	Zgms	S. Y. S. O. P.	
 S. a. l. i. m. a. t.	Zg00	S. a. l. i. m. a. t.	
+S. aureus	Snaa	S. aureus	Staphylococcus aureus
 S. coagulasa negativo	Snaa	S. coagulasa negativo	Staphylococcus coagulasa negativo 
 S. e. p. l. a.	Zg00	S. e. p. l. a.	
 S. e. p. l. a.	Zgms	S. e. p. l. a.	
@@ -33849,11 +34150,16 @@ S. epidermidis con	Snaa	S. epidermidis con	S. epidermidis con
 S. haemolyticus	Snaa	S. haemolyticus	S. haemolyticus
 S. hominis	Snaa	S. hominis	S. hominis
 S. iniae	Snaa	S. iniae	S. iniae
-S. latissima	Snaa	S. latissima	S. latissima
+S. latissima	Snaa	S. latissima	Saccharina latissima
+S. lingua	Snaa	S. lingua	Serapias lingua
 S. lugdunensis	Snaa	S. lugdunensis	S. lugdunensis
+S. muticum	Snaa	S. muticum	Sargassum muticum
+S. nonagrioides	Snaa	S. nonagrioides	Sesamia nonagrioides
 S. o. d. i. g. a.	Zg00	S. o. d. i. g. a.	
 S. parviflora	Snaa	S. parviflora	S. parviflora
+S. pneumoniae	Snaa	S. pneumoniae	Streptococcus pneumoniae
 S. pyogenes	Snaa	S. pyogenes	S. pyogenes
+S. salamandra	Snaa	S. salamandra	Salamandra salamandra
 S. saprophyticus	Snaa	S. saprophyticus	S. saprophyticus
 S. schleiferi	Snaa	S. schleiferi	S. schleiferi
 S. uvarum	Snaa	S. uvarum	S. uvarum
@@ -33937,6 +34243,7 @@ Saccolaimus flaviventris	Snaa	Saccolaimus flaviventris	Saccolaimus flaviventris
 Saccolaimus saccolaimus	Snaa	Saccolaimus saccolaimus	Saccolaimus saccolaimus
 Saccopteryx bilineata	Snaa	Saccopteryx bilineata	Saccopteryx bilineata
 Saccopteryx leptura	Snaa	Saccopteryx leptura	Saccopteryx leptura
+Saccorhiza polyschides	Snaa	Saccorhiza polyschides	Saccorhiza polyschides
 Sada-Oleiros-Betanzos	Sp00	Sada-Oleiros-Betanzos
 Sadako Ogata	Spf0	Sadako Ogata
 Sáenz	Sp00	Sáenz
@@ -33991,6 +34298,8 @@ Salamandra alleganiensis	Snaa	Salamandra alleganiensis	Salamandra alleganiensis
 Salamandra atra	Snaa	Salamandra atra	Salamandra atra
 Salamandra opaca	Snaa	Salamandra opaca	Salamandra opaca
 Salamandra salamandra	Snaa	Salamandra salamandra	Salamandra salamandra
+Salamandra salamandra bernardezi	Snaa	Salamandra salamandra bernardezi	Salamandra salamandra bernardezi
+Salamandra salamandra galaica	Snaa	Salamandra salamandra galaica	Salamandra salamandra gallaica
 Salamandra texana	Snaa	Salamandra texana	Salamandra texana
 Salamandrella keyserlingii	Snaa	Salamandrella keyserlingii	Salamandrella keyserlingii
 Salamandrella keyserlingii var. tridactyla	Snaa	Salamandrella keyserlingii var. tridactyla	Salamandrella keyserlingii var. tridactyla
@@ -34081,6 +34390,7 @@ Salmo trutta	Snaa	Salmo trutta	Salmo trutta
 Salmo tshawytscha	Snaa	Salmo tshawytscha	Salmo tshawytscha
 Salmo variegatus	Snaa	Salmo variegatus	Salmo variegatus
 Salmonella	Snaa	Salmonella	Salmonella
+Salmonella Abortus Ovis	Snaa	Salmonella Abortus Ovis	Salmonella abortus ovis
 Salmonella abortus equi	Snaa	Salmonella abortus equi	Salmonella abortus equi
 Salmonella anatum	Snaa	Salmonella anatum	Salmonella anatum
 Salmonella berta	Snaa	Salmonella berta	Salmonella berta
@@ -34301,6 +34611,7 @@ Sargassum fulvellum	Snaa	Sargassum fulvellum	Sargassum fulvellum
 Sargassum fusiforme	Snaa	Sargassum fusiforme	Sargassum fusiforme
 Sargassum hemiphyllum	Snaa	Sargassum hemiphyllum	Sargassum hemiphyllum
 Sargassum muticum	Snaa	Sargassum muticum	Sargassum muticum
+Sargasum muticum	Snaa	Sargasum muticum	Sargassum muticum
 Sargocentron caudimaculatum	Snaa	Sargocentron caudimaculatum	Sargocentron caudimaculatum
 Sargocentron cornutum	Snaa	Sargocentron cornutum	Sargocentron cornutum
 Sargocentron coruscum	Snaa	Sargocentron coruscum	Sargocentron coruscum
@@ -34678,6 +34989,7 @@ Scomberomorus spp	Snaa	Scomberomorus spp	Scomberomorus spp
 Scomberomorus tritor	Snaa	Scomberomorus tritor	Scomberomorus tritor
 Scombroidei	Snaa	Scombroidei	Scombroidei
 Scoparia dulcis	Snaa	Scoparia dulcis	Scoparia dulcis
+Scophtalmus maximus	Snaa	Scophtalmus maximus	Scophthalmus maximus
 Scophthalmus aquosus	Snaa	Scophthalmus aquosus	Scophthalmus aquosus
 Scophthalmus maximus	Snaa	Scophthalmus maximus	Scophthalmus maximus
 Scophthalmus rhombus	Snaa	Scophthalmus rhombus	Scophthalmus rhombus
@@ -34811,6 +35123,7 @@ Sebastián	Spm0	Sebastián
 Sebastiana	Spf0	Sebastiana
 Sebastiscus marmoratus	Snaa	Sebastiscus marmoratus	Sebastiscus marmoratus
 Secale cereale	Snaa	Secale cereale	Secale cereale
+Secale cereale L.	Snaa	Secale cereale L.	Secale cereale
 Secale strictum	Snaa	Secale strictum	Secale strictum
 Sechellophryne gardineri	Snaa	Sechellophryne gardineri	Sechellophryne gardineri
 Sechium edule	Snaa	Sechium edule	Sechium edule
@@ -34981,7 +35294,7 @@ Serapias lingua	Snaa	Serapias lingua	Serapias lingua
 Serapias parviflora	Snaa	Serapias parviflora	Serapias parviflora
 Serapias stenopetala	Snaa	Serapias stenopetala	Serapias stenopetala
 Serapias strictiflora	Snaa	Serapias strictiflora	Serapias strictiflora
-Serapias strictiflora foi	Snaa	Serapias strictiflora foi	Serapias strictiflora foi
+Serapias x todaroi	Snaa	Serapias x todaroi	Serapias x todaroi
 Serbia	Sp00	Serbia
 Serendipita indica	Snaa	Serendipita indica	Serendipita indica
 Serenoa repens	Snaa	Serenoa repens	Serenoa repens
@@ -35143,6 +35456,7 @@ Shewanella putrefaciens	Snaa	Shewanella putrefaciens	Shewanella putrefaciens
 Shewanella violacea	Snaa	Shewanella violacea	Shewanella violacea
 Shigella boydii	Snaa	Shigella boydii	Shigella boydii
 Shigella dysenteriae	Snaa	Shigella dysenteriae	Shigella dysenteriae
+Shigella dysenterie	Snaa	Shigella dysenterie	Shigella dysenteriae
 Shigella equuli	Snaa	Shigella equuli	Shigella equuli
 Shigella flexneri	Snaa	Shigella flexneri	Shigella flexneri
 Shigella sonnei	Snaa	Shigella sonnei	Shigella sonnei
@@ -35257,6 +35571,7 @@ Simenia simensis	Snaa	Simenia simensis	Simenia simensis
 Simeón	Spm0	Simeón
 Simias concolor	Snaa	Simias concolor	Simias concolor
 Simmondsia chinensis	Snaa	Simmondsia chinensis	Simmondsia chinensis
+Simnia jacintoi	Snaa	Simnia jacintoi	Simnia jacintoi
 Simón	Spm0	Simón
 Simon Fortuyn	Spm0	Simon Fortuyn
 Simon Peres	Spm0	Simon Peres
@@ -35846,6 +36161,7 @@ Sparganium eurycarpum	Snaa	Sparganium eurycarpum	Sparganium eurycarpum
 Sparganium glomeratum	Snaa	Sparganium glomeratum	Sparganium glomeratum
 Sparganium stoloniferum	Snaa	Sparganium stoloniferum	Sparganium stoloniferum
 Sparisoma cretense	Snaa	Sparisoma cretense	Sparisoma cretense
+Spartina patens	Snaa	Spartina patens	Spartina patens
 Spartina pectinata	Snaa	Spartina pectinata	Spartina pectinata
 Spartium junceum	Snaa	Spartium junceum	Spartium junceum
 Spartium scoparium	Snaa	Spartium scoparium	Spartium scoparium
@@ -35878,6 +36194,7 @@ Sparus sarba	Snaa	Sparus sarba	Sparus sarba
 Sparus sciurus	Snaa	Sparus sciurus	Sparus sciurus
 Sparus smaris	Snaa	Sparus smaris	Sparus smaris
 Sparus synagris	Snaa	Sparus synagris	Sparus synagris
+Spatengus spp.	Snaa	Spatengus spp.	Spatengus spp.
 Spathiphyllum wallisii	Snaa	Spathiphyllum wallisii	Spathiphyllum wallisii
 Spathius agrili	Snaa	Spathius agrili	Spathius agrili
 Spathodea campanulata	Snaa	Spathodea campanulata	Spathodea campanulata
@@ -35903,6 +36220,7 @@ Speothos venaticus	Snaa	Speothos venaticus	Speothos venaticus
 Speotyto cunicularia	Snaa	Speotyto cunicularia	Speotyto cunicularia
 Sperata aor	Snaa	Sperata aor	Sperata aor
 Sperata seenghala	Snaa	Sperata seenghala	Sperata seenghala
+Spergula arvensis L.	Snaa	Spergula arvensis L.	Spergula arvensis
 Spergularia rubra	Snaa	Spergularia rubra	Spergularia rubra
 Spermatozopsis acidophila	Snaa	Spermatozopsis acidophila	Spermatozopsis acidophila
 Spermatozopsis similis	Snaa	Spermatozopsis similis	Spermatozopsis similis
@@ -36098,6 +36416,7 @@ Spiroplasma apis	Snaa	Spiroplasma apis	Spiroplasma apis
 Spiroplasma citri	Snaa	Spiroplasma citri	Spiroplasma citri
 Spiroplasma kunkelii	Snaa	Spiroplasma kunkelii	Spiroplasma kunkelii
 Spiroplasma melliferum	Snaa	Spiroplasma melliferum	Spiroplasma melliferum
+Spirorchis elegans	Snaa	Spirorchis elegans	Spirorchis elegans
 Spirula spirula	Snaa	Spirula spirula	Spirula spirula
 Spirulina platensis	Snaa	Spirulina platensis	Spirulina platensis
 Spirulina sp.	Snaa	Spirulina sp.	Spirulina sp.
@@ -36482,7 +36801,7 @@ Streptococcus suis	Snaa	Streptococcus suis	Streptococcus suis
 Streptococcus thermophilus	Snaa	Streptococcus thermophilus	Streptococcus thermophilus
 Streptococcus uberis	Snaa	Streptococcus uberis	Streptococcus uberis
 Streptococcus vestibularis	Snaa	Streptococcus vestibularis	Streptococcus vestibularis
-Streptococus pneumoniae	Snaa	Streptococus pneumoniae	Streptococus pneumoniae
+Streptococus pneumoniae	Snaa	Streptococus pneumoniae	Streptococcus pneumoniae
 Streptomyces	Snaa	Streptomyces	Streptomyces
 Streptomyces achromogenes	Snaa	Streptomyces achromogenes	Streptomyces achromogenes
 Streptomyces acrimycini	Snaa	Streptomyces acrimycini	Streptomyces acrimycini
@@ -36592,6 +36911,7 @@ Streptomyces parvullus	Snaa	Streptomyces parvullus	Streptomyces parvullus
 Streptomyces peucetius	Snaa	Streptomyces peucetius	Streptomyces peucetius
 Streptomyces peucetius subsp. caesius	Snaa	Streptomyces peucetius subsp. caesius	Streptomyces peucetius subsp. caesius
 Streptomyces phaeochromogenes	Snaa	Streptomyces phaeochromogenes	Streptomyces phaeochromogenes
+Streptomyces pharmamarensis	Snaa	Streptomyces pharmamarensis	Streptomyces pharmamarensis
 Streptomyces platensis	Snaa	Streptomyces platensis	Streptomyces platensis
 Streptomyces plicatus	Snaa	Streptomyces plicatus	Streptomyces plicatus
 Streptomyces pristinaespiralis	Snaa	Streptomyces pristinaespiralis	Streptomyces pristinaespiralis
@@ -36776,6 +37096,8 @@ Suárez Quintanilla	Sp00	Suárez Quintanilla
 Subcomisión de Asuntos Monetarios	Spfs	Subcomisión de Asuntos Monetarios
 Suberites domuncula	Snaa	Suberites domuncula	Suberites domuncula
 Suberites ficus	Snaa	Suberites ficus	Suberites ficus
+Subulicystidium perlongisporum	Snaa	Subulicystidium perlongisporum	Subulicystidium perlongisporum
+Succisa pinnatifida	Snaa	Succisa pinnatifida	Succisa pinnatifida
 Sudáfrica	Sp00	Sudáfrica
 Suecia	Sp00	Suecia
 Sufflamen chrysopterum	Snaa	Sufflamen chrysopterum	Sufflamen chrysopterum
@@ -36981,6 +37303,7 @@ Synodus variegatus	Snaa	Synodus variegatus	Synodus variegatus
 Synoicum turgens	Snaa	Synoicum turgens	Synoicum turgens
 Synoicus chinensis	Snaa	Synoicus chinensis	Synoicus chinensis
 Synsepalum dulcificum	Snaa	Synsepalum dulcificum	Synsepalum dulcificum
+Syntermes dirus	Snaa	Syntermes dirus	Syntermes dirus
 Syntheosciurus brochus	Snaa	Syntheosciurus brochus	Syntheosciurus brochus
 Synthliboramphus antiquus	Snaa	Synthliboramphus antiquus	Synthliboramphus antiquus
 Synthliboramphus craveri	Snaa	Synthliboramphus craveri	Synthliboramphus craveri
@@ -37137,6 +37460,7 @@ T. V. V.	Zg00	T. V. V.
 T. V. V.	Zgfs	T. V. V.	
 T. W. A.	Zg00	T. W. A.	
 T. W. A.	Zgfp	T. W. A.	
+T. crocosmiiflora	Snaa	T. crocosmiiflora	Tritonia crocosmiiflora
 T. platyphyllos	Snaa	T. platyphyllos	T. platyphyllos
 T. tomentosa	Snaa	T. tomentosa	T. tomentosa
 Tabacalera	Sp00	Tabacalera
@@ -37423,6 +37747,7 @@ Te Deum	Spms	Te Deum
 Tealia crassicornis	Snaa	Tealia crassicornis	Tealia crassicornis
 Tealia felina	Snaa	Tealia felina	Tealia felina
 Teatro Colón	Spms	Teatro Colón
+Tecia solanivora Povolny	Snaa	Tecia solanivora Povolny	Tecia solanivora
 Tecoma stans	Snaa	Tecoma stans	Tecoma stans
 Tecomaria capensis	Snaa	Tecomaria capensis	Tecomaria capensis
 Tectaria devexa	Snaa	Tectaria devexa	Tectaria devexa
@@ -37528,6 +37853,7 @@ Terencio	Spm0	Terencio
 Teresa	Spf0	Teresa
 Teresa Palacios	Spf0	Teresa Palacios
 Terias blanda	Snaa	Terias blanda	Terias blanda
+Termes obscuriceps	Snaa	Termes obscuriceps	Termes obscuriceps
 Terminalia catappa	Snaa	Terminalia catappa	Terminalia catappa
 Terminator	Sp00	Terminator
 Termitomyces clypeatus	Snaa	Termitomyces clypeatus	Termitomyces clypeatus
@@ -37624,6 +37950,7 @@ Tetranychus pueraricola	Snaa	Tetranychus pueraricola	Tetranychus pueraricola
 Tetranychus ulmi	Snaa	Tetranychus ulmi	Tetranychus ulmi
 Tetranychus ununguis	Snaa	Tetranychus ununguis	Tetranychus ununguis
 Tetranychus urticae	Snaa	Tetranychus urticae	Tetranychus urticae
+Tetrao Urogallus	Snaa	Tetrao Urogallus	Tetrao urogallus
 Tetrao coturnix	Snaa	Tetrao coturnix	Tetrao coturnix
 Tetrao cupido	Snaa	Tetrao cupido	Tetrao cupido
 Tetrao major	Snaa	Tetrao major	Tetrao major
@@ -38182,6 +38509,7 @@ Torula alternata	Snaa	Torula alternata	Torula alternata
 Torulaspora delbrueckii	Snaa	Torulaspora delbrueckii	Torulaspora delbrueckii
 Torulaspora hansenii	Snaa	Torulaspora hansenii	Torulaspora hansenii
 Torulopsis glabrata	Snaa	Torulopsis glabrata	Torulopsis glabrata
+Torymus sinensis	Snaa	Torymus sinensis	Torymus sinensis
 Tosar	Sp00	Tosar
 Tosia australis	Snaa	Tosia australis	Tosia australis
 Tosia magnifica	Snaa	Tosia magnifica	Tosia magnifica
@@ -38625,6 +38953,7 @@ Trionyx triunguis	Snaa	Trionyx triunguis	Trionyx triunguis
 Triopha catalinae	Snaa	Triopha catalinae	Triopha catalinae
 Triopha maculata	Snaa	Triopha maculata	Triopha maculata
 Triops cancriformis	Snaa	Triops cancriformis	Triops cancriformis
+Trioza erytreae	Snaa	Trioza erytreae	Trioza erytreae
 Trioza eugeniae	Snaa	Trioza eugeniae	Trioza eugeniae
 Trioza urticae	Snaa	Trioza urticae	Trioza urticae
 Trip	Spfs	Trip
@@ -38697,6 +39026,9 @@ Tritirachium shiotae	Snaa	Tritirachium shiotae	Tritirachium shiotae
 Tritoma uvaria	Snaa	Tritoma uvaria	Tritoma uvaria
 Triton japonicus	Snaa	Triton japonicus	Triton japonicus
 Triton nodifer	Snaa	Triton nodifer	Triton nodifer
+Tritonia hombergii	Snaa	Tritonia hombergii	Tritonia hombergii
+Tritonia x Crocosmiiflora	Snaa	Tritonia x Crocosmiiflora	Tritonia x crocosmiiflora
+Tritonia x crocosmiiflora	Snaa	Tritonia x crocosmiiflora	Tritonia x crocosmiiflora
 Tritrichomonas foetus	Snaa	Tritrichomonas foetus	Tritrichomonas foetus
 Tritrichomonas suis	Snaa	Tritrichomonas suis	Tritrichomonas suis
 Trittame loki	Snaa	Trittame loki	Trittame loki
@@ -38860,6 +39192,7 @@ Tylenchus schachtii	Snaa	Tylenchus schachtii	Tylenchus schachtii
 Tylochromis polylepis	Snaa	Tylochromis polylepis	Tylochromis polylepis
 Tylonotus bimaculatus	Snaa	Tylonotus bimaculatus	Tylonotus bimaculatus
 Tylonycteris pachypus	Snaa	Tylonycteris pachypus	Tylonycteris pachypus
+Tylopilus felleus	Snaa	Tylopilus felleus	Tylopilus felleus
 Tylorrhynchus heterochaetus	Snaa	Tylorrhynchus heterochaetus	Tylorrhynchus heterochaetus
 Tylosurus acus	Snaa	Tylosurus acus	Tylosurus acus
 Tylosurus crocodilus	Snaa	Tylosurus crocodilus	Tylosurus crocodilus
@@ -39180,11 +39513,12 @@ U. X. T. -. G. a. l. i. c. i. a.	Zg00	U. X. T. -. G. a. l. i. c. i. a.
 U. Z. A.	Zg00	U. Z. A.	
 U. Z. A.	Zgfs	U. Z. A.	
 U. f. i. n. s. a.	Zg00	U. f. i. n. s. a.	
+U. pinnatifida	Snaa	U. pinnatifida	Undaria pinnatifida
 UGT Galicia	Sp00	UGT Galicia
-UU AA	Zg00	UU AA
-UU AA	Zgfp	UU AA
-UU. AA.	Zg00	UU. AA.
-UU. AA.	Zgfp	UU. AA.
+UU AA	Zg00	UU AA	
+UU AA	Zgfp	UU AA	
+UU. AA.	Zg00	UU. AA.	
+UU. AA.	Zgfp	UU. AA.	
 Uaru amphiacanthoides	Snaa	Uaru amphiacanthoides	Uaru amphiacanthoides
 Uca crassipes	Snaa	Uca crassipes	Uca crassipes
 Uca hesperiae	Snaa	Uca hesperiae	Uca hesperiae
@@ -39194,7 +39528,8 @@ Uca pugnax	Snaa	Uca pugnax	Uca pugnax
 Uca tangeri	Snaa	Uca tangeri	Uca tangeri
 Ucides occidentalis	Snaa	Ucides occidentalis	Ucides occidentalis
 Ulex europaeus	Snaa	Ulex europaeus	Ulex europaeus
-Ulex europeus	Snaa	Ulex europeus	Ulex europeus
+Ulex europeus	Snaa	Ulex europeus	Ulex europaeus
+Ulex micranthus	Snaa	Ulex micranthus	Ulex micranthus
 Ulex sp.	Snaa	Ulex sp.	Ulex sp.
 Ulises	Spm0	Ulises
 Ulla	Sp00	Ulla
@@ -39256,11 +39591,13 @@ Umbrina cirrosa	Snaa	Umbrina cirrosa	Umbrina cirrosa
 Umbrina ronchus	Snaa	Umbrina ronchus	Umbrina ronchus
 Umbrina russelii	Snaa	Umbrina russelii	Umbrina russelii
 Umbrina spp	Snaa	Umbrina spp	Umbrina spp
+Unamunna naherba	Snaa	Unamunna naherba	Uromunna naherba
 Uncarina grandidieri	Snaa	Uncarina grandidieri	Uncarina grandidieri
 Uncia uncia	Snaa	Uncia uncia	Uncia uncia
 Uncinia uncinata	Snaa	Uncinia uncinata	Uncinia uncinata
 Uncinula necator	Snaa	Uncinula necator	Uncinula necator
 Undaria pinnatifida	Snaa	Undaria pinnatifida	Undaria pinnatifida
+Undaria pinnatifida (Harvey) Suringar	Snaa	Undaria pinnatifida (Harvey) Suringar	Undaria pinnatifida
 Undinula vulgaris	Snaa	Undinula vulgaris	Undinula vulgaris
 Unedogemmula bisaya	Snaa	Unedogemmula bisaya	Unedogemmula bisaya
 Unesco	Sp00	Unesco
@@ -39357,12 +39694,14 @@ Urodacus yaschenkoi	Snaa	Urodacus yaschenkoi	Urodacus yaschenkoi
 Uroderma bilobatum	Snaa	Uroderma bilobatum	Uroderma bilobatum
 Uroderma magnirostrum	Snaa	Uroderma magnirostrum	Uroderma magnirostrum
 Urogale everetti	Snaa	Urogale everetti	Urogale everetti
+Urogallus minor	Snaa	Urogallus minor	Urogallus minor
 Urogymnus polylepis	Snaa	Urogymnus polylepis	Urogymnus polylepis
 Uroleucon jaceae	Snaa	Uroleucon jaceae	Uroleucon jaceae
 Urolophus cruciatus	Snaa	Urolophus cruciatus	Urolophus cruciatus
 Uromanis tetradactyla	Snaa	Uromanis tetradactyla	Uromanis tetradactyla
 Uromastyx acanthinura	Snaa	Uromastyx acanthinura	Uromastyx acanthinura
 Uromastyx hardwickii	Snaa	Uromastyx hardwickii	Uromastyx hardwickii
+Uromunna naherba	Snaa	Uromunna naherba	Uromunna naherba
 Uromyces appendiculatus	Snaa	Uromyces appendiculatus	Uromyces appendiculatus
 Uromyces fabae	Snaa	Uromyces fabae	Uromyces fabae
 Uromys caudimaculatus	Snaa	Uromys caudimaculatus	Uromys caudimaculatus
@@ -39386,6 +39725,7 @@ Ursus spelaeus	Snaa	Ursus spelaeus	Ursus spelaeus
 Ursus thibetanus	Snaa	Ursus thibetanus	Ursus thibetanus
 Ursus ursinus	Snaa	Ursus ursinus	Ursus ursinus
 Urtica dioica	Snaa	Urtica dioica	Urtica dioica
+Urtica dioica L.	Snaa	Urtica dioica L.	Urtica dioica
 Urtica longifolia	Snaa	Urtica longifolia	Urtica longifolia
 Urtica nivea	Snaa	Urtica nivea	Urtica nivea
 Urtica pumila	Snaa	Urtica pumila	Urtica pumila
@@ -39467,6 +39807,7 @@ V. S.	Zgfs	V. S.
 V. T. R.	Zg00	V. T. R.	
 V. T. R.	Zgfs	V. T. R.	
 V. cholerae	Snaa	V. cholerae	V. cholerae
+V. crabro	Snaa	V. crabro	Vespa crabro
 VI Convenio Colectivo	Spms	VI Convenio Colectivo
 VIII Edición de o Salón de o Automóbil	Spfs	VIII Edición de o Salón de o Automóbil
 VIII Salón de o Automóbil de Vigo	Spms	VIII Salón de o Automóbil de Vigo
@@ -39479,7 +39820,7 @@ Vaccinium cylindraceum	Snaa	Vaccinium cylindraceum	Vaccinium cylindraceum
 Vaccinium ligustrinum	Snaa	Vaccinium ligustrinum	Vaccinium ligustrinum
 Vaccinium macrocarpon	Snaa	Vaccinium macrocarpon	Vaccinium macrocarpon
 Vaccinium myrtillus	Snaa	Vaccinium myrtillus	Vaccinium myrtillus
-Vaccinium myrtyllus	Snaa	Vaccinium myrtyllus	Vaccinium myrtyllus
+Vaccinium myrtyllus L.	Snaa	Vaccinium myrtyllus L.	Vaccinium myrtillus
 Vaccinium padifolium	Snaa	Vaccinium padifolium	Vaccinium padifolium
 Vaccinium stamineum	Snaa	Vaccinium stamineum	Vaccinium stamineum
 Vaccinium vitisidaea	Snaa	Vaccinium vitisidaea	Vaccinium vitisidaea
@@ -39966,6 +40307,7 @@ Vipera palaestinae	Snaa	Vipera palaestinae	Vipera palaestinae
 Vipera renardi	Snaa	Vipera renardi	Vipera renardi
 Vipera rhinoceros	Snaa	Vipera rhinoceros	Vipera rhinoceros
 Vipera russelii	Snaa	Vipera russelii	Vipera russelii
+Vipera seoanei cantabrica	Snaa	Vipera seoanei cantabrica	Vipera seoanei cantabrica
 Vipera ursinii	Snaa	Vipera ursinii	Vipera ursinii
 Vipera ursinii renardi	Snaa	Vipera ursinii renardi	Vipera ursinii renardi
 Vir philippinensis	Snaa	Vir philippinensis	Vir philippinensis
@@ -40018,6 +40360,7 @@ Vitis riparia	Snaa	Vitis riparia	Vitis riparia
 Vitis rotundifolia	Snaa	Vitis rotundifolia	Vitis rotundifolia
 Vitis sp.	Snaa	Vitis sp.	Vitis sp.
 Vitis vinifera	Snaa	Vitis vinifera	Vitis vinifera
+Vitis vinifera L.	Snaa	Vitis vinifera L.	Vitis vinifera
 Vitis voinieriana	Snaa	Vitis voinieriana	Vitis voinieriana
 Vitis vulpina	Snaa	Vitis vulpina	Vitis vulpina
 Vitoria	Sp00	Vitoria
@@ -40253,15 +40596,16 @@ X. M. S.	Zg00	X. M. S.
 X. M. S.	Zgfs	X. M. S.	
 X. M. V.	Zg00	X. M. V.	
 X. M. V.	Zgms	X. M. V.	
+X. securis	Snaa	X. securis	Xenostrobus securis
 XI Congreso Nacional de Formación non Regrada	Spms	XI Congreso Nacional de Formación non Regrada
 XI Congreso Nacional de a Sociedade Española de Neu	Spms	XI Congreso Nacional de a Sociedade Española de Neu
 XIII Congreso nacional de titulados mercantís e empresariais	Spms	XIII Congreso nacional de titulados mercantís e empresariais
 XIV Día de Galicia en Euscadi	Spms	XIV Día de Galicia en Euscadi
 XVIII Congreso Nacional de a Sociedade Española de o Xeonllo	Spms	XVIII Congreso Nacional de a Sociedade Española de o Xeonllo
-XX AA	Zg00	XX AA
-XX AA	Zgmp	XX AA
-XX. AA.	Zg00	XX. AA.
-XX. AA.	Zgmp	XX. AA.
+XX AA	Zg00	XX AA	
+XX AA	Zgmp	XX AA	
+XX. AA.	Zg00	XX. AA.	
+XX. AA.	Zgmp	XX. AA.	
 Xabarín	Spms	Xabarín
 Xabarín Club	Spms	Xabarín Club
 Xabier	Spm0	Xabier
@@ -40402,6 +40746,7 @@ Xiphidiopsis fascipes	Snaa	Xiphidiopsis fascipes	Xiphidiopsis fascipes
 Xiphidium caeruleum	Snaa	Xiphidium caeruleum	Xiphidium caeruleum
 Xiphinema americanum	Snaa	Xiphinema americanum	Xiphinema americanum
 Xiphinema diversicaudatum	Snaa	Xiphinema diversicaudatum	Xiphinema diversicaudatum
+Xiphion boissieri	Snaa	Xiphion boissieri	Xiphion boissieri
 Xiphion danfordiae	Snaa	Xiphion danfordiae	Xiphion danfordiae
 Xiphister atropurpureus	Snaa	Xiphister atropurpureus	Xiphister atropurpureus
 Xiphocaris elongata	Snaa	Xiphocaris elongata	Xiphocaris elongata
@@ -40751,6 +41096,7 @@ Zuzalpheus brooksi	Snaa	Zuzalpheus brooksi	Zuzalpheus brooksi
 Zygaena lewini	Snaa	Zygaena lewini	Zygaena lewini
 Zygnema circumcarinatum	Snaa	Zygnema circumcarinatum	Zygnema circumcarinatum
 Zygochlamys patagonica	Snaa	Zygochlamys patagonica	Zygochlamys patagonica
+Zygodon conoideus	Snaa	Zygodon conoideus	Zygodon conoideus
 Zygogeomys trichopus	Snaa	Zygogeomys trichopus	Zygogeomys trichopus
 Zygopetalum intermedium	Snaa	Zygopetalum intermedium	Zygopetalum intermedium
 Zygopetalum maculatum	Snaa	Zygopetalum maculatum	Zygopetalum maculatum
@@ -40767,13 +41113,22 @@ Zymomonas mobilis	Snaa	Zymomonas mobilis	Zymomonas mobilis
 Zymomonas mobilis subsp. pomaceae	Snaa	Zymomonas mobilis subsp. pomaceae	Zymomonas mobilis subsp. pomaceae
 Zymoseptoria tritici	Snaa	Zymoseptoria tritici	Zymoseptoria tritici
 adenocarpus sp.	Snaa	adenocarpus sp.	Adenocarpus sp.
+balaenoptera acutorostrata	Snaa	balaenoptera acutorostrata	Balaenoptera acutorostrata
+bursaphelenchus xylophilus	Snaa	bursaphelenchus xylophilus	Bursaphelenchus xylophilus
 canis lupus familiaris	Snaa	canis lupus familiaris	Canis lupus familiaris
+capra lusitanica	Snaa	capra lusitanica	Capra pyrenaica lusitanica
+capra pyrenaica	Snaa	capra pyrenaica	Capra pyrenaica
+capra pyrenaica victoriae 	Snaa	capra pyrenaica victoriae 	Capra pyrenaica victoriae 
 chorioptes bovis	Snaa	chorioptes bovis	Chorioptes bovis
+chorioptes equi	Snaa	chorioptes equi	Chorioptes equi
 coccinella septempunctata	Snaa	coccinella septempunctata	Coccinella septempunctata
+conger conger	Snaa	conger conger	Conger conger
 demodex bovis	Snaa	demodex bovis	Demodex bovis
 e. x. -. U. R. S. S.	Zg00	e. x. -. U. R. S. S.	ex-URSS
 e. x. -. U. R. S. S.	Zgfs	e. x. -. U. R. S. S.	ex-URSS
 estafilococus aureus	Snaa	estafilococus aureus	Staphylococcus aureus
+habronema megastoma	Snaa	habronema megastoma	Habronema megastoma
+habronema microstoma	Snaa	habronema microstoma	Habronema microstoma
 helicobacter pilori	Snaa	Helicobacter pilori	Helicobacter pylori
 helicobacter pilory	Snaa	Helicobacter pilory	Helicobacter pylori
 homo antecesor	Snaa	Homo antecesor	Homo antecessor
@@ -40803,8 +41158,20 @@ homo videns	Snaa	Homo videns	Homo videns
 iPad	Sp00	iPad
 iPhone	Sp00	iPhone
 laSexta	Sp00	laSexta
+labrus bergylta	Snaa	labrus bergylta	Labrus bergylta
+labrus bimaculato	Snaa	labrus bimaculato	Labrus bimaculatus
+labrus merula	Snaa	labrus merula	Labrus merula
+labrus viridis	Snaa	labrus viridis	Labrus viridis
 lucanus cervus	Snaa	lucanus cervus	Lucanus cervus
 mycobacterium tuberculosis	Snaa	mycobacterium tuberculosis	Mycobacterium tuberculosis
+onchocerca reticulata	Snaa	onchocerca reticulata	Onchocerca reticulata
+parafilaria multipapillosa	Snaa	parafilaria multipapillosa	Parafilaria multipapillosa
+phalacrocorax carbo	Snaa	phalacrocorax carbo	Phalacrocorax carbo
+psoroptes equi	Snaa	psoroptes equi	Psoroptes equi
+psorotes bovis	Snaa	psorotes bovis	Psoroptes bovis
 s. C. L. V.	Zg00	s. C. L. V.	
 s. C. L. V.	Zgms	s. C. L. V.	
 valentina	Spf0	valentina
+vibrio cholerae	Snaa	vibrio cholerae	Vibrio cholerae
+vitis treixadura	Snaa	vitis treixadura	Vitis treixadura
+vitis vinífera	Snaa	vitis vinífera	Vitis vinifera

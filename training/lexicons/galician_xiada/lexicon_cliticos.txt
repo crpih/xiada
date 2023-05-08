@@ -1,71 +1,72 @@
-a	Raa3fs	o
-as	Raa3fp	o
-che	Rad2as	che
-che	Rad2fs	che
-che	Rad2ms	che
--la	Ddfs	o
-la	Raa3fs	o
--las	Ddfp	o
-las	Raa3fp	o
-lle	Rad3ap	lle
-lle	Rad3as	lle
-lle	Rad3fp	lle
-lle	Rad3fs	lle
-lle	Rad3mp	lle
-lle	Rad3ms	lle
-lles	Rad3ap	lle
-lles	Rad3fp	lle
-lles	Rad3mp	lle
--lo	Ddms	o
-lo	Raa3ms	o
--los	Ddmp	o
-los	Raa3mp	o
-me	Raa1as	me
-me	Raa1fs	me
-me	Raa1ms	me
-me	Rad1as	me
-me	Rad1fs	me
-me	Rad1ms	me
-me	Raf1as	me
-me	Raf1fs	me
-me	Raf1ms	me
-na	Raa3fs	o
-nas	Raa3fp	o
-no	Raa1ap	nos
-no	Raa1fp	nos
-no	Raa1mp	nos
-no	Raa3ms	o
-no	Rad1ap	nos
-no	Rad1fp	nos
-no	Rad1mp	nos
-nos	Raa1ap	nos
-nos	Raa1fp	nos
-nos	Raa1mp	nos
-nos	Raa3mp	o
-nos	Rad1ap	nos
-nos	Rad1fp	nos
-nos	Rad1mp	nos
-nos	Raf1ap	nos
-nos	Raf1fp	nos
-nos	Raf1mp	nos
-o	Raa3ms	o
-os	Raa3mp	o
-se	Rao3aa	se
-te	Raa2as	te
-te	Raa2fs	te
-te	Raa2ms	te
-te	Raf2as	te
-te	Raf2fs	te
-te	Raf2ms	te
-vo	Rad2ap	vos
-vo	Rad2fp	vos
-vo	Rad2mp	vos
-vos	Raa2ap	vos
-vos	Raa2fp	vos
-vos	Raa2mp	vos
-vos	Rad2ap	vos
-vos	Rad2fp	vos
-vos	Rad2mp	vos
-vos	Raf2ap	vos
-vos	Raf2fp	vos
-vos	Raf2mp	vos
+-la	Ddfs	o	o
+-las	Ddfp	o	o
+-lo	Ddms	o	o
+-los	Ddmp	o	o
+a	Raa3fs	o	o
+as	Raa3fp	o	o
+che	Rad2as	che	che
+che	Rad2fs	che	che
+che	Rad2ms	che	che
+la	Raa3fs	o	o
+las	Raa3fp	o	o
+lle	Rad3ap	lle	lle
+lle	Rad3as	lle	lle
+lle	Rad3fp	lle	lle
+lle	Rad3fs	lle	lle
+lle	Rad3mp	lle	lle
+lle	Rad3ms	lle	lle
+lles	Rad3ap	lle	lle
+lles	Rad3fp	lle	lle
+lles	Rad3mp	lle	lle
+lo	Raa3ms	o	o
+los	Raa3mp	o	o
+me	Raa1as	me	me
+me	Raa1fs	me	me
+me	Raa1ms	me	me
+me	Rad1as	me	me
+me	Rad1fs	me	me
+me	Rad1ms	me	me
+me	Raf1as	me	me
+me	Raf1fs	me	me
+me	Raf1ms	me	me
+n@s	Raa3xp	o	o
+na	Raa3fs	o	o
+nas	Raa3fp	o	o
+no	Raa1ap	nos	nos
+no	Raa1fp	nos	nos
+no	Raa1mp	nos	nos
+no	Raa3ms	o	o
+no	Rad1ap	nos	nos
+no	Rad1fp	nos	nos
+no	Rad1mp	nos	nos
+nos	Raa1ap	nos	nos
+nos	Raa1fp	nos	nos
+nos	Raa1mp	nos	nos
+nos	Raa3mp	o	o
+nos	Rad1ap	nos	nos
+nos	Rad1fp	nos	nos
+nos	Rad1mp	nos	nos
+nos	Raf1ap	nos	nos
+nos	Raf1fp	nos	nos
+nos	Raf1mp	nos	nos
+o	Raa3ms	o	o
+os	Raa3mp	o	o
+se	Rao3aa	se	se
+te	Raa2as	te	te
+te	Raa2fs	te	te
+te	Raa2ms	te	te
+te	Raf2as	te	te
+te	Raf2fs	te	te
+te	Raf2ms	te	te
+vo	Rad2ap	vos	vos
+vo	Rad2fp	vos	vos
+vo	Rad2mp	vos	vos
+vos	Raa2ap	vos	vos
+vos	Raa2fp	vos	vos
+vos	Raa2mp	vos	vos
+vos	Rad2ap	vos	vos
+vos	Rad2fp	vos	vos
+vos	Rad2mp	vos	vos
+vos	Raf2ap	vos	vos
+vos	Raf2fp	vos	vos
+vos	Raf2mp	vos	vos

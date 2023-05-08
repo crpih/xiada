@@ -17,7 +17,7 @@ class DatabaseWrapper
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
     when "galician_xiada"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(LemmatizerGalicianXiadaRefactor)
     when "galician_xiada_oral"
       @lemmatizer.extend(LemmatizerGalicianXiada)
     end
@@ -40,6 +40,19 @@ class DatabaseWrapper
       end
     end
     #STDERR.puts "result:#{result}"
+    return result
+  end
+
+  def get_emissions_info_variants(word, tags, variants)
+    result = get_emissions_info(word, tags)
+    if result.empty?
+      variants.each do |variant|
+        if variant
+          result = get_emissions_info(variant, tags)
+          return result unless result.empty?
+        end
+      end
+    end
     return result
   end
 
@@ -78,7 +91,7 @@ class DatabaseWrapper
 
   def get_guesser_result(suffixes, lemma, tags)
     result = []
-    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query = "select tag,null,null,log_b from guesser_frequencies where suffix in (#{suffixes})"
     query << "and tag in (#{get_possible_tags(tags)})" if tags
     query << "order by length desc"
 
@@ -108,7 +121,6 @@ class DatabaseWrapper
     end
     return result
   end
-
   def get_bigram_probability(tag_j, tag_k)
     result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
     if result == nil
@@ -128,11 +140,11 @@ class DatabaseWrapper
         #STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
         return Float(result)
       else
-        # STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
+        #STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
         return Float(result)
       end
     else
-      # STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
+      #STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
       return Float(result)
     end
   end
@@ -377,9 +389,11 @@ class DatabaseWrapper
   end
 
   # It does not work for segmental ambiguity inside enclitic pronouns. It does not
-  # exist for Galician language
+  # exist for Galician language. It does not work if we have two different token decomposition for the main contraction too:
+  # contracted_form = token1 + token2 and contracted_form = token3 + token4, where token3 is different from token1 or token4 is different from token2.
   def insert_word_tag_lemma(result, entry, word, tag, lemma, position)
-    #puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "result:#{result}"
     if result[entry] == nil
       result[entry] = Array.new
     end
@@ -409,6 +423,7 @@ class DatabaseWrapper
     result = Hash.new
     @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
       pronoun_category = @db.get_first_value("select category from tags_info where name='pronoun'")
+      #STDERR.puts "\nrow:#{row}"
       if row[2] =~ /#{pronoun_category}/
         unless insert_word_tag_lemma(result, row[0], row[1], row[2], row[3], 1)
           puts "Insertion error for contraction:#{row[0]} (first component)"
@@ -451,7 +466,7 @@ class DatabaseWrapper
         @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
           result << row
         end
-      end       
+      end
     end
     return result
   end
@@ -517,8 +532,6 @@ class DatabaseWrapper
     return true
   end
 
-  private
-
   def get_possible_tags(tags)
     result = ""
     tags.each do |tag|
@@ -531,6 +544,20 @@ class DatabaseWrapper
     end
     result
   end
+
+  def get_most_frequent_lemma(word, tag, lemmas)
+    query = <<~SQL
+      SELECT lemma
+      FROM word_tag_lemma_frequencies
+      WHERE word = ? AND tag = ? AND lemma IN (#{(['?'] * lemmas.length).join(',')})
+      ORDER BY frequency DESC
+      LIMIT 1
+    SQL
+    # If (word, tag, lemma) is not found, return the first lemma in the list
+    @db.execute(query, word, tag, *lemmas)&.first&.first || lemmas.first
+  end
+
+  private
 
   def get_tags_from_regexp(tag_regexp)
     result = ""

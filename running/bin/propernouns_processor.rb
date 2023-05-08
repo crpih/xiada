@@ -108,7 +108,7 @@ class ProperNounsProcessor
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
             StringUtils.propers_joined?(token.text)) and !token.tagged?
-          token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+          token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false)
           #STDERR.puts "inside"
           # Beginning of a standard proper noun
         end
@@ -248,7 +248,7 @@ class ProperNounsProcessor
     #STDERR.puts "joining standard proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     #STDERR.puts "token.text: #{token.text}"
-    token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+    token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false)
     # if the token is in uppercase in the lexicon, we add the other tags too.
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
     #STDERR.puts "results:#{results}"
@@ -496,7 +496,7 @@ class ProperNounsProcessor
 
   def process_regexp_proper_nouns_recursive(token, way, ways)
     if token.token_type == :standard
-      token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false) if regexp_proper_noun(token) and !token.tagged?
+      token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false) if regexp_proper_noun(token) and !token.tagged?
       process_regexp_proper_nouns_recursive(token.next, way, ways)
     elsif token.token_type == :begin_alternative
       # Follow all ways recursively

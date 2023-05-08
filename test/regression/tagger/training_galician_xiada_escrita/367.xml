@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Nemesio Barxa escribe sobre os montes veciñais.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Nemesio Barxa</unidade>
+<constituínte>
+<forma>Nemesio Barxa</forma>
+<etiqueta>Spm0</etiqueta>
+<lema>Nemesio Barxa</lema>
+<hiperlema>Nemesio Barxa</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>escribe</unidade>
+<constituínte>
+<forma>escribe</forma>
+<etiqueta>Vpi30s</etiqueta>
+<lema>escribir</lema>
+<hiperlema>escribir</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>sobre</unidade>
+<constituínte>
+<forma>sobre</forma>
+<etiqueta>P</etiqueta>
+<lema>sobre</lema>
+<hiperlema>sobre</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>os</unidade>
+<constituínte>
+<forma>os</forma>
+<etiqueta>Ddmp</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>montes</unidade>
+<constituínte>
+<forma>montes</forma>
+<etiqueta>Scmp</etiqueta>
+<lema>monte</lema>
+<hiperlema>monte</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>veciñais</unidade>
+<constituínte>
+<forma>veciñais</forma>
+<etiqueta>A0mp</etiqueta>
+<lema>veciñal</lema>
+<hiperlema>veciñal</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

@@ -19,7 +19,7 @@ class Viterbi
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
-      # sentence.print(STDERR)
+      sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
       #sentence.print(STDERR)
@@ -871,10 +871,22 @@ class Viterbi
           puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
           if token.chunk_entity_exclude_transform
             puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-            puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
           else
             puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-            puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>" if hiperlemma_tag
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
           end
           puts "</#{tag_lemma_tag}>"
         end
@@ -902,13 +914,24 @@ class Viterbi
           puts "<#{lemma_tag}>*</#{lemma_tag}>"
           puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
         else
-          tag_object.lemmas.keys.each do |lemma|
-            if token.chunk_entity_exclude_transform
-              puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-              puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag
-            else
-              puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-              puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>" if hiperlemma_tag
+          lemma = @dw.get_most_frequent_lemma(token.text, tag, tag_object.lemmas.keys)
+          if token.chunk_entity_exclude_transform
+            puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
+          else
+            puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
             end
           end
         end

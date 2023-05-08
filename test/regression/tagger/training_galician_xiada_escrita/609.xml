@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Segue o Festival de Eurovisión en directo!</expresión>
+<análise>
+<análise_unidade>
+<unidade>Segue</unidade>
+<constituínte>
+<forma>segue</forma>
+<etiqueta>Vpi30s</etiqueta>
+<lema>seguir</lema>
+<hiperlema>seguir</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>o</unidade>
+<constituínte>
+<forma>o</forma>
+<etiqueta>Ddms</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Festival de Eurovisión</unidade>
+<constituínte>
+<forma>Festival de Eurovisión</forma>
+<etiqueta>Spms</etiqueta>
+<lema>Festival de Eurovisión</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>en</unidade>
+<constituínte>
+<forma>en</forma>
+<etiqueta>P</etiqueta>
+<lema>en</lema>
+<hiperlema>en</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>directo</unidade>
+<constituínte>
+<forma>directo</forma>
+<etiqueta>Scms</etiqueta>
+<lema>directo</lema>
+<hiperlema>directo</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>!</unidade>
+<constituínte>
+<forma>!</forma>
+<etiqueta>Q!</etiqueta>
+<lema>!</lema>
+<hiperlema>!</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

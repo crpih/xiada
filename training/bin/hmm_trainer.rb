@@ -67,11 +67,12 @@ class HMMTrainer
         #puts "line:-#{line}-"
         if not line.empty?
           word, tag, lemma = line.split(/\t/)
-          if @words.get_lemmas(word, tag) and @words.get_lemmas(word, tag)[0][1]
-            hiperlemma = @words.get_lemmas(word, tag)[0][1]
-          else
-            hiperlemma = ""
-          end
+          hiperlemma = ""
+          #if @words.get_lemmas(word, tag) and @words.get_lemmas(word, tag)[0][1]
+          #  hiperlemma = @words.get_lemmas(word, tag)[0][1]
+          #else
+          #  hiperlemma = ""
+          #end
           corpus_words_count = corpus_words_count + 1
           # puts "word,tag,lemma:#{word},#{tag},#{lemma}\n"
           @ngrams.add_unigram(tag)
@@ -192,6 +193,12 @@ class HMMTrainer
         # STDERR.puts "word: #{word_component}, tag: #{tag_component}, lemma: #{lemma}, hiperlemma: #{hiperlemma}"
         db.execute("insert into emission_frequencies (word, tag, lemma, hiperlemma, frequency, log_b, from_lexicon) values ('#{SQLUtils.escape_SQL(word_component)}','#{SQLUtils.escape_SQL(tag_component)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}',#{frequency},#{log_b},#{from_lexicon_integer})")
       end
+    end
+
+    puts "Building table word_tag_lemma_frequencies..."
+    db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, frequency integer, primary key(word,tag,lemma))")
+    @words.word_tag_lemma_count.each do |(word, tag, lemma), count|
+      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, frequency) VALUES (?, ?, ?, ?)', word, tag, lemma, count)
     end
 
     db.execute("create table integer_values (variable_name text, value integer)")

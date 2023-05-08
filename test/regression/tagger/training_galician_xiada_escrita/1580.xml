@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Manuscrito propiedade do Pazo de Fefiñáns.</expresión>
+<análise>
+<análise_unidade>
+<unidade>Manuscrito</unidade>
+<constituínte>
+<forma>manuscrito</forma>
+<etiqueta>Scms</etiqueta>
+<lema>manuscrito</lema>
+<hiperlema>manuscrito</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>propiedade</unidade>
+<constituínte>
+<forma>propiedade</forma>
+<etiqueta>Scfs</etiqueta>
+<lema>propiedade</lema>
+<hiperlema>propiedade</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>do</unidade>
+<constituínte>
+<forma>de</forma>
+<etiqueta>P</etiqueta>
+<lema>de</lema>
+<hiperlema>de</hiperlema>
+</constituínte>
+<constituínte>
+<forma>o</forma>
+<etiqueta>Ddms</etiqueta>
+<lema>o</lema>
+<hiperlema>o</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Pazo de Fefiñáns</unidade>
+<constituínte>
+<forma>Pazo de Fefiñáns</forma>
+<etiqueta>Spms</etiqueta>
+<lema>Pazo de Fefiñáns</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>
