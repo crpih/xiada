@@ -11,6 +11,9 @@ ENCLITICS = DW.get_enclitics_info.freeze
 
 TOKEN_FIELDS = %i[token tag lemma hyperlemma start finish].freeze
 
+class ProperNounTrainingError < StandardError; end
+class TaggingSentenceError < StandardError; end
+
 helpers do
   def train_proper_nouns(texts)
     texts.each_with_object({}) do |text, trained_proper_nouns|
@@ -20,6 +23,8 @@ helpers do
       sentence.contractions_processing
       sentence.add_proper_nouns(trained_proper_nouns)
     end
+  rescue StandardError
+    raise ProperNounTrainingError
   end
 
   def tag_text(text, trained_proper_nouns)
@@ -39,6 +44,8 @@ helpers do
            .map do |token, tag, lemma, hyperlemma, start, finish|
       { token: token, tag: tag, lemma: lemma, hyperlemma: hyperlemma, start: start.to_i, finish: finish.to_i }
     end
+  rescue StandardError
+    raise TaggingSentenceError.new("Error tagging sentence: #{text}")
   end
 end
 
@@ -61,4 +68,10 @@ post '/tagger' do
   end
 rescue JSON::ParserError
   halt 400
+rescue ProperNounTrainingError => e
+  body = { message: e.message, backtrace: e.backtrace }.to_json
+  halt 500, { 'Content-Type' => 'application/json' }, body
+rescue TaggingSentenceError => e
+  body = { message: e.message, backtrace: e.backtrace, text: e.message }.to_json
+  halt 500, { 'Content-Type' => 'application/json' }, body
 end
