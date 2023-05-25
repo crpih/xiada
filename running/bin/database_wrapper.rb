@@ -4,6 +4,7 @@ require "dbi"
 require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
 require_relative "../bin/lemmatizer.rb"
+require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
@@ -17,7 +18,7 @@ class DatabaseWrapper
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
     when "galician_xiada"
-      @lemmatizer.extend(LemmatizerGalicianXiadaRefactor)
+      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     when "galician_xiada_oral"
       @lemmatizer.extend(LemmatizerGalicianXiada)
     end

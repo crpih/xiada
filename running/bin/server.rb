@@ -39,7 +39,7 @@ helpers do
     viterbi = Viterbi.new(DW)
     viterbi.run(sentence)
     viterbi.get_best_way
-           .split("\t\t")
+           .split("\n")
            .map { |t| t.split("\t") }
            .map do |token, tag, lemma, hyperlemma, start, finish|
       { token: token, tag: tag, lemma: lemma, hyperlemma: hyperlemma, start: start.to_i, finish: finish.to_i }

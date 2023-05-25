@@ -76,14 +76,13 @@ class Viterbi
         if tag.token.token_type == :standard
           result = result + "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            result +="\t*\t#{tag.token.get_unit}\t#{tag.token.from}\t#{tag.token.to}"
+            result +="\t*\t*\t#{tag.token.from}\t#{tag.token.to}"
           else
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
-            result += "\t#{lemma}\t#{tag.token.get_unit}\t#{tag.token.from}\t#{tag.token.to}"
-            result += "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
+            result += "\t#{lemma}\t#{hiperlemma}\t#{tag.token.from}\t#{tag.token.to}"
           end
-          result = result + "\t\t"
+          result = result + "\n"
         end
       end
     end

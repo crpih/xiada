@@ -14,13 +14,6 @@ COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
 RUN --mount=type=ssh bundle install
 
-ARG XIADA_PROFILE
-ARG XIADA_DATABASE=$XIADA_PROFILE
-
-ENV XIADA_PROFILE=$XIADA_PROFILE
-ENV XIADA_DATABASE=$XIADA_DATABASE
-ENV XIADA_OPTIONS=''
-
 COPY . /myapp
 EXPOSE 4000
 CMD ruby running/bin/server.rb -o 0.0.0.0 -p 4000 2>&1

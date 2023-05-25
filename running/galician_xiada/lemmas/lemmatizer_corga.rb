@@ -20,6 +20,94 @@ module Lemmas
   class LemmatizerCorga
     include Utils
 
+    module ClassMethods
+      def lemmatize(word, _tags)
+        @lemmatizer ||= LemmatizerCorga.new(@dw, seseo: !ENV['XIADA_SESEO'].nil?)
+        result = @lemmatizer.call(word)
+        result&.any? ? result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } : []
+      end
+
+      # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
+      def lemmatize_verb_with_enclitics(left_part)
+        #STDERR.puts "lemmatize_verb_with_enclitics: #{left_part}"
+        # gh treatment
+        if left_part =~ /gh/
+          if left_part =~ /gh[aou]/
+            new_left_part = left_part.gsub(/gh/,'g')
+            return new_left_part
+          elsif left_part =~/gh[ei]/
+            new_left_part = left_part.gsub(/gh/,'gu')
+            return new_left_part
+          end
+          # auto treatment
+        elsif left_part =~ /^autorr/
+          new_left_part = left_part.gsub(/^autor/,'')
+          return new_left_part
+        elsif left_part =~ /^auto-?/
+          new_left_part = left_part.gsub(/^auto-?/,'')
+          return new_left_part
+        end
+        left_part
+      end
+
+      # Function to tranform the word part when restoring a verb form with enclitics.
+      def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
+        #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
+        # gh treatment
+        if original_left_part =~ /gh/
+          if left_part =~ /gh[aou]/
+            new_left_part = left_part.gsub(/gh/,'g')
+            return new_left_part
+          elsif left_part =~/gh[ei]/
+            new_left_part = left_part.gsub(/gh/,'gu')
+            return new_left_part
+          end
+          # auto treatment
+        elsif original_left_part =~/^autorr/
+          new_left_part = left_part.gsub(/^(.)/,'autor\1')
+          return new_left_part unless new_left_part =~ /^autor?auto/
+        elsif original_left_part =~/^(auto-?)/
+          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+          return new_left_part unless new_left_part =~ /^autor?auto/
+        end
+        left_part
+      end
+
+      # Function to tranform the lemma part when restoring a verb form with enclitics.
+      def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
+        if original_left_part =~/^(auto-?)/
+          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+          return new_left_part unless new_left_part =~ /^autor?auto/
+        end
+        left_part
+      end
+
+      # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
+      def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
+        if original_left_part =~/^(auto-?)/
+          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
+          return new_left_part  unless new_left_part =~ /^autor?auto/
+        end
+        left_part
+      end
+
+      # Function which replace a vowel by the corresponding tilde one.
+      # position is the vowel order from the end.
+      def set_tilde(word, position)
+        characters = word.each_grapheme_cluster.to_a
+        vowel_positions = characters.each_with_index
+                                    .select { |c, _| %w[a e i o u á é í ó ú].include?(c) }
+                                    .map(&:last)
+        if position <= vowel_positions.size
+          vowel_index = vowel_positions[-position]
+          characters[vowel_index] = "#{characters[vowel_index]}\u0301".unicode_normalize
+          characters.join
+        else
+          return word
+        end
+      end
+    end
+
     def initialize(database_wrapper, gheada: true, seseo: false)
       @dw = database_wrapper
       @gheada = gheada

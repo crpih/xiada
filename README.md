@@ -163,9 +163,9 @@ Or, as the output of the tagger is not very nice (it is not indented), we use to
 Build image with:
 
 ```bash
-DOCKER_BUILDKIT=1 docker build --build-arg XIADA_PROFILE=spanish_eslora --ssh default -t xiada_tagger-eslora:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora:latest .
 
-DOCKER_BUILDKIT=1 docker build --build-arg XIADA_PROFILE=galician_xiada --build-arg XIADA_DATABASE=galician_xiada_escrita --ssh default -t xiada_tagger-xiada:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .
 ```
 
 Existing training databases are copied inside the image.

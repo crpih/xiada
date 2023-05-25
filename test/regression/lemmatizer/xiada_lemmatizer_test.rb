@@ -4,8 +4,7 @@ require 'fileutils'
 require_relative '../../test_helper'
 require_relative '../../../running/bin/lemmatizer'
 require_relative '../../../running/bin/database_wrapper'
-require_relative '../../../running/galician_xiada/lemmatizer'
-require_relative '../../../running/galician_xiada/lemmatizer_refactor'
+require_relative '../../../running/galician_xiada/lemmas/lemmatizer_corga'
 
 def gender_number_variations(word)
   return word unless word.end_with?('o')
@@ -21,14 +20,14 @@ WORDS = File.readlines('test/regression/lemmatizer/xiada_selected_words.txt', ch
 
 DATABASES = %w[training_galician_xiada_escrita].freeze
 
-describe LemmatizerGalicianXiada do
+describe Lemmas::LemmatizerCorga do
   DATABASES.each do |database_name|
     it "should match #{database_name} previous results for selected examples" do
       # Setup
       ENV['XIADA_PROFILE'] = 'galician_xiada'
       db_file = "training/databases/galician_xiada/#{database_name}.db"
       dw = DatabaseWrapper.new(db_file)
-      lemmatizer = Lemmatizer.new(dw).extend(LemmatizerGalicianXiadaRefactor)
+      lemmatizer = Lemmatizer.new(dw).extend(Lemmas::LemmatizerCorga::ClassMethods)
 
       current = WORDS.each_with_object({}) do |word, result|
         lemmas = lemmatizer.lemmatize(word, nil)
