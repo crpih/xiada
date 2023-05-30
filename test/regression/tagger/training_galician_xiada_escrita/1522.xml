@@ -12,21 +12,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Un</unidade>
+<unidade>Un pouco</unidade>
 <constituínte>
-<forma>un</forma>
-<etiqueta>Dims</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>pouco</unidade>
-<constituínte>
-<forma>pouco</forma>
-<etiqueta>Inms</etiqueta>
-<lema>pouco</lema>
-<hiperlema>pouco</hiperlema>
+<forma>un pouco</forma>
+<etiqueta>Wn</etiqueta>
+<lema>un pouco</lema>
+<hiperlema>un pouco</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

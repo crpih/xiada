@@ -234,30 +234,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>con</unidade>
+<unidade>con respeito ao</unidade>
 <constituínte>
-<forma>con</forma>
+<forma>con respeito a</forma>
 <etiqueta>P</etiqueta>
-<lema>con</lema>
-<hiperlema>con</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>respeito</unidade>
-<constituínte>
-<forma>respeito</forma>
-<etiqueta>Scms</etiqueta>
-<lema>respeito</lema>
-<hiperlema>respecto</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>ao</unidade>
-<constituínte>
-<forma>a</forma>
-<etiqueta>P</etiqueta>
-<lema>a</lema>
-<hiperlema>a</hiperlema>
+<lema>con respeito a</lema>
+<hiperlema>con respecto a</hiperlema>
 </constituínte>
 <constituínte>
 <forma>o</forma>

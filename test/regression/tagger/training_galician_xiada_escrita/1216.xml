@@ -3,21 +3,12 @@
 <expresión>En resumo, creo, en primeiro lugar, que a solución ao Teatro ten que vir tamén desde a Administración.</expresión>
 <análise>
 <análise_unidade>
-<unidade>En</unidade>
+<unidade>En resumo</unidade>
 <constituínte>
-<forma>en</forma>
-<etiqueta>P</etiqueta>
-<lema>en</lema>
-<hiperlema>en</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>resumo</unidade>
-<constituínte>
-<forma>resumo</forma>
-<etiqueta>Scms</etiqueta>
-<lema>resumo</lema>
-<hiperlema>resumo</hiperlema>
+<forma>en resumo</forma>
+<etiqueta>Wn</etiqueta>
+<lema>en resumo</lema>
+<hiperlema>en resumo</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -15,7 +15,7 @@
 <unidade>Alguén</unidade>
 <constituínte>
 <forma>alguén</forma>
-<etiqueta>Inms</etiqueta>
+<etiqueta>Inas</etiqueta>
 <lema>alguén</lema>
 <hiperlema>alguén</hiperlema>
 </constituínte>
@@ -24,7 +24,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Tnas</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -42,9 +42,9 @@
 <unidade>morto</unidade>
 <constituínte>
 <forma>morto</forma>
-<etiqueta>V0p0ms</etiqueta>
-<lema>morrer</lema>
-<hiperlema>morrer</hiperlema>
+<etiqueta>A0ms</etiqueta>
+<lema>morto</lema>
+<hiperlema>morto</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

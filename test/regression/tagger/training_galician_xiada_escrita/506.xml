@@ -162,7 +162,7 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>dun</unidade>
+<unidade>dun pouco</unidade>
 <constituínte>
 <forma>de</forma>
 <etiqueta>P</etiqueta>
@@ -170,19 +170,10 @@
 <hiperlema>de</hiperlema>
 </constituínte>
 <constituínte>
-<forma>un</forma>
-<etiqueta>Dims</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>pouco</unidade>
-<constituínte>
-<forma>pouco</forma>
+<forma>un pouco</forma>
 <etiqueta>Inms</etiqueta>
-<lema>pouco</lema>
-<hiperlema>pouco</hiperlema>
+<lema>un pouco</lema>
+<hiperlema>un pouco</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -135,30 +135,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>a</unidade>
+<unidade>a respeito da</unidade>
 <constituínte>
-<forma>a</forma>
+<forma>a respeito de</forma>
 <etiqueta>P</etiqueta>
-<lema>a</lema>
-<hiperlema>a</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>respeito</unidade>
-<constituínte>
-<forma>respeito</forma>
-<etiqueta>Scms</etiqueta>
-<lema>respeito</lema>
-<hiperlema>respecto</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>da</unidade>
-<constituínte>
-<forma>de</forma>
-<etiqueta>P</etiqueta>
-<lema>de</lema>
-<hiperlema>de</hiperlema>
+<lema>a respeito de</lema>
+<hiperlema>a respecto de</hiperlema>
 </constituínte>
 <constituínte>
 <forma>a</forma>

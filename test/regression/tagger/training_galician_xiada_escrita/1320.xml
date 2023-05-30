@@ -3,21 +3,12 @@
 <expresión>Cada un deles non poderá recoller máis de 7 quilos por xornada de traballo.</expresión>
 <análise>
 <análise_unidade>
-<unidade>Cada</unidade>
+<unidade>Cada un</unidade>
 <constituínte>
-<forma>cada</forma>
-<etiqueta>Idms</etiqueta>
-<lema>cada</lema>
-<hiperlema>cada</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>un</unidade>
-<constituínte>
-<forma>un</forma>
+<forma>cada un</forma>
 <etiqueta>Inms</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
+<lema>cada un</lema>
+<hiperlema>cada un</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

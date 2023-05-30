@@ -57,30 +57,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>un</unidade>
+<unidade>un tanto</unidade>
 <constituínte>
-<forma>un</forma>
-<etiqueta>Ncnms</etiqueta>
-<lema>un</lema>
-<hiperlema></hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>tanto</unidade>
-<constituínte>
-<forma>tanto</forma>
-<etiqueta>Wn</etiqueta>
-<lema>tanto</lema>
-<hiperlema>tanto</hiperlema>
+<forma>un tanto</forma>
+<etiqueta>Wm</etiqueta>
+<lema>un tanto</lema>
+<hiperlema>un tanto</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
 <unidade>sofisticado</unidade>
 <constituínte>
 <forma>sofisticado</forma>
-<etiqueta>V0p0ms</etiqueta>
-<lema>sofisticar</lema>
-<hiperlema>sofisticar</hiperlema>
+<etiqueta>A0ms</etiqueta>
+<lema>sofisticado</lema>
+<hiperlema>sofisticado</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

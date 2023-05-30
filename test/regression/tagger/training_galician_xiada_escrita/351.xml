@@ -456,21 +456,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>cada</unidade>
+<unidade>cada un</unidade>
 <constituínte>
-<forma>cada</forma>
-<etiqueta>Idms</etiqueta>
-<lema>cada</lema>
-<hiperlema>cada</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>un</unidade>
-<constituínte>
-<forma>un</forma>
+<forma>cada un</forma>
 <etiqueta>Inms</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
+<lema>cada un</lema>
+<hiperlema>cada un</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

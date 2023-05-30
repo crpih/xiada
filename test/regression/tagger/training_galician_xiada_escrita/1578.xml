@@ -225,21 +225,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>por</unidade>
+<unidade>por exemplo</unidade>
 <constituínte>
-<forma>por</forma>
-<etiqueta>P</etiqueta>
-<lema>por</lema>
-<hiperlema>por</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>exemplo</unidade>
-<constituínte>
-<forma>exemplo</forma>
-<etiqueta>Scms</etiqueta>
-<lema>exemplo</lema>
-<hiperlema>exemplo</hiperlema>
+<forma>por exemplo</forma>
+<etiqueta>Wn</etiqueta>
+<lema>por exemplo</lema>
+<hiperlema>por exemplo</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

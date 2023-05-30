@@ -240,21 +240,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>cada</unidade>
+<unidade>cada unha</unidade>
 <constituínte>
-<forma>cada</forma>
-<etiqueta>Idfs</etiqueta>
-<lema>cada</lema>
-<hiperlema>cada</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>unha</unidade>
-<constituínte>
-<forma>unha</forma>
+<forma>cada unha</forma>
 <etiqueta>Infs</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
+<lema>cada un</lema>
+<hiperlema>cada un</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

@@ -3,21 +3,12 @@
 <expresión>Moitas gracias, Maruja Mallo, por nacer en Viveiro.</expresión>
 <análise>
 <análise_unidade>
-<unidade>Moitas</unidade>
+<unidade>Moitas gracias</unidade>
 <constituínte>
-<forma>moitas</forma>
-<etiqueta>Idfp</etiqueta>
-<lema>moito</lema>
-<hiperlema>moito</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>gracias</unidade>
-<constituínte>
-<forma>gracias</forma>
-<etiqueta>Scfp</etiqueta>
-<lema>gracia</lema>
-<hiperlema>graza</hiperlema>
+<forma>moitas gracias</forma>
+<etiqueta>Y</etiqueta>
+<lema>moitas gracias</lema>
+<hiperlema>grazas</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

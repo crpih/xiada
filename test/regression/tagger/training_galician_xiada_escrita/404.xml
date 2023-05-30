@@ -81,21 +81,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>un</unidade>
+<unidade>un pouco</unidade>
 <constituínte>
-<forma>un</forma>
-<etiqueta>Dims</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>pouco</unidade>
-<constituínte>
-<forma>pouco</forma>
-<etiqueta>Inms</etiqueta>
-<lema>pouco</lema>
-<hiperlema>pouco</hiperlema>
+<forma>un pouco</forma>
+<etiqueta>Wm</etiqueta>
+<lema>un pouco</lema>
+<hiperlema>un pouco</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

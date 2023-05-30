@@ -3,21 +3,12 @@
 <expresión>Por exemplo, se se leva un obxecto voluminoso ou se se empurra un vehículo de reducidas dimensións que non sexa de motor e a súa circulación pola zona peonil puidese constituír un atranco considerable.</expresión>
 <análise>
 <análise_unidade>
-<unidade>Por</unidade>
+<unidade>Por exemplo</unidade>
 <constituínte>
-<forma>por</forma>
-<etiqueta>P</etiqueta>
-<lema>por</lema>
-<hiperlema>por</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>exemplo</unidade>
-<constituínte>
-<forma>exemplo</forma>
-<etiqueta>Scms</etiqueta>
-<lema>exemplo</lema>
-<hiperlema>exemplo</hiperlema>
+<forma>por exemplo</forma>
+<etiqueta>Wn</etiqueta>
+<lema>por exemplo</lema>
+<hiperlema>por exemplo</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

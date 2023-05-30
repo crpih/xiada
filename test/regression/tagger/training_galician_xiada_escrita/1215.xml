@@ -51,9 +51,9 @@
 <unidade>xeraliza</unidade>
 <constituínte>
 <forma>xeraliza</forma>
-<etiqueta>V0m20s</etiqueta>
-<lema>*</lema>
-<hiperlema>*</hiperlema>
+<etiqueta>Vpi30s</etiqueta>
+<lema>xeralizar</lema>
+<hiperlema>xeneralizar</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -177,9 +177,9 @@
 <unidade>xeneral</unidade>
 <constituínte>
 <forma>xeneral</forma>
-<etiqueta>Scms</etiqueta>
+<etiqueta>A0ms</etiqueta>
 <lema>xeneral</lema>
-<hiperlema>xeneral</hiperlema>
+<hiperlema>xeral</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -195,7 +195,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Tnms</etiqueta>
+<etiqueta>Tnfs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -345,21 +345,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>un</unidade>
+<unidade>un pouco</unidade>
 <constituínte>
-<forma>un</forma>
-<etiqueta>Dims</etiqueta>
-<lema>un</lema>
-<hiperlema>un</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>pouco</unidade>
-<constituínte>
-<forma>pouco</forma>
-<etiqueta>Inms</etiqueta>
-<lema>pouco</lema>
-<hiperlema>pouco</hiperlema>
+<forma>un pouco</forma>
+<etiqueta>Wn</etiqueta>
+<lema>un pouco</lema>
+<hiperlema>un pouco</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
