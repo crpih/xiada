@@ -193,3 +193,5 @@ telensino
 ghitarra
 gherra
 ninghún
+ghaliña
+galiña

@@ -4,12 +4,6 @@
       "Wm",
       "amablemente",
       "amablemente",
-      -0.04603504957301155
-    ],
-    [
-      "Wm",
-      "amablemente",
-      "amablemente",
       -9.026898187513526
     ],
     [
@@ -17,6 +11,12 @@
       "amablemente",
       "amablemente",
       -9.681031265002055
+    ],
+    [
+      "Wm",
+      "amablemente",
+      "amablemente",
+      -0.04603504957301155
     ]
   ],
   "amabilísimo": [
@@ -56,13 +56,13 @@
       "Asms",
       "rico",
       "rico",
-      -7.616480489505401
+      -5.908082938168931
     ],
     [
       "Asms",
       "rico",
       "rico",
-      -5.908082938168931
+      -7.616480489505401
     ]
   ],
   "riquísimos": [
@@ -70,13 +70,13 @@
       "Asmp",
       "rico",
       "rico",
-      -7.538945219414931
+      -5.638354669333745
     ],
     [
       "Asmp",
       "rico",
       "rico",
-      -5.638354669333745
+      -7.538945219414931
     ]
   ],
   "riquísima": [
@@ -84,13 +84,13 @@
       "Asfs",
       "rico",
       "rico",
-      -8.439339752211373
+      -5.802118375377063
     ],
     [
       "Asfs",
       "rico",
       "rico",
-      -5.802118375377063
+      -8.439339752211373
     ]
   ],
   "riquísimas": [
@@ -98,13 +98,13 @@
       "Asfp",
       "rico",
       "rico",
-      -8.108064236754752
+      -5.564520407322694
     ],
     [
       "Asfp",
       "rico",
       "rico",
-      -5.564520407322694
+      -8.108064236754752
     ]
   ],
   "vaguísimo": [
@@ -532,13 +532,13 @@
       "Scfs",
       "autoxestión",
       "autoxestión",
-      -6.722784061088419
+      -11.07949288777801
     ],
     [
       "Scfs",
       "autoxestión",
       "autoxestión",
-      -11.07949288777801
+      -6.722784061088419
     ]
   ],
   "autorreflexión": [
@@ -567,6 +567,12 @@
   ],
   "amiguiño": [
     [
+      "Scms",
+      "amigo",
+      "amigo",
+      -11.1182073999587
+    ],
+    [
       "A0ms",
       "amigo",
       "amigo",
@@ -577,15 +583,15 @@
       "amigo",
       "amigo",
       -6.607347893441851
-    ],
-    [
-      "Scms",
-      "amigo",
-      "amigo",
-      -11.1182073999587
     ]
   ],
   "amiguiños": [
+    [
+      "Scmp",
+      "amigo",
+      "amigo",
+      -10.701580162617567
+    ],
     [
       "A0mp",
       "amigo",
@@ -597,15 +603,15 @@
       "amigo",
       "amigo",
       -6.5744457775724765
-    ],
-    [
-      "Scmp",
-      "amigo",
-      "amigo",
-      -10.701580162617567
     ]
   ],
   "amiguiña": [
+    [
+      "Scfs",
+      "amigo",
+      "amigo",
+      -11.07949288777801
+    ],
     [
       "A0fs",
       "amigo",
@@ -617,15 +623,15 @@
       "amigo",
       "amigo",
       -7.901439057430065
-    ],
-    [
-      "Scfs",
-      "amigo",
-      "amigo",
-      -11.07949288777801
     ]
   ],
   "amiguiñas": [
+    [
+      "Scfp",
+      "amigo",
+      "amigo",
+      -10.556567661882832
+    ],
     [
       "A0fp",
       "amigo",
@@ -637,12 +643,6 @@
       "amigo",
       "amigo",
       -8.359343084546612
-    ],
-    [
-      "Scfp",
-      "amigo",
-      "amigo",
-      -10.556567661882832
     ]
   ],
   "enruguiñas": [
@@ -834,14 +834,14 @@
   "faisquiñas": [
     [
       "Scfp",
-      "faisca",
-      "",
+      "faísca",
+      "faísca",
       -10.556567661882832
     ],
     [
       "Scfp",
-      "faísca",
-      "faísca",
+      "faisca",
+      "",
       -10.556567661882832
     ]
   ],
@@ -1554,13 +1554,13 @@
       "Scfp",
       "nube",
       "nube",
-      -8.776907794783964
+      -10.556567661882832
     ],
     [
       "Scfp",
       "nube",
       "nube",
-      -10.556567661882832
+      -8.776907794783964
     ]
   ],
   "estuchiño": [
@@ -1627,6 +1627,12 @@
   ],
   "amighiñas": [
     [
+      "Scfp",
+      "amigo",
+      "amigo",
+      -10.556567661882832
+    ],
+    [
       "A0fp",
       "amigo",
       "amigo",
@@ -1637,12 +1643,6 @@
       "amigo",
       "amigo",
       -8.359343084546612
-    ],
-    [
-      "Scfp",
-      "amigo",
-      "amigo",
-      -10.556567661882832
     ]
   ],
   "cadradiños": [
@@ -1968,28 +1968,28 @@
   "marquesiña": [
     [
       "Scfs",
-      "marqués",
-      "marqués",
+      "marquesiña",
+      "marquesiña",
       -11.07949288777801
     ],
     [
       "Scfs",
-      "marquesiña",
-      "marquesiña",
+      "marqués",
+      "marqués",
       -11.07949288777801
     ]
   ],
   "marquesiñas": [
     [
       "Scfp",
-      "marqués",
-      "marqués",
+      "marquesiña",
+      "marquesiña",
       -10.556567661882832
     ],
     [
       "Scfp",
-      "marquesiña",
-      "marquesiña",
+      "marqués",
+      "marqués",
       -10.556567661882832
     ]
   ],
@@ -2031,6 +2031,12 @@
   ],
   "tesiña": [
     [
+      "Scfs",
+      "tesiña",
+      "tesiña",
+      -11.07949288777801
+    ],
+    [
       "A0fs",
       "teso",
       "teso",
@@ -2040,12 +2046,6 @@
       "Scfs",
       "tesa",
       "tesa",
-      -11.07949288777801
-    ],
-    [
-      "Scfs",
-      "tesiña",
-      "tesiña",
       -11.07949288777801
     ]
   ],
@@ -2121,14 +2121,14 @@
     [
       "Scms",
       "ex-primeiro ministro",
-      "exprimeiro ministro",
-      -8.92098282262248
+      "ex primeiro ministro",
+      -11.1182073999587
     ],
     [
       "Scms",
       "ex-primeiro ministro",
-      "ex primeiro ministro",
-      -11.1182073999587
+      "exprimeiro ministro",
+      -8.92098282262248
     ]
   ],
   "ex-esposo": [
@@ -2750,13 +2750,13 @@
       "Scmp",
       "microorganismo",
       "microorganismo",
-      -8.062522833002308
+      -10.701580162617567
     ],
     [
       "Scmp",
       "microorganismo",
       "microorganismo",
-      -10.701580162617567
+      -8.062522833002308
     ]
   ],
   "microrepetidores": [
@@ -2896,13 +2896,13 @@
       "Scms",
       "xeorradar",
       "xeorradar",
-      -10.425060219398755
+      -11.1182073999587
     ],
     [
       "Scms",
       "xeorradar",
       "xeorradar",
-      -11.1182073999587
+      -10.425060219398755
     ]
   ],
   "xeorganismos": [
@@ -3027,12 +3027,6 @@
   ],
   "multiidioma": [
     [
-      "Scms",
-      "multiidioma",
-      "multiidioma",
-      -7.562859338469287
-    ],
-    [
       "A0as",
       "multiidioma",
       "multiidioma",
@@ -3049,6 +3043,12 @@
       "multiidioma",
       "multiidioma",
       -9.631383510047666
+    ],
+    [
+      "Scms",
+      "multiidioma",
+      "multiidioma",
+      -7.562859338469287
     ]
   ],
   "multidude": [
@@ -3351,6 +3351,58 @@
       "ningún",
       "ningún",
       -3.4973489582346717
+    ]
+  ],
+  "ghaliña": [
+    [
+      "Scfs",
+      "galo",
+      "galo",
+      -9.133582738722698
+    ],
+    [
+      "A0fs",
+      "galo",
+      "galo",
+      -9.132486932771318
+    ],
+    [
+      "Scfs",
+      "gala",
+      "gala",
+      -9.000051346098175
+    ],
+    [
+      "Scfs",
+      "galo",
+      "galo",
+      -9.000051346098175
+    ]
+  ],
+  "galiña": [
+    [
+      "Scfs",
+      "galo",
+      "galo",
+      -9.133582738722698
+    ],
+    [
+      "A0fs",
+      "galo",
+      "galo",
+      -9.132486932771318
+    ],
+    [
+      "Scfs",
+      "gala",
+      "gala",
+      -9.000051346098175
+    ],
+    [
+      "Scfs",
+      "galo",
+      "galo",
+      -9.000051346098175
     ]
   ]
 }

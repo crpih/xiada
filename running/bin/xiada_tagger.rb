@@ -46,26 +46,6 @@ class XiadaTagger
         end
       end
       $stdout = orig_stdout
-    elsif @options[:socket]
-      puts "Litening on socket: #{@options[:socket]}"
-      hostname = "0.0.0.0"
-      server = TCPServer.new(hostname, @options[:socket])
-      while (socket = server.accept)
-        if (sentence = socket.gets)
-          sentence.chomp!
-          #puts "recibido: --#{sentence}--"
-          #puts "sentence encoding: #{sentence.encoding}"
-          result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns])
-          #if sentence.encoding.name == "ASCII-8BIT" or sentence.encoding.name == "ISO-8859-1"
-          #  encoded_result = result.encode("ISO-8859-1")
-          #else
-          #  encoded_result = result
-          #end
-          socket.puts(result)
-          #puts "enviado: --#{encoded_result}--"
-          socket.close
-        end
-      end
     else
       if @options[:file]
         trained_proper_nouns = {}
@@ -176,23 +156,6 @@ class XiadaTagger
     #sentence.print(STDERR)
     #sentence.print_reverse
     viterbi.print_best_way
-  end
-
-  def process_line_socket(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, trained_proper_nouns, force_proper_nouns)
-    sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, force_proper_nouns)
-    line.force_encoding("UTF-8") if line.encoding.name == "ASCII-8BIT"
-    #encoded_line = line.encode("UTF-8")
-    #sentence.add_chunk(encoded_line,nil,nil,nil,nil)
-    sentence.add_chunk(line, nil, nil, nil, nil)
-    sentence.finish
-    sentence.contractions_processing
-    sentence.idioms_processing # Must be processed before numerals
-    sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
-    sentence.numerals_processing
-    sentence.enclitics_processing
-    viterbi = Viterbi.new(dw)
-    viterbi.run(sentence)
-    return viterbi.get_best_way
   end
 
   def parse_args

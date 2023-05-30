@@ -18,3 +18,7 @@ gem 'sqlite3', '1.3.10'
 gem 'nxml', git: 'git@bitbucket.org:nlpgo/nxml.git', branch: 'dev'
 
 gem 'diff-lcs'
+
+gem "sinatra", "~> 3.0"
+
+gem "puma", "~> 6.2"

@@ -19,7 +19,7 @@ class Viterbi
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
-      sentence.print(STDERR)
+      # sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
       #sentence.print(STDERR)
@@ -76,14 +76,13 @@ class Viterbi
         if tag.token.token_type == :standard
           result = result + "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            result = result + "\t*"
+            result +="\t*\t*\t#{tag.token.from}\t#{tag.token.to}"
           else
             lemma = tag.lemmas.keys[0]
             hiperlemma = tag.hiperlemmas[lemma]
-            result = result + "\t#{lemma}"
-            result = result + "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
+            result += "\t#{lemma}\t#{hiperlemma}\t#{tag.token.from}\t#{tag.token.to}"
           end
-          result = result + "\t\t"
+          result = result + "\n"
         end
       end
     end
