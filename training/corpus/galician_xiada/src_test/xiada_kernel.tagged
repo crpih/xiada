@@ -105,7 +105,7 @@ de	P	de
 que	Cs	que
 poideran	Ves30p	poder
 contar	V0f000	contar
-algo	In00	algo
+algo	Inns	algo
 ,	Q,	,
 El Pulpo	Spm0	El Pulpo
 acabou	Vei30s	acabar
@@ -484,8 +484,8 @@ empresa	Scfs	empresa
 e	Cc	e
 non	Wn	non
 temos	Vpi10p	ter
-nada	In00	nada
-que	Tnaa	que
+nada	Inns	nada
+que	Tnms	que
 dicir	V0f000	dicir
 sobre	P	sobre
 asuntos	Scmp	asunto
@@ -1220,7 +1220,7 @@ non	Wn	non
 se	Rao3aa	se
 arrepinte	Vpi30s	arrepentir
 de	P	de
-nada	In00	nada
+nada	Inns	nada
 e	Cc	e
 que	Tnms	que
 se	Rao3aa	se
@@ -3153,7 +3153,7 @@ lo	Raa3ms	o
 teño	Vpi10s	ter
 dito	V0p0ms	dicir
 ,	Q,	,
-nada	In00	nada
+nada	Inns	nada
 de	P	de
 eira	Scfs	eira
 ;	Q;	;
@@ -3378,8 +3378,8 @@ dixen	Vei10s	dicir
 que	Cs	que
 non	Wn	non
 teño	Vpi10s	ter
-nada	In00	nada
-que	Tnaa	que
+nada	Inns	nada
+que	Tnms	que
 ver	V0f000	ver
 con	P	con
 as	Ddfp	o
@@ -3551,7 +3551,7 @@ limitación	Scfs	limitación
 .	Q.	.
 
 sen embargo	Wn	sen embargo
-El	Rtn1ms	El
+El	Rtn3ms	el
 vive	Vpi30s	vivir
 totalmente	Wm	totalmente
 apartado	A0ms	apartado
@@ -4603,8 +4603,8 @@ algunha	Infs	algún
 de	P	de
 nós	Rtp1fp	nós
 tivo	Vei30s	ter
-algo	In00	algo
-que	Tnaa	que
+algo	Inns	algo
+que	Tnms	que
 ver	V0f000	ver
 en	P	en
 a	Ddfs	o
@@ -4885,8 +4885,8 @@ importante	A0fs	importante
 por	P	por
 fortuna	Scfs	fortuna
 ,	Q,	,
-quenquera	Inaa	quenquera
-que	Tnaa	que
+quenquera	Inas	quenquera
+que	Tnas	que
 fose	Ves30sser	ser
 pasara	Vli30s	pasar
 de	P	de
@@ -5659,7 +5659,7 @@ de	P	de
 cada	Idap	cada
 catro	Ncnap	catro
 gustaría	Vci30s	gustar
-lle	Rad3ap	lle
+lle	Rad3as	lle
 que	Cs	que
 un	Dims	un
 fillo	Scms	fillo
@@ -6005,8 +6005,7 @@ novos/as	A0xp	novo
 
 sabe	Vpi30s	saber
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 un/ha	Dixs	un
 traballador/a	Scxs	traballador
@@ -6085,8 +6084,7 @@ traballadores/as	Scxp	traballador
 
 coñezo	Vpi10s	coñecer
 persoalmente	Wn	persoalmente
-cada	Idas	cada
-un/ha	Inxs	un
+cada un/ha	Inxs	cada un
 de	P	de
 @s	Ddxp	o
 estudantes	Scap	estudante
@@ -6433,7 +6431,7 @@ azul	A0ms	azul
 que	Cs	que
 de súpeto	Wn	de súpeto
 saia	Vps30s	saír
-algo	Inms	algo
+algo	Inns	algo
 forrado	V0p0ms	forrar
 con	P	con
 papel	Scms	papel
@@ -6612,8 +6610,7 @@ ela/el	Rtp3xs	el
 ,	Q,	,
 quedando	V0x000	quedar
 xa	Wn	xa
-en	P	en
-silencio	Scms	silencio
+en silencio	Wn	en silencio
 e	Cc	e
 sen	P	sen
 abrir	V0f000	abrir
@@ -6979,6 +6976,45 @@ meta-	Zx00	meta-
 para-	Zx00	para-
 ou	Cc	ou
 pseudo-	Zx00	pseudo-
+.	Q.	.
+
+de	P	de
+que	Gdfa	que
+tesis	Scfa	tesis
+falas	Vpi20s	falar
+?	Q?	?
+
+de	P	de
+que	Gdma	que
+antivirus	Scma	antivirus
+falas	Vpi20s	falar
+?	Q?	?
+
+nota	Vpi30s	notar
+un	Dims	un
+baleiro	Scms	baleiro
+en	P	en
+as	Ddfp	o
+súas	Md3sfp	seu
+tripas	Scfp	tripa
+de	P	de
+pistóns	Scmp	pistón
+,	Q,	,
+graxas	Scfp	graxa
+,	Q,	,
+aceiro	Scms	aceiro
+,	Q,	,
+buxías	Scfp	buxía
+e	Cc	e
+demais	Inaa	demais
+,	Q,	,
+e	Cc	e
+aínda	Wn	aínda
+por riba	Wn	por riba
+están	Vpi30p	estar
+o	Raa3ms	o
+a	P	a
+bater	V0f000	bater
 .	Q.	.
 
 

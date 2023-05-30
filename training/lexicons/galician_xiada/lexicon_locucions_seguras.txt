@@ -117,6 +117,7 @@ a por de	P	a por de	a por de
 a posteriori	Wn	a posteriori	a posteriori
 a priori	Wn	a priori	a priori
 a prol	Wn	a prol	a prol
+a punto de caramelo	Wn	a punto de caramelo	a punto de caramelo
 a queimarroupa	Wn	a queimarroupa	a queimarroupa
 a raxatabla	Wn	a raxatabla	a raxatabla
 a recú	Wn	a recú	a recú
@@ -144,6 +145,7 @@ a treu	Wn	a treu	a treo
 a ultranza	Wn	a ultranza	a ultranza
 a voleo	Wn	a voleo	a voleo
 a xeito de	P	a xeito de	a xeito de
+a xunto de	P	a xunto de	xunto de
 a xuízo de	P	a xuízo de	a xuízo de
 ab initio	Wn	ab initio	ab initio
 ab intestato	Wn	ab intestato	ab intestato
@@ -189,6 +191,7 @@ ante meridiem	Wn	ante meridiem	ante meridiem
 ante mortem	Wn	ante mortem	ante mortem
 antes de antonte	Wn	antes de antonte	antes de antonte
 antre lusco e fusco	Wn	antre lusco e fusco	entre lusco e fusco
+anxina de peito	Scfs	anxina de peito	anxina de peito
 arre demo	Y	arre demo	arre demo
 ars amandi	Scfs	ars amandi	ars amandi
 ars amatoria	Scfs	ars amatoria	ars amatoria
@@ -229,6 +232,10 @@ asemade que	Cs	asemade que	asemade que
 através de	P	através de	a través de
 ave Fénix	Scfs	ave Fénix	ave Fénix
 ave fénix	Scfs	ave fénix	ave Fénix
+axente secreta	Scfs	axente secreto	axente secreto
+axente secreto	Scms	axente secreto	axente secreto
+axentes secretas	Scfp	axente secreto	axente secreto
+axentes secretos	Scmp	axente secreto	axente secreto
 azul celeste	A0as	azul celeste	azul celeste
 azul celeste	A0fs	azul celeste	azul celeste
 azul celeste	A0ms	azul celeste	azul celeste
@@ -249,6 +256,10 @@ aínda así	Wn	aínda así	aínda así
 aínda cando	Cs	aínda cando	aínda cando
 aínda que	Cs	aínda que	aínda que
 bardante de	P	bardante de	bardante de
+base de datos	Scfs	base de datos	base de datos
+base impoñible	Scfs	base impoñible	base impoñible
+bases de datos	Scfp	base de datos	base de datos
+bases impoñibles	Scfp	base impoñible	base impoñible
 baño maría	Scms	baño maría	baño maría
 beatus ille	Scms	beatus ille	beatus ille
 best seller	A0as	best seller	best-séller
@@ -272,8 +283,19 @@ cabalos de mar	Scmp	cabalo de mar	cabalo de mar
 cabalos de vapor	Scmp	cabalo de vapor	cabalo de vapor
 cabalos do demo	Scmp	cabalo do demo	cabalo do demo
 cable USB	Scms	cable USB	cable USB
+cada cal	Inas	cada cal	cada cal
+cada cal	Infs	cada cal	cada cal
+cada cal	Inms	cada cal	cada cal
+cada quen	Inas	cada quen	cadaquén
+cada quen	Infs	cada quen	cadaquén
+cada quen	Inms	cada quen	cadaquén
+cada un	Inms	cada un	cada un
+cada un/ha	Inxs	cada un	cada un
+cada unha	Infs	cada un	cada un
 cante hondo	Scms	cante hondo	cante hondo
 cante jondo	Scms	cante jondo	cante hondo
+capitán xeneral	Scms	capitán xeneral	capitán xeneral
+capitáns xenerais	Scmp	capitán xeneral	capitán xeneral
 captatio benevolentiae	Scfs	captatio benevolentiae	captatio benevolentiae
 carpe diem	Scms	carpe diem	carpe diem
 cas de	P	cas de	cas de
@@ -295,6 +317,9 @@ coche bomba	Scms	coche bomba	coche bomba
 coche de liña	Scms	coche de liña	coche de liña
 coche de línea	Scms	coche de línea	coche de liña
 coches bomba	Scmp	coche bomba	coche bomba
+codia cerebral	Scfs	codia cerebral	codia cerebral
+codia suprarrenal	Scfs	codia suprarrenal	codia suprarrenal
+codia terrrestre	Scfs	codia terrrestre	codia terrrestre
 coitus interruptus	Scma	coitus interruptus	coitus interruptus
 coitus interruptus	Scmp	coitus interruptus	coitus interruptus
 coitus interruptus	Scms	coitus interruptus	coitus interruptus
@@ -317,6 +342,8 @@ corpore in sepulto	Wn	corpore in sepulto	corpore insepulto
 corpore insepulto	Wn	corpore insepulto	corpore insepulto
 correo electrónico	Scms	correo electrónico	correo electrónico
 correos electrónicos	Scmp	correo electrónico	correo electrónico
+couto redondo	Scms	couto redondo	couto redondo
+coutos redondos	Scmp	couto redondo	couto redondo
 cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo
 cuarto de baño	Scms	cuarto de baño	cuarto de baño
 cum_laude	A0aa	cum_laude	cum_laude
@@ -408,6 +435,10 @@ de xeito que	Cs	de xeito que	de xeito que
 delirium tremens	Scma	delirium tremens	delírium tremens
 delirium tremens	Scmp	delirium tremens	delírium tremens
 delirium tremens	Scms	delirium tremens	delírium tremens
+delta de lava	Scfs	delta de lava	delta de lava
+delta lávico	Scms	delta lávico	delta lávico
+deltas de lava	Scfp	delta de lava	delta de lava
+deltas lávicos	Scmp	delta lávico	delta lávico
 delírium tremens	Scma	delírium tremens	delírium tremens
 delírium tremens	Scmp	delírium tremens	delírium tremens
 delírium tremens	Scms	delírium tremens	delírium tremens
@@ -416,6 +447,7 @@ desde logo	Wn	desde logo	desde logo
 diabete mellitus	Scfs	diabete mellitus	diabetes mellitus
 disco duro	Scms	disco duro	disco duro
 discos duros	Scmp	disco duro	disco duro
+dolce far niente	Scms	dolce far niente	dolce far niente
 déjà vu	Scms	déjà vu	déjà vu
 déjà vus	Scmp	déjà vu	déjà vu
 día santo	Scms	día santo	día santo
@@ -461,6 +493,9 @@ en regra	A0ma	en regra	en regra
 en regra	A0mp	en regra	en regra
 en regra	A0ms	en regra	en regra
 en relación con	P	en relación con	en relación con
+en resume	Wn	en resume	en resumo
+en resumen	Wn	en resumen	en resumo
+en resumo	Wn	en resumo	en resumo
 en silencio	Wn	en silencio	en silencio
 en tanto que	Cs	en tanto que	en tanto
 en troques	Wn	en troques	en troques
@@ -518,10 +553,45 @@ gardas civís	Scap	garda civil	garda civil
 gardas civís	Scfp	garda civil	garda civil
 gardas civís	Scmp	garda civil	garda civil
 genius loci	Scms	genius loci	genius loci
+glándula de Bartholin	Scfs	glándula de Bartholin	glándula de Bartholin
+glándula dixestiva	Scfs	glándula dixestiva	glándula dixestiva
+glándula lacrimal	Scfp	glándula lacrimal	glándula lacrimal
+glándula mamaria	Scfs	glándula mamaria	glándula mamaria
+glándula pineal	Scfs	glándula pineal	glándula pineal
+glándula pituitaria	Scfs	glándula pituitaria	glándula pituitaria
+glándula prostática	Scfs	glándula prostática	glándula prostática
+glándula salivar	Scfs	glándula salivar	glándula salivar
+glándula sebácea	Scfs	glándula sebácea	glándula sebácea
+glándula sudorípara	Scfs	glándula sudorípara	glándula sudorípara
+glándula suprarrenal	Scfs	glándula suprarrenal	glándula suprarrenal
+glándula tiroide	Scfs	glándula tiroide	glándula tiroide
+glándula tiroides	Scfs	glándula tiroides	glándula tiroide
+glándulas dixestivas	Scfp	glándula dixestiva	glándula dixestiva
+glándulas lacrimais	Scfp	glándula lacrimal	glándula lacrimal
+glándulas mamarias	Scfp	glándula mamaria	glándula mamaria
+glándulas salivais	Scfp	glándula salival	glándula salivar
+glándulas salivares	Scfp	glándula salivar	glándula salivar
+glándulas sebáceas	Scfp	glándula sebácea	glándula sebácea
+glándulas sudoríparas	Scfp	glándula sudorípara	glándula sudorípara
+glándulas suprarrenais	Scfp	glándula suprarrenal	glándula suprarrenal
 goma de borrar	Scfs	goma de borrar	goma de borrar
 goma de mascar	Scfs	goma de mascar	goma de mascar
 gomas de borrar	Scfp	goma de borrar	goma de borrar
 gomas de mascar	Scfp	goma de mascar	goma de mascar
+graxa hidroxenada	Scfs	graxa hidroxenada	graxa hidroxenada
+graxa insaturada	Scfs	graxa insaturada	graxa insaturada
+graxa monoinsaturada	Scfs	graxa monoinsaturada	graxa monoinsaturada
+graxa poliinsaturada	Scfs	graxa poliinsaturada	graxa poliinsaturada
+graxa polisaturada	Scfs	graxa polisaturada	graxa polisaturada
+graxa saturada	Scfs	graxa saturada	graxa saturada
+graxa trans	Scfs	graxa trans	graxa trans
+graxas hidroxenadas	Scfp	graxa hidroxenada	graxa hidroxenada
+graxas insaturadas	Scfp	graxa insaturada	graxa insaturada
+graxas monoinsaturadas	Scfp	graxa monoinsaturada	graxa monoinsaturada
+graxas poliinsaturadas	Scfp	graxa poliinsaturada	graxa poliinsaturada
+graxas polisaturadas	Scfp	graxa polisaturada	graxa polisaturada
+graxas saturadas	Scfp	graxa saturada	graxa saturada
+graxas trans	Scfp	graxa trans	graxa trans
 grosso modo	Wn	grosso modo	grosso modo
 hat trick	Scms	hat trick	hat trick
 hip hop	Scms	hip hop	hip-hop
@@ -583,6 +653,7 @@ laissez faire	Scms	laissez faire	laissez faire
 land art	Scfs	land art	land art
 lapsus linguae	Scms	lapsus linguae	lapsus linguae
 lapsus memoriae	Scms	lapsus memoriae	lapsus memoriae
+larva migrans	Scfs	larva migrans	larva migrans
 late night	Scms	late night	late night
 lato sensu	Wn	lato sensu	lato sensu
 leit motiv	Scma	leit motiv	leitmotiv
@@ -607,6 +678,8 @@ martiño peixeiro	Scms	martiño peixeiro	martiño peixeiro
 martiños peixeiros	Scmp	martiño peixeiro	martiño peixeiro
 mass media	Scmp	mass media	mass media
 mater dolorosa	Scfs	mater dolorosa	mater dolorosa
+matraz Erlenmeier	Scms	matraz Erlenmeier	matraz de Erlenmeyer
+matraz erlenmeier	Scms	matraz erlenmeier	matraz de Erlenmeyer
 mea culpa	Scms	mea culpa	mea culpa
 media star	Scfs	media star	media star
 media stars	Scfp	media star	media star
@@ -678,6 +751,13 @@ per secula seculorum	Wn	per secula seculorum	per in saecula saeculorum
 pesia a	P	pesia a	pese a
 pesie a	P	pesie a	pese a
 play back	Scms	play back	playback
+ponto cardinal	Scms	ponto cardinal	punto cardinal
+ponto de mira	Scms	ponto de mira	punto de mira
+ponto de vista	Scms	ponto de vista	punto de vista
+ponto final	Scms	ponto final	punto final
+pontos cardinais	Scmp	ponto cardinal	punto cardinal
+pontos de mira	Scmp	ponto de mira	punto de mira
+pontos de vista	Scmp	ponto de vista	punto de vista
 pop art	Scms	pop art	pop art
 por adiantado	Wn	por adiantado	por adiantado
 por anticipado	Wn	por anticipado	por anticipado
@@ -685,6 +765,7 @@ por causa de	P	por causa de	por causa de
 por cento	Wn	por cento	por cento
 por contra	Wn	por contra	por a contra
 por doquier	Wn	por doquier	por doquier
+por ejemplo	Wn	por ejemplo	por exemplo
 por ende	Wn	por ende	por ende
 por fas	Wn	por fas	por fas
 por medio de	P	por medio de	por medio de
@@ -714,6 +795,29 @@ primus inter pares	Scms	primus inter pares	primus inter pares
 pro domo mea	Wn	pro domo mea	pro domo mea
 pro domo sua	Wn	pro domo sua	pro domo sua
 pro rata	Wn	pro rata	pro rata
+punto cardinal	Scms	punto cardinal	punto cardinal
+punto crítico	Scms	punto crítico	punto crítico
+punto de cruz	Scms	punto de cruz	punto de cruz
+punto de mira	Scms	punto de mira	punto de mira
+punto de neve	Scms	punto de neve	punto de neve
+punto de vista	Scms	punto de vista	punto de vista
+punto e aparte	Scms	punto e aparte	punto e á parte
+punto e seguido	Scms	punto e seguido	punto e seguido
+punto e á parte	Scms	punto e á parte	punto e á parte
+punto final	Scms	punto final	punto final
+punto morto	Scms	punto morto	punto morto
+punto por punto	Wn	punto por punto	punto por punto
+punto quilométrico	Scms	punto quilométrico	punto quilométrico
+puntos cardinais	Scmp	punto cardinal	punto cardinal
+puntos críticos	Scmp	punto crítico	punto crítico
+puntos de mira	Scmp	punto de mira	punto de mira
+puntos de vista	Scmp	punto de vista	punto de vista
+puntos e seguido	Scmp	punto e seguido	punto e seguido
+puntos e á parte	Scmp	punto e á parte	punto e á parte
+puntos finais	Scmp	punto final	punto final
+puntos quilométricos	Scmp	punto quilométrico	punto quilométrico
+puntos suspensivos	Scmp	puntos suspensivos	puntos suspensivos
+quecemento global	Scms	quecemento global	quecemento global
 quid pro quo	Scms	quid pro quo	quid pro quo
 rara avis	Scfs	rara avis	rara avis
 reality show	Scms	reality show	reality show
@@ -739,6 +843,7 @@ secretario xeral	Scms	secretario xeral	secretario xeral
 secretarios xerais	Scmp	secretario xeral	secretario xeral
 secretaría xeral	Scfs	secretaría xeral	secretaría xeral
 secretarías xerais	Scfp	secretaría xeral	secretaría xeral
+segundas intencións	Scfp	segundas intencións	segundas intencións
 sempre e cando	Cs	sempre e cando	sempre e cando
 sensu contrario	Wn	sensu contrario	a sensu contrario
 sensu estricto	Wn	sensu estricto	sensu stricto
@@ -748,6 +853,8 @@ silencio administrativo	Scms	silencio administrativo	silencio administrativo
 silencios administrativos	Scmp	silencio administrativo	silencio administrativo
 sine die	Wn	sine die	sine die
 sine qua non	Wn	sine qua non	sine qua non
+smart cities	Scfp	smart city	smart city
+smart city	Scfs	smart city	smart city
 sobor de	P	sobor de	sobre de
 soto voce	Wn	soto voce	sotto voce
 sotto voce	Wn	sotto voce	sotto voce
@@ -774,6 +881,8 @@ sóbor de	P	sóbor de	sobre de
 tal cal	Cs	tal cal	tal cal
 talent show	Scms	talent show	talent show
 talk show	Scms	talk show	talk show
+tarifa plana	Scfs	tarifa plana	tarifa plana
+tarifas planas	Scfp	tarifa plana	tarifa plana
 tax lease	Scms	tax lease	tax lease
 te deum	Scms	te deum	te deum
 tea de araña	Scfs	tea de araña	tea de araña
@@ -822,12 +931,114 @@ tías avoas	Scfp	tío avó	tío avó
 tío avó	Scms	tío avó	tío avó
 tíos avós	Scmp	tío avó	tío avó
 tótum revolútum	Scms	tótum revolútum	tótum revolútum
+un algo	Inms	un algo	un algo
+un algo	Wm	un algo	un algo
+un algo	Wn	un algo	un algo
+un alguiño	Inms	un algo	un algo
+un alguiño	Wm	un algo	un algo
+un alguiño	Wn	un algo	un algo
+un nada	Inms	un nada	un nada
+un nada	Wm	un nada	un nada
+un nada	Wn	un nada	un nada
+un nadiña	Inms	un nada	un nada
+un nadiña	Wm	un nada	un nada
+un nadiña	Wn	un nada	un nada
+un pouco	Iams	un pouco	un pouco
+un pouco	Idms	un pouco	un pouco
+un pouco	Inms	un pouco	un pouco
+un pouco	Wm	un pouco	un pouco
+un pouco	Wn	un pouco	un pouco
+un pouquechiño	Iams	un pouco	un pouco
+un pouquechiño	Idms	un pouco	un pouco
+un pouquechiño	Inms	un pouco	un pouco
+un pouquechiño	Wm	un pouco	un pouco
+un pouquechiño	Wn	un pouco	un pouco
+un pouquecho	Iams	un pouco	un pouco
+un pouquecho	Idms	un pouco	un pouco
+un pouquecho	Inms	un pouco	un pouco
+un pouquecho	Wm	un pouco	un pouco
+un pouquecho	Wn	un pouco	un pouco
+un pouquerrechiño	Iams	un pouco	un pouco
+un pouquerrechiño	Idms	un pouco	un pouco
+un pouquerrechiño	Inms	un pouco	un pouco
+un pouquerrechiño	Wm	un pouco	un pouco
+un pouquerrechiño	Wn	un pouco	un pouco
+un pouquerrecho	Iams	un pouco	un pouco
+un pouquerrecho	Idms	un pouco	un pouco
+un pouquerrecho	Inms	un pouco	un pouco
+un pouquerrecho	Wm	un pouco	un pouco
+un pouquerrecho	Wn	un pouco	un pouco
+un pouquiño	Iams	un pouco	un pouco
+un pouquiño	Idms	un pouco	un pouco
+un pouquiño	Inms	un pouco	un pouco
+un pouquiño	Wm	un pouco	un pouco
+un pouquiño	Wn	un pouco	un pouco
+unha canta	Iafs	un canto	un canto
+unha canta	Idfs	un canto	un canto
+unha canta	Infs	un canto	un canto
+unha pouca	Iafs	un pouco	un pouco
+unha pouca	Idfs	un pouco	un pouco
+unha pouca	Infs	un pouco	un pouco
+unha pouquecha	Iafs	un pouco	un pouco
+unha pouquecha	Idfs	un pouco	un pouco
+unha pouquecha	Infs	un pouco	un pouco
+unha pouquechiña	Iafs	un pouco	un pouco
+unha pouquechiña	Idfs	un pouco	un pouco
+unha pouquechiña	Infs	un pouco	un pouco
+unha pouquerrecha	Iafs	un pouco	un pouco
+unha pouquerrecha	Idfs	un pouco	un pouco
+unha pouquerrecha	Infs	un pouco	un pouco
+unha pouquerrechiña	Iafs	un pouco	un pouco
+unha pouquerrechiña	Idfs	un pouco	un pouco
+unha pouquerrechiña	Infs	un pouco	un pouco
+unha pouquiña	Iafs	un pouco	un pouco
+unha pouquiña	Idfs	un pouco	un pouco
+unha pouquiña	Infs	un pouco	un pouco
+unhas cantas	Iafp	un canto	un canto
+unhas cantas	Idfp	un canto	un canto
+unhas cantas	Infp	un canto	un canto
+unhas poucas	Iafp	un pouco	un pouco
+unhas poucas	Idfp	un pouco	un pouco
+unhas poucas	Infp	un pouco	un pouco
+unhas pouquechas	Iafp	un pouco	un pouco
+unhas pouquechas	Idfp	un pouco	un pouco
+unhas pouquechas	Infp	un pouco	un pouco
+unhas pouquechiñas	Iafp	un pouco	un pouco
+unhas pouquechiñas	Idfp	un pouco	un pouco
+unhas pouquechiñas	Infp	un pouco	un pouco
+unhas pouquerrechas	Iafp	un pouco	un pouco
+unhas pouquerrechas	Idfp	un pouco	un pouco
+unhas pouquerrechas	Infp	un pouco	un pouco
+unhas pouquerrechiñas	Iafp	un pouco	un pouco
+unhas pouquerrechiñas	Idfp	un pouco	un pouco
+unhas pouquerrechiñas	Infp	un pouco	un pouco
+unhas pouquiñas	Iafp	un pouco	un pouco
+unhas pouquiñas	Idfp	un pouco	un pouco
+unhas pouquiñas	Infp	un pouco	un pouco
 unidade de coidados intensivos	Scms	unidade de coidados intensivos	unidade de coidados intensivos
 unidade de vixilancia intensiva	Scfs	unidade de vixilancia intensiva	unidade de vixilancia intensiva
 unidade didáctica	Scfs	unidade didáctica	unidade didáctica
 unidades de coidados intensivos	Scmp	unidade de coidados intensivos	unidade de coidados intensivos
 unidades de vixilancia intensiva	Scfp	unidade de vixilancia intensiva	unidade de vixilancia intensiva
 unidades didáctica	Scfp	unidade didáctica	unidade didáctica
+uns poucos	Iamp	un pouco	un pouco
+uns poucos	Idmp	un pouco	un pouco
+uns poucos	Inmp	un pouco	un pouco
+uns pouquechiños	Iamp	un pouco	un pouco
+uns pouquechiños	Idmp	un pouco	un pouco
+uns pouquechiños	Inmp	un pouco	un pouco
+uns pouquechos	Iamp	un pouco	un pouco
+uns pouquechos	Idmp	un pouco	un pouco
+uns pouquechos	Inmp	un pouco	un pouco
+uns pouquerrechiños	Iamp	un pouco	un pouco
+uns pouquerrechiños	Idmp	un pouco	un pouco
+uns pouquerrechiños	Inmp	un pouco	un pouco
+uns pouquerrechos	Iamp	un pouco	un pouco
+uns pouquerrechos	Idmp	un pouco	un pouco
+uns pouquerrechos	Inmp	un pouco	un pouco
+uns pouquiños	Iamp	un pouco	un pouco
+uns pouquiños	Idmp	un pouco	un pouco
+uns pouquiños	Inmp	un pouco	un pouco
 urbi et orbe	Wn	urbi et orbe	urbi et orbi
 urbi et orbi	Wn	urbi et orbi	urbi et orbi
 va de retro	Y	va de retro	vade retro
@@ -852,7 +1063,33 @@ vis à vis	Scms	vis à vis	vis a vis
 vis à vis	Wn	vis à vis	vis a vis
 visto e prace	Scms	visto e prace	visto e prace
 vía crucis	Scms	vía crucis	viacrucis
+ácido acetilsalicílico	Scms	ácido acetilsalicílico	ácido acetilsalicílico
+ácido acrílico	Scms	ácido acrílico	ácido acrílico
+ácido acético	Scms	ácido acético	ácido acético
+ácido barbitúrico	Scms	ácido barbitúrico	ácido barbitúrico
+ácido bórico	Scms	ácido bórico	ácido bórico
+ácido carboxílico	Scms	ácido carboxílico	ácido carboxílico
+ácido carbólico	Scms	ácido carbólico	ácido carbólico
+ácido carbónico	Scms	ácido carbónico	ácido carbónico
+ácido cianhídrico	Scms	ácido cianhídrico	ácido cianhídrico
+ácido ciánico	Scms	ácido ciánico	ácido ciánico
+ácido clorhídrico	Scms	ácido clorhídrico	ácido clorhídrico
+ácido cítrico	Scms	ácido cítrico	ácido cítrico
+ácido desoxirribonucleico	Scms	ácido desoxirribonucleico	ácido desoxirribonucleico
+ácido fluorhídrico	Scms	ácido fluorhídrico	ácido fluorhídrico
+ácido fénico	Scms	ácido fénico	ácido fénico
 ácido fólico	Scms	ácido fólico	ácido fólico
+ácido fórmico	Scms	ácido fórmico	ácido fórmico
+ácido graxo	Scms	ácido graxo	ácido graxo
+ácido gálico	Scms	ácido gálico	ácido gálico
+ácido iodhídrico	Scms	ácido iodhídrico	ácido iodhídrico
+ácido nitroso	Scms	ácido nitroso	ácido nitroso
+ácido nítrico	Scms	ácido nítrico	ácido nítrico
+ácido ribonucleico	Scms	ácido ribonucleico	ácido ribonucleico
+ácido selenioso	Scms	ácido selenioso	ácido selenioso
+ácido selénico	Scms	ácido selénico	ácido selénico
+ácido sulfúrico	Scms	ácido sulfúrico	ácido sulfúrico
+ácido úrico	Scms	ácido úrico	ácido úrico
 álter ego	Scms	álter ego	álter ego
 A. C.	Za00	A. C.	
 A. D.	Za00	A. D.	

@@ -105,6 +105,7 @@ a raíz de	P	a raíz de	a raíz de
 a rebolos	Wn	a rebolos	a rebolos
 a rente de	P	a rente de	a rentes de
 a respecto de	P	a respecto de	a respecto de
+a respeito de	P	a respeito de	a respecto de
 a rolos	Wn	a rolos	a rolos
 a son	Wn	a son	a son
 a tal hora	Wn	a tal hora	a tal hora
@@ -144,6 +145,8 @@ coches de línea	Scmp	coche de línea	coches de liña
 como mínimo	Wn	como mínimo	como mínimo
 como queira que	Cs	como queira que	como queira que
 con respecto a	P	con respecto a	con respecto a
+con respeito a	P	con respeito a	con respecto a
+con segundas	Wn	con segundas	con segundas
 con tal de que	Cs	con tal de que	con tal de que
 con tal que	Cs	con tal que	con tal que
 con todo	Wn	con todo	con todo
@@ -209,6 +212,7 @@ de rodillas	Wn	de rodillas	de rodillas
 de seguida	Wn	de seguida	deseguida
 de seguidiña	Wn	de seguida	deseguida
 de seguido	Wn	de seguido	deseguido
+de segundas	Wn	de segundas	de segundas
 de seguro	Wn	de seguro	de seguro
 de tempo en tempo	Wn	de tempo en tempo	de tempo en tempo
 de todo	Wn	de todo	de todo
@@ -297,6 +301,8 @@ mentres tanto	Cs	mentres tanto	mentres
 mentres tanto	Wn	mentres tanto	mentres tanto
 mesmo que	Cs	mesmo que	mesmo que
 meu Deus	Y	meu Deus	meu Deus
+moitas gracias	Y	moitas gracias	grazas
+moitas grazas	Y	moitas grazas	grazas
 máis ben	Wn	máis ben	máis ben
 nin que	Cs	nin que	nin que
 non ben	Wn	non ben	non ben
@@ -325,6 +331,7 @@ por encima	Wn	por encima	por encima
 por enriba	Wn	por enriba	por enriba
 por enteiro	Wn	por enteiro	por enteiro
 por escrito	Wn	por escrito	por escrito
+por exemplo	Wn	por exemplo	por exemplo
 por fin	Wn	por fin	por fin
 por fortuna	Wn	por fortuna	por fortuna
 por igual	Wn	por igual	por igual
@@ -357,8 +364,13 @@ posto que	Cs	posto que	posto que
 pouco a pouco	Wn	pouco a pouco	pouco e pouco
 pouco e pouco	Wn	pouco e pouco	pouco e pouco
 pouquiño a pouco	Wn	pouco a pouco	pouco e pouco
+punto e coma	Scms	punto e coma	punto e coma
+punto seguido	Scms	punto seguido	punto e seguido
+puntos seguidos	Scmp	punto seguido	punto e seguido
 respecto a	P	respecto a	respecto a
 respecto de	P	respecto de	respecto de
+respeito a	P	respeito a	respecto a
+respeito de	P	respeito de	respecto de
 se ben	Cs	se ben	se ben
 se cadra	Wn	se cadra	se cadra
 se callar	Wn	se callar	se callar
@@ -377,9 +389,16 @@ todo terreos	Scmp	todo terreo	todo terreo
 torre de control	Scfs	torre de control	torre de control
 torres de control	Scfp	torre de control	torre de control
 tras de	P	tras de	tras de
+un canto	Iams	un canto	un canto
+un canto	Idms	un canto	un canto
+un canto	Inms	un canto	un canto
+un tanto	Wm	un tanto	un tanto
 unha vez	Cs	unha vez	unha vez
 unha vez	Wn	unha vez	unha vez
 unha vez que	Cs	unha vez que	unha vez
+uns cantos	Iamp	un canto	un canto
+uns cantos	Idmp	un canto	un canto
+uns cantos	Inmp	un canto	un canto
 verbo de	P	verbo de	verbo de
 visto que	Cs	visto que	visto que
 xa que	Cs	xa que	xa que

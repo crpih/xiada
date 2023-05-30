@@ -353,7 +353,7 @@ non	Wn	non
 se	Rao3aa	se
 pode	Vpi30s	poder
 comercializar	V0f000	comercializar
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 sexa	Vps30s	ser
 máis	Wm	máis
@@ -1574,8 +1574,7 @@ especulativas	A0fp	especulativo
 internas	A0fp	interno
 ;	Q;	;
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 a	Ddfs	o
 burbulla	Scfs	burbulla
@@ -2241,8 +2240,7 @@ comunidades	Scfp	comunidade
 .	Q.	.
 
 así	Wn	así
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 FEVE	Zg00	FEVE
 (	Q(	(
@@ -2839,8 +2837,7 @@ a	Ddfs	o
 comunidade	Scfs	comunidade
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 as	Ddfp	o
 fragatas	Scfp	fragata
@@ -3167,8 +3164,7 @@ Francisco Rodríguez	Spm0	Francisco Rodríguez
 .	Q.	.
 
 "	Q"	"
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 en	P	en
 Santiago	Sp00	Santiago
@@ -3335,7 +3331,7 @@ cartos	Scmp	carto
 non	Wn	non
 chegan	Vpi30p	chegar
 para	P	para
-nada	In00	nada
+nada	Inns	nada
 ,	Q,	,
 soamente	Wn	soamente
 se	Rao3aa	se
@@ -3621,7 +3617,7 @@ de	P	de
 2,9	Ncnms	2,9
 %	Zs00	%
 ,	Q,	,
-nada	In00	nada
+nada	Inns	nada
 .	Q.	.
 
 a	Ddfs	o
@@ -4115,7 +4111,7 @@ que	Cs	que
 "	Q"	"
 non	Wn	non
 hai	Vpi30s	haber
-nada	Inms	nada
+nada	Inns	nada
 novo	A0ms	novo
 "	Q"	"
 ,	Q,	,
@@ -4481,7 +4477,7 @@ caldeira	Scfs	caldeira
 de	P	de
 biomasa	Scfs	biomasa
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 sería	Vci30s	ser
 ilegal	A0ms	ilegal
@@ -6524,8 +6520,7 @@ hipotecarios	A0mp	hipotecario
 cabe	Vpi30s	caber
 lembrar	V0f000	lembrar
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 que	Cs	que
 en	P	en
@@ -7431,8 +7426,7 @@ para	P	para
 outro	Inms	outro
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 un	Dims	un
 Valsotillo Gran Reserva	Spms	Valsotillo Gran Reserva
@@ -9133,8 +9127,7 @@ principais	A0fp	principal
 cidades	Scfp	cidade
 galegas	A0fp	galego
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 a	Ddfs	o
 onda	Scfs	onda
@@ -9206,7 +9199,7 @@ os	Ddmp	o
 especuladores	Scmp	especulador
 e	Cc	e
 fai	Vpi30s	facer
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 o	Ddms	o
 caldo	Scms	caldo
 gordo	A0ms	gordo
@@ -10873,8 +10866,7 @@ a	P	a
 un	Dims	un
 terceiro	Scms	terceiro
 (	Q(	(
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 un	Dims	un
 organismo	Scms	organismo
 público	A0ms	público
@@ -12287,7 +12279,7 @@ países	Scmp	país
 os	Ddmp	o
 resultados	Scmp	resultado
 confirmaron	Vei30p	confirmar
-algo	Inms	algo
+algo	Inns	algo
 elemental	A0ms	elemental
 xa	Wn	xa
 previsto	V0p0ms	prever
@@ -20770,7 +20762,7 @@ accionariais	A0fp	accionarial
 non	Wn	non
 conducen	Vpi30p	conducir
 a	P	a
-nada	In00	nada
+nada	Inns	nada
 "	Q"	"
 .	Q.	.
 
@@ -27273,8 +27265,7 @@ a	Ddfs	o
 Memoria do Banco de España en Santiago	Spfs	Memoria do Banco de España en Santiago
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 o	Ddms	o
 total	Scms	total
@@ -43493,9 +43484,7 @@ posibilitar	V0f000	posibilitar
 desde	P	desde
 o	Ddms	o
 seu	Md3ams	seu
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 ,	Q,	,
 que	Cs	que
 se	Rao3aa	se
@@ -44166,7 +44155,7 @@ Bretton Woods	Sp00	Bretton Woods
 .	Q.	.
 
 "	Q"	"
-nada	Inms	nada
+nada	Inns	nada
 sería	Vci30s	ser
 peor	Acms	peor
 hoxe	Wn	hoxe
@@ -52057,7 +52046,7 @@ de	P	de
 este	Edms	este
 banco	Scms	banco
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 se	Rao3aa	se
 produciu	Vei30s	producir
@@ -52807,7 +52796,7 @@ europeo	A0ms	europeo
 e	Cc	e
 afirmou	Vei30s	afirmar
 que	Cs	que
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 os	Ddmp	o
 cidadáns	Scmp	cidadán
@@ -57493,7 +57482,7 @@ eso	Enns	ese
 non	Wn	non
 se	Rao3aa	se
 soluciona	Vpi30s	solucionar
-nada	In00	nada
+nada	Inns	nada
 ,	Q,	,
 porque	Cs	porque
 o	Ddms	o
@@ -61066,7 +61055,7 @@ alemán	A0ms	alemán
 e	Cc	e
 iso	Enns	ese
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 ninguén	Inas	ninguén
 pode	Vpi30s	poder
@@ -68827,8 +68816,7 @@ a	P	a
 millóns	Scmp	millón
 anuais	A0mp	anual
 de	P	de
-base	Scfs	base
-impoñible	A0fs	impoñible
+base impoñible	Scfs	base impoñible
 en	P	en
 a	Ddfs	o
 declaración	Scfs	declaración
@@ -73548,8 +73536,7 @@ empregada	V0p0fs	empregar
 ,	Q,	,
 etc.	Za00	etc.
 
-en	P	en
-resumo	Scms	resumo
+en resumo	Wn	en resumo
 ,	Q,	,
 unha	Difs	un
 economía	Scfs	economía
@@ -79383,7 +79370,7 @@ para	P	para
 demostrar	V0f000	demostrar
 lo	Raa3ms	o
 ,	Q,	,
-nada	Inms	nada
+nada	Inns	nada
 mellor	Acms	mellor
 que	Cs	que
 comprobar	V0f000	comprobar
@@ -79409,8 +79396,7 @@ cidade	Scfs	cidade
 herculina	A0fs	herculino
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 a	Ddfs	o
 poxa	Scfs	poxa
@@ -81823,7 +81809,7 @@ a	Ddfs	o
 poxa	Scfs	poxa
 e	Cc	e
 facilitar	V0f000	facilitar
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 participar	V0f000	participar
 en	P	en
 o	Ddms	o
@@ -89198,9 +89184,7 @@ lembrou	Vei30s	lembrar
 que	Cs	que
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 europeo	A0ms	europeo
 hai	Vpi30s	haber
 que	Cs	que
@@ -89244,9 +89228,7 @@ subliñou	Vei30s	subliñar
 que	Cs	que
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 de	P	de
 os	Ddmp	o
 prezos	Scmp	prezo
@@ -90932,7 +90914,7 @@ cambio	Scms	cambio
 teña	Vps30s	ter
 máis	Wn	máis
 que	Cs	que
-nada	In00	nada
+nada	Inns	nada
 un	Dims	un
 valor	Scms	valor
 simbólico	A0ms	simbólico
@@ -105756,7 +105738,7 @@ medidas	Scfp	medida
 non	Wn	non
 acostuman	Vpi30p	acostumar
 conseguir	V0f000	conseguir
-nada	In00	nada
+nada	Inns	nada
 "	Q"	"
 cando	Wr	cando
 o	Ddms	o
@@ -109933,8 +109915,7 @@ de	P	de
 o	Ddms	o
 tabaco	Scms	tabaco
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 inda que	Cs	inda que
 en	P	en
@@ -109996,9 +109977,7 @@ que	Cs	que
 examinará	Vfi30s	examinar
 todos	Idmp	todo
 los	Ddmp	o
-puntos	Scmp	punto
-de	P	de
-vista	Scfs	vista
+puntos de vista	Scmp	punto de vista
 que	Tnmp	que
 sobre	P	sobre
 a	Ddfs	o
@@ -113061,7 +113040,7 @@ que	Tnmp	que
 afectan	Vpi30p	afectar
 por igual	Wn	por igual
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 non	Wn	non
 resulta	Vpi30s	resultar
@@ -113990,7 +113969,7 @@ as	Ddfp	o
 comunidades	Scfp	comunidade
 autónomas	A0fp	autónomo
 "	Q"	"
-algo	In00	algo
+algo	Inns	algo
 de	P	de
 a	Ddfs	o
 recadación	Scfs	recadación
@@ -115415,7 +115394,7 @@ as	Ddfp	o
 alarmas	Scfp	alarma
 "	Q"	"
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 se	Rao3aa	se
 produciu	Vei30s	producir
@@ -121180,7 +121159,7 @@ senón que	Cs	senón que
 ten	Vpi30s	ter
 que	Cs	que
 ser	V0f000	ser
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 se	Rao3aa	se
 debata	Vps30s	debater
@@ -121672,7 +121651,7 @@ agora	Wn	agora
 non	Wn	non
 cambia	Vpi30s	cambiar
 para	P	para
-nada	In00	nada
+nada	Inns	nada
 "	Q"	"
 .	Q.	.
 
@@ -131557,9 +131536,7 @@ para	P	para
 expoñer	V0f000	expoñer
 los	Ddmp	o
 seus	Md3pmp	seu
-puntos	Scmp	punto
-de	P	de
-vista	Scfs	vista
+puntos de vista	Scmp	punto de vista
 sobre	P	sobre
 a	Ddfs	o
 fusión	Scfs	fusión
@@ -135986,9 +135963,7 @@ apunta	Vpi30s	apuntar
 que	Cs	que
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 presupostario	A0ms	presupostario
 o	Ddms	o
 custo	Scms	custo
@@ -140905,7 +140880,7 @@ tipos	Scmp	tipo
 de	P	de
 interese	Scms	interese
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 pouco	Wm	pouco
 probable	A0ms	probable
 segundo	P	segundo
@@ -142607,7 +142582,7 @@ os	Ddmp	o
 9.000	Ncdmp	9.000
 puntos	Scmp	punto
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 non	Wn	non
 sucedía	Vii30s	suceder
@@ -144134,7 +144109,7 @@ que	Cs	que
 non	Wn	non
 poden	Vpi30p	poder
 dedicar	V0f000	dedicar
-nada	In00	nada
+nada	Inns	nada
 ou	Cc	ou
 moi	Wm	moito
 pouca	Idfs	pouco
@@ -145537,7 +145512,7 @@ onte	Wn	onte
 xoves	Scms	xoves
 ,	Q,	,
 recuperou	Vei30s	recuperar
-algo	In00	algo
+algo	Inns	algo
 de	P	de
 o	Ddms	o
 terreo	Scms	terreo
@@ -147905,7 +147880,7 @@ tendas	Scfp	tenda
 electrónicas	A0fp	electrónico
 )	Q)	)
 prestaban	Vii30p	prestar
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 mellor	Acfs	mellor
 información	Scfs	información
 a	P	a
@@ -152686,9 +152661,7 @@ positivos	A0mp	positivo
 "	Q"	"
 desde	P	desde
 un	Dims	un
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 obxectivo	A0ms	obxectivo
 "	Q"	"
 ,	Q,	,
@@ -156101,7 +156074,7 @@ como	Cs	como
 
 ¡	Q¡	¡
 case	Wm	case
-nada	In00	nada
+nada	Inns	nada
 !	Q!	!
 .	Q.	.
 
@@ -158259,7 +158232,7 @@ circunstancia	Scfs	circunstancia
 porque	Cs	porque
 non	Wn	non
 tiña	Vii30s	ter
-nada	Inms	nada
+nada	Inns	nada
 que	Tnms	que
 ver	V0f000	ver
 con	P	con
@@ -160024,7 +159997,7 @@ de	P	de
 tal	Idms	tal
 obxectivo	Scms	obxectivo
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 teñen	Vpi30p	ter
 en	P	en
@@ -167525,7 +167498,7 @@ forma	Scfs	forma
 os	Ddmp	o
 prezos	Scmp	prezo
 deron	Vei30p	dar
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 por fin	Wn	por fin
 unha	Difs	un
 tregua	Scfs	tregua
@@ -170498,8 +170471,7 @@ Süddeutsche Zeitung	Sp00	Süddeutsche Zeitung
 .	Q.	.
 
 "	Q"	"
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 a	Ddfs	o
 miña	Md1sfs	meu
@@ -181606,7 +181578,7 @@ bancario	A0ms	bancario
 europeo	A0ms	europeo
 .	Q.	.
 
-algo	In00	algo
+algo	Inns	algo
 se	Rao3aa	se
 está	Vpi30s	estar
 xestando	V0x000	xestar
@@ -181806,7 +181778,7 @@ Clariden Bank	Sp00	Clariden Bank
 ,	Q,	,
 ve	Vpi30s	ver
 como	Wr	como
-algo	Inms	algo
+algo	Inns	algo
 moi	Wm	moito
 improbable	A0ms	improbable
 "	Q"	"
@@ -182202,7 +182174,7 @@ as	Ddfp	o
 dúas	Ncdfp	dous
 compañías	Scfp	compañía
 _	Q_	_
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 considera	Vpi30s	considerar
 lóxico	A0ms	lóxico
@@ -185092,9 +185064,7 @@ era	Vii30s	ser
 boa	A0fs	bo
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 empresarial	A0ms	empresarial
 "	Q"	"
 .	Q.	.
@@ -185294,7 +185264,7 @@ non	Wn	non
 é	Vpi30s	ser
 necesario	A0ms	necesario
 modificar	V0f000	modificar
-nada	Inms	nada
+nada	Inns	nada
 fundamental	A0ms	fundamental
 en	P	en
 a	Ddfs	o
@@ -186239,9 +186209,7 @@ vendas	Scfp	venda
 de	P	de
 software	Scms	software
 de	P	de
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 totalmente	Wm	totalmente
 novas	A0fp	novo
 a	P	a
@@ -186278,9 +186246,7 @@ de	P	de
 o	Ddms	o
 software	Scms	software
 para	P	para
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 relacionais	A0ap	relacional
 ;	Q;	;
 
@@ -186295,9 +186261,7 @@ o	Ddms	o
 mercado	Scms	mercado
 global	A0ms	global
 de	P	de
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 que	Tnms	que
 factura	Vpi30s	facturar
 8.840	Ncdmp	8.840
@@ -186322,9 +186286,7 @@ súas	Md3sfp	seu
 vendas	Scfp	venda
 de	P	de
 novas	A0fp	novo
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 diminuíron	Vei30p	diminuír
 de	P	de
 2.970	Ncdmp	2.970
@@ -186370,9 +186332,7 @@ totais	A0mp	total
 de	P	de
 IBM	Zg00	IBM
 por	P	por
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 subiron	Vei30p	subir
 a	P	a
 3.060	Ncdmp	3.060
@@ -186396,9 +186356,7 @@ ducia	Scfs	ducia
 de	P	de
 productos	Scmp	producto
 de	P	de
-bases	Scfp	base
-de	P	de
-datos	Scmp	dato
+bases de datos	Scfp	base de datos
 ,	Q,	,
 que	Tnmp	que
 funcionan	Vpi30p	funcionar
@@ -188436,7 +188394,7 @@ onte	Wn	onte
 carácter	Scms	carácter
 oficial	A0ms	oficial
 a	P	a
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 xa	Wn	xa
 era	Vii30s	ser
@@ -191507,7 +191465,7 @@ que	Cs	que
 o	Ddms	o
 Goberno	Spms	Goberno
 non	Wn	non
-lle	Rad3ap	lle
+lle	Rad3fs	lle
 dea	Vps30s	dar
 resposta	Scfs	resposta
 a	P	a
@@ -197107,7 +197065,7 @@ de	P	de
 carburante	Scms	carburante
 .	Q.	.
 
-algo	Inms	algo
+algo	Inns	algo
 parecido	A0ms	parecido
 ocorreu	Vei30s	ocorrer
 con	P	con
@@ -199965,7 +199923,7 @@ seus	Md3smp	seu
 socios	Scmp	socio
 e	Cc	e
 conseguir	V0f000	conseguir
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 o	Ddms	o
 mellor	Acms	mellor
 prezo	Scms	prezo
@@ -203198,9 +203156,7 @@ galego	A0ms	galego
 
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 cualitativo	A0ms	cualitativo
 e	Cc	e
 de	P	de
@@ -203465,9 +203421,7 @@ reais	A0mp	real
 
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 cuantitativo	A0ms	cuantitativo
 ,	Q,	,
 as	Ddfp	o
@@ -203708,9 +203662,7 @@ apatía	Scfs	apatía
 
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 cualitativo	A0ms	cualitativo
 o	Ddms	o
 tipo	Scms	tipo
@@ -203959,7 +203911,7 @@ contido	Scms	contido
 nunca	Wn	nunca
 concretada	V0p0fs	concretar
 en	P	en
-nada	Inms	nada
+nada	Inns	nada
 diferente	A0ms	diferente
 de	P	de
 un	Dims	un
@@ -207080,8 +207032,7 @@ a	P	a
 o	Ddms	o
 extremeño	A0ms	extremeño
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 _	Q_	_
 para	P	para
 non	Wn	non
@@ -207136,8 +207087,7 @@ que	Gnaa	que
 coincidir	V0f000	coincidir
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 o	Ddms	o
 gasto	Scms	gasto
@@ -207220,8 +207170,7 @@ de	P	de
 servicios	Scmp	servicio
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 para	P	para
 o	Ddms	o
@@ -208069,7 +208018,7 @@ novo	A0ms	novo
 investimento	Scms	investimento
 .	Q.	.
 
-algo	Inms	algo
+algo	Inns	algo
 similar	A0ms	similar
 sucedeu	Vei30s	suceder
 con	P	con
@@ -208268,8 +208217,7 @@ os	Ddmp	o
 exercicios	Scmp	exercicio
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 en	P	en
 Galicia	Sp00	Galicia
@@ -208635,8 +208583,7 @@ comunidades	Scfp	comunidade
 autónomas	A0fp	autónomo
 .	Q.	.
 
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 en	P	en
 Galicia	Sp00	Galicia
@@ -208809,8 +208756,7 @@ equivalente	A0fs	equivalente
 90	Ncnms	90
 por cento	Wn	por cento
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 )	Q)	)
 de	P	de
 os	Ddmp	o
@@ -208897,8 +208843,7 @@ esixe	Vpi30s	esixir
 distinguir	V0f000	distinguir
 subfuncións	Scfp	subfunción
 (	Q(	(
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 os	Ddmp	o
 distintos	A0mp	distinto
@@ -209279,7 +209224,7 @@ Aznar	Sp00	Aznar
 a	Ddfs	o
 entrevista	Scfs	entrevista
 reflicte	Vpi30s	reflectir
-algo	Inms	algo
+algo	Inns	algo
 de	P	de
 o	Ddms	o
 que	Tnms	que
@@ -209378,8 +209323,7 @@ a	Ddfs	o
 de	P	de
 Galicia	Sp00	Galicia
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 .	Q.	.
 
 _	Q_	_
@@ -209391,7 +209335,7 @@ pero	Cs	pero
 iso	Enns	ese
 non	Wn	non
 será	Vfi30s	ser
-nada	In00	nada
+nada	Inns	nada
 comparado	V0p0ms	comparar
 con	P	con
 o	Ddms	o
@@ -209449,7 +209393,7 @@ o	Ddms	o
 futuro	Scms	futuro
 .	Q.	.
 
-nada	Inms	nada
+nada	Inns	nada
 pode	Vpi30s	poder
 impedir	V0f000	impedir
 xa	Wn	xa
@@ -209772,8 +209716,7 @@ a	Ddfs	o
 linguaxe	Scfs	linguaxe
 sindical	A0fs	sindical
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 que	Tnfs	que
 en	P	en
@@ -210211,8 +210154,7 @@ fluxos	Scmp	fluxo
 
 nós	Rtn1ap	nós
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ...	Q...	...
 
 _	Q_	_
@@ -210830,7 +210772,7 @@ ou	Cc	ou
 bancos	Scmp	banco
 ,	Q,	,
 esquece	Vpi30s	esquecer
-algo	Inms	algo
+algo	Inns	algo
 fundamental	A0ms	fundamental
 :	Q:	:
 
@@ -211050,7 +210992,7 @@ nunca	Wn	nunca
 seriamos	Vci10p	ser
 competitivos	A0mp	competitivo
 en	P	en
-nada	In00	nada
+nada	Inns	nada
 .	Q.	.
 
 _	Q_	_
@@ -212095,7 +212037,7 @@ en	P	en
 outras	Infp	outro
 ?	Q?	?
 
-nada	In00	nada
+nada	Inns	nada
 ten	Vpi30s	ter
 que	Cs	que
 ver	V0f000	ver
@@ -212380,7 +212322,7 @@ entidades	Scfp	entidade
 financeiras	A0fp	financeiro
 tamén	Wn	tamén
 teremos	Vfi10p	ter
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 dicir	V0f000	dicir
 ...	Q...	...
@@ -213518,7 +213460,7 @@ de	P	de
 comunicación	Scfs	comunicación
 ,	Q,	,
 ¿	Q¿	¿
-algo	In00	algo
+algo	Inns	algo
 máis	Wm	máis
 que	Cs	que
 negocio	Scms	negocio
@@ -213636,7 +213578,7 @@ enturviaron	Vei30p	enturviar
 ,	Q,	,
 desgraciadamente	Wn	desgraciadamente
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 tan	Wm	tanto
 noble	A0ms	noble
 como	Cs	como
@@ -213762,7 +213704,7 @@ e	Cc	e
 iso	Enns	ese
 sen	P	sen
 ter	V0f000	ter
-nada	Inms	nada
+nada	Inns	nada
 que	Tnms	que
 ver	V0f000	ver
 lóxicamente	Wn	lóxicamente
@@ -214785,9 +214727,7 @@ sempre	Wn	sempre
 prioridade	Scfs	prioridade
 desde	P	desde
 o	Ddms	o
-ponto	Scms	ponto
-de	P	de
-vista	Scfs	vista
+ponto de vista	Scms	ponto de vista
 político	A0ms	político
 ,	Q,	,
 sen	P	sen
@@ -215038,9 +214978,7 @@ industrial	A0ms	industrial
 
 baixo	P	baixo
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 de	P	de
 o	Ddms	o
 emprego	Scms	emprego
@@ -217723,8 +217661,7 @@ contratación	Scfs	contratación
 temporal	A0fs	temporal
 .	Q.	.
 
-en	P	en
-resume	Scms	resume
+en resume	Wn	en resume
 ,	Q,	,
 as	Ddfp	o
 caixas	Scfp	caixa
@@ -218163,17 +218100,13 @@ non	Wm	non
 só	Wn	só
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 financeiro	A0ms	financeiro
 ,	Q,	,
 senón	Cs	senón
 dende	P	dende
 un	Dims	un
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 máis	Wm	máis
 xeral	A0ms	xeral
 .	Q.	.
@@ -220542,9 +220475,7 @@ interior	A0fs	interior
 tanto	Wn	tanto
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 social	A0ms	social
 como	Cs	como
 de	P	de
@@ -221059,7 +220990,7 @@ esquecer	V0f000	esquecer
 que	Cs	que
 ,	Q,	,
 se	Cs	se
-algo	Inms	algo
+algo	Inns	algo
 singulariza	Vpi30s	singularizar
 a	P	a
 a	Ddfs	o
@@ -221776,7 +221707,7 @@ populares	A0fp	popular
 ¿	Q¿	¿
 alguén	Inas	alguén
 espera	Vpi30s	esperar
-algo	In00	algo
+algo	Inns	algo
 de	P	de
 o	Ddms	o
 poder	Scms	poder
@@ -222166,9 +222097,7 @@ tratamento	Scms	tratamento
 correcto	A0ms	correcto
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 medioambiental	A0ms	medioambiental
 de	P	de
 residuos	Scmp	residuo
@@ -222949,7 +222878,7 @@ os	Ddmp	o
 productos	Scmp	producto
 .	Q.	.
 
-algo	Inms	algo
+algo	Inns	algo
 similar	A0ms	similar
 ocurriu	Vei30s	ocurrir
 en	P	en
@@ -223273,7 +223202,7 @@ incluir	V0f000	incluir
 os	Ddmp	o
 libros	Scmp	libro
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 veñen	Vpi30p	vir
 reivindicando	V0x000	reivindicar
@@ -223465,8 +223394,7 @@ hipoclorito	Scms	hipoclorito
 de	P	de
 sodio	Scms	sodio
 e	Cc	e
-ácido	Scms	ácido
-clorhídrico	A0ms	clorhídrico
+ácido clorhídrico	Scms	ácido clorhídrico
 ,	Q,	,
 tributando	V0x000	tributar
 por	P	por
@@ -224504,8 +224432,7 @@ extracción	Scfs	extracción
 de	P	de
 petróleo	Scms	petróleo
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 e	Cc	e
 que	Tnfp	que
@@ -224891,9 +224818,7 @@ españois	A0mp	español
 en	P	en
 o	Ddms	o
 seu	Md3sms	seu
-punto	Scms	punto
-de	P	de
-mira	Scfs	mira
+punto de mira	Scms	punto de mira
 dende	P	dende
 o	Ddms	o
 momento	Scms	momento
@@ -225031,7 +224956,7 @@ reconversións	Scfp	reconversión
 "	Q"	"
 de	P	de
 reconversións	Scfp	reconversión
-nada	In00	nada
+nada	Inns	nada
 _	Q_	_
 di	Vpi30s	dicir
 Xosé Díaz	Spm0	Xosé Díaz
@@ -226094,7 +226019,7 @@ de	P	de
 innovación	Scfs	innovación
 non	Wn	non
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 se	Rao3aa	se
 improvise	Vps30s	improvisar
@@ -226518,7 +226443,7 @@ a través de	P	a través de
 a	Ddfs	o
 Administración	Spfs	Administración
 galega	A0fs	galego
-algo	Inms	algo
+algo	Inns	algo
 tan	Wm	tanto
 básico	A0ms	básico
 como	Cs	como
@@ -227279,9 +227204,7 @@ _	Q_	_
 excepcional	A0ms	excepcional
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 xurídico	A0ms	xurídico
 _	Q_	_
 ,	Q,	,
@@ -229309,7 +229232,7 @@ incendios	Scmp	incendio
 
 "	Q"	"
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 delicado	A0ms	delicado
 en	P	en
 Galicia	Sp00	Galicia
@@ -229329,7 +229252,7 @@ pero	Cs	pero
 cómpre	Vpi30s	cumprir
 ir	V0f000	ir
 facendo	V0x000	facer
-algo	In00	algo
+algo	Inns	algo
 gradualmente	Wm	gradualmente
 .	Q.	.
 
@@ -229626,7 +229549,7 @@ a	Ddfs	o
 pesca	Scfs	pesca
 non	Wn	non
 é	Vpi30s	ser
-nada	Inms	nada
+nada	Inns	nada
 importante	A0ms	importante
 en	P	en
 as	Ddfp	o
@@ -229654,7 +229577,7 @@ cando	Wr	cando
 hai	Vpi30s	haber
 que	Cs	que
 dar	V0f000	dar
-algo	In00	algo
+algo	Inns	algo
 a	P	a
 cambio	Scms	cambio
 de	P	de
@@ -230298,7 +230221,7 @@ a	Ddfs	o
 pesca	Scfs	pesca
 ,	Q,	,
 é	Vpi30s	ser
-algo	In00	algo
+algo	Inns	algo
 de	P	de
 países	Scmp	país
 terceiromundistas	A0mp	terceiromundista
@@ -230360,8 +230283,7 @@ comenta	Vpi30s	comentar
 se	Rao3aa	se
 adoito	Wn	adoito
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 que	Cs	que
 a	Ddfs	o
@@ -230478,8 +230400,7 @@ o	Ddms	o
 canadiense	Scms	canadiense
 Brian Tobin	Spm0	Brian Tobin
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 :	Q:	:
 
 "	Q"	"
@@ -231180,7 +231101,7 @@ presenta	Vpi30s	presentar
 o	Ddms	o
 declive	Scms	declive
 como	Wr	como
-algo	Inms	algo
+algo	Inns	algo
 inevitable	A0ms	inevitable
 .	Q.	.
 
@@ -231429,7 +231350,7 @@ ese	Edms	ese
 cansazo	Scms	cansazo
 non	Wn	non
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 fatal	A0ms	fatal
 .	Q.	.
 
@@ -232832,7 +232753,7 @@ pero	Cs	pero
 logo	Wn	logo
 quedou	Vei30s	quedar
 en	P	en
-nada	In00	nada
+nada	Inns	nada
 .	Q.	.
 
 cando	Wr	cando
@@ -233186,7 +233107,7 @@ modelo	Scms	modelo
 de	P	de
 Europa	Sp00	Europa
 é	Vpi30s	ser
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 nos	Rad1ap	nos
 vén	Vpi30s	vir
@@ -233202,7 +233123,7 @@ por lo contrario	Wn	por o contrario
 ten	Vpi30s	ter
 que	Cs	que
 ser	V0f000	ser
-algo	Inms	algo
+algo	Inns	algo
 en	P	en
 o	Ddms	o
 que	Tnms	que
@@ -233432,8 +233353,7 @@ neoliberal	A0fs	neoliberal
 .	Q.	.
 
 vista	V0p0fs	ver
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 a	Ddfs	o
 posición	Scfs	posición
 actual	A0fs	actual
@@ -233871,9 +233791,7 @@ moi	Wm	moito
 curioso	A0ms	curioso
 desde	P	desde
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 instrumental	A0ms	instrumental
 .	Q.	.
 
@@ -234464,7 +234382,7 @@ Tratado de Maastricht	Spms	Tratado de Maastricht
 
 incluso	Wn	incluso
 impide	Vpi30s	impedir
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 a	P	a
 os	Ddmp	o
 países	Scmp	país
@@ -236381,8 +236299,7 @@ o	Ddms	o
 Xacobeo	Spms	Xacobeo
 son	Vpi30p	ser
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 os	Ddmp	o
 74	Ncdmp	74
@@ -236707,12 +236624,10 @@ foi	Vei30sser	ser
 ,	Q,	,
 dende	P	dende
 o	Ddms	o
-punto	Scms	punto
-de	P	de
-vista	Scfs	vista
+punto de vista	Scms	punto de vista
 contable	A0ms	contable
 ,	Q,	,
-algo	In00	algo
+algo	Inns	algo
 máis	Wm	máis
 ca	Cs	ca
 un	Dims	un
@@ -236833,7 +236748,7 @@ en	P	en
 7.347	Ncnmp	7.347
 .	Q.	.
 
-algo	Inms	algo
+algo	Inns	algo
 similar	A0ms	similar
 sucede	Vpi30s	suceder
 en	P	en
@@ -238534,7 +238449,7 @@ a	Ddfs	o
 principal	A0fs	principal
 partida	Scfs	partida
 corresponde	Vpi30s	corresponder
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 a	P	a
 os	Ddmp	o
 pagamentos	Scmp	pagamento
@@ -239006,7 +238921,7 @@ pesetas	Scfp	peseta
 
 aí	Wn	aí
 é	Vpi30s	ser
-nada	In00	nada
+nada	Inns	nada
 .	Q.	.
 
 e	Cc	e
@@ -239213,7 +239128,7 @@ recibiu	Vei30s	recibir
 anticipos	Scmp	anticipo
 para	P	para
 facer	V0f000	facer
-lle	Rad3mp	lle
+lle	Rad3ms	lle
 fronte	Scfs	fronte
 a	P	a
 pagos	Scmp	pago
@@ -239418,8 +239333,7 @@ en	P	en
 ningún	Idms	ningún
 momento	Scms	momento
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 a	P	a
 o	Ddms	o
@@ -239757,7 +239671,7 @@ con	P	con
 salvidades	Scfp	salvidade
 "	Q"	"
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 en	P	en
 a	Ddfs	o
@@ -241143,7 +241057,7 @@ de	P	de
 as	Ddfp	o
 divisas	Scfp	divisa
 ,	Q,	,
-algo	Inms	algo
+algo	Inns	algo
 que	Tnms	que
 se	Rao3aa	se
 utilizou	Vei30s	utilizar
@@ -243014,7 +242928,7 @@ de	P	de
 que	Cs	que
 poideran	Ves30p	poder
 contar	V0f000	contar
-algo	In00	algo
+algo	Inns	algo
 ,	Q,	,
 El Pulpo	Spm0	El Pulpo
 acabou	Vei30s	acabar
@@ -243393,8 +243307,8 @@ empresa	Scfs	empresa
 e	Cc	e
 non	Wn	non
 temos	Vpi10p	ter
-nada	In00	nada
-que	Tnaa	que
+nada	Inns	nada
+que	Tnms	que
 dicir	V0f000	dicir
 sobre	P	sobre
 asuntos	Scmp	asunto
@@ -244129,7 +244043,7 @@ non	Wn	non
 se	Rao3aa	se
 arrepinte	Vpi30s	arrepentir
 de	P	de
-nada	In00	nada
+nada	Inns	nada
 e	Cc	e
 que	Tnms	que
 se	Rao3aa	se
@@ -246062,7 +245976,7 @@ lo	Raa3ms	o
 teño	Vpi10s	ter
 dito	V0p0ms	dicir
 ,	Q,	,
-nada	In00	nada
+nada	Inns	nada
 de	P	de
 eira	Scfs	eira
 ;	Q;	;
@@ -246287,8 +246201,8 @@ dixen	Vei10s	dicir
 que	Cs	que
 non	Wn	non
 teño	Vpi10s	ter
-nada	In00	nada
-que	Tnaa	que
+nada	Inns	nada
+que	Tnms	que
 ver	V0f000	ver
 con	P	con
 as	Ddfp	o
@@ -246460,7 +246374,7 @@ limitación	Scfs	limitación
 .	Q.	.
 
 sen embargo	Wn	sen embargo
-El	Rtn1ms	El
+El	Rtn3ms	el
 vive	Vpi30s	vivir
 totalmente	Wm	totalmente
 apartado	A0ms	apartado
@@ -247512,8 +247426,8 @@ algunha	Infs	algún
 de	P	de
 nós	Rtp1fp	nós
 tivo	Vei30s	ter
-algo	In00	algo
-que	Tnaa	que
+algo	Inns	algo
+que	Tnms	que
 ver	V0f000	ver
 en	P	en
 a	Ddfs	o
@@ -247794,8 +247708,8 @@ importante	A0fs	importante
 por	P	por
 fortuna	Scfs	fortuna
 ,	Q,	,
-quenquera	Inaa	quenquera
-que	Tnaa	que
+quenquera	Inas	quenquera
+que	Tnas	que
 fose	Ves30sser	ser
 pasara	Vli30s	pasar
 de	P	de
@@ -248568,7 +248482,7 @@ de	P	de
 cada	Idap	cada
 catro	Ncnap	catro
 gustaría	Vci30s	gustar
-lle	Rad3ap	lle
+lle	Rad3as	lle
 que	Cs	que
 un	Dims	un
 fillo	Scms	fillo
@@ -248914,8 +248828,7 @@ novos/as	A0xp	novo
 
 sabe	Vpi30s	saber
 ,	Q,	,
-por	P	por
-exemplo	Scms	exemplo
+por exemplo	Wn	por exemplo
 ,	Q,	,
 un/ha	Dixs	un
 traballador/a	Scxs	traballador
@@ -248994,8 +248907,7 @@ traballadores/as	Scxp	traballador
 
 coñezo	Vpi10s	coñecer
 persoalmente	Wn	persoalmente
-cada	Idas	cada
-un/ha	Inxs	un
+cada un/ha	Inxs	cada un
 de	P	de
 @s	Ddxp	o
 estudantes	Scap	estudante
@@ -249342,7 +249254,7 @@ azul	A0ms	azul
 que	Cs	que
 de súpeto	Wn	de súpeto
 saia	Vps30s	saír
-algo	Inms	algo
+algo	Inns	algo
 forrado	V0p0ms	forrar
 con	P	con
 papel	Scms	papel
@@ -249521,8 +249433,7 @@ ela/el	Rtp3xs	el
 ,	Q,	,
 quedando	V0x000	quedar
 xa	Wn	xa
-en	P	en
-silencio	Scms	silencio
+en silencio	Wn	en silencio
 e	Cc	e
 sen	P	sen
 abrir	V0f000	abrir
@@ -249890,12 +249801,53 @@ ou	Cc	ou
 pseudo-	Zx00	pseudo-
 .	Q.	.
 
+de	P	de
+que	Gdfa	que
+tesis	Scfa	tesis
+falas	Vpi20s	falar
+?	Q?	?
+
+de	P	de
+que	Gdma	que
+antivirus	Scma	antivirus
+falas	Vpi20s	falar
+?	Q?	?
+
+nota	Vpi30s	notar
+un	Dims	un
+baleiro	Scms	baleiro
+en	P	en
+as	Ddfp	o
+súas	Md3sfp	seu
+tripas	Scfp	tripa
+de	P	de
+pistóns	Scmp	pistón
+,	Q,	,
+graxas	Scfp	graxa
+,	Q,	,
+aceiro	Scms	aceiro
+,	Q,	,
+buxías	Scfp	buxía
+e	Cc	e
+demais	Inaa	demais
+,	Q,	,
+e	Cc	e
+aínda	Wn	aínda
+por riba	Wn	por riba
+están	Vpi30p	estar
+o	Raa3ms	o
+a	P	a
+bater	V0f000	bater
+.	Q.	.
+
 
 foche	Vei20sir	ir
 
 foche	Vei20sser	ser
 
 foches	Vei20sir	ir
+
+foi	Vei30sir	ir
 
 for	Vfs10sir	ir
 
@@ -249908,6 +249860,24 @@ for	Vfsa0sir	ir
 for	Vfsa0sser	ser
 
 fora	Vesa0sir	ir
+
+fora	Ves10sir	ir
+
+fora	Ves10sser	ser
+
+fora	Vli10sir	ir
+
+fora	Vli10sser	ser
+
+fora	Vli30sir	ir
+
+fora	Vli30sser	ser
+
+fora	Vlia0sir	ir
+
+fora	Vlia0sser	ser
+
+fora	Vesa0sser	ser
 
 forades	Ves20pser	ser
 
@@ -249931,6 +249901,14 @@ fóramos	Vli10pser	ser
 
 foras	Vli20sir	ir
 
+foras	Vli20sser	ser
+
+foras	Ves20sir	ir
+
+foran	Vli30pir	ir
+
+foran	Vli30pser	ser
+
 fordes	Vfs20pir	ir
 
 fordes	Vfs20pser	ser
@@ -249947,6 +249925,10 @@ formos	Vfs10pir	ir
 
 formos	Vfs10pser	ser
 
+foron	Vei30pir	ir
+
+fose	Ves10sir	ir
+
 fosedes	Ves20pir	ir
 
 fósedes	Ves20pir	ir
@@ -249954,6 +249936,10 @@ fósedes	Ves20pir	ir
 fosedes	Ves20pser	ser
 
 fósedes	Ves20pser	ser
+
+fose	Ves30sir	ir
+
+fosen	Ves30pir	ir
 
 fostes	Vei20pir	ir
 
@@ -249966,3 +249952,5 @@ fuche	Vei20sser	ser
 fumos	Vei10pir	ir
 
 fumos	Vei10pser	ser
+
+estiver	Vfs30s	ser
