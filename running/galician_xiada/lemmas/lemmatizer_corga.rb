@@ -133,6 +133,9 @@ module Lemmas
       gheada_queries(Query.new(nil, word, @tags)) do |q|
         seseo_queries(q) do |q|
           [
+            # LemmatizerCorga#lemmatizer won't be called if the term exists literally
+            # So this is useful only for gheada and seseo variants: gherra => guerra and ghitarra => guitarra
+            *find(q),
             *@auto_rule.(q) do |q|
               [*suffix_rules(q), *find(q)]
             end,
@@ -164,9 +167,6 @@ module Lemmas
               [*suffix_rules(q), *find(q)]
             end,
             *suffix_rules(q),
-            # LemmatizerCorga#lemmatizer won't be called if the term exists literally
-            # So this is useful only for gheada variants: gherra => guerra and ghitarra => guitarra
-            *find(q)
           ]
         end
       end
