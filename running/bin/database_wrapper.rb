@@ -20,7 +20,7 @@ class DatabaseWrapper
     when "galician_xiada"
       @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     when "galician_xiada_oral"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     end
   end
 
