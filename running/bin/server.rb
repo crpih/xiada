@@ -27,8 +27,8 @@ helpers do
     raise ProperNounTrainingError
   end
 
-  def tag_text(text, trained_proper_nouns)
-    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, true)
+  def tag_text(text, trained_proper_nouns, force_proper_nouns)
+    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, force_proper_nouns)
     sentence.add_chunk(text, nil, nil, nil, nil)
     sentence.finish
     sentence.contractions_processing
@@ -61,7 +61,7 @@ post '/tagger' do
   stream do |out|
     out << '['
     texts.each_index do |i|
-      out << tag_text(texts[i], trained_proper_nouns).to_json
+      out << tag_text(texts[i], trained_proper_nouns, params[:force_proper_nouns]).to_json
       out << ',' unless texts.size == i + 1
     end
     out << ']'
