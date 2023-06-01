@@ -46,6 +46,8 @@ helpers do
     end
   rescue StandardError
     raise TaggingSentenceError.new("Error tagging sentence: #{text}")
+  rescue Exception
+    raise TaggingSentenceError.new("Critical error tagging sentence: #{text}")
   end
 end
 
