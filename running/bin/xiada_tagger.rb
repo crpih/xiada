@@ -73,7 +73,7 @@ class XiadaTagger
             elsif command == 'STANDARD'
               result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns], false)
             end
-            socket.puts(result.gsub("\n", "\t\t")) # Separate with double tab for socket. This way it can be read with socket#gets.
+            socket.puts(result.gsub("\n", "\t\t\t\t\t\t\t\t\t\t")) # Separate 10 tab for socket. This way it can be read with socket#gets.
           end
         end
       end
