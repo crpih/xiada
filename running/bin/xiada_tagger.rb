@@ -46,6 +46,37 @@ class XiadaTagger
         end
       end
       $stdout = orig_stdout
+    elsif @options[:socket]
+      puts "Litening on socket: #{@options[:socket]}"
+      hostname = "0.0.0.0"
+      server = TCPServer.new(hostname, @options[:socket])
+      while (socket = server.accept)
+        trained_proper_nouns = {}
+        loop do
+          command = socket.gets
+          command&.chomp!
+          if command == 'TRAIN_PROPER_NOUNS'
+            listener = XMLListenerTrainProperNouns.new(@xml_values, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash)
+            REXML::Document.parse_stream(socket, listener)
+            trained_proper_nouns = listener.get_trained_proper_nouns
+          elsif command.nil? || command == 'CLOSE'
+            socket.close
+            break
+          else
+            sentence = socket.gets
+            next if sentence.nil?
+
+            sentence.chomp!
+            result = nil
+            if command == 'ONLY_UNITS'
+              result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns], true)
+            elsif command == 'STANDARD'
+              result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns], false)
+            end
+            socket.puts(result.gsub("\n", "\t\t")) # Separate with double tab for socket. This way it can be read with socket#gets.
+          end
+        end
+      end
     else
       if @options[:file]
         trained_proper_nouns = {}
@@ -156,6 +187,23 @@ class XiadaTagger
     #sentence.print(STDERR)
     #sentence.print_reverse
     viterbi.print_best_way
+  end
+
+  def process_line_socket(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, trained_proper_nouns, force_proper_nouns, remove_join)
+    sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, force_proper_nouns)
+    line.force_encoding("UTF-8") if line.encoding.name == "ASCII-8BIT"
+    #encoded_line = line.encode("UTF-8")
+    #sentence.add_chunk(encoded_line,nil,nil,nil,nil)
+    sentence.add_chunk(line, nil, nil, nil, nil)
+    sentence.finish
+    sentence.contractions_processing unless remove_join
+    sentence.idioms_processing unless remove_join # Must be processed before numerals
+    sentence.proper_nouns_processing(trained_proper_nouns, remove_join)
+    sentence.numerals_processing
+    sentence.enclitics_processing
+    viterbi = Viterbi.new(dw)
+    viterbi.run(sentence)
+    return viterbi.get_best_way
   end
 
   def parse_args
