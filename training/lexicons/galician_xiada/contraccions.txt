@@ -404,8 +404,8 @@ pró	pra	pra	pra	P	/	o	o	o	Ddms
 prós	pra	pra	pra	P	/	os	o	o	Ddmp
 prá	pra	pra	pra	P	/	a	o	o	Ddfs
 prás	pra	pra	pra	P	/	as	o	o	Ddfp
-nalgo	en	en	en	P	/	algo	algo	algo	In00
-nalgho	en	en	en	P	/	algho	algo	algo	In00
+nalgo	en	en	en	P	/	algo	algo	algo	Inns
+nalgho	en	en	en	P	/	algho	algo	algo	Inns
 nalgures	en	en	en	P	/	algures	algures	algures	Wn
 nalghures	en	en	en	P	/	alghures	algures	algures	Wn
 entrámbolos	entrambos	entrambos	entrambos	Idmp	/	los	o	o	Ddmp
@@ -414,8 +414,8 @@ entrámbalas	entrambas	entrambos	entrambos	Idfp	/	las	o	o	Ddfp
 entrámbalas	entre	entre	entre	P	/	ambas	ambos	ambos	Idfp	/	las	o	o	Ddfp
 dalgures	de	de	de	P	/	algures	algures	algures	Wn
 dalghures	de	de	de	P	/	alghures	algures	algures	Wn
-dalgo	de	de	de	P	/	algo	algo	algo	In00
-dalgho	de	de	de	P	/	algho	algo	algo	In00
+dalgo	de	de	de	P	/	algo	algo	algo	Inns
+dalgho	de	de	de	P	/	algho	algo	algo	Inns
 dalguén	de	de	de	P	/	alguén	alguén	alguén	Inas
 dalghuén	de	de	de	P	/	alghuén	alguén	alguén	Inas
 dalguén	de	de	de	P	/	alguén	alguén	alguén	Inms
