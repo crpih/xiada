@@ -54,16 +54,16 @@ module Lemmas
       def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
         #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
         # gh treatment
-        if original_left_part =~ /gh/
-          if left_part =~ /gh[aou]/
-            new_left_part = left_part.gsub(/gh/,'g')
-            return new_left_part
-          elsif left_part =~/gh[ei]/
-            new_left_part = left_part.gsub(/gh/,'gu')
-            return new_left_part
-          end
+        #if original_left_part =~ /gh/
+        #  if left_part =~ /gh[aou]/
+        #    new_left_part = left_part.gsub(/gh/,'g')
+        #    return new_left_part
+        #  elsif left_part =~/gh[ei]/
+        #    new_left_part = left_part.gsub(/gh/,'gu')
+        #    return new_left_part
+        #  end
           # auto treatment
-        elsif original_left_part =~/^autorr/
+        if original_left_part =~/^autorr/
           new_left_part = left_part.gsub(/^(.)/,'autor\1')
           return new_left_part unless new_left_part =~ /^autor?auto/
         elsif original_left_part =~/^(auto-?)/
