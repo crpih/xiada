@@ -78,7 +78,7 @@ class Viterbi
           if tag.lemmas.keys.empty?
             result +="\t*\t*\t#{tag.token.from}\t#{tag.token.to}"
           else
-            lemma = tag.lemmas.keys[0]
+            lemma = @dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
             hiperlemma = tag.hiperlemmas[lemma]
             result += "\t#{lemma}\t#{hiperlemma}\t#{tag.token.from}\t#{tag.token.to}"
           end
