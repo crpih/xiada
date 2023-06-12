@@ -478,6 +478,9 @@ class DatabaseWrapper
     from_lexicon_integer = 1 if from_lexicon
     result = Array.new
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
+      if verb_part =~ /gh/ && row[0] !~ /gh/
+        row[0].gsub!("g","gh")
+      end
       result << row
     end
     return restore_lemmatization(verb_part, result)
