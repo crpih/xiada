@@ -480,6 +480,8 @@ class DatabaseWrapper
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
       if verb_part =~ /gh/ && row[0] !~ /gh/
         row[0].gsub!("g","gh")
+      elsif verb_part =~ /s/ && row[0] =~/c/ && !ENV['XIADA_SESEO'].nil?
+        row[0].gsub!("c","s")
       end
       result << row
     end

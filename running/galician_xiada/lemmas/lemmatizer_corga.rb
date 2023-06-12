@@ -39,7 +39,10 @@ module Lemmas
             new_left_part = left_part.gsub(/gh/,'gu')
             return new_left_part
           end
-          # auto treatment
+        elsif left_part =~ /s/ && !ENV['XIADA_SESEO'].nil?
+          new_left_part = left_part.gsub(/s/,'c')
+          return new_left_part
+        # auto treatment
         elsif left_part =~ /^autorr/
           new_left_part = left_part.gsub(/^autor/,'')
           return new_left_part
