@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 module EncliticsProcessorCustomGalicianXiada
-  def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
+  def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token, prefix)
     #STDERR.puts "verb_part: #{verb_part}"
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
@@ -56,7 +56,7 @@ module EncliticsProcessorCustomGalicianXiada
         end
       end
       if final_recovery_words[final_recovery_word] == nil
-        new_token = Token.new(@sentence.text, final_recovery_word, :standard, token_from, token_to)
+        new_token = Token.new(@sentence.text, "#{prefix}#{final_recovery_word}", :standard, token_from, token_to)
         new_token.qualifying_info = token.qualifying_info.clone
         final_recovery_words[final_recovery_word] = new_token
         #begin_alternative_token.add_next(new_token)

@@ -9,7 +9,7 @@ class EncliticsProcessorCustom
     @enclitics_hash = enclitics_hash
   end
 
-  def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
+  def restore_source_form(verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token, prefix)
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
     infos = @dw.get_enclitic_verb_roots_info(verb_part, verb_tags.split(" "))

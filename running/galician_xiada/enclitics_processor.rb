@@ -84,7 +84,7 @@ class EncliticsProcessor
           recovery = true
           relevant_verb_part_tokens = nil
           if recovery
-            relevant_verb_part_tokens = @enclitics_processor_custom.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
+            relevant_verb_part_tokens = @enclitics_processor_custom.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token, prefix)
           end
 
           # enclitic_part processing
