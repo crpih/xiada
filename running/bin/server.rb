@@ -44,9 +44,11 @@ helpers do
            .map do |token, tag, lemma, hyperlemma, start, finish|
       { token: token, tag: tag, lemma: lemma, hyperlemma: hyperlemma, start: start.to_i, finish: finish.to_i }
     end
-  rescue StandardError
+  rescue StandardError => e
+    puts "#{e.message}\n#{e.backtrace&.join("\n")}"
     raise TaggingSentenceError.new("Error tagging sentence: #{text}")
-  rescue Exception
+  rescue Exception => e
+    puts "#{e.message}\n#{e.backtrace&.join("\n")}"
     raise TaggingSentenceError.new("Critical error tagging sentence: #{text}")
   end
 end

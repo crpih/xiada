@@ -10,6 +10,8 @@ class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
   PROPER_NOUNS_MAX_NUM_COMPONENTS = 15
 
+  attr_reader :lemmatizer
+
   def initialize(db_name)
     @db = SQLite3::Database.open(db_name)
     xiada_profile = ENV["XIADA_PROFILE"]
@@ -349,6 +351,10 @@ class DatabaseWrapper
       end
     end
     return result
+  end
+
+  def get_verb_roots(root)
+    @db.execute("select tag, lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}'")
   end
 
   def get_enclitic_verbs_roots_tags(left_candidate)

@@ -11,7 +11,7 @@ module Lemmas
 
     def copy(word, tags = nil)
       valid_tags = tags.nil? ? @tags : @tags & tags
-      Query.new(self, word, valid_tags)
+      self.class.new(self, word, valid_tags)
     end
   end
 end

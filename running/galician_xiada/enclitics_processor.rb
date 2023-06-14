@@ -12,6 +12,8 @@ class EncliticsProcessor
     @enclitics_processor_custom = EncliticsProcessorCustom.new(@sentence, @dw, @enclitics_hash)
     case xiada_profile
     when "galician_xiada"
+      require_relative "./lemmas/enclitics_verb_prefixer_corga.rb"
+      @enclitics_prefixer = Lemmas::EncliticsVerbPrefixerCorga.new(@dw, gheada: true, seseo: !ENV["XIADA_SESEO"].nil?)
       @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianXiada)
     end
   end
@@ -62,10 +64,10 @@ class EncliticsProcessor
     (0..max_index).each do |index|
       left = word[0, index + 1]
       right = word[index + 1, max_index - index + 1]
-      left_tags = @dw.get_enclitic_verbs_roots_tags(left)
+      prefix, verb_part, left_tags = @enclitics_prefixer.call(left)
       left_tags_string = left_tags.join(" ")
       unless left_tags.empty? or !@dw.enclitic_combination_exists?(right)
-        result = validate_decomposition(left, left_tags_string, right)
+        result = validate_decomposition(verb_part, left_tags_string, right)
         valid = result[0]
         verb_part = result[1]
         enclitic_part = result[2]
