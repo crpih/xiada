@@ -27,7 +27,7 @@ class Words
     @real_corpus_size = 0
   end
 
-  def add_word(word, tag, lemma, hiperlemma, from_lexicon)
+  def add_word(word, tag, lemma, hiperlemma, from_lexicon, normative = false)
     hiperlemma = "" unless hiperlemma
     key = word + "&&&" + tag
     @corpus_size = @corpus_size + 1
@@ -65,7 +65,7 @@ class Words
     elsif not find(@lemmas[key], lemma)
       @lemmas[key] << [lemma, hiperlemma]
     end
-    @word_tag_lemma_count[[word, tag, lemma]] += 1
+    @word_tag_lemma_count[[word, tag, lemma, normative].freeze] += 1
   end
 
   def get_frequency(word, tag)

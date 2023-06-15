@@ -560,7 +560,7 @@ class DatabaseWrapper
       SELECT lemma
       FROM word_tag_lemma_frequencies
       WHERE word = ? AND tag = ? AND lemma IN (#{(['?'] * lemmas.length).join(',')})
-      ORDER BY frequency DESC
+      ORDER BY normative DESC, frequency DESC
       LIMIT 1
     SQL
     # If (word, tag, lemma) is not found, return the first lemma in the list

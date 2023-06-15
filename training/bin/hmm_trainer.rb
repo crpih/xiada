@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require "rubygems"
+require "csv"
 require "dbi"
 require "sqlite3"
 require_relative "ngrams.rb"
@@ -25,25 +26,15 @@ class HMMTrainer
   def preload_external_lexicon(lexicon_file_name)
     puts "Preloading external lexicon... (#{lexicon_file_name})"
     lexicon_words_count = 0
-    File.open(lexicon_file_name, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          content = line.split(/\t/)
-          if content.size == 4
-            word, tag, lemma, hiperlemma = content
-          else
-            word, tag, lemma = content
-            hiperlemma = ""
-          end
-          puts "word:#{word} does not have tag and/or lemma" if tag.empty? or lemma.empty?
-          @words.add_word(word, tag, lemma, hiperlemma, true)
-          lexicon_words_count = lexicon_words_count + 1
-        end
-      end
-      puts "Lexicon:"
-      puts "\twords:#{lexicon_words_count}"
+    CSV.foreach(lexicon_file_name, col_sep: "\t") do |word, tag, lemma, hyperlemma, normative|
+      hyperlemma = "" if hyperlemma.nil?
+      normative = normative == 's'
+      puts "word:#{word} does not have tag and/or lemma" if tag.nil? || tag == '' || lemma.nil? || lemma == ''
+      @words.add_word(word, tag, lemma, hyperlemma, true, normative)
+      lexicon_words_count = lexicon_words_count + 1
     end
+    puts "Lexicon:"
+    puts "\twords:#{lexicon_words_count}"
   end
 
   def train
@@ -196,9 +187,9 @@ class HMMTrainer
     end
 
     puts "Building table word_tag_lemma_frequencies..."
-    db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, frequency integer, primary key(word,tag,lemma))")
-    @words.word_tag_lemma_count.each do |(word, tag, lemma), count|
-      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, frequency) VALUES (?, ?, ?, ?)', word, tag, lemma, count)
+    db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, normative boolean, frequency integer, primary key(word,tag,lemma,normative))")
+    @words.word_tag_lemma_count.each do |(word, tag, lemma, normative), count|
+      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, normative, frequency) VALUES (?, ?, ?, ?, ?)', word, tag, lemma, normative ? 1 : 0, count)
     end
 
     db.execute("create table integer_values (variable_name text, value integer)")
