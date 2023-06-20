@@ -116,6 +116,10 @@ class Words
     end
   end
 
+  def get_normative(word, tag, lemma)
+    @word_tag_lemma_count.key?([word, tag, lemma, true])
+  end
+
   def calculate_probabilities
     if @memmory
       @frequencies.each do |key, frequency|

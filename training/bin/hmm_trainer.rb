@@ -69,7 +69,8 @@ class HMMTrainer
           @ngrams.add_unigram(tag)
           @ngrams.add_bigram(tag_prev, tag)
           @ngrams.add_trigram(tag_prev_prev, tag_prev, tag)
-          @words.add_word(word, tag, lemma, hiperlemma, false)
+          normative = @words.get_normative(word, tag, lemma)
+          @words.add_word(word, tag, lemma, hiperlemma, false, normative)
           tag_prev_prev = tag_prev
           tag_prev = tag
         else
