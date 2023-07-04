@@ -131,26 +131,35 @@ class DatabaseWrapper
     end
   end
 
+  TRIGRAM_MUTEX = Mutex.new
+
   def get_trigram_probability(tag_i, tag_j, tag_k)
-    #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
-    result = @db.get_first_value("select log_aijk from trigram_frequencies where ti='#{SQLUtils.escape_SQL(tag_i)}' and tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
-    if result == nil
-      result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
-      if result == nil
-        result = @db.get_first_value("select log_ak from unigram_frequencies where tk='#{SQLUtils.escape_SQL(tag_k)}'")
-        #STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
-        return Float(result)
-      else
-        #STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
-        return Float(result)
-      end
-    else
-      #STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
-      return Float(result)
+    # Prepared statements are not thread safe, so we need to synchronize access to them.
+    # Even with synchronization, this is faster than dynamic queries.
+    TRIGRAM_MUTEX.synchronize do
+      # Cache prepared statements. This will run only the first time.
+      @trigram_stm ||= @db.prepare("select log_aijk from trigram_frequencies where ti=? and tj=? and tk=? limit 1")
+      @bigram_stm ||= @db.prepare("select log_ajk from bigram_frequencies where tj=? and tk=? limit 1")
+      @unigram_stm ||= @db.prepare("select log_ak from unigram_frequencies where tk=? limit 1")
+
+      #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
+      result = @trigram_stm.execute!(tag_i, tag_j, tag_k).first&.first ||
+        @bigram_stm.execute!(tag_j, tag_k).first&.first ||
+        @unigram_stm.execute!(tag_k).first&.first
+
+      # Statements must be reset before they can be used again.
+      # See: https://github.com/sparklemotion/sqlite3-ruby/issues/158
+      @trigram_stm.reset!
+      @bigram_stm.reset!
+      @unigram_stm.reset!
+      result
     end
   end
 
   def close
+    @trigram_stm&.close
+    @bigram_stm&.close
+    @unigram_stm&.close
     @db.close
   end
 
