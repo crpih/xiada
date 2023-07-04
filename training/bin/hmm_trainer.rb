@@ -227,6 +227,9 @@ class HMMTrainer
     db.execute("create index emission_word_index on emission_frequencies(word)")
     db.execute("create index emission_word_tag_index on emission_frequencies(word,tag)")
 
+    # For DatabaseWrapper#get_recovery_info
+    db.execute("create index emission_frequencies_lemma_tag_index ON emission_frequencies (lemma, tag)")
+
     db.close
   end
 
