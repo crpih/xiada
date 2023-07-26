@@ -6,12 +6,12 @@ module Lemmas
 
     def initialize(all_possible_tags)
       super(all_possible_tags)
-      @w_tags = tags_for('W.*')
+      @tags = tags_for('W.*')
     end
     def apply_query(query)
-      return unless query.word.end_with?('mente')
+      return if !query.word.end_with?('mente') || !query.tags.any? { |t| t.start_with?('Sp') }
 
-      query.copy(query.word, @w_tags)
+      query.copy(query.word, @tags)
     end
 
     def apply_result(query, result)

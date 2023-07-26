@@ -8,7 +8,7 @@ module Lemmas
 
     def initialize(all_possible_tags)
       super(all_possible_tags)
-      @tags = tags_for('Sc.*', 'A.*', 'V0p0.*', 'V0x000', 'W.*', 'I.*').freeze
+      @default_tags = tags_for('Sc.*', 'A.*', 'V0p0.*', 'V0x000', 'W.*', 'I.*').freeze
       @v_tags = tags_for('V.i.*','V.s','V0m.*').freeze
       @sfc_a0f_tags = tags_for('Scf.*','A0f.*').freeze
       @sa_tags = tags_for('S.*', 'A.*').freeze
@@ -62,7 +62,7 @@ module Lemmas
     # albondiguiñas => albóndiga
     # estomaguiño => estómago
     def apply_gu(query, base, g, n)
-      tilde_variants("#{base.delete_suffix('u')}#{g}#{n}").map { |v| query.copy(v, @tags) }
+      tilde_variants("#{base.delete_suffix('u')}#{g}#{n}").map { |v| query.copy(v, @default_tags) }
     end
 
     # solciño => sol (Scms)
@@ -70,11 +70,11 @@ module Lemmas
     # descalciña => descalzo
     def apply_lc(query, base, g, n)
       search_base = base.delete_suffix('c')
-      common_sp_query = query.copy("#{search_base}z#{g}#{n}", @tags)
+      common_sp_query = query.copy("#{search_base}z#{g}#{n}", @default_tags)
       if n == 's' # When plural
-        [query.copy("#{search_base}es", @tags), common_sp_query]
+        [query.copy("#{search_base}es", @default_tags), common_sp_query]
       else
-        [query.copy(search_base, @tags), common_sp_query]
+        [query.copy(search_base, @default_tags), common_sp_query]
       end
     end
 
@@ -89,17 +89,17 @@ module Lemmas
     # bosquiños => bosques
     def apply_qu(query, base, g, n)
       search_base = "#{base.delete_suffix('qu')}c#{g}#{n}"
-      [query.copy(search_base, @tags),
-       *tilde_variants(search_base).map { |v| query.copy(v, @tags) },
+      [query.copy(search_base, @default_tags),
+       *tilde_variants(search_base).map { |v| query.copy(v, @default_tags) },
        query.copy(search_base, @v_tags),
-       query.copy("#{base}e#{n}", @tags)]
+       query.copy("#{base}e#{n}", @default_tags)]
     end
 
     def apply_onc(query, base, g, n)
       if g == 'o'
         # algodonciño => algodón
         # cartonciños => cartóns
-        query.copy("#{base.delete_suffix('onc')}ón#{n}", @tags)
+        query.copy("#{base.delete_suffix('onc')}ón#{n}", @default_tags)
       else
         # cancionciña => canción
         # chaponciñas => chaponas
@@ -114,23 +114,23 @@ module Lemmas
     # vranciño => vran
     def apply_anc(query, base, g, n)
       search_base = base.delete_suffix('anc')
-      [query.copy("#{search_base}anz#{g}#{n}", @tags),
-       query.copy("#{search_base}án#{n}", @tags),
-       query.copy("#{search_base}an#{n}", @tags)]
+      [query.copy("#{search_base}anz#{g}#{n}", @default_tags),
+       query.copy("#{search_base}án#{n}", @default_tags),
+       query.copy("#{search_base}an#{n}", @default_tags)]
     end
 
     # trenciñas => tranzas
     # fervenciña => fervenza
     def apply_enc_a(query, base, g, n)
-      query.copy("#{base.delete_suffix('c')}z#{g}#{n}", @tags)
+      query.copy("#{base.delete_suffix('c')}z#{g}#{n}", @default_tags)
     end
 
     # pinciñas => pinzas
     # xardinciños => xardíns
     def apply_inc(query, base, g, n)
       search_base = base.delete_suffix('inc')
-      [query.copy("#{search_base}inz#{g}#{n}", @tags),
-       query.copy("#{search_base}ín#{n}", @tags)]
+      [query.copy("#{search_base}inz#{g}#{n}", @default_tags),
+       query.copy("#{search_base}ín#{n}", @default_tags)]
     end
 
     # segundiño => segundo
@@ -138,7 +138,7 @@ module Lemmas
     # pasandiño => pasando
     # meirandiño => meirande
     def apply_nd(query, base, g, n)
-      [query.copy("#{base}#{g}#{n}", @tags),
+      [query.copy("#{base}#{g}#{n}", @default_tags),
        query.copy("#{base}e#{n}", @saiv_tags)]
     end
 
@@ -252,7 +252,7 @@ module Lemmas
 
     # horiña, peliños, groliño, etc.
     def apply_default(query, base, g, n)
-      query.copy("#{base}#{g}#{n}", @tags)
+      query.copy("#{base}#{g}#{n}", @default_tags)
     end
   end
 end

@@ -21,9 +21,9 @@ module Lemmas
     include Utils
 
     module ClassMethods
-      def lemmatize(word, _tags)
+      def lemmatize(word, tags)
         @lemmatizer ||= LemmatizerCorga.new(@dw, seseo: !ENV['XIADA_SESEO'].nil?)
-        result = @lemmatizer.call(word)
+        result = @lemmatizer.call(word, tags)
         result&.any? ? result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } : []
       end
 
@@ -132,8 +132,8 @@ module Lemmas
       @tele_rule = TeleRule.new(@tags)
     end
 
-    def call(word)
-      gheada_queries(Query.new(nil, word, @tags)) do |q|
+    def call(word, tags)
+      gheada_queries(Query.new(nil, word, tags)) do |q|
         seseo_queries(q) do |q|
           [
             # LemmatizerCorga#lemmatizer won't be called if the term exists literally

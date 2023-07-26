@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 require "socket"
 require "optparse"
-require "rexml/document"
+require "rexml"
 require_relative "xml_listener.rb"
 require_relative "xml_listener_train_propernouns.rb"
 require_relative "sentence.rb"

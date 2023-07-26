@@ -1,4 +1,4 @@
-FROM ruby:2.7.1-slim-buster
+FROM ruby:3.1.2-slim-buster
 
 RUN chmod 1777 /tmp && \
     apt-get update -qq && \

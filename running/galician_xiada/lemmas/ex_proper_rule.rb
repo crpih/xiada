@@ -4,7 +4,7 @@ require_relative '../../bin/lemmas/rule'
 module Lemmas
   class ExProperRule < Rule
     def initialize(_all_possible_tags)
-      @tags = "Sp00"
+      @tags = ["Sp00"]
     end
 
     def apply_query(query)

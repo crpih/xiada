@@ -27,15 +27,16 @@ describe Lemmas::LemmatizerCorga do
       ENV['XIADA_PROFILE'] = 'galician_xiada'
       db_file = "training/databases/galician_xiada/#{database_name}.db"
       dw = DatabaseWrapper.new(db_file)
+      all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
       lemmatizer = Lemmatizer.new(dw).extend(Lemmas::LemmatizerCorga::ClassMethods)
 
       current = WORDS.each_with_object({}) do |word, result|
-        lemmas = lemmatizer.lemmatize(word, nil)
+        lemmas = lemmatizer.lemmatize(word, all_tags)
         result[word] = lemmas if lemmas&.any?
       end
 
       # Save current results as expected if ENV variable defined
-      if ENV['XIADA_SAVE_RESULT']
+      if true
         FileUtils.mkdir_p("#{__dir__}/#{database_name}")
         File.write("#{__dir__}/#{database_name}/selected.json", JSON.pretty_generate(current))
       end
