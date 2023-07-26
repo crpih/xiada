@@ -19,6 +19,12 @@ class ProperNouns
     end
     query = query + ")"
     db.execute(query)
+
+    # For DatabaseWrapper#get_proper_nouns_match
+    (1..MAX_NUM_COMPONENTS).each do |i|
+      db.execute("create index proper_nouns_c#{i}_index ON proper_nouns (c#{i})")
+    end
+
     process_file(db)
     db.execute("create table proper_nouns_links (link text)")
     process_links_file(db)
