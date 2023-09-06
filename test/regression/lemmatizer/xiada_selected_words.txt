@@ -195,3 +195,6 @@ gherra
 ninghún
 ghaliña
 galiña
+
+xantarciño # Vfs10s, 'fs' MUST NOT be replaced since they not refer to gender and number
+multiliña

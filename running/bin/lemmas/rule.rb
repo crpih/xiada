@@ -56,7 +56,8 @@ module Lemmas
     end
 
     def replace_tag_gn(tag, g, n)
-      tag.sub(/[maf][spa]/, TAG_GN_REPLACEMENTS[g][n])
+      # Exclude second and third levels of verbs and pronouns from replacement
+      tag.sub(/(?<!\A[VR])[maf][spa]/, TAG_GN_REPLACEMENTS[g][n])
     end
   end
 end

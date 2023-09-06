@@ -3404,5 +3404,57 @@
       "galo",
       -9.001777503977001
     ]
+  ],
+  "xantarciño": [
+    [
+      "Scms",
+      "xantar",
+      "xantar",
+      -8.0751530102179
+    ]
+  ],
+  "xantarciños": [
+    [
+      "Scmp",
+      "xantar",
+      "xantar",
+      -10.704367432898955
+    ]
+  ],
+  "xantarciña": [
+    [
+      "Scfs",
+      "xantar",
+      "xantar",
+      -8.0751530102179
+    ]
+  ],
+  "xantarciñas": [
+    [
+      "Scfp",
+      "xantar",
+      "xantar",
+      -10.704367432898955
+    ]
+  ],
+  "multiliña": [
+    [
+      "Scfs",
+      "multila",
+      "multila",
+      -9.135308896601524
+    ],
+    [
+      "Scfs",
+      "multila",
+      "multila",
+      -11.119675447941322
+    ],
+    [
+      "Scfs",
+      "multiliña",
+      "multiliña",
+      -6.650402246813523
+    ]
   ]
 }

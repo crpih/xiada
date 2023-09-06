@@ -36,7 +36,7 @@ describe Lemmas::LemmatizerCorga do
       end
 
       # Save current results as expected if ENV variable defined
-      if true
+      if ENV['XIADA_SAVE_RESULT']
         FileUtils.mkdir_p("#{__dir__}/#{database_name}")
         File.write("#{__dir__}/#{database_name}/selected.json", JSON.pretty_generate(current))
       end
