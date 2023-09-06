@@ -135,39 +135,41 @@ module Lemmas
     def call(word, tags)
       gheada_queries(Query.new(nil, word, tags)) do |q|
         seseo_queries(q) do |q|
+          # LemmatizerCorga#lemmatizer won't be called if the term exists literally
+          # So this is useful only for gheada and seseo variants: gherra => guerra and ghitarra => guitarra
+          literal_result = find(q)
+          return literal_result if literal_result.any?
+
           [
-            # LemmatizerCorga#lemmatizer won't be called if the term exists literally
-            # So this is useful only for gheada and seseo variants: gherra => guerra and ghitarra => guitarra
-            *find(q),
             *@auto_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@ex_proper_rule.(q) do |q|
               proper_noun(q)
             end,
             *@ex_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@meta_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@etno_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@macro_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@micro_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@xeo_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@multi_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *@tele_rule.(q) do |q|
-              [*suffix_rules(q), *find(q)]
+              suffix_rules(q)
             end,
             *suffix_rules(q),
           ]
@@ -190,6 +192,9 @@ module Lemmas
     end
 
     def suffix_rules(query)
+      literal_result = find(query)
+      return literal_result if literal_result.any?
+
       [
         *@mente_rule.(query) { |qa| find_guesser('mente', qa) },
         *@isimo_rule.(query) { |qa| find(qa) },
