@@ -43,7 +43,7 @@ con,P,con,ca	a,Ddfs,o,_,x	_,D*|E*|M*m.|I.m.|R*|*p,_,_
 # indicativo ou subxuntivo. O mesmo pasa coas formas non binarias,
 # só que non hai casos en contraccións, polo que non as especificamos
 
-a|as|o|os|a/o|o/a|as/os|os/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
+a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
 a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
 
 # (regra nova porque elimino "o") a, os, as, non son artigo (a non ser que estean nunha

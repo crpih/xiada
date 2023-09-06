@@ -34,8 +34,8 @@ end
 if (window[0][0] =~ /^(con)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"con")) and (window[0][3] =~ /^(ca)$/) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][1] =~ /^(D.*|E.*|M.*m.|I.m.|R.*|.*p)$/)
 return 2
 end
-# RULE: a|as|o|os|a/o|o/a|as/os|os/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
-if (window[0][0] =~ /^(a|as|o|os|a/o|o/a|as/os|os/as|@|@s)$/) and (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] !~ /^(á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/)
+# RULE: a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
+if (window[0][0] =~ /^(a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s)$/) and (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] !~ /^(á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/)
 return 1
 end
 # RULE: a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
