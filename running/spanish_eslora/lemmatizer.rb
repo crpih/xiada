@@ -393,7 +393,7 @@ module LemmatizerSpanishEslora
     end
 
     # mente suffix treatment
-    return @dw.get_guesser_result("'mente'", word, ['W']) if word =~ /mente$/
+    return @dw.get_guesser_result("'mente'", word, ['W']) if word =~ /mente$/ && tags.any? { |t| !t.match?(/^NP/) }
     []
 
   end
