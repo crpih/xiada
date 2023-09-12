@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><fragmento>
+<expresión>ah <pausa></pausa></expresión>
+<análisis>
+<análisis_unidad>
+<unidad>ah</unidad>
+<constituyente>
+<forma>ah</forma>
+<etiqueta>I</etiqueta>
+<lema>ah</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad><pausa></pausa></unidad>
+<constituyente>
+<forma><pausa></pausa></forma>
+<etiqueta>ETQ_PAUSA</etiqueta>
+<lema><pausa></pausa></lema>
+</constituyente>
+</análisis_unidad>
+</análisis>
+</fragmento>
+</document_content></document>

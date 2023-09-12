@@ -20,7 +20,7 @@ def test_snapshots(profile, database_name, sentence_tag, command)
       result = `#{command.(input.path)}`
 
       # Save current results as expected if ENV variable defined
-      if true || ENV['XIADA_SAVE_RESULT']
+      if ENV['XIADA_SAVE_RESULT']
         FileUtils.mkdir_p("#{__dir__}/#{database_name}")
         File.write("#{__dir__}/#{database_name}/#{i}.xml", result) # if ENV['XIADA_SAVE_RESULT']
       end
