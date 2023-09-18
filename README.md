@@ -171,3 +171,19 @@ DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .
 Existing training databases are copied inside the image.
 Por 4000 is exposed.
 `XIADA_PROFILE` must be defined to run the container. 
+
+## Testing
+
+### Execute all tests
+
+```bash
+bundle exec rake test
+```
+
+### Execute only a test
+
+Specify file and test name as a regular expression.
+
+```bash
+bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora/"
+```
