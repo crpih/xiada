@@ -2,7 +2,7 @@ FROM ruby:3.1.2-slim-buster
 
 RUN chmod 1777 /tmp && \
     apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential libgdbm-dev libsqlite3-dev git-core ssh-client
+    apt-get install --no-install-recommends -y build-essential libsqlite3-dev git-core ssh-client
 
 RUN mkdir -p -m 0600 ~/.ssh && ssh-keyscan bitbucket.org >> ~/.ssh/known_hosts
 

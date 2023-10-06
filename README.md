@@ -36,7 +36,7 @@ http://corpus.cirp.gal/xiada
 
     In Debian stable:
 
-        sudo apt-get install libgdbm3 libgdbm-dev libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
+        sudo apt-get install libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
 
 1. Clone the repo:
 

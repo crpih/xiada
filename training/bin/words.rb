@@ -1,28 +1,17 @@
 # -*- coding: utf-8 -*-
-require "gdbm"
-
 class Words
   attr_reader :corpus_size, :real_corpus_size, :frequencies, :probabilities,
               :tag_frequencies, :from_lexicon, :word_tag_lemma_count
 
-  def initialize(empty_word, memmory)
+  def initialize(empty_word)
     @empty_word = empty_word
-    @memmory = memmory
     @lemmas = Hash.new # Now @lemmas include pairs [lemma,hiperlemma]
-    if @memmory
-      @frequencies = Hash.new
-      @tag_frequencies = Hash.new
-      @word_frequencies = Hash.new
-      @probabilities = Hash.new
-      @from_lexicon = Hash.new
-      @word_tag_lemma_count = Hash.new(0)
-    else
-      @frequencies = GDBM.new("frequencies.data", 0666, GDBM::NEWDB)
-      @tag_frequencies = GDBM.new("tag_frequencies.data", 0666, GDBM::NEWDB)
-      @word_frequencies = GDBM.new("word_frequencies.data", 0666, GDBM::NEWDB)
-      @probabilities = GDBM.new("probabilities.data", 0666, GDBM::NEWDB)
-      @from_lexicon = GDBM.new("from_lexicon.data", 0666, GDBM::NEWDB)
-    end
+    @frequencies = Hash.new
+    @tag_frequencies = Hash.new
+    @word_frequencies = Hash.new
+    @probabilities = Hash.new
+    @from_lexicon = Hash.new
+    @word_tag_lemma_count = Hash.new(0)
     @corpus_size = 0
     @real_corpus_size = 0
   end
@@ -33,31 +22,24 @@ class Words
     @corpus_size = @corpus_size + 1
     @real_corpus_size = @real_corpus_size + 1 unless word == @empty_word
     if @frequencies[key] == nil
-      @frequencies[key] = 1 if @memmory
-      @frequencies[key] = "1" unless @memmory
+      @frequencies[key] = 1
     else
-      @frequencies[key] = @frequencies[key] + 1 if @memmory
-      @frequencies[key] = "#{@frequencies[key].to_i + 1}" unless @memmory
+      @frequencies[key] = @frequencies[key] + 1
     end
 
     if (@from_lexicon[key] == nil) || is_false(@from_lexicon[key])
-      @from_lexicon[key] = from_lexicon if @memmory
-      @from_lexicon[key] = "#{from_lexicon}" unless @memmory
+      @from_lexicon[key] = from_lexicon
     end
 
     if @tag_frequencies[tag] == nil
-      @tag_frequencies[tag] = 1 if @memmory
-      @tag_frequencies[tag] = "1" unless @memmory
+      @tag_frequencies[tag] = 1
     else
-      @tag_frequencies[tag] = @tag_frequencies[tag] + 1 if @memmory
-      @tag_frequencies[tag] = "#{@tag_frequencies[tag].to_i + 1}" unless @memmory
+      @tag_frequencies[tag] = @tag_frequencies[tag] + 1
     end
     if @word_frequencies[word] == nil
-      @word_frequencies[word] = 1 if @memmory
-      @word_frequencies[word] = "1" unless @memmory
+      @word_frequencies[word] = 1
     else
-      @word_frequencies[word] = @word_frequencies[word] + 1 if @memmory
-      @word_frequencies[word] = "#{@word_frequencies[word].to_i + 1}" unless @memmory
+      @word_frequencies[word] = @word_frequencies[word] + 1
     end
     if @lemmas[key] == nil
       @lemmas[key] = Array.new
@@ -71,8 +53,7 @@ class Words
   def get_frequency(word, tag)
     key = word + "&&&" + tag
     if @frequencies[key] != nil
-      return @frequencies[key] if @memmory
-      return @frequencies[key].to_i unless @memmory
+      return @frequencies[key]
     else
       return 0
     end
@@ -81,8 +62,7 @@ class Words
   def get_from_lexicon(word, tag)
     key = word + "&&&" + tag
     if @from_lexicon[key] != nil
-      return @from_lexicon[key] if @memmory
-      return string_to_boolean(@from_lexicon[key]) unless @memmory
+      return @from_lexicon[key]
     else
       return false
     end
@@ -91,8 +71,7 @@ class Words
   def get_probability(word, tag)
     key = word + "&&&" + tag
     if @probabilities[key] != nil
-      return @probabilities[key] if @memmory
-      return @probabilities[key].to_f unless @memmory
+      return @probabilities[key]
     else
       return 0
     end
@@ -109,8 +88,7 @@ class Words
 
   def get_word_frequency(word)
     if @word_frequencies[word] != nil
-      return @word_frequencies[word] if @memmory
-      return @word_frequencies[word].to_i unless @memmory
+      return @word_frequencies[word]
     else
       return 0
     end
@@ -121,16 +99,9 @@ class Words
   end
 
   def calculate_probabilities
-    if @memmory
-      @frequencies.each do |key, frequency|
-        @probabilities[key] = Math.log(Float(frequency) /
-                                       @tag_frequencies[get_tag_component(key)])
-      end
-    else
-      @frequencies.each do |key, frequency|
-        @probabilities[key] = "#{Math.log(Float(frequency.to_i) /
-                                          @tag_frequencies[get_tag_component(key)].to_i)}"
-      end
+    @frequencies.each do |key, frequency|
+      @probabilities[key] = Math.log(Float(frequency) /
+                                     @tag_frequencies[get_tag_component(key)])
     end
   end
 

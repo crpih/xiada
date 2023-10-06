@@ -13,13 +13,12 @@ class HMMTrainer
   EMPTY_WORD = "###"
   MAX_SUFFIX_LENGTH = 10
   MAX_OCCURRENCES = 10
-  MEMMORY = true
 
   def initialize(corpus_file_name, tags_info_file)
     @corpus_file_name = corpus_file_name
     @tags_info = load_tags_info(tags_info_file)
-    @ngrams = Ngrams.new(EMPTY_TAG, MEMMORY)
-    @words = Words.new(EMPTY_WORD, MEMMORY)
+    @ngrams = Ngrams.new(EMPTY_TAG)
+    @words = Words.new(EMPTY_WORD)
     @suffixes = nil
   end
 
@@ -108,7 +107,7 @@ class HMMTrainer
     puts "Calculating word emission probabilities..."
     @words.calculate_probabilities
     puts "Building suffixes..."
-    @suffixes = BasicSuffixes.new(EMPTY_WORD, MAX_SUFFIX_LENGTH, MAX_OCCURRENCES, @words, @tags_info, MEMMORY)
+    @suffixes = BasicSuffixes.new(EMPTY_WORD, MAX_SUFFIX_LENGTH, MAX_OCCURRENCES, @words, @tags_info)
     @suffixes.calculate_frequencies
     puts "Calculating suffixes probabilities..."
     @suffixes.calculate_probabilities
