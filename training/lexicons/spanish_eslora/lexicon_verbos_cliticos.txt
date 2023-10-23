@@ -245,18 +245,6 @@ abofeteémos	VMP1P	abofetear
 abofeteémo	VMP1P	abofetear
 abofetéen	VMP3P	abofetear
 abofetée	VMP3S	abofetear
-abogad	VMP2P	abogar
-abogád	VMP2P	abogar
-abogándo	VGP	abogar
-abogar	VNP	abogar
-abogár	VNP	abogar
-aboga	VMP2P	abogar
-abogá	VMP2P	abogar
-abóga	VMP2S	abogar
-aboguémos	VMP1P	abogar
-aboguémo	VMP1P	abogar
-abóguen	VMP3P	abogar
-abógue	VMP3S	abogar
 abolid	VMP2P	abolir
 abolíd	VMP2P	abolir
 aboliéndo	VGP	abolir
@@ -64895,3 +64883,4 @@ zurzámos	VMP1P	zurcir
 zurzámo	VMP1P	zurcir
 zúrzan	VMP3P	zurcir
 zúrza	VMP3S	zurcir
+taquear	VNP	taquear
