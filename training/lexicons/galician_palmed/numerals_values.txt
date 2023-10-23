@@ -1,0 +1,11 @@
+cardinal_tag	Nc
+ordinal_tag	No
+plural_letter	p
+number_position	5
+connector	e
+percentage_number_tag	Ncnms
+percentage_symbol_tag	Zs00
+percentage_idiom	por cento
+percentage_idiom_tag	La0
+tags_for_numbers	Ncdmp	Ncdfp	Ncnmp	Ncnfp	Ncnms
+multiword_link	mil

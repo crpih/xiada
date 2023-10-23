@@ -1522,8 +1522,7 @@ de	P	de
 Estados Unidos	Sp00	Estados Unidos
 .	Q.	.
 
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 estes	Edmp	este
 estados	Scmp	estado
@@ -5535,8 +5534,7 @@ prezo	Scms	prezo
 de	P	de
 270	Ncdmp	270
 euros	Scmp	euro
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 (	Q(	(
 45.000	Ncdfp	45.000
 pesetas	Scfp	peseta
@@ -8580,8 +8578,7 @@ Planeta	Sp00	Planeta
 para	P	para
 quedar	V0f000	quedar
 se	Rao3aa	se
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 con	P	con
 a	Ddfs	o
 parte	Scfs	parte
@@ -8850,7 +8847,7 @@ as	Ddfp	o
 editoriais	Scfp	editorial
 Kalandraka	Sp00	Kalandraka
 ,	Q,	,
-A Nosa Terra	Sp00	A Nosa Terra
+A Nosa terra	Sp00	A Nosa terra
 ,	Q,	,
 Sotelo Blanco	Sp00	Sotelo Blanco
 ,	Q,	,
@@ -15729,7 +15726,6 @@ elaborados	A0mp	elaborado
 1,9	Ncnms	1,9
 %	Zs00	%
 )	Q)	)
-,	Q,	,
 .	Q.	.
 
 "	Q"	"
@@ -18092,7 +18088,7 @@ catorce	Ncnfp	catorce
 ,	Q,	,
 destaca	Vpi30s	destacar
 "	Q"	"
-Euro-CKP SA	Sp00	Euro-CKP SA
+Euro-C-KP SA	Sp00	Euro-C-KP SA
 "	Q"	"
 ,	Q,	,
 de	P	de
@@ -19263,9 +19259,8 @@ que	Tnfs	que
 xa	Wn	xa
 se	Rao3aa	se
 coñecerá	Vfi30s	coñecer
-un	Dims	un
-pouco	Inms	pouco
-máis	Wm	máis
+un pouco	Wm	un pouco
+máis	Wn	máis
 cómo	Wg	como
 se	Rao3aa	se
 desenvolve	Vpi30s	desenvolver
@@ -22072,8 +22067,7 @@ entre	P	entre
 a	Ddfs	o
 administración	Scfs	administración
 de	P	de
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 e	Cc	e
 fai	Vpi30s	facer
 chegar	V0f000	chegar
@@ -26801,7 +26795,8 @@ anónima	A0fs	anónimo
 
 por	P	por
 lo	Ddms	o
-Decreto Lei 18/1962	Spms	Decreto Lei 18/1962
+decreto lei	Scms	decreto lei
+18/1962	Sp00	18/1962
 ,	Q,	,
 publicado	V0p0ms	publicar
 en	P	en
@@ -36955,8 +36950,7 @@ a	Ddfs	o
 color	Scfs	color
 política	A0fs	político
 de	P	de
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 "	Q"	"
 e	Cc	e
 afirmou	Vei30s	afirmar
@@ -42960,7 +42954,7 @@ seu	Md3ams	seu
 crecemento	Scms	crecemento
 alcanzou	Vei30s	alcanzar
 o	Ddms	o
-catro	Ncnms	catro
+4	Ncnms	4
 por cento	Wn	por cento
 .	Q.	.
 
@@ -44020,8 +44014,7 @@ A Bretaña	Sp00	A Bretaña
 francesa	A0fs	francés
 .	Q.	.
 
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 estes	Edmp	este
 dirixentes	Scmp	dirixente
@@ -45398,9 +45391,8 @@ pasar	V0f000	pasar
 a	Ddfs	o
 xente	Scfs	xente
 gastou	Vei30s	gastar
-un	Dims	un
-pouquiño	Inms	pouco
-máis	Wm	máis
+un pouquiño	Wm	un pouco
+máis	Wn	máis
 que	Cs	que
 hai	Vpi30s	haber
 seis	Ncdmp	seis
@@ -47539,8 +47531,7 @@ Gran Bretaña	Sp00	Gran Bretaña
 con	P	con
 outros	Iamp	outro
 10	Ncnmp	10
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 .	Q.	.
 
 o	Ddms	o
@@ -53446,8 +53437,7 @@ millóns	Scmp	millón
 de	P	de
 pesetas	Scfp	peseta
 para	P	para
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 socios	Scmp	socio
@@ -58811,8 +58801,7 @@ entidades	Scfp	entidade
 europeas	A0fp	europeo
 ,	Q,	,
 fortes	A0fp	forte
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 en	P	en
 o	Ddms	o
 seu	Md3pms	seu
@@ -66831,8 +66820,7 @@ o	Ddms	o
 Estado	Spms	Estado
 territorializa	Vpi30s	territorializar
 en	P	en
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 ,	Q,	,
 segundo	Cs	segundo
 explicou	Vei30s	explicar
@@ -81686,8 +81674,7 @@ de	P	de
 a	Ddfs	o
 propiedade	Scfs	propiedade
 de	P	de
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 inmobles	Scmp	inmoble
@@ -84998,8 +84985,7 @@ de	P	de
 millóns	Scmp	millón
 de	P	de
 pesetas	Scfp	peseta
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 (	Q(	(
 90	Ncdmp	90
 millóns	Scmp	millón
@@ -88202,8 +88188,7 @@ fluxo	Scms	fluxo
 de	P	de
 fondos	Scmp	fondo
 que	Tnmp	que
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 recibiu	Vei30s	recibir
 así como	Cs	así como
 o	Ddms	o
@@ -88231,8 +88216,7 @@ que	Tnfp	que
 se	Rao3aa	se
 publicaron	Vei30p	publicar
 en	P	en
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 países	Scmp	país
@@ -102373,8 +102357,7 @@ a razón de	P	a razón de
 catro	Ncdfp	catro
 novas	A0fp	novo
 por	P	por
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 antigas	A0fp	antigo
@@ -106119,8 +106102,7 @@ fresca	A0fs	fresco
 oito	Ncnms	oito
 por cento	Wn	por cento
 ,	Q,	,
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 )	Q)	)
 .	Q.	.
 
@@ -112121,8 +112103,7 @@ pregos	Scmp	prego
 de	P	de
 28	Ncdmp	28
 billetes	Scmp	billete
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 un	Dims	un
 valor	Scms	valor
@@ -113248,8 +113229,7 @@ capitalismo	Scms	capitalismo
 máis	Wm	máis
 salvaxe	A0ms	salvaxe
 enriqueceu	Vei30s	enriquecer
-uns	Dimp	un
-poucos	Inmp	pouco
+uns poucos	Inmp	un pouco
 a a custa de	P	a a custa de
 a	Ddfs	o
 miseria	Scfs	miseria
@@ -113424,8 +113404,7 @@ habendo	V0x000	haber
 a	Ddfs	o
 riqueza	Scfs	riqueza
 de	P	de
-uns	Dimp	un
-poucos	Inmp	pouco
+uns poucos	Inmp	un pouco
 ten	Vpi30s	ter
 como	Wr	como
 contrapunto	Scms	contrapunto
@@ -113500,8 +113479,7 @@ o	Ddms	o
 euro	Scms	euro
 .	Q.	.
 
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 anémico	A0ms	anémico
 ,	Q,	,
 pero	Cs	pero
@@ -120534,8 +120512,7 @@ galega	A0fs	galego
 ,	Q,	,
 que	Tnfs	que
 depende	Vpi30s	depender
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wn	un pouco
 de	P	de
 a	Ddfs	o
 decisión	Scfs	decisión
@@ -121510,8 +121487,7 @@ farmaceútico	A0ms	farmaceútico
 e	Cc	e
 químico	A0ms	químico
 ofrecerán	Vfi30p	ofrecer
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 anos	Scmp	ano
@@ -122761,8 +122737,7 @@ lle	Rad3as	lle
 142	Ncdmp	142
 millóns	Scmp	millón
 e	Cc	e
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 próximos	A0mp	próximo
@@ -138285,8 +138260,7 @@ e	Cc	e
 porque	Cs	porque
 "	Q"	"
 perdera	Vli30s	perder
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wn	un pouco
 a	Ddfs	o
 ilusión	Scfs	ilusión
 a	P	a
@@ -151463,8 +151437,7 @@ as	Ddfp	o
 cifras	Scfp	cifra
 poidan	Vps30p	poder
 ser	V0f000	ser
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 elevadas	A0fp	elevado
 "	Q"	"
 o	Ddms	o
@@ -163138,8 +163111,7 @@ analizan	Vpi30p	analizar
 "	Q"	"
 todas	Idfp	todo
 e	Cc	e
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 entidades	Scfp	entidade
@@ -172716,8 +172688,7 @@ os	Ddmp	o
 fondos	Scmp	fondo
 europeos	A0mp	europeo
 é	Vpi30s	ser
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 ríxido	A0ms	ríxido
 e	Cc	e
 anunciou	Vei30s	anunciar
@@ -191555,8 +191526,7 @@ para	P	para
 o	Ddms	o
 terceiro	Nonms	terceiro
 e	Cc	e
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 seguintes	A0mp	seguinte
@@ -200925,7 +200895,7 @@ correspondendo	V0x000	corresponder
 o	Ddms	o
 seu	Md3sms	seu
 máximo	Scms	máximo
-a	P	a
+con	P	con
 o	Ddms	o
 mes	Scms	mes
 de	P	de
@@ -201419,7 +201389,8 @@ gasóleo	Scms	gasóleo
 Sección Cárnica	Spfs	Sección Cárnica
 
 a	Ddfs	o
-Sección Cárnica	Spfs	Sección Cárnica
+Sección	Spfs	Sección
+cárnica	A0fs	cárnico
 de	P	de
 Feiraco	Sp00	Feiraco
 ,	Q,	,
@@ -203245,7 +203216,7 @@ un	Dims	un
 aumento	Scms	aumento
 de	P	de
 o	Ddms	o
-3'7	Ncnms	3'7
+3,7	Ncnms	3,7
 por cento	Wn	por cento
 ,	Q,	,
 é	Vpi30s	ser
@@ -203275,7 +203246,7 @@ transferencias	Scfp	transferencia
 correntes	A0fp	corrente
 representan	Vpi30p	representar
 o	Ddms	o
-74'47	Ncnms	74'47
+74,47	Ncnms	74,47
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
@@ -203286,7 +203257,7 @@ as	Ddfp	o
 de	P	de
 capital	Scms	capital
 o	Ddms	o
-8'87	Ncnms	8'87
+8,87	Ncnms	8,87
 por cento	Wn	por cento
 ,	Q,	,
 habendo	V0x000	haber
@@ -208551,7 +208522,7 @@ ou	Cc	ou
 Haciendas Territoriales y Corresponsabilidad Fiscal	Sp00	Haciendas Territoriales y Corresponsabilidad Fiscal
 ,	Q,	,
 (	Q(	(
-AGESP	Zg00	AGESP
+ACESP	Zg00	ACESP
 ,	Q,	,
 1993	Ncnms	1993
 )	Q)	)
@@ -208652,8 +208623,7 @@ o	Ddms	o
 gasto	Scms	gasto
 necesário	A0ms	necesário
 en	P	en
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 elas	Rtp3fp	el
 para	P	para
@@ -208857,8 +208827,7 @@ os	Ddmp	o
 custos	Scmp	custo
 asociados	V0p0mp	asociar
 a	P	a
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 elas	Rtp3fp	el
 .	Q.	.
@@ -220667,7 +220636,7 @@ esta	Edfs	este
 oportunidade	Scfs	oportunidade
 ,	Q,	,
 dando	V0x000	dar
-lus	Scfs	lus
+lus	Scfs	luz
 a	P	a
 a	Ddfs	o
 fasquia	Scfs	fasquia
@@ -224607,7 +224576,7 @@ están	Vpi30p	estar
 reabrindo	V0x000	reabrir
 estaleiros	Scmp	estaleiro
 para	P	para
-fabricar	V0f000	fabricar
+fabicar	V0f000	fabricar
 artefactos	Scmp	artefacto
 FPSO	Zg00	FPSO
 .	Q.	.
@@ -227787,7 +227756,7 @@ sinalando	V0x000	sinalar
 que	Cs	que
 Irlanda	Sp00	Irlanda
 ou	Cc	ou
-O Reino Unido	Sp00	O Reino Unido
+o Reino Unido	Sp00	O Reino Unido
 tampouco	Wn	tampouco
 habían	Vii30p	haber
 poder	V0f000	poder
@@ -233183,8 +233152,7 @@ os	Ddmp	o
 
 ¿	Q¿	¿
 acaso	Wn	acaso
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 Gobernos	Spmp	Goberno
@@ -233909,8 +233877,7 @@ capital	Scms	capital
 .	Q.	.
 
 deixando	V0x000	deixar
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 outros	Idmp	outro
 aspectos	Scmp	aspecto
 ,	Q,	,
@@ -238273,8 +238240,7 @@ investimento	Scms	investimento
 real	A0ms	real
 en	P	en
 1998	Ncnms	1998
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 once	Ncdfp	once
@@ -238622,8 +238588,7 @@ tocaba	Vii30s	tocar
 a	Ddfs	o
 Sociedade de Xestión	Spfs	Sociedade de Xestión
 conseguía	Vii30s	conseguir
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 de	P	de
 ouro	Scms	ouro
 :	Q:	:
@@ -239703,8 +239668,7 @@ cuestións	Scfp	cuestión
 formais	A0fp	formal
 e	Cc	e
 deixou	Vei30s	deixar
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 outras	Infp	outro
 verdadeiramente	Wm	verdadeiramente
 trascendentes	A0fp	trascendente

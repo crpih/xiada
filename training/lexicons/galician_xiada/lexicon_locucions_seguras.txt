@@ -1,3 +1,10 @@
+Dies irae	Scms	Dies irae	dies irae	n
+Dios mío	Y	Dios mío	meu Deus	n
+In Memoriam	Wn	In Memoriam	in memóriam	n
+Kirie eleisón	Scms	Kirie eleisón	kyrieleison	n
+Kyrie eleison	Scms	Kyrie eleison	kyrieleison	n
+Valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo	s
+Valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo	s
 a a bartola	Wn	a a bartola	a a bartola	s
 a a custa de	P	a a custa de	a a custa de	s
 a a emborca	Wn	a a emborca	a a envorca	n
@@ -7,6 +14,10 @@ a a mantenta	Wn	a a mantenta	a a mantenta	s
 a a miña vez	Wn	a a miña vez	a a miña vez	s
 a a nosa vez	Wn	a a nosa vez	a a nosa vez	s
 a a rapañota	Wn	a a rapañota	a a rapañota	s
+a a sua vez	Wn	a a sua vez	a a súa vez	n
+a a súa vez	Wn	a a súa vez	a a súa vez	s
+a a toa	Wn	a a toa	a a toa	s
+a a zonza	Wn	a a zonza	a a zonza	s
 a as agachadas	Wn	a as agachadas	a as agachadas	s
 a as apalpadas	Wn	a as apalpadas	a as apalpadas	n
 a as apalpadiñas	Wn	a as apalpadas	a as apalpadas	n
@@ -24,19 +35,12 @@ a as escondidas	Wn	a as escondidas	a as escondidas	s
 a as rapañotas	Wn	a as rapañotas	a as rapañotas	s
 a as tentas	Wn	a as tentas	a tentas	s
 a as toas	Wn	a as toas	a a toa	s
-a a sua vez	Wn	a a sua vez	a a súa vez	n
-a a súa vez	Wn	a a súa vez	a a súa vez	s
 a as vorcalladas	Wn	a as vorcalladas	a as vorcalladas	s
-a a toa	Wn	a a toa	a a toa	s
-a a zonza	Wn	a a zonza	a a zonza	s
 a balavento	Wn	a balavento	a balavento	s
 a baluto	Wn	a baluto	a baluto	s
 a baravento	Wn	a baravento	a balavento	n
 a barullo	Wn	a barullo	a barullo	s
-ab initio	Wn	ab initio	ab initio	s
-ab intestato	Wn	ab intestato	ab intestato	s
 a bordo	Wn	a bordo	a bordo	s
-ab origine	Wn	ab origine	ab origine	s
 a cachapernas	Wn	a cachapernas	a cachapernas	s
 a cachón	Wn	a cachón	a cachón	s
 a cal e canto	Wn	a cal e canto	a cal e canto	n
@@ -45,39 +49,11 @@ a capella	Wn	a capella	a capela	n
 a cappella	Wn	a cappella	a capela	n
 a capricho	Wn	a capricho	a capricho	s
 a caronciño	Wn	a carón	a carón	n
-a carón	Wn	a carón	a carón	s
 a carranchapernas	Wn	a carranchapernas	a carranchapernas	s
 a carranchas	Wn	a carranchas	a carranchas	s
+a carón	Wn	a carón	a carón	s
 a cas de	P	a cas de	a cas de	s
 a ceacú	Wn	a ceacú	a ceacú	s
-acerca de	P	acerca de	acerca de	s
-ácido acético	Scms	ácido acético	ácido acético	s
-ácido acetilsalicílico	Scms	ácido acetilsalicílico	ácido acetilsalicílico	s
-ácido acrílico	Scms	ácido acrílico	ácido acrílico	s
-ácido barbitúrico	Scms	ácido barbitúrico	ácido barbitúrico	s
-ácido bórico	Scms	ácido bórico	ácido bórico	s
-ácido carbólico	Scms	ácido carbólico	ácido carbólico	s
-ácido carbónico	Scms	ácido carbónico	ácido carbónico	s
-ácido carboxílico	Scms	ácido carboxílico	ácido carboxílico	s
-ácido cianhídrico	Scms	ácido cianhídrico	ácido cianhídrico	s
-ácido ciánico	Scms	ácido ciánico	ácido ciánico	s
-ácido cítrico	Scms	ácido cítrico	ácido cítrico	s
-ácido clorhídrico	Scms	ácido clorhídrico	ácido clorhídrico	s
-ácido desoxirribonucleico	Scms	ácido desoxirribonucleico	ácido desoxirribonucleico	s
-ácido fénico	Scms	ácido fénico	ácido fénico	s
-ácido fluorhídrico	Scms	ácido fluorhídrico	ácido fluorhídrico	s
-ácido fólico	Scms	ácido fólico	ácido fólico	s
-ácido fórmico	Scms	ácido fórmico	ácido fórmico	s
-ácido gálico	Scms	ácido gálico	ácido gálico	s
-ácido graxo	Scms	ácido graxo	ácido graxo	s
-ácido iodhídrico	Scms	ácido iodhídrico	ácido iodhídrico	s
-ácido nítrico	Scms	ácido nítrico	ácido nítrico	s
-ácido nitroso	Scms	ácido nitroso	ácido nitroso	s
-ácido ribonucleico	Scms	ácido ribonucleico	ácido ribonucleico	s
-ácido selénico	Scms	ácido selénico	ácido selénico	s
-ácido selenioso	Scms	ácido selenioso	ácido selenioso	s
-ácido sulfúrico	Scms	ácido sulfúrico	ácido sulfúrico	s
-ácido úrico	Scms	ácido úrico	ácido úrico	s
 a ciencia certa	Wn	a ciencia certa	a ciencia certa	s
 a contramán	Wn	a contramán	a contramán	s
 a contrario sensu	Wn	a contrario sensu	a contrario sensu	n
@@ -89,13 +65,7 @@ a descomán	Wn	a descomán	a descomán	s
 a deshora	Wn	a deshora	a deshora	s
 a desmán	Wn	a desmán	a desmán	s
 a destempo	Wn	a destempo	a destempo	s
-ad hoc	Wn	ad hoc	ad hoc	s
-ad hominem	Wn	ad hominem	ad hominem	s
-ad libitum	Wn	ad libitum	ad libitum	s
-ad litteram	Wn	ad litteram	ad litteram	s
 a doután	Wn	a doután	a doután	s
-ad pedem litterae	Wn	ad pedem litterae	ad pedem litterae	s
-ad usum	Wn	ad usum	ad usum	s
 a eito	Wn	a eito	a eito	s
 a embute	Wn	a embute	a embute	s
 a escape	Wn	a escape	a escape	s
@@ -108,60 +78,21 @@ a fortiori	Wn	a fortiori	a fortiori	s
 a gatiñas	Wn	a gatiñas	a gatiñas	s
 a granel	Wn	a granel	a granel	s
 a gustiño	Wn	a gusto	a gusto	n
-aínda así	Wn	aínda así	aínda así	s
-aínda cando	Cs	aínda cando	aínda cando	s
-aínda que	Cs	aínda que	aínda que	s
-aire acondicionado	Scms	aire acondicionado	aire acondicionado	s
 a la page	Wn	a la page	à la page	n
-algor mortis	Scms	algor mortis	algor mortis	s
-allo porro	Scms	allo porro	allo porro	s
-allos porros	Scmp	allo porro	allo porro	s
-all right	Wn	all right	all right	n
-alma mater	Scfs	alma mater	alma máter	s
-alma máter	Scfs	alma máter	alma máter	s
 a lo menos	Wn	a lo menos	alomenos	n
-alter ego	Scma	alter ego	álter ego	s
-alter ego	Scmp	alter ego	álter ego	s
-alter ego	Scms	alter ego	álter ego	s
-álter ego	Scms	álter ego	álter ego	s
-alter egos	Scmp	alter ego	álter ego	s
-alto dirixente	Scms	alto dirixente	alto dirixente	n
-ama de casa	Scfs	amo de casa	amo de casa	s
-ama de chaves	Scfs	ama de chaves	ama de chaves	s
-ama de cría	Scfs	ama de cría	ama de cría	s
-ama de leite	Scfs	ama de leite	ama de leite	s
-ama de peito	Scfs	ama de peito	ama de peito	s
-a máis tardar	Wn	a máis tardar	a máis tardar	s
 a mantenta	Wn	a mantenta	a a mantenta	n
-amas de casa	Scfp	amo de casa	amo de casa	s
-amas de chaves	Scfp	ama de chaves	ama de chaves	s
-amas de cría	Scfp	ama de cría	ama de cría	s
-amas de leite	Scfp	ama de leite	ama de leite	s
-amas de peito	Scfp	ama de peito	ama de peito	s
 a medias	Wn	a medias	a medias	s
 a miudo	Wn	a miudo	a miúdo	n
 a miúdo	Wn	a miúdo	a miúdo	s
-amo de casa	Scms	amo de casa	amo de casa	s
 a modiño	Wn	a modo	amodo	n
-amos de casa	Scmp	amo de casa	amo de casa	s
-annus horribilis	Scms	annus horribilis	annus horribilis	s
-annus mirabilis	Scms	annus mirabilis	annus mirabilis	s
-ano luz	Scms	ano luz	ano luz	s
+a máis tardar	Wn	a máis tardar	a máis tardar	s
 a non ser que	Cs	a non ser que	a non ser que	s
 a non ser se	Cs	a non ser se	a non ser se	s
-ano santo	Scms	ano santo	ano santo	s
-anos luz	Scmp	ano luz	ano luz	s
-anos santos	Scmp	ano santo	ano santo	s
-ante meridiem	Wn	ante meridiem	ante meridiem	s
-ante mortem	Wn	ante mortem	ante mortem	s
-antes de antonte	Wn	antes de antonte	antes de antonte	s
-antre lusco e fusco	Wn	antre lusco e fusco	entre lusco e fusco	n
-anxina de peito	Scfs	anxina de peito	anxina de peito	s
 a o agacho	Wn	a o agacho	a o agacho	s
 a o biés	Wn	a o biés	a o biés	s
 a o cabo de	P	a o cabo de	a o cabo de	s
-a o carón	Wn	a o carón	a carón	s
 a o carricho	Wn	a o carricho	a o carricho	s
+a o carón	Wn	a o carón	a carón	s
 a o chou	Wn	a o chou	a o chou	s
 a o contraxeito	Wn	a o contraxeito	a o contraxeito	s
 a o desbarate	Wn	a o desbarate	a desbarate	s
@@ -172,15 +103,15 @@ a o nesgo	Wn	a o nesgo	a o nesgo	s
 a o outro día	Wn	a o outro día	a o outro día	s
 a o redor	Wn	a o redor	a o redor	s
 a o rente	Wn	a o rente	a rentes	n
-a os boleiróns	Wn	a os boleiróns	a os boleiróns	s
-a os revorcos	Wn	a os revorcos	a os revorcos	n
 a o tacho	Wn	a o tacho	a o tacho	n
 a o través	Wn	a o través	a o través	s
+a os boleiróns	Wn	a os boleiróns	a os boleiróns	s
+a os revorcos	Wn	a os revorcos	a os revorcos	n
 a partir de	P	a partir de	a partir de	s
 a partires de	P	a partires de	a partir de	n
 a pesar de	P	a pesar de	a pesar de	s
-a piques	Wn	a piques	a piques	s
 a pique	Wn	a pique	a pique	s
+a piques	Wn	a piques	a piques	s
 a poder de	P	a poder de	a poder de	s
 a por de	P	a por de	a por de	s
 a posteriori	Wn	a posteriori	a posteriori	s
@@ -191,51 +122,14 @@ a queimarroupa	Wn	a queimarroupa	a queimarroupa	s
 a raxatabla	Wn	a raxatabla	a raxatabla	n
 a recú	Wn	a recú	a recú	s
 a regañadentes	Wn	a regañadentes	a regañadentes	n
-a rentes de	P	a rentes de	a rentes de	s
-a rentes	Wn	a rentes	a rentes	s
 a rente	Wn	a rente	a rentes	s
+a rentes	Wn	a rentes	a rentes	s
+a rentes de	P	a rentes de	a rentes de	s
 a reo	Wn	a reo	arreo	n
 a requichas	Wn	a requichas	a requichas	s
 a retortoiro	Wn	a retortoiro	a retortoiro	s
-arre demo	Y	arre demo	arre demo	s
-ars amandi	Scfs	ars amandi	ars amandi	s
-ars amatoria	Scfs	ars amatoria	ars amatoria	s
-ars erotica	Scfs	ars erotica	ars erotica	s
-ars nova	Scfs	ars nova	ars nova	s
-art deco	A0aa	art deco	art déco	s
-art decó	A0aa	art decó	art déco	s
-art déco	A0aa	art déco	art déco	s
-art deco	A0ap	art deco	art déco	s
-art decó	A0ap	art decó	art déco	s
-art déco	A0ap	art déco	art déco	s
-art deco	A0as	art deco	art déco	s
-art decó	A0as	art decó	art déco	s
-art déco	A0as	art déco	art déco	s
-art deco	A0fa	art deco	art déco	s
-art decó	A0fa	art decó	art déco	s
-art déco	A0fa	art déco	art déco	s
-art deco	A0fp	art deco	art déco	s
-art decó	A0fp	art decó	art déco	s
-art déco	A0fp	art déco	art déco	s
-art deco	A0fs	art deco	art déco	s
-art decó	A0fs	art decó	art déco	s
-art déco	A0fs	art déco	art déco	s
-art deco	A0ma	art deco	art déco	s
-art decó	A0ma	art decó	art déco	s
-art déco	A0ma	art déco	art déco	s
-art deco	A0mp	art deco	art déco	s
-art decó	A0mp	art decó	art déco	s
-art déco	A0mp	art déco	art déco	s
-art deco	A0ms	art deco	art déco	s
-art decó	A0ms	art decó	art déco	s
-art déco	A0ms	art déco	art déco	s
-art deco	Scms	art deco	art déco	s
-art decó	Scms	art decó	art déco	s
-art déco	Scms	art déco	art déco	s
-art nouveau	Scms	art nouveau	art nouveau	s
 a sabendas	Wn	a sabendas	a sabendas	s
 a salvo	Wn	a salvo	a salvo	s
-asemade que	Cs	asemade que	asemade que	s
 a sensu contrario	Wn	a sensu contrario	a sensu contrario	n
 a son de	P	a son de	a son de	s
 a tentas	Wn	a tentas	a tentas	n
@@ -244,22 +138,104 @@ a tergo	Wn	a tergo	a tergo	s
 a tope	Wn	a tope	a tope	s
 a toutiñas	Wn	a toutas	a as atoutiñadas	n
 a traverso de	P	a traverso de	a través de	n
-através de	P	através de	a través de	n
-a través de	P	a través de	a través de	s
 a traveso de	P	a traveso de	a través de	n
+a través de	P	a través de	a través de	s
 a treo	Wn	a treo	a treo	s
 a treu	Wn	a treu	a treo	n
 a ultranza	Wn	a ultranza	a ultranza	n
-ave fénix	Scfs	ave fénix	ave Fénix	n
-ave Fénix	Scfs	ave Fénix	ave Fénix	s
 a voleo	Wn	a voleo	a voleo	n
 a xeito de	P	a xeito de	a xeito de	s
+a xunto de	P	a xunto de	xunto de	s
+a xuízo de	P	a xuízo de	a xuízo de	n
+ab initio	Wn	ab initio	ab initio	s
+ab intestato	Wn	ab intestato	ab intestato	s
+ab origine	Wn	ab origine	ab origine	s
+acerca de	P	acerca de	acerca de	s
+ad hoc	Wn	ad hoc	ad hoc	s
+ad hominem	Wn	ad hominem	ad hominem	s
+ad libitum	Wn	ad libitum	ad libitum	s
+ad litteram	Wn	ad litteram	ad litteram	s
+ad pedem litterae	Wn	ad pedem litterae	ad pedem litterae	s
+ad usum	Wn	ad usum	ad usum	s
+aire acondicionado	Scms	aire acondicionado	aire acondicionado	s
+algor mortis	Scms	algor mortis	algor mortis	s
+all right	Wn	all right	all right	n
+allo porro	Scms	allo porro	allo porro	s
+allos porros	Scmp	allo porro	allo porro	s
+alma mater	Scfs	alma mater	alma máter	s
+alma máter	Scfs	alma máter	alma máter	s
+alter ego	Scma	alter ego	álter ego	s
+alter ego	Scmp	alter ego	álter ego	s
+alter ego	Scms	alter ego	álter ego	s
+alter egos	Scmp	alter ego	álter ego	s
+alto dirixente	Scms	alto dirixente	alto dirixente	n
+ama de casa	Scfs	amo de casa	amo de casa	s
+ama de chaves	Scfs	ama de chaves	ama de chaves	s
+ama de cría	Scfs	ama de cría	ama de cría	s
+ama de leite	Scfs	ama de leite	ama de leite	s
+ama de peito	Scfs	ama de peito	ama de peito	s
+amas de casa	Scfp	amo de casa	amo de casa	s
+amas de chaves	Scfp	ama de chaves	ama de chaves	s
+amas de cría	Scfp	ama de cría	ama de cría	s
+amas de leite	Scfp	ama de leite	ama de leite	s
+amas de peito	Scfp	ama de peito	ama de peito	s
+amo de casa	Scms	amo de casa	amo de casa	s
+amos de casa	Scmp	amo de casa	amo de casa	s
+annus horribilis	Scms	annus horribilis	annus horribilis	s
+annus mirabilis	Scms	annus mirabilis	annus mirabilis	s
+ano luz	Scms	ano luz	ano luz	s
+ano santo	Scms	ano santo	ano santo	s
+anos luz	Scmp	ano luz	ano luz	s
+anos santos	Scmp	ano santo	ano santo	s
+ante meridiem	Wn	ante meridiem	ante meridiem	s
+ante mortem	Wn	ante mortem	ante mortem	s
+antes de antonte	Wn	antes de antonte	antes de antonte	s
+antre lusco e fusco	Wn	antre lusco e fusco	entre lusco e fusco	n
+anxina de peito	Scfs	anxina de peito	anxina de peito	s
+arre demo	Y	arre demo	arre demo	s
+ars amandi	Scfs	ars amandi	ars amandi	s
+ars amatoria	Scfs	ars amatoria	ars amatoria	s
+ars erotica	Scfs	ars erotica	ars erotica	s
+ars nova	Scfs	ars nova	ars nova	s
+art deco	A0aa	art deco	art déco	s
+art deco	A0ap	art deco	art déco	s
+art deco	A0as	art deco	art déco	s
+art deco	A0fa	art deco	art déco	s
+art deco	A0fp	art deco	art déco	s
+art deco	A0fs	art deco	art déco	s
+art deco	A0ma	art deco	art déco	s
+art deco	A0mp	art deco	art déco	s
+art deco	A0ms	art deco	art déco	s
+art deco	Scms	art deco	art déco	s
+art decó	A0aa	art decó	art déco	s
+art decó	A0ap	art decó	art déco	s
+art decó	A0as	art decó	art déco	s
+art decó	A0fa	art decó	art déco	s
+art decó	A0fp	art decó	art déco	s
+art decó	A0fs	art decó	art déco	s
+art decó	A0ma	art decó	art déco	s
+art decó	A0mp	art decó	art déco	s
+art decó	A0ms	art decó	art déco	s
+art decó	Scms	art decó	art déco	s
+art déco	A0aa	art déco	art déco	s
+art déco	A0ap	art déco	art déco	s
+art déco	A0as	art déco	art déco	s
+art déco	A0fa	art déco	art déco	s
+art déco	A0fp	art déco	art déco	s
+art déco	A0fs	art déco	art déco	s
+art déco	A0ma	art déco	art déco	s
+art déco	A0mp	art déco	art déco	s
+art déco	A0ms	art déco	art déco	s
+art déco	Scms	art déco	art déco	s
+art nouveau	Scms	art nouveau	art nouveau	s
+asemade que	Cs	asemade que	asemade que	s
+através de	P	através de	a través de	n
+ave Fénix	Scfs	ave Fénix	ave Fénix	s
+ave fénix	Scfs	ave fénix	ave Fénix	n
 axente secreta	Scfs	axente secreto	axente secreto	s
 axente secreto	Scms	axente secreto	axente secreto	s
 axentes secretas	Scfp	axente secreto	axente secreto	s
 axentes secretos	Scmp	axente secreto	axente secreto	s
-a xuízo de	P	a xuízo de	a xuízo de	n
-a xunto de	P	a xunto de	xunto de	s
 azul celeste	A0as	azul celeste	azul celeste	s
 azul celeste	A0fs	azul celeste	azul celeste	s
 azul celeste	A0ms	azul celeste	azul celeste	s
@@ -276,20 +252,23 @@ azul turquesa	A0as	azul turquesa	azul turquesa	s
 azul turquesa	A0fs	azul turquesa	azul turquesa	s
 azul turquesa	A0ms	azul turquesa	azul turquesa	s
 azul turquesa	Scms	azul turquesa	azul turquesa	s
-baño maría	Scms	baño maría	baño maría	n
+aínda así	Wn	aínda así	aínda así	s
+aínda cando	Cs	aínda cando	aínda cando	s
+aínda que	Cs	aínda que	aínda que	s
 bardante de	P	bardante de	bardante de	s
 base de datos	Scfs	base de datos	base de datos	s
 base impoñible	Scfs	base impoñible	base impoñible	s
 bases de datos	Scfp	base de datos	base de datos	s
 bases impoñibles	Scfp	base impoñible	base impoñible	s
+baño maría	Scms	baño maría	baño maría	n
 beatus ille	Scms	beatus ille	beatus ille	s
 best seller	A0as	best seller	best-séller	n
 best seller	A0fs	best seller	best-séller	n
 best seller	A0ms	best seller	best-séller	n
+best seller	Scms	best seller	best-séller	n
 best sellers	A0ap	best seller	best-séller	n
 best sellers	A0fp	best seller	best-séller	n
 best sellers	A0mp	best seller	best-séller	n
-best seller	Scms	best seller	best-séller	n
 best sellers	Scmp	best seller	best-séller	n
 boca abaixo	Wn	boca abaixo	boca abaixo	s
 bossa nova	Scfs	bossa nova	bossa nova	s
@@ -310,13 +289,13 @@ cada cal	Inms	cada cal	cada cal	s
 cada quen	Inas	cada quen	cadaquén	s
 cada quen	Infs	cada quen	cadaquén	s
 cada quen	Inms	cada quen	cadaquén	s
-cada unha	Infs	cada un	cada un	s
-cada un/ha	Inxs	cada un	cada un	n
 cada un	Inms	cada un	cada un	s
+cada un/ha	Inxs	cada un	cada un	n
+cada unha	Infs	cada un	cada un	s
 cante hondo	Scms	cante hondo	cante hondo	n
 cante jondo	Scms	cante jondo	cante hondo	n
-capitáns xenerais	Scmp	capitán xeneral	capitán xeneral	s
 capitán xeneral	Scms	capitán xeneral	capitán xeneral	s
+capitáns xenerais	Scmp	capitán xeneral	capitán xeneral	s
 captatio benevolentiae	Scfs	captatio benevolentiae	captatio benevolentiae	s
 carpe diem	Scms	carpe diem	carpe diem	s
 cas de	P	cas de	cas de	s
@@ -344,9 +323,9 @@ codia terrrestre	Scfs	codia terrrestre	codia terrrestre	s
 coitus interruptus	Scma	coitus interruptus	coitus interruptus	n
 coitus interruptus	Scmp	coitus interruptus	coitus interruptus	n
 coitus interruptus	Scms	coitus interruptus	coitus interruptus	n
-conditio sine qua non	Scfs	conditio sine qua non	conditio sine qua non	s
 con o gallo de	P	con o gallo de	con o gallo de	s
 con relación a	P	con relación a	con relación a	s
+conditio sine qua non	Scfs	conditio sine qua non	conditio sine qua non	s
 constantes vitais	Scfp	constantes vitais	constantes vitais	s
 contra natura	A0aa	contra natura	contra natura	s
 contra natura	A0ap	contra natura	contra natura	s
@@ -360,11 +339,11 @@ contra natura	A0ms	contra natura	contra natura	s
 controis remoto	Scmp	control remoto	control remoto	s
 control remoto	Scms	control remoto	control remoto	s
 corpore in sepulto	Wn	corpore in sepulto	corpore insepulto	n
-córpore in sepulto	Wn	córpore in sepulto	córpore insepulto	n
 corpore insepulto	Wn	corpore insepulto	corpore insepulto	s
-córpore insepulto	Wn	córpore insepulto	córpore insepulto	s
 correo electrónico	Scms	correo electrónico	correo electrónico	s
 correos electrónicos	Scmp	correo electrónico	correo electrónico	s
+corta feira	Scfs	corta feira	corta feira	s
+cortas feiras	Scfp	corta feira	corta feira	s
 couto redondo	Scms	couto redondo	couto redondo	s
 coutos redondos	Scmp	couto redondo	couto redondo	s
 cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo	s
@@ -381,6 +360,8 @@ cum_laude	A0ms	cum_laude	cum_laude	s
 curriculum vitae	Scms	curriculum vitae	currículum vítae	n
 currículum vitae	Scms	currículum vitae	currículum vítae	n
 currículum vítae	Scms	currículum vítae	currículum vítae	s
+córpore in sepulto	Wn	córpore in sepulto	córpore insepulto	n
+córpore insepulto	Wn	córpore insepulto	córpore insepulto	s
 de acordo con	P	de acordo con	de acordo con	s
 de antemán	Wn	de antemán	de antemán	s
 de balde	Wn	de balde	de balde	s
@@ -396,8 +377,6 @@ de corpore insepulto	Wn	de corpore insepulto	córpore insepulto	n
 de cote	Wn	de cote	decote	n
 de cotío	Wn	de cotío	decotío	n
 de crequenas	Wn	de crequenas	de crequenas	s
-decreto lei	Scms	decreto lei	decreto lei	s
-decretos lei	Scmp	decreto lei	decreto lei	s
 de esguella	Wn	de esguella	de esguello	s
 de esguello	Wn	de esguello	de esguello	s
 de facto	Wn	de facto	de facto	s
@@ -406,25 +385,13 @@ de ganchete	Wn	de ganchete	de ganchete	s
 de garra	Wn	de garra	de garra	s
 de gatiñas	Wn	de gatiñas	de gatiñas	s
 de improviso	Wn	de improviso	de improviso	s
-déjà vu	Scms	déjà vu	déjà vu	n
-déjà vus	Scmp	déjà vu	déjà vu	n
 de jure	Wn	de jure	de jure	s
-delirium tremens	Scma	delirium tremens	delírium tremens	n
-delírium tremens	Scma	delírium tremens	delírium tremens	s
-delirium tremens	Scmp	delirium tremens	delírium tremens	n
-delírium tremens	Scmp	delírium tremens	delírium tremens	s
-delirium tremens	Scms	delirium tremens	delírium tremens	n
-delírium tremens	Scms	delírium tremens	delírium tremens	s
-delta de lava	Scfs	delta de lava	delta de lava	s
-delta lávico	Scms	delta lávico	delta lávico	s
-deltas de lava	Scfp	delta de lava	delta de lava	s
-deltas lávicos	Scmp	delta lávico	delta lávico	s
+de lado a lado	Wn	de lado a lado	de lado a lado	s
 de maneira que	Cs	de maneira que	de maneira que	s
 de moca	Wn	de moca	de moca	s
 de modo que	Cs	de modo que	de modo que	s
-dende logo	Wn	dende logo	dende logo	s
-de oídas	Wn	de oídas	de oídas	s
 de o trinque	Wn	de o trinque	de o trinque	s
+de oídas	Wn	de oídas	de oídas	s
 de par en par	Wn	de par en par	de par en par	s
 de pe a pa	Wn	de pe a pa	de pe a pa	n
 de poutelas	Wn	de poutelas	de poutelas	s
@@ -455,28 +422,41 @@ de putísima madre	Wn	de puta madre	de puta madre	n
 de querquena	Wn	de querquena	de crequenas	s
 de recú	Wn	de recú	de recú	s
 de reollo	Wn	de reollo	de reollo	n
-desde logo	Wn	desde logo	desde logo	s
 de sobra	Wn	de sobra	de sobra	s
 de sobro	Wn	de sobro	de sobra	s
 de socate	Wn	de socate	de socate	s
-de sócato	Wn	de sócato	de socate	n
 de socato	Wn	de socato	de socate	s
 de sotaque	Wn	de sotaque	de socate	n
+de sócato	Wn	de sócato	de socate	n
 de súpeto	Wn	de súpeto	de súpeto	s
-de unha tacada	Wn	de unha tacada	de unha tacada	s
 de un tirón	Wn	de un tirón	de un tirón	s
+de unha tacada	Wn	de unha tacada	de unha tacada	s
 de vagariño	Wn	de vagar	devagar	n
 de veras	Wn	de veras	de veras	s
 de vez	Wn	de vez	de vez	s
 de xeito que	Cs	de xeito que	de xeito que	s
+decreto lei	Scms	decreto lei	decreto lei	s
+decretos lei	Scmp	decreto lei	decreto lei	s
+delirium tremens	Scma	delirium tremens	delírium tremens	n
+delirium tremens	Scmp	delirium tremens	delírium tremens	n
+delirium tremens	Scms	delirium tremens	delírium tremens	n
+delta de lava	Scfs	delta de lava	delta de lava	s
+delta lávico	Scms	delta lávico	delta lávico	s
+deltas de lava	Scfp	delta de lava	delta de lava	s
+deltas lávicos	Scmp	delta lávico	delta lávico	s
+delírium tremens	Scma	delírium tremens	delírium tremens	s
+delírium tremens	Scmp	delírium tremens	delírium tremens	s
+delírium tremens	Scms	delírium tremens	delírium tremens	s
+dende logo	Wn	dende logo	dende logo	s
+desde logo	Wn	desde logo	desde logo	s
 diabete mellitus	Scfs	diabete mellitus	diabetes mellitus	n
-día santo	Scms	día santo	día santo	s
-días santos	Scmp	día santo	día santo	s
-Dies irae	Scms	Dies irae	dies irae	n
-Dios mío	Y	Dios mío	meu Deus	n
 disco duro	Scms	disco duro	disco duro	s
 discos duros	Scmp	disco duro	disco duro	s
 dolce far niente	Scms	dolce far niente	dolce far niente	n
+déjà vu	Scms	déjà vu	déjà vu	n
+déjà vus	Scmp	déjà vu	déjà vu	n
+día santo	Scms	día santo	día santo	s
+días santos	Scmp	día santo	día santo	s
 efecto invernadeiro	Scms	efecto invernadeiro	efecto invernadoiro	s
 efecto invernadoiro	Scms	efecto invernadoiro	efecto invernadoiro	s
 efectos invernadoiro	Scmp	efecto invernadoiro	efecto invernadoiro	s
@@ -484,11 +464,8 @@ en balde	Wn	en balde	en balde	s
 en baluto	Wn	en baluto	en baluto	s
 en canto que	Cs	en canto que	en canto	n
 en cas de	P	en cas de	en cas de	s
-encefalopatía esponxiforme bovina	Scfs	encefalopatía esponxiforme bovina	encefalopatía esponxiforme bovina	n
-encol de	P	encol de	encol de	s
 en contra	Wn	en contra	en contra	s
 en crequenas	Wn	en crequenas	en crequenas	s
-endoutro día	Wn	endoutro día	endoutro día	s
 en favor	Wn	en favor	en favor	s
 en fite	Wn	en fite	en fite	s
 en función de	P	en función de	en función de	s
@@ -521,13 +498,11 @@ en regra	A0ma	en regra	en regra	s
 en regra	A0mp	en regra	en regra	s
 en regra	A0ms	en regra	en regra	s
 en relación con	P	en relación con	en relación con	s
-en resumen	Wn	en resumen	en resumo	n
 en resume	Wn	en resume	en resumo	n
+en resumen	Wn	en resumen	en resumo	n
 en resumo	Wn	en resumo	en resumo	s
 en silencio	Wn	en silencio	en silencio	s
 en tanto que	Cs	en tanto que	en tanto	s
-entre horas	Wn	entre horas	entre horas	s
-entre lusco e fusco	Wn	entre lusco e fusco	entre lusco e fusco	s
 en troques	Wn	en troques	en troques	s
 en un santiamén	Wn	en un santiamén	en un santiamén	s
 en vez de	P	en vez de	en vez de	s
@@ -535,38 +510,43 @@ en vilo	Wn	en vilo	en vilo	n
 en virtude de	P	en virtude de	en virtude de	s
 en vivo	Wn	en vivo	en vivo	s
 en xeral	Wn	en xeral	en xeral	s
+encefalopatía esponxiforme bovina	Scfs	encefalopatía esponxiforme bovina	encefalopatía esponxiforme bovina	n
+encol de	P	encol de	encol de	s
+endoutro día	Wn	endoutro día	endoutro día	s
+entre horas	Wn	entre horas	entre horas	s
+entre lusco e fusco	Wn	entre lusco e fusco	entre lusco e fusco	s
 escontra de	P	escontra de	contra de	s
 estricto sensu	Wn	estricto sensu	stricto sensu	n
 ex aequo	Wn	ex aequo	ex aequo	s
-ex-alto cargo	Scms	ex-alto cargo	ex-alto cargo	n
-ex-alto dirixente	Scms	ex-alto dirixente	ex alto dirixente	n
-ex-altos cargos	Scmp	ex-alto cargo	ex-alto cargo	n
-ex cátedra	Wn	ex cátedra	ex cáthedra	s
 ex cathedra	Wn	ex cathedra	ex cáthedra	s
+ex cátedra	Wn	ex cátedra	ex cáthedra	s
 ex cáthedra	Wn	ex cáthedra	ex cáthedra	s
-ex-Conselleiro	Scms	ex-conselleiro	exconselleiro	n
-ex-garda civil	Scas	ex-garda civil	ex-garda civil	s
-ex-garda civil	Scfs	ex-garda civil	ex-garda civil	s
-ex-garda civil	Scms	ex-garda civil	ex-garda civil	s
-ex-gran rabino	Scms	ex-gran rabino	ex-gran rabino	n
 ex libris	Scma	ex libris	ex libris	s
 ex libris	Scmp	ex libris	ex libris	s
 ex libris	Scms	ex libris	ex libris	n
 ex libris	Scms	ex libris	ex libris	s
 ex nihilo	Wn	ex nihilo	ex nihilo	n
-ex-nihilo	Wn	ex-nihilo	ex nihilo	n
 ex novo	Wn	ex novo	ex novo	n
 ex primeira ministra	Scfs	ex primeiro ministro	ex primeiro ministro	s
 ex primeiras ministras	Scfp	ex primeiro ministro	ex primeiro ministro	s
-ex-primeiro ministro	Scms	ex-primeiro ministro	ex primeiro ministro	n
 ex primeiro ministro	Scms	ex primeiro ministro	ex primeiro ministro	s
 ex primeiros ministros	Scmp	ex primeiro ministro	ex primeiro ministro	s
 ex profeso	Wn	ex profeso	ex professo	s
-ex-secretarias xerais	Scfp	ex-secretario xeral	ex secretario xeral	n
-ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral	n
-ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral	n
-ex-secretario xeral	Scms	ex-secretario xeral	ex secretario xeral	n
 ex situ	Wn	ex situ	ex situ	s
+ex-Conselleiro	Scms	ex-conselleiro	exconselleiro	n
+ex-alto cargo	Scms	ex-alto cargo	ex-alto cargo	n
+ex-alto dirixente	Scms	ex-alto dirixente	ex alto dirixente	n
+ex-altos cargos	Scmp	ex-alto cargo	ex-alto cargo	n
+ex-garda civil	Scas	ex-garda civil	ex-garda civil	s
+ex-garda civil	Scfs	ex-garda civil	ex-garda civil	s
+ex-garda civil	Scms	ex-garda civil	ex-garda civil	s
+ex-gran rabino	Scms	ex-gran rabino	ex-gran rabino	n
+ex-nihilo	Wn	ex-nihilo	ex nihilo	n
+ex-primeiro ministro	Scms	ex-primeiro ministro	ex primeiro ministro	n
+ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral	n
+ex-secretarias xerais	Scfp	ex-secretario xeral	ex secretario xeral	n
+ex-secretario xeral	Scms	ex-secretario xeral	ex secretario xeral	n
+ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral	n
 extra muros	Wn	extra muros	extra muros	s
 extrema unción	Scfs	extrema unción	extremaunción	n
 fite a fite	Wn	fite a fite	fite a fite	s
@@ -587,8 +567,12 @@ glándula pineal	Scfs	glándula pineal	glándula pineal	s
 glándula pituitaria	Scfs	glándula pituitaria	glándula pituitaria	s
 glándula prostática	Scfs	glándula prostática	glándula prostática	s
 glándula salivar	Scfs	glándula salivar	glándula salivar	s
-glándulas dixestivas	Scfp	glándula dixestiva	glándula dixestiva	s
 glándula sebácea	Scfs	glándula sebácea	glándula sebácea	s
+glándula sudorípara	Scfs	glándula sudorípara	glándula sudorípara	s
+glándula suprarrenal	Scfs	glándula suprarrenal	glándula suprarrenal	s
+glándula tiroide	Scfs	glándula tiroide	glándula tiroide	s
+glándula tiroides	Scfs	glándula tiroides	glándula tiroide	s
+glándulas dixestivas	Scfp	glándula dixestiva	glándula dixestiva	s
 glándulas lacrimais	Scfp	glándula lacrimal	glándula lacrimal	s
 glándulas mamarias	Scfp	glándula mamaria	glándula mamaria	s
 glándulas salivais	Scfp	glándula salival	glándula salivar	n
@@ -596,10 +580,6 @@ glándulas salivares	Scfp	glándula salivar	glándula salivar	s
 glándulas sebáceas	Scfp	glándula sebácea	glándula sebácea	s
 glándulas sudoríparas	Scfp	glándula sudorípara	glándula sudorípara	s
 glándulas suprarrenais	Scfp	glándula suprarrenal	glándula suprarrenal	s
-glándula sudorípara	Scfs	glándula sudorípara	glándula sudorípara	s
-glándula suprarrenal	Scfs	glándula suprarrenal	glándula suprarrenal	s
-glándula tiroide	Scfs	glándula tiroide	glándula tiroide	s
-glándula tiroides	Scfs	glándula tiroides	glándula tiroide	s
 goma de borrar	Scfs	goma de borrar	goma de borrar	n
 goma de mascar	Scfs	goma de mascar	goma de mascar	n
 gomas de borrar	Scfp	goma de borrar	goma de borrar	n
@@ -610,6 +590,7 @@ graxa monoinsaturada	Scfs	graxa monoinsaturada	graxa monoinsaturada	s
 graxa poliinsaturada	Scfs	graxa poliinsaturada	graxa poliinsaturada	s
 graxa polisaturada	Scfs	graxa polisaturada	graxa polisaturada	s
 graxa saturada	Scfs	graxa saturada	graxa saturada	s
+graxa trans	Scfs	graxa trans	graxa trans	s
 graxas hidroxenadas	Scfp	graxa hidroxenada	graxa hidroxenada	s
 graxas insaturadas	Scfp	graxa insaturada	graxa insaturada	s
 graxas monoinsaturadas	Scfp	graxa monoinsaturada	graxa monoinsaturada	s
@@ -617,50 +598,47 @@ graxas poliinsaturadas	Scfp	graxa poliinsaturada	graxa poliinsaturada	s
 graxas polisaturadas	Scfp	graxa polisaturada	graxa polisaturada	s
 graxas saturadas	Scfp	graxa saturada	graxa saturada	s
 graxas trans	Scfp	graxa trans	graxa trans	s
-graxa trans	Scfs	graxa trans	graxa trans	s
 grosso modo	Wn	grosso modo	grosso modo	s
-hábeas corpus	Scma	hábeas corpus	hábeas corpus	s
-hábeas corpus	Scmp	hábeas corpus	hábeas corpus	s
-hábeas corpus	Scms	hábeas corpus	hábeas corpus	s
 hat trick	Scms	hat trick	hat trick	n
+hic et nunc	Wn	hic et nunc	hic et nunc	n
 hip hop	Scms	hip hop	hip-hop	s
 home cinema	Scms	home cinema	home cinema	n
 homo faber	Scma	homo faber	homo fáber	s
-homo fáber	Scma	homo fáber	homo fáber	s
 homo faber	Scmp	homo faber	homo fáber	s
-homo fáber	Scmp	homo fáber	homo fáber	s
 homo faber	Scms	homo faber	homo fáber	s
+homo fáber	Scma	homo fáber	homo fáber	s
+homo fáber	Scmp	homo fáber	homo fáber	s
 homo fáber	Scms	homo fáber	homo fáber	s
-homo sapiens sapiens	Scma	homo sapiens sapiens	homo sapiens sapiens	s
-homo sapiens sapiens	Scmp	homo sapiens sapiens	homo sapiens sapiens	s
-homo sapiens sapiens	Scms	homo sapiens sapiens	homo sapiens sapiens	s
 homo sapiens	Scma	homo sapiens	homo sapiens	s
 homo sapiens	Scmp	homo sapiens	homo sapiens	s
 homo sapiens	Scms	homo sapiens	homo sapiens	s
+homo sapiens sapiens	Scma	homo sapiens sapiens	homo sapiens sapiens	s
+homo sapiens sapiens	Scmp	homo sapiens sapiens	homo sapiens sapiens	s
+homo sapiens sapiens	Scms	homo sapiens sapiens	homo sapiens sapiens	s
 honoris causa	Wn	honoris causa	honoris causa	s
-hora extraordinaria	Scfs	hora extraordinaria	hora extraordinaria	s
 hora extra	Scfs	hora extra	hora extraordinaria	s
+hora extraordinaria	Scfs	hora extraordinaria	hora extraordinaria	s
 hora punta	Scfs	hora punta	hora punta	s
-horas extraordinarias	Scfp	hora extraordinaria	hora extraordinaria	s
 horas extra	Scfp	hora extra	hora extraordinaria	s
+horas extraordinarias	Scfp	hora extraordinaria	hora extraordinaria	s
 horas extras	Scfp	hora extra	hora extraordinaria	s
 horas punta	Scfp	hora punta	hora punta	s
 horror vacui	Scms	horror vacui	horror vacui	s
 hoxe en día	Wn	hoxe en día	hoxe en día	s
 hoxe por hoxe	Wn	hoxe por hoxe	hoxe por hoxe	s
+hábeas corpus	Scma	hábeas corpus	hábeas corpus	s
+hábeas corpus	Scmp	hábeas corpus	hábeas corpus	s
+hábeas corpus	Scms	hábeas corpus	hábeas corpus	s
 i grego	Scms	i grego	i grego	s
 in albis	Wn	in albis	in albis	s
 in articulo mortis	Wn	in articulo mortis	in artículo mortis	n
 in artículo mortis	Wn	in artículo mortis	in artículo mortis	s
 in crescendo	Wn	in crescendo	in crescendo	s
-inda ben non	Cs	inda ben non	inda ben non	s
-inda que	Cs	inda que	aínda que	s
 in extremis	Wn	in extremis	in extremis	s
 in folio	Wn	in folio	in folio	s
 in illo tempore	Wn	in illo tempore	in illo tempore	s
 in medias res	Wn	in medias res	in medias res	s
 in memoriam	Wn	in memoriam	in memóriam	n
-In Memoriam	Wn	In Memoriam	in memóriam	n
 in memorian	Wn	in memorian	in memóriam	n
 in mente	Wn	in mente	in mente	s
 in octavo	Wn	in octavo	in octavo	s
@@ -668,16 +646,16 @@ in pectore	Wn	in pectore	in pectore	s
 in praesentia	Wn	in praesentia	in praesentia	n
 in quarto	Wn	in quarto	in quarto	s
 in situ	Wn	in situ	in situ	s
-inter nos	Wn	inter nos	inter nos	s
 in totum	Wn	in totum	in totum	s
-intra muros	Wn	intra muros	intra muros	s
 in vitro	Wn	in vitro	in vitro	s
 in vivo	Wn	in vivo	in vivo	s
 in voce	Wn	in voce	in voce	n
+inda ben non	Cs	inda ben non	inda ben non	s
+inda que	Cs	inda que	aínda que	s
+inter nos	Wn	inter nos	inter nos	s
+intra muros	Wn	intra muros	intra muros	s
 ipso facto	Wn	ipso facto	ipso facto	s
 jam session	Scfs	jam session	jam session	n
-Kirie eleisón	Scms	Kirie eleisón	kyrieleison	n
-Kyrie eleison	Scms	Kyrie eleison	kyrieleison	n
 laissez faire	Scms	laissez faire	laissez faire	n
 land art	Scfs	land art	land art	n
 lapsus linguae	Scms	lapsus linguae	lapsus linguae	s
@@ -688,6 +666,8 @@ lato sensu	Wn	lato sensu	lato sensu	s
 leit motiv	Scma	leit motiv	leitmotiv	n
 leit motiv	Scmp	leit motiv	leitmotiv	n
 leit motiv	Scms	leit motiv	leitmotiv	n
+liberdade condicional	Scfs	liberdade condicional	liberdade condicional	s
+libertade condicional	Scfs	libertade condicional	liberdade condicional	n
 lignum crucis	Scms	lignum crucis	lignum crucis	s
 locus amenus	Scma	locus amenus	locus amoenus	n
 locus amenus	Scmp	locus amenus	locus amoenus	n
@@ -707,15 +687,13 @@ martiño peixeiro	Scms	martiño peixeiro	martiño peixeiro	n
 martiños peixeiros	Scmp	martiño peixeiro	martiño peixeiro	n
 mass media	Scmp	mass media	mass media	s
 mater dolorosa	Scfs	mater dolorosa	mater dolorosa	s
-matraz erlenmeier	Scms	matraz erlenmeier	matraz de Erlenmeyer	n
 matraz Erlenmeier	Scms	matraz Erlenmeier	matraz de Erlenmeyer	n
+matraz erlenmeier	Scms	matraz erlenmeier	matraz de Erlenmeyer	n
 mea culpa	Scms	mea culpa	mea culpa	s
 media star	Scfs	media star	media star	n
 media stars	Scfp	media star	media star	n
-memorias USB	Scfp	memoria USB	memoria USB	s
 memoria USB	Scfs	memoria USB	memoria USB	s
-ménage a trois	Scms	ménage a trois	ménage à trois	n
-ménage à trois	Scms	ménage à trois	ménage à trois	n
+memorias USB	Scfp	memoria USB	memoria USB	s
 mesa redonda	Scfs	mesa redonda	mesa redonda	s
 mesas redondas	Scfp	mesa redonda	mesa redonda	s
 modus operandi	Scms	modus operandi	modus operandi	s
@@ -731,29 +709,31 @@ mortis causa	A0mp	mortis causa	mortis causa	s
 mortis causa	A0ms	mortis causa	mortis causa	s
 motu propio	Wn	motu propio	motu propio	s
 mutatis mutandis	Wn	mutatis mutandis	mutatis mutandis	s
+ménage a trois	Scms	ménage a trois	ménage à trois	n
+ménage à trois	Scms	ménage à trois	ménage à trois	n
 nen embargantes	Wn	nen embargantes	non embargantes	n
 nen xiquer	Wn	nin xiquer	nin sequera	n
 night club	Scms	night club	night club	n
 night clubs	Scmp	night club	night club	n
 nin a tiros	Wn	nin a tiros	nin a tiros	s
-nin sequera	Wn	nin sequera	nin sequera	s
 nin sequer	Wn	nin sequer	nin sequera	n
+nin sequera	Wn	nin sequera	nin sequera	s
 nin siquer	Wn	nin siquer	nin sequera	n
 nin siquiera	Wn	nin siquiera	nin sequera	n
-nin tan sequera	Wn	nin tan sequera	nin tan sequera	s
 nin tan sequer	Wn	nin tan sequer	nin tan sequera	n
+nin tan sequera	Wn	nin tan sequera	nin tan sequera	s
 nin xiquer	Wn	nin xiquer	nin sequera	n
 noite de voda	Scfs	noite de voda	noite de vodas	n
 noite de vodas	Scfs	noite de vodas	noite de vodas	n
 noites de voda	Scfp	noite de voda	noite de vodas	n
 noites de vodas	Scfp	noite de vodas	noite de vodas	n
-non embargantes	Wn	non embargantes	non embargante	n
 non embargante	Wn	non embargante	non embargante	n
+non embargantes	Wn	non embargantes	non embargante	n
 non obstante	Wn	non obstante	non obstante	s
 non si	Wn	non si	non si	s
 nouveau roman	Scms	nouveau roman	nouveau roman	s
-onde quer	Wn	onde quer	onde queira	n
 on line	Wn	on line	en liña	n
+onde quer	Wn	onde quer	onde queira	n
 open source	Scms	open source	open source	n
 ourizo cacheiro	Scms	ourizo cacheiro	ourizo cacheiro	n
 ourizo cacho	Scms	ourizo cacho	ourizo cacho	n
@@ -761,10 +741,10 @@ ourizo de mar	Scms	ourizo de mar	ourizo de mar	n
 ourizos cacheiros	Scmp	ourizo cacheiro	ourizo cacheiro	n
 ourizos cachos	Scmp	ourizo cacho	ourizo cacho	n
 ourizos de mar	Scmp	ourizo de mar	ourizo de mar	n
-paga extraordinaria	Scfs	paga extraordinaria	paga extraordinaria	s
 paga extra	Scfs	paga extra	paga extraordinaria	s
-pagas extraordinarias	Scfp	paga extraordinaria	paga extraordinaria	s
+paga extraordinaria	Scfs	paga extraordinaria	paga extraordinaria	s
 pagas extra	Scfp	paga extra	paga extraordinaria	s
+pagas extraordinarias	Scfp	paga extraordinaria	paga extraordinaria	s
 pagas extras	Scfp	paga extra	paga extraordinaria	s
 pater noster	Scms	pater noster	pater noster	n
 pay per view	Scms	pay per view	pay per view	n
@@ -775,8 +755,8 @@ per capita	Wn	per capita	per cápita	n
 per cápita	Wn	per cápita	per cápita	s
 per in saecula saeculorum	Wn	per in saecula saeculorum	per in saecula saeculorum	n
 per saecula saeculorum	Wn	per saecula saeculorum	per in saecula saeculorum	n
-per secula seculorum	Wn	per secula seculorum	per in saecula saeculorum	n
 per se	Wn	per se	per se	s
+per secula seculorum	Wn	per secula seculorum	per in saecula saeculorum	n
 pesia a	P	pesia a	pese a	n
 pesie a	P	pesie a	pese a	n
 play back	Scms	play back	playback	n
@@ -792,10 +772,7 @@ por adiantado	Wn	por adiantado	por adiantado	s
 por anticipado	Wn	por anticipado	por anticipado	s
 por causa de	P	por causa de	por causa de	s
 por cento	Wn	por cento	por cento	s
-porco bravo	Scms	porco bravo	porco bravo	n
-porco espiño	Scms	porco espiño	porco espiño	n
 por contra	Wn	por contra	por a contra	n
-porco teixo	Scms	porco teixo	porco teixo	n
 por doquier	Wn	por doquier	por doquier	n
 por ejemplo	Wn	por ejemplo	por exemplo	n
 por ende	Wn	por ende	por ende	n
@@ -809,14 +786,17 @@ por regla xeral	Wn	por regla xeral	por regra xeral	n
 por regra xeral	Wn	por regra xeral	por regra xeral	s
 por se acaso	Wn	por se acaso	por se acaso	s
 por un tris	Wn	por un tris	por un tris	s
+porco bravo	Scms	porco bravo	porco bravo	n
+porco espiño	Scms	porco espiño	porco espiño	n
+porco teixo	Scms	porco teixo	porco teixo	n
 post meridiem	Wn	post meridiem	post meridiem	s
 post mortem	Wn	post mortem	post mortem	s
 post scriptum	Scms	post scriptum	post scriptum	s
+prime time	Scms	prime time	prime time	n
 primeira ministra	Scfs	primeiro ministro	primeiro ministro	s
 primeiras ministras	Scfp	primeiro ministro	primeiro ministro	s
 primeiro ministro	Scms	primeiro ministro	primeiro ministro	s
 primeiros ministros	Scmp	primeiro ministro	primeiro ministro	s
-prime time	Scms	prime time	prime time	n
 primus inter pares	A0as	primus inter pares	primus inter pares	s
 primus inter pares	A0fs	primus inter pares	primus inter pares	s
 primus inter pares	A0ms	primus inter pares	primus inter pares	s
@@ -831,8 +811,8 @@ punto de mira	Scms	punto de mira	punto de mira	s
 punto de neve	Scms	punto de neve	punto de neve	s
 punto de vista	Scms	punto de vista	punto de vista	s
 punto e aparte	Scms	punto e aparte	punto e á parte	n
-punto e á parte	Scms	punto e á parte	punto e á parte	s
 punto e seguido	Scms	punto e seguido	punto e seguido	s
+punto e á parte	Scms	punto e á parte	punto e á parte	s
 punto final	Scms	punto final	punto final	s
 punto morto	Scms	punto morto	punto morto	s
 punto por punto	Wn	punto por punto	punto por punto	s
@@ -841,8 +821,8 @@ puntos cardinais	Scmp	punto cardinal	punto cardinal	s
 puntos críticos	Scmp	punto crítico	punto crítico	s
 puntos de mira	Scmp	punto de mira	punto de mira	s
 puntos de vista	Scmp	punto de vista	punto de vista	s
-puntos e á parte	Scmp	punto e á parte	punto e á parte	s
 puntos e seguido	Scmp	punto e seguido	punto e seguido	s
+puntos e á parte	Scmp	punto e á parte	punto e á parte	s
 puntos finais	Scmp	punto final	punto final	s
 puntos quilométricos	Scmp	punto quilométrico	punto quilométrico	s
 puntos suspensivos	Scmp	puntos suspensivos	puntos suspensivos	s
@@ -861,17 +841,17 @@ res publica	Scfs	res publica	res publica	s
 rigor mortis	Scms	rigor mortis	rigor mortis	s
 roast beef	Scms	roast beef	rosbif	n
 ruxe ruxe	Scms	ruxe ruxe	ruxerruxe	n
+san martiño	Scms	san martiño	sanmartiño	n
 sancta sanctorum	Scms	sancta sanctorum	sancta sanctórum	s
 sancta sanctórum	Scms	sancta sanctórum	sancta sanctórum	s
-san martiño	Scms	san martiño	sanmartiño	n
 sapo concho	Scms	sapo concho	sapoconcho	n
 savoir faire	Scms	savoir faire	savoir faire	n
-secretarías xerais	Scfp	secretaría xeral	secretaría xeral	s
-secretarias xerais	Scfp	secretario xeral	secretario xeral	s
-secretaría xeral	Scfs	secretaría xeral	secretaría xeral	s
 secretaria xeral	Scfs	secretario xeral	secretario xeral	s
-secretarios xerais	Scmp	secretario xeral	secretario xeral	s
+secretarias xerais	Scfp	secretario xeral	secretario xeral	s
 secretario xeral	Scms	secretario xeral	secretario xeral	s
+secretarios xerais	Scmp	secretario xeral	secretario xeral	s
+secretaría xeral	Scfs	secretaría xeral	secretaría xeral	s
+secretarías xerais	Scfp	secretaría xeral	secretaría xeral	s
 segundas intencións	Scfp	segundas intencións	segundas intencións	s
 sempre e cando	Cs	sempre e cando	sempre e cando	s
 sensu contrario	Wn	sensu contrario	a sensu contrario	n
@@ -885,7 +865,6 @@ sine qua non	Wn	sine qua non	sine qua non	s
 smart cities	Scfp	smart city	smart city	n
 smart city	Scfs	smart city	smart city	n
 sobor de	P	sobor de	sobre de	s
-sóbor de	P	sóbor de	sobre de	s
 soto voce	Wn	soto voce	sotto voce	n
 sotto voce	Wn	sotto voce	sotto voce	n
 spin off	Scfa	spin off	spin-off	n
@@ -900,22 +879,23 @@ status quo	Scms	status quo	statu quo	n
 street art	Scms	street art	street art	s
 stricto sensu	Wn	stricto sensu	stricto sensu	s
 strictu senso	Wn	strictu senso	stricto sensu	n
-strictu sensum	Wn	strictu sensum	stricto sensu	n
 strictu sensu	Wn	strictu sensu	stricto sensu	n
+strictu sensum	Wn	strictu sensum	stricto sensu	n
 sub iudice	Wn	sub iudice	sub iudice	s
+sui generis	Wn	sui generis	sui generis	s
 sui géneris	A0as	sui géneris	sui géneris	n
 sui géneris	A0fs	sui géneris	sui géneris	n
 sui géneris	A0ms	sui géneris	sui géneris	n
-sui generis	Wn	sui generis	sui generis	s
+sóbor de	P	sóbor de	sobre de	s
 tal cal	Cs	tal cal	tal cal	s
 talent show	Scms	talent show	talent show	n
 talk show	Scms	talk show	talk show	n
 tarifa plana	Scfs	tarifa plana	tarifa plana	s
 tarifas planas	Scfp	tarifa plana	tarifa plana	s
 tax lease	Scms	tax lease	tax lease	n
+te deum	Scms	te deum	te deum	s
 tea de araña	Scfs	tea de araña	tea de araña	s
 teas de araña	Scfp	tea de araña	tea de araña	s
-te deum	Scms	te deum	te deum	s
 tenente de alcalde	Scas	tenente de alcalde	tenente de alcalde	n
 tenente de alcalde	Scfs	tenente de alcalde	tenente de alcalde	n
 tenente de alcalde	Scms	tenente de alcalde	tenente de alcalde	n
@@ -924,13 +904,11 @@ tenentes de alcalde	Scfp	tenente de alcalde	tenente de alcalde	n
 tenentes de alcalde	Scmp	tenente de alcalde	tenente de alcalde	n
 terceira idade	Scfs	terceira idade	terceira idade	s
 terminus post quem	Scms	terminus post quem	terminus post quem	s
-tía avoa	Scfs	tío avó	tío avó	s
-tías avoas	Scfp	tío avó	tío avó	s
+terza feira	Scfs	terza feira	terza feira	s
+terzas feiras	Scfp	terza feira	terza feira	s
 tic tac	Scms	tic tac	tictac	n
 tic tac	Y	tic tac	tictac	n
 tie break	Scms	tie break	tie break	n
-tío avó	Scms	tío avó	tío avó	s
-tíos avós	Scmp	tío avó	tío avó	s
 tiro libre	Scms	tiro libre	tiro libre	s
 tiros libres	Scmp	tiro libre	tiro libre	s
 tocante a	P	tocante a	tocante a	s
@@ -958,14 +936,54 @@ top models	Scap	top model	top model	n
 top models	Scfp	top model	top model	n
 top models	Scmp	top model	top model	n
 totum revolutum	Scms	totum revolutum	tótum revolútum	s
-tótum revolútum	Scms	tótum revolútum	tótum revolútum	s
 trending topic	Scms	trending topic	trending topic	n
+tía avoa	Scfs	tío avó	tío avó	s
+tías avoas	Scfp	tío avó	tío avó	s
+tío avó	Scms	tío avó	tío avó	s
+tíos avós	Scmp	tío avó	tío avó	s
+tótum revolútum	Scms	tótum revolútum	tótum revolútum	s
 un algo	Inms	un algo	un algo	s
 un algo	Wm	un algo	un algo	s
 un algo	Wn	un algo	un algo	s
 un alguiño	Inms	un algo	un algo	s
 un alguiño	Wm	un algo	un algo	s
 un alguiño	Wn	un algo	un algo	s
+un nada	Inms	un nada	un nada	s
+un nada	Wm	un nada	un nada	s
+un nada	Wn	un nada	un nada	s
+un nadiña	Inms	un nada	un nada	s
+un nadiña	Wm	un nada	un nada	s
+un nadiña	Wn	un nada	un nada	s
+un pouco	Iams	un pouco	un pouco	s
+un pouco	Idms	un pouco	un pouco	s
+un pouco	Inms	un pouco	un pouco	s
+un pouco	Wm	un pouco	un pouco	s
+un pouco	Wn	un pouco	un pouco	s
+un pouquechiño	Iams	un pouco	un pouco	s
+un pouquechiño	Idms	un pouco	un pouco	s
+un pouquechiño	Inms	un pouco	un pouco	s
+un pouquechiño	Wm	un pouco	un pouco	s
+un pouquechiño	Wn	un pouco	un pouco	s
+un pouquecho	Iams	un pouco	un pouco	s
+un pouquecho	Idms	un pouco	un pouco	s
+un pouquecho	Inms	un pouco	un pouco	s
+un pouquecho	Wm	un pouco	un pouco	s
+un pouquecho	Wn	un pouco	un pouco	s
+un pouquerrechiño	Iams	un pouco	un pouco	s
+un pouquerrechiño	Idms	un pouco	un pouco	s
+un pouquerrechiño	Inms	un pouco	un pouco	s
+un pouquerrechiño	Wm	un pouco	un pouco	s
+un pouquerrechiño	Wn	un pouco	un pouco	s
+un pouquerrecho	Iams	un pouco	un pouco	s
+un pouquerrecho	Idms	un pouco	un pouco	s
+un pouquerrecho	Inms	un pouco	un pouco	s
+un pouquerrecho	Wm	un pouco	un pouco	s
+un pouquerrecho	Wn	un pouco	un pouco	s
+un pouquiño	Iams	un pouco	un pouco	s
+un pouquiño	Idms	un pouco	un pouco	s
+un pouquiño	Inms	un pouco	un pouco	s
+un pouquiño	Wm	un pouco	un pouco	s
+un pouquiño	Wn	un pouco	un pouco	s
 unha canta	Iafs	un canto	un canto	s
 unha canta	Idfs	un canto	un canto	s
 unha canta	Infs	un canto	un canto	s
@@ -1014,42 +1032,6 @@ unidade didáctica	Scfs	unidade didáctica	unidade didáctica	s
 unidades de coidados intensivos	Scmp	unidade de coidados intensivos	unidade de coidados intensivos	s
 unidades de vixilancia intensiva	Scfp	unidade de vixilancia intensiva	unidade de vixilancia intensiva	s
 unidades didáctica	Scfp	unidade didáctica	unidade didáctica	s
-un nada	Inms	un nada	un nada	s
-un nada	Wm	un nada	un nada	s
-un nada	Wn	un nada	un nada	s
-un nadiña	Inms	un nada	un nada	s
-un nadiña	Wm	un nada	un nada	s
-un nadiña	Wn	un nada	un nada	s
-un pouco	Iams	un pouco	un pouco	s
-un pouco	Idms	un pouco	un pouco	s
-un pouco	Inms	un pouco	un pouco	s
-un pouco	Wm	un pouco	un pouco	s
-un pouco	Wn	un pouco	un pouco	s
-un pouquechiño	Iams	un pouco	un pouco	s
-un pouquechiño	Idms	un pouco	un pouco	s
-un pouquechiño	Inms	un pouco	un pouco	s
-un pouquechiño	Wm	un pouco	un pouco	s
-un pouquechiño	Wn	un pouco	un pouco	s
-un pouquecho	Iams	un pouco	un pouco	s
-un pouquecho	Idms	un pouco	un pouco	s
-un pouquecho	Inms	un pouco	un pouco	s
-un pouquecho	Wm	un pouco	un pouco	s
-un pouquecho	Wn	un pouco	un pouco	s
-un pouquerrechiño	Iams	un pouco	un pouco	s
-un pouquerrechiño	Idms	un pouco	un pouco	s
-un pouquerrechiño	Inms	un pouco	un pouco	s
-un pouquerrechiño	Wm	un pouco	un pouco	s
-un pouquerrechiño	Wn	un pouco	un pouco	s
-un pouquerrecho	Iams	un pouco	un pouco	s
-un pouquerrecho	Idms	un pouco	un pouco	s
-un pouquerrecho	Inms	un pouco	un pouco	s
-un pouquerrecho	Wm	un pouco	un pouco	s
-un pouquerrecho	Wn	un pouco	un pouco	s
-un pouquiño	Iams	un pouco	un pouco	s
-un pouquiño	Idms	un pouco	un pouco	s
-un pouquiño	Inms	un pouco	un pouco	s
-un pouquiño	Wm	un pouco	un pouco	s
-un pouquiño	Wn	un pouco	un pouco	s
 uns poucos	Iamp	un pouco	un pouco	s
 uns poucos	Idmp	un pouco	un pouco	s
 uns poucos	Inmp	un pouco	un pouco	s
@@ -1072,28 +1054,54 @@ urbi et orbe	Wn	urbi et orbe	urbi et orbi	n
 urbi et orbi	Wn	urbi et orbi	urbi et orbi	s
 va de retro	Y	va de retro	vade retro	n
 vade retro	Y	vade retro	vade retro	s
-valedora de o pobo	Scfs	valedor de o pobo	valedor de o pobo	s
-valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo	s
-Valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo	s
-valedor de o pobo	Scms	valedor de o pobo	valedor de o pobo	s
 valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo	s
-Valedor de o Pobo	Scms	valedor de o pobo	valedor de o pobo	s
+valedor de o pobo	Scms	valedor de o pobo	valedor de o pobo	s
+valedora de o Pobo	Scfs	valedor de o pobo	valedor de o pobo	s
+valedora de o pobo	Scfs	valedor de o pobo	valedor de o pobo	s
 velis nolis	Wn	velis nolis	velis nolis	n
 verbi gracia	Wn	verbi gracia	verbigracia	n
 verbi gratia	Wn	verbi gratia	verbi gratia	s
 via crucis	Scms	via crucis	viacrucis	n
-vía crucis	Scms	vía crucis	viacrucis	n
 vis a vis	Scma	vis a vis	vis a vis	n
-vis à vis	Scma	vis à vis	vis a vis	n
 vis a vis	Scmp	vis a vis	vis a vis	n
-vis à vis	Scmp	vis à vis	vis a vis	n
 vis a vis	Scms	vis a vis	vis a vis	n
-vis à vis	Scms	vis à vis	vis a vis	n
 vis a vis	Wn	vis a vis	vis a vis	n
-vis à vis	Wn	vis à vis	vis a vis	n
 vis cómica	Scfs	vis cómica	vis cómica	n
-visto e prace	Scms	visto e prace	visto e prace	s
 vis viva	Scfs	vis viva	vis viva	n
+vis à vis	Scma	vis à vis	vis a vis	n
+vis à vis	Scmp	vis à vis	vis a vis	n
+vis à vis	Scms	vis à vis	vis a vis	n
+vis à vis	Wn	vis à vis	vis a vis	n
+visto e prace	Scms	visto e prace	visto e prace	s
+vía crucis	Scms	vía crucis	viacrucis	n
+ácido acetilsalicílico	Scms	ácido acetilsalicílico	ácido acetilsalicílico	s
+ácido acrílico	Scms	ácido acrílico	ácido acrílico	s
+ácido acético	Scms	ácido acético	ácido acético	s
+ácido barbitúrico	Scms	ácido barbitúrico	ácido barbitúrico	s
+ácido bórico	Scms	ácido bórico	ácido bórico	s
+ácido carboxílico	Scms	ácido carboxílico	ácido carboxílico	s
+ácido carbólico	Scms	ácido carbólico	ácido carbólico	s
+ácido carbónico	Scms	ácido carbónico	ácido carbónico	s
+ácido cianhídrico	Scms	ácido cianhídrico	ácido cianhídrico	s
+ácido ciánico	Scms	ácido ciánico	ácido ciánico	s
+ácido clorhídrico	Scms	ácido clorhídrico	ácido clorhídrico	s
+ácido cítrico	Scms	ácido cítrico	ácido cítrico	s
+ácido desoxirribonucleico	Scms	ácido desoxirribonucleico	ácido desoxirribonucleico	s
+ácido fluorhídrico	Scms	ácido fluorhídrico	ácido fluorhídrico	s
+ácido fénico	Scms	ácido fénico	ácido fénico	s
+ácido fólico	Scms	ácido fólico	ácido fólico	s
+ácido fórmico	Scms	ácido fórmico	ácido fórmico	s
+ácido graxo	Scms	ácido graxo	ácido graxo	s
+ácido gálico	Scms	ácido gálico	ácido gálico	s
+ácido iodhídrico	Scms	ácido iodhídrico	ácido iodhídrico	s
+ácido nitroso	Scms	ácido nitroso	ácido nitroso	s
+ácido nítrico	Scms	ácido nítrico	ácido nítrico	s
+ácido ribonucleico	Scms	ácido ribonucleico	ácido ribonucleico	s
+ácido selenioso	Scms	ácido selenioso	ácido selenioso	s
+ácido selénico	Scms	ácido selénico	ácido selénico	s
+ácido sulfúrico	Scms	ácido sulfúrico	ácido sulfúrico	s
+ácido úrico	Scms	ácido úrico	ácido úrico	s
+álter ego	Scms	álter ego	álter ego	s
 AA. EE.	Za00	AA. EE.		s
 AA. PP.	Za00	AA. PP.		s
 AA. VV.	Za00	AA. VV.		s

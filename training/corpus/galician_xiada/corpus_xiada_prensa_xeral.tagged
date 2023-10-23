@@ -4710,8 +4710,7 @@ introducir	V0f000	introducir
 cambios	Scmp	cambio
 substanciais	A0mp	substancial
 en	P	en
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 proxectos	Scmp	proxecto
@@ -5036,8 +5035,7 @@ relata	Vpi30s	relatar
 ,	Q,	,
 atinxe	Vpi30s	atinxir
 a	P	a
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 mortais	Scmp	mortal
@@ -6838,8 +6836,7 @@ Xunta	Spfs	Xunta
 
 pois	Wn	pois
 van	Vpi30p	ir
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 ,	Q,	,
 temos	Vpi10p	ter
 Zapatero	Sp00	Zapatero
@@ -9442,8 +9439,7 @@ unha	Difs	un
 mellora	Scfs	mellora
 de	P	de
 o	Ddms	o
-decreto	Scms	decreto
-lei	Scfs	lei
+decreto lei	Scms	decreto lei
 de	P	de
 as	Ddfp	o
 indemnizacións	Scfp	indemnización
@@ -21401,7 +21397,7 @@ Galiza	Sp00	Galiza
 como	Wr	como
 nación	Scfs	nación
 ,	Q,	,
-así como	Cs	así como
+asi como	Cs	asi como
 non	Wn	non
 limitar	V0f000	limitar
 se	Rao3aa	se
@@ -21484,7 +21480,7 @@ a	Ddfs	o
 pesca	Scfs	pesca
 a	P	a
 a	Ddfs	o
-Guerra do Irak	Spfs	Guerra do Irak
+Guerra do Iraq	Spfs	Guerra do Iraq
 ,	Q,	,
 desde	P	desde
 Latinoamérica	Sp00	Latinoamérica
@@ -23220,8 +23216,7 @@ que	Tnms	que
 nos	Rad1ap	nos
 fai	Vpi30s	facer
 esquencer	V0f000	esquencer
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wn	un pouco
 o	Ddms	o
 interior	Scms	interior
 persoal	A0ms	persoal
@@ -29508,7 +29503,9 @@ de	P	de
 o	Ddms	o
 barrio	Scms	barrio
 de	P	de
-O Carmel de Barcelona	Sp00	O Carmel de Barcelona
+O Carmel	Sp00	O Carmel
+de	P	de
+Barcelona	Sp00	Barcelona
 .	Q.	.
 
 bramidos	Scmp	bramido
@@ -29677,8 +29674,7 @@ con	P	con
 arneses	Scmp	arnés
 ,	Q,	,
 que	Cs	que
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 cumpra	Vps30s	cumprir
 estritamente	Wn	estritamente
 a	Ddfs	o
@@ -30064,8 +30060,6 @@ dicir	V0f000	dicir
 hay	Vpi30s	haber
 mil	Ncdmp	mil
 desaloxados	Scmp	desaloxado
-en	P	en
-o	Ddms	o
 en	P	en
 O Carmel	Sp00	O Carmel
 e	Cc	e
@@ -36265,8 +36259,7 @@ durmimos	Vpi10p	durmir
 _	Q_	_
 etc.	Za00	etc.
 
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 estas	Edfp	este
 situacións	Scfp	situación
@@ -36474,8 +36467,7 @@ e	Cc	e
 de fronte	Wn	de fronte
 ,	Q,	,
 nunca	Wn	nunca
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 
 _	Q_	_
 cando	Wr	cando
@@ -36532,8 +36524,7 @@ facer	V0f000	facer
 lo	Raa3ms	o
 de fronte	Wn	de fronte
 senón	Cs	senón
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 ,	Q,	,
 apoiando	V0x000	apoiar
 primeiro	Wn	primeiro
@@ -37289,8 +37280,7 @@ que	Tnfs	que
 se	Rao3aa	se
 poden	Vpi30p	poder
 ver	V0f000	ver
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 puntos	Scmp	punto
@@ -39185,8 +39175,7 @@ este	Edms	este
 sentido	Scms	sentido
 ,	Q,	,
 estamos	Vpi10p	estar
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 parados	A0mp	parado
 .	Q.	.
 
@@ -45450,8 +45439,7 @@ as	Ddfp	o
 dúas	Ncdfp	dous
 relixións	Scfp	relixión
 en	P	en
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 estes	Edmp	este
 campos	Scmp	campo
@@ -46718,8 +46706,7 @@ zonas	Scfp	zona
 mencionadas	A0fp	mencionado
 non	Wn	non
 figura	Vpi30s	figurar
-o	Ddms	o
-O País Valenciano	Sp00	O País Valenciano
+o País Valenciano	Sp00	O País Valenciano
 ,	Q,	,
 onde	Wr	onde
 tamén	Wn	tamén
@@ -47645,8 +47632,7 @@ perigo	Scms	perigo
 "	Q"	"
 ,	Q,	,
 espeta	Vpi30s	espetar
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 enfadado	A0ms	enfadado
 ,	Q,	,
 "	Q"	"
@@ -48842,8 +48828,7 @@ organizada	A0fs	organizado
 non	Wn	non
 podemos	Vpi10p	poder
 facer	V0f000	facer
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 o	Ddms	o
 que	Tnms	que
 nos	Rad1ap	nos
@@ -49463,8 +49448,7 @@ esa	Edfs	ese
 responsabilidade	Scfs	responsabilidade
 individual	A0fs	individual
 de	P	de
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 con	P	con
 o	Ddms	o
 seu	Md3sms	seu
@@ -55075,8 +55059,7 @@ con	P	con
 Xosé Luís Franco Grande	Spm0	Xosé Luís Franco Grande
 para	P	para
 darmos	V0f10p	dar
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 a	Ddfs	o
 nosa	Md1pfs	noso
 versión	Scfs	versión
@@ -59630,7 +59613,6 @@ irónica	A0fs	irónico
 ,	Q,	,
 a	Ddfs	o
 melancolía	Scfs	melancolía
-,	Q,	,
 _	Q_	_
 _	Q_	_
 ,	Q,	,
@@ -60322,8 +60304,7 @@ instrumental	A0ms	instrumental
 de	P	de
 todas	Idfp	todo
 e	Cc	e
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 composicións	Scfp	composición
@@ -60874,8 +60855,7 @@ literarios	A0mp	literario
 ,	Q,	,
 remachan	Vpi30p	remachar
 a	P	a
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 personaxes	Scmp	personaxe
@@ -63910,8 +63890,7 @@ que	Tnms	que
 non	Wn	non
 podemos	Vpi10p	poder
 deixar	V0f000	deixar
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 .	Q.	.
 
 a	Ddfs	o
@@ -74053,8 +74032,7 @@ o	Ddms	o
 estudo	Scms	estudo
 desmarcan	Vpi30p	desmarcar
 se	Rao3aa	se
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wn	un pouco
 de	P	de
 o	Ddms	o
 interese	Scms	interese
@@ -87852,8 +87830,7 @@ seguir	V0f000	seguir
 "	Q"	"
 .	Q.	.
 
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 a	P	a
 o	Ddms	o
 seu	Mn3sms	seu
@@ -90648,8 +90625,7 @@ está	Vpi30s	estar
 a	P	a
 gozar	V0f000	gozar
 de	P	de
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 de	P	de
 vida	Scfs	vida
 familiar	A0fs	familiar
@@ -91195,10 +91171,8 @@ os	Ddmp	o
 detalles	Scmp	detalle
 deixan	Vpi30p	deixar
 se	Rao3aa	se
-un	Dims	un
-pouco	Inms	pouco
-de	P	de
-lado	Scms	lado
+un pouco	Wm	un pouco
+de lado	Wn	de lado
 .	Q.	.
 
 por	P	por
@@ -94228,8 +94202,7 @@ transcendente	A0fs	transcendente
 a as veces	Wn	a as veces
 leva	Vpi30s	levar
 me	Raa1as	me
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 a	P	a
 aquela	Edfs	aquel
 Rosalía	Spfs	Rosalía
@@ -103118,8 +103091,7 @@ de	P	de
 os	Ddmp	o
 intereses	Scmp	interese
 de	P	de
-uns	Dimp	un
-poucos	Inmp	pouco
+uns poucos	Inmp	un pouco
 "	Q"	"
 e	Cc	e
 defende	Vpi30s	defender
@@ -106597,8 +106569,7 @@ Ministerio de Cultura	Spms	Ministerio de Cultura
 ;	Q;	;
 un	Inms	un
 de	P	de
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 comunidades	Scfp	comunidade
@@ -115783,7 +115754,7 @@ Palestina	Sp00	Palestina
 ,	Q,	,
 Afganistán	Sp00	Afganistán
 e	Cc	e
-O Líbano	Sp00	O Líbano
+o Líbano	Sp00	O Líbano
 .	Q.	.
 
 baixo	P	baixo
@@ -115879,7 +115850,7 @@ bélicas	A0fp	bélico
 en	P	en
 países	Scmp	país
 como	Cs	como
-O Líbano	Sp00	O Líbano
+o Líbano	Sp00	O Líbano
 ou	Cc	ou
 Afganistán	Sp00	Afganistán
 motivados	V0p0mp	motivar
@@ -120532,8 +120503,7 @@ Ramón Cabanillas	Spm0	Ramón Cabanillas
 transcorreu	Vei30s	transcorrer
 ,	Q,	,
 a o longo de	P	a o longo de
-uns	Dimp	un
-poucos	Idmp	pouco
+uns poucos	Idmp	un pouco
 anos	Scmp	ano
 de	P	de
 aquel	Edms	aquel
@@ -121528,8 +121498,7 @@ portas	Scfp	porta
 de	P	de
 as	Ddfp	o
 cortes	Scfp	corte
-de	P	de
-lado	Scms	lado
+de lado	Wn	de lado
 porque	Cs	porque
 de fronte	Wn	de fronte
 non	Wn	non
@@ -122967,8 +122936,7 @@ pero	Cs	pero
 analizando	V0x000	analizar
 a	Raa3fs	o
 con	P	con
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 de	P	de
 detemento	Scms	detemento
 ,	Q,	,
@@ -129742,9 +129710,8 @@ información	Scfs	información
 necesaria	A0fs	necesario
 para	P	para
 coñecer	V0f000	coñecer
-un	Dims	un
-pouco	Inms	pouco
-máis	Wm	máis
+un pouco	Wm	un pouco
+máis	Wn	máis
 esta	Edfs	este
 fermosa	A0fs	fermoso
 zona	Scfs	zona
@@ -130000,7 +129967,7 @@ para	P	para
 rematar	V0f000	rematar
 a	Ddfs	o
 ruta	Scfs	ruta
-gastronómica	A0fs	gastronómico
+gastronónmica	A0fs	gastronómico
 ,	Q,	,
 unha	Difs	un
 paradiña	Scfs	parada
@@ -131985,8 +131952,7 @@ unha	Difs	un
 breve	A0fs	breve
 ficha	Scfs	ficha
 de	P	de
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 eles	Rtp3mp	el
 e	Cc	e
@@ -132957,8 +132923,7 @@ inalcanzables	A0mp	inalcanzable
 
 iso	Enns	ese
 pasa	Vpi30s	pasar
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 porque	Cs	porque
 as	Ddfp	o
 bandas	Scfp	banda
@@ -133238,8 +133203,7 @@ este	Enms	este
 
 pero	Cs	pero
 profundizando	V0x000	profundizar
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 ,	Q,	,
 podes	Vpi20s	poder
 atopar	V0f000	atopar
@@ -144374,7 +144338,7 @@ de	P	de
 a	Ddfs	o
 factoría	Scfs	factoría
 Disney	Sp00	Disney
-Descubrindo os Robinson	Sp00	Descubrindo os Robinson
+Descubrindo ós Robinson	Sp00	Descubrindo ós Robinson
 ,	Q,	,
 unha	Difs	un
 fábula	Scfs	fábula
@@ -147828,8 +147792,7 @@ marcha	Scfs	marcha
 hai	Vpi30s	haber
 que	Cs	que
 ter	V0f000	ter
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Inms	un pouco
 de	P	de
 respecto	Scms	respecto
 por	P	por
@@ -156068,8 +156031,7 @@ unha	Difs	un
 póla	Scfs	póla
 ou	Cc	ou
 coñecer	V0f000	coñecer
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 de	P	de
 os	Ddmp	o
 refuxios	Scmp	refuxio
@@ -157867,8 +157829,7 @@ simpatías	Scfp	simpatía
 para	P	para
 Bernardete Devlin	Spf0	Bernardete Devlin
 ,	Q,	,
-un	Dims	un
-pouco	Inms	pouco
+un pouco	Wm	un pouco
 heroína	Scfs	heroe
 como	Cs	como
 David	Spm0	David
@@ -173446,8 +173407,7 @@ as	Ddfp	o
 bases de datos	Scfp	base de datos
 pertencen	Vpi30p	pertencer
 a	P	a
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 comunidades	Scfp	comunidade
@@ -176128,8 +176088,7 @@ Castelao	Sp00	Castelao
 
 que	Gnaa	que
 representa	Vpi30s	representar
-cada	Idms	cada
-un	Inms	un
+cada un	Inms	cada un
 ?	Q?	?
 
 si	Wn	si
@@ -178532,8 +178491,7 @@ o	Ddms	o
 que	Tnms	que
 se	Rao3aa	se
 beneficiaron	Vei30p	beneficiar
-uns	Dimp	un
-poucos	Inmp	pouco
+uns poucos	Inmp	un pouco
 .	Q.	.
 
 o	Ddms	o
@@ -182284,8 +182242,7 @@ soviético	A0ms	soviético
 esixiu	Vei30s	esixir
 francotiradores	Scmp	francotirador
 en	P	en
-cada	Idfs	cada
-unha	Infs	un
+cada unha	Infs	cada un
 de	P	de
 as	Ddfp	o
 azoteas	Scfp	azotea
@@ -194157,9 +194114,8 @@ e	Cc	e
 a	Ddfs	o
 crise	Scfs	crise
 é	Vpi30s	ser
-un	Dims	un
-pouco	Inms	pouco
-menos	Wm	menos
+un pouco	Wm	un pouco
+menos	Wn	menos
 crise	Scfs	crise
 pero	Cs	pero
 semella	Vpi30s	semellar
@@ -195954,8 +195910,7 @@ diamante	Scms	diamante
 só	Wm	só
 posible	A0ms	posible
 para	P	para
-uns	Dimp	un
-poucos	Idmp	pouco
+uns poucos	Idmp	un pouco
 privilexiados	Scmp	privilexiado
 ,	Q,	,
 igual	Wn	igual
@@ -197227,8 +197182,7 @@ os	Ddmp	o
 tempos	Scmp	tempo
 onde	Wr	onde
 só	Wn	só
-uns	Dimp	un
-poucos	Idmp	pouco
+uns poucos	Idmp	un pouco
 privilexiados	Scmp	privilexiado
 chegaban	Vii30p	chegar
 a	P	a
