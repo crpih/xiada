@@ -187,3 +187,7 @@ Specify file and test name as a regular expression.
 ```bash
 bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora/"
 ```
+
+### Save tests results for reference
+
+Define the environment variable `XIADA_TESTS_RESULTS=1` and execute tests.
