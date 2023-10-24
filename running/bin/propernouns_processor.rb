@@ -519,7 +519,7 @@ class ProperNounsProcessor
 
   def regexp_proper_noun(token)
     # To be externalized to database or file ???
-    if token.text =~ /[A-Z]+-?\d+/
+    if token.text =~ /[A-Z]+-\d+/
       return true
     else
       return false
