@@ -671,3 +671,5 @@ Veinticuatro horas	NPEL	Veinticuatro horas
 Viajando con Chester	NPEL	Viajando con Chester
 Visto en Facebook	NPEL	Visto en Facebook
 Y punto	NPEL	Y punto
+Equipo A	NPMS	Equipo A
+El Equipo A	NPMS	El Equipo A

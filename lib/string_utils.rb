@@ -84,6 +84,8 @@ class StringUtils
        # YouTube
        str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]*)*&[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Dolce&Gabbana
+       str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]&[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]$/
+       # H&M
        str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]*)*'[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/
        # L'Oréal
        # Gerry O'Connor
@@ -111,6 +113,14 @@ class StringUtils
 
   def self.all_lower?(str)
     if str =~ /^[a-záéíóúñàèìòùäëïöüçâêîôûãõ]+$/
+      return true
+    else
+      return false
+    end
+  end
+
+  def self.roman_numeral?(str)
+    if str =~/\AM{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\z/
       return true
     else
       return false

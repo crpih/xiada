@@ -177,7 +177,7 @@ class ProperNounsProcessor
     last_token = token
     token = token.next
     while token.token_type == :standard
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.valid_upper_and_lower?(token.text)
+      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.alone_letter_upper?(token.text) or StringUtils.valid_upper_and_lower?(token.text) or StringUtils.roman_numeral?(token.text)
         last_token = token
         token = token.next
       elsif link?(token.text)
@@ -519,7 +519,7 @@ class ProperNounsProcessor
 
   def regexp_proper_noun(token)
     # To be externalized to database or file ???
-    if token.text =~ /[A-Z]+-\d+/
+    if token.text =~ /[A-Z]+-?\d+/
       return true
     else
       return false
