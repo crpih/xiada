@@ -140,7 +140,7 @@ class Sentence
         tokens_new << $3 if $3 and $3 != ""
       # Split parents
       elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
-        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
+        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/ and token !~ /\A\((?!\p{L}+\)\p{L}+)/ and token !~ /\)(?!\p{L})/
         tokens_aux = token.split(/ |([\(\)])/)
         tokens_aux.each do |token_aux|
           tokens_new << token_aux if token_aux != ""
