@@ -43,13 +43,13 @@ con,P,con,ca	a,Ddfs,o,_,x	_,D*|E*|M*m.|I.m.|R*|*p,_,_
 # indicativo ou subxuntivo. O mesmo pasa coas formas non binarias,
 # s? que non hai casos en contracci?ns, polo que non as especificamos
 
-a|as|o|os|a/o|o/a|as/os|os/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?|ao|do|co|no|c?|pr?|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.i*|V.s*,_,_
+a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?|ao|do|co|no|c?|pr?|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.i*|V.s*,_,_
 a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
 
 # (regra nova porque elimino "o") a, os, as, non son artigo (a non ser que estean nunha
 # contracci?n) se despois v?n unha forma verbal de infinitivo ou xerundio
 
-a|as|os|o/a|a/o|as/os|os/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.f*|V0x*,_,_
+a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.f*|V0x*,_,_
 
 # (5) se "o, a, os,as" están nunha contracción (polo tanto precedidos de
 # Preposición) e despois vén algo identificado como Verbo en
