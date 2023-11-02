@@ -139,10 +139,12 @@ class Sentence
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
-      # Split parents
       # Allow parens as prefixes inside words: (des)orde
+      elsif token != "" and token =~ /\A\((?=\p{L}+\)\p{L}+)/
+        tokens_new.push(*token.split(/([,:'])/).reject { |t| t == "" })
+      # Split parents
       elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
-        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/ and token !~ /\A\((?=\p{L}+\)\p{L}+)/ and token !~ /\)(?=\p{L})/
+        token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
         tokens_aux = token.split(/ |([\(\)])/)
         tokens_aux.each do |token_aux|
           tokens_new << token_aux if token_aux != ""
