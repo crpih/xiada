@@ -128,12 +128,13 @@ class Sentence
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
-      elsif token != "" and token =~ /^(['\-\()]?)(['\-\()]?)([a-záéíóúñàèìòùäëïöüçâêîôûãõA-ZÑÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÇÂÊÎÔÛ0-9<\/>\+\-=º@.]+)([']?)([.,:\-\)]?)$/
+      elsif token != "" and token =~ /^(['\-\()]?)(['\-\()]?)([\p{L}0-9<\/>\+\-=º@.]+)([']?)([.,:\-\)]?)([.,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
         tokens_new << $4 if $4 and $4 != ""
         tokens_new << $5 if $5 and $5 != ""
+        tokens_new << $6 if $6 and $6 != ""
       # We separate ,:'-) from numbers at the end of any word
       elsif token != "" and token =~ /^([\(]?)([\-]?[0-9]+[,\.]?[0-9+]?)([,:'\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
