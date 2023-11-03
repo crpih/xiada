@@ -199,7 +199,7 @@ class Viterbi
           hiperlemma =
             if token_tag_object
               token_assigned_hiperlemma = token_tag_object.hiperlemmas[token_tag_object.lemmas.keys.first]
-              if token_assigned_hiperlemma.empty? || token_assigned_hiperlemma.nil?
+              if token_assigned_hiperlemma.nil? || token_assigned_hiperlemma.empty?
                 result[2]
               else
                 token_assigned_hiperlemma
