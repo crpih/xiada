@@ -19,7 +19,7 @@ galician_palmed:
 	cd ../lexicons/bin; make galician_palmed; cd ../../bin
 
 galician_xiada_oral:
-	rm -f ../databases/galician_xiada/training_galician_xiada_oral.db
+	rm -f ../databases/galician_xiada_oral/training_galician_xiada_oral.db
 	ruby xiada_training.rb ../corpus/galician_xiada_oral/corpus_xiada_oral.tagged ../databases/galician_xiada_oral/training_galician_xiada_oral.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada_oral/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_oral; cd ../../bin
 
