@@ -196,7 +196,7 @@ class NumeralsProcessor
               tags = tags_next
             end
             lemma = combine_lemmas_thousands(lemmas_prev, lemmas_next)
-            join_thousands_cardinal(from, to, tags, lemma, lemma)
+            join_thousands_cardinal(from, to, tags, lemma, nil)
           end
         end # from if token.text == @variables["multiword_link"]
       end # from if token.token_type == :standard
@@ -387,7 +387,7 @@ class NumeralsProcessor
       results = @dw.get_emissions_info(to.text, nil)
       results.each do |result|
         if result[0] =~ /#{@variables["ordinal_tag"]}/
-          new_token.add_tag_lemma_emission(result[0], lemma, lemma, Float(result[3]), false)
+          new_token.add_tag_lemma_emission(result[0], lemma, nil, Float(result[3]), false)
         end
       end
       new_token.replace_prevs(from.prevs)
