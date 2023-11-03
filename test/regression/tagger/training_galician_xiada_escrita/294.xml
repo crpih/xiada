@@ -53,7 +53,7 @@
 <forma>66,7</forma>
 <etiqueta>Ncnms</etiqueta>
 <lema>66,7</lema>
-<hiperlema>66,7</hiperlema>
+<hiperlema></hiperlema>
 </constituínte>
 <constituínte>
 <forma>por cento</forma>
@@ -116,7 +116,7 @@
 <forma>los</forma>
 <etiqueta>Ddmp</etiqueta>
 <lema>o</lema>
-<hiperlema></hiperlema>
+<hiperlema>o</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

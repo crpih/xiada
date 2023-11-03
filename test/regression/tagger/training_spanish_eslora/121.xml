@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><fragmento>
+<expresión>El programa Sé lo que hicisteis comenzará en enero</expresión>
+<análisis>
+<análisis_unidad>
+<unidad>El</unidad>
+<constituyente>
+<forma>El</forma>
+<etiqueta>NPES</etiqueta>
+<lema>El</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>programa</unidad>
+<constituyente>
+<forma>programa</forma>
+<etiqueta>VIP3S</etiqueta>
+<lema>programar</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>Sé lo que hicisteis</unidad>
+<constituyente>
+<forma>Sé lo que hicisteis</forma>
+<etiqueta>NPEL</etiqueta>
+<lema>Sé lo que hicisteis</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>comenzará</unidad>
+<constituyente>
+<forma>comenzará</forma>
+<etiqueta>VIH3S</etiqueta>
+<lema>comenzar</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>en</unidad>
+<constituyente>
+<forma>en</forma>
+<etiqueta>X</etiqueta>
+<lema>en</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>enero</unidad>
+<constituyente>
+<forma>enero</forma>
+<etiqueta>NCMS</etiqueta>
+<lema>enero</lema>
+</constituyente>
+</análisis_unidad>
+</análisis>
+</fragmento>
+</document_content></document>

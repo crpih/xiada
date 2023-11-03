@@ -108,30 +108,12 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>GP</unidade>
+<unidade>GP de Bahrein</unidade>
 <constituínte>
-<forma>GP</forma>
+<forma>GP de Bahrein</forma>
 <etiqueta>Zgms</etiqueta>
-<lema>GP</lema>
-<hiperlema></hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>de</unidade>
-<constituínte>
-<forma>de</forma>
-<etiqueta>P</etiqueta>
-<lema>de</lema>
-<hiperlema>de</hiperlema>
-</constituínte>
-</análise_unidade>
-<análise_unidade>
-<unidade>Bahrein</unidade>
-<constituínte>
-<forma>Bahrein</forma>
-<etiqueta>Sp00</etiqueta>
-<lema>Bahrein</lema>
-<hiperlema>Bahrein</hiperlema>
+<lema>GP de Bahrein</lema>
+<hiperlema>GP de Bahrein</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -147,7 +129,7 @@
 <unidade>Räikkönen</unidade>
 <constituínte>
 <forma>Räikkönen</forma>
-<etiqueta>Sp00</etiqueta>
+<etiqueta>Spm0</etiqueta>
 <lema>Räikkönen</lema>
 <hiperlema></hiperlema>
 </constituínte>

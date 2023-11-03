@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>El-Rei Juan Carlos e Felipe González</expresión>
+<análise>
+<análise_unidade>
+<unidade>El-Rei</unidade>
+<constituínte>
+<forma>El</forma>
+<etiqueta>Ddms</etiqueta>
+<lema>el</lema>
+<hiperlema>el</hiperlema>
+</constituínte>
+<constituínte>
+<forma>Rei</forma>
+<etiqueta>Scms</etiqueta>
+<lema>rei</lema>
+<hiperlema>rei</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Juan Carlos</unidade>
+<constituínte>
+<forma>Juan Carlos</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Juan Carlos</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>e</unidade>
+<constituínte>
+<forma>e</forma>
+<etiqueta>Cc</etiqueta>
+<lema>e</lema>
+<hiperlema>e</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Felipe González</unidade>
+<constituínte>
+<forma>Felipe González</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Felipe González</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

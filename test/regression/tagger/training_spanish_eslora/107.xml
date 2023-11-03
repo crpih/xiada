@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><fragmento>
+<expresión>y que se llevan a rajatabla</expresión>
+<análisis>
+<análisis_unidad>
+<unidad>y</unidad>
+<constituyente>
+<forma>y</forma>
+<etiqueta>C</etiqueta>
+<lema>y</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>que</unidad>
+<constituyente>
+<forma>que</forma>
+<etiqueta>C</etiqueta>
+<lema>que</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>se</unidad>
+<constituyente>
+<forma>se</forma>
+<etiqueta>PY3EPO</etiqueta>
+<lema>se</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>llevan</unidad>
+<constituyente>
+<forma>llevan</forma>
+<etiqueta>VIP3P</etiqueta>
+<lema>llevar</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>a rajatabla</unidad>
+<constituyente>
+<forma>a rajatabla</forma>
+<etiqueta>W</etiqueta>
+<lema>a rajatabla</lema>
+</constituyente>
+</análisis_unidad>
+</análisis>
+</fragmento>
+</document_content></document>

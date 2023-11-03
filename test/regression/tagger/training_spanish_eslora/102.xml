@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><fragmento>
+<expresión>ah vale <silencio></silencio></expresión>
+<análisis>
+<análisis_unidad>
+<unidad>ah</unidad>
+<constituyente>
+<forma>ah</forma>
+<etiqueta>I</etiqueta>
+<lema>ah</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad>vale</unidad>
+<constituyente>
+<forma>vale</forma>
+<etiqueta>I</etiqueta>
+<lema>vale</lema>
+</constituyente>
+</análisis_unidad>
+<análisis_unidad>
+<unidad><silencio></silencio></unidad>
+<constituyente>
+<forma><silencio></silencio></forma>
+<etiqueta>ETQ_PAUSA</etiqueta>
+<lema><silencio></silencio></lema>
+</constituyente>
+</análisis_unidad>
+</análisis>
+</fragmento>
+</document_content></document>
