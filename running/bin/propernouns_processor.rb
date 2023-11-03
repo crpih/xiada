@@ -152,7 +152,7 @@ class ProperNounsProcessor
       if token.token_type == :standard
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
-            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
+            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.proper_noun_with_single_quote_in_the_middle?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
           #STDERR.puts "inside"
           # Beginning of a standard proper noun
           last_token = find_last_token(token)
@@ -177,7 +177,7 @@ class ProperNounsProcessor
     last_token = token
     token = token.next
     while token.token_type == :standard
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.alone_letter_upper?(token.text) or StringUtils.valid_upper_and_lower?(token.text) or StringUtils.roman_numeral?(token.text)
+      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.alone_letter_upper?(token.text) or StringUtils.valid_upper_and_lower?(token.text) or StringUtils.proper_noun_with_single_quote_in_the_middle?(token.text) or StringUtils.roman_numeral?(token.text)
         last_token = token
         token = token.next
       elsif link?(token.text)

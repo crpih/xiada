@@ -77,6 +77,10 @@ class StringUtils
     end
   end
 
+  def self.proper_noun_with_single_quote_in_the_middle?(str)
+    /\A\p{Lu}\p{Ll}*'\p{Lu}\p{Ll}*\z/.match?(str)
+  end
+
   def self.propers_joined?(str)
     if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]+[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Barcelona-Tarragona
