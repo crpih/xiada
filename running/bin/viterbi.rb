@@ -56,7 +56,7 @@ class Viterbi
           if tag.lemmas.keys.empty?
             print "\t*"
           else
-            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys]}"
+            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys[0]]}"
           end
           puts ""
         end
@@ -193,7 +193,21 @@ class Viterbi
         results.each do |result|
           tag_value = result[0]
           lemma = result[1]
-          hiperlemma = result[2]
+
+          # Use assigned hiperlemma if exists
+          token_tag_object = token.tags[tag_value]
+          hiperlemma =
+            if token_tag_object
+              token_assigned_hiperlemma = token_tag_object.hiperlemmas[token_tag_object.lemmas.keys.first]
+              if token_assigned_hiperlemma.empty? || token_assigned_hiperlemma.nil?
+                result[2]
+              else
+                token_assigned_hiperlemma
+              end
+            else
+              result[2]
+            end
+
           #STDERR.puts "tag_value:#{tag_value}, lemma:#{lemma}, hiperlemma:#{hiperlemma}"
           log_b = Float(result[3])
           #STDERR.puts "log_b:#{log_b}"
