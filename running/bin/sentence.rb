@@ -143,6 +143,9 @@ class Sentence
       # Allow parens as prefixes inside words: (des)orde
       elsif token != "" and token =~ /\A\((?=\p{L}+\)\p{L}+)/
         tokens_new.push(*token.split(/([,:'])/).reject { |t| t == "" })
+      # Allow parens as suffixes inside words: todos(as)
+      elsif token != "" and token =~ /\A\p{L}+\(\p{L}+\)/
+        tokens_new.push(*token.split(/([,:'])/).reject { |t| t == "" })
       # Split parents
       elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
         token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
