@@ -198,7 +198,7 @@ class Viterbi
           token_tag_object = token.tags[tag_value]
           hiperlemma =
             if token_tag_object
-              token_assigned_hiperlemma = token_tag_object.hiperlemmas[token_tag_object.lemmas.keys.first]
+              token_assigned_hiperlemma = token_tag_object.hiperlemmas[lemma]
               if token_assigned_hiperlemma.nil? || token_assigned_hiperlemma.empty?
                 result[2]
               else
