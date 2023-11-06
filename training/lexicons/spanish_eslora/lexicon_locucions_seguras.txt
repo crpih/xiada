@@ -131,3 +131,13 @@ un poquitito	W	un poco
 un poquito	PQNS	un poco
 un poquito	W	un poco
 uve doble	NCFS	uve doble
+Full HD	NPEL	Full High Definition
+Iberia Express	NPEL	Iberia Express
+a través	W	a través
+case study	NCMS	case study
+chan chan chan	I	chan chan chan
+cimpo	VIP1S	cimpar
+duty free	NCMS	duty free
+jamón de york	NCMS	jamón de york
+meritisimus	NCMS	meritisimus 
+pasarlas canutas	VNP	pasarlas canutas
