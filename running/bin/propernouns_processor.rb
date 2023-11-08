@@ -17,7 +17,7 @@ class ProperNounsProcessor
 
   def process(trained_proper_nouns)
     if @remove_join_opt
-      STDERR.puts "Processing basic proper nouns"
+      # STDERR.puts "Processing basic proper nouns"
       process_basic_proper_nouns
     else
       # STDERR.puts "Processing trained proper nouns"
@@ -300,6 +300,7 @@ class ProperNounsProcessor
           unless def_ids.empty? # Proper noun detected
             end_token = token
             if at_first_token
+
               proper_noun_num_tokens = proper_noun_num_tokens + 1
               proper_noun_detected_at_first = true
             end
@@ -343,8 +344,10 @@ class ProperNounsProcessor
         end
         #token = token.next
       end
-      token = token.next if token.token_type != :end_sentence
+      token = token.next if token.token_type != :end_sentence and (end_token != nil or start_token == nil)
       at_first_token = false
+      end_token = nil
+      start_token = nil
     end # from while token.token_type != :end_sentence
     if proper_noun_detected_at_first and proper_noun_num_tokens == 1
       process_first_token(first_token)
