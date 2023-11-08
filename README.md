@@ -182,10 +182,10 @@ bundle exec rake test
 
 ### Execute only a test
 
-Specify file and test name as a regular expression.
+Specify file and test name as a regular expression. Example execute only the ESLORA regression test of `1.xml` file:
 
 ```bash
-bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora/"
+bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora.*_1.xml/"
 ```
 
 ### Save tests results for reference
