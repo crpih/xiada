@@ -198,3 +198,6 @@ galiña
 
 xantarciño # Vfs10s, 'fs' MUST NOT be replaced since they not refer to gender and number
 multiliña
+
+ghrande
+ghrazas

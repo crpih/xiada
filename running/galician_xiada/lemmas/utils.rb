@@ -12,7 +12,17 @@ module Utils
     'gho' => 'go',
     'ghó' => 'gó',
     'ghu' => 'gu',
-    'ghú' => 'gú'
+    'ghú' => 'gú',
+    'ghra' => 'gra',
+    'ghrá' => 'grá',
+    'ghre' => 'gre',
+    'ghré' => 'gré',
+    'ghri' => 'gri',
+    'ghrí' => 'grí',
+    'ghro' => 'gro',
+    'ghró' => 'gró',
+    'ghru' => 'gru',
+    'ghrú' => 'grú',
   }.freeze
   SESEO_REPLACEMENTS = {
     'sa' => 'za',
@@ -24,7 +34,7 @@ module Utils
     'so' => 'zo',
     'só' => 'zó',
     'su' => 'zu',
-    'sú' => 'zú'
+    'sú' => 'zú',
   }.freeze
 
   def tilde_variants(word)
@@ -38,7 +48,7 @@ module Utils
 
   def gheada_variants(word)
     has_gheada = GHEADA_REPLACEMENTS.keys.any? { |k| word.include?(k) }
-    variant = has_gheada ? word.gsub(/gh[aáeéiíoóuú]/, GHEADA_REPLACEMENTS) : nil
+    variant = has_gheada ? word.gsub(/ghr?[aáeéiíoóuú]/, GHEADA_REPLACEMENTS) : nil
     [word, *variant]
   end
 
