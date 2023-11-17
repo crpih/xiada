@@ -180,6 +180,12 @@ Por 4000 is exposed.
 bundle exec rake test
 ```
 
+### Execute all tests for one profile:
+
+```
+bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora/
+```
+
 ### Execute only a test
 
 Specify file and test name as a regular expression. Example execute only the ESLORA regression test of `1.xml` file:
