@@ -21,6 +21,8 @@ module Lemmas
     include Utils
 
     module ClassMethods
+      include Utils
+
       def lemmatize(word, tags)
         @lemmatizer ||= LemmatizerCorga.new(@dw, seseo: !ENV['XIADA_SESEO'].nil?)
         result = @lemmatizer.call(word, tags)
@@ -28,28 +30,24 @@ module Lemmas
       end
 
       # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
+      # Since this is a class method, we have to check the ENV variable again.
+      # All enclitics processing needs a refactor to work well with the new lemmatizer.
       def lemmatize_verb_with_enclitics(left_part)
-        #STDERR.puts "lemmatize_verb_with_enclitics: #{left_part}"
-        # gh treatment
-        if left_part =~ /gh/
-          if left_part =~ /gh[aou]/
-            new_left_part = left_part.gsub(/gh/,'g')
-            return new_left_part
-          elsif left_part =~/gh[ei]/
-            new_left_part = left_part.gsub(/gh/,'gu')
-            return new_left_part
-          end
-        elsif left_part =~ /s/ && !ENV['XIADA_SESEO'].nil?
-          new_left_part = left_part.gsub(/s/,'c')
-          return new_left_part
-        # auto treatment
-        elsif left_part =~ /^autorr/
-          new_left_part = left_part.gsub(/^autor/,'')
-          return new_left_part
-        elsif left_part =~ /^auto-?/
-          new_left_part = left_part.gsub(/^auto-?/,'')
-          return new_left_part
+        gheada_variants(left_part).flat_map do |gh_variant|
+          ss_variants = seseo_variants(gh_variant)
+          # Keep only the literal word (first) if XIADA_SESEO is not set
+          ss_variants = ss_variants.take(1) if ENV['XIADA_SESEO'].nil?
+          ss_variants.map { |s| enclitics_auto_rule(s) }
         end
+      end
+
+      # Simplified auto rule that only works with strings
+      # Proper way to do it will be to use the same rules as in the lemmatizer, but this will require a huge refactor
+      def enclitics_auto_rule(left_part)
+        return left_part.delete_prefix('autor') if left_part.start_with?('autorr')
+        return left_part.delete_prefix('auto-') if left_part.start_with?('auto-')
+        return left_part.delete_prefix('auto') if left_part.start_with?('auto')
+
         left_part
       end
 

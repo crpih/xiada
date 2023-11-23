@@ -345,38 +345,6 @@ class DatabaseWrapper
     return result
   end
 
-  def get_enclitic_verbs_roots_info(left_candidate)
-    #STDERR.puts "left_candidate: #{left_candidate}"
-    result = []
-    @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
-      result << row
-    end
-    if result.empty?
-      #STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
-      @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
-        result << row
-      end
-    end
-    return result
-  end
-
-  def get_enclitic_verbs_roots_tags(left_candidate)
-    #STDERR.puts "left_candidate: #{left_candidate}"
-    result = Array.new
-    @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
-      result << row[0]
-    end
-    if result.empty?
-      #STDERR.puts "result.empty"
-      #temp = SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))
-      #STDERR.puts "temp:#{temp}"
-      @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
-        result << row[0]
-      end
-    end
-    return result
-  end
-
   def enclitic_combination_exists?(combination)
     result = Array.new
     @db.execute("select combination, length from enclitic_combinations where combination='#{SQLUtils.escape_SQL(combination)}'") do |row|
@@ -456,29 +424,27 @@ class DatabaseWrapper
     return result
   end
 
+  def get_enclitic_verbs_roots_info(left_candidate)
+    get_enclitic_verb_roots_info(left_candidate, nil)
+  end
+
+  def get_enclitic_verbs_roots_tags(left_candidate)
+    get_enclitic_verbs_roots_info(left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag}
+  end
+
   def get_enclitic_verb_roots_info(root, tags)
-    result = []
-    if (tags == nil) or (tags.empty?)
-      @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}'") do |row|
-        result << row
-      end
-      if result.empty?
-        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}'") do |row|
-          result << row
-        end
+    variants = @lemmatizer.lemmatize_verb_with_enclitics(root)
+    if tags.nil? || tags.empty?
+      variants.each_with_object([]) do |variant, result|
+        query = "SELECT root, tag, lemma, hiperlemma FROM enclitic_verbs_roots WHERE root = ?"
+        result.push(*@db.execute(query, variant))
       end
     else
-      tag_string = get_possible_tags(tags)
-      @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}' and tag in (#{tag_string})") do |row|
-        result << row
-      end
-      if result.empty?
-        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
-          result << row
-        end
+      variants.each_with_object([]) do |variant, result|
+        query = "SELECT root, tag, lemma, hiperlemma FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
+        result.push(*@db.execute(query, variant, *tags))
       end
     end
-    return result
   end
 
   def get_recovery_info(verb_part, tag, lemma, from_lexicon)
