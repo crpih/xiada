@@ -436,12 +436,12 @@ class DatabaseWrapper
     variants = @lemmatizer.lemmatize_verb_with_enclitics(root)
     if tags.nil? || tags.empty?
       variants.each_with_object([]) do |variant, result|
-        query = "SELECT root, tag, lemma, hiperlemma FROM enclitic_verbs_roots WHERE root = ?"
+        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
         result.push(*@db.execute(query, variant))
       end
     else
       variants.each_with_object([]) do |variant, result|
-        query = "SELECT root, tag, lemma, hiperlemma FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
+        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
         result.push(*@db.execute(query, variant, *tags))
       end
     end
