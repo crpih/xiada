@@ -146,10 +146,14 @@ class EncliticsProcessor
         #STDERR.puts "enclitic: #{enclitic}"
         #STDERR.puts "tags: #{tags}"
         #STDERR.puts "lemmas: #{lemmas}"
+        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
+
+        # FIXME: Ugly hack to remove hyphen in enclitics for galician_xiada
+        # These cases must be searched with the hyphen, but the token text must not have the hyphen.
+        enclitic.delete_prefix!('-')  if %w[-lo -la -los -las].include?(enclitic) && ENV["XIADA_PROFILE"] == "galician_xiada"
         new_token = Token.new(@sentence.text, enclitic, :standard, from, to)
         new_token.qualifying_info = token.qualifying_info.clone
         #STDERR.puts "getting info, enclitic:#{enclitic}, tags:#{tags}"
-        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
         infos.each do |info|
           tag_value = info[0]
           lemma = info[1]
@@ -913,11 +917,6 @@ class EncliticsProcessor
     end
 # RULE: 4
 # RULE: 4 DEPTH:1 CONDITION:1
-    if  index == enclitics.length-1 and enclitic =~ /^-lo$|^-la$|^-los$|^-las$/
-    enclitic = remove_initial_character(enclitic, "-")
-    end
-# RULE: 5
-# RULE: 5 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index < enclitics.length-1 and enclitic =~ /^nos$/
     enclitic_tags_array = enclitic_tags.split(/ /)
@@ -942,8 +941,8 @@ class EncliticsProcessor
       enclitic_lemmas = new_enclitic_lemmas_array.join(" ")
     end
     end
-# RULE: 6
-# RULE: 6 DEPTH:1 CONDITION:1
+# RULE: 5
+# RULE: 5 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index < enclitics.length-1 and enclitic =~ /^no$/
     enclitic_tags_array = enclitic_tags.split(/ /)
@@ -968,11 +967,11 @@ class EncliticsProcessor
       enclitic_lemmas = new_enclitic_lemmas_array.join(" ")
     end
     end
-# RULE: 7
-# RULE: 7 DEPTH:1 CONDITION:1
+# RULE: 6
+# RULE: 6 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index < enclitics.length-1 and enclitic =~ /^no$/
-# RULE: 7 DEPTH:2 CONDITION:1
+# RULE: 6 DEPTH:2 CONDITION:1
     if  index < enclitics.length-1 and enclitics[index+1] =~ /^lo$|^la$|^los$|^las$|^-lo$|^-la$|^-los$|^-las$/
     enclitic_tags_array = enclitic_tags.split(/ /)
     enclitic_lemmas_array = enclitic_lemmas.split(/ /)
@@ -998,17 +997,17 @@ class EncliticsProcessor
     enclitic = replace_form("nos")
     end
     end
-# RULE: 8
-# RULE: 8 DEPTH:1 CONDITION:1
+# RULE: 7
+# RULE: 7 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index < enclitics.length-1 and enclitic =~ /^vo$/
-# RULE: 8 DEPTH:2 CONDITION:1
+# RULE: 7 DEPTH:2 CONDITION:1
     if  index < enclitics.length-1 and enclitics[index+1] =~ /^lo$|^la$|^los$|^las$|^-lo$|^-la$|^-los$|^-las$/
     enclitic = replace_form("vos")
     end
     end
-# RULE: 9
-# RULE: 9 DEPTH:1 CONDITION:1
+# RULE: 8
+# RULE: 8 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index == enclitics.length-1 and (enclitic =~ /^no$/) and (index == enclitics.length-1)
     enclitic_tags_array = enclitic_tags.split(/ /)
@@ -1033,11 +1032,11 @@ class EncliticsProcessor
       enclitic_lemmas = new_enclitic_lemmas_array.join(" ")
     end
     end
-# RULE: 10
-# RULE: 10 DEPTH:1 CONDITION:1
+# RULE: 9
+# RULE: 9 DEPTH:1 CONDITION:1
 # Not OR nor AND expressions
     if index == enclitics.length-1 and (enclitic =~ /^nos$/) and (index == enclitics.length-1)
-# RULE: 10 DEPTH:2 CONDITION:1
+# RULE: 9 DEPTH:2 CONDITION:1
     if  verb_part !~ /ei$/ and verb_part !~ /éi$/ and verb_part !~ /eu$/ and verb_part !~ /éu$/ and verb_part !~ /ou$/ and verb_part !~ /óu$/ and verb_part !~ /iu$/ and verb_part !~ /íu$/ and verb_part !~ /ai$/ and verb_part !~ /ái$/
     enclitic_tags_array = enclitic_tags.split(/ /)
     enclitic_lemmas_array = enclitic_lemmas.split(/ /)

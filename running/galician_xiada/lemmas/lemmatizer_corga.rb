@@ -91,22 +91,6 @@ module Lemmas
         end
         left_part
       end
-
-      # Function which replace a vowel by the corresponding tilde one.
-      # position is the vowel order from the end.
-      def set_tilde(word, position)
-        characters = word.each_grapheme_cluster.to_a
-        vowel_positions = characters.each_with_index
-                                    .select { |c, _| %w[a e i o u á é í ó ú].include?(c) }
-                                    .map(&:last)
-        if position <= vowel_positions.size
-          vowel_index = vowel_positions[-position]
-          characters[vowel_index] = "#{characters[vowel_index]}\u0301".unicode_normalize
-          characters.join
-        else
-          return word
-        end
-      end
     end
 
     def initialize(database_wrapper, gheada: true, seseo: false)

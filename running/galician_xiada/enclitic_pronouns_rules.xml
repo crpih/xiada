@@ -16,7 +16,7 @@
         <action>filter_tags</action>
         <action param="lles">replace_form</action>
         <filter>Rad3as OR Rad3ms OR Rad3fs</filter>
-      </condition>  
+      </condition>
     </condition>
   </rule>
   <!-- Se aparece lle seguido de calquera cousa que non sexa lo/-lo, o lle refírese sempre a singular. -->
@@ -48,15 +48,15 @@
     </condition>
   </rule>
   <!-- Se aparece -lo/-la/-los/-las, hai que eliminarlles o guión -->
-  <rule>
-    <condition>
-      <target>enclitic_part</target>
-      <content>
-        <evaluation at="final_enclitic">-lo OR -la OR -los OR -las</evaluation>
-      </content>
-      <action param="-">remove_initial_character</action>
-    </condition>
-  </rule>
+<!--  <rule>-->
+<!--    <condition>-->
+<!--      <target>enclitic_part</target>-->
+<!--      <content>-->
+<!--        <evaluation at="final_enclitic">-lo OR -la OR -los OR -las</evaluation>-->
+<!--      </content>-->
+<!--      <action param="-">remove_initial_character</action>-->
+<!--    </condition>-->
+<!--  </rule>-->
   <!-- Se aparece o enclítico nos no medio dunha secuencia de enclíticos, non pode ser acusativo de terceira. -->
   <rule>
     <condition>

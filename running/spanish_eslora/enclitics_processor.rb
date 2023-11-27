@@ -146,10 +146,14 @@ class EncliticsProcessor
         #STDERR.puts "enclitic: #{enclitic}"
         #STDERR.puts "tags: #{tags}"
         #STDERR.puts "lemmas: #{lemmas}"
+        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
+
+        # FIXME: Ugly hack to remove hyphen in enclitics for galician_xiada
+        # These cases must be searched with the hyphen, but the token text must not have the hyphen.
+        enclitic.delete_prefix!('-')  if %w[-lo -la -los -las].include?(enclitic) && ENV["XIADA_PROFILE"] == "galician_xiada"
         new_token = Token.new(@sentence.text, enclitic, :standard, from, to)
         new_token.qualifying_info = token.qualifying_info.clone
         #STDERR.puts "getting info, enclitic:#{enclitic}, tags:#{tags}"
-        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
         infos.each do |info|
           tag_value = info[0]
           lemma = info[1]
