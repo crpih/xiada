@@ -171,7 +171,7 @@ module LemmatizerSpanishEslora
           return result unless result.empty?
           new_word_2 = set_tilde(new_word, 2) # Maybe this doesn't cover all the casuistic
           result = gender_number_force_matching(word, @dw.get_emissions_info(new_word_2, ['NC*','A*','VP*','VGP','W','DI*']))
-          return result unless result.empty?         
+          return result unless result.empty?
         end
         new_word = word.gsub(/quit[oa](s?)$/,'que\1')
         # ???
@@ -194,7 +194,7 @@ module LemmatizerSpanishEslora
           # chaponcitas => chaponas
           new_word = word.gsub(/oncita(s?)$/,'ona\1')
           result = gender_number_force_matching(word, @dw.get_emissions_info(new_word, ['NCF*','AF*']))
-          return result unless result.empty?          
+          return result unless result.empty?
         end
         if word =~ /ancit[oa]s?$/
           # garvancito => garavanzo
@@ -420,7 +420,7 @@ module LemmatizerSpanishEslora
       new_left_part = left_part.gsub(/^auto-?/,'')
       return new_left_part
     end
-    left_part
+    [left_part]
   end
 
   # Function to tranform the word part when restoring a verb form with enclitics.
