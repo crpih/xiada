@@ -394,7 +394,7 @@ class ProperNounsProcessor
     if results.empty?
       results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|
-        token.add_tag_lemma_emission(tag, token.text, token.text, 0.0, false)
+        token.add_tag_lemma_emission(tag, token.text, nil, 0.0, false)
       end
     else
       results.each do |result|
