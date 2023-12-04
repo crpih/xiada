@@ -415,10 +415,10 @@ module LemmatizerSpanishEslora
     # auto treatment
     if left_part =~ /^autorr/
       new_left_part = left_part.gsub(/^autor/,'')
-      return new_left_part
+      return [new_left_part]
     elsif left_part =~ /^auto-?/
       new_left_part = left_part.gsub(/^auto-?/,'')
-      return new_left_part
+      return [new_left_part]
     end
     [left_part]
   end
