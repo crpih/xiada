@@ -85,7 +85,11 @@ module Lemmas
 
       # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
       def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
-        if original_left_part =~/^(auto-?)/
+        STDERR.puts "original: #{original_left_part}, left:#{left_part}"
+        if original_left_part =~/^(autor)[^r]/
+          new_left_part = left_part.gsub(/^(.)/,'autor\1')
+          return new_left_part unless new_left_part =~ /^autor?auto/
+        elsif original_left_part =~/^(auto)(-?)/
           new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
           return new_left_part  unless new_left_part =~ /^autor?auto/
         end
