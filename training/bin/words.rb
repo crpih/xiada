@@ -121,6 +121,14 @@ class Words
     end
   end
 
+  def get_hiperlemma(lemma, tag)
+    hiperlemmas = hiperlemmas_by_lemma_and_tag[[lemma, tag]]
+    return nil unless hiperlemmas
+    return nil if hiperlemmas.size > 1
+
+    hiperlemmas.first
+  end
+
   private
 
   def find(pair_array, key)
@@ -140,5 +148,15 @@ class Words
   def string_to_boolean(element)
     return true if element == "true"
     return false
+  end
+
+  def hiperlemmas_by_lemma_and_tag
+    @hiperlemmas_by_lemma_and_tag ||= @lemmas.each_with_object({}) do |(key, lemmas), acc|
+      _word, tag = key.split(/&&&/)
+      lemmas.each do |lemma, hiperlemma|
+        acc[[lemma, tag].freeze] ||= []
+        acc[[lemma, tag]] << hiperlemma
+      end
+    end
   end
 end

@@ -57,12 +57,7 @@ class HMMTrainer
         #puts "line:-#{line}-"
         if not line.empty?
           word, tag, lemma = line.split(/\t/)
-          hiperlemma = ""
-          #if @words.get_lemmas(word, tag) and @words.get_lemmas(word, tag)[0][1]
-          #  hiperlemma = @words.get_lemmas(word, tag)[0][1]
-          #else
-          #  hiperlemma = ""
-          #end
+          hiperlemma = @words.get_hiperlemma(lemma, tag)
           corpus_words_count = corpus_words_count + 1
           # puts "word,tag,lemma:#{word},#{tag},#{lemma}\n"
           @ngrams.add_unigram(tag)
