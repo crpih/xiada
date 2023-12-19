@@ -1,4 +1,5 @@
 -la	Ddfs	o	o
+-las	Ddfp	o	o
 -lo	Ddms	o	o
 -los	Ddmp	o	o
 @	Raa3xs	o	o
@@ -12,7 +13,6 @@ l@	Raa3xs	o	o
 l@s	Raa3xp	o	o
 la	Raa3fs	o	o
 la/o	Raa3xs	o	o
-las	Ddfp	o	o
 las	Raa3fp	o	o
 las/os	Raa3xp	o	o
 lle	Rad3ap	lle	lle
