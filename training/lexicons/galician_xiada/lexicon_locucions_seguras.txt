@@ -75,7 +75,8 @@ a expensas de	P	a expensas de	a expensas de	s
 a favor	Wn	a favor	a favor	s
 a flote	Wn	a flote	a flote	n
 a fortiori	Wn	a fortiori	a fortiori	s
-a gatiñas	Wn	a gatiñas	a gatiñas	s
+a gatas	Wn	a gatas	a gatas	s
+a gatiñas	Wn	a gatiñas	a gatas	s
 a granel	Wn	a granel	a granel	s
 a gustiño	Wn	a gusto	a gusto	n
 a la page	Wn	a la page	à la page	n
@@ -383,7 +384,8 @@ de facto	Wn	de facto	de facto	s
 de forma que	Cs	de forma que	de forma que	s
 de ganchete	Wn	de ganchete	de ganchete	s
 de garra	Wn	de garra	de garra	s
-de gatiñas	Wn	de gatiñas	de gatiñas	s
+de gatas	Wn	de gatas	de gatas	s
+de gatiñas	Wn	de gatiñas	de gatas	s
 de improviso	Wn	de improviso	de improviso	s
 de jure	Wn	de jure	de jure	s
 de lado a lado	Wn	de lado a lado	de lado a lado	s
