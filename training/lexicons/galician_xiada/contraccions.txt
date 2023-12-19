@@ -166,8 +166,8 @@ del	de	de	de	P	/	el	el	el	Rtp3ms
 deles	de	de	de	P	/	eles	el	el	Rtp3mp
 delo	de	de	de	P	/	elo	el	el	Rtp3ns
 del@s	de	de	de	P	/	el@s	el	el	Rtp3xp
-dendaquela	dende	dende	dende	P	/	aquela	aquel	aquel	Edfs
-dendaquela	dende	dende	dende	P	/	aquela	aquel	aquel	Enfs
+dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	Edfs
+dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	Enfs
 desa	de	de	de	P	/	esa	ese	ese	Edfs
 desa	de	de	de	P	/	esa	ese	ese	Enfs
 desa/e	de	de	de	P	/	eses/as	ese	ese	Edxp
