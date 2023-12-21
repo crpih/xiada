@@ -46,8 +46,8 @@ module Lemmas
       end
     end
 
-    def apply_result(query, result)
-      g, n = query.prev.word.match(/iñ([oa])(s?)\z/).captures
+    def apply_result(result)
+      g, n = result.query.prev.word.match(/iñ([oa])(s?)\z/).captures
 
       # Forcefully replace gender and number of the tag based on the original word gender and number
       # TODO: Investigate if it is better to perform the search with the correct tags to begin with

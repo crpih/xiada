@@ -38,8 +38,8 @@ module Lemmas
       end
     end
 
-    def apply_result(query, result)
-      g, n = query.prev.word.match(/ísim([oa])(s?)\z/).captures
+    def apply_result(result)
+      g, n = result.query.prev.word.match(/ísim([oa])(s?)\z/).captures
 
       # Apply "superlativo" to tag.
       # Forcefully replace gender and number of the tag based on the original word gender and number

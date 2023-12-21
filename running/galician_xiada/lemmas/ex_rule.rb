@@ -17,7 +17,7 @@ module Lemmas
       query.copy(base, @tags)
     end
 
-    def apply_result(query, result)
+    def apply_result(result)
       result.copy(nil, "ex-#{result.lemma}", if_hyperlemma(result) { |v| "ex#{v}" })
     end
   end

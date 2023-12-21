@@ -632,11 +632,23 @@ class DatabaseWrapper
   end
 
   def restore_lemmatization(verb_part, result)
-    result.each do |row|
-      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_word(verb_part, row[0])
-      row[2] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_lemma(verb_part, row[2])
-      row[3] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_hiperlemma(verb_part, row[3])
+    # This is a CORGA prefix rule, but it is the same as eslora one.
+    # We use it in the common code by now.
+    # Tags are irrelevant in this case, since the DB search was already done.
+    auto_rule = Lemmas::AutoRule.new([])
+    result.map do |word, tag, lemma, hiperlemma, log_b|
+      # Query was done before calling this function, so we build a query-result chain that simulates striping the prefix.
+      original_query = Lemmas::Query.new(nil, verb_part, [])
+      without_auto_query = Lemmas::Query.new(original_query, word, [])
+      query_result = Lemmas::Result.new(without_auto_query, tag, lemma, hiperlemma, log_b)
+      # We only need to restore the lemma and hyperlemma, since the query is already correct.
+      auto_result = auto_rule.apply_result(query_result)
+      # TODO: Change rules and Result code to restore also the word.
+      # It is irrelevant for most cases, but has to be done for enclitic verbs:
+      # - autorresponsabilizándose => autorresponsabilizan + se
+      # Current one, incorrect accent
+      # - autorresponsabilizándose => autorresponsabilizán + se
+      [verb_part, tag, auto_result.lemma, auto_result.hyperlemma, log_b]
     end
-    return result
   end
 end
