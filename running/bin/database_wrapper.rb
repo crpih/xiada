@@ -637,6 +637,8 @@ class DatabaseWrapper
     # Tags are irrelevant in this case, since the DB search was already done.
     auto_rule = Lemmas::AutoRule.new([])
     result.map do |word, tag, lemma, hiperlemma, log_b|
+      next [word, tag, lemma, hiperlemma, log_b] unless verb_part.start_with?('auto')
+
       # Query was done before calling this function, so we build a query-result chain that simulates striping the prefix.
       original_query = Lemmas::Query.new(nil, verb_part, [])
       without_auto_query = Lemmas::Query.new(original_query, word, [])
