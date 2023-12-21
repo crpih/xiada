@@ -13,5 +13,10 @@ module Lemmas
       valid_tags = tags.nil? ? @tags : @tags & tags
       Query.new(self, word, valid_tags)
     end
+
+    def each(&block)
+      block.call(self)
+      @prev&.each(&block)
+    end
   end
 end

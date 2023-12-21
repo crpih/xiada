@@ -34,7 +34,7 @@ module Lemmas
     end
 
     def apply_result(result)
-      hyphen, base = result.query.prev.word.match(/\A#{@prefix}(-?)(.*)\z/).captures
+      hyphen, base = result.query.each { |q| break Regexp.last_match.captures if q.word.match(/\A#{@prefix}(-?)(.*)\z/) }
 
       if hyphen.empty? && base.start_with?(@vowel)
         # Preserve double vowel in lemma and hyperlemma if it is also present in base.

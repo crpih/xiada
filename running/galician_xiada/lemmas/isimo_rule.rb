@@ -39,7 +39,7 @@ module Lemmas
     end
 
     def apply_result(result)
-      g, n = result.query.prev.word.match(/ísim([oa])(s?)\z/).captures
+      g, n = result.query.each { |q| break Regexp.last_match.captures if q.word.match(/ísim([oa])(s?)\z/) }
 
       # Apply "superlativo" to tag.
       # Forcefully replace gender and number of the tag based on the original word gender and number
