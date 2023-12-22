@@ -3,6 +3,7 @@
 module Lemmas
   class Query
     attr_reader :prev, :word, :tags
+
     def initialize(prev, word, tags)
       @prev = prev
       @word = word

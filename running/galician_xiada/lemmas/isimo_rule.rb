@@ -46,7 +46,7 @@ module Lemmas
       # TODO: Investigate if it is better to perform the search with the correct tags to begin with
       tag = replace_tag_gn(result.tag.sub(/\AA0/, 'As'), g, n)
 
-      result.copy(replace_tag_gn(tag, g, n))
+      result.copy(tag: replace_tag_gn(tag, g, n))
     end
 
     private

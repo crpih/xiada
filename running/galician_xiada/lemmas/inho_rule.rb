@@ -51,7 +51,7 @@ module Lemmas
 
       # Forcefully replace gender and number of the tag based on the original word gender and number
       # TODO: Investigate if it is better to perform the search with the correct tags to begin with
-      result.copy(replace_tag_gn(result.tag, g, n))
+      result.copy(tag: replace_tag_gn(result.tag, g, n))
     end
 
     private

@@ -15,7 +15,7 @@ module Lemmas
     end
 
     def apply_result(result)
-      result.copy(nil, nil, result.query.word)
+      result.copy(hyperlemma: result.query.word)
     end
   end
 end

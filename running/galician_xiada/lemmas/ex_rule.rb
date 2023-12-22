@@ -18,7 +18,7 @@ module Lemmas
     end
 
     def apply_result(result)
-      result.copy(nil, "ex-#{result.lemma}", if_hyperlemma(result) { |v| "ex#{v}" })
+      result.copy(lemma: "ex-#{result.lemma}", hyperlemma: if_hyperlemma(result) { |v| "ex#{v}" })
     end
   end
 end

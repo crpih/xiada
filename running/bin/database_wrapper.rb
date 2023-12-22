@@ -642,7 +642,7 @@ class DatabaseWrapper
       # Query was done before calling this function, so we build a query-result chain that simulates striping the prefix.
       original_query = Lemmas::Query.new(nil, verb_part, [])
       without_auto_query = Lemmas::Query.new(original_query, word, [])
-      query_result = Lemmas::Result.new(without_auto_query, tag, lemma, hiperlemma, log_b)
+      query_result = Lemmas::Result.new(without_auto_query, nil, tag, lemma, hiperlemma, log_b)
       # We only need to restore the lemma and hyperlemma, since the query is already correct.
       auto_result = auto_rule.apply_result(query_result)
       # TODO: Change rules and Result code to restore also the word.
@@ -650,7 +650,7 @@ class DatabaseWrapper
       # - autorresponsabilizándose => autorresponsabilizan + se
       # Current one, incorrect accent
       # - autorresponsabilizándose => autorresponsabilizán + se
-      [verb_part, tag, auto_result.lemma, auto_result.hyperlemma, log_b]
+      [auto_result.word, tag, auto_result.lemma, auto_result.hyperlemma, log_b]
     end
   end
 end

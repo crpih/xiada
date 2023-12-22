@@ -15,7 +15,7 @@ module Lemmas
     end
 
     def apply_result(result)
-      result.copy(nil, "ex-#{result.lemma}", '')
+      result.copy(lemma: "ex-#{result.lemma}", hyperlemma: '')
     end
   end
 end
