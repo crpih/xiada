@@ -19,7 +19,7 @@ module Lemmas
       # Keep result of first query that generates a non-empty result
       queries.each do |q|
         result = yield q
-        return result.map { |r| apply_result(q, r) } if result&.any?
+        return result.map { |r| apply_result(r) } if result&.any?
       end
       # If none of the generated queries returned a result, return empty array
       []
@@ -29,7 +29,7 @@ module Lemmas
       query
     end
 
-    def apply_result(_query, result)
+    def apply_result(result)
       result
     end
 

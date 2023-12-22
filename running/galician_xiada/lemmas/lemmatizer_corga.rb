@@ -50,51 +50,6 @@ module Lemmas
 
         left_part
       end
-
-      # Function to tranform the word part when restoring a verb form with enclitics.
-      def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
-        #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
-        # gh treatment
-        #if original_left_part =~ /gh/
-        #  if left_part =~ /gh[aou]/
-        #    new_left_part = left_part.gsub(/gh/,'g')
-        #    return new_left_part
-        #  elsif left_part =~/gh[ei]/
-        #    new_left_part = left_part.gsub(/gh/,'gu')
-        #    return new_left_part
-        #  end
-          # auto treatment
-        if original_left_part =~/^autorr/
-          new_left_part = left_part.gsub(/^(.)/,'autor\1')
-          return new_left_part unless new_left_part =~ /^autor?auto/
-        elsif original_left_part =~/^(auto-?)/
-          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-          return new_left_part unless new_left_part =~ /^autor?auto/
-        end
-        left_part
-      end
-
-      # Function to tranform the lemma part when restoring a verb form with enclitics.
-      def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
-        if original_left_part =~/^(auto-?)/
-          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-          return new_left_part unless new_left_part =~ /^autor?auto/
-        end
-        left_part
-      end
-
-      # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
-      def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
-        STDERR.puts "original: #{original_left_part}, left:#{left_part}"
-        if original_left_part =~/^(autor)[^r]/
-          new_left_part = left_part.gsub(/^(.)/,'autor\1')
-          return new_left_part unless new_left_part =~ /^autor?auto/
-        elsif original_left_part =~/^(auto)(-?)/
-          new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-          return new_left_part  unless new_left_part =~ /^autor?auto/
-        end
-        left_part
-      end
     end
 
     def initialize(database_wrapper, gheada: true, seseo: false)
@@ -190,16 +145,16 @@ module Lemmas
 
     def find(query)
       @dw.get_emissions_info(query.word, query.tags)
-         .map { |tag, lemma, hyperlemma, lob_b| Result.new(query, tag, lemma, hyperlemma, lob_b) }
+         .map { |tag, lemma, hyperlemma, lob_b| Result.new(query, nil, tag, lemma, hyperlemma, lob_b) }
     end
 
     def find_guesser(suffix, query)
       @dw.get_guesser_result("'#{suffix}'", query.word, query.tags)
-         .map { |tag, lemma, hyperlemma, lob_b| Result.new(query, tag, lemma, hyperlemma, lob_b) }
+         .map { |tag, lemma, hyperlemma, lob_b| Result.new(query, nil, tag, lemma, hyperlemma, lob_b) }
     end
 
     def proper_noun(query)
-      [Result.new(query, 'Sp00', query.word, query.word, 0.0)]
+      [Result.new(query, nil, 'Sp00', query.word, query.word, 0.0)]
     end
   end
 end

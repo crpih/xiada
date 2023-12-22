@@ -14,8 +14,8 @@ module Lemmas
       query.copy(query.word, @tags)
     end
 
-    def apply_result(query, result)
-      result.copy(nil, nil, query.word)
+    def apply_result(result)
+      result.copy(hyperlemma: result.query.word)
     end
   end
 end

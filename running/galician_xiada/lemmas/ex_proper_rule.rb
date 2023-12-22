@@ -14,8 +14,8 @@ module Lemmas
       query.copy(base)
     end
 
-    def apply_result(query, result)
-      result.copy(nil, "ex-#{result.lemma}", '')
+    def apply_result(result)
+      result.copy(lemma: "ex-#{result.lemma}", hyperlemma: '')
     end
   end
 end

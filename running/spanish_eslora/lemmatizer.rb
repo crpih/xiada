@@ -423,37 +423,6 @@ module LemmatizerSpanishEslora
     [left_part]
   end
 
-  # Function to tranform the word part when restoring a verb form with enclitics.
-  def lemmatize_verb_with_enclitics_reverse_word(original_left_part, left_part)
-    #STDERR.puts "original_left_part:#{original_left_part}, left_part:#{left_part}"
-    if original_left_part =~/^autorr/
-      new_left_part = left_part.gsub(/^(.)/,'autor\1')
-      return new_left_part unless new_left_part =~ /^autor?auto/
-    elsif original_left_part =~/^(auto-?)/
-      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part unless new_left_part =~ /^autor?auto/
-    end
-    left_part
-  end
-
-  # Function to tranform the lemma part when restoring a verb form with enclitics.
-  def lemmatize_verb_with_enclitics_reverse_lemma(original_left_part, left_part)
-    if original_left_part =~/^(auto-?)/
-      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part unless new_left_part =~ /^autor?auto/
-    end
-    left_part
-  end
-
-  # Function to tranform the hiperlemma part when restoring a verb form with enclitics.
-  def lemmatize_verb_with_enclitics_reverse_hiperlemma(original_left_part, left_part)
-    if original_left_part =~/^(auto-?)/
-      new_left_part = left_part.gsub(/^(.)/,"#{$1}\\1")
-      return new_left_part  unless new_left_part =~ /^autor?auto/
-    end
-    left_part
-  end
-
   # Function which replace a vowel by the corresponding tilde one.
   # position is the vowel order from the end.
   def set_tilde(word, position)

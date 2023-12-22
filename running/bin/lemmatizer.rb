@@ -17,22 +17,6 @@ class Lemmatizer
     return left_part
   end
 
-  def lemmatize_verb_with_enclitics_reverse(original_left_part, left_part)
-    return left_part
-  end
-
-  def lemmatize_verb_with_enclitics_reverse_word (original_left_part, left_part)
-    return left_part
-  end
-
-  def lemmatize_verb_with_enclitics_reverse_lemma (original_left_part, left_part)
-    return left_part
-  end
-
-  def lemmatize_verb_with_enclitics_reverse_hiperlemma (original_left_part, left_part)
-    return left_part
-  end
-
   protected
 
   # NOTE: This function breaks statistical model in some way
