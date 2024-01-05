@@ -23,6 +23,16 @@ module Utils
     'ghró' => 'gró',
     'ghru' => 'gru',
     'ghrú' => 'grú',
+    'ghla' => 'gla',
+    'ghlá' => 'glá',
+    'ghle' => 'gle',
+    'ghlé' => 'glé',
+    'ghli' => 'gli',
+    'ghlí' => 'glí',
+    'ghlo' => 'glo',
+    'ghló' => 'gló',
+    'ghlu' => 'glu',
+    'ghlú' => 'glú',
   }.freeze
   SESEO_REPLACEMENTS = {
     'sa' => 'za',
@@ -48,7 +58,7 @@ module Utils
 
   def gheada_variants(word)
     has_gheada = GHEADA_REPLACEMENTS.keys.any? { |k| word.include?(k) }
-    variant = has_gheada ? word.gsub(/ghr?[aáeéiíoóuú]/, GHEADA_REPLACEMENTS) : nil
+    variant = has_gheada ? word.gsub(/gh[rl]?[aáeéiíoóuú]/, GHEADA_REPLACEMENTS) : nil
     [word, *variant]
   end
 
