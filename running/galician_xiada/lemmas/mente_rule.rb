@@ -9,7 +9,8 @@ module Lemmas
       @tags = tags_for('W.*')
     end
     def apply_query(query)
-      return if !query.word.end_with?('mente') || !query.tags.any? { |t| t.start_with?('Sp') }
+      return unless query.word.end_with?('mente')
+      return if query.tags.all? { |t| t.start_with?('Sp') }
 
       query.copy(query.word, @tags)
     end
