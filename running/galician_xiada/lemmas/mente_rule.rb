@@ -10,7 +10,7 @@ module Lemmas
     end
     def apply_query(query)
       return unless query.word.end_with?('mente')
-      return if query.tags.all? { |t| t.start_with?('Sp') }
+      return if query.tags.any? && query.tags.all? { |t| t.start_with?('Sp') }
 
       query.copy(query.word, @tags)
     end
