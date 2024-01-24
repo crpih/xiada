@@ -74,6 +74,9 @@ module Lemmas
     end
 
     def call(word, tags)
+      # If tags are not provided, use all possible tags
+      tags = tags.nil? || tags.empty? ? @tags : tags
+
       gheada_queries(Query.new(nil, word, tags)) do |q|
         seseo_queries(q) do |q|
           # LemmatizerCorga#lemmatizer won't be called if the term exists literally

@@ -91,26 +91,17 @@ class DatabaseWrapper
   end
 
   def get_guesser_result(suffixes, lemma, tags)
-    result = []
-    query = "select tag,null,null,log_b from guesser_frequencies where suffix in (#{suffixes})"
+    query = "select tag,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
     query << "and tag in (#{get_possible_tags(tags)})" if tags&.any?
     query << "order by length desc"
 
-    row_index = 1
-    @db.execute(query) do |row|
-      row[1] = lemma if lemma
-      if row_index == 1
-        max_length = Integer(row[3])
-        result << row
-      elsif Integer(row[3]) == max_length
-        result << row
-      else
-        # max_length_undefined
-        break
-      end
-      row_index = row_index + 1
-    end
-    result
+    rows = @db.execute(query)
+    return [] if rows.empty?
+
+    max_length = rows.first.last
+
+    rows.filter { |_tag, _lob_b, length| length == max_length }
+        .map { |tag, lob_b| [tag, lemma, nil, lob_b] }
   end
 
   def get_open_tags_lemmas_emissions(word)

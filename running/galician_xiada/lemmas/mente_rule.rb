@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require_relative '../../../lib/string_utils'
 require_relative '../../bin/lemmas/rule'
 
 module Lemmas
@@ -16,7 +17,9 @@ module Lemmas
     end
 
     def apply_result(result)
-      result.copy(hyperlemma: result.query.word)
+      hyperlemma = StringUtils.without_tilde(result.query.word)
+      hyperlemma = "#{hyperlemma.delete_suffix('belmente')}blemente" if hyperlemma.end_with?('belmente')
+      result.copy(hyperlemma:)
     end
   end
 end

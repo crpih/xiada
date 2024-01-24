@@ -261,7 +261,7 @@
 <unidade>desaxocada</unidade>
 <constituínte>
 <forma>desaxocada</forma>
-<etiqueta>A0fs</etiqueta>
+<etiqueta>Scfs</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -774,7 +774,7 @@
 <unidade>seus</unidade>
 <constituínte>
 <forma>seus</forma>
-<etiqueta>Md3pmp</etiqueta>
+<etiqueta>Md3smp</etiqueta>
 <lema>seu</lema>
 <hiperlema>seu</hiperlema>
 </constituínte>
@@ -783,7 +783,7 @@
 <unidade>nemigos</unidade>
 <constituínte>
 <forma>nemigos</forma>
-<etiqueta>A0mp</etiqueta>
+<etiqueta>Scmp</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>

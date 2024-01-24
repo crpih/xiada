@@ -225,7 +225,7 @@
 <unidade>zombie</unidade>
 <constituínte>
 <forma>zombie</forma>
-<etiqueta>Vps10s</etiqueta>
+<etiqueta>Vps30s</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -405,7 +405,7 @@
 <unidade>end</unidade>
 <constituínte>
 <forma>end</forma>
-<etiqueta>A0as</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -468,7 +468,7 @@
 <unidade>ninja</unidade>
 <constituínte>
 <forma>ninja</forma>
-<etiqueta>Scfs</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>

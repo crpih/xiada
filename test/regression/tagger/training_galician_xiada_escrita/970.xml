@@ -48,7 +48,7 @@
 <unidade>impasse</unidade>
 <constituínte>
 <forma>impasse</forma>
-<etiqueta>Scfs</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -75,7 +75,7 @@
 <unidade>fala-se</unidade>
 <constituínte>
 <forma>fala-se</forma>
-<etiqueta>A0as</etiqueta>
+<etiqueta>Scfs</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -117,7 +117,7 @@
 <unidade>xeometria</unidade>
 <constituínte>
 <forma>xeometria</forma>
-<etiqueta>A0fs</etiqueta>
+<etiqueta>Scfs</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -126,7 +126,7 @@
 <unidade>variábel</unidade>
 <constituínte>
 <forma>variábel</forma>
-<etiqueta>Scfs</etiqueta>
+<etiqueta>A0fs</etiqueta>
 <lema>variábel</lema>
 <hiperlema>variable</hiperlema>
 </constituínte>
@@ -144,7 +144,7 @@
 <unidade>que</unidade>
 <constituínte>
 <forma>que</forma>
-<etiqueta>Cs</etiqueta>
+<etiqueta>Tnfs</etiqueta>
 <lema>que</lema>
 <hiperlema>que</hiperlema>
 </constituínte>
@@ -153,7 +153,7 @@
 <unidade>distinguiria</unidade>
 <constituínte>
 <forma>distinguiria</forma>
-<etiqueta>Scfs</etiqueta>
+<etiqueta>Vci30s</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -242,7 +242,7 @@
 <unidade>devidiria</unidade>
 <constituínte>
 <forma>devidiria</forma>
-<etiqueta>A0fs</etiqueta>
+<etiqueta>Vci30s</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>

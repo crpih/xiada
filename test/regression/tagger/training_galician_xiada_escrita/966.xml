@@ -186,7 +186,7 @@
 <unidade>remédio</unidade>
 <constituínte>
 <forma>remédio</forma>
-<etiqueta>A0ms</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -195,7 +195,7 @@
 <unidade>oportunista</unidade>
 <constituínte>
 <forma>oportunista</forma>
-<etiqueta>Scms</etiqueta>
+<etiqueta>A0ms</etiqueta>
 <lema>oportunista</lema>
 <hiperlema>oportunista</hiperlema>
 </constituínte>
@@ -456,7 +456,7 @@
 <unidade>sacou-se</unidade>
 <constituínte>
 <forma>sacou-se</forma>
-<etiqueta>A0as</etiqueta>
+<etiqueta>Scfs</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -633,7 +633,7 @@
 <unidade>supoñeria</unidade>
 <constituínte>
 <forma>supoñeria</forma>
-<etiqueta>A0fs</etiqueta>
+<etiqueta>Vpi30s</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
@@ -729,7 +729,7 @@
 <unidade>referéndo</unidade>
 <constituínte>
 <forma>referéndo</forma>
-<etiqueta>A0ms</etiqueta>
+<etiqueta>Scms</etiqueta>
 <lema>*</lema>
 <hiperlema>*</hiperlema>
 </constituínte>
