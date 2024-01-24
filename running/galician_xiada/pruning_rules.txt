@@ -7,15 +7,16 @@ na|Na,Raa3fs,o,na,x
 nos|Nos,Raa3mp,o,nos,x
 nas|Nas,Raa3fp,o,nas,x
 
-# (2) ca: se antes est? un adverbio comparador (m?is, menos) ou vai
+# (2) ca: se antes está un adverbio comparador (máis, menos) ou vai
 # seguido de substantivo ou adxectivo masculino, ou seguido de xerundio
-# ou infinitivo non ? a contracci?n, sen?n a conxunci?n:
+# ou infinitivo non é a contracción, senón a conxunción:
 
-menos|m?is|,W.,_,_	con,P,con,_	a,Ddfs,o,_,x	
+menos|máis|,W.,_,_	con,P,con,_	a,Ddfs,o,_,x
 con,P,con,_	a,Ddfs,o,_,x	_,S.m.|A.m.|V0x*|V0f*,_,_
 
-# para que só lematice con don cando vaia seguido de nome propio, e non mesture coas outras análises
+# para que só lematice con "don" cando vaia seguido de nome propio, e non mesture coas outras análises
 # NON SE PODEN EMPREGAR AS REGRAS DE PODADO PARA EVITAR UNHA LEMATIZACIÓN. TEMOS QUE INTENTAR RESOLVELO DOUTRO XEITO.
+
 dona,Scfs,dona|dono,_,x	_,Spf0,_,_
 
 # (3) "ca": Temos que diferenciar a contracción non normativa da
@@ -39,17 +40,17 @@ dona,Scfs,dona|dono,_,x	_,Spf0,_,_
 con,P,con,ca	a,Ddfs,o,_,x	_,D*|E*|M*m.|I.m.|R*|*p,_,_
 
 # (4) a, o, os, as, non son artigo (a non ser que estean nunha
-# contracci?n) nin substantivo se despois v?n unha forma verbal de
+# contracción) nin substantivo se despois vén unha forma verbal de
 # indicativo ou subxuntivo. O mesmo pasa coas formas non binarias,
-# s? que non hai casos en contracci?ns, polo que non as especificamos
+# só que non hai casos en contraccións, polo que non as especificamos
 
-a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?|ao|do|co|no|c?|pr?|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.i*|V.s*,_,_
+a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
 a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
 
 # (regra nova porque elimino "o") a, os, as, non son artigo (a non ser que estean nunha
-# contracci?n) se despois v?n unha forma verbal de infinitivo ou xerundio
+# contracción) se despois vén unha forma verbal de infinitivo ou xerundio
 
-a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s,Dd*,_,!?|da|coa|na|c?|pr?|?s|das|coas|nas|c?s|pr?s|?s|aos|dos|cos|nos|c?s|pr?s,x	_,V.f*|V0x*,_,_
+a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós,x	_,V.f*|V0x*,_,_
 
 # (5) se "o, a, os,as" están nunha contracción (polo tanto precedidos de
 # Preposición) e despois vén algo identificado como Verbo en
