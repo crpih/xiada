@@ -167,12 +167,12 @@ class XiadaTagger
     #sentence.print(STDERR)
     STDERR.puts "Processing contractions..."
     sentence.contractions_processing
+    STDERR.puts "Processing proper nouns..."
+    sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
     #sentence.print
     STDERR.puts "Processing idioms..."
     sentence.idioms_processing # Must be processed before numerals
     # sentence.print(STDERR)
-    STDERR.puts "Processing proper nouns..."
-    sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
     # sentence.print(STDERR)
     STDERR.puts "Processing numerals..."
     sentence.numerals_processing
@@ -197,8 +197,8 @@ class XiadaTagger
     sentence.add_chunk(line, nil, nil, nil, nil)
     sentence.finish
     sentence.contractions_processing unless remove_join
-    sentence.idioms_processing unless remove_join # Must be processed before numerals
     sentence.proper_nouns_processing(trained_proper_nouns, remove_join)
+    sentence.idioms_processing unless remove_join # Must be processed before numerals
     sentence.numerals_processing
     sentence.enclitics_processing
     viterbi = Viterbi.new(dw)
@@ -399,16 +399,8 @@ class XiadaTagger
   end
 
   def load_acronyms_abbreviations_enclitics
-    acronyms = @dw.get_acronyms
-    @acronyms_hash = Hash.new
-    acronyms.each do |acronym|
-      @acronyms_hash[acronym] = 1
-    end
-    abbreviations = @dw.get_abbreviations
-    @abbreviations_hash = Hash.new
-    abbreviations.each do |abbreviation|
-      @abbreviations_hash[abbreviation] = 1
-    end
+    @acronyms_hash = @dw.get_acronyms.map { |a| [a, 1] }.to_h
+    @abbreviations_hash = @dw.get_abbreviations.map { |a| [a, 1] }.to_h
     @enclitics_hash = @dw.get_enclitics_info
   end
 end

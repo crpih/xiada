@@ -470,11 +470,11 @@ class XMLListener
     #@sentence.print(STDERR)
     STDERR.puts "Processing contractions..."
     @sentence.contractions_processing
+    STDERR.puts "Processing proper nouns..."
+    @sentence.proper_nouns_processing(@trained_proper_nouns, @remove_join_opt)
     #@sentence.print(STDERR)
     STDERR.puts "Processing idioms..."
     @sentence.idioms_processing unless @remove_join_opt # Must be processed before numerals
-    STDERR.puts "Processing proper nouns..."
-    @sentence.proper_nouns_processing(@trained_proper_nouns, @remove_join_opt)
     #@sentence.print(STDERR)
     STDERR.puts "Processing numerals..."
     @sentence.numerals_processing

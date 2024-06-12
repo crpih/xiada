@@ -22,10 +22,10 @@ class ProperNounsProcessor
     else
       # STDERR.puts "Processing trained proper nouns"
       process_trained_proper_nouns(trained_proper_nouns) unless trained_proper_nouns == nil
-      # STDERR.puts "Processing standard proper nouns"
-      process_standard_proper_nouns
       # STDERR.puts "Processing lexicon proper nouns"
       process_lexicon_proper_nouns
+      # STDERR.puts "Processing standard proper nouns"
+      process_standard_proper_nouns # FIXME: This mutates the token sequence even if no proper nouns are detected!
       # STDERR.puts "Processing regexp proper nouns"
       process_regexp_proper_nouns
     end
@@ -265,6 +265,11 @@ class ProperNounsProcessor
     return token
   end
 
+  def _process_lexicon_proper_nouns
+    tokens = @sentence.filter { |t| t.token_type == :standard }
+
+  end
+
   # This function process lexicon proper nouns, that is, detection of proper
   # nouns included in proper nouns lexicon
   def process_lexicon_proper_nouns
@@ -275,7 +280,7 @@ class ProperNounsProcessor
     proper_noun_num_tokens = 0
 
     token = @sentence.first_token.next
-    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+    while token.token_type == :standard && (StringUtils.punctuation_beginner?(token.text) || StringUtils.numbers_beginner?(token.text))
       token = token.next
     end
     unless @sentence.original_first_lower

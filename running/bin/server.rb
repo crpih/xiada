@@ -32,8 +32,8 @@ helpers do
     sentence.add_chunk(text, nil, nil, nil, nil)
     sentence.finish
     sentence.contractions_processing
-    sentence.idioms_processing # Must be processed before numerals
     sentence.proper_nouns_processing(trained_proper_nouns, false)
+    sentence.idioms_processing # Must be processed before numerals
     sentence.numerals_processing
     sentence.enclitics_processing
     viterbi = Viterbi.new(DW)
