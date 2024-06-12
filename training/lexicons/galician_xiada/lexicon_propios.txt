@@ -270,7 +270,7 @@ Alda Facio	Spf0	Alda Facio
 Aldana	Sp00	Aldana
 Aldemio	Spm0	Aldemio
 Aldo Ceccato	Spm0	Aldo Ceccato
-Aldo Leopold 	Spm0	Aldo Leopold
+Aldo Leopold	Spm0	Aldo Leopold
 Aldo Rossi	Spm0	Aldo Rossi
 Aldrey	Sp00	Aldrey
 Aleixandre	Sp00	Aleixandre
@@ -317,7 +317,7 @@ Alexis Kirschbaum	Spm0	Alexis Kirschbaum
 Alexis Persanis	Spm0	Alexis Persanis
 Alexis W	Spm0	Alexis W
 Alexis de Tocqueville	Spm0	Alexis de Tocqueville
-Alfageme 	Sp00	Alfageme
+Alfageme	Sp00	Alfageme
 Alfaro	Sp00	Alfaro
 Alfonsín	Sp00	Alfonsín
 Alfonso	Spm0	Alfonso
@@ -1150,7 +1150,7 @@ Berthier Perregaux	Spm0	Berthier Perregaux
 Berto	Spm0	Berto
 Bértola	Sp00	Bértola
 Bértolo	Sp00	Bértolo
-Bertolt Brecht 	Spm0	Bertolt Brecht
+Bertolt Brecht	Spm0	Bertolt Brecht
 Bertolucci	Sp00	Bertolucci
 Bertomeu	Spm0	Bertomeu
 Bertrand Russell	Spm0	Bertrand Russell
@@ -1992,7 +1992,7 @@ Consellería de Educación	Spfs	Consellería de Educación
 Consellería de Educación e Ordenación Universitaria	Spfs	Consellería de Educación e Ordenación Universitaria
 Consellería de Familia	Spfs	Consellería de Familia
 Consellería de Familia e Promoción de o Emprego	Spfs	Consellería de Familia e Promoción de o Emprego
-Consellería de Familia e Promoción de o Emprego , Muller 	Spfs	Consellería de Familia e Promoción de o Emprego , Muller
+Consellería de Familia e Promoción de o Emprego , Muller	Spfs	Consellería de Familia e Promoción de o Emprego , Muller
 Consellería de Familia e Promoción de o Emprego , Muller e Xuventude	Spfs	Consellería de Familia e Promoción de o Emprego , Muller e Xuventude
 Consellería de Industria	Spfs	Consellería de Industria
 Consellería de Industria e Comercio	Spfs	Consellería de Industria e Comercio
@@ -4521,7 +4521,7 @@ Pérez Rosón	Sp00	Pérez Rosón
 Pérez Rubalcaba	Sp00	Pérez Rubalcaba
 Pérez Rumbao	Sp00	Pérez Rumbao
 Pérez Sáenz	Sp00	Pérez Sáenz
-Pérez Sáenz 	Sp00	Pérez Sáenz
+Pérez Sáenz	Sp00	Pérez Sáenz
 Pérez Sandar	Sp00	Pérez Sandar
 Pérez Subías	Sp00	Pérez Subías
 Pérez Touriño	Sp00	Pérez Touriño
@@ -5262,7 +5262,7 @@ Tom Feeney	Spm0	Tom Feeney
 Tom Hanks	Spm0	Tom Hanks
 Tom Hooper	Spm0	Tom Hooper
 Tom Jones	Spm0	Tom Jones
-Tom Rogers 	Spm0	Tom Rogers
+Tom Rogers	Spm0	Tom Rogers
 Tom Sawyer	Spm0	Tom Sawyer
 Tom Waits	Spm0	Tom Waits
 Tomás	Spm0	Tomás
@@ -5557,7 +5557,7 @@ William Daley	Spm0	William Daley
 William Faulkner	Spm0	William Faulkner
 William Hogarth	Spm0	William Hogarth
 William Katt	Spm0	William Katt
-William Katt 	Spm0	William Katt
+William Katt	Spm0	William Katt
 William Lynch	Spm0	William Lynch
 William Marston	Spm0	William Marston
 William Pfaff	Spm0	William Pfaff
