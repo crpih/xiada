@@ -408,12 +408,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>EE UU</unidade>
+<unidade>EE</unidade>
 <constituínte>
-<forma>EE UU</forma>
+<forma>EE</forma>
 <etiqueta>Zg00</etiqueta>
-<lema>EE UU</lema>
-<hiperlema>EE UU</hiperlema>
+<lema>EE</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>UU</unidade>
+<constituínte>
+<forma>UU</forma>
+<etiqueta>Zg00</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

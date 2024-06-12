@@ -63,11 +63,20 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>C.C. Solpor</unidade>
+<unidade>C.C.</unidade>
 <constituínte>
-<forma>C.C. Solpor</forma>
+<forma>C.C.</forma>
 <etiqueta>Zgms</etiqueta>
-<lema>C.C. Solpor</lema>
+<lema>C.C.</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Solpor</unidade>
+<constituínte>
+<forma>Solpor</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Solpor</lema>
 <hiperlema></hiperlema>
 </constituínte>
 </análise_unidade>

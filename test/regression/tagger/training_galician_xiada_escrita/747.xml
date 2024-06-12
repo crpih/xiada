@@ -72,12 +72,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Qianzhousaurus sinensis</unidade>
+<unidade>Qianzhousaurus</unidade>
 <constituínte>
-<forma>Qianzhousaurus sinensis</forma>
-<etiqueta>Snaa</etiqueta>
-<lema>Qianzhousaurus sinensis</lema>
-<hiperlema>Qianzhousaurus sinensis</hiperlema>
+<forma>Qianzhousaurus</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>Qianzhousaurus</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>sinensis</unidade>
+<constituínte>
+<forma>sinensis</forma>
+<etiqueta>Scms</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>

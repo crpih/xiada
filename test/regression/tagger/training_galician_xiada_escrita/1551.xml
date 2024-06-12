@@ -90,12 +90,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Homo habilis</unidade>
+<unidade>Homo</unidade>
 <constituínte>
-<forma>Homo habilis</forma>
-<etiqueta>Snaa</etiqueta>
-<lema>Homo habilis</lema>
-<hiperlema>Homo habilis</hiperlema>
+<forma>Homo</forma>
+<etiqueta>Spms</etiqueta>
+<lema>Homo</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>habilis</unidade>
+<constituínte>
+<forma>habilis</forma>
+<etiqueta>Scms</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
@@ -123,12 +132,21 @@
 </constituínte>
 </análise_unidade>
 <análise_unidade>
-<unidade>Homo erectus</unidade>
+<unidade>Homo</unidade>
 <constituínte>
-<forma>Homo erectus</forma>
-<etiqueta>Snaa</etiqueta>
-<lema>Homo erectus</lema>
-<hiperlema>Homo erectus</hiperlema>
+<forma>Homo</forma>
+<etiqueta>Spms</etiqueta>
+<lema>Homo</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>erectus</unidade>
+<constituínte>
+<forma>erectus</forma>
+<etiqueta>Scms</etiqueta>
+<lema>*</lema>
+<hiperlema>*</hiperlema>
 </constituínte>
 </análise_unidade>
 <análise_unidade>
