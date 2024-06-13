@@ -397,9 +397,8 @@ class ProperNounsProcessor
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
     #STDERR.puts "results: #{results}"
     if results.empty?
-      results = @dw.get_proper_noun_tags(token.text)
-      results.each do |tag|
-        token.add_tag_lemma_emission(tag, token.text, nil, 0.0, false)
+      @dw.get_proper_noun_tags_lemma_hiperlemma(token.text).each do |tag, lemma, hiperlemma|
+        token.add_tag_lemma_emission(tag, lemma, hiperlemma, 0.0, false)
       end
     else
       results.each do |result|

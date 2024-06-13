@@ -6,8 +6,8 @@ def process_line(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash)
   sentence.add_chunk(line, nil, nil, nil, nil)
   sentence.finish
 
-  sentence.proper_nouns_processing({}, false)
   sentence.contractions_processing
+  sentence.proper_nouns_processing({}, false)
   sentence.idioms_processing
   sentence
 end
@@ -27,13 +27,12 @@ describe 'ProperNounsTest' do
 
     CSV.foreach("training/lexicons/galician_xiada/lexicon_propios.txt", col_sep: "\t").each_with_index do |(noun, tag, lemma, hyperlemma, *_rest), i|
       it "#{i + 1}: #{noun} should be a proper noun" do
-
         sentence = process_line(noun, dw, acronyms_hash, abbreviations_hash, enclitics_hash)
         begin_alternative = sentence.first_token.nexts.first.first
         proper_noun = begin_alternative.token_type == :standard ? begin_alternative : begin_alternative.nexts.keys.last
-        assert proper_noun.tags.key?(tag)
-        assert proper_noun.tags[tag].lemmas.key?(lemma)
-        assert proper_noun.tags[tag].hiperlemmas.key?(hyperlemma) unless hyperlemma.nil?
+        assert_equal noun, proper_noun.text
+        assert_includes proper_noun.tags.values.flat_map(&:lemmas).flat_map(&:keys), lemma
+        assert_includes proper_noun.tags.values.flat_map(&:hiperlemmas).flat_map(&:keys), hyperlemma unless hyperlemma.nil?
       end
     end
   end
