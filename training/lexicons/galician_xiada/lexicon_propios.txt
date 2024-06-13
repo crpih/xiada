@@ -17,8 +17,8 @@ A Piedade	Spfs	A Piedade
 A Pobra	Sp00	A Pobra
 A Pobra de Brollón	Sp00	A Pobra de Brollón
 A Pobra de Trives	Sp00	A Pobra de Trives
-A Pobra de o Brollón	Sp00	A Pobra de o Brollón
-A Pobra de o Caramiñal	Sp00	A Pobra de o Caramiñal
+A Pobra do Brollón	Sp00	A Pobra do Brollón
+A Pobra do Caramiñal	Sp00	A Pobra do Caramiñal
 A Pontenova	Sp00	A Pontenova
 A Quintana	Sp00	A Quintana
 A Rioxa	Sp00	A Rioxa
@@ -374,7 +374,7 @@ Alta Comisaría de as Nacións Unidas para os Refuxiados	Spfs	Alta Comisaría de
 Altamira	Sp00	Altamira
 Altavista	Sp00	Altavista
 Altavista Magallanes	Sp00	Altavista Magallanes
-Alternativa de os Veciños	Sp00	Alternativa de os Veciños
+Alternativa dos Veciños	Sp00	Alternativa dos Veciños
 Althusser	Sp00	Althusser
 Altieri	Sp00	Altieri
 Altin Gün	Sp00	Altin Gün
@@ -605,7 +605,7 @@ Annie Allen	Spf0	Annie Allen
 Annie Beart	Spf0	Annie Beart
 Annie Clark	Spf0	Annie Clark
 Annie Lennox	Spf0	Annie Lennox
-Ano Internacional de os Maiores	Spms	Ano Internacional de os Maiores
+Ano Internacional dos Maiores	Spms	Ano Internacional dos Maiores
 Ano Santo Compostelán	Spms	Ano Santo Compostelán
 Anouk	Spf0	Anouk
 Anouk Grinberg	Spf0	Anouk Grinberg
@@ -881,8 +881,8 @@ Austin Taylor Bice	Spm0	Austin Taylor Bice
 Australia	Sp00	Australia
 Austria	Sp00	Austria
 Austrias	Sp00	Austrias
-Autoestrada de o Atlántico	Spfs	Autoestrada de o Atlántico
-Automóbil de o Ano en Galicia 99	Sp00	Automóbil de o Ano en Galicia 99
+Autoestrada do Atlántico	Spfs	Autoestrada do Atlántico
+Automóbil do Ano en Galicia 99	Sp00	Automóbil do Ano en Galicia 99
 Autopistas	Sp00	Autopistas
 Autopistas de el Atlántico	Sp00	Autopistas de el Atlántico
 Autoridade Portuaria	Spfs	Autoridade Portuaria
@@ -1394,8 +1394,8 @@ Caballero	Sp00	Caballero
 Cabanillas	Sp00	Cabanillas
 Cabello	Sp00	Cabello
 Cabezas	Sp00	Cabezas
-Cabo de o Mundo	Sp00	Cabo de o Mundo
-Cabo de o mundo	Sp00	Cabo de o mundo
+Cabo do Mundo	Sp00	Cabo do Mundo
+Cabo do mundo	Sp00	Cabo do mundo
 Cabrera	Sp00	Cabrera
 Cabrera Infante	Sp00	Cabrera Infante
 Cacabelos	Sp00	Cacabelos
@@ -1589,7 +1589,7 @@ Cartlin Moran	Spf0	Cartlin Moran
 Casa Branca	Spfs	Casa Branca
 Casa Hamlet	Sp00	Casa Hamlet
 Casa de Láncara	Spfs	Casa de Láncara
-Casa de o Príncipe	Spfs	Casa de o Príncipe
+Casa do Príncipe	Spfs	Casa do Príncipe
 Casanova	Sp00	Casanova
 Casas	Sp00	Casas
 Caselas	Sp00	Caselas
@@ -1660,7 +1660,7 @@ Celso Currás	Spm0	Celso Currás
 Cenalmor	Sp00	Cenalmor
 Cendán Rivas, Xesús	Spm0	Cendán Rivas, Xesús
 Central Park	Spms	Central Park
-Centro Empresarial de o Tambre	Spms	Centro Empresarial de o Tambre
+Centro Empresarial do Tambre	Spms	Centro Empresarial do Tambre
 Centro Oncolóxico de Galicia	Spms	Centro Oncolóxico de Galicia
 Centro de Información de Dereitos Humanos e Movemento Democrático	Spms	Centro de Información de Dereitos Humanos e Movemento Democrático
 Centro de Información e Tecnoloxía Ambiental	Spms	Centro de Información e Tecnoloxía Ambiental
@@ -1907,9 +1907,9 @@ Comercio	Sp00	Comercio
 Comesaña	Sp00	Comesaña
 Comisión	Spfs	Comisión
 Comisión Económica de as Nacións Unidas para Europa	Spfs	Comisión Económica de as Nacións Unidas para Europa
-Comisión Especial de o Transporte Aéreo de Galicia	Spfs	Comisión Especial de o Transporte Aéreo de Galicia
+Comisión Especial do Transporte Aéreo de Galicia	Spfs	Comisión Especial do Transporte Aéreo de Galicia
 Comisión Europea	Spfs	Comisión Europea
-Comisión Executiva de o PSdeG-PSOE	Spfs	Comisión Executiva de o PSdeG-PSOE
+Comisión Executiva do PSdeG-PSOE	Spfs	Comisión Executiva do PSdeG-PSOE
 Comisión de Agricultura	Spfs	Comisión de Agricultura
 Comisión de Asuntos Xurídicos	Spfs	Comisión de Asuntos Xurídicos
 Comisión de Coordinación de a Rexión Norte de Portugal	Spfs	Comisión de Coordinación de a Rexión Norte de Portugal
@@ -1925,7 +1925,7 @@ Comisións Obreiras	Sp00	Comisións Obreiras
 Comité	Spms	Comité
 Comité Electoral	Spms	Comité Electoral
 Comité Electoral Nacional	Spms	Comité Electoral Nacional
-Comité Executivo Nacional de o PP	Spms	Comité Executivo Nacional de o PP
+Comité Executivo Nacional do PP	Spms	Comité Executivo Nacional do PP
 Comité Nacional	Spms	Comité Nacional
 Comité de Estratexia Electoral	Spms	Comité de Estratexia Electoral
 Comités Abertos de Escola e Facultade	Spmp	Comités Abertos de Escola e Facultade
@@ -1975,8 +1975,8 @@ Confederación de Nacementos Múltiples	Spfs	Confederación de Nacementos Múlti
 Conferencia de Madrid	Spfs	Conferencia de Madrid
 Congreso	Spms	Congreso
 Congreso Nacional de Cirurxía Pediátrica	Spms	Congreso Nacional de Cirurxía Pediátrica
-Congreso de os Deputados	Spms	Congreso de os Deputados
-Congreso nacional de a Sociedade Española de o Xeonllo	Spms	Congreso nacional de a Sociedade Española de o Xeonllo
+Congreso dos Deputados	Spms	Congreso dos Deputados
+Congreso nacional de a Sociedade Española do Xeonllo	Spms	Congreso nacional de a Sociedade Española do Xeonllo
 Connery	Sp00	Connery
 Conrad	Spm0	Conrad
 Conrad Ensenyat	Spm0	Conrad Ensenyat
@@ -1991,9 +1991,9 @@ Consellería de Economía e Facenda	Spfs	Consellería de Economía e Facenda
 Consellería de Educación	Spfs	Consellería de Educación
 Consellería de Educación e Ordenación Universitaria	Spfs	Consellería de Educación e Ordenación Universitaria
 Consellería de Familia	Spfs	Consellería de Familia
-Consellería de Familia e Promoción de o Emprego	Spfs	Consellería de Familia e Promoción de o Emprego
-Consellería de Familia e Promoción de o Emprego , Muller	Spfs	Consellería de Familia e Promoción de o Emprego , Muller
-Consellería de Familia e Promoción de o Emprego , Muller e Xuventude	Spfs	Consellería de Familia e Promoción de o Emprego , Muller e Xuventude
+Consellería de Familia e Promoción do Emprego	Spfs	Consellería de Familia e Promoción do Emprego
+Consellería de Familia e Promoción do Emprego , Muller	Spfs	Consellería de Familia e Promoción do Emprego , Muller
+Consellería de Familia e Promoción do Emprego , Muller e Xuventude	Spfs	Consellería de Familia e Promoción do Emprego , Muller e Xuventude
 Consellería de Industria	Spfs	Consellería de Industria
 Consellería de Industria e Comercio	Spfs	Consellería de Industria e Comercio
 Consellería de Medio Ambiente	Spfs	Consellería de Medio Ambiente
@@ -2014,12 +2014,12 @@ Consello Económico e Social	Spms	Consello Económico e Social
 Consello Nacional	Spm0	Consello Nacional
 Consello Político	Spms	Consello Político
 Consello Pontifical de a Cultura	Spm0	Consello Pontifical de a Cultura
-Consello Regulador de o Mexillón	Spms	Consello Regulador de o Mexillón
+Consello Regulador do Mexillón	Spms	Consello Regulador do Mexillón
 Consello Social	Spms	Consello Social
 Consello Superior de Cámaras	Spms	Consello Superior de Cámaras
 Consello Superior de Cámaras de Comercio	Spms	Consello Superior de Cámaras de Comercio
-Consello Superior de o Audiovisual	Spms	Consello Superior de o Audiovisual
-Consello Xeral de o Poder Xudicial	Spms	Consello Xeral de o Poder Xudicial
+Consello Superior do Audiovisual	Spms	Consello Superior do Audiovisual
+Consello Xeral do Poder Xudicial	Spms	Consello Xeral do Poder Xudicial
 Consello de Administración de Paradores de Turismo de España	Spms	Consello de Administración de Paradores de Turismo de España
 Consello de Ministros	Spms	Consello de Ministros
 Consello de Ministros de Cuba	Spms	Consello de Ministros de Cuba
@@ -2125,7 +2125,7 @@ Cruz Vermella	Spfs	Cruz Vermella
 Cuace Arriba	Sp00	Cuace Arriba
 Cualedro	Sp00	Cualedro
 Cuartel Supremo Aliado	Spms	Cuartel Supremo Aliado
-Cuarto de o Comandante	Sp00	Cuarto de o Comandante
+Cuarto do Comandante	Sp00	Cuarto do Comandante
 Cuba	Sp00	Cuba
 Cuco Pérez	Spm0	Cuco Pérez
 Cudeiro	Sp00	Cudeiro
@@ -2197,7 +2197,7 @@ Democracia Galega	Sp00	Democracia Galega
 Demoscopia	Sp00	Demoscopia
 Denís	Spm0	Denís
 Departamento Electoral	Spms	Departamento Electoral
-Departamento Xurídico de o Ministerio español de Exterior	Spms	Departamento Xurídico de o Ministerio español de Exterior
+Departamento Xurídico do Ministerio español de Exterior	Spms	Departamento Xurídico do Ministerio español de Exterior
 Departamento de Actividades e Servicios de Cruz Vermella Española	Spms	Departamento de Actividades e Servicios de Cruz Vermella Española
 Departamento de Dereito Romano	Sp00	Departamento de Dereito Romano
 Departamento de Literatura Española	Spms	Departamento de Literatura Española
@@ -2216,12 +2216,12 @@ Derry	Sp00	Derry
 Desiderio	Spm0	Desiderio
 Despedida de solteiro	Sp00	Despedida de solteiro
 Deus	Spm0	Deus
-Día Internacional de o Traballador	Spms	Día Internacional de o Traballador
+Día Internacional do Traballador	Spms	Día Internacional do Traballador
 Día de Europa	Spms	Día de Europa
 Día de a Santa Cruz	Spms	Día de a Santa Cruz
 Día de as Letras Galegas	Sp00	Día de as Letras Galegas
 Día de as Letras Galegas	Spms	Día de as Letras Galegas
-Día de o Traballo	Spms	Día de o Traballo
+Día do Traballo	Spms	Día do Traballo
 Día mundial sen tabaco	Spms	Día mundial sen tabaco
 Día sen Televisión	Spms	Día sen Televisión
 Diagnóstico	Sp00	Diagnóstico
@@ -2272,7 +2272,7 @@ Dirección Xeral de Persoal	Spfs	Dirección Xeral de Persoal
 Dirección Xeral de Tráfico	Spfs	Dirección Xeral de Tráfico
 Dirección Xeral de Turismo	Spfs	Dirección Xeral de Turismo
 Dirk Bogarde	Spm0	Dirk Bogarde
-Distro e de o outro	Sp00	Distro e de o outro
+Distro e do outro	Sp00	Distro e do outro
 Divinas Palabras	Sp00	Divinas Palabras
 División Territorial de Caixa Galicia	Spfs	División Territorial de Caixa Galicia
 Djakovica	Sp00	Djakovica
@@ -2288,8 +2288,8 @@ Domínguez Fernández	Sp00	Domínguez Fernández
 Domínguez Ferreira, Xoaquín	Spm0	Domínguez Ferreira, Xoaquín
 Domínguez Olveira	Sp00	Domínguez Olveira
 Dominique Strauss-Kahn	Spm0	Dominique Strauss-Kahn
-Dominó de o Camiño	Spms	Dominó de o Camiño
-Dominó de o Camiño de Santiago	Spms	Dominó de o Camiño de Santiago
+Dominó do Camiño	Spms	Dominó do Camiño
+Dominó do Camiño de Santiago	Spms	Dominó do Camiño de Santiago
 Donald Dewar	Spm0	Donald Dewar
 Donald Pleasance	Spm0	Donald Pleasance
 Donald Rumsfeld	Spm0	Donald Rumsfeld
@@ -2384,7 +2384,7 @@ Elvira	Spf0	Elvira
 Elvis	Spm0	Elvis
 Embaixada	Spfs	Embaixada
 Embaixada de Australia	Spfs	Embaixada de Australia
-Emigración a a fin de o mundo	Sp00	Emigración a a fin de o mundo
+Emigración a a fin do mundo	Sp00	Emigración a a fin do mundo
 Emilia	Spf0	Emilia
 Emiliano Navajas	Spm0	Emiliano Navajas
 Emilio	Spm0	Emilio
@@ -2448,7 +2448,7 @@ Espí	Sp00	Espí
 Espí Martínez	Sp00	Espí Martínez
 Esquerda de Galicia	Sp00	Esquerda de Galicia
 Estaçãou	Sp00	Estaçãou
-Estación Depuradora de San Vicente de o Mar	Spfs	Estación Depuradora de San Vicente de o Mar
+Estación Depuradora de San Vicente do Mar	Spfs	Estación Depuradora de San Vicente do Mar
 Estado	Spms	Estado
 Estado Maior de a Armada	Spms	Estado Maior de a Armada
 Estado de Cooperación Internacional	Sp00	Estado de Cooperación Internacional
@@ -2502,8 +2502,8 @@ Executivo	Spms	Executivo
 Exército	Spms	Exército
 Exército Republicano Irlandés	Spms	Exército Republicano Irlandés
 Exército de Liberación de Kósovo	Spms	Exército de Liberación de Kósovo
-Exército de o Aire	Spms	Exército de o Aire
-Exército de o Sur de o Líbano	Spms	Exército de o Sur de o Líbano
+Exército do Aire	Spms	Exército do Aire
+Exército do Sur do Líbano	Spms	Exército do Sur do Líbano
 Exipto	Sp00	Exipto
 Explorer	Spms	Explorer
 Exteriores	Sp00	Exteriores
@@ -2599,7 +2599,7 @@ Ferro	Sp00	Ferro
 Ferrol	Sp00	Ferrol
 Ferrol-Betanzos	Sp00	Ferrol-Betanzos
 Ferrolterra	Sp00	Ferrolterra
-Festa de o Capón	Spfs	Festa de o Capón
+Festa do Capón	Spfs	Festa do Capón
 Fiatex	Sp00	Fiatex
 Fiatex	Spms	Fiatex
 Fiatyr	Sp00	Fiatyr
@@ -2647,7 +2647,7 @@ Forteza Vila	Sp00	Forteza Vila
 Forza Aérea	Spfs	Forza Aérea
 Forzas Aéreas de Israel	Spfp	Forzas Aéreas de Israel
 Forzas Armadas	Spfp	Forzas Armadas
-Forzas de Seguridade de o Estado	Spfp	Forzas de Seguridade de o Estado
+Forzas de Seguridade do Estado	Spfp	Forzas de Seguridade do Estado
 Fox	Spfs	Fox
 Foz	Sp00	Foz
 Foz de Morcín	Sp00	Foz de Morcín
@@ -2865,13 +2865,13 @@ Grupo Parlamentario Mixto	Spms	Grupo Parlamentario Mixto
 Grupo Popular	Spms	Grupo Popular
 Grupo Socialista	Spms	Grupo Socialista
 Grupo Torras	Spms	Grupo Torras
-Grupo de os Sete	Spms	Grupo de os Sete
+Grupo dos Sete	Spms	Grupo dos Sete
 Grupo-17	Spms	Grupo-17
 Guadagni	Sp00	Guadagni
 Guadalaxara	Sp00	Guadalaxara
 Guadalupe	Spf0	Guadalupe
 Guennadi Ziugánov	Spm0	Guennadi Ziugánov
-Guerra de o Golfo	Spfs	Guerra de o Golfo
+Guerra do Golfo	Spfs	Guerra do Golfo
 Guillén	Spm0	Guillén
 Guillerme	Spm0	Guillerme
 Guillerme Vázquez	Spm0	Guillerme Vázquez
@@ -2973,7 +2973,7 @@ Hospital Montecelo	Spms	Hospital Montecelo
 Hospital Universitario de Copenhaguen	Spms	Hospital Universitario de Copenhaguen
 Hospital Virgen de la Arrixaca	Spms	Hospital Virgen de la Arrixaca
 Hospital de Conxo	Spms	Hospital de Conxo
-Hospital de o Meixoeiro	Spms	Hospital de o Meixoeiro
+Hospital do Meixoeiro	Spms	Hospital do Meixoeiro
 Hotel Almirante	Spms	Hotel Almirante
 Hotel Marmatino	Spms	Hotel Marmatino
 Huelva	Sp00	Huelva
@@ -3064,7 +3064,7 @@ Iraq	Sp00	Iraq
 Iria	Spf0	Iria
 Irimia	Spf0	Irimia
 Irlanda	Sp00	Irlanda
-Irlanda de o Norte	Sp00	Irlanda de o Norte
+Irlanda do Norte	Sp00	Irlanda do Norte
 Irmandade de Centros Galegos en Euscadi	Spfs	Irmandade de Centros Galegos en Euscadi
 Irún	Sp00	Irún
 Isa	Spf0	Isa
@@ -3873,7 +3873,7 @@ Mayoyo	Sp00	Mayoyo
 McLaren	Sp00	McLaren
 Medicina	Sp00	Medicina
 Médicos Internos Residentes	Spmp	Médicos Internos Residentes
-Médicos de o Mundo	Sp00	Médicos de o Mundo
+Médicos do Mundo	Sp00	Médicos do Mundo
 Médicos sen Fronteiras	Sp00	Médicos sen Fronteiras
 Medio Ambiente	Sp00	Medio Ambiente
 Medio Ambiente de Galicia 1999	Sp00	Medio Ambiente de Galicia 1999
@@ -3909,7 +3909,7 @@ Merino	Sp00	Merino
 Merlín	Spm0	Merlín
 Merrill Lynch	Sp00	Merrill Lynch
 Mes de a Cultura	Spms	Mes de a Cultura
-Mesa Sectorial de o Ensino	Spfs	Mesa Sectorial de o Ensino
+Mesa Sectorial do Ensino	Spfs	Mesa Sectorial do Ensino
 Mesa de a Cámara	Spfs	Mesa de a Cámara
 Mesa por a Normalización Lingüística	Spfs	Mesa por a Normalización Lingüística
 Mesonero	Sp00	Mesonero
@@ -4050,7 +4050,7 @@ Monserrat	Spf0	Monserrat
 Monte Palomar	Spms	Monte Palomar
 Monte Porreiro	Sp00	Monte Porreiro
 Monte de a Condesa	Spfs	Monte de a Condesa
-Monte de o Gozo	Spms	Monte de o Gozo
+Monte do Gozo	Spms	Monte do Gozo
 Montecelo	Sp00	Montecelo
 Montecelo	Spms	Montecelo
 Montederramo	Sp00	Montederramo
@@ -4096,7 +4096,7 @@ Muros	Sp00	Muros
 Muros-Noia	Sp00	Muros-Noia
 Museo Masó	Spm0	Museo Masó
 Museo de as Peregrinacións	Spms	Museo de as Peregrinacións
-Museo de o Prado	Spms	Museo de o Prado
+Museo do Prado	Spms	Museo do Prado
 Mutti	Sp00	Mutti
 Muxía	Sp00	Muxía
 MySpace	Sp00	MySpace
@@ -4173,7 +4173,7 @@ Nosa Señora de a Concepción	Spf0	Nosa Señora de a Concepción
 Nostián	Sp00	Nostián
 Nottingham	Sp00	Nottingham
 Nova York	Sp00	Nova York
-Novas Xeracións de o PP de Galicia	Spfp	Novas Xeracións de o PP de Galicia
+Novas Xeracións do PP de Galicia	Spfp	Novas Xeracións do PP de Galicia
 Novoneyra	Sp00	Novoneyra
 Noya	Sp00	Noya
 Núcleo Vello	Spms	Núcleo Vello
@@ -4223,13 +4223,13 @@ O cabaleiro de a man en o peito	Spms	O cabaleiro de a man en o peito
 O porteiro de noite	Sp00	O porteiro de noite
 O pulpo	Sp00	O pulpo
 O servente	Sp00	O servente
-O son de o ar	Sp00	O son de o ar
+O son do ar	Sp00	O son do ar
 Obama	Sp00	Obama
 Oberlin	Sp00	Oberlin
 Obras Públicas	Sp00	Obras Públicas
 Observatorio Astrofísico Especial	Spms	Observatorio Astrofísico Especial
 Observatorio de Kitt Peak	Spms	Observatorio de Kitt Peak
-Observatorio de o Teide	Spms	Observatorio de o Teide
+Observatorio do Teide	Spms	Observatorio do Teide
 Occidente	Sp00	Occidente
 Ochoa Ledesma	Sp00	Ochoa Ledesma
 Octavio	Spm0	Octavio
@@ -4277,10 +4277,10 @@ Ordes	Sp00	Ordes
 Ordóñez	Sp00	Ordóñez
 Orestes Suárez	Spm0	Orestes Suárez
 Organización	Sp00	Organización
-Organización Impulsora de os Discapacitados	Spfs	Organización Impulsora de os Discapacitados
+Organización Impulsora dos Discapacitados	Spfs	Organización Impulsora dos Discapacitados
 Organización Internacional de Migracións	Spfs	Organización Internacional de Migracións
 Organización de as Nacións Unidas para a Educación a Ciencia e a Cultura	Spfs	Organización de as Nacións Unidas para a Educación a Ciencia e a Cultura
-Organización de o Tratado de o Atlántico Norte	Spfs	Organización de o Tratado de o Atlántico Norte
+Organización do Tratado do Atlántico Norte	Spfs	Organización do Tratado do Atlántico Norte
 Organización para a Liberación de Palestina	Spfs	Organización para a Liberación de Palestina
 Organización para a Seguridade e Cooperación Europea	Spfs	Organización para a Seguridade e Cooperación Europea
 Orientación	Sp00	Orientación
@@ -4296,7 +4296,7 @@ Ortega Cano	Sp00	Ortega Cano
 Ortega y Gasset	Sp00	Ortega y Gasset
 Ortigueira	Sp00	Ortigueira
 Ortodisca	Sp00	Ortodisca
-Orzamentos Xerais de o Estado	Spmp	Orzamentos Xerais de o Estado
+Orzamentos Xerais do Estado	Spmp	Orzamentos Xerais do Estado
 Orzán	Sp00	Orzán
 Os Ánxeles	Sp00	Os Ánxeles
 Os Balcáns	Sp00	Os Balcáns
@@ -4390,9 +4390,9 @@ Partido Socialista	Spms	Partido Socialista
 Partido Socialista Obreiro Español	Spms	Partido Socialista Obreiro Español
 Partido Socialista Serbio	Spms	Partido Socialista Serbio
 Partido Socialista de Galicia	Spms	Partido Socialista de Galicia
-Partido Unionista de o Úlster	Spms	Partido Unionista de o Úlster
+Partido Unionista do Úlster	Spms	Partido Unionista do Úlster
 Partido de Deus	Sp00	Partido de Deus
-Partido de o Congreso	Spm0	Partido de o Congreso
+Partido do Congreso	Spm0	Partido do Congreso
 Pasarón	Sp00	Pasarón
 Pascual	Sp00	Pascual
 Pascual	Spm0	Pascual
@@ -4448,13 +4448,13 @@ Paul Woods	Spm0	Paul Woods
 Paula	Spf0	Paula
 Paula Guedini	Spf0	Paula Guedini
 Paulo	Spm0	Paulo
-Pavillón de o Gatañal	Spms	Pavillón de o Gatañal
+Pavillón do Gatañal	Spms	Pavillón do Gatañal
 Paz	Spf0	Paz
 Pazo Museo Otero Pedrayo	Spms	Pazo Museo Otero Pedrayo
-Pazo Universitario de os deportes	Spms	Pazo Universitario de os deportes
+Pazo Universitario dos deportes	Spms	Pazo Universitario dos deportes
 Pazo de Fonseca	Spms	Pazo de Fonseca
 Pazo de Raxoi	Spms	Pazo de Raxoi
-Pazo de os deportes Paco Paz	Spms	Pazo de os deportes Paco Paz
+Pazo dos deportes Paco Paz	Spms	Pazo dos deportes Paco Paz
 Pazos Torres	Sp00	Pazos Torres
 Pearce	Sp00	Pearce
 Pec	Sp00	Pec
@@ -4486,7 +4486,7 @@ Pequín	Sp00	Pequín
 Percival	Spm0	Percival
 Percy Bisshe Shelley	Spm0	Percy Bisshe Shelley
 Peregrinacións	Sp00	Peregrinacións
-Pereiras-A Venda de o Río	Sp00	Pereiras-A Venda de o Río
+Pereiras-A Venda do Río	Sp00	Pereiras-A Venda do Río
 Pereiro de Aguiar	Sp00	Pereiro de Aguiar
 Peres	Sp00	Peres
 Pérez	Sp00	Pérez
@@ -4568,11 +4568,11 @@ Plataforma Antipeaxe	Spfs	Plataforma Antipeaxe
 Plataforma Cívica Segura Limpio	Spfs	Plataforma Cívica Segura Limpio
 Plataforma contra a Peaxe	Spfs	Plataforma contra a Peaxe
 Pleno	Spms	Pleno
-Pleno de o Congreso	Spms	Pleno de o Congreso
-Pleno de o Congreso de os Deputados	Spms	Pleno de o Congreso de os Deputados
-Pleno de o Consello Xeral de o Poder Xudicial	Spms	Pleno de o Consello Xeral de o Poder Xudicial
-Pleno de o Parlamento	Spms	Pleno de o Parlamento
-Pleno de o Senado	Spms	Pleno de o Senado
+Pleno do Congreso	Spms	Pleno do Congreso
+Pleno do Congreso dos Deputados	Spms	Pleno do Congreso dos Deputados
+Pleno do Consello Xeral do Poder Xudicial	Spms	Pleno do Consello Xeral do Poder Xudicial
+Pleno do Parlamento	Spms	Pleno do Parlamento
+Pleno do Senado	Spms	Pleno do Senado
 Poboacións Estelares	Sp00	Poboacións Estelares
 Podgorica	Sp00	Podgorica
 Podujevo	Sp00	Podujevo
@@ -4621,8 +4621,8 @@ Premio de Composición Andrés Gaos	Spms	Premio de Composición Andrés Gaos
 Presentación	Spf0	Presentación
 Presidencia	Spfs	Presidencia
 Presidencia Federal	Spfs	Presidencia Federal
-Presidencia de o Goberno	Spfs	Presidencia de o Goberno
-Presupostos Xerais de o Estado	Spmp	Presupostos Xerais de o Estado
+Presidencia do Goberno	Spfs	Presidencia do Goberno
+Presupostos Xerais do Estado	Spmp	Presupostos Xerais do Estado
 Prieto	Sp00	Prieto
 Primakov	Sp00	Primakov
 Primaria	Sp00	Primaria
@@ -4639,12 +4639,12 @@ Producto Nacional Bruto	Spms	Producto Nacional Bruto
 Programa Padre	Spms	Programa Padre
 Programa de Actuación Conxunta	Sp00	Programa de Actuación Conxunta
 Programas Industriais e Infraestructuras Tecnolóxicas	Sp00	Programas Industriais e Infraestructuras Tecnolóxicas
-Protección de o Patrimonio Cultural	Sp00	Protección de o Patrimonio Cultural
+Protección do Patrimonio Cultural	Sp00	Protección do Patrimonio Cultural
 Provence	Sp00	Provence
 Proxecto Fiatex	Spms	Proxecto Fiatex
 Proxecto de lei de ordenación de a edificación	Spms	Proxecto de lei de ordenación de a edificación
 Prudencio	Spm0	Prudencio
-Psicoloxía de o traballo e de as Organizacións	Sp00	Psicoloxía de o traballo e de as Organizacións
+Psicoloxía do traballo e de as Organizacións	Sp00	Psicoloxía do traballo e de as Organizacións
 Psicopedagoxía	Sp00	Psicopedagoxía
 Puente de el Mundo	Spfs	Puente de el Mundo
 Puerta	Sp00	Puerta
@@ -4661,7 +4661,7 @@ Queizán	Sp00	Queizán
 Quico	Spm0	Quico
 Quince	Spmp	Quince
 Quindós	Sp00	Quindós
-Quinta Brigada de o Exército	Spfs	Quinta Brigada de o Exército
+Quinta Brigada do Exército	Spfs	Quinta Brigada do Exército
 Quintana	Sp00	Quintana
 Quintana Martelo	Sp00	Quintana Martelo
 Quintanilla	Sp00	Quintanilla
@@ -4907,10 +4907,10 @@ Salinas	Sp00	Salinas
 Salnés	Sp00	Salnés
 Salomé	Spf0	Salomé
 Salón	Spms	Salón
-Salón Internacional de o Turismo de Cataluña	Spms	Salón Internacional de o Turismo de Cataluña
+Salón Internacional do Turismo de Cataluña	Spms	Salón Internacional do Turismo de Cataluña
 Salón Nobre de Fonseca	Spms	Salón Nobre de Fonseca
 Salón Principal	Spms	Salón Principal
-Salón de Alimentación de o Atlántico	Spms	Salón de Alimentación de o Atlántico
+Salón de Alimentación do Atlántico	Spms	Salón de Alimentación do Atlántico
 Salvador	Spm0	Salvador
 Samos	Sp00	Samos
 Sampaio	Sp00	Sampaio
@@ -4931,7 +4931,7 @@ San Román	Sp00	San Román
 San Sebastián	Sp00	San Sebastián
 San Tomé	Sp00	San Tomé
 San Vicente	Sp00	San Vicente
-San Vicente de o Mar	Sp00	San Vicente de o Mar
+San Vicente do Mar	Sp00	San Vicente do Mar
 Sánchez	Sp00	Sánchez
 Sánchez Arévalo	Sp00	Sánchez Arévalo
 Sánchez de León	Sp00	Sánchez de León
@@ -5012,7 +5012,7 @@ Sean Thornton	Spm0	Sean Thornton
 Seat	Sp00	Seat
 Sebastián	Spm0	Sebastián
 Sebastiana	Spf0	Sebastiana
-Secretaría Xeral de o Sergas	Spfs	Secretaría Xeral de o Sergas
+Secretaría Xeral do Sergas	Spfs	Secretaría Xeral do Sergas
 Secretaría de Estado de Asuntos Penitenciarios	Spfs	Secretaría de Estado de Asuntos Penitenciarios
 Secretaría de Estado de Comercio , Turismo e Pemes	Spfs	Secretaría de Estado de Comercio , Turismo e Pemes
 Secundaria	Sp00	Secundaria
@@ -5081,9 +5081,9 @@ Simon Fortuyn	Spm0	Simon Fortuyn
 Simon Peres	Spm0	Simon Peres
 Simone Cristicchi	Spf0	Simone Cristicchi
 Simone de Beauvoir	Spf0	Simone de Beauvoir
-Simulador de Navegación de o Camiño de Santiago	Spms	Simulador de Navegación de o Camiño de Santiago
+Simulador de Navegación do Camiño de Santiago	Spms	Simulador de Navegación do Camiño de Santiago
 Sinbad	Spm0	Sinbad
-Sindicato Interino de o Ensino Galego	Spms	Sindicato Interino de o Ensino Galego
+Sindicato Interino do Ensino Galego	Spms	Sindicato Interino do Ensino Galego
 Sindicato UXT	Spms	Sindicato UXT
 Sindo	Spm0	Sindo
 Sineiro	Sp00	Sineiro
@@ -5282,7 +5282,7 @@ Tony Tcheca	Spm0	Tony Tcheca
 Toques	Sp00	Toques
 Toquio	Sp00	Toquio
 Torras	Sp00	Torras
-Torres de os Andrade	Spfp	Torres de os Andrade
+Torres dos Andrade	Spfp	Torres dos Andrade
 Torricelli	Sp00	Torricelli
 Tosar	Sp00	Tosar
 Toural	Sp00	Toural
@@ -5306,7 +5306,7 @@ Tribunal Superior de Xustiza	Spms	Tribunal Superior de Xustiza
 Tribunal Superior de Xustiza de Galicia	Spms	Tribunal Superior de Xustiza de Galicia
 Tribunal Supremo	Spms	Tribunal Supremo
 Tribunal de Xustiza	Spms	Tribunal de Xustiza
-Tribunal de o Xurado	Spms	Tribunal de o Xurado
+Tribunal do Xurado	Spms	Tribunal do Xurado
 Trimble	Sp00	Trimble
 Trip	Spfs	Trip
 Tristán	Spm0	Tristán
@@ -5376,9 +5376,9 @@ Uxío González	Spm0	Uxío González
 V. Aleixandre	Sp00	V. Aleixandre
 V. Hachinski	Sp00	V. Hachinski
 VI Convenio Colectivo	Spms	VI Convenio Colectivo
-VIII Edición de o Salón de o Automóbil	Spfs	VIII Edición de o Salón de o Automóbil
-VIII Salón de o Automóbil de Vigo	Spms	VIII Salón de o Automóbil de Vigo
-VIII Salón vigués de o Automóbil	Spms	VIII Salón vigués de o Automóbil
+VIII Edición do Salón do Automóbil	Spfs	VIII Edición do Salón do Automóbil
+VIII Salón do Automóbil de Vigo	Spms	VIII Salón do Automóbil de Vigo
+VIII Salón vigués do Automóbil	Spms	VIII Salón vigués do Automóbil
 VIII Xornadas galegas sobre o alcolismo	Spfp	VIII Xornadas galegas sobre o alcolismo
 Vaamonde	Sp00	Vaamonde
 Valdoviño	Sp00	Valdoviño
@@ -5477,7 +5477,7 @@ Viktor Frankenstein	Spm0	Viktor Frankenstein
 Viktor Frankl	Spm0	Viktor Frankl
 Vila Nova de Cerveira	Sp00	Vila Nova de Cerveira
 Vilaboa	Sp00	Vilaboa
-Vilafranca de o Bierzo	Sp00	Vilafranca de o Bierzo
+Vilafranca do Bierzo	Sp00	Vilafranca do Bierzo
 Vilagarcía	Sp00	Vilagarcía
 Vilalba	Sp00	Vilalba
 Vilanova	Sp00	Vilanova
@@ -5604,7 +5604,7 @@ XI Congreso Nacional de Formación non Regrada	Spms	XI Congreso Nacional de Form
 XI Congreso Nacional de a Sociedade Española de Neu	Spms	XI Congreso Nacional de a Sociedade Española de Neu
 XIII Congreso nacional de titulados mercantís e empresariais	Spms	XIII Congreso nacional de titulados mercantís e empresariais
 XIV Día de Galicia en Euscadi	Spms	XIV Día de Galicia en Euscadi
-XVIII Congreso Nacional de a Sociedade Española de o Xeonllo	Spms	XVIII Congreso Nacional de a Sociedade Española de o Xeonllo
+XVIII Congreso Nacional de a Sociedade Española do Xeonllo	Spms	XVIII Congreso Nacional de a Sociedade Española do Xeonllo
 Xabarín	Spms	Xabarín
 Xabarín Club	Spms	Xabarín Club
 Xabier	Spm0	Xabier
@@ -5616,7 +5616,7 @@ Xacinto	Spm0	Xacinto
 Xacobeo	Spms	Xacobeo
 Xacobeo 99	Spms	Xacobeo 99
 Xácome	Spm0	Xácome
-Xadrez de o Camiño de Santiago	Spms	Xadrez de o Camiño de Santiago
+Xadrez do Camiño de Santiago	Spms	Xadrez do Camiño de Santiago
 Xaén	Sp00	Xaén
 Xaime	Spm0	Xaime
 Xaime Illa	Spm0	Xaime Illa
@@ -5703,12 +5703,12 @@ Xulián	Spm0	Xulián
 Xulio	Spm0	Xulio
 Xunta	Spfs	Xunta
 Xunta Xeral	Spfs	Xunta Xeral
-Xunta Xeral de o Principado	Spfs	Xunta Xeral de o Principado
+Xunta Xeral do Principado	Spfs	Xunta Xeral do Principado
 Xunta de Galicia	Spfs	Xunta de Galicia
 Xunta de Goberno	Spfs	Xunta de Goberno
 Xunta de Municipios	Spfs	Xunta de Municipios
 Xunta de Xefes de Estado Maior	Spfs	Xunta de Xefes de Estado Maior
-Xunta de os Pobos	Spfs	Xunta de os Pobos
+Xunta dos Pobos	Spfs	Xunta dos Pobos
 Xuntas Provinciais de Directores	Spfp	Xuntas Provinciais de Directores
 Xuntas de Directores	Spfp	Xuntas de Directores
 Xurxo	Spm0	Xurxo
