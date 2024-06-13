@@ -22,7 +22,7 @@ class XMLListenerTrainProperNouns
       @chunk = ""
     end
   end
-  
+
   def tag_end(name)
     if sentence_tag?(name)
       @sentence.add_chunk(@chunk, nil, nil, nil, nil)
@@ -58,7 +58,6 @@ class XMLListenerTrainProperNouns
 
   def train
     # STDERR.puts "Sentence text: #{@sentence.text}"
-    @sentence.contractions_processing
     @sentence.add_proper_nouns(@trained_proper_nouns)
     # @trained_proper_nouns.keys.each do |proper_noun|
     #  STDERR.puts "proper_noun: #{proper_noun}"

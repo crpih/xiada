@@ -101,9 +101,9 @@ class XiadaTagger
               sentence = Sentence.new(@dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash)
               sentence.add_chunk(line, nil, nil, nil, nil)
               sentence.finish
+              sentence.add_proper_nouns(trained_proper_nouns)
               STDERR.puts "Processing contractions..."
               sentence.contractions_processing
-              sentence.add_proper_nouns(trained_proper_nouns)
             end
             #STDERR.puts "BEGIN TRAINED PROPER NOUNS"
             #trained_proper_nouns.keys.each do |proper_noun|
@@ -165,10 +165,10 @@ class XiadaTagger
     sentence.add_chunk(line, nil, nil, nil, nil)
     sentence.finish
     #sentence.print(STDERR)
-    STDERR.puts "Processing contractions..."
-    sentence.contractions_processing
     STDERR.puts "Processing proper nouns..."
     sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
+    STDERR.puts "Processing contractions..."
+    sentence.contractions_processing
     #sentence.print
     STDERR.puts "Processing idioms..."
     sentence.idioms_processing # Must be processed before numerals
@@ -196,8 +196,8 @@ class XiadaTagger
     #sentence.add_chunk(encoded_line,nil,nil,nil,nil)
     sentence.add_chunk(line, nil, nil, nil, nil)
     sentence.finish
-    sentence.contractions_processing unless remove_join
     sentence.proper_nouns_processing(trained_proper_nouns, remove_join)
+    sentence.contractions_processing unless remove_join
     sentence.idioms_processing unless remove_join # Must be processed before numerals
     sentence.numerals_processing
     sentence.enclitics_processing

@@ -20,7 +20,6 @@ helpers do
       sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, false)
       sentence.add_chunk(text, nil, nil, nil, nil)
       sentence.finish
-      sentence.contractions_processing
       sentence.add_proper_nouns(trained_proper_nouns)
     end
   rescue StandardError
@@ -31,8 +30,8 @@ helpers do
     sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, force_proper_nouns)
     sentence.add_chunk(text, nil, nil, nil, nil)
     sentence.finish
-    sentence.contractions_processing
     sentence.proper_nouns_processing(trained_proper_nouns, false)
+    sentence.contractions_processing
     sentence.idioms_processing # Must be processed before numerals
     sentence.numerals_processing
     sentence.enclitics_processing

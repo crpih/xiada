@@ -8,6 +8,8 @@ require_relative "../#{ENV["XIADA_PROFILE"]}/enclitics_processor.rb"
 require_relative "../../lib/string_utils.rb"
 
 class Sentence
+  include Enumerable
+
   attr_reader :first_token, :last_token, :text, :original_first_lower, :force_proper_nouns
 
   def initialize(dw, acronyms, abbreviations, enclitics, force_proper_nouns)
@@ -26,6 +28,16 @@ class Sentence
     @last_token = Token.new(self.text, nil, :end_sentence, -1, -1)
     @current_last_token = @first_token
     @current_text_offset = 0
+  end
+
+  def each
+    token = @first_token
+    while token
+      yield token
+
+      raise "Not linear sentence" if token.nexts.size > 1
+      token = token.nexts.keys.first
+    end
   end
 
   def add_empty_tag_included_info(tag_str, qualifying_info)
