@@ -18,7 +18,7 @@ helpers do
   def train_proper_nouns(texts)
     texts.each_with_object({}) do |text, trained_proper_nouns|
       sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, false)
-      sentence.add_chunk(text, nil, nil, nil, nil)
+      sentence.add_chunk(text)
       sentence.finish
       sentence.add_proper_nouns(trained_proper_nouns)
     end
@@ -28,7 +28,7 @@ helpers do
 
   def tag_text(text, trained_proper_nouns, force_proper_nouns)
     sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, force_proper_nouns)
-    sentence.add_chunk(text, nil, nil, nil, nil)
+    sentence.add_chunk(text)
     sentence.finish
     sentence.proper_nouns_processing(trained_proper_nouns, false)
     sentence.contractions_processing
@@ -37,12 +37,7 @@ helpers do
     sentence.enclitics_processing
     viterbi = Viterbi.new(DW)
     viterbi.run(sentence)
-    viterbi.get_best_way
-           .split("\n")
-           .map { |t| t.split("\t") }
-           .map do |token, tag, lemma, hyperlemma, start, finish|
-      { token: token, tag: tag, lemma: lemma, hyperlemma: hyperlemma, start: start.to_i, finish: finish.to_i }
-    end
+    viterbi.best_way
   rescue StandardError
     raise TaggingSentenceError.new("Error tagging sentence: #{text}")
   rescue Exception

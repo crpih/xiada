@@ -44,49 +44,22 @@ class Viterbi
     @some_info = some_info?
   end
 
-  def print_best_way
-    #STDERR.puts "PRINTING WAY"
-    if @tags == nil
-      STDERR.puts "ERROR: No valid way for this sentence"
-      exit
-    else
-      @tags.each do |tag|
-        if tag.token.token_type == :standard
-          print "#{tag.token.text}\t#{tag.value}"
-          if tag.lemmas.keys.empty?
-            print "\t*"
-          else
-            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys[0]]}"
-          end
-          puts ""
-        end
-      end
-    end
-    puts ""
-  end
+  def best_way
+    raise "No valid way for this sentence" if @tags == nil
 
-  def get_best_way
-    result = ""
-    #STDERR.puts "PRINTING WAY"
-    if @tags == nil
-      STDERR.puts "ERROR: No valid way for this sentence"
-      exit
-    else
-      @tags.each do |tag|
-        if tag.token.token_type == :standard
-          result = result + "#{tag.token.text}\t#{tag.value}"
-          if tag.lemmas.keys.empty?
-            result +="\t*\t*\t#{tag.token.from}\t#{tag.token.to}"
-          else
-            lemma = @dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
-            hiperlemma = tag.hiperlemmas[lemma]
-            result += "\t#{lemma}\t#{hiperlemma}\t#{tag.token.from}\t#{tag.token.to}"
-          end
-          result = result + "\n"
-        end
+    @tags.filter_map do |tag|
+      next unless tag.token.token_type == :standard
+
+      if tag.lemmas.keys.empty?
+        lemma = "*"
+        hiperlemma = "*"
+      else
+        lemma = @dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
+        hiperlemma = tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]
       end
+
+      { token: tag.token.text, tag: tag.value, lemma:, hiperlemma:, from: tag.token.from, to: tag.token.to }
     end
-    return result
   end
 
   def print_best_way_xml_with_alternatives(sentence_tag, expression_tag, expression_attributes, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,

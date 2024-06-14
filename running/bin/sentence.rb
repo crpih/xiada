@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'active_support/core_ext/object/blank'
 require_relative "token.rb"
 require_relative "contractions_processor.rb"
 require_relative "idioms_processor.rb"
@@ -45,23 +46,10 @@ class Sentence
     @current_last_token.add_nexts_ignored("#{tag_str}", qualifying_info)
   end
 
-  def add_chunk(text, ignore_content_info, qualifying_info, chunk_entity_exclude_transform, chunk_exclude_segmentation)
-    # text.strip!
-    text.gsub!(/\n/, "")
-    #STDERR.puts "add_chunk:-#{text}-"
-    #STDERR.puts "chunk_exclude_segmentation: #{chunk_exclude_segmentation}"
-    #STDERR.puts "(add_chunk) chunk_exclude_transform: #{chunk_entity_exclude_transform}"
-    ignore_content_info = nil if ignore_content_info and ignore_content_info.empty?
-    #STDERR.puts "ignore_context_info: #{ignore_content_info}"
-    qualifying_info = nil if qualifying_info and qualifying_info.empty?
-    #STDERR.puts "qualifying_info: #{qualifying_info}\n\n"
-    text = nil if text == ""
-    if text
-      unless text =~ /^ +$/ and @text =~ / $/
-        @text << text
-        build_chunk_sentence(text, ignore_content_info, qualifying_info, chunk_entity_exclude_transform, chunk_exclude_segmentation)
-      end
-    end
+  def add_chunk(text)
+    return if text.blank?
+
+    build_sentence_tokens(tokenize(text), text)
   end
 
   def finish
@@ -79,34 +67,17 @@ class Sentence
     end
   end
 
-  def build_chunk_sentence(text, ignore_content_info, qualifying_info, chunk_entity_exclude_transform, chunk_exclude_segmentation)
-    if text
-      #STDERR.puts "text: #{text}"
-      #STDERR.puts "qualifying_info:#{qualifying_info} class:#{qualifying_info.class}"
-      tokens = tokenize(text, chunk_exclude_segmentation, ignore_content_info, qualifying_info)
-      #STDERR.puts "tokenize(text): #{tokens}"
-    else
-      tokens = nil
-    end
-    build_sentence_tokens(tokens, text, ignore_content_info, qualifying_info, chunk_entity_exclude_transform)
-  end
-
-  def tokenize(text, chunk_exclude_segmentation, ignore_content_info, qualifying_info)
+  def tokenize(text)
     local_text = String.new(text)
-    #STDERR.puts "(tokenize) local_text: #{local_text} chunk_exclude_segmentation:#{chunk_exclude_segmentation} ignore_content_info:#{ignore_content_info}"
-    unless chunk_exclude_segmentation == nil or chunk_exclude_segmentation[0].empty?
-      local_text, letter_replacement, removed_info = remove_chunk_exclude_segmentation(local_text, chunk_exclude_segmentation)
-    end
     # STDERR.puts "local_text: #{local_text}, removed_info: #{removed_info}"
     # Remove several spaces due to tag removing inside text
     local_text.gsub!(/ +/, " ")
     local_text.gsub(/^ +/, "")
 
-    # Dots are separated from previous and next words (if we don't have palabra_cortada qualifying info)
-    unless qualifying_info and qualifying_info.include?("distinto[tipo=palabra_cortada]") # to be extrated to language configuration ???
-      local_text.gsub!(/([^ ])(\.\.\.)/, '\1 \2')
-      local_text.gsub!(/(\.\.\.)([^ ])/, '\1 \2')
-    end
+    # Dots are separated from previous and next words
+    local_text.gsub!(/([^ ])(\.\.\.)/, '\1 \2')
+    local_text.gsub!(/(\.\.\.)([^ ])/, '\1 \2')
+
 
     # workaround for acoutacións. By now we'll not allow abbreviations
     # followed by ) or "
@@ -197,14 +168,9 @@ class Sentence
       end
     end
     tokens = tokens_new
-    if ignore_content_info != nil and not ignore_content_info.empty?
-      if tokens.last =~ /([^\.]+)\.$/
-        tokens[tokens.length - 1] = $1
-        tokens << "."
-      end
-    end
-    unless chunk_exclude_segmentation == nil or chunk_exclude_segmentation[0].empty?
-      tokens = restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
+    if tokens.last =~ /([^\.]+)\.$/
+      tokens[tokens.length - 1] = $1
+      tokens << "."
     end
     # STDERR.puts "token.size: #{tokens.size}"
     # STDERR.puts "(tokenize) tokens (final):#{tokens}"
@@ -247,30 +213,6 @@ class Sentence
     return tokens
   end
 
-  def remove_chunk_exclude_segmentation(text, chunk_exclude_segmentation)
-    #STDERR.puts "(remove_chunk_exclude_segmentation) text: #{text}"
-    letter = "@"
-    selections = Array.new
-    new_text = String.new(text)
-    chunk_exclude_segmentation[0].each_index do |index|
-      from = chunk_exclude_segmentation[0][index]
-      to = chunk_exclude_segmentation[1][index]
-      selection = new_text[from..to]
-      selections << selection
-      selection_replacement = get_selection_replacement(selection, letter)
-
-      result = ""
-      result << new_text[0..from - 1] if from > 0
-      result << selection_replacement
-      result << new_text[to + 1..new_text.size - 1] if to < new_text.size - 1
-      # STDERR.puts "from: #{from}, to:#{to}, selection:#{selection}"
-      # STDERR.puts "result: #{result}"
-      new_text = result
-    end
-    #STDERR.puts "new_text: #{new_text}"
-    return [new_text, letter, selections]
-  end
-
   def get_selection_replacement(selection, letter)
     selection_replacement = letter * selection.size
     #STDERR.puts "selection            : #{selection}"
@@ -310,60 +252,24 @@ class Sentence
     end
   end
 
-  def build_sentence_tokens(tokens, text, ignored_content_info, qualifying_info, chunk_entity_exclude_transform)
-    if !ignored_content_info and text
-      #STDERR.puts "1"
-      prev_token = @current_last_token
-      offset = 0
-      from = 0
-      tokens.each do |token_text|
-        #STDERR.puts "text: #{text}"
-        #STDERR.puts "token_text: #{token_text}"
-        from = text.index(token_text, offset)
-        to = from + token_text.length - 1
-        token = Token.new(self.text, String.new(token_text), :standard, from + @current_text_offset, to + @current_text_offset)
-        token.add_qualifying_info_array(qualifying_info) if qualifying_info
-        unless chunk_entity_exclude_transform == nil or chunk_entity_exclude_transform.empty?
-          token.set_chunk_entity_exclude_transform if chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-        end
-        #STDERR.puts "Building token: #{token.text}, from:#{token.from}, to:#{token.to}, chunk_entity_exclude_transform:#{token.chunk_entity_exclude_transform}"
-        offset = to + 1
-        token.add_prev(prev_token)
-        prev_token.add_next(token)
-        prev_token = token
-      end
-      @current_last_token = prev_token
-    else
-      #STDERR.puts "2"
-      if ignored_content_info
-        if tokens == nil or tokens.empty?
-          # STDERR.puts "add_nexts_ignored(nil, #{ignored_content_info})"
-          @current_last_token.add_nexts_ignored(nil, qualifying_info)
-        else
-          offset = 0
-          from = 0
-          tokens.each do |token_text|
-            # STDERR.puts "token_text: #{token_text}"
-            from = text.index(token_text, offset)
-            to = from + token_text.length - 1
-            if chunk_entity_exclude_transform == nil or chunk_entity_exclude_transform.empty?
-              if chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-                @current_last_token.add_nexts_ignored(token_text, qualifying_info)
-              else
-                @current_last_token.add_nexts_ignored(StringUtils.replace_xml_conflicting_characters(token_text), qualifying_info)
-              end
-            else
-              if chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-                @current_last_token.add_nexts_ignored(token_text, qualifying_info)
-              else
-                @current_last_token.add_nexts_ignored(StringUtils.replace_xml_conflicting_characters(token_text), qualifying_info)
-              end
-            end
-            offset = to + 1
-          end
-        end
-      end
+  def build_sentence_tokens(tokens, text)
+    #STDERR.puts "1"
+    prev_token = @current_last_token
+    offset = 0
+    from = 0
+    tokens.each do |token_text|
+      #STDERR.puts "text: #{text}"
+      #STDERR.puts "token_text: #{token_text}"
+      from = text.index(token_text, offset)
+      to = from + token_text.length - 1
+      token = Token.new(self.text, String.new(token_text), :standard, from + @current_text_offset, to + @current_text_offset)
+      #STDERR.puts "Building token: #{token.text}, from:#{token.from}, to:#{token.to}, chunk_entity_exclude_transform:#{token.chunk_entity_exclude_transform}"
+      offset = to + 1
+      token.add_prev(prev_token)
+      prev_token.add_next(token)
+      prev_token = token
     end
+    @current_last_token = prev_token
     @current_text_offset = @text.length
   end
 

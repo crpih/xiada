@@ -25,7 +25,7 @@ class XMLListenerTrainProperNouns
 
   def tag_end(name)
     if sentence_tag?(name)
-      @sentence.add_chunk(@chunk, nil, nil, nil, nil)
+      @sentence.add_chunk(@chunk)
       @sentence.finish
       train
       @inside_sentence = false

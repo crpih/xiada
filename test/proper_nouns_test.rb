@@ -3,12 +3,10 @@ require_relative './test_helper'
 
 def process_line(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash)
   sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, false)
-  sentence.add_chunk(line, nil, nil, nil, nil)
+  sentence.add_chunk(line)
   sentence.finish
 
-  sentence.contractions_processing
   sentence.proper_nouns_processing({}, false)
-  sentence.idioms_processing
   sentence
 end
 

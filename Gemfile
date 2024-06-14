@@ -20,3 +20,5 @@ gem 'diff-lcs'
 gem "sinatra", "~> 3.0"
 
 gem "puma", "~> 6.2"
+
+gem "activesupport", "~> 7.1"
