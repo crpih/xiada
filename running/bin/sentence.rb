@@ -41,11 +41,6 @@ class Sentence
     end
   end
 
-  def add_empty_tag_included_info(tag_str, qualifying_info)
-    # STDERR.puts "(add_empty_tag_included_info) tag_str: #{tag_str}"
-    @current_last_token.add_nexts_ignored("#{tag_str}", qualifying_info)
-  end
-
   def add_chunk(text)
     return if text.blank?
 
@@ -191,65 +186,6 @@ class Sentence
       end
     end
     result
-  end
-
-  def restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
-    removed_info_index = 0
-    regexp = letter_replacement * removed_info[removed_info_index].size
-    last = false
-    tokens.each do |token|
-      while token =~ /#{regexp}/ and not last
-        # STDERR.puts "token: #{token}"
-        token.sub!(/#{regexp}/, removed_info[removed_info_index])
-        # STDERR.puts "token: #{token}"
-        removed_info_index = removed_info_index + 1
-        if removed_info[removed_info_index]
-          regexp = letter_replacement * removed_info[removed_info_index].size
-        else
-          last = true
-        end
-      end
-    end
-    return tokens
-  end
-
-  def get_selection_replacement(selection, letter)
-    selection_replacement = letter * selection.size
-    #STDERR.puts "selection            : #{selection}"
-    #STDERR.puts "selection_replacement: #{selection_replacement}"
-    return selection_replacement
-  end
-
-  def chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-    # STDERR.puts "(chunk_entity_exclude_transform_match?) from:#{from}, to:#{to}"
-    chunk_entity_exclude_transform.each do |element|
-      element_from = element[0]
-      element_to = element[1]
-      return true if (from >= element_from and from <= element_to) or (to >= element_from and to <= element_to) or (element_from > from and element_to < to)
-    end
-    # STDERR.puts "false"
-    return false
-  end
-
-  # Not used
-  def build_ignore_content_info(text, ignore_content_info, qualifying_info, chunk_entity_exclude_transform)
-    if text
-      from = 0
-      to = text.length - 1
-      #token = Token.new(self.text, String.new(text), :standard, from+@current_text_offset, to+@current_text_offset)
-      #unless chunk_entity_exclude_transform.empty?
-      #  token.set_chunk_entity_exclude_transform if chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-      #end
-      #token.add_prev(@current_last_token)
-      # @current_last_token.add_next(token)
-      # @current_last_token = token
-      # STDERR.puts "(build_ignored_content_info) text:#{text}, from:#{from}, to:#{to}, chunk_entity_exclude_transform:#{chunk_entity_exclude_transform}"
-      if chunk_entity_exclude_transform_match?(from, to, chunk_entity_exclude_transform)
-        @current_last_token.add_nexts_ignored(text, qualifying_info)
-      else
-        @current_last_token.add_nexts_ignored(StringUtils.replace_xml_conflicting_characters(text), qualifying_info)
-      end
-    end
   end
 
   def build_sentence_tokens(tokens, text)
