@@ -3,10 +3,10 @@ require "socket"
 require "optparse"
 require "rexml"
 require "csv"
-require_relative "xml_listener_train_propernouns.rb"
 require_relative "sentence.rb"
 require_relative "viterbi.rb"
 require_relative "database_wrapper.rb"
+require_relative "./proper_nouns"
 
 class XiadaTagger
   def initialize(input, output, training_db_file, options)
@@ -20,72 +20,24 @@ class XiadaTagger
     @xml_values = {}
     @dw = DatabaseWrapper.new(@training_db_file)
     load_acronyms_abbreviations_enclitics
+    @proper_noun_processor = ProperNouns.new(
+      ProperNouns.parse_literals_file("training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_propios.txt"),
+      CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
+      CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first)
+    )
   end
 
   def run
-    if @options[:socket]
-      puts "Litening on socket: #{@options[:socket]}"
-      hostname = "0.0.0.0"
-      server = TCPServer.new(hostname, @options[:socket])
-      while (socket = server.accept)
-        trained_proper_nouns = {}
-        loop do
-          command = socket.gets
-          command&.chomp!
-          if command == 'TRAIN_PROPER_NOUNS'
-            listener = XMLListenerTrainProperNouns.new(@xml_values, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash)
-            REXML::Document.parse_stream(socket, listener)
-            trained_proper_nouns = listener.get_trained_proper_nouns
-          elsif command.nil? || command == 'CLOSE'
-            socket.close
-            break
-          else
-            sentence = socket.gets
-            next if sentence.nil?
-
-            sentence.chomp!
-            result = nil
-            if command == 'ONLY_UNITS'
-              result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns], true)
-            elsif command == 'STANDARD'
-              result = process_line_socket(sentence, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns], false)
-            end
-            socket.puts(result.gsub("\n", "\t\t\t\t\t\t\t\t\t\t")) # Separate 10 tab for socket. This way it can be read with socket#gets.
-          end
-        end
+    if @options[:file]
+      lines = File.readlines(@options[:file])
+      trained_proper_nouns_processor = @proper_noun_processor.with_trained(lines)
+      lines.each do |line|
+        process_line(line, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns_processor)
       end
     else
-      if @options[:file]
-        trained_proper_nouns = {}
-        File.open(@options[:file], "r") do |file|
-          while line = file.gets
-            line.chomp!
-            STDERR.puts "Creating sentence..."
-            STDERR.puts line
-            sentence = Sentence.new(@dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, false)
-            sentence.add_chunk(line)
-            sentence.finish
-            sentence.add_proper_nouns(trained_proper_nouns)
-            STDERR.puts "Processing contractions..."
-            sentence.contractions_processing
-          end
-          #STDERR.puts "BEGIN TRAINED PROPER NOUNS"
-          #trained_proper_nouns.keys.each do |proper_noun|
-          #  STDERR.puts proper_noun
-          #end
-          #STDERR.puts "END TRAINED PROPER NOUNS"
-        end
-        File.open(@options[:file], "r") do |file|
-          while line = file.gets
-            line = line.chomp!
-            process_line(line, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, trained_proper_nouns, @options[:force_proper_nouns])
-          end
-        end
-      else
-        while line = @input.gets
-          line.chomp!
-          process_line(line, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, nil, @options[:force_proper_nouns])
-        end
+      while line = @input.gets
+        line.chomp!
+        process_line(line, @dw, @acronyms_hash, @abbreviations_hash, @enclitics_hash, @proper_noun_processor)
       end
     end
   end
@@ -116,15 +68,11 @@ class XiadaTagger
     end # from enclitics_hash.each
   end
 
-  def process_line(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, trained_proper_nouns, force_proper_nouns)
+  def process_line(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, proper_nouns_processor)
     STDERR.puts "Creating sentence..."
     STDERR.puts line
-    sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, force_proper_nouns)
-    sentence.add_chunk(line)
-    sentence.finish
-    #sentence.print(STDERR)
-    STDERR.puts "Processing proper nouns..."
-    sentence.proper_nouns_processing(trained_proper_nouns, @options[:remove_join])
+
+    sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, proper_nouns_processor, line)
     STDERR.puts "Processing contractions..."
     sentence.contractions_processing
     #sentence.print
@@ -146,39 +94,6 @@ class XiadaTagger
     #sentence.print_reverse
     @output.write(CSV.generate(col_sep: "\t") { |csv| viterbi.best_way.each { |r| csv << r.values } })
     @output.flush
-  end
-
-  def process_line_socket(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, trained_proper_nouns, force_proper_nouns, remove_join)
-    sentence = Sentence.new(dw, acronyms_hash, abbreviations_hash, enclitics_hash, force_proper_nouns)
-    line.force_encoding("UTF-8") if line.encoding.name == "ASCII-8BIT"
-    #encoded_line = line.encode("UTF-8")
-    #sentence.add_chunk(encoded_line,nil,nil,nil,nil)
-    sentence.add_chunk(line)
-    sentence.finish
-    sentence.proper_nouns_processing(trained_proper_nouns, remove_join)
-    sentence.contractions_processing unless remove_join
-    sentence.idioms_processing unless remove_join # Must be processed before numerals
-    sentence.numerals_processing
-    sentence.enclitics_processing
-    viterbi = Viterbi.new(dw)
-    viterbi.run(sentence)
-    CSV.generate(col_sep: "\t") { |csv| viterbi.best_way.each { |r| csv << r.values } }
-  end
-
-  def load_xml_values(xml_values_file)
-    File.open(xml_values_file, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line =~ /^#/
-          elements = line.split(/\t/)
-          variable_name = elements[0]
-          values = elements[1..elements.length - 1]
-          @xml_values[variable_name] = values
-          #STDERR.puts "@xml_values[#{variable_name}] = #{values}"
-        end
-      end
-      @xml_values["hiperlemma_tag"] = [nil] unless @xml_values["hiperlemma_tag"]
-    end
   end
 
   def load_acronyms_abbreviations_enclitics
@@ -249,7 +164,6 @@ if $PROGRAM_NAME == __FILE__
       puts opts
       exit(-1)
     end
-    load_xml_values(options[:xml]) if options[:xml]
     options
   end
 

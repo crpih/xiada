@@ -11,26 +11,18 @@ ENCLITICS = DW.get_enclitics_info.freeze
 
 TOKEN_FIELDS = %i[token tag lemma hyperlemma start finish].freeze
 
+PROPER_NOUNS_PROCESSOR = ProperNouns.new(
+  ProperNouns.parse_literals_file("training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_propios.txt"),
+  CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
+  CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first)
+)
+
 class ProperNounTrainingError < StandardError; end
 class TaggingSentenceError < StandardError; end
 
 helpers do
-  def train_proper_nouns(texts)
-    texts.each_with_object({}) do |text, trained_proper_nouns|
-      sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, false)
-      sentence.add_chunk(text)
-      sentence.finish
-      sentence.add_proper_nouns(trained_proper_nouns)
-    end
-  rescue StandardError
-    raise ProperNounTrainingError
-  end
-
-  def tag_text(text, trained_proper_nouns, force_proper_nouns)
-    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, force_proper_nouns)
-    sentence.add_chunk(text)
-    sentence.finish
-    sentence.proper_nouns_processing(trained_proper_nouns, false)
+  def tag_text(text, proper_nouns_processor)
+    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, proper_nouns_processor, text)
     sentence.contractions_processing
     sentence.idioms_processing # Must be processed before numerals
     sentence.numerals_processing
@@ -53,11 +45,11 @@ post '/tagger' do
   texts = JSON.parse(request.body.read)
   halt 400 unless texts.is_a?(Array)
 
-  trained_proper_nouns = train_proper_nouns(texts)
+  proper_nouns_processor = PROPER_NOUNS_PROCESSOR.with_trained(texts)
   stream do |out|
     out << '['
     texts.each_index do |i|
-      out << tag_text(texts[i], trained_proper_nouns, params[:force_proper_nouns]).to_json
+      out << tag_text(texts[i], proper_nouns_processor).to_json
       out << ',' unless texts.size == i + 1
     end
     out << ']'

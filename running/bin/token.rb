@@ -4,7 +4,7 @@ require_relative 'sentence.rb'
 require_relative 'tag.rb'
 class Token
 
-  attr_accessor :prevs, :nexts, :text, :token_type, :tags, :token_id, :from_viterbi, :tagged, :nexts_ignored, :chunk_entity_exclude_transform, :from, :to, :nexts_ignored, :qualifying_info, :length # ??? from and to must be updated throw change_from and change_to
+  attr_accessor :prevs, :nexts, :text, :token_type, :tags, :token_id, :from_viterbi, :proper_noun, :tagged, :nexts_ignored, :chunk_entity_exclude_transform, :from, :to, :nexts_ignored, :qualifying_info, :length # ??? from and to must be updated throw change_from and change_to
 
   def initialize(sentence_text, text, type, from, to)
     @sentence_text = sentence_text # Necessary because Marshall does not work with sentence itself.
@@ -18,6 +18,7 @@ class Token
     @tags = Hash.new
     @tagged = false
     @from_viterbi = false # It indicates if it was tagged by Viterbi algorithm
+    @proper_noun = false
     assign_id
     @qualifying_info = Hash.new
     @chunk_entity_exclude_transform = false

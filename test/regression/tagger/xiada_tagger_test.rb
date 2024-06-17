@@ -16,7 +16,7 @@ def test_snapshots(database_name, input, output, tagger)
 
       # We are removing unit positions to be able to compare the result with previous snapshots
       # TODO: Incorporate unit positions in the snapshots when the tagger is more stable
-      result = CSV.generate(col_sep: "\t") do |csv|
+      result = CSV.generate(col_sep: "\t", encoding: 'utf-8') do |csv|
         CSV.parse(full_result, col_sep: "\t").each { |row| csv << row[0...-2] }
       end
 

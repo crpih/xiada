@@ -11,35 +11,30 @@ require_relative "../../lib/string_utils.rb"
 class Sentence
   include Enumerable
 
-  attr_reader :first_token, :last_token, :text, :original_first_lower, :force_proper_nouns
+  attr_reader :first_token, :last_token, :text, :original_first_lower
 
-  def initialize(dw, acronyms, abbreviations, enclitics, force_proper_nouns)
+  def initialize(dw, acronyms, abbreviations, enclitics, proper_nouns_processor, text)
     Token.reset_class
     @first_token = nil
     @last_token = nil
-    @text = ""
+    @text = text
     @dw = dw
     @acronyms = acronyms
     @abbreviations = abbreviations
     @enclitics = enclitics
-    @force_proper_nouns = force_proper_nouns
     @peripheric_regexp = @dw.get_peripheric_regexp
     @original_first_lower = false # Used by ProperNounsProcessor
     @first_token = Token.new(self.text, nil, :begin_sentence, -1, -1)
     @last_token = Token.new(self.text, nil, :end_sentence, -1, -1)
     @current_last_token = @first_token
     @current_text_offset = 0
-  end
 
-  def each
-    token = @first_token
-    while token
-      yield token
-
-      raise "Not linear sentence" if token.nexts.size > 1
-      token = token.nexts.keys.first
+    proper_nouns_processor.call(text).each do |segment|
+      segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
     end
+    finish
   end
+
 
   def add_chunk(text)
     return if text.blank?
@@ -51,7 +46,7 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     process_acronym_abbreviation_contraction_stuff
-    process_proper_nouns_stuff
+    first_to_lower
   end
 
   def empty?
@@ -209,19 +204,14 @@ class Sentence
     @current_text_offset = @text.length
   end
 
-  def process_proper_nouns_stuff
-
-    #### For proper nouns module use
-
-    if is_original_first_lower? and not @force_proper_nouns
-      @original_first_lower = true
-    else
-      @original_first_lower = false
-    end
-
-    #### Convert to lower first word if it is not acronym or abbreviation
-
-    first_to_lower unless @force_proper_nouns
+  def add_proper_noun(text, tag_lemmas)
+    token = Token.new(self.text, text, :standard, @current_text_offset, @current_text_offset + text.length - 1)
+    tag_lemmas.each { |tag, lemma| token.add_tag_lemma_emission(tag, lemma, '', 0.0, false) }
+    token.proper_noun = true
+    token.add_prev(@current_last_token)
+    @current_last_token.add_next(token)
+    @current_last_token = token
+    @current_text_offset = @text.length
   end
 
   def process_acronym_abbreviation_contraction_stuff
@@ -331,12 +321,6 @@ class Sentence
       end
     end
   end
-
-  def print(fd)
-    fd.puts "PRINTING SENTENCE"
-    print_recursive(fd, @first_token, 1, 1)
-  end
-
   def full_ignored?
     token = @first_token
     while token
@@ -344,72 +328,6 @@ class Sentence
       token = token.next
     end
     return true
-  end
-
-  def print_only_units(sentence_tag, expression_tag, expression_attributes, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, valid_attr, positive_valid_value, expression, qualifying_tag)
-    puts "<#{sentence_tag}#{expression_attributes}>\n"
-    puts "<#{expression_tag}>#{expression}</#{expression_tag}>\n"
-    puts "<#{analysis_tag}>"
-    token = @first_token
-    while token
-      if token.token_type == :standard
-        puts "<#{analysis_unit_tag}>"
-        if token.chunk_entity_exclude_transform
-          puts "<#{unit_tag}>#{get_text(token.from, token.to)}</#{unit_tag}>"
-          token.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "<#{constituent_tag}>"
-          puts "<#{form_tag}>#{token.text}</#{form_tag}>"
-          puts "<#{tag_tag}></#{tag_tag}>"
-          puts "<#{lemma_tag}></#{lemma_tag}>"
-          puts "</#{constituent_tag}>"
-        else
-          puts "<#{unit_tag}>#{StringUtils.replace_xml_conflicting_characters(get_text(token.from, token.to))}</#{unit_tag}>"
-          token.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "<#{constituent_tag}>"
-          puts "<#{form_tag}>#{StringUtils.replace_xml_conflicting_characters(token.text)}</#{form_tag}>"
-          puts "<#{tag_tag}></#{tag_tag}>"
-          puts "<#{lemma_tag}></#{lemma_tag}>"
-          puts "</#{constituent_tag}>"
-        end
-        puts "</#{analysis_unit_tag}>"
-      end
-
-      token.nexts_ignored.each do |token_aux|
-        puts "<#{analysis_unit_tag}>"
-        puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-        token_aux.qualifying_info.keys.each do |info|
-          puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-        end
-        puts "<#{constituent_tag}>"
-        puts "<#{form_tag}>#{token_aux.text}</#{form_tag}>"
-        puts "<#{tag_tag}></#{tag_tag}>"
-        puts "<#{lemma_tag}></#{lemma_tag}>"
-        puts "</#{constituent_tag}>"
-        puts "</#{analysis_unit_tag}>"
-      end
-      token = token.next
-    end
-    puts "</#{analysis_tag}>"
-    puts "</#{sentence_tag}>"
-  end
-
-  def print_from_token(token)
-    puts "PRINTING SENTENCE TOKEN"
-    print_recursive(STDOUT, token, 1, 1)
-  end
-
-  def print_reverse
-    puts "PRINTING SENTENCE REVERSE"
-    print_recursive_reverse(@last_token, 1, 1)
-  end
-
-  def print_reverse_from_token(token)
-    puts "PRINTINT SENTENCE REVERSE TOKEN"
-    print_recursive_reverse(token, 1, 1)
   end
 
   def contractions_processing
@@ -441,150 +359,11 @@ class Sentence
     return (@text[from..to])
   end
 
-  def add_proper_nouns(trained_proper_nouns)
-    processor = ProperNounsProcessor.new(self, @dw, false)
-    if min_length > 1
-      processor.add_proper_nouns(trained_proper_nouns)
-    end
-  end
-
   private
 
-  def print_recursive(fd, token, way, ways)
-    return nil unless token
-    if token.token_type == :standard
-      print_token(fd, token)
-      print_recursive(fd, token.next, way, ways)
-    elsif token.token_type == :begin_alternative
-      print_token(fd, token)
-      # Follow all ways recursively
-      way = 1
-      ways = token.size_nexts
-      token.nexts.keys.each do |token_aux|
-        fd.puts "<alternative>"
-        print_recursive(fd, token_aux, way, ways)
-        way = way + 1
-      end
-    elsif token.token_type == :end_alternative
-      # Join alternatives and follow only one way
-      fd.puts "</alternative>"
-      if way == ways
-        print_token(fd, token)
-        print_recursive(fd, token.next, 1, 1)
-      end
-    elsif token.token_type == :begin_sentence
-      print_token(fd, token)
-      print_recursive(fd, token.next, 1, 1)
-    elsif token.token_type == :end_sentence
-      print_token(fd, token)
-    end
-  end
-
-  def print_recursive_reverse(token, way, ways)
-    if token.token_type == :standard
-      print_token(STDOUT, token)
-      print_recursive_reverse(token.prev, way, ways)
-    elsif token.token_type == :end_alternative
-      print_token(STDOUT, token)
-      # Follow all ways recursively
-      way = 1
-      ways = token.size_prevs
-      token.prevs.keys.each do |token_aux|
-        puts "<alternative>"
-        print_recursive_reverse(token_aux, way, ways)
-        way = way + 1
-      end
-    elsif token.token_type == :begin_alternative
-      # Join alternatives and follow only one way
-      puts "</alternative>"
-      if way == ways
-        print_token(STDOUT, token)
-        print_recursive_reverse(token.prev, 1, 1)
-      end
-    elsif token.token_type == :begin_sentence
-      print_token(STDOUT, token)
-    elsif token.token_type == :end_sentence
-      print_token(STDOUT, token)
-      print_recursive_reverse(token.prev, 1, 1)
-    end
-  end
-
-  def print_token(fd, token)
-    return nil unless token
-    if token.token_type == :standard
-      text = token.text
-      text = "nil" if text == nil
-      fd.puts "token:#{text}\ttype=#{token.token_type}\tfrom=#{token.from}\tto=#{token.to}\ttoken_object=#{token}\tchunk_entity_exclude_transform:#{token.chunk_entity_exclude_transform}"
-      token.tags.values.each do |tag_object|
-        fd.puts "\ttag=#{tag_object.value}\temission=#{tag_object.emission}\tselected=#{tag_object.selected?}\ttag_object=#{tag_object}\ttoken_object_from_tag=#{tag_object.token}"
-        tag_object.lemmas.keys.each do |lemma|
-          fd.print "\tlemma=#{lemma}"
-          fd.print "/hiperlemma=#{tag_object.hiperlemmas[lemma]}" if tag_object.hiperlemmas[lemma]
-          fd.puts ""
-        end
-        tag_object.deltas.each do |prev_tag, delta|
-          fd.puts "\t\tdelta=#{delta.value}, prev_tag=#{prev_tag}"
-          fd.puts "\t\tdelta.normalized=#{delta.normalized_value}, prev_tag=#{prev_tag}"
-        end
-      end
-      unless token.nexts_ignored.empty?
-        fd.print "ignored tokens (standard):\n"
-        token.nexts_ignored.each do |ignored_token|
-          fd.print " #{ignored_token.text}"
-          ignored_token.qualifying_info.keys.each do |info|
-            fd.print " <qual>#{info}</qual>"
-          end
-          fd.puts ""
-        end
-      end
-      fd.print "infos:"
-      token.qualifying_info.each do |info|
-        fd.print " <qual>#{info}</qual>"
-      end
-      fd.puts ""
-    elsif token.token_type == :begin_alternative
-      fd.puts "<alternatives> nexts:#{token.nexts.size}"
-    elsif token.token_type == :end_alternative
-      unless token.nexts_ignored.empty?
-        fd.print "ignored tokens (end_alternative):\n"
-        token.nexts_ignored.each do |ignored_token|
-          fd.print " #{ignored_token.text}"
-          ignored_token.qualifying_info.keys.each do |info|
-            fd.print " <qual>#{info}</qual>"
-          end
-          fd.puts ""
-        end
-      end
-      fd.puts "</alternatives> prevs:#{token.prevs.size}"
-    elsif token.token_type == :begin_sentence
-      fd.puts "<sentence>"
-      unless token.nexts_ignored.empty?
-        fd.print "ignored tokens:"
-        token.nexts_ignored.each do |ignored_token|
-          fd.print " #{ignored_token.text}"
-          ignored_token.qualifying_info.keys.each do |info|
-            fd.print " <qual>#{info}</qual>"
-          end
-        end
-      end
-      fd.print "infos:"
-      token.qualifying_info.keys.each do |info|
-        fd.print " <qual>#{info}</qual>"
-      end
-      fd.puts ""
-    elsif token.token_type == :end_sentence
-      fd.puts "</sentence>"
-    end
-  end
-
-  def is_original_first_lower?
-    all_lower = false
-    token = @first_token.next
-    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
-      token = token.next
-    end
-    all_lower = StringUtils.all_lower?(token.text) if (token.token_type == :standard)
-    return all_lower
+  def peripheric?(tag)
+    result = tag =~ /#{@peripheric_regexp}/
+    return result
   end
 
   def first_to_lower
@@ -596,61 +375,15 @@ class Sentence
     #if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
     #  (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil) and
     #  !first_words_in_lexicon))
-    if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
-      (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
+    if (token.token_type == :standard) &&
+      (token.text.length == 1 || (
+        token.text.length > 1 &&
+          @acronyms[token.text] == nil &&
+          @abbreviations[token.text] == nil &&
+          !token.proper_noun)
+      )
       token.replace_text(StringUtils.first_to_lower(token.text))
     end
     #STDERR.puts "first token after first_to_lower: #{token.text}"
-  end
-
-  def first_words_in_lexicon
-    token = @first_token.next
-    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
-      token = token.next
-    end
-    text_to_search = ""
-    word_counter = 1
-    while (token.token_type == :standard) and word_counter < 5
-      text_to_search << "#{token.text}"
-      result = @dw.get_emissions_info(text_to_search, nil)
-      #STDERR.puts "result:#{result}"
-      return true unless result.empty?
-      text_to_search << " "
-      token = token.next
-      word_counter = word_counter + 1
-    end
-    return false
-  end
-
-  def min_length
-    min_length = 0
-    token = @first_token.next
-    while token.token_type != :end_sentence
-      if token.token_type == :standard
-        token = token.next
-        min_length = min_length + 1
-      elsif token.token_type == :begin_alternative
-        min_length_aux_min = Float::MAX.floor
-        token.nexts.keys.each do |token_aux|
-          min_length_aux = 0
-          token_aux2 = token_aux
-          while token_aux2.token_type != :end_alternative
-            token_aux2 = token_aux2.next
-            min_length_aux = min_length_aux + 1
-          end
-          token = token_aux2
-          min_length_aux_min = min_length_aux if min_length_aux < min_length_aux_min
-        end
-        min_length = min_length + min_length_aux_min
-      elsif token.token_type == :end_alternative
-        token = token.next
-      end
-    end
-    return min_length
-  end
-
-  def peripheric?(tag)
-    result = tag =~ /#{@peripheric_regexp}/
-    return result
   end
 end
