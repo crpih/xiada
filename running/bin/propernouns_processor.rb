@@ -17,7 +17,7 @@ class ProperNounsProcessor
 
   def process(trained_proper_nouns)
     if @remove_join_opt
-      STDERR.puts "Processing basic proper nouns"
+      # STDERR.puts "Processing basic proper nouns"
       process_basic_proper_nouns
     else
       # STDERR.puts "Processing trained proper nouns"
@@ -108,7 +108,7 @@ class ProperNounsProcessor
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
             StringUtils.propers_joined?(token.text)) and !token.tagged?
-          token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+          token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false)
           #STDERR.puts "inside"
           # Beginning of a standard proper noun
         end
@@ -152,7 +152,7 @@ class ProperNounsProcessor
       if token.token_type == :standard
         #STDERR.puts "standard token: #{token.text} type:#{token.token_type}"
         if (StringUtils.first_only_upper?(token.text) or StringUtils.alone_letter_upper?(token.text) or
-            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
+            StringUtils.valid_upper_and_lower?(token.text) or StringUtils.proper_noun_with_single_quote_in_the_middle?(token.text) or StringUtils.propers_joined?(token.text)) and !token.tagged?
           #STDERR.puts "inside"
           # Beginning of a standard proper noun
           last_token = find_last_token(token)
@@ -177,7 +177,7 @@ class ProperNounsProcessor
     last_token = token
     token = token.next
     while token.token_type == :standard
-      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.valid_upper_and_lower?(token.text)
+      if StringUtils.first_only_upper?(token.text) or StringUtils.propers_joined?(token.text) or StringUtils.alone_letter_upper?(token.text) or StringUtils.valid_upper_and_lower?(token.text) or StringUtils.proper_noun_with_single_quote_in_the_middle?(token.text) or StringUtils.roman_numeral?(token.text)
         last_token = token
         token = token.next
       elsif link?(token.text)
@@ -248,7 +248,7 @@ class ProperNounsProcessor
     #STDERR.puts "joining standard proper noun from:#{from.text} to #{to.text}"
     token = join_proper_noun(from, to)
     #STDERR.puts "token.text: #{token.text}"
-    token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false)
+    token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false)
     # if the token is in uppercase in the lexicon, we add the other tags too.
     results = @dw.get_tags_lemmas_emissions_strict(token.text, nil)
     #STDERR.puts "results:#{results}"
@@ -300,6 +300,7 @@ class ProperNounsProcessor
           unless def_ids.empty? # Proper noun detected
             end_token = token
             if at_first_token
+
               proper_noun_num_tokens = proper_noun_num_tokens + 1
               proper_noun_detected_at_first = true
             end
@@ -343,8 +344,10 @@ class ProperNounsProcessor
         end
         #token = token.next
       end
-      token = token.next if token.token_type != :end_sentence
+      token = token.next if token.token_type != :end_sentence and (end_token != nil or start_token == nil)
       at_first_token = false
+      end_token = nil
+      start_token = nil
     end # from while token.token_type != :end_sentence
     if proper_noun_detected_at_first and proper_noun_num_tokens == 1
       process_first_token(first_token)
@@ -391,7 +394,7 @@ class ProperNounsProcessor
     if results.empty?
       results = @dw.get_proper_noun_tags(token.text)
       results.each do |tag|
-        token.add_tag_lemma_emission(tag, token.text, token.text, 0.0, false)
+        token.add_tag_lemma_emission(tag, token.text, nil, 0.0, false)
       end
     else
       results.each do |result|
@@ -496,7 +499,7 @@ class ProperNounsProcessor
 
   def process_regexp_proper_nouns_recursive(token, way, ways)
     if token.token_type == :standard
-      token.add_tags_lemma_emission(@candidate_tags, token.text, token.text, 0.0, false) if regexp_proper_noun(token) and !token.tagged?
+      token.add_tags_lemma_emission(@candidate_tags, token.text, nil, 0.0, false) if regexp_proper_noun(token) and !token.tagged?
       process_regexp_proper_nouns_recursive(token.next, way, ways)
     elsif token.token_type == :begin_alternative
       # Follow all ways recursively

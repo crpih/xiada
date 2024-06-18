@@ -1,0 +1,13 @@
+# Para evitar que proporcione análisis de el o un como artículo femenino cuando sigue un sustantivo, propio o común, o cualquier otra cosa que no comience por a tónica, se puede crear una regla que impida esos análisis. Ahora mismo solo analiza bien 12 ocurrencias frente a 64 de el; mientras que para un lo hace mucho mejor: 17 casos bien frente a 10 mal.
+
+el|un,D.FS,_,_,x	a*|á*|ha*,!NCFS,_,_
+
+# Para evitar que proporcione análisis del participio de una forma compuesta como adjetivo o incluso sustantivo (58 casos mal que pueden verse buscando el lema haber, seguido de forma gráfica terminada en *ado|*ido no etiquetados como participio -!VPMS-), entiendo que se podría aplicar la siguiente regla:
+
+!hay,_,haber,_,	*ado|*ido,!VPMS,_,_,x
+
+# Hay bastantes casos de vamos seguido de preposición a, de infinitivo o de propio caracterizado como interjección. Creo que se podrían corregir esos análisis con las siguientes reglas lingüísticas:
+
+vamos,I,_,_,x	a,X,_,_	_,VNP,_,_
+vamos,I,_,_,x	_,VNP,_,_
+vamos,I,_,_,x	a,X,_,_	_,NPEL,_,_

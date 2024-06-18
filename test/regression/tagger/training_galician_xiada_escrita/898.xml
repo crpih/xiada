@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>"Somos S. T."</expresión>
+<análise>
+<análise_unidade>
+<unidade>"</unidade>
+<constituínte>
+<forma>"</forma>
+<etiqueta>Q"</etiqueta>
+<lema>"</lema>
+<hiperlema>"</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>Somos</unidade>
+<constituínte>
+<forma>somos</forma>
+<etiqueta>Vpi10p</etiqueta>
+<lema>ser</lema>
+<hiperlema>ser</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>S. T</unidade>
+<constituínte>
+<forma>S. T</forma>
+<etiqueta>Sp00</etiqueta>
+<lema>S. T</lema>
+<hiperlema></hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>.</unidade>
+<constituínte>
+<forma>.</forma>
+<etiqueta>Q.</etiqueta>
+<lema>.</lema>
+<hiperlema>.</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>"</unidade>
+<constituínte>
+<forma>"</forma>
+<etiqueta>Q"</etiqueta>
+<lema>"</lema>
+<hiperlema>"</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

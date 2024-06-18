@@ -102,6 +102,9 @@ class Sentence
 
     tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
 
+    # ESLORA workaround
+    tokens = merge_pausa_larga(tokens)
+
     #STDERR.puts "\n\n(tokenize) tokens0:#{tokens}"
 
     tokens_new = Array.new
@@ -125,16 +128,24 @@ class Sentence
           tokens_new << $1 if $1 and $1 != ""
           tokens_new << $2 if $2 and $2 != ""
       # We separate ,:'- from not numeric words and simbols at the end of any word and -' at the beginning
-      elsif token != "" and token =~ /^(['\-\()]?)([a-záéíóúñàèìòùäëïöüçâêîôûãõA-ZÑÁÉÍÓÚÀÈÌÒÙÄËÏÖÜÇÂÊÎÔÛ0-9<\/>\+\-=º@.]+)([']?)([,:\-\)]?)$/
+      elsif token != "" and token =~ /^(['\-\()]?)(['\-\()]?)([\p{L}0-9<\/>\+\-=º@.]+)([']?)([.,:\-\)]?)([.,:\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
         tokens_new << $4 if $4 and $4 != ""
+        tokens_new << $5 if $5 and $5 != ""
+        tokens_new << $6 if $6 and $6 != ""
       # We separate ,:'-) from numbers at the end of any word
       elsif token != "" and token =~ /^([\(]?)([\-]?[0-9]+[,\.]?[0-9+]?)([,:'\-\)]?)$/
         tokens_new << $1 if $1 and $1 != ""
         tokens_new << $2 if $2 and $2 != ""
         tokens_new << $3 if $3 and $3 != ""
+      # Allow parens as prefixes inside words: (des)orde
+      elsif token != "" and token =~ /\A\((?=\p{L}+\)\p{L}+)/
+        tokens_new.push(*token.split(/([,:'])/).reject { |t| t == "" })
+      # Allow parens as suffixes inside words: todos(as)
+      elsif token != "" and token =~ /\A\p{L}+\(\p{L}+\)/
+        tokens_new.push(*token.split(/([,:'])/).reject { |t| t == "" })
       # Split parents
       elsif token != "" and token =~/[\(\)]/ and token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+\([a-záéíóúñA-ZÑÁÉÍÓÚ0-9]+\)[a-záéíóúñA-ZÑÁÉÍÓÚ0-9]*\.?[,:']?$/ and token !~ /^[A-Za-z0-9]\)$/ and
         token !~ /^[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+'[a-záéíóúñA-ZÑÁÉÍÓÚ0-9\-]+/
@@ -187,6 +198,21 @@ class Sentence
     # STDERR.puts "(tokenize) tokens (final):#{tokens}"
 
     return tokens
+  end
+
+  def merge_pausa_larga(tokens)
+    i = 0
+    result = []
+    while i < tokens.length
+      if tokens[i] == '<pausa' && tokens[i + 1] == '_' && tokens[i + 2] == 'larga/>'
+        result << '<pausa_larga/>'
+        i += 3
+      else
+        result << tokens[i]
+        i += 1
+      end
+    end
+    result
   end
 
   def restore_chunk_exclude_segmentation(tokens, letter_replacement, removed_info)
@@ -718,7 +744,7 @@ class Sentence
     #  !first_words_in_lexicon))
     if (token.token_type == :standard) and (token.text.length == 1 or ((token.text.length > 1) and
       (@acronyms[token.text] == nil) and (@abbreviations[token.text] == nil)))
-      token.replace_text(StringUtils.first_to_lower(token.text)) 
+      token.replace_text(StringUtils.first_to_lower(token.text))
     end
     #STDERR.puts "first token after first_to_lower: #{token.text}"
   end

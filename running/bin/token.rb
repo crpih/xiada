@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
+require 'yaml'
 require_relative 'sentence.rb'
 require_relative 'tag.rb'
-
 class Token
 
-  attr_reader :prevs, :nexts, :text, :token_type, :tags, :token_id, :from_viterbi, :tagged, :nexts_ignored, :chunk_entity_exclude_transform
-  attr_accessor :from, :to, :nexts_ignored, :qualifying_info, :length # ??? from and to must be updated throw change_from and change_to
+  attr_accessor :prevs, :nexts, :text, :token_type, :tags, :token_id, :from_viterbi, :tagged, :nexts_ignored, :chunk_entity_exclude_transform, :from, :to, :nexts_ignored, :qualifying_info, :length # ??? from and to must be updated throw change_from and change_to
 
   def initialize(sentence_text, text, type, from, to)
     @sentence_text = sentence_text # Necessary because Marshall does not work with sentence itself.
@@ -63,10 +62,25 @@ class Token
   end 
 
   def deep_copy_reset_links
-    token = Marshal.load(Marshal.dump(self))
-    token.assign_id
-    token.reset_nexts
-    token.reset_prevs
+    token = Token.new(@sentence_text.dup, @text.dup, @token_type, @from, @to)
+    token.nexts_ignored = Marshal.load(Marshal.dump(@nexts_ignored))
+
+    # FIXME: Horrors ahead!
+    # Here be dragons! Deep copy of tags and tag objects to prevent ruby from crashing on marshall dump.
+    # The problem is that the tag objects have a reference to the token object, and the token object has a reference to the tag object.
+    # This is a circular reference that makes ruby crash when trying to marshall dump the token object.
+    # Probably a ruby bug, but we cannot reproduce it and our current version (2.7.2) is unsupported.
+    token.tags = @tags.each_with_object({}) do |(tag, tag_object), result|
+      tag_copy = tag_object.dup
+      tag_copy.instance_variable_set(:@token, nil)
+      tag_deep_copy = Marshal.load(Marshal.dump(tag_copy))
+      tag_deep_copy.instance_variable_set(:@token, token)
+      result[tag] = tag_deep_copy
+    end
+    token.tagged = @tagged
+    token.from_viterbi = @from_viterbi
+    token.qualifying_info = Marshal.load(Marshal.dump(@qualifying_info))
+    token.chunk_entity_exclude_transform = @chunk_entity_exclude_transform
     return token
   end
 

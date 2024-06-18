@@ -17,9 +17,11 @@ class NumeralsProcessor
       end
     end
   end
-  
+
   def process
-    process_ordinals
+    # TODO: ordinals can't be joined: primer segundo must be separated
+    # IDEA: Treat the same way than cardinals (generated lexicon)
+    # process_ordinals
     process_numbers
     process_cardinals
   end
@@ -44,7 +46,7 @@ class NumeralsProcessor
       token = token.next
     end
   end
-  
+
   def process_numbers
     token = @sentence.first_token.next
     while token.token_type != :end_sentence
@@ -52,7 +54,7 @@ class NumeralsProcessor
         if is_number(token.text)
           if token.text[token.text.length-1,1] == "%"
             token.text.chop!
-            token.add_tag_lemma_emission(@variables["percentage_number_tag"], token.text, token.text, 0.0, false)
+            token.add_tag_lemma_emission(@variables["percentage_number_tag"], token.text, nil, 0.0, false)
             new_token = Token.new(@sentence.text, "%", :standard, token.from, token.to)
             #new_token.add_tag_lemma_emission(@variables["percentage_symbol_tag"],"%",0.0, false)
             token.nexts.keys.each do |token_aux|
@@ -65,7 +67,7 @@ class NumeralsProcessor
             token.add_next(new_token)
           else
             @variables["tags_for_numbers"].each do |tag|
-              token.add_tag_lemma_emission(tag, token.text, token.text, 0.0, false)
+              token.add_tag_lemma_emission(tag, token.text, nil, 0.0, false)
             end
             process_percent_continuation(token)
           end
@@ -78,12 +80,12 @@ class NumeralsProcessor
       token = token.next
     end
   end
-  
+
   def process_cardinals
     process_lexicon_cardinals
     process_thousands_cardinals
   end
-  
+
   def process_lexicon_cardinals
    token = @sentence.first_token.next
     while token.token_type != :end_sentence
@@ -96,7 +98,7 @@ class NumeralsProcessor
           cardinal = token.text
           def_ids = @dw.get_cardinal_ids(cardinal)
           end_token = token unless def_ids.empty? # Cardinal detected
-          
+
           ids_index = 2
           token = token.next
           while token.token_type == :standard
@@ -130,7 +132,7 @@ class NumeralsProcessor
       token = token.next if token.token_type != :end_sentence
     end # from while token.token_type != :end_sentence
   end
-  
+
   def process_thousands_cardinals
     token = @sentence.first_token.next
     while token.token_type != :end_sentence
@@ -139,7 +141,7 @@ class NumeralsProcessor
         if token.text == @variables["multiword_link"]
           from = token
           to = token
-        
+
           prev_token_bool = false
           prev_token = token.prev
           prev_result = nil
@@ -150,7 +152,7 @@ class NumeralsProcessor
               prev_token_bool = true
             end
           end
-          
+
           next_token_bool = false
           next_token = token.next
           next_result = nil
@@ -172,7 +174,7 @@ class NumeralsProcessor
                 lemmas_prev << result[1]
               end
             end
-          
+
             tags_next = Array.new
             lemmas_next = Array.new
             if next_token_bool
@@ -181,7 +183,7 @@ class NumeralsProcessor
                 lemmas_next << result[1]
               end
             end
-          
+
             #puts "tags_prev: #{tags_prev} tags_next:#{tags_next}"
             tags = nil
             lemma = nil
@@ -194,14 +196,14 @@ class NumeralsProcessor
               tags = tags_next
             end
             lemma = combine_lemmas_thousands(lemmas_prev, lemmas_next)
-            join_thousands_cardinal(from, to, tags, lemma, lemma)
+            join_thousands_cardinal(from, to, tags, lemma, nil)
           end
         end # from if token.text == @variables["multiword_link"]
       end # from if token.token_type == :standard
       token = token.next if token.token_type != :end_sentence
     end # from while
   end
-  
+
   def gender(etqs)
     gender_letter = nil
     gender_letter_old = nil
@@ -216,7 +218,7 @@ class NumeralsProcessor
     end
     return gender_letter
   end
-  
+
   def combine_tags_thousands(etqs1, etqs2)
     gender1 = gender(etqs1)
     gender2 = gender(etqs2)
@@ -232,7 +234,7 @@ class NumeralsProcessor
     #return etqs1 if gender2 == nil
     return etqs1
   end
-  
+
   def combine_lemmas_thousands(lemmas1, lemmas2)
     if lemmas1.empty?
       lemma = "mil " + lemmas2[0]
@@ -243,10 +245,10 @@ class NumeralsProcessor
     end
     return lemma
   end
-  
+
   def join_cardinal(from, to)
     token = from
-    
+
     if from != to
       new_token_from = from.from
       new_token_to = to.to
@@ -270,12 +272,12 @@ class NumeralsProcessor
     end
     return token
   end
-  
+
   def join_lexicon_cardinal(from, to)
     #puts "joining lexicon cardinal from:#{from.text} to #{to.text}"
     token = from
     token = join_cardinal(from, to) if from != to
-    
+
     # First, we add tags included in the lexicon
     inside_lexicon = false
     results = @dw.get_emissions_info(token.text, nil)
@@ -302,7 +304,7 @@ class NumeralsProcessor
       process_percent_continuation(token)
     end
   end
-  
+
   def join_thousands_cardinal(from, to, tags, lemma, hiperlemma)
     #puts "joining lexicon cardinal from:#{from.text} to #{to.text}"
     token = join_cardinal(from, to)
@@ -311,7 +313,7 @@ class NumeralsProcessor
     end
     process_percent_continuation(token)
   end
-  
+
   def process_percent_continuation(token)
     next_token = token.next
     value = @variables["percentage_idiom"]
@@ -322,7 +324,7 @@ class NumeralsProcessor
       end
     end
   end
-  
+
   def is_potential_ordinal(token)
     results = @dw.get_emissions_info(token.text, nil)
     results.each do |result|
@@ -332,7 +334,7 @@ class NumeralsProcessor
     end
     return false
   end
-  
+
   def get_ordinal_end(token)
     last_token = token
     while token.token_type == :standard and is_potential_ordinal(token) and !(token.tagged?)
@@ -341,10 +343,10 @@ class NumeralsProcessor
     end
     return last_token
   end
-  
+
   def join_and_tag_ordinal(from, to)
     #puts "Joining ordinal from:#{from.text} to:#{to.text}"
-    token = from 
+    token = from
     if from != to
       lemma = nil
       results = @dw.get_emissions_info(token.text, nil)
@@ -385,7 +387,7 @@ class NumeralsProcessor
       results = @dw.get_emissions_info(to.text, nil)
       results.each do |result|
         if result[0] =~ /#{@variables["ordinal_tag"]}/
-          new_token.add_tag_lemma_emission(result[0], lemma, lemma, Float(result[3]), false)
+          new_token.add_tag_lemma_emission(result[0], lemma, nil, Float(result[3]), false)
         end
       end
       new_token.replace_prevs(from.prevs)
@@ -398,7 +400,7 @@ class NumeralsProcessor
     end
     return token
   end
-  
+
   def is_number(text)
     # if text =~ /^[+-]?[0-9]+[.,\/:]?[0-9]*[%]?$/ old
     if text =~ /^[+-]?[0-9]+([.,\/:' ][0-9]+)*[%]?$/
@@ -406,6 +408,6 @@ class NumeralsProcessor
     end
     return false
   end
-  
+
 end
-  
+

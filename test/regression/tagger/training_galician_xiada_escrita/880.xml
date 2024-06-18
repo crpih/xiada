@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document><document_content><oración>
+<expresión>Futuro financeiro</expresión>
+<análise>
+<análise_unidade>
+<unidade>Futuro</unidade>
+<constituínte>
+<forma>futuro</forma>
+<etiqueta>Scms</etiqueta>
+<lema>futuro</lema>
+<hiperlema>futuro</hiperlema>
+</constituínte>
+</análise_unidade>
+<análise_unidade>
+<unidade>financeiro</unidade>
+<constituínte>
+<forma>financeiro</forma>
+<etiqueta>A0ms</etiqueta>
+<lema>financeiro</lema>
+<hiperlema>financeiro</hiperlema>
+</constituínte>
+</análise_unidade>
+</análise>
+</oración>
+</document_content></document>

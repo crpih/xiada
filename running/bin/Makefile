@@ -8,3 +8,5 @@ compile_galician_xiada_oral_rules:
 compile_spanish_eslora_rules:
 	cat enclitics_processor.base.rb | ruby enclitic_verbs_rules_compiler.rb ../spanish_eslora/enclitic_verbs_rules.xml | ruby enclitic_pronouns_rules_compiler.rb ../spanish_eslora/enclitic_pronouns_rules.xml > ../spanish_eslora/enclitics_processor.rb
 	cat ../spanish_eslora/pruning_rules.txt | ruby pruning_rules_compiler.rb > ../spanish_eslora/pruning_system.rb
+compile_tagset_evaluation_rules:
+	cat ../tagset_evaluation/pruning_rules.txt | ruby pruning_rules_compiler.rb > ../spanish_eslora/pruning_system.rb

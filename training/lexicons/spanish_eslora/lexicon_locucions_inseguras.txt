@@ -416,7 +416,6 @@ a lo disimulado	W	a lo disimulado
 a lo grande	W	a lo grande
 a el oído	W	a el oído
 a lo jácaro	W	a lo jácaro
-a el ojo	W	a el ojo
 a lo largo de	X	a lo largo de
 a lo largo	W	a lo largo
 a lo lejos	W	a lo lejos
@@ -425,7 +424,6 @@ a lo letrado	W	a lo letrado
 a lo loco	W	a lo loco
 a el olor de	X	a el olor de
 a lo más, más	W	a lo más, más
-a lo mejor	W	a lo mejor
 a lo moderno	W	a lo moderno
 a lomos	W	a lomos
 a lo que salga	W	a lo que salga
@@ -948,7 +946,6 @@ codo con codo	W	codo con codo
 como quiera que	C	como quiera que
 como si	C	como si
 como también	C	como también
-como tampoco	C	como tampoco
 comparativamente a	X	comparativamente a
 con arreglo a	X	con arreglo a
 con bombos y platillos	W	con bombos y platillos
@@ -1673,7 +1670,6 @@ en vivas carnes	W	en vivas carnes
 en vivo	W	en vivo
 en volandas	W	en volandas
 en volandillas	W	en volandillas
-en voz	W	en voz
 en zaga	W	en zaga
 erre que erre	W	erre que erre
 es decir	W	es decir
@@ -1919,7 +1915,6 @@ por triplicado	W	por triplicado
 por último	W	por último
 por unanimidad	W	por unanimidad
 por un lado	W	por un lado
-por vez	W	por vez
 por vía de buen gobierno	W	por vía de buen gobierno
 por vía oral	W	por vía oral
 por vía	W	por vía

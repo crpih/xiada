@@ -13,10 +13,7 @@ class EncliticsProcessorCustom
     final_recovery_words = Hash.new
     relevant_tokens = Array.new
     infos = @dw.get_enclitic_verb_roots_info(verb_part, verb_tags.split(" "))
-    infos.each do |info|
-      tag_value = info[0]
-      lemma = info[1]
-      hiperlemma = info[2]
+    infos.each do |_root, tag_value, lemma, hiperlemma, _extra|
       results = @dw.get_recovery_info(verb_part, tag_value, lemma, true)
       if results.empty?
         results = @dw.get_recovery_info(verb_part, tag_value, lemma, false)

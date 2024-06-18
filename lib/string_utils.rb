@@ -54,7 +54,7 @@ class StringUtils
   end
 
   def self.first_only_upper?(str)
-    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]+$/ 
+    if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\.\-\)\(\/]+$/
       return true
     else
       return false
@@ -77,6 +77,10 @@ class StringUtils
     end
   end
 
+  def self.proper_noun_with_single_quote_in_the_middle?(str)
+    /\A\p{Lu}\p{Ll}*'\p{Lu}\p{Ll}*\z/.match?(str)
+  end
+
   def self.propers_joined?(str)
     if str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]+[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Barcelona-Tarragona
@@ -84,6 +88,8 @@ class StringUtils
        # YouTube
        str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/]*)*&[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñäëïöüàèìòùçâêîôûãõ@\-\)\(\/) ]*$/ ||
        # Dolce&Gabbana
+       str =~ /^[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]&[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ]$/
+       # H&M
        str =~ /^([A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/]*)*'[A-ZÂÊÎÔÛÁÉÍÓÚÑÀÈÌÒÙÄËÏÖÜÃÕ][a-záéíóúñàèìòùçäëïöüâêîôûãõ@\-\)\(\/)]+$/
        # L'Oréal
        # Gerry O'Connor
@@ -117,25 +123,16 @@ class StringUtils
     end
   end
 
+  def self.roman_numeral?(str)
+    if str =~/\AM{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})\z/
+      return true
+    else
+      return false
+    end
+  end
+
   def self.without_tilde(str)
-    str = str.gsub(/Á/, "A")
-    str = str.gsub(/É/, "E")
-    str = str.gsub(/Í/, "I")
-    str = str.gsub(/Ó/, "O")
-    str = str.gsub(/Ú/, "U")
-    str = str.gsub(/Ü/, "U")
-    str = str.gsub(/Ö/, "O")
-    str = str.gsub(/Ä/, "A")
-    str = str.gsub(/á/, "a")
-    str = str.gsub(/é/, "e")
-    str = str.gsub(/í/, "i")
-    str = str.gsub(/ó/, "o")
-    str = str.gsub(/ú/, "u")
-    str = str.gsub(/ü/, "u")
-    str = str.gsub(/ö/, "o")
-    str = str.gsub(/ä/, "a")
-    str = str.gsub(/ë/, "e")
-    return str
+    str.unicode_normalize(:nfd).gsub(/\p{Non_Spacing_Mark}/, '').unicode_normalize(:nfc)
   end
 
   def self.replace_xml_conflicting_characters(string)
@@ -162,10 +159,10 @@ class StringUtils
       'o' => 'ó',
       'u' => 'ú'
     }.freeze
-    
+
     accented = vowels.values.join.freeze
     base_word = self.to_lower(word)
-    
+
     combinations = base_word.each_grapheme_cluster.map { |c| vowels.key?(c) ? [c, vowels[c]] : [c] }
     words = combinations.inject(['']) do |word_combinations, char_combinations|
       char_combinations.flat_map do |char|

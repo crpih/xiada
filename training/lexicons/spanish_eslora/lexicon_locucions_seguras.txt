@@ -2,6 +2,7 @@ a desmano	W	a desmano
 a granel	W	a granel
 aire acondicionado	NCMS	aire acondicionado
 a el chou	W	a el chou
+a lo mejor	W	a lo mejor
 a posteriori	W	a posteriori
 a priori	W	a priori
 a raja tabla	W	a raja tabla
@@ -130,3 +131,13 @@ un poquitito	W	un poco
 un poquito	PQNS	un poco
 un poquito	W	un poco
 uve doble	NCFS	uve doble
+Full HD	NPEL	Full High Definition
+Iberia Express	NPEL	Iberia Express
+a través	W	a través
+case study	NCMS	case study
+chan chan chan	I	chan chan chan
+cimpo	VIP1S	cimpar
+duty free	NCMS	duty free
+jamón de york	NCMS	jamón de york
+meritisimus	NCMS	meritisimus 
+pasarlas canutas	VNP	pasarlas canutas

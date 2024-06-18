@@ -4,6 +4,7 @@ require "dbi"
 require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
 require_relative "../bin/lemmatizer.rb"
+require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
@@ -17,9 +18,9 @@ class DatabaseWrapper
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
     when "galician_xiada"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     when "galician_xiada_oral"
-      @lemmatizer.extend(LemmatizerGalicianXiada)
+      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     end
   end
 
@@ -43,6 +44,19 @@ class DatabaseWrapper
     return result
   end
 
+  def get_emissions_info_variants(word, tags, variants)
+    result = get_emissions_info(word, tags)
+    if result.empty?
+      variants.each do |variant|
+        if variant
+          result = get_emissions_info(variant, tags)
+          return result unless result.empty?
+        end
+      end
+    end
+    return result
+  end
+
   def get_tags_lemmas_emissions_strict(word, tags)
     # this function doen't check for suffix analysis nor open tags.
     return get_emissions_info(word, tags)
@@ -54,7 +68,7 @@ class DatabaseWrapper
     result = get_emissions_info(word, tags)
     if result.empty?
       result = @lemmatizer.lemmatize(word, tags)
-      #result = get_emissions_info(word, tags)
+      # result = get_emissions_info(word, tags)
       # STDERR.puts "result.empty: next result: #{}"
       if result.empty?
         if (tags == nil) or (tags.empty?)
@@ -77,26 +91,17 @@ class DatabaseWrapper
   end
 
   def get_guesser_result(suffixes, lemma, tags)
-    result = []
-    query = "select tag,null,null,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
-    query << "and tag in (#{get_possible_tags(tags)})" if tags
+    query = "select tag,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
+    query << "and tag in (#{get_possible_tags(tags)})" if tags&.any?
     query << "order by length desc"
 
-    row_index = 1
-    @db.execute(query) do |row|
-      row[1] = lemma if lemma
-      if row_index == 1
-        max_length = Integer(row[3])
-        result << row
-      elsif Integer(row[3]) == max_length
-        result << row
-      else
-        # max_length_undefined
-        break
-      end
-      row_index = row_index + 1
-    end
-    result
+    rows = @db.execute(query)
+    return [] if rows.empty?
+
+    max_length = rows.first.last
+
+    rows.filter { |_tag, _lob_b, length| length == max_length }
+        .map { |tag, lob_b| [tag, lemma, nil, lob_b] }
   end
 
   def get_open_tags_lemmas_emissions(word)
@@ -108,7 +113,6 @@ class DatabaseWrapper
     end
     return result
   end
-
   def get_bigram_probability(tag_j, tag_k)
     result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
     if result == nil
@@ -118,26 +122,35 @@ class DatabaseWrapper
     end
   end
 
+  TRIGRAM_MUTEX = Mutex.new
+
   def get_trigram_probability(tag_i, tag_j, tag_k)
-    #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
-    result = @db.get_first_value("select log_aijk from trigram_frequencies where ti='#{SQLUtils.escape_SQL(tag_i)}' and tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
-    if result == nil
-      result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
-      if result == nil
-        result = @db.get_first_value("select log_ak from unigram_frequencies where tk='#{SQLUtils.escape_SQL(tag_k)}'")
-        #STDERR.puts "Unigram found:#{tag_k} probability:#{result}"
-        return Float(result)
-      else
-        # STDERR.puts "Bigram found:#{tag_j},#{tag_k} probability:#{result}"
-        return Float(result)
-      end
-    else
-      # STDERR.puts "Trigram found:#{tag_i},#{tag_j},#{tag_k} probability:#{result}"
-      return Float(result)
+    # Prepared statements are not thread safe, so we need to synchronize access to them.
+    # Even with synchronization, this is faster than dynamic queries.
+    TRIGRAM_MUTEX.synchronize do
+      # Cache prepared statements. This will run only the first time.
+      @trigram_stm ||= @db.prepare("select log_aijk from trigram_frequencies where ti=? and tj=? and tk=? limit 1")
+      @bigram_stm ||= @db.prepare("select log_ajk from bigram_frequencies where tj=? and tk=? limit 1")
+      @unigram_stm ||= @db.prepare("select log_ak from unigram_frequencies where tk=? limit 1")
+
+      #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
+      result = @trigram_stm.execute!(tag_i, tag_j, tag_k).first&.first ||
+        @bigram_stm.execute!(tag_j, tag_k).first&.first ||
+        @unigram_stm.execute!(tag_k).first&.first
+
+      # Statements must be reset before they can be used again.
+      # See: https://github.com/sparklemotion/sqlite3-ruby/issues/158
+      @trigram_stm.reset!
+      @bigram_stm.reset!
+      @unigram_stm.reset!
+      result
     end
   end
 
   def close
+    @trigram_stm&.close
+    @bigram_stm&.close
+    @unigram_stm&.close
     @db.close
   end
 
@@ -323,38 +336,6 @@ class DatabaseWrapper
     return result
   end
 
-  def get_enclitic_verbs_roots_info(left_candidate)
-    #STDERR.puts "left_candidate: #{left_candidate}"
-    result = []
-    @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
-      result << row
-    end
-    if result.empty?
-      #STDERR.puts "kk: #{@lemmatizer.lemmatize_verb_with_enclitics(left_candidate)}"
-      @db.execute("select root,tag,lemma, hiperlemma from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
-        result << row
-      end
-    end
-    return result
-  end
-
-  def get_enclitic_verbs_roots_tags(left_candidate)
-    #STDERR.puts "left_candidate: #{left_candidate}"
-    result = Array.new
-    @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(left_candidate)}'") do |row|
-      result << row[0]
-    end
-    if result.empty?
-      #STDERR.puts "result.empty"
-      #temp = SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))
-      #STDERR.puts "temp:#{temp}"
-      @db.execute("select tag from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(left_candidate))}'") do |row|
-        result << row[0]
-      end
-    end
-    return result
-  end
-
   def enclitic_combination_exists?(combination)
     result = Array.new
     @db.execute("select combination, length from enclitic_combinations where combination='#{SQLUtils.escape_SQL(combination)}'") do |row|
@@ -377,9 +358,11 @@ class DatabaseWrapper
   end
 
   # It does not work for segmental ambiguity inside enclitic pronouns. It does not
-  # exist for Galician language
+  # exist for Galician language. It does not work if we have two different token decomposition for the main contraction too:
+  # contracted_form = token1 + token2 and contracted_form = token3 + token4, where token3 is different from token1 or token4 is different from token2.
   def insert_word_tag_lemma(result, entry, word, tag, lemma, position)
-    #puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    #STDERR.puts "result:#{result}"
     if result[entry] == nil
       result[entry] = Array.new
     end
@@ -409,6 +392,7 @@ class DatabaseWrapper
     result = Hash.new
     @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
       pronoun_category = @db.get_first_value("select category from tags_info where name='pronoun'")
+      #STDERR.puts "\nrow:#{row}"
       if row[2] =~ /#{pronoun_category}/
         unless insert_word_tag_lemma(result, row[0], row[1], row[2], row[3], 1)
           puts "Insertion error for contraction:#{row[0]} (first component)"
@@ -431,29 +415,27 @@ class DatabaseWrapper
     return result
   end
 
+  def get_enclitic_verbs_roots_info(left_candidate)
+    get_enclitic_verb_roots_info(left_candidate, nil)
+  end
+
+  def get_enclitic_verbs_roots_tags(left_candidate)
+    get_enclitic_verbs_roots_info(left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag}
+  end
+
   def get_enclitic_verb_roots_info(root, tags)
-    result = []
-    if (tags == nil) or (tags.empty?)
-      @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}'") do |row|
-        result << row
-      end
-      if result.empty?
-        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}'") do |row|
-          result << row
-        end
+    variants = @lemmatizer.lemmatize_verb_with_enclitics(root)
+    if tags.nil? || tags.empty?
+      variants.each_with_object([]) do |variant, result|
+        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
+        result.push(*@db.execute(query, variant))
       end
     else
-      tag_string = get_possible_tags(tags)
-      @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(root)}' and tag in (#{tag_string})") do |row|
-        result << row
+      variants.each_with_object([]) do |variant, result|
+        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
+        result.push(*@db.execute(query, variant, *tags))
       end
-      if result.empty?
-        @db.execute("select tag,lemma,hiperlemma,extra from enclitic_verbs_roots where root='#{SQLUtils.escape_SQL(@lemmatizer.lemmatize_verb_with_enclitics(root))}' and tag in (#{tag_string})") do |row|
-          result << row
-        end
-      end       
     end
-    return result
   end
 
   def get_recovery_info(verb_part, tag, lemma, from_lexicon)
@@ -462,6 +444,15 @@ class DatabaseWrapper
     from_lexicon_integer = 1 if from_lexicon
     result = Array.new
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
+      if verb_part =~ /gh/ && row[0] !~ /gh/
+        row[0].gsub!("g","gh")
+      end
+      unless ENV['XIADA_SESEO'].nil?
+        s_positions = verb_part.each_char.with_index.filter_map { |c, i| i if c == 's' }
+        s_positions.each do |index|
+          row[0][index] = 's' if row[0][index] == 'c'
+        end
+      end
       result << row
     end
     return restore_lemmatization(verb_part, result)
@@ -517,8 +508,6 @@ class DatabaseWrapper
     return true
   end
 
-  private
-
   def get_possible_tags(tags)
     result = ""
     tags.each do |tag|
@@ -531,6 +520,20 @@ class DatabaseWrapper
     end
     result
   end
+
+  def get_most_frequent_lemma(word, tag, lemmas)
+    query = <<~SQL
+      SELECT lemma
+      FROM word_tag_lemma_frequencies
+      WHERE word = ? AND tag = ? AND lemma IN (#{(['?'] * lemmas.length).join(',')})
+      ORDER BY normative DESC, frequency DESC
+      LIMIT 1
+    SQL
+    # If (word, tag, lemma) is not found, return the first lemma in the list
+    @db.execute(query, word, tag, *lemmas)&.first&.first || lemmas.first
+  end
+
+  private
 
   def get_tags_from_regexp(tag_regexp)
     result = ""
@@ -620,11 +623,25 @@ class DatabaseWrapper
   end
 
   def restore_lemmatization(verb_part, result)
-    result.each do |row|
-      row[0] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_word(verb_part, row[0])
-      row[2] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_lemma(verb_part, row[2])
-      row[3] = @lemmatizer.lemmatize_verb_with_enclitics_reverse_hiperlemma(verb_part, row[3])
+    # This is a CORGA prefix rule, but it is the same as eslora one.
+    # We use it in the common code by now.
+    # Tags are irrelevant in this case, since the DB search was already done.
+    auto_rule = Lemmas::AutoRule.new([])
+    result.map do |word, tag, lemma, hiperlemma, log_b|
+      next [word, tag, lemma, hiperlemma, log_b] unless verb_part.start_with?('auto')
+
+      # Query was done before calling this function, so we build a query-result chain that simulates striping the prefix.
+      original_query = Lemmas::Query.new(nil, verb_part, [])
+      without_auto_query = Lemmas::Query.new(original_query, word, [])
+      query_result = Lemmas::Result.new(without_auto_query, nil, tag, lemma, hiperlemma, log_b)
+      # We only need to restore the lemma and hyperlemma, since the query is already correct.
+      auto_result = auto_rule.apply_result(query_result)
+      # TODO: Change rules and Result code to restore also the word.
+      # It is irrelevant for most cases, but has to be done for enclitic verbs:
+      # - autorresponsabilizándose => autorresponsabilizan + se
+      # Current one, incorrect accent
+      # - autorresponsabilizándose => autorresponsabilizán + se
+      [auto_result.word, tag, auto_result.lemma, auto_result.hyperlemma, log_b]
     end
-    return result
   end
 end

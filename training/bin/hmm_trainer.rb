@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 require "rubygems"
+require "csv"
 require "dbi"
 require "sqlite3"
 require_relative "ngrams.rb"
@@ -12,38 +13,27 @@ class HMMTrainer
   EMPTY_WORD = "###"
   MAX_SUFFIX_LENGTH = 10
   MAX_OCCURRENCES = 10
-  MEMMORY = true
 
   def initialize(corpus_file_name, tags_info_file)
     @corpus_file_name = corpus_file_name
     @tags_info = load_tags_info(tags_info_file)
-    @ngrams = Ngrams.new(EMPTY_TAG, MEMMORY)
-    @words = Words.new(EMPTY_WORD, MEMMORY)
+    @ngrams = Ngrams.new(EMPTY_TAG)
+    @words = Words.new(EMPTY_WORD)
     @suffixes = nil
   end
 
   def preload_external_lexicon(lexicon_file_name)
     puts "Preloading external lexicon... (#{lexicon_file_name})"
     lexicon_words_count = 0
-    File.open(lexicon_file_name, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          content = line.split(/\t/)
-          if content.size == 4
-            word, tag, lemma, hiperlemma = content
-          else
-            word, tag, lemma = content
-            hiperlemma = ""
-          end
-          puts "word:#{word} does not have tag and/or lemma" if tag.empty? or lemma.empty?
-          @words.add_word(word, tag, lemma, hiperlemma, true)
-          lexicon_words_count = lexicon_words_count + 1
-        end
-      end
-      puts "Lexicon:"
-      puts "\twords:#{lexicon_words_count}"
+    CSV.foreach(lexicon_file_name, col_sep: "\t") do |word, tag, lemma, hyperlemma, normative|
+      hyperlemma = "" if hyperlemma.nil?
+      normative = normative == 's'
+      puts "word:#{word} does not have tag and/or lemma" if tag.nil? || tag == '' || lemma.nil? || lemma == ''
+      @words.add_word(word, tag, lemma, hyperlemma, true, normative)
+      lexicon_words_count = lexicon_words_count + 1
     end
+    puts "Lexicon:"
+    puts "\twords:#{lexicon_words_count}"
   end
 
   def train
@@ -67,17 +57,14 @@ class HMMTrainer
         #puts "line:-#{line}-"
         if not line.empty?
           word, tag, lemma = line.split(/\t/)
-          if @words.get_lemmas(word, tag) and @words.get_lemmas(word, tag)[0][1]
-            hiperlemma = @words.get_lemmas(word, tag)[0][1]
-          else
-            hiperlemma = ""
-          end
+          hiperlemma = @words.get_hiperlemma(lemma, tag)
           corpus_words_count = corpus_words_count + 1
           # puts "word,tag,lemma:#{word},#{tag},#{lemma}\n"
           @ngrams.add_unigram(tag)
           @ngrams.add_bigram(tag_prev, tag)
           @ngrams.add_trigram(tag_prev_prev, tag_prev, tag)
-          @words.add_word(word, tag, lemma, hiperlemma, false)
+          normative = @words.get_normative(word, tag, lemma)
+          @words.add_word(word, tag, lemma, hiperlemma, false, normative)
           tag_prev_prev = tag_prev
           tag_prev = tag
         else
@@ -115,7 +102,7 @@ class HMMTrainer
     puts "Calculating word emission probabilities..."
     @words.calculate_probabilities
     puts "Building suffixes..."
-    @suffixes = BasicSuffixes.new(EMPTY_WORD, MAX_SUFFIX_LENGTH, MAX_OCCURRENCES, @words, @tags_info, MEMMORY)
+    @suffixes = BasicSuffixes.new(EMPTY_WORD, MAX_SUFFIX_LENGTH, MAX_OCCURRENCES, @words, @tags_info)
     @suffixes.calculate_frequencies
     puts "Calculating suffixes probabilities..."
     @suffixes.calculate_probabilities
@@ -194,6 +181,12 @@ class HMMTrainer
       end
     end
 
+    puts "Building table word_tag_lemma_frequencies..."
+    db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, normative boolean, frequency integer, primary key(word,tag,lemma,normative))")
+    @words.word_tag_lemma_count.each do |(word, tag, lemma, normative), count|
+      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, normative, frequency) VALUES (?, ?, ?, ?, ?)', word, tag, lemma, normative ? 1 : 0, count)
+    end
+
     db.execute("create table integer_values (variable_name text, value integer)")
     db.execute("insert into integer_values (variable_name, value) values ('corpus_size','#{@ngrams.corpus_size}')")
     db.execute("insert into integer_values (variable_name, value) values ('real_corpus_size','#{@ngrams.real_corpus_size}')") # excluding nils
@@ -227,6 +220,9 @@ class HMMTrainer
     puts "Building indexes..."
     db.execute("create index emission_word_index on emission_frequencies(word)")
     db.execute("create index emission_word_tag_index on emission_frequencies(word,tag)")
+
+    # For DatabaseWrapper#get_recovery_info
+    db.execute("create index emission_frequencies_lemma_tag_index ON emission_frequencies (lemma, tag)")
 
     db.close
   end

@@ -36,7 +36,7 @@ http://corpus.cirp.gal/xiada
 
     In Debian stable:
 
-        sudo apt-get install libgdbm3 libgdbm-dev libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
+        sudo apt-get install libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
 
 1. Clone the repo:
 
@@ -158,3 +158,42 @@ Or, as the output of the tagger is not very nice (it is not indented), we use to
 
     ruby running/bin/xiada_tagger.rb -v -x running/spanish_eslora/xml_values.txt -f input.xml training/databases/spanish_eslora/training_spanish_eslora.db | xmllint --format - > output.xml
 
+## Build docker image
+
+Build image with:
+
+```bash
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora:latest .
+
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .
+```
+
+Existing training databases are copied inside the image.
+Por 4000 is exposed.
+`XIADA_PROFILE` must be defined to run the container. 
+
+## Testing
+
+### Execute all tests
+
+```bash
+bundle exec rake test
+```
+
+### Execute all tests for one profile:
+
+```
+bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora/
+```
+
+### Execute only a test
+
+Specify file and test name as a regular expression. Example execute only the ESLORA regression test of `1.xml` file:
+
+```bash
+bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name="/spanish_eslora.*_1.xml/"
+```
+
+### Save tests results for reference
+
+Define the environment variable `XIADA_SAVE_RESULT=1` and execute tests.

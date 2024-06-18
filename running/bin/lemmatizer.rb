@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 require_relative "../spanish_eslora/lemmatizer.rb"
-require_relative "../galician_xiada/lemmatizer.rb"
 require_relative "../../lib/sql_utils.rb"
 
 class Lemmatizer
@@ -10,14 +9,11 @@ class Lemmatizer
   end
 
   def lemmatize(word, tags)
-    return word ? word : "*"
+    return []
+    #return word ? word : "*"
   end
 
   def lemmatize_verb_with_enclitics(left_part)
-    return left_part
-  end
-
-  def lemmatize_verb_with_enclitics_reverse(original_left_part, left_part)
     return left_part
   end
 

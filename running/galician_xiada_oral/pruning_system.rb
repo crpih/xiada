@@ -18,20 +18,32 @@ end
 if (window[0][0] =~ /^(nas|Nas)$/) and (window[0][1] =~ /^(Raa3fp)$/) and (match_some_lemma(window[0][2],"o")) and (window[0][3] =~ /^(nas)$/)
 return 1
 end
-# RULE: menos|máis|,W.,_,_	con,P,con,ca	a,Ddfs,o,_,x
-if (window[0][0] =~ /^(menos|máis|)$/) and (window[0][1] =~ /^(W.)$/) and (window[1][0] =~ /^(con)$/) and (window[1][1] =~ /^(P)$/) and (match_some_lemma(window[1][2],"con")) and (window[1][3] =~ /^(ca)$/) and (window[2][0] =~ /^(a)$/) and (window[2][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[2][2],"o"))
+# RULE: menos|máis|,W.,_,_	con,P,con,_	a,Ddfs,o,_,x
+if (window[0][0] =~ /^(menos|máis|)$/) and (window[0][1] =~ /^(W.)$/) and (window[1][0] =~ /^(con)$/) and (window[1][1] =~ /^(P)$/) and (match_some_lemma(window[1][2],"con")) and (window[2][0] =~ /^(a)$/) and (window[2][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[2][2],"o"))
 return 3
 end
-# RULE: con,P,con,ca	a,Ddfs,o,_,x	_,*m.|*fp,_,_
-if (window[0][0] =~ /^(con)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"con")) and (window[0][3] =~ /^(ca)$/) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][1] =~ /^(.*m.|.*fp)$/)
+# RULE: con,P,con,_	a,Ddfs,o,_,x	_,S.m.|A.m.|V0x*|V0f*,_,_
+if (window[0][0] =~ /^(con)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"con")) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][1] =~ /^(S.m.|A.m.|V0x.*|V0f.*)$/)
 return 2
+end
+# RULE: dona,Scfs,dona|dono,_,x	_,Spf0,_,_
+if (window[0][0] =~ /^(dona)$/) and (window[0][1] =~ /^(Scfs)$/) and (match_some_lemma(window[0][2],"dona|dono")) and (window[1][1] =~ /^(Spf0)$/)
+return 1
 end
 # RULE: con,P,con,ca	a,Ddfs,o,_,x	_,D*|E*|M*m.|I.m.|R*|*p,_,_
 if (window[0][0] =~ /^(con)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"con")) and (window[0][3] =~ /^(ca)$/) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(Ddfs)$/) and (match_some_lemma(window[1][2],"o")) and (window[2][1] =~ /^(D.*|E.*|M.*m.|I.m.|R.*|.*p)$/)
 return 2
 end
-# RULE: a|as|o|os,Dd*,_,!á|!da|!coa|!na|!cá|!prá|!ás|!das|!coas|!nas|!cás|!prás|!ó|!ao|!do|!co|!no|!có|!pró|!ós|!aos|!dos|!cos|!nos|!cós|!prós,x	_,V.i*|V.s*|V0m*,_,_
-if (window[0][0] =~ /^(a|as|o|os)$/) and (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] !~ /^(á|!da|!coa|!na|!cá|!prá|!ás|!das|!coas|!nas|!cás|!prás|!ó|!ao|!do|!co|!no|!có|!pró|!ós|!aos|!dos|!cos|!nos|!cós|!prós)$/) and (window[1][1] =~ /^(V.i.*|V.s.*|V0m.*)$/)
+# RULE: a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_
+if (window[0][0] =~ /^(a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s)$/) and (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] !~ /^(á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/)
+return 1
+end
+# RULE: a|as|o|os,Scm.,_,_,x	_,V.i*|V.s*,_,_
+if (window[0][0] =~ /^(a|as|o|os)$/) and (window[0][1] =~ /^(Scm.)$/) and (window[1][1] =~ /^(V.i.*|V.s.*)$/)
+return 1
+end
+# RULE: a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós,x	_,V.f*|V0x*,_,_
+if (window[0][0] =~ /^(a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s)$/) and (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] !~ /^(á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós)$/) and (window[1][1] =~ /^(V.f.*|V0x.*)$/)
 return 1
 end
 # RULE: a|as|o|os,Dd*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,V.i*|V.s*,_,_

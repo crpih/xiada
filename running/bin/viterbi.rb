@@ -56,7 +56,7 @@ class Viterbi
           if tag.lemmas.keys.empty?
             print "\t*"
           else
-            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys]}"
+            print "\t#{tag.lemmas.keys[0]}\t#{tag.hiperlemmas[tag.lemmas.keys[0]]}"
           end
           puts ""
         end
@@ -76,14 +76,13 @@ class Viterbi
         if tag.token.token_type == :standard
           result = result + "#{tag.token.text}\t#{tag.value}"
           if tag.lemmas.keys.empty?
-            result = result + "\t*"
+            result +="\t*\t*\t#{tag.token.from}\t#{tag.token.to}"
           else
-            lemma = tag.lemmas.keys[0]
+            lemma = @dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
             hiperlemma = tag.hiperlemmas[lemma]
-            result = result + "\t#{lemma}"
-            result = result + "/#{hiperlemma}" if hiperlemma!=nil && hiperlemma!="" && hiperlemma != lemma
+            result += "\t#{lemma}\t#{hiperlemma}\t#{tag.token.from}\t#{tag.token.to}"
           end
-          result = result + "\t\t"
+          result = result + "\n"
         end
       end
     end
@@ -194,7 +193,21 @@ class Viterbi
         results.each do |result|
           tag_value = result[0]
           lemma = result[1]
-          hiperlemma = result[2]
+
+          # Use assigned hiperlemma if exists
+          token_tag_object = token.tags[tag_value]
+          hiperlemma =
+            if token_tag_object
+              token_assigned_hiperlemma = token_tag_object.hiperlemmas[lemma]
+              if token_assigned_hiperlemma.nil? || token_assigned_hiperlemma.empty?
+                result[2]
+              else
+                token_assigned_hiperlemma
+              end
+            else
+              result[2]
+            end
+
           #STDERR.puts "tag_value:#{tag_value}, lemma:#{lemma}, hiperlemma:#{hiperlemma}"
           log_b = Float(result[3])
           #STDERR.puts "log_b:#{log_b}"
@@ -871,10 +884,22 @@ class Viterbi
           puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
           if token.chunk_entity_exclude_transform
             puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-            puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
           else
             puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-            puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>" if hiperlemma_tag
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
           end
           puts "</#{tag_lemma_tag}>"
         end
@@ -902,13 +927,24 @@ class Viterbi
           puts "<#{lemma_tag}>*</#{lemma_tag}>"
           puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
         else
-          tag_object.lemmas.keys.each do |lemma|
-            if token.chunk_entity_exclude_transform
-              puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-              puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>" if hiperlemma_tag
-            else
-              puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-              puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>" if hiperlemma_tag
+          lemma = @dw.get_most_frequent_lemma(token.text, tag, tag_object.lemmas.keys)
+          if token.chunk_entity_exclude_transform
+            puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
+            end
+          else
+            puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
+            if hiperlemma_tag
+              if tag_object.hiperlemmas[lemma]
+                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
+              else
+                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
+              end
             end
           end
         end
