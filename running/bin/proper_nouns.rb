@@ -4,34 +4,30 @@ require 'active_support/core_ext/module/delegation'
 
 class ProperNouns
 
-  Literal = Struct.new(:text, :tag_lemmas)
+  Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
   class Segment
     attr_reader :range, :text, :tag_lemmas
     delegate :begin, :end, :size, to: :range
 
-    def initialize(range, text, tag_lemmas)
+    def initialize(range, text, tag_lemmas, lexicon)
       @range = range
       @text = text
       @tag_lemmas = tag_lemmas
+      @lexicon = lexicon
     end
+
+    def lexicon? = @lexicon
 
     def overlaps?(other) = range.overlaps?(other.range)
 
     def merge(source_text, other)
       merged_range = [range.begin, other.begin].min...[range.end, other.end].max
       merge_text = source_text[merged_range]
-      merged_tag_lemmas = if range.cover?(other.range)
-                            tag_lemmas
-                          elsif other.range.cover?(range)
-                            other.tag_lemmas
-                          else
-                            [*tag_lemmas, *other.tag_lemmas].map(&:first).uniq.map { |t| [t, merge_text] }.sort
-                          end
-      Segment.new(merged_range, merge_text, merged_tag_lemmas)
+      Segment.new(merged_range, merge_text, merge_tag_lemmas(other, merge_text), lexicon? || other.lexicon?)
     end
 
-    def to_literal = Literal.new(text, tag_lemmas)
+    def to_literal = Literal.new(text, tag_lemmas, @lexicon)
 
     def to_s = inspect
 
@@ -40,11 +36,38 @@ class ProperNouns
     def ==(other)
       other.is_a?(Segment) && range == other.range && text == other.text && tag_lemmas == other.tag_lemmas
     end
+
+    private
+
+    # Lexicon has priority always. In case of tie, merge all tags and set lemma to the merge text
+    def merge_tag_lemmas(other, merge_text)
+      if lexicon? && other.lexicon? || !lexicon? && !other.lexicon?
+        merge_tags_tie(other, merge_text)
+      elsif lexicon? && range.cover?(other.range)
+        tag_lemmas
+      elsif lexicon?
+        tag_lemmas.map { |t, _| [t, merge_text] }
+      elsif other.lexicon? && other.range.cover?(range)
+        other.tag_lemmas
+      else # other.lexicon?
+        other.tag_lemmas.map { |t, _| [t, merge_text] }
+      end
+    end
+
+    def merge_tags_tie(other, merge_text)
+      if range.cover?(other.range)
+        tag_lemmas
+      elsif other.range.cover?(range)
+        other.tag_lemmas
+      else
+        [*tag_lemmas, *other.tag_lemmas].map(&:first).uniq.sort.map { |t| [t, merge_text] }
+      end
+    end
   end
 
   def self.parse_literals_file(file_path)
     CSV.read(file_path, col_sep: "\t").to_a.group_by(&:first).map do |text, elements|
-      Literal.new(text, elements.map { |_, tag, lemma| [tag, lemma] })
+      Literal.new(text, elements.map { |_, tag, lemma| [tag, lemma] }, true)
     end
   end
 
@@ -109,7 +132,7 @@ class ProperNouns
       next if start_index.nil?
 
       range = start_index...(start_index + literal.text.size)
-      Segment.new(range, text[range], literal.tag_lemmas)
+      Segment.new(range, text[range], literal.tag_lemmas, literal.lexicon)
     end
   end
 
@@ -117,22 +140,49 @@ class ProperNouns
     # Candidate proper noun positions are uppercase letters that are not at the beginning of the text
     candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && !i.zero? }
     ranges = candidate_starts.filter_map do |i|
-      # Special case: quoted uppercase word not at the beginning: nave "Soyuz" Bill Shepherd
-      quotes_match_data = text[(i - 1)..].match(/\A["']([^\p{Z}|\p{P}]+)["'](:?\p{Z}|\p{P}|\z)/)
-      next (i - 1)...(i + quotes_match_data[1].size + 1) if quotes_match_data && i >= 1
-
-      # Special case: road names
-      road_match_data = text[i..].match(/[A-Z]+-\d+/)
-      next i...(i + road_match_data[0].size) if road_match_data
-
-      # Check two previous characters before candidate uppercase letter
-      # If the previous character is not a close punctuation and the one before is a space, it is a proper noun
-      # Proper noun is captured until the next punctuation or space
-      match_data = text[(i - 2)..].match(/\A[^!?.)]\p{Z}([^\p{Z}|\p{P}]+)(:?\p{Z}|\p{P}|\z)/)
-      next if match_data.nil?
-
-      i...(i + match_data[1].size) if match_data[1].size > 1
+      wrapped_proper_noun_range(i, text, '"', '"', true) ||
+        wrapped_proper_noun_range(i, text, '\'', '\'', true) ||
+        wrapped_proper_noun_range(i, text, '(', ')', false) ||
+        unambiguous_proper_noun_range(i, text)
     end
-    ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort) }
+    ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort, false) }
+  end
+
+  def unambiguous_proper_noun_range(i, text)
+    return unless text[(i - 2)..].match?(/\A[^!?.)]\p{Z}/)
+
+    match_data = match_proper_noun(text[i..])
+    return unless match_data && match_data[1].size > 1
+
+    i...(i + match_data[1].size)
+  end
+
+  def wrapped_proper_noun_range(i, text, start_char, end_char, include_wrappers)
+    return if i == 1 || text[i - 1] != start_char
+
+    match_data = match_proper_noun(text[i..])
+    return unless match_data && match_data[1].size > 1 && text[i + match_data[1].size] == end_char
+
+    offset = include_wrappers ? 1 : 0
+    (i - offset)...(i + match_data[1].size + offset)
+  end
+
+  def match_proper_noun(text)
+    text.match(/
+      \A(
+        # Camel case (YouTube)
+        \p{Upper}\p{Lower}+(?:\p{Upper}\p{Lower}+)+ |
+        # Separated by one hyphen (Barcelona-Tarragona)
+        \p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+ |
+        # With & in the middle (H&M)
+        \p{Upper}\p{Lower}*&\p{Upper}\p{Lower}* |
+        # With ' in the middle (L'Oréal)
+        \p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+ |
+        # Road names (C-31)
+        \p{Upper}+-\d+ |
+        # Regular proper noun
+        \p{Upper}\p{Lower}+
+      )
+    /x)
   end
 end
