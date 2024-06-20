@@ -3,6 +3,7 @@ require 'sinatra'
 require_relative 'database_wrapper'
 require_relative 'viterbi'
 require_relative 'sentence'
+require_relative 'proper_nouns'
 
 DW = DatabaseWrapper.new("training/databases/#{ENV['XIADA_PROFILE']}/training_#{ENV['XIADA_DATABASE']}.db")
 ACRONYMS = DW.get_acronyms.each_with_object({}) { |a, r| r[a] = 1 }.freeze

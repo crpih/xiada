@@ -58,7 +58,7 @@ class Viterbi
         hiperlemma = tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]
       end
 
-      { token: tag.token.text, tag: tag.value, lemma:, hiperlemma:, from: tag.token.from, to: tag.token.to }
+      { token: tag.token.text, tag: tag.value, lemma:, hiperlemma:, start: tag.token.from, finish: tag.token.to }
     end
   end
 

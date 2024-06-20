@@ -3,7 +3,6 @@ require 'active_support/core_ext/object/blank'
 require_relative "token.rb"
 require_relative "contractions_processor.rb"
 require_relative "idioms_processor.rb"
-require_relative "propernouns_processor.rb"
 require_relative "numerals_processor.rb"
 require_relative "../#{ENV["XIADA_PROFILE"]}/enclitics_processor.rb"
 require_relative "../../lib/string_utils.rb"
@@ -201,7 +200,7 @@ class Sentence
       prev_token = token
     end
     @current_last_token = prev_token
-    @current_text_offset = @text.length
+    @current_text_offset += text.length
   end
 
   def add_proper_noun(text, tag_lemmas)
@@ -211,7 +210,7 @@ class Sentence
     token.add_prev(@current_last_token)
     @current_last_token.add_next(token)
     @current_last_token = token
-    @current_text_offset = @text.length
+    @current_text_offset += text.length
   end
 
   def process_acronym_abbreviation_contraction_stuff
@@ -338,11 +337,6 @@ class Sentence
   def idioms_processing
     processor = IdiomsProcessor.new(self, @dw)
     processor.process
-  end
-
-  def proper_nouns_processing(trained_proper_nouns, remove_join_opt)
-    processor = ProperNounsProcessor.new(self, @dw, remove_join_opt)
-    processor.process(trained_proper_nouns)
   end
 
   def numerals_processing
