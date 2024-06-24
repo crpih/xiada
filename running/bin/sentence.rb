@@ -28,9 +28,14 @@ class Sentence
     @current_last_token = @first_token
     @current_text_offset = 0
 
-    proper_nouns_processor.call(text).each do |segment|
-      segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
+    if proper_nouns_processor
+      proper_nouns_processor.call(text).each do |segment|
+        segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
+      end
+    else
+      add_chunk(text)
     end
+
     finish
   end
 
