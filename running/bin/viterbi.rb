@@ -62,43 +62,61 @@ class Viterbi
     end
   end
 
-  def print_best_way_xml_with_alternatives(sentence_tag, expression_tag, expression_attributes, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                           tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, expression,
-                                           qualifying_tag)
-    if @tags == nil
-      STDERR.puts "ERROR: No valid way for this sentence"
-    else
-      #puts @sentence.print
-      puts "<#{sentence_tag}#{expression_attributes}>\n"
-      puts "<#{expression_tag}>#{expression}</#{expression_tag}>\n"
-      if @some_info
-        puts "<#{analysis_tag}>"
-        print_best_way_xml_with_alternatives_recursive(@sentence.first_token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag, tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-        puts "</#{analysis_tag}>"
+  def alternatives
+    token = @sentence.first_token
+    token = token.next if token.token_type == :begin_sentence
+    result = []
+    while token.token_type != :end_sentence
+      if token.token_type == :standard
+        result << format_token_with_alternatives(token)
+        token = token.next
+      elsif token.token_type == :begin_alternative
+        last_tokens_alternatives = token.nexts.keys.map { |t| alternative(t) }
+        last_tokens, alternatives = last_tokens_alternatives.transpose
+        last_token = last_tokens.last
+        result << { from: token.from, to: last_token.prev.to, alternatives: }
+        token = last_token
+      else
+        raise "Unexpected token type: #{token.token_type}"
       end
-      puts "</#{sentence_tag}>"
     end
-  end
-
-  def print_best_way_xml_without_alternatives(sentence_tag, expression_tag, expression_attributes, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                              constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, expression,
-                                              qualifying_tag)
-    if @tags == nil
-      STDERR.puts "ERROR: No valid way for this sentence"
-    else
-      #puts @sentence.print
-      puts "<#{sentence_tag}#{expression_attributes}>\n"
-      puts "<#{expression_tag}>#{expression}</#{expression_tag}>\n"
-      if @some_info
-        puts "<#{analysis_tag}>"
-        print_best_way_xml_without_alternatives_recursive(@sentence.first_token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-        puts "</#{analysis_tag}>"
-      end
-      puts "</#{sentence_tag}>"
-    end
+    result
   end
 
   private
+
+  def alternative(token)
+    tokens = []
+    selected = token.some_tag_selected?
+    while token.token_type != :end_alternative
+      tokens << format_token_with_alternatives(token)
+      token = token.next
+    end
+    [token.next, { selected:, tokens: }]
+  end
+
+  def format_token_with_alternatives(token)
+    tags = []
+    lemmas = []
+    hiperlemmas = []
+    token.tags.values.each do |tag|
+      tags << { tag: tag.value, selected: tag.selected? }
+      if tag.lemmas.keys.empty?
+        lemmas << "*"
+        hiperlemmas << "*"
+      else
+        lemma = @dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys)
+        lemmas << lemma
+        hiperlemmas << (tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma])
+      end
+    end
+
+    tags.uniq! { |tag| tag[:tag] }
+    lemmas.uniq!
+    hiperlemmas.uniq!
+
+    { token: token.text, tags:, lemmas:, hiperlemmas:, start: token.from, finish: token.to }
+  end
 
   def reset_viterbi(sentence)
     reset_viterbi_token(sentence.first_token, 1)
@@ -559,371 +577,6 @@ class Viterbi
     end
 
     return tags_way
-  end
-
-  def print_best_way_xml_with_alternatives_recursive(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag, tag_lemma_tag,
-                                                     constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                     qualifying_tag)
-    #STDERR.puts "\n(print_best_way_xml_with_alternatives_recursive) token:#{token.text} type:#{token.token_type}"
-    if token != nil
-      if token.token_type == :standard
-        #STDERR.puts"standard: #{token.text}"
-        token = print_standard_unit(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                    tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                    qualifying_tag)
-        print_best_way_xml_with_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                       qualifying_tag)
-      elsif (token.token_type == :begin_sentence)
-        # print ignored tokens
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        print_best_way_xml_with_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                       qualifying_tag)
-      elsif token.token_type == :begin_alternative
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        token = print_alternative_unit(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                       qualifying_tag)
-        print_best_way_xml_with_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                       qualifying_tag)
-      elsif token.token_type == :end_alternative
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        print_best_way_xml_with_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                       qualifying_tag)
-      end
-    end
-  end
-
-  def print_best_way_xml_without_alternatives_recursive(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                                                        form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-    #STDERR.puts "\n(print_best_way_xml_without_alternatives_recursive) token:#{token.text} type:#{token.token_type}"
-    if token != nil
-      if token.token_type == :standard
-        token = print_valid_only_standard_unit(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag, form_tag,
-                                               tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-        print_best_way_xml_without_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                                          constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                          qualifying_tag)
-      elsif (token.token_type == :begin_sentence)
-        # print ignored tokens
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        print_best_way_xml_without_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                                          constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                          qualifying_tag)
-      elsif token.token_type == :begin_alternative
-        #        token = print_alternative_unit(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-        #                                       tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-        #                                       qualifying_tag)
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        token.nexts.keys.each do |token_aux|
-          if token_aux.some_tag_selected?
-            print_best_way_xml_without_alternatives_recursive(token_aux, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                                              constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                              qualifying_tag)
-          end
-        end
-      elsif token.token_type == :end_alternative
-        token.nexts_ignored.each do |token_aux|
-          puts "<#{analysis_unit_tag}>"
-          puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-          token_aux.qualifying_info.keys.each do |info|
-            puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-          end
-          puts "</#{analysis_unit_tag}>"
-        end
-        print_best_way_xml_without_alternatives_recursive(token.next, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                                          constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                                          qualifying_tag)
-      end
-    end
-  end
-
-  def print_way(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                qualifying_tag)
-    prev_token = token
-    while (token.token_type != :end_alternative)
-      prev_token = token
-      print_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                  form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-      token = token.next
-    end
-    return prev_token
-  end
-
-  def print_alternative_unit(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag, tag_lemma_tag,
-                             constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                             qualifying_tag)
-    #puts "PRINTING ALTERNATIVE UNIT"
-
-    last_token = nil
-    puts "<#{analysis_unit_tag}>"
-    puts "<#{unit_tag}>#{StringUtils.replace_xml_conflicting_characters(@sentence.get_text(token.from, token.to))}</#{unit_tag}>"
-    token.qualifying_info.keys.each do |info|
-      puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-    end
-    puts "<#{alternatives_tag}>"
-
-    token.nexts.keys.each do |token_aux|
-      print "<#{alternative_tag}"
-      print " #{valid_attr}=\"#{positive_valid_value}\"" if token_aux.some_tag_selected?
-      puts ">"
-      #puts "PRINTING WAY"
-      last_token = print_way(token_aux, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                             tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                             qualifying_tag)
-      puts "</#{alternative_tag}>"
-    end
-
-    puts "</#{alternatives_tag}>"
-    puts "</#{analysis_unit_tag}>"
-
-    #puts "END PRINTING ALTERMATIVE UNIT"
-
-    return last_token
-  end
-
-  def print_standard_unit(token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                          tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                          qualifying_tag)
-    first_token = token
-    prev_token_aux = token
-    token_aux = token.next
-    while token_aux.from == token.from and token_aux.to == token.to
-      prev_token_aux = token_aux
-      token_aux = token_aux.next
-    end
-    last_token = prev_token_aux
-    print_unit_aux(first_token, last_token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                   tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                   qualifying_tag)
-    return last_token
-  end
-
-  def print_valid_only_standard_unit(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                                     form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value, qualifying_tag)
-    first_token = token
-    prev_token_aux = token
-    token_aux = token.next
-    while token_aux.from == token.from and token_aux.to == token.to and token_aux.token_type == :standard
-      prev_token_aux = token_aux
-      token_aux = token_aux.next
-    end
-    last_token = prev_token_aux
-    #STDERR.puts "(print_valid_only_standard_unit): first_token: #{first_token.text}, last_token: #{last_token.text} first_token_type:#{first_token.token_type} last_token_type:#{last_token.token_type}"
-    print_valid_only_unit_aux(first_token, last_token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                              constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                              qualifying_tag)
-    return last_token
-  end
-
-  def print_unit_aux(first_token, last_token, analysis_tag, analysis_unit_tag, unit_tag, alternatives_tag, alternative_tag,
-                     tag_lemma_tag, constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                     qualifying_tag)
-    puts "<#{analysis_unit_tag}>"
-    #puts "first_token: #{first_token.text} token_type:#{first_token.token_type} from:#{first_token.from} to:#{first_token.to}"
-    if first_token.chunk_entity_exclude_transform
-      puts "<#{unit_tag}>#{@sentence.get_text(first_token.from, first_token.to)}</#{unit_tag}>"
-    else
-      puts "<#{unit_tag}>#{StringUtils.replace_xml_conflicting_characters(@sentence.get_text(first_token.from, first_token.to))}</#{unit_tag}>"
-    end
-    first_token.qualifying_info.keys.each do |info|
-      puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-    end
-    puts "<#{alternatives_tag}>"
-    puts "<#{alternative_tag} #{valid_attr}=\"#{positive_valid_value}\">"
-    token = first_token
-    while token != last_token
-      print_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                  form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-      token = token.next
-    end
-    print_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-    puts "</#{alternative_tag}>"
-    puts "</#{alternatives_tag}>"
-    puts "</#{analysis_unit_tag}>"
-    # print ignored tokens
-    #puts "last_token: #{last_token.text} token_type:#{last_token.token_type} from:#{last_token.from} to:#{last_token.to}"
-    last_token.nexts_ignored.each do |token_aux|
-      puts "<#{analysis_unit_tag}>"
-      puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-      token_aux.qualifying_info.keys.each do |info|
-        puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-      end
-      puts "</#{analysis_unit_tag}>"
-    end
-  end
-
-  def print_valid_only_unit_aux(first_token, last_token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag,
-                                constituent_tag, form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value,
-                                qualifying_tag)
-    puts "<#{analysis_unit_tag}>"
-    #STDERR.puts "(print_valid_only_unit_aux) first_token: #{first_token.text} token_type:#{first_token.token_type} from:#{first_token.from} to:#{first_token.to}"
-    if first_token.chunk_entity_exclude_transform
-      puts "<#{unit_tag}>#{@sentence.get_text(first_token.from, first_token.to)}</#{unit_tag}>"
-    else
-      puts "<#{unit_tag}>#{StringUtils.replace_xml_conflicting_characters(@sentence.get_text(first_token.from, first_token.to))}</#{unit_tag}>"
-    end
-    first_token.qualifying_info.keys.each do |info|
-      puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-    end
-    token = first_token
-    while token != last_token
-      print_valid_only_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                             form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-      token = token.next
-    end
-    print_valid_only_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                           form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-    puts "</#{analysis_unit_tag}>"
-    # print ignored tokens
-    last_token.nexts_ignored.each do |token_aux|
-      puts "<#{analysis_unit_tag}>"
-      puts "<#{unit_tag}>#{token_aux.text}</#{unit_tag}>"
-      token_aux.qualifying_info.keys.each do |info|
-        puts "<#{qualifying_tag}>#{info}</#{qualifying_tag}>"
-      end
-      puts "</#{analysis_unit_tag}>"
-    end
-  end
-
-  def print_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                  form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-    # STDERR.puts "token.text: #{token.text}"
-    puts "<#{constituent_tag}>"
-    if token.chunk_entity_exclude_transform
-      puts "<#{form_tag}>#{token.text}</#{form_tag}>"
-    else
-      puts "<#{form_tag}>#{StringUtils.replace_xml_conflicting_characters(token.text)}</#{form_tag}>"
-    end
-    token.tags.keys.sort.each do |tag|
-      tag_object = token.tags[tag]
-      if tag_object.lemmas.empty?
-        print "<#{tag_lemma_tag}"
-        print " #{valid_attr}=\"#{positive_valid_value}\"" if tag_object.selected?
-        puts ">"
-        puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
-        puts "<#{lemma_tag}>*</#{lemma_tag}>"
-        puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
-        puts "</#{tag_lemma_tag}>"
-      else
-        one_valid = false
-        tag_object.lemmas.keys.each do |lemma|
-          print "<#{tag_lemma_tag}"
-          if tag_object.selected? and !one_valid
-            one_valid = true
-            print " #{valid_attr}=\"#{positive_valid_value}\""
-          end
-          puts ">"
-          puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
-          if token.chunk_entity_exclude_transform
-            puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-            if hiperlemma_tag
-              if tag_object.hiperlemmas[lemma]
-                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
-              else
-                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-              end
-            end
-          else
-            puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-            if hiperlemma_tag
-              if tag_object.hiperlemmas[lemma]
-                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
-              else
-                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-              end
-            end
-          end
-          puts "</#{tag_lemma_tag}>"
-        end
-      end
-    end
-    puts "</#{constituent_tag}>"
-  end
-
-  def print_valid_only_token(token, analysis_tag, analysis_unit_tag, unit_tag, tag_lemma_tag, constituent_tag,
-                             form_tag, tag_tag, lemma_tag, hiperlemma_tag, valid_attr, positive_valid_value)
-    # STDERR.puts "(print_valid_only_token) token:#{token.text}"
-    puts "<#{constituent_tag}>"
-    if token.chunk_entity_exclude_transform
-      puts "<#{form_tag}>#{token.text}</#{form_tag}>"
-    else
-      puts "<#{form_tag}>#{StringUtils.replace_xml_conflicting_characters(token.text)}</#{form_tag}>"
-    end
-    token.tags.keys.sort.each do |tag|
-      tag_object = token.tags[tag]
-      one_valid = false
-      if tag_object.selected? and !one_valid
-        one_valid = true
-        puts "<#{tag_tag}>#{tag}</#{tag_tag}>"
-        if tag_object.lemmas.empty?
-          puts "<#{lemma_tag}>*</#{lemma_tag}>"
-          puts "<#{hiperlemma_tag}>*</#{hiperlemma_tag}>" if hiperlemma_tag
-        else
-          lemma = @dw.get_most_frequent_lemma(token.text, tag, tag_object.lemmas.keys)
-          if token.chunk_entity_exclude_transform
-            puts "<#{lemma_tag}>#{lemma}</#{lemma_tag}>"
-            if hiperlemma_tag
-              if tag_object.hiperlemmas[lemma]
-                puts "<#{hiperlemma_tag}>#{tag_object.hiperlemmas[lemma]}</#{hiperlemma_tag}>"
-              else
-                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-              end
-            end
-          else
-            puts "<#{lemma_tag}>#{StringUtils.replace_xml_conflicting_characters(lemma)}</#{lemma_tag}>"
-            if hiperlemma_tag
-              if tag_object.hiperlemmas[lemma]
-                puts "<#{hiperlemma_tag}>#{StringUtils.replace_xml_conflicting_characters(tag_object.hiperlemmas[lemma])}</#{hiperlemma_tag}>"
-              else
-                puts "<#{hiperlemma_tag}></#{hiperlemma_tag}>"
-              end
-            end
-          end
-        end
-      end
-    end
-    puts "</#{constituent_tag}>"
   end
 
   def some_info?
