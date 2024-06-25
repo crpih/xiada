@@ -62,7 +62,7 @@ class Viterbi
     end
   end
 
-  def alternatives
+  def all_ways
     token = @sentence.first_token
     token = token.next if token.token_type == :begin_sentence
     result = []
@@ -71,10 +71,8 @@ class Viterbi
         result << format_token_with_alternatives(token)
         token = token.next
       elsif token.token_type == :begin_alternative
-        last_tokens_alternatives = token.nexts.keys.map { |t| alternative(t) }
-        last_tokens, alternatives = last_tokens_alternatives.transpose
-        last_token = last_tokens.last
-        result << { from: token.from, to: last_token.prev.to, alternatives: }
+        last_token, alternatives = alternatives(token)
+        result << alternatives
         token = last_token
       else
         raise "Unexpected token type: #{token.token_type}"
@@ -85,12 +83,27 @@ class Viterbi
 
   private
 
+  def alternatives(token)
+    last_tokens_alternatives = token.nexts.keys.map { |t| alternative(t) }
+    last_tokens, alternatives = last_tokens_alternatives.transpose
+    last_token = last_tokens.last
+    [last_token, { from: token.from, to: last_token.prev.to, alternatives: }]
+  end
+
   def alternative(token)
     tokens = []
     selected = token.some_tag_selected?
     while token.token_type != :end_alternative
-      tokens << format_token_with_alternatives(token)
-      token = token.next
+      if token.token_type == :standard
+        tokens << format_token_with_alternatives(token)
+        token = token.next
+      elsif token.token_type == :begin_alternative
+        last_token, alternatives = alternatives(token)
+        tokens << alternatives
+        token = last_token
+      else
+        raise "Unexpected token type: #{token.token_type}"
+      end
     end
     [token.next, { selected:, tokens: }]
   end
@@ -111,11 +124,12 @@ class Viterbi
       end
     end
 
-    tags.uniq! { |tag| tag[:tag] }
-    lemmas.uniq!
-    hiperlemmas.uniq!
-
-    { token: token.text, tags:, lemmas:, hiperlemmas:, start: token.from, finish: token.to }
+    { token: token.text,
+      tags: tags.uniq { |t| t[:tag] },
+      lemmas: lemmas.uniq,
+      hiperlemmas: hiperlemmas.uniq,
+      start: token.from,
+      finish: token.to }
   end
 
   def reset_viterbi(sentence)

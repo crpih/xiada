@@ -74,7 +74,7 @@ set :default_content_type, :json
 
 post '/tagger/alternatives' do
   handle_tagger_request do |text, proper_nouns_processor|
-    tag_text(text, proper_nouns_processor).alternatives
+    tag_text(text, proper_nouns_processor).all_ways
   end
 end
 
