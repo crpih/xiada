@@ -87,7 +87,7 @@ class Viterbi
     last_tokens_alternatives = token.nexts.keys.map { |t| alternative(t) }
     last_tokens, alternatives = last_tokens_alternatives.transpose
     last_token = last_tokens.last
-    [last_token, { from: token.from, to: last_token.prev.to, alternatives: }]
+    [last_token, { start: token.from, finish: last_token.prev.to, alternatives: }]
   end
 
   def alternative(token)
@@ -98,9 +98,7 @@ class Viterbi
         tokens << format_token_with_alternatives(token)
         token = token.next
       elsif token.token_type == :begin_alternative
-        last_token, alternatives = alternatives(token)
-        tokens << alternatives
-        token = last_token
+        raise "Unexpected nested alternative"
       else
         raise "Unexpected token type: #{token.token_type}"
       end
@@ -109,27 +107,19 @@ class Viterbi
   end
 
   def format_token_with_alternatives(token)
-    tags = []
-    lemmas = []
-    hiperlemmas = []
+    tag_lemmas = []
     token.tags.values.each do |tag|
-      tags << { tag: tag.value, selected: tag.selected? }
-      if tag.lemmas.keys.empty?
-        lemmas << "*"
-        hiperlemmas << "*"
-      else
-        lemma = @dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys)
-        lemmas << lemma
-        hiperlemmas << (tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma])
-      end
+      lemma, hiperlemma =
+        if tag.lemmas.keys.empty?
+          %w[* *]
+        else
+          [@dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys),
+           tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]]
+        end
+      tag_lemmas << { tag: tag.value, selected: tag.selected?, lemma:, hiperlemma: }
     end
 
-    { token: token.text,
-      tags: tags.uniq { |t| t[:tag] },
-      lemmas: lemmas.uniq,
-      hiperlemmas: hiperlemmas.uniq,
-      start: token.from,
-      finish: token.to }
+    { token: token.text, tag_lemmas: tag_lemmas.uniq, start: token.from, finish: token.to }
   end
 
   def reset_viterbi(sentence)
