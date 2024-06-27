@@ -113,8 +113,8 @@ class Viterbi
         if tag.lemmas.keys.empty?
           %w[* *]
         else
-          [@dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys),
-           tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]]
+          lemma = @dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys)
+          [lemma, tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]]
         end
       tag_lemmas << { tag: tag.value, selected: tag.selected?, lemma:, hiperlemma: }
     end
