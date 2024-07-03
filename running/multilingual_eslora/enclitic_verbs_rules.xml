@@ -23,11 +23,11 @@
       <target>verb_part</target>
       <content>
         <evaluation at="end">ói</evaluation>
-      </content>      
+      </content>
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vei30s</evaluation>
+          <evaluation at="anywhere">VIS3S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -141,7 +141,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vfi20s</evaluation>
+          <evaluation at="anywhere">VIF2S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -162,7 +162,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="all">Vfi30s</evaluation>
+          <evaluation at="all">VIF3S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -183,7 +183,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vfi30p</evaluation>
+          <evaluation at="anywhere">VIF3P</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -204,7 +204,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s OR V0f10s OR V0f30s OR V0f000</evaluation>
+          <evaluation at="anywhere">VSF1S OR VSF3S OR VSF4S OR V0f10s OR V0f30s OR VNP</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -243,7 +243,7 @@
             <condition>
               <target>verb_tags</target>
               <content>
-                <evaluation at="anywhere">Vei10s</evaluation>
+                <evaluation at="anywhere">VIS1S</evaluation>
               </content>
               <condition>
                 <target>enclitic_part</target>
@@ -290,7 +290,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s V0f10s OR V0f30s OR V0f000</evaluation>
+          <evaluation at="anywhere">VSF1S OR VSF3S OR VSF4S V0f10s OR V0f30s OR VNP</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -359,7 +359,7 @@
           <condition>
             <target>verb_tags</target>
             <content>
-              <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s OR V0f10s OR V0f30s OR V0f000</evaluation>
+              <evaluation at="anywhere">VSF1S OR VSF3S OR VSF4S OR V0f10s OR V0f30s OR V0f000</evaluation>
             </content>
             <condition>
               <target>enclitic_part</target>
@@ -389,7 +389,7 @@
         <condition>
           <target>verb_tags</target>
           <content>
-            <evaluation at="anywhere">V0m20s OR Vpi30s</evaluation>
+            <evaluation at="anywhere">VMP2S OR VIP3S</evaluation>
           </content>
           <condition>
             <target>enclitic_part</target>
@@ -417,7 +417,7 @@
         <condition>
           <target>verb_tags</target>
           <content>
-            <evaluation at="anywhere">Vpi20s</evaluation>
+            <evaluation at="anywhere">VIP2S</evaluation>
           </content>
           <condition>
             <target>enclitic_part</target>
@@ -440,7 +440,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">V0m20s OR Vpi30s OR Vpi30p</evaluation>
+          <evaluation at="anywhere">VMP2S OR VIP3S OR VIP3P</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -467,7 +467,7 @@
         <condition>
           <target>verb_tags</target>
           <content>
-            <evaluation at="anywhere">V0f000 OR V0f10s OR V0f30s</evaluation>
+            <evaluation at="anywhere">VNP OR V0f10s OR V0f30s</evaluation>
           </content>
           <condition>
             <target>enclitic_part</target>
@@ -489,7 +489,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vpi20s</evaluation>
+          <evaluation at="anywhere">VIP2S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -514,7 +514,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vpi20s</evaluation>
+          <evaluation at="anywhere">VIP2S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -552,7 +552,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vpi30p</evaluation>
+          <evaluation at="anywhere">VIP3P</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -574,7 +574,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Vpi30p</evaluation>
+          <evaluation at="anywhere">VIP3P</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -601,7 +601,7 @@
         <condition>
           <target>verb_tags</target>
           <content>
-            <evaluation at="anywhere">Vpi20s</evaluation>
+            <evaluation at="anywhere">VIP2S</evaluation>
           </content>
           <condition>
             <target>enclitic_part</target>
@@ -625,7 +625,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">V0m20s OR Vpi30p</evaluation>
+          <evaluation at="anywhere">VMP2S OR VIP3P</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -667,7 +667,7 @@
     <condition>
       <target>verb_tags</target>
       <content>
-        <evaluation at="anywhere">V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ??[^m]2?s OR ??[^m]2?p OR ???1?p</evaluation>
+        <evaluation at="anywhere">V0f10s OR V0f30s OR VSF1S OR VSF3S OR VSF4S OR VNP OR ?[^M]?2S OR ?[^M]?2P OR ???1P</evaluation>
       </content>
       <!-- Se a parte verbal tamén acaba en r ou s, non pode levar o e lo como
       primeiro clítico -->
@@ -720,7 +720,7 @@
               <evaluation at="first">me OR mo OR mos OR ma OR mas OR no OR na OR nos OR nas</evaluation>
             </content>
             <action>filter_tags</action>
-            <filter>???1?p</filter>
+            <filter>???1P</filter>
           </condition>
         </condition>
       </condition>
@@ -743,7 +743,7 @@
               <evaluation at="first">te OR che OR cho OR cha OR chos OR chas</evaluation>
             </content>
             <action>filter_tags</action>
-            <filter>???2?p</filter>
+            <filter>???2P</filter>
           </condition>
         </condition>
       </condition>
@@ -766,7 +766,7 @@
           </content>
           <action>filter_tags</action>
           <check_default>no</check_default>
-          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p AND NOT V0m20s AND NOT V0m20p</filter>
+          <filter>V0f10s OR V0f30s OR VSF1S OR VSF3S OR VSF4S OR VNP OR ???2S OR ???2P AND NOT VMP2S AND NOT VMP2P</filter>
         </condition>
       </condition>
       <!-- Se a parte verbal non remata nin en r nin en s, e o pronome enclítico
@@ -799,7 +799,7 @@
             <evaluation at="not_end">no</evaluation>
           </content>
           <action>filter_tags</action>
-          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p AND NOT V0m20s AND NOT V0m20p</filter>
+          <filter>V0f10s OR V0f30s OR VSF1S OR VSF3S OR VSF4S OR VNP OR ???2S OR ???2P AND NOT VMP2S AND NOT VMP2P</filter>
         </condition>
       </condition>
       <!-- Se a parte verbal non acaba nin en r nin en s, e o primeiro enclítico
@@ -817,7 +817,7 @@
           </content>
           <action>filter_tags</action>??[^m]2?s
           <check_default>no</check_default>
-          <filter>NOT V0f10s AND NOT V0f30s AND NOT Vfs10s AND NOT Vfs30s AND NOT Vfsa0s AND NOT V0f000 AND NOT ??[^m]2?s AND NOT ??[^m]2?p AND NOT ???1?p</filter>
+          <filter>NOT V0f10s AND NOT V0f30s AND NOT VSF1S AND NOT VSF3S AND NOT VSF4S AND NOT VNP AND NOT ?[^M]?2S AND NOT ?[^M]?2P AND NOT ???1P</filter>
         </condition>
       </condition>
       <!-- Se a parte verbal non acaba nin en r nin en s, e o primeiro enclítico
@@ -834,12 +834,12 @@
             <evaluation at="first">NOT -lo AND NOT -la AND NOT lo AND NOT la AND NOT -los AND NOT -las AND NOT los AND NOT las AND NOT nos AND NOT no</evaluation>
           </content>
           <action>filter_tags</action>
-          <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p OR ???1?p AND NOT V0m20s AND NOT V0m20p AND NOT Vei20s</filter>
+          <filter>V0f10s OR V0f30s OR VSF1S OR VSF3S OR VSF4S OR VNP OR ???2S OR ???2P OR ???1P AND NOT VMP2S AND NOT VMP2P AND NOT VIS2S</filter>
         </condition>
       </condition>
     </condition>
   </rule>
-  
+
   <!-- O clítico se só pode ir coa terceira persoa singular e plural de todos os
   tempos verbais, e co infinitivo e o xerundio -->
   <rule>
@@ -849,10 +849,10 @@
         <evaluation at="first">se</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>NOT V0f000 AND NOT V0x000 AND NOT V??3</filter>
+      <filter>NOT VNP AND NOT VGP AND NOT V??3</filter>
     </condition>
   </rule>
-  
+
   <!-- Mario cree que se pode fusionar esta regra coa anterior poñendo ao principio
   de filter Ves30s AND NOT ... -->
   <!-- Si la forma verbal acaba en se, el enclítico no puede comenzar en se, para
@@ -867,7 +867,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
-          <evaluation at="anywhere">Ves30s</evaluation>
+          <evaluation at="anywhere">VSY3S</evaluation>
         </content>
         <condition>
           <target>enclitic_part</target>
@@ -895,7 +895,7 @@
       </condition>
     </condition>
   </rule>
-  
+
   <!-- Engadida: vo non pode ir coa segunda do singular. -->
   <rule>
     <condition>
@@ -909,11 +909,11 @@
           <evaluation at="first">vo OR vos</evaluation>
         </content>
         <action>filter_tags</action>
-        <filter>???2?s</filter>
+        <filter>???2S</filter>
       </condition>
     </condition>
   </rule>
-  
+
   <!-- Engadida: Para evitar cousas como cantáchescha, cantáchesche, cantáchescho, etc. -->
   <!-- Se a parte verbal remata en che ou ches e a etiqueta é Vei20s, o primeiro
   clítico non pode ser ningunha combinación de che -->

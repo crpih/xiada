@@ -15,7 +15,7 @@
         </content>
         <action>filter_tags</action>
         <action param="lles">replace_form</action>
-        <filter>Rad3as OR Rad3ms OR Rad3fs</filter>
+        <filter>PY3ESD OR PY3MSD OR PY3FSD</filter>
       </condition>
     </condition>
   </rule>
@@ -32,7 +32,7 @@
           <evaluation at="next_enclitic">NOT lo AND NOT la AND NOT los AND NOT las AND NOT -lo AND NOT -la AND NOT -los AND NOT -las</evaluation>
         </content>
         <action>filter_tags</action>
-        <filter>Rad3ap OR Rad3mp OR Rad3fp</filter>
+        <filter>PY3EPD OR PY3MPD OR PY3FPD</filter>
       </condition>
     </condition>
   </rule>
@@ -44,7 +44,7 @@
         <evaluation at="final_enclitic">lle</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>Rad3ap OR Rad3mp OR Rad3fp</filter>
+      <filter>PY3EPD OR PY3MPD OR PY3FPD</filter>
     </condition>
   </rule>
   <!-- Se aparece -lo/-la/-los/-las, hai que eliminarlles o guión -->
@@ -65,7 +65,7 @@
         <evaluation at="intermediate_enclitic">nos</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>Raa3mp</filter>
+      <filter>PY3MPA</filter>
     </condition>
   </rule>
   <rule>
@@ -75,7 +75,7 @@
         <evaluation at="intermediate_enclitic">no</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>Raa3ms</filter>
+      <filter>PY3MSA</filter>
     </condition>
   </rule>
   <!-- Se aparece nolo ou no-lo, o no nunha pode ser acusativo. -->
@@ -92,7 +92,7 @@
         </content>
         <action>filter_tags</action>
         <action param="nos">replace_form</action>
-        <filter>Raa1ap OR Raa1fp OR Raa1mp</filter>
+        <filter>PY1EPO OR PY1FPO OR PY1MPO</filter>
       </condition>
     </condition>
   </rule>
@@ -120,7 +120,7 @@
         <evaluation at="final_enclitic">no</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>Raa1ap OR Rad1ap OR Raa1mp OR Raa1fp OR Rad1mp OR Rad1fp</filter>
+      <filter>PY1EPO OR PY1EPO OR PY1MPO OR PY1FPO OR PY1MPO OR PY1FPO</filter>
     </condition>
   </rule>
   <!-- Se a parte verbal NON remata en ditongo e a secuencia de clíticos remata
@@ -137,7 +137,7 @@
           <evaluation at="end">NOT ei AND NOT éi AND NOT eu AND NOT éu AND NOT ou AND NOT óu AND NOT iu AND NOT íu AND NOT ai AND NOT ái</evaluation>
         </content>
         <action>filter_tags</action>
-        <filter>Raa3mp</filter>
+        <filter>PY3MPA</filter>
       </condition>
     </condition>
   </rule>
