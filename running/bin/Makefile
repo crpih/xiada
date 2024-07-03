@@ -10,3 +10,4 @@ compile_spanish_eslora_rules:
 	cat ../spanish_eslora/pruning_rules.txt | ruby pruning_rules_compiler.rb > ../spanish_eslora/pruning_system.rb
 compile_tagset_evaluation_rules:
 	cat ../tagset_evaluation/pruning_rules.txt | ruby pruning_rules_compiler.rb > ../spanish_eslora/pruning_system.rb
+# TODO: Eslora multilingual target

@@ -1,0 +1,430 @@
+á	a	a	a	P	/	a	o	o	DAFS
+á/ao	a	a	a	P	/	a/o	o	o	Ddxs
+al	a	a	a	X	/	el	el	el	DAMS
+ámbalas	ambas	ambos	ambos	Idfp	/	las	o	o	DAFP
+ámbolos	ambos	ambos	ambos	Idmp	/	los	o	o	DAMP
+ao/á	a	a	a	P	/	o/a	o	o	Ddxs
+á/ó	a	a	a	P	/	a/o	o	o	Ddxs
+ao	a	a	a	P	/	o	o	o	DAMS
+aos	a	a	a	P	/	os	o	o	DAMP
+aos/ás	a	a	a	P	/	os/as	o	o	Ddxp
+ás	a	a	a	P	/	as	o	o	DAFP
+ás/aos	a	a	a	P	/	as/os	o	o	Ddxp
+ás/ós	a	a	a	P	/	as/os	o	o	Ddxp
+cá	ca	ca	ca	Cs	/	a	o	o	DAFS
+ca	con	con	con	P	/	a	o	o	DAFS
+cás	ca	ca	ca	Cs	/	as	o	o	DAFP
+cas	con	con	con	P	/	as	o	o	DAFP
+c@	con	con	con	P	/	@	o	o	Ddxs
+coa/co	con	con	con	P	/	a/o	o	o	Ddxs
+coa	con	con	con	P	/	a	o	o	DAFS
+coaquela	con	con	con	P	/	aquela	aquel	aquel	DDFS
+coaquela	con	con	con	P	/	aquela	aquel	aquel	PDFS
+coaquelas	con	con	con	P	/	aquelas	aquel	aquel	DDFP
+coaquelas	con	con	con	P	/	aquelas	aquel	aquel	PDFP
+coaquel	con	con	con	P	/	aquel	aquel	aquel	DDAS
+coaquel	con	con	con	P	/	aquel	aquel	aquel	PDMS
+coaqueles	con	con	con	P	/	aqueles	aquel	aquel	DDAP
+coaqueles	con	con	con	P	/	aqueles	aquel	aquel	PDMP
+coas	con	con	con	P	/	as	o	o	DAFP
+coas/cos	con	con	con	P	/	as/os	o	o	Ddxp
+có	ca	ca	ca	Cs	/	o	o	o	DAMS
+co/coa	con	con	con	P	/	o/a	o	o	Ddxs
+co	con	con	con	P	/	o	o	o	DAMS
+conmigo	con	con	con	X	/	mí	mí	mí	PY1FSP
+conmigo	con	con	con	X	/	mí	mí	mí	PY1MSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3FPP
+consigo	con	con	con	X	/	sí	sí	sí	PY3FSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3MSP
+consigo	con	con	con	X	/	sí	sí	sí	PY3NSP
+contigo	con	con	con	X	/	ti	ti	ti	PY2FSP
+contigo	con	con	con	X	/	ti	ti	ti	PY2MSP
+cos/as	con	con	con	P	/	os/as	o	o	Ddxp
+cós	ca	ca	ca	Cs	/	os	o	o	DAMP
+cos/coas	con	con	con	P	/	os/as	o	o	Ddxp
+cos	con	con	con	P	/	os	o	o	DAMP
+c@s	con	con	con	P	/	@s	o	o	Ddxp
+cun	con	con	con	P	/	un	un	un	DCMS
+cun	con	con	con	P	/	un	un	un	DIMS
+cun	con	con	con	P	/	un	un	un	PCMS
+cunha	con	con	con	P	/	unha	un	un	DCFS
+cunha	con	con	con	P	/	unha	un	un	DIFS
+cunha	con	con	con	P	/	unha	un	un	PCFS
+cunhas	con	con	con	P	/	unhas	un	un	DIFP
+cunhos	con	con	con	P	/	unhos	un	un	DIMP
+cuns	con	con	con	P	/	uns	un	un	DIMP
+daca	dá	dar	dar	V0m20s	/	acá	acá	acá	Wn
+da	de	de	de	P	/	a	o	o	DAFS
+da/do	de	de	de	P	/	a/o	o	o	Ddxs
+dahí	de	de	de	P	/	ahí	ahí	ahí	Wn
+daí	de	de	de	P	/	aí	aí	aí	Wn
+dalá	de	de	de	P	/	alá	alá	alá	Wn
+dalghures	de	de	de	P	/	alghures	algures	algures	Wn
+dalgures	de	de	de	P	/	algures	algures	algures	Wn
+dalí	de	de	de	P	/	alí	alí	alí	Wn
+daló	de	de	de	P	/	aló	aló	aló	Wn
+da/o	de	de	de	P	/	a/o	o	o	Ddxs
+daquela	de	de	de	P	/	aquela	aquel	aquel	DDFS
+daquel/a	de	de	de	P	/	aquel/a	aquel	aquel	Edxs
+daquel/a	de	de	de	P	/	aquel/a	aquel	aquel	Enxs
+daquela	de	de	de	P	/	aquela	aquel	aquel	PDFS
+daquelas	de	de	de	P	/	aquelas	aquel	aquel	DDFP
+daquelas	de	de	de	P	/	aquelas	aquel	aquel	PDFP
+daquelas/es	de	de	de	P	/	aquelas/es	aquel	aquel	Edxp
+daquelas/es	de	de	de	P	/	aquelas/es	aquel	aquel	Enxp
+daquel	de	de	de	P	/	aquel	aquel	aquel	DDAS
+daquel	de	de	de	P	/	aquel	aquel	aquel	PDMS
+daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Edxp
+daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Enxp
+daqueles	de	de	de	P	/	aqueles	aquel	aquel	DDAP
+daqueles	de	de	de	P	/	aqueles	aquel	aquel	PDMP
+daquelo	de	de	de	P	/	aquelo	aquel	aquel	PDnS
+daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
+daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Idfs
+daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
+daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Iafp
+daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Idfp
+daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Infp
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Iams
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Idms
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Inms
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Iamp
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Idmp
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Inmp
+daquel@s	de	de	de	P	/	aquel@s	aquel	aquel	Edxp
+daquel@s	de	de	de	P	/	aquel@s	aquel	aquel	Enxp
+daquelxs	de	de	de	P	/	aquelxs	aquel	aquel	Edxp
+daquelxs	de	de	de	P	/	aquelxs	aquel	aquel	Enxp
+daquí	de	de	de	P	/	aquí	aquí	aquí	Wn
+daquila	de	de	de	P	/	aquila	aquil	aquel	DDFS
+daquila	de	de	de	P	/	aquila	aquil	aquel	PDFS
+daquilas	de	de	de	P	/	aquilas	aquil	aquel	DDFP
+daquilas	de	de	de	P	/	aquilas	aquil	aquel	PDFP
+daquil	de	de	de	P	/	aquil	aquil	aquel	DDAS
+daquil	de	de	de	P	/	aquil	aquil	aquel	PDMS
+daquiles	de	de	de	P	/	aquiles	aquil	aquel	DDAP
+daquiles	de	de	de	P	/	aquiles	aquil	aquel	PDMP
+daquilo	de	de	de	P	/	aquilo	aquel	aquel	PDnS
+das	de	de	de	P	/	as	o	o	DAFP
+das/dos	de	de	de	P	/	as/os	o	o	Ddxp
+das/os	de	de	de	P	/	as/os	o	o	Ddxp
+d@	de	de	de	P	/	@	o	o	Ddxs
+del	de	de	de	X	/	el	el	el	DAMS
+dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	DDFS
+dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	PDFS
+desa	de	de	de	P	/	esa	ese	ese	DDFS
+desa	de	de	de	P	/	esa	ese	ese	PDFS
+desa/e	de	de	de	P	/	eses/as	ese	ese	Edxp
+desa/e	de	de	de	P	/	eses/as	ese	ese	Enxp
+desas	de	de	de	P	/	esas	ese	ese	DDFP
+desas	de	de	de	P	/	esas	ese	ese	PDFP
+desas/es	de	de	de	P	/	ese/a	ese	ese	Edxs
+desas/es	de	de	de	P	/	ese/a	ese	ese	Enxs
+des@	de	de	de	P	/	es@	ese	ese	Edxs
+des@	de	de	de	P	/	es@	ese	ese	Enxs
+dese/a	de	de	de	P	/	esa/e	ese	ese	Edxs
+dese/a	de	de	de	P	/	esa/e	ese	ese	Enxs
+dese	de	de	de	P	/	ese	ese	ese	DDAS
+dese	de	de	de	P	/	ese	ese	ese	PDMS
+deses/as	de	de	de	P	/	esas/es	ese	ese	Edxp
+deses/as	de	de	de	P	/	esas/es	ese	ese	Enxp
+deses	de	de	de	P	/	eses	ese	ese	DDAP
+deses	de	de	de	P	/	eses	ese	ese	PDMP
+deso	de	de	de	P	/	eso	ese	ese	PDnS
+desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
+desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Idfs
+desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
+desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Iafp
+desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Idfp
+desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Infp
+desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Iams
+desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Idms
+desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Inms
+desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Iamp
+desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Idmp
+desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Inmp
+des@s	de	de	de	P	/	es@s	ese	ese	Edxp
+des@s	de	de	de	P	/	es@s	ese	ese	Enxp
+desta	de	de	de	P	/	esta	este	este	DDFS
+desta	de	de	de	P	/	esta	este	este	PDFS
+desta/e	de	de	de	P	/	esta/e	este	este	Edxs
+desta/e	de	de	de	P	/	esta/e	este	este	Enxs
+destas	de	de	de	P	/	estas	este	este	DDFP
+destas	de	de	de	P	/	estas	este	este	PDFP
+destas/es	de	de	de	P	/	estas/es	este	este	Edxp
+destas/es	de	de	de	P	/	estas/es	este	este	Enxp
+dest@	de	de	de	P	/	est@	este	este	Edxs
+dest@	de	de	de	P	/	est@	este	este	Enxs
+deste/a	de	de	de	P	/	este/a	este	este	Edxs
+deste/a	de	de	de	P	/	este/a	este	este	Enxs
+deste	de	de	de	P	/	este	este	este	DDAS
+deste	de	de	de	P	/	este	este	este	PDMS
+destes/as	de	de	de	P	/	estes/as	este	este	Edxp
+destes/as	de	de	de	P	/	estes/as	este	este	Enxp
+destes	de	de	de	P	/	estes	este	este	DDAP
+destes	de	de	de	P	/	estes	este	este	PDMP
+desto	de	de	de	P	/	esto	este	este	PDnS
+destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
+destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Idfs
+destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
+destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Iafp
+destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Idfp
+destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Infp
+destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Iams
+destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Idms
+destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Inms
+destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Iamp
+destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Idmp
+destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Inmp
+dest@s	de	de	de	P	/	est@s	este	este	Edxp
+dest@s	de	de	de	P	/	est@s	este	este	Enxp
+destxs	de	de	de	P	/	estxs	este	este	Edxp
+destxs	de	de	de	P	/	estxs	este	este	Enxp
+desxs	de	de	de	P	/	esxs	ese	ese	Edxp
+desxs	de	de	de	P	/	esxs	ese	ese	Enxp
+disa	de	de	de	P	/	isa	ise	ese	DDFS
+disa	de	de	de	P	/	isa	ise	ese	PDFS
+disas	de	de	de	P	/	isas	ise	ese	DDFP
+disas	de	de	de	P	/	isas	ise	ese	PDFP
+dise	de	de	de	P	/	ise	ise	ese	DDAS
+dise	de	de	de	P	/	ise	ise	ese	PDMS
+dises	de	de	de	P	/	ises	ise	ese	DDAP
+dises	de	de	de	P	/	ises	ise	ese	PDMP
+diso	de	de	de	P	/	iso	ese	ese	PDnS
+dista	de	de	de	P	/	ista	iste	este	DDFS
+dista	de	de	de	P	/	ista	iste	este	PDFS
+distas	de	de	de	P	/	istas	iste	este	DDFP
+distas	de	de	de	P	/	istas	iste	este	PDFP
+diste	de	de	de	P	/	iste	iste	este	DDAS
+diste	de	de	de	P	/	iste	iste	este	PDMS
+distes	de	de	de	P	/	istes	iste	este	DDAP
+distes	de	de	de	P	/	istes	iste	este	PDMP
+disto	de	de	de	P	/	isto	este	este	PDnS
+do/a	de	de	de	P	/	o/a	o	o	Ddxs
+do/da	de	de	de	P	/	o/a	o	o	Ddxs
+do	de	de	de	P	/	o	o	o	DAMS
+dos/as	de	de	de	P	/	os/as	o	o	Ddxp
+dos/das	de	de	de	P	/	os/as	o	o	Ddxp
+dos	de	de	de	P	/	os	o	o	DAMP
+d@s	de	de	de	P	/	@s	o	o	Ddxp
+dun	de	de	de	P	/	un	un	un	DCMS
+dun	de	de	de	P	/	un	un	un	DIMS
+dun	de	de	de	P	/	un	un	un	PCMS
+dunha	de	de	de	P	/	unha	un	un	DCFS
+dunha	de	de	de	P	/	unha	un	un	DIFS
+dunha	de	de	de	P	/	unha	un	un	PCFS
+dunhas	de	de	de	P	/	unhas	un	un	DIFP
+dunhos	de	de	de	P	/	unhos	un	un	DIMP
+duns	de	de	de	P	/	uns	un	un	DIMP
+dxs	de	de	de	P	/	xs	o	o	Ddxp
+el-rei	el	el	el	Ddms	/	rei	rei	rei	NCMS
+el-Rei	el	el	el	Ddms	/	Rei	rei	rei	NCMS
+El-Rei	El	el	el	Ddms	/	Rei	rei	rei	NCMS
+entrámbalas	entrambas	entrambos	entrambos	Idfp	/	las	o	o	DAFP
+entrambas	entre	entre	entre	P	/	ambas	ambos	ambos	DNFP
+entrambas	entre	entre	entre	P	/	ambas	ambos	ambos	PNFP
+entrámbolos	entrambos	entrambos	entrambos	Idmp	/	los	o	o	DAMP
+entrambos	entre	entre	entre	P	/	ambos	ambos	ambos	DNMP
+entrambos	entre	entre	entre	P	/	ambos	ambos	ambos	PNMP
+maila	mais	mais	mais	Cc	/	la	o	o	DAFS
+mailas	mais	mais	mais	Cc	/	las	o	o	DAFP
+mailo	mais	mais	mais	Cc	/	lo	o	o	DAMS
+mailos	mais	mais	mais	Cc	/	los	o	o	DAMP
+na	en	en	en	P	/	a	o	o	DAFS
+nalghures	en	en	en	P	/	alghures	algures	algures	Wn
+nalgures	en	en	en	P	/	algures	algures	algures	Wn
+na/no	en	en	en	P	/	a/o	o	o	Ddxs
+na/o	en	en	en	P	/	a/o	o	o	Ddxs
+naquela	en	en	en	P	/	aquela	aquel	aquel	DDFS
+naquel/a	en	en	en	P	/	aquel/a	aquel	aquel	Edxs
+naquel/a	en	en	en	P	/	aquel/a	aquel	aquel	Enxs
+naquela	en	en	en	P	/	aquela	aquel	aquel	PDFS
+naquelas	en	en	en	P	/	aquelas	aquel	aquel	DDFP
+naquelas	en	en	en	P	/	aquelas	aquel	aquel	PDFP
+naquelas/es	en	en	en	P	/	aquelas/es	aquel	aquel	Edxp
+naquelas/es	en	en	en	P	/	aquelas/es	aquel	aquel	Enxp
+naquel	en	en	en	P	/	aquel	aquel	aquel	DDAS
+naquel	en	en	en	P	/	aquel	aquel	aquel	PDMS
+naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Edxp
+naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Enxp
+naqueles	en	en	en	P	/	aqueles	aquel	aquel	DDAP
+naqueles	en	en	en	P	/	aqueles	aquel	aquel	PDMP
+naquelo	en	en	en	P	/	aquelo	aquel	aquel	PDnS
+naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
+naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Idfs
+naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
+naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Iafp
+naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Idfp
+naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Infp
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Iams
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Idms
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Inms
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Iamp
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Idmp
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Inmp
+naquel@s	en	en	en	P	/	aquel@s	aquel	aquel	Edxp
+naquel@s	en	en	en	P	/	aquel@s	aquel	aquel	Enxp
+naquelxs	en	en	en	P	/	aquelxs	aquel	aquel	Edxp
+naquelxs	en	en	en	P	/	aquelxs	aquel	aquel	Enxp
+naquila	en	en	en	P	/	aquila	aquil	aquel	DDFS
+naquila	en	en	en	P	/	aquila	aquil	aquel	PDFS
+naquilas	en	en	en	P	/	aquilas	aquil	aquel	DDFP
+naquilas	en	en	en	P	/	aquilas	aquil	aquel	PDFP
+naquil	en	en	en	P	/	aquil	aquil	aquel	DDAS
+naquil	en	en	en	P	/	aquil	aquil	aquel	PDMS
+naquiles	en	en	en	P	/	aquiles	aquil	aquel	DDAP
+naquiles	en	en	en	P	/	aquiles	aquil	aquel	PDMP
+naquilo	en	en	en	P	/	aquilo	aquel	aquel	PDnS
+nas	en	en	en	P	/	as	o	o	DAFP
+nas/nos	en	en	en	P	/	as/os	o	o	Ddxp
+nas/os	en	en	en	P	/	as/os	o	o	Ddxp
+n@	en	en	en	P	/	@	o	o	Ddxs
+nesa/e	en	en	en	P	/	eses/as	ese	ese	Edxp
+nesa/e	en	en	en	P	/	eses/as	ese	ese	Enxp
+nesa	en	en	en	P	/	esa	ese	ese	DDFS
+nesa	en	en	en	P	/	esa	ese	ese	PDFS
+nesas	en	en	en	P	/	esas	ese	ese	DDFP
+nesas	en	en	en	P	/	esas	ese	ese	PDFP
+nesas/es	en	en	en	P	/	ese/a	ese	ese	Edxs
+nesas/es	en	en	en	P	/	ese/a	ese	ese	Enxs
+nese/a	en	en	en	P	/	esa/e	ese	ese	Edxs
+nese/a	en	en	en	P	/	esa/e	ese	ese	Enxs
+nese	en	en	en	P	/	ese	ese	ese	DDAS
+nese	en	en	en	P	/	ese	ese	ese	PDMS
+nes@	en	en	en	P	/	es@	ese	ese	Edxs
+nes@	en	en	en	P	/	es@	ese	ese	Enxs
+neses/as	en	en	en	P	/	esas/es	ese	ese	Edxp
+neses/as	en	en	en	P	/	esas/es	ese	ese	Enxp
+neses	en	en	en	P	/	eses	ese	ese	DDAP
+neses	en	en	en	P	/	eses	ese	ese	PDMP
+neso	en	en	en	P	/	eso	ese	ese	PDnS
+nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
+nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Idfs
+nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
+nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Iafp
+nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Idfp
+nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Infp
+nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Iams
+nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Idms
+nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Inms
+nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Iamp
+nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Idmp
+nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Inmp
+nes@s	en	en	en	P	/	es@s	ese	ese	Edxp
+nes@s	en	en	en	P	/	es@s	ese	ese	Enxp
+nesta/e	en	en	en	P	/	esta/e	este	este	Edxs
+nesta/e	en	en	en	P	/	esta/e	este	este	Enxs
+nesta	en	en	en	P	/	esta	este	este	DDFS
+nesta	en	en	en	P	/	esta	este	este	PDFS
+nestas	en	en	en	P	/	estas	este	este	DDFP
+nestas	en	en	en	P	/	estas	este	este	PDFP
+nestas/es	en	en	en	P	/	estas/es	este	este	Edxp
+nestas/es	en	en	en	P	/	estas/es	este	este	Enxp
+neste/a	en	en	en	P	/	este/a	este	este	Edxs
+neste/a	en	en	en	P	/	este/a	este	este	Enxs
+neste	en	en	en	P	/	este	este	este	DDAS
+neste	en	en	en	P	/	este	este	este	PDMS
+nest@	en	en	en	P	/	est@	este	este	Edxs
+nest@	en	en	en	P	/	est@	este	este	Enxs
+nestes/as	en	en	en	P	/	estes/as	este	este	Edxp
+nestes/as	en	en	en	P	/	estes/as	este	este	Enxp
+nestes	en	en	en	P	/	estes	este	este	DDAP
+nestes	en	en	en	P	/	estes	este	este	PDMP
+nesto	en	en	en	P	/	esto	este	este	PDnS
+nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
+nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Idfs
+nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
+nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Iafp
+nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Idfp
+nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Infp
+nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Iams
+nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Idms
+nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Inms
+nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Iamp
+nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Idmp
+nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Inmp
+nest@s	en	en	en	P	/	est@s	este	este	Edxp
+nest@s	en	en	en	P	/	est@s	este	este	Enxp
+nestxs	en	en	en	P	/	estxs	este	este	Edxp
+nestxs	en	en	en	P	/	estxs	este	este	Enxp
+nesxs	en	en	en	P	/	esxs	ese	ese	Edxp
+nesxs	en	en	en	P	/	esxs	ese	ese	Enxp
+nisa	en	en	en	P	/	isa	ise	ese	DDFS
+nisa	en	en	en	P	/	isa	ise	ese	PDFS
+nisas	en	en	en	P	/	isas	ise	ese	DDFP
+nisas	en	en	en	P	/	isas	ise	ese	PDFP
+nise	en	en	en	P	/	ise	ise	ese	DDAS
+nise	en	en	en	P	/	ise	ise	ese	PDMS
+nises	en	en	en	P	/	ises	ise	ese	DDAP
+nises	en	en	en	P	/	ises	ise	ese	PDMP
+niso	en	en	en	P	/	iso	ese	ese	PDnS
+nista	en	en	en	P	/	ista	iste	este	DDFS
+nista	en	en	en	P	/	ista	iste	este	PDFS
+nistas	en	en	en	P	/	istas	iste	este	DDFP
+nistas	en	en	en	P	/	istas	iste	este	PDFP
+niste	en	en	en	P	/	iste	iste	este	DDAS
+niste	en	en	en	P	/	iste	iste	este	PDMS
+nistes	en	en	en	P	/	istes	iste	este	DDAP
+nistes	en	en	en	P	/	istes	iste	este	PDMP
+nisto	en	en	en	P	/	isto	este	este	PDnS
+no/a	en	en	en	P	/	o/a	o	o	Ddxs
+no	en	en	en	P	/	o	o	o	DAMS
+nó-las	nós	nós	nós	Rtn1fp	/	las	o	o	DAFP
+nó-las	nós	nós	nós	Rtp1fp	/	las	o	o	DAFP
+nó-los	nós	nós	nós	Rtn1mp	/	los	o	o	DAMP
+nó-los	nós	nós	nós	Rtp1mp	/	los	o	o	DAMP
+no/na	en	en	en	P	/	o/a	o	o	Ddxs
+nos/as	en	en	en	P	/	os/as	o	o	Ddxp
+nos	en	en	en	P	/	os	o	o	DAMP
+nos/nas	en	en	en	P	/	os/as	o	o	Ddxp
+n@s	en	en	en	P	/	@s	o	o	Ddxp
+nun	en	en	en	P	/	un	un	un	DCMS
+nun	en	en	en	P	/	un	un	un	DIMS
+nun	en	en	en	P	/	un	un	un	PCMS
+nunha	en	en	en	P	/	unha	un	un	DCFS
+nunha	en	en	en	P	/	unha	un	un	DIFS
+nunha	en	en	en	P	/	unha	un	un	PCFS
+nunhas	en	en	en	P	/	unhas	un	un	DIFP
+nunhos	en	en	en	P	/	unhos	un	un	DIMP
+nuns	en	en	en	P	/	uns	un	un	DIMP
+nxs	en	en	en	P	/	xs	o	o	Ddxp
+ó/á	a	a	a	P	/	o/a	o	o	Ddxs
+ó	a	a	a	P	/	o	o	o	DAMS
+ós	a	a	a	P	/	os	o	o	DAMP
+ós/ás	a	a	a	P	/	os/as	o	o	Ddxp
+pola/o	por	por	por	P	/	a/o	o	o	Ddxs
+pola/polo	por	por	por	P	/	a/o	o	o	Ddxs
+pola	por	por	por	P	/	la	o	o	DAFS
+polas/os	por	por	por	P	/	as/os	o	o	Ddxp
+polas/polos	por	por	por	P	/	as/os	o	o	Ddxp
+polas	por	por	por	P	/	las	o	o	DAFP
+polo/a	por	por	por	P	/	o/a	o	o	Ddxs
+polo/pola	por	por	por	P	/	o/a	o	o	Ddxs
+polo	por	por	por	P	/	lo	o	o	DAMS
+polos/as	por	por	por	P	/	os/as	o	o	Ddxp
+polos/polas	por	por	por	P	/	os/as	o	o	Ddxp
+polos	por	por	por	P	/	los	o	o	DAMP
+pol@	por	por	por	P	/	@	o	o	Ddxs
+pol@s	por	por	por	P	/	@s	o	o	Ddxp
+polxs	por	por	por	P	/	xs	o	o	Ddxp
+prao	pra	pra	para	P	/	o	o	o	DAMS
+praos	pra	pra	para	P	/	os	o	o	DAMP
+prá	pra	pra	para	P	/	a	o	o	DAFS
+pras	pra	pra	para	P	/	as	o	o	DAFP
+prás	pra	pra	para	P	/	as	o	o	DAFP
+pró	pra	pra	para	P	/	o	o	o	DAMS
+prós	pra	pra	para	P	/	os	o	o	DAMP
+tódalas	todas	todo	todo	Idfp	/	las	o	o	DAFP
+tódolos	todos	todo	todo	Idmp	/	los	o	o	DAMP
+tralas	tras	tras	tras	P	/	las	o	o	DAFP
+trala	tras	tras	tras	P	/	la	o	o	DAFS
+tralos	tras	tras	tras	P	/	los	o	o	DAMP
+tralo	tras	tras	tras	P	/	lo	o	o	DAMS
+u-las	u	u	u	Wn	/	las	o	o	DAFP
+u-la	u	u	u	Wn	/	la	o	o	DAFS
+u-los	u	u	u	Wn	/	los	o	o	DAMP
+u-lo	u	u	u	Wn	/	lo	o	o	DAMS
+vó-las	vós	vós	vós	Rtn2fp	/	las	o	o	DAFP
+vó-las	vós	vós	vós	Rtp2fp	/	las	o	o	DAFP
+vó-los	vós	vós	vós	Rtn2mp	/	los	o	o	DAMP
+vó-los	vós	vós	vós	Rtp2mp	/	los	o	o	DAMP
