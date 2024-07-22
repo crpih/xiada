@@ -266,13 +266,13 @@ class DatabaseWrapper
     return result
   end
 
-  def get_proper_noun_tags(proper_noun)
+  def get_proper_noun_tags_lemma_hiperlemma(proper_noun)
     proper_noun_components = proper_noun.split(/ /)
     result = Array.new
     while result.empty?
       proper_noun = proper_noun_components.join(" ")
-      @db.execute("select tag from proper_nouns where proper_noun = '#{SQLUtils.escape_SQL(proper_noun)}'") do |row|
-        result << row[0]
+      @db.execute("select tag, lemma, hiperlemma from proper_nouns where proper_noun = '#{SQLUtils.escape_SQL(proper_noun)}'") do |row|
+        result << row
       end
       proper_noun_components.pop
     end

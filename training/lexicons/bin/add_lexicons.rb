@@ -6,7 +6,6 @@ require_relative 'contractions.rb'
 require_relative 'idioms.rb'
 require_relative 'abbreviations.rb'
 require_relative 'acronyms.rb'
-require_relative 'proper_nouns.rb'
 require_relative 'numerals.rb'
 require_relative 'enclitics.rb'
 require_relative 'tags_info.rb'
@@ -41,9 +40,6 @@ if ARGV.size == 15
   puts "Including acronyms..."
   acronyms = Acronyms.new(acronyms_file)
   acronyms.save(db)
-  puts "Including proper nouns..."
-  proper_nouns = ProperNouns.new(proper_nouns_file, proper_nouns_links_file, proper_nouns_candidate_tags_file)
-  proper_nouns.save(db)
   puts "Including numerals..."
   numerals = Numerals.new(numerals_file, numerals_values_file)
   numerals.save(db)

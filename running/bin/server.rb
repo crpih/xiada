@@ -3,6 +3,7 @@ require 'sinatra'
 require_relative 'database_wrapper'
 require_relative 'viterbi'
 require_relative 'sentence'
+require_relative 'proper_nouns'
 
 DW = DatabaseWrapper.new("training/databases/#{ENV['XIADA_PROFILE']}/training_#{ENV['XIADA_DATABASE']}.db")
 ACRONYMS = DW.get_acronyms.each_with_object({}) { |a, r| r[a] = 1 }.freeze
@@ -11,39 +12,32 @@ ENCLITICS = DW.get_enclitics_info.freeze
 
 TOKEN_FIELDS = %i[token tag lemma hyperlemma start finish].freeze
 
+PROPER_NOUNS_FILE = "training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_propios.txt"
+PROPER_NOUNS_PROCESSOR =
+  if File.exists?(PROPER_NOUNS_FILE)
+    ProperNouns.new(
+      ProperNouns.parse_literals_file(PROPER_NOUNS_FILE),
+      CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
+      CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first)
+    )
+  else
+    nil
+  end
+
 class ProperNounTrainingError < StandardError; end
+
 class TaggingSentenceError < StandardError; end
 
 helpers do
-  def train_proper_nouns(texts)
-    texts.each_with_object({}) do |text, trained_proper_nouns|
-      sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, false)
-      sentence.add_chunk(text, nil, nil, nil, nil)
-      sentence.finish
-      sentence.contractions_processing
-      sentence.add_proper_nouns(trained_proper_nouns)
-    end
-  rescue StandardError
-    raise ProperNounTrainingError
-  end
-
-  def tag_text(text, trained_proper_nouns, force_proper_nouns)
-    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, force_proper_nouns)
-    sentence.add_chunk(text, nil, nil, nil, nil)
-    sentence.finish
+  def tag_text(text, proper_nouns_processor)
+    sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, proper_nouns_processor, text)
     sentence.contractions_processing
     sentence.idioms_processing # Must be processed before numerals
-    sentence.proper_nouns_processing(trained_proper_nouns, false)
     sentence.numerals_processing
     sentence.enclitics_processing
     viterbi = Viterbi.new(DW)
     viterbi.run(sentence)
-    viterbi.get_best_way
-           .split("\n")
-           .map { |t| t.split("\t") }
-           .map do |token, tag, lemma, hyperlemma, start, finish|
-      { token: token, tag: tag, lemma: lemma, hyperlemma: hyperlemma, start: start.to_i, finish: finish.to_i }
-    end
+    viterbi.best_way
   rescue StandardError
     raise TaggingSentenceError.new("Error tagging sentence: #{text}")
   rescue Exception
@@ -59,11 +53,11 @@ post '/tagger' do
   texts = JSON.parse(request.body.read)
   halt 400 unless texts.is_a?(Array)
 
-  trained_proper_nouns = train_proper_nouns(texts)
+  proper_nouns_processor = PROPER_NOUNS_PROCESSOR&.with_trained(texts)
   stream do |out|
     out << '['
     texts.each_index do |i|
-      out << tag_text(texts[i], trained_proper_nouns, params[:force_proper_nouns]).to_json
+      out << tag_text(texts[i], proper_nouns_processor).to_json
       out << ',' unless texts.size == i + 1
     end
     out << ']'
