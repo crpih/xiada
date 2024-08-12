@@ -81,7 +81,7 @@ class ProperNouns
 
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t).filter { |segment| segment.is_a?(Literal) } }
-    self.class.new(@literal_proper_nouns + trained_proper_nouns, @joiners, @tags)
+    self.class.new([*@literal_proper_nouns, *trained_proper_nouns].uniq, @joiners, @tags)
   end
 
   def call(text)
@@ -131,8 +131,12 @@ class ProperNouns
     literals.filter_map do |literal|
       start_index = text.index(literal.text)
       next if start_index.nil?
+      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}/)
 
-      range = start_index...(start_index + literal.text.size)
+      end_index = start_index + literal.text.size
+      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}/)
+
+      range = start_index...end_index
       Segment.new(range, text[range], literal.tag_lemmas, literal.lexicon)
     end
   end
