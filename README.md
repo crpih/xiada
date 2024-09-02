@@ -160,17 +160,24 @@ Or, as the output of the tagger is not very nice (it is not indented), we use to
 
 ## Build docker image
 
-Build image with:
+./build.sh
+
+Tagger is trained and generated databases are copied inside the image.
+Por 4000 is exposed.
+
+`XIADA_PROFILE` and `XIADA_DATABASE` must be defined to run the container. 
+
+### Running the server
 
 ```bash
-DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora:latest .
-
-DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .
+docker run -e XIADA_PROFILE=galician_xiada -e XIADA_DATABASE=galician_xiada_escrita -p 4000:4000 xiada_tagger
 ```
 
-Existing training databases are copied inside the image.
-Por 4000 is exposed.
-`XIADA_PROFILE` must be defined to run the container. 
+### Tag a simple text
+
+```bash
+docker run -e XIADA_PROFILE=galician_xiada -e XIADA_DATABASE=galician_xiada_escrita xiada_tagger ruby running/bin/client.rb "Esta é unha oración de exemplo para probar."
+```
 
 ## Testing
 
