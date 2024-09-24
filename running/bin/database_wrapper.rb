@@ -11,6 +11,8 @@ class DatabaseWrapper
   PROPER_NOUNS_MAX_NUM_COMPONENTS = 15
 
   def initialize(db_name)
+    raise "Database not found: #{db_name}" unless File.exist?(db_name)
+
     @db = SQLite3::Database.open(db_name)
     xiada_profile = ENV["XIADA_PROFILE"]
     @lemmatizer = Lemmatizer.new(self)

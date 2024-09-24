@@ -1,3 +1,4 @@
+a a beira de	X	a a beira de	a a beira de	s
 a ancas	W	a ancas
 a anda niño	W	a anda niño
 a asentadillas	W	a asentadillas
@@ -5,6 +6,7 @@ a banderas desplegadas	W	a banderas desplegadas
 a barras derechas	W	a barras derechas
 a base de bien	W	a base de bien
 a base de	X	a base de
+a base de	X	a base de	a base de	s
 a bayoneta	W	a bayoneta
 a beneficio de inventario	W	a beneficio de inventario
 a bien librar	W	a bien librar
@@ -66,6 +68,7 @@ a cargo de	X	a cargo de
 a caso hecho	W	a caso hecho
 a casquete quitado	W	a casquete quitado
 a causa de	X	a causa de
+a causa de	X	a causa de	a causa de	s
 acá y acullá	W	acá y acullá
 acá y allá	W	acá y allá
 a cencerros tapados	W	a cencerros tapados
@@ -89,6 +92,8 @@ a condición de	C	a condición de
 a condición de que	C	a condición de que
 a consecuencia de que	C	a consecuencia de que
 a consecuencia de	X	a consecuencia de
+a consecuencia de	X	a consecuencia de	a consecuencia de	s
+a conta de	X	a conta de	a a conta de	n
 a contento	W	a contento
 a continuación	W	a continuación
 a contracorriente	W	a contracorriente
@@ -99,6 +104,7 @@ a coro	W	a coro
 a corso	W	a corso
 a cosa hecha	W	a cosa hecha
 a costa de	X	a costa de
+a costa de	X	a costa de	a a custa de	n
 a coste y costas	W	a coste y costas
 a costillas	W	a costillas
 a costo y costas	W	a costo y costas
@@ -126,6 +132,8 @@ a día de hoy	W	a día de hoy
 a diario	W	a diario
 a días	W	a días
 a diferencia de	X	a diferencia de
+a diferencia de	X	a diferencia de	a diferenza de	n
+a diferenza de	X	a diferenza de	a diferenza de	s
 a Dios y a dicha	W	a Dios y a dicha
 a Dios y a ventura	W	a Dios y a ventura
 a discreción	W	a discreción
@@ -143,203 +151,18 @@ a dúo	W	a dúo
 a duras penas	W	a duras penas
 a echa levanta	W	a echa levanta
 a efectos de	X	a efectos de
-a empellones	W	a empellones
-a empujones	W	a empujones
-a escala	W	a escala
-a escape	W	a escape
-a escondidas	W	a escondidas
-a escondidillas	W	a escondidillas
-a escote	W	a escote
-a escuadra	W	a escuadra
-a escucho	W	a escucho
-a escusas	W	a escusas
-a escusa	W	a escusa
-a espaldas de	X	a espaldas de
-a espaldas vueltas	W	a espaldas vueltas
-a espaldera	W	a espaldera
-a espetaperro	W	a espetaperro
-a espuertas	W	a espuertas
-a estaca	W	a estaca
-a expensas de	X	a expensas de
-a falta de	X	a falta de
-a favor	W	a favor
-a finales de	X	a finales de
-a fin de cuentas	W	a fin de cuentas
-a fin de que	C	a fin de que
-a flote	W	a flote
-a fondo	W	a fondo
-a frente	W	a frente
-a fuego lento	W	a fuego lento
-a fuego manso	W	a fuego manso
-a fuego y hierro	W	a fuego y hierro
-a fuego y sangre	W	a fuego y sangre
-a fuero	W	a fuero
-a fuerza de	X	a fuerza de
-a gachas	W	a gachas
-a galope	W	a galope
-a gatas	W	a gatas
-a golpe seguro	W	a golpe seguro
-a golpes	W	a golpes
-a grandes jornadas	W	a grandes jornadas
-a gran velocidad	W	a gran velocidad
-a graves penas	W	a graves penas
-a grito herido	W	a grito herido
-a grito limpio	W	a grito limpio
-a grito pelado	W	a grito pelado
-a gritos	W	a gritos
-agua abajo	W	agua abajo
-agua arriba	W	agua arriba
-a guías	W	a guías
-a gusto	W	a gusto
-a hilo	W	a hilo
-a hito	W	a hito
-a hombros	W	a hombros
-ahora bien	C	ahora bien
-a horcajadas	W	a horcajadas
-a horcajadillas	W	a horcajadillas
-a huevo	W	a huevo
-a humo de pajas	W	a humo de pajas
-a hurtadas	W	a hurtadas
-a hurtadillas	W	a hurtadillas
-a hurtas	W	a hurtas
-a hurto	W	a hurto
-a instancia de	X	a instancia de
-a instancias de	X	a instancias de
-a izquierdas	W	a izquierdas
-a jarros	W	a jarros
-a jornal	W	a jornal
-a jorro	W	a jorro
-a juzgar por	X	a juzgar por
-a la aguada	W	a la aguada
-a la antigua	W	a la antigua
-a la atención de	X	a la atención de
-a la barata	W	a la barata
-a la bartola	W	a la bartola
 a el abordaje	W	a el abordaje
-a la borgoñesa	W	a la borgoñesa
-a la borgoñona	W	a la borgoñona
-a la borgoñota	W	a la borgoñota
-a la buena hora	W	a la buena hora
-a la caída de la tarde	W	a la caída de la tarde
-a la caída de el sol	W	a la caída de el sol
-a la carrera	W	a la carrera
 a el acecho	W	a el acecho
-a la chinesca	W	a la chinesca
-a la chita callando	W	a la chita callando
-a la chiticallando	W	a la chiticallando
-a la chiticalla	W	a la chiticalla
-a la clara	W	a la clara
-a la continua	W	a la continua
-a la criolla	W	a la criolla
-a la de Dios es Cristo	W	a la de Dios es Cristo
-a la de Dios	W	a la de Dios
-a la deriva	W	a la deriva
-a la descubierta	W	a la descubierta
-a la desesperada	W	a la desesperada
-a la de veces	W	a la de veces
-a la diabla	W	a la diabla
-a la disimulada	W	a la disimulada
-a la dobladilla	W	a la dobladilla
-a la escucha	W	a la escucha
-a la española	W	a la española
-a la estaca	W	a la estaca
-a la estudiantina	W	a la estudiantina
-a la federica	W	a la federica
-a la francesa	W	a la francesa
-a la fuerza	W	a la fuerza
-a la funerala	W	a la funerala
-a la gana gana	W	a la gana gana
 a el agua fuerte	W	a el agua fuerte
 a el agua tinta	W	a el agua tinta
-a la heroica	W	a la heroica
-a la hila	W	a la hila
-a la holandesa	W	a la holandesa
-a la hora de	X	a la hora de
-a la hora	W	a la hora
-a la húngara	W	a la húngara
-a la iguala	W	a la iguala
-a la improvista	W	a la improvista
-a la inclemencia	W	a la inclemencia
-a la inglesa	W	a la inglesa
-a la intemperie	W	a la intemperie
-a la inversa	W	a la inversa
 a el aire libre	W	a el aire libre
 a el aire	W	a el aire
-a la italiana	W	a la italiana
 a el alcance	W	a el alcance
-a la letra	W	a la letra
-a la ley	W	a la ley
-a la ligera	W	a la ligera
 a el alimón	W	a el alimón
-a la llana	W	a la llana
-a la luna de Valencia	W	a la luna de Valencia
-a la luna	W	a la luna
 a el amanecer	W	a el amanecer
-a la manera de	X	a la manera de
-a la mano	W	a la mano
-a la marinesca	W	a la marinesca
-a la matiega	W	a la matiega
-a la menuda	W	a la menuda
-a la meridiana	W	a la meridiana
-a la mira y a la maravilla	W	a la mira y a la maravilla
-a la moda	W	a la moda
-a la moderna	W	a la moderna
 a el amor de	X	a el amor de
-a la morisma	W	a la morisma
-a la muda	W	a la muda
-a la mujeriega	W	a la mujeriega
 a el anochecer	W	a el anochecer
-a la papillote	W	a la papillote
-a la par	W	a la par
-a la pata coja	W	a la pata coja
-a la pata la llana	W	a la pata la llana
-a la pata llana	W	a la pata llana
-a la perfección	W	a la perfección
-a la plancha	W	a la plancha
-a la Providencia	W	a la Providencia
-a la rasa	W	a la rasa
-a la rastra	W	a la rastra
-a la remanguillé	W	a la remanguillé
-a la renta	W	a la renta
-a largas jornadas	W	a largas jornadas
-a largas marchas	W	a largas marchas
 a el arrimo de	X	a el arrimo de
-a la rústica	W	a la rústica
-a las ancas	W	a las ancas
-a la sazón	W	a la sazón
-a las bravas	W	a las bravas
-a las calladas	W	a las calladas
-a las claras	W	a las claras
-a la serena	W	a la serena
-a las malas	W	a las malas
-a las mil maravillas	W	a las mil maravillas
-a las mil y quinientas	W	a las mil y quinientas
-a la soldadesca	W	a la soldadesca
-a la sorda	W	a la sorda
-a la sordina	W	a la sordina
-a las primeras de cambio	W	a las primeras de cambio
-a las tantas	W	a las tantas
-a las tapadas	W	a las tapadas
-a las veces	W	a las veces
-a las veinte	W	a las veinte
-a las voladas	W	a las voladas
-a la tabla de el mundo	W	a la tabla de el mundo
-a la tenaruja	W	a la tenaruja
-a la trocada	W	a la trocada
-a la trocadilla	W	a la trocadilla
-a la última moda	W	a la última moda
-a la última	W	a la última
-a la vela	W	a la vela
-a la veneciana	W	a la veneciana
-a la verdad	W	a la verdad
-a la vez que	C	a la vez que
-a la vez	W	a la vez
-a la virulé	W	a la virulé
-a la vista de	X	a la vista de
-a la vizcaína	W	a la vizcaína
-a la voz	W	a la voz
-a la vuelta de la esquina	W	a la vuelta de la esquina
-a la zaga	W	a la zaga
 a el bies	W	a el bies
 a el borde de	X	a el borde de
 a el bordo	W	a el bordo
@@ -405,34 +228,10 @@ a el mismo tiempo	W	a el mismo tiempo
 a el modo de	X	a el modo de
 a el momento	W	a el momento
 a el natural	W	a el natural
-a lo antiguo	W	a lo antiguo
 a el objeto de que	C	a el objeto de que
-a lo bolero	W	a lo bolero
-a lo bruto	W	a lo bruto
-a locas	W	a locas
-a lo de Dios	W	a lo de Dios
-a lo discreto	W	a lo discreto
-a lo disimulado	W	a lo disimulado
-a lo grande	W	a lo grande
 a el oído	W	a el oído
-a lo jácaro	W	a lo jácaro
-a lo largo de	X	a lo largo de
-a lo largo	W	a lo largo
-a lo lejos	W	a lo lejos
 a el óleo	W	a el óleo
-a lo letrado	W	a lo letrado
-a lo loco	W	a lo loco
 a el olor de	X	a el olor de
-a lo más, más	W	a lo más, más
-a lo moderno	W	a lo moderno
-a lomos	W	a lomos
-a lo que salga	W	a lo que salga
-a los cuatro vientos	W	a los cuatro vientos
-a lo somorgujo	W	a lo somorgujo
-a lo sordo	W	a lo sordo
-a lo tonto	W	a lo tonto
-a lo vivo	W	a lo vivo
-a lo zaino	W	a lo zaino
 a el pairo	W	a el pairo
 a el paño	W	a el paño
 a el paredón	W	a el paredón
@@ -454,7 +253,6 @@ a el quitar	W	a el quitar
 a el rape	W	a el rape
 a el raso	W	a el raso
 a el rato	W	a el rato
-alrededor de	X	alrededor de
 a el redopelo	W	a el redopelo
 a el redropelo	W	a el redropelo
 a el remo	W	a el remo
@@ -470,14 +268,10 @@ a el tanteo	W	a el tanteo
 a el tiempo que	C	a el tiempo que
 a el tiempo	W	a el tiempo
 a el tirón	W	a el tirón
-alto a el fuego	NCMS	alto a el fuego
 a el trenzado	W	a el trenzado
 a el tresbolillo	W	a el tresbolillo
 a el trote	W	a el trote
 a el tuntún	W	a el tuntún
-a luego pagar	W	a luego pagar
-a lumbre de pajas	W	a lumbre de pajas
-a lumbre mansa	W	a lumbre mansa
 a el unísono	W	a el unísono
 a el usado	W	a el usado
 a el uso	W	a el uso
@@ -488,6 +282,224 @@ a el vivo	W	a el vivo
 a el volateo	W	a el volateo
 a el voleo	W	a el voleo
 a el vuelo	W	a el vuelo
+a empellones	W	a empellones
+a empujones	W	a empujones
+a escala	W	a escala
+a escape	W	a escape
+a escondidas	W	a escondidas
+a escondidillas	W	a escondidillas
+a escote	W	a escote
+a escuadra	W	a escuadra
+a escucho	W	a escucho
+a escusas	W	a escusas
+a escusa	W	a escusa
+a espaldas de	X	a espaldas de
+a espaldas vueltas	W	a espaldas vueltas
+a espaldera	W	a espaldera
+a espetaperro	W	a espetaperro
+a espuertas	W	a espuertas
+a estaca	W	a estaca
+a excepción de	X	a excepción de	a excepción de	s
+a expensas de	X	a expensas de
+a falta de	X	a falta de
+a favor	W	a favor
+a finales de	X	a finales de
+a fin de cuentas	W	a fin de cuentas
+a fin de que	C	a fin de que
+a fin de	X	a fin de	a fin de	s
+a flote	W	a flote
+a fondo	W	a fondo
+a forza de	X	a forza de	a forza de	s
+a frente	W	a frente
+a fuego lento	W	a fuego lento
+a fuego manso	W	a fuego manso
+a fuego y hierro	W	a fuego y hierro
+a fuego y sangre	W	a fuego y sangre
+a fuero	W	a fuero
+a fuerza de	X	a fuerza de
+a gachas	W	a gachas
+a galope	W	a galope
+a gatas	W	a gatas
+a golpe seguro	W	a golpe seguro
+a golpes	W	a golpes
+a grandes jornadas	W	a grandes jornadas
+a gran velocidad	W	a gran velocidad
+a graves penas	W	a graves penas
+a grito herido	W	a grito herido
+a grito limpio	W	a grito limpio
+a grito pelado	W	a grito pelado
+a gritos	W	a gritos
+agua abajo	W	agua abajo
+agua arriba	W	agua arriba
+a guías	W	a guías
+a gusto	W	a gusto
+a hilo	W	a hilo
+a hito	W	a hito
+a hombros	W	a hombros
+ahora bien	C	ahora bien
+a horcajadas	W	a horcajadas
+a horcajadillas	W	a horcajadillas
+a huevo	W	a huevo
+a humo de pajas	W	a humo de pajas
+a hurtadas	W	a hurtadas
+a hurtadillas	W	a hurtadillas
+a hurtas	W	a hurtas
+a hurto	W	a hurto
+a instancia de	X	a instancia de
+a instancias de	X	a instancias de
+a izquierdas	W	a izquierdas
+a jarros	W	a jarros
+a jornal	W	a jornal
+a jorro	W	a jorro
+a juzgar por	X	a juzgar por
+a la aguada	W	a la aguada
+a la antigua	W	a la antigua
+a la atención de	X	a la atención de
+a la barata	W	a la barata
+a la bartola	W	a la bartola
+a la borgoñesa	W	a la borgoñesa
+a la borgoñona	W	a la borgoñona
+a la borgoñota	W	a la borgoñota
+a la buena hora	W	a la buena hora
+a la caída de el sol	W	a la caída de el sol
+a la caída de la tarde	W	a la caída de la tarde
+a la carrera	W	a la carrera
+a la chinesca	W	a la chinesca
+a la chita callando	W	a la chita callando
+a la chiticallando	W	a la chiticallando
+a la chiticalla	W	a la chiticalla
+a la clara	W	a la clara
+a la continua	W	a la continua
+a la criolla	W	a la criolla
+a la de Dios es Cristo	W	a la de Dios es Cristo
+a la de Dios	W	a la de Dios
+a la deriva	W	a la deriva
+a la descubierta	W	a la descubierta
+a la desesperada	W	a la desesperada
+a la de veces	W	a la de veces
+a la diabla	W	a la diabla
+a la disimulada	W	a la disimulada
+a la dobladilla	W	a la dobladilla
+a la escucha	W	a la escucha
+a la española	W	a la española
+a la estaca	W	a la estaca
+a la estudiantina	W	a la estudiantina
+a la federica	W	a la federica
+a la francesa	W	a la francesa
+a la fuerza	W	a la fuerza
+a la funerala	W	a la funerala
+a la gana gana	W	a la gana gana
+a la heroica	W	a la heroica
+a la hila	W	a la hila
+a la holandesa	W	a la holandesa
+a la hora de	X	a la hora de
+a la hora	W	a la hora
+a la húngara	W	a la húngara
+a la iguala	W	a la iguala
+a la improvista	W	a la improvista
+a la inclemencia	W	a la inclemencia
+a la inglesa	W	a la inglesa
+a la intemperie	W	a la intemperie
+a la inversa	W	a la inversa
+a la italiana	W	a la italiana
+a la letra	W	a la letra
+a la ley	W	a la ley
+a la ligera	W	a la ligera
+a la llana	W	a la llana
+a la luna de Valencia	W	a la luna de Valencia
+a la luna	W	a la luna
+a la manera de	X	a la manera de
+a la mano	W	a la mano
+a la marinesca	W	a la marinesca
+a la matiega	W	a la matiega
+a la menuda	W	a la menuda
+a la meridiana	W	a la meridiana
+a la mira y a la maravilla	W	a la mira y a la maravilla
+a la moda	W	a la moda
+a la moderna	W	a la moderna
+a la morisma	W	a la morisma
+a la muda	W	a la muda
+a la mujeriega	W	a la mujeriega
+a la papillote	W	a la papillote
+a la par	W	a la par
+a la pata coja	W	a la pata coja
+a la pata la llana	W	a la pata la llana
+a la pata llana	W	a la pata llana
+a la perfección	W	a la perfección
+a la plancha	W	a la plancha
+a la Providencia	W	a la Providencia
+a la rasa	W	a la rasa
+a la rastra	W	a la rastra
+a la remanguillé	W	a la remanguillé
+a la renta	W	a la renta
+a largas jornadas	W	a largas jornadas
+a largas marchas	W	a largas marchas
+a la rústica	W	a la rústica
+a las ancas	W	a las ancas
+a la sazón	W	a la sazón
+a las bravas	W	a las bravas
+a las calladas	W	a las calladas
+a las claras	W	a las claras
+a la serena	W	a la serena
+a las malas	W	a las malas
+a las mil maravillas	W	a las mil maravillas
+a las mil y quinientas	W	a las mil y quinientas
+a la soldadesca	W	a la soldadesca
+a la sorda	W	a la sorda
+a la sordina	W	a la sordina
+a las primeras de cambio	W	a las primeras de cambio
+a las tantas	W	a las tantas
+a las tapadas	W	a las tapadas
+a las veces	W	a las veces
+a las veinte	W	a las veinte
+a las voladas	W	a las voladas
+a la tabla de el mundo	W	a la tabla de el mundo
+a la tenaruja	W	a la tenaruja
+a la trocada	W	a la trocada
+a la trocadilla	W	a la trocadilla
+a la última moda	W	a la última moda
+a la última	W	a la última
+a la vela	W	a la vela
+a la veneciana	W	a la veneciana
+a la verdad	W	a la verdad
+a la vez que	C	a la vez que
+a la vez	W	a la vez
+a la virulé	W	a la virulé
+a la vista de	X	a la vista de
+a la vizcaína	W	a la vizcaína
+a la voz	W	a la voz
+a la vuelta de la esquina	W	a la vuelta de la esquina
+a la zaga	W	a la zaga
+a lo antiguo	W	a lo antiguo
+a lo bolero	W	a lo bolero
+a lo bruto	W	a lo bruto
+a locas	W	a locas
+a lo de Dios	W	a lo de Dios
+a lo discreto	W	a lo discreto
+a lo disimulado	W	a lo disimulado
+a lo grande	W	a lo grande
+a lo jácaro	W	a lo jácaro
+a lo largo de	X	a lo largo de
+a lo largo	W	a lo largo
+a lo lejos	W	a lo lejos
+a lo letrado	W	a lo letrado
+a lo loco	W	a lo loco
+a lo más, más	W	a lo más, más
+a lo moderno	W	a lo moderno
+a lomos	W	a lomos
+a lo que salga	W	a lo que salga
+a los cuatro vientos	W	a los cuatro vientos
+a lo somorgujo	W	a lo somorgujo
+a lo sordo	W	a lo sordo
+a lo tonto	W	a lo tonto
+a lo vivo	W	a lo vivo
+a lo zaino	W	a lo zaino
+alrededor de	X	alrededor de
+alto a el fuego	NCMS	alto a el fuego
+alto o fogo	NCMS	alto o fogo	alto o fogo	s
+a luego pagar	W	a luego pagar
+a lumbre de pajas	W	a lumbre de pajas
+a lumbre mansa	W	a lumbre mansa
 a macha martillo	W	a macha martillo
 a machamartillo	W	a machamartillo
 a machote	W	a machote
@@ -556,7 +568,9 @@ a mujeriegas	W	a mujeriegas
 a nado	W	a nado
 andando el tiempo	W	andando el tiempo
 a necias	W	a necias
+año luz	NCMS	año luz
 a no ser que	C	a no ser que
+años luz	NCMP	año luz
 antes a el contrario	C	antes a el contrario
 antes bien	C	antes bien
 antes con antes	W	antes con antes
@@ -569,17 +583,22 @@ ante todo	W	ante todo
 a nuestras solas	W	a nuestras solas
 a nuestro entender	W	a nuestro entender
 a nuestro modo	W	a nuestro modo
-año luz	NCMS	año luz
-años luz	NCMP	año luz
+a o bordo de	X	a o bordo de	a o bordo de	s
 a ojos cegarritas	W	a ojos cegarritas
 a ojos cerrados	W	a ojos cerrados
 a ojos vistas	W	a ojos vistas
+a o longo de	X	a o longo de	a o longo de	s
+a o par de	X	a o par de	a o par de	s
+a o pé de	X	a o pé de	a o pé de	s
 a ordeño	W	a ordeño
+a o redor de	X	a o redor de	a o redor de	s
+a o respecto de	X	a o respecto de	a respecto de	n
 a oscuras	W	a oscuras
 a pagar de mi dinero	W	a pagar de mi dinero
 a palo seco	W	a palo seco
 a pan y cuchillo	W	a pan y cuchillo
 a pan y manteles	W	a pan y manteles
+a par de	X	a par de	a par de	s
 aparte de	X	aparte de
 a partir de	X	a partir de
 a paso de buey	W	a paso de buey
@@ -648,9 +667,9 @@ a primeros de siglo	W	a primeros de siglo
 a primeros	W	a primeros
 a principios de año	W	a principios de año
 a principios de el año	W	a principios de el año
-a principios de la semana	W	a principios de la semana
 a principios de el mes	W	a principios de el mes
 a principios de el siglo	W	a principios de el siglo
+a principios de la semana	W	a principios de la semana
 a principios de mes	W	a principios de mes
 a principios de semana	W	a principios de semana
 a principios de siglo	W	a principios de siglo
@@ -669,14 +688,15 @@ a puesta de el sol	W	a puesta de el sol
 a puestas de el sol	W	a puestas de el sol
 a pujos	W	a pujos
 a pulso	W	a pulso
+a puño cerrado	W	a puño cerrado
+a puños	W	a puños
 a punta de lanza	W	a punta de lanza
 a puntapiés	W	a puntapiés
 a punto de caramelo	W	a punto de caramelo
 a punto de	X	a punto de
+a punto de	X	a punto de	a punto de	s
 a punto fijo	W	a punto fijo
 a punto largo	W	a punto largo
-a puño cerrado	W	a puño cerrado
-a puños	W	a puños
 a pupilo	W	a pupilo
 a puro huevo	W	a puro huevo
 a quema ropa	W	a quema ropa
@@ -688,6 +708,7 @@ a rabiar	W	a rabiar
 a rachas	W	a rachas
 a ración	W	a ración
 a raíz de	X	a raíz de
+a raíz de	X	a raíz de	a raíz de	s
 a ramal y media manta	W	a ramal y media manta
 a ramplón	W	a ramplón
 a rapa terrón	W	a rapa terrón
@@ -700,6 +721,7 @@ a ratos	W	a ratos
 a raudales	W	a raudales
 a rayos	W	a rayos
 a razón de	X	a razón de
+a razón de	X	a razón de	a razón de	s
 a recado	W	a recado
 a recaudo	W	a recaudo
 a reclamar	W	a reclamar
@@ -715,11 +737,14 @@ a remo	W	a remo
 a remo y sin sueldo	W	a remo y sin sueldo
 a remo y vela	W	a remo y vela
 a renta	W	a renta
+a rente de	X	a rente de	a rentes de	s
 a reo	W	a reo
 a repecho	W	a repecho
 a repelones	W	a repelones
 a repelo	W	a repelo
 a reserva de	X	a reserva de
+a respecto de	X	a respecto de	a respecto de	s
+a respeito de	X	a respeito de	a respecto de	n
 a resto abierto	W	a resto abierto
 a retaguardia	W	a retaguardia
 a rienda suelta	W	a rienda suelta
@@ -728,6 +753,7 @@ a río revuelto	W	a río revuelto
 a rodeabrazo	W	a rodeabrazo
 a roso y velloso	W	a roso y velloso
 a rostro firme	W	a rostro firme
+arredor de	X	arredor de	arredor de	s
 a ruche	W	a ruche
 a sabor de su paladar	W	a sabor de su paladar
 a sabor	W	a sabor
@@ -865,6 +891,7 @@ a últimos de semana	W	a últimos de semana
 a últimos de siglo	W	a últimos de siglo
 a últimos	W	a últimos
 a ultranza	W	a ultranza
+a uña de caballo	W	a uña de caballo
 a una hora avanzada	W	a una hora avanzada
 a una mano	W	a una mano
 aun así	W	aun así
@@ -873,7 +900,6 @@ aun con eso	C	aun con eso
 aun cuando	C	aun cuando
 a un tiempo	W	a un tiempo
 a un volver de cabeza	W	a un volver de cabeza
-a uña de caballo	W	a uña de caballo
 a upa	W	a upa
 a uso	W	a uso
 a veces	W	a veces
@@ -914,24 +940,32 @@ bajo su palabra	W	bajo su palabra
 banda sonora	NCFS	banda sonora
 bandas sonoras	NCFP	banda sonora
 barba a barba	W	barba a barba
+beira de	X	beira de	beira de	s
 be por be	W	be por be
 bien a bien	W	bien a bien
 bien que	C	bien que
+boca a boca	NCMS	boca a boca	boca a boca	s
 boca a boca	W	boca a boca
 boca con boca	W	boca con boca
 boca por boca	W	boca por boca
 brazo a brazo	W	brazo a brazo
 buenas tardes	I	buenas tardes
 burla burlando	W	burla burlando
+cabalo de batalla	NCMS	cabalo de batalla	cabalo de batalla	s
+cabalos de batalla	NCMP	cabalo de batalla	cabalo de batalla	s
+cabo de	X	cabo de	cabo de	s
 cada cual	PNMS	cada cual
 cada dos por tres	W	cada dos por tres
 cada vez	W	cada vez
 cagando leches	W	cagando leches
 calla callando	W	calla callando
 calle hita	W	calle hita
+camiño de	X	camiño de	camiño de	s
+canto a	X	canto a	canto a	s
 cara a cara	W	cara a cara
 cara atrás	W	cara atrás
 cara a	X	cara a
+cara a	X	cara a	cara a	s
 caso de	C	caso de
 caso de que	C	caso de que
 caso que	C	caso que
@@ -941,6 +975,7 @@ ce por be	W	ce por be
 ce por ce	W	ce por ce
 cien por cien	W	cien por cien
 ciento por ciento	W	ciento por ciento
+coches de línea	NCMP	coche de línea	coches de liña	n
 codo a codo	W	codo a codo
 codo con codo	W	codo con codo
 como quiera que	C	como quiera que
@@ -965,6 +1000,7 @@ con especialidad	W	con especialidad
 con estrellas	W	con estrellas
 con extremo	W	con extremo
 conforme a	X	conforme a
+conforme a	X	conforme a	conforme a	s
 conforme caigan las pesas	W	conforme caigan las pesas
 con franca mano	W	con franca mano
 con honores de	X	con honores de
@@ -988,6 +1024,8 @@ con pies de plomo	W	con pies de plomo
 con que	C	con que
 con rabia	W	con rabia
 con respecto a	X	con respecto a
+con respecto a	X	con respecto a	con respecto a	s
+con respeito a	X	con respeito a	con respecto a	n
 con solo que	C	con solo que
 con sus once de oveja	W	con sus once de oveja
 con tal de	C	con tal de
@@ -997,7 +1035,9 @@ con tambor batiente	W	con tambor batiente
 con tiempo	W	con tiempo
 con toda el alma	W	con toda el alma
 con todo	W	con todo
+contra de	X	contra de	contra de	s
 contra natura	W	contra natura
+contra reloxo	NCFS	contra reloxo	contrarreloxo	n
 contra viento y marea	W	contra viento y marea
 con tres luegos	W	con tres luegos
 con vistas a	X	con vistas a
@@ -1006,9 +1046,12 @@ corpore insepulto	W	corpore insepulto
 cual si	C	cual si
 cuando menos	C	cuando menos
 cuando quiera que	C	cuando quiera que
+cuarta feira	NCFS	cuarta feira	corta feira	s
+cuartas feiras	NCFP	cuarta feira	corta feira	s
 cuarto a cuarto	W	cuarto a cuarto
 cuarto de baño	NCMS	cuarto de baño
 cuartos de baño	NCMP	cuartos de baño
+dacordo con	X	dacordo con	de acordo con	n
 dado que	C	dado que
 de acecho	W	de acecho
 de acuerdo con	X	de acuerdo con
@@ -1048,6 +1091,7 @@ de camino	W	de camino
 de canto	W	de canto
 de capa caída	W	de capa caída
 de cara a	X	de cara a
+de cara a	X	de cara a	de cara a	s
 de cara	W	de cara
 de carrerilla	W	de carrerilla
 de carretilla	W	de carretilla
@@ -1076,6 +1120,7 @@ de día en día	W	de día en día
 de dientes afuera	W	de dientes afuera
 de Dios	W	de Dios
 de dos en dos	W	de dos en dos
+de el todo	W	de el todo
 de entrada	W	de entrada
 de esa forma	W	de esa forma
 de esa manera	W	de esa manera
@@ -1131,7 +1176,6 @@ de llano en llano	W	de llano en llano
 de llano	W	de llano
 de lleno	W	de lleno
 de lo lindo	W	de lo lindo
-de el todo	W	de el todo
 de luego a luego	W	de luego a luego
 de macetilla	W	de macetilla
 de madrugada	W	de madrugada
@@ -1139,12 +1183,12 @@ de mal aire	W	de mal aire
 de mal a mal	W	de mal a mal
 de mal arte	W	de mal arte
 de mampuesto	W	de mampuesto
+de mañana	W	de mañana
 de mancomún	W	de mancomún
 de manera que	C	de manera que
 de mano armada	W	de mano armada
 de manos a boca	W	de manos a boca
 de mano	W	de mano
-de mañana	W	de mañana
 de maravilla	W	de maravilla
 de más a más	W	de más a más
 de matute	W	de matute
@@ -1170,6 +1214,7 @@ de non	W	de non
 de no ser porque	C	de no ser porque
 de no ser que	C	de no ser que
 dentro de	X	dentro de
+dentro de	X	dentro de	dentro de	s
 de nuestro motivo propio	W	de nuestro motivo propio
 de nueva planta	W	de nueva planta
 de nuevo	W	de nuevo
@@ -1180,9 +1225,19 @@ de oídas	W	de oídas
 de oído	W	de oído
 de órdago	W	de órdago
 de ordinario	W	de ordinario
+de paisano	AEa	de paisano	de paisano	s
+de paisano	AEP	de paisano	de paisano	s
+de paisano	AES	de paisano	de paisano	s
+de paisano	AFa	de paisano	de paisano	s
+de paisano	AFP	de paisano	de paisano	s
+de paisano	AFS	de paisano	de paisano	s
+de paisano	AMa	de paisano	de paisano	s
+de paisano	AMP	de paisano	de paisano	s
+de paisano	AMS	de paisano	de paisano	s
 de palabra en palabra	W	de palabra en palabra
 de palabra	W	de palabra
 de paleta	W	de paleta
+de par de	X	de par de	de par de	s
 de parte de	X	de parte de
 de pasada	W	de pasada
 de pascuas a ramos	W	de pascuas a ramos
@@ -1254,6 +1309,7 @@ de rondón	W	de rondón
 de rositas	W	de rositas
 de rota batida	W	de rota batida
 de rota	W	de rota
+derredor de	X	derredor de	derredor de	s
 desde cero	W	desde cero
 desde lejos	W	desde lejos
 desde luego	W	desde luego
@@ -1299,6 +1355,7 @@ de todo corazón	W	de todo corazón
 de todo en todo	W	de todo en todo
 de todo punto	W	de todo punto
 de trapillo	W	de trapillo
+de través de	X	de través de	de través de	s
 de través	W	de través
 de travieso	W	de travieso
 de trecho a trecho	W	de trecho a trecho
@@ -1364,6 +1421,7 @@ en ayuno	W	en ayuno
 en baja	W	en baja
 en balde	W	en balde
 en base a	X	en base a
+en base a	X	en base a	en base a	n
 en blanco	W	en blanco
 en boga	W	en boga
 en breve	W	en breve
@@ -1385,12 +1443,14 @@ en calma	W	en calma
 en calzas y jubón	W	en calzas y jubón
 en cambio de	X	en cambio de
 en cambio	W	en cambio
+en canto a	X	en canto a	en canto a	s
 en canto llano	W	en canto llano
 en capilla	W	en capilla
 en carnes	W	en carnes
 en carne viva	W	en carne viva
 en caso de que	C	en caso de que
 en caso de	X	en caso de
+encefalopatía esponxiforme	NCFS	encefalopatía esponxiforme	encefalopatía esponxiforme	n
 en chancla	W	en chancla
 en chancletas	W	en chancletas
 en ciernes	W	en ciernes
@@ -1479,6 +1539,7 @@ en forma	W	en forma
 en franquía	W	en franquía
 en frente	W	en frente
 en frío	W	en frío
+en fronte de	X	en fronte de	en fronte de	s
 en fuerza de	X	en fuerza de
 en función de	X	en función de
 en general	W	en general
@@ -1536,8 +1597,10 @@ en nombre de	X	en nombre de
 en obsequio a	X	en obsequio a
 en obsequio de	X	en obsequio de
 en oculto	W	en oculto
+en orde a	X	en orde a	en orde a	n
 en orden	W	en orden
 en pago	W	en pago
+en par de	X	en par de	en par de	s
 en partes	W	en partes
 en parte	W	en parte
 en particular	W	en particular
@@ -1553,6 +1616,7 @@ en pinganitos	W	en pinganitos
 en pino	W	en pino
 en plata	W	en plata
 en poco	W	en poco
+en por de	X	en por de	en por de	s
 en pos de	X	en pos de
 en potencia	W	en potencia
 en prendas	W	en prendas
@@ -1577,6 +1641,7 @@ en reata	W	en reata
 en rebeldía	W	en rebeldía
 en redondo	W	en redondo
 en regla	W	en regla
+en relación a	X	en relación a	en relación a	s
 en renta	W	en renta
 en resolución	W	en resolución
 en resumen	W	en resumen
@@ -1622,6 +1687,7 @@ en tiempos	W	en tiempos
 en tiempo	W	en tiempo
 en todo$caso	X	en todo$caso
 en torno a	X	en torno a
+en torno a	X	en torno a	en torno a	s
 en torno de	X	en torno de
 entre dos luces	W	entre dos luces
 entre duerme y vela	W	entre duerme y vela
@@ -1685,7 +1751,10 @@ fin de año	NCMS	fin de año
 fin de semana	NCMS	fin de semana
 fines de año	NCMP	fines de año
 fines de semana	NCMP	fin de semana
+fóra de	X	fóra de	fóra de	s
 frente a	X	frente a
+frente a	X	frente a	fronte a	n
+fronte a	X	fronte a	fronte a	s
 frontero de	X	frontero de
 fuera de lugar	W	fuera de lugar
 fuera de propósito	W	fuera de propósito
@@ -1696,6 +1765,8 @@ fuera de tiempo	W	fuera de tiempo
 fuera de	X	fuera de
 gota a gota	W	gota a gota
 gracias a	X	gracias a
+gracias a	X	gracias a	grazas a	n
+grazas a	X	grazas a	grazas a	s
 hacer las américas	VNP	hacer las américas
 hasta no más	W	hasta no más
 hilo a hilo	W	hilo a hilo
@@ -1722,6 +1793,7 @@ maguera que	C	maguera que
 mal a mal	W	mal a mal
 mal que	C	mal que
 mal y de mala manera	W	mal y de mala manera
+mando a distancia	NCMS	mando a distancia	mando a distancia	s
 mano a mano	W	mano a mano
 mano de obra	NCFS	mano de obra
 mano sobre mano	W	mano sobre mano
@@ -1742,10 +1814,13 @@ mejorando lo presente	W	mejorando lo presente
 mejor dicho	W	mejor dicho
 menos mal	I	menos mal
 merced a	X	merced a
+meu Deus	I	meu Deus	meu Deus	s
 mientras que	C	mientras que
 mientras tanto	W	mientras tanto
 mi madre	I	mi madre
 mitad y mitad	W	mitad y mitad
+moitas gracias	I	moitas gracias	grazas	n
+moitas grazas	I	moitas grazas	grazas	s
 muchas gracias	I	muchas gracias
 muy allá	W	muy allá
 nada más que	W	nada más que
@@ -1787,6 +1862,7 @@ peces sable	NCMP	pez sable
 pena de muerte	NCFS	pena de muerte
 penas de muerte	NCFP	pena de muerte
 pese a	X	pese a
+pese a	X	pese a	pese a	s
 pez espada	NCMS	pez espada
 pez sable	NCMS	pez sable
 pico a viento	W	pico a viento
@@ -1808,8 +1884,9 @@ por ahí	W	por ahí
 por ahora	W	por ahora
 por alto	W	por alto
 por amor a el arte	W	por amor a el arte
-por antonomasia	W	por antonomasia
 por añadidura	W	por añadidura
+por ante	X	por ante	por ante	s
+por antonomasia	W	por antonomasia
 por arrobas	W	por arrobas
 por arte de birlibirloque	W	por arte de birlibirloque
 por arte de magia	W	por arte de magia
@@ -1828,9 +1905,11 @@ por completo	W	por completo
 por conducto de	X	por conducto de
 por consecuencia	C	por consecuencia
 por consiguiente	C	por consiguiente
+por cousa de	X	por cousa de	por cousa de	s
 por cuanto	C	por cuanto
 por cuanto que	C	por cuanto que
 por cuenta de	X	por cuenta de
+por culpa de	X	por culpa de	por culpa de	s
 por de dentro	W	por de dentro
 por defuera	W	por defuera
 por demás	W	por demás
@@ -1922,24 +2001,37 @@ prisionero de guerra	NCMS	prisionero de guerra
 prisioneros de guerra	NCMP	prisionero de guerra
 puesta de sol	NCFS	puesta de sol
 puesto que	C	puesto que
+punto e coma	NCMS	punto e coma	punto e coma	s
 punto por punto	W	punto por punto
+punto seguido	NCMS	punto seguido	punto e seguido	n
+puntos seguidos	NCMP	punto seguido	punto e seguido	n
 quedo a quedo	W	quedo a quedo
 qué tal	W	qué tal
 qué va	I	qué va
+quinta feira	NCFS	quinta feira	quinta feira	s
+quintas feiras	NCFP	quinta feira	quinta feira	s
 rabo a viento	W	rabo a viento
 ras con ras	W	ras con ras
 rata por cantidad	W	rata por cantidad
 respecto a	X	respecto a
+respecto a	X	respecto a	respecto a	s
 respecto de	X	respecto de
+respecto de	X	respecto de	respecto de	s
+respeito a	X	respeito a	respecto a	n
+respeito de	X	respeito de	respecto de	n
 rostro a rostro	W	rostro a rostro
 salsa rosa	NCFS	salsa rosa
 salsas rosas	NCFP	salsa rosa
 salvo que	C	salvo que
 según como	C	según como
+segunda feira	NCFS	segunda feira	segunda feira	s
+segundas feiras	NCFP	segunda feira	segunda feira	s
 según que	C	según que
 según y conforme	C	según y conforme
 servicio secreto	NCMS	servicio secreto
 servicios secretos	NCMP	servicio secreto
+sexta feira	NCFS	sexta feira	sexta feira	s
+sextas feiras	NCFP	sexta feira	sexta feira	s
 si bien	C	si bien
 si cuadra	W	si cuadra
 siempre jamás	W	siempre jamás
@@ -1958,6 +2050,7 @@ sino que	C	sino que
 sin perjuicio de	C	sin perjuicio de
 sin perjuicio de que	C	sin perjuicio de que
 sin pies ni cabeza	W	sin pies ni cabeza
+sobre de	X	sobre de	sobre de	s
 sobre falso	W	sobre falso
 sobre la marcha	W	sobre la marcha
 sobre manera	W	sobre manera
@@ -1974,20 +2067,29 @@ tan pronto como	C	tan pronto como
 tan pronto	W	tan pronto
 tanto como	C	tanto como
 tanto más cuanto que	C	tanto más cuanto que
+terceira feira	NCFS	terceira feira	terza feira	s
+terceiras feiras	NCFP	terceira feira	terza feira	s
 tercera edad	NCFS	tercera edad
 tiro libre	NCMS	tiro libre
 tiros libres	NCMP	tiro libre
 todo lo contrario que	W	todo lo contrario que
 todo terreno	NCMS	todo terreno
 todo terrenos	NCMP	todo terreno
+todo terreo	NCMS	todo terreo	todo terreo	s
+todo terreos	NCMP	todo terreo	todo terreo	s
 torre de control	NCFS	torre de control
+torre de control	NCFS	torre de control	torre de control	s
 torres de control	NCFP	torre de control
+torres de control	NCFP	torre de control	torre de control	s
+tras de	X	tras de	tras de	s
 tres pies a la francesa	W	tres pies a la francesa
 una por una	W	una por una
 unas cuantas	DNFP	unos cuantos
 unas cuantas	PNFP	unos cuantos
 una vana y dos vacías	W	una vana y dos vacías
 una vez que	C	una vez que
+un canto	DNMS	un canto	un canto	s
+un canto	PNMS	un canto	un canto	s
 uno a otro	W	uno a otro
 uno a uno	W	uno a uno
 uno con otro	W	uno con otro
@@ -1999,10 +2101,16 @@ uno tras otro	W	uno tras otro
 un pie a la francesa	W	un pie a la francesa
 un pie tras otro	W	un pie tras otro
 un real sobre otro	W	un real sobre otro
+uns cantos	DNMP	un canto	un canto	s
+uns cantos	PNMP	un canto	un canto	s
+verbo de	X	verbo de	verbo de	s
 visto que	C	visto que
 visto y no visto	AAS	visto y no visto
 visto y no visto	AMS	visto y no visto
 visto y no visto	ANS	visto y no visto
+xunto a	X	xunto a	xunto a	s
+xunto con	X	xunto con	xunto con	n
+xunto de	X	xunto de	xunto de	s
 ya que	C	ya que
 y con eso	C	y con eso
 y eso que	C	y eso que

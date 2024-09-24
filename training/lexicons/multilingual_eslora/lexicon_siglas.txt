@@ -34,8 +34,8 @@ CD	NCMP	compact disc
 CD	NCMS	compact disc
 CD-ROM	NCMP	compact disc-read only memory
 CD-ROM	NCMS	compact disc-read only memory
-CDU	NPMS	Christlich-Demokratische Union Deutschlands
 CDs	NCMP	compact disc
+CDU	NPMS	Christlich-Demokratische Union Deutschlands
 CEE	NPFS	Comunidad Económica Europea
 CIEMAT	NPMS	Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
 CIF	NCMP	código de identificación fiscal
@@ -44,6 +44,9 @@ CIFP	NPMS	Centro Integrado de Formación Profesional
 CIG	NPFS	Confederación Intersindical Galega
 CNMV	NPFS	Comisión Nacional del Mercado de Valores
 CO2	NCMS	dióxido de carbono
+CO2	Sigla	CO2		n
+C. O. 2.	Sigla	C. O. 2.		n
+C.O.2.	Sigla	C.O.2.		n
 CONCACAF	NPFS	Confederation of North, Central American and Caribbean Association Football
 COU	NPEL	Curso de Orientación Universitaria
 COU	NPMS	Curso de Orientación Universitaria
@@ -110,9 +113,9 @@ GPS	NCMP	Global Positioning System
 GPS	NCMS	Global Positioning System
 GTI	NPMS	Gran Turismo Inyección
 HB	NPMS	Herri Batasuna
-HD	NPEL	High Definition
 HDL	NCFP	high density lipoprotein
 HDL	NCFS	high density lipoprotein
+HD	NPEL	High Definition
 HIV	NCMP	human immunodeficiency virus
 HIV	NCMS	human immunodeficiency virus
 IBI	NCMS	impuesto sobre bienes inmuebles 
@@ -157,6 +160,7 @@ MAP	NPFS	Maghreb Arab Press
 MBNA	NPEL	Maryland Bank National Association
 MBNA	NPES	Maryland Bank National Association
 MEC	NPMS	Ministerio de Educación y Cultura
+Mercosur	NPMS	Mercado Común del Sur
 MIR	NCMP	médico interno residente
 MIR	NCMS	médico interno residente
 MP3	NCML	MPEG Audio Layer III
@@ -166,7 +170,6 @@ MPDL	NPMS	Movimiento por la Paz, el Desarme y la Libertad
 MTV	NPEL	Music Television
 MTV	NPES	Music Television
 MTV	NPFS	Music Television
-Mercosur	NPMS	Mercado Común del Sur
 NASA	NPFS	National Aeronautics and Space Administration
 NBA	NPFS	National Basketball Association
 NG	NCEL	no grado
@@ -185,16 +188,16 @@ ONG	NCFP	organización no gubernamental
 ONG	NCFS	organización no gubernamental
 ONGS	NCFP	organización no gubernamental
 ONU	NPFS	Organización de las Naciones Unidas
-OP	NPFS	Orden de predicadores
 OPA	NCFP	oferta pública de adquisición de acciones
 OPA	NCFS	oferta pública de adquisición de acciones
 OPE	NPFS	Oferta Pública de Empleo
 OPEP	NPFS	Organización de Países Exportadores de Petróleo
+OP	NPFS	Orden de predicadores
 OSA	NPFS	Orden de San Agustín
-OT	NPES	Operación Triunfo
-OT	NPMS	Operación Triunfo
 OTAN	NPFS	Organización del Tratado del Atlántico Norte
 OTI	NPFS	Organización de Televisiones Iberoamericanas
+OT	NPES	Operación Triunfo
+OT	NPMS	Operación Triunfo
 OX	NPEL	Organización e Xestión
 OX	NPES	Organización e Xestión
 PAN	NPMS	Partido de Acción Nacional
@@ -204,6 +207,7 @@ PC	NCMS	personal computer
 PDF	NCML	Portable Document Format
 PDF	NCMP	Portable Document Format
 PDF	NCMS	Portable Document Format
+Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
 PIB	NCMP	producto interior bruto
 PIB	NCMS	producto interior bruto
 PMA	NPMS	Programa Mundial de Alimentos
@@ -221,7 +225,6 @@ PTD	NPEL	Patología y Terapéutica Dental
 PTD	NPES	Patología y Terapéutica Dental
 PYME	NCFP	pequeña y mediana empresa
 PYME	NCFS	pequeña y mediana empresa
-Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
 RASD	NPFS	República Árabe Saharaui Democrática
 RDC	NPFS	República Democrática del Congo
 RNA	NCMP	ribonucleic acid
@@ -235,14 +238,14 @@ SEU	NPMP	Sindicato Español Universitario
 SEU	NPMS	Sindicato Español Universitario
 SEUs	NPMP	Sindicato Español Universitario
 SGAE	NPFS	Sociedad General de Autores y Editores
-SI	NPEL	Sistemas Inteligentes
 SIDA	NCMS	síndrome de inmunodeficiencia adquirida
+SI	NPEL	Sistemas Inteligentes
 SJ	NPFS	Societatis Iesu
 SME	NCMP	sistema monetario europeo
 SME	NCMS	sistema monetario europeo
-SPD	NPMS	Sozialdemokratische Partei Deutschlands
 Sogama	NPEL	Sociedade Galega do Medio Ambiente
 Sogama	NPES	Sociedade Galega do Medio Ambiente
+SPD	NPMS	Sozialdemokratische Partei Deutschlands
 TAC	NCMP	tomografía axial computarizada
 TAC	NCMS	tomografía axial computarizada
 TAE	NCFP	tasa anual equivalente
