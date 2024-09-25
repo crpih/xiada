@@ -114,7 +114,7 @@ daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Edxp
 daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Enxp
 daqueles	de	de	de	P	/	aqueles	aquel	aquel	DDAP
 daqueles	de	de	de	P	/	aqueles	aquel	aquel	PDMP
-daquelo	de	de	de	P	/	aquelo	aquel	aquel	PDnS
+daquelo	de	de	de	P	/	aquelo	aquel	aquel	PDNS
 daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
 daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Idfs
 daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
@@ -140,7 +140,7 @@ daquil	de	de	de	P	/	aquil	aquil	aquel	DDAS
 daquil	de	de	de	P	/	aquil	aquil	aquel	PDMS
 daquiles	de	de	de	P	/	aquiles	aquil	aquel	DDAP
 daquiles	de	de	de	P	/	aquiles	aquil	aquel	PDMP
-daquilo	de	de	de	P	/	aquilo	aquel	aquel	PDnS
+daquilo	de	de	de	P	/	aquilo	aquel	aquel	PDNS
 das	de	de	de	P	/	as	o	o	DAFP
 das/dos	de	de	de	P	/	as/os	o	o	Ddxp
 das/os	de	de	de	P	/	as/os	o	o	Ddxp
@@ -171,7 +171,7 @@ deses/as	de	de	de	P	/	esas/es	ese	ese	Edxp
 deses/as	de	de	de	P	/	esas/es	ese	ese	Enxp
 deses	de	de	de	P	/	eses	ese	ese	DDAP
 deses	de	de	de	P	/	eses	ese	ese	PDMP
-deso	de	de	de	P	/	eso	ese	ese	PDnS
+deso	de	de	de	P	/	eso	ese	ese	PDNS
 desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
 desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Idfs
 desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
@@ -204,7 +204,7 @@ destes/as	de	de	de	P	/	estes/as	este	este	Edxp
 destes/as	de	de	de	P	/	estes/as	este	este	Enxp
 destes	de	de	de	P	/	estes	este	este	DDAP
 destes	de	de	de	P	/	estes	este	este	PDMP
-desto	de	de	de	P	/	esto	este	este	PDnS
+desto	de	de	de	P	/	esto	este	este	PDNS
 destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
 destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Idfs
 destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
@@ -233,7 +233,7 @@ dise	de	de	de	P	/	ise	ise	ese	DDAS
 dise	de	de	de	P	/	ise	ise	ese	PDMS
 dises	de	de	de	P	/	ises	ise	ese	DDAP
 dises	de	de	de	P	/	ises	ise	ese	PDMP
-diso	de	de	de	P	/	iso	ese	ese	PDnS
+diso	de	de	de	P	/	iso	ese	ese	PDNS
 dista	de	de	de	P	/	ista	iste	este	DDFS
 dista	de	de	de	P	/	ista	iste	este	PDFS
 distas	de	de	de	P	/	istas	iste	este	DDFP
@@ -242,7 +242,7 @@ diste	de	de	de	P	/	iste	iste	este	DDAS
 diste	de	de	de	P	/	iste	iste	este	PDMS
 distes	de	de	de	P	/	istes	iste	este	DDAP
 distes	de	de	de	P	/	istes	iste	este	PDMP
-disto	de	de	de	P	/	isto	este	este	PDnS
+disto	de	de	de	P	/	isto	este	este	PDNS
 do/a	de	de	de	P	/	o/a	o	o	Ddxs
 do/da	de	de	de	P	/	o/a	o	o	Ddxs
 do	de	de	de	P	/	o	o	o	DAMS
@@ -366,7 +366,7 @@ naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Edxp
 naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Enxp
 naqueles	en	en	en	P	/	aqueles	aquel	aquel	DDAP
 naqueles	en	en	en	P	/	aqueles	aquel	aquel	PDMP
-naquelo	en	en	en	P	/	aquelo	aquel	aquel	PDnS
+naquelo	en	en	en	P	/	aquelo	aquel	aquel	PDNS
 naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
 naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Idfs
 naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
@@ -391,7 +391,7 @@ naquil	en	en	en	P	/	aquil	aquil	aquel	DDAS
 naquil	en	en	en	P	/	aquil	aquil	aquel	PDMS
 naquiles	en	en	en	P	/	aquiles	aquil	aquel	DDAP
 naquiles	en	en	en	P	/	aquiles	aquil	aquel	PDMP
-naquilo	en	en	en	P	/	aquilo	aquel	aquel	PDnS
+naquilo	en	en	en	P	/	aquilo	aquel	aquel	PDNS
 nas	en	en	en	P	/	as	o	o	DAFP
 nas/nos	en	en	en	P	/	as/os	o	o	Ddxp
 nas/os	en	en	en	P	/	as/os	o	o	Ddxp
@@ -419,7 +419,7 @@ neses/as	en	en	en	P	/	esas/es	ese	ese	Edxp
 neses/as	en	en	en	P	/	esas/es	ese	ese	Enxp
 neses	en	en	en	P	/	eses	ese	ese	DDAP
 neses	en	en	en	P	/	eses	ese	ese	PDMP
-neso	en	en	en	P	/	eso	ese	ese	PDnS
+neso	en	en	en	P	/	eso	ese	ese	PDNS
 nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
 nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Idfs
 nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
@@ -452,7 +452,7 @@ nestes/as	en	en	en	P	/	estes/as	este	este	Edxp
 nestes/as	en	en	en	P	/	estes/as	este	este	Enxp
 nestes	en	en	en	P	/	estes	este	este	DDAP
 nestes	en	en	en	P	/	estes	este	este	PDMP
-nesto	en	en	en	P	/	esto	este	este	PDnS
+nesto	en	en	en	P	/	esto	este	este	PDNS
 nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
 nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Idfs
 nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
@@ -481,7 +481,7 @@ nise	en	en	en	P	/	ise	ise	ese	DDAS
 nise	en	en	en	P	/	ise	ise	ese	PDMS
 nises	en	en	en	P	/	ises	ise	ese	DDAP
 nises	en	en	en	P	/	ises	ise	ese	PDMP
-niso	en	en	en	P	/	iso	ese	ese	PDnS
+niso	en	en	en	P	/	iso	ese	ese	PDNS
 nista	en	en	en	P	/	ista	iste	este	DDFS
 nista	en	en	en	P	/	ista	iste	este	PDFS
 nistas	en	en	en	P	/	istas	iste	este	DDFP
@@ -490,7 +490,7 @@ niste	en	en	en	P	/	iste	iste	este	DDAS
 niste	en	en	en	P	/	iste	iste	este	PDMS
 nistes	en	en	en	P	/	istes	iste	este	DDAP
 nistes	en	en	en	P	/	istes	iste	este	PDMP
-nisto	en	en	en	P	/	isto	este	este	PDnS
+nisto	en	en	en	P	/	isto	este	este	PDNS
 no/a	en	en	en	P	/	o/a	o	o	Ddxs
 no	en	en	en	P	/	o	o	o	DAMS
 nó-las	nós	nós	nós	Rtn1fp	/	las	o	o	DAFP

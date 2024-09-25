@@ -82,27 +82,27 @@ ars amandi	NCFS	ars amandi	ars amandi	s
 ars amatoria	NCFS	ars amatoria	ars amatoria	s
 ars erotica	NCFS	ars erotica	ars erotica	s
 ars nova	NCFS	ars nova	ars nova	s
-art deco	AEa	art deco	art déco	s
-art decó	AEa	art decó	art déco	s
-art déco	AEa	art déco	art déco	s
+art deco	AEL	art deco	art déco	s
+art decó	AEL	art decó	art déco	s
+art déco	AEL	art déco	art déco	s
 art deco	AEP	art deco	art déco	s
 art decó	AEP	art decó	art déco	s
 art déco	AEP	art déco	art déco	s
 art deco	AES	art deco	art déco	s
 art decó	AES	art decó	art déco	s
 art déco	AES	art déco	art déco	s
-art deco	AFa	art deco	art déco	s
-art decó	AFa	art decó	art déco	s
-art déco	AFa	art déco	art déco	s
+art deco	AFL	art deco	art déco	s
+art decó	AFL	art decó	art déco	s
+art déco	AFL	art déco	art déco	s
 art deco	AFP	art deco	art déco	s
 art decó	AFP	art decó	art déco	s
 art déco	AFP	art déco	art déco	s
 art deco	AFS	art deco	art déco	s
 art decó	AFS	art decó	art déco	s
 art déco	AFS	art déco	art déco	s
-art deco	AMa	art deco	art déco	s
-art decó	AMa	art decó	art déco	s
-art déco	AMa	art déco	art déco	s
+art deco	AML	art deco	art déco	s
+art decó	AML	art decó	art déco	s
+art déco	AML	art déco	art déco	s
 art deco	AMP	art deco	art déco	s
 art decó	AMP	art decó	art déco	s
 art déco	AMP	art déco	art déco	s
@@ -255,13 +255,13 @@ conditio sine qua non	NCFS	conditio sine qua non	conditio sine qua non	s
 con o gallo de	X	con o gallo de	con o gallo de	s
 con relación a	X	con relación a	con relación a	s
 constantes vitais	NCFP	constantes vitais	constantes vitais	s
-contra natura	AEa	contra natura	contra natura	s
+contra natura	AEL	contra natura	contra natura	s
 contra natura	AEP	contra natura	contra natura	s
 contra natura	AES	contra natura	contra natura	s
-contra natura	AFa	contra natura	contra natura	s
+contra natura	AFL	contra natura	contra natura	s
 contra natura	AFP	contra natura	contra natura	s
 contra natura	AFS	contra natura	contra natura	s
-contra natura	AMa	contra natura	contra natura	s
+contra natura	AML	contra natura	contra natura	s
 contra natura	AMP	contra natura	contra natura	s
 contra natura	AMS	contra natura	contra natura	s
 controis remoto	NCMP	control remoto	control remoto	s
@@ -275,13 +275,13 @@ couto redondo	NCMS	couto redondo	couto redondo	s
 coutos redondos	NCMP	couto redondo	couto redondo	s
 cuarto de aseo	NCMS	cuarto de aseo	cuarto de aseo	s
 cuarto de baño	NCMS	cuarto de baño	cuarto de baño	s
-cum_laude	AEa	cum_laude	cum_laude	s
+cum_laude	AEL	cum_laude	cum_laude	s
 cum_laude	AEP	cum_laude	cum_laude	s
 cum_laude	AES	cum_laude	cum_laude	s
-cum_laude	AFa	cum_laude	cum_laude	s
+cum_laude	AFL	cum_laude	cum_laude	s
 cum_laude	AFP	cum_laude	cum_laude	s
 cum_laude	AFS	cum_laude	cum_laude	s
-cum_laude	AMa	cum_laude	cum_laude	s
+cum_laude	AML	cum_laude	cum_laude	s
 cum_laude	AMP	cum_laude	cum_laude	s
 cum_laude	AMS	cum_laude	cum_laude	s
 curriculum vitae	NCMS	curriculum vitae	currículum vítae	n
@@ -304,23 +304,23 @@ delta lávico	NCMS	delta lávico	delta lávico	s
 deltas de lava	NCFP	delta de lava	delta de lava	s
 deltas lávicos	NCMP	delta lávico	delta lávico	s
 de Pascuas en viernes	W	de Pascuas en viernes
-de puta madre	AEa	de puta madre	de puta madre	n
+de puta madre	AEL	de puta madre	de puta madre	n
 de puta madre	AEP	de puta madre	de puta madre	n
 de puta madre	AES	de puta madre	de puta madre	n
-de puta madre	AFa	de puta madre	de puta madre	n
+de puta madre	AFL	de puta madre	de puta madre	n
 de puta madre	AFP	de puta madre	de puta madre	n
 de puta madre	AFS	de puta madre	de puta madre	n
-de puta madre	AMa	de puta madre	de puta madre	n
+de puta madre	AML	de puta madre	de puta madre	n
 de puta madre	AMP	de puta madre	de puta madre	n
 de puta madre	AMS	de puta madre	de puta madre	n
 de puta madre	W	de puta madre
-de putísima madre	AEa	de puta madre	de puta madre	n
+de putísima madre	AEL	de puta madre	de puta madre	n
 de putísima madre	AEP	de puta madre	de puta madre	n
 de putísima madre	AES	de puta madre	de puta madre	n
-de putísima madre	AFa	de puta madre	de puta madre	n
+de putísima madre	AFL	de puta madre	de puta madre	n
 de putísima madre	AFP	de puta madre	de puta madre	n
 de putísima madre	AFS	de puta madre	de puta madre	n
-de putísima madre	AMa	de puta madre	de puta madre	n
+de putísima madre	AML	de puta madre	de puta madre	n
 de putísima madre	AMP	de puta madre	de puta madre	n
 de putísima madre	AMS	de puta madre	de puta madre	n
 de putísima madre	W	de putísima madre
@@ -349,22 +349,22 @@ en lugar de	X	en lugar de	en lugar de	s
 en materia de	X	en materia de	en materia de	s
 en o tocante a	X	en o tocante a	tocante a	s
 en plan	W	en plan
-en regla	AEa	en regla	en regra	n
+en regla	AEL	en regla	en regra	n
 en regla	AEP	en regla	en regra	n
 en regla	AES	en regla	en regra	n
-en regla	AFa	en regla	en regra	n
+en regla	AFL	en regla	en regra	n
 en regla	AFP	en regla	en regra	n
 en regla	AFS	en regla	en regra	n
-en regla	AMa	en regla	en regra	n
+en regla	AML	en regla	en regra	n
 en regla	AMP	en regla	en regra	n
 en regla	AMS	en regla	en regra	n
-en regra	AEa	en regra	en regra	s
+en regra	AEL	en regra	en regra	s
 en regra	AEP	en regra	en regra	s
 en regra	AES	en regra	en regra	s
-en regra	AFa	en regra	en regra	s
+en regra	AFL	en regra	en regra	s
 en regra	AFP	en regra	en regra	s
 en regra	AFS	en regra	en regra	s
-en regra	AMa	en regra	en regra	s
+en regra	AML	en regra	en regra	s
 en regra	AMP	en regra	en regra	s
 en regra	AMS	en regra	en regra	s
 en relación con	X	en relación con	en relación con	s
@@ -526,13 +526,13 @@ modus operandi	NCMP	modus operandi
 modus operandi	NCMS	modus operandi
 modus operandi	NCMS	modus operandi	modus operandi	s
 modus vivendi	NCMS	modus vivendi	modus vivendi	s
-mortis causa	AEa	mortis causa	mortis causa	s
+mortis causa	AEL	mortis causa	mortis causa	s
 mortis causa	AEP	mortis causa	mortis causa	s
 mortis causa	AES	mortis causa	mortis causa	s
-mortis causa	AFa	mortis causa	mortis causa	s
+mortis causa	AFL	mortis causa	mortis causa	s
 mortis causa	AFP	mortis causa	mortis causa	s
 mortis causa	AFS	mortis causa	mortis causa	s
-mortis causa	AMa	mortis causa	mortis causa	s
+mortis causa	AML	mortis causa	mortis causa	s
 mortis causa	AMP	mortis causa	mortis causa	s
 mortis causa	AMS	mortis causa	mortis causa	s
 motu proprio	W	motu proprio
@@ -703,13 +703,13 @@ tiranosaurios rex	NCMP	tiranosaurio rex
 tiro libre	NCMS	tiro libre	tiro libre	s
 tiros libres	NCMP	tiro libre	tiro libre	s
 tocante a	X	tocante a	tocante a	s
-todo terreo	AEa	todo terreo	todo terreo	s
+todo terreo	AEL	todo terreo	todo terreo	s
 todo terreo	AEP	todo terreo	todo terreo	s
 todo terreo	AES	todo terreo	todo terreo	s
-todo terreo	AFa	todo terreo	todo terreo	s
+todo terreo	AFL	todo terreo	todo terreo	s
 todo terreo	AFP	todo terreo	todo terreo	s
 todo terreo	AFS	todo terreo	todo terreo	s
-todo terreo	AMa	todo terreo	todo terreo	s
+todo terreo	AML	todo terreo	todo terreo	s
 todo terreo	AMP	todo terreo	todo terreo	s
 todo terreo	AMS	todo terreo	todo terreo	s
 top les	NCMS	top les	topless	n

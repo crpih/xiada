@@ -1225,13 +1225,13 @@ de oídas	W	de oídas
 de oído	W	de oído
 de órdago	W	de órdago
 de ordinario	W	de ordinario
-de paisano	AEa	de paisano	de paisano	s
+de paisano	AEL	de paisano	de paisano	s
 de paisano	AEP	de paisano	de paisano	s
 de paisano	AES	de paisano	de paisano	s
-de paisano	AFa	de paisano	de paisano	s
+de paisano	AFL	de paisano	de paisano	s
 de paisano	AFP	de paisano	de paisano	s
 de paisano	AFS	de paisano	de paisano	s
-de paisano	AMa	de paisano	de paisano	s
+de paisano	AML	de paisano	de paisano	s
 de paisano	AMP	de paisano	de paisano	s
 de paisano	AMS	de paisano	de paisano	s
 de palabra en palabra	W	de palabra en palabra
