@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-module LemmatizerSpanishEslora
+module LemmatizerMultilingualEslora
   def lemmatize(word, tags)
     #STDERR.puts "(lemmatize) word: #{word}"
     # ito/ita/itos/itas suffix treatment

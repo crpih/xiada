@@ -24,10 +24,6 @@ PROPER_NOUNS_PROCESSOR =
     nil
   end
 
-class ProperNounTrainingError < StandardError; end
-
-class TaggingSentenceError < StandardError; end
-
 def tag_text(text, proper_nouns_processor)
   sentence = Sentence.new(DW, ACRONYMS, ABBREVIATIONS, ENCLITICS, proper_nouns_processor, text)
   sentence.contractions_processing
@@ -36,9 +32,5 @@ def tag_text(text, proper_nouns_processor)
   sentence.enclitics_processing
   viterbi = Viterbi.new(DW)
   viterbi.run(sentence)
-  viterbi.best_way
-rescue StandardError
-  raise TaggingSentenceError.new("Error tagging sentence: #{text}")
-rescue Exception
-  raise TaggingSentenceError.new("Critical error tagging sentence: #{text}")
+  viterbi
 end

@@ -47,7 +47,7 @@ spanish_eslora_oral:
 
 multilingual_eslora_all:
 	rm -f ../databases/multilingual_eslora/training_eslora_multilingual.db
-	ruby xiada_training.rb ../corpus/multilingual_eslora/corpus_eslora.tagged ../databases/multilingual_eslora/training_eslora_multilingual.db ../corpus/multilingual_eslora/tags_info.txt ../lexicons/multilingual_eslora/lexicon_principal.txt
+	ruby xiada_training.rb ../corpus/multilingual_eslora/corpus_eslora.tagged ../databases/multilingual_eslora/training_multilingual_eslora.db ../corpus/multilingual_eslora/tags_info.txt ../lexicons/multilingual_eslora/lexicon_principal.txt
 	cd ../lexicons/bin; make multilingual_eslora; cd ../../bin
 
 tagset_evaluation_default:

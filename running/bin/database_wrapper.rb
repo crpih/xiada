@@ -19,6 +19,8 @@ class DatabaseWrapper
     case xiada_profile
     when "spanish_eslora"
       @lemmatizer.extend(LemmatizerSpanishEslora)
+    when "multilingual_eslora"
+      @lemmatizer.extend(LemmatizerMultilingualEslora)
     when "galician_xiada"
       @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
     when "galician_xiada_oral"
@@ -387,7 +389,7 @@ class DatabaseWrapper
       return true
     end
 
-    return false
+    return true # FIXME: Ignore errors for now
   end
 
   def get_enclitics_info
