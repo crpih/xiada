@@ -82,6 +82,9 @@ ars amandi	NCFS	ars amandi	ars amandi	s
 ars amatoria	NCFS	ars amatoria	ars amatoria	s
 ars erotica	NCFS	ars erotica	ars erotica	s
 ars nova	NCFS	ars nova	ars nova	s
+art deco	AAS	art deco	art déco	s
+art decó	AAS	art decó	art déco	s
+art déco	AAS	art déco	art déco	s
 art deco	AEL	art deco	art déco	s
 art decó	AEL	art decó	art déco	s
 art déco	AEL	art déco	art déco	s
@@ -100,15 +103,12 @@ art déco	AFP	art déco	art déco	s
 art deco	AFS	art deco	art déco	s
 art decó	AFS	art decó	art déco	s
 art déco	AFS	art déco	art déco	s
-art deco	AML	art deco	art déco	s
-art decó	AML	art decó	art déco	s
-art déco	AML	art déco	art déco	s
-art deco	AMP	art deco	art déco	s
-art decó	AMP	art decó	art déco	s
-art déco	AMP	art déco	art déco	s
 art deco	AMS	art deco	art déco	s
 art decó	AMS	art decó	art déco	s
 art déco	AMS	art déco	art déco	s
+art deco	ANS	art deco	art déco	s
+art decó	ANS	art decó	art déco	s
+art déco	ANS	art déco	art déco	s
 art deco	NCMS	art deco	art déco	s
 art decó	NCMS	art decó	art déco	s
 art déco	NCMS	art déco	art déco	s
@@ -141,21 +141,29 @@ axentes secretas	NCFP	axente secreto	axente secreto	s
 axentes secretos	NCMP	axente secreto	axente secreto	s
 a xuízo de	X	a xuízo de	a xuízo de	n
 a xunto de	X	a xunto de	xunto de	s
+azul celeste	AAS	azul celeste	azul celeste	s
 azul celeste	AES	azul celeste	azul celeste	s
 azul celeste	AFS	azul celeste	azul celeste	s
 azul celeste	AMS	azul celeste	azul celeste	s
+azul celeste	ANS	azul celeste	azul celeste	s
 azul celeste	NCMS	azul celeste	azul celeste	s
+azul cobalto	AAS	azul cobalto	azul cobalto	s
 azul cobalto	AES	azul cobalto	azul cobalto	s
 azul cobalto	AFS	azul cobalto	azul cobalto	s
 azul cobalto	AMS	azul cobalto	azul cobalto	s
+azul cobalto	ANS	azul cobalto	azul cobalto	s
 azul cobalto	NCMS	azul cobalto	azul cobalto	s
+azul mariño	AAS	azul mariño	azul mariño	s
 azul mariño	AES	azul mariño	azul mariño	s
 azul mariño	AFS	azul mariño	azul mariño	s
 azul mariño	AMS	azul mariño	azul mariño	s
+azul mariño	ANS	azul mariño	azul mariño	s
 azul mariño	NCMS	azul mariño	azul mariño	s
+azul turquesa	AAS	azul turquesa	azul turquesa	s
 azul turquesa	AES	azul turquesa	azul turquesa	s
 azul turquesa	AFS	azul turquesa	azul turquesa	s
 azul turquesa	AMS	azul turquesa	azul turquesa	s
+azul turquesa	ANS	azul turquesa	azul turquesa	s
 azul turquesa	NCMS	azul turquesa	azul turquesa	s
 baño maría	NCMS	baño maría	baño maría	n
 bardante de	X	bardante de	bardante de	s
@@ -165,16 +173,17 @@ bases de datos	NCFP	base de datos	base de datos	s
 bases impoñibles	NCFP	base impoñible	base impoñible	s
 beatus ille	NCMS	beatus ille	beatus ille	s
 bel canto	NCMS	bel canto
+best seller	AAS	best seller	best-séller	n
 best seller	AES	best seller	best-séller	n
 best seller	AFS	best seller	best-séller	n
 best seller	AMS	best seller	best-séller	n
+best seller	ANS	best seller	best-séller	n
 best seller	NCML	best seller
 best seller	NCMP	best seller
 best seller	NCMS	best seller
 best seller	NCMS	best seller	best-séller	n
 best sellers	AEP	best seller	best-séller	n
 best sellers	AFP	best seller	best-séller	n
-best sellers	AMP	best seller	best-séller	n
 best sellers	NCMP	best seller
 best sellers	NCMP	best seller	best-séller	n
 black bass	NCML	black bass
@@ -255,15 +264,15 @@ conditio sine qua non	NCFS	conditio sine qua non	conditio sine qua non	s
 con o gallo de	X	con o gallo de	con o gallo de	s
 con relación a	X	con relación a	con relación a	s
 constantes vitais	NCFP	constantes vitais	constantes vitais	s
+contra natura	AAS	contra natura	contra natura	s
 contra natura	AEL	contra natura	contra natura	s
 contra natura	AEP	contra natura	contra natura	s
 contra natura	AES	contra natura	contra natura	s
 contra natura	AFL	contra natura	contra natura	s
 contra natura	AFP	contra natura	contra natura	s
 contra natura	AFS	contra natura	contra natura	s
-contra natura	AML	contra natura	contra natura	s
-contra natura	AMP	contra natura	contra natura	s
 contra natura	AMS	contra natura	contra natura	s
+contra natura	ANS	contra natura	contra natura	s
 controis remoto	NCMP	control remoto	control remoto	s
 control remoto	NCMS	control remoto	control remoto	s
 correo electrónico	NCMS	correo electrónico	correo electrónico	s
@@ -275,15 +284,15 @@ couto redondo	NCMS	couto redondo	couto redondo	s
 coutos redondos	NCMP	couto redondo	couto redondo	s
 cuarto de aseo	NCMS	cuarto de aseo	cuarto de aseo	s
 cuarto de baño	NCMS	cuarto de baño	cuarto de baño	s
+cum_laude	AAS	cum_laude	cum_laude	s
 cum_laude	AEL	cum_laude	cum_laude	s
 cum_laude	AEP	cum_laude	cum_laude	s
 cum_laude	AES	cum_laude	cum_laude	s
 cum_laude	AFL	cum_laude	cum_laude	s
 cum_laude	AFP	cum_laude	cum_laude	s
 cum_laude	AFS	cum_laude	cum_laude	s
-cum_laude	AML	cum_laude	cum_laude	s
-cum_laude	AMP	cum_laude	cum_laude	s
 cum_laude	AMS	cum_laude	cum_laude	s
+cum_laude	ANS	cum_laude	cum_laude	s
 curriculum vitae	NCMS	curriculum vitae	currículum vítae	n
 currículum vitae	NCMS	currículum vitae	currículum vítae	n
 currículum vítae	NCMS	currículum vítae	currículum vítae	s
@@ -304,25 +313,25 @@ delta lávico	NCMS	delta lávico	delta lávico	s
 deltas de lava	NCFP	delta de lava	delta de lava	s
 deltas lávicos	NCMP	delta lávico	delta lávico	s
 de Pascuas en viernes	W	de Pascuas en viernes
+de puta madre	AAS	de puta madre	de puta madre	n
 de puta madre	AEL	de puta madre	de puta madre	n
 de puta madre	AEP	de puta madre	de puta madre	n
 de puta madre	AES	de puta madre	de puta madre	n
 de puta madre	AFL	de puta madre	de puta madre	n
 de puta madre	AFP	de puta madre	de puta madre	n
 de puta madre	AFS	de puta madre	de puta madre	n
-de puta madre	AML	de puta madre	de puta madre	n
-de puta madre	AMP	de puta madre	de puta madre	n
 de puta madre	AMS	de puta madre	de puta madre	n
+de puta madre	ANS	de puta madre	de puta madre	n
 de puta madre	W	de puta madre
+de putísima madre	AAS	de puta madre	de puta madre	n
 de putísima madre	AEL	de puta madre	de puta madre	n
 de putísima madre	AEP	de puta madre	de puta madre	n
 de putísima madre	AES	de puta madre	de puta madre	n
 de putísima madre	AFL	de puta madre	de puta madre	n
 de putísima madre	AFP	de puta madre	de puta madre	n
 de putísima madre	AFS	de puta madre	de puta madre	n
-de putísima madre	AML	de puta madre	de puta madre	n
-de putísima madre	AMP	de puta madre	de puta madre	n
 de putísima madre	AMS	de puta madre	de puta madre	n
+de putísima madre	ANS	de puta madre	de puta madre	n
 de putísima madre	W	de putísima madre
 de refilón	W	de refilón
 diabete mellitus	NCFS	diabete mellitus	diabetes mellitus	n
@@ -349,24 +358,24 @@ en lugar de	X	en lugar de	en lugar de	s
 en materia de	X	en materia de	en materia de	s
 en o tocante a	X	en o tocante a	tocante a	s
 en plan	W	en plan
+en regla	AAS	en regla	en regra	n
 en regla	AEL	en regla	en regra	n
 en regla	AEP	en regla	en regra	n
 en regla	AES	en regla	en regra	n
 en regla	AFL	en regla	en regra	n
 en regla	AFP	en regla	en regra	n
 en regla	AFS	en regla	en regra	n
-en regla	AML	en regla	en regra	n
-en regla	AMP	en regla	en regra	n
 en regla	AMS	en regla	en regra	n
+en regla	ANS	en regla	en regra	n
+en regra	AAS	en regra	en regra	s
 en regra	AEL	en regra	en regra	s
 en regra	AEP	en regra	en regra	s
 en regra	AES	en regra	en regra	s
 en regra	AFL	en regra	en regra	s
 en regra	AFP	en regra	en regra	s
 en regra	AFS	en regra	en regra	s
-en regra	AML	en regra	en regra	s
-en regra	AMP	en regra	en regra	s
 en regra	AMS	en regra	en regra	s
+en regra	ANS	en regra	en regra	s
 en relación con	X	en relación con	en relación con	s
 en seguidita	W	en seguida
 en vez de	X	en vez de	en vez de	s
@@ -482,7 +491,6 @@ lapsus linguae	NCMS	lapsus linguae	lapsus linguae	s
 lapsus memoriae	NCMS	lapsus memoriae	lapsus memoriae	s
 larva migrans	NCFS	larva migrans	larva migrans	s
 las cuales	PLFP	el cual
-late night	NCMS	late night	late night	n
 leit motiv	NCMP	leit motiv	leitmotiv	n
 leit motiv	NCMS	leit motiv	leitmotiv	n
 liberdade condicional	NCFS	liberdade condicional	liberdade condicional	s
@@ -526,21 +534,19 @@ modus operandi	NCMP	modus operandi
 modus operandi	NCMS	modus operandi
 modus operandi	NCMS	modus operandi	modus operandi	s
 modus vivendi	NCMS	modus vivendi	modus vivendi	s
+mortis causa	AAS	mortis causa	mortis causa	s
 mortis causa	AEL	mortis causa	mortis causa	s
 mortis causa	AEP	mortis causa	mortis causa	s
 mortis causa	AES	mortis causa	mortis causa	s
 mortis causa	AFL	mortis causa	mortis causa	s
 mortis causa	AFP	mortis causa	mortis causa	s
 mortis causa	AFS	mortis causa	mortis causa	s
-mortis causa	AML	mortis causa	mortis causa	s
-mortis causa	AMP	mortis causa	mortis causa	s
 mortis causa	AMS	mortis causa	mortis causa	s
+mortis causa	ANS	mortis causa	mortis causa	s
 motu proprio	W	motu proprio
 mountain bike	NCMS	mountain bike
 music hall	NCMS	music hall
 music halls	NCMP	music hall
-night club	NCMS	night club	night club	n
-night clubs	NCMP	night club	night club	n
 noite de voda	NCFS	noite de voda	noite de vodas	n
 noite de vodas	NCFS	noite de vodas	noite de vodas	n
 noites de voda	NCFP	noite de voda	noite de vodas	n
@@ -598,9 +604,11 @@ primeiras ministras	NCFP	primeiro ministro	primeiro ministro	s
 primeiro ministro	NCMS	primeiro ministro	primeiro ministro	s
 primeiros ministros	NCMP	primeiro ministro	primeiro ministro	s
 prime time	NCMS	prime time	prime time	n
+primus inter pares	AAS	primus inter pares	primus inter pares	s
 primus inter pares	AES	primus inter pares	primus inter pares	s
 primus inter pares	AFS	primus inter pares	primus inter pares	s
 primus inter pares	AMS	primus inter pares	primus inter pares	s
+primus inter pares	ANS	primus inter pares	primus inter pares	s
 primus inter pares	NCMS	primus inter pares	primus inter pares	s
 punto cardinal	NCMS	punto cardinal	punto cardinal	s
 punto crítico	NCMS	punto crítico	punto crítico	s
@@ -672,9 +680,11 @@ start up	NCFS	start up	start-up	n
 statu quo	NCMS	statu quo	statu quo	n
 status quo	NCMS	status quo	statu quo	n
 street art	NCMS	street art	street art	s
+sui géneris	AAS	sui géneris	sui géneris	n
 sui géneris	AES	sui géneris	sui géneris	n
 sui géneris	AFS	sui géneris	sui géneris	n
 sui géneris	AMS	sui géneris	sui géneris	n
+sui géneris	ANS	sui géneris	sui géneris	n
 talent show	NCMS	talent show	talent show	n
 talk show	NCMS	talk show	talk show	n
 tarifa plana	NCFS	tarifa plana	tarifa plana	s
@@ -703,15 +713,15 @@ tiranosaurios rex	NCMP	tiranosaurio rex
 tiro libre	NCMS	tiro libre	tiro libre	s
 tiros libres	NCMP	tiro libre	tiro libre	s
 tocante a	X	tocante a	tocante a	s
+todo terreo	AAS	todo terreo	todo terreo	s
 todo terreo	AEL	todo terreo	todo terreo	s
 todo terreo	AEP	todo terreo	todo terreo	s
 todo terreo	AES	todo terreo	todo terreo	s
 todo terreo	AFL	todo terreo	todo terreo	s
 todo terreo	AFP	todo terreo	todo terreo	s
 todo terreo	AFS	todo terreo	todo terreo	s
-todo terreo	AML	todo terreo	todo terreo	s
-todo terreo	AMP	todo terreo	todo terreo	s
 todo terreo	AMS	todo terreo	todo terreo	s
+todo terreo	ANS	todo terreo	todo terreo	s
 top les	NCMS	top les	topless	n
 top manta	NCMS	top manta	top manta	n
 top model	NCFP	top model	top model	n
@@ -753,8 +763,12 @@ un poquitito	PQNS	un poco
 un poquitito	W	un poco
 un poquito	PQNS	un poco
 un poquito	W	un poco
+un pouco	DQAS	un pouco	un pouco	s
 un pouco	DQMS	un pouco	un pouco	s
+un pouco	DQNS	un pouco	un pouco	s
+un pouco	PQAS	un pouco	un pouco	s
 un pouco	PQMS	un pouco	un pouco	s
+un pouco	PQNS	un pouco	un pouco	s
 uns poucos	DQMP	un pouco	un pouco	s
 uns poucos	PQMP	un pouco	un pouco	s
 uve doble	NCFS	uve doble

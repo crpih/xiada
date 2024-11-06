@@ -137,10 +137,11 @@ class DatabaseWrapper
       @bigram_stm ||= @db.prepare("select log_ajk from bigram_frequencies where tj=? and tk=? limit 1")
       @unigram_stm ||= @db.prepare("select log_ak from unigram_frequencies where tk=? limit 1")
 
-      #STDERR.puts "Getting trigram probability: -#{tag_i}-, -#{tag_j}-, -#{tag_k}-"
-      result = @trigram_stm.execute!(tag_i, tag_j, tag_k).first&.first ||
-        @bigram_stm.execute!(tag_j, tag_k).first&.first ||
-        @unigram_stm.execute!(tag_k).first&.first
+      trigram_prob = @trigram_stm.execute!(tag_i, tag_j, tag_k).first&.first
+      bigram_prob = @bigram_stm.execute!(tag_j, tag_k).first&.first unless trigram_prob
+      unigram_prob = @unigram_stm.execute!(tag_k).first&.first unless bigram_prob || trigram_prob
+      result = trigram_prob || bigram_prob || unigram_prob
+      raise "No probability found for unigram: #{tag_k}" unless result
 
       # Statements must be reset before they can be used again.
       # See: https://github.com/sparklemotion/sqlite3-ruby/issues/158

@@ -1,5 +1,7 @@
 FROM ruby:3.1.2-slim-buster
 
+ARG TRAIN=true
+
 RUN chmod 1777 /tmp && \
     apt-get update -qq && \
     apt-get install --no-install-recommends -y build-essential libsqlite3-dev git-core ssh-client
@@ -16,9 +18,17 @@ RUN --mount=type=ssh bundle install
 
 COPY . /myapp
 
-RUN cd training/bin && \
-    make galician_xiada_escrita galician_xiada_oral spanish_eslora && \
-    cd ../..
+RUN if [ "$TRAIN" = "true" ]; then \
+      echo "Training data not available. Training..."; \
+      cd training/bin && \
+      make spanish_eslora && \
+      make multilingual_eslora && \
+      make galician_xiada_escrita && \
+      make galician_xiada_oral && \
+      cd ../.. \
+    else \
+      echo "Training data available. Skipping training."; \
+    fi
 
 EXPOSE 4000
 CMD ruby running/bin/server.rb -o 0.0.0.0 -p 4000 2>&1

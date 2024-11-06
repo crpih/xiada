@@ -13,6 +13,7 @@ helpers do
     texts.map do |text|
       yield(text, proper_nouns_processor)
     rescue StandardError => e
+      $stderr.write("#{e.message}\n#{e.backtrace.join("\n")}\n\n")
       body = { text: text, message: e.message, backtrace: e.backtrace }.to_json
       halt 500, { 'Content-Type' => 'application/json' }, body
     end.to_json

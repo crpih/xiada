@@ -423,7 +423,7 @@ esa	DDFS	ese
 cena	NCFS	cena
 otro	DNMS	otro
 gallo	NCMS	gallo
-cantaría	VIC3S	cantar
+cantaría	VIC3s	cantar
 
 ¡	Q	¡
 qué	DTMS	qué
@@ -1279,11 +1279,11 @@ no	W	no
 <pausa/>	ETQ_PAUSA	<pausa/>
 eeh	I	eeh
 se	PY3FPO	se
-mantendrán	VIH3P	mantener
+mantendrán	VIF3P	mantener
 las	DAFP	el
 mismas	PEFP	mismo
 que	PLFS	que
-será	VIH3S	ser
+será	VIF3S	ser
 la	DAFS	el
 música	NCFS	música
 <pausa/>	ETQ_PAUSA	<pausa/>
@@ -1328,13 +1328,13 @@ y	C	y
 tal	PDIS	tal
 <pausa/>	ETQ_PAUSA	<pausa/>
 
-tendré	VIH1S	tener
+tendré	VIF1S	tener
 que	C	que
 coger	VNP	coger
 el	DAMS	el
 
 puf	I	puf
-tendrás	VIH2S	tener
+tendrás	VIF2S	tener
 la	DAFS	el
 cabeza	NCFS	cabeza
 como	W	como
@@ -1348,10 +1348,10 @@ ay	I	ay
 mira	VMP2S	mirar
 ya	W	ya
 te	PY2ESO	te
-contaremos	VIH1P	contar
+contaremos	VIF1P	contar
 
 no	W	no
-estaréis	VIH2P	estar
+estaréis	VIF2P	estar
 en	X	en
 clase	NCFS	clase
 diciendo	VGP	decir
@@ -1654,6 +1654,11 @@ feo	AMS	feo
 tiene	VIP3S	tener
 un	DIMS	un
 problema	NCMS	problema
+
+Detroit	NPEL	Detroit
+86	Cifra	86
+Miami	NPEL	Miami
+80	Cifra	80
 
 esas	DDFP	ese
 copas	NCFP	copa
@@ -2036,7 +2041,7 @@ todo	PGMS	todo
 aquí	W	aquí
 
 mañana	W	mañana
-habrá	VIH3S	haber
+habrá	VIF3S	haber
 más	DOEL	más
 guardaespaldas	NCEL	guardaespaldas
 rascando	VGP	rascar
@@ -2100,7 +2105,7 @@ esto	PDNS	este
 
 las	DAFP	el
 primeras	PRFP	primero
-seremos	VIH1P	ser
+seremos	VIF1P	ser
 nosotras	PY1FPQ	nosotros
 ,	Q	,
 los	DAMP	el
@@ -2112,7 +2117,7 @@ la	DAFS	el
 clase	NCFS	clase
 de	X	de
 María	NPFS	María
-será	VIH3S	ser
+será	VIF3S	ser
 la	DAFS	el
 tercera	PRFS	tercero
 
@@ -2183,22 +2188,22 @@ tarde	W	tarde
 mis	DS1EP	mi
 guardaespaldas	NCEP	guardaespaldas
 me	PY1ESO	me
-protegerán	VIH3P	proteger
+protegerán	VIF3P	proteger
 
 mi	DS1ES	mi
 guardaespaldas	NCES	guardaespaldas
 me	PY1ESO	me
-protegerá	VIH3S	proteger
+protegerá	VIF3S	proteger
 
 tus	DS2EP	tu
 guardaespaldas	NCEP	guardaespaldas
 me	PY1ESO	me
-protegerán	VIH3P	proteger
+protegerán	VIF3P	proteger
 
 tu	DS2ES	tu
 guardaespaldas	NCES	guardaespaldas
 me	PY1ESO	me
-protegerá	VIH3S	proteger
+protegerá	VIF3S	proteger
 
 sus	DS3FP	su
 fotos	NCFP	foto
@@ -2305,21 +2310,21 @@ pan	NCMS	pan
 
 cuando	W	cuando
 llegue	VSP4S	llegar
-será	VIH3S	ser
+será	VIF3S	ser
 tarde	W	tarde
 
 cuando	W	cuando
 yo	PY1ESN	yo
 llegue	VSP1S	llegar
 ya	W	ya
-estarás	VIH2S	estar
+estarás	VIF2S	estar
 dormido	VPMS	dormir
 
 cuando	W	cuando
 lleguemos	VSP1P	llegar
 ya	W	ya
 tú	PY2ESN	tú
-estarás	VIH2S	estar
+estarás	VIF2S	estar
 durmiendo	VGP	dormir
 
 empieza	VUP5S	empezar
@@ -2793,11 +2798,11 @@ por	X	por
 sí	PY3ISP	sí
 
 adonde	W	adonde
-fueres	VSH2S	ir
+fueres	VSF2S	ir
 haz	VMP2S	hacer
 lo	DANS	el
 que	PLNS	que
-vieres	VSH2S	ver
+vieres	VSF2S	ver
 
 hay	VIP3S	haber
 que	C	que
@@ -2807,13 +2812,13 @@ ayuda	NCFS	ayuda
 venga	VSP3S	venir
 de	X	de
 donde	W	donde
-viniere	VSH3S	venir
+viniere	VSF3S	venir
 
 si	C	si
 así	W	así
 no	W	no
 lo	PY3ASW	lo
-hicieren	VSH3P	hacer
+hicieren	VSF3P	hacer
 ,	Q	,
 que	C	que
 la	DAFS	el
@@ -2823,20 +2828,20 @@ los	PY3MPA	lo
 demande	VSP3S	demandar
 
 os	PY2EPO	os
-haremos	VIH1P	hacer
+haremos	VIF1P	hacer
 todos	DGMP	todo
 los	DAMP	el
 males	NCMP	mal
 y	C	y
 daños	NCMP	daño
 que	PLMP	que
-pudiéremos	VSH1P	poder
+pudiéremos	VSF1P	poder
 
 si	C	si
 así	W	así
 no	W	no
 lo	PY3ASW	lo
-hiciereis	VSH2P	hacer
+hiciereis	VSF2P	hacer
 ,	Q	,
 que	C	que
 Dios	NPMS	Dios
@@ -2859,7 +2864,7 @@ hechos	NCMP	hecho
 en	X	en
 los cuales	PLMP	el cual
 jamás	W	jamás
-hubiere	VSH1S	haber
+hubiere	VSF1S	haber
 participado	VPMS	participar
 
 a	X	a
@@ -2931,7 +2936,7 @@ Marías	NPFP	María
 
 en	X	en
 agosto	NCMS	agosto
-iré	VIH1S	ir
+iré	VIF1S	ir
 a	X	a
 la	DAFS	el
 playa	NCFS	playa
@@ -2962,7 +2967,7 @@ comida	NCFS	comida
 
 sea	VSP4S	ser
 como	W	como
-fuere	VSH4S	ser
+fuere	VSF4S	ser
 es	VIP3S	ser
 indiferente	ANS	indiferente
 en	X	en
@@ -3009,7 +3014,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIH3S	venir
+vendrá	VIF3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3026,7 +3031,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIH3S	venir
+vendrá	VIF3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3042,7 +3047,7 @@ exigido	VPMS	exigir
 ,	Q	,
 él	PY3MSQ	él
 no	W	no
-vendrá	VIH3S	venir
+vendrá	VIF3S	venir
 de	X	de
 todos	DGMP	todo
 modos	NCMP	modo
@@ -3091,7 +3096,7 @@ lo	DANS	el
 que	PLNS	que
 crees	VIP2S	creer
 
-bastante	DQIS	bastante
+bastante	QQIS	bastante
 más	POIS	más
 queda	VIP3S	quedar
 aún	W	aún
@@ -3250,7 +3255,7 @@ con	X	con
 prioridad	NCFS	prioridad
 
 no	W	no
-haré	VIH1S	hacer
+haré	VIF1S	hacer
 yo	PY1ESN	yo
 tal	PDIS	tal
 ,	Q	,
@@ -3303,79 +3308,212 @@ me	PY1ESO	me
 un	DIES	un
 <pausa/>	ETQ_PAUSA	<pausa/>
 
-cada	DBMS	cada
-uno	PNMS	uno
-anda	VIP3S	andar
-a	X	a
-lo	DANS	el
-suyo	PS3NS	suyo
+981 56 31 00	Cifra	981 56 31 00
 
-pero	C	pero
-nada	PNNS	nada
-bueno	I	bueno
-después	W	después
-ellos	PY3MPQ	él
-andan	VIP3P	andar
-a	X	a
-lo	DANS	el
-suyo	PS6NS	suyo
-y	C	y
+22	Cifra	22
++	Símbolo	+
+22	Cifra	22
+=	Símbolo	=
+44	Cifra	44
+
+Santiago	NPEL	Santiago
+,	Q	,
+20.30	Hora	20.30
+,	Q	,
+6 de marzo de 2017	Fecha	6 de marzo de 2017
+
+nós	PY1EPQ	nós
+tamén	W	tamén
+sabemos	VIP1P	saber
+¡	Q	¡
+eh	I	eh
+!	Q	!
+
+vós	PY2EPQ	nós
+se	C	se
+vedes	VIP2P	ver
+volar	VNP	volar
+unha	DIFS	un
+peluca	NCFS	peluca
+por	X	por
+aí	W	aí
 <pausa/>	ETQ_PAUSA	<pausa/>
-y	C	y
-ahí	W	ahí
-viene	VIP3S	venir
-el	DAMS	el
-gordo	AMS	gordo
-y	C	y
-ya	W	ya
-se	PY3MSO	se
-nos	PY1EPO	nos
-sienta	VIP3S	sentar
+non	W	non
+dicir	VNP	dicir
+que	C	que
+é	VIP3S	ser
+miña	DS1FS	meu
+¿	Q	¿
+eh	I	eh
+?	Q	?
+
+non	W	non
+fai	VIP3S	facer
+mal	NCMS	mal
+ningún	DNMS	ningún
+<pausa/>	ETQ_PAUSA	<pausa/>
+fura	VIP3S	furar
+che	PY2ESD	che
+o	DAMS	o
+estómago	NCMS	estómago
+
+Ana	NPFS	Ana
+<pausa/>	ETQ_PAUSA	<pausa/>
+aí	W	aí
+che	PY2FSD	che
+vai	VIP3S	ir
+o	DAMS	o
+café	NCMS	café
+
+Pepe	NPMS	Pepe
+<pausa/>	ETQ_PAUSA	<pausa/>
+aí	W	aí
+che	PY2FSD	che
+vai	VIP3S	ir
+o	DAMS	o
+café	NCMS	café
+
+aí	W	aí
+a	PY3FSW	o
+vai	VIP3S	ir
+
+aí	W	aí
+as	PY3FPW	o
+van	VIP3P	ir
+
+aí	W	aí
+o	PY3MSW	o
+vén	VIP3S	vir
+
+alí	W	alí
+os	PY3MPW	o
+veñen	VIP3P	vir
+
+ti	PY2ESQ	ti
+imaxina	VMP2S	imaginar
+te	PY2ESR	te
+
+ti	PY2FSQ	ti
+non	W	non
+te	PY2FSR	te
+cortes	VSP2S	cortar
+<pausa/>	ETQ_PAUSA	<pausa/>
+Rosa	NPFS	Rosa
+
+ti	PY2MSQ	ti
+non	W	non
+te	PY2MSR	te
+cortes	VSP2S	cortar
+<pausa/>	ETQ_PAUSA	<pausa/>
+Xoán	NPMS	Xoán
+
+indo	VGP	ir
+connosco	PY1EPP	connosco
+ninguén	PNMS	ninguén
+repara	VIP3S	reparar
+
+indo	VGP	ir
+convosco	PY2EPP	convosco
+ninguén	PNMS	ninguén
+repara	VIP3S	reparar
+
+ensinará	VIF3S	ensinar
+nos	PY1MPO	nos
 a	X	a
-el	DAMS	el
-lado	NCMS	lado
-<pausa_larga/>	ETQ_PAUSA	<pausa/>
+enfrontar	VNP	enfrontar
+nos	PY1MPO	nos
+connosco	PY1MPP	connosco
+mesmos	DEMP	mesmo
 
-todo	PGAS	todo
-es	VIP3S	ser
-más	DOAS	más
+ensinará	VIF3S	ensinar
+vos	PY2MPO	vos
+a	X	a
+enfrontar	VNP	enfrontar
+vos	PY2MPO	vos
+convosco	PY2MPP	convosco
+mesmos	DEMP	mesmo
+
+ensinará	VIF3S	ensinar
+nos	PY1FPO	nos
+a	X	a
+enfrontar	VNP	enfrontar
+nos	PY1FPO	nos
+connosco	PY1FPP	connosco
+mesmas	DEFP	mesmo
+
+ensinará	VIF3S	ensinar
+vos	PY2FPO	vos
+a	X	a
+enfrontar	VNP	enfrontar
+vos	PY2FPO	vos
+convosco	PY2FPP	convosco
+mesmas	DEFP	mesmo
+
+¿	Q	¿
+canto	W	canto
+me	PY1ESO	me
+dixo	VIS3S	dicir
 que	C	que
-mucho	PQAS	mucho
-
-bastante	PQIS	bastante
-es	VIP3S	ser
-más	DOIS	más
+tiveran	VIL3P	ter
 que	C	que
-un poco	PQIS	un poco
+pagar	VNP	pagar
+de	X	de
+herencia	NCFS	herencia
+?	Q	?
 
-nada	PNNS	nada
-es	VIP3S	ser
-menos	DONS	menos
+¿	Q	¿
+canto	W	canto
+me	PY1ESO	me
+dixeches	VIS2S	dicir
 que	C	que
-algo	PNNS	algo
+tiveras	VIL2P	ter
+que	C	que
+pagar	VNP	pagar
+de	X	de
+herencia	NCFS	herencia
+?	Q	?
 
+¿	Q	¿
+canto	W	canto
+che	PY2ESD	che
+dixera	VIL1S	dicir
+eu	PY1ESN	eu
+que	C	que
+tivera	VIL3S	ter
+que	C	que
+pagar	VNP	pagar
 de	X	de
-esas	DDFP	ese
-cajas	NCFP	caja
-con	X	con
-gominolas	NCFP	gominola
-,	Q	,
-coge	VMP2S	coger
-una	PCFS	uno
-de	X	de
-cada	PBFS	cada
+herencia	NCFS	herencia
+meu	DS1MS	meu
+primo	NCMS	primo
+?	Q	?
 
+¿	Q	¿
+canto	W	canto
+tiveramos	VIL1P	ter
+que	C	que
+pagar	VNP	pagar
+de	X	de
+herencia	NCFS	herencia
+?	Q	?
 
+¿	Q	¿
+canto	W	canto
+tiverades	VIL2P	ter
+que	C	que
+pagar	VNP	pagar
 de	X	de
-esos	DDMP	ese
-paquetes	NCMP	paquete
-con	X	con
-gominolas	NCFP	gominola
-,	Q	,
-coge	VMP2S	coger
-una	PCFS	uno
+herencia	NCFS	herencia
+?	Q	?
+
+non	W	non
+lembro	VIP1S	lembrar
+canto	W	canto
+tivera	VIL4S	ter
+que	C	que
+pagar	VNP	pagar
 de	X	de
-cada	PBMS	cada
+herencia	NCFS	herencia
 
 fui	VIS1S	ser
 repartidor	NCMS	repartidor

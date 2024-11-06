@@ -24,27 +24,27 @@ ca	con	con	con	P	/	a	o	o	DAFS
 cás	ca	ca	ca	Cs	/	as	o	o	DAFP
 cas	con	con	con	P	/	as	o	o	DAFP
 c@	con	con	con	P	/	@	o	o	Ddxs
-cha	che	che	che	Rad2as	/	a	o	o	PY3FSA
-cha	che	che	che	Rad2fs	/	a	o	o	PY3FSA
-cha	che	che	che	Rad2ms	/	a	o	o	PY3FSA
-chas	che	che	che	Rad2as	/	as	o	o	PY3FPA
-chas	che	che	che	Rad2fs	/	as	o	o	PY3FPA
-chas	che	che	che	Rad2ms	/	as	o	o	PY3FPA
-cho	che	che	che	Rad2as	/	o	o	o	PY3MSA
-cho	che	che	che	Rad2fs	/	o	o	o	PY3MSA
-cho	che	che	che	Rad2ms	/	o	o	o	PY3MSA
-chos	che	che	che	Rad2as	/	os	o	o	PY3MPA
-chos	che	che	che	Rad2fs	/	os	o	o	PY3MPA
-chos	che	che	che	Rad2ms	/	os	o	o	PY3MPA
+cha	che	che	che	Rad2as	/	a	o	o	PY3FSW
+cha	che	che	che	Rad2fs	/	a	o	o	PY3FSW
+cha	che	che	che	Rad2ms	/	a	o	o	PY3FSW
+chas	che	che	che	Rad2as	/	as	o	o	PY3FPW
+chas	che	che	che	Rad2fs	/	as	o	o	PY3FPW
+chas	che	che	che	Rad2ms	/	as	o	o	PY3FPW
+cho	che	che	che	Rad2as	/	o	o	o	PY3ASD
+cho	che	che	che	Rad2fs	/	o	o	o	PY3ASD
+cho	che	che	che	Rad2ms	/	o	o	o	PY3ASD
+chos	che	che	che	Rad2as	/	os	o	o	PY3MPW
+chos	che	che	che	Rad2fs	/	os	o	o	PY3MPW
+chos	che	che	che	Rad2ms	/	os	o	o	PY3MPW
 coa/co	con	con	con	P	/	a/o	o	o	Ddxs
 coa	con	con	con	P	/	a	o	o	DAFS
 coaquela	con	con	con	P	/	aquela	aquel	aquel	DDFS
 coaquela	con	con	con	P	/	aquela	aquel	aquel	PDFS
 coaquelas	con	con	con	P	/	aquelas	aquel	aquel	DDFP
 coaquelas	con	con	con	P	/	aquelas	aquel	aquel	PDFP
-coaquel	con	con	con	P	/	aquel	aquel	aquel	DDAS
+coaquel	con	con	con	P	/	aquel	aquel	aquel	DDMS
 coaquel	con	con	con	P	/	aquel	aquel	aquel	PDMS
-coaqueles	con	con	con	P	/	aqueles	aquel	aquel	DDAP
+coaqueles	con	con	con	P	/	aqueles	aquel	aquel	DDMP
 coaqueles	con	con	con	P	/	aqueles	aquel	aquel	PDMP
 coas	con	con	con	P	/	as	o	o	DAFP
 coas/cos	con	con	con	P	/	as/os	o	o	Ddxp
@@ -83,6 +83,22 @@ da/do	de	de	de	P	/	a/o	o	o	Ddxs
 dahí	de	de	de	P	/	ahí	ahí	ahí	Wn
 daí	de	de	de	P	/	aí	aí	aí	Wn
 dalá	de	de	de	P	/	alá	alá	alá	Wn
+dalghén	de	de	de	P	/	alghuén	alguén	alguén	Inas
+dalghén	de	de	de	P	/	alghuén	alguén	alguén	Infs
+dalghén	de	de	de	P	/	alghuén	alguén	alguén	Inms
+dalgho	de	de	de	P	/	algho	algo	algo	Inns
+dalghun	de	de	de	P	/	alghun	algun	algún	Idms
+dalghún	de	de	de	P	/	alghún	algún	algún	Idms
+dalghun	de	de	de	P	/	alghun	algun	algún	Inms
+dalghún	de	de	de	P	/	alghún	algún	algún	Inms
+dalghunha	de	de	de	P	/	alghunha	algún	algún	Idfs
+dalghunha	de	de	de	P	/	alghunha	algún	algún	Infs
+dalghunhas	de	de	de	P	/	alghunhas	algún	algún	Idfp
+dalghunhas	de	de	de	P	/	alghunhas	algún	algún	Infp
+dalghuns	de	de	de	P	/	alghuns	algun	algún	Idmp
+dalghúns	de	de	de	P	/	alghúns	algún	algún	Idmp
+dalghuns	de	de	de	P	/	alghuns	algun	algún	Inmp
+dalghúns	de	de	de	P	/	alghúns	algún	algún	Inmp
 dalghures	de	de	de	P	/	alghures	algures	algures	Wn
 dalgo	de	de	de	P	/	algo	algo	algo	PNNS
 dalguén	de	de	de	P	/	alguén	alguén	alguén	PNES
@@ -108,11 +124,11 @@ daquelas	de	de	de	P	/	aquelas	aquel	aquel	DDFP
 daquelas	de	de	de	P	/	aquelas	aquel	aquel	PDFP
 daquelas/es	de	de	de	P	/	aquelas/es	aquel	aquel	Edxp
 daquelas/es	de	de	de	P	/	aquelas/es	aquel	aquel	Enxp
-daquel	de	de	de	P	/	aquel	aquel	aquel	DDAS
+daquel	de	de	de	P	/	aquel	aquel	aquel	DDMS
 daquel	de	de	de	P	/	aquel	aquel	aquel	PDMS
 daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Edxp
 daqueles/as	de	de	de	P	/	aqueles/as	aquel	aquel	Enxp
-daqueles	de	de	de	P	/	aqueles	aquel	aquel	DDAP
+daqueles	de	de	de	P	/	aqueles	aquel	aquel	DDMP
 daqueles	de	de	de	P	/	aqueles	aquel	aquel	PDMP
 daquelo	de	de	de	P	/	aquelo	aquel	aquel	PDNS
 daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
@@ -121,12 +137,12 @@ daqueloutra	de	de	de	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
 daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Iafp
 daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Idfp
 daqueloutras	de	de	de	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Infp
-daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Iams
-daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Idms
-daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Inms
-daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Iamp
-daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Idmp
-daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Inmp
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Iams
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Idms
+daqueloutro	de	de	de	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Inms
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Iamp
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Idmp
+daqueloutros	de	de	de	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Inmp
 daquel@s	de	de	de	P	/	aquel@s	aquel	aquel	Edxp
 daquel@s	de	de	de	P	/	aquel@s	aquel	aquel	Enxp
 daquelxs	de	de	de	P	/	aquelxs	aquel	aquel	Edxp
@@ -136,9 +152,9 @@ daquila	de	de	de	P	/	aquila	aquil	aquel	DDFS
 daquila	de	de	de	P	/	aquila	aquil	aquel	PDFS
 daquilas	de	de	de	P	/	aquilas	aquil	aquel	DDFP
 daquilas	de	de	de	P	/	aquilas	aquil	aquel	PDFP
-daquil	de	de	de	P	/	aquil	aquil	aquel	DDAS
+daquil	de	de	de	P	/	aquil	aquil	aquel	DDMS
 daquil	de	de	de	P	/	aquil	aquil	aquel	PDMS
-daquiles	de	de	de	P	/	aquiles	aquil	aquel	DDAP
+daquiles	de	de	de	P	/	aquiles	aquil	aquel	DDMP
 daquiles	de	de	de	P	/	aquiles	aquil	aquel	PDMP
 daquilo	de	de	de	P	/	aquilo	aquel	aquel	PDNS
 das	de	de	de	P	/	as	o	o	DAFP
@@ -151,6 +167,7 @@ del	de	de	de	P	/	el	el	el	PY3MSQ
 del	de	de	de	X	/	el	el	el	DAMS
 deles	de	de	de	P	/	eles	el	el	PY3MPQ
 delo	de	de	de	P	/	elo	el	el	PY3NSQ
+del@s	de	de	de	P	/	el@s	el	el	Rtp3xp
 dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	DDFS
 dendaquela	dende	dende	desde	P	/	aquela	aquel	aquel	PDFS
 desa	de	de	de	P	/	esa	ese	ese	DDFS
@@ -165,11 +182,11 @@ des@	de	de	de	P	/	es@	ese	ese	Edxs
 des@	de	de	de	P	/	es@	ese	ese	Enxs
 dese/a	de	de	de	P	/	esa/e	ese	ese	Edxs
 dese/a	de	de	de	P	/	esa/e	ese	ese	Enxs
-dese	de	de	de	P	/	ese	ese	ese	DDAS
+dese	de	de	de	P	/	ese	ese	ese	DDMS
 dese	de	de	de	P	/	ese	ese	ese	PDMS
 deses/as	de	de	de	P	/	esas/es	ese	ese	Edxp
 deses/as	de	de	de	P	/	esas/es	ese	ese	Enxp
-deses	de	de	de	P	/	eses	ese	ese	DDAP
+deses	de	de	de	P	/	eses	ese	ese	DDMP
 deses	de	de	de	P	/	eses	ese	ese	PDMP
 deso	de	de	de	P	/	eso	ese	ese	PDNS
 desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
@@ -178,12 +195,12 @@ desoutra	de	de	de	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
 desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Iafp
 desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Idfp
 desoutras	de	de	de	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Infp
-desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Iams
-desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Idms
-desoutro	de	de	de	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Inms
-desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Iamp
-desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Idmp
-desoutros	de	de	de	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Inmp
+desoutro	de	de	de	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Iams
+desoutro	de	de	de	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Idms
+desoutro	de	de	de	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Inms
+desoutros	de	de	de	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Iamp
+desoutros	de	de	de	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Idmp
+desoutros	de	de	de	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Inmp
 des@s	de	de	de	P	/	es@s	ese	ese	Edxp
 des@s	de	de	de	P	/	es@s	ese	ese	Enxp
 desta	de	de	de	P	/	esta	este	este	DDFS
@@ -198,11 +215,11 @@ dest@	de	de	de	P	/	est@	este	este	Edxs
 dest@	de	de	de	P	/	est@	este	este	Enxs
 deste/a	de	de	de	P	/	este/a	este	este	Edxs
 deste/a	de	de	de	P	/	este/a	este	este	Enxs
-deste	de	de	de	P	/	este	este	este	DDAS
+deste	de	de	de	P	/	este	este	este	DDMS
 deste	de	de	de	P	/	este	este	este	PDMS
 destes/as	de	de	de	P	/	estes/as	este	este	Edxp
 destes/as	de	de	de	P	/	estes/as	este	este	Enxp
-destes	de	de	de	P	/	estes	este	este	DDAP
+destes	de	de	de	P	/	estes	este	este	DDMP
 destes	de	de	de	P	/	estes	este	este	PDMP
 desto	de	de	de	P	/	esto	este	este	PDNS
 destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
@@ -211,12 +228,12 @@ destoutra	de	de	de	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
 destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Iafp
 destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Idfp
 destoutras	de	de	de	P	/	estas	este	este	DDFP	/	outras	outro	outro	Infp
-destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Iams
-destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Idms
-destoutro	de	de	de	P	/	este	este	este	DDAS	/	outro	outro	outro	Inms
-destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Iamp
-destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Idmp
-destoutros	de	de	de	P	/	estes	este	este	DDAP	/	outros	outro	outro	Inmp
+destoutro	de	de	de	P	/	este	este	este	DDMS	/	outro	outro	outro	Iams
+destoutro	de	de	de	P	/	este	este	este	DDMS	/	outro	outro	outro	Idms
+destoutro	de	de	de	P	/	este	este	este	DDMS	/	outro	outro	outro	Inms
+destoutros	de	de	de	P	/	estes	este	este	DDMP	/	outros	outro	outro	Iamp
+destoutros	de	de	de	P	/	estes	este	este	DDMP	/	outros	outro	outro	Idmp
+destoutros	de	de	de	P	/	estes	este	este	DDMP	/	outros	outro	outro	Inmp
 dest@s	de	de	de	P	/	est@s	este	este	Edxp
 dest@s	de	de	de	P	/	est@s	este	este	Enxp
 destxs	de	de	de	P	/	estxs	este	este	Edxp
@@ -229,18 +246,18 @@ disa	de	de	de	P	/	isa	ise	ese	DDFS
 disa	de	de	de	P	/	isa	ise	ese	PDFS
 disas	de	de	de	P	/	isas	ise	ese	DDFP
 disas	de	de	de	P	/	isas	ise	ese	PDFP
-dise	de	de	de	P	/	ise	ise	ese	DDAS
+dise	de	de	de	P	/	ise	ise	ese	DDMS
 dise	de	de	de	P	/	ise	ise	ese	PDMS
-dises	de	de	de	P	/	ises	ise	ese	DDAP
+dises	de	de	de	P	/	ises	ise	ese	DDMP
 dises	de	de	de	P	/	ises	ise	ese	PDMP
 diso	de	de	de	P	/	iso	ese	ese	PDNS
 dista	de	de	de	P	/	ista	iste	este	DDFS
 dista	de	de	de	P	/	ista	iste	este	PDFS
 distas	de	de	de	P	/	istas	iste	este	DDFP
 distas	de	de	de	P	/	istas	iste	este	PDFP
-diste	de	de	de	P	/	iste	iste	este	DDAS
+diste	de	de	de	P	/	iste	iste	este	DDMS
 diste	de	de	de	P	/	iste	iste	este	PDMS
-distes	de	de	de	P	/	istes	iste	este	DDAP
+distes	de	de	de	P	/	istes	iste	este	DDMP
 distes	de	de	de	P	/	istes	iste	este	PDMP
 disto	de	de	de	P	/	isto	este	este	PDNS
 do/a	de	de	de	P	/	o/a	o	o	Ddxs
@@ -251,12 +268,24 @@ dos/das	de	de	de	P	/	os/as	o	o	Ddxp
 dos	de	de	de	P	/	os	o	o	DAMP
 doutra	de	de	de	P	/	outra	outro	outro	DNFS
 doutra	de	de	de	P	/	outra	outro	outro	PNFS
+doutra/o	de	de	de	P	/	outra/o	outro	outro	Idxs
+doutra/o	de	de	de	P	/	outra/o	outro	outro	Inxs
 doutras	de	de	de	P	/	outras	outro	outro	DNFP
 doutras	de	de	de	P	/	outras	outro	outro	PNFP
+doutras/os	de	de	de	P	/	outras/os	outro	outro	Idxp
+doutras/os	de	de	de	P	/	outras/os	outro	outro	Inxp
+doutr@	de	de	de	P	/	outr@	outro	outro	Idxs
+doutr@	de	de	de	P	/	outr@	outro	outro	Inxs
+doutro/a	de	de	de	P	/	outro/a	outro	outro	Idxs
+doutro/a	de	de	de	P	/	outro/a	outro	outro	Inxs
 doutro	de	de	de	P	/	outro	outro	outro	DNMS
 doutro	de	de	de	P	/	outro	outro	outro	PNMS
+doutros/as	de	de	de	P	/	outros/as	outro	outro	Idxp
+doutros/as	de	de	de	P	/	outros/as	outro	outro	Inxp
 doutros	de	de	de	P	/	outros	outro	outro	DNMP
 doutros	de	de	de	P	/	outros	outro	outro	PNMP
+doutr@s	de	de	de	P	/	outr@s	outro	outro	Idxp
+doutr@s	de	de	de	P	/	outr@s	outro	outro	Inxp
 d@s	de	de	de	P	/	@s	o	o	Ddxp
 dun	de	de	de	P	/	un	un	un	DCMS
 dun	de	de	de	P	/	un	un	un	DIMS
@@ -307,35 +336,51 @@ estoutro	este	este	este	Edms	/	outro	outro	outro	DNMS
 estoutro	este	este	este	Edms	/	outro	outro	outro	PNMS
 estoutros	estes	este	este	Edmp	/	outros	outro	outro	DNMP
 estoutros	estes	este	este	Edmp	/	outros	outro	outro	PNMP
-lla	lle	lle	lle	Rad3as	/	a	o	o	PY3FSA
-lla	lle	lle	lle	Rad3fs	/	a	o	o	PY3FSA
-lla	lle	lle	lle	Rad3ms	/	a	o	o	PY3FSA
-llas	lle	lle	lle	Rad3as	/	as	o	o	PY3FPA
-llas	lle	lle	lle	Rad3fs	/	as	o	o	PY3FPA
-llas	lle	lle	lle	Rad3ms	/	as	o	o	PY3FPA
-llo	lle	lle	lle	Rad3as	/	o	o	o	PY3MSA
-llo	lle	lle	lle	Rad3fs	/	o	o	o	PY3MSA
-llo	lle	lle	lle	Rad3ms	/	o	o	o	PY3MSA
-llos	lle	lle	lle	Rad3as	/	os	o	o	PY3MPA
-llos	lle	lle	lle	Rad3fs	/	os	o	o	PY3MPA
-llos	lle	lle	lle	Rad3ms	/	os	o	o	PY3MPA
+lla	lle	lle	lle	Rad3as	/	a	o	o	PY3FSW
+lla	lle	lle	lle	Rad3fs	/	a	o	o	PY3FSW
+lla	lle	lle	lle	Rad3ms	/	a	o	o	PY3FSW
+llas	lle	lle	lle	Rad3as	/	as	o	o	PY3FPW
+llas	lle	lle	lle	Rad3fs	/	as	o	o	PY3FPW
+llas	lle	lle	lle	Rad3ms	/	as	o	o	PY3FPW
+llo	lle	lle	lle	Rad3as	/	o	o	o	PY3ASD
+llo	lle	lle	lle	Rad3fs	/	o	o	o	PY3ASD
+llo	lle	lle	lle	Rad3ms	/	o	o	o	PY3ASD
+llos	lle	lle	lle	Rad3as	/	os	o	o	PY3MPW
+llos	lle	lle	lle	Rad3fs	/	os	o	o	PY3MPW
+llos	lle	lle	lle	Rad3ms	/	os	o	o	PY3MPW
 maila	mais	mais	mais	Cc	/	la	o	o	DAFS
 mailas	mais	mais	mais	Cc	/	las	o	o	DAFP
 mailo	mais	mais	mais	Cc	/	lo	o	o	DAMS
 mailos	mais	mais	mais	Cc	/	los	o	o	DAMP
-ma	me	me	me	Rad1as	/	a	o	o	PY3FSA
-ma	me	me	me	Rad1fs	/	a	o	o	PY3FSA
-ma	me	me	me	Rad1ms	/	a	o	o	PY3FSA
-mas	me	me	me	Rad1as	/	as	o	o	PY3FPA
-mas	me	me	me	Rad1fs	/	as	o	o	PY3FPA
-mas	me	me	me	Rad1ms	/	as	o	o	PY3FPA
-mo	me	me	me	Rad1as	/	o	o	o	PY3MSA
-mo	me	me	me	Rad1fs	/	o	o	o	PY3MSA
-mo	me	me	me	Rad1ms	/	o	o	o	PY3MSA
-mos	me	me	me	Rad1as	/	os	o	o	PY3MPA
-mos	me	me	me	Rad1fs	/	os	o	o	PY3MPA
-mos	me	me	me	Rad1ms	/	os	o	o	PY3MPA
+ma	me	me	me	Rad1as	/	a	o	o	PY3FSW
+ma	me	me	me	Rad1fs	/	a	o	o	PY3FSW
+ma	me	me	me	Rad1ms	/	a	o	o	PY3FSW
+mas	me	me	me	Rad1as	/	as	o	o	PY3FPW
+mas	me	me	me	Rad1fs	/	as	o	o	PY3FPW
+mas	me	me	me	Rad1ms	/	as	o	o	PY3FPW
+mo	me	me	me	Rad1as	/	o	o	o	PY3ASD
+mo	me	me	me	Rad1fs	/	o	o	o	PY3ASD
+mo	me	me	me	Rad1ms	/	o	o	o	PY3ASD
+mos	me	me	me	Rad1as	/	os	o	o	PY3MPW
+mos	me	me	me	Rad1fs	/	os	o	o	PY3MPW
+mos	me	me	me	Rad1ms	/	os	o	o	PY3MPW
 na	en	en	en	P	/	a	o	o	DAFS
+nalghén	en	en	en	P	/	alghuén	alguén	alguén	Inas
+nalghén	en	en	en	P	/	alghuén	alguén	alguén	Infs
+nalghén	en	en	en	P	/	alghuén	alguén	alguén	Inms
+nalgho	en	en	en	P	/	algho	algo	algo	Inns
+nalghun	en	en	en	P	/	alghun	algun	algún	Idms
+nalghún	en	en	en	P	/	alghún	algún	algún	Idms
+nalghun	en	en	en	P	/	alghun	algun	algún	Inms
+nalghún	en	en	en	P	/	alghún	algún	algún	Inms
+nalghunha	en	en	en	P	/	alghunha	algún	algún	Idfs
+nalghunha	en	en	en	P	/	alghunha	algún	algún	Infs
+nalghunhas	en	en	en	P	/	alghunhas	algún	algún	Idfp
+nalghunhas	en	en	en	P	/	alghunhas	algún	algún	Infp
+nalghuns	en	en	en	P	/	alghuns	algun	algún	Idmp
+nalghúns	en	en	en	P	/	alghúns	algún	algún	Idmp
+nalghuns	en	en	en	P	/	alghuns	algun	algún	Inmp
+nalghúns	en	en	en	P	/	alghúns	algún	algún	Inmp
 nalghures	en	en	en	P	/	alghures	algures	algures	Wn
 nalgo	en	en	en	P	/	algo	algo	algo	PNNS
 nalguén	en	en	en	P	/	alguén	alguén	alguén	PNES
@@ -360,11 +405,11 @@ naquelas	en	en	en	P	/	aquelas	aquel	aquel	DDFP
 naquelas	en	en	en	P	/	aquelas	aquel	aquel	PDFP
 naquelas/es	en	en	en	P	/	aquelas/es	aquel	aquel	Edxp
 naquelas/es	en	en	en	P	/	aquelas/es	aquel	aquel	Enxp
-naquel	en	en	en	P	/	aquel	aquel	aquel	DDAS
+naquel	en	en	en	P	/	aquel	aquel	aquel	DDMS
 naquel	en	en	en	P	/	aquel	aquel	aquel	PDMS
 naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Edxp
 naqueles/as	en	en	en	P	/	aqueles/as	aquel	aquel	Enxp
-naqueles	en	en	en	P	/	aqueles	aquel	aquel	DDAP
+naqueles	en	en	en	P	/	aqueles	aquel	aquel	DDMP
 naqueles	en	en	en	P	/	aqueles	aquel	aquel	PDMP
 naquelo	en	en	en	P	/	aquelo	aquel	aquel	PDNS
 naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Iafs
@@ -373,12 +418,12 @@ naqueloutra	en	en	en	P	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	Infs
 naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Iafp
 naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Idfp
 naqueloutras	en	en	en	P	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	Infp
-naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Iams
-naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Idms
-naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDAS	/	outro	outro	outro	Inms
-naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Iamp
-naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Idmp
-naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDAP	/	outros	outro	outro	Inmp
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Iams
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Idms
+naqueloutro	en	en	en	P	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	Inms
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Iamp
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Idmp
+naqueloutros	en	en	en	P	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	Inmp
 naquel@s	en	en	en	P	/	aquel@s	aquel	aquel	Edxp
 naquel@s	en	en	en	P	/	aquel@s	aquel	aquel	Enxp
 naquelxs	en	en	en	P	/	aquelxs	aquel	aquel	Edxp
@@ -387,9 +432,9 @@ naquila	en	en	en	P	/	aquila	aquil	aquel	DDFS
 naquila	en	en	en	P	/	aquila	aquil	aquel	PDFS
 naquilas	en	en	en	P	/	aquilas	aquil	aquel	DDFP
 naquilas	en	en	en	P	/	aquilas	aquil	aquel	PDFP
-naquil	en	en	en	P	/	aquil	aquil	aquel	DDAS
+naquil	en	en	en	P	/	aquil	aquil	aquel	DDMS
 naquil	en	en	en	P	/	aquil	aquil	aquel	PDMS
-naquiles	en	en	en	P	/	aquiles	aquil	aquel	DDAP
+naquiles	en	en	en	P	/	aquiles	aquil	aquel	DDMP
 naquiles	en	en	en	P	/	aquiles	aquil	aquel	PDMP
 naquilo	en	en	en	P	/	aquilo	aquel	aquel	PDNS
 nas	en	en	en	P	/	as	o	o	DAFP
@@ -400,6 +445,7 @@ nelas	en	en	en	P	/	elas	el	el	PY3FPQ
 nel	en	en	en	P	/	el	el	el	PY3MSQ
 neles	en	en	en	P	/	eles	el	el	PY3MPQ
 nelo	en	en	en	P	/	elo	el	el	PY3NSQ
+nel@s	en	en	en	P	/	el@s	el	el	Rtp3xp
 n@	en	en	en	P	/	@	o	o	Ddxs
 nesa/e	en	en	en	P	/	eses/as	ese	ese	Edxp
 nesa/e	en	en	en	P	/	eses/as	ese	ese	Enxp
@@ -411,13 +457,13 @@ nesas/es	en	en	en	P	/	ese/a	ese	ese	Edxs
 nesas/es	en	en	en	P	/	ese/a	ese	ese	Enxs
 nese/a	en	en	en	P	/	esa/e	ese	ese	Edxs
 nese/a	en	en	en	P	/	esa/e	ese	ese	Enxs
-nese	en	en	en	P	/	ese	ese	ese	DDAS
+nese	en	en	en	P	/	ese	ese	ese	DDMS
 nese	en	en	en	P	/	ese	ese	ese	PDMS
 nes@	en	en	en	P	/	es@	ese	ese	Edxs
 nes@	en	en	en	P	/	es@	ese	ese	Enxs
 neses/as	en	en	en	P	/	esas/es	ese	ese	Edxp
 neses/as	en	en	en	P	/	esas/es	ese	ese	Enxp
-neses	en	en	en	P	/	eses	ese	ese	DDAP
+neses	en	en	en	P	/	eses	ese	ese	DDMP
 neses	en	en	en	P	/	eses	ese	ese	PDMP
 neso	en	en	en	P	/	eso	ese	ese	PDNS
 nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Iafs
@@ -426,12 +472,12 @@ nesoutra	en	en	en	P	/	esa	ese	ese	DDFS	/	outra	outro	outro	Infs
 nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Iafp
 nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Idfp
 nesoutras	en	en	en	P	/	esas	ese	ese	DDFP	/	outras	outro	outro	Infp
-nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Iams
-nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Idms
-nesoutro	en	en	en	P	/	ese	ese	ese	DDAS	/	outro	outro	outro	Inms
-nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Iamp
-nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Idmp
-nesoutros	en	en	en	P	/	eses	ese	ese	DDAP	/	outros	outro	outro	Inmp
+nesoutro	en	en	en	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Iams
+nesoutro	en	en	en	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Idms
+nesoutro	en	en	en	P	/	ese	ese	ese	DDMS	/	outro	outro	outro	Inms
+nesoutros	en	en	en	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Iamp
+nesoutros	en	en	en	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Idmp
+nesoutros	en	en	en	P	/	eses	ese	ese	DDMP	/	outros	outro	outro	Inmp
 nes@s	en	en	en	P	/	es@s	ese	ese	Edxp
 nes@s	en	en	en	P	/	es@s	ese	ese	Enxp
 nesta/e	en	en	en	P	/	esta/e	este	este	Edxs
@@ -444,13 +490,13 @@ nestas/es	en	en	en	P	/	estas/es	este	este	Edxp
 nestas/es	en	en	en	P	/	estas/es	este	este	Enxp
 neste/a	en	en	en	P	/	este/a	este	este	Edxs
 neste/a	en	en	en	P	/	este/a	este	este	Enxs
-neste	en	en	en	P	/	este	este	este	DDAS
+neste	en	en	en	P	/	este	este	este	DDMS
 neste	en	en	en	P	/	este	este	este	PDMS
 nest@	en	en	en	P	/	est@	este	este	Edxs
 nest@	en	en	en	P	/	est@	este	este	Enxs
 nestes/as	en	en	en	P	/	estes/as	este	este	Edxp
 nestes/as	en	en	en	P	/	estes/as	este	este	Enxp
-nestes	en	en	en	P	/	estes	este	este	DDAP
+nestes	en	en	en	P	/	estes	este	este	DDMP
 nestes	en	en	en	P	/	estes	este	este	PDMP
 nesto	en	en	en	P	/	esto	este	este	PDNS
 nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Iafs
@@ -459,12 +505,12 @@ nestoutra	en	en	en	P	/	esta	este	este	DDFS	/	outra	outro	outro	Infs
 nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Iafp
 nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Idfp
 nestoutras	en	en	en	P	/	estas	este	este	DDFP	/	outras	outro	outro	Infp
-nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Iams
-nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Idms
-nestoutro	en	en	en	P	/	este	este	este	DDAS	/	outro	outro	outro	Inms
-nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Iamp
-nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Idmp
-nestoutros	en	en	en	P	/	estes	este	este	DDAP	/	outros	outro	outro	Inmp
+nestoutro	en	en	en	P	/	este	este	este	DDMS	/	outro	outro	outro	Iams
+nestoutro	en	en	en	P	/	este	este	este	DDMS	/	outro	outro	outro	Idms
+nestoutro	en	en	en	P	/	este	este	este	DDMS	/	outro	outro	outro	Inms
+nestoutros	en	en	en	P	/	estes	este	este	DDMP	/	outros	outro	outro	Iamp
+nestoutros	en	en	en	P	/	estes	este	este	DDMP	/	outros	outro	outro	Idmp
+nestoutros	en	en	en	P	/	estes	este	este	DDMP	/	outros	outro	outro	Inmp
 nest@s	en	en	en	P	/	est@s	este	este	Edxp
 nest@s	en	en	en	P	/	est@s	este	este	Enxp
 nestxs	en	en	en	P	/	estxs	este	este	Edxp
@@ -477,18 +523,18 @@ nisa	en	en	en	P	/	isa	ise	ese	DDFS
 nisa	en	en	en	P	/	isa	ise	ese	PDFS
 nisas	en	en	en	P	/	isas	ise	ese	DDFP
 nisas	en	en	en	P	/	isas	ise	ese	PDFP
-nise	en	en	en	P	/	ise	ise	ese	DDAS
+nise	en	en	en	P	/	ise	ise	ese	DDMS
 nise	en	en	en	P	/	ise	ise	ese	PDMS
-nises	en	en	en	P	/	ises	ise	ese	DDAP
+nises	en	en	en	P	/	ises	ise	ese	DDMP
 nises	en	en	en	P	/	ises	ise	ese	PDMP
 niso	en	en	en	P	/	iso	ese	ese	PDNS
 nista	en	en	en	P	/	ista	iste	este	DDFS
 nista	en	en	en	P	/	ista	iste	este	PDFS
 nistas	en	en	en	P	/	istas	iste	este	DDFP
 nistas	en	en	en	P	/	istas	iste	este	PDFP
-niste	en	en	en	P	/	iste	iste	este	DDAS
+niste	en	en	en	P	/	iste	iste	este	DDMS
 niste	en	en	en	P	/	iste	iste	este	PDMS
-nistes	en	en	en	P	/	istes	iste	este	DDAP
+nistes	en	en	en	P	/	istes	iste	este	DDMP
 nistes	en	en	en	P	/	istes	iste	este	PDMP
 nisto	en	en	en	P	/	isto	este	este	PDNS
 no/a	en	en	en	P	/	o/a	o	o	Ddxs
@@ -503,12 +549,24 @@ nos	en	en	en	P	/	os	o	o	DAMP
 nos/nas	en	en	en	P	/	os/as	o	o	Ddxp
 noutra	en	en	en	P	/	outra	outro	outro	DNFS
 noutra	en	en	en	P	/	outra	outro	outro	PNFS
+noutra/o	en	en	en	P	/	outra/o	outro	outro	Idxs
+noutra/o	en	en	en	P	/	outra/o	outro	outro	Inxs
 noutras	en	en	en	P	/	outras	outro	outro	DNFP
 noutras	en	en	en	P	/	outras	outro	outro	PNFP
+noutras/os	en	en	en	P	/	outras/os	outro	outro	Idxp
+noutras/os	en	en	en	P	/	outras/os	outro	outro	Inxp
+noutr@	en	en	en	P	/	outr@	outro	outro	Idxs
+noutr@	en	en	en	P	/	outr@	outro	outro	Inxs
+noutro/a	en	en	en	P	/	outro/a	outro	outro	Idxs
+noutro/a	en	en	en	P	/	outro/a	outro	outro	Inxs
 noutro	en	en	en	P	/	outro	outro	outro	DNMS
 noutro	en	en	en	P	/	outro	outro	outro	PNMS
+noutros/as	en	en	en	P	/	outros/as	outro	outro	Idxp
+noutros/as	en	en	en	P	/	outros/as	outro	outro	Inxp
 noutros	en	en	en	P	/	outros	outro	outro	DNMP
 noutros	en	en	en	P	/	outros	outro	outro	PNMP
+noutr@s	en	en	en	P	/	outr@s	outro	outro	Idxp
+noutr@s	en	en	en	P	/	outr@s	outro	outro	Inxp
 n@s	en	en	en	P	/	@s	o	o	Ddxp
 nun	en	en	en	P	/	un	un	un	DCMS
 nun	en	en	en	P	/	un	un	un	DIMS

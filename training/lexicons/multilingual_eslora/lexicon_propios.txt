@@ -234,7 +234,6 @@ Albert Soler	NPML	Albert Soler
 Albert Uderzo	NPML	Albert Uderzo
 Alborch	NPEL	Alborch
 Albosat	NPEL	Albosat
-Albright	NPEL	Albright
 Alcabre	NPEL	Alcabre
 Alcaldía de Bilbao	NPFS	Alcaldía de Bilbao
 Alcaldía de Santiago de Compostela	NPFS	Alcaldía de Santiago de Compostela
@@ -576,7 +575,6 @@ Angels Barceló	NPFL	Angels Barceló
 Ángel Villalba	NPML	Ángel Villalba
 Ángel Zubieta	NPML	Ángel Zubieta
 Angers	NPEL	Angers
-Anghel	NPML	Anghel
 Angola	NPEL	Angola
 Angrois	NPEL	Angrois
 Anguita	NPEL	Anguita
@@ -1252,7 +1250,6 @@ Bin Laden	NPEL	Bin Laden
 Binyamin Netanyahu	NPML	Binyamin Netanyahu
 Bioloxía Molecular e Celular	NPEL	Bioloxía Molecular e Celular
 Birmania	NPEL	Birmania
-Birmingham	NPEL	Birmingham
 Biscaia	NPEL	Biscaia
 Biscet	NPEL	Biscet
 Bizet	NPEL	Bizet
@@ -1413,7 +1410,6 @@ Bryan Yuzne	NPML	Bryan Yuzne
 Bucaramanga	NPEL	Bucaramanga
 Bucarest	NPEL	Bucarest
 Buchwitz	NPEL	Buchwitz
-Buckingham Palace	NPMS	Buckingham Palace
 Budapest	NPEL	Budapest
 Buenaventura Durruti	NPEL	Buenaventura Durruti
 Buenaventura	NPEL	Buenaventura
@@ -2242,7 +2238,6 @@ Culleredo	NPEL	Culleredo
 Cultura	NPEL	Cultura
 Cumberbatch	NPEL	Cumberbatch
 Cumio de Berlín	NPMS	Cumio de Berlín
-Cunningham	NPEL	Cunningham
 Cunqueiro	NPEL	Cunqueiro
 Cuntis	NPEL	Cuntis
 Curdistán	NPEL	Curdistán
@@ -3987,7 +3982,6 @@ Mabel Rivera	NPFL	Mabel Rivera
 Macario	NPML	Macario
 Maceda	NPEL	Maceda
 Macedonia	NPEL	Macedonia
-Madeleine Albright	NPFL	Madeleine Albright
 Madras	NPEL	Madras
 Madrid-autonomías	NPEL	Madrid-autonomías
 Madrid	NPEL	Madrid
@@ -4242,7 +4236,6 @@ Mesa Sectorial de o Ensino	NPFS	Mesa Sectorial de o Ensino
 Mes de a Cultura	NPMS	Mes de a Cultura
 Mesonero	NPEL	Mesonero
 Mesoneros	NPEL	Mesoneros
-Mestre Braghetone	NPMS	Mestre Braghetone
 Métodos de estatística e de investigación operativa	NPMS	Métodos de estatística e de investigación operativa
 México	NPEL	México
 Miami	NPEL	Miami
@@ -4251,7 +4244,6 @@ Michael Ballack	NPML	Michael Ballack
 Michael Caine	NPML	Michael Caine
 Michael Caplan	NPML	Michael Caplan
 Michael Corleone	NPML	Michael Corleone
-Michael Cunningham	NPML	Michael Cunningham
 Michael Douglas	NPML	Michael Douglas
 Michael Doyle	NPML	Michael Doyle
 Michael Fassbender	NPML	Michael Fassbender
@@ -4315,7 +4307,6 @@ Mike Kelley	NPML	Mike Kelley
 Mikel Aguirresarobe	NPML	Mikel Aguirresarobe
 Mike Laing	NPML	Mike Laing
 Mikel Buesa	NPML	Mikel Buesa
-Mike Leigh	NPML	Mike Leigh
 Mikel González González de Heredia	NPML	Mikel González González de Heredia
 Mikel Ibarquen Argala	NPML	Mikel Ibarquen Argala
 Mikel Prieto	NPML	Mikel Prieto
@@ -4536,7 +4527,6 @@ Noruega	NPEL	Noruega
 Nosa Señora de a Concepción	NPFL	Nosa Señora de a Concepción
 Nós	NPEL	Nós
 Nostián	NPEL	Nostián
-Nottingham	NPEL	Nottingham
 Nova Caixa Galicia Banco	NPEL	Nova Caixa Galicia Banco
 Nova Galicia Banco	NPEL	Nova Galicia Banco
 Novas Xeracións de o PP de Galicia	NPFP	Novas Xeracións de o PP de Galicia
@@ -4767,7 +4757,6 @@ Pampín	NPEL	Pampín
 Pamplona	NPEL	Pamplona
 Panamá	NPEL	Panamá
 Panasonic	NPEL	Panasonic
-Panasonic Toughbook	NPEL	Panasonic Toughbook
 Panasonic Toyota	NPEL	Panasonic Toyota
 PAN	NPMS	Partido de Acción Nacional
 Pantón	NPEL	Pantón
@@ -4996,7 +4985,6 @@ Pío doce	NPMS	Pío doce
 Piqué	NPEL	Piqué
 Pirineo	NPMS	Pirineo
 Pita	NPEL	Pita
-Pittsburgh	NPEL	Pittsburgh
 Plan de Autoprotección	NPMS	Plan de Autoprotección
 Plan de Emprego Xuvenil	NPMS	Plan de Emprego Xuvenil
 Plan de Informatización Integral de a Administración Xudicial	NPMS	Plan de Informatización Integral de a Administración Xudicial
@@ -5575,7 +5563,6 @@ Sevilla-Barcelona	NPEL	Sevilla-Barcelona
 Sevilla	NPEL	Sevilla
 Sexta	NPFS	Sexta
 Shakespeare	NPML	Shakespeare
-Shanghai	NPEL	Shanghai
 Shaúl Mofaz	NPML	Shaúl Mofaz
 Shea	NPEL	Shea
 Shehu	NPEL	Shehu
@@ -6095,7 +6082,6 @@ Viloíde	NPEL	Viloíde
 Vincent Connare	NPML	Vincent Connare
 Vincent	NPML	Vincent
 Vincent Sarich	NPML	Vincent Sarich
-Vincent van Gogh	NPML	Vincent van Gogh
 Vincent Weafer	NPML	Vincent Weafer
 Violante	NPFL	Violante
 VIP	NCMP	very important person
