@@ -1,24 +1,5 @@
-1ª	Abreviatura	1º	1.º	n
-1.ª	Abreviatura	1.º	1.º	s
-1º	Abreviatura	1º	1.º	n
-1.º	Abreviatura	1.º	1.º	s
-2ª	Abreviatura	2º	2.º	n
-2.ª	Abreviatura	2.º	2.º	s
-2º	Abreviatura	2º	2.º	n
-2.º	Abreviatura	2.º	2.º	s
-3ª	Abreviatura	3º	3.º	n
-3.ª	Abreviatura	3.º	3.º	s
-3º	Abreviatura	3º	3.º	n
-3.º	Abreviatura	3.º	3.º	s
-4.ª	Abreviatura	4.º	4.º	s
-4ª	Abreviatura	4º	4.º	s
-4º	Abreviatura	4º	4.º	n
-4.º	Abreviatura	4.º	4.º	s
-5.ª	Abreviatura	5.º	5.º	s
-5ª	Abreviatura	5º	5.º	s
 AA.	Abreviatura	Altezas
 aa.	Abreviatura	arrobas
-AA.	Abreviatura	A.		s
 (a)	Abreviatura	alias
 A.	Abreviatura	Alteza
 A	Abreviatura	amperio
@@ -26,46 +7,25 @@ A	Abreviatura	amperios
 a	Abreviatura	área
 a	Abreviatura	áreas
 a.	Abreviatura	arroba
-A.	Abreviatura	A.		s
-AA. EE.	Abreviatura	AA. EE.		s
 AA.	NCFP	Altezas
 aa.	NCFP	arrobas
-AA. PP.	Abreviatura	AA. PP.		s
-AA. VV.	Abreviatura	AA. VV.		s
 AA. VV.	Abreviatura	autores varios
-ab init.	Abreviatura	ab init.		s
-abl.	Abreviatura	abl.		s
-abr.	Abreviatura	abr.		s
-abrev.	Abreviatura	abrev.		s
-a/c	Abreviatura	a/c		s
-a. C.	Abreviatura	a. C.		s
-A. C.	Abreviatura	A. C.		s
 Ac	Abreviatura	actinio
 Ac	Abreviatura	actinios
 a/c	Abreviatura	a cuenta
 A. C.	Abreviatura	año de Cristo
 a. C.	Abreviatura	antes de Cristo
-acad.	Abreviatura	acad.		s
-acep.	Abreviatura	acep.		s
 acept.	Abreviatura	aceptación
 acept.	NCFS	aceptación
 acepts.	Abreviatura	aceptaciones
 acepts.	NCFP	aceptaciones
 Ac	NCMP	actinios
 Ac	NCMS	actinio
-acus.	Abreviatura	acus.		s
-Acúst.	Abreviatura	Acúst.		s
-A. D.	Abreviatura	A. D.		s
 A. D.	Abreviatura	anno Dómini
-a. de C.	Abreviatura	a. de C.		s
 a. de C.	Abreviatura	antes de Cristo
 a. de J. C.	Abreviatura	antes de Cristo
-a. de X. C.	Abreviatura	a. de X. C.		s
 a D. g.	Abreviatura	a Dios gracias
-ad init.	Abreviatura	ad init.		s
-adm.	Abreviatura	adm.		s
 admón.	Abreviatura	administración
-admón.	Abreviatura	admón.		s
 admónes.	Abreviatura	administraciones
 admónes.	NCFP	administraciones
 admón.	NCFS	administración
@@ -87,16 +47,7 @@ adm.&supo;&supr;	Abreviatura	administrador
 adm.&supo;&supr;	NCMS	administrador
 adm.&supo;&supr;&sups;	Abreviatura	administradores
 adm.&supo;&supr;&sups;	NCMP	administradores
-admtvo.	Abreviatura	admtvo.		s
-adv.	Abreviatura	adv.		s
-adv. l.	Abreviatura	adv. l.		s
-adv. m.	Abreviatura	adv. m.		s
-adv. t.	Abreviatura	adv. t.		s
-adx.	Abreviatura	adx.		s
-Aerod.	Abreviatura	Aerod.		s
-Aeron.	Abreviatura	Aeron.		s
 a/f	Abreviatura	a favor
-a/f	Abreviatura	a/f		s
 affma.	Abreviatura	afectísima
 affma.	AFS	afectísima
 affmas.	Abreviatura	afectísimas
@@ -106,12 +57,10 @@ affmo.	AMS	afectísimo
 affmos.	Abreviatura	afectísimos
 affmos.	AMP	afectísimos
 afma.	Abreviatura	afectísima
-afma.	Abreviatura	afmo.		s
 afma.	AFS	afectísima
 afmas.	Abreviatura	afectísimas
 afmas.	AFP	afectísimas
 afmo.	Abreviatura	afectísimo
-afmo.	Abreviatura	afmo.		s
 afmo.	AMS	afectísimo
 afmos.	Abreviatura	afectísimos
 afmos.	AMP	afectísimos
@@ -123,17 +72,13 @@ af.&supm;&supo;	Abreviatura	afectísimo
 af.&supm;&supo;	AMS	afectísimo
 af.&supm;&supo;&sups;	Abreviatura	afectísimos
 af.&supm;&supo;&sups;	AMP	afectísimos
-ag.	Abreviatura	ag.		s
 Ag	Abreviatura	plata
 Ag	Abreviatura	platas
 Ag	NCFP	platas
 Ag	NCFS	plata
-Agr.	Abreviatura	Agr.		s
 a. J .C.	Abreviatura	antes de Jesucristo
-al.	Abreviatura	al.		s
 Al	Abreviatura	aluminio
 Al	Abreviatura	aluminios
-alc.	Abreviatura	alc.		s
 Alfcs.	Abreviatura	alféreces
 Alfcs.	NCEP	alféreces
 Alfcs.	NCFP	alféreces
@@ -142,7 +87,6 @@ Alfz.	Abreviatura	alférez
 Alfz.	NCES	alférez
 Alfz.	NCFS	alférez
 Alfz.	NCMS	alférez
-Alim.	Abreviatura	Alim.		s
 Almte.	Abreviatura	almirante
 Almte.	NCES	almirante
 Almte.	NCFS	almirante
@@ -153,17 +97,12 @@ Almtes.	NCFP	almirantes
 Almtes.	NCMP	almirantes
 Al	NCMP	aluminios
 Al	NCMS	aluminio
-alt.	Abreviatura	alt.		s
-Álx.	Abreviatura	Álx.		s
 Am	Abreviatura	americio
 Am	Abreviatura	americios
-a. m.	Abreviatura	a. m.		s
 a. m.	Abreviatura	ante meridiem
 A. M. D. G.	Abreviatura	ad maiórem Dei glóriam
-A. M. D. G.	Abreviatura	A. M. D. G.		s
 Am	NCMP	americios
 Am	NCMS	americio
-Anat.	Abreviatura	Anat.		s
 a	NCFP	áreas
 A.	NCFS	Alteza
 a	NCFS	área
@@ -172,37 +111,19 @@ a.	NCFS	arroba
 A	NCMP	amperios
 (a)	NCMS	alias
 A	NCMS	amperio
-anón.	Abreviatura	anón.		s
-ant.	Abreviatura	ant.		s
-antepret.	Abreviatura	antepret.		s
-Antrop.	Abreviatura	Antrop.		s
 ap.	Abreviatura	aparte
-ap.	Abreviatura	ap.		s
 apdo.	Abreviatura	apartado
-apdo.	Abreviatura	apdo.		s
 apdo.	NCMS	apartado
 apdos.	Abreviatura	apartados
 apdos.	NCMP	apartados
-Apic.	Abreviatura	Apic.		s
-apmto.	Abreviatura	apmto.		s
 ap.	NCMS	aparte
-aprox.	Abreviatura	aprox.		s
 aps.	Abreviatura	aparte
 aps.	NCMP	apartes
-aptdo.	Abreviatura	aptdo.		s
 Ar	Abreviatura	argón
 Ar	Abreviatura	argones
-A. R.	Abreviatura	A. R.		s
-ár.	Abreviatura	ár.		s
-arc.	Abreviatura	arc.		s
-Arc.	Abreviatura	Arc.		s
-Arcbpo.	Abreviatura	Arcbpo.		s
-Arit.	Abreviatura	Arit.		s
 Ar	NCMP	argones
 Ar	NCMS	argón
 Arqa.	Abreviatura	arquitecta
-arq.	Abreviatura	arq.		s
-Arq.	Abreviatura	Arq.		s
 Arq.	Abreviatura	arquitecto
 Arqa.	NCFS	arquitecta
 Arqas.	Abreviatura	arquitecta
@@ -214,19 +135,11 @@ Arqs.	Abreviatura	arquitectos
 Arqs.	NCMP	arquitectos
 Arq.&supa;&sups;	Abreviatura	arquitectas
 Arq.&supa;&sups;	NCFP	arquitectas
-Arqueol.	Abreviatura	Arqueol.		s
-Arquit.	Abreviatura	Arquit.		s
-art	Abreviatura	art.	art.	n
 art.	Abreviatura	artículo
-art.	Abreviatura	art.		s
-art. cit.	Abreviatura	art. cit.		s
-art. det.	Abreviatura	art. det.		s
-art. indet.	Abreviatura	art. indet.		s
 art.	NCMS	artículo
 art.&ordm;	Abreviatura	artículo
 art.&ordm;	NCMS	artículos
 arts.	Abreviatura	artículos
-arts.	Abreviatura	art.		s
 arts.	NCMP	artículos
 art.&supo;&sups;	Abreviatura	artículos
 art.&supo;&sups;	NCMP	artículos
@@ -236,47 +149,33 @@ Arzs.	Abreviatura	arzobispos
 Arzs.	NCMP	arzobispos
 As	Abreviatura	arsénico
 As	Abreviatura	arsénicos
-asdo.	Abreviatura	asdo.		s
 As	NCMP	arsénicos
 As	NCMS	arsénico
-asoc.	Abreviatura	asoc.		s
-Astrof.	Abreviatura	Astrof.		s
-Astron.	Abreviatura	Astron.		s
 A. T.	Abreviatura	Antiguo Testamento
 At	Abreviatura	ástato
 At	Abreviatura	ástatos
 at	Abreviatura	atmósferas técnicas
 at	Abreviatura	atmósfera técnica
-A. T.	Abreviatura	A. T.		s
-át.	Abreviatura	át.		s
 atm	Abreviatura	atmósfera normal
 atm	Abreviatura	atmósferas normales
 At	NCMP	ástatos
 At	NCMS	ástato
 atta.	Abreviatura	atenta
-atta.	Abreviatura	atto.		s
 atta.	AFS	atenta
 attas.	Abreviatura	atentas
 attas.	AFP	atentas
 atte.	Abreviatura	atentamente
-atte.	Abreviatura	atte.		s
 atte.	W	atentamente
 atto.	Abreviatura	atento
-atto.	Abreviatura	atto.		s
 atto.	AMS	atento
 attos.	Abreviatura	atentos
 attos.	AMP	atento
 Au	Abreviatura	oro
 Au	Abreviatura	oros
-aum.	Abreviatura	aum.		s
 Au	NCMP	oros
 Au	NCMS	oro
-aux.	Abreviatura	aux.		s
 av.	Abreviatura	avenida
-av.	Abreviatura	av.		s
-avda.	Abreviatura	avda.		s
 avda.	Abreviatura	avenida
-avd.	Abreviatura	avd.		s
 avd.	Abreviatura	avenida
 avda.	NCFS	avenida
 avdas.	Abreviatura	avenidas
@@ -287,16 +186,12 @@ avds.	NCFP	avenidas
 av.	NCFS	avenida
 avs.	Abreviatura	avenidas
 avs.	NCFP	avenidas
-a. X. C.	Abreviatura	a. X. C.		s
-axud.	Abreviatura	axud.		s
 Ba	Abreviatura	bario
 Ba	Abreviatura	barios
 Ba.	Abreviatura	beata
 B.	Abreviatura	beato
 B	Abreviatura	boro
 B	Abreviatura	boros
-b.	Abreviatura	b.		s
-B.	Abreviatura	B.		s
 Ba.	NCFS	beata
 Ba	NCMP	barios
 Ba	NCMS	bario
@@ -306,11 +201,9 @@ Bas.	NCFP	beatas
 BB.	Abreviatura	beatos
 BB.	NCMP	beatos
 Bco.	Abreviatura	banco
-bco.	Abreviatura	bco.		s
 Bco.	NCMS	banco
 Bcos.	Abreviatura	bancos
 Bcos.	NCMP	bancos
-bda.	Abreviatura	bda.		s
 Be	Abreviatura	berilio
 Be	Abreviatura	berilios
 Be	NCMP	berilios
@@ -318,29 +211,20 @@ Be	NCMS	berilio
 Bi	Abreviatura	bismuto
 Bi	Abreviatura	bismutos
 Bibl.	Abreviatura	biblioteca
-bibl.	Abreviatura	bibl.		s
 Bibl.	NCFS	biblioteca
 Bibls.	Abreviatura	bibliotecas
 Bibls.	NCFP	bibliotecas
 Bi	NCMP	bismutos
 Bi	NCMS	bismuto
-Biog.	Abreviatura	Biog.		s
-biogr.	Abreviatura	biogr.		s
-Biol.	Abreviatura	Biol.		s
-Bioq.	Abreviatura	Bioq.		s
 Bk	Abreviatura	berkelio
 Bk	Abreviatura	berkelios
 Bk	NCMP	berkelios
 Bk	NCMS	berkelio
-bl.	Abreviatura	bl.		s
 b. l. m.	Abreviatura	besa la mano
-b/n	Abreviatura	b/n		s
 B	NCMP	boro
 B.	NCMS	beato
 B	NCMS	boro
 Bo.	Abreviatura	barrio
-b. o.	Abreviatura	b. o.		s
-bol.	Abreviatura	bol.		s
 Bo.	NCMS	barrio
 B.&ordf;	Abreviatura	beata
 B.&ordf;	NCFS	beata
@@ -348,14 +232,12 @@ B.&ordm;	Abreviatura	barrio
 B.&ordm;	NCMS	barrio
 Bos.	Abreviatura	barrios
 Bos.	NCMP	barrios
-Bot.	Abreviatura	Bot.		s
 Bq	Abreviatura	becquerel
 Bq	Abreviatura	becquerels
 Bq	NCMP	becquerels
 Bq	NCMS	becquerel
 Br	Abreviatura	bromo
 Br	Abreviatura	bromos
-Bras.	Abreviatura	Bras.		s
 Brig.	Abreviatura	brigada
 Brig.	NCES	brigada
 Brig.	NCFS	brigada
@@ -395,9 +277,6 @@ Btos.	Abreviatura	beatos
 Btos.	NCMP	beatos
 Ca	Abreviatura	calcio
 Ca	Abreviatura	calcios
-ca.	Abreviatura	ca.		s
-C. A.	Abreviatura	C. A.		s
-C.ª	Abreviatura	C.ª		s
 c.	Abreviatura	calle
 c/	Abreviatura	calle
 c.	Abreviatura	capítulo
@@ -406,8 +285,6 @@ C	Abreviatura	carbonos
 c/	Abreviatura	cargo
 c.	Abreviatura	centavo
 c	Abreviatura	circa
-c.	Abreviatura	c.		s
-c/	Abreviatura	c/		s
 c/	Abreviatura	cuenta
 C	Abreviatura	culombio
 C	Abreviatura	culombios
@@ -415,14 +292,12 @@ cal	Abreviatura	caloría
 cal	Abreviatura	calorías
 cal	NCFP	calorías
 cal	NCFS	caloría
-cam.	Abreviatura	cam.		s
 ca	NCMP	calcios
 ca	NCMS	calcio
 Capa.	Abreviatura	capitana
 Cap.	Abreviatura	capital
 Cap.	Abreviatura	capitán
 cap.	Abreviatura	capítulo
-cap.	Abreviatura	cap.		s
 Capa.	NCFS	capitana
 Capas.	Abreviatura	capitanas
 Capas.	NCFP	capitanas
@@ -444,22 +319,14 @@ Cap.&supa;&sups;	Abreviatura	capitanas
 Cap.&supa;&sups;	NCFP	capitanas
 cap.&supo;&sups;	Abreviatura	capítulos
 cap.&supo;&sups;	NCMP	capítulos
-cast.	Abreviatura	cast.		s
-cat.	Abreviatura	cat.		s
-CC. AA.	Abreviatura	C. A.		s
 cc.	Abreviatura	calles
 cc.	Abreviatura	capítulos
 C. C.	Abreviatura	casilla de correo
-c/c	Abreviatura	c/c		s
 cc.	Abreviatura	centavos
 c/c	Abreviatura	cuenta corriente
-CC. LL.	Abreviatura	CC. LL.		s
-CC. LL.	Abreviatura	C. L.		s
-CC. MM.	Abreviatura	CC. MM.		s
 cc.	NCFP	calles
 cc.	NCMP	capítulos
 cc.	NCMP	centavos
-CC. OO.	Abreviatura	CC. OO.		s
 Cd	Abreviatura	cadmio
 Cd	Abreviatura	cadmios
 cd	Abreviatura	candela
@@ -475,33 +342,26 @@ Cd	NCMS	cadmio
 Ce	Abreviatura	cerio
 Ce	Abreviatura	cerios
 c. e.	Abreviatura	correo electrónico
-célt.	Abreviatura	célt.		s
 Ce	NCMP	cerios
 Ce	NCMS	cerio
 cent.	Abreviatura	centavo
 cent.	Abreviatura	centésimo
 cént.	Abreviatura	céntimo
 cent.	Abreviatura	céntimo de euro
-cént.	Abreviatura	cént.		s
 cent.	NCMS	centavo
 cént.	NCMS	céntimo
 cents.	Abreviatura	centavos
-cents	Abreviatura	cent	cént.	n
 cénts.	Abreviatura	céntimos
 cents.	Abreviatura	céntimos de euro
 cents.	NCMP	centavos
 cénts.	NCMP	céntimos
 Cf	Abreviatura	californio
 Cf	Abreviatura	californios
-cf.	Abreviatura	cf.		s
-C. F.	Abreviatura	C. F.		s
 cf.	Abreviatura	cónfer
 cf.	Abreviatura	confesor
 Cf	NCMP	californios
 Cf	NCMS	californio
 cf	NCMS	confesor
-cfr.	Abreviatura	cfr.	cfr.	s
-Cfr.	Abreviatura	cfr.	cfr.	s
 cfr.	Abreviatura	cónfer
 cfs.	Abreviatura	confesores
 c. f. s.	Abreviatura	coste, flete y seguro
@@ -515,12 +375,9 @@ cgo.	NCMS	cargo
 cgos.	Abreviatura	cargos
 cgos.	NCMP	cargos
 ch/	Abreviatura	cheque
-ch.	Abreviatura	ch.		s
-ch/	Abreviatura	ch/		s
 ch/	NCMS	cheque
 ch/s	Abreviatura	cheques
 ch/s	NCMP	cheques
-cía.	Abreviatura	cía.		s
 Cía.	Abreviatura	compañía
 C. I.	Abreviatura	cédula de identidad
 Ci	Abreviatura	curio
@@ -530,7 +387,6 @@ Cías.	Abreviatura	compañías
 Cías.	NCFP	compañías
 Ci	NCMP	curios
 Ci	NCMS	curio
-cit.	Abreviatura	cit.		s
 cje.	Abreviatura	corretaje
 cje.	NCMS	corretaje
 cjes.	Abreviatura	corretajes
@@ -540,9 +396,6 @@ cl	Abreviatura	centilitro
 cl	Abreviatura	centilitros
 Cl	Abreviatura	cloro
 Cl	Abreviatura	cloros
-cl.	Abreviatura	cl.		s
-C. L.	Abreviatura	C. L.		s
-clás.	Abreviatura	clás.		s
 cl.	NCFS	calle
 cl	NCMP	centilitros
 Cl	NCMP	cloros
@@ -596,7 +449,6 @@ Co	Abreviatura	cobalto
 Co	Abreviatura	cobaltos
 cód.	Abreviatura	código
 Cód.	Abreviatura	código
-cód.	Abreviatura	cód.		s
 cód.	NCMS	código
 Cód.	NCMS	código
 códs.	Abreviatura	códigos
@@ -606,7 +458,6 @@ Códs.	NCMP	códigos
 col.	Abreviatura	colección
 Col.	Abreviatura	colegio
 col.	Abreviatura	colonia
-col.	Abreviatura	col.		s
 col.	Abreviatura	columna
 Col.	Abreviatura	coronel
 Col.	NCES	coronel
@@ -627,8 +478,6 @@ cols.	NCFP	columnas
 Cols.	NCFP	coroneles
 Cols.	NCMP	colegios
 Cols.	NCMP	coroneles
-com.	Abreviatura	com.		s
-Com.	Abreviatura	Com.		s
 Comoda.	Abreviatura	comodora
 Comod.	Abreviatura	comodoro
 Comoda.	NCFS	comodora
@@ -641,8 +490,6 @@ Comods.	Abreviatura	comodoros
 Comods.	NCMP	comodoros
 Comod.&supa;&sups;	Abreviatura	comodoras
 Comod.&supa;&sups;	NCFP	comodoras
-comp.	Abreviatura	comp.		s
-compl.	Abreviatura	compl.		s
 Comp.&ordf;	Abreviatura	compañía
 Comp.&ordf;	NCFS	compañía
 Comps.	Abreviatura	compañías
@@ -661,13 +508,10 @@ Comtes.	Abreviatura	comandantes
 Comtes.	NCEP	comandantes
 Comtes.	NCFP	comandantes
 Comtes.	NCMP	comandantes
-conc.	Abreviatura	conc.		s
 Co	NCMP	cobaltos
 Co	NCMS	cobalto
-cond.	Abreviatura	cond.		s
 conf.	Abreviatura	cónfer
 confr.	Abreviatura	cónfer
-cont.	Abreviatura	cont.		s
 Contalmte.	Abreviatura	contraalmirante
 Contalmte.	NCES	contraalmirante
 Contalmte.	NCFS	contraalmirante
@@ -676,29 +520,16 @@ Contalmtes.	Abreviatura	contraalmirantes
 Contalmtes.	NCEP	contraalmirantes
 Contalmtes.	NCFP	contraalmirantes
 Contalmtes.	NCMP	contraalmirantes
-contr.	Abreviatura	contr.		s
-conx.	Abreviatura	conx.		s
-conx. adv.	Abreviatura	conx. adv.		s
-conx. cond.	Abreviatura	conx. cond.		s
-conx. cop.	Abreviatura	conx. cop.		s
-conx. disx.	Abreviatura	conx. disx.		s
-conx. il.	Abreviatura	conx. il.		s
-coord.	Abreviatura	coord.		s
-cor.	Abreviatura	cor.		s
 C.&ordf;	Abreviatura	compañía
 C.&ordf;	NCFS	compañía
-corp.	Abreviatura	corp.		s
 C. P.	Abreviatura	código postal
 cp.	Abreviatura	compárese
-cp.	Abreviatura	cp.		s
-C. P.	Abreviatura	C. P.		s
 Cr	Abreviatura	cromo
 Cr	Abreviatura	cromos
 crec.	Abreviatura	creciente
 crec.	AMS	creciente
 crecs.	Abreviatura	crecientes
 crecs.	AMP	crecientes
-crít.	Abreviatura	crít.		s
 Cr	NCMP	cromos
 Cr	NCMS	cromo
 c/s	Abreviatura	calles
@@ -724,14 +555,12 @@ C.&supí;&supa;	Abreviatura	compañía
 C.&supí;&supa;	NCFS	compañía
 C.&supí;&supa;&sups;	Abreviatura	compañías
 C.&supí;&supa;&sups;	NCFP	compañías
-cta.	Abreviatura	cta.		s
 cta.	Abreviatura	cuenta
 cta.	NCFS	cuenta
 ctas.	Abreviatura	cuentas
 ctas.	NCFP	cuentas
 Cte.	Abreviatura	comandante
 cte.	Abreviatura	corriente
-cte.	Abreviatura	cte.		s
 Cte.	NCES	comandante
 Cte.	NCFS	comandante
 cte.	NCFS	corriente
@@ -757,19 +586,15 @@ ctvs.	NCMP	centavos
 c/u	Abreviatura	cada uno
 Cu	Abreviatura	cobre
 Cu	Abreviatura	cobres
-c/u	Abreviatura	c/u		s
 Cu	NCMP	cobres
 Cu	NCMS	cobre
 CV	Abreviatura	caballo de vapor
 CV	Abreviatura	caballos de vapor
 Da.	Abreviatura	doña
-D.ª	Abreviatura	D.		s
 Da.	AFS	doña
 d	Abreviatura	día
 d	Abreviatura	días
 D.	Abreviatura	don
-d.	Abreviatura	d.		s
-D.	Abreviatura	D.		s
 dag	Abreviatura	decagramo
 dag	Abreviatura	decagramos
 dag	NCMP	decagramos
@@ -783,48 +608,28 @@ dam	Abreviatura	decámetros
 dam	NCMP	decámetros
 dam	NCMS	decámetro
 D.	AMS	don
-dat.	Abreviatura	dat.		s
 dB	Abreviatura	decibelio
 dB	Abreviatura	decibelios
 dB	NCMP	decibelios
 dB	NCMS	decibelio
-d. C.	Abreviatura	d. C.		s
 d. C.	Abreviatura	después de Cristo
 dcha.	Abreviatura	derecha
 dcha.	NCFS	derecha
-D./DÂª	Abreviatura	D.	D.	s
-d. de C.	Abreviatura	d. de C.		s
 d. de C.	Abreviatura	después de Cristo
 d. de J. C.	Abreviatura	después de Jesucristo
-d. de X. C.	Abreviatura	d. de X. C.		s
-deb.	Abreviatura	deb.		s
-dec.	Abreviatura	dec.		s
 del.	Abreviatura	delegación
-del.	Abreviatura	del.		s
 del.	NCFS	delegación
 dels.	Abreviatura	delegaciones
 dels.	NCFP	delegación
-dem.	Abreviatura	dem.		s
-d. e. p.	Abreviatura	d. e. p.		s
-dep.	Abreviatura	dep.		s
-D. E. P.	Abreviatura	D. E. P.		s
 D. E. P.	Abreviatura	descanse en paz
 depto.	Abreviatura	departamento
-depto.	Abreviatura	depto.		s
 depto.	NCMS	departamento
 deptos.	Abreviatura	departamentos
 deptos.	NCMP	departamentos
-der.	Abreviatura	der.		s
-Der.	Abreviatura	Der.		s
 desct.&ordm;	Abreviatura	descuento
 desct.&ordm;	NCMS	descuento
 desct.&supo;&sups;	Abreviatura	descuentos
 desct.&supo;&sups;	NCMP	descuentos
-desp.	Abreviatura	desp.		s
-desus.	Abreviatura	desus.		s
-det.	Abreviatura	det.		s
-determ.	Abreviatura	determ.		s
-D. F.	Abreviatura	D. F.		s
 d/f	Abreviatura	días fecha
 D. F.	Abreviatura	distrito federal
 d/fha	Abreviatura	días fecha
@@ -840,18 +645,13 @@ Diag.	Abreviatura	diagonal
 Diag.	NCFS	diagonal
 Diags.	Abreviatura	diagonales
 Diags.	NCFP	diagonales
-dic.	Abreviatura	dic.		s
 dicc.	Abreviatura	diccionario
 dicc.	NCMS	diccionario
 diccs.	Abreviatura	diccionarios
 diccs.	NCMP	diccionarios
-dim.	Abreviatura	dim.		s
-dipl.	Abreviatura	dipl.		s
 Dira.	Abreviatura	directora
-dir.ª	Abreviatura	dir.		s
 Dir.	Abreviatura	dirección
 Dir.	Abreviatura	director
-dir.	Abreviatura	dir.		s
 Dira.	NCFS	directora
 Diras.	Abreviatura	directoras
 Diras.	NCFP	directoras
@@ -865,14 +665,11 @@ Dirs.	NCFP	dirección
 Dirs.	NCMP	directores
 Dir.&supa;&sups;	Abreviatura	directoras
 Dir.&supa;&sups;	NCFP	directoras
-disp.	Abreviatura	disp.		s
-div.	Abreviatura	div.		s
 Dl	Abreviatura	decalitro
 Dl	Abreviatura	decalitros
 dl	Abreviatura	decilitro
 dl	Abreviatura	decilitros
 D. L.	Abreviatura	depósito legal
-D. L.	Abreviatura	D. L.		s
 Dl	NCMP	decalitros
 dl	NCMP	decilitros
 Dl	NCMS	decalitro
@@ -884,7 +681,6 @@ dm	Abreviatura	decímetros
 DM	Abreviatura	Deutsche Mark
 DM	Abreviatura	Deutsche Marks
 D. m.	Abreviatura	Dios mediante
-D. m.	Abreviatura	D. m.		s
 Dm	NCMP	decámetros
 dm	NCMP	decímetros
 Dm	NCMS	decámetro
@@ -893,30 +689,21 @@ dm&sup2;	Abreviatura	decímetro cuadrado
 dm&sup2;	Abreviatura	decímetros cuadrados
 dm&sup3;	Abreviatura	decímetro cúbico
 dm&sup3;	Abreviatura	decímetros cúbicos
-Dna.	Abreviatura	D.		s
 d	NCMP	días
 d	NCMS	día
-D. N. I.	Abreviatura	D. N. I.		s
-doc.	Abreviatura	doc.		s
 doc.	Abreviatura	documento
 doc.	NCMS	documento
 docs.	Abreviatura	documentos
 docs.	NCMP	documento
-dom.	Abreviatura	dom.		s
 D.&ordf;	Abreviatura	doña
 D.&ordf;	AFS	doña
 D. P.	Abreviatura	distrito postal
-D. P.	Abreviatura	D. P.		s
-dpt.°	Abreviatura	dpt.°		s
 dpto.	Abreviatura	departamento
-dpto.	Abreviatura	dpto.		s
 dpto.	NCMS	departamento
 dptos.	Abreviatura	departamentos
 dptos.	NCMP	departamentos
 Dra.	Abreviatura	doctora
-Dra.	Abreviatura	Dr.		s
 Dr.	Abreviatura	doctor
-Dr.	Abreviatura	Dr.		s
 Dra.	NCFS	doctora
 Dras.	Abreviatura	doctoras
 Dras.	NCFP	doctoras
@@ -927,22 +714,15 @@ Dr.&ordf;	Abreviatura	doctora
 Dr.&ordf;	NCFS	doctora
 Dr.&supa;&sups;	Abreviatura	doctoras
 Dr.&supa;&sups;	NCFP	doctoras
-dta.	Abreviatura	dto.		s
 dto.	Abreviatura	descuento
-dto.	Abreviatura	dto.		s
 dto.	NCMS	descuento
 dtos.	Abreviatura	descuentos
 dtos.	NCMP	descuentos
-dupdo.	Abreviatura	dupdo.		s
 dupdo.	Abreviatura	duplicado
 dupdo.	NCMS	duplicado
 dupdos.	Abreviatura	duplicados
 dupdos.	NCMP	duplicados
-dupl.	Abreviatura	dupl.		s
 d/v	Abreviatura	días vista
-d/v	Abreviatura	d/v		s
-D. X.	Abreviatura	D. X.		s
-d. X. C.	Abreviatura	d. X. C.		s
 Dy	Abreviatura	disprosio
 Dy	Abreviatura	disprosios
 dyn	Abreviatura	dina
@@ -952,38 +732,20 @@ Dy	NCMS	disprosio
 dyn	NCFP	dinas
 dyn	NCFS	dina
 e/	Abreviatura	envío
-e.	Abreviatura	e.		s
-e/	Abreviatura	e/		s
 E	Abreviatura	Este
-ead. pag.	Abreviatura	ead. pag.		s
-e/c	Abreviatura	e/c		s
-E. C.	Abreviatura	E. C.		s
 e/c	Abreviatura	en cuenta
 e. c.	Abreviatura	era común
-Ecol.	Abreviatura	Ecol.		s
-econ.	Abreviatura	econ.		s
-Econ.	Abreviatura	Econ.		s
 eda.	Abreviatura	editora
 ed.	Abreviatura	edición
 ed.	Abreviatura	editor
 Ed.	Abreviatura	editorial
-ed.	Abreviatura	ed.		s
-ed. ampl.	Abreviatura	ed. ampl.		s
 eda.	NCFS	editora
 edas.	Abreviatura	editoras
 edas.	NCFP	editoras
-ed. aum.	Abreviatura	ed. aum.		s
-ed. cit.	Abreviatura	ed. cit.		s
-ed. corr.	Abreviatura	ed. corr.		s
-ed. crít.	Abreviatura	ed. crít.		s
-ed. dipl.	Abreviatura	ed. dipl.		s
-ed. facs.	Abreviatura	ed. facs.		s
 Edit.	Abreviatura	editorial
-edit.	Abreviatura	edit.		s
 Edit.	NCMS	editorial
 Edits.	Abreviatura	editoriales
 Edits.	NCMP	editoriales
-ed. lit.	Abreviatura	ed. lit.		s
 ed.	NCFS	edición
 Ed.	NCFS	editorial
 ed.	NCMS	editor
@@ -991,12 +753,8 @@ Edo.	Abreviatura	estado
 Edo.	NCMS	estado
 ed.&ordf;	Abreviatura	editora
 ed.&ordf;	NCFS	editora
-ed. orix.	Abreviatura	ed. orix.		s
 Edos.	Abreviatura	estados
 Edos.	NCMP	estados
-ed. pal.	Abreviatura	ed. pal.		s
-ed. prínc.	Abreviatura	ed. prínc.		s
-ed. rev.	Abreviatura	ed. rev.		s
 eds.	Abreviatura	ediciones
 eds.	Abreviatura	editores
 Eds.	Abreviatura	editoriales
@@ -1005,16 +763,8 @@ eds.	NCMP	editores
 Eds.	NCMP	editoriales
 ed.&supa;&sups;	Abreviatura	editoras
 ed.&supa;&sups;	NCFP	editoras
-educ.	Abreviatura	educ.		s
-EE. LL.	Abreviatura	E. L.		s
-EE. RR.	Abreviatura	E. R.		s
-EE. UU.	Abreviatura	EE. UU.		s
 ef.	Abreviatura	efectos
-ef.	Abreviatura	ef.		s
-efect.	Abreviatura	efect.		s
 ef.	NCMP	efectos
-e. g.	Abreviatura	e. g.		s
-e. g. e.	Abreviatura	e. g. e.		s
 ej.	Abreviatura	ejemplar
 ej.	Abreviatura	ejemplo
 ej.	NCMS	ejemplar
@@ -1023,59 +773,36 @@ ejs.	Abreviatura	ejemplares
 ejs.	Abreviatura	ejemplos
 ejs.	NCMP	ejemplares
 ejs.	NCMP	ejemplos
-e. l.	Abreviatura	e. l.		s
-E. L.	Abreviatura	E. L.		s
-Electr.	Abreviatura	Electr.		s
-Electrón.	Abreviatura	Electrón.		s
-Em.ª	Abreviatura	Em.ª		s
-E. M.	Abreviatura	E. M.		s
 E. M.	Abreviatura	Estado Mayor
 e-mail	Abreviatura	electronic mail
-Emcia.	Abreviatura	Emcia.		s
-Emcia. Revma.	Abreviatura	Emcia. Revma.		s
 Emma.	Abreviatura	Eminentísima
-Emma.	Abreviatura	Emma.		s
 Emma.	AFS	Eminentísima
 Emmas.	Abreviatura	Eminentísimas
 Emmas.	AFP	Eminentísimas
-Emma. Sra.	Abreviatura	Emmo. Sr.		s
 Emmo.	Abreviatura	Eminentísimo
-Emmo.	Abreviatura	Emmo.		s
 Emmo.	AMS	Eminentísimo
 Emm.&ordf;	Abreviatura	Eminentísima
 Emm.&ordf;	AFS	Eminentísima
 Emmos.	Abreviatura	Eminentísimos
 Emmos.	AMS	Eminentísimos
-Emmo. Sr.	Abreviatura	Emmo. Sr.		s
 Emm.&supa;&sups;	Abreviatura	Eminentísimas
 Emm.&supa;&sups;	AFP	Eminentísimas
 Em.&ordf;	Abreviatura	Eminencia
 Em.&ordf;	NCFS	Eminencia
 Em.&supa;&sups;	Abreviatura	Eminencias
 Em.&supa;&sups;	NCFS	Eminencias
-enc.	Abreviatura	enc.		s
 e/	NCMS	envío
 E	NCMS	este
 ENE	Abreviatura	estenordeste
 ENE	NCMS	estenordeste
-Enol.	Abreviatura	Enol.		s
 entlo.	Abreviatura	entresuelo
 entlo.	NCMS	entresuelo
 entlos.	Abreviatura	entresuelos
 entlos.	NCMP	entresuelos
-entpl.	Abreviatura	entpl.		s
-enx.	Abreviatura	enx.		s
-Enxeñ.	Abreviatura	Enxeñ.		s
 e. p. d.	Abreviatura	en paz descanse
-e. p. d.	Abreviatura	e. p. d.		s
-E. P D.	Abreviatura	E. P D.		s
-epíl.	Abreviatura	epíl.		s
 e. p. m.	Abreviatura	en propia mano
-e. p. m.	Abreviatura	e. p. m.		s
-E. P. M.	Abreviatura	E. P. M.		s
 Er	Abreviatura	erbio
 Er	Abreviatura	erbios
-E. R.	Abreviatura	E. R.		s
 erg	Abreviatura	ergio
 erg	Abreviatura	ergios
 erg	NCMP	ergios
@@ -1085,33 +812,19 @@ Er	NCMS	erbio
 Es	Abreviatura	einstenio
 Es	Abreviatura	einstenios
 e/s	Abreviatura	envíos
-esc.	Abreviatura	esc.		s
 ESC	Abreviatura	escudo
 ESC	Abreviatura	escudos
 ESC	NCMP	escudos
 ESC	NCMS	escudo
-escr.	Abreviatura	escr.		s
 ESE	Abreviatura	estesudeste
 ESE	NCMS	estesudeste
 ESM	Abreviatura	en sus manos
 Es	NCMP	einstenios
 e/s	NCMP	envíos
 Es	NCMS	einstenio
-esp.	Abreviatura	esp.		s
-esq	Abreviatura	esq.		n
-esq.	Abreviatura	esq.		s
-esqda.	Abreviatura	esqdo.		s
-esqdo.	Abreviatura	esqdo.		s
-est.	Abreviatura	est.		s
-estat.	Abreviatura	estat.		s
-Estat.	Abreviatura	Estat.		s
-estr.	Abreviatura	estr.		s
 et al.	Abreviatura	et alii
-et al.	Abreviatura	et al.		s
 etc.	Abreviatura	etcétera
-etc.	Abreviatura	etc.		s
 etcétera	NCFS	etcétera
-et seq.	Abreviatura	et seq.		s
 Eu	Abreviatura	europio
 Eu	Abreviatura	europios
 Eu	NCMP	europios
@@ -1120,26 +833,17 @@ eV	Abreviatura	electronvoltio
 eV	Abreviatura	electronvoltios
 eV	NCMP	electronvoltios
 eV	NCMS	electronvoltio
-ex.	Abreviatura	ex.		s
-Exc.ª	Abreviatura	Exc.ª		s
-exc.	Abreviatura	exc.		s
-excl.	Abreviatura	excl.		s
 excl.	Abreviatura	exclusive
-exclam.	Abreviatura	exclam.		s
 Excma.	Abreviatura	Excelentísima
-Excma.	Abreviatura	Excmo.		s
 Excma.	AFS	Excelentísima
 Excmas.	Abreviatura	Excelentísimas
 Excmas.	AFP	Excelentísimas
-Excma. Sra.	Abreviatura	Excmo. Sr.		s
 Excmo.	Abreviatura	Excelentísimo
-Excmo.	Abreviatura	Excmo.		s
 Excmo.	AMS	Excelentísimo
 Excm.&ordf;	Abreviatura	Excelentísima
 Excm.&ordf;	AFS	Excelentísima
 Excmos.	Abreviatura	Excelentísimos
 Excmos.	AMP	Excelentísimos
-Excmo. Sr.	Abreviatura	Excmo. Sr.		s
 Excm.&supa;&sups;	Abreviatura	Excelentísimas
 Excm.&supa;&sups;	AFP	Excelentísimas
 Exc.&ordf;	Abreviatura	Excelencia
@@ -1156,11 +860,6 @@ Exmos.	Abreviatura	Excelentísimos
 Exmos.	AMP	Excelentísimos
 Exm.&supa;&sups;	Abreviatura	Excelentísimas
 Exm.&supa;&sups;	AFP	Excelentísimas
-exp.	Abreviatura	exp.		s
-exped.	Abreviatura	exped.		s
-ext.	Abreviatura	ext.		s
-f.ª	Abreviatura	f.ª		s
-fábr.	Abreviatura	fábr.		s
 F	Abreviatura	faradio
 F	Abreviatura	faradios
 F	Abreviatura	flúor
@@ -1168,21 +867,11 @@ F	Abreviatura	flúores
 f.	Abreviatura	folio
 F	Abreviatura	franco
 F	Abreviatura	francos
-f.	Abreviatura	f.		s
-f.°	Abreviatura	f.°		s
-f/	Abreviatura	f/		s
-facs.	Abreviatura	facs.		s
-fact.	Abreviatura	fact.		s
-fam.	Abreviatura	fam.		s
-Farm.	Abreviatura	Farm.		s
 fasc.	Abreviatura	fascículo
-fasc.	Abreviatura	fasc.		s
 fasc.	NCMS	fascículo
 fascs.	Abreviatura	fascículos
 fascs.	NCMP	fascículos
 fca.	Abreviatura	fábrica
-fca.	Abreviatura	fca.		s
-F. C.	Abreviatura	F. C.		s
 F. C.	Abreviatura	ferrocarril
 fca.	NCFS	fábrica
 fcas.	Abreviatura	fábricas
@@ -1191,36 +880,19 @@ F. C.	NCMS	ferrocarril
 Fdo.	Abreviatura	firmado
 Fe	Abreviatura	hierro
 Fe	Abreviatura	hierros
-febr.	Abreviatura	febr.		s
 fec.	Abreviatura	fecit
-fec.	Abreviatura	fec.		s
-fem.	Abreviatura	fem.		s
 Fe	NCMP	hierros
 Fe	NCMS	hierro
-fest.	Abreviatura	fest.		s
-FF. AA.	Abreviatura	FF. AA.		s
-f. f.	Abreviatura	f. f.		s
 ff.	Abreviatura	folios
 FF	Abreviatura	franc fran&ccedil;ais
 FF	Abreviatura	francs fran&ccedil;ais
-FF. CC.	Abreviatura	F. C.		s
 FF. CC.	Abreviatura	ferrocarriles
 FF. CC.	NCMP	ferrocarriles
 ff.	NCMP	folios
-FF. NN.	Abreviatura	FF. NN.		s
-Fig.	Abreviatura	Fig.	Fig.	s
-fig.	Abreviatura	fig.		s
 fig.	Abreviatura	figura
 fig.	NCFS	figura
 figs.	Abreviatura	figuras
 figs.	NCFP	figuras
-Filos.	Abreviatura	Filos.		s
-Fís.	Abreviatura	Fís.		s
-Fís. Atóm.	Abreviatura	Fís. Atóm.		s
-Fisiol.	Abreviatura	Fisiol.		s
-Fisiol. Anim.	Abreviatura	Fisiol. Anim.		s
-Fisiol. Vex.	Abreviatura	Fisiol. Vex.		s
-Fís. Quím.	Abreviatura	Fís. Quím.		s
 FL	Abreviatura	florín
 FL	Abreviatura	florines
 FL	NCMP	florines
@@ -1240,23 +912,14 @@ fol.	Abreviatura	folio
 fol.	NCMS	folio
 fols.	Abreviatura	folios
 fols.	NCMP	folios
-fon.	Abreviatura	fon.		s
-Fon.	Abreviatura	Fon.		s
-fonol.	Abreviatura	fonol.		s
-Fonol.	Abreviatura	Fonol.		s
 f.&ordf;	Abreviatura	factura
 f.&ordf;	NCFS	factura
 f.&ordm;	Abreviatura	folio
 f.&ordm;	NCMS	folio
-Fot.	Abreviatura	Fot.		s
-F. P.	Abreviatura	F. P.		s
 fra.	Abreviatura	factura
-fra.	Abreviatura	fra.		s
 Fr	Abreviatura	francio
 Fr	Abreviatura	francios
 Fr.	Abreviatura	fray
-fr.	Abreviatura	fr.		s
-Fr.	Abreviatura	Fr.		s
 Fr.	AMS	fray
 fra.	NCFS	factura
 fras.	Abreviatura	facturas
@@ -1270,16 +933,12 @@ f.&supa;&sups;	NCFP	facturas
 f.&supo;&sups;	Abreviatura	folios
 f.&supo;&sups;	NCMP	folios
 ft	Abreviatura	feet
-fut.	Abreviatura	fut.		s
-fut. pret.	Abreviatura	fut. pret.		s
-f. v.	Abreviatura	f. v.		s
 Ga	Abreviatura	galio
 Ga	Abreviatura	galios
 g/	Abreviatura	giro
 g	Abreviatura	gramo
 g	Abreviatura	gramos
 G.	Abreviatura	guaraní
-gal.	Abreviatura	gal.		s
 Ga	NCMP	galios
 Ga	NCMS	galio
 Gd	Abreviatura	gadolinio
@@ -1304,19 +963,14 @@ Ge	NCMP	germanios
 Ge	NCMS	germanio
 GG.	Abreviatura	guaraníes
 GG.	NCMP	guaraníes
-glos.	Abreviatura	glos.		s
 g	NCMP	gramos
 g/	NCMS	giro
 g	NCMS	gramo
 G.	NCMS	guaraní
-gob.	Abreviatura	gob.		s
-gót.	Abreviatura	gót.		s
 g. p.	Abreviatura	giro postal
 g/p	Abreviatura	giro postal
 gr	Abreviatura	grano
 gr	Abreviatura	granos
-gr.	Abreviatura	gr.		s
-gráf.	Abreviatura	gráf.		s
 Gral.	Abreviatura	general
 Grales.	Abreviatura	generales
 Grales.	NCEP	generales
@@ -1325,7 +979,6 @@ Grales.	NCMP	generales
 Gral.	NCES	general
 Gral.	NCFS	general
 Gral.	NCMS	general
-Gram.	Abreviatura	Gram.		s
 gr	NCMP	granos
 gr	NCMS	grano
 Gs	Abreviatura	gauss
@@ -1337,7 +990,6 @@ Gs.	NCMP	guaraníes
 Gs	NCMS	gauss
 gs/ps	Abreviatura	giros postales
 gta.	Abreviatura	glorieta
-gta.	Abreviatura	gta.		s
 gta.	NCFS	glorieta
 gtas.	Abreviatura	glorietas
 gtas.	NCFP	glorietas
@@ -1351,7 +1003,6 @@ Ha	Abreviatura	hahnios
 ha	Abreviatura	hectárea
 ha	Abreviatura	hectáreas
 Ha.	Abreviatura	hermana
-hab.	Abreviatura	hab.		s
 h	Abreviatura	height
 H	Abreviatura	henrio
 H	Abreviatura	henrios
@@ -1360,7 +1011,6 @@ H	Abreviatura	hidrógeno
 H	Abreviatura	hidrógenos
 h	Abreviatura	hora
 h	Abreviatura	horas
-h.	Abreviatura	h.		s
 ha	NCFP	hectáreas
 ha	NCFS	hectárea
 Ha.	NCFS	hermana
@@ -1370,11 +1020,8 @@ Has.	Abreviatura	hermanas
 Has.	NCFP	hermanas
 He	Abreviatura	helio
 He	Abreviatura	helios
-h. e.	Abreviatura	h. e.		s
 He	NCMP	helios
 He	NCMS	helio
-her.	Abreviatura	her.		s
-Heráld.	Abreviatura	Heráld.		s
 Hf	Abreviatura	hafnio
 Hf	Abreviatura	hafnios
 Hf	NCMP	hafnios
@@ -1389,8 +1036,6 @@ hg	NCMS	hectogramo
 Hg	NCMS	mercurio
 HH.	Abreviatura	hermanos
 HH.	NCMP	hermanos
-Hidrol.	Abreviatura	Hidrol.		s
-Hist.	Abreviatura	Hist.		s
 hl	Abreviatura	hectolitro
 hl	Abreviatura	hectolitros
 hl	NCMP	hectolitros
@@ -1416,14 +1061,11 @@ hnos.	Abreviatura	hermanos
 hnos.	NCMP	hermanos
 Ho	Abreviatura	holmio
 Ho	Abreviatura	holmios
-hol.	Abreviatura	hol.		s
 Ho	NCMP	holmios
 Ho	NCMS	holmio
 H.&ordf;	Abreviatura	hermana
 H.&ordf;	NCFS	hermana
 hp	Abreviatura	horsepower
-hra.	Abreviatura	hro.		s
-hro.	Abreviatura	hro.		s
 Hs	Abreviatura	hassio
 Hs	Abreviatura	hassios
 Hs.	Abreviatura	hermanos
@@ -1437,43 +1079,25 @@ Hz	Abreviatura	hercio
 Hz	Abreviatura	hercios
 Hz	NCMP	hercios
 Hz	NCMS	hercio
-i.	Abreviatura	i.		s
-I.	Abreviatura	I.		s
 I	Abreviatura	yodo
 I	Abreviatura	yodos
-ib.	Abreviatura	ib.	ibídem	s
 ib.	Abreviatura	ibidem
 ibid.	Abreviatura	ibidem
-ibid.	Abreviatura	ibid.	ibídem	s
-Ict.	Abreviatura	Ict.		s
 id.	Abreviatura	idem
-id.	Abreviatura	id.		s
-íd.	Abreviatura	íd.		s
 i. e.	Abreviatura	id est
-i. e.	Abreviatura	i. e.		s
 igl.&ordf;	Abreviatura	iglesia
 igl.&ordf;	NCFS	iglesia
 igl.&supa;&sups;	Abreviatura	iglesias
 igl.&supa;&sups;	NCFP	iglesias
-igr.	Abreviatura	igr.		s
 IHS	Abreviatura	Iesus hóminum salvátor
-il.	Abreviatura	il.		s
-Il.	Abreviatura	Il.		s
-Ilma.	Abreviatura	Ilmo.		s
 Ilma.	Abreviatura	ilustrísima
 Ilma.	AFS	ilustrísima
 Ilmas.	Abreviatura	ilustrísimas
 Ilmas.	AFP	ilustrísimas
-Ilma. Sra.	Abreviatura	Ilmo. Sr.		s
-Ilmo.	Abreviatura	Ilmo.		s
 Ilmo.	Abreviatura	ilustrísimo
 Ilmo.	AMS	ilustrísimo
 Ilmos.	Abreviatura	ilustrísimos
 Ilmos.	AMP	ilustrísimos
-Ilmo. Sr.	Abreviatura	Ilmo. Sr.		s
-Iltma.	Abreviatura	Iltmo.		s
-Iltmo.	Abreviatura	Iltmo.		s
-Iltre.	Abreviatura	Iltre.		s
 Iltre.	Abreviatura	ilustre
 Iltre.	AES	ilustre
 Iltre.	AFS	ilustre
@@ -1483,14 +1107,10 @@ Iltres.	AEP	ilustres
 Iltres.	AFP	ilustres
 Iltres.	AMP	ilustres
 imp.	Abreviatura	imprenta
-imp.	Abreviatura	imp.		s
-imperat.	Abreviatura	imperat.		s
-imperf.	Abreviatura	imperf.		s
 imp.	NCFS	imprenta
 impra.	Abreviatura	impresa
 impr.	Abreviatura	imprenta
 impr.	Abreviatura	impreso
-impr.	Abreviatura	impr.		s
 impras.	Abreviatura	impresas
 impras.	VPFP	impresas
 impra.	VPFS	impresa
@@ -1514,18 +1134,8 @@ In	Abreviatura	indio
 In	Abreviatura	indios
 in	Abreviatura	pulgada
 in	Abreviatura	pulgadas
-inc.	Abreviatura	inc.		s
-incl.	Abreviatura	incl.		s
 I	NCMP	yodos
 I	NCMS	yodo
-incompl.	Abreviatura	incompl.		s
-ind.	Abreviatura	ind.		s
-índ.	Abreviatura	índ.		s
-indef.	Abreviatura	indef.		s
-indic.	Abreviatura	indic.		s
-inf.	Abreviatura	inf.		s
-inf. conx.	Abreviatura	inf. conx.		s
-Inform.	Abreviatura	Inform.		s
 Inga.	Abreviatura	ingeniera
 Ing.	Abreviatura	ingeniero
 Inga.	NCFS	ingeniera
@@ -1543,27 +1153,15 @@ in	NCFS	pulgada
 In	NCMP	indios
 In	NCMS	indio
 INRI	Abreviatura	Iesus nazarenus rex iudaeórum
-insep.	Abreviatura	insep.		s
 Inst.	Abreviatura	instituto
-inst.	Abreviatura	inst.		s
 Inst.	NCMS	instituto
 Insts.	Abreviatura	institutos
 Insts.	NCMP	institutos
-int.	Abreviatura	int.		s
-interr.	Abreviatura	interr.		s
-interrog.	Abreviatura	interrog.		s
-interx.	Abreviatura	interx.		s
-intr.	Abreviatura	intr.		s
-introd.	Abreviatura	introd.		s
-i. q.	Abreviatura	i. q.		s
 Ir	Abreviatura	iridio
 Ir	Abreviatura	iridios
 ir	NCMP	iridios
 Ir	NCMS	iridio
-irreg.	Abreviatura	irreg.		s
 it.	Abreviatura	ítem
-it.	Abreviatura	it.		s
-ít.	Abreviatura	ít.		s
 it.	NCMS	ítem
 its.	Abreviatura	ítem
 its.	NCMP	ítems
@@ -1609,8 +1207,6 @@ K	NCMS	kelvin
 K	NCMS	kilo
 K	NCMS	potasio
 k. o.	Abreviatura	knock-out
-k. o.	Abreviatura	k. o.		s
-K. O.	Abreviatura	K. O.		s
 kp	Abreviatura	kilopondio
 kp	Abreviatura	kilopondios
 kp	NCMP	kilopondios
@@ -1636,26 +1232,17 @@ l	Abreviatura	litro
 L	Abreviatura	litro
 l	Abreviatura	litros
 L	Abreviatura	litros
-l.	Abreviatura	l.		s
-L/	Abreviatura	L/		s
 La	NCMP	lantanos
 La	NCMS	lantano
-lat.	Abreviatura	lat.		s
 lb	Abreviatura	libra
 lb	Abreviatura	libras
 lb	NCFP	libras
 lb	NCFS	libra
-lca.	Abreviatura	lca.		s
-l. c.	Abreviatura	l. c.		s
 l. c.	Abreviatura	loco citato
-l. cl.	Abreviatura	l. cl.		s
-lco.	Abreviatura	lco.		s
-lda.	Abreviatura	ldo.		s
 Lda.	Abreviatura	licenciada
 Lda.	NCFS	licenciada
 Ldas.	Abreviatura	licenciadas
 Ldas.	NCFP	licenciadas
-ldo.	Abreviatura	ldo.		s
 Ldo.	Abreviatura	licenciado
 Ldo.	NCMS	licenciado
 Ldos.	Abreviatura	licenciados
@@ -1664,15 +1251,12 @@ Li	Abreviatura	litio
 Li	Abreviatura	litios
 Lica.	Abreviatura	licenciada
 Lic.	Abreviatura	licenciado
-lic.	Abreviatura	lic.		s
 Lica.	NCFS	licenciada
 Licas.	Abreviatura	licenciadas
 Licas.	NCFP	licenciadas
-licda.	Abreviatura	licdo.		s
 Licda.	Abreviatura	licenciada
 Licda.	NCFS	licenciada
 Licdas.	Abreviatura	licenciadas
-licdo.	Abreviatura	licdo.		s
 Licdo.	Abreviatura	licenciado
 Licdo.	NCMS	licenciado
 Licdos.	Abreviatura	licenciados
@@ -1686,13 +1270,10 @@ Lic.&supa;&sups;	Abreviatura	licenciadas
 Lic.&supa;&sups;	NCFP	licenciadas
 Li	NCMP	litios
 Li	NCMS	litio
-Ling.	Abreviatura	Ling.		s
 Lit.	Abreviatura	lira
 LIT.	Abreviatura	lira
 Lit.	Abreviatura	liras
 LIT.	Abreviatura	liras
-lit.	Abreviatura	lit.		s
-Lit.	Abreviatura	Lit.		s
 Lit.	NCFP	liras
 LIT.	NCFP	liras
 Lit.	NCFS	lira
@@ -1709,17 +1290,7 @@ l.	NCFS	ley
 l	NCMP	litros
 l.	NCMS	libro
 l	NCMS	litro
-loc.	Abreviatura	loc.		s
-loc. adv.	Abreviatura	loc. adv.		s
-loc. adx.	Abreviatura	loc. adx.		s
-loc. cit.	Abreviatura	loc. cit.		s
 loc. cit.	Abreviatura	loco citato
-loc. conx.	Abreviatura	loc. conx.		s
-loc. lat.	Abreviatura	loc. lat.		s
-loc. prep.	Abreviatura	loc. prep.		s
-loc. s.	Abreviatura	loc. s.		s
-lonx.	Abreviatura	lonx.		s
-loq.	Abreviatura	loq.		s
 Lps.	Abreviatura	lempira
 Lps.	Abreviatura	lempiras
 Lps.	NCMP	lempiras
@@ -1734,15 +1305,12 @@ ls.	Abreviatura	libros
 ls.	NCFP	leyes
 ls.	NCMP	libros
 Ltda.	Abreviatura	limitada
-ltda.	Abreviatura	ltd.		s
 Ltda.	AFS	limitada
 Ltd.	Abreviatura	limited
-ltd.	Abreviatura	ltd.		s
 Lu	Abreviatura	lutecio
 Lu	Abreviatura	lutecios
 Lu	NCMP	lutecios
 Lu	NCMS	lutecio
-l. vg.	Abreviatura	l. vg.		s
 lx	Abreviatura	lux
 lx	Abreviatura	luxes
 lx	NCMP	luxes
@@ -1750,17 +1318,7 @@ lx	NCMS	lux
 M.	Abreviatura	Madre
 m	Abreviatura	metro
 m	Abreviatura	metros
-m.	Abreviatura	m.		s
-M.	Abreviatura	M.		s
-Magfa.	Abreviatura	Magfo.		s
-Magfo.	Abreviatura	Magfo.		s
-maiúsc.	Abreviatura	maiúsc.		s
-mar.	Abreviatura	mar.		s
-Mar.	Abreviatura	Mar.		s
-masc.	Abreviatura	masc.		s
-Mat.	Abreviatura	Mat.		s
 máx.	Abreviatura	máximo
-máx.	Abreviatura	máx.		s
 máx.	NCMS	máximo
 máxs.	Abreviatura	máximos
 máxs.	NCMP	máximos
@@ -1776,13 +1334,6 @@ Md	Abreviatura	mendelevio
 Md	Abreviatura	mendelevios
 Md	NCMP	mendelevios
 Md	NCMS	mendelevio
-Mec.	Abreviatura	Mec.		s
-mecan.	Abreviatura	mecan.		s
-Med.	Abreviatura	Med.		s
-mercad.	Abreviatura	mercad.		s
-Metal.	Abreviatura	Metal.		s
-Meteor.	Abreviatura	Meteor.		s
-Metrol.	Abreviatura	Metrol.		s
 Mg	Abreviatura	magnesio
 Mg	Abreviatura	magnesios
 mg	Abreviatura	miligramo
@@ -1791,22 +1342,14 @@ Mg	NCMP	magnesios
 mg	NCMP	miligramos
 Mg	NCMS	magnesio
 mg	NCMS	miligramo
-mil.	Abreviatura	mil.		s
-Mil.	Abreviatura	Mil.		s
 mín.	Abreviatura	mínimo
-mín.	Abreviatura	mín.		s
 min	Abreviatura	minuto
 min	Abreviatura	minutos
-Miner.	Abreviatura	Miner.		s
-minist.	Abreviatura	minist.		s
 min	NCMP	minutos
 mín.	NCMS	mínimo
 min	NCMS	minuto
 míns.	Abreviatura	mínimos
 míns.	NCMP	mínimos
-M. I. Sra.	Abreviatura	M. I. Sr.		s
-M. I. Sr.	Abreviatura	M. I. Sr.		s
-Mit.	Abreviatura	Mit.		s
 ml	Abreviatura	mililitro
 ml	Abreviatura	mililitros
 ml	NCMP	mililitros
@@ -1816,7 +1359,6 @@ mm	Abreviatura	milímetro
 mm	Abreviatura	milímetros
 Mm	Abreviatura	miriámetro
 Mm	Abreviatura	miriámetros
-MM.	Abreviatura	M.		s
 MM.	NCFP	Madres
 mm	NCMP	milímetros
 Mm	NCMP	miriámetros
@@ -1830,7 +1372,6 @@ mm&sup3;	Abreviatura	milímetro cúbico
 mm&sup3;	Abreviatura	milímetros cúbicos
 Mn	Abreviatura	manganeso
 Mn	Abreviatura	manganesos
-m. n.	Abreviatura	m. n.		s
 m. n.	Abreviatura	moneda nacional
 M.	NCFS	Madre
 m	NCMP	metros
@@ -1839,14 +1380,11 @@ Mn	NCMP	manganesos
 Mn	NCMS	manganeso
 Mo	Abreviatura	molibdeno
 Mo	Abreviatura	molibdenos
-mod.	Abreviatura	mod.		s
 Mo	NCMP	molibdenos
 Mo	NCMS	molibdeno
 Mons.	Abreviatura	Monseñor
-Mons.	Abreviatura	Mons.		s
 Mons.	AMS	Monseñor
 mr.	Abreviatura	mártir
-mr.	Abreviatura	mr.	mr.	s
 mr.	NCFP	mártir
 mr.	NCMP	mártir
 Mro.	Abreviatura	Maestro
@@ -1854,21 +1392,16 @@ Mro.	NCMS	Maestro
 Mros.	Abreviatura	Maestros
 Mros.	NCMP	Maestros
 mrs.	Abreviatura	mártires
-mrs.	Abreviatura	mr.	mr.	s
 mrs.	NCES	mártires
 mrs.	NCFS	mártires
 mrs.	NCMS	mártires
 Ms.	Abreviatura	Madres
 ms.	Abreviatura	manuscrito
 M. S.	Abreviatura	manuscrito
-ms.	Abreviatura	ms.		s
-Ms.	Abreviatura	Ms.		s
 Ms.	NCFP	Madres
 ms.	NCMS	manuscrito
 M. S.	NCMS	manuscrito
 mss.	Abreviatura	manuscritos
-mss.	Abreviatura	ms.		s
-Mss.	Abreviatura	Ms.		s
 mss.	NCMP	manuscritos
 Ms. Ss.	Abreviatura	manuscritos
 Ms. Ss.	NCMP	manuscritos
@@ -1888,8 +1421,6 @@ Mtro.	Abreviatura	Maestro
 Mtro.	NCMS	Maestro
 Mtros.	Abreviatura	Maestros
 Mtros.	NCMP	Maestros
-mun.	Abreviatura	mun.		s
-Mús.	Abreviatura	Mús.		s
 Mx	Abreviatura	maxwell
 Mx	Abreviatura	maxwells
 Mx	NCMP	maxwells
@@ -1902,36 +1433,24 @@ N	Abreviatura	nitrógeno
 N	Abreviatura	nitrógenos
 N	Abreviatura	Norte
 n.	Abreviatura	nota
-n.	Abreviatura	n.		s
-n.°	Abreviatura	n.°		s
 Na	NCMP	sodios
 Na	NCMS	sodio
-N.ª S.ª	Abreviatura	N. S.		s
-N. B.	Abreviatura	N. B.		s
 Nb	Abreviatura	niobio
 Nb	Abreviatura	niobios
 N. B.	Abreviatura	nota bene
 Nb	NCMP	niobios
 Nb	NCMS	niobio
-n. c.	Abreviatura	n. c.		s
 Nd	Abreviatura	neodimio
 Nd	Abreviatura	neodimios
-N. da R.	Abreviatura	N. da R.		s
 N. del T.	Abreviatura	nota del traductor
 Nd	NCMP	neodimios
 Nd	NCMS	neodimio
-N. do A.	Abreviatura	N. do A.		s
-N. do C.	Abreviatura	N. do C.		s
-N. do E.	Abreviatura	N. do E.		s
-N. do T.	Abreviatura	N. do T.		s
 Ne	Abreviatura	neón
 Ne	Abreviatura	neones
 NE	Abreviatura	nordeste
-neg.	Abreviatura	neg.		s
 Ne	NCMP	neones
 Ne	NCMS	neón
 NE	NCMS	nordeste
-neol.	Abreviatura	neol.		s
 neperes	NCMP	neperes
 Ni	Abreviatura	níquel
 Ni	Abreviatura	níqueles
@@ -1944,15 +1463,10 @@ N	NCMP	nitrógeno
 N	NCMS	newton
 N	NCMS	nitrógenos
 N	NCMS	norte
-NN.GG.	Abreviatura	NN.GG.		n
 nn.	NCFP	nota
 No	Abreviatura	nobelio
 No	Abreviatura	nobelios
-nº	Abreviatura	nº		n
-Nº	Abreviatura	Nº		n
 NO	Abreviatura	noroeste
-n.º	Abreviatura	n.º		s
-nom.	Abreviatura	nom.		s
 No	NCMP	nobelios
 No	NCMS	nobelio
 NO	NCMS	noroeste
@@ -1963,7 +1477,6 @@ Np	Abreviatura	néper
 Np	Abreviatura	neperes
 Np	Abreviatura	neptunio
 Np	Abreviatura	neptunios
-n. p.	Abreviatura	n. p.		s
 Np	NCMP	néper
 Np	NCMP	neptunios
 Np	NCMS	neptunio
@@ -1982,7 +1495,6 @@ nros.	NCMP	números
 Ns	Abreviatura	nielsbohrio
 Ns	Abreviatura	nielsbohrios
 ns.	Abreviatura	notas
-N. S.	Abreviatura	N. S.		s
 N. S.	Abreviatura	Nuestro Señor
 N. S. J. C.	Abreviatura	Nuestro Señor Jesucristo
 ns.	NCFP	nota
@@ -1990,7 +1502,6 @@ Ns	NCMP	nielsbohrios
 Ns	NCMS	nielsbohrio
 n.&supo;&sups;	Abreviatura	números
 n.&supo;&sups;	NCMP	números
-N. T.	Abreviatura	N. T.		s
 N. T.	Abreviatura	Nuevo Testamento
 ntra.	Abreviatura	nuestra
 ntra.	DS4FS	nuestra
@@ -2002,62 +1513,32 @@ ntro.	DS4MS	nuestro
 ntros.	Abreviatura	nuestros
 ntros.	DS4MP	nuestros
 núm.	Abreviatura	número
-num.	Abreviatura	num.		s
-núm.	Abreviatura	núm.		s
-num. card.	Abreviatura	num. card.		s
 núm.	NCMS	número
-num. ord.	Abreviatura	num. ord.		s
 núms.	Abreviatura	números
 núms.	NCMP	números
 O	Abreviatura	Oeste
-o.	Abreviatura	o.		s
-o/	Abreviatura	o/		s
 O	Abreviatura	oxígeno
 O	Abreviatura	oxígenos
 Ob.	Abreviatura	obispo
-ob. cit.	Abreviatura	ob. cit.		s
 ob. cit.	Abreviatura	obra citada
 Ob.	NCMS	obispo
 Obs.	Abreviatura	obispos
-obs.	Abreviatura	obs.		s
 Obs.	NCMP	obispos
-o.c.	Abreviatura	o.c.	o. c.	n
-o. c.	Abreviatura	o. c.		s
-O. C.	Abreviatura	O. C.		s
-Oceanog.	Abreviatura	Oceanog.		s
-o. cit.	Abreviatura	o. cit.		s
-Odont.	Abreviatura	Odont.		s
 Oe	Abreviatura	oersted
 Oe	Abreviatura	oersteds
 Oe	NCMP	oersteds
 Oe	NCMS	oersted
-of.	Abreviatura	of.		s
-Oftal.	Abreviatura	Oftal.		s
-O. M.	Abreviatura	O. M.		s
 O. M.	Abreviatura	Orden Ministerial
 O	NCMP	oxígenos
 O	NCMS	oeste
 O	NCMS	oxígeno
 ONO	Abreviatura	oesnoroeste
 ONO	NCMS	oesnoroeste
-OO. AA. AA.	Abreviatura	OO. AA. AA.		s
-OO. AA.	Abreviatura	OO. AA.		s
-OO. AA.CC.	Abreviatura	OO. AA.CC.		s
-OO. MM.	Abreviatura	O. M.		s
-OO. PP.	Abreviatura	OO. PP.		s
-o. p.	Abreviatura	o. p.		s
-op.	Abreviatura	op.		s
-Op. cit.	Abreviatura	op. cit.	op. cit.	s
-op. cit.	Abreviatura	op. cit.		s
 op. cit.	Abreviatura	ópere citato
-Ópt.	Abreviatura	Ópt.		s
-opúsc.	Abreviatura	opúsc.		s
 &ordm;C	Abreviatura	grado Celsius
 &ordm;C	Abreviatura	grados Celsius
 &ordm;F	Abreviatura	grado Fahrenheit
 &ordm;F	Abreviatura	grados Fahrenheit
-orix.	Abreviatura	orix.		s
-Ornit.	Abreviatura	Ornit.		s
 Os	Abreviatura	osmio
 Os	Abreviatura	osmios
 Os	NCMP	osmios
@@ -2068,8 +1549,6 @@ oz	Abreviatura	onza
 oz	Abreviatura	onzas
 oz	NCFP	onzas
 oz	NCFS	onza
-p. a.	Abreviatura	p. a.		s
-P. A.	Abreviatura	P. A.		s
 Pa	Abreviatura	pascal
 Pa	Abreviatura	pascales
 p. a.	Abreviatura	por ausencia
@@ -2084,34 +1563,21 @@ P.	Abreviatura	papa
 P	Abreviatura	poise
 P	Abreviatura	poises
 P.	Abreviatura	pregunta
-p.	Abreviatura	p.		s
-p.°	Abreviatura	p.°		s
-P.	Abreviatura	P.		s
 pág.	Abreviatura	página
 págs.	Abreviatura	páginas
 págs.	NCFP	páginas
-Paleont.	Abreviatura	Paleont.		s
 Pa	NCMP	pascales
 Pa	NCMP	protactinios
 Pa	NCMS	pascal
 Pa	NCMS	protactinio
-par.	Abreviatura	par.		s
 párr.	Abreviatura	párrafo
 párr.	NCMS	párrafo
 párrs.	Abreviatura	párrafos
 párrs.	NCMP	párrafos
-part.	Abreviatura	part.		s
-pass.	Abreviatura	pass.		s
 Pat.	Abreviatura	patente
-pat.	Abreviatura	pat.		s
 Pat.	NCFS	patente
 Pats.	Abreviatura	patentes
 Pats.	NCFP	patentes
-páx.	Abreviatura	páx.	páx.	s
-paxs	Abreviatura	pax	páx.	n
-páxs	Abreviatura	páx	páx.	n
-páxs.	Abreviatura	páx.	páx.	s
-P. B.	Abreviatura	P. B.		s
 Pb	Abreviatura	plomo
 Pb	Abreviatura	plomos
 Pb	NCMP	plomos
@@ -2128,7 +1594,6 @@ pda.	Abreviatura	pasada
 pda.	AFS	pasada
 Pd	Abreviatura	paladio
 Pd	Abreviatura	paladios
-P. D.	Abreviatura	P. D.		s
 p. d.	Abreviatura	portes debidos
 P. D.	Abreviatura	posdata
 pdas.	Abreviatura	pasadas
@@ -2138,55 +1603,37 @@ Pd	NCMP	paladios
 Pd	NCMS	paladio
 pdo.	AAS	pasado
 pdo.	Abreviatura	pasado
-pdo.	Abreviatura	pdo.		s
 pdo.	AMS	pasado
 pdo.	ANS	pasado
 pdos.	Abreviatura	pasados
 pdos.	AMP	pasados
-pdta.	Abreviatura	pdte.		s
 Pdta.	Abreviatura	presidente
 Pdta.	NCFS	presidenta
 Pdtas.	Abreviatura	presidentas
 Pdtas.	NCFP	presidentas
-pdte.	Abreviatura	pdte.		s
 Pdte.	Abreviatura	presidente
 Pdte.	NCMS	presidente
 Pdtes.	Abreviatura	presidentes
 Pdtes.	NCMP	presidentes
-p.e.	Abreviatura	p.e.	p. ex.	s
-p. e.	Abreviatura	p. e.		s
 p. ej.	Abreviatura	por ejemplo
-pen.	Abreviatura	pen.		s
-perf.	Abreviatura	perf.		s
-perg.	Abreviatura	perg.		s
-pers.	Abreviatura	pers.		s
-p. ex.	Abreviatura	p. ex.		s
-pex.	Abreviatura	pex.		s
-p. ext.	Abreviatura	p. ext.		s
 pg.	Abreviatura	página
 pg.	NCFS	página
 pgs.	Abreviatura	páginas
 pgs.	NCFP	páginas
 pl.	Abreviatura	plaza
-pl.	Abreviatura	pl.		s
 pl.	NCFS	plaza
 pls.	Abreviatura	plazas
 pls.	NCFP	plazas
-plusc.	Abreviatura	plusc.		s
 plza.	Abreviatura	plaza
 plza.	NCFS	plaza
 plzas.	Abreviatura	plazas
 plzas.	NCFP	plazas
-P. M. A.	Abreviatura	P. M. A.		s
-p. m.	Abreviatura	p. m.		s
-P. M.	Abreviatura	P. M.		s
 P. M.	Abreviatura	policía militar
 p. m.	Abreviatura	post meridiem
 Pm	Abreviatura	prometio
 Pm	Abreviatura	prometios
 Pm	NCMP	prometios
 Pm	NCMS	prometio
-P. N.	Abreviatura	P. N.		s
 p.	NCFS	página
 P	NCFS	pregunta
 P	NCMP	fósforos
@@ -2203,32 +1650,16 @@ Po	Abreviatura	polonio
 Po	Abreviatura	polonios
 p. o.	Abreviatura	por orden
 p/o	Abreviatura	por orden
-p. o.	Abreviatura	p. o.		s
-p/o	Abreviatura	p/o		s
-P. O.	Abreviatura	P. O.		s
-pob.	Abreviatura	pob.		s
-poét.	Abreviatura	poét.		s
-Pol.	Abreviatura	Pol.		s
 Po	NCMP	polonios
 Po	NCMS	polonio
-pop.	Abreviatura	pop.		s
 p.&ordm;	Abreviatura	paseo
 p.&ordm;	NCMS	paseo
-por ext.	Abreviatura	por ext.		s
-port.	Abreviatura	port.		s
-pos.	Abreviatura	pos.		s
-pospret.	Abreviatura	pospret.		s
 PP.	Abreviatura	Padres
 pp.	Abreviatura	páginas
 PP.	Abreviatura	papas
 p. p.	Abreviatura	por poder
 p. p.	Abreviatura	portes pagados
-p. p.	Abreviatura	p. p.		s
-P. P.	Abreviatura	P. P.		s
 PP.	Abreviatura	preguntas
-pp.	Abreviatura	p.		s
-PP.	Abreviatura	P.		s
-ppal.	Abreviatura	ppal.		s
 ppal.	Abreviatura	principal
 ppal.	AES	principal
 ppal.	AFS	principal
@@ -2239,16 +1670,12 @@ ppales.	Abreviatura	principales
 ppales.	AEP	principales
 ppales.	AFP	principales
 ppales.	AMP	principales
-ppm	Abreviatura	ppm		s
-ppmm	Abreviatura	ppmm		s
 pp.	NCFP	páginas
 PP.	NCFP	preguntas
 PP.	NCMP	Padres
 PP.	NCMP	papas
 Pr	Abreviatura	praseodimio
 Pr	Abreviatura	praseodimios
-pr.	Abreviatura	pr.		s
-pral.	Abreviatura	pral.		s
 pral.	Abreviatura	principal
 pral.	AES	principal
 pral.	AFS	principal
@@ -2256,24 +1683,14 @@ pral.	AIS	principal
 pral.	AMS	principal
 pral.	ANS	principal
 prales.	Abreviatura	principales
-pref.	Abreviatura	pref.		s
-prelim.	Abreviatura	prelim.		s
-prep.	Abreviatura	prep.		s
-pres.	Abreviatura	pres.		s
 Presb.	Abreviatura	presbítero
-presb.	Abreviatura	presb.		s
 Presb.	NCMS	presbítero
 Presbs.	Abreviatura	presbíteros
 Presbs.	NCMP	presbítero
-pret.	Abreviatura	pret.		s
 Pr	NCMP	praseodimios
 Pr	NCMS	praseodimio
-prnl.	Abreviatura	prnl.		s
-proc.	Abreviatura	proc.		s
 Profa.	Abreviatura	profesora
-prof.ª	Abreviatura	prof.		s
 Prof.	Abreviatura	profesor
-prof.	Abreviatura	prof.		s
 Profa.	NCFS	profesora
 Prof.	NCMS	profesor
 Prof.&ordf;	Abreviatura	profesora
@@ -2283,30 +1700,18 @@ Profs.	NCMP	profesores
 Prof.&supa;&sups;	Abreviatura	profesoras
 Prof.&supa;&sups;	NCFP	profesoras
 pról.	Abreviatura	prólogo
-pról.	Abreviatura	pról.		s
 pról.	NCMS	prólogo
 próls.	Abreviatura	prólogos
 próls.	NCMP	prólogos
-pron.	Abreviatura	pron.		s
-pron. át.	Abreviatura	pron. át.		s
-pron. pers.	Abreviatura	pron. pers.		s
-pron. pos.	Abreviatura	pron. pos.		s
-pron. rel.	Abreviatura	pron. rel.		s
-pron. tón.	Abreviatura	pron. tón.		s
 prov.	Abreviatura	provincia
-prov.	Abreviatura	prov.		s
 prov.	NCFS	provincia
 provs.	Abreviatura	provincias
 provs.	NCFP	provincias
 Ps.	Abreviatura	Padres
 ps.	Abreviatura	páginas
 Ps.	Abreviatura	papas
-ps	Abreviatura	p		n
 P. S.	Abreviatura	post scríptum
 Ps.	Abreviatura	preguntas
-P. S.	Abreviatura	P. S.		s
-Psic.	Abreviatura	Psic.		s
-Psiq.	Abreviatura	Psiq.		s
 ps.	NCFP	páginas
 Ps.	NCFP	preguntas
 Ps.	NCMP	Padres
@@ -2314,14 +1719,11 @@ Ps.	NCMP	papas
 p.&supo;&sups;	Abreviatura	paseos
 p.&supo;&sups;	NCMP	paseos
 pta.	Abreviatura	peseta
-pta.	Abreviatura	pta.		s
 pt	Abreviatura	pinta
 pt	Abreviatura	pintas
 Pt	Abreviatura	platino
 Pt	Abreviatura	platinos
 pta.	NCFS	peseta
-ptas.	Abreviatura	pta.		s
-ptg.	Abreviatura	ptg.		s
 pt	NCFP	pintas
 pt	NCFS	pinta
 Pt	NCMP	platinos
@@ -2330,49 +1732,29 @@ pts.	Abreviatura	pesetas
 pts.	NCFP	pesetas
 Pu	Abreviatura	plutonio
 Pu	Abreviatura	plutonios
-p. u.	Abreviatura	p. u.		s
-publ.	Abreviatura	publ.		s
 Pu	NCMP	plutonios
 Pu	NCMS	plutonio
 p. v.	Abreviatura	pequeña velocidad
 P. V. P.	Abreviatura	precio de venta al público
-P. V. P.	Abreviatura	P. V. P.		s
 pza.	Abreviatura	plaza
-pza.	Abreviatura	pza.		s
 pza.	NCFS	plaza
 pzas.	Abreviatura	plazas
 pzas.	NCFP	plazas
-q. b. s. m.	Abreviatura	q. b. s. m.		s
 q. b. s. m.	Abreviatura	que besa su mano
-q. b. s. p.	Abreviatura	q. b. s. p.		s
 q. b. s. p.	Abreviatura	que besa sus pies
-q. D. g.	Abreviatura	q. D. g.		s
-Q. D. G.	Abreviatura	Q. D. G.		s
 q. D. g.	Abreviatura	que Dios guarde
-q. e. g. e.	Abreviatura	q. e. g. e.		s
 q. e. g. e.	Abreviatura	que en gloria esté
-q. e. p. d.	Abreviatura	q. e. p. d.		s
 q. e. p. d.	Abreviatura	que en paz descanse
 q. e. s. m.	Abreviatura	que estrecha su mano
 Qm	Abreviatura	quintales métricos
 Qm	Abreviatura	quintal métrico
-q. s. g. h.	Abreviatura	q. s. g. h.		s
 q. s. g. h.	Abreviatura	que santa gloria haya
-Quím.	Abreviatura	Quím.		s
-Quím. Anal.	Abreviatura	Quím. Anal.		s
-Quím. Fís.	Abreviatura	Quím. Fís.		s
-Quím. Inorg.	Abreviatura	Quím. Inorg.		s
-Quím. Org.	Abreviatura	Quím. Org.		s
-q. v.	Abreviatura	q. v.		s
 Ra	Abreviatura	radio
 Ra	Abreviatura	radios
 R.	Abreviatura	respuesta
 R.	Abreviatura	reverendo
 R	Abreviatura	roentgen
 R	Abreviatura	roentgens
-r.	Abreviatura	r.		s
-r/	Abreviatura	r/		s
-R.	Abreviatura	R.		s
 rad	Abreviatura	radián
 rad	Abreviatura	radianes
 rad	NCMP	radianes
@@ -2384,16 +1766,11 @@ Rb	Abreviatura	rubidio
 Rb	Abreviatura	rubidios
 Rb	NCMP	rubidios
 Rb	NCMS	rubidio
-R. C.	Abreviatura	R. C.		s
-Rda.	Abreviatura	Rdo.		s
 Rda.	Abreviatura	reverenda
 Rda.	AFS	reverenda
-R. D.	Abreviatura	R. D.		s
 R. D.	Abreviatura	Real Decreto
 Rdas.	Abreviatura	reverendas
 Rdas.	AFP	reverendas
-R. D. L.	Abreviatura	R. D. L.		s
-Rdo.	Abreviatura	Rdo.		s
 Rdo.	Abreviatura	reverendo
 Rdo.	AMS	reverendo
 Rdo.	NCMS	reverendo
@@ -2402,31 +1779,19 @@ Rdos.	AMS	reverendos
 Rdos.	NCMS	reverendos
 Re	Abreviatura	renio
 Re	Abreviatura	renios
-rec.	Abreviatura	rec.		s
-red.	Abreviatura	red.		s
-reed.	Abreviatura	reed.		s
-ref.	Abreviatura	ref.		s
 reg.	Abreviatura	registro
-reg.	Abreviatura	reg.		s
 reg.	NCMS	registro
 regs.	Abreviatura	registros
 regs.	NCMP	registros
-reimpr.	Abreviatura	reimpr.		s
-rel.	Abreviatura	rel.		s
-Rel.	Abreviatura	Rel.		s
 Re	NCMP	renios
 Re	NCMS	renio
-Rep.	Abreviatura	Rep.		s
 Rep.	Abreviatura	república
 Rep.	NCFS	república
-reprod.	Abreviatura	reprod.		s
 Reps.	Abreviatura	repúblicas
 Reps.	NCFP	repúblicas
 Reva.	Abreviatura	reverenda
 Reva.	AFS	reverenda
 Rev.	Abreviatura	reverendo
-rev.	Abreviatura	rev.		s
-Rev.	Abreviatura	Rev.		s
 Rev.	AMS	reverendo
 Revas.	Abreviatura	reverendas
 Revas.	AFP	reverendas
@@ -2438,7 +1803,6 @@ Revs.	AMS	reverendos
 Revs.	NCMS	reverendos
 Rev.&supa;&sups;	Abreviatura	reverendas
 Rev.&supa;&sups;	AFP	reverendas
-rex.	Abreviatura	rex.		s
 Rh	Abreviatura	rhesus
 Rh	Abreviatura	rodio
 Rh	Abreviatura	rodios
@@ -2447,15 +1811,11 @@ Rh	NCMP	rodios
 Rh	NCMS	rhesus
 Rh	NCMS	rodio
 R. I. P.	Abreviatura	requiéscat in pace
-r. i. p.	Abreviatura	r. i. p.		s
-R. I. P.	Abreviatura	R. I. P.		s
 Rma.	Abreviatura	reverendísima
-Rma.	Abreviatura	Rmo.		s
 Rma.	AFS	reverendísima
 Rmas.	Abreviatura	reverendísimas
 Rmas.	AFS	reverendísimas
 Rmo.	Abreviatura	reverendísimo
-Rmo.	Abreviatura	Rmo.		s
 Rmo.	AMS	reverendísimo
 Rmos.	Abreviatura	reverendísimos
 Rmos.	AMS	reverendísimos
@@ -2468,23 +1828,18 @@ R	NCMS	roentgen
 Rn	NCMP	radones
 Rn	NCMS	radón
 R. O.	Abreviatura	Real Orden
-R. O.	Abreviatura	R. O.		s
 r. p. m.	Abreviatura	revoluciones por minuto
 r. p. m.	Abreviatura	revolución por minuto
-r. p. m.	Abreviatura	r. p. m.		s
 RR.	Abreviatura	respuestas
 RR.	Abreviatura	reverendos
 RR.	AMS	reverendos
-RR. DD.	Abreviatura	R. D.		s
 RR.	NCFP	respuestas
 RR.	NCMS	reverendos
-RR. OO.	Abreviatura	R. O.		s
 Rs.	Abreviatura	respuestas
 Rs.	NCFP	respuestas
 Rt	Abreviatura	rutherfordio
 Rt	Abreviatura	rutherfordios
 Rte.	Abreviatura	remitente
-rte.	Abreviatura	rte.		s
 Rte.	NCMS	remitente
 Rtes.	Abreviatura	remitentes
 Rtes.	NCMP	remitentes
@@ -2495,25 +1850,19 @@ Ru	Abreviatura	rutenios
 Ru	NCMP	rutenios
 Ru	NCMS	rutenio
 Rvda.	Abreviatura	reverenda
-Rvda.	Abreviatura	Rvdo.		s
 Rvda.	AFS	reverenda
 Rvdas.	Abreviatura	reverendas
 Rvdas.	AFP	reverendas
 Rvdo.	Abreviatura	reverendo
-Rvdo.	Abreviatura	Rvdo.		s
 Rvdo.	AMS	reverendo
 Rvdo.	NCMS	reverendo
 Rvdos.	Abreviatura	reverendos
 Rvdos.	AMS	reverendos
 Rvdos.	NCMS	reverendos
 Sa.	Abreviatura	Santa
-s. a.	Abreviatura	s. a.		s
-s/a	Abreviatura	s/a		s
-S. A.	Abreviatura	S. A.		s
 s. a.	Abreviatura	sin año
 s/a	Abreviatura	sin año
 S. A.	Abreviatura	sociedad anónima
-S.ª	Abreviatura	Sr.	Sr.	s
 S. A.	Abreviatura	Su Alteza
 Sa.	AFS	Santa
 S	Abreviatura	azufre
@@ -2525,22 +1874,16 @@ s	Abreviatura	segundos
 S	Abreviatura	siemens
 s.	Abreviatura	siglo
 s.	Abreviatura	siguiente
-s.	Abreviatura	s.		s
-S.	Abreviatura	S.		s
 S	Abreviatura	Sur
 s.	AES	siguiente
 s.	AFS	siguiente
-S. A. I.	Abreviatura	S. A. I.		s
 S. A. I.	Abreviatura	Su Alteza Imperial
 s.	AIS	siguiente
 S.	AMS	San
 S.	AMS	Santo
 s.	AMS	siguiente
 s.	ANS	siguiente
-S. A. R.	Abreviatura	S. A. R.		s
 S. A. R.	Abreviatura	Su Alteza Real
-sarx.	Abreviatura	sarx.		s
-S. A. S.	Abreviatura	S. A. S.		s
 S. A. S.	Abreviatura	Su Alteza Serenísima
 Sb	Abreviatura	antimonio
 Sb	Abreviatura	antimonios
@@ -2548,41 +1891,26 @@ Sb	NCMP	antimonios
 Sb	NCMS	antimonio
 Sc	Abreviatura	escandio
 Sc	Abreviatura	escandios
-sc.	Abreviatura	sc.		s
 s. c.	Abreviatura	su casa
 s/c	Abreviatura	su cuenta
 Sc	NCMP	escandios
 Sc	NCMS	escandio
-s. d.	Abreviatura	s. d.		s
 Sdad.	Abreviatura	sociedad
-sdade.	Abreviatura	sdade.		s
-sdade. ltda.	Abreviatura	sdade. ltda.		s
 Sdades.	Abreviatura	sociedades
 Sdades.	NCFP	sociedades
 Sdad.	NCFS	sociedad
-S. D. M.	Abreviatura	S. D. M.		s
 S. D. M.	Abreviatura	Su Divina Majestad
 Se	Abreviatura	selenio
 Se	Abreviatura	selenios
-s. e.	Abreviatura	s. e.		s
-s/e	Abreviatura	s/e		s
-S. E.	Abreviatura	S. E.		s
 s. e.	Abreviatura	sin editorial
 s/e	Abreviatura	sin editorial
 SE	Abreviatura	sudeste
 S. E.	Abreviatura	Su Excelencia
-sec.	Abreviatura	sec.		s
-séc.	Abreviatura	séc.		s
-secret.	Abreviatura	secret.		s
-seg.	Abreviatura	seg.		s
-segs.	Abreviatura	seg.		s
 SEK	Abreviatura	Sverige Kr@one
 SEK	Abreviatura	Sverige Kr@ones
-S. en C.	Abreviatura	S. en C.		s
 Se	NCMP	selenios
 Se	NCMS	selenio
 SE	NCMS	sudeste
-s. e. o. o.	Abreviatura	s. e. o. o.		s
 Ser.&supm;&supa;	Abreviatura	serenísima
 Ser.&supm;&supa;	AFS	serenísima
 Ser.&supm;&supa;&sups;	Abreviatura	serenísimas
@@ -2591,7 +1919,6 @@ Ser.&supm;&supo;	Abreviatura	serenísimo
 Ser.&supm;&supo;	AMS	serenísimo
 Ser.&supm;&supo;&sups;	Abreviatura	serenísimos
 Ser.&supm;&supo;&sups;	AMP	serenísimos
-serv.	Abreviatura	serv.		s
 s. e. u. o.	Abreviatura	salvo error u omisión
 s. f.	Abreviatura	sin fecha
 s/f	Abreviatura	sin fecha
@@ -2619,41 +1946,26 @@ sigs.	Abreviatura	siguientes
 sigs.	AEP	siguiente
 sigs.	AFP	siguiente
 sigs.	AMP	siguiente
-símb.	Abreviatura	símb.		s
-sin.	Abreviatura	sin.		s
 Si	NCMP	silicio
 Si	NCMS	silicio
-sing.	Abreviatura	sing.		s
 s. l.	Abreviatura	sin lugar
 s. l.	Abreviatura	sin lugar de edición
 s/l	Abreviatura	sin lugar de edición
-s. l.	Abreviatura	s. l.		s
-s/l	Abreviatura	s/l		s
-S. L.	Abreviatura	S. L.		s
 S. L.	Abreviatura	sociedad limitada
-s. l. e. a.	Abreviatura	s. l. e. a.		s
-s. l. n. a.	Abreviatura	s. l. n. a.		s
 Sma.	Abreviatura	Santísima
-Sma.	Abreviatura	Sma.		s
 Sma.	AFS	Santísima
 Sm	Abreviatura	samario
 Sm	Abreviatura	samarios
-S. M.	Abreviatura	S. M.		s
 S. M.	Abreviatura	Su Majestad
-S. M. I.	Abreviatura	S. M. I.		s
 Sm	NCMP	samarios
 Sm	NCMS	samario
 Smo.	Abreviatura	Santísimo
-Smo.	Abreviatura	Smo.		s
 Smo.	AMS	Santísimo
 Sn	Abreviatura	estaño
 Sn	Abreviatura	estaños
 S. N.	Abreviatura	servicio nacional
 s. n.	Abreviatura	sin número
 s/n	Abreviatura	sin número
-s. n.	Abreviatura	s. n.		s
-s/n	Abreviatura	s/n		s
-S. N.	Abreviatura	S. N.		s
 S	NCMP	azufres
 s	NCMP	segundos
 S	NCMP	siemens
@@ -2666,8 +1978,6 @@ Sn	NCMP	estaños
 Sn	NCMS	estaño
 SO	Abreviatura	sudoeste
 Soc.	Abreviatura	sociedad
-soc.	Abreviatura	soc.		s
-Sociol.	Abreviatura	Sociol.		s
 Soc.	NCFS	sociedad
 Socs.	Abreviatura	sociedades
 Socs.	NCFP	sociedades
@@ -2676,25 +1986,19 @@ S.&ordf;	Abreviatura	Santa
 S.&ordf;	AFS	Santa
 SOS	Abreviatura	señal de socorro
 S. P.	Abreviatura	servicio público
-S. P.	Abreviatura	S. P.		s
 sq.	Abreviatura	et sequentes
 Sra.	Abreviatura	señora
-Sra.	Abreviatura	Sr.	Sr.	s
 sr	Abreviatura	estereorradián
 sr	Abreviatura	estereorradianes
 Sr	Abreviatura	estroncio
 Sr	Abreviatura	estroncios
 Sr.	Abreviatura	señor
-Sr.	Abreviatura	Sr.	Sr.	s
 Sra.	NCFS	señora
 Sras.	Abreviatura	señoras
-Sras.	Abreviatura	Sr.	Sr.	s
 Sras.	NCFP	señoras
 S. R. C.	Abreviatura	se ruega contestación
 Sres.	Abreviatura	señores
-Sres.	Abreviatura	Sr.	Sr.	s
 Sres.	NCMP	señores
-S. R. M.	Abreviatura	S. R. M.		s
 S. R. M.	Abreviatura	Su Real Majestad
 sr	NCMP	estereorradianes
 Sr	NCMP	estroncios
@@ -2703,55 +2007,36 @@ Sr	NCMS	estroncio
 Sr.	NCMS	señor
 Sr.&ordf;	Abreviatura	señora
 Sr.&ordf;	NCFS	señora
-Sr./Sra.	Abreviatura	Sr.	Sr.	s
 Sr.&supa;&sups;	Abreviatura	señoras
 Sr.&supa;&sups;	NCFP	señoras
 Srta.	Abreviatura	señorita
-Srta.	Abreviatura	Srta.		s
 Srta.	NCFS	señorita
 Srtas.	Abreviatura	señoritas
 Srtas.	NCFP	señoritas
-SS. AA.	Abreviatura	S. A.		s
 SS. AA.	Abreviatura	Sus Altezas
 s. s.	Abreviatura	seguro servidor
 ss.	Abreviatura	siglos
 ss.	Abreviatura	siguientes
-ss.	Abreviatura	s.		s
-s. s.	Abreviatura	s. s.		s
-S. S.	Abreviatura	S. S.		s
 S. S.	Abreviatura	Su Santidad
 ss.	AEP	siguientes
 ss.	AFP	siguientes
 ss.	AMP	siguientes
 ss/cs	Abreviatura	sus cuentas
 SSE	Abreviatura	sudsudeste
-SS. EE.	Abreviatura	S. E.		s
 SSE	NCMS	sudsudeste
-SS. MM.	Abreviatura	S. M.		s
 SS. MM.	Abreviatura	Sus Majestades
 ss.	NCMP	siglos
 SSO	Abreviatura	sudsudoeste
 SSO	NCMS	sudsudoeste
 s. s. s.	Abreviatura	su seguro servidor
 Sta.	Abreviatura	Santa
-Sta.	Abreviatura	Sto.		s
 Sta.	AFS	Santa
 Sto.	Abreviatura	Santo
-Sto.	Abreviatura	Sto.		s
 Sto.	AMS	Santo
-subst.	Abreviatura	subst.		s
-subt.	Abreviatura	subt.		s
-subx.	Abreviatura	subx.		s
-suf.	Abreviatura	suf.		s
-sum.	Abreviatura	sum.		s
-sup.	Abreviatura	sup.		s
-superl.	Abreviatura	superl.		s
-supl.	Abreviatura	supl.		s
 Sv	Abreviatura	sievert
 Sv	Abreviatura	sieverts
 s. v.	Abreviatura	sub voce
 s/v	Abreviatura	sub voce
-s. v.	Abreviatura	s. v.		s
 Sv	NCMP	sieverts
 Sv	NCMS	sievert
 Ta	Abreviatura	tantalio
@@ -2762,41 +2047,28 @@ T	Abreviatura	teslas
 t.	Abreviatura	tomo
 t	Abreviatura	tonelada
 t	Abreviatura	toneladas
-t.	Abreviatura	t.		s
-t/	Abreviatura	t/		s
-T.	Abreviatura	T.		s
 Ta	NCMP	tantalios
 Ta	NCMS	tantalio
 Tb	Abreviatura	terbio
 Tb	Abreviatura	terbios
 Tb	NCMP	terbios
 Tb	NCMS	terbio
-T. C.	Abreviatura	T. C.		s
 Tc	Abreviatura	tecnecio
 Tc	Abreviatura	tecnecios
 Tc	NCMP	tecnecios
 Tc	NCMS	tecnecio
 Te	Abreviatura	telurio
 Te	Abreviatura	telurios
-Tecnol.	Abreviatura	Tecnol.		s
 tel.	Abreviatura	teléfono
-tel.	Abreviatura	tel.		s
-Telecom.	Abreviatura	Telecom.		s
 teléf.	Abreviatura	teléfono
-teléf.	Abreviatura	teléf.		s
 teléf.	NCMS	teléfono
 teléfs.	Abreviatura	teléfonos
 teléfs.	NCMP	teléfonos
-telfno.	Abreviatura	telfno.		s
 tel.	NCMS	teléfono
 tels.	Abreviatura	teléfonos
 tels.	NCMP	teléfonos
 Te	NCMP	telurios
 Te	NCMS	telurio
-Teol.	Abreviatura	Teol.		s
-test.	Abreviatura	test.		s
-testam.	Abreviatura	testam.		s
-testem.	Abreviatura	testem.		s
 test.&ordm;	Abreviatura	testigo
 test.&ordm;	NCES	testigo
 test.&ordm;	NCFS	testigo
@@ -2806,7 +2078,6 @@ test.&supo;&sups;	NCEP	testigos
 test.&supo;&sups;	NCFP	testigos
 test.&supo;&sups;	NCMP	testigos
 tfno.	Abreviatura	teléfono
-tfno.	Abreviatura	tfno.		s
 tfno.	NCMS	teléfono
 tfnos.	Abreviatura	teléfonos
 tfnos.	NCMP	teléfonos
@@ -2818,11 +2089,8 @@ Ti	Abreviatura	titanio
 Ti	Abreviatura	titanios
 Ti	NCMP	titanios
 Ti	NCMS	titanio
-tip.	Abreviatura	tip.		s
-tít.	Abreviatura	tít.		s
 tít.	Abreviatura	título
 tít.	NCMS	título
-tít. orix.	Abreviatura	tít. orix.		s
 títs.	Abreviatura	títulos
 títs.	NCMP	títulos
 Tl	Abreviatura	talio
@@ -2846,25 +2114,17 @@ TNT	Abreviatura	trinitrotolueno
 TNT	Abreviatura	trinitrotoluenos
 TNT	NCMP	trinitrotoluenos
 TNT	NCMS	trinitrotolueno
-Topog.	Abreviatura	Topog.		s
-trad.	Abreviatura	trad.		s
 trad.	Abreviatura	traducción
 trad.	NCFS	traducción
 trads.	Abreviatura	traducciones
 trads.	NCFP	traducciones
-transf.	Abreviatura	transf.		s
-trat.	Abreviatura	trat.		s
-trav.	Abreviatura	trav.		s
 Ts.	Abreviatura	taras
 ts.	Abreviatura	tomos
-T. S.	Abreviatura	T. S.		s
 Ts.	NCFP	taras
 ts.	NCMP	tomos
 TT.	Abreviatura	taras
 tt.	Abreviatura	tomos
 Tte.	Abreviatura	teniente
-tte.	Abreviatura	tte.		s
-tte. cor.	Abreviatura	tte. cor.		s
 Tte.	NCES	teniente
 Tte.	NCFS	teniente
 Tte.	NCMS	teniente
@@ -2876,7 +2136,6 @@ TT.	NCFP	taras
 tt.	NCMP	tomos
 TV	Abreviatura	televisión
 TV	Abreviatura	televisiones
-tv.	Abreviatura	tv.		s
 TV	NCFP	televisiones
 TV	NCFS	televisión
 UA	Abreviatura	unidades astronómicas
@@ -2884,7 +2143,6 @@ u	Abreviatura	unidad de masa atómica
 u	Abreviatura	unidades de masa atómica
 U	Abreviatura	uranio
 U	Abreviatura	uranios
-u.	Abreviatura	u.		s
 U.	Abreviatura	usted
 Ud.	Abreviatura	usted
 Ud.	PY4ESQ	usted
@@ -2894,23 +2152,19 @@ Uds.	Abreviatura	ustedes
 Uds.	PY4EPQ	ustedes
 Uds.	PY4FPQ	ustedes
 Uds.	PY4MPQ	ustedes
-últ.	Abreviatura	últ.		s
 U	NCMP	uranios
 U	NCMS	uranio
 Univ.	Abreviatura	universidad
-univ.	Abreviatura	univ.		s
 Univ.	NCFS	universidad
 Univs.	Abreviatura	universidades
 Univs.	NCFP	universidades
 U.	PY4ESQ	usted
 U.	PY4FSQ	usted
 U.	PY4MSQ	usted
-urb.	Abreviatura	urb.		s
 Us.	Abreviatura	ustedes
 Us.	PY4EPQ	ustedes
 Us.	PY4FPQ	ustedes
 Us.	PY4MPQ	ustedes
-UU. AA.	Abreviatura	UU. AA.		s
 UU.	Abreviatura	ustedes
 UU.	PY4EPQ	ustedes
 UU.	PY4FPQ	ustedes
@@ -2937,8 +2191,6 @@ UV	AIS	ultravioleta
 UV	AML	ultravioleta
 UV	AMP	ultravioleta
 UV	AMS	ultravioleta
-v. a.	Abreviatura	v. a.		s
-V. A.	Abreviatura	V. A.		s
 V. A.	Abreviatura	Vuestra Alteza
 V.	Abreviatura	usted
 V	Abreviatura	vanadio
@@ -2948,8 +2200,6 @@ v.	Abreviatura	verso
 v/	Abreviatura	visto
 V	Abreviatura	voltio
 V	Abreviatura	voltios
-v.	Abreviatura	v.		s
-v/	Abreviatura	v/		s
 Valmte.	Abreviatura	vicealmirante
 Valmte.	NCES	vicealmirante
 Valmte.	NCFS	vicealmirante
@@ -2958,17 +2208,12 @@ Valmtes.	Abreviatura	vicealmirantes
 Valmtes.	NCEP	vicealmirantes
 Valmtes.	NCFP	vicealmirantes
 Valmtes.	NCMP	vicealmirantes
-var.	Abreviatura	var.		s
-V. A. R.	Abreviatura	V. A. R.		s
 V. A. R.	Abreviatura	Vuestra Alteza Real
-V. B.	Abreviatura	V. B.		s
 Vda.	Abreviatura	viuda
 Vd.	Abreviatura	usted
 Vda.	NCFS	viuda
 Vdas.	Abreviatura	viudas
 Vdas.	NCFP	viudas
-Vde.	Abreviatura	Vde.		s
-Vdes.	Abreviatura	Vde.		s
 Vdo.	Abreviatura	viudo
 Vdo.	NCMS	viudo
 Vdos.	Abreviatura	viudos
@@ -2977,23 +2222,11 @@ Vd.	PY4ESQ	usted
 Vd.	PY4FSQ	usted
 Vd.	PY4MSQ	usted
 Vds.	Abreviatura	ustedes
-V. E.	Abreviatura	V. E.		s
 V. E.	Abreviatura	Vuestra Excelencia
-v. e pr.	Abreviatura	v. e pr.		s
-V. e Pr.	Abreviatura	V. e Pr.		s
-vers.	Abreviatura	vers.		s
-Veter.	Abreviatura	Veter.		s
 v. g.	Abreviatura	verbigracia
-v. g.	Abreviatura	v. g.		s
 v. gr.	Abreviatura	verbigracia
-v. gr.	Abreviatura	v. gr.		s
 V. I.	Abreviatura	Usía Ilustrísima
-v. i.	Abreviatura	v. i.		s
-V. I.	Abreviatura	V. I.		s
 vid.	Abreviatura	vide
-vid.	Abreviatura	vid.		s
-Vitic.	Abreviatura	Vitic.		s
-V. M.	Abreviatura	V. M.		s
 V. M.	Abreviatura	Vuestra Majestad
 V	NCMP	vanadios
 V	NCMP	voltios
@@ -3001,18 +2234,11 @@ V	NCMS	vanadio
 v.	NCMS	verso
 V	NCMS	voltio
 V. O.	Abreviatura	versión original
-v. o.	Abreviatura	v. o.		s
-V. O.	Abreviatura	V. O.		s
-voc.	Abreviatura	voc.		s
-vol.	Abreviatura	vol.		s
 vol.	Abreviatura	volumen
 vol.	NCMS	volumen
 vols.	Abreviatura	volúmenes
 vols.	NCMP	volúmenes
 V.&ordm; B.&ordm;	Abreviatura	visto bueno
-v. o. s.	Abreviatura	v. o. s.		s
-V. O. S.	Abreviatura	V. O. S.		s
-v. p.	Abreviatura	v. p.		s
 V. P.	Abreviatura	Vuestra Paternidad
 V.	PY4ESQ	usted
 V.	PY4FSQ	usted
@@ -3029,18 +2255,13 @@ vros.	DS5MP	vuestros
 Vs.	Abreviatura	ustedes
 vs.	Abreviatura	versos
 v/s	Abreviatura	vistos
-v. s.	Abreviatura	v. s.		s
-vs.	Abreviatura	vs.		s
-V. S.	Abreviatura	V. S.		s
 V. S.	Abreviatura	Vuestra Señoría
-V. S. I.	Abreviatura	V. S. I.		s
 V. S. I.	Abreviatura	Vuestra Señoría Ilustrísima
 vs.	NCMP	versos
 Vs.	PY4EPQ	ustedes
 Vs.	PY4FPQ	ustedes
 Vs.	PY4MPQ	ustedes
 vta.	Abreviatura	vuelta
-v. t.	Abreviatura	v. t.		s
 vtas.	Abreviatura	vueltas
 vtas.	VPFP	vueltas
 vta.	VPFS	vuelta
@@ -3050,14 +2271,9 @@ vtos.	VPMS	vueltos
 vto.	VPAS	vuelto
 vto.	VPMS	vuelto
 vto.	VPNS	vuelto
-vulg.	Abreviatura	vulg.		s
 VV. AA.	Abreviatura	varios autores
-VV. AA.	Abreviatura	V. A.		s
-VV. AA.	Abreviatura	VV. AA.		s
 VV.	Abreviatura	ustedes
 vv.	Abreviatura	versos
-VV. EE.	Abreviatura	V. E.		s
-VV. MM.	Abreviatura	V. M.		s
 VV.	PY4EPQ	ustedes
 VV.	PY4FPQ	ustedes
 VV.	PY4MPQ	ustedes
@@ -3070,33 +2286,16 @@ Wb	Abreviatura	webers
 Wb	NCMP	webers
 Wb	NCMS	weber
 W. C.	Abreviatura	water closet
-W. C.	Abreviatura	W. C.		s
 W	NCMP	vatios
 W	NCMP	wolframios
 W	NCMS	vatio
 W	NCMS	wolframio
 www	Abreviatura	world wide web
-x.	Abreviatura	x.		s
-x/	Abreviatura	x/		s
-X. C.	Abreviatura	X. C.		s
 Xe	Abreviatura	xenón
 Xe	Abreviatura	xenones
-Xen.	Abreviatura	Xen.		s
 Xe	NCMP	xenones
 Xe	NCMS	xenón
-Xeogr.	Abreviatura	Xeogr.		s
-Xeol.	Abreviatura	Xeol.		s
-Xeom.	Abreviatura	Xeom.		s
-Xeomorf.	Abreviatura	Xeomorf.		s
-xer.	Abreviatura	xer.		s
-xerm.	Abreviatura	xerm.		s
-x. p.	Abreviatura	x. p.		s
-x/p	Abreviatura	x/p		s
 Xto.	Abreviatura	Cristo
-xud.	Abreviatura	xud.		s
-xur.	Abreviatura	xur.		s
-Xurisp.	Abreviatura	Xurisp.		s
-XX. AA.	Abreviatura	XX. AA.		s
 Y	Abreviatura	itrio
 Y	Abreviatura	itrios
 Yb	Abreviatura	iterbio
@@ -3113,7 +2312,6 @@ Zn	Abreviatura	cinc
 Zn	Abreviatura	cincs
 Zn	NCMP	cincs
 Zn	NCMS	cinc
-Zool.	Abreviatura	Zool.		s
 Zr	Abreviatura	circonio
 Zr	Abreviatura	circonios
 Zr	NCMP	circonios

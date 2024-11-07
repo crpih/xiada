@@ -44,9 +44,6 @@ CIFP	NPMS	Centro Integrado de Formación Profesional
 CIG	NPFS	Confederación Intersindical Galega
 CNMV	NPFS	Comisión Nacional del Mercado de Valores
 CO2	NCMS	dióxido de carbono
-CO2	Sigla	CO2		n
-C. O. 2.	Sigla	C. O. 2.		n
-C.O.2.	Sigla	C.O.2.		n
 CONCACAF	NPFS	Confederation of North, Central American and Caribbean Association Football
 COU	NPEL	Curso de Orientación Universitaria
 COU	NPMS	Curso de Orientación Universitaria
