@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-require "socket"
 require "optparse"
 require "rexml"
 require "csv"
@@ -9,16 +8,15 @@ require_relative "database_wrapper.rb"
 require_relative "./proper_nouns"
 
 class XiadaTagger
-  def initialize(input, output, training_db_file, options)
+  def initialize(input, output, options)
     @input = input
     @output = output
     @options = options
     @input_file = nil
     @directory = nil
-    @training_db_file = training_db_file
     @port = nil
     @xml_values = {}
-    @dw = DatabaseWrapper.new(@training_db_file)
+    @dw = DatabaseWrapper.new("training/databases/#{ENV['XIADA_PROFILE']}/training_#{ENV['XIADA_DATABASE']}.db")
     load_acronyms_abbreviations_enclitics
     @proper_noun_processor = ProperNouns.new(
       ProperNouns.parse_literals_file("training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_propios.txt"),
@@ -47,26 +45,6 @@ class XiadaTagger
   end
 
   private
-
-  def print_enclitics_hash(enclitics_hash)
-    enclitics_hash.each do |key, values_array|
-      @output.puts "#{key}"
-      values_array.each do |component|
-        component.each_index do |index|
-          form = component[index] if index == 0
-          @output.puts "\t#{form}"
-          unless index == 0
-            tags_lemmas = component[index]
-            tags_lemmas.each do |tag_lemma|
-              tag = tag_lemma[0]
-              lemma = tag_lemma[1]
-              @output.puts "\t\t(#{tag},#{lemma})"
-            end
-          end # from unless index == 0
-        end # from component.each_index
-      end # from values_array.each
-    end # from enclitics_hash.each
-  end
 
   def process_line(line, dw, acronyms_hash, abbreviations_hash, enclitics_hash, proper_nouns_processor)
     STDERR.puts "Creating sentence..."
@@ -109,38 +87,12 @@ if $PROGRAM_NAME == __FILE__
   def parse_args
     options = {}
     opts = OptionParser.new
-    opts.banner = "Usage: ruby xiada_tagger.rb [-x xml_values_file] [-v] [-p] [-t] [-f <input_file>] <training_db_file>"
-    opts.banner << "\n       ruby xiada_tagger.rb [-x xml_values_file] [-v] [-p] [-t] -d <directory>  <training_db_file>"
-    opts.banner << "\n       ruby xiada_tagger.rb -s <port> <training_db_file>"
+    opts.banner = "Usage: ruby xiada_tagger.rb [-f <input_file>] <training_db_file>"
     opts.banner << "\n       ruby xiada_tagger.rb -h"
     opts.banner << "\n\n"
 
-    opts.on("-v", "--valid", "Only valid tags are included on output") do |v|
-      options[:valid] = true
-    end
-
     opts.on("-f", "--file INPUTFILE", "Input is obtained from <input_file> and not from STDIN") do |f|
       options[:file] = f
-    end
-
-    opts.on("-d", "--directory DIRECTORY", "All xml files from directory are processed and the output is written to corresponding .out files") do |d|
-      options[:directory] = d
-    end
-
-    opts.on("-s", "--socket PORT_NUMBER", "Input is obtained from socket and output is sended to socket also") do |s|
-      options[:socket] = s
-    end
-
-    opts.on("-r", "--remove_join", "Disable modules related to joining units (proper nouns and idioms) and tagging at all") do |r|
-      options[:remove_join] = true
-    end
-
-    opts.on("-p", "--force_proper_nouns", "Force proper noun detection when uppercase") do |fp|
-      options[:force_proper_nouns] = true
-    end
-
-    opts.on("-t", "--train_proper_nouns", "Train proper nouns to try to identify proper nouns in sentence start position") do |t|
-      options[:trained_proper_nouns] = true
     end
 
     opts.on("-h", "--help", "Usage information") do |h|
@@ -155,20 +107,11 @@ if $PROGRAM_NAME == __FILE__
       exit(-1)
     end
 
-    if options[:help] or ARGV.size != 1
-      puts opts
-      exit(-1)
-    end
-
-    unless options[:file] or (options[:directory] and options[:xml]) or options[:socket] or options.size == 0
-      puts opts
-      exit(-1)
-    end
     options
   end
 
   begin
-    tagger = XiadaTagger.new(STDIN, STDOUT, ARGV[0], parse_args)
+    tagger = XiadaTagger.new(STDIN, STDOUT, parse_args)
     tagger.run
     tagger.finalize
   rescue => e

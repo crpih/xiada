@@ -15,5 +15,10 @@ COPY Gemfile.lock /myapp/Gemfile.lock
 RUN --mount=type=ssh bundle install
 
 COPY . /myapp
+
+RUN cd training/bin && \
+    make galician_xiada_escrita galician_xiada_oral spanish_eslora && \
+    cd ../..
+
 EXPOSE 4000
 CMD ruby running/bin/server.rb -o 0.0.0.0 -p 4000 2>&1

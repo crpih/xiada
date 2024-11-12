@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger:latest .

@@ -130,7 +130,7 @@ CORPUS.each do |corpus|
     input = Tempfile.new
     build_input_document!(test_sentences, input)
 
-    result_document = `XIADA_PROFILE=#{corpus} ruby running/bin/xiada_tagger.rb -x running/#{corpus}/xml_values.txt -t -v -f #{input.path} test/precision/databases/#{corpus}.db 2> /dev/null`
+    result_document = `XIADA_PROFILE=#{corpus} ruby running/bin/xiada_tagger.rb -f #{input.path} test/precision/databases/#{corpus}.db 2> /dev/null`
     result_sentences = parse_output_document(result_document)
     File.write(t.name, build_sentences(result_sentences))
   ensure
