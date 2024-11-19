@@ -35,27 +35,23 @@ end
 describe 'XiadaTagger' do
   describe 'galician_xiada' do
     ENV['XIADA_PROFILE'] = 'galician_xiada'
+    ENV['XIADA_DATABASE'] = 'galician_xiada_escrita'
     require_relative '../../../running/bin/xiada_tagger'
 
     input = StringIO.new
     output = StringIO.new
-    tagger = XiadaTagger.new(input, output, "training/databases/galician_xiada/training_galician_xiada_escrita.db", {
-      trained_proper_nouns: true,
-      valid: true,
-    })
+    tagger = XiadaTagger.new(input, output, {})
     test_snapshots('training_galician_xiada_escrita', input, output, tagger)
   end
 
   describe 'spanish_eslora' do
     ENV['XIADA_PROFILE'] = 'spanish_eslora'
+    ENV['XIADA_DATABASE'] = 'spanish_eslora'
     require_relative '../../../running/bin/xiada_tagger'
 
     input = StringIO.new
     output = StringIO.new
-    tagger = XiadaTagger.new(input, output, "training/databases/spanish_eslora/training_spanish_eslora.db", {
-      trained_proper_nouns: true,
-      valid: true,
-    })
+    tagger = XiadaTagger.new(input, output, {})
     test_snapshots('training_spanish_eslora', input, output, tagger)
   end
 end
