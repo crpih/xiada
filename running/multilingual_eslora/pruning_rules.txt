@@ -18,7 +18,7 @@ vamos,I,_,_,x	a,X,_,_	_,NPEL,_,_
 
 no|No,PY3MSA,o,no,x
 na|Na,PY3FSA,o,na,x
-nos|Nos,PY3MPA,o,nos,x
+nos|Nos,PY3MPW,o,nos,x
 nas|Nas,PY3FPA,o,nas,x
 
 # (2) ca: se antes está un adverbio comparador (máis, menos) ou vai

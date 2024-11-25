@@ -926,7 +926,7 @@ class EncliticsProcessor
     enclitic_tags_array.each_index do |index_aux|
     enclitic_tag = enclitic_tags_array[index_aux]
     enclitic_lemma = enclitic_lemmas_array[index_aux]
-      if enclitic_tag =~ /PY3MPA/
+      if enclitic_tag =~ /PY3MPW/
       # tag removing
       else
         new_enclitic_tags_array << enclitic_tag
@@ -1045,7 +1045,7 @@ class EncliticsProcessor
     enclitic_tags_array.each_index do |index_aux|
     enclitic_tag = enclitic_tags_array[index_aux]
     enclitic_lemma = enclitic_lemmas_array[index_aux]
-      if enclitic_tag =~ /PY3MPA/
+      if enclitic_tag =~ /PY3MPW/
       # tag removing
       else
         new_enclitic_tags_array << enclitic_tag

@@ -30,8 +30,8 @@ end
 if (window[0][0] =~ /^(na|Na)$/) and (window[0][1] =~ /^(PY3FSA)$/) and (match_some_lemma(window[0][2],"o")) and (window[0][3] =~ /^(na)$/)
 return 1
 end
-# RULE: nos|Nos,PY3MPA,o,nos,x
-if (window[0][0] =~ /^(nos|Nos)$/) and (window[0][1] =~ /^(PY3MPA)$/) and (match_some_lemma(window[0][2],"o")) and (window[0][3] =~ /^(nos)$/)
+# RULE: nos|Nos,PY3MPW,o,nos,x
+if (window[0][0] =~ /^(nos|Nos)$/) and (window[0][1] =~ /^(PY3MPW)$/) and (match_some_lemma(window[0][2],"o")) and (window[0][3] =~ /^(nos)$/)
 return 1
 end
 # RULE: nas|Nas,PY3FPA,o,nas,x

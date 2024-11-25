@@ -266,29 +266,9 @@ class EncliticsProcessor
   # it returns the entries in enclitics_hash to be used to process each "portion" of
   # enclitic_part
   def split_elements(enclitic_part)
-    #puts "split_element enclitic_part:#{enclitic_part}"
-    result = Array.new
-    start_index = 0
-    start_index_aux = 0
-    while (start_index < enclitic_part.length)
-      enclitic = nil
-      substr = nil
-      #puts "start_index:#{start_index}"
-      (start_index..enclitic_part.length - 1).each do |index|
-        #puts "index:#{index}"
-        substr = enclitic_part[start_index, index - start_index + 1]
-        #puts "substr:#{substr}"
-        unless @enclitics_hash[substr] == nil
-          enclitic = substr
-          start_index_aux = index + 1
-          #puts "selected_index: #{index} start_index_aux:#{start_index_aux}"
-        end
-      end
-      #puts "adding enclitic: #{enclitic}"
-      result << enclitic
-      start_index = start_index_aux
-    end
-    return result
+    (0...enclitic_part.length)
+      .map { |i| enclitic_part[0, i + 1] }
+      .filter { |p| @enclitics_hash.key?(p) }
   end
 
   # Function which splits all enclitics components of a sequence

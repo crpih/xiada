@@ -214,7 +214,12 @@ cabalos de mar	NCMP	cabalo de mar	cabalo de mar	s
 cabalos de vapor	NCMP	cabalo de vapor	cabalo de vapor	s
 cabalos do demo	NCMP	cabalo do demo	cabalo do demo	s
 cable USB	NCMS	cable USB	cable USB	s
+cada cal	PNES	cada cal	cada cal	s
+cada cal	PNFS	cada cal	cada cal	s
+cada cal	PNMS	cada cal	cada cal	s
 cada cual	PNMS	cada cual
+cada quen	PNFS	cada quen	cadaquén	s
+cada quen	PNMS	cada quen	cadaquén	s
 cada unha	PNFS	cada un	cada un	s
 cada un	PNMS	cada un	cada un	s
 cante hondo	NCMS	cante hondo	cante hondo	n
@@ -733,22 +738,46 @@ top models	NCMP	top model	top model	n
 totum revolutum	NCMS	totum revolutum	tótum revolútum	s
 tótum revolútum	NCMS	tótum revolútum	tótum revolútum	s
 trending topic	NCMS	trending topic	trending topic	n
+un algo	PNMS	un algo	un algo	s
+un alguiño	PNMS	un algo	un algo	s
 unas cuantas	DNFP	unos cuantos
 unas cuantas	PNFP	unos cuantos
 unha canta	DNFS	un canto	un canto	s
 unha canta	PNFS	un canto	un canto	s
 unha pouca	DQFS	un pouco	un pouco	s
 unha pouca	PQFS	un pouco	un pouco	s
+unha pouquecha	DQFS	un pouco	un pouco	s
+unha pouquecha	PQFS	un pouco	un pouco	s
+unha pouquechiña	DQFS	un pouco	un pouco	s
+unha pouquechiña	PQFS	un pouco	un pouco	s
+unha pouquerrecha	DQFS	un pouco	un pouco	s
+unha pouquerrecha	PQFS	un pouco	un pouco	s
+unha pouquerrechiña	DQFS	un pouco	un pouco	s
+unha pouquerrechiña	PQFS	un pouco	un pouco	s
+unha pouquiña	DQFS	un pouco	un pouco	s
+unha pouquiña	PQFS	un pouco	un pouco	s
 unhas cantas	DNFP	un canto	un canto	s
 unhas cantas	PNFP	un canto	un canto	s
 unhas poucas	DQFP	un pouco	un pouco	s
 unhas poucas	PQFP	un pouco	un pouco	s
+unhas pouquechas	DQFP	un pouco	un pouco	s
+unhas pouquechas	PQFP	un pouco	un pouco	s
+unhas pouquechiñas	DQFP	un pouco	un pouco	s
+unhas pouquechiñas	PQFP	un pouco	un pouco	s
+unhas pouquerrechas	DQFP	un pouco	un pouco	s
+unhas pouquerrechas	PQFP	un pouco	un pouco	s
+unhas pouquerrechiñas	DQFP	un pouco	un pouco	s
+unhas pouquerrechiñas	PQFP	un pouco	un pouco	s
+unhas pouquiñas	DQFP	un pouco	un pouco	s
+unhas pouquiñas	PQFP	un pouco	un pouco	s
 unidade de coidados intensivos	NCMS	unidade de coidados intensivos	unidade de coidados intensivos	s
 unidade de vixilancia intensiva	NCFS	unidade de vixilancia intensiva	unidade de vixilancia intensiva	s
 unidade didáctica	NCFS	unidade didáctica	unidade didáctica	s
 unidades de coidados intensivos	NCMP	unidade de coidados intensivos	unidade de coidados intensivos	s
 unidades de vixilancia intensiva	NCFP	unidade de vixilancia intensiva	unidade de vixilancia intensiva	s
 unidades didáctica	NCFP	unidade didáctica	unidade didáctica	s
+un nada	PQMS	un nada	un nada	s
+un nadiña	PQMS	un nada	un nada	s
 unos cuantos	DNMP	unos cuantos
 unos cuantos	PNMP	unos cuantos
 un poco	PQNS	un poco
@@ -769,8 +798,46 @@ un pouco	DQNS	un pouco	un pouco	s
 un pouco	PQAS	un pouco	un pouco	s
 un pouco	PQMS	un pouco	un pouco	s
 un pouco	PQNS	un pouco	un pouco	s
+un pouquechiño	DQMS	un pouco	un pouco	s
+un pouquechiño	PQAS	un pouco	un pouco	s
+un pouquechiño	PQMS	un pouco	un pouco	s
+un pouquechiño	PQNS	un pouco	un pouco	s
+un pouquecho	DQAS	un pouco	un pouco	s
+un pouquecho	DQMS	un pouco	un pouco	s
+un pouquecho	DQNS	un pouco	un pouco	s
+un pouquecho	PQAS	un pouco	un pouco	s
+un pouquecho	PQMS	un pouco	un pouco	s
+un pouquecho	PQNS	un pouco	un pouco	s
+un pouquerrechiño	DQAS	un pouco	un pouco	s
+un pouquerrechiño	DQMS	un pouco	un pouco	s
+un pouquerrechiño	DQNS	un pouco	un pouco	s
+un pouquerrechiño	PQAS	un pouco	un pouco	s
+un pouquerrechiño	PQMS	un pouco	un pouco	s
+un pouquerrechiño	PQNS	un pouco	un pouco	s
+un pouquerrecho	DQAS	un pouco	un pouco	s
+un pouquerrecho	DQMS	un pouco	un pouco	s
+un pouquerrecho	DQNS	un pouco	un pouco	s
+un pouquerrecho	PQAS	un pouco	un pouco	s
+un pouquerrecho	PQMS	un pouco	un pouco	s
+un pouquerrecho	PQNS	un pouco	un pouco	s
+un pouquiño	DQAS	un pouco	un pouco	s
+un pouquiño	DQMS	un pouco	un pouco	s
+un pouquiño	DQNS	un pouco	un pouco	s
+un pouquiño	PQAS	un pouco	un pouco	s
+un pouquiño	PQMS	un pouco	un pouco	s
+un pouquiño	PQNS	un pouco	un pouco	s
 uns poucos	DQMP	un pouco	un pouco	s
 uns poucos	PQMP	un pouco	un pouco	s
+uns pouquechiños	DQMP	un pouco	un pouco	s
+uns pouquechiños	PQMP	un pouco	un pouco	s
+uns pouquechos	DQMP	un pouco	un pouco	s
+uns pouquechos	PQMP	un pouco	un pouco	s
+uns pouquerrechiños	DQMP	un pouco	un pouco	s
+uns pouquerrechiños	PQMP	un pouco	un pouco	s
+uns pouquerrechos	DQMP	un pouco	un pouco	s
+uns pouquerrechos	PQMP	un pouco	un pouco	s
+uns pouquiños	DQMP	un pouco	un pouco	s
+uns pouquiños	PQMP	un pouco	un pouco	s
 uve doble	NCFS	uve doble
 va de retro	I	va de retro	vade retro	n
 vade retro	I	vade retro	vade retro	s

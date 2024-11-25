@@ -1,17 +1,25 @@
 á	a	a	a	X	/	a	o	o	DAFS
 á/ao	a	a	a	X
 al	a	a	a	X	/	el	el	el	DAMS
-ámbalas	las	o	o	DAFP
-ámbolos	los	o	o	DAMP
+ámbalas	ambas	ambos	ambos	DNFP	/	las	o	o	DAFP
+ámbolos	ambos	ambos	ambos	DNMP	/	los	o	o	DAMP
 ao/á	a	a	a	X
 á/ó	a	a	a	X
 ao	a	a	a	X	/	o	o	o	DAMS
 aos	a	a	a	X	/	os	o	o	DAMP
 aos/ás	a	a	a	X
 aqueloutra	aquela	aquel	aquel	DDFS
+aqueloutra	aquela	aquel	aquel	DDFS	/	outra	outro	outro	DNFS
+aqueloutra	aquela	aquel	aquel	DDFS	/	outra	outro	outro	PNFS
 aqueloutras	aquelas	aquel	aquel	DDFP
+aqueloutras	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	DNFP
+aqueloutras	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	PNFP
 aqueloutro	aquel	aquel	aquel	DDMS
+aqueloutro	aquel	aquel	aquel	DDMS	/	outro	outro	outro	DNMS
+aqueloutro	aquel	aquel	aquel	DDMS	/	outro	outro	outro	PNMS
 aqueloutros	aqueles	aquel	aquel	DDMP
+aqueloutros	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	DNMP
+aqueloutros	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	PNMP
 ás	a	a	a	X	/	as	o	o	DAFP
 ás/aos	a	a	a	X
 ás/ós	a	a	a	X
@@ -20,10 +28,18 @@ ca	con	con	con	X	/	a	o	o	DAFS
 cás	as	o	o	DAFP
 cas	con	con	con	X	/	as	o	o	DAFP
 c@	con	con	con	X
-cha	
-chas	
-cho	
-chos	
+cha	che	che	che	PY2ESD	/	a	o	o	PY3FSW
+cha	che	che	che	PY2FSD	/	a	o	o	PY3FSW
+cha	che	che	che	PY2MSD	/	a	o	o	PY3FSW
+chas	che	che	che	PY2ESD	/	as	o	o	PY3FPW
+chas	che	che	che	PY2FSD	/	as	o	o	PY3FPW
+chas	che	che	che	PY2MSD	/	as	o	o	PY3FPW
+cho	che	che	che	PY2ESD	/	o	o	o	PY3ASD
+cho	che	che	che	PY2FSD	/	o	o	o	PY3ASD
+cho	che	che	che	PY2MSD	/	o	o	o	PY3ASD
+chos	che	che	che	PY2ESD	/	os	o	o	PY3MPW
+chos	che	che	che	PY2FSD	/	os	o	o	PY3MPW
+chos	che	che	che	PY2MSD	/	os	o	o	PY3MPW
 coa/co	con	con	con	X
 coa	con	con	con	X	/	a	o	o	DAFS
 coaquela	con	con	con	X	/	aquela	aquel	aquel	DDFS
@@ -52,42 +68,48 @@ cos/coas	con	con	con	X
 cos	con	con	con	X	/	os	o	o	DAMP
 cós	os	o	o	DAMP
 c@s	con	con	con	X
-cun	con	con	con	X
 cun	con	con	con	X	/	un	un	un	DCMS
 cun	con	con	con	X	/	un	un	un	DIMS
 cun	con	con	con	X	/	un	un	un	PCMS
-cunha	con	con	con	X
+cun	con	con	con	X	/	un	un	un	PNMS
 cunha	con	con	con	X	/	unha	un	un	DCFS
 cunha	con	con	con	X	/	unha	un	un	DIFS
 cunha	con	con	con	X	/	unha	un	un	PCFS
-cunhas	con	con	con	X
+cunha	con	con	con	X	/	unha	un	un	PNFS
 cunhas	con	con	con	X	/	unhas	un	un	DIFP
+cunhas	con	con	con	X	/	unhas	un	un	PNFP
 cunhos	con	con	con	X	/	unhos	un	un	DIMP
-cuns	con	con	con	X
 cuns	con	con	con	X	/	uns	un	un	DIMP
+cuns	con	con	con	X	/	uns	un	un	PNMP
 daca	dá	dar	dar	VMP2S
 da	de	de	de	X	/	a	o	o	DAFS
 da/do	de	de	de	X
 dahí	de	de	de	X
 daí	de	de	de	X
 dalá	de	de	de	X
-dalghén	
-dalgho	
-dalghun	
-dalghún	
-dalghunha	
-dalghunhas	
-dalghuns	
-dalghúns	
-dalghures	
-dalgo	de	de	de	X
-dalguén	de	de	de	X
+dalghén	de	de	de	X
+dalgho	de	de	de	X
+dalghun	de	de	de	X
+dalghún	de	de	de	X
+dalghunha	de	de	de	X
+dalghunhas	de	de	de	X
+dalghuns	de	de	de	X
+dalghúns	de	de	de	X
+dalghures	de	de	de	X
+dalgo	de	de	de	X	/	algo	algo	algo	PNNS
+dalguén	de	de	de	X	/	alguén	alguén	alguén	PNES
+dalguén	de	de	de	X	/	alguén	alguén	alguén	PNFS
+dalguén	de	de	de	X	/	alguén	alguén	alguén	PNMS
 dalgun	de	de	de	X
-dalgún	de	de	de	X
-dalgunha	de	de	de	X
-dalgunhas	de	de	de	X
+dalgún	de	de	de	X	/	algún	algún	algún	DNMS
+dalgún	de	de	de	X	/	algún	algún	algún	PNMS
+dalgunha	de	de	de	X	/	algunha	algún	algún	DNFS
+dalgunha	de	de	de	X	/	algunha	algún	algún	PNFS
+dalgunhas	de	de	de	X	/	algunhas	algún	algún	DNFP
+dalgunhas	de	de	de	X	/	algunhas	algún	algún	PNFP
 dalguns	de	de	de	X
-dalgúns	de	de	de	X
+dalgúns	de	de	de	X	/	algúns	algún	algún	DNMP
+dalgúns	de	de	de	X	/	algúns	algún	algún	PNMP
 dalgures	de	de	de	X
 dalí	de	de	de	X
 daló	de	de	de	X
@@ -105,9 +127,17 @@ daqueles	de	de	de	X	/	aqueles	aquel	aquel	DDMP
 daqueles	de	de	de	X	/	aqueles	aquel	aquel	PDMP
 daquelo	de	de	de	X	/	aquelo	aquel	aquel	PDNS
 daqueloutra	de	de	de	X	/	aquela	aquel	aquel	DDFS
+daqueloutra	de	de	de	X	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	DNFS
+daqueloutra	de	de	de	X	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	PNFS
 daqueloutras	de	de	de	X	/	aquelas	aquel	aquel	DDFP
+daqueloutras	de	de	de	X	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	DNFP
+daqueloutras	de	de	de	X	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	PNFP
 daqueloutro	de	de	de	X	/	aquel	aquel	aquel	DDMS
+daqueloutro	de	de	de	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	DNMS
+daqueloutro	de	de	de	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	PNMS
 daqueloutros	de	de	de	X	/	aqueles	aquel	aquel	DDMP
+daqueloutros	de	de	de	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	DNMP
+daqueloutros	de	de	de	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	PNMP
 daquel@s	de	de	de	X
 daquelxs	de	de	de	X
 daquí	de	de	de	X
@@ -124,12 +154,12 @@ das	de	de	de	X	/	as	o	o	DAFP
 das/dos	de	de	de	X
 das/os	de	de	de	X
 d@	de	de	de	X
-dela	de	de	de	X
-delas	de	de	de	X
-del	de	de	de	X
+dela	de	de	de	X	/	ela	el	el	PY3FSQ
+delas	de	de	de	X	/	elas	el	el	PY3FPQ
 del	de	de	de	X	/	el	el	el	DAMS
-deles	de	de	de	X
-delo	de	de	de	X
+del	de	de	de	X	/	el	el	el	PY3MSQ
+deles	de	de	de	X	/	eles	el	el	PY3MPQ
+delo	de	de	de	X	/	elo	el	el	PY3NSQ
 del@s	de	de	de	X
 dendaquela	dende	dende	desde	X	/	aquela	aquel	aquel	DDFS
 dendaquela	dende	dende	desde	X	/	aquela	aquel	aquel	PDFS
@@ -148,9 +178,17 @@ deses	de	de	de	X	/	eses	ese	ese	DDMP
 deses	de	de	de	X	/	eses	ese	ese	PDMP
 deso	de	de	de	X	/	eso	ese	ese	PDNS
 desoutra	de	de	de	X	/	esa	ese	ese	DDFS
+desoutra	de	de	de	X	/	esa	ese	ese	DDFS	/	outra	outro	outro	DNFS
+desoutra	de	de	de	X	/	esa	ese	ese	DDFS	/	outra	outro	outro	PNFS
 desoutras	de	de	de	X	/	esas	ese	ese	DDFP
+desoutras	de	de	de	X	/	esas	ese	ese	DDFP	/	outras	outro	outro	DNFP
+desoutras	de	de	de	X	/	esas	ese	ese	DDFP	/	outras	outro	outro	PNFP
 desoutro	de	de	de	X	/	ese	ese	ese	DDMS
+desoutro	de	de	de	X	/	ese	ese	ese	DDMS	/	outro	outro	outro	DNMS
+desoutro	de	de	de	X	/	ese	ese	ese	DDMS	/	outro	outro	outro	PNMS
 desoutros	de	de	de	X	/	eses	ese	ese	DDMP
+desoutros	de	de	de	X	/	eses	ese	ese	DDMP	/	outros	outro	outro	DNMP
+desoutros	de	de	de	X	/	eses	ese	ese	DDMP	/	outros	outro	outro	PNMP
 des@s	de	de	de	X
 desta	de	de	de	X	/	esta	este	este	DDFS
 desta	de	de	de	X	/	esta	este	este	PDFS
@@ -167,14 +205,22 @@ destes	de	de	de	X	/	estes	este	este	DDMP
 destes	de	de	de	X	/	estes	este	este	PDMP
 desto	de	de	de	X	/	esto	este	este	PDNS
 destoutra	de	de	de	X	/	esta	este	este	DDFS
+destoutra	de	de	de	X	/	esta	este	este	DDFS	/	outra	outro	outro	DNFS
+destoutra	de	de	de	X	/	esta	este	este	DDFS	/	outra	outro	outro	PNFS
 destoutras	de	de	de	X	/	estas	este	este	DDFP
+destoutras	de	de	de	X	/	estas	este	este	DDFP	/	outras	outro	outro	DNFP
+destoutras	de	de	de	X	/	estas	este	este	DDFP	/	outras	outro	outro	PNFP
 destoutro	de	de	de	X	/	este	este	este	DDMS
+destoutro	de	de	de	X	/	este	este	este	DDMS	/	outro	outro	outro	DNMS
+destoutro	de	de	de	X	/	este	este	este	DDMS	/	outro	outro	outro	PNMS
 destoutros	de	de	de	X	/	estes	este	este	DDMP
+destoutros	de	de	de	X	/	estes	este	este	DDMP	/	outros	outro	outro	DNMP
+destoutros	de	de	de	X	/	estes	este	este	DDMP	/	outros	outro	outro	PNMP
 dest@s	de	de	de	X
 destxs	de	de	de	X
 desxs	de	de	de	X
-dil	de	de	de	X
-diles	de	de	de	X
+dil	de	de	de	X	/	il	il	el	PY3MSQ
+diles	de	de	de	X	/	iles	il	el	PY3MPQ
 disa	de	de	de	X	/	isa	ise	ese	DDFS
 disa	de	de	de	X	/	isa	ise	ese	PDFS
 disas	de	de	de	X	/	isas	ise	ese	DDFP
@@ -200,88 +246,150 @@ dos/as	de	de	de	X
 dos/das	de	de	de	X
 dos	de	de	de	X	/	os	o	o	DAMP
 doutra	de	de	de	X
+doutra	de	de	de	X	/	outra	outro	outro	DNFS
+doutra	de	de	de	X	/	outra	outro	outro	PNFS
 doutra/o	de	de	de	X
 doutras	de	de	de	X
+doutras	de	de	de	X	/	outras	outro	outro	DNFP
+doutras	de	de	de	X	/	outras	outro	outro	PNFP
 doutras/os	de	de	de	X
 doutr@	de	de	de	X
 doutro/a	de	de	de	X
 doutro	de	de	de	X
+doutro	de	de	de	X	/	outro	outro	outro	DNMS
+doutro	de	de	de	X	/	outro	outro	outro	PNMS
 doutros/as	de	de	de	X
 doutros	de	de	de	X
+doutros	de	de	de	X	/	outros	outro	outro	DNMP
+doutros	de	de	de	X	/	outros	outro	outro	PNMP
 doutr@s	de	de	de	X
 d@s	de	de	de	X
-dun	de	de	de	X
 dun	de	de	de	X	/	un	un	un	DCMS
 dun	de	de	de	X	/	un	un	un	DIMS
 dun	de	de	de	X	/	un	un	un	PCMS
-dunha	de	de	de	X
+dun	de	de	de	X	/	un	un	un	PNMS
 dunha	de	de	de	X	/	unha	un	un	DCFS
 dunha	de	de	de	X	/	unha	un	un	DIFS
 dunha	de	de	de	X	/	unha	un	un	PCFS
-dunhas	de	de	de	X
+dunha	de	de	de	X	/	unha	un	un	PNFS
 dunhas	de	de	de	X	/	unhas	un	un	DIFP
-dunhos	de	de	de	X
+dunhas	de	de	de	X	/	unhas	un	un	PNFP
 dunhos	de	de	de	X	/	unhos	un	un	DIMP
-duns	de	de	de	X
+dunhos	de	de	de	X	/	unhos	un	un	PNMP
 duns	de	de	de	X	/	uns	un	un	DIMP
+duns	de	de	de	X	/	uns	un	un	PNMP
 dxs	de	de	de	X
 el-rei	el	el	el	DAMS	/	rei	rei	rei	NCMS
 el-Rei	el	el	el	DAMS	/	Rei	rei	rei	NCMS
 El-Rei	El	el	el	DAMS	/	Rei	rei	rei	NCMS
-entrámbalas	entre	entre	entre	X	/	las	o	o	DAFP
-entrámbalas	las	o	o	DAFP
+entrámbalas	entrambas	entrambos	entrambos	DNFP	/	las	o	o	DAFP
+entrámbalas	entre	entre	entre	X	/	ambas	ambos	ambos	DNFP	/	las	o	o	DAFP
 entrambas	entre	entre	entre	X	/	ambas	ambos	ambos	DNFP
 entrambas	entre	entre	entre	X	/	ambas	ambos	ambos	PNFP
-entrámbolos	entre	entre	entre	X	/	los	o	o	DAMP
-entrámbolos	los	o	o	DAMP
+entrámbolos	entrambos	entrambos	entrambos	DNMP	/	los	o	o	DAMP
+entrámbolos	entre	entre	entre	X	/	ambos	ambos	ambos	DNMP	/	los	o	o	DAMP
 entrambos	entre	entre	entre	X	/	ambos	ambos	ambos	DNMP
 entrambos	entre	entre	entre	X	/	ambos	ambos	ambos	PNMP
 entroutra	entre	entre	entre	X
+entroutra	entre	entre	entre	X	/	outra	outro	outro	DNFS
+entroutra	entre	entre	entre	X	/	outra	outro	outro	PNFS
 entroutras	entre	entre	entre	X
+entroutras	entre	entre	entre	X	/	outras	outro	outro	DNFP
+entroutras	entre	entre	entre	X	/	outras	outro	outro	PNFP
 entroutro	entre	entre	entre	X
+entroutro	entre	entre	entre	X	/	outro	outro	outro	DNMS
+entroutro	entre	entre	entre	X	/	outro	outro	outro	PNMS
 entroutros	entre	entre	entre	X
+entroutros	entre	entre	entre	X	/	outros	outro	outro	DNMP
+entroutros	entre	entre	entre	X	/	outros	outro	outro	PNMP
 esoutra	esa	ese	ese	DDFS
+esoutra	esa	ese	ese	DDFS	/	outra	outro	outro	DNFS
+esoutra	esa	ese	ese	DDFS	/	outra	outro	outro	PNFS
 esoutras	esas	ese	ese	DDFP
+esoutras	esas	ese	ese	DDFP	/	outras	outro	outro	DNFP
+esoutras	esas	ese	ese	DDFP	/	outras	outro	outro	PNFP
 esoutro	ese	ese	ese	DDMS
+esoutro	ese	ese	ese	DDMS	/	outro	outro	outro	DNMS
+esoutro	ese	ese	ese	DDMS	/	outro	outro	outro	PNMS
 esoutros	eses	ese	ese	DDMP
+esoutros	eses	ese	ese	DDMP	/	outros	outro	outro	DNMP
+esoutros	eses	ese	ese	DDMP	/	outros	outro	outro	PNMP
 estoutra	esta	este	este	DDFS
+estoutra	esta	este	este	DDFS	/	outra	outro	outro	DNFS
+estoutra	esta	este	este	DDFS	/	outra	outro	outro	PNFS
 estoutras	estas	este	este	DDFP
+estoutras	estas	este	este	DDFP	/	outras	outro	outro	DNFP
+estoutras	estas	este	este	DDFP	/	outras	outro	outro	PNFP
 estoutro	este	este	este	DDMS
+estoutro	este	este	este	DDMS	/	outro	outro	outro	DNMS
+estoutro	este	este	este	DDMS	/	outro	outro	outro	PNMS
 estoutros	estes	este	este	DDMP
-lla	
-llas	
-llela	
-llelas	
-llelo	
-llelos	
-llo	
-llos	
-ma	
+estoutros	estes	este	este	DDMP	/	outros	outro	outro	DNMP
+estoutros	estes	este	este	DDMP	/	outros	outro	outro	PNMP
+lla	lle	lle	lle	PY3ESD	/	a	o	o	PY3FSW
+lla	lle	lle	lle	PY3FSD	/	a	o	o	PY3FSW
+lla	lle	lle	lle	PY3MSD	/	a	o	o	PY3FSW
+llas	lle	lle	lle	PY3ESD	/	as	o	o	PY3FPW
+llas	lle	lle	lle	PY3FSD	/	as	o	o	PY3FPW
+llas	lle	lle	lle	PY3MSD	/	as	o	o	PY3FPW
+llela	lles	lle	lle	PY3EPD	/	la	o	o	PY3FSW
+llela	lles	lle	lle	PY3FPD	/	la	o	o	PY3FSW
+llela	lles	lle	lle	PY3MPD	/	la	o	o	PY3FSW
+llelas	lles	lle	lle	PY3EPD	/	las	o	o	PY3FPW
+llelas	lles	lle	lle	PY3FPD	/	las	o	o	PY3FPW
+llelas	lles	lle	lle	PY3MPD	/	las	o	o	PY3FPW
+llelo	lles	lle	lle	PY3EPD	/	lo	o	o	PY3ASD
+llelo	lles	lle	lle	PY3FPD	/	lo	o	o	PY3ASD
+llelo	lles	lle	lle	PY3MPD	/	lo	o	o	PY3ASD
+llelos	lles	lle	lle	PY3EPD	/	los	o	o	PY3MPW
+llelos	lles	lle	lle	PY3FPD	/	los	o	o	PY3MPW
+llelos	lles	lle	lle	PY3MPD	/	los	o	o	PY3MPW
+llo	lle	lle	lle	PY3ESD	/	o	o	o	PY3ASD
+llo	lle	lle	lle	PY3FSD	/	o	o	o	PY3ASD
+llo	lle	lle	lle	PY3MSD	/	o	o	o	PY3ASD
+llos	lle	lle	lle	PY3ESD	/	os	o	o	PY3MPW
+llos	lle	lle	lle	PY3FSD	/	os	o	o	PY3MPW
+llos	lle	lle	lle	PY3MSD	/	os	o	o	PY3MPW
 maila	la	o	o	DAFS
 mailas	las	o	o	DAFP
 mailo	lo	o	o	DAMS
 mailos	los	o	o	DAMP
-mas	
-mo	
-mos	
+ma	me	me	me	PY1ESO	/	a	o	o	PY3FSW
+ma	me	me	me	PY1FSO	/	a	o	o	PY3FSW
+ma	me	me	me	PY1MSO	/	a	o	o	PY3FSW
+mas	me	me	me	PY1ESO	/	as	o	o	PY3FPW
+mas	me	me	me	PY1FSO	/	as	o	o	PY3FPW
+mas	me	me	me	PY1MSO	/	as	o	o	PY3FPW
+mo	me	me	me	PY1ESO	/	o	o	o	PY3ASD
+mo	me	me	me	PY1FSO	/	o	o	o	PY3ASD
+mo	me	me	me	PY1MSO	/	o	o	o	PY3ASD
+mos	me	me	me	PY1ESO	/	os	o	o	PY3MPW
+mos	me	me	me	PY1FSO	/	os	o	o	PY3MPW
+mos	me	me	me	PY1MSO	/	os	o	o	PY3MPW
 na	en	en	en	X	/	a	o	o	DAFS
-nalghén	
-nalgho	
-nalghun	
-nalghún	
-nalghunha	
-nalghunhas	
-nalghuns	
-nalghúns	
-nalghures	
-nalgo	en	en	en	X
-nalguén	en	en	en	X
+nalghén	en	en	en	X
+nalgho	en	en	en	X
+nalghun	en	en	en	X
+nalghún	en	en	en	X
+nalghunha	en	en	en	X
+nalghunhas	en	en	en	X
+nalghuns	en	en	en	X
+nalghúns	en	en	en	X
+nalghures	en	en	en	X
+nalgo	en	en	en	X	/	algo	algo	algo	PNNS
+nalguén	en	en	en	X	/	alguén	alguén	alguén	PNES
+nalguén	en	en	en	X	/	alguén	alguén	alguén	PNFS
+nalguén	en	en	en	X	/	alguén	alguén	alguén	PNMS
 nalgun	en	en	en	X
-nalgún	en	en	en	X
-nalgunha	en	en	en	X
-nalgunhas	en	en	en	X
+nalgún	en	en	en	X	/	algún	algún	algún	DNMS
+nalgún	en	en	en	X	/	algún	algún	algún	PNMS
+nalgunha	en	en	en	X	/	algunha	algún	algún	DNFS
+nalgunha	en	en	en	X	/	algunha	algún	algún	PNFS
+nalgunhas	en	en	en	X	/	algunhas	algún	algún	DNFP
+nalgunhas	en	en	en	X	/	algunhas	algún	algún	PNFP
 nalguns	en	en	en	X
-nalgúns	en	en	en	X
+nalgúns	en	en	en	X	/	algúns	algún	algún	DNMP
+nalgúns	en	en	en	X	/	algúns	algún	algún	PNMP
 nalgures	en	en	en	X
 na/no	en	en	en	X
 na/o	en	en	en	X
@@ -298,9 +406,17 @@ naqueles	en	en	en	X	/	aqueles	aquel	aquel	DDMP
 naqueles	en	en	en	X	/	aqueles	aquel	aquel	PDMP
 naquelo	en	en	en	X	/	aquelo	aquel	aquel	PDNS
 naqueloutra	en	en	en	X	/	aquela	aquel	aquel	DDFS
+naqueloutra	en	en	en	X	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	DNFS
+naqueloutra	en	en	en	X	/	aquela	aquel	aquel	DDFS	/	outra	outro	outro	PNFS
 naqueloutras	en	en	en	X	/	aquelas	aquel	aquel	DDFP
+naqueloutras	en	en	en	X	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	DNFP
+naqueloutras	en	en	en	X	/	aquelas	aquel	aquel	DDFP	/	outras	outro	outro	PNFP
 naqueloutro	en	en	en	X	/	aquel	aquel	aquel	DDMS
+naqueloutro	en	en	en	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	DNMS
+naqueloutro	en	en	en	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	PNMS
 naqueloutros	en	en	en	X	/	aqueles	aquel	aquel	DDMP
+naqueloutros	en	en	en	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	DNMP
+naqueloutros	en	en	en	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	PNMP
 naquel@s	en	en	en	X
 naquelxs	en	en	en	X
 naquila	en	en	en	X	/	aquila	aquil	aquel	DDFS
@@ -315,11 +431,11 @@ naquilo	en	en	en	X	/	aquilo	aquel	aquel	PDNS
 nas	en	en	en	X	/	as	o	o	DAFP
 nas/nos	en	en	en	X
 nas/os	en	en	en	X
-nela	en	en	en	X
-nelas	en	en	en	X
-nel	en	en	en	X
-neles	en	en	en	X
-nelo	en	en	en	X
+nela	en	en	en	X	/	ela	el	el	PY3FSQ
+nelas	en	en	en	X	/	elas	el	el	PY3FPQ
+nel	en	en	en	X	/	el	el	el	PY3MSQ
+neles	en	en	en	X	/	eles	el	el	PY3MPQ
+nelo	en	en	en	X	/	elo	el	el	PY3NSQ
 nel@s	en	en	en	X
 n@	en	en	en	X
 nesa/e	en	en	en	X
@@ -337,9 +453,17 @@ neses	en	en	en	X	/	eses	ese	ese	DDMP
 neses	en	en	en	X	/	eses	ese	ese	PDMP
 neso	en	en	en	X	/	eso	ese	ese	PDNS
 nesoutra	en	en	en	X	/	esa	ese	ese	DDFS
+nesoutra	en	en	en	X	/	esa	ese	ese	DDFS	/	outra	outro	outro	DNFS
+nesoutra	en	en	en	X	/	esa	ese	ese	DDFS	/	outra	outro	outro	PNFS
 nesoutras	en	en	en	X	/	esas	ese	ese	DDFP
+nesoutras	en	en	en	X	/	esas	ese	ese	DDFP	/	outras	outro	outro	DNFP
+nesoutras	en	en	en	X	/	esas	ese	ese	DDFP	/	outras	outro	outro	PNFP
 nesoutro	en	en	en	X	/	ese	ese	ese	DDMS
+nesoutro	en	en	en	X	/	ese	ese	ese	DDMS	/	outro	outro	outro	DNMS
+nesoutro	en	en	en	X	/	ese	ese	ese	DDMS	/	outro	outro	outro	PNMS
 nesoutros	en	en	en	X	/	eses	ese	ese	DDMP
+nesoutros	en	en	en	X	/	eses	ese	ese	DDMP	/	outros	outro	outro	DNMP
+nesoutros	en	en	en	X	/	eses	ese	ese	DDMP	/	outros	outro	outro	PNMP
 nes@s	en	en	en	X
 nesta/e	en	en	en	X
 nesta	en	en	en	X	/	esta	este	este	DDFS
@@ -356,14 +480,22 @@ nestes	en	en	en	X	/	estes	este	este	DDMP
 nestes	en	en	en	X	/	estes	este	este	PDMP
 nesto	en	en	en	X	/	esto	este	este	PDNS
 nestoutra	en	en	en	X	/	esta	este	este	DDFS
+nestoutra	en	en	en	X	/	esta	este	este	DDFS	/	outra	outro	outro	DNFS
+nestoutra	en	en	en	X	/	esta	este	este	DDFS	/	outra	outro	outro	PNFS
 nestoutras	en	en	en	X	/	estas	este	este	DDFP
+nestoutras	en	en	en	X	/	estas	este	este	DDFP	/	outras	outro	outro	DNFP
+nestoutras	en	en	en	X	/	estas	este	este	DDFP	/	outras	outro	outro	PNFP
 nestoutro	en	en	en	X	/	este	este	este	DDMS
+nestoutro	en	en	en	X	/	este	este	este	DDMS	/	outro	outro	outro	DNMS
+nestoutro	en	en	en	X	/	este	este	este	DDMS	/	outro	outro	outro	PNMS
 nestoutros	en	en	en	X	/	estes	este	este	DDMP
+nestoutros	en	en	en	X	/	estes	este	este	DDMP	/	outros	outro	outro	DNMP
+nestoutros	en	en	en	X	/	estes	este	este	DDMP	/	outros	outro	outro	PNMP
 nest@s	en	en	en	X
 nestxs	en	en	en	X
 nesxs	en	en	en	X
-nil	en	en	en	X
-niles	en	en	en	X
+nil	en	en	en	X	/	il	il	el	PY3MSQ
+niles	en	en	en	X	/	iles	il	el	PY3MPQ
 nisa	en	en	en	X	/	isa	ise	ese	DDFS
 nisa	en	en	en	X	/	isa	ise	ese	PDFS
 nisas	en	en	en	X	/	isas	ise	ese	DDFP
@@ -384,41 +516,57 @@ nistes	en	en	en	X	/	istes	iste	este	PDMP
 nisto	en	en	en	X	/	isto	este	este	PDNS
 no/a	en	en	en	X
 no	en	en	en	X	/	o	o	o	DAMS
-nola	
-nolas	
-nó-las	las	o	o	DAFP
-nolo	
-nolos	
-nó-los	los	o	o	DAMP
+nola	nos	nos	nos	PY1EPO	/	la	o	o	PY3FSW
+nola	nos	nos	nos	PY1FPO	/	la	o	o	PY3FSW
+nola	nos	nos	nos	PY1MPO	/	la	o	o	PY3FSW
+nolas	nos	nos	nos	PY1EPO	/	las	o	o	PY3FPW
+nolas	nos	nos	nos	PY1FPO	/	las	o	o	PY3FPW
+nó-las	nós	nós	nós	PY1FPQ	/	las	o	o	DAFP
+nolas	nos	nos	nos	PY1MPO	/	las	o	o	PY3FPW
+nolo	nos	nos	nos	PY1EPO	/	lo	o	o	PY3ASD
+nolo	nos	nos	nos	PY1FPO	/	lo	o	o	PY3ASD
+nolo	nos	nos	nos	PY1MPO	/	lo	o	o	PY3ASD
+nolos	nos	nos	nos	PY1EPO	/	los	o	o	PY3MPW
+nolos	nos	nos	nos	PY1FPO	/	los	o	o	PY3MPW
+nolos	nos	nos	nos	PY1MPO	/	los	o	o	PY3MPW
+nó-los	nós	nós	nós	PY1MPQ	/	los	o	o	DAMP
 no/na	en	en	en	X
 nos/as	en	en	en	X
 nos	en	en	en	X	/	os	o	o	DAMP
 nos/nas	en	en	en	X
 noutra	en	en	en	X
+noutra	en	en	en	X	/	outra	outro	outro	DNFS
+noutra	en	en	en	X	/	outra	outro	outro	PNFS
 noutra/o	en	en	en	X
 noutras	en	en	en	X
+noutras	en	en	en	X	/	outras	outro	outro	DNFP
+noutras	en	en	en	X	/	outras	outro	outro	PNFP
 noutras/os	en	en	en	X
 noutr@	en	en	en	X
 noutro/a	en	en	en	X
 noutro	en	en	en	X
+noutro	en	en	en	X	/	outro	outro	outro	DNMS
+noutro	en	en	en	X	/	outro	outro	outro	PNMS
 noutros/as	en	en	en	X
 noutros	en	en	en	X
+noutros	en	en	en	X	/	outros	outro	outro	DNMP
+noutros	en	en	en	X	/	outros	outro	outro	PNMP
 noutr@s	en	en	en	X
 n@s	en	en	en	X
-nun	en	en	en	X
 nun	en	en	en	X	/	un	un	un	DCMS
 nun	en	en	en	X	/	un	un	un	DIMS
 nun	en	en	en	X	/	un	un	un	PCMS
-nunha	en	en	en	X
+nun	en	en	en	X	/	un	un	un	PNMS
 nunha	en	en	en	X	/	unha	un	un	DCFS
 nunha	en	en	en	X	/	unha	un	un	DIFS
 nunha	en	en	en	X	/	unha	un	un	PCFS
-nunhas	en	en	en	X
+nunha	en	en	en	X	/	unha	un	un	PNFS
 nunhas	en	en	en	X	/	unhas	un	un	DIFP
-nunhos	en	en	en	X
+nunhas	en	en	en	X	/	unhas	un	un	PNFP
 nunhos	en	en	en	X	/	unhos	un	un	DIMP
-nuns	en	en	en	X
+nunhos	en	en	en	X	/	unhos	un	un	PNMP
 nuns	en	en	en	X	/	uns	un	un	DIMP
+nuns	en	en	en	X	/	uns	un	un	PNMP
 nxs	en	en	en	X
 ó/á	a	a	a	X
 ó	a	a	a	X	/	o	o	o	DAMS
@@ -446,23 +594,31 @@ pras	pra	pra	para	X	/	as	o	o	DAFP
 prás	pra	pra	para	X	/	as	o	o	DAFP
 pró	pra	pra	para	X	/	o	o	o	DAMS
 prós	pra	pra	para	X	/	os	o	o	DAMP
-tódalas	las	o	o	DAFP
-tódolos	los	o	o	DAMP
+tódalas	todas	todo	todo	DGFP	/	las	o	o	DAFP
+tódolos	todos	todo	todo	DGMP	/	los	o	o	DAMP
 tralas	tras	tras	tras	X	/	las	o	o	DAFP
 trala	tras	tras	tras	X	/	la	o	o	DAFS
 tralos	tras	tras	tras	X	/	los	o	o	DAMP
 tralo	tras	tras	tras	X	/	lo	o	o	DAMS
-ula	
 u-la	la	o	o	DAFS
-ulas	
+ula	la	o	o	PY3FSW
 u-las	las	o	o	DAFP
-ulo	
+ulas	las	o	o	PY3FPW
 u-lo	lo	o	o	DAMS
-ulos	
+ulo	lo	o	o	PY3ASD
 u-los	los	o	o	DAMP
-vola	
-volas	
-vó-las	las	o	o	DAFP
-volo	
-volos	
-vó-los	los	o	o	DAMP
+ulos	los	o	o	PY3MPW
+volas	vos	vos	vos	PY2EPO	/	las	o	o	PY3FPW
+volas	vos	vos	vos	PY2FPO	/	las	o	o	PY3FPW
+vó-las	vós	vós	vós	PY2FPQ	/	las	o	o	DAFP
+volas	vos	vos	vos	PY2MPO	/	las	o	o	PY3FPW
+vola	vos	vos	vos	PY2EPO	/	la	o	o	PY3FSW
+vola	vos	vos	vos	PY2FPO	/	la	o	o	PY3FSW
+vola	vos	vos	vos	PY2MPO	/	la	o	o	PY3FSW
+volos	vos	vos	vos	PY2EPO	/	los	o	o	PY3MPW
+volos	vos	vos	vos	PY2FPO	/	los	o	o	PY3MPW
+volos	vos	vos	vos	PY2MPO	/	los	o	o	PY3MPW
+vó-los	vós	vós	vós	PY2MPQ	/	los	o	o	DAMP
+volo	vos	vos	vos	PY2EPO	/	lo	o	o	PY3ASD
+volo	vos	vos	vos	PY2FPO	/	lo	o	o	PY3ASD
+volo	vos	vos	vos	PY2MPO	/	lo	o	o	PY3ASD

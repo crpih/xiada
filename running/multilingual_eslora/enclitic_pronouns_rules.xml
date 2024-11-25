@@ -65,7 +65,7 @@
         <evaluation at="intermediate_enclitic">nos</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>PY3MPA</filter>
+      <filter>PY3MPW</filter>
     </condition>
   </rule>
   <rule>
@@ -137,7 +137,7 @@
           <evaluation at="end">NOT ei AND NOT éi AND NOT eu AND NOT éu AND NOT ou AND NOT óu AND NOT iu AND NOT íu AND NOT ai AND NOT ái</evaluation>
         </content>
         <action>filter_tags</action>
-        <filter>PY3MPA</filter>
+        <filter>PY3MPW</filter>
       </condition>
     </condition>
   </rule>
