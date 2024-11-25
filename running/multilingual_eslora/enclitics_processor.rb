@@ -843,7 +843,7 @@ class EncliticsProcessor
     enclitic_tags_array.each_index do |index_aux|
     enclitic_tag = enclitic_tags_array[index_aux]
     enclitic_lemma = enclitic_lemmas_array[index_aux]
-      if enclitic_tag =~ /PY3ESD|PY3MSD|PY3FSD/
+      if enclitic_tag =~ /PY3ESD|PY3MSD|PY3ISD|PY3ASD|PY3NSD|PY3FSD/
       # tag removing
       else
         new_enclitic_tags_array << enclitic_tag
@@ -952,7 +952,7 @@ class EncliticsProcessor
     enclitic_tags_array.each_index do |index_aux|
     enclitic_tag = enclitic_tags_array[index_aux]
     enclitic_lemma = enclitic_lemmas_array[index_aux]
-      if enclitic_tag =~ /PY3MSA/
+      if enclitic_tag =~ /PY3ASD|PY3ASO|PY3MSW|PY3ASW|PY3NSW/
       # tag removing
       else
         new_enclitic_tags_array << enclitic_tag
@@ -1017,7 +1017,7 @@ class EncliticsProcessor
     enclitic_tags_array.each_index do |index_aux|
     enclitic_tag = enclitic_tags_array[index_aux]
     enclitic_lemma = enclitic_lemmas_array[index_aux]
-      if enclitic_tag =~ /PY1EPO|PY1EPO|PY1MPO|PY1FPO|PY1MPO|PY1FPO/
+      if enclitic_tag =~ /PY1EPO|PY1FPO|PY1FPO/
       # tag removing
       else
         new_enclitic_tags_array << enclitic_tag

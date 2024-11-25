@@ -15,7 +15,7 @@
         </content>
         <action>filter_tags</action>
         <action param="lles">replace_form</action>
-        <filter>PY3ESD OR PY3MSD OR PY3FSD</filter>
+        <filter>PY3ESD OR PY3MSD OR PY3ISD OR PY3ASD OR PY3NSD OR PY3FSD</filter>
       </condition>
     </condition>
   </rule>
@@ -75,7 +75,7 @@
         <evaluation at="intermediate_enclitic">no</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>PY3MSA</filter>
+      <filter>PY3ASD OR PY3ASO OR PY3MSW OR PY3ASW OR PY3NSW</filter>
     </condition>
   </rule>
   <!-- Se aparece nolo ou no-lo, o no nunha pode ser acusativo. -->
@@ -120,7 +120,7 @@
         <evaluation at="final_enclitic">no</evaluation>
       </content>
       <action>filter_tags</action>
-      <filter>PY1EPO OR PY1EPO OR PY1MPO OR PY1FPO OR PY1MPO OR PY1FPO</filter>
+      <filter>PY1EPO OR PY1FPO OR PY1FPO</filter>
     </condition>
   </rule>
   <!-- Se a parte verbal NON remata en ditongo e a secuencia de clíticos remata
