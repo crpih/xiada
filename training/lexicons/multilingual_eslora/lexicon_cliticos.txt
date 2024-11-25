@@ -65,6 +65,7 @@ nos	PY1FPO	nos
 nos	PY1FPO	nos	nos
 nos	PY1MPO	nos
 nos	PY1MPO	nos	nos
+nos	PY3MPW	o	o
 o	PY3ASD	o	o
 o	PY3ASO	o	o
 o	PY3ASW	o	o
