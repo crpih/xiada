@@ -3515,6 +3515,7 @@ pagar	VNP	pagar
 de	X	de
 herencia	NCFS	herencia
 
+che	PY2MSD	che
 fui	VIS1S	ser
 repartidor	NCMS	repartidor
 y	C	y
@@ -54201,3 +54202,13 @@ BMW	NPEP	Bayerische Motoren Werke
 BMW	NPFL	Bayerische Motoren Werke
 
 USB	NPML	universal serial bus
+
+che	PY2MSD	che
+
+Ceferino Díaz	NPML	Ceferino Díaz
+,	Q	,
+deputado	NCMS	deputado
+por	X	por
+lo	DAMS	o
+en	X	en
+Madrid	NPEL	Madrid
