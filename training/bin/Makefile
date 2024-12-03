@@ -1,4 +1,4 @@
-all: clean galician_xiada spanish_eslora
+all: clean galician_xiada spanish_eslora multilingual_eslora
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
