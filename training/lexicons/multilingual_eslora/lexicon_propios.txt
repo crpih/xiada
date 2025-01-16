@@ -1,3 +1,4 @@
+20th Century Fox	NPEL	20th Century Fox
 A-9	NPEL	A-9
 A. Baamonde	NPEL	A. Baamonde
 Abad Conde	NPEL	Abad Conde
@@ -56,6 +57,7 @@ A Coruña-Ferrol	NPEL	A Coruña-Ferrol
 A Coruña-Monforte	NPEL	A Coruña-Monforte
 A Coruña	NPEL	A Coruña
 A Coruña-Vigo	NPEL	A Coruña-Vigo
+A cri sio	NPMS	A cri sio
 Actimel	NPEL	Actimel
 Activision	NPEL	Activision
 Acuicultura	NPEL	Acuicultura
@@ -120,6 +122,7 @@ Aebam	NPEL	Aebam
 Aedenat	NPEL	Aedenat
 Aed O Loiro	NPML	Aed O Loiro
 Aena	NPEL	Aena
+A Estrada	NPEL	A Estrada
 Afganistán	NPEL	Afganistán
 A Fonsagrada	NPEL	A Fonsagrada
 Afonso	NPML	Afonso
@@ -145,6 +148,7 @@ Agricultura e Pesca	NPEL	Agricultura e Pesca
 Agricultura	NPEL	Agricultura
 Agroinvés	NPEL	Agroinvés
 Agrupación Astronómica de Madrid	NPFS	Agrupación Astronómica de Madrid
+Agua de granito	NPEL	Agua de granito
 Águeda	NPFL	Águeda
 A guerra de as galaxias	NPFS	A guerra de as galaxias
 Aguiar	NPEL	Aguiar
@@ -202,6 +206,7 @@ Alan Stern	NPML	Alan Stern
 Alawi	NPEL	Alawi
 Albacete	NPEL	Albacete
 Albania	NPEL	Albania
+Alba Pereiro	NPFS	Alba Pereiro
 Albasini	NPEL	Albasini
 Alberdi	NPEL	Alberdi
 Albert Alexander	NPML	Albert Alexander
@@ -313,9 +318,11 @@ Alfonso Aguila	NPML	Alfonso Aguila
 Alfonso Alonso	NPML	Alfonso Alonso
 Alfonso Cabaleiro	NPML	Alfonso Cabaleiro
 Alfonso Castro	NPML	Alfonso Castro
+Alfonso Márquez	NPMS	Alfonso Márquez
 Alfonso	NPML	Alfonso
 Alfonso	NPMS	Alfonso
 Alfonso Perales	NPML	Alfonso Perales
+Alfonso Pérez Codina	NPMS	Alfonso Pérez Codina
 Alfonso Zulueta	NPML	Alfonso Zulueta
 Alfred Asaro	NPML	Alfred Asaro
 Alfred Hitchcock	NPML	Alfred Hitchcock
@@ -374,6 +381,7 @@ Altin Gün	NPEL	Altin Gün
 Altman	NPEL	Altman
 Alto Comisionado de a ONU para os refuxiados	NPMS	Alto Comisionado de a ONU para os refuxiados
 Alto Comisionado de as Nacións Unidas para os Refuxiados	NPMS	Alto Comisionado de as Nacións Unidas para os Refuxiados
+A Lúa	NPEL	A Lúa
 Alúmina Aluminio	NPEL	Alúmina Aluminio
 Aluminum Company of America	NPEL	Aluminum Company of America
 Alvarez e Barreras	NPEL	Alvarez e Barreras
@@ -447,9 +455,13 @@ Ana Castaño	NPFL	Ana Castaño
 Anacleto Jiménez	NPML	Anacleto Jiménez
 Anacleto	NPML	Anacleto
 Ana de Palacio	NPFL	Ana de Palacio
+Ana Elisa Gómez Baños	NPFS	Ana Elisa Gómez Baños
+Ana Elisa	González	NPFS	Ana Elisa	González
 Anaiansi	NPFL	Anaiansi
+Ana Isabel	NPFS	Ana Isabel
 Analía López	NPFL	Analía López
 Analia Rosa	NPFL	Analia Rosa
+Anamari Castillo Maldonado	NPFS	Anamari Castillo Maldonado
 Anamari	NPFS	Anamari
 Anand	NPEL	Anand
 Ana	NPFL	Ana
@@ -562,6 +574,7 @@ Angelina	NPFL	Angelina
 Ángel Rojo	NPML	Ángel Rojo
 Ángel Rouco	NPML	Ángel Rouco
 Ángel Ruiz	NPML	Ángel Ruiz
+Ángel Saavedra Nogueira	NPMS	Ángel Saavedra Nogueira
 Ángel Sala	NPML	Ángel Sala
 Ángel Sánchez	NPML	Ángel Sánchez
 Ángel Santamaría	NPML	Ángel Santamaría
@@ -650,6 +663,7 @@ Antonin Scalia	NPML	Antonin Scalia
 Antonio Aparicio	NPML	Antonio Aparicio
 Antonio Basagoiti	NPML	Antonio Basagoiti
 Antonio Canales	NPML	Antonio Canales
+Antonio Castro	NPMS	Antonio Castro
 Antonio Cavaco	NPML	Antonio Cavaco
 Antonio Couceiro	NPML	Antonio Couceiro
 Antonio Erias	NPML	Antonio Erias
@@ -713,6 +727,7 @@ Araceli Ozores	NPFL	Araceli Ozores
 Arafat	NPEL	Arafat
 Aragón	NPEL	Aragón
 Arana	NPEL	Arana
+Aranda de Duero	NPEL	Aranda de Duero
 Aranga	NPEL	Aranga
 Arango	NPEL	Arango
 Araujo	NPEL	Araujo
@@ -725,6 +740,7 @@ Ardellastres	NPEL	Ardellastres
 Área de Inmunoloxía	NPFS	Área de Inmunoloxía
 Área Metropolitana	NPFS	Área Metropolitana
 Aregio	NPEL	Aregio
+Arena en la calle	NPEL	Arena en la calle
 Arenal	NPEL	Arenal
 Arenas	NPEL	Arenas
 Arestín	NPEL	Arestín
@@ -849,6 +865,7 @@ Asociación Nacional de Fabricantes de Conservas	NPFS	Asociación Nacional de Fa
 Asociación Nacional de Nacementos Múltiples de México	NPFS	Asociación Nacional de Nacementos Múltiples de México
 Asorey	NPEL	Asorey
 As Palmas	NPEL	As Palmas
+As Pereiras	NPEL	As Pereiras
 As Pontes de García Rodríguez	NPEL	As Pontes de García Rodríguez
 As Pontes	NPEL	As Pontes
 Assumpció Forcada	NPFL	Assumpció Forcada
@@ -908,6 +925,8 @@ Aurelio Miras Portugal	NPML	Aurelio Miras Portugal
 Aurelio	NPML	Aurelio
 Aurelio	NPMS	Aurelio
 Aurelio Pérez Giralda	NPML	Aurelio Pérez Giralda
+Aurora Correa	NPFS	Aurora Correa
+Aurora García Reina	NPFS	Aurora García Reina
 Aurora	NPFL	Aurora
 Aurora	NPFS	Aurora
 Auschwitz	NPEL	Auschwitz
@@ -929,6 +948,7 @@ Avelina Manuela Fontán Solla	NPFL	Avelina Manuela Fontán Solla
 Avelino	NPML	Avelino
 Avelinos	NPMP	Avelino
 Avencio	NPML	Avencio
+Avenida de Castelao	NPEL	Avenida de Castelao
 Aviaco	NPEL	Aviaco
 Avignon	NPEL	Avignon
 Ávila	NPEL	Ávila
@@ -1100,6 +1120,7 @@ Beirut	NPEL	Beirut
 Bekaert	NPEL	Bekaert
 Belarmino	NPML	Belarmino
 Belas Artes	NPEL	Belas Artes
+Belén Domínguez	NPFS	Belén Domínguez
 Belenus	NPEL	Belenus
 Belesar	NPEL	Belesar
 Belfast	NPEL	Belfast
@@ -1134,6 +1155,7 @@ Benítez	NPEL	Benítez
 Benítez Reyes	NPEL	Benítez Reyes
 Benito	NPML	Benito
 Benito	NPMS	Benito
+Benito Pérez Xove	NPMS	Benito Pérez Xove
 Benjamín Barber	NPML	Benjamín Barber
 Benjamín Barros Novás	NPML	Benjamín Barros Novás
 Benjamín Lubián	NPML	Benjamín Lubián
@@ -1414,7 +1436,9 @@ Budapest	NPEL	Budapest
 Buenaventura Durruti	NPEL	Buenaventura Durruti
 Buenaventura	NPEL	Buenaventura
 Buenaventura Núñez Outón	NPML	Buenaventura Núñez Outón
+Buenos Aires	NPEL	Buenos Aires
 Bueu	NPEL	Bueu
+Bugui Bugui	NPEL	Bugui Bugui
 Bulent Sam	NPML	Bulent Sam
 Bulgaria	NPEL	Bulgaria
 Buño	NPEL	Buño
@@ -1479,6 +1503,7 @@ Cajide Rodríguez, Roxelio	NPML	Cajide Rodríguez, Roxelio
 Calabria	NPEL	Calabria
 Calafat	NPEL	Calafat
 Calcuta	NPEL	Calcuta
+Caldas de Reis	NPEL	Caldas de Reis
 Caldelas de Tui	NPEL	Caldelas de Tui
 Caldevilla	NPEL	Caldevilla
 Caldwell	NPEL	Caldwell
@@ -1487,6 +1512,9 @@ Calidonia	NPEL	Calidonia
 California	NPEL	California
 Calígula	NPML	Calígula
 Cali	NPEL	Cali
+calle Bellavista	NPEL	calle Bellavista
+calle del Cuco	NPEL	calle del Cuco
+Calle Providencia	NPEL	Calle Providencia
 Calros Solla	NPML	Calros Solla
 Calvet	NPEL	Calvet
 Calviño	NPEL	Calviño
@@ -1586,6 +1614,7 @@ Carlo Padial	NPML	Carlo Padial
 Carlos Alberto González Príncipe	NPML	Carlos Alberto González Príncipe
 Carlos Arnáiz	NPML	Carlos Arnáiz
 Carlos Casares	NPML	Carlos Casares
+Carlos Costa	NPMS	Carlos Costa
 Carlos Echavarri Guerra	NPML	Carlos Echavarri Guerra
 Carlos Echávarri	NPML	Carlos Echávarri
 Carlos González Príncipe	NPML	Carlos González Príncipe
@@ -1638,6 +1667,7 @@ Carrillo Fuentes	NPEL	Carrillo Fuentes
 Carrillo	NPEL	Carrillo
 Carril	NPEL	Carril
 Carrington	NPEL	Carrington
+Carrión de los Condes	NPEL	Carrión de los Condes
 Carroll	NPEL	Carroll
 Carson	NPEL	Carson
 Carta Magna	NPFS	Carta Magna
@@ -1956,6 +1986,7 @@ Clodio	NPML	Clodio
 Clooney	NPEL	Clooney
 Clos	NPEL	Clos
 Club Financeiro de Vigo	NPMS	Club Financeiro de Vigo
+Club Miladies	NPEL	Club Miladies
 Club	NPMS	Club
 CNMV	NPFS	Comisión Nacional del Mercado de Valores
 Coalición Canaria	NPEL	Coalición Canaria
@@ -1967,9 +1998,11 @@ Coedo	NPEL	Coedo
 Cohan	NPEL	Cohan
 Cohen	NPEL	Cohen
 Coimbra	NPEL	Coimbra
+Colegio Universitario de Vigo	NPEL	Colegio Universitario de Vigo
 Colette	NPFL	Colette
 Colexio de Educación Secundaria de San Román de Cervantes	NPMS	Colexio de Educación Secundaria de San Román de Cervantes
 Colexio Maior Fonseca	NPMS	Colexio Maior Fonseca
+Colexio Musical	NPEL	Colexio Musical
 Colexio Oficial de Arquitectos de Galicia	NPMS	Colexio Oficial de Arquitectos de Galicia
 "Colexio Público ""Picacho"""	NPMS	"Colexio Público ""Picacho"""
 Colin Arthur	NPML	Colin Arthur
@@ -2061,6 +2094,7 @@ Confederación Intersindical Galega	NPFS	Confederación Intersindical Galega
 Confederación Nacional de Autoescolas	NPFS	Confederación Nacional de Autoescolas
 Confederation of North, Central American and Caribbean Association Football	NPFS	Confederation of North, Central American and Caribbean Association Football
 Conferencia de Madrid	NPFS	Conferencia de Madrid
+Congelados Coronado	NPEL	Congelados Coronado
 Congregación de Jesús	NPEL	Congregación de Jesús
 Congreso de os Deputados	NPMS	Congreso de os Deputados
 Congreso nacional de a Sociedade Española de o Xeonllo	NPMS	Congreso nacional de a Sociedade Española de o Xeonllo
@@ -2204,6 +2238,7 @@ Cristina García Orcoyen	NPFL	Cristina García Orcoyen
 Cristina Gutiérrez	NPFL	Cristina Gutiérrez
 Cristina	NPFL	Cristina
 Cristina	NPFS	Cristina
+Cristina Serrano Díez	NPFS	Cristina Serrano Díez
 Cristi	NPFL	Cristi
 Cristóbal	NPML	Cristóbal
 Cristo	NPML	Cristo
@@ -2247,6 +2282,7 @@ Currey	NPEL	Currey
 Curri Valenzuela	NPFL	Curri Valenzuela
 Curros Enriquez	NPEL	Curros Enriquez
 Curros Enríquez	NPEL	Curros Enríquez
+Curros Enríquez	NPMS	Curros Enríquez
 Curros	NPEL	Curros
 Curtis	NPEL	Curtis
 CV 1D Cumial-Salgueiros	NPEL	CV 1D Cumial-Salgueiros
@@ -2255,10 +2291,12 @@ Dadik	NPML	Dadik
 Damián	NPML	Damián
 Damián Villalaín	NPML	Damián Villalaín
 Daniele Da Volterra	NPML	Daniele Da Volterra
+Daniel Hermida	NPMS	Daniel Hermida
 Daniel	NPML	Daniel
 Daniel	NPMS	Daniel
 Danilo Manera	NPML	Danilo Manera
 Danilo Martuccelli	NPML	Danilo Martuccelli
+Dan Johnson	NPMS	Dan Johnson
 Dan	NPML	Dan
 Dario Fo	NPML	Dario Fo
 Darío	NPML	Darío
@@ -2359,6 +2397,7 @@ Díaz Tezanos	NPEL	Díaz Tezanos
 Díaz Usabiaga	NPEL	Díaz Usabiaga
 Dick Bogarde	NPML	Dick Bogarde
 Diego Bernal	NPML	Diego Bernal
+Diego Méndez	NPMS	Diego Méndez
 Diego	NPML	Diego
 Diego	NPMS	Diego
 Diego Rodríguez	NPML	Diego Rodríguez
@@ -2393,9 +2432,11 @@ DNA	NCMS	deoxyribonucleic acid
 DNI	NCMP	documento nacional de identidad
 DNI	NCMS	documento nacional de identidad
 Docampo	NPEL	Docampo
+Doenza máxica	NPEL	Doenza máxica
 Dolce&Gabbana	NPEL	Dolce&Gabbanna
 Dolores Rodríguez Núñez	NPFL	Dolores Rodríguez Núñez
 Dolores Villarino	NPFL	Dolores Villarino
+Dolor mágico	NPEL	Dolor mágico
 Dominga	NPFL	Dominga
 Domingo Docampo	NPML	Domingo Docampo
 Domínguez Carmona, Manuel	NPML	Domínguez Carmona, Manuel
@@ -2479,6 +2520,7 @@ Eladio Capón	NPML	Eladio Capón
 Eladio	NPML	Eladio
 El Algarve	NPEL	El Algarve
 El bosque animado	NPEL	El bosque animado
+El Chacho	NPMS	El Chacho
 El Correo Gallego	NPMS	El Correo Gallego
 El Correo	NPMS	El Correo
 El Corte Inglés	NPEL	El Corte Inglés
@@ -2486,9 +2528,11 @@ Eleazar	NPML	Eleazar
 Elena	NPFL	Elena
 Elena	NPFS	Elena
 Elena Pisonera	NPFL	Elena Pisonera
-El Equipo A	NPMS	El Equipo A20th Century Fox	NPEL	20th Century Fox
+El Equipo A	NPMS	El Equipo A
 Eleuterio	NPML	Eleuterio
+el Franco	NPEL	el Franco
 El golpe	NPEL	El golpe
+el Hotel Monumento	NPEL	el Hotel Monumento
 Elías	NPML	Elías
 Elisa Fernández de la Vega	NPFL	Elisa Fernández de la Vega
 Elisa	NPFL	Elisa
@@ -2518,7 +2562,10 @@ El país	NPEL	El país
 El País	NPMS	El País
 El patito feo	NPEL	El patito feo
 Elpidio	NPML	Elpidio
+el Pilar	NPEL	el Pilar
+el Preguntoiro	NPEL	el Preguntoiro
 El Pulpo	NPEL	El Pulpo
+El rincón del Sarela	NPEL	El rincón del Sarela
 Elsa	NPFS	Elsa
 Eltsin	NPFS	Eltsin
 Elviña	NPEL	Elviña
@@ -2636,6 +2683,7 @@ Europa Press	NPEL	Europa Press
 Europa Press Televisión	NPEL	Europa Press Televisión
 Eurozona	NPFS	Eurozona
 Euscadi	NPEL	Euscadi
+Eusebio Lorenzo Baleirón	NPMS	Eusebio Lorenzo Baleirón
 Eusebio	NPML	Eusebio
 Eusebio	NPMS	Eusebio
 Euskadi Ta Askatasuna	NPMS	Euskadi Ta Askatasuna
@@ -2749,6 +2797,7 @@ Fernando Espí Martínez	NPML	Fernando Espí Martínez
 Fernando Garea	NPML	Fernando Garea
 Fernando Jáuregui	NPML	Fernando Jáuregui
 Fernando Jiménez Herrero	NPML	Fernando Jiménez Herrero
+Fernando Lorenzo	NPMS	Fernando Lorenzo
 Fernando	NPML	Fernando
 Fernando	NPMS	Fernando
 Fernando Rodríguez	NPML	Fernando Rodríguez
@@ -2791,6 +2840,7 @@ Fiscalía	NPFS	Fiscalía
 Físicas	NPEL	Físicas
 Fisioloxía	NPEL	Fisioloxía
 Fisterra	NPEL	Fisterra
+Flavia Moreira	NPFS	Flavia Moreira
 FLN	NPMS	Frente Nacional de Liberación
 Flora	NPFL	Flora
 Florencia	NPEL	Florencia
@@ -2802,6 +2852,7 @@ Florida	NPEL	Florida
 Florisel	NPML	Florisel
 FM	NCFP	frecuencia modulada
 FM	NCFS	frecuencia modulada
+Fogar de Pepe	NPEL	Fogar de Pepe
 Folchi	NPEL	Folchi
 Fomento	NPEL	Fomento
 Fondo Monetario Internacional	NPMS	Fondo Monetario Internacional
@@ -2959,18 +3010,21 @@ Genaro Martínez Sánchez	NPML	Genaro Martínez Sánchez
 Generalitat de Cataluña	NPFS	Generalitat de Cataluña
 Generalitat	NPFS	Generalitat
 Generalitat Valenciana	NPEL	Generalitat Valenciana
+General Pardiñas	NPEL	General Pardiñas
 Génova	NPEL	Génova
 GEO	NPMP	Grupo Especial de Operación
 George Lucas	NPML	George Lucas
 Gerardo Fernández Albor	NPML	Gerardo Fernández Albor
 Gerardo Galeote	NPML	Gerardo Galeote
 Gerardo Gayoso	NPML	Gerardo Gayoso
+Gerardo Muguruza Artola	NPMS	Gerardo Muguruza Artola
 Gerardo	NPML	Gerardo
 Gerardo	NPMS	Gerardo
 Gerês-Xurés	NPEL	Gerês-Xurés
 Gerhard Schroder	NPML	Gerhard Schroder
 Gerhard Schroeder	NPML	Gerhard Schroeder
 Gerhard Schroeder	NPMS	Gerhard Schroeder
+Germán Adrande	NPMS	Germán Adrande
 Germán Ancochea	NPML	Germán Ancochea
 Germán Antúnez	NPML	Germán Antúnez
 Germán Bou	NPML	Germán Bou
@@ -3011,12 +3065,14 @@ Goethe	NPEL	Goethe
 Goián	NPEL	Goián
 Golani	NPEL	Golani
 Gol	NPEL	Gol
+Gómez Baños	NPMS	Gómez Baños
 Gómez	NPEL	Gómez
 Gómez Santamarina	NPEL	Gómez Santamarina
 Gondomar	NPEL	Gondomar
 González Manchón	NPEL	González Manchón
 González	NPEL	González
 González Sobral	NPEL	González Sobral
+González Valenzuela	NPMS	González Valenzuela
 Gonzalo	NPML	Gonzalo
 Gonzalo Rodríguez Álvarez	NPML	Gonzalo Rodríguez Álvarez
 Gonzalo Rodríguez	NPML	Gonzalo Rodríguez
@@ -3116,8 +3172,10 @@ Hawking	NPEL	Hawking
 HB	NPMS	Herri Batasuna
 HDL	NCFP	high density lipoprotein
 HDL	NCFS	high density lipoprotein
+Héctor Chacón	NPMS	Héctor Chacón
 Héctor Moreneli	NPML	Héctor Moreneli
 Héctor	NPMS	Héctor
+Héctor Ramírez	NPMS	Héctor Ramírez
 Helena	NPFL	Helena
 Hélène	NPFS	Hélène
 Hellen KermisIngrid	NPFL	Hellen KermisIngrid
@@ -3178,6 +3236,7 @@ Hospital Universitario de Copenhaguen	NPMS	Hospital Universitario de Copenhaguen
 Hospital Virgen de la Arrixaca	NPMS	Hospital Virgen de la Arrixaca
 Hotel Almirante	NPMS	Hotel Almirante
 Hotel Marmatino	NPMS	Hotel Marmatino
+Hotel Villanueva	NPEL	Hotel Villanueva
 Huelva	NPEL	Huelva
 Huérfanas	NPFP	Huérfanas
 Huertas	NPEL	Huertas
@@ -3221,6 +3280,7 @@ Ilduara	NPFL	Ilduara
 Illa Couto	NPEL	Illa Couto
 Illa de a Toxa	NPFS	Illa de a Toxa
 Illas Canarias	NPEL	Illas Canarias
+Imprenta Vázquez	NPEL	Imprenta Vázquez
 Iñaki Anasagasti	NPML	Iñaki Anasagasti
 Iñaki Beaumont	NPML	Iñaki Beaumont
 Iñaki de Juana Chaos	NPML	Iñaki de Juana Chaos
@@ -3340,6 +3400,7 @@ Jaime García	NPML	Jaime García
 Jaime López Cosío	NPML	Jaime López Cosío
 Jaime Mayor Oreja	NPML	Jaime Mayor Oreja
 Jaime	NPMS	Jaime
+Jaime Sacristán	NPMS	Jaime Sacristán
 James Baker	NPML	James Baker
 James Blake	NPML	James Blake
 James Bond	NPML	James Bond
@@ -3379,6 +3440,7 @@ Javier Otero	NPML	Javier Otero
 Javier Pomés	NPML	Javier Pomés
 Javier Solana	NPML	Javier Solana
 Javier Tallada	NPML	Javier Tallada
+Javi Formoso	NPMS	Javi Formoso
 Javi	NPMS	Javi
 J. Carrol	NPEL	J. Carrol
 J. Craig Venter	NPEL	J. Craig Venter
@@ -3459,6 +3521,7 @@ Johan	NPML	Johan
 Johansson	NPEL	Johansson
 John Elliot	NPML	John Elliot
 John	NPML	John
+Johnny Michael	NPMS	Johnny Michael
 John Taylor	NPML	John Taylor
 Jonas Folger	NPML	Jonas Folger
 Jorcano	NPEL	Jorcano
@@ -3581,9 +3644,11 @@ José Luis Taboada	NPEL	José Luis Taboada
 Jose Luis Terrón	NPML	Jose Luis Terrón
 José Manuel Amoedo	NPML	José Manuel Amoedo
 José Manuel Barreiro	NPML	José Manuel Barreiro
+José Manuel Cabeza	NPMS	José Manuel Cabeza
 Jose Manuel Estévez	NPML	Jose Manuel Estévez
 José Manuel Fernández Norniella	NPML	José Manuel Fernández Norniella
 José Manuel González	NPML	José Manuel González
+Jose Manuel	NPMS	Jose Manuel
 José Manuel	NPMS	José Manuel
 José Manuel Pazos Torres	NPML	José Manuel Pazos Torres
 José Manuel Rey	NPML	José Manuel Rey
@@ -3605,6 +3670,7 @@ José María Robles Fraga	NPML	José María Robles Fraga
 José María Suárez Quintanilla	NPML	José María Suárez Quintanilla
 Jose Mari Aznar	NPML	Jose Mari Aznar
 Jose Mourinho	NPML	Jose Mourinho
+José Neira Tovar	NPMS	José Neira Tovar
 Jose	NPML	Jose
 José	NPML	José
 José	NPMS	José
@@ -3628,6 +3694,7 @@ Jove	NPEL	Jove
 Joyce	NPEL	Joyce
 J. Pérez Oya	NPEL	J. Pérez Oya
 J.R. Pérez Ornia	NPEL	J.R. Pérez Ornia
+Juan Agrelo	NPMS	Juan Agrelo
 Juan Antonio Garrido	NPML	Juan Antonio Garrido
 Juan Blanco Rouco	NPML	Juan Blanco Rouco
 Juan Canalejo	NPMS	Juan Canalejo
@@ -3724,7 +3791,9 @@ Kremlin	NPMS	Kremlin
 Krusik	NPMS	Krusik
 Kukes	NPEL	Kukes
 Kyrie	NPMS	Kyrie
+La Algalia	NPEL	La Algalia
 La Argentina	NPEL	La Argentina
+la Audi	NPEL	la Audi
 Labacolla	NPEL	Labacolla
 La Baña	NPEL	La Baña
 La Bañeza	NPEL	La Bañeza
@@ -3733,13 +3802,17 @@ Laboratorio de Sanidade Exterior de Vigo	NPMS	Laboratorio de Sanidade Exterior d
 La Caixa	NPEL	La Caixa
 La Capella Reial de Catalunya	NPEL	La Capella Reial de Catalunya
 La chica invisible	NPEL	La chica invisible
+La C	NPEL	La C
+La Compañía	NPEL	La Compañía
 La cultura clásica	NPEL	La cultura clásica
 La estrella misteriosa	NPFS	La estrella misteriosa
+la Ford	NPEL	la Ford
 Lage	NPEL	Lage
 Lage Tuñas	NPEL	Lage Tuñas
 La granja	NPEL	La granja
 La huésped	NPEL	La huésped
 Laíño	NPEL	Laíño
+la Kía	NPEL	la Kía
 La lengua de las mariposas	NPEL	La lengua de las mariposas
 Lalín-A Estrada	NPEL	Lalín-A Estrada
 Lalín	NPEL	Lalín
@@ -3756,13 +3829,19 @@ Lancelot	NPML	Lancelot
 Landín	NPEL	Landín
 La noche más oscura	NPEL	La noche más oscura
 Lanzarote	NPEL	Lanzarote
+La Penela	NPEL	La Penela
 La Princesa	NPEL	La Princesa
 Lapurdi	NPEL	Lapurdi
+La Ramallosa	NPEL	La Ramallosa
 Laraño	NPEL	Laraño
 Laredo	NPEL	Laredo
 La Ría	NPEL	La Ría
+La Robleda	NPEL	La Robleda
+La Rocha	NPEL	La Rocha
+Las Cancelas	NPEL	Las Cancelas
 La ser	NPEL	La ser
 laSexta	NPEL	laSexta
+la Toyota	NPEL	la Toyota
 La tradición clásica	NPEL	La tradición clásica
 Laura	NPFL	Laura
 Laura	NPFS	Laura
@@ -3825,7 +3904,9 @@ Libro Branco de Enerxía	NPMS	Libro Branco de Enerxía
 Libro de Oro de a Cámara de Santiago	NPMS	Libro de Oro de a Cámara de Santiago
 Lidia	NPFL	Lidia
 Lidia	NPFS	Lidia
+Lidia Taboada	NPFS	Lidia Taboada
 Limia	NPEL	Limia
+Limpiezas Torre	NPEL	Limpiezas Torre
 Lindín	NPEL	Lindín
 Lindsay Kemp	NPML	Lindsay Kemp
 Lino	NPML	Lino
@@ -3924,6 +4005,7 @@ Los Angeles Daily News	NPMS	Los Angeles Daily News
 Los cuentos de Canterbury	NPEL	Los cuentos de Canterbury
 Losey	NPEL	Losey
 Los juegos de el hambre	NPEL	Los juegos de el hambre
+los Manolos	NPEL	los Manolos
 Los miserables	NPEL	Los miserables
 Los Verdes-Las Izquierdas de los Pueblos	NPEL	Los Verdes-Las Izquierdas de los Pueblos
 Los Verdes	NPMP	Los Verdes
@@ -4001,6 +4083,7 @@ Manchester	NPEL	Manchester
 Mandela	NPEL	Mandela
 Manhattan	NPEL	Manhattan
 Manoel	NPML	Manoel
+Manolo de Viaño	NPMS	Manolo de Viaño
 Manolo	NPML	Manolo
 Manolo	NPMS	Manolo
 Mans Unidas de Santiago	NPEL	Mans Unidas de Santiago
@@ -4043,6 +4126,8 @@ Marcial	NPML	Marcial
 Marcide	NPMS	Marcide
 Marco Antonio	NPML	Marco Antonio
 Marco de Apoio Comunitario 2000-06	NPMS	Marco de Apoio Comunitario 2000-06
+Marcos Aguilera Gómez	NPMS	Marcos Aguilera Gómez
+Marcos Budiño López	NPMS	Marcos Budiño López
 Marcos	NPML	Marcos
 Marcos	NPMS	Marcos
 Marga Alborés	NPFL	Marga Alborés
@@ -4074,13 +4159,17 @@ Margarita Vázquez de Parga	NPFL	Margarita Vázquez de Parga
 Margarita Xirgu	NPFL	Margarita Xirgu
 Marga Romero	NPFL	Marga Romero
 Maria Callas	NPFL	Maria Callas
+María Claudia	NPFS	María Claudia
 Maria Cristina	NPFL	Maria Cristina
 María Dolores Bueno Ramírez	NPFL	María Dolores Bueno Ramírez
 María Emilia	NPFS	María Emilia
+María Figueroa	NPFS	María Figueroa
 María García	NPFL	María García
 María Jesús Aguirre	NPFL	María Jesús Aguirre
 María Jesús Aramburu	NPFL	María Jesús Aramburu
+María José	NPFS	María José
 María Luisa	NPFS	María Luisa
+María Luisa Páez	NPFS	María Luisa Páez
 María Luz Ruíz	NPFL	María Luz Ruíz
 Maria Manuela Margarido	NPFL	Maria Manuela Margarido
 María Mercedes Castaño	NPFL	María Mercedes Castaño
@@ -4091,8 +4180,10 @@ Mariano Rajoy	NPML	Mariano Rajoy
 Maria	NPFL	Maria
 María	NPFL	María
 María	NPFS	María
+Mari Antonia Piñeiro	NPFS	Mari Antonia Piñeiro
 María San Gil	NPFL	María San Gil
 Marías	NPFP	María
+María Soledad	NPFS	María Soledad
 Maria Thomas	NPFL	Maria Thomas
 Maria Victoria de la Fuente	NPFL	Maria Victoria de la Fuente
 María Xosé Gómez	NPFL	María Xosé Gómez
@@ -4119,6 +4210,7 @@ Marisa Rodríguez	NPFL	Marisa Rodríguez
 Marisa Soleto	NPFL	Marisa Soleto
 Marisa Tanzini	NPFL	Marisa Tanzini
 Marisol Bueno	NPFL	Marisol Bueno
+Mari Soledad	NPFS	Mari Soledad
 Marisol López	NPFL	Marisol López
 Marisol Soengas	NPFL	Marisol Soengas
 Marisol Soneira	NPFL	Marisol Soneira
@@ -4134,6 +4226,7 @@ Marta González Manchón	NPFL	Marta González Manchón
 Marta González	NPFL	Marta González
 Marta	NPFL	Marta
 Marta	NPFS	Marta
+Marta Pazos	NPFS	Marta Pazos
 Martin Amis	NPML	Martin Amis
 Martiña	NPFS	Martiña
 Martin Codax	NPML	Martin Codax
@@ -4171,8 +4264,10 @@ Massimo DÁlema	NPML	Massimo DÁlema
 Máster de Administración Financeira e Tributaria	NPMS	Máster de Administración Financeira e Tributaria
 Matán Vilnaí	NPEL	Matán Vilnaí
 Matanzas	NPEL	Matanzas
+Mateo Coiro	NPMS	Mateo Coiro
 Mateo	NPML	Mateo
 Mateo	NPMS	Mateo
+Materiales Rianxo	NPEL	Materiales Rianxo
 Materno Infantil	NPMS	Materno Infantil
 Matilde	NPFL	Matilde
 Matutes	NPEL	Matutes
@@ -4297,6 +4392,7 @@ Miguel Ángel	NPML	Miguel Ángel
 Miguel Chana Martín	NPML	Miguel Chana Martín
 Miguel Chana	NPML	Miguel Chana
 Miguélez	NPEL	Miguélez
+Miguel Graña	NPMS	Miguel Graña
 Miguel Herrero	NPML	Miguel Herrero
 Miguel Littin	NPML	Miguel Littin
 Miguel	NPML	Miguel
@@ -4421,6 +4517,7 @@ M. Rivas	NPEL	M. Rivas
 M. Santalices	NPEL	M. Santalices
 MS T	NPEL	MS T
 M.T.F.	NPEL	M.T.F.
+Muebles Galicia	NPEL	Muebles Galicia
 Múgica Herzog	NPEL	Múgica Herzog
 Múgica	NPEL	Múgica
 Muíños	NPEL	Muíños
@@ -4458,6 +4555,7 @@ Naomi Klein	NPFL	Naomi Klein
 Naomi Watts	NPFL	Naomi Watts
 Napoleón	NPML	Napoleón
 Nápoles	NPEL	Nápoles
+Narciso Ferreira	NPMS	Narciso Ferreira
 Narciso	NPML	Narciso
 Narciso	NPMS	Narciso
 NASA	NPFS	National Aeronautics and Space Administration
@@ -4522,6 +4620,7 @@ Nogueira	NPEL	Nogueira
 Noia	NPEL	Noia
 Noriega	NPEL	Noriega
 Noriega Varela	NPEL	Noriega Varela
+Norma Caballero	NPFS	Norma Caballero
 Norma	NPFS	Norma
 Noruega	NPEL	Noruega
 Nosa Señora de a Concepción	NPFL	Nosa Señora de a Concepción
@@ -4571,6 +4670,7 @@ O Carballiño	NPEL	O Carballiño
 Occidente	NPEL	Occidente
 OCDE	NPFS	Organización para la Cooperación y el Desarrollo Económico
 Ochoa Ledesma	NPEL	Ochoa Ledesma
+O Colexio	NPEL	O Colexio
 O Correo Galego	NPMS	O Correo Galego
 Octavio Lois Amado	NPML	Octavio Lois Amado
 Octavio Lois	NPML	Octavio Lois
@@ -4687,6 +4787,7 @@ OSA	NPFS	Orden de San Agustín
 Os Ánxeles	NPEL	Os Ánxeles
 Os Balcáns	NPEL	Os Balcáns
 Os Balcáns	NPMP	Os Balcáns
+Óscar Bello Cañas	NPMS	Óscar Bello Cañas
 Óscar	NPML	Óscar
 Óscar	NPMS	Óscar
 Oseira	NPEL	Oseira
@@ -4721,6 +4822,7 @@ Pablo	NPMS	Pablo
 Pablo sexto	NPMS	Pablo sexto
 Pablo Vaamonde	NPML	Pablo Vaamonde
 Pacífico	NPEL	Pacífico
+Paco de Cuba	NPMS	Paco de Cuba
 Paco	NPML	Paco
 Paco	NPMS	Paco
 Paco Vázquez	NPML	Paco Vázquez
@@ -4738,6 +4840,7 @@ Palacio de Congresos de Santiago	NPMS	Palacio de Congresos de Santiago
 Palacio de Raxoi	NPMS	Palacio de Raxoi
 Palacio de Xelmírez	NPMS	Palacio de Xelmírez
 Palacio Real	NPMS	Palacio Real
+Palas de Rei	NPEL	Palas de Rei
 Palas	NPEL	Palas
 Palencia	NPEL	Palencia
 Palestina	NPEL	Palestina
@@ -4889,6 +4992,7 @@ Pegaso	NPEL	Pegaso
 Peinador	NPEL	Peinador
 Peleteiro	NPEL	Peleteiro
 Pellegrini	NPEL	Pellegrini
+Peluquería Laura	NPEL	Peluquería Laura
 Pemán	NPEL	Pemán
 Penélope Cruz	NPFL	Penélope Cruz
 Penélope	NPFL	Penélope
@@ -4898,6 +5002,7 @@ Pepa	NPFL	Pepa
 Pepe	NPML	Pepe
 Pepe	NPMS	Pepe
 Pepiño	NPML	Pepiño
+Pepito Campos	NPMS	Pepito Campos
 Pepito	NPMS	Pepe
 Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
 Pequín	NPEL	Pequín
@@ -5141,6 +5246,7 @@ Rafael Dieste	NPML	Rafael Dieste
 Rafael Estrella	NPML	Rafael Estrella
 Rafael Hernando	NPML	Rafael Hernando
 Rafael Landazábal	NPML	Rafael Landazábal
+Rafael Martín	NPMS	Rafael Martín
 Rafael	NPML	Rafael
 Rafael	NPMS	Rafael
 Rafael Ribó	NPML	Rafael Ribó
@@ -5168,6 +5274,7 @@ Ramón Alonso Fernández	NPML	Ramón Alonso Fernández
 Ramona Maneiro	NPFL	Ramona Maneiro
 Ramona	NPFL	Ramona
 Ramón Arias	NPML	Ramón Arias
+Ramón Cabanillas	NPMS	Ramón Cabanillas
 Ramón Castromil	NPML	Ramón Castromil
 Ramón Jáuregui	NPML	Ramón Jáuregui
 Ramón	NPML	Ramón
@@ -5183,6 +5290,7 @@ RASD	NPFS	República Árabe Saharaui Democrática
 Rato	NPEL	Rato
 Raúl	NPML	Raúl
 Raúl	NPMS	Raúl
+Raúl Portas	NPMS	Raúl Portas
 Raxoi	NPEL	Raxoi
 Ray Bradbury	NPML	Ray Bradbury
 Ray Loriga	NPML	Ray Loriga
@@ -5225,6 +5333,7 @@ República Democrática del Congo	NPFS	República Democrática del Congo
 República Federal de Iugoslavia	NPEL	República Federal de Iugoslavia
 República Iugoslava	NPFS	República Iugoslava
 Residencia Escolar de Colmenar	NPFS	Residencia Escolar de Colmenar
+Restaurante A Porta	NPEL	Restaurante A Porta
 Retevisión	NPEL	Retevisión
 Retrato de Quevedo	NPMS	Retrato de Quevedo
 Reventós	NPEL	Reventós
@@ -5276,6 +5385,7 @@ Ridruejo	NPEL	Ridruejo
 Riego, Paco del	NPML	Riego, Paco del
 Riki	NPML	Riki
 Riley	NPEL	Riley
+Rincón del Sarela	NPEL	Rincón del Sarela
 Río Segura	NPEL	Río Segura
 Ríos	NPEL	Ríos
 Risga	NPEL	Risga
@@ -5300,6 +5410,7 @@ Rocío	NPFL	Rocío
 Rocío	NPFS	Rocío
 Rock Hudson	NPML	Rock Hudson
 Rodolfo	NPML	Rodolfo
+Rodolfo Villaverde	NPMS	Rodolfo Villaverde
 Rodrigo	NPML	Rodrigo
 Rodrigo Rato	NPML	Rodrigo Rato
 Rodríguez Cadarso	NPEL	Rodríguez Cadarso
@@ -5327,11 +5438,13 @@ Rosa García	NPFL	Rosa García
 Rosai	NPEL	Rosai
 Rosalía de Castro	NPFL	Rosalía de Castro
 Rosalía	NPFL	Rosalía
+Rosa María	NPFS	Rosa María
 Rosa Miguélez	NPFL	Rosa Miguélez
 Rosa	NPFL	Rosa
 Rosa	NPFS	Rosa
 Rosario	NPFL	Rosario
 Rosario	NPFS	Rosario
+Rosario Ramos	Porta	NPFS	Rosario Ramos	Porta
 Rosendo	NPML	Rosendo
 Rosendo Salvado	NPML	Rosendo Salvado
 Rosi	NPFS	Rosi
@@ -5340,7 +5453,11 @@ Rostropovich	NPEL	Rostropovich
 Rota	NPEL	Rota
 Roxelio	NPML	Roxelio
 Roxos	NPEL	Roxos
+Rúa de Lisboa	NPEL	Rúa de Lisboa
 Rúa del Villar	NPEL	Rúa del Villar
+Rúa de Mallou	NPEL	Rúa de Mallou
+Rúa de	NPEL	Rúa de
+Rúa Travesa	NPEL	Rúa Travesa
 Rubalcaba	NPEL	Rubalcaba
 Rubén	NPML	Rubén
 Rubén	NPMS	Rubén
@@ -5400,6 +5517,7 @@ Samsung Electronics	NPEL	Samsung Electronics
 Samsung Galaxy Fold	NPEL	Samsung Galaxy Fold
 Samsung	NPEL	Samsung
 Samuel	NPML	Samuel
+San Antón	NPEL	San Antón
 San Caetano	NPEL	San Caetano
 Sánchez Arévalo	NPEL	Sánchez Arévalo
 Sánchez de León	NPEL	Sánchez de León
@@ -5429,19 +5547,27 @@ Sanidade	NPEL	Sanidade
 San Isidro	NPEL	San Isidro
 Sanjurjo Badía	NPEL	Sanjurjo Badía
 Sanjurjo	NPEL	Sanjurjo
+San Lázaro	NPEL	San Lázaro
+San Marcos	NPEL	San Marcos
 Sanmartín	NPEL	Sanmartín
 San Martiño Pinario	NPEL	San Martiño Pinario
 San Paio de Antealtares	NPEL	San Paio de Antealtares
+San Paio	NPEL	San Paio
 San Panlo	NPEL	San Panlo
+San Pedro	NPEL	San Pedro
 San Rafael	NPEL	San Rafael
 San Román	NPEL	San Román
 San Sebastián	NPEL	San Sebastián
 Santa Bárbara	NPEL	Santa Bárbara
+Santa Comba	NPEL	Santa Comba
+Santa Com	NPEL	Santa Com
 Santa Cristina de Cobres	NPEL	Santa Cristina de Cobres
 Santa Gadea	NPFS	Santa Gadea
 Santa Isabel	NPEL	Santa Isabel
 Santalices	NPEL	Santalices
 Santamaría	NPEL	Santamaría
+Santa Mariña de Bascuas	NPEL	Santa Mariña de Bascuas
+Santa Mariña	NPEL	Santa Mariña
 Santander Central Hispano	NPMS	Santander Central Hispano
 Santander	NPEL	Santander
 Santiago de Chile	NPEL	Santiago de Chile
@@ -5454,10 +5580,13 @@ Santiago Santamaría	NPML	Santiago Santamaría
 Santi	NPMS	Santi
 Santiorxo	NPEL	Santiorxo
 Santo Adrián de Cobres	NPEL	Santo Adrián de Cobres
+Santo Domingo	NPEL	Santo Domingo
 San Tomé	NPEL	San Tomé
 Santo Sava	NPEL	Santo Sava
 San Vicente de o Mar	NPEL	San Vicente de o Mar
 San Vicente	NPEL	San Vicente
+San Xoán de Vista Alegre	NPEL	San Xoán de Vista Alegre
+Sao Paulo	NPEL	Sao Paulo
 São Paulo	NPES	São Paulo
 Sarah Burton	NPFL	Sarah Burton
 Sarah Cook	NPFL	Sarah Cook
@@ -5533,6 +5662,8 @@ Seminario Internacional de Control de a Infección Hospitalaria	NPMS	Seminario I
 Senado	NPMS	Senado
 Senén Barro	NPML	Senén Barro
 Senén Bernárdez	NPML	Senén Bernárdez
+señora Angustias	NPFS	Angustias
+señor Manuel	NPMS	Manuel
 Sensor Proximity-FZU-39/B	NPEL	Sensor Proximity-FZU-39/B
 Sepla	NPEL	Sepla
 Sepla	NPMS	Sepla
@@ -5760,6 +5891,7 @@ Terras de Amoeiro	NPEL	Terras de Amoeiro
 Teruel	NPEL	Teruel
 Tesourería	NPFS	Tesourería
 Textilive	NPEL	Textilive
+The Blackouts	NPEL	The Blackouts
 The Kiddy's Class	NPEL	The Kiddy's Class
 Thereza Zabell	NPFL	Thereza Zabell
 The Scottish Ballet	NPEL	The Scottish Ballet
@@ -5805,6 +5937,7 @@ Tom Waits	NPML	Tom Waits
 Toni	NPML	Toni
 Toño	NPMS	Toño
 Tonucha	NPFS	Tonucha
+Tonucha Piñeiro	NPFS	Tonucha Piñeiro
 Tony Blair	NPML	Tony Blair
 Tony Blayr	NPML	Tony Blayr
 Tony Curtis	NPML	Tony Curtis
@@ -5836,6 +5969,7 @@ Transport International Routier	NPMP	Transport International Routier
 Transport International Routier	NPMS	Transport International Routier
 Trasalba	NPEL	Trasalba
 Tratado de Ámsterdan	NPMS	Tratado de Ámsterdan
+Travesía da Roda	NPEL	Travesía da Roda
 Tres Poetas	NPEL	Tres Poetas
 Triacastela	NPEL	Triacastela
 Tribunais Superiores de Xustiza	NPMP	Tribunais Superiores de Xustiza
@@ -5939,6 +6073,7 @@ Uxía	NPFL	Uxía
 Uxío González	NPML	Uxío González
 Uxío	NPML	Uxío
 Vaamonde	NPEL	Vaamonde
+Val do Dubra	NPEL	Val do Dubra
 Valdoviño	NPEL	Valdoviño
 V. Aleixandre	NPEL	V. Aleixandre
 Valencia	NPEL	Valencia
@@ -5955,6 +6090,7 @@ Valladares González	NPML	Valladares González
 Valladolid	NPEL	Valladolid
 Vallarino	NPEL	Vallarino
 Valle Inclán	NPML	Valle Inclán
+Vallejo Cobo	NPMS	Vallejo Cobo
 Valle	NPML	Valle
 Valle Pérez	NPML	Valle Pérez
 Valle Riestra	NPML	Valle Riestra
@@ -6069,6 +6205,7 @@ Vilar do Val	NPEL	Vilar do Val
 Vilariño	NPEL	Vilariño
 Vilar Landeira	NPEL	Vilar Landeira
 Vilar Ponte	NPEL	Vilar Ponte
+Villa de Cruces	NPEL	Villa de Cruces
 Villalaín	NPEL	Villalaín
 Villalobos	NPEL	Villalobos
 Villalonga	NPEL	Villalonga
@@ -6095,6 +6232,7 @@ Virginia Torralba	NPFL	Virginia Torralba
 Virginia Woolf	NPFL	Virginia Woolf
 Virxinia	NPEL	Virxinia
 Visitación	NPFL	Visitación
+Vista Alegre	NPEL	Vista Alegre
 Visto en Facebook	NPEL	Visto en Facebook
 Vite	NPEL	Vite
 Vitoria	NPEL	Vitoria
@@ -6107,6 +6245,7 @@ Vizcaya	NPEL	Vizcaya
 Vladan Bojic	NPML	Vladan Bojic
 Vladímir Putin	NPML	Vladímir Putin
 VLT	NPMS	Very Large Telescope
+Volta do Castro	NPEL	Volta do Castro
 Vuelvamañana	NPEL	Vuelvamañana
 Wald	NPEL	Wald
 W. Allen	NPEL	W. Allen
@@ -6270,6 +6409,7 @@ Xoel	NPML	Xoel
 Xosafat	NPML	Xosafat
 Xosé Cuíña Crespo	NPML	Xosé Cuíña Crespo
 Xosé Cuíña	NPML	Xosé Cuíña
+Xosé Daniel Cunqueiro	NPMS	Xosé Daniel Cunqueiro
 Xosefa	NPFL	Xosefa
 Xosé Luís Barreiro Rivas	NPML	Xosé Luís Barreiro Rivas
 Xosé Luís Méndez Ferrín	NPML	Xosé Luís Méndez Ferrín
