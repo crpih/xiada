@@ -456,7 +456,7 @@ Anacleto Jiménez	NPML	Anacleto Jiménez
 Anacleto	NPML	Anacleto
 Ana de Palacio	NPFL	Ana de Palacio
 Ana Elisa Gómez Baños	NPFS	Ana Elisa Gómez Baños
-Ana Elisa	González	NPFS	Ana Elisa	González
+Ana Elisa González	NPFS	Ana Elisa González
 Anaiansi	NPFL	Anaiansi
 Ana Isabel	NPFS	Ana Isabel
 Analía López	NPFL	Analía López
@@ -5444,7 +5444,7 @@ Rosa	NPFL	Rosa
 Rosa	NPFS	Rosa
 Rosario	NPFL	Rosario
 Rosario	NPFS	Rosario
-Rosario Ramos	Porta	NPFS	Rosario Ramos	Porta
+Rosario Ramos Porta	NPFS	Rosario Ramos Porta
 Rosendo	NPML	Rosendo
 Rosendo Salvado	NPML	Rosendo Salvado
 Rosi	NPFS	Rosi
