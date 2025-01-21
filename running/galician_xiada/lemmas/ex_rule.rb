@@ -5,9 +5,9 @@ module Lemmas
   class ExRule < Rule
     include Utils
 
-    def initialize(all_possible_tags)
+    def initialize(all_possible_tags, adjective: 'A.*', noun_common: 'Sc.*')
       super(all_possible_tags)
-      @tags = tags_for('A.*', 'Sc.*')
+      @tags = tags_for(adjective, noun_common)
     end
 
     def apply_query(query)

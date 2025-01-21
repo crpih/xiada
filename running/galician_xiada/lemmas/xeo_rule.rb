@@ -6,9 +6,9 @@ module Lemmas
   class XeoRule < PrefixVowelRule
     attr_reader :tags
 
-    def initialize(all_possible_tags)
+    def initialize(all_possible_tags, adjective = 'A.*', noun_common = 'Sc.*', verb = 'V.*')
       super(all_possible_tags, 'xeo')
-      @tags = tags_for('A.*', 'Sc.*', 'V.*')
+      @tags = tags_for(adjective, noun_common, verb)
     end
   end
 end

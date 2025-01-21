@@ -6,9 +6,9 @@ module Lemmas
   class TeleRule < PrefixVowelRule
     attr_reader :tags
 
-    def initialize(all_possible_tags)
+    def initialize(all_possible_tags, adjective: 'A.*', noun_common: 'Sc.*', verb: 'V.*', adverb: 'W.*')
       super(all_possible_tags, 'tele')
-      @tags = tags_for('A.*', 'Sc.*', 'V.*', 'W.*')
+      @tags = tags_for(adjective, noun_common, verb, adverb)
     end
   end
 end

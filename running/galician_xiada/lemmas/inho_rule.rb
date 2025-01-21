@@ -6,16 +6,31 @@ module Lemmas
   class InhoRule < Rule
     include Utils
 
-    def initialize(all_possible_tags)
+    def initialize(
+      all_possible_tags,
+      noun: "S.*",
+      noun_common: "Sc.*",
+      noun_common_feminine: "Scf.*",
+      adjective: "A.*",
+      adjective_feminine: "A0f.*",
+      verb_infinitive: "V0f.*",
+      verb_participle: "V0p0.*",
+      verb_gerund: "V0x000",
+      verb_imperative: "V0m.*",
+      verb_indicative: "V.i.*",
+      verb_subjunctive: "V.s.*",
+      adverb: "W.*",
+      indefinite: "I.*"
+    )
       super(all_possible_tags)
-      @default_tags = tags_for('Sc.*', 'A.*', 'V0p0.*', 'V0x000', 'W.*', 'I.*').freeze
-      @v_tags = tags_for('V.i.*','V.s','V0m.*').freeze
-      @sfc_a0f_tags = tags_for('Scf.*','A0f.*').freeze
-      @sa_tags = tags_for('S.*', 'A.*').freeze
-      @sai_tags = tags_for('S.*', 'A.*', 'I.*').freeze
-      @saiw_tags = tags_for('S.*', 'A.*', 'I.*', 'W.*').freeze
-      @saiv_tags = tags_for('S.*', 'A.*', 'I.*', 'V0p0.*').freeze
-      @sav_tags = tags_for('S.*', 'A.*', 'V0p0.*').freeze
+      @default_tags = tags_for(noun_common, adjective, verb_participle, verb_gerund, adverb, indefinite).freeze
+      @v_tags = tags_for(verb_indicative, verb_subjunctive, verb_imperative).freeze
+      @sfc_a0f_tags = tags_for(noun_common_feminine, adjective_feminine).freeze
+      @sa_tags = tags_for(noun, adjective).freeze
+      @sai_tags = tags_for(noun, adjective, indefinite).freeze
+      @saiw_tags = tags_for(noun, adjective, indefinite, adverb).freeze
+      @saiv_tags = tags_for(noun, adjective, indefinite, verb_participle).freeze
+      @sav_tags = tags_for(noun, adjective, verb_participle).freeze
     end
 
     def apply_query(query)
@@ -55,7 +70,6 @@ module Lemmas
     end
 
     private
-
 
     # amiguiño => amigo
     # enruguiñas => enruga
@@ -229,7 +243,8 @@ module Lemmas
           # marquesiña => marquesa
           query.copy("#{search_base}esa", @sav_tags)
         end
-      else # When plural
+      else
+        # When plural
         if g == 'o'
           # marquesiños => marqueses
           query.copy("#{search_base}eses", @sav_tags)
