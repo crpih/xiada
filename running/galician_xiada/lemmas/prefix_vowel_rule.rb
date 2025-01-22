@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 require_relative '../../bin/lemmas/rule'
-require_relative 'utils'
+require_relative '../../bin/lemmas/utils'
 
 module Lemmas
   class PrefixVowelRule < Rule
