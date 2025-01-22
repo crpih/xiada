@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require_relative '../../bin/lemmas/query'
 require_relative '../../bin/lemmas/result'
-require_relative 'utils'
+require_relative '../../bin/lemmas/utils'
 require_relative 'auto_rule'
 require_relative 'isimo_rule'
 require_relative 'mente_rule'
@@ -19,38 +19,6 @@ require_relative 'tele_rule'
 module Lemmas
   class LemmatizerCorga
     include Utils
-
-    module ClassMethods
-      include Utils
-
-      def lemmatize(word, tags)
-        @lemmatizer ||= LemmatizerCorga.new(@dw, seseo: !ENV['XIADA_SESEO'].nil?)
-        result = @lemmatizer.call(word, tags)
-        result&.any? ? result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } : []
-      end
-
-      # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
-      # Since this is a class method, we have to check the ENV variable again.
-      # All enclitics processing needs a refactor to work well with the new lemmatizer.
-      def lemmatize_verb_with_enclitics(left_part)
-        gheada_variants(left_part).flat_map do |gh_variant|
-          ss_variants = seseo_variants(gh_variant)
-          # Keep only the literal word (first) if XIADA_SESEO is not set
-          ss_variants = ss_variants.take(1) if ENV['XIADA_SESEO'].nil?
-          ss_variants.map { |s| enclitics_auto_rule(s) }
-        end
-      end
-
-      # Simplified auto rule that only works with strings
-      # Proper way to do it will be to use the same rules as in the lemmatizer, but this will require a huge refactor
-      def enclitics_auto_rule(left_part)
-        return left_part.delete_prefix('autor') if left_part.start_with?('autorr')
-        return left_part.delete_prefix('auto-') if left_part.start_with?('auto-')
-        return left_part.delete_prefix('auto') if left_part.start_with?('auto')
-
-        left_part
-      end
-    end
 
     def initialize(database_wrapper, gheada: true, seseo: false)
       @dw = database_wrapper
@@ -72,6 +40,33 @@ module Lemmas
       @multi_rule = MultiRule.new(@tags)
       @tele_rule = TeleRule.new(@tags)
     end
+
+    def lemmatize(word, tags)
+      result = call(word, tags)
+      result&.any? ? result.map { |r| [r.tag, r.lemma, r.hyperlemma, r.log_b] } : []
+    end
+
+    # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
+    # All enclitics processing needs a refactor to work well with the new lemmatizer.
+    def lemmatize_verb_with_enclitics(left_part)
+      gheada_variants(left_part).flat_map do |gh_variant|
+        ss_variants = seseo_variants(gh_variant)
+        # Keep only the literal word (first) if XIADA_SESEO is not set
+        ss_variants = ss_variants.take(1) if @seseo.nil?
+        ss_variants.map { |s| enclitics_auto_rule(s) }
+      end
+    end
+
+    # Simplified auto rule that only works with strings
+    # Proper way to do it will be to use the same rules as in the lemmatizer, but this will require a huge refactor
+    def enclitics_auto_rule(left_part)
+      return left_part.delete_prefix('autor') if left_part.start_with?('autorr')
+      return left_part.delete_prefix('auto-') if left_part.start_with?('auto-')
+      return left_part.delete_prefix('auto') if left_part.start_with?('auto')
+
+      left_part
+    end
+
 
     def call(word, tags)
       # If tags are not provided, use all possible tags

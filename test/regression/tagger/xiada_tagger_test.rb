@@ -2,22 +2,17 @@ require 'csv'
 require 'fileutils'
 require_relative '../../test_helper'
 
-def test_snapshots(database_name, input, output, tagger)
+def test_snapshots(database_name)
+  tagger = XiadaTagger.new
   CSV.foreach("#{__dir__}/#{database_name}.csv").map(&:first).each_with_index do |example, i|
     it "#{i}.csv #{example}" do
-      input.truncate(0)
-      input.rewind
-      input.puts(example)
-      input.rewind
-      output.truncate(0)
-      output.rewind
-      tagger.run
-      full_result = output.string
 
       # We are removing unit positions to be able to compare the result with previous snapshots
       # TODO: Incorporate unit positions in the snapshots when the tagger is more stable
       result = CSV.generate(col_sep: "\t", encoding: 'utf-8') do |csv|
-        CSV.parse(full_result, col_sep: "\t").each { |row| csv << row[0...-2] }
+        tagger.call(example).best_way.each do |token|
+          csv << token.values_at(:token, :tag, :lemma, :hiperlemma)
+        end
       end
 
       # Save current results as expected if ENV variable defined
@@ -38,10 +33,7 @@ describe 'XiadaTagger' do
     ENV['XIADA_DATABASE'] = 'galician_xiada_escrita'
     require_relative '../../../running/bin/xiada_tagger'
 
-    input = StringIO.new
-    output = StringIO.new
-    tagger = XiadaTagger.new(input, output, {})
-    test_snapshots('training_galician_xiada_escrita', input, output, tagger)
+    test_snapshots('training_galician_xiada_escrita')
   end
 
   describe 'spanish_eslora' do
@@ -49,9 +41,6 @@ describe 'XiadaTagger' do
     ENV['XIADA_DATABASE'] = 'spanish_eslora'
     require_relative '../../../running/bin/xiada_tagger'
 
-    input = StringIO.new
-    output = StringIO.new
-    tagger = XiadaTagger.new(input, output, {})
-    test_snapshots('training_spanish_eslora', input, output, tagger)
+    test_snapshots('training_spanish_eslora')
   end
 end

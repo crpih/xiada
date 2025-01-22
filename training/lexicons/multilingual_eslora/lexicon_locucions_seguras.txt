@@ -1,0 +1,858 @@
+a a custa de	X	a a custa de	a a custa de	s
+a cas de	X	a cas de	a cas de	s
+acerca de	X	acerca de	acerca de	s
+ácido acético	NCMS	ácido acético	ácido acético	s
+ácido acetilsalicílico	NCMS	ácido acetilsalicílico	ácido acetilsalicílico	s
+ácido acrílico	NCMS	ácido acrílico	ácido acrílico	s
+ácido barbitúrico	NCMS	ácido barbitúrico	ácido barbitúrico	s
+ácido bórico	NCMS	ácido bórico	ácido bórico	s
+ácido carbólico	NCMS	ácido carbólico	ácido carbólico	s
+ácido carbónico	NCMS	ácido carbónico	ácido carbónico	s
+ácido carboxílico	NCMS	ácido carboxílico	ácido carboxílico	s
+ácido cianhídrico	NCMS	ácido cianhídrico	ácido cianhídrico	s
+ácido ciánico	NCMS	ácido ciánico	ácido ciánico	s
+ácido cítrico	NCMS	ácido cítrico	ácido cítrico	s
+ácido clorhídrico	NCMS	ácido clorhídrico	ácido clorhídrico	s
+ácido desoxirribonucleico	NCMS	ácido desoxirribonucleico	ácido desoxirribonucleico	s
+ácido fénico	NCMS	ácido fénico	ácido fénico	s
+ácido fluorhídrico	NCMS	ácido fluorhídrico	ácido fluorhídrico	s
+ácido fólico	NCMS	ácido fólico	ácido fólico	s
+ácido fórmico	NCMS	ácido fórmico	ácido fórmico	s
+ácido gálico	NCMS	ácido gálico	ácido gálico	s
+ácido graxo	NCMS	ácido graxo	ácido graxo	s
+ácido iodhídrico	NCMS	ácido iodhídrico	ácido iodhídrico	s
+ácido nítrico	NCMS	ácido nítrico	ácido nítrico	s
+ácido nitroso	NCMS	ácido nitroso	ácido nitroso	s
+ácido ribonucleico	NCMS	ácido ribonucleico	ácido ribonucleico	s
+ácido selénico	NCMS	ácido selénico	ácido selénico	s
+ácido selenioso	NCMS	ácido selenioso	ácido selenioso	s
+ácido sulfúrico	NCMS	ácido sulfúrico	ácido sulfúrico	s
+ácido úrico	NCMS	ácido úrico	ácido úrico	s
+a desmano	W	a desmano
+a el chou	W	a el chou
+a expensas de	X	a expensas de	a expensas de	s
+a granel	W	a granel
+aire acondicionado	NCMS	aire acondicionado
+aire acondicionado	NCMS	aire acondicionado	aire acondicionado	s
+algor mortis	NCMS	algor mortis	algor mortis	s
+allo porro	NCMS	allo porro	allo porro	s
+allos porros	NCMP	allo porro	allo porro	s
+alma mater	NCFS	alma mater	alma máter	s
+alma máter	NCFS	alma máter	alma máter	s
+a lo mejor	W	a lo mejor
+alter ego	NCMP	alter ego	álter ego	s
+alter ego	NCMS	alter ego	álter ego	s
+álter ego	NCMS	álter ego	álter ego	s
+alter egos	NCMP	alter ego	álter ego	s
+alto dirixente	NCMS	alto dirixente	alto dirixente	n
+ama de casa	NCFS	amo de casa	amo de casa	s
+ama de chaves	NCFS	ama de chaves	ama de chaves	s
+ama de cría	NCFS	ama de cría	ama de cría	s
+ama de leite	NCFS	ama de leite	ama de leite	s
+ama de peito	NCFS	ama de peito	ama de peito	s
+amas de casa	NCFP	amo de casa	amo de casa	s
+amas de chaves	NCFP	ama de chaves	ama de chaves	s
+amas de cría	NCFP	ama de cría	ama de cría	s
+amas de leite	NCFP	ama de leite	ama de leite	s
+amas de peito	NCFP	ama de peito	ama de peito	s
+amo de casa	NCMS	amo de casa	amo de casa	s
+amos de casa	NCMP	amo de casa	amo de casa	s
+annus horribilis	NCMS	annus horribilis	annus horribilis	s
+annus mirabilis	NCMS	annus mirabilis	annus mirabilis	s
+ano luz	NCMS	ano luz	ano luz	s
+ano santo	NCMS	ano santo	ano santo	s
+anos luz	NCMP	ano luz	ano luz	s
+anos santos	NCMP	ano santo	ano santo	s
+anxina de peito	NCFS	anxina de peito	anxina de peito	s
+a o cabo de	X	a o cabo de	a o cabo de	s
+a partir de	X	a partir de	a partir de	s
+a partires de	X	a partires de	a partir de	n
+a pesar de	X	a pesar de	a pesar de	s
+a poder de	X	a poder de	a poder de	s
+a por de	X	a por de	a por de	s
+a posteriori	W	a posteriori
+a priori	W	a priori
+a raja tabla	W	a raja tabla
+a rajatabla	W	a rajatabla
+a regaña dientes	W	a regaña dientes
+a regañadientes	W	a regañadientes
+a rentes de	X	a rentes de	a rentes de	s
+arre demo	I	arre demo	arre demo	s
+ars amandi	NCFS	ars amandi	ars amandi	s
+ars amatoria	NCFS	ars amatoria	ars amatoria	s
+ars erotica	NCFS	ars erotica	ars erotica	s
+ars nova	NCFS	ars nova	ars nova	s
+art deco	AAS	art deco	art déco	s
+art decó	AAS	art decó	art déco	s
+art déco	AAS	art déco	art déco	s
+art deco	AEL	art deco	art déco	s
+art decó	AEL	art decó	art déco	s
+art déco	AEL	art déco	art déco	s
+art deco	AEP	art deco	art déco	s
+art decó	AEP	art decó	art déco	s
+art déco	AEP	art déco	art déco	s
+art deco	AES	art deco	art déco	s
+art decó	AES	art decó	art déco	s
+art déco	AES	art déco	art déco	s
+art deco	AFL	art deco	art déco	s
+art decó	AFL	art decó	art déco	s
+art déco	AFL	art déco	art déco	s
+art deco	AFP	art deco	art déco	s
+art decó	AFP	art decó	art déco	s
+art déco	AFP	art déco	art déco	s
+art deco	AFS	art deco	art déco	s
+art decó	AFS	art decó	art déco	s
+art déco	AFS	art déco	art déco	s
+art deco	AMS	art deco	art déco	s
+art decó	AMS	art decó	art déco	s
+art déco	AMS	art déco	art déco	s
+art deco	ANS	art deco	art déco	s
+art decó	ANS	art decó	art déco	s
+art déco	ANS	art déco	art déco	s
+art deco	NCMS	art deco	art déco	s
+art decó	NCMS	art decó	art déco	s
+art déco	NCMS	art déco	art déco	s
+art nouveau	NCMS	art nouveau	art nouveau	s
+a sabiendas	W	a sabiendas
+a son de	X	a son de	a son de	s
+a teor de	X	a teor de	a teor de	s
+a traverso de	X	a traverso de	a través de	n
+através de	X	através de	a través de	n
+a través de	X	a través de	a través de	s
+a traveso de	X	a traveso de	a través de	n
+a través	W	a través
+au pair	NCEL	au pair
+au pair	NCEP	au pair
+au pair	NCES	au pair
+au pair	NCFP	au pair
+au pair	NCFS	au pair
+au pair	NCMP	au pair
+au pair	NCMS	au pair
+au pairs	NCEP	au pair
+au pairs	NCFP	au pair
+au pairs	NCMP	au pair
+ave fénix	NCFS	ave fénix
+ave fénix	NCFS	ave fénix	ave Fénix	n
+ave Fénix	NCFS	ave Fénix	ave Fénix	s
+a xeito de	X	a xeito de	a xeito de	s
+axente secreta	NCFS	axente secreto	axente secreto	s
+axente secreto	NCMS	axente secreto	axente secreto	s
+axentes secretas	NCFP	axente secreto	axente secreto	s
+axentes secretos	NCMP	axente secreto	axente secreto	s
+a xuízo de	X	a xuízo de	a xuízo de	n
+a xunto de	X	a xunto de	xunto de	s
+azul celeste	AAS	azul celeste	azul celeste	s
+azul celeste	AES	azul celeste	azul celeste	s
+azul celeste	AFS	azul celeste	azul celeste	s
+azul celeste	AMS	azul celeste	azul celeste	s
+azul celeste	ANS	azul celeste	azul celeste	s
+azul celeste	NCMS	azul celeste	azul celeste	s
+azul cobalto	AAS	azul cobalto	azul cobalto	s
+azul cobalto	AES	azul cobalto	azul cobalto	s
+azul cobalto	AFS	azul cobalto	azul cobalto	s
+azul cobalto	AMS	azul cobalto	azul cobalto	s
+azul cobalto	ANS	azul cobalto	azul cobalto	s
+azul cobalto	NCMS	azul cobalto	azul cobalto	s
+azul mariño	AAS	azul mariño	azul mariño	s
+azul mariño	AES	azul mariño	azul mariño	s
+azul mariño	AFS	azul mariño	azul mariño	s
+azul mariño	AMS	azul mariño	azul mariño	s
+azul mariño	ANS	azul mariño	azul mariño	s
+azul mariño	NCMS	azul mariño	azul mariño	s
+azul turquesa	AAS	azul turquesa	azul turquesa	s
+azul turquesa	AES	azul turquesa	azul turquesa	s
+azul turquesa	AFS	azul turquesa	azul turquesa	s
+azul turquesa	AMS	azul turquesa	azul turquesa	s
+azul turquesa	ANS	azul turquesa	azul turquesa	s
+azul turquesa	NCMS	azul turquesa	azul turquesa	s
+baño maría	NCMS	baño maría	baño maría	n
+bardante de	X	bardante de	bardante de	s
+base de datos	NCFS	base de datos	base de datos	s
+base impoñible	NCFS	base impoñible	base impoñible	s
+bases de datos	NCFP	base de datos	base de datos	s
+bases impoñibles	NCFP	base impoñible	base impoñible	s
+beatus ille	NCMS	beatus ille	beatus ille	s
+bel canto	NCMS	bel canto
+best seller	AAS	best seller	best-séller	n
+best seller	AES	best seller	best-séller	n
+best seller	AFS	best seller	best-séller	n
+best seller	AMS	best seller	best-séller	n
+best seller	ANS	best seller	best-séller	n
+best seller	NCML	best seller
+best seller	NCMP	best seller
+best seller	NCMS	best seller
+best seller	NCMS	best seller	best-séller	n
+best sellers	AEP	best seller	best-séller	n
+best sellers	AFP	best seller	best-séller	n
+best sellers	NCMP	best seller
+best sellers	NCMP	best seller	best-séller	n
+black bass	NCML	black bass
+black bass	NCMP	black bass
+black bass	NCMS	black bass
+blue jeans	NCMP	blue jeans
+blue jeans	NCMS	blue jeans
+bossa nova	NCFS	bossa nova
+bossa nova	NCFS	bossa nova	bossa nova	s
+boy scout	NCEL	boy scout
+boy scout	NCEP	boy scout
+boy scout	NCES	boy scout
+boy scout	NCFP	boy scout
+boy scout	NCFS	boy scout
+boy scout	NCMP	boy scout
+boy scout	NCMS	boy scout
+boy scouts	NCEP	boy scout
+boy scouts	NCFP	boy scout
+boy scouts	NCMP	boy scout
+cabaliño de mar	NCMS	cabalo de mar	cabalo de mar	s
+cabaliño do demo	NCMS	cabalo do demo	cabalo do demo	s
+cabaliños de mar	NCMP	cabalo de mar	cabalo de mar	s
+cabaliños do demo	NCMP	cabalo do demo	cabalo do demo	s
+cabalo de mar	NCMS	cabalo de mar	cabalo de mar	s
+cabalo de vapor	NCMS	cabalo de vapor	cabalo de vapor	s
+cabalo do demo	NCMS	cabalo do demo	cabalo do demo	s
+cabalos de mar	NCMP	cabalo de mar	cabalo de mar	s
+cabalos de vapor	NCMP	cabalo de vapor	cabalo de vapor	s
+cabalos do demo	NCMP	cabalo do demo	cabalo do demo	s
+cable USB	NCMS	cable USB	cable USB	s
+cada cal	PNES	cada cal	cada cal	s
+cada cal	PNFS	cada cal	cada cal	s
+cada cal	PNMS	cada cal	cada cal	s
+cada cual	PNMS	cada cual
+cada quen	PNFS	cada quen	cadaquén	s
+cada quen	PNMS	cada quen	cadaquén	s
+cada unha	PNFS	cada un	cada un	s
+cada un	PNMS	cada un	cada un	s
+cante hondo	NCMS	cante hondo	cante hondo	n
+cante jondo	NCMS	cante jondo	cante hondo	n
+capitáns xenerais	NCMP	capitán xeneral	capitán xeneral	s
+capitán xeneral	NCMS	capitán xeneral	capitán xeneral	s
+captatio benevolentiae	NCFS	captatio benevolentiae	captatio benevolentiae	s
+carpe diem	NCMS	carpe diem	carpe diem	s
+carril bici	NCMS	carril bici
+carriles bici	NCMP	carril bici
+cas de	X	cas de	cas de	s
+case study	NCMS	case study
+casus belli	NCMS	casus belli	casus belli	s
+ceo da boca	NCMS	ceo da boca	ceo da boca	s
+ceu da boca	NCMS	ceu da boca	ceo da boca	s
+chaise longue	NCFS	chaise longue	chaise longue	n
+chaleco antibalas	NCMS	chaleco antibalas	chaleco antibalas	s
+chaleco salvavidas	NCMS	chaleco salvavidas	chaleco salvavidas	s
+chalecos antibalas	NCMP	chaleco antibalas	chaleco antibalas	s
+chalecos salvavidas	NCMP	chaleco salvavidas	chaleco salvavidas	s
+chan chan chan	I	chan chan chan
+chunda chunda	NCML	chunda chunda
+chunda chunda	NCMP	chunda chunda
+chunda chunda	NCMS	chunda chunda
+chunda chundas	NCMP	chunda chunda
+chupa chups	NCML	chupa chups
+chupa chups	NCMP	chupa chups
+chupa chups	NCMS	chupa chups
+cimpo	VIP1S	cimpar
+cloud computing	NCFS	cloud computing	cloud computing	n
+cloud computing	NCMS	cloud computing	cloud computing	n
+coca cola	NCFS	coca cola	coca cola	s
+coche bomba	NCMS	coche bomba
+coche bomba	NCMS	coche bomba	coche bomba	s
+coche de liña	NCMS	coche de liña	coche de liña	s
+coche de línea	NCMS	coche de línea
+coche de línea	NCMS	coche de línea	coche de liña	n
+coches bomba	NCMP	coche bomba
+coches bomba	NCMP	coche bomba	coche bomba	s
+coches de línea	NCMP	coche de línea
+codia cerebral	NCFS	codia cerebral	codia cerebral	s
+codia suprarrenal	NCFS	codia suprarrenal	codia suprarrenal	s
+codia terrrestre	NCFS	codia terrrestre	codia terrrestre	s
+coitus interruptus	NCMP	coitus interruptus	coitus interruptus	n
+coitus interruptus	NCMS	coitus interruptus	coitus interruptus	n
+conditio sine qua non	NCFS	conditio sine qua non	conditio sine qua non	s
+con o gallo de	X	con o gallo de	con o gallo de	s
+con relación a	X	con relación a	con relación a	s
+constantes vitais	NCFP	constantes vitais	constantes vitais	s
+contra natura	AAS	contra natura	contra natura	s
+contra natura	AEL	contra natura	contra natura	s
+contra natura	AEP	contra natura	contra natura	s
+contra natura	AES	contra natura	contra natura	s
+contra natura	AFL	contra natura	contra natura	s
+contra natura	AFP	contra natura	contra natura	s
+contra natura	AFS	contra natura	contra natura	s
+contra natura	AMS	contra natura	contra natura	s
+contra natura	ANS	contra natura	contra natura	s
+controis remoto	NCMP	control remoto	control remoto	s
+control remoto	NCMS	control remoto	control remoto	s
+correo electrónico	NCMS	correo electrónico	correo electrónico	s
+correos electrónicos	NCMP	correo electrónico	correo electrónico	s
+corre que te corre	W	corre que te corre
+corta feira	NCFS	corta feira	corta feira	s
+cortas feiras	NCFP	corta feira	corta feira	s
+couto redondo	NCMS	couto redondo	couto redondo	s
+coutos redondos	NCMP	couto redondo	couto redondo	s
+cuarto de aseo	NCMS	cuarto de aseo	cuarto de aseo	s
+cuarto de baño	NCMS	cuarto de baño	cuarto de baño	s
+cum_laude	AAS	cum_laude	cum_laude	s
+cum_laude	AEL	cum_laude	cum_laude	s
+cum_laude	AEP	cum_laude	cum_laude	s
+cum_laude	AES	cum_laude	cum_laude	s
+cum_laude	AFL	cum_laude	cum_laude	s
+cum_laude	AFP	cum_laude	cum_laude	s
+cum_laude	AFS	cum_laude	cum_laude	s
+cum_laude	AMS	cum_laude	cum_laude	s
+cum_laude	ANS	cum_laude	cum_laude	s
+curriculum vitae	NCMS	curriculum vitae	currículum vítae	n
+currículum vitae	NCMS	currículum vitae	currículum vítae	n
+currículum vítae	NCMS	currículum vítae	currículum vítae	s
+de acordo con	X	de acordo con	de acordo con	s
+de antemano	W	de antemano
+de carallada	W	de carallada
+de cas de	X	de cas de	de cas de	s
+decreto lei	NCMS	decreto lei	decreto lei	s
+decretos lei	NCMP	decreto lei	decreto lei	s
+déjà vu	NCMS	déjà vu	déjà vu	n
+déjà vus	NCMP	déjà vu	déjà vu	n
+delirium tremens	NCMP	delirium tremens	delírium tremens	n
+delírium tremens	NCMP	delírium tremens	delírium tremens	s
+delirium tremens	NCMS	delirium tremens	delírium tremens	n
+delírium tremens	NCMS	delírium tremens	delírium tremens	s
+delta de lava	NCFS	delta de lava	delta de lava	s
+delta lávico	NCMS	delta lávico	delta lávico	s
+deltas de lava	NCFP	delta de lava	delta de lava	s
+deltas lávicos	NCMP	delta lávico	delta lávico	s
+de Pascuas en viernes	W	de Pascuas en viernes
+de puta madre	AAS	de puta madre	de puta madre	n
+de puta madre	AEL	de puta madre	de puta madre	n
+de puta madre	AEP	de puta madre	de puta madre	n
+de puta madre	AES	de puta madre	de puta madre	n
+de puta madre	AFL	de puta madre	de puta madre	n
+de puta madre	AFP	de puta madre	de puta madre	n
+de puta madre	AFS	de puta madre	de puta madre	n
+de puta madre	AMS	de puta madre	de puta madre	n
+de puta madre	ANS	de puta madre	de puta madre	n
+de puta madre	W	de puta madre
+de putísima madre	AAS	de puta madre	de puta madre	n
+de putísima madre	AEL	de puta madre	de puta madre	n
+de putísima madre	AEP	de puta madre	de puta madre	n
+de putísima madre	AES	de puta madre	de puta madre	n
+de putísima madre	AFL	de puta madre	de puta madre	n
+de putísima madre	AFP	de puta madre	de puta madre	n
+de putísima madre	AFS	de puta madre	de puta madre	n
+de putísima madre	AMS	de puta madre	de puta madre	n
+de putísima madre	ANS	de puta madre	de puta madre	n
+de putísima madre	W	de putísima madre
+de refilón	W	de refilón
+diabete mellitus	NCFS	diabete mellitus	diabetes mellitus	n
+día santo	NCMS	día santo	día santo	s
+días santos	NCMP	día santo	día santo	s
+Dios mío	I	Dios mío
+Dios mío	I	Dios mío	meu Deus	n
+disc jockey	NCMS	disc jockey
+disc jockeys	NCMP	disc jockey
+disco duro	NCMS	disco duro	disco duro	s
+discos duros	NCMP	disco duro	disco duro	s
+doble uve	NCFS	doble uve
+dolce far niente	NCMS	dolce far niente	dolce far niente	n
+duty free	NCMS	duty free
+efecto invernadeiro	NCMS	efecto invernadeiro	efecto invernadoiro	s
+efecto invernadoiro	NCMS	efecto invernadoiro	efecto invernadoiro	s
+efectos invernadoiro	NCMP	efecto invernadoiro	efecto invernadoiro	s
+el cual	PLMS	el cual
+en cas de	X	en cas de	en cas de	s
+encefalopatía esponxiforme bovina	NCFS	encefalopatía esponxiforme bovina	encefalopatía esponxiforme bovina	n
+encol de	X	encol de	encol de	s
+en función de	X	en función de	en función de	s
+en lugar de	X	en lugar de	en lugar de	s
+en materia de	X	en materia de	en materia de	s
+en o tocante a	X	en o tocante a	tocante a	s
+en plan	W	en plan
+en regla	AAS	en regla	en regra	n
+en regla	AEL	en regla	en regra	n
+en regla	AEP	en regla	en regra	n
+en regla	AES	en regla	en regra	n
+en regla	AFL	en regla	en regra	n
+en regla	AFP	en regla	en regra	n
+en regla	AFS	en regla	en regra	n
+en regla	AMS	en regla	en regra	n
+en regla	ANS	en regla	en regra	n
+en regra	AAS	en regra	en regra	s
+en regra	AEL	en regra	en regra	s
+en regra	AEP	en regra	en regra	s
+en regra	AES	en regra	en regra	s
+en regra	AFL	en regra	en regra	s
+en regra	AFP	en regra	en regra	s
+en regra	AFS	en regra	en regra	s
+en regra	AMS	en regra	en regra	s
+en regra	ANS	en regra	en regra	s
+en relación con	X	en relación con	en relación con	s
+en seguidita	W	en seguida
+en vez de	X	en vez de	en vez de	s
+en vilo	W	en vilo
+en virtude de	X	en virtude de	en virtude de	s
+escontra de	X	escontra de	contra de	s
+ex-alto cargo	NCMS	ex-alto cargo	ex-alto cargo	n
+ex-alto dirixente	NCMS	ex-alto dirixente	ex alto dirixente	n
+ex-altos cargos	NCMP	ex-alto cargo	ex-alto cargo	n
+ex-Conselleiro	NCMS	ex-conselleiro	exconselleiro	n
+ex-garda civil	NCFS	ex-garda civil	ex-garda civil	s
+ex-garda civil	NCMS	ex-garda civil	ex-garda civil	s
+ex-gran rabino	NCMS	ex-gran rabino	ex-gran rabino	n
+ex libris	NCMP	ex libris	ex libris	s
+ex libris	NCMS	ex libris	ex libris	n
+ex libris	NCMS	ex libris	ex libris	s
+ex primeira ministra	NCFS	ex primeiro ministro	ex primeiro ministro	s
+ex primeiras ministras	NCFP	ex primeiro ministro	ex primeiro ministro	s
+ex-primeiro ministro	NCMS	ex-primeiro ministro	ex primeiro ministro	n
+ex primeiro ministro	NCMS	ex primeiro ministro	ex primeiro ministro	s
+ex primeiros ministros	NCMP	ex primeiro ministro	ex primeiro ministro	s
+ex-secretarias xerais	NCFP	ex-secretario xeral	ex secretario xeral	n
+ex-secretaria xeral	NCFS	ex-secretario xeral	ex secretario xeral	n
+ex-secretarios xerais	NCMP	ex-secretario xeral	ex secretario xeral	n
+ex-secretario xeral	NCMS	ex-secretario xeral	ex secretario xeral	n
+extrema unción	NCFS	extrema unción	extremaunción	n
+folla de lata	NCFS	folla de lata	folla de lata	s
+Full HD	NPEL	Full High Definition
+fútbol sala	NCMS	fútbol sala
+fútbol sala	NCMS	fútbol sala	fútbol sala	s
+garda civil	NCFS	garda civil	garda civil	s
+garda civil	NCMS	garda civil	garda civil	s
+gardas civís	NCFP	garda civil	garda civil	s
+gardas civís	NCMP	garda civil	garda civil	s
+genius loci	NCMS	genius loci	genius loci	s
+glándula de Bartholin	NCFS	glándula de Bartholin	glándula de Bartholin	s
+glándula dixestiva	NCFS	glándula dixestiva	glándula dixestiva	s
+glándula lacrimal	NCFP	glándula lacrimal	glándula lacrimal	s
+glándula mamaria	NCFS	glándula mamaria	glándula mamaria	s
+glándula pineal	NCFS	glándula pineal	glándula pineal	s
+glándula pituitaria	NCFS	glándula pituitaria	glándula pituitaria	s
+glándula prostática	NCFS	glándula prostática	glándula prostática	s
+glándula salivar	NCFS	glándula salivar	glándula salivar	s
+glándulas dixestivas	NCFP	glándula dixestiva	glándula dixestiva	s
+glándula sebácea	NCFS	glándula sebácea	glándula sebácea	s
+glándulas lacrimais	NCFP	glándula lacrimal	glándula lacrimal	s
+glándulas mamarias	NCFP	glándula mamaria	glándula mamaria	s
+glándulas salivais	NCFP	glándula salival	glándula salivar	n
+glándulas salivares	NCFP	glándula salivar	glándula salivar	s
+glándulas sebáceas	NCFP	glándula sebácea	glándula sebácea	s
+glándulas sudoríparas	NCFP	glándula sudorípara	glándula sudorípara	s
+glándulas suprarrenais	NCFP	glándula suprarrenal	glándula suprarrenal	s
+glándula sudorípara	NCFS	glándula sudorípara	glándula sudorípara	s
+glándula suprarrenal	NCFS	glándula suprarrenal	glándula suprarrenal	s
+glándula tiroide	NCFS	glándula tiroide	glándula tiroide	s
+glándula tiroides	NCFS	glándula tiroides	glándula tiroide	s
+goma de borrar	NCFS	goma de borrar	goma de borrar	n
+goma de mascar	NCFS	goma de mascar	goma de mascar	n
+gomas de borrar	NCFP	goma de borrar	goma de borrar	n
+gomas de mascar	NCFP	goma de mascar	goma de mascar	n
+graxa hidroxenada	NCFS	graxa hidroxenada	graxa hidroxenada	s
+graxa insaturada	NCFS	graxa insaturada	graxa insaturada	s
+graxa monoinsaturada	NCFS	graxa monoinsaturada	graxa monoinsaturada	s
+graxa poliinsaturada	NCFS	graxa poliinsaturada	graxa poliinsaturada	s
+graxa polisaturada	NCFS	graxa polisaturada	graxa polisaturada	s
+graxa saturada	NCFS	graxa saturada	graxa saturada	s
+graxas hidroxenadas	NCFP	graxa hidroxenada	graxa hidroxenada	s
+graxas insaturadas	NCFP	graxa insaturada	graxa insaturada	s
+graxas monoinsaturadas	NCFP	graxa monoinsaturada	graxa monoinsaturada	s
+graxas poliinsaturadas	NCFP	graxa poliinsaturada	graxa poliinsaturada	s
+graxas polisaturadas	NCFP	graxa polisaturada	graxa polisaturada	s
+graxas saturadas	NCFP	graxa saturada	graxa saturada	s
+graxas trans	NCFP	graxa trans	graxa trans	s
+graxa trans	NCFS	graxa trans	graxa trans	s
+grosso modo	W	grosso modo
+hábeas corpus	NCMP	hábeas corpus	hábeas corpus	s
+hábeas corpus	NCMS	hábeas corpus	hábeas corpus	s
+hat trick	NCMS	hat trick	hat trick	n
+hip hop	NCMS	hip hop	hip-hop	s
+home cinema	NCMS	home cinema	home cinema	n
+homo faber	NCMP	homo faber	homo fáber	s
+homo fáber	NCMP	homo fáber	homo fáber	s
+homo faber	NCMS	homo faber	homo fáber	s
+homo fáber	NCMS	homo fáber	homo fáber	s
+homo sapiens	NCMP	homo sapiens	homo sapiens	s
+homo sapiens	NCMS	homo sapiens	homo sapiens	s
+homo sapiens sapiens	NCMP	homo sapiens sapiens	homo sapiens sapiens	s
+homo sapiens sapiens	NCMS	homo sapiens sapiens	homo sapiens sapiens	s
+hora extra	NCFS	hora extra	hora extraordinaria	s
+hora extraordinaria	NCFS	hora extraordinaria	hora extraordinaria	s
+hora punta	NCFS	hora punta	hora punta	s
+horas extra	NCFP	hora extra	hora extraordinaria	s
+horas extraordinarias	NCFP	hora extraordinaria	hora extraordinaria	s
+horas extras	NCFP	hora extra	hora extraordinaria	s
+horas punta	NCFP	hora punta	hora punta	s
+horror vacui	NCMS	horror vacui	horror vacui	s
+Iberia Express	NPEL	Iberia Express
+i grego	NCMS	i grego	i grego	s
+i griega	NCFS	i griega
+i latina	NCFS	i latina
+in albis	W	in albis
+in crescendo	W	in crescendo
+in fraganti	W	in fraganti
+in situ	W	in situ
+jamón de york	NCMS	jamón de york
+jam session	NCFS	jam session	jam session	n
+Kirie eleisón	NCMS	Kirie eleisón	kyrieleison	n
+Kyrie eleison	NCMS	Kyrie eleison	kyrieleison	n
+la cual	PLFS	el cual
+laissez faire	NCMS	laissez faire	laissez faire	n
+land art	NCFS	land art	land art	n
+lapsus linguae	NCMS	lapsus linguae	lapsus linguae	s
+lapsus memoriae	NCMS	lapsus memoriae	lapsus memoriae	s
+larva migrans	NCFS	larva migrans	larva migrans	s
+las cuales	PLFP	el cual
+leit motiv	NCMP	leit motiv	leitmotiv	n
+leit motiv	NCMS	leit motiv	leitmotiv	n
+liberdade condicional	NCFS	liberdade condicional	liberdade condicional	s
+libertade condicional	NCFS	libertade condicional	liberdade condicional	n
+lignum crucis	NCMS	lignum crucis	lignum crucis	s
+lo cual	PLNS	el cual
+locus amenus	NCMP	locus amenus	locus amoenus	n
+locus amenus	NCMS	locus amenus	locus amoenus	n
+locus amoenus	NCMP	locus amoenus	locus amoenus	s
+locus amoenus	NCMS	locus amoenus	locus amoenus	s
+los cuales	PLMP	el cual
+lotaría primitiva	NCFS	lotaría primitiva	lotaría primitiva	s
+lotería primitiva	NCFS	lotería primitiva	lotaría primitiva	s
+macho alfa	NCMS	macho alfa	macho alfa	n
+machos alfa	NCMP	macho alfa	macho alfa	n
+manda carallo	I	manda carallo	manda carallo	s
+mandos a distancia	NCMP	mando a distancia	mando a distancia	s
+marrón glacé	NCMS	marrón glacé	marron glacé	n
+martiño peixeiro	NCMS	martiño peixeiro	martiño peixeiro	n
+martiños peixeiros	NCMP	martiño peixeiro	martiño peixeiro	n
+mass media	NCMP	mass media	mass media	s
+máster class	NCMP	máster class
+máster class	NCMS	máster class
+mater dolorosa	NCFS	mater dolorosa	mater dolorosa	s
+matraz erlenmeier	NCMS	matraz erlenmeier	matraz de Erlenmeyer	n
+matraz Erlenmeier	NCMS	matraz Erlenmeier	matraz de Erlenmeyer	n
+mea culpa	NCMS	mea culpa	mea culpa	s
+media star	NCFS	media star	media star	n
+media stars	NCFP	media star	media star	n
+memorias USB	NCFP	memoria USB	memoria USB	s
+memoria USB	NCFS	memoria USB	memoria USB	s
+ménage á trois	NCMS	ménage á trois
+ménage a trois	NCMS	ménage a trois	ménage à trois	n
+ménage à trois	NCMS	ménage à trois	ménage à trois	n
+meritisimus	NCMS	meritisimus 
+mesa redonda	NCFS	mesa redonda	mesa redonda	s
+mesas redondas	NCFP	mesa redonda	mesa redonda	s
+mi madriña	I	mi madriña
+modus operandi	NCML	modus operandi
+modus operandi	NCMP	modus operandi
+modus operandi	NCMS	modus operandi
+modus operandi	NCMS	modus operandi	modus operandi	s
+modus vivendi	NCMS	modus vivendi	modus vivendi	s
+mortis causa	AAS	mortis causa	mortis causa	s
+mortis causa	AEL	mortis causa	mortis causa	s
+mortis causa	AEP	mortis causa	mortis causa	s
+mortis causa	AES	mortis causa	mortis causa	s
+mortis causa	AFL	mortis causa	mortis causa	s
+mortis causa	AFP	mortis causa	mortis causa	s
+mortis causa	AFS	mortis causa	mortis causa	s
+mortis causa	AMS	mortis causa	mortis causa	s
+mortis causa	ANS	mortis causa	mortis causa	s
+motu proprio	W	motu proprio
+mountain bike	NCMS	mountain bike
+music hall	NCMS	music hall
+music halls	NCMP	music hall
+noite de voda	NCFS	noite de voda	noite de vodas	n
+noite de vodas	NCFS	noite de vodas	noite de vodas	n
+noites de voda	NCFP	noite de voda	noite de vodas	n
+noites de vodas	NCFP	noite de vodas	noite de vodas	n
+no obstante	W	no obstante
+nouveau roman	NCMS	nouveau roman	nouveau roman	s
+on line	W	on line
+open source	NCMS	open source	open source	n
+ourizo cacheiro	NCMS	ourizo cacheiro	ourizo cacheiro	n
+ourizo cacho	NCMS	ourizo cacho	ourizo cacho	n
+ourizo de mar	NCMS	ourizo de mar	ourizo de mar	n
+ourizos cacheiros	NCMP	ourizo cacheiro	ourizo cacheiro	n
+ourizos cachos	NCMP	ourizo cacho	ourizo cacho	n
+ourizos de mar	NCMP	ourizo de mar	ourizo de mar	n
+paga extra	NCFS	paga extra	paga extraordinaria	s
+paga extraordinaria	NCFS	paga extraordinaria	paga extraordinaria	s
+pagas extra	NCFP	paga extra	paga extraordinaria	s
+pagas extraordinarias	NCFP	paga extraordinaria	paga extraordinaria	s
+pagas extras	NCFP	paga extra	paga extraordinaria	s
+panem et circenses	NCMS	panem et circenses
+pasarlas canutas	VNP	pasarlas canutasDies irae	NCMS	Dies irae	dies irae	n
+pater noster	NCMS	pater noster	pater noster	n
+pay per view	NCMS	pay per view	pay per view	n
+pecata minuta	NCFS	pecata minuta	peccata minuta	n
+peccata minuta	NCFS	peccata minuta	peccata minuta	s
+pen drive	NCMS	pen drive	pen drive	n
+per cápita	W	per cápita
+pesia a	X	pesia a	pese a	n
+pesie a	X	pesie a	pese a	n
+petit suisse	NCML	petit suisse
+petit suisse	NCMP	petit suisse
+petit suisse	NCMS	petit suisse
+petit suisses	NCMP	petit suisse
+pit bull	NCMS	pit bull
+pit bull terrier	NCMS	pit bull terrier
+play back	NCMS	play back	playback	n
+ponto cardinal	NCMS	ponto cardinal	punto cardinal	n
+ponto de mira	NCMS	ponto de mira	punto de mira	n
+ponto de vista	NCMS	ponto de vista	punto de vista	n
+ponto final	NCMS	ponto final	punto final	n
+pontos cardinais	NCMP	ponto cardinal	punto cardinal	n
+pontos de mira	NCMP	ponto de mira	punto de mira	n
+pontos de vista	NCMP	ponto de vista	punto de vista	n
+pop art	NCMS	pop art	pop art	s
+por causa de	X	por causa de	por causa de	s
+porco bravo	NCMS	porco bravo	porco bravo	n
+porco espiño	NCMS	porco espiño	porco espiño	n
+porco teixo	NCMS	porco teixo	porco teixo	n
+por medio de	X	por medio de	por medio de	s
+por meo de	X	por meo de	por medio de	n
+por mor de	X	por mor de	por mor de	s
+post scriptum	NCMS	post scriptum	post scriptum	s
+primeira ministra	NCFS	primeiro ministro	primeiro ministro	s
+primeiras ministras	NCFP	primeiro ministro	primeiro ministro	s
+primeiro ministro	NCMS	primeiro ministro	primeiro ministro	s
+primeiros ministros	NCMP	primeiro ministro	primeiro ministro	s
+prime time	NCMS	prime time	prime time	n
+primus inter pares	AAS	primus inter pares	primus inter pares	s
+primus inter pares	AES	primus inter pares	primus inter pares	s
+primus inter pares	AFS	primus inter pares	primus inter pares	s
+primus inter pares	AMS	primus inter pares	primus inter pares	s
+primus inter pares	ANS	primus inter pares	primus inter pares	s
+primus inter pares	NCMS	primus inter pares	primus inter pares	s
+punto cardinal	NCMS	punto cardinal	punto cardinal	s
+punto crítico	NCMS	punto crítico	punto crítico	s
+punto de cruz	NCMS	punto de cruz	punto de cruz	s
+punto de mira	NCMS	punto de mira	punto de mira	s
+punto de neve	NCMS	punto de neve	punto de neve	s
+punto de vista	NCMS	punto de vista	punto de vista	s
+punto e aparte	NCMS	punto e aparte	punto e á parte	n
+punto e á parte	NCMS	punto e á parte	punto e á parte	s
+punto e seguido	NCMS	punto e seguido	punto e seguido	s
+punto final	NCMS	punto final	punto final	s
+punto morto	NCMS	punto morto	punto morto	s
+punto pelota	I	punto pelota
+punto quilométrico	NCMS	punto quilométrico	punto quilométrico	s
+puntos cardinais	NCMP	punto cardinal	punto cardinal	s
+puntos críticos	NCMP	punto crítico	punto crítico	s
+puntos de mira	NCMP	punto de mira	punto de mira	s
+puntos de vista	NCMP	punto de vista	punto de vista	s
+puntos e á parte	NCMP	punto e á parte	punto e á parte	s
+puntos e seguido	NCMP	punto e seguido	punto e seguido	s
+puntos finais	NCMP	punto final	punto final	s
+puntos quilométricos	NCMP	punto quilométrico	punto quilométrico	s
+puntos suspensivos	NCMP	puntos suspensivos	puntos suspensivos	s
+quecemento global	NCMS	quecemento global	quecemento global	s
+quid pro quo	NCMS	quid pro quo	quid pro quo	s
+rara avis	NCFS	rara avis	rara avis	s
+reality show	NCMS	reality show	reality show	n
+reality shows	NCMP	reality show	reality show	n
+regra de tres	NCFS	regra de tres	regra de tres	s
+regras de tres	NCFP	regra de tres	regra de tres	s
+rente de	X	rente de	rentes de	s
+rentes de	X	rentes de	rentes de	s
+requiescat in pace	NCMS	requiescat in pace
+res cogitans	NCFS	res cogitans	res cogitans	s
+res extensa	NCFS	res extensa	res extensa	s
+res publica	NCFS	res publica	res publica	s
+rigor mortis	NCMS	rigor mortis	rigor mortis	s
+road movie	NCFS	road movie
+road movies	NCFP	road movie
+roast beef	NCMS	roast beef	rosbif	n
+rock and roll	NCML	rock and roll
+rock and roll	NCMP	rock and roll
+rock and roll	NCMS	rock and roll
+ruxe ruxe	NCMS	ruxe ruxe	ruxerruxe	n
+sancta sanctorum	NCMS	sancta sanctorum	sancta sanctórum	s
+sancta sanctórum	NCMS	sancta sanctórum	sancta sanctórum	s
+san martiño	NCMS	san martiño	sanmartiño	n
+sapo concho	NCMS	sapo concho	sapoconcho	n
+savoir faire	NCMS	savoir faire	savoir faire	n
+secretarías xerais	NCFP	secretaría xeral	secretaría xeral	s
+secretarias xerais	NCFP	secretario xeral	secretario xeral	s
+secretaría xeral	NCFS	secretaría xeral	secretaría xeral	s
+secretaria xeral	NCFS	secretario xeral	secretario xeral	s
+secretarios xerais	NCMP	secretario xeral	secretario xeral	s
+secretario xeral	NCMS	secretario xeral	secretario xeral	s
+segundas intencións	NCFP	segundas intencións	segundas intencións	s
+silencio administrativo	NCMS	silencio administrativo	silencio administrativo	s
+silencios administrativos	NCMP	silencio administrativo	silencio administrativo	s
+sine die	W	sine die
+smart cities	NCFP	smart city	smart city	n
+smart city	NCFS	smart city	smart city	n
+sobor de	X	sobor de	sobre de	s
+sóbor de	X	sóbor de	sobre de	s
+spin off	NCFP	spin off	spin-off	n
+spin off	NCFS	spin off	spin-off	n
+star system	NCMS	star system	star system	n
+start up	NCFP	start up	start-up	n
+start up	NCFS	start up	start-up	n
+statu quo	NCMS	statu quo	statu quo	n
+status quo	NCMS	status quo	statu quo	n
+street art	NCMS	street art	street art	s
+sui géneris	AAS	sui géneris	sui géneris	n
+sui géneris	AES	sui géneris	sui géneris	n
+sui géneris	AFS	sui géneris	sui géneris	n
+sui géneris	AMS	sui géneris	sui géneris	n
+sui géneris	ANS	sui géneris	sui géneris	n
+talent show	NCMS	talent show	talent show	n
+talk show	NCMS	talk show	talk show	n
+tarifa plana	NCFS	tarifa plana	tarifa plana	s
+tarifas planas	NCFP	tarifa plana	tarifa plana	s
+tax lease	NCMS	tax lease	tax lease	n
+tea de araña	NCFS	tea de araña	tea de araña	s
+teas de araña	NCFP	tea de araña	tea de araña	s
+te deum	NCMS	te deum	te deum	s
+tenente de alcalde	NCFS	tenente de alcalde	tenente de alcalde	n
+tenente de alcalde	NCMS	tenente de alcalde	tenente de alcalde	n
+tenentes de alcalde	NCFP	tenente de alcalde	tenente de alcalde	n
+tenentes de alcalde	NCMP	tenente de alcalde	tenente de alcalde	n
+terceira idade	NCFS	terceira idade	terceira idade	s
+terminus post quem	NCMS	terminus post quem	terminus post quem	s
+terza feira	NCFS	terza feira	terza feira	s
+terzas feiras	NCFP	terza feira	terza feira	s
+tía avoa	NCFS	tío avó	tío avó	s
+tías avoas	NCFP	tío avó	tío avó	s
+tic tac	I	tic tac	tictac	n
+tic tac	NCMS	tic tac	tictac	n
+tie break	NCMS	tie break	tie break	n
+tío avó	NCMS	tío avó	tío avó	s
+tíos avós	NCMP	tío avó	tío avó	s
+tiranosaurio rex	NCMS	tiranosaurio rex
+tiranosaurios rex	NCMP	tiranosaurio rex
+tiro libre	NCMS	tiro libre	tiro libre	s
+tiros libres	NCMP	tiro libre	tiro libre	s
+tocante a	X	tocante a	tocante a	s
+todo terreo	AAS	todo terreo	todo terreo	s
+todo terreo	AEL	todo terreo	todo terreo	s
+todo terreo	AEP	todo terreo	todo terreo	s
+todo terreo	AES	todo terreo	todo terreo	s
+todo terreo	AFL	todo terreo	todo terreo	s
+todo terreo	AFP	todo terreo	todo terreo	s
+todo terreo	AFS	todo terreo	todo terreo	s
+todo terreo	AMS	todo terreo	todo terreo	s
+todo terreo	ANS	todo terreo	todo terreo	s
+top les	NCMS	top les	topless	n
+top manta	NCMS	top manta	top manta	n
+top model	NCFP	top model	top model	n
+top model	NCFS	top model	top model	n
+top model	NCMP	top model	top model	n
+top model	NCMS	top model	top model	n
+top models	NCFP	top model	top model	n
+top models	NCMP	top model	top model	n
+totum revolutum	NCMS	totum revolutum	tótum revolútum	s
+tótum revolútum	NCMS	tótum revolútum	tótum revolútum	s
+trending topic	NCMS	trending topic	trending topic	n
+un algo	PNMS	un algo	un algo	s
+un alguiño	PNMS	un algo	un algo	s
+unas cuantas	DNFP	unos cuantos
+unas cuantas	PNFP	unos cuantos
+unha canta	DNFS	un canto	un canto	s
+unha canta	PNFS	un canto	un canto	s
+unha pouca	DQFS	un pouco	un pouco	s
+unha pouca	PQFS	un pouco	un pouco	s
+unha pouquecha	DQFS	un pouco	un pouco	s
+unha pouquecha	PQFS	un pouco	un pouco	s
+unha pouquechiña	DQFS	un pouco	un pouco	s
+unha pouquechiña	PQFS	un pouco	un pouco	s
+unha pouquerrecha	DQFS	un pouco	un pouco	s
+unha pouquerrecha	PQFS	un pouco	un pouco	s
+unha pouquerrechiña	DQFS	un pouco	un pouco	s
+unha pouquerrechiña	PQFS	un pouco	un pouco	s
+unha pouquiña	DQFS	un pouco	un pouco	s
+unha pouquiña	PQFS	un pouco	un pouco	s
+unhas cantas	DNFP	un canto	un canto	s
+unhas cantas	PNFP	un canto	un canto	s
+unhas poucas	DQFP	un pouco	un pouco	s
+unhas poucas	PQFP	un pouco	un pouco	s
+unhas pouquechas	DQFP	un pouco	un pouco	s
+unhas pouquechas	PQFP	un pouco	un pouco	s
+unhas pouquechiñas	DQFP	un pouco	un pouco	s
+unhas pouquechiñas	PQFP	un pouco	un pouco	s
+unhas pouquerrechas	DQFP	un pouco	un pouco	s
+unhas pouquerrechas	PQFP	un pouco	un pouco	s
+unhas pouquerrechiñas	DQFP	un pouco	un pouco	s
+unhas pouquerrechiñas	PQFP	un pouco	un pouco	s
+unhas pouquiñas	DQFP	un pouco	un pouco	s
+unhas pouquiñas	PQFP	un pouco	un pouco	s
+unidade de coidados intensivos	NCMS	unidade de coidados intensivos	unidade de coidados intensivos	s
+unidade de vixilancia intensiva	NCFS	unidade de vixilancia intensiva	unidade de vixilancia intensiva	s
+unidade didáctica	NCFS	unidade didáctica	unidade didáctica	s
+unidades de coidados intensivos	NCMP	unidade de coidados intensivos	unidade de coidados intensivos	s
+unidades de vixilancia intensiva	NCFP	unidade de vixilancia intensiva	unidade de vixilancia intensiva	s
+unidades didáctica	NCFP	unidade didáctica	unidade didáctica	s
+un nada	PQMS	un nada	un nada	s
+un nadiña	PQMS	un nada	un nada	s
+unos cuantos	DNMP	unos cuantos
+unos cuantos	PNMP	unos cuantos
+un poco	PQNS	un poco
+un poco	W	un poco
+un poquillo	PQNS	un poco
+un poquillo	W	un poco
+un poquiño	PQNS	un poco
+un poquiño	W	un poco
+un poquitín	PQNS	un poco
+un poquitín	W	un poco
+un poquitito	PQNS	un poco
+un poquitito	W	un poco
+un poquito	PQNS	un poco
+un poquito	W	un poco
+un pouco	DQAS	un pouco	un pouco	s
+un pouco	DQMS	un pouco	un pouco	s
+un pouco	DQNS	un pouco	un pouco	s
+un pouco	PQAS	un pouco	un pouco	s
+un pouco	PQMS	un pouco	un pouco	s
+un pouco	PQNS	un pouco	un pouco	s
+un pouquechiño	DQMS	un pouco	un pouco	s
+un pouquechiño	PQAS	un pouco	un pouco	s
+un pouquechiño	PQMS	un pouco	un pouco	s
+un pouquechiño	PQNS	un pouco	un pouco	s
+un pouquecho	DQAS	un pouco	un pouco	s
+un pouquecho	DQMS	un pouco	un pouco	s
+un pouquecho	DQNS	un pouco	un pouco	s
+un pouquecho	PQAS	un pouco	un pouco	s
+un pouquecho	PQMS	un pouco	un pouco	s
+un pouquecho	PQNS	un pouco	un pouco	s
+un pouquerrechiño	DQAS	un pouco	un pouco	s
+un pouquerrechiño	DQMS	un pouco	un pouco	s
+un pouquerrechiño	DQNS	un pouco	un pouco	s
+un pouquerrechiño	PQAS	un pouco	un pouco	s
+un pouquerrechiño	PQMS	un pouco	un pouco	s
+un pouquerrechiño	PQNS	un pouco	un pouco	s
+un pouquerrecho	DQAS	un pouco	un pouco	s
+un pouquerrecho	DQMS	un pouco	un pouco	s
+un pouquerrecho	DQNS	un pouco	un pouco	s
+un pouquerrecho	PQAS	un pouco	un pouco	s
+un pouquerrecho	PQMS	un pouco	un pouco	s
+un pouquerrecho	PQNS	un pouco	un pouco	s
+un pouquiño	DQAS	un pouco	un pouco	s
+un pouquiño	DQMS	un pouco	un pouco	s
+un pouquiño	DQNS	un pouco	un pouco	s
+un pouquiño	PQAS	un pouco	un pouco	s
+un pouquiño	PQMS	un pouco	un pouco	s
+un pouquiño	PQNS	un pouco	un pouco	s
+uns poucos	DQMP	un pouco	un pouco	s
+uns poucos	PQMP	un pouco	un pouco	s
+uns pouquechiños	DQMP	un pouco	un pouco	s
+uns pouquechiños	PQMP	un pouco	un pouco	s
+uns pouquechos	DQMP	un pouco	un pouco	s
+uns pouquechos	PQMP	un pouco	un pouco	s
+uns pouquerrechiños	DQMP	un pouco	un pouco	s
+uns pouquerrechiños	PQMP	un pouco	un pouco	s
+uns pouquerrechos	DQMP	un pouco	un pouco	s
+uns pouquerrechos	PQMP	un pouco	un pouco	s
+uns pouquiños	DQMP	un pouco	un pouco	s
+uns pouquiños	PQMP	un pouco	un pouco	s
+uve doble	NCFS	uve doble
+va de retro	I	va de retro	vade retro	n
+vade retro	I	vade retro	vade retro	s
+valedora de o pobo	NCFS	valedor de o pobo	valedor de o pobo	s
+valedora de o Pobo	NCFS	valedor de o pobo	valedor de o pobo	s
+Valedora de o Pobo	NCFS	valedor de o pobo	valedor de o pobo	s
+valedor de o pobo	NCMS	valedor de o pobo	valedor de o pobo	s
+valedor de o Pobo	NCMS	valedor de o pobo	valedor de o pobo	s
+Valedor de o Pobo	NCMS	valedor de o pobo	valedor de o pobo	s
+via crucis	NCMS	via crucis	viacrucis	n
+vía crucis	NCMS	vía crucis	viacrucis	n
+vis a vis	NCMP	vis a vis	vis a vis	n
+vis à vis	NCMP	vis à vis	vis a vis	n
+vis a vis	NCMS	vis a vis	vis a vis	n
+vis à vis	NCMS	vis à vis	vis a vis	n
+vis cómica	NCFS	vis cómica	vis cómica	n
+visto e prace	NCMS	visto e prace	visto e prace	s
+vis viva	NCFS	vis viva	vis viva	n

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora-spanish:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora-multilingual:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .

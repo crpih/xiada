@@ -1,10 +1,12 @@
-all: clean galician_xiada spanish_eslora
+all: clean galician_xiada spanish_eslora multilingual_eslora
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
 galician_palmed: clean_galician_palmed galician_palmed
 
 spanish_eslora: clean_spanish_eslora spanish_eslora_oral
+
+multilingual_eslora: clean_multilingual_eslora multilingual_eslora_all
 
 tagset_evaluation: clean_tagset_evaluation tagset_evaluation_default
 
@@ -43,6 +45,11 @@ spanish_eslora_oral:
 	ruby xiada_training.rb ../corpus/spanish_eslora/corpus_eslora.tagged ../databases/spanish_eslora/training_spanish_eslora.db ../corpus/spanish_eslora/tags_info.txt ../lexicons/spanish_eslora/lexicon_principal.txt
 	cd ../lexicons/bin; make spanish_eslora; cd ../../bin
 
+multilingual_eslora_all:
+	rm -f ../databases/multilingual_eslora/training_multilingual_eslora.db
+	ruby xiada_training.rb ../corpus/multilingual_eslora/corpus_eslora.tagged ../databases/multilingual_eslora/training_multilingual_eslora.db ../corpus/multilingual_eslora/tags_info.txt ../lexicons/multilingual_eslora/lexicon_principal.txt
+	cd ../lexicons/bin; make multilingual_eslora; cd ../../bin
+
 tagset_evaluation_default:
 	ruby xiada_training.rb ../corpus/tagset_evaluation/corpus_tagset_evaluation.tagged ../databases/tagset_evaluation/training_tagset_evaluation.db ../corpus/tagset_evaluation/tags_info.txt ../lexicons/tagset_evaluation/lexicon_principal.txt
 	cd ../lexicons/bin; make tagset_evaluation; cd ../../bin
@@ -62,3 +69,6 @@ clean_spanish_eslora:
 
 clean_tagset_evaluation:
 	rm -f ../databases/tagset_evaluation/*.db
+
+clean_multilingual_eslora:
+	rm -f ../databases/multilingual_eslora/*.db

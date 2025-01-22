@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
+require_relative "../bin/lemmas/utils"
 
-module LemmatizerSpanishEslora
+class LemmatizerSpanishEslora
+  include Lemmas::Utils
+
+  def initialize(database_wrapper)
+    @dw = database_wrapper
+  end
+
   def lemmatize(word, tags)
     #STDERR.puts "(lemmatize) word: #{word}"
     # ito/ita/itos/itas suffix treatment

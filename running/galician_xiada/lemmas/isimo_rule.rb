@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 require_relative '../../bin/lemmas/rule'
-require_relative 'utils'
+require_relative '../../bin/lemmas/utils'
 
 module Lemmas
   class IsimoRule < Rule
@@ -9,11 +9,11 @@ module Lemmas
     VALID_TISIMO = %w[abert absolt acolleit avolt colleit comest cubert descrit descubert desenvolt devolt disolt encolleit encubert entreabert envolt enxoit ergueit escolleit escrit frit mort prescrit proscrit provist recolleit recubert resolt revolt].freeze
     VALID_SISIMO = %w[aces apres impres pres].freeze
 
-    def initialize(all_possible_tags)
+    def initialize(all_possible_tags, adjective = "A.*", verb_participle = "V0p0.*")
       super(all_possible_tags)
-      @a_tags = tags_for('A.*')
-      @av_tags = tags_for('V0p.*', 'A.*')
-      @a_gn_tags = tags_by_gn('A.*')
+      @a_tags = tags_for(adjective)
+      @av_tags = tags_for(verb_participle, adjective)
+      @a_gn_tags = tags_by_gn(adjective)
     end
 
     def apply_query(query)

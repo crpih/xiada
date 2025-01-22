@@ -26,49 +26,26 @@ class Enclitics
   private
 
   def process_enclitic_verbs_file(db)
-    File.open(@enclitic_verbs_file_name, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          content = line.split(/\t/)
-          if content.size > 3
-            root, tag, lemma, hiperlemma, extra = line.split(/\t/)
-            hiperlemma = lemma unless hiperlemma
-          else
-            root, tag, lemma = line.split(/\t/)
-          end
-          if extra
-            db.execute("insert into enclitic_verbs_roots (root, tag, lemma, hiperlemma, extra) values ('#{root}','#{tag}','#{lemma}','#{hiperlemma}','#{extra}')")
-          else
-            db.execute("insert into enclitic_verbs_roots (root, tag, lemma, hiperlemma) values ('#{root}','#{tag}','#{lemma}','#{hiperlemma}')")
-          end
-        end
-      end
+    File.readlines(@enclitic_verbs_file_name).map(&:chomp).reject(&:empty?).each do |line|
+      root, tag, lemma, hiperlemma, extra = line.split(/\t/)
+      hiperlemma = lemma unless hiperlemma
+      extra = extra ? "'#{extra}'" : "NULL"
+      db.execute("INSERT INTO enclitic_verbs_roots (root, tag, lemma, hiperlemma, extra) VALUES ('#{root}','#{tag}','#{lemma}','#{hiperlemma}', #{extra}) ON CONFLICT DO NOTHING")
     end
   end
 
   def process_enclitics_file(db)
-    File.open(@enclitics_file_name, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          enclitic, tag, lemma, hiperlemma = line.split(/\t/)
-          hiperlemma = lemma unless hiperlemma
-          db.execute("insert into enclitics (enclitic, tag, lemma, hiperlemma) values ('#{enclitic}','#{tag}','#{lemma}','#{hiperlemma}')")
-        end
-      end
+    File.readlines(@enclitics_file_name).map(&:chomp).reject(&:empty?).each do |line|
+      enclitic, tag, lemma, hiperlemma = line.split(/\t/)
+      hiperlemma = lemma unless hiperlemma
+      db.execute("INSERT INTO enclitics (enclitic, tag, lemma, hiperlemma) VALUES ('#{enclitic}','#{tag}','#{lemma}','#{hiperlemma}') ON CONFLICT DO NOTHING")
     end
   end
 
   def process_enclitic_combinations_file(db)
-    File.open(@enclitic_combinations_file_name, "r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          combination, length = line.split(/\t/)
-          db.execute("insert into enclitic_combinations (combination, length) values ('#{combination}',#{length})")
-        end
-      end
+    File.readlines(@enclitic_combinations_file_name).map(&:chomp).reject(&:empty?).each do |line|
+      combination, length = line.split(/\t/)
+      db.execute("INSERT INTO enclitic_combinations (combination, length) VALUES ('#{combination}',#{length})")
     end
   end
 end
