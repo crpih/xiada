@@ -72,51 +72,57 @@ module Lemmas
       # If tags are not provided, use all possible tags
       tags = tags.nil? || tags.empty? ? @tags : tags
 
-      gheada_queries(Query.new(nil, word, tags)) do |q|
-        seseo_queries(q) do |q|
-          # LemmatizerCorga#lemmatizer won't be called if the term exists literally
-          # So this is useful only for gheada and seseo variants: gherra => guerra and ghitarra => guitarra
-          literal_result = find(q)
-          return literal_result if literal_result.any?
+      unaccented_queries(Query.new(nil, word, tags)) do |q|
+        gheada_queries(q) do |q|
+          seseo_queries(q) do |q|
+            # LemmatizerCorga#lemmatizer won't be called if the term exists literally
+            # So this is useful only for gheada and seseo variants: gherra => guerra and ghitarra => guitarra
+            literal_result = find(q)
+            return literal_result if literal_result.any?
 
-          [
-            *@auto_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@ex_proper_rule.(q) do |q|
-              proper_noun(q)
-            end,
-            *@ex_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@meta_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@etno_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@macro_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@micro_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@xeo_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@multi_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *@tele_rule.(q) do |q|
-              suffix_rules(q)
-            end,
-            *suffix_rules(q),
-          ]
+            [
+              *@auto_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@ex_proper_rule.(q) do |q|
+                proper_noun(q)
+              end,
+              *@ex_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@meta_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@etno_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@macro_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@micro_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@xeo_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@multi_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *@tele_rule.(q) do |q|
+                suffix_rules(q)
+              end,
+              *suffix_rules(q),
+            ]
+          end
         end
       end
     end
 
     private
+
+    def unaccented_queries(query)
+      unaccented_variants(query.word).flat_map { |v| yield query.copy(v) }
+    end
 
     def gheada_queries(query)
       return yield query unless @gheada

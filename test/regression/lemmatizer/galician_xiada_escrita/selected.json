@@ -16,15 +16,15 @@
   "dócilmente": [
     [
       "Wm",
-      "dócilmente",
       "docilmente",
-      -0.04942488332752298
+      "docilmente",
+      -9.035034150076132
     ],
     [
       "Wn",
-      "dócilmente",
       "docilmente",
-      -0.38822330167365837
+      "docilmente",
+      -10.378758534888256
     ]
   ],
   "amabelmente": [
@@ -3335,6 +3335,74 @@
       "globo",
       "globo",
       -9.606114226778804
+    ]
+  ],
+  "lúns": [
+    [
+      "Scma",
+      "luns",
+      "luns",
+      -6.570182436916891
+    ],
+    [
+      "Scmp",
+      "luns",
+      "luns",
+      -8.758816366391601
+    ],
+    [
+      "Scms",
+      "luns",
+      "luns",
+      -7.382153997562094
+    ]
+  ],
+  "auditório": [
+    [
+      "Scms",
+      "auditorio",
+      "auditorio",
+      -9.173913466790149
+    ]
+  ],
+  "auditórios": [
+    [
+      "Scmp",
+      "auditorio",
+      "auditorio",
+      -10.704726515446913
+    ]
+  ],
+  "dormitório": [
+    [
+      "Scms",
+      "dormitorio",
+      "dormitorio",
+      -8.922599038509244
+    ]
+  ],
+  "dormitórios": [
+    [
+      "Scmp",
+      "dormitorio",
+      "dormitorio",
+      -9.318432154327024
+    ]
+  ],
+  "afluéncia": [
+    [
+      "Scfs",
+      "afluencia",
+      "afluencia",
+      -10.388626069366135
+    ]
+  ],
+  "apariéncia": [
+    [
+      "Scfs",
+      "apariencia",
+      "aparencia",
+      -9.983160961257969
     ]
   ]
 }

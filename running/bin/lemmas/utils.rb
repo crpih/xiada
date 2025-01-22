@@ -81,9 +81,9 @@ module Lemmas
       'sú' => 'zú',
     }.freeze
 
-    def unaccent_variants(word)
-      unaccent = word.unicode_normalize(:nfd).gsub(/\p{Mn}/, '').unicode_normalize(:nfc)
-      word == unaccent ? [word] : [word, unaccent]
+    def unaccented_variants(word)
+      unaccented = word.tr('áéíóúüÁÉÍÓÚÜ', 'aeiouuAEIOUU')
+      word == unaccented ? [word] : [word, unaccented]
     end
 
     def tilde_variants(word)
