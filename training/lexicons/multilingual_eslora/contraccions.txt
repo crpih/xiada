@@ -13,7 +13,9 @@ aqueloutro	aquel	aquel	aquel	DDMS	/	outro	outro	outro	PNMS
 aqueloutros	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	DNMP
 aqueloutros	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	PNMP
 ás	a	a	a	X	/	as	o	o	DAFP
+cá	ca	ca	ca	C	/	a	o	o	DAFS
 ca	con	con	con	X	/	a	o	o	DAFS
+cás	ca	ca	ca	C	/	as	o	o	DAFP
 cas	con	con	con	X	/	as	o	o	DAFP
 cha	che	che	che	PY2ESD	/	a	o	o	PY3FSW
 cha	che	che	che	PY2FSD	/	a	o	o	PY3FSW
@@ -37,6 +39,7 @@ coaquel	con	con	con	X	/	aquel	aquel	aquel	PDMS
 coaqueles	con	con	con	X	/	aqueles	aquel	aquel	DDMP
 coaqueles	con	con	con	X	/	aqueles	aquel	aquel	PDMP
 coas	con	con	con	X	/	as	o	o	DAFP
+có	ca	ca	ca	C	/	o	o	o	DAMS
 co	con	con	con	X	/	o	o	o	DAMS
 conmigo	con	con	con	X	/	mí	mí	mí	PY1FSP
 conmigo	con	con	con	X	/	mí	mí	mí	PY1MSP
@@ -46,6 +49,7 @@ consigo	con	con	con	X	/	sí	sí	sí	PY3MSP
 consigo	con	con	con	X	/	sí	sí	sí	PY3NSP
 contigo	con	con	con	X	/	ti	ti	ti	PY2FSP
 contigo	con	con	con	X	/	ti	ti	ti	PY2MSP
+cós	ca	ca	ca	C	/	os	o	o	DAMP
 cos	con	con	con	X	/	os	o	o	DAMP
 cun	con	con	con	X	/	un	un	un	DCMS
 cun	con	con	con	X	/	un	un	un	DIMS
@@ -60,7 +64,11 @@ cunhas	con	con	con	X	/	unhas	un	un	PNFP
 cunhos	con	con	con	X	/	unhos	un	un	DIMP
 cuns	con	con	con	X	/	uns	un	un	DIMP
 cuns	con	con	con	X	/	uns	un	un	PNMP
+daca	dá	dar	dar	VMP2S	/	acá	acá	acá	W
 da	de	de	de	X	/	a	o	o	DAFS
+dahí	de	de	de	X	/	ahí	ahí	ahí	W
+daí	de	de	de	X	/	aí	aí	aí	W
+dalá	de	de	de	X	/	alá	alá	alá	W
 dalgo	de	de	de	X	/	algo	algo	algo	PNNS
 dalguén	de	de	de	X	/	alguén	alguén	alguén	PNES
 dalguén	de	de	de	X	/	alguén	alguén	alguén	PNFS
@@ -73,6 +81,9 @@ dalgunhas	de	de	de	X	/	algunhas	algún	algún	DNFP
 dalgunhas	de	de	de	X	/	algunhas	algún	algún	PNFP
 dalgúns	de	de	de	X	/	algúns	algún	algún	DNMP
 dalgúns	de	de	de	X	/	algúns	algún	algún	PNMP
+dalgures	de	de	de	X	/	algures	algures	algures	W
+dalí	de	de	de	X	/	alí	alí	alí	W
+daló	de	de	de	X	/	aló	aló	aló	W
 daquela	de	de	de	X	/	aquela	aquel	aquel	DDFS
 daquela	de	de	de	X	/	aquela	aquel	aquel	PDFS
 daquelas	de	de	de	X	/	aquelas	aquel	aquel	DDFP
@@ -90,6 +101,7 @@ daqueloutro	de	de	de	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	DNMS
 daqueloutro	de	de	de	X	/	aquel	aquel	aquel	DDMS	/	outro	outro	outro	PNMS
 daqueloutros	de	de	de	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	DNMP
 daqueloutros	de	de	de	X	/	aqueles	aquel	aquel	DDMP	/	outros	outro	outro	PNMP
+daquí	de	de	de	X	/	aquí	aquí	aquí	W
 daquila	de	de	de	X	/	aquila	aquil	aquel	DDFS
 daquila	de	de	de	X	/	aquila	aquil	aquel	PDFS
 daquilas	de	de	de	X	/	aquilas	aquil	aquel	DDFP
@@ -245,6 +257,10 @@ llo	lle	lle	lle	PY3MSD	/	o	o	o	PY3ASD
 llos	lle	lle	lle	PY3ESD	/	os	o	o	PY3MPW
 llos	lle	lle	lle	PY3FSD	/	os	o	o	PY3MPW
 llos	lle	lle	lle	PY3MSD	/	os	o	o	PY3MPW
+maila	mais	mais	mais	C	/	la	o	o	DAFS
+mailas	mais	mais	mais	C	/	las	o	o	DAFP
+mailo	mais	mais	mais	C	/	lo	o	o	DAMS
+mailos	mais	mais	mais	C	/	los	o	o	DAMP
 ma	me	me	me	PY1ESO	/	a	o	o	PY3FSW
 ma	me	me	me	PY1FSO	/	a	o	o	PY3FSW
 ma	me	me	me	PY1MSO	/	a	o	o	PY3FSW
@@ -270,6 +286,7 @@ nalgunhas	en	en	en	X	/	algunhas	algún	algún	DNFP
 nalgunhas	en	en	en	X	/	algunhas	algún	algún	PNFP
 nalgúns	en	en	en	X	/	algúns	algún	algún	DNMP
 nalgúns	en	en	en	X	/	algúns	algún	algún	PNMP
+nalgures	en	en	en	X	/	algures	algures	algures	W
 naquela	en	en	en	X	/	aquela	aquel	aquel	DDFS
 naquela	en	en	en	X	/	aquela	aquel	aquel	PDFS
 naquelas	en	en	en	X	/	aquelas	aquel	aquel	DDFP
@@ -413,6 +430,14 @@ tralas	tras	tras	tras	X	/	las	o	o	DAFP
 trala	tras	tras	tras	X	/	la	o	o	DAFS
 tralos	tras	tras	tras	X	/	los	o	o	DAMP
 tralo	tras	tras	tras	X	/	lo	o	o	DAMS
+u-las	u	u	u	W	/	las	o	o	DAFP
+ulas	u	u	u	W	/	las	o	o	PY3FPW
+u-la	u	u	u	W	/	la	o	o	DAFS
+ula	u	u	u	W	/	la	o	o	PY3FSW
+u-los	u	u	u	W	/	los	o	o	DAMP
+ulos	u	u	u	W	/	los	o	o	PY3MPW
+u-lo	u	u	u	W	/	lo	o	o	DAMS
+ulo	u	u	u	W	/	lo	o	o	PY3ASD
 volas	vos	vos	vos	PY2EPO	/	las	o	o	PY3FPW
 volas	vos	vos	vos	PY2FPO	/	las	o	o	PY3FPW
 vó-las	vós	vós	vós	PY2FPQ	/	las	o	o	DAFP

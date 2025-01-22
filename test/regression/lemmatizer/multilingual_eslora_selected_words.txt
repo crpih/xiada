@@ -282,3 +282,7 @@ ghrazas
 
 ghloria
 ghlobos
+
+# Regression tests for problems detected
+pois
+hoxe
