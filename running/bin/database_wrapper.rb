@@ -5,6 +5,7 @@ require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
 require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
 require_relative "../spanish_eslora/lemmatizer"
+require_relative "../multilingual_eslora//lemmatizer"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
