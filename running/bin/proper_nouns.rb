@@ -1,3 +1,4 @@
+require 'set'
 require 'csv'
 require 'active_support/core_ext/range/overlap'
 require 'active_support/core_ext/range/overlap'
@@ -8,7 +9,7 @@ class ProperNouns
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
   class Segment
-    attr_reader :range, :text, :tag_lemmas
+    attr_reader :range, :text, :tag_lemmas, :lexicon
     delegate :begin, :end, :size, to: :range
 
     def initialize(range, text, tag_lemmas, lexicon)
@@ -72,7 +73,12 @@ class ProperNouns
     end
   end
 
-  def initialize(literal_proper_nouns, joiners, tags)
+  def self.parse_all_lexicon_words(file_path)
+    CSV.read(file_path, col_sep: "\t").map(&:first)
+  end
+
+  def initialize(all_lexicon_words, literal_proper_nouns, joiners, tags)
+    @all_lexicon_words = Set.new(all_lexicon_words)
     @literal_proper_nouns = literal_proper_nouns
     @joiners = joiners
     @joiners_regex = /\A\p{Z}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
@@ -81,7 +87,7 @@ class ProperNouns
 
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t).filter { |segment| segment.is_a?(Literal) } }
-    self.class.new([*@literal_proper_nouns, *trained_proper_nouns].uniq, @joiners, @tags)
+    self.class.new(@all_lexicon_words, [*@literal_proper_nouns, *trained_proper_nouns].uniq, @joiners, @tags)
   end
 
   def call(text)
@@ -97,6 +103,16 @@ class ProperNouns
   def join_proper_nouns(text, segments)
     current_segment, *rest = segments.sort_by { |r| [r.begin, r.size] }
     return [] if current_segment.nil?
+
+    # Expand first segment if it is the second word and the first word starts with uppercase
+    proper_noun_is_second_word = current_segment.begin > 0 && !text[...current_segment.begin - 1].include?(" ")
+    text_begins_with_upper = text.match?(/\A\p{Upper}/)
+    text_beginning_is_unknown_word = !@all_lexicon_words.include?(text[0...current_segment.begin].downcase.strip)
+    if proper_noun_is_second_word && text_begins_with_upper && text_beginning_is_unknown_word
+      with_start = text[0...current_segment.end]
+      tag_lemmas = current_segment.tag_lemmas.map { |t, _| [t, with_start] }
+      current_segment = Segment.new(0...current_segment.end, with_start, tag_lemmas, current_segment.lexicon)
+    end
 
     result = []
     rest.each do |segment|
