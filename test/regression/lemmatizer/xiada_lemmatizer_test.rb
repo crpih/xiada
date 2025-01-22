@@ -2,7 +2,6 @@ require 'sqlite3'
 require 'json'
 require 'fileutils'
 require_relative '../../test_helper'
-require_relative '../../../running/bin/lemmatizer'
 require_relative '../../../running/bin/database_wrapper'
 require_relative '../../../running/galician_xiada/lemmas/lemmatizer_corga'
 require_relative '../../../running/multilingual_eslora/lemmatizer'
@@ -29,7 +28,7 @@ def test_snapshots(database_name, lemmatizer, all_tags)
   end
 
   # Save current results as expected if ENV variable defined
-  if true || ENV['XIADA_SAVE_RESULT']
+  if ENV['XIADA_SAVE_RESULT']
     FileUtils.mkdir_p("#{__dir__}/#{database_name}")
     File.write("#{__dir__}/#{database_name}/selected.json", JSON.pretty_generate(current))
   end
@@ -53,7 +52,7 @@ describe "Lemmatizer" do
     ENV['XIADA_DATABASE'] = 'galician_xiada_escrita'
     dw = DatabaseWrapper.new("training/databases/galician_xiada/training_galician_xiada_escrita.db")
     all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
-    lemmatizer = Lemmatizer.new(dw).extend(Lemmas::LemmatizerCorga::ClassMethods)
+    lemmatizer = Lemmas::LemmatizerCorga.new(dw)
 
     test_snapshots('galician_xiada_escrita', lemmatizer, all_tags)
   end
@@ -63,7 +62,7 @@ describe "Lemmatizer" do
     ENV['XIADA_DATABASE'] = 'multilingual_eslora'
     dw = DatabaseWrapper.new("training/databases/multilingual_eslora/training_multilingual_eslora.db")
     all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
-    lemmatizer = Lemmatizer.new(dw).extend(LemmatizerMultilingualEslora)
+    lemmatizer = LemmatizerMultilingualEslora.new(dw)
 
     test_snapshots('multilingual_eslora', lemmatizer, all_tags)
   end

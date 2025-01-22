@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require_relative '../../bin/lemmas/rule'
+require_relative '../../bin/lemmas/utils'
 
 module Lemmas
   class ExRule < Rule

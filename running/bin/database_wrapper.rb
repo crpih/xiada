@@ -3,8 +3,8 @@ require "rubygems"
 require "dbi"
 require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
-require_relative "../bin/lemmatizer.rb"
 require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
+require_relative "../spanish_eslora/lemmatizer"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
@@ -14,22 +14,17 @@ class DatabaseWrapper
     raise "Database not found: #{db_name}" unless File.exist?(db_name)
 
     @db = SQLite3::Database.open(db_name)
-    xiada_profile = ENV["XIADA_PROFILE"]
-    @lemmatizer = Lemmatizer.new(self)
-    case xiada_profile
-    when "spanish_eslora"
-      @lemmatizer.extend(LemmatizerSpanishEslora)
-    when "multilingual_eslora"
-      @lemmatizer.extend(LemmatizerMultilingualEslora)
-    when "galician_xiada"
-      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
-    when "galician_xiada_oral"
-      @lemmatizer.extend(Lemmas::LemmatizerCorga::ClassMethods)
-    end
+    @lemmatizer =
+      case ENV["XIADA_PROFILE"]
+      when "spanish_eslora" then LemmatizerEslora.new(self)
+      when "multilingual_eslora" then LemmatizerMultilingualEslora.new(self)
+      when "galician_xiada" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
+      when "galician_xiada_oral" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
+      end
   end
 
   def get_emissions_info(word, tags)
-    #STDERR.puts "word:#{word}, tags:#{tags}"
+    # STDERR.puts "word:#{word}, tags:#{tags}"
     result = Array.new
     if (tags == nil) or (tags.empty?)
       # STDERR.puts "tags nil"
@@ -37,14 +32,14 @@ class DatabaseWrapper
         result << row
       end
     else
-      #STDERR.puts "tags not nil"
+      # STDERR.puts "tags not nil"
       tag_string = get_possible_tags(tags)
-      #STDERR.puts "tag_string: #{tag_string}"
+      # STDERR.puts "tag_string: #{tag_string}"
       @db.execute("select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}' and tag in (#{tag_string})") do |row|
         result << row
       end
     end
-    #STDERR.puts "result:#{result}"
+    # STDERR.puts "result:#{result}"
     return result
   end
 
@@ -67,7 +62,7 @@ class DatabaseWrapper
   end
 
   def get_tags_lemmas_emissions(word, tags)
-    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
+    # STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
     max_length = 0
     result = get_emissions_info(word, tags)
     if result.empty?
@@ -90,7 +85,7 @@ class DatabaseWrapper
         end
       end
     end
-    #STDERR.puts "(get_tags_lemmas_emissions) word: #{word}, tags: #{tags}, result: #{result}"
+    # STDERR.puts "(get_tags_lemmas_emissions) word: #{word}, tags: #{tags}, result: #{result}"
     return result
   end
 
@@ -117,6 +112,7 @@ class DatabaseWrapper
     end
     return result
   end
+
   def get_bigram_probability(tag_j, tag_k)
     result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
     if result == nil
@@ -264,7 +260,7 @@ class DatabaseWrapper
   def get_proper_noun_info_by_ids(ids_array)
     result = Array.new
     ids_string = get_possible_ids(ids_array)
-    #puts "ids_string:#{ids_string}"
+    # puts "ids_string:#{ids_string}"
     @db.execute("select proper_noun, tag, lemma, hiperlemma, from proper_nouns where id in (#{ids_string})") do |row|
       result << row
     end
@@ -366,8 +362,8 @@ class DatabaseWrapper
   # exist for Galician language. It does not work if we have two different token decomposition for the main contraction too:
   # contracted_form = token1 + token2 and contracted_form = token3 + token4, where token3 is different from token1 or token4 is different from token2.
   def insert_word_tag_lemma(result, entry, word, tag, lemma, position)
-    #STDERR.puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
-    #STDERR.puts "result:#{result}"
+    # STDERR.puts "inserting... entry:#{entry}, word:#{word}, tag:#{tag}, lemma:#{lemma}, position:#{position}"
+    # STDERR.puts "result:#{result}"
     if result[entry] == nil
       result[entry] = Array.new
     end
@@ -397,7 +393,7 @@ class DatabaseWrapper
     result = Hash.new
     @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
       pronoun_category = @db.get_first_value("select category from tags_info where name='pronoun'")
-      #STDERR.puts "\nrow:#{row}"
+      # STDERR.puts "\nrow:#{row}"
       if row[2] =~ /#{pronoun_category}/
         unless insert_word_tag_lemma(result, row[0], row[1], row[2], row[3], 1)
           puts "Insertion error for contraction:#{row[0]} (first component)"
@@ -425,7 +421,7 @@ class DatabaseWrapper
   end
 
   def get_enclitic_verbs_roots_tags(left_candidate)
-    get_enclitic_verbs_roots_info(left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag}
+    get_enclitic_verbs_roots_info(left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag }
   end
 
   def get_enclitic_verb_roots_info(root, tags)
@@ -444,13 +440,13 @@ class DatabaseWrapper
   end
 
   def get_recovery_info(verb_part, tag, lemma, from_lexicon)
-    #STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
+    # STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
     from_lexicon_integer = 0
     from_lexicon_integer = 1 if from_lexicon
     result = Array.new
     @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
       if verb_part =~ /gh/ && row[0] !~ /gh/
-        row[0].gsub!("g","gh")
+        row[0].gsub!("g", "gh")
       end
       unless ENV['XIADA_SESEO'].nil?
         s_positions = verb_part.each_char.with_index.filter_map { |c, i| i if c == 's' }
@@ -478,7 +474,7 @@ class DatabaseWrapper
 
   def closed_category?(text_token)
     closed_regexp = get_closed_category_regexp
-    #puts "closed_regexp: #{closed_regexp}"
+    # puts "closed_regexp: #{closed_regexp}"
     result = get_emissions_info(text_token, nil)
     result.each do |row|
       tag = row[0]
