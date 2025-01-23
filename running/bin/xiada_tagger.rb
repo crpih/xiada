@@ -8,6 +8,16 @@ require_relative "database_wrapper.rb"
 require_relative "./proper_nouns"
 
 class XiadaTagger
+
+  class Exception < StandardError
+    attr_reader :text
+
+    def initialize(text, cause)
+      super("Error processing text: #{text}\nCaused by: #{cause.message}")
+      @text = text
+    end
+  end
+
   def initialize
     raise "Missing XIADA_PROFILE environment variable" unless ENV['XIADA_PROFILE']
     raise "Missing XIADA_DATABASE environment variable" unless ENV['XIADA_DATABASE']
@@ -18,7 +28,7 @@ class XiadaTagger
     @enclitics = @dw.get_enclitics_info.freeze
     proper_nouns_file = "training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_propios.txt"
     @proper_noun_processor =
-      if File.exists?(proper_nouns_file)
+      if File.exist?(proper_nouns_file)
         ProperNouns.new(
           ProperNouns.parse_all_lexicon_words("training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_principal.txt"),
           ProperNouns.parse_literals_file(proper_nouns_file),
@@ -30,12 +40,22 @@ class XiadaTagger
       end
   end
 
-  def train_proper_nouns!(texts)
-    @proper_noun_processor = @proper_noun_processor&.with_trained(texts)
+  def tag_texts(texts)
+    trained_proper_nouns = @proper_noun_processor&.with_trained(texts)
+    texts.map { |text| tag_text(text, trained_proper_nouns).best_way }
   end
 
-  def call(text)
-    sentence = Sentence.new(@dw, @acronyms, @abbreviations, @enclitics, @proper_noun_processor, text)
+  def tag_texts_alternatives(texts)
+    trained_proper_nouns = @proper_noun_processor&.with_trained(texts)
+    texts.map { |text| tag_text(text, trained_proper_nouns).all_ways }
+  end
+
+  def call(text) = tag_text(text, @proper_noun_processor)
+
+  private
+
+  def tag_text(text, proper_noun_processor)
+    sentence = Sentence.new(@dw, @acronyms, @abbreviations, @enclitics, proper_noun_processor, text)
     sentence.contractions_processing
     sentence.idioms_processing # Must be processed before numerals
     sentence.numerals_processing
@@ -43,6 +63,8 @@ class XiadaTagger
     viterbi = Viterbi.new(@dw)
     viterbi.run(sentence)
     viterbi
+  rescue StandardError => e
+    raise Exception.new(text, e)
   end
 end
 

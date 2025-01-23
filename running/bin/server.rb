@@ -9,16 +9,7 @@ helpers do
     texts = JSON.parse(request.body.read)
     halt 400 unless texts.is_a?(Array)
 
-    tagger = XiadaTagger.new
-    tagger.train_proper_nouns!(texts)
-
-    texts.map do |text|
-      yield(tagger.call(text))
-    rescue StandardError => e
-      $stderr.write("#{e.message}\n#{e.backtrace.join("\n")}\n\n")
-      body = { text: text, message: e.message, backtrace: e.backtrace }.to_json
-      halt 500, { 'Content-Type' => 'application/json' }, body
-    end.to_json
+    yield(texts).to_json
 
   rescue JSON::ParserError
     halt 400
@@ -27,10 +18,12 @@ end
 
 set :default_content_type, :json
 
+TAGGER = XiadaTagger.new
+
 post '/tagger/alternatives' do
-  handle_tagger_request { |viterbi| viterbi.all_ways }
+  handle_tagger_request { |texts| TAGGER.tag_texts_alternatives(texts) }
 end
 
 post '/tagger' do
-  handle_tagger_request { |viterbi| viterbi.best_way }
+  handle_tagger_request { |texts| TAGGER.tag_texts(texts) }
 end
