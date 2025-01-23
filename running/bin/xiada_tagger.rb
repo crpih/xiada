@@ -31,7 +31,7 @@ class XiadaTagger
   end
 
   def train_proper_nouns!(texts)
-    @proper_noun_processor = @proper_noun_processor.with_trained(texts)
+    @proper_noun_processor = @proper_noun_processor&.with_trained(texts)
   end
 
   def call(text)
