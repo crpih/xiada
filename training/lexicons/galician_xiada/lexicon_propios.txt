@@ -19668,6 +19668,7 @@ La protestation des intellectuels	Sp00	La protestation des intellectuels
 Lapurdi	Sp00	Lapurdi
 Laqueus rubellus	Snaa	Laqueus rubellus	Laqueus rubellus
 Laraño	Sp00	Laraño
+Lara	Spf0	Lara
 La redención de las provincias	Sp00	La redención de las provincias
 Laredo	Sp00	Laredo
 La réforme intellectuelle et morale	Sp00	La réforme intellectuelle et morale
