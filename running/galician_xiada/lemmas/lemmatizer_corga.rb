@@ -67,12 +67,12 @@ module Lemmas
       left_part
     end
 
-
     def call(word, tags)
       # If tags are not provided, use all possible tags
       tags = tags.nil? || tags.empty? ? @tags : tags
 
-      unaccented_queries(Query.new(nil, word, tags)) do |q|
+      q = Query.new(nil, word, tags)
+      unaccented_queries(q) do |q|
         gheada_queries(q) do |q|
           seseo_queries(q) do |q|
             # LemmatizerCorga#lemmatizer won't be called if the term exists literally
@@ -80,7 +80,8 @@ module Lemmas
             literal_result = find(q)
             return literal_result if literal_result.any?
 
-            [
+            # Try prefix and suffix first
+            prefix_suffix_result = [
               *@auto_rule.(q) do |q|
                 suffix_rules(q)
               end,
@@ -113,6 +114,10 @@ module Lemmas
               end,
               *suffix_rules(q),
             ]
+            return prefix_suffix_result if prefix_suffix_result.any?
+
+            # Try accented variants with all rules
+            try_accented_variants_rules(q)
           end
         end
       end
@@ -122,6 +127,10 @@ module Lemmas
 
     def unaccented_queries(query)
       unaccented_variants(query.word).flat_map { |v| yield query.copy(v) }
+    end
+
+    def accented_queries(query)
+      tilde_variants(query.word).flat_map { |v| yield query.copy(v) }
     end
 
     def gheada_queries(query)
@@ -134,6 +143,36 @@ module Lemmas
       return yield query unless @seseo
 
       seseo_variants(query.word).flat_map { |v| yield query.copy(v) }
+    end
+
+    # For each accented variant try all the rules except ex-proper, -ísimo, -iño and -mente
+    def try_accented_variants_rules(query)
+      accented_queries(query) do |q|
+        literal_result = find(q)
+        return literal_result if literal_result.any?
+
+        [
+          *@auto_rule.(q) { |q| accented_suffix_rules(q) },
+          *@meta_rule.(q) { |q| accented_suffix_rules(q) },
+          *@etno_rule.(q) { |q| accented_suffix_rules(q) },
+          *@macro_rule.(q) { |q| accented_suffix_rules(q) },
+          *@micro_rule.(q) { |q| accented_suffix_rules(q) },
+          *@xeo_rule.(q) { |q| accented_suffix_rules(q) },
+          *@multi_rule.(q) { |q| accented_suffix_rules(q) },
+          *@tele_rule.(q) { |q| accented_suffix_rules(q) },
+        ]
+      end
+    end
+
+    # All suffix rules except "mente" that manages the accented variants itself and it will interfere
+    def accented_suffix_rules(query)
+      literal_result = find(query)
+      return literal_result if literal_result.any?
+
+      [
+        *@isimo_rule.(query) { |qa| find(qa) },
+        *@inho_rule.(query) { |qa| find(qa) },
+      ]
     end
 
     def suffix_rules(query)

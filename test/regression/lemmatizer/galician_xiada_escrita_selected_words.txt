@@ -212,3 +212,10 @@ auditório
 dormitório
 afluéncia
 apariéncia
+
+# Tilde variants
+auditório # Search the word without tilde in the dictionary
+categoria # Try different tilde variants in the dictionary
+amabilisimo
+amíguiño
+

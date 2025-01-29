@@ -16,15 +16,15 @@
   "dócilmente": [
     [
       "Wm",
+      "dócilmente",
       "docilmente",
-      "docilmente",
-      -9.035034150076132
+      -0.04942488332752298
     ],
     [
       "Wn",
+      "dócilmente",
       "docilmente",
-      "docilmente",
-      -10.378758534888256
+      -0.38822330167365837
     ]
   ],
   "amabelmente": [
@@ -2125,6 +2125,14 @@
       -10.56144787300669
     ]
   ],
+  "meta-la": [
+    [
+      "Scfs",
+      "meta-lá",
+      "",
+      -9.69547888880619
+    ]
+  ],
   "meta-literario": [
     [
       "A0ms",
@@ -3373,6 +3381,22 @@
       -10.704726515446913
     ]
   ],
+  "auditória": [
+    [
+      "Scfs",
+      "auditoría",
+      "auditoría",
+      -8.086040976372088
+    ]
+  ],
+  "auditórias": [
+    [
+      "Scfp",
+      "auditoría",
+      "auditoría",
+      -8.482006331326854
+    ]
+  ],
   "dormitório": [
     [
       "Scms",
@@ -3403,6 +3427,46 @@
       "apariencia",
       "aparencia",
       -9.983160961257969
+    ]
+  ],
+  "categoria": [
+    [
+      "Scfs",
+      "categoría",
+      "categoría",
+      -8.516823892464542
+    ]
+  ],
+  "amíguiño": [
+    [
+      "Scms",
+      "amigo",
+      "amigo",
+      -11.119823615845462
+    ]
+  ],
+  "amíguiños": [
+    [
+      "Scmp",
+      "amigo",
+      "amigo",
+      -10.704726515446913
+    ]
+  ],
+  "amíguiña": [
+    [
+      "Scfs",
+      "amigo",
+      "amigo",
+      -11.081773249926078
+    ]
+  ],
+  "amíguiñas": [
+    [
+      "Scfp",
+      "amigo",
+      "amigo",
+      -10.56144787300669
     ]
   ]
 }
