@@ -547,6 +547,7 @@ de xeito que	C	de xeito que	de xeito que	s
 diabete mellitus	NCFS	diabete mellitus	diabetes mellitus	n
 día santo	NCMS	día santo	día santo	s
 días santos	NCMP	día santo	día santo	s
+Dies irae	NCMS	Dies irae	dies irae	n
 Dios mío	I	Dios mío
 Dios mío	I	Dios mío	meu Deus	n
 disc jockey	NCMS	disc jockey
@@ -807,7 +808,7 @@ memoria USB	NCFS	memoria USB	memoria USB	s
 ménage á trois	NCMS	ménage á trois
 ménage a trois	NCMS	ménage a trois	ménage à trois	n
 ménage à trois	NCMS	ménage à trois	ménage à trois	n
-meritisimus	NCMS	meritisimus 
+meritisimus	NCMS	meritisimus
 mesa redonda	NCFS	mesa redonda	mesa redonda	s
 mesas redondas	NCFP	mesa redonda	mesa redonda	s
 mi madriña	I	mi madriña
@@ -867,7 +868,7 @@ pagas extra	NCFP	paga extra	paga extraordinaria	s
 pagas extraordinarias	NCFP	paga extraordinaria	paga extraordinaria	s
 pagas extras	NCFP	paga extra	paga extraordinaria	s
 panem et circenses	NCMS	panem et circenses
-pasarlas canutas	VNP	pasarlas canutasDies irae	NCMS	Dies irae	dies irae	n
+pasarlas canutas	VNP	pasarlas canutas
 pater noster	NCMS	pater noster	pater noster	n
 pay per view	NCMS	pay per view	pay per view	n
 pecata minuta	NCFS	pecata minuta	peccata minuta	n
@@ -886,6 +887,7 @@ petit suisse	NCML	petit suisse
 petit suisse	NCMP	petit suisse
 petit suisse	NCMS	petit suisse
 petit suisses	NCMP	petit suisse
+pinta y colorea	AEL	pinta y colorea
 pit bull	NCMS	pit bull
 pit bull terrier	NCMS	pit bull terrier
 play back	NCMS	play back	playback	n

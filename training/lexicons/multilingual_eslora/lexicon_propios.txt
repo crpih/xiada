@@ -3834,6 +3834,7 @@ La Princesa	NPEL	La Princesa
 Lapurdi	NPEL	Lapurdi
 La Ramallosa	NPEL	La Ramallosa
 Laraño	NPEL	Laraño
+Lara	NPFL	Lara
 Laredo	NPEL	Laredo
 La Ría	NPEL	La Ría
 La Robleda	NPEL	La Robleda
