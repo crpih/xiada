@@ -3054,7 +3054,7 @@ modos	NCMP	modo
 
 es	VIP3S	ser
 muy 	W	mucho
-pinta y colorea	AES	pinta y colorea
+pinta y colorea	AIS	pinta y colorea
 
 tiene	VIP3S	tener
 su	DS3FS	su
@@ -7641,7 +7641,7 @@ de	X	de
 Magisterio	NPEL	Magisterio
 es	VIP3S	ser
 muy	W	mucho
-pinta y colorea	AES	pinta y colorea
+pinta y colorea	AIS	pinta y colorea
 <pausa/>	ETQ_PAUSA	<pausa/>
 
 <pausa/>	ETQ_PAUSA	<pausa/>
