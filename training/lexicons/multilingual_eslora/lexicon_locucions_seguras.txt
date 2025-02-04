@@ -887,7 +887,7 @@ petit suisse	NCML	petit suisse
 petit suisse	NCMP	petit suisse
 petit suisse	NCMS	petit suisse
 petit suisses	NCMP	petit suisse
-pinta y colorea	AEL	pinta y colorea
+pinta y colorea	AES	pinta y colorea
 pit bull	NCMS	pit bull
 pit bull terrier	NCMS	pit bull terrier
 play back	NCMS	play back	playback	n
