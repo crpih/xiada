@@ -1,0 +1,11 @@
+cardinal_tag	PC
+ordinal_tag	DR
+plural_letter	P
+number_position	4
+connector	y
+percentage_number_tag	PCMS
+percentage_symbol_tag	Simb
+percentage_idiom	por ciento
+percentage_idiom_tag	WM
+tags_for_numbers	Cifra
+multiword_link	mil

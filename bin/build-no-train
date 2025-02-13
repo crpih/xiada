@@ -1,5 +1,5 @@
 #!/bin/bash
 
 DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-spanish:latest .
-DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-multilingual:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-galician:latest .
 DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-corga:latest .

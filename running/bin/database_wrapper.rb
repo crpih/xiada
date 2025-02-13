@@ -5,7 +5,7 @@ require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
 require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
 require_relative "../spanish_eslora/lemmatizer"
-require_relative "../multilingual_eslora/lemmatizer"
+require_relative "../galician_eslora/lemmatizer"
 
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
@@ -18,7 +18,7 @@ class DatabaseWrapper
     @lemmatizer =
       case ENV["XIADA_PROFILE"]
       when "spanish_eslora" then LemmatizerSpanishEslora.new(self)
-      when "multilingual_eslora" then LemmatizerMultilingualEslora.new(self)
+      when "galician_eslora" then LemmatizerMultilingualEslora.new(self)
       when "galician_xiada" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
       when "galician_xiada_oral" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
       end

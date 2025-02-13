@@ -1,0 +1,335 @@
+# Para evitar que proporcione análisis de el o un como artículo femenino cuando sigue un sustantivo, propio o común, o cualquier otra cosa que no comience por a tónica, se puede crear una regla que impida esos análisis. Ahora mismo solo analiza bien 12 ocurrencias frente a 64 de el; mientras que para un lo hace mucho mejor: 17 casos bien frente a 10 mal.
+
+el|un,D.FS,_,_,x	a*|á*|ha*,!NCFS,_,_
+
+# Para evitar que proporcione análisis del participio de una forma compuesta como adjetivo o incluso sustantivo (58 casos mal que pueden verse buscando el lema haber, seguido de forma gráfica terminada en *ado|*ido no etiquetados como participio -!VPMS-), entiendo que se podría aplicar la siguiente regla:
+
+!hay,_,haber,_,	*ado|*ido,!VPMS,_,_,x
+
+# Hay bastantes casos de vamos seguido de preposición a, de infinitivo o de propio caracterizado como interjección. Creo que se podrían corregir esos análisis con las siguientes reglas lingüísticas:
+
+vamos,I,_,_,x	a,X,_,_	_,VNP,_,_
+vamos,I,_,_,x	_,VNP,_,_
+vamos,I,_,_,x	a,X,_,_	_,NPEL,_,_
+
+# Formato campos: foma,etiqueta,lema,unidade[,x]
+
+# (1) Palabras individuais
+
+no|No,PY3MSA,o,no,x
+na|Na,PY3FSA,o,na,x
+nos|Nos,PY3MPW,o,nos,x
+nas|Nas,PY3FPA,o,nas,x
+
+# (2) ca: se antes está un adverbio comparador (máis, menos) ou vai
+# seguido de substantivo ou adxectivo masculino, ou seguido de xerundio
+# ou infinitivo non é a contracción, senón a conxunción:
+
+menos|máis|,W.,_,_	con,X,con,_	a,DAFS,o,_,x
+con,X,con,_	a,DAFS,o,_,x	_,N.M.|A.M.|VGP|VNP,_,_
+
+# para que só lematice con "don" cando vaia seguido de nome propio, e non mesture coas outras análises
+# NON SE PODEN EMPREGAR AS REGRAS DE PODADO PARA EVITAR UNHA LEMATIZACIÓN. TEMOS QUE INTENTAR RESOLVELO DOUTRO XEITO.
+
+dona,NCFS,dona|dono,_,x	_,NPFL,_,_
+
+# (3) "ca": Temos que diferenciar a contracción non normativa da
+# conxunción subordinante. Se segue NCFS pode ser contracción mais se
+# seguen algúns dos elementos especificados é conxunción.  Cambiamos
+# DAFS por artigo (D*), porque se despois de "ca" vén "o, a, os, as,
+# un, unha, uns, unhas" é Cs. E pódeselle sumar á regra tamén todos os
+# demostrativos, posesivos, e indefinidos masculinos.  Así
+# solucionamos tamén parte dos erros de "ca" como contracción non
+# normativa de "con" + "a" cando segue demostrativo. Non podemos
+# incluír os numerais masculinos na regra polos romanos.
+
+# Penso que temos que incorporar a unidade "ca" nas regras para
+# distinguir entre a contracción non normativa e a conxunción "ca",
+# porque senón impide que cando a contracción se grafa como "coa" dea
+# esa análise, proporcionando sempre a de Vpi de "coar". A maiores hai
+# que eliminar as etiquetas de posesivo e indefinido (pois si se
+# combina con eles, ou mellor, restrinxilo ós masculinos, de xeito que
+# a regra quede como segue:
+
+con,X,con,ca	a,DAFS,o,_,x	_,D*|D*M.|I.M.|P*|*P,_,_
+
+# (4) a, o, os, as, non son artigo (a non ser que estean nunha
+# contracción) nin substantivo se despois vén unha forma verbal de
+# indicativo ou subxuntivo. O mesmo pasa coas formas non binarias,
+# só que non hai casos en contraccións, polo que non as especificamos
+
+a|as|o|os|a\/o|o\/a|as\/os|os\/as|@|@s,DA*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,VI*|VS*,_,_
+a|as|o|os,NCM.,_,_,x	_,VI*|VS*,_,_
+
+# (regra nova porque elimino "o") a, os, as, non son artigo (a non ser que estean nunha
+# contracción) se despois vén unha forma verbal de infinitivo ou xerundio
+
+a|as|os|o\/a|a\/o|as\/os|os\/as|@|@s,DA*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós,x	_,VNP|VGP,_,_
+
+# (5) se "o, a, os,as" están nunha contracción (polo tanto precedidos de
+# Preposición) e despois vén algo identificado como Verbo en
+# indicativo ou subxuntivo impide que esa combinación de etiquetas
+# sexa válida (nuns casos será incorrecta a análise como contracción
+# e noutros a análise como forma verbal conxugada):
+
+# => Isto non se pode representar así, así que de momento queda desactivada.
+# => Eva vai estudar se se pode desglosar e, se non é posible, quizais haxa
+# => que ampliar as posibilidades de representación das regras.
+
+#_,X,_,_,	a|as|o|os,DA*,_,á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,	_,VI*|VS*,_,_,x
+
+# (6) Regra xenérica que afecta ao artigo e ás formas conxugadas en indicativo ou subxuntivo.
+# Non son nin artigo nin substantivo:
+
+a|as|o|os,DA*,_,!á|da|coa|na|cá|prá|ás|das|coas|nas|cás|prás|ó|ao|do|co|no|có|pró|ós|aos|dos|cos|nos|cós|prós,x	_,VI*|VS*,_,_
+a|as|o|os,NCM.,_,_,x	_,VI*|VS*,_,_
+
+# (7) o,a,os,as precedidos de "como" e seguidos de preposición "de" que
+# non estea na unidade "da|das|dese|deses|destes" no n pode ser PY3*
+# (non quero que a regra afecte ás unidades "da|das", etc, porque poden
+# estar mal recoñecidas e ser formas verbais, en cuxo caso "o,a,..." si
+# sería pronome):
+
+como,_,como,_	_,PY3*,o,_,x	de,X,_,!da|!das|!dese|!deses|!destes_
+como,_,como,_	_,PY3*,o,_,x	de,X,_,da|das_	a|as,DAF.,_,_,	_,*F.,_,_
+
+
+# (8) A non é preposición se despois vén unha forma verbal de indicativo
+# ou subxuntivo:
+
+a,X,_,_,x	_,VI*|VS*,_,_
+
+# (9) "a", se segue algún tipo de determinante masculino (artigo,
+# demostrativo, posesivo, indefinido) e non está en ningunha
+# contracción excepto "ca" [teño que sacar "ca" de aí pola ambigüidade
+# segmental, porque como Cs si é posible, anque non como contracción]
+# non pode ser o artigo. Non podo incluír os numerais masculinos na
+# regra polos romanos
+
+a,DAFS,o,!á|!da|!coa|!na|!cá|!prá,x	_,D.MS|D.MS|S*MS|D.MS|P.MS,_,_
+
+# (10) IMPORTE(S): Temos que diferenciar o substantivo da forma verbal e
+# para iso estableceremos as seguintes regras:
+# a) como verbo non pode ir precedido nin seguido de adxectivo;
+# b) tampouco pode ir precedido de artigo nin determinante masculino e
+# c) se vai precedido da preposición "por" e seguido da preposición
+# "de" é seguro substantivo:
+
+_,A*|D.M.|.d*,_,_,x	_,VNP,impor,_	te,PY*,te,_
+_,A*|D.M.|.d*,_,_,x	importe,V*,importar,_
+_,VNP,impor,_	te,PY*,te,_	_,A*,_,x,_
+importe,V*,importar,_	_,A*,_,_,x
+por,X,por,_	importe,V*,importar,_,x	de,X,de,_
+
+# (11) CREO: Vpi10s e tamén VIP3S seguido de PY3MSA. Cando segue
+# conxunción subordinante "que", precedido ou non do adverbio "non" é
+# 1ª persoa do singular de crer. son incompatibles dous directos
+# dependendo da mesma forma verbal, polo que se á forma "creo" lle
+# segue un "que" é imposible a análise como 3ª do singular máis
+# clítico:
+
+cre,VIP3S,crer,_,x	o,PY3MSA,o,_	que,C,que,_
+
+# (12) nos + verbo => ese nos nunca é contracción
+
+en,X,en,_	os,DAMP,o,_,x	_,V*,_,_
+
+# (13) de momento + verbo => de momento sempre é locución adverbial
+
+de,_,de,_	momento,_,momento,_,x	_,V*,_,_
+
+# (14) "unha vez" non é locución cando ese "unha" forma parte dunha
+# contracción.
+
+de,X,de,dunha	unha vez,L*,unha vez,_,x
+con,X,con,cunha	unha vez,L*,unha vez,_,x
+en,X,en,nunha	unha vez,L*,unha vez,_,x
+
+# (15) "a forza de" non pode ser locución cando ese "a" forma parte dunha
+# contracción
+
+de,X,de,da	a forza de,L*,a forza de,_,x
+con,X,con,coa	a forza de,L*,a forza de,_,x
+en,X,en,na	a forza de,L*,a forza de,_,x
+
+# (16) se + non => se nunca é PY3ELO|PY3EPO|PY3ESO (salvo que o "se" veña dun verbo con clíticos)
+
+# De aí que o nome do noso santiño débese non tanto ao trosque que se
+# lle dá, como  ao enfeitamento da súa medieval  cabeza con enrouladas
+# guedellas ou "croques".
+
+se,PY3ELO|PY3EPO|PY3ESO,se,se,x	non,_,non,_
+
+# (17) Se "se" está segudo de "se" e o primeiro non forma parte dunha forma
+# verbal con clítico, entón é Cs + PY3ELO|PY3EPO|PY3ESO; se "se" forma parte dunha
+# forma verbal con clítico e segue "se" (unidade), o segundo "se" é Cs
+# e o primeiro PY3ELO|PY3EPO|PY3ESO:
+
+se,PY3ELO|PY3EPO|PY3ESO,_,se,x	se,PY3ELO|PY3EPO|PY3ESO,_,_	_,V*|PY.E*,_,_
+se,PY3ELO|PY3EPO|PY3ESO,_,!se	se,PY3ELO|PY3EPO|PY3ESO,_,se,x
+se,PY3ELO|PY3EPO|PY3ESO,_,se	se,C,_,se,x
+
+# (18) Cando "se" está precedido da conxunción "coma" ou do adverbio
+# relativo "como" e segue pretérito de subxuntivo, o "se" non é Rao*,
+# senón Cs (ollo, pode ser pronome con "como", pero nese caso o "como"
+# sería Cs: "como se dese conta, non o faría"):
+
+coma,C,_,_	se,PY3ELO|PY3EPO|PY3ESO,se,se,x	_,VSI*|VSY*,_,_
+como,W,_,_	se,PY3ELO|PY3EPO|PY3ESO,se,se,x	_,VSI*|VSY*,_,_
+
+# (19) "en canto" + verbo en subxuntivo => en canto sempre é locución conxuntiva:
+
+en,_,en,_	canto,_,canto,_,x	_,VS*,_,_
+
+# (20) "en canto a" seguida de artigo, substantivo plural ou substantivo
+# masculino sempre é locución prepositiva:
+
+en,_,en,_	canto,_,canto,_	a,_,a,_	_,D*,_,ao|aos|á|ás|ó|ós,x
+en,_,en,_	canto,_,canto,_	a,_,a,_,x	_,N..P|N.M.,_,_
+
+# (21) "compre" seguido de infinitivo, non pode ser VSP3S de comprar.
+
+compre,VSP3S,comprar,_,x	_,VNP,_,_
+
+# (22) Estará mal formulada a regra de "compre"? É que non dá ningún
+# resultado correspondente ó verbo "comprar"...  Para completala pódense
+# incluír estas outras que digan que non pode ser do lema "cumprir" se
+# a) "compre" está seguido de Sc?p; b) o precede pronome ou relativo
+# non determinante:
+
+# => A regra anterior si que estaba mal (faltaba un tabulador), así
+# que de momento non activo estas regras.
+
+compre,VIP3S,cumprir,_,x	_,NC.P,_,_
+
+# compre,VSP3S,cumprir,_,x       _,NC.P,_,_
+
+_,P*|PL*,_,_	compre,VSP3S,cumprir,_,x
+
+# (23) verbo + cara a == cara a é Lp0
+
+_,V*,_,_	cara,_,_,_	a,_,_,_	_,_,o,_,x
+_,V*,_,_	cara,_,_,_	á,_,_,_,x
+_,V*,_,_	cara,_,_,_	a,_,_,_,x
+
+# (24) "cara a", se segue algún adverbio como adiante, abaixo, alá, etc,
+# sempre é locución prepositiva. Non podemos estender a regra a todos
+# os adverbios porque con "aínda" e "case" pode ser artigo; e tampouco a
+# podemos estender só ós nucleares porque non sempre os etiqueta ben.
+
+cara,_,cara,_	a,DAFS|P|PY3FSA|NCMS,_,_,x	abaixo|adiante|diante|alá|aló|arriba|atrás|dentro|fóra|ningures,_,_,_
+cara,_,cara,_	a,DAFS|P|PY3FSA|NCMS,_,_,x	_,W,_,_
+
+# (25) Tampouco poder ser A0fs, lema "caro", cando segue un adverbio coma
+# os especificados:
+
+cara,_,cara|caro,_	a,DAFS|P|PY3FSA|NCMS,_,_,x	abaixo|adiante|diante|alá|aló|arriba|atrás|dentro|fóra|ningures,_,_,_
+
+# (26) "cara a" non pode ser P + P. Nese caso debería ser Lp. Hai que
+# confiar en que Lp sea a segunda máis probable.
+
+cara,X,cara,_	a,X,_,_,x	_,_,_,!ao|á|aos|ás|ó|ós
+cara,X,cara,_	a,X,_,_,	_,_,_,ao|á|aos|ás|ó|ós,x
+
+# (27) PARA. Na combinación "para + PY3ELO|PY3EPO|PY3ESO|PY* + VNP" non é do verbo
+# "parar" senón preposición:
+
+para,VIP3S,parar,_,x	_,PY*,_,_	_,VNP,_,_
+
+# (28) Forma verbal con "mos" enclítico fronte á 1ª persoa de plural. Se
+# precede "non", "que" ou "se" é a 1ª de plural. O mesmo se segue
+# adxectivo plural, participio plural, substantivo ou artigo. Así
+# mesmo, se está precedido de nós (Rt) ou dalgún pronome átono tamén é
+# a P4 (primeira do plural)
+
+non|aínda|que|se,_,_,_	_,V*,_,*mos	me,PY1S*,me,_	os,PY3MPA,o,_,x
+nós,PY*,_,_	_,V*,_,*mos	me,PY1S*,me,_	os,PY3MPA,o,_,x
+_,PY*,_,_	_,V*,_,*mos	me,PY1S*,me,_	os,PY3MPA,o,_,x
+_,V*,_,*mos	me,PY1S*,me,_	os,PY3MPA,o,_,x	_,A0.P|VP.P|NC*|D*,_,_
+
+# (29) ESTAMOS + XERUNDIO é a perífrase verbal (Vpi10p+V0x000) se despois
+# vén substantivo común, artigo ou pronome enclítico:
+
+está,_,estar,_	me,PY1S*,me,_	os,PY3MPA,o,_,x	_,VGP,_,_	_,NC*|D*|PY*A0.P|VP.P|,_,_
+está,_,estar,_	me,PY1S*,me,_	os,PY3MPA,o,_,x	_,_,en|ante|perante|diante,_
+
+# (30) Nós é Rt e non Sp* a comezo de secuencia se despois vén un verbo en
+# indicativo de 1ª do plural; o mesmo se entre eles aparece un
+# adverbio nuclear: ??? Comprobar se se pode facer.
+# Mario: Non consigo que o etiquetador elixa Nós. De momento queda
+# deshabilitada a regras.
+
+Nós,Sp*,_,_,x	_,VI.10P,_,_
+Nós,Sp*,_,_,x	_,Wn,_,_	_,VI.1P,_,_
+
+# (31) A maior parte dos casos de "fora" etiquetados como W son verbo. A
+# única regra que se me ocorre para corrixir esta incidencia a de que
+# se segue participio impida a análise como W:
+
+fora,W|X,fora,_,x	_,VP,_,_
+
+# (32) aquel: Cando o precede o artigo masculino, sexa determinado ou
+# indeterminado, é o Substantivo: un aquel, o aquel, etc. Metino no
+# lexicón como nova entrada. Quizais non sexa preciso introducir esta
+# regra, anque non hai ningún caso no corpus de adestramento...
+
+_,D.MS,_,_,	aquel,D.MS,aquel,_,x
+
+# (33) Artigo feminino cuxa unidade sexa "a" non pode ir seguido de
+# demostrativo.
+
+_,DAFS,_,a,x	_,E*,_,_
+
+# (34) incluímos non está seguido de Verbo, rexeita esa análise:
+
+_,V*,_,_,	_,PY*,_,se|o|os|a|as|nos,x	_,!V*|!PY*,_,_
+
+# Novas regras lingüísticas para implementar.
+
+# (35) Forma verbal rematada en ditongo "ei", "ou", acentuado ou non, se despois está seguido de "o,a,os,as" estas formas non poden ser etiquetadas como pronome átono de acusativo.
+
+*ei|*ou|*éi|óu,V*,_,_,	o|a|os|as,PY3*,o,o|a|os|as,x
+
+# (36) Cos verbos estar, andar, ser, volver, comezar, empezar, chegar, vir, botar e poñer, se despois segue 'a' e mais infinitivo -ou sexa, se é perífrase- e o 'a' conforma unidade propia -ou sexa, aparece como palabra independente- ese 'a' non pode ser PY3FSA nin DAFS. Deste xeito orientamos a análise cara á preposición
+
+_,V*,estar|andar|ser|volver|comezar|empezar|chegar|vir|botar|poñer,_,	a,PY3FSA|DAFS,_,a,x	*ar|*er|*ir*|*or,V0*,_,_
+
+# (37) O indefinido ambos se está seguido de "os dous" ou "as dúas" non pode ser non determinante:
+
+ambos,PNMP,ambos,_,x	os,DAMP,o,_,	dous,_,_,_
+ambas,PNFP,ambos,_,x	as,DAFP,o,_,	dúas,_,_,_
+
+# (38) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguida de pronome de dativo (me) e de pronome de acusativo (o,a,os,as), de xeito que non desagregue en V + me + o|a|os|as (crema, cremas, préstamo, préstamos, rima, rimas, mordomo, mordomos, haima, haimas, díctamo, lema...)
+
+con|de|en|entre|para|sen,X,_,_	_,VI*|VS*,_,_,x	me,_,_,_,	_,PY3*,_,_
+
+# (39) Para evitar que tras preposición inequívoca poida vir forma conxugada de indicativo ou subxuntivo seguido de pronome de acusativo (con son o*, con son a*, con es la*; con fas la* etc):
+
+con|de|en|entre|para|sen,X,_,_	_,VI*|VS*,_,_,x	_,PY3*,_,!o|!a|!os|!as
+
+# (40) Para completar a regra que di que "o,a,os,as" non pode ser artigo (a non ser que estea nunha contracción) se despois vén forma verbal conxugada en indicativo, subxuntivo ou imperativo, imos restrinxir tamén a posible aparición de "a" como preposición en contextos nos que algún elemento atrae o clítico á posición anterior á forma verbal:
+
+non,_,_,_,	a,X,a,_,x	_,VI*|VS*|V0m*,_,_
+
+# (41) Para evitar que "día" sexa desagregado en V + Raa3 en casos como "día tras día", "día a día", "noite e día", "día e noite" etc.
+
+di,V*,dicir,día,x	a,PY3*,o,_,	tras|a,_,tras|a,tras|a,	día,NCMS,día,día,
+noite,NCF,noite,noite,	e,C,e,e,	di,V*,dicir,día,x
+di,V*,dicir,día,x	e,C,e,e,	noite,NCF,noite,noite
+
+# (42) Para evitar que analice 'gústanos' e variantes como 'gustan + os PY3MPA', cando todos os casos corresponden a 'gusta + nos'. A 3ª de plural + clítico de acus non é unha cadea posible en galego, ou eso creo.
+
+gustan|gusten|gustaban|gustarían,_,_,_	os,PY3MPA,o,_,x
+
+# (43) O verbo 'vir' non ten usos transitivos, así que 'vir + la ou las/Raa3f.' debe ir seguido de infinitivo. Se non o está, ten que ser o substantivo, por tanto cortamos a análise como verbo con enclítico. O que non sei é se a 'x' que corta o camiño ten que estar no verbo ou no pronome. Entendo que no primeiro elemento que sería incorrecto. (para evitar a mesma análise con "vilo" meto no lexicón como segura a locución adverbial "en vilo", de modo que xa non teño que cubrilo con regra)
+
+vir,_,_,vila|vilas,x	_,PY3F.,_,_,	_,!VNP,_,_
+
+# (44) 'Cremos' (P4 do presente, ás veces do pretérito, de crer) analizado como 'cre V* + me + os: non pode ir seguido de 'que', 'en' ou 'infinitivo':
+
+cre,_,_,cremos,x	me,_,_,_,	_,PY3*,_,_,	que|en,_,_,_
+cre,_,_,cremos,x	me,_,_,_,	_,PY3*,_,_,	_,VNP,_,_
+
+# (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes:
+
+como,_,_,_,	_,_,_,*mos,	me,_,_,_	_,PY3*,_,_,x
