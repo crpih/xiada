@@ -55,6 +55,8 @@ class XiadaTagger
   private
 
   def tag_text(text, proper_noun_processor)
+    return [] if text.empty?
+
     sentence = Sentence.new(@dw, @acronyms, @abbreviations, @enclitics, proper_noun_processor, text)
     sentence.contractions_processing
     sentence.idioms_processing # Must be processed before numerals
