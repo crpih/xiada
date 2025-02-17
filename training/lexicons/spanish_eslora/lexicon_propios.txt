@@ -673,3 +673,151 @@ Visto en Facebook	NPEL	Visto en Facebook
 Y punto	NPEL	Y punto
 Equipo A	NPMS	Equipo A
 El Equipo A	NPMS	El Equipo A
+A Estrada	NPEL	A Estrada
+A Lúa	NPEL	A Lúa
+A cri sio	NPMS	A cri sio
+Agua de granito	NPEL	Agua de granito
+Alba Pereiro	NPFS	Alba Pereiro
+Alfonso Márquez	NPMS	Alfonso Márquez
+Alfonso Pérez Codina	NPMS	Alfonso Pérez Codina
+Ana Elisa González	NPFS	Ana Elisa González
+Ana Elisa Gómez Baños	NPFS	Ana Elisa Gómez Baños
+Ana Isabel	NPFS	Ana Isabel
+Anamari Castillo Maldonado	NPFS	Anamari Castillo Maldonado
+Antonio Castro	NPMS	Antonio Castro
+Aranda de Duero	NPEL	Aranda de Duero
+Arena en la calle	NPEL	Arena en la calle
+As Pereiras	NPEL	As Pereiras
+Aurora Correa	NPFS	Aurora Correa
+Aurora García Reina	NPFS	Aurora García Reina
+Avenida de Castelao	NPEL	Avenida de Castelao
+Belén Domínguez	NPFS	Belén Domínguez
+Benito Pérez Xove	NPMS	Benito Pérez Xove
+Buenos Aires	NPEL	Buenos Aires
+Bugui Bugui	NPEL	Bugui Bugui
+Caldas de Reis	NPEL	Caldas de Reis
+Calle Providencia	NPEL	Calle Providencia
+Carlos Costa	NPMS	Carlos Costa
+Carrión de los Condes	NPEL	Carrión de los Condes
+Club Miladies	NPEL	Club Miladies
+Colegio Universitario de Vigo	NPEL	Colegio Universitario de Vigo
+Colexio Musical	NPEL	Colexio Musical
+Congelados Coronado	NPEL	Congelados Coronado
+Congregación de Jesús	NPEL	Congregación de Jesús
+Cristina Serrano Díez	NPFS	Cristina Serrano Díez
+Curros Enríquez	NPMS	Curros Enríquez
+Dan Johnson	NPMS	Dan Johnson
+Daniel Hermida	NPMS	Daniel Hermida
+Diego Méndez	NPMS	Diego Méndez
+Doenza máxica	NPEL	Doenza máxica
+Dolor mágico	NPEL	Dolor mágico
+El Chacho	NPMS	El Chacho
+El rincón del Sarela	NPEL	El rincón del Sarela
+Eusebio Lorenzo Baleirón	NPMS	Eusebio Lorenzo Baleirón
+Fernando Lorenzo	NPMS	Fernando Lorenzo
+Flavia Moreira	NPFS	Flavia Moreira
+Fogar de Pepe	NPEL	Fogar de Pepe
+General Pardiñas	NPEL	General Pardiñas
+Gerardo Muguruza Artola	NPMS	Gerardo Muguruza Artola
+Germán Adrande	NPMS	Germán Adrande
+González Valenzuela	NPMS	González Valenzuela
+Gómez Baños	NPMS	Gómez Baños
+Hotel Villanueva	NPEL	Hotel Villanueva
+Héctor Chacón	NPMS	Héctor Chacón
+Héctor Ramírez	NPMS	Héctor Ramírez
+Imprenta Vázquez	NPEL	Imprenta Vázquez
+Jaime Sacristán	NPMS	Jaime Sacristán
+Javi Formoso	NPMS	Javi Formoso
+Johnny Michael	NPMS	Johnny Michael
+Jose Manuel	NPMS	Jose Manuel
+José Manuel Cabeza	NPMS	José Manuel Cabeza
+José Neira Tovar	NPMS	José Neira Tovar
+José Ramón	NPMS	José Ramón
+Juan Agrelo	NPMS	Juan Agrelo
+Juan Manuel	NPMS	Juan Manuel
+La Algalia	NPEL	La Algalia
+La Baña	NPEL	La Baña
+La C	NPEL	La C
+La Compañía	NPEL	La Compañía
+La Penela	NPEL	La Penela
+La Ramallosa	NPEL	La Ramallosa
+La Robleda	NPEL	La Robleda
+La Rocha	NPEL	La Rocha
+Las Cancelas	NPEL	Las Cancelas
+Lidia Taboada	NPFS	Lidia Taboada
+Limpiezas Torre	NPEL	Limpiezas Torre
+Manolo de Viaño	NPMS	Manolo de Viaño
+Manu González	NPMS	Manu González
+Marcos Aguilera Gómez	NPMS	Marcos Aguilera Gómez
+Marcos Budiño López	NPMS	Marcos Budiño López
+Mari Antonia Piñeiro	NPFS	Mari Antonia Piñeiro
+Mari Luz	NPFS	Mari Luz
+Mari Soledad	NPFS	Mari Soledad
+Marta Pazos	NPFS	Marta Pazos
+María Claudia	NPFS	María Claudia
+María Emilia	NPFS	María Emilia
+María Figueroa	NPFS	María Figueroa
+María José	NPFS	María José
+María Luisa Páez	NPFS	María Luisa Páez
+María Soledad	NPFS	María Soledad
+Mateo Coiro	NPMS	Mateo Coiro
+Materiales Rianxo	NPEL	Materiales Rianxo
+Miguel Graña	NPMS	Miguel Graña
+Muebles Galicia	NPEL	Muebles Galicia
+Narciso Ferreira	NPMS	Narciso Ferreira
+Norma Caballero	NPFS	Norma Caballero
+O Colexio	NPEL	O Colexio
+Paco de Cuba	NPMS	Paco de Cuba
+Palas de Rei	NPEL	Palas de Rei
+Peluquería Laura	NPEL	Peluquería Laura
+Pepito Campos	NPMS	Pepito Campos
+Rafael Martín	NPMS	Rafael Martín
+Ramón Cabanillas	NPMS	Ramón Cabanillas
+Raúl Portas	NPMS	Raúl Portas
+Restaurante A Porta	NPEL	Restaurante A Porta
+Rincón del Sarela	NPEL	Rincón del Sarela
+Rodolfo Villaverde	NPMS	Rodolfo Villaverde
+Rosa María	NPFS	Rosa María
+Rosario Ramos Porta	NPFS	Rosario Ramos Porta
+Rúa Travesa	NPEL	Rúa Travesa
+Rúa de	NPEL	Rúa de
+Rúa de Lisboa	NPEL	Rúa de Lisboa
+Rúa de Mallou	NPEL	Rúa de Mallou
+San Antón	NPEL	San Antón
+San Francisco	NPEL	San Francisco
+San Lázaro	NPEL	San Lázaro
+San Marcos	NPEL	San Marcos
+San Paio	NPEL	San Paio
+San Pedro	NPEL	San Pedro
+San Xoán de Vista Alegre	NPEL	San Xoán de Vista Alegre
+Santa Com	NPEL	Santa Com
+Santa Comba	NPEL	Santa Comba
+Santa Mariña	NPEL	Santa Mariña
+Santa Mariña de Bascuas	NPEL	Santa Mariña de Bascuas
+Santiago de Chile	NPEL	Santiago de Chile
+Santo Domingo	NPEL	Santo Domingo
+Sao Paulo	NPEL	Sao Paulo
+The Blackouts	NPEL	The Blackouts
+Tonucha Piñeiro	NPFS	Tonucha Piñeiro
+Travesía da Roda	NPEL	Travesía da Roda
+Val do Dubra	NPEL	Val do Dubra
+Vallejo Cobo	NPMS	Vallejo Cobo
+Villa de Cruces	NPEL	Villa de Cruces
+Vista Alegre	NPEL	Vista Alegre
+Volta do Castro	NPEL	Volta do Castro
+Xosé Daniel Cunqueiro	NPMS	Xosé Daniel Cunqueiro
+calle Bellavista	NPEL	calle Bellavista
+calle del Cuco	NPEL	calle del Cuco
+el Franco	NPEL	el Franco
+el Hotel Monumento	NPEL	el Hotel Monumento
+el Pilar	NPEL	el Pilar
+el Preguntoiro	NPEL	el Preguntoiro
+la Audi	NPEL	la Audi
+la Ford	NPEL	la Ford
+la Kía	NPEL	la Kía
+la Toyota	NPEL	la Toyota
+los Manolos	NPEL	los Manolos
+señor Manuel	NPMS	Manuel
+señora Angustias	NPFS	Angustias
+Ángel Saavedra Nogueira	NPMS	Ángel Saavedra Nogueira
+Óscar Bello Cañas	NPMS	Óscar Bello Cañas
