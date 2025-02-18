@@ -1068,14 +1068,15 @@ class EncliticsProcessor
   def split_elements(enclitic_part)
     return [] if enclitic_part.empty?
 
-    parts = @enclitics_hash.keys.flat_map do |key|
-      next [] unless enclitic_part.start_with?(key)
+    combinations = @enclitics_hash.keys.filter_map do |key|
+      next unless enclitic_part.start_with?(key)
 
       [key, *split_elements(enclitic_part[key.length..])]
     end
 
-    # Check if all the enclitic has been split
-    parts.sum(&:length) == enclitic_part.length ? parts : nil
+    # Valid combinations are those which sum of lengths is equal to the length of the enclitic
+    # We return the first valid combination
+    combinations.find { |c| c.sum(&:length) == enclitic_part.length }
   end
 
   # Function which splits all enclitics components of a sequence
