@@ -13,6 +13,8 @@ class EncliticsProcessor
     case xiada_profile
     when "galician_xiada"
       @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianXiada)
+    when "galician_eslora"
+      @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianEslora)
     end
   end
 

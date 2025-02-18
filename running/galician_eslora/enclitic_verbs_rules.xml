@@ -204,6 +204,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
+          <!-- V0f10s and V0f30s do not exist in CORGA tagset -->
           <evaluation at="anywhere">VSF1S OR VSF3S OR VSF4S OR V0f10s OR V0f30s OR VNP</evaluation>
         </content>
         <condition>
