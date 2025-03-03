@@ -2,7 +2,7 @@ all: clean galician_xiada spanish_eslora multilingual_eslora
 
 galician_xiada: clean_galician_xiada galician_xiada_escrita galician_xiada_oral galician_xiada_prensa galician_xiada_prensa_xeral galician_xiada_prensa_economia galician_xiada_relato
 
-galician_palmed: clean_galician_palmed galician_palmed
+galician_palmed: clean_galician_palmed galician_palmed_escrita
 
 spanish_eslora: clean_spanish_eslora spanish_eslora_oral
 
@@ -15,7 +15,7 @@ galician_xiada_escrita:
 	ruby xiada_training.rb ../corpus/galician_xiada/corpus_xiada_escrita.tagged ../databases/galician_xiada/training_galician_xiada_escrita.db ../corpus/galician_xiada/tags_info.txt ../lexicons/galician_xiada/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_xiada_escrita; cd ../../bin
 
-galician_palmed:
+galician_palmed_escrita:
 	rm -f ../databases/galician_palmed/training_galician_palmed.db
 	ruby xiada_training.rb ../corpus/galician_palmed/corpus_xiada_escrita_adaptado.tagged ../databases/galician_palmed/training_galician_palmed.db ../corpus/galician_palmed/tags_info.txt ../lexicons/galician_palmed/lexicon_principal.txt
 	cd ../lexicons/bin; make galician_palmed; cd ../../bin
