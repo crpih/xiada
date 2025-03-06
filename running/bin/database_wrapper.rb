@@ -19,7 +19,7 @@ class DatabaseWrapper
       case ENV["XIADA_PROFILE"]
       when "spanish_eslora" then LemmatizerSpanishEslora.new(self)
       when "galician_eslora" then LemmatizerMultilingualEslora.new(self)
-      when "galician_xiada" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
+      when "galician_xiada", "galician_palmed" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
       when "galician_xiada_oral" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
       end
   end
