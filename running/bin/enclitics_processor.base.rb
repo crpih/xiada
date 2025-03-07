@@ -13,6 +13,8 @@ class EncliticsProcessor
     case xiada_profile
     when "galician_xiada"
       @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianXiada)
+    when "galician_eslora"
+      @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianEslora)
     end
   end
 
@@ -129,11 +131,7 @@ class EncliticsProcessor
       relevant_verb_part_token.add_prev(begin_alternative_token)
       prev_token = relevant_verb_part_token
 
-      enclitic_elements = split_elements(enclitic_part)
-      enclitics = split_enclitics(enclitic_elements)
-      enclitics_forms = enclitics[0]
-      enclitics_tags = enclitics[1]
-      enclitics_lemmas = enclitics[2]
+      enclitics_forms, enclitics_tags, enclitics_lemmas = split_enclitics(enclitic_part)
 
       new_token = nil
       enclitics_forms.each_index do |index|
@@ -178,16 +176,12 @@ class EncliticsProcessor
     # puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
     #prev_tokens = end_alternative_token.prevs.keys
     prev_tokens = relevant_verb_part_tokens
-    enclitic_elements = split_elements(enclitic_part)
     #puts "enclitic_elements"
     #enclitic_elements.each do |element|
     #  puts "  --#{element}--"
     #end
-    enclitics = split_enclitics(enclitic_elements)
+    enclitics_forms, enclitics_tags, enclitics_lemmas = split_enclitics(enclitic_part)
 
-    enclitics_forms = enclitics[0]
-    enclitics_tags = enclitics[1]
-    enclitics_lemmas = enclitics[2]
 
     #puts "enclitics_forms"
     #enclitics_forms.each do |enclitic_form|
@@ -262,49 +256,29 @@ class EncliticsProcessor
   def filter_tags_enclitic(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index) # to be replaced by compiler
   end
 
-  # This function returns an array of enclitics (or enclitics with contraction), that is,
-  # it returns the entries in enclitics_hash to be used to process each "portion" of
-  # enclitic_part
+  # Function which splits the enclitic into a sequence of valid parts
   def split_elements(enclitic_part)
-    (0...enclitic_part.length)
-      .map { |i| enclitic_part[0, i + 1] }
-      .filter { |p| @enclitics_hash.key?(p) }
+    return [] if enclitic_part.empty?
+
+    combinations = @enclitics_hash.keys.filter_map do |key|
+      next unless enclitic_part.start_with?(key)
+
+      [key, *split_elements(enclitic_part[key.length..])]
+    end
+
+    # Valid combinations are those which sum of lengths is equal to the length of the enclitic
+    # We return the first valid combination
+    combinations.find { |c| c.sum(&:length) == enclitic_part.length }
   end
 
   # Function which splits all enclitics components of a sequence
-  def split_enclitics(enclitic_elements)
-    enclitics = Array.new
-    tags = Array.new
-    lemmas = Array.new
-    component_index = 0
-    enclitic_elements.each do |element|
-      values_array = @enclitics_hash[element]
-      values_array.each do |component|
-        component.each_index do |index|
-          if index == 0
-            form = component[index]
-            enclitics << form
-          else
-            tags_lemmas = component[index]
-            tags_lemmas.each do |tag_lemma|
-              tag = tag_lemma[0]
-              lemma = tag_lemma[1]
-              if tags[component_index] == nil
-                tags[component_index] = tag
-                lemmas[component_index] = lemma
-              else
-                tags[component_index] << " " << tag
-                lemmas[component_index] << " " << lemma
-              end
-            end # from tags_lemmas.each
-          end # from if index == 0
-        end # from component.each_index
-        component_index = component_index + 1
-      end # from values_array.each
-    end # from enclitic_elements.each
-    result = Array.new
-    result << enclitics << tags << lemmas
-    return result
+  def split_enclitics(enclitic_part)
+    parts = split_elements(enclitic_part)
+    return [[], [], []] if parts.nil?
+
+    parts.flat_map { |p| @enclitics_hash[p] }
+         .map { |f, tls| [f, tls.map(&:first).join(" "), tls.map(&:last).join(" ")] }
+         .transpose
   end
 
   def insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)

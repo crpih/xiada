@@ -4,7 +4,7 @@ require 'fileutils'
 require_relative '../../test_helper'
 require_relative '../../../running/bin/database_wrapper'
 require_relative '../../../running/galician_xiada/lemmas/lemmatizer_corga'
-require_relative '../../../running/multilingual_eslora/lemmatizer'
+require_relative '../../../running/galician_eslora/lemmatizer'
 
 def gender_number_variations(word)
   return word unless word.end_with?('o')
@@ -57,13 +57,13 @@ describe "Lemmatizer" do
     test_snapshots('galician_xiada_escrita', lemmatizer, all_tags)
   end
 
-  describe "multilingual_eslora" do
-    ENV['XIADA_PROFILE'] = 'multilingual_eslora'
-    ENV['XIADA_DATABASE'] = 'multilingual_eslora'
-    dw = DatabaseWrapper.new("training/databases/multilingual_eslora/training_multilingual_eslora.db")
+  describe "galician_eslora" do
+    ENV['XIADA_PROFILE'] = 'galician_eslora'
+    ENV['XIADA_DATABASE'] = 'galician_eslora'
+    dw = DatabaseWrapper.new("training/databases/galician_eslora/training_galician_eslora.db")
     all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
     lemmatizer = LemmatizerMultilingualEslora.new(dw)
 
-    test_snapshots('multilingual_eslora', lemmatizer, all_tags)
+    test_snapshots('galician_eslora', lemmatizer, all_tags)
   end
 end

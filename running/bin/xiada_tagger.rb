@@ -42,12 +42,12 @@ class XiadaTagger
 
   def tag_texts(texts)
     trained_proper_nouns = @proper_noun_processor&.with_trained(texts)
-    texts.map { |text| tag_text(text, trained_proper_nouns).best_way }
+    texts.map { |t| t.empty? ? [] : tag_text(t, trained_proper_nouns).best_way }
   end
 
   def tag_texts_alternatives(texts)
     trained_proper_nouns = @proper_noun_processor&.with_trained(texts)
-    texts.map { |text| tag_text(text, trained_proper_nouns).all_ways }
+    texts.map { |t| t.empty? ? [] : tag_text(t, trained_proper_nouns).all_ways }
   end
 
   def call(text) = tag_text(text, @proper_noun_processor)

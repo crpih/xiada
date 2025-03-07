@@ -2,11 +2,15 @@
 
 cd training/bin
 make spanish_eslora
-make multilingual_eslora
+make galician_eslora
 make galician_xiada_escrita
 make galician_xiada_oral
+make galician_palmed
 cd ../..
 
+DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger:latest .
+
+# Legacy tags
 DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-spanish:latest .
-DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-multilingual:latest .
+DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-eslora-galician:latest .
 DOCKER_BUILDKIT=1 docker build --ssh default --build-arg TRAIN=false -t xiada_tagger-corga:latest .

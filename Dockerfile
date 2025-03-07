@@ -22,7 +22,7 @@ RUN if [ "$TRAIN" = "true" ]; then \
       echo "Training data not available. Training..."; \
       cd training/bin && \
       make spanish_eslora && \
-      make multilingual_eslora && \
+      make galician_eslora && \
       make galician_xiada_escrita && \
       make galician_xiada_oral && \
       cd ../.. \

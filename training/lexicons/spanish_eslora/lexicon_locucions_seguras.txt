@@ -104,6 +104,7 @@ petit suisse	NCMS	petit suisse
 petit suisses	NCMP	petit suisse
 pit bull	NCMS	pit bull
 pit bull terrier	NCMS	pit bull terrier
+pinta y colorea	AIS	pinta y colorea
 punto pelota	I	punto pelota
 requiescat in pace	NCMS	requiescat in pace
 road movie	NCFS	road movie
@@ -139,5 +140,5 @@ chan chan chan	I	chan chan chan
 cimpo	VIP1S	cimpar
 duty free	NCMS	duty free
 jamón de york	NCMS	jamón de york
-meritisimus	NCMS	meritisimus 
+meritisimus	NCMS	meritisimus
 pasarlas canutas	VNP	pasarlas canutas

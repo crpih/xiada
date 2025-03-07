@@ -37256,7 +37256,7 @@ hablémos	VMP1P	hablar
 hablémo	VMP1P	hablar
 háblen	VMP3P	hablar
 háble	VMP3S	hablar
-habra	VIH3S	haber
+habra	VIF3S	haber
 haced	VMP2P	hacer
 hacéd	VMP2P	hacer
 hacer	VNP	hacer

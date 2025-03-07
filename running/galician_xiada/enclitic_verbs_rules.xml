@@ -23,7 +23,7 @@
       <target>verb_part</target>
       <content>
         <evaluation at="end">ói</evaluation>
-      </content>      
+      </content>
       <condition>
         <target>verb_tags</target>
         <content>
@@ -204,6 +204,7 @@
       <condition>
         <target>verb_tags</target>
         <content>
+          <!-- V0f10s and V0f30s do not exist in CORGA tagset -->
           <evaluation at="anywhere">Vfs10s OR Vfs30s OR Vfsa0s OR V0f10s OR V0f30s OR V0f000</evaluation>
         </content>
         <condition>
@@ -839,7 +840,7 @@
       </condition>
     </condition>
   </rule>
-  
+
   <!-- O clítico se só pode ir coa terceira persoa singular e plural de todos os
   tempos verbais, e co infinitivo e o xerundio -->
   <rule>
@@ -852,7 +853,7 @@
       <filter>NOT V0f000 AND NOT V0x000 AND NOT V??3</filter>
     </condition>
   </rule>
-  
+
   <!-- Mario cree que se pode fusionar esta regra coa anterior poñendo ao principio
   de filter Ves30s AND NOT ... -->
   <!-- Si la forma verbal acaba en se, el enclítico no puede comenzar en se, para
@@ -895,7 +896,7 @@
       </condition>
     </condition>
   </rule>
-  
+
   <!-- Engadida: vo non pode ir coa segunda do singular. -->
   <rule>
     <condition>
@@ -913,7 +914,7 @@
       </condition>
     </condition>
   </rule>
-  
+
   <!-- Engadida: Para evitar cousas como cantáchescha, cantáchesche, cantáchescho, etc. -->
   <!-- Se a parte verbal remata en che ou ches e a etiqueta é Vei20s, o primeiro
   clítico non pode ser ningunha combinación de che -->

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 require_relative "../galician_xiada/enclitics_processor_custom.rb"
+require_relative "../galician_eslora/enclitics_processor_custom.rb"
 
 class EncliticsProcessorCustom
   def initialize(sentence, dw, enclitics_hash)

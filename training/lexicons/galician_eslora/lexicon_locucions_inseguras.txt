@@ -1,0 +1,417 @@
+a a beira de	X	a a beira de	a a beira de	s
+a a beira	W	a a beira	a a beira	s
+a a ceavoga	W	a a ceavoga	a a ceavoga	s
+a a fin e a o cabo	W	a a fin e a o cabo	a a fin e a o cabo	s
+a a fin	W	a a fin	a a fin	s
+a a forza	W	a a forza	a a forza	s
+a a longa	W	a a longa	a a longa	n
+a a marxe	W	a a marxe	a a marxe	s
+a a medida	W	a a medida	a a medida	s
+a a parte	W	a a parte	a a parte	s
+a a présa	W	a a présa	a a présa	s
+a as avesas	W	a as avesas	a as avesas	s
+a as carreiras	W	a as carreiras	a as carreiras	s
+a as cegas	W	a as cegas	a as cegas	s
+a as escuras	W	a as escuras	a as escuras	s
+a as présas	W	a as présas	a as présas	s
+a as rapadas	W	a as rapadas	a as rapadas	s
+a as veces	W	a as veces	a as veces	s
+a base de	X	a base de	a base de	s
+a berros	W	a berros	a berros	s
+a cabalo	W	a cabalo	a cabalo	s
+a cada canto	W	a cada canto	a cada canto	s
+a cada pouco	W	a cada pouco	a cada pouco	s
+a cambio	W	a cambio	a cambio	s
+a canchaperna	W	a canchaperna	a cachapernas	s
+a capela	W	a capela	a capela	s
+a catro patas	W	a catro patas	a catro patas	s
+a causa de	X	a causa de	a causa de	s
+a cegas	W	a cegas	a as cegas	n
+a chupe	W	a chupe	a chupe	s
+a consecuencia de	X	a consecuencia de	a consecuencia de	s
+a conta de	X	a conta de	a a conta de	n
+a continuación	W	a continuación	a continuación	s
+a contracorrente	W	a contracorrente	a contracorrente	s
+a contragusto	W	a contragusto	a contragusto	s
+a contrapelo	W	a contrapelo	a contrapelo	s
+a correr	W	a correr	a correr	s
+a costa de	X	a costa de	a a custa de	n
+acto seguido	W	acto seguido	acto seguido	s
+a dereitas	W	a dereitas	a dereitas	s
+a diario	W	a diario	a diario	s
+a diferencia de	X	a diferencia de	a diferenza de	n
+a diferenza de	X	a diferenza de	a diferenza de	s
+a duras penas	W	a duras penas	a duras penas	s
+a escuso	W	a escuso	a escuso	s
+a excepción de	X	a excepción de	a excepción de	s
+a feito	W	a feito	a feito	s
+a fin de contas	W	a fin de contas	a fin de contas	s
+a fin de	X	a fin de	a fin de	s
+a fondo	W	a fondo	a fondo	s
+a forza de	X	a forza de	a forza de	s
+agora ben	C	agora ben	agora ben	s
+agora que	C	agora que	agora que	s
+a gusto	W	a gusto	a gusto	s
+alto o fogo	NCMS	alto o fogo	alto o fogo	s
+a maiores	W	a maiores	a maiores	s
+a mais	C	a mais	e mais	s
+a medida que	C	a medida que	a medida que	s
+a menos que	C	a menos que	a menos que	s
+a modo	W	a modo	amodo	n
+a nada que	C	a nada que	a nada que	s
+a nado	W	a nado	a nado	s
+a o azar	W	a o azar	a o azar	s
+a o bordo de	X	a o bordo de	a o bordo de	s
+a o cabo	W	a o cabo	a o cabo	s
+a o completo	W	a o completo	a o completo	s
+a o contrario	W	a o contrario	a o contrario	s
+a o cuberto	W	a o cuberto	a cuberto	s
+a o dereito	W	a o dereito	a o dereito	s
+a o descuberto	W	a o descuberto	a o descuberto	s
+a o fin e a o cabo	W	a o fin e a o cabo	a a fin e a o cabo	s
+a o fin	W	a o fin	a o fin	s
+a o lado	W	a o lado	a o lado	s
+a o longo de	X	a o longo de	a o longo de	s
+a o lonxe	W	a o lonxe	a o lonxe	s
+a o mellor	W	a o mellor	a o mellor	s
+a o menos	W	a o menos	a o menos	s
+a o momentiño	W	a o momento	a o momento	s
+a o momento	W	a o momento	a o momento	s
+a o par de	X	a o par de	a o par de	s
+a o parecer	W	a o parecer	a o parecer	s
+a o par	W	a o par	a o par	s
+a o pé de	X	a o pé de	a o pé de	s
+a o pé	W	a o pé	a o pé	s
+a o pouco	W	a o pouco	a o pouco	s
+a o primeiro	W	a o primeiro	a o primeiro	s
+a o quite	W	a o quite	a o quite	s
+a o raro	W	a o raro	a o raro	s
+a o redor de	X	a o redor de	a o redor de	s
+a o respecto de	X	a o respecto de	a respecto de	n
+a o respecto	W	a o respecto	a o respecto	s
+a o revés	W	a o revés	a o revés	s
+a os poucos	W	a os poucos	a os poucos	s
+a os pouquiños	W	a os poucos	a os poucos	s
+a o tanto	W	a o tanto	a o tanto	s
+a o xeito	W	a o xeito	a o xeito	s
+a par de	X	a par de	a par de	s
+a penas	C	a penas	apenas	n
+a penas	W	a penas	apenas	n
+a pé	W	a pé	a pé	s
+a pouco que	C	a pouco que	a pouco que	s
+a pre	W	a pre	a pre	s
+a propósito	W	a propósito	a propósito	s
+a punto de	X	a punto de	a punto de	s
+a punto	W	a punto	a punto	s
+a raíz de	X	a raíz de	a raíz de	s
+a rastro	W	a rastro	a rastro	s
+a razón de	X	a razón de	a razón de	s
+a rebolos	W	a rebolos	a rebolos	s
+a rente de	X	a rente de	a rentes de	s
+a respecto de	X	a respecto de	a respecto de	s
+a respeito de	X	a respeito de	a respecto de	n
+a rolos	W	a rolos	a rolos	s
+arredor de	X	arredor de	arredor de	s
+así a todo	W	así a todo	así e todo	n
+así como	C	así como	así como	s
+así e todo	W	así e todo	así e todo	s
+así mesmo	W	así mesmo	así mesmo	s
+así pois	W	así pois	así pois	s
+así que	C	así que	así que	s
+a son	W	a son	a son	s
+a tal hora	W	a tal hora	a tal hora	s
+a tempo	W	a tempo	a tempo	s
+a toda costa	W	a toda costa	a toda costa	n
+a través	W	a través	a través	s
+a un tempo	W	a un tempo	a un tempo	s
+axiña que	C	axiña que	axiña que	s
+beira de	X	beira de	beira de	s
+ben como	C	ben como	ben como	s
+ben non	W	ben non	ben non	s
+ben que	C	ben que	ben que	s
+boca a boca	NCMS	boca a boca	boca a boca	s
+boca a boca	W	boca a boca	boca a boca	s
+cabalo de batalla	NCMS	cabalo de batalla	cabalo de batalla	s
+cabalos de batalla	NCMP	cabalo de batalla	cabalo de batalla	s
+cabo de	X	cabo de	cabo de	s
+camiño de	X	camiño de	camiño de	s
+cando menos	W	cando menos	cando menos	n
+cando queira que	C	cando queira que	cando queira que	s
+canto antes	W	canto antes	canto antes	s
+canto a	X	canto a	canto a	s
+cara a	X	cara a	cara a	s
+catar se	C	catar se	catar se	s
+coches de línea	NCMP	coche de línea	coches de liña	n
+como mínimo	W	como mínimo	como mínimo	s
+como queira que	C	como queira que	como queira que	s
+conforme a	X	conforme a	conforme a	s
+con respecto a	X	con respecto a	con respecto a	s
+con respeito a	X	con respeito a	con respecto a	n
+con segundas	W	con segundas	con segundas	s
+con tal de que	C	con tal de que	con tal de que	s
+con tal que	C	con tal que	con tal que	s
+con todo	W	con todo	con todo	s
+contra de	X	contra de	contra de	s
+contra reloxo	NCFS	contra reloxo	contrarreloxo	n
+cuarta feira	NCFS	cuarta feira	corta feira	s
+cuartas feiras	NCFP	cuarta feira	corta feira	s
+dacordo con	X	dacordo con	de acordo con	n
+dado que	C	dado que	dado que	s
+de abondo	W	de abondo	dabondo	n
+de a cabalo	W	de a cabalo	de a cabalo	s
+de acordo	W	de acordo	de acordo	s
+de a feito	W	de a feito	a feito	s
+de aí que	C	de aí que	de aí que	s
+de alí a pouco	W	de alí a pouco	de alí a pouco	s
+de alí a pouquiño	W	de alí a pouco	de alí a pouco	s
+de aquí a pouco	W	de aquí a pouco	de aquí a pouco	s
+de aquí a pouquiño	W	de aquí a pouco	de aquí a pouco	s
+de broma	W	de broma	de broma	s
+de bruzos	W	de bruzos	de bruzos	s
+de camiño	W	de camiño	de camiño	s
+de cara a	X	de cara a	de cara a	s
+de certo	W	de certo	de certo	s
+de contadiño	W	de contado	decontado	n
+decontado que	C	decontado que	decontado que	s
+de contado	W	de contado	decontado	n
+de cor	W	de cor	de cor	s
+de emprestado	W	de emprestado	de emprestado	s
+de face	W	de face	de face	s
+de feito	W	de feito	de feito	s
+de fronte	W	de fronte	de fronte	s
+de golpe	W	de golpe	de golpe	s
+deica pouco	W	deica pouco	deica pouco	s
+deica que	C	deica que	deica que	s
+deica un pouco	W	deica un pouco	deica un pouco	s
+de inmediato	W	de inmediato	de inmediato	s
+de lado	W	de lado	de lado	s
+de longo	W	de longo	de longo	s
+de máis	W	de máis	de máis	s
+de menos	W	de menos	de menos	s
+de momento	W	de momento	de momento	s
+de non ser que	C	de non ser que	de non ser que	s
+de non ser se	C	de non ser se	de non ser se	s
+de novo	W	de novo	de novo	s
+dentro de	X	dentro de	dentro de	s
+de o revés	W	de o revés	de o revés	s
+de paisano	AAS	de paisano	de paisano	s
+de paisano	AEL	de paisano	de paisano	s
+de paisano	AEP	de paisano	de paisano	s
+de paisano	AES	de paisano	de paisano	s
+de paisano	AFL	de paisano	de paisano	s
+de paisano	AFP	de paisano	de paisano	s
+de paisano	AFS	de paisano	de paisano	s
+de paisano	AMS	de paisano	de paisano	s
+de paisano	ANS	de paisano	de paisano	s
+de paisano	W	de paisano	de paisano	s
+de par de	X	de par de	de par de	s
+de paso	W	de paso	de paso	s
+de pé	W	de pé	de pé	s
+de plano	W	de plano	de plano	s
+de por vida	W	de por vida	de por vida	s
+de présa	W	de présa	a a présa	n
+de prestado	W	de prestado	de prestado	n
+de pronto	W	de pronto	de pronto	s
+de propósito	W	de propósito	de propósito	s
+de raíz	W	de raíz	de raíz	s
+de raro en raro	W	de raro en raro	de raro en raro	s
+de repente	W	de repente	de repente	s
+de rodillas	W	de rodillas	de rodillas	n
+derredor de	X	derredor de	derredor de	s
+deseguida que	C	deseguida que	deseguida que	s
+de seguida	W	de seguida	deseguida	n
+de seguidiña	W	de seguida	deseguida	n
+de seguido	W	de seguido	deseguido	n
+de segundas	W	de segundas	de segundas	s
+de seguro	W	de seguro	de seguro	s
+de tempo en tempo	W	de tempo en tempo	de tempo en tempo	s
+de todo	W	de todo	de todo	s
+de través de	X	de través de	de través de	s
+de través	W	de través	de través	s
+de unha tirada	W	de unha tirada	de unha tirada	s
+de vagar	W	de vagar	devagar	n
+de verdade	W	de verdade	de verdade	s
+de vez en cando	W	de vez en cando	de vez en cando	s
+de xeonllos	W	de xeonllos	de xeonllos	s
+de xoenllos	W	de xoenllos	de xeonllos	s
+e iso que	C	e iso que	e iso que	s
+e listo	W	e listo	e listo	s
+e mais	C	e mais	e mais	s
+en absoluto	W	en absoluto	en absoluto	s
+en alto	W	en alto	en alto	s
+en base a	X	en base a	en base a	n
+en breve	W	en breve	en breve	s
+en broma	W	en broma	en broma	s
+en cambio	W	en cambio	en cambio	s
+en canto a	X	en canto a	en canto a	s
+en canto	C	en canto	en canto	s
+encefalopatía esponxiforme	NCFS	encefalopatía esponxiforme	encefalopatía esponxiforme	n
+en común	W	en común	en común	s
+en conciencia	W	en conciencia	en conciencia	s
+en concreto	W	en concreto	en concreto	s
+ende ben	C	ende ben	ende ben	s
+en definitiva	W	en definitiva	en definitiva	s
+ende mal	C	ende mal	ende mal	s
+en detalle	W	en detalle	en detalle	n
+en diante	W	en diante	en diante	s
+en efecto	W	en efecto	en efecto	s
+en especial	W	en especial	en especial	s
+en fin	W	en fin	en fin	s
+en firme	W	en firme	en firme	n
+en frío	W	en frío	en frío	s
+en fronte de	X	en fronte de	en fronte de	s
+en fronte	W	en fronte	en fronte	s
+en liña	W	en liña	en liña	s
+en orde a	X	en orde a	en orde a	n
+en orde	W	en orde	en orde	s
+en par de	X	en par de	en par de	s
+en parte	W	en parte	en parte	s
+en particular	W	en particular	en particular	s
+en pé	W	en pé	en pé	s
+en por de	X	en por de	en por de	s
+en precario	W	en precario	en precario	n
+en público	W	en público	en público	s
+en punto	W	en punto	en punto	s
+en rama	W	en rama	en rama	s
+en relación a	X	en relación a	en relación a	s
+en seguida	W	en seguida	enseguida	n
+en seguidiña	W	en seguida	enseguida	n
+en serio	W	en serio	en serio	s
+en tanto	C	en tanto	en tanto	s
+en tempo	W	en tempo	en tempo	s
+en teoría	W	en teoría	en teoría	s
+en todo caso	W	en todo caso	en todo caso	s
+en torno a	X	en torno a	en torno a	s
+entre tanto	C	entre tanto	entre tanto	s
+en vango	W	en vango	en vango	s
+en van	W	en van	en van	s
+en verdade	W	en verdade	en verdade	s
+e todo	W	e todo	e todo	s
+fóra de	X	fóra de	fóra de	s
+frente a	X	frente a	fronte a	n
+fronte a	X	fronte a	fronte a	s
+fronte por fronte	W	fronte por fronte	fronte por fronte	s
+gracias a	X	gracias a	grazas a	n
+grazas a	X	grazas a	grazas a	s
+logo que	C	logo que	logo que	s
+máis ben	W	máis ben	máis ben	n
+mal como	C	mal como	mal como	s
+mal que	C	mal que	mal que	s
+mando a distancia	NCMS	mando a distancia	mando a distancia	s
+menos mal	W	menos mal	menos mal	n
+mentras que	C	mentras que	mentres	n
+mentres que	C	mentres que	mentres	s
+mentres tanto	C	mentres tanto	mentres	s
+mentres tanto	W	mentres tanto	mentres tanto	s
+mesmo que	C	mesmo que	mesmo que	s
+meu Deus	I	meu Deus	meu Deus	s
+moitas gracias	I	moitas gracias	grazas	n
+moitas grazas	I	moitas grazas	grazas	s
+nin que	C	nin que	nin que	s
+non ben	W	non ben	non ben	s
+off line	W	off line	off line	n
+onda non	C	onda non	onda non	s
+onde queira	W	onde queira	onde queira	s
+o outro antonte	W	o outro antonte	o outro antonte	s
+ora ben	C	ora ben	ora ben	s
+ora que	C	ora que	ora que	s
+ou ben	C	ou ben	ou ben	s
+ou sexa	C	ou sexa	ou sexa	s
+pese a	X	pese a	pese a	s
+pois ben	C	pois ben	pois ben	s
+pois que	C	pois que	pois que	s
+por aí	W	por aí	por aí	s
+por ante	X	por ante	por ante	s
+por canto	C	por canto	por canto	n
+por cen	W	por cen	por cento	n
+por certo	W	por certo	por certo	s
+por completo	W	por completo	por completo	s
+por conseguinte	C	por conseguinte	por conseguinte	s
+por cousa de	X	por cousa de	por cousa de	s
+por culpa de	X	por culpa de	por culpa de	s
+por descontado	W	por descontado	por suposto	n
+por encima	W	por encima	por encima	s
+por enriba	W	por enriba	por enriba	s
+por enteiro	W	por enteiro	por enteiro	s
+por escrito	W	por escrito	por escrito	s
+por exemplo	W	por exemplo	por exemplo	s
+por fin	W	por fin	por fin	s
+por fortuna	W	por fortuna	por fortuna	s
+por igual	W	por igual	por igual	s
+por la contra	W	por a contra	por a contra	s
+por las boas	W	por as boas	por as boas	s
+por las malas	W	por as malas	por as malas	s
+por libre	W	por libre	por libre	s
+por lo baixo	W	por o baixo	por o baixo	s
+por lo contrario	W	por o contrario	por o contrario	s
+por lo menos	W	por o menos	por o menos	s
+por lo miudiño	W	por o miúdo	por o miúdo	n
+por lo miudo	W	por o miudo	por o miúdo	n
+por lo miúdo	W	por o miúdo	por o miúdo	s
+por lo momento	W	por o momento	por o momento	s
+por lo pronto	W	por o pronto	por o de pronto	n
+por los zarapelos	W	por os zarapelos	por os zarapelos	s
+por lo tanto	C	por o tanto	por o tanto	s
+por lo tanto	W	por o tanto	por o tanto	s
+por lo visto	W	por o visto	por o visto	n
+por máis que	C	por máis que	por máis que	s
+por moito que	C	por moito que	por moito que	s
+por pouco que	C	por pouco que	por pouco que	s
+por riba	W	por riba	por riba	s
+por separado	W	por separado	por separado	s
+por suposto	W	por suposto	por suposto	s
+por tanto	C	por tanto	por o tanto	s
+por tanto	W	por tanto	por tanto	s
+por veces	W	por veces	por veces	s
+posto que	C	posto que	posto que	s
+pouco a pouco	W	pouco a pouco	pouco e pouco	s
+pouco e pouco	W	pouco e pouco	pouco e pouco	s
+pouquiño a pouco	W	pouco a pouco	pouco e pouco	s
+punto e coma	NCMS	punto e coma	punto e coma	s
+punto seguido	NCMS	punto seguido	punto e seguido	n
+puntos seguidos	NCMP	punto seguido	punto e seguido	n
+quinta feira	NCFS	quinta feira	quinta feira	s
+quintas feiras	NCFP	quinta feira	quinta feira	s
+respecto a	X	respecto a	respecto a	s
+respecto de	X	respecto de	respecto de	s
+respeito a	X	respeito a	respecto a	n
+respeito de	X	respeito de	respecto de	n
+se ben	C	se ben	se ben	n
+se cadra	W	se cadra	se cadra	s
+se callar	W	se callar	se callar	s
+segunda feira	NCFS	segunda feira	segunda feira	s
+segundas feiras	NCFP	segunda feira	segunda feira	s
+sempre que	C	sempre que	sempre que	s
+sen dúbida	W	sen dúbida	sen dúbida	s
+sen embargo	W	sen embargo	sen embargo	n
+senón que	C	senón que	senón que	s
+sexta feira	NCFS	sexta feira	sexta feira	s
+sextas feiras	NCFP	sexta feira	sexta feira	s
+si ben	C	si ben	se ben	n
+sobre de	X	sobre de	sobre de	s
+só que	C	só que	só que	s
+tal vez	W	tal vez	talvez	n
+tan presto	C	tan presto	tan presto	s
+tan pronto	C	tan pronto	tan pronto	s
+terceira feira	NCFS	terceira feira	terza feira	s
+terceiras feiras	NCFP	terceira feira	terza feira	s
+todo terreo	NCMS	todo terreo	todo terreo	s
+todo terreos	NCMP	todo terreo	todo terreo	s
+torre de control	NCFS	torre de control	torre de control	s
+torres de control	NCFP	torre de control	torre de control	s
+tras de	X	tras de	tras de	s
+un canto	DNMS	un canto	un canto	s
+un canto	PNMS	un canto	un canto	s
+unha vez	C	unha vez	unha vez	s
+unha vez que	C	unha vez que	unha vez	n
+unha vez	W	unha vez	unha vez	s
+uns cantos	DNMP	un canto	un canto	s
+uns cantos	PNMP	un canto	un canto	s
+un tanto	W	un tanto	un tanto	s
+verbo de	X	verbo de	verbo de	s
+visto que	C	visto que	visto que	s
+xa que	C	xa que	xa que	s
+xa que logo	C	xa que logo	xa que logo	s
+xunto a	X	xunto a	xunto a	s
+xunto con	X	xunto con	xunto con	n
+xunto de	X	xunto de	xunto de	s
