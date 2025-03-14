@@ -6,7 +6,7 @@ module Lemmas
   class MicroRule < PrefixVowelRule
     attr_reader :tags
 
-    def initialize(all_possible_tags, adjective = 'A.*', noun_common = 'Sc.*', verb = 'V.*')
+    def initialize(all_possible_tags, adjective: 'A.*', noun_common: 'Sc.*', verb: 'V.*')
       super(all_possible_tags, 'micro')
       @tags = tags_for(adjective, noun_common, verb)
     end

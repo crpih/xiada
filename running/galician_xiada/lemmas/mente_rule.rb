@@ -5,10 +5,11 @@ require_relative '../../bin/lemmas/rule'
 module Lemmas
   class MenteRule < Rule
 
-    def initialize(all_possible_tags, adverb = 'W.*')
+    def initialize(all_possible_tags, adverb: 'W.*')
       super(all_possible_tags)
       @tags = tags_for(adverb)
     end
+
     def apply_query(query)
       return unless query.word.end_with?('mente')
       return if query.tags.any? && query.tags.all? { |t| t.start_with?('Sp') }

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require_relative "../spanish_eslora/lemmatizer"
+require_relative "../galician_xiada/lemmas/lemmatizer_corga"
 require_relative "../galician_xiada/lemmas/mente_rule"
 require_relative "../galician_xiada/lemmas/auto_rule"
 require_relative "../galician_xiada/lemmas/isimo_rule"
@@ -14,59 +14,42 @@ require_relative "../galician_xiada/lemmas/xeo_rule"
 require_relative "../galician_xiada/lemmas/multi_rule"
 require_relative "../galician_xiada/lemmas/tele_rule"
 
-class LemmatizerMultilingualEslora
+class LemmatizerMultilingualEslora < Lemmas::LemmatizerCorga
 
-  class AdaptedLemmatizerCorga < Lemmas::LemmatizerCorga
-    def initialize(database_wrapper, gheada: true, seseo: false)
-      super
-
-      # CORGA rules adapted to ESLORA tags
-      @mente_rule = MenteRule.new(@tags, adverb: 'W')
-      @auto_rule = AutoRule.new(@tags, adjective: "A.*", noun: "N.*", adverb: "W", verb: "V.*")
-      @isimo_rule = IsimoRule.new(@tags, adjective: "A.*", verb_participle: "VP.*")
-      @inho_rule = InhoRule.new(
-        @tags,
-        noun: "N.*",
-        noun_common: "NC.*",
-        noun_common_feminine: "NCF.*",
-        adjective: "A.*",
-        adjective_feminine: "AF.*",
-        verb_infinitive: "VI.*",
-        verb_participle: "VP.*",
-        verb_gerund: "VG.*",
-        verb_imperative: "VMI.*",
-        verb_indicative: "VII.*",
-        verb_subjunctive: "VSI.*",
-        adverb: "W",
-        indefinite: "[PD]N.*"
-     )
-      @ex_rule = ExRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
-      @ex_proper_rule = ExProperRule.new(@tags, noun_propers: "NP.*")
-      @meta_rule = MetaRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
-      @etno_rule = EtnoRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
-      @macro_rule = MacroRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
-      @micro_rule = MicroRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
-      @xeo_rule = XeoRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
-      @multi_rule = MultiRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*", adverb: "W")
-      @tele_rule = TeleRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*", adverb: "W")
-    end
-  end
-
-  def initialize(database_wrapper)
+  def initialize(database_wrapper, gheada: true, seseo: false)
     @dw = database_wrapper
-    @eslora_lemmatizer = LemmatizerSpanishEslora.new(@dw)
-    @corga_lemmatizer = Lemmas::LemmatizerCorga.new(@dw, seseo: true)
-  end
+    @gheada = gheada
+    @seseo = seseo
+    @tags = @dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
 
-  def lemmatize(word, tags)
-    result = @eslora_lemmatizer.lemmatize(word, tags)
-    result = @corga_lemmatizer.lemmatize(word, tags) if result.empty?
-    result
-  end
-
-  def lemmatize_verb_with_enclitics(left_part)
-    result = @eslora_lemmatizer.lemmatize_verb_with_enclitics(left_part)
-    result = @corga_lemmatizer.lemmatize_verb_with_enclitics(left_part) if result.empty?
-    result
+    # CORGA rules adapted to ESLORA tags
+    @mente_rule = Lemmas::MenteRule.new(@tags, adverb: 'W')
+    @auto_rule = Lemmas::AutoRule.new(@tags, adjective: "A.*", noun: "N.*", adverb: "W", verb: "V.*")
+    @isimo_rule = Lemmas::IsimoRule.new(@tags, adjective: "A.*", verb_participle: "VP.*")
+    @inho_rule = Lemmas::InhoRule.new(
+      @tags,
+      noun: "N.*",
+      noun_common: "NC.*",
+      noun_common_feminine: "NCF.*",
+      adjective: "A.*",
+      adjective_feminine: "AF.*",
+      verb_infinitive: "VI.*",
+      verb_participle: "VP.*",
+      verb_gerund: "VG.*",
+      verb_imperative: "VMI.*",
+      verb_indicative: "VII.*",
+      verb_subjunctive: "VSI.*",
+      adverb: "W",
+      indefinite: "[PD]N.*"
+    )
+    @ex_rule = Lemmas::ExRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
+    @ex_proper_rule = Lemmas::ExProperRule.new(@tags, noun_propers: "NP.*")
+    @meta_rule = Lemmas::MetaRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
+    @etno_rule = Lemmas::EtnoRule.new(@tags, adjective: "A.*", noun_common: "NC.*")
+    @macro_rule = Lemmas::MacroRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
+    @micro_rule = Lemmas::MicroRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
+    @xeo_rule = Lemmas::XeoRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*")
+    @multi_rule = Lemmas::MultiRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*", adverb: "W")
+    @tele_rule = Lemmas::TeleRule.new(@tags, adjective: "A.*", noun_common: "NC.*", verb: "V.*", adverb: "W")
   end
 end

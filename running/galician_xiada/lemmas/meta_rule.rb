@@ -6,7 +6,7 @@ module Lemmas
   class MetaRule < PrefixVowelRule
     attr_reader :tags
 
-    def initialize(all_possible_tags, adjective = 'A.*', noun_common = 'Sc.*')
+    def initialize(all_possible_tags, adjective: 'A.*', noun_common: 'Sc.*')
       super(all_possible_tags, 'meta')
       @tags = tags_for(adjective, noun_common)
     end

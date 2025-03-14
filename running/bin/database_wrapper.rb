@@ -26,22 +26,15 @@ class DatabaseWrapper
 
   def get_emissions_info(word, tags)
     # STDERR.puts "word:#{word}, tags:#{tags}"
-    result = Array.new
+    query_string = "select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}'"
+    query_string += " AND from_lexicon=1" if ENV['XIADA_ONLY_LEXICON'] == 'true' && word != '###'
     if (tags == nil) or (tags.empty?)
-      # STDERR.puts "tags nil"
-      @db.execute("select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}'") do |row|
-        result << row
-      end
+      @db.execute(query_string)
     else
-      # STDERR.puts "tags not nil"
       tag_string = get_possible_tags(tags)
-      # STDERR.puts "tag_string: #{tag_string}"
-      @db.execute("select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}' and tag in (#{tag_string})") do |row|
-        result << row
-      end
+      query_string += " AND tag in (#{tag_string})"
+      @db.execute(query_string)
     end
-    # STDERR.puts "result:#{result}"
-    return result
   end
 
   def get_emissions_info_variants(word, tags, variants)
