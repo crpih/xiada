@@ -36,7 +36,6 @@ a contragusto	W	a contragusto	a contragusto	s
 a contrapelo	W	a contrapelo	a contrapelo	s
 a correr	W	a correr	a correr	s
 a costa de	X	a costa de	a a custa de	n
-acto seguido	W	acto seguido	acto seguido	s
 a dereitas	W	a dereitas	a dereitas	s
 a diario	W	a diario	a diario	s
 a diferencia de	X	a diferencia de	a diferenza de	n
@@ -49,10 +48,7 @@ a fin de contas	W	a fin de contas	a fin de contas	s
 a fin de	X	a fin de	a fin de	s
 a fondo	W	a fondo	a fondo	s
 a forza de	X	a forza de	a forza de	s
-agora ben	C	agora ben	agora ben	s
-agora que	C	agora que	agora que	s
 a gusto	W	a gusto	a gusto	s
-alto o fogo	NCMS	alto o fogo	alto o fogo	s
 a maiores	W	a maiores	a maiores	s
 a mais	C	a mais	e mais	s
 a medida que	C	a medida que	a medida que	s
@@ -90,10 +86,10 @@ a o redor de	X	a o redor de	a o redor de	s
 a o respecto de	X	a o respecto de	a respecto de	n
 a o respecto	W	a o respecto	a o respecto	s
 a o revés	W	a o revés	a o revés	s
-a os poucos	W	a os poucos	a os poucos	s
-a os pouquiños	W	a os poucos	a os poucos	s
 a o tanto	W	a o tanto	a o tanto	s
 a o xeito	W	a o xeito	a o xeito	s
+a os poucos	W	a os poucos	a os poucos	s
+a os pouquiños	W	a os poucos	a os poucos	s
 a par de	X	a par de	a par de	s
 a penas	C	a penas	apenas	n
 a penas	W	a penas	apenas	n
@@ -111,6 +107,16 @@ a rente de	X	a rente de	a rentes de	s
 a respecto de	X	a respecto de	a respecto de	s
 a respeito de	X	a respeito de	a respecto de	n
 a rolos	W	a rolos	a rolos	s
+a son	W	a son	a son	s
+a tal hora	W	a tal hora	a tal hora	s
+a tempo	W	a tempo	a tempo	s
+a toda costa	W	a toda costa	a toda costa	n
+a través	W	a través	a través	s
+a un tempo	W	a un tempo	a un tempo	s
+acto seguido	W	acto seguido	acto seguido	s
+agora ben	C	agora ben	agora ben	s
+agora que	C	agora que	agora que	s
+alto o fogo	NCMS	alto o fogo	alto o fogo	s
 arredor de	X	arredor de	arredor de	s
 así a todo	W	así a todo	así e todo	n
 así como	C	así como	así como	s
@@ -118,12 +124,6 @@ así e todo	W	así e todo	así e todo	s
 así mesmo	W	así mesmo	así mesmo	s
 así pois	W	así pois	así pois	s
 así que	C	así que	así que	s
-a son	W	a son	a son	s
-a tal hora	W	a tal hora	a tal hora	s
-a tempo	W	a tempo	a tempo	s
-a toda costa	W	a toda costa	a toda costa	n
-a través	W	a través	a través	s
-a un tempo	W	a un tempo	a un tempo	s
 axiña que	C	axiña que	axiña que	s
 beira de	X	beira de	beira de	s
 ben como	C	ben como	ben como	s
@@ -144,23 +144,23 @@ catar se	C	catar se	catar se	s
 coches de línea	NCMP	coche de línea	coches de liña	n
 como mínimo	W	como mínimo	como mínimo	s
 como queira que	C	como queira que	como queira que	s
-conforme a	X	conforme a	conforme a	s
 con respecto a	X	con respecto a	con respecto a	s
 con respeito a	X	con respeito a	con respecto a	n
 con segundas	W	con segundas	con segundas	s
 con tal de que	C	con tal de que	con tal de que	s
 con tal que	C	con tal que	con tal que	s
 con todo	W	con todo	con todo	s
+conforme a	X	conforme a	conforme a	s
 contra de	X	contra de	contra de	s
 contra reloxo	NCFS	contra reloxo	contrarreloxo	n
 cuarta feira	NCFS	cuarta feira	corta feira	s
 cuartas feiras	NCFP	cuarta feira	corta feira	s
 dacordo con	X	dacordo con	de acordo con	n
 dado que	C	dado que	dado que	s
-de abondo	W	de abondo	dabondo	n
 de a cabalo	W	de a cabalo	de a cabalo	s
-de acordo	W	de acordo	de acordo	s
 de a feito	W	de a feito	a feito	s
+de abondo	W	de abondo	dabondo	n
+de acordo	W	de acordo	de acordo	s
 de aí que	C	de aí que	de aí que	s
 de alí a pouco	W	de alí a pouco	de alí a pouco	s
 de alí a pouquiño	W	de alí a pouco	de alí a pouco	s
@@ -172,7 +172,6 @@ de camiño	W	de camiño	de camiño	s
 de cara a	X	de cara a	de cara a	s
 de certo	W	de certo	de certo	s
 de contadiño	W	de contado	decontado	n
-decontado que	C	decontado que	decontado que	s
 de contado	W	de contado	decontado	n
 de cor	W	de cor	de cor	s
 de emprestado	W	de emprestado	de emprestado	s
@@ -180,9 +179,6 @@ de face	W	de face	de face	s
 de feito	W	de feito	de feito	s
 de fronte	W	de fronte	de fronte	s
 de golpe	W	de golpe	de golpe	s
-deica pouco	W	deica pouco	deica pouco	s
-deica que	C	deica que	deica que	s
-deica un pouco	W	deica un pouco	deica un pouco	s
 de inmediato	W	de inmediato	de inmediato	s
 de lado	W	de lado	de lado	s
 de longo	W	de longo	de longo	s
@@ -192,7 +188,6 @@ de momento	W	de momento	de momento	s
 de non ser que	C	de non ser que	de non ser que	s
 de non ser se	C	de non ser se	de non ser se	s
 de novo	W	de novo	de novo	s
-dentro de	X	dentro de	dentro de	s
 de o revés	W	de o revés	de o revés	s
 de paisano	AAS	de paisano	de paisano	s
 de paisano	AEL	de paisano	de paisano	s
@@ -217,8 +212,6 @@ de raíz	W	de raíz	de raíz	s
 de raro en raro	W	de raro en raro	de raro en raro	s
 de repente	W	de repente	de repente	s
 de rodillas	W	de rodillas	de rodillas	n
-derredor de	X	derredor de	derredor de	s
-deseguida que	C	deseguida que	deseguida que	s
 de seguida	W	de seguida	deseguida	n
 de seguidiña	W	de seguida	deseguida	n
 de seguido	W	de seguido	deseguido	n
@@ -234,9 +227,17 @@ de verdade	W	de verdade	de verdade	s
 de vez en cando	W	de vez en cando	de vez en cando	s
 de xeonllos	W	de xeonllos	de xeonllos	s
 de xoenllos	W	de xoenllos	de xeonllos	s
+decontado que	C	decontado que	decontado que	s
+deica pouco	W	deica pouco	deica pouco	s
+deica que	C	deica que	deica que	s
+deica un pouco	W	deica un pouco	deica un pouco	s
+dentro de	X	dentro de	dentro de	s
+derredor de	X	derredor de	derredor de	s
+deseguida que	C	deseguida que	deseguida que	s
 e iso que	C	e iso que	e iso que	s
 e listo	W	e listo	e listo	s
 e mais	C	e mais	e mais	s
+e todo	W	e todo	e todo	s
 en absoluto	W	en absoluto	en absoluto	s
 en alto	W	en alto	en alto	s
 en base a	X	en base a	en base a	n
@@ -245,13 +246,10 @@ en broma	W	en broma	en broma	s
 en cambio	W	en cambio	en cambio	s
 en canto a	X	en canto a	en canto a	s
 en canto	C	en canto	en canto	s
-encefalopatía esponxiforme	NCFS	encefalopatía esponxiforme	encefalopatía esponxiforme	n
 en común	W	en común	en común	s
 en conciencia	W	en conciencia	en conciencia	s
 en concreto	W	en concreto	en concreto	s
-ende ben	C	ende ben	ende ben	s
 en definitiva	W	en definitiva	en definitiva	s
-ende mal	C	ende mal	ende mal	s
 en detalle	W	en detalle	en detalle	n
 en diante	W	en diante	en diante	s
 en efecto	W	en efecto	en efecto	s
@@ -282,11 +280,13 @@ en tempo	W	en tempo	en tempo	s
 en teoría	W	en teoría	en teoría	s
 en todo caso	W	en todo caso	en todo caso	s
 en torno a	X	en torno a	en torno a	s
-entre tanto	C	entre tanto	entre tanto	s
 en vango	W	en vango	en vango	s
 en van	W	en van	en van	s
 en verdade	W	en verdade	en verdade	s
-e todo	W	e todo	e todo	s
+encefalopatía esponxiforme	NCFS	encefalopatía esponxiforme	encefalopatía esponxiforme	n
+ende ben	C	ende ben	ende ben	s
+ende mal	C	ende mal	ende mal	s
+entre tanto	C	entre tanto	entre tanto	s
 fóra de	X	fóra de	fóra de	s
 frente a	X	frente a	fronte a	n
 fronte a	X	fronte a	fronte a	s
@@ -309,10 +309,10 @@ moitas gracias	I	moitas gracias	grazas	n
 moitas grazas	I	moitas grazas	grazas	s
 nin que	C	nin que	nin que	s
 non ben	W	non ben	non ben	s
+o outro antonte	W	o outro antonte	o outro antonte	s
 off line	W	off line	off line	n
 onda non	C	onda non	onda non	s
 onde queira	W	onde queira	onde queira	s
-o outro antonte	W	o outro antonte	o outro antonte	s
 ora ben	C	ora ben	ora ben	s
 ora que	C	ora que	ora que	s
 ou ben	C	ou ben	ou ben	s
@@ -350,10 +350,10 @@ por lo miudo	W	por o miudo	por o miúdo	n
 por lo miúdo	W	por o miúdo	por o miúdo	s
 por lo momento	W	por o momento	por o momento	s
 por lo pronto	W	por o pronto	por o de pronto	n
-por los zarapelos	W	por os zarapelos	por os zarapelos	s
 por lo tanto	C	por o tanto	por o tanto	s
 por lo tanto	W	por o tanto	por o tanto	s
 por lo visto	W	por o visto	por o visto	n
+por los zarapelos	W	por os zarapelos	por os zarapelos	s
 por máis que	C	por máis que	por máis que	s
 por moito que	C	por moito que	por moito que	s
 por pouco que	C	por pouco que	por pouco que	s
@@ -388,8 +388,8 @@ senón que	C	senón que	senón que	s
 sexta feira	NCFS	sexta feira	sexta feira	s
 sextas feiras	NCFP	sexta feira	sexta feira	s
 si ben	C	si ben	se ben	n
-sobre de	X	sobre de	sobre de	s
 só que	C	só que	só que	s
+sobre de	X	sobre de	sobre de	s
 tal vez	W	tal vez	talvez	n
 tan presto	C	tan presto	tan presto	s
 tan pronto	C	tan pronto	tan pronto	s
@@ -402,16 +402,16 @@ torres de control	NCFP	torre de control	torre de control	s
 tras de	X	tras de	tras de	s
 un canto	DNMS	un canto	un canto	s
 un canto	PNMS	un canto	un canto	s
-unha vez	C	unha vez	unha vez	s
+un tanto	W	un tanto	un tanto	s
 unha vez que	C	unha vez que	unha vez	n
+unha vez	C	unha vez	unha vez	s
 unha vez	W	unha vez	unha vez	s
 uns cantos	DNMP	un canto	un canto	s
 uns cantos	PNMP	un canto	un canto	s
-un tanto	W	un tanto	un tanto	s
 verbo de	X	verbo de	verbo de	s
 visto que	C	visto que	visto que	s
-xa que	C	xa que	xa que	s
 xa que logo	C	xa que logo	xa que logo	s
+xa que	C	xa que	xa que	s
 xunto a	X	xunto a	xunto a	s
 xunto con	X	xunto con	xunto con	n
 xunto de	X	xunto de	xunto de	s

@@ -64,6 +64,9 @@ class XiadaTagger
     viterbi.run(sentence)
     viterbi
   rescue StandardError => e
+    puts "Error processing text: #{text}"
+    puts e.message
+    puts e.backtrace.join("\n")
     raise Exception.new(text, e)
   end
 end
