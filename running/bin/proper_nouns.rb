@@ -77,17 +77,22 @@ class ProperNouns
     CSV.read(file_path, col_sep: "\t").map(&:first)
   end
 
-  def initialize(all_lexicon_words, literal_proper_nouns, joiners, tags)
+  attr_reader :force_proper_nouns
+
+  def initialize(all_lexicon_words, literal_proper_nouns, joiners, tags, force_proper_nouns: false)
     @all_lexicon_words = Set.new(all_lexicon_words)
     @literal_proper_nouns = literal_proper_nouns
     @joiners = joiners
     @joiners_regex = /\A\p{Z}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
     @tags = tags
+    # If true, uppercase words at the start of the text are also considered proper noun candidates
+    @force_proper_nouns = force_proper_nouns
   end
 
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t).filter { |segment| segment.is_a?(Literal) } }
-    self.class.new(@all_lexicon_words, [*@literal_proper_nouns, *trained_proper_nouns].uniq, @joiners, @tags)
+    literal_proper_nouns = [*@literal_proper_nouns, *trained_proper_nouns].uniq
+    self.class.new(@all_lexicon_words, literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
   end
 
   def call(text)
@@ -159,7 +164,8 @@ class ProperNouns
 
   def standard_proper_nouns(text)
     # Candidate proper noun positions are uppercase letters that are not at the beginning of the text
-    candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && !i.zero? }
+    # If @force_proper_nouns is true then also consider uppercase letters at the beginning of the text
+    candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && (@force_proper_nouns || !i.zero?) }
     ranges = candidate_starts.filter_map do |i|
       wrapped_proper_noun_range(i, text, '"', '"', true) ||
         wrapped_proper_noun_range(i, text, '\'', '\'', true) ||

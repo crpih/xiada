@@ -33,7 +33,8 @@ class XiadaTagger
           ProperNouns.parse_all_lexicon_words("training/lexicons/#{ENV['XIADA_PROFILE']}/lexicon_principal.txt"),
           ProperNouns.parse_literals_file(proper_nouns_file),
           CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
-          CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first)
+          CSV.read("training/lexicons/#{ENV['XIADA_PROFILE']}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first),
+          force_proper_nouns: ENV['XIADA_FORCE_PROPER_NOUNS'] == 'true'
         )
       else
         nil

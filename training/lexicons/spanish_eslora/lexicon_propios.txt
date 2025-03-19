@@ -821,3 +821,715 @@ señor Manuel	NPMS	Manuel
 señora Angustias	NPFS	Angustias
 Ángel Saavedra Nogueira	NPMS	Ángel Saavedra Nogueira
 Óscar Bello Cañas	NPMS	Óscar Bello Cañas
+A Estrada	NPEL	A Estrada
+A Lúa	NPEL	A Lúa
+A cri sio	NPMS	A cri sio
+Acri	NPMS	Acri
+Acrisio	NPMS	Acrisio
+Adán	NPMS	Adán
+Agua de granito	NPFS	Agua de granito
+Ahmed	NPMS	Ahmed
+Alba	NPFS	Alba
+Alba Pereiro	NPFS	Alba Pereiro
+Albertito	NPMS	Albertito
+Alberto	NPMS	Alberto
+Aldeamonde	NPMS	Aldeamonde
+Alejandra	NPFS	Alejandra
+Alejandro	NPMS	Alejandro
+Alexandra	NPFS	Alexandra
+Alfonso	NPMS	Alfonso
+Alfonso Márquez	NPMS	Alfonso Márquez
+Alfonso Pérez Codina	NPMS	Alfonso Pérez Codina
+Alfredo	NPMS	Alfredo
+Ali	NPFS	Ali
+Alicante	NPEL	Alicante
+Alicia	NPFS	Alicia
+Alonso	NPMS	Alonso
+Amalia	NPFS	Amalia
+Amelia	NPFS	Amelia
+Amparo	NPFS	Amparo
+Ana	NPFS	Ana
+Ana Elisa	NPFS	Ana Elisa
+Ana Elisa Gómez Baños	NPFS	Ana Elisa Gómez Baños
+Ana Isabel	NPFS	Ana Isabel
+Anamari	NPFS	Anamari
+Anamari Castillo Maldonado	NPFS	Anamari Castillo Maldonado
+Anastasia	NPFS	Anastasia
+Andrade	NPMS	Andrade
+Andrades	NPMP	Andrades
+Andradi	NPMS	Andradi
+Andradis	NPMP	Andradis
+Andrea	NPFS	Andrea
+Andrés	NPMS	Andrés
+Ane	NPFS	Ane
+Angelón	NPMS	Angelón
+Angustias	NPFS	Angustias
+Ano	NPMS	Ano
+Antonio	NPMS	Antonio
+Antonio Castro	NPMS	Antonio Castro
+Antón	NPMS	Antón
+Anxo	NPMS	Anxo
+Aquilino	NPMS	Aquilino
+Aranda de Duero	NPEL	Aranda de Duero
+Arena en la calle	NPEL	Arena en la calle
+Argentina	NPEL	Argentina
+Arribas	NPMP	Arribas
+Arturo	NPMS	Arturo
+Arzúa	NPEL	Arzúa
+As Pereiras	NPEL	As Pereiras
+Asun	NPFS	Asun
+Augusta	NPFS	Augusta
+Aureliano	NPMS	Aureliano
+Aurelio	NPMS	Aurelio
+Aurora	NPFS	Aurora
+Aurora Correa	NPFS	Aurora Correa
+Aurora García Reina	NPFS	Aurora García Reina
+Avenida	NPEL	Avenida
+Avenida de Castelao	NPEL	Avenida de Castelao
+Bachao	NPMS	Bachao
+Bahamonde	NPMS	Bahamonde
+Baia	NPEL	Baia
+Baiona	NPEL	Baiona
+Bando	NPEL	Bando
+Barcala	NPEL	Barcala
+Barral	NPMS	Barral
+Barri	NPMS	Barri
+Barroso	NPMS	Barroso
+Bascuas	NPMP	Bascuas
+Basquiños	NPMP	Basquiños
+Be	NPFS	Be
+Beatriz	NPFS	Beatriz
+Beau	NPMS	Beau
+Beauvoi	NPMS	Beauvoi
+Beauvois	NPMS	Beauvois
+Bego	NPFS	Bego
+Begoña	NPFS	Begoña
+Belinda	NPFS	Belinda
+Bellavista	NPEL	Bellavista
+Belén	NPFS	Belén
+Belén Domínguez	NPFS	Belén Domínguez
+Benedicto	NPMS	Benedicto
+Benito Pérez Xove	NPMS	Benito Pérez Xove
+Ber	NPMS	Ber
+Bernabé	NPMS	Bernabé
+Berrocal	NPMS	Berrocal
+Berti	NPMS	Berti
+Berto	NPMS	Berto
+Bertín	NPMS	Bertín
+Betanzos	NPEL	Betanzos
+Biduido	NPEL	Biduido
+Blackouts	NPMP	Blackouts
+Blanco	NPMS	Blanco
+Blas	NPMS	Blas
+Boiro	NPEL	Boiro
+Bonaval	NPEL	Bonaval
+Botafume	NPEL	Botafume
+Brandon	NPMS	Brandon
+Breixo	NPMS	Breixo
+Bruno	NPMS	Bruno
+Budiño	NPEL	Budiño
+Buenavista	NPEL	Buenavista
+Buenos Aires	NPEL	Buenos Aires
+Bugui Bugui	NPMS	Bugui Bugui
+Bárbara	NPFS	Bárbara
+Cabanas	NPEL	Cabanas
+Cabeza	NPFS	Cabeza
+Cabezas	NPFP	Cabezas
+Caldas de Reis	NPEL	Caldas de Reis
+Caldeira	NPFS	Caldeira
+Calle Providencia	NPEL	Calle Providencia
+Calleja	NPFS	Calleja
+Calo	NPEL	Calo
+Calvo	NPMS	Calvo
+Cambados	NPEL	Cambados
+Cambre	NPEL	Cambre
+Candela	NPFS	Candela
+Cangas	NPEL	Cangas
+Capricho	NPMS	Capricho
+Car	NPMS	Car
+Carballal	NPEL	Carballal
+Carbia	NPFS	Carbia
+Carina	NPFS	Carina
+Carla	NPFS	Carla
+Carlita	NPFS	Carlita
+Carlos	NPMS	Carlos
+Carlos Costa	NPMS	Carlos Costa
+Carlota	NPFS	Carlota
+Carmela	NPFS	Carmela
+Carmen	NPFS	Carmen
+Carnota	NPEL	Carnota
+Carol	NPFS	Carol
+Carrasco	NPMS	Carrasco
+Carretas	NPFP	Carretas
+Carrión de los Condes	NPEL	Carrión de los Condes
+Casas	NPFP	Casas
+Cast	NPMS	Cast
+Castelao	NPMS	Castelao
+Castiñeiro	NPMS	Castiñeiro
+Castro	NPEL	Castro
+Cecilia	NPFS	Cecilia
+Cee	NPEL	Cee
+Cen	NPMS	Cen
+Central	NPFS	Central
+Cha	NPFS	Cha
+Chacho	NPMS	Chacho
+Chacón	NPMS	Chacón
+Chandra	NPFS	Chandra
+Chari	NPFS	Chari
+Charito	NPFS	Charito
+Charo	NPFS	Charo
+Chefa	NPFS	Chefa
+Chelo	NPFS	Chelo
+Chete	NPMS	Chete
+Chirri	NPMS	Chirri
+Chon	NPFS	Chon
+Cienta	NPFS	Cienta
+Clarita	NPFS	Clarita
+Clau	NPFS	Clau
+Claudia	NPFS	Claudia
+Claudio	NPMS	Claudio
+Club Miladies	NPMS	Club Miladies
+Cofaga	NPFS	Cofaga
+Colegio Universitario de Vigo	NPEL	Colegio Universitario de Vigo
+Colexio Musical	NPEL	Colexio Musical
+Concha	NPFS	Concha
+Congelados Coronado	NPEL	Congelados Coronado
+Congregación	NPFS	Congregación
+Congregación de Jesús	NPFS	Congregación de Jesús
+Coruña	NPEL	Coruña
+Crespo	NPMS	Crespo
+Cris	NPFS	Cris
+Cristina	NPFS	Cristina
+Cristina Serrano Díez	NPFS	Cristina Serrano Díez
+Cruz	NPFS	Cruz
+Curros Enríquez	NPMS	Curros Enríquez
+César	NPMS	César
+Dan	NPMS	Dan
+Dan Johnson	NPMS	Dan Johnson
+Dani	NPMS	Dani
+Daniel	NPMS	Daniel
+Daniel Hermida	NPMS	Daniel Hermida
+Daniela	NPFS	Daniela
+Darío	NPMS	Darío
+David	NPMS	David
+Delaware	NPEL	Delaware
+Demonte	NPMS	Demonte
+Diego	NPMS	Diego
+Diego Méndez	NPMS	Diego Méndez
+Dodro	NPEL	Dodro
+Doenza máxica	NPFS	Doenza máxica
+Dolor mágico	NPMS	Dolor mágico
+Dolores	NPFS	Dolores
+Dorotea	NPFS	Dorotea
+Durango	NPEL	Durango
+Dá	NPFS	Dá
+Dávila	NPMS	Dávila
+Díez	NPMS	Díez
+E	NPMS	E
+Edelmiro	NPMS	Edelmiro
+Eduardo	NPMS	Eduardo
+El Chacho	NPMS	El Chacho
+El rincón del Sarela	NPEL	El rincón del Sarela
+Ele	NPFS	Ele
+Elena	NPFS	Elena
+Elisa	NPFS	Elisa
+Elsa	NPFS	Elsa
+Emilia	NPFS	Emilia
+Emilio	NPMS	Emilio
+Encarna	NPFS	Encarna
+Encarnación	NPFS	Encarnación
+Enmoga	NPFS	Enmoga
+Enri	NPMS	Enri
+Ernesto	NPMS	Ernesto
+Espe	NPFS	Espe
+Estrella	NPFS	Estrella
+Estévez	NPMS	Estévez
+Eugenia	NPFS	Eugenia
+Eulalia	NPFS	Eulalia
+Eusebio Lorenzo Baleirón	NPMS	Eusebio Lorenzo Baleirón
+Eva	NPFS	Eva
+Everett	NPMS	Everett
+Feijoo	NPMS	Feijoo
+Fernanda	NPFS	Fernanda
+Fernando	NPMS	Fernando
+Fernando Lorenzo	NPMS	Fernando Lorenzo
+Ferreira	NPMS	Ferreira
+Fidalgo	NPMS	Fidalgo
+Figueira	NPEL	Figueira
+Figueroa	NPEL	Figueroa
+Figueroas	NPEL	Figueroas
+Fito	NPMS	Fito
+Flavia	NPFS	Flavia
+Flavia Moreira	NPFS	Flavia Moreira
+Floren	NPMS	Floren
+Fogar de Pepe	NPEL	Fogar de Pepe
+Fogón	NPMS	Fogón
+Folgoso	NPEL	Folgoso
+Fontecarmoa	NPEL	Fontecarmoa
+Fontiñas	NPEL	Fontiñas
+Fran	NPMS	Fran
+Francias	NPMP	Francias
+Francis	NPMS	Francis
+Francisco	NPMS	Francisco
+Freixo	NPEL	Freixo
+Frigoal	NPEL	Frigoal
+Froiz	NPEL	Froiz
+Fuentes	NPEL	Fuentes
+Fé	NPFS	Fé
+Félix	NPMS	Félix
+Gabi	NPMS	Gabi
+Gabriel	NPMS	Gabriel
+Gabriela	NPFS	Gabriela
+Gadis	NPEL	Gadis
+Gale	NPEL	Gale
+Galelec	NPEL	Galelec
+Galeras	NPEL	Galeras
+Galfrisa	NPEL	Galfrisa
+Ge	NPEL	Ge
+General Pardiñas	NPEL	General Pardiñas
+Geni	NPFS	Geni
+George	NPMS	George
+Gerardo	NPMS	Gerardo
+Gerardo Muguruza Artola	NPMS	Gerardo Muguruza Artola
+Germán	NPMS	Germán
+Germán Adrande	NPMS	Germán Adrande
+Giuseppe	NPMS	Giuseppe
+Gloria	NPFS	Gloria
+González Valenzuela	NPMS	González Valenzuela
+Guillermo	NPMS	Guillermo
+Guisán	NPMS	Guisán
+Gutiérrez	NPMS	Gutiérrez
+Gómez	NPMS	Gómez
+Gómez Baños	NPMS	Gómez Baños
+Hervás	NPMS	Hervás
+Hesperia	NPFS	Hesperia
+Hidalgo	NPMS	Hidalgo
+Hotel Villanueva	NPMS	Hotel Villanueva
+Huesca	NPFS	Huesca
+Hugo	NPMS	Hugo
+Héc	NPMS	Héc
+Héctor	NPMS	Héctor
+Héctor Chacón	NPMS	Héctor Chacón
+Héctor Ramírez	NPMS	Héctor Ramírez
+Iago	NPMS	Iago
+Ikerne	NPFS	Ikerne
+Imprenta Vázquez	NPFS	Imprenta Vázquez
+Inma	NPFS	Inma
+Inmaculada	NPFS	Inmaculada
+Inés	NPFS	Inés
+Ire	NPFS	Ire
+Irene	NPFS	Irene
+Isa	NPFS	Isa
+Isaac	NPMS	Isaac
+Isaaquito	NPMS	Isaaquito
+Isabel	NPFS	Isabel
+Isaura	NPFS	Isaura
+Isma	NPMS	Isma
+Ismael	NPMS	Ismael
+J	NPMS	J
+Ja	NPMS	Ja
+Jaime Sacristán	NPMS	Jaime Sacristán
+Jav	NPMS	Jav
+Javi	NPMS	Javi
+Javi Formoso	NPMS	Javi Formoso
+Javier	NPMS	Javier
+Je	NPMS	Je
+Jesús	NPMS	Jesús
+Jime	NPFS	Jime
+Jimena	NPFS	Jimena
+Jo	NPMS	Jo
+Johnny Michael	NPMS	Johnny Michael
+Joma	NPMS	Joma
+Jorge	NPMS	Jorge
+Jose Manuel	NPMS	Jose Manuel
+Josechu	NPMS	Josechu
+Josefa	NPFS	Josefa
+Josu	NPMS	Josu
+José	NPMS	José
+José Manuel Cabeza	NPMS	José Manuel Cabeza
+José Neira Tovar	NPMS	José Neira Tovar
+José Ramón	NPMS	José Ramón
+Joséphine	NPFS	Joséphine
+Jovita	NPFS	Jovita
+Ju	NPMS	Ju
+Juan	NPMS	Juan
+Juan Agrelo	NPMS	Juan Agrelo
+Juan Manuel	NPMS	Juan Manuel
+Juancho	NPMS	Juancho
+Juanito	NPMS	Juanito
+Juliana	NPFS	Juliana
+Julieta	NPFS	Julieta
+Julio	NPMS	Julio
+Julián	NPMS	Julián
+Kopas	NPMS	Kopas
+La	NPFS	La
+La Algalia	NPFS	La Algalia
+La Baña	NPFS	La Baña
+La C	NPFS	La C
+La Compañía	NPFS	La Compañía
+La Penela	NPFS	La Penela
+La Ramallosa	NPFS	La Ramallosa
+La Robleda	NPFS	La Robleda
+La Rocha	NPFS	La Rocha
+Lago	NPMS	Lago
+Lali	NPFS	Lali
+Lalín	NPMS	Lalín
+Lameiro	NPMS	Lameiro
+Lara	NPFS	Lara
+Laraño	NPMS	Laraño
+Las Cancelas	NPFP	Las Cancelas
+Laura	NPFS	Laura
+Laureano	NPMS	Laureano
+Leo	NPMS	Leo
+Leo	NPFS	Leo
+Leonardo	NPMS	Leonardo
+Leopoldo	NPMS	Leopoldo
+Leticia	NPFS	Leticia
+Letitia	NPFS	Letitia
+Libros	NPMS	Libros
+Lidia	NPFS	Lidia
+Lidia Taboada	NPFS	Lidia Taboada
+Limpiezas Torre	NPFS	Limpiezas Torre
+Lisa	NPFS	Lisa
+Lisardo	NPMS	Lisardo
+Lo	NPMS	Lo
+Lola	NPFS	Lola
+Loli	NPFS	Loli
+Lolita	NPFS	Lolita
+Lorena	NPFS	Lorena
+Lourdes	NPFS	Lourdes
+Lucha	NPFS	Lucha
+Luci	NPFS	Luci
+Luciana	NPFS	Luciana
+Lucí	NPFS	Lucí
+Lucía	NPFS	Lucía
+Lugo	NPMS	Lugo
+Luis	NPMS	Luis
+Luz	NPFS	Luz
+Lydia	NPFS	Lydia
+López	NPMS	López
+Ma	NPFS	Ma
+Maca	NPFS	Maca
+Maceiras	NPMS	Maceiras
+Madrid	NPMS	Madrid
+Maia	NPFS	Maia
+Maica	NPFS	Maica
+Maira	NPFS	Maira
+Maite	NPFS	Maite
+Maitechu	NPFS	Maitechu
+Maldo	NPMS	Maldo
+Manolo	NPMS	Manolo
+Manolo de Viaño	NPMS	Manolo de Viaño
+Manu	NPMS	Manu
+Manu González	NPMS	Manu González
+Manue	NPMS	Manue
+Manuel	NPMS	Manuel
+Manuela	NPFS	Manuela
+Mar	NPFS	Mar
+Marcela	NPFS	Marcela
+Marcos	NPMS	Marcos
+Marcos Aguilera Gómez	NPMS	Marcos Aguilera Gómez
+Marcos Budiño López	NPMS	Marcos Budiño López
+Mari	NPFS	Mari
+Mari Antonia Piñeiro	NPFS	Mari Antonia Piñeiro
+Mari Luz	NPFS	Mari Luz
+Mari Soledad	NPFS	Mari Soledad
+Mariasun	NPFS	Mariasun
+Maribel	NPFS	Maribel
+Maribou	NPFS	Maribou
+Marina	NPFS	Marina
+Mario	NPMS	Mario
+Marisa	NPFS	Marisa
+Marisol	NPFS	Marisol
+Mariño	NPMS	Mariño
+Maroto	NPMS	Maroto
+Marquitos	NPMS	Marquitos
+Marrozos	NPMS	Marrozos
+Mart	NPMS	Mart
+Marta	NPFS	Marta
+Marta Pazos	NPFS	Marta Pazos
+Martiña	NPFS	Martiña
+Martín	NPMS	Martín
+Marucha	NPFS	Marucha
+Maruja	NPFS	Maruja
+Maruxa	NPFS	Maruxa
+María	NPFS	María
+María Claudia	NPFS	María Claudia
+María Emilia	NPFS	María Emilia
+María Figueroa	NPFS	María Figueroa
+María José	NPFS	María José
+María Luisa Páez	NPFS	María Luisa Páez
+María Soledad	NPFS	María Soledad
+Marín	NPMS	Marín
+Mateo	NPMS	Mateo
+Mateo Coiro	NPMS	Mateo Coiro
+Materiales Rianxo	NPMS	Materiales Rianxo
+Matusa	NPFS	Matusa
+Mau	NPMS	Mau
+Mauro	NPMS	Mauro
+Menchu	NPFS	Menchu
+Merche	NPFS	Merche
+Migue	NPMS	Migue
+Miguel	NPMS	Miguel
+Miguel Graña	NPMS	Miguel Graña
+Mila	NPFS	Mila
+Miladies	NPFP	Miladies
+Milladoiro	NPMS	Milladoiro
+Modesto	NPMS	Modesto
+Moimenta	NPFS	Moimenta
+Molina	NPFS	Molina
+Monforte	NPMS	Monforte
+Montalbán	NPMS	Montalbán
+Montenegro	NPEL	Montenegro
+Montoya	NPMS	Montoya
+Montse	NPFS	Montse
+Mu	NPMS	Mu
+Muebles Galicia	NPEL	Muebles Galicia
+Muguruza	NPMS	Muguruza
+Murguía	NPMS	Murguía
+Muriel	NPFS	Muriel
+Muros	NPMS	Muros
+Muñoz	NPMS	Muñoz
+Mónica	NPFS	Mónica
+Nacho	NPMS	Nacho
+Nancy	NPFS	Nancy
+Naniro	NPMS	Naniro
+Naran	NPMS	Naran
+Naranjo	NPMS	Naranjo
+Narci	NPMS	Narci
+Narci	NPFS	Narci
+Narciso Ferreira	NPMS	Narciso Ferreira
+Nerea	NPFS	Nerea
+Ni	NPMS	Ni
+Nila	NPFS	Nila
+Noa	NPFS	Noa
+Noceda	NPMS	Noceda
+Noelia	NPFS	Noelia
+Noemí	NPFS	Noemí
+Norma	NPFS	Norma
+Norma Caballero	NPFS	Norma Caballero
+Nota	NPFS	Nota
+Nuri	NPFS	Nuri
+Nuria	NPFS	Nuria
+O	NPMS	O
+O Colexio	NPMS	O Colexio
+Ofelia	NPFS	Ofelia
+Osama	NPMS	Osama
+Oscar	NPMS	Oscar
+Ourense	NPEL	Ourense
+Outeiro	NPMS	Outeiro
+Oza	NPEL	Oza
+Pa	NPMS	Pa
+Pablo	NPMS	Pablo
+Paco	NPMS	Paco
+Paco de Cuba	NPMS	Paco de Cuba
+Pacos	NPMP	Pacos
+Pacón	NPMS	Pacón
+Palas de Rei	NPEL	Palas de Rei
+Palencia	NPEL	Palencia
+Palo	NPMS	Palo
+Paloma	NPFS	Paloma
+Pancho	NPMS	Pancho
+Pantera	NPFS	Pantera
+Paquita	NPFS	Paquita
+Paradiso	NPMS	Paradiso
+Pardo	NPMS	Pardo
+Paredes	NPMS	Paredes
+Parra	NPMS	Parra
+Paula	NPFS	Paula
+Pauliña	NPFS	Pauliña
+Paz	NPFS	Paz
+Pedro	NPMS	Pedro
+Peluquería Laura	NPEL	Peluquería Laura
+Pepa	NPFS	Pepa
+Pepe	NPMS	Pepe
+Pepito	NPMS	Pepito
+Pepito Campos	NPMS	Pepito Campos
+Peter	NPMS	Peter
+Pilar	NPFS	Pilar
+Pili	NPFS	Pili
+Pineda	NPFS	Pineda
+Piñeiro	NPMS	Piñeiro
+Pontevedra	NPEL	Pontevedra
+Portela	NPEL	Portela
+Portonovo	NPEL	Portonovo
+Portosín	NPEL	Portosín
+Prado	NPMS	Prado
+Priego	NPMS	Priego
+Prieto	NPMS	Prieto
+Providencia	NPFS	Providencia
+Puri	NPFS	Puri
+Páez	NPMS	Páez
+Quintáns	NPMS	Quintáns
+Quiroga	NPMS	Quiroga
+Ra	NPMS	Ra
+Rafa	NPMS	Rafa
+Rafael Martín	NPMS	Rafael Martín
+Ramallosa	NPFS	Ramallosa
+Ramiro	NPMS	Ramiro
+Ramos	NPMS	Ramos
+Ramón	NPMS	Ramón
+Ramón Cabanillas	NPMS	Ramón Cabanillas
+Raposo	NPMS	Raposo
+Rarís	NPMS	Rarís
+Raúl	NPMS	Raúl
+Raúl Portas	NPMS	Raúl Portas
+Redes	NPFP	Redes
+Reme	NPFS	Reme
+Restaurante A Porta	NPEL	Restaurante A Porta
+Rialsa	NPEL	Rialsa
+Rianxo	NPEL	Rianxo
+Ribas	NPMS	Ribas
+Ribeira	NPFS	Ribeira
+Ricardo	NPMS	Ricardo
+Rincón del Sarela	NPEL	Rincón del Sarela
+Rita	NPFS	Rita
+Rober	NPMS	Rober
+Robert	NPMS	Robert
+Roberto	NPMS	Roberto
+Robles	NPMS	Robles
+Rocío	NPFS	Rocío
+Rodolfo Villaverde	NPMS	Rodolfo Villaverde
+Rojos	NPMP	Rojos
+Román	NPMS	Román
+Rosa	NPFS	Rosa
+Rosa María	NPFS	Rosa María
+Rosalía	NPFS	Rosalía
+Rosario	NPFS	Rosario
+Rosario Ramos	NPFS	Rosario Ramos
+Rosario Ramos Porta	NPFS	Rosario Ramos Porta
+Rosi	NPFS	Rosi
+Royal	NPMS	Royal
+Rube	NPMS	Rube
+Rubio	NPMS	Rubio
+Rubén	NPMS	Rubén
+Ruibs	NPMS	Ruibs
+Rúa Travesa	NPEL	Rúa Travesa
+Rúa de	NPEL	Rúa de
+Rúa de Lisboa	NPEL	Rúa de Lisboa
+Rúa de Mallou	NPEL	Rúa de Mallou
+Saavedra	NPMS	Saavedra
+Sabela	NPFS	Sabela
+Sacristán	NPMS	Sacristán
+Salem	NPMS	Salem
+Salgueiriños	NPMP	Salgueiriños
+San Antón	NPMS	San Antón
+San Francisco	NPMS	San Francisco
+San Lázaro	NPMS	San Lázaro
+San Marcos	NPMS	San Marcos
+San Paio	NPMS	San Paio
+San Pedro	NPMS	San Pedro
+San Xoán de Vista Alegre	NPEL	San Xoán de Vista Alegre
+Santa Com	NPFS	Santa Com
+Santa Comba	NPEL	Santa Comba
+Santa Mariña	NPEL	Santa Mariña
+Santa Mariña de Bascuas	NPEL	Santa Mariña de Bascuas
+Santi	NPMS	Santi
+Santiago	NPEL	Santiago
+Santiago de Chile	NPEL	Santiago de Chile
+Santiso	NPMS	Santiso
+Santo Domingo	NPEL	Santo Domingo
+Sao Paulo	NPEL	Sao Paulo
+Sara	NPFS	Sara
+Sarille	NPMS	Sarille
+Sarita	NPFS	Sarita
+Seares	NPMS	Seares
+Seattle	NPEL	Seattle
+Sebas	NPMS	Sebas
+Segorbe	NPMS	Segorbe
+Segovia	NPEL	Segovia
+Senande	NPMS	Senande
+Senén	NPMS	Senén
+Senín	NPMS	Senín
+Serantes	NPEL	Serantes
+Serra	NPMS	Serra
+Setecarros	NPMP	Setecarros
+Sigüeiro	NPEL	Sigüeiro
+Sof	NPFS	Sof
+Sofía	NPFS	Sofía
+Soledad	NPFS	Soledad
+Sonia	NPFS	Sonia
+Souto	NPMS	Souto
+Suiza	NPEL	Suiza
+Susana	NPFS	Susana
+Susanita	NPFS	Susanita
+Susi	NPFS	Susi
+Suso	NPMS	Suso
+Suzaane	NPFS	Suzaane
+Ta	NPMS	Ta
+Tabad	NPMS	Tabad
+Tamara	NPFS	Tamara
+Tania	NPFS	Tania
+Tapia	NPFS	Tapia
+Te	NPMS	Te
+Tere	NPFS	Tere
+Teresa	NPFS	Teresa
+Teresita	NPFS	Teresita
+The Blackouts	NPMP	The Blackouts
+Toni	NPMS	Toni
+Tonucha Piñeiro	NPFS	Tonucha Piñeiro
+Toubes	NPMS	Toubes
+Toulouse	NPEL	Toulouse
+Toño	NPMS	Toño
+Travesía da Roda	NPEL	Travesía da Roda
+Trisca	NPFS	Trisca
+Trópi	NPMS	Trópi
+Trópico	NPMS	Trópico
+Tucor	NPMS	Tucor
+Tucorpito	NPMS	Tucorpito
+Tupi	NPMS	Tupi
+Tupito	NPMS	Tupito
+Ullá	NPEL	Ullá
+V	NPMS	V
+VIESA	NPMS	VIESA
+Val do Dubra	NPEL	Val do Dubra
+Valentina	NPFS	Valentina
+Vallejo	NPMS	Vallejo
+Vallejo Cobo	NPMS	Vallejo Cobo
+Vanesa	NPFS	Vanesa
+Vanessa	NPFS	Vanessa
+Ven	NPMS	Ven
+Victoria	NPFS	Victoria
+Vidán	NPMS	Vidán
+Viejo	NPMS	Viejo
+Vilagarcía	NPEL	Vilagarcía
+Vilela	NPMS	Vilela
+Villa de Cruces	NPEL	Villa de Cruces
+Villanueva	NPEL	Villanueva
+Virginia	NPFS	Virginia
+Vista Alegre	NPEL	Vista Alegre
+Viveiro	NPEL	Viveiro
+Volta do Castro	NPEL	Volta do Castro
+Víctor	NPMS	Víctor
+Washington	NPEL	Washington
+Willy	NPMS	Willy
+Xi	NPMS	Xi
+Xiana	NPFS	Xiana
+Xosé Daniel Cunqueiro	NPMS	Xosé Daniel Cunqueiro
+Xoán	NPMS	Xoán
+Yanet	NPFS	Yanet
+Za	NPMS	Za
+Zamora	NPFS	Zamora
+calle Bellavista	NPEL	calle Bellavista
+calle del Cuco	NPEL	calle del Cuco
+el Franco	NPEL	el Franco
+el Hotel Monumento	NPEL	el Hotel Monumento
+el Pilar	NPEL	el Pilar
+el Preguntoiro	NPEL	el Preguntoiro
+la Audi	NPFS	la Audi
+la Ford	NPFS	la Ford
+la Kía	NPFS	la Kía
+la Toyota	NPFS	la Toyota
+los Manolos	NPMP	los Manolos
+pe	NPMS	pe
+sarada	NPFS	sarada
+saradas	NPFP	saradas
+señor Manuel	NPMS	señor Manuel
+señora Angustias	NPFS	señora Angustias
+Ágata	NPFS	Ágata
+Álvaro	NPMS	Álvaro
+Ángel	NPMS	Ángel
+Ángel Saavedra Nogueira	NPMS	Ángel Saavedra Nogueira
+Íñigo	NPMS	Íñigo
+Óscar	NPMS	Óscar
+Óscar Bello Cañas	NPMS	Óscar Bello Cañas

@@ -372,7 +372,7 @@ Alicia de la Rocha	NPFS	Alicia de la Rocha
 Alicia	NPFL	Alicia
 Alicia	NPFS	Alicia
 Alieto Guadagni	NPML	Alieto Guadagni
-Ali	NPME	Ali
+Ali	NPFS	Ali
 Alipio	NPML	Alipio
 Alito	NPFL	Alito
 Alix	NPEL	Alix
@@ -534,7 +534,7 @@ André Petitcolin	NPML	André Petitcolin
 André Sabóia	NPML	André Sabóia
 André Santos	NPML	André Santos
 André Sougarret	NPML	André Sougarret
-Andrea	NPME	Andrea
+Andrea	NPFS	Andrea
 Andreasen	NPEL	Andreasen
 Andreia Agra Ferreiro	NPFL	Andreia Agra Ferreiro
 André	NPML	André
@@ -4101,7 +4101,8 @@ Leonardo	NPMS	Leonardo
 Leonel	NPML	Leonel
 León	NPEL	León
 Leonor	NPFL	Leonor
-Leo	NPME	Leo
+Leo	NPFS	Leo
+Leo	NPMS	Leo
 Leopoldina	NPFL	Leopoldina
 Leopoldo	NPML	Leopoldo
 Leopoldo	NPMS	Leopoldo
@@ -4834,7 +4835,8 @@ Napoleón	NPML	Napoleón
 Nápoles	NPEL	Nápoles
 Naranjo	NPMS	Naranjo
 Naran	NPMS	Naran
-Narci	NPME	Narci
+Narci	NPFS	Narci
+Narci	NPMS	Narci
 Narciso Ferreira	NPMS	Narciso Ferreira
 Narciso	NPML	Narciso
 Narciso	NPMS	Narciso
@@ -5785,7 +5787,6 @@ Rosario Ramos Porta	NPFS	Rosario Ramos Porta
 Rosario Ramos	NPFS	Rosario Ramos
 Rosario	NPFL	Rosario
 Rosario	NPFS	Rosario
-Rosario	NPME	Rosario
 Rosendo Salvado	NPML	Rosendo Salvado
 Rosendo	NPML	Rosendo
 Rosi	NPFS	Rosi
