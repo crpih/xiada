@@ -1165,9 +1165,7 @@ mistura	Vpi30s	misturar
 a	Ddfs	o
 clara	A0fs	claro
 intención	Scfs	intención
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EEUU	Zg00	EEUU
 de	P	de
 converter	V0f000	converter
@@ -1370,9 +1368,7 @@ as	Ddfp	o
 iniciativas	Scfp	iniciativa
 en materia de	P	en materia de
 defensa	Scfs	defensa
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 goberno	Scms	goberno
 de	P	de
@@ -3976,9 +3972,7 @@ se	Rao3aa	se
 concrete	Vps30s	concretar
 esperta	Vpi30s	espertar
 dúbidas	Scfp	dúbida
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 concello	Scms	concello
 de	P	de
@@ -5378,7 +5372,7 @@ tan	Wm	tanto
 alta	A0fs	alto
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 porque	Cs	porque
 non	Wn	non
 hai	Vpi30s	haber
@@ -5756,7 +5750,7 @@ esta	Enfs	este
 unha	Difs	un
 aspiradora	Scfs	aspiradora
 de	P	de
-CO	Zs00	CO
+CO	Scms	CO
 e	Cc	e
 unha	Difs	un
 rexeneradora	Scfs	rexenerador
@@ -7377,9 +7371,7 @@ e	Cc	e
 unha	Difs	un
 maior	Acfs	maior
 esixencia	Scfs	esixencia
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 público	Scms	público
 .	Q.	.
@@ -10674,9 +10666,7 @@ importante	A0ms	importante
 grado	Scms	grado
 de	P	de
 asunción	Scfs	asunción
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Consellería de Emigración e Cooperación Exterior	Spfs	Consellería de Emigración e Cooperación Exterior
 de	P	de
@@ -10968,9 +10958,7 @@ este	Enms	este
 un	Dims	un
 deber	Scms	deber
 inexcusábel	A0ms	inexcusábel
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 administracións	Scfp	administración
 públicas	A0fp	público
@@ -14258,9 +14246,7 @@ a	Ddfs	o
 falla	Scfs	falla
 de	P	de
 investimentos	Scmp	investimento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 administracións	Scfp	administración
 públicas	A0fp	público
@@ -14583,7 +14569,8 @@ fiscais	A0mp	fiscal
 ,	Q,	,
 explica	Vpi30s	explicar
 un	Dims	un
-alto cargo	Scms	alto cargo
+alto	A0ms	alto
+cargo	Scms	alto
 de	P	de
 o	Ddms	o
 ministerio	Scms	ministerio
@@ -25699,9 +25686,7 @@ control	Scms	control
 de	P	de
 a	Ddfs	o
 maioría	Scfs	maioría
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 nórdicos	Scmp	nórdico
 .	Q.	.
@@ -28606,9 +28591,7 @@ cota	Scfs	cota
 interior	A0fs	interior
 de	P	de
 mercado	Scms	mercado
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 empresas	Scfp	empresa
 industriais	A0fp	industrial
@@ -29768,9 +29751,7 @@ de	P	de
 millóns	Scmp	millón
 de	P	de
 pesetas	Scfp	peseta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 entidades	Scfp	entidade
 financeiras	A0fp	financeiro
@@ -30017,9 +29998,7 @@ atopou	Vei30s	atopar
 unha	Difs	un
 resposta	Scfs	resposta
 entusiasta	A0fs	entusiasta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 comerciantes	Scmp	comerciante
 e	Cc	e
@@ -30536,9 +30515,7 @@ ambos	Idmp	ambos
 los	Ddmp	o
 institutos	Scmp	instituto
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 axentes	Scap	axente
 de	P	de
 a	Ddfs	o
@@ -30678,9 +30655,7 @@ que	Tnfs	que
 provocou	Vei30s	provocar
 graves	A0fp	grave
 críticas	Scfp	crítica
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 partidarios	Scmp	partidario
 de	P	de
@@ -31367,9 +31342,7 @@ remataron	Vei30p	rematar
 en	P	en
 sentencia	Scfs	sentencia
 condenatoria	A0fs	condenatorio
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 tribunais	Scmp	tribunal
 .	Q.	.
@@ -32663,9 +32636,7 @@ acordo	Scms	acordo
 para	P	para
 a	Ddfs	o
 adquisición	Scfs	adquisición
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 entidade	Scfs	entidade
 crediticia	A0fs	crediticio
@@ -32860,9 +32831,7 @@ oficinas	Scfp	oficina
 de	P	de
 o	Ddms	o
 Banco Urquijo	Spms	Banco Urquijo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 entidade	Scfs	entidade
 financeira	A0fs	financeiro
@@ -36819,9 +36788,7 @@ podía	Vii30s	poder
 abordar	V0f000	abordar
 la	Ddfs	o
 aceptación	Scfs	aceptación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Castela e León	Sp00	Castela e León
 de	P	de
 a	Ddfs	o
@@ -37794,9 +37761,7 @@ comercialización	Scfs	comercialización
 de	P	de
 estes	Edmp	este
 productos	Scmp	producto
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 bancos	Scmp	banco
 e	Cc	e
 caixas	Scfp	caixa
@@ -37828,9 +37793,7 @@ que	Cs	que
 a	Ddfs	o
 súa	Md3pfs	seu
 venda	Scfs	venda
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 entidades	Scfp	entidade
 financeiras	A0fp	financeiro
 supón	Vpi30s	supoñer
@@ -40140,7 +40103,7 @@ marxe	Scfs	marxe
 financeira	A0fs	financeiro
 e	Cc	e
 recursos	Scmp	recurso
-xerados	A0mp	xerado
+xerados	V0p0mp	xerar
 netos	A0mp	neto
 ,	Q,	,
 con	P	con
@@ -41342,7 +41305,7 @@ falar	V0f000	falar
 de	P	de
 auditorías	Scfp	auditoría
 externas	A0fp	externo
-pois	Wn	pois
+pois	Cs	pois
 fala	Vpi30s	falar
 de	P	de
 auditorías	Scfp	auditoría
@@ -44550,7 +44513,7 @@ cumprir	V0f000	cumprir
 las	Ddfp	o
 súas	Md3sfp	seu
 obrigacións	Scfp	obrigación
-contraídas	A0fp	contraído
+contraídas	V0p0fp	contraer
 tras	P	tras
 la	Ddfs	o
 sinatura	Scfs	sinatura
@@ -48319,7 +48282,7 @@ recoñecido	A0ms	recoñecido
 prestixio	Scms	prestixio
 mundial	A0ms	mundial
 e	Cc	e
-comprobada	A0fs	comprobado
+comprobada	V0p0fs	comprobar
 solvencia	Scfs	solvencia
 "	Q"	"
 ,	Q,	,
@@ -50164,10 +50127,7 @@ accións	Scfp	acción
 .	Q.	.
 
 e	Cc	e
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 evitar	V0f000	evitar
 la	Ddfs	o
 concentración	Scfs	concentración
@@ -52019,9 +51979,7 @@ as	Ddfp	o
 obrigas	Scfp	obriga
 de	P	de
 pagamento	Scms	pagamento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Portic SA	Sp00	Portic SA
 ,	Q,	,
 Banesto	Sp00	Banesto
@@ -55133,7 +55091,7 @@ e	Cc	e
 pobreza	Scfs	pobreza
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 como	Wr	como
 sinala	Vpi30s	sinalar
 Antón Costas Comesaña	Spm0	Antón Costas Comesaña
@@ -55932,9 +55890,7 @@ alternativas	Scfp	alternativa
 "	Q"	"
 serias	A0fp	serio
 "	Q"	"
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 resto	Scms	resto
 de	P	de
@@ -59663,7 +59619,7 @@ unha vez	Wn	unha vez
 descontados	V0p0mp	descontar
 os	Ddmp	o
 beneficios	Scmp	beneficio
-atribuídos	A0mp	atribuído
+atribuídos	V0p0mp	atribuír
 a	P	a
 os	Ddmp	o
 minoritarios	A0mp	minoritario
@@ -59716,7 +59672,7 @@ grupo	Scms	grupo
 "	Q"	"
 san	A0ms	san
 e	Cc	e
-capitalizado	A0ms	capitalizado
+capitalizado	V0p0ms	capitalizar
 "	Q"	"
 
 en canto a	P	en canto a
@@ -61323,7 +61279,7 @@ de	P	de
 o	Ddms	o
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 unha	Difs	un
 vivenda	Scfs	vivenda
@@ -61385,7 +61341,7 @@ pesetas	Scfp	peseta
 por	P	por
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 e	Cc	e
 o	Ddms	o
 prezo	Scms	prezo
@@ -61400,7 +61356,7 @@ pesetas	Scfp	peseta
 o	Ddms	o
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 vivenda	Scfs	vivenda
 de	P	de
@@ -61526,7 +61482,7 @@ medio	A0ms	medio
 por	P	por
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 122.629	Ncdfp	122.629
 pesetas	Scfp	peseta
@@ -62488,7 +62444,6 @@ se	Rao3aa	se
 a	P	a
 dúas	Ncnfp	dous
 :	Q:	:
-
 aproveitar	V0f000	aproveitar
 la	Ddfs	o
 fortaleza	Scfs	fortaleza
@@ -62507,9 +62462,7 @@ a	P	a
 que	Cs	que
 a	Ddfs	o
 inxección	Scfs	inxección
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Goberno	Spms	Goberno
 de	P	de
@@ -62854,9 +62807,7 @@ pasividade	Scfs	pasividade
 e	Cc	e
 desinterese	Scms	desinterese
 "	Q"	"
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 dirección	Scfs	dirección
 de	P	de
@@ -63083,7 +63034,7 @@ pesetas	Scfp	peseta
 
 en canto a	P	en canto a
 o	Ddms	o
-aludido	A0ms	aludido
+aludido	V0p0ms	aludir
 repartimento	Scms	repartimento
 de	P	de
 o	Ddms	o
@@ -66649,7 +66600,7 @@ este	Enms	este
 o	Ddms	o
 valor	Scms	valor
 máis	Wm	máis
-capitalizado	A0ms	capitalizado
+capitalizado	V0p0ms	capitalizar
 de	P	de
 o	Ddms	o
 mercado	Scms	mercado
@@ -68111,9 +68062,7 @@ o	Ddms	o
 %	Zs00	%
 de	P	de
 Leyma	Sp00	Leyma
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Puleva	Sp00	Puleva
 .	Q.	.
 
@@ -68140,9 +68089,7 @@ lácteas	A0fp	lácteo
 existiu	Vei30s	existir
 complicidade	Scfs	complicidade
 delictuosa	A0fs	delictuoso
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Xunta	Spfs	Xunta
 en	P	en
@@ -72120,9 +72067,7 @@ los	Ddmp	o
 servicios	Scmp	servicio
 que	Tnmp	que
 ofrece	Vpi30s	ofrecer
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 campaña	Scfs	campaña
 .	Q.	.
@@ -72757,10 +72702,7 @@ as	Ddfp	o
 dúas	Ncdfp	dous
 caixas	Scfp	caixa
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 non	Wn	non
 provocaren	V0f30p	provocar
 inestabilidades	Scfp	inestabilidade
@@ -73401,10 +73343,7 @@ monetaria	A0fs	monetario
 máis	Wm	máis
 expansiva	A0fs	expansivo
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 crear	V0f000	crear
 emprego	Scms	emprego
 ,	Q,	,
@@ -73643,7 +73582,7 @@ seu	Md3sms	seu
 conxunto	Scms	conxunto
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 por	P	por
 outra	Idfs	outro
@@ -77267,9 +77206,7 @@ utilización	Scfs	utilización
 de	P	de
 as	Ddfp	o
 ETTs	Zgfp	ETT
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Administración	Spfs	Administración
 ,	Q,	,
@@ -77312,7 +77249,7 @@ realizar	V0f000	realizar
 fóra	Wn	fóra
 de	P	de
 ela	Rtp3fs	el
-pois	Wn	pois
+pois	Cs	pois
 moito	Wm	moito
 mellor	Wn	mellor
 .	Q.	.
@@ -85472,9 +85409,7 @@ as	Ddfp	o
 elevadas	A0fp	elevado
 modificacións	Scfp	modificación
 
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 oposición	Scfs	oposición
 só	Wn	só
@@ -89724,9 +89659,7 @@ a	Ddfs	o
 compra	Scfs	compra
 de	P	de
 activos	Scmp	activo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EDP	Zg00	EDP
 ,	Q,	,
 como	Wr	como
@@ -89851,9 +89784,7 @@ de	P	de
 activos	Scmp	activo
 en	P	en
 España	Sp00	España
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EDP	Zg00	EDP
 está	Vpi30s	estar
 supeditada	V0p0fs	supeditar
@@ -96772,9 +96703,7 @@ percepción	Scfs	percepción
 de	P	de
 o	Ddms	o
 euro	Scms	euro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 público	Scms	público
 sería	Vci30s	ser
@@ -100483,9 +100412,7 @@ os	Ddmp	o
 proxectos	Scmp	proxecto
 de	P	de
 investimentos	Scmp	investimento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 empresas	Scfp	empresa
 Fibras del Noroeste	Sp00	Fibras del Noroeste
@@ -101463,9 +101390,7 @@ os	Ddmp	o
 tipos	Scmp	tipo
 de	P	de
 interese	Scms	interese
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Reserva Federal	Spfs	Reserva Federal
 .	Q.	.
@@ -108174,9 +108099,7 @@ emisión	Scfs	emisión
 realizada	V0p0fs	realizar
 en	P	en
 1992	Ncnms	1992
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 o	Ddms	o
 V Centenario	Spms	V Centenario
 .	Q.	.
@@ -108330,10 +108253,7 @@ desde	P	desde
 onte	Wn	onte
 venres	Scms	venres
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 "	Q"	"
 favorecer	V0f000	favorecer
 lo	Ddms	o
@@ -110131,9 +110051,7 @@ a	P	a
 o	Ddms	o
 apoio	Scms	apoio
 obtido	V0p0ms	obter
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 CiU	Zg00	CiU
 en	P	en
 os	Ddmp	o
@@ -113617,8 +113535,7 @@ moi	Wm	moito
 nostálxicos	A0mp	nostálxico
 .	Q.	.
 
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 o	Ddms	o
 euro	Scms	euro
 segue	Vpi30s	seguir
@@ -117027,9 +116944,7 @@ de	P	de
 as	Ddfp	o
 obrigacións	Scfp	obrigación
 fiscais	A0fp	fiscal
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 cidadáns	Scmp	cidadán
 e	Cc	e
@@ -125612,10 +125527,7 @@ unha	Difs	un
 asociación	Scfs	asociación
 de	P	de
 intereses	Scmp	interese
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 especular	V0f000	especular
 con	P	con
 necesidades	Scfp	necesidade
@@ -125712,8 +125624,7 @@ nosa	Md1pfs	noso
 terra	Scfs	terra
 ...	Q...	...
 
-en	P	en
-suma	Scfs	suma
+en suma	Wn	en suma
 ,	Q,	,
 latexaba	Vii30s	latexar
 baixo	P	baixo
@@ -128574,9 +128485,7 @@ Repsol-YPF	Sp00	Repsol-YPF
 e	Cc	e
 Cepsa	Sp00	Cepsa
 que	Tnfp	que
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 ponte	Scfs	ponte
 de	P	de
@@ -130414,7 +130323,7 @@ Nova York	Sp00	Nova York
 ,	Q,	,
 a	Ddfs	o
 máis	Wm	máis
-capitalizada	A0fs	capitalizado
+capitalizada	V0p0fs	capitalizar
 e	Cc	e
 con	P	con
 maior	Acms	maior
@@ -136706,7 +136615,7 @@ mercados	Scmp	mercado
 internacionais	A0mp	internacional
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 vixíe	Vps30s	vixiar
 señor	Scms	señor
 Rato	Spms	Rato
@@ -137757,7 +137666,7 @@ a	Ddfs	o
 Administración	Spfs	Administración
 que	Tnfs	que
 teña	Vps30s	ter
-consignado	A0ms	consignado
+consignado	V0p0ms	consignar
 ese	Edms	ese
 número	Scms	número
 ,	Q,	,
@@ -144037,7 +143946,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 ,	Q,	,
 respectivamente	Wn	respectivamente
 ,	Q,	,
@@ -144077,7 +143986,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 indicaron	Vei30p	indicar
 que	Cs	que
 non	Wn	non
@@ -144134,7 +144043,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 sinalaron	Vei30p	sinalar
 cando	Wr	cando
 foron	Vei30pser	ser
@@ -146951,9 +146860,7 @@ que	Cs	que
 con	P	con
 a	Ddfs	o
 aprobación	Scfs	aprobación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 accionistas	Scmp	accionista
 de	P	de
@@ -146988,9 +146895,7 @@ de	P	de
 a	Ddfs	o
 nova	A0fs	novo
 compañía	Scfs	compañía
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Campofrío	Sp00	Campofrío
 a	P	a
 os	Ddmp	o
@@ -151609,9 +151514,7 @@ e	Cc	e
 de	P	de
 control	Scms	control
 financeiro	A0ms	financeiro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Intervención Xeral da Comunidade Autónoma	Spfs	Intervención Xeral da Comunidade Autónoma
 ,	Q,	,
@@ -151704,9 +151607,7 @@ adscritos	A0mp	adscrito
 a	P	a
 as	Ddfp	o
 consellerías	Scfp	consellería
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Secretaría Xeral de Patrimonio	Spfs	Secretaría Xeral de Patrimonio
 .	Q.	.
@@ -152303,9 +152204,7 @@ obter	V0f000	obter
 unha	Difs	un
 avaliación	Scfs	avaliación
 positiva	A0fs	positivo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Comité de Avaliación de Proxectos	Spms	Comité de Avaliación de Proxectos
 para	P	para
@@ -155080,7 +154979,7 @@ española	A0fs	español
 foi	Vei30sser	ser
 a	Ddfs	o
 máis	Wm	máis
-castigada	A0fs	castigado
+castigada	V0p0fs	castigar
 de	P	de
 Europa	Sp00	Europa
 en	P	en
@@ -155114,7 +155013,7 @@ na	Raa3fs	o
 en	P	en
 a	Ddfs	o
 máis	Wm	máis
-castigada	A0fs	castigado
+castigada	V0p0fs	castigar
 de	P	de
 toda	Idfs	todo
 Europa	Sp00	Europa
@@ -161886,7 +161785,7 @@ con	P	con
 tanta	Idfs	tanto
 fartura	Scfs	fartura
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 pasan	Vpi30p	pasar
 de	P	de
@@ -164380,9 +164279,7 @@ de	P	de
 o	Ddms	o
 19,2	Ncnms	19,2
 por cento	Wn	por cento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 compras	Scfp	compra
 de	P	de
@@ -169356,10 +169253,7 @@ negocios	Scmp	negocio
 e	Cc	e
 de	P	de
 xerencia	Scfs	xerencia
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 reducir	V0f000	reducir
 custos	Scmp	custo
 en	P	en
@@ -169656,10 +169550,7 @@ de	P	de
 información	Scfs	información
 e	Cc	e
 promoción	Scfs	promoción
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 recuperar	V0f000	recuperar
 lo	Ddms	o
 nivel	Scms	nivel
@@ -174470,7 +174361,7 @@ por cento	Wn	por cento
 os	Ddmp	o
 sectores	Scmp	sector
 máis	Wm	máis
-castigados	A0mp	castigado
+castigados	V0p0mp	castigar
 esta	Edfs	este
 semana	Scfs	semana
 foron	Vei30pser	ser
@@ -176245,9 +176136,7 @@ prezos	Scmp	prezo
 de	P	de
 os	Ddmp	o
 petrolíferos	A0mp	petrolífero
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 operadores	Scmp	operador
 de	P	de
@@ -176661,9 +176550,7 @@ a	P	a
 un	Dims	un
 maior	Acms	maior
 protagonismo	Scms	protagonismo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 socios	Scmp	socio
 investidores	A0mp	investidor
 .	Q.	.
@@ -178601,10 +178488,7 @@ de	P	de
 o	Ddms	o
 2002	Ncnms	2002
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 facilitaren	V0f30p	facilitar
 o	Ddms	o
 paso	Scms	paso
@@ -182054,9 +181938,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 Dragados	Sp00	Dragados
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 ACS	Sp00	ACS
 .	Q.	.
 
@@ -182572,9 +182454,7 @@ conclusións	Scfp	conclusión
 potenciar	V0f000	potenciar
 la	Ddfs	o
 realización	Scfs	realización
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 librerías	Scfp	librería
 de	P	de
@@ -184086,7 +183966,8 @@ e	Cc	e
 a	P	a
 outros	Idmp	outro
 catro	Ncdmp	catro
-altos cargos	Scmp	alto cargo
+altos	A0mp	alto
+cargos	Scmp	cargo
 relacionados	V0p0mp	relacionar
 con	P	con
 os	Ddmp	o
@@ -187854,9 +187735,7 @@ netas	A0fp	neto
 de	P	de
 activos	Scmp	activo
 financeiros	A0mp	financeiro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 familias	Scfp	familia
 ascendeu	Vei30s	ascender
@@ -187881,7 +187760,7 @@ o	Ddms	o
 en tanto que	Cs	en tanto que
 os	Ddmp	o
 pasivos	Scmp	pasivo
-contraídos	A0mp	contraído
+contraídos	V0p0mp	contraer
 (	Q(	(
 préstamos	Scmp	préstamo
 )	Q)	)
@@ -191635,9 +191514,7 @@ de	P	de
 accións	Scfp	acción
 de	P	de
 Gas Natural	Sp00	Gas Natural
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 seu	Md3sms	seu
 máximo	Asms	máximo
@@ -198865,9 +198742,7 @@ para	P	para
 a	Ddfs	o
 compra	Scfs	compra
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 primeira	Nonfs	primeiro
 ,	Q,	,
@@ -203279,7 +203154,7 @@ os	Ddmp	o
 tributos	Scmp	tributo
 propios	A0mp	propio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 .	Q.	.
 
 a	Ddfs	o
@@ -206030,7 +205905,7 @@ este	Edms	este
 xeito	Scms	xeito
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 que	Cs	que
 as	Ddfp	o
 responsabilidades	Scfp	responsabilidade
@@ -206197,7 +206072,7 @@ normativa	A0fs	normativo
 sobre	P	sobre
 os	Ddmp	o
 impostos	Scmp	imposto
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 .	Q.	.
 
 nembargantes	Wn	nembargantes
@@ -206319,9 +206194,7 @@ baseada	V0p0fs	basear
 en	P	en
 a	Ddfs	o
 asunción	Scfs	asunción
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 comunidades	Scfp	comunidade
 autónomas	A0fp	autónomo
@@ -206601,7 +206474,7 @@ calcular	V0f000	calcular
 se	Rao3aa	se
 o	Ddms	o
 tramo	Scms	tramo
-cedido	A0ms	cedido
+cedido	V0p0ms	ceder
 como	Wr	como
 unha	Difs	un
 porcentaxe	Scfs	porcentaxe
@@ -206669,7 +206542,7 @@ financeira	A0fs	financeiro
 de	P	de
 a	Ddfs	o
 forma	Scfs	forma
-aludida	A0fs	aludido
+aludida	V0p0fs	aludir
 (	Q(	(
 aumentando	V0x000	aumentar
 decisivamente	Wn	decisivamente
@@ -207347,7 +207220,7 @@ los	Ddmp	o
 tributos	Scmp	tributo
 própios	A0mp	própio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 obtería	Vci30s	obter
 se	Rao3aa	se
 o	Ddms	o
@@ -208197,7 +208070,7 @@ entre	P	entre
 tributos	Scmp	tributo
 próprios	A0mp	próprio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 recada	Vpi30s	recadar
 se	Rao3aa	se
 entre	P	entre
@@ -209483,7 +209356,7 @@ ata	P	ata
 nós	Rtp1ap	nós
 sen	P	sen
 termos	V0f10p	ter
-construída	A0fs	construído
+construída	V0p0fs	construír
 esa	Edfs	ese
 arca	Scfs	arca
 .	Q.	.
@@ -218063,7 +217936,7 @@ o	Ddms	o
 tema	Scms	tema
 non	Wn	non
 é	Vpi30s	ser
-badalí	A0ms	badalí
+baladí	A0ms	baladí
 ,	Q,	,
 non	Wm	non
 só	Wn	só
@@ -219628,9 +219501,7 @@ posibilidades	Scfp	posibilidade
 de	P	de
 apropriación	Scfs	apropriación
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 sociedade	Scfs	sociedade
 galega	A0fs	galego
@@ -222305,9 +222176,7 @@ coincidindo	V0x000	coincidir
 con	P	con
 o	Ddms	o
 anuncio	Scms	anuncio
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Ministerio de Educación	Spms	Ministerio de Educación
 de	P	de
@@ -222898,10 +222767,7 @@ cada	Idmp	cada
 catro	Ncdmp	catro
 anos	Scmp	ano
 (	Q(	(
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 que	Cs	que
 poidesen	Ves30p	poder
 server	V0f000	server
@@ -223427,7 +223293,7 @@ cru	Scms	cru
 Kraft	Sp00	Kraft
 "	Q"	"
 e	Cc	e
-branquexadas	A0fp	branquexado
+branquexadas	V0p0fp	branquexar
 a	P	a
 o	Ddms	o
 sulfato	Scms	sulfato
@@ -223480,7 +223346,7 @@ cru	Scms	cru
 Kraft	Sp00	Kraft
 "	Q"	"
 e	Cc	e
-branquexadas	A0fp	branquexado
+branquexadas	V0p0fp	branquexar
 a	P	a
 o	Ddms	o
 sulfato	Scms	sulfato
@@ -225887,9 +225753,7 @@ de	P	de
 os	Ddmp	o
 propios	Idmp	propio
 programas	Scmp	programa
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 UE	Zgfs	UE
 .	Q.	.
@@ -230211,7 +230075,7 @@ país	Scms	país
 terceiromundista	A0ms	terceiromundista
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 velaí	Wn	velaí
 está	Vpi30s	estar
 a	Ddfs	o
@@ -240243,9 +240107,7 @@ a	Ddfs	o
 petición	Scfs	petición
 de	P	de
 responsabilidades	Scfp	responsabilidade
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 oposición	Scfs	oposición
 podería	Vci30s	poder
@@ -244118,7 +243980,7 @@ unitarias	A0fp	unitario
 que	Tnfp	que
 non	Wn	non
 teñen	Vpi30p	ter
-catalogado	A0ms	catalogado
+catalogado	V0p0ms	catalogar
 un	Dims	un
 profesorado	Scms	profesorado
 especialista	A0ms	especialista
@@ -248674,7 +248536,7 @@ una	Infs	un
 de	P	de
 as	Ddfp	o
 consellas	Scfp	consella
-que	Tnfa	que
+que	Tnfp	que
 repetía	Vii30s	repetir
 Arturo Molina	Spm0	Arturo Molina
 .	Q.	.

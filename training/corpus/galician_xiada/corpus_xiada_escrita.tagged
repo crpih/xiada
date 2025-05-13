@@ -1165,9 +1165,7 @@ mistura	Vpi30s	misturar
 a	Ddfs	o
 clara	A0fs	claro
 intención	Scfs	intención
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EEUU	Zg00	EEUU
 de	P	de
 converter	V0f000	converter
@@ -1370,9 +1368,7 @@ as	Ddfp	o
 iniciativas	Scfp	iniciativa
 en materia de	P	en materia de
 defensa	Scfs	defensa
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 goberno	Scms	goberno
 de	P	de
@@ -3976,9 +3972,7 @@ se	Rao3aa	se
 concrete	Vps30s	concretar
 esperta	Vpi30s	espertar
 dúbidas	Scfp	dúbida
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 concello	Scms	concello
 de	P	de
@@ -5378,7 +5372,7 @@ tan	Wm	tanto
 alta	A0fs	alto
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 porque	Cs	porque
 non	Wn	non
 hai	Vpi30s	haber
@@ -5756,7 +5750,7 @@ esta	Enfs	este
 unha	Difs	un
 aspiradora	Scfs	aspiradora
 de	P	de
-CO	Zs00	CO
+CO	Scms	CO
 e	Cc	e
 unha	Difs	un
 rexeneradora	Scfs	rexenerador
@@ -7377,9 +7371,7 @@ e	Cc	e
 unha	Difs	un
 maior	Acfs	maior
 esixencia	Scfs	esixencia
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 público	Scms	público
 .	Q.	.
@@ -10674,9 +10666,7 @@ importante	A0ms	importante
 grado	Scms	grado
 de	P	de
 asunción	Scfs	asunción
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Consellería de Emigración e Cooperación Exterior	Spfs	Consellería de Emigración e Cooperación Exterior
 de	P	de
@@ -10968,9 +10958,7 @@ este	Enms	este
 un	Dims	un
 deber	Scms	deber
 inexcusábel	A0ms	inexcusábel
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 administracións	Scfp	administración
 públicas	A0fp	público
@@ -14258,9 +14246,7 @@ a	Ddfs	o
 falla	Scfs	falla
 de	P	de
 investimentos	Scmp	investimento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 administracións	Scfp	administración
 públicas	A0fp	público
@@ -14583,7 +14569,8 @@ fiscais	A0mp	fiscal
 ,	Q,	,
 explica	Vpi30s	explicar
 un	Dims	un
-alto cargo	Scms	alto cargo
+alto	A0ms	alto
+cargo	Scms	alto
 de	P	de
 o	Ddms	o
 ministerio	Scms	ministerio
@@ -25699,9 +25686,7 @@ control	Scms	control
 de	P	de
 a	Ddfs	o
 maioría	Scfs	maioría
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 nórdicos	Scmp	nórdico
 .	Q.	.
@@ -28606,9 +28591,7 @@ cota	Scfs	cota
 interior	A0fs	interior
 de	P	de
 mercado	Scms	mercado
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 empresas	Scfp	empresa
 industriais	A0fp	industrial
@@ -29768,9 +29751,7 @@ de	P	de
 millóns	Scmp	millón
 de	P	de
 pesetas	Scfp	peseta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 entidades	Scfp	entidade
 financeiras	A0fp	financeiro
@@ -30017,9 +29998,7 @@ atopou	Vei30s	atopar
 unha	Difs	un
 resposta	Scfs	resposta
 entusiasta	A0fs	entusiasta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 comerciantes	Scmp	comerciante
 e	Cc	e
@@ -30536,9 +30515,7 @@ ambos	Idmp	ambos
 los	Ddmp	o
 institutos	Scmp	instituto
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 axentes	Scap	axente
 de	P	de
 a	Ddfs	o
@@ -30678,9 +30655,7 @@ que	Tnfs	que
 provocou	Vei30s	provocar
 graves	A0fp	grave
 críticas	Scfp	crítica
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 partidarios	Scmp	partidario
 de	P	de
@@ -31367,9 +31342,7 @@ remataron	Vei30p	rematar
 en	P	en
 sentencia	Scfs	sentencia
 condenatoria	A0fs	condenatorio
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 tribunais	Scmp	tribunal
 .	Q.	.
@@ -32663,9 +32636,7 @@ acordo	Scms	acordo
 para	P	para
 a	Ddfs	o
 adquisición	Scfs	adquisición
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 entidade	Scfs	entidade
 crediticia	A0fs	crediticio
@@ -32860,9 +32831,7 @@ oficinas	Scfp	oficina
 de	P	de
 o	Ddms	o
 Banco Urquijo	Spms	Banco Urquijo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 entidade	Scfs	entidade
 financeira	A0fs	financeiro
@@ -36819,9 +36788,7 @@ podía	Vii30s	poder
 abordar	V0f000	abordar
 la	Ddfs	o
 aceptación	Scfs	aceptación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Castela e León	Sp00	Castela e León
 de	P	de
 a	Ddfs	o
@@ -37794,9 +37761,7 @@ comercialización	Scfs	comercialización
 de	P	de
 estes	Edmp	este
 productos	Scmp	producto
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 bancos	Scmp	banco
 e	Cc	e
 caixas	Scfp	caixa
@@ -37828,9 +37793,7 @@ que	Cs	que
 a	Ddfs	o
 súa	Md3pfs	seu
 venda	Scfs	venda
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 entidades	Scfp	entidade
 financeiras	A0fp	financeiro
 supón	Vpi30s	supoñer
@@ -40140,7 +40103,7 @@ marxe	Scfs	marxe
 financeira	A0fs	financeiro
 e	Cc	e
 recursos	Scmp	recurso
-xerados	A0mp	xerado
+xerados	V0p0mp	xerar
 netos	A0mp	neto
 ,	Q,	,
 con	P	con
@@ -41342,7 +41305,7 @@ falar	V0f000	falar
 de	P	de
 auditorías	Scfp	auditoría
 externas	A0fp	externo
-pois	Wn	pois
+pois	Cs	pois
 fala	Vpi30s	falar
 de	P	de
 auditorías	Scfp	auditoría
@@ -44550,7 +44513,7 @@ cumprir	V0f000	cumprir
 las	Ddfp	o
 súas	Md3sfp	seu
 obrigacións	Scfp	obrigación
-contraídas	A0fp	contraído
+contraídas	V0p0fp	contraer
 tras	P	tras
 la	Ddfs	o
 sinatura	Scfs	sinatura
@@ -48319,7 +48282,7 @@ recoñecido	A0ms	recoñecido
 prestixio	Scms	prestixio
 mundial	A0ms	mundial
 e	Cc	e
-comprobada	A0fs	comprobado
+comprobada	V0p0fs	comprobar
 solvencia	Scfs	solvencia
 "	Q"	"
 ,	Q,	,
@@ -50164,10 +50127,7 @@ accións	Scfp	acción
 .	Q.	.
 
 e	Cc	e
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 evitar	V0f000	evitar
 la	Ddfs	o
 concentración	Scfs	concentración
@@ -52019,9 +51979,7 @@ as	Ddfp	o
 obrigas	Scfp	obriga
 de	P	de
 pagamento	Scms	pagamento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Portic SA	Sp00	Portic SA
 ,	Q,	,
 Banesto	Sp00	Banesto
@@ -55133,7 +55091,7 @@ e	Cc	e
 pobreza	Scfs	pobreza
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 como	Wr	como
 sinala	Vpi30s	sinalar
 Antón Costas Comesaña	Spm0	Antón Costas Comesaña
@@ -55932,9 +55890,7 @@ alternativas	Scfp	alternativa
 "	Q"	"
 serias	A0fp	serio
 "	Q"	"
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 resto	Scms	resto
 de	P	de
@@ -59663,7 +59619,7 @@ unha vez	Wn	unha vez
 descontados	V0p0mp	descontar
 os	Ddmp	o
 beneficios	Scmp	beneficio
-atribuídos	A0mp	atribuído
+atribuídos	V0p0mp	atribuír
 a	P	a
 os	Ddmp	o
 minoritarios	A0mp	minoritario
@@ -59716,7 +59672,7 @@ grupo	Scms	grupo
 "	Q"	"
 san	A0ms	san
 e	Cc	e
-capitalizado	A0ms	capitalizado
+capitalizado	V0p0ms	capitalizar
 "	Q"	"
 
 en canto a	P	en canto a
@@ -61323,7 +61279,7 @@ de	P	de
 o	Ddms	o
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 unha	Difs	un
 vivenda	Scfs	vivenda
@@ -61385,7 +61341,7 @@ pesetas	Scfp	peseta
 por	P	por
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 e	Cc	e
 o	Ddms	o
 prezo	Scms	prezo
@@ -61400,7 +61356,7 @@ pesetas	Scfp	peseta
 o	Ddms	o
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 vivenda	Scfs	vivenda
 de	P	de
@@ -61526,7 +61482,7 @@ medio	A0ms	medio
 por	P	por
 metro	Scms	metro
 cadrado	A0ms	cadrado
-construído	A0ms	construído
+construído	V0p0ms	construír
 de	P	de
 122.629	Ncdfp	122.629
 pesetas	Scfp	peseta
@@ -62488,7 +62444,6 @@ se	Rao3aa	se
 a	P	a
 dúas	Ncnfp	dous
 :	Q:	:
-
 aproveitar	V0f000	aproveitar
 la	Ddfs	o
 fortaleza	Scfs	fortaleza
@@ -62507,9 +62462,7 @@ a	P	a
 que	Cs	que
 a	Ddfs	o
 inxección	Scfs	inxección
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Goberno	Spms	Goberno
 de	P	de
@@ -62854,9 +62807,7 @@ pasividade	Scfs	pasividade
 e	Cc	e
 desinterese	Scms	desinterese
 "	Q"	"
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 dirección	Scfs	dirección
 de	P	de
@@ -63083,7 +63034,7 @@ pesetas	Scfp	peseta
 
 en canto a	P	en canto a
 o	Ddms	o
-aludido	A0ms	aludido
+aludido	V0p0ms	aludir
 repartimento	Scms	repartimento
 de	P	de
 o	Ddms	o
@@ -66649,7 +66600,7 @@ este	Enms	este
 o	Ddms	o
 valor	Scms	valor
 máis	Wm	máis
-capitalizado	A0ms	capitalizado
+capitalizado	V0p0ms	capitalizar
 de	P	de
 o	Ddms	o
 mercado	Scms	mercado
@@ -68111,9 +68062,7 @@ o	Ddms	o
 %	Zs00	%
 de	P	de
 Leyma	Sp00	Leyma
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Puleva	Sp00	Puleva
 .	Q.	.
 
@@ -68140,9 +68089,7 @@ lácteas	A0fp	lácteo
 existiu	Vei30s	existir
 complicidade	Scfs	complicidade
 delictuosa	A0fs	delictuoso
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Xunta	Spfs	Xunta
 en	P	en
@@ -72120,9 +72067,7 @@ los	Ddmp	o
 servicios	Scmp	servicio
 que	Tnmp	que
 ofrece	Vpi30s	ofrecer
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 campaña	Scfs	campaña
 .	Q.	.
@@ -72757,10 +72702,7 @@ as	Ddfp	o
 dúas	Ncdfp	dous
 caixas	Scfp	caixa
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 non	Wn	non
 provocaren	V0f30p	provocar
 inestabilidades	Scfp	inestabilidade
@@ -73401,10 +73343,7 @@ monetaria	A0fs	monetario
 máis	Wm	máis
 expansiva	A0fs	expansivo
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 crear	V0f000	crear
 emprego	Scms	emprego
 ,	Q,	,
@@ -73643,7 +73582,7 @@ seu	Md3sms	seu
 conxunto	Scms	conxunto
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 por	P	por
 outra	Idfs	outro
@@ -77267,9 +77206,7 @@ utilización	Scfs	utilización
 de	P	de
 as	Ddfp	o
 ETTs	Zgfp	ETT
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Administración	Spfs	Administración
 ,	Q,	,
@@ -77312,7 +77249,7 @@ realizar	V0f000	realizar
 fóra	Wn	fóra
 de	P	de
 ela	Rtp3fs	el
-pois	Wn	pois
+pois	Cs	pois
 moito	Wm	moito
 mellor	Wn	mellor
 .	Q.	.
@@ -85472,9 +85409,7 @@ as	Ddfp	o
 elevadas	A0fp	elevado
 modificacións	Scfp	modificación
 
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 oposición	Scfs	oposición
 só	Wn	só
@@ -89724,9 +89659,7 @@ a	Ddfs	o
 compra	Scfs	compra
 de	P	de
 activos	Scmp	activo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EDP	Zg00	EDP
 ,	Q,	,
 como	Wr	como
@@ -89851,9 +89784,7 @@ de	P	de
 activos	Scmp	activo
 en	P	en
 España	Sp00	España
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 EDP	Zg00	EDP
 está	Vpi30s	estar
 supeditada	V0p0fs	supeditar
@@ -96772,9 +96703,7 @@ percepción	Scfs	percepción
 de	P	de
 o	Ddms	o
 euro	Scms	euro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 público	Scms	público
 sería	Vci30s	ser
@@ -100483,9 +100412,7 @@ os	Ddmp	o
 proxectos	Scmp	proxecto
 de	P	de
 investimentos	Scmp	investimento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 empresas	Scfp	empresa
 Fibras del Noroeste	Sp00	Fibras del Noroeste
@@ -101463,9 +101390,7 @@ os	Ddmp	o
 tipos	Scmp	tipo
 de	P	de
 interese	Scms	interese
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Reserva Federal	Spfs	Reserva Federal
 .	Q.	.
@@ -108174,9 +108099,7 @@ emisión	Scfs	emisión
 realizada	V0p0fs	realizar
 en	P	en
 1992	Ncnms	1992
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 o	Ddms	o
 V Centenario	Spms	V Centenario
 .	Q.	.
@@ -108330,10 +108253,7 @@ desde	P	desde
 onte	Wn	onte
 venres	Scms	venres
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 "	Q"	"
 favorecer	V0f000	favorecer
 lo	Ddms	o
@@ -110131,9 +110051,7 @@ a	P	a
 o	Ddms	o
 apoio	Scms	apoio
 obtido	V0p0ms	obter
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 CiU	Zg00	CiU
 en	P	en
 os	Ddmp	o
@@ -113617,8 +113535,7 @@ moi	Wm	moito
 nostálxicos	A0mp	nostálxico
 .	Q.	.
 
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 o	Ddms	o
 euro	Scms	euro
 segue	Vpi30s	seguir
@@ -117027,9 +116944,7 @@ de	P	de
 as	Ddfp	o
 obrigacións	Scfp	obrigación
 fiscais	A0fp	fiscal
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 cidadáns	Scmp	cidadán
 e	Cc	e
@@ -125612,10 +125527,7 @@ unha	Difs	un
 asociación	Scfs	asociación
 de	P	de
 intereses	Scmp	interese
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 especular	V0f000	especular
 con	P	con
 necesidades	Scfp	necesidade
@@ -125712,8 +125624,7 @@ nosa	Md1pfs	noso
 terra	Scfs	terra
 ...	Q...	...
 
-en	P	en
-suma	Scfs	suma
+en suma	Wn	en suma
 ,	Q,	,
 latexaba	Vii30s	latexar
 baixo	P	baixo
@@ -128574,9 +128485,7 @@ Repsol-YPF	Sp00	Repsol-YPF
 e	Cc	e
 Cepsa	Sp00	Cepsa
 que	Tnfp	que
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 ponte	Scfs	ponte
 de	P	de
@@ -130414,7 +130323,7 @@ Nova York	Sp00	Nova York
 ,	Q,	,
 a	Ddfs	o
 máis	Wm	máis
-capitalizada	A0fs	capitalizado
+capitalizada	V0p0fs	capitalizar
 e	Cc	e
 con	P	con
 maior	Acms	maior
@@ -136706,7 +136615,7 @@ mercados	Scmp	mercado
 internacionais	A0mp	internacional
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 vixíe	Vps30s	vixiar
 señor	Scms	señor
 Rato	Spms	Rato
@@ -137757,7 +137666,7 @@ a	Ddfs	o
 Administración	Spfs	Administración
 que	Tnfs	que
 teña	Vps30s	ter
-consignado	A0ms	consignado
+consignado	V0p0ms	consignar
 ese	Edms	ese
 número	Scms	número
 ,	Q,	,
@@ -144037,7 +143946,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 ,	Q,	,
 respectivamente	Wn	respectivamente
 ,	Q,	,
@@ -144077,7 +143986,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 indicaron	Vei30p	indicar
 que	Cs	que
 non	Wn	non
@@ -144134,7 +144043,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 sinalaron	Vei30p	sinalar
 cando	Wr	cando
 foron	Vei30pser	ser
@@ -146951,9 +146860,7 @@ que	Cs	que
 con	P	con
 a	Ddfs	o
 aprobación	Scfs	aprobación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 accionistas	Scmp	accionista
 de	P	de
@@ -146988,9 +146895,7 @@ de	P	de
 a	Ddfs	o
 nova	A0fs	novo
 compañía	Scfs	compañía
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Campofrío	Sp00	Campofrío
 a	P	a
 os	Ddmp	o
@@ -151609,9 +151514,7 @@ e	Cc	e
 de	P	de
 control	Scms	control
 financeiro	A0ms	financeiro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Intervención Xeral da Comunidade Autónoma	Spfs	Intervención Xeral da Comunidade Autónoma
 ,	Q,	,
@@ -151704,9 +151607,7 @@ adscritos	A0mp	adscrito
 a	P	a
 as	Ddfp	o
 consellerías	Scfp	consellería
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Secretaría Xeral de Patrimonio	Spfs	Secretaría Xeral de Patrimonio
 .	Q.	.
@@ -152303,9 +152204,7 @@ obter	V0f000	obter
 unha	Difs	un
 avaliación	Scfs	avaliación
 positiva	A0fs	positivo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Comité de Avaliación de Proxectos	Spms	Comité de Avaliación de Proxectos
 para	P	para
@@ -155080,7 +154979,7 @@ española	A0fs	español
 foi	Vei30sser	ser
 a	Ddfs	o
 máis	Wm	máis
-castigada	A0fs	castigado
+castigada	V0p0fs	castigar
 de	P	de
 Europa	Sp00	Europa
 en	P	en
@@ -155114,7 +155013,7 @@ na	Raa3fs	o
 en	P	en
 a	Ddfs	o
 máis	Wm	máis
-castigada	A0fs	castigado
+castigada	V0p0fs	castigar
 de	P	de
 toda	Idfs	todo
 Europa	Sp00	Europa
@@ -161886,7 +161785,7 @@ con	P	con
 tanta	Idfs	tanto
 fartura	Scfs	fartura
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 pasan	Vpi30p	pasar
 de	P	de
@@ -164380,9 +164279,7 @@ de	P	de
 o	Ddms	o
 19,2	Ncnms	19,2
 por cento	Wn	por cento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 compras	Scfp	compra
 de	P	de
@@ -169356,10 +169253,7 @@ negocios	Scmp	negocio
 e	Cc	e
 de	P	de
 xerencia	Scfs	xerencia
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 reducir	V0f000	reducir
 custos	Scmp	custo
 en	P	en
@@ -169656,10 +169550,7 @@ de	P	de
 información	Scfs	información
 e	Cc	e
 promoción	Scfs	promoción
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 recuperar	V0f000	recuperar
 lo	Ddms	o
 nivel	Scms	nivel
@@ -174470,7 +174361,7 @@ por cento	Wn	por cento
 os	Ddmp	o
 sectores	Scmp	sector
 máis	Wm	máis
-castigados	A0mp	castigado
+castigados	V0p0mp	castigar
 esta	Edfs	este
 semana	Scfs	semana
 foron	Vei30pser	ser
@@ -176245,9 +176136,7 @@ prezos	Scmp	prezo
 de	P	de
 os	Ddmp	o
 petrolíferos	A0mp	petrolífero
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 operadores	Scmp	operador
 de	P	de
@@ -176661,9 +176550,7 @@ a	P	a
 un	Dims	un
 maior	Acms	maior
 protagonismo	Scms	protagonismo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 socios	Scmp	socio
 investidores	A0mp	investidor
 .	Q.	.
@@ -178601,10 +178488,7 @@ de	P	de
 o	Ddms	o
 2002	Ncnms	2002
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 facilitaren	V0f30p	facilitar
 o	Ddms	o
 paso	Scms	paso
@@ -182054,9 +181938,7 @@ o	Ddms	o
 por cento	Wn	por cento
 de	P	de
 Dragados	Sp00	Dragados
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 ACS	Sp00	ACS
 .	Q.	.
 
@@ -182572,9 +182454,7 @@ conclusións	Scfp	conclusión
 potenciar	V0f000	potenciar
 la	Ddfs	o
 realización	Scfs	realización
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 librerías	Scfp	librería
 de	P	de
@@ -184086,7 +183966,8 @@ e	Cc	e
 a	P	a
 outros	Idmp	outro
 catro	Ncdmp	catro
-altos cargos	Scmp	alto cargo
+altos	A0mp	alto
+cargos	Scmp	cargo
 relacionados	V0p0mp	relacionar
 con	P	con
 os	Ddmp	o
@@ -187854,9 +187735,7 @@ netas	A0fp	neto
 de	P	de
 activos	Scmp	activo
 financeiros	A0mp	financeiro
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 familias	Scfp	familia
 ascendeu	Vei30s	ascender
@@ -187881,7 +187760,7 @@ o	Ddms	o
 en tanto que	Cs	en tanto que
 os	Ddmp	o
 pasivos	Scmp	pasivo
-contraídos	A0mp	contraído
+contraídos	V0p0mp	contraer
 (	Q(	(
 préstamos	Scmp	préstamo
 )	Q)	)
@@ -191635,9 +191514,7 @@ de	P	de
 accións	Scfp	acción
 de	P	de
 Gas Natural	Sp00	Gas Natural
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 seu	Md3sms	seu
 máximo	Asms	máximo
@@ -198865,9 +198742,7 @@ para	P	para
 a	Ddfs	o
 compra	Scfs	compra
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 primeira	Nonfs	primeiro
 ,	Q,	,
@@ -203279,7 +203154,7 @@ os	Ddmp	o
 tributos	Scmp	tributo
 propios	A0mp	propio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 .	Q.	.
 
 a	Ddfs	o
@@ -206030,7 +205905,7 @@ este	Edms	este
 xeito	Scms	xeito
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 que	Cs	que
 as	Ddfp	o
 responsabilidades	Scfp	responsabilidade
@@ -206197,7 +206072,7 @@ normativa	A0fs	normativo
 sobre	P	sobre
 os	Ddmp	o
 impostos	Scmp	imposto
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 .	Q.	.
 
 nembargantes	Wn	nembargantes
@@ -206319,9 +206194,7 @@ baseada	V0p0fs	basear
 en	P	en
 a	Ddfs	o
 asunción	Scfs	asunción
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 as	Ddfp	o
 comunidades	Scfp	comunidade
 autónomas	A0fp	autónomo
@@ -206601,7 +206474,7 @@ calcular	V0f000	calcular
 se	Rao3aa	se
 o	Ddms	o
 tramo	Scms	tramo
-cedido	A0ms	cedido
+cedido	V0p0ms	ceder
 como	Wr	como
 unha	Difs	un
 porcentaxe	Scfs	porcentaxe
@@ -206669,7 +206542,7 @@ financeira	A0fs	financeiro
 de	P	de
 a	Ddfs	o
 forma	Scfs	forma
-aludida	A0fs	aludido
+aludida	V0p0fs	aludir
 (	Q(	(
 aumentando	V0x000	aumentar
 decisivamente	Wn	decisivamente
@@ -207347,7 +207220,7 @@ los	Ddmp	o
 tributos	Scmp	tributo
 própios	A0mp	própio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 obtería	Vci30s	obter
 se	Rao3aa	se
 o	Ddms	o
@@ -208197,7 +208070,7 @@ entre	P	entre
 tributos	Scmp	tributo
 próprios	A0mp	próprio
 e	Cc	e
-cedidos	A0mp	cedido
+cedidos	V0p0mp	ceder
 recada	Vpi30s	recadar
 se	Rao3aa	se
 entre	P	entre
@@ -209483,7 +209356,7 @@ ata	P	ata
 nós	Rtp1ap	nós
 sen	P	sen
 termos	V0f10p	ter
-construída	A0fs	construído
+construída	V0p0fs	construír
 esa	Edfs	ese
 arca	Scfs	arca
 .	Q.	.
@@ -218063,7 +217936,7 @@ o	Ddms	o
 tema	Scms	tema
 non	Wn	non
 é	Vpi30s	ser
-badalí	A0ms	badalí
+baladí	A0ms	baladí
 ,	Q,	,
 non	Wm	non
 só	Wn	só
@@ -219628,9 +219501,7 @@ posibilidades	Scfp	posibilidade
 de	P	de
 apropriación	Scfs	apropriación
 ,	Q,	,
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 sociedade	Scfs	sociedade
 galega	A0fs	galego
@@ -222305,9 +222176,7 @@ coincidindo	V0x000	coincidir
 con	P	con
 o	Ddms	o
 anuncio	Scms	anuncio
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Ministerio de Educación	Spms	Ministerio de Educación
 de	P	de
@@ -222898,10 +222767,7 @@ cada	Idmp	cada
 catro	Ncdmp	catro
 anos	Scmp	ano
 (	Q(	(
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 que	Cs	que
 poidesen	Ves30p	poder
 server	V0f000	server
@@ -223427,7 +223293,7 @@ cru	Scms	cru
 Kraft	Sp00	Kraft
 "	Q"	"
 e	Cc	e
-branquexadas	A0fp	branquexado
+branquexadas	V0p0fp	branquexar
 a	P	a
 o	Ddms	o
 sulfato	Scms	sulfato
@@ -223480,7 +223346,7 @@ cru	Scms	cru
 Kraft	Sp00	Kraft
 "	Q"	"
 e	Cc	e
-branquexadas	A0fp	branquexado
+branquexadas	V0p0fp	branquexar
 a	P	a
 o	Ddms	o
 sulfato	Scms	sulfato
@@ -225887,9 +225753,7 @@ de	P	de
 os	Ddmp	o
 propios	Idmp	propio
 programas	Scmp	programa
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 UE	Zgfs	UE
 .	Q.	.
@@ -230211,7 +230075,7 @@ país	Scms	país
 terceiromundista	A0ms	terceiromundista
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 velaí	Wn	velaí
 está	Vpi30s	estar
 a	Ddfs	o
@@ -240243,9 +240107,7 @@ a	Ddfs	o
 petición	Scfs	petición
 de	P	de
 responsabilidades	Scfp	responsabilidade
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 oposición	Scfs	oposición
 podería	Vci30s	poder
@@ -248011,7 +247873,9 @@ a	Ddfs	o
 cultura	Scfs	cultura
 de	P	de
 o	Ddms	o
-ha ha ha	Scms	ha ha ha
+ha	Y	ha
+ha	Y	ha
+ha	Y	ha
 .	Q.	.
 
 a	P	a
@@ -248178,7 +248042,7 @@ mostrador	Scms	mostrador
 di	Vpi30s	dicir
 :	Q:	:
 "	Q"	"
-pois	Wn	pois
+pois	Cs	pois
 si	Wn	si
 ,	Q,	,
 ho	Y	ho
@@ -249230,9 +249094,7 @@ manipulación	Scfs	manipulación
 de	P	de
 este	Edms	este
 colectivo	Scms	colectivo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 empresa	Scfs	empresa
 .	Q.	.
@@ -249621,7 +249483,7 @@ a	Ddfs	o
 Xunta	Spfs	Xunta
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 van	Vpi30p	ir
 de lado	Wn	de lado
 ,	Q,	,
@@ -252302,9 +252164,7 @@ foi	Vei30sser	ser
 o	Ddms	o
 unánime	A0ms	unánime
 recoñecemento	Scms	recoñecemento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 todos	Idmp	todo
 os	Ddmp	o
 patróns maiores	Scmp	patrón maior
@@ -259269,7 +259129,7 @@ salientábeis	A0fp	salientábel
 ,	Q,	,
 as	Ddfp	o
 mellor	Wm	mellor
-configuradas	A0fp	configurado
+configuradas	V0p0fp	configurar
 .	Q.	.
 
 quizá	Wn	quizá
@@ -262516,7 +262376,7 @@ o	Ddms	o
 século	Scms	século
 XX	Ncnms	XX
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 é	Vpi30s	ser
 cando	Wr	cando
 se	Rao3aa	se
@@ -267907,7 +267767,7 @@ de	P	de
 emprego	Scms	emprego
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 esa	Edfs	ese
 garantía	Scfs	garantía
 debe	Vpi30s	deber
@@ -269511,9 +269371,7 @@ corenta	Ncdmp	corenta
 anos	Scmp	ano
 ,	Q,	,
 tanto	Wn	tanto
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Estado	Spms	Estado
 como	Cs	como
@@ -283787,7 +283645,7 @@ primeira	Nodfs	primeiro
 visita	Scfs	visita
 foi	Vei30sser	ser
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 frustrada	A0fs	frustrado
 .	Q.	.
@@ -285032,7 +284890,7 @@ adquiriu	Vei30s	adquirir
 .	Q.	.
 
 velaí	Wn	velaí
-pois	Wn	pois
+pois	Cs	pois
 Alcabre	Sp00	Alcabre
 ,	Q,	,
 un	Dims	un
@@ -286090,10 +285948,7 @@ ocupado	V0p0ms	ocupar
 por	P	por
 lo	Ddms	o
 DRIL	Zgms	DRIL
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 chamar	V0f000	chamar
 a	Ddfs	o
 atención	Scfs	atención
@@ -290737,9 +290592,7 @@ sería	Vci30s	ser
 un	Dims	un
 erro	Scms	erro
 tremendo	A0ms	tremendo
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 PSOE	Zgms	PSOE
 sucumbir	V0f000	sucumbir
@@ -291588,9 +291441,7 @@ de	P	de
 a	Ddfs	o
 lingua	Scfs	lingua
 galega	A0fs	galego
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 estes	Edmp	este
 grupos	Scmp	grupo
 que	Tnmp	que
@@ -295929,7 +295780,8 @@ omnipresencia	Scfs	omnipresencia
 de	P	de
 a	Ddfs	o
 sofisticada	A0fs	sofisticado
-alta cociña	Scfs	alta cociña
+alta	A0fs	alto
+cociña	Scfs	cociña
 en	P	en
 a	Ddfs	o
 sociedade	Scfs	sociedade
@@ -295950,7 +295802,8 @@ debe	Vpi30s	deber
 ofrecer	V0f000	ofrecer
 a	P	a
 os	Ddmp	o
-altos dignitarios	Scmp	alto dignitario
+altos	A0mp	alto
+dignitarios	Scmp	dignitario
 presentes	A0mp	presente
 en	P	en
 un	Dims	un
@@ -296296,7 +296149,7 @@ canalizada	V0p0fs	canalizar
 a través de	P	a través de
 diálogos	Scmp	diálogo
 ben	Wm	ben
-construídos	A0mp	construído
+construídos	V0p0mp	construír
 ,	Q,	,
 os	Ddmp	o
 personaxes	Scmp	personaxe
@@ -296354,9 +296207,7 @@ que	Tnmp	que
 conseguen	Vpi30p	conseguir
 contaxiar	V0f000	contaxiar
 o	Ddms	o
-patio	Scms	patio
-de	P	de
-butacas	Scfp	butaca
+patio de butacas	Scms	patio de butacas
 con	P	con
 o	Ddms	o
 arsenal	Scms	arsenal
@@ -298195,10 +298046,7 @@ integración	Scfs	integración
 de	P	de
 as	Ddfp	o
 linguaxes	Scfp	linguaxe
-a	P	a
-o	Ddms	o
-xeito	Scms	xeito
-de	P	de
+ao xeito de	P	ao xeito de
 os	Ddmp	o
 circos	Scmp	circo
 concéntricos	A0mp	concéntrico
@@ -299695,7 +299543,7 @@ o	Ddms	o
 uso	Scms	uso
 de	P	de
 o	Ddms	o
-castelanizado	A0ms	castelanizado
+castelanizado	V0p0ms	castelanizar
 '	Q'	'
 La Coruña	Sp00	La Coruña
 '	Q'	'
@@ -301244,7 +301092,7 @@ de	P	de
 noso	Mn1pms	noso
 obras	Scfp	obra
 de	P	de
-contrastada	A0fs	contrastado
+contrastada	V0p0fs	contrastar
 valía	Scfs	valía
 ,	Q,	,
 aínda que	Cs	aínda que
@@ -304662,7 +304510,7 @@ recomendábel	A0ms	recomendábel
 .	Q.	.
 
 recreacións	Scfp	recreación
-pois	Wn	pois
+pois	Cs	pois
 de	P	de
 espazos	Scmp	espazo
 inquedos	A0mp	inquedo
@@ -305690,7 +305538,7 @@ a	Ddfs	o
 artesanía	Scfs	artesanía
 non	Wn	non
 está	Vpi30s	estar
-conceptuada	A0fs	conceptuado
+conceptuada	V0p0fs	conceptuar
 como	Wr	como
 arte	Scfs	arte
 maior	Acfs	maior
@@ -307069,7 +306917,7 @@ España	Spfs	España
 analóxica	A0fs	analóxico
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 se	Rao3aa	se
 ven	Vpi30p	ver
@@ -314300,7 +314148,7 @@ cazola	Scfs	cazola
 rodaballo	Scms	rodaballo
 ,	Q,	,
 vitela	Scfs	vitela
-asada	A0fs	asado
+asada	V0p0fs	asar
 ,	Q,	,
 cabrito	Scms	cabrito
 a	P	a
@@ -314555,9 +314403,7 @@ tan	Wm	tanto
 altamente	Wm	altamente
 aprezado	A0ms	aprezado
 hoxe en día	Wn	hoxe en día
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 canteiros	Scmp	canteiro
 que	Tnmp	que
@@ -318169,7 +318015,7 @@ europeos	A0mp	europeo
 os	Ddmp	o
 sectores	Scmp	sector
 máis	Wm	máis
-castigados	A0mp	castigado
+castigados	V0p0mp	castigar
 son	Vpi30p	ser
 os	Ddmp	o
 máis	Wm	máis
@@ -318834,7 +318680,7 @@ grandes	A0mp	grande
 asuntos	Scmp	asunto
 xa	Wn	xa
 viñan	Vii30p	vir
-cociñados	A0mp	cociñado
+cociñados	V0p0mp	cociñar
 e	Cc	e
 os	Ddmp	o
 escasos	A0mp	escaso
@@ -322719,7 +322565,6 @@ dous	Ncdmp	dous
 factores	Scmp	factor
 decisivos	A0mp	decisivo
 :	Q:	:
-
 o	Ddms	o
 biolóxico-persoal	A0ms	biolóxico-persoal
 ,	Q,	,
@@ -325308,7 +325153,8 @@ o	Ddms	o
 BNG	Zgms	BNG
 que	Tnmp	que
 son	Vpi30p	ser
-altos cargos	Scmp	alto cargo
+altos	A0mp	alto
+cargos	Scmp	cargo
 de	P	de
 a	Ddfs	o
 Xunta de Galicia	Spfs	Xunta de Galicia
@@ -330640,7 +330486,7 @@ o	Ddms	o
 Atlético de Madrid	Spms	Atlético de Madrid
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 iso	Enns	ese
 ,	Q,	,
 que	Cs	que
@@ -339608,9 +339454,7 @@ santo	Scms	santo
 "	Q"	"
 .	Q.	.
 
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 este	Edms	este
 centenario	Scms	centenario
 ,	Q,	,
@@ -340983,7 +340827,7 @@ domingo	Scms	domingo
 a	P	a
 a	Ddfs	o
 noite	Scfs	noite
-calcinadas	A0fp	calcinado
+calcinadas	V0p0fp	calcinar
 a	P	a
 o	Ddms	o
 chocar	V0f000	chocar
@@ -343336,9 +343180,7 @@ sobre	P	sobre
 presuntos	A0mp	presunto
 delitos	Scmp	delito
 urbanísticos	A0mp	urbanístico
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 oposición	Scfs	oposición
 municipal	A0fs	municipal
@@ -346960,9 +346802,7 @@ foi	Vei30sser	ser
 obxecto	Scms	obxecto
 a	Ddfs	o
 deputada	Scfs	deputado
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 secretario xeral	Scms	secretario xeral
 xa que	Cs	xa que
@@ -351600,7 +351440,8 @@ o	Ddms	o
 ano	Scms	ano
 pasado	A0ms	pasado
 varios	Idmp	varios
-altos cargos	Scmp	alto cargo
+altos	A0mp	alto
+cargos	Scmp	cargo
 de	P	de
 a	Ddfs	o
 Administración	Spfs	Administración
@@ -352909,7 +352750,7 @@ idioma	Scms	idioma
 
 galego	Scms	galego
 ,	Q,	,
-calatán	Scms	calatán
+catalán	Scms	catalán
 e	Cc	e
 éuscaro	Scms	éuscaro
 alían	Vpi30p	aliar
@@ -353304,7 +353145,6 @@ de	P	de
 compromiso	Scms	compromiso
 con	P	con
 a	Ddfs	o
-o	Ddms	o
 riqueza	Scfs	riqueza
 e	Cc	e
 biodioversidad	Scfs	biodioversidad
@@ -354866,9 +354706,7 @@ como	Cs	como
 brasileiras	A0fp	brasileiro
 .	Q.	.
 
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 este	Edms	este
 foro	Scms	foro
 asinou	Vei30s	asinar
@@ -355566,7 +355404,8 @@ Universidade de Santiago	Spfs	Universidade de Santiago
 de feito	Wn	de feito
 ,	Q,	,
 están	Vpi30p	estar
-a piques de	P	a piques de
+a piques	Wn	a piques
+de	P	de
 publicar	V0f000	publicar
 se	Rao3aa	se
 as	Ddfp	o
@@ -358327,9 +358166,7 @@ haxa	Vps30s	haber
 violencia	Scfs	violencia
 .	Q.	.
 
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Comisión Obreiras	Sp00	Comisión Obreiras
 (	Q(	(
 CCOO	Zg00	CCOO
@@ -359859,9 +359696,7 @@ un	Dims	un
 exercicio	Scms	exercicio
 de	P	de
 confianza	Scfs	confianza
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Executivo	Spms	Executivo
 en	P	en
@@ -360133,10 +359968,7 @@ por	P	por
 gardas civís	Scmp	garda civil
 non	Wm	non
 retirados	A0mp	retirado
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 promover	V0f000	promover
 os	Ddmp	o
 intereses	Scmp	interese
@@ -360239,10 +360071,7 @@ de	P	de
 a	Ddfs	o
 Administración	Spfs	Administración
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 mellorar	V0f000	mellorar
 tanto	Wn	tanto
 as	Ddfp	o
@@ -364571,7 +364400,8 @@ pan	Scms	pan
 )	Q)	)
 e	Cc	e
 outras	Infp	outro
-a piques de	P	a piques de
+a piques	Wn	a piques
+de	P	de
 arar	V0f000	arar
 para	P	para
 a	Ddfs	o
@@ -365032,9 +364862,7 @@ virtude	Scfs	virtude
 de	P	de
 a	Ddfs	o
 aprobación	Scfs	aprobación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 Congreso	Spms	Congreso
 de	P	de
@@ -365892,7 +365720,7 @@ globalización	Scfs	globalización
 
 digo	Vpi10s	dicir
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 en	P	en
 honra	Scfs	honra
@@ -367236,7 +367064,8 @@ as	Ddfp	o
 ,	Q,	,
 que	Cs	que
 estamos	Vpi10p	estar
-a piques de	P	a piques de
+a piques	Wn	a piques
+de	P	de
 acabar	V0f000	acabar
 con	P	con
 el	Rtp3ms	el
@@ -367299,7 +367128,7 @@ descubrimentos	Scmp	descubrimento
 ,	Q,	,
 como	Cs	como
 os	Ddmp	o
-gambóns	Scmp	gambón
+gambóns	Scmp	gamba
 xigantes	A0mp	xigante
 de	P	de
 as	Ddfp	o
@@ -367826,7 +367655,7 @@ subir	V0f000	subir
 a	Ddfs	o
 paga	Scfs	paga
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 .	Q.	.
 
 se	Cs	se
@@ -369000,7 +368829,8 @@ coñecin	Vei10s	coñecer
 que	Cs	que
 Telecinco	Sp00	Telecinco
 estaba	Vii30s	estar
-a piques de	P	a piques de
+a piques	Wn	a piques
+de	P	de
 estrear	V0f000	estrear
 M.I.R.	Sp00	M.I.R.
 pensei	Vei10s	pensar
@@ -371711,9 +371541,7 @@ Fernando Morán	Spm0	Fernando Morán
 tira	Vpi30s	tirar
 a	P	a
 un	Dims	un
-patio	Scms	patio
-de	P	de
-butacas	Scfp	butaca
+patio de butacas	Scms	patio de butacas
 que	Tnms	que
 se	Rao3aa	se
 erixe	Vpi30s	erixir
@@ -372668,7 +372496,7 @@ o	Ddms	o
 apetito	Scms	apetito
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 aínda	Wn	aínda
 hai	Vpi30s	haber
 máis	Wn	máis
@@ -372741,7 +372569,7 @@ a	Ddfs	o
 terra	Scfs	terra
 _	Q_	_
 cordeiro	Scms	cordeiro
-asado	A0ms	asado
+asado	V0p0ms	asar
 ,	Q,	,
 langostinos	Scmp	langostino
 a	P	a
@@ -377257,9 +377085,7 @@ sexan	Vps30p	ser
 cualificados	V0p0mp	cualificar
 como	Wr	como
 prioritarios	A0mp	prioritario
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Unión Europea	Spfs	Unión Europea
 .	Q.	.
@@ -380142,7 +379968,7 @@ a pesar de	P	a pesar de
 que	Cs	que
 o	Ddms	o
 seu	Md3pms	seu
-constribución	Scfs	constribución
+contribución	Scfs	contribución
 é	Vpi30s	ser
 extensa	A0fs	extenso
 .	Q.	.
@@ -380312,10 +380138,7 @@ e	Cc	e
 en	P	en
 formación	Scfs	formación
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 que	Cs	que
 se	Rao3aa	se
 integre	Vps30s	integrar
@@ -380648,7 +380471,7 @@ lo	Ddms	o
 por cento	Wn	por cento
 de	P	de
 os	Ddmp	o
-consultados	A0mp	consultado
+consultados	Scmp	consultado
 ,	Q,	,
 Francia	Sp00	Francia
 é	Vpi30s	ser
@@ -381177,9 +381000,7 @@ recibe	Vpi30s	recibir
 a	Ddfs	o
 mesma	Idfs	mesmo
 cualificación	Scfs	cualificación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 57	Ncnms	57
 %	Zs00	%
@@ -381276,9 +381097,7 @@ suscitar	V0f000	suscitar
 un	Dims	un
 forte	A0ms	forte
 rexeitamento	Scms	rexeitamento
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 poboación	Scfs	poboación
 local	A0fs	local
@@ -391294,7 +391113,8 @@ Londres	Sp00	Londres
 
 segundo	P	segundo
 o	Ddms	o
-alto mando	Scms	alto mando
+alto	A0ms	alto
+mando	Scms	mando
 militar	A0ms	militar
 ,	Q,	,
 Irán	Sp00	Irán
@@ -391846,7 +391666,7 @@ oficiais	Scmp	oficial
 de	P	de
 a	Ddfs	o
 mariña	Scfs	mariña
-capturados	A0mp	capturado
+capturados	V0p0mp	capturar
 foi	Vei30sser	ser
 algo	Inns	algo
 "	Q"	"
@@ -391931,7 +391751,7 @@ británicos	A0mp	británico
 visiten	Vps30p	visitar
 o	Ddms	o
 persoal	Scms	persoal
-capturado	A0ms	capturado
+capturado	V0p0ms	capturar
 ,	Q,	,
 pero	Cs	pero
 aínda	Wn	aínda
@@ -391990,7 +391810,8 @@ tamén	Wn	tamén
 o	Raa3ms	o
 fixo	Vei30s	facer
 o	Ddms	o
-alto representante	Scms	alto representante
+alto	A0ms	alto
+representante	Scms	representante
 para	P	para
 a	Ddfs	o
 Política Exterior	Spfs	Política Exterior
@@ -392207,7 +392028,8 @@ multiplicaron	Vei30p	multiplicar
 os	Ddmp	o
 comentarios	Scmp	comentario
 de	P	de
-altos cargos	Scmp	alto cargo
+altos	A0mp	alto
+cargos	Scmp	cargo
 de	P	de
 o	Ddms	o
 goberno	Scms	goberno
@@ -393324,9 +393146,7 @@ unha	Difs	un
 roda	Scfs	roda
 de	P	de
 prensa	Scfs	prensa
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 súa	Md3sfs	seu
 visita	Scfs	visita
@@ -395539,7 +395359,8 @@ ante	P	ante
 os	Ddmp	o
 que	Tnmp	que
 ,	Q,	,
-consonte con	P	consonte con
+consonte	P	consonte
+con	P	con
 o	Ddms	o
 visto	V0p0ms	ver
 en	P	en
@@ -397952,7 +397773,7 @@ a	Ddfs	o
 guerra	Scfs	guerra
 de	P	de
 os	Ddmp	o
-boers	Scmp	boer
+Boers	Spmp	Boer
 ,	Q,	,
 mantendo	V0x000	manter
 sempre	Wn	sempre
@@ -400762,7 +400583,7 @@ Irlanda	Sp00	Irlanda
 converte	Vpi30s	converter
 se	Rao3aa	se
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 de novo	Wn	de novo
 en	P	en
@@ -402061,7 +401882,7 @@ que	Tnms	que
 pasou	Vei30s	pasar
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 que	Cs	que
 a	P	a
 o	Ddms	o
@@ -402758,18 +402579,14 @@ control	Scms	control
 de	P	de
 o	Ddms	o
 Parlamento	Spms	Parlamento
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 utilización	Scfs	utilización
 de	P	de
 os	Ddmp	o
 medios	Scmp	medio
 públicos	A0mp	público
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 poder	Scms	poder
 .	Q.	.
@@ -406147,9 +405964,7 @@ madrileña	A0fs	madrileño
 o	Ddms	o
 pasado	A0ms	pasado
 xuño	Scms	xuño
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 a	Ddfs	o
 estrea	Scfs	estrea
 de	P	de
@@ -407805,10 +407620,7 @@ economicamente	Wn	economicamente
 a	P	a
 a	Ddfs	o
 Asociación Drosera para o Estudo e Conservación do Medio Ambiente	Spfs	Asociación Drosera para o Estudo e Conservación do Medio Ambiente
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 elaborar	V0f000	elaborar
 un	Dims	un
 inventario	Scms	inventario
@@ -409232,9 +409044,7 @@ o	Ddms	o
 cesamento	Scms	cesamento
 de	P	de
 recollida	Scfs	recollida
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Puleva	Sp00	Puleva
 ,	Q,	,
 "	Q"	"
@@ -409765,9 +409575,7 @@ activo	A0ms	activo
 non	Wn	non
 houbo	Vei30s	haber
 resposta	Scfs	resposta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 Corina Porro	Spf0	Corina Porro
 e	Cc	e
 quen	Tnms	quen
@@ -410983,9 +410791,7 @@ de	P	de
 o	Ddms	o
 carril	Scms	carril
 contrario	A0ms	contrario
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 condutor	Scms	condutor
 de	P	de
@@ -412370,7 +412176,7 @@ o	Ddms	o
 %	Zs00	%
 están	Vpi30p	estar
 moi	Wm	moito
-concienciados	A0mp	concienciado
+concienciados	V0p0mp	concienciar
 con	P	con
 os	Ddmp	o
 problemas	Scmp	problema
@@ -414169,9 +413975,7 @@ a	Ddfs	o
 dificultade	Scfs	dificultade
 de	P	de
 acceso	Scms	acceso
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 enfermos	Scmp	enfermo
 a	P	a
@@ -416180,7 +415984,7 @@ este	Edms	este
 método	Scms	método
 non	Wn	non
 está	Vpi30s	estar
-contrastado	A0ms	contrastado
+contrastado	V0p0ms	contrastar
 a	P	a
 o	Ddms	o
 100	Ncnms	100
@@ -416848,9 +416652,7 @@ o	Ddms	o
 de	P	de
 xaneiro	Scms	xaneiro
 ,	Q,	,
-con	P	con
-motivo	Scms	motivo
-de	P	de
+con motivo de	P	con motivo de
 os	Ddmp	o
 Reis	Spmp	Reis
 .	Q.	.
@@ -418069,9 +417871,7 @@ dera	Vli30s	dar
 lugar	Scms	lugar
 a	P	a
 reclamacións	Scfp	reclamación
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 os	Ddmp	o
 membros	Scmp	membro
 de	P	de
@@ -419204,9 +419004,7 @@ analizada	V0p0fs	analizar
 en	P	en
 a	Ddfs	o
 actualidade	Scfs	actualidade
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 Xunta	Spfs	Xunta
 ?	Q?	?
@@ -419995,9 +419793,7 @@ de	P	de
 unha	Difs	un
 obsesiva	A0fs	obsesivo
 persecución	Scfs	persecución
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 entón	Wm	entón
 presidente	Scms	presidente
@@ -420125,9 +419921,7 @@ escritor	Scms	escritor
 de	P	de
 dispar	A0fs	dispar
 valoración	Scfs	valoración
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 crítica	Scfs	crítica
 _	Q_	_
@@ -425651,7 +425445,7 @@ lle	Rad3ms	lle
 remitan	Vps30p	remitir
 un	Dims	un
 "	Q"	"
-ateigado	Scms	ateigado
+ateigado	A0ms	ateigado
 ampliatorio	A0ms	ampliatorio
 "	Q"	"
 sobre	P	sobre
@@ -427290,7 +427084,7 @@ as	Ddfp	o
 súas	Md3sfp	seu
 propias	Idfp	propio
 atribucións	Scfp	atribución
-conferidas	A0fp	conferido
+conferidas	V0p0fp	conferir
 ,	Q,	,
 sen	P	sen
 incorrer	V0f000	incorrer
@@ -430039,9 +429833,7 @@ fará	Vfi30s	facer
 que	Cs	que
 a	Ddfs	o
 venda	Scfs	venda
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 o	Ddms	o
 grupo	Scms	grupo
 Santander	Sp00	Santander
@@ -435321,10 +435113,7 @@ para	P	para
 o	Ddms	o
 último	A0ms	último
 momento	Scms	momento
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 non	Wn	non
 entorpecer	V0f000	entorpecer
 os	Ddmp	o
@@ -435870,7 +435659,7 @@ preciso	A0ms	preciso
 e	Cc	e
 precioso	A0ms	precioso
 ,	Q,	,
-memorión	A0ms	memorión
+memorión	Scms	memoria
 e	Cc	e
 documentado	A0ms	documentado
 ,	Q,	,
@@ -435964,7 +435753,7 @@ con	P	con
 os	Ddmp	o
 seus	Md3pmp	seu
 movementos	Scmp	movemento
-contrastados	A0mp	contrastado
+contrastados	V0p0mp	contrastar
 e	Cc	e
 os	Ddmp	o
 seus	Md3pmp	seu
@@ -440150,7 +439939,7 @@ muchacha	Scfs	muchacho
 uniformada	A0fs	uniformado
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 .	Q.	.
 
@@ -442868,7 +442657,7 @@ lingüística	A0fs	lingüístico
 
 voaba	Viia0s	voar
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 con	P	con
 todas	Idfp	todo
@@ -446408,7 +446197,7 @@ non si	Wn	non si
 ,	Q,	,
 Santi	Spm0	Santi
 ,	Q,	,
-cariño	Y	cariño
+cariño	Scms	cariño
 ?	Q?	?
 "	Q"	"
 .	Q.	.
@@ -449750,7 +449539,7 @@ alixeirando	V0x000	alixeirar
 carga	Scfs	carga
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 así	Wn	así
 a	Ddfs	o
 propia	Idfs	propio
@@ -449951,7 +449740,7 @@ un	Dims	un
 tempo	Scms	tempo
 moito	Wm	moito
 máis	Wm	máis
-avido	A0ms	avido
+avido	V0p0ms	avir
 a	P	a
 nós	Rtp1ap	nós
 ;	Q;	;
@@ -454460,7 +454249,7 @@ transmitida	V0p0fs	transmitir
 ¿	Q¿	¿
 canta	Gnfs	canto
 é	Vpi30s	ser
-pois	Wn	pois
+pois	Cs	pois
 a	Ddfs	o
 forza	Scfs	forza
 de	P	de
@@ -455537,7 +455326,7 @@ lume	Scms	lume
 atoparon	Vei30p	atopar
 os	Ddmp	o
 cadáveres	Scmp	cadáver
-carbonizados	A0mp	carbonizado
+carbonizados	V0p0mp	carbonizar
 de	P	de
 tres	Ncdmp	tres
 homes	Scmp	home
@@ -456390,7 +456179,7 @@ nenos	Scmp	neno
 
 _	Q_	_
 ¡	Q¡	¡
-ouuuuuh	Y	ouuuuuh
+ouh	Y	ouh
 !	Q!	!
 
 será	Vfi30s	ser
@@ -457405,7 +457194,7 @@ inusitadas	A0fp	inusitado
 
 _	Q_	_
 ¡	Q¡	¡
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 han	Vpi30p	haber
 estar	V0f000	estar
@@ -469864,10 +469653,7 @@ laborou	Vei30s	laborar
 noite	Scfs	noite
 e	Cc	e
 día	Scms	día
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 gañar	V0f000	gañar
 cartos	Scmp	carto
 para	P	para
@@ -470646,8 +470432,7 @@ amigos	Scmp	amigo
 ,	Q,	,
 moi	Wm	moito
 letrados	A0mp	letrado
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 non	Wn	non
 eran	Vii30p	ser
 os	Ddmp	o
@@ -470999,7 +470784,7 @@ pote	Scms	pote
 ferver	V0f000	ferver
 ;	Q;	;
 sardiñas	Scfp	sardiña
-asadas	A0fp	asado
+asadas	V0p0fp	asar
 ,	Q,	,
 colmeas	Scfp	colmea
 con	P	con
@@ -471449,7 +471234,7 @@ custa	Vpi30s	custar
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 un	Ncdms	un
 dedal	Scms	dedal
 vale	Vpi30s	valer
@@ -473176,7 +472961,7 @@ incrédulo	A0ms	incrédulo
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 logo	Wn	logo
 ,	Q,	,
 di	V0m20s	dicir
@@ -474088,8 +473873,7 @@ a	P	a
 o	Ddms	o
 seu	Md3sms	seu
 carón	Scms	carón
-a o pe	Wn	a o pe
-de	P	de
+a o pe de	P	a o pe de
 o	Ddms	o
 lume	Scms	lume
 :	Q:	:
@@ -474127,7 +473911,7 @@ vinagre	Scms	vinagre
 que	Cs	que
 a	P	a
 viño	Scms	viño
-augado	A0ms	augado
+augado	V0p0ms	augar
 e	Cc	e
 froitado	A0ms	froitado
 ,	Q,	,
@@ -474956,7 +474740,7 @@ fago	Vpi10s	facer
 
 _	Q_	_
 ¡	Q¡	¡
-pois	Wn	pois
+pois	Cs	pois
 como	Cs	como
 eu	Rtn1as	eu
 teño	Vpi10s	ter
@@ -475930,7 +475714,9 @@ de	P	de
 prezo	Scms	prezo
 ,	Q,	,
 entre	P	entre
-patatín e patatán	Y	patatín e patatán
+patatín	Y	patatín
+e	Cc	e
+patatán	Y	patatán
 ,	Q,	,
 os	Ddmp	o
 vimbios	Scmp	vimbio
@@ -476177,7 +475963,7 @@ querías	Vii20s	querer
 vacas	Scfp	vaca
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 outra	Idfs	outro
 vez	Scfs	vez
 esqueciches	Vei20s	esquecer
@@ -476626,7 +476412,7 @@ amizade	Scfs	amizade
 
 a	P	a
 o	Ddms	o
-consultado	A0ms	consultado
+consultado	Scms	consultado
 preguntaba	Vii30s	preguntar
 lle	Rad3ms	lle
 qué	Gnaa	que
@@ -483174,7 +482960,8 @@ vida	Scfs	vida
 
 _	Q_	_
 ¡	Q¡	¡
-por Deus	Y	por Deus
+por	P	por
+Deus	Sp00	Deus
 !	Q!	!
 
 ¿	Q¿	¿
@@ -483986,8 +483773,7 @@ ningunha	Infs	ningún
 de	P	de
 esas	Edfp	ese
 esquelas	Scfp	esquela
-de	P	de
-marras	Scfp	marras
+de marras	A0fp	de marras
 ...	Q...	...
 
 pode	Vpi30s	poder
@@ -484534,9 +484320,7 @@ en	P	en
 a	Ddfs	o
 miña	Md1sfs	meu
 casa	Scfs	casa
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 miña	Md1sfs	meu
 muller	Scfs	muller
@@ -486926,7 +486710,7 @@ desapareceu	Vei30s	desaparecer
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 desapareceu	Vei30s	desaparecer
 .	Q.	.
 
@@ -487941,7 +487725,7 @@ non	Wn	non
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 abre	V0m20s	abrir
 o	Raa3ms	o
 por	P	por
@@ -490937,7 +490721,7 @@ tronco	Scms	tronco
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 a	P	a
 min	Rtp1ms	min
 non	Wn	non
@@ -496185,7 +495969,7 @@ moda	Scfs	moda
 de	P	de
 un	Dims	un
 mundo	Scms	mundo
-aureolado	A0ms	aureolado
+aureolado	V0p0ms	aureolar
 e	Cc	e
 estraño	A0ms	estraño
 que	Tnms	que
@@ -497229,7 +497013,7 @@ ela	Rtn3fs	el
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 agora	Wn	agora
 vas	Vpi20s	ir
 dicir	V0f000	dicir
@@ -500179,8 +499963,7 @@ a	P	a
 dous	Ncdmp	dous
 escritores	Scmp	escritor
 ,	Q,	,
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 ten	Vpi30s	ter
 perdido	V0p0ms	perder
 marabillosas	A0fp	marabilloso
@@ -500443,7 +500226,7 @@ vén	Vpi30s	vir
 en	P	en
 ese	Edms	ese
 sobre	Scms	sobre
-lacrado	A0ms	lacrado
+lacrado	V0p0ms	lacrar
 ,	Q,	,
 e	Cc	e
 despois	Wn	despois
@@ -501158,7 +500941,7 @@ cadáver	Scms	cadáver
 en	P	en
 un	Dims	un
 bosque	Scms	bosque
-calcinado	A0ms	calcinado
+calcinado	V0p0ms	calcinar
 .	Q.	.
 
 o	Ddms	o
@@ -502683,7 +502466,7 @@ infeliz	A0ms	infeliz
 ...	Q...	...
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 podería	Vci30s	poder
 ser	V0f000	ser
 ...	Q...	...
@@ -504620,7 +504403,7 @@ folio	Scms	folio
 :	Q:	:
 
 _	Q_	_
-guai	Y	guai
+guai	Wn	guai
 .	Q.	.
 
 ¡	Q¡	¡
@@ -505026,8 +504809,7 @@ de	P	de
 a	Ddfs	o
 carnicería	Scfs	carnicería
 ,	Q,	,
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 estabamos	Vii10p	estar
 preto	Wn	preto
 de	P	de
@@ -506037,7 +505819,7 @@ carriño	Scms	carriño
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 aínda	Wn	aínda
 lle	Rad3as	lle
 queda	Vpi30s	quedar
@@ -506423,7 +506205,7 @@ sabía	Viia0s	saber
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 agora	Wn	agora
 xa	Wn	xa
 o	Raa3ms	o
@@ -508043,7 +507825,7 @@ santiloreiros	Scmp	santiloreiro
 
 _	Q_	_
 ¡	Q¡	¡
-pois	Wn	pois
+pois	Cs	pois
 luciron	Vei30p	lucir
 se	Rao3aa	se
 contigo	Rtp2as	contigo
@@ -510457,7 +510239,7 @@ vén	Vpi30s	vir
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 cartiños	Scmp	carto
 ten	Vpi30s	ter
 de abondo	Wn	de abondo
@@ -512031,7 +511813,7 @@ era	Viia0s	ser
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 era	Vii30s	ser
 lle	Rad3as	lle
 así	Wn	así
@@ -512654,7 +512436,7 @@ miga	Scfs	miga
 
 estaba	Vii10s	estar
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 eu	Rtn1as	eu
 con	P	con
@@ -513028,7 +512810,7 @@ sombra	Scfs	sombra
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 xa	Wn	xa
 tanto	Wn	tanto
@@ -513187,7 +512969,7 @@ riscos	Scmp	risco
 por	P	por
 la	Ddfs	o
 superficie	Scfs	superficie
-contornada	A0fs	contornado
+contornada	V0p0fs	contornar
 .	Q.	.
 
 _	Q_	_
@@ -513431,8 +513213,7 @@ choutando	V0x000	choutar
 con	P	con
 a	Ddfs	o
 man	Scfs	man
-de	P	de
-marras	Scfp	marras
+de marras	A0fs	de marras
 en alto	Wn	en alto
 ,	Q,	,
 axitando	V0x000	axitar
@@ -514356,7 +514137,7 @@ un pouco	Inms	un pouco
 
 de tempo en tempo	Wn	de tempo en tempo
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 descolgaba	Viia0s	descolgar
 algunhas	Infp	algún
@@ -514559,7 +514340,7 @@ cousa	Scfs	cousa
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 ...	Q...	...
 
 direi	Vfi10s	dicir
@@ -514812,7 +514593,7 @@ me	Raa1as	me
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 todo	Inms	todo
 ben	Wn	ben
 ,	Q,	,
@@ -515051,7 +514832,7 @@ bola	Scfs	bola
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 volvo	Vpi10s	volver
 a	Raa3fs	o
 pintar	V0f000	pintar
@@ -515707,7 +515488,7 @@ aínda	Wn	aínda
 vedes	Vpi20p	ver
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 o	Ddms	o
 caso	Scms	caso
 é	Vpi30s	ser
@@ -516468,7 +516249,7 @@ estivo	Vei30s	estar
 horas	Scfp	hora
 e	Cc	e
 horas	Scfp	hora
-axeonllado	A0ms	axeonllado
+axeonllado	V0p0ms	axeonllar
 en	P	en
 o	Ddms	o
 reclinatorio	Scms	reclinatorio
@@ -517118,7 +516899,7 @@ senón	Cs	senón
 
 de contado	Wn	de contado
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 o	Ddms	o
 que	Tnms	que
@@ -518438,11 +518219,12 @@ así	Wn	así
 eran	Vii30p	ser
 graves	A0mp	grave
 ,	Q,	,
-fiiiu	Y	fiiiu
+fiu	Y	fiu
 ,	Q,	,
 agudos	A0mp	agudo
 ,	Q,	,
-fiu fiu	Y	fiu fiu
+fiu	Y	fiu
+fiu	Y	fiu
 ,	Q,	,
 suaves	A0mp	suave
 ,	Q,	,
@@ -521980,7 +521762,7 @@ lle	Rad3as	lle
 queda	Vpi30s	quedar
 !	Q!	!
 
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 como	Wr	como
 lle	Rad3as	lle
@@ -523596,7 +523378,7 @@ cabeza	Scfs	cabeza
 medio	Wm	medio
 ladeada	A0fs	ladeado
 e	Cc	e
-caída	A0fs	caído
+caída	V0p0fs	caer
 ,	Q,	,
 expresión	Scfs	expresión
 de	P	de
@@ -524711,7 +524493,7 @@ pensei	Vei10s	pensar
 :	Q:	:
 
 "	Q"	"
-pois	Wn	pois
+pois	Cs	pois
 vou	Vpi10s	ir
 dar	V0f000	dar
 unha	Difs	un
@@ -525042,7 +524824,7 @@ me	Rad1as	me
 :	Q:	:
 
 "	Q"	"
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 se	Rao3aa	se
 preocupe	Vps30s	preocupar
@@ -525372,7 +525154,7 @@ por lo menos	Wn	por o menos
 ...	Q...	...
 "	Q"	"
 
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 iso	Enns	ese
 ,	Q,	,
@@ -526709,7 +526491,7 @@ pertencía	Vii10s	pertencer
 a	P	a
 Galicia	Sp00	Galicia
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 mandaron	Vei30p	mandar
 me	Raa1as	me
 para	P	para
@@ -527368,7 +527150,7 @@ din	Vpi30p	dicir
 nada	Inns	nada
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 iso	Enns	ese
 deberían	Vci30p	deber
 poder	V0f000	poder
@@ -527548,16 +527330,24 @@ disparei	Vei10s	disparar
 con	P	con
 furia	Scfs	furia
 ,	Q,	,
-ta ta ta	Y	ta ta ta
+ta	Y	ta
+ta	Y	ta
+ta	Y	ta
 ,	Q,	,
 rabiosamente	Wn	rabiosamente
 ,	Q,	,
-ta ta ta ta ta	Y	ta ta ta ta ta
+ta	Y	ta
+ta	Y	ta
+ta	Y	ta
+ta	Y	ta
+ta	Y	ta
 ,	Q,	,
 con	P	con
 odio	Scms	odio
 ,	Q,	,
-ta ta ta	Y	ta ta ta
+ta	Y	ta
+ta	Y	ta
+ta	Y	ta
 ,	Q,	,
 ata	P	ata
 que	Cs	que
@@ -528653,7 +528443,8 @@ Xunta	Spfs	Xunta
 .	Q.	.
 
 talvez	Wn	talvez
-a resultas de	P	a resultas de
+a resultas	Wn	a resultas
+de	P	de
 ter	V0f000	ter
 lido	V0p0ms	ler
 iso	Enns	ese
@@ -529501,7 +529292,7 @@ e	Cc	e
 logo	Wn	logo
 retiraba	Vii30s	retirar
 se	Rao3aa	se
-caladiñamente	Wn	caladiñamente
+caladiñamente	Wn	caladamente
 a	P	a
 un	Dims	un
 curruncho	Scms	curruncho
@@ -530394,8 +530185,7 @@ raza	Scfs	raza
 .	Q.	.
 
 _	Q_	_
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 un	Inms	un
 xa	Wn	xa
 non	Wn	non
@@ -531195,7 +530985,7 @@ ver	V0f000	ver
 un	Dims	un
 cu	Scms	cu
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 ¡	Q¡	¡
 ala	Y	ala
@@ -532624,7 +532414,7 @@ vista	Scfs	vista
 
 había	Vii10s	haber
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 de	P	de
 esmerar	V0f000	esmerar
@@ -533318,7 +533108,7 @@ arte	Scfs	arte
 
 recuei	Vei10s	recuar
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 ,	Q,	,
 e	Cc	e
 volvín	Vei10s	volver
@@ -536241,7 +536031,7 @@ comprobado	V0p0ms	comprobar
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 ten	Vpi30s	ter
 cara	Scfs	cara
 de	P	de
@@ -536936,7 +536726,7 @@ ser	V0f000	ser
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 é	Vpi30s	ser
 ,	Q,	,
 non	Wn	non
@@ -536998,7 +536788,7 @@ certo	A0ms	certo
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 ...	Q...	...
 
 _	Q_	_
@@ -540780,7 +540570,7 @@ hai	Vpi30s	haber
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 ...	Q...	...
 así	Wn	así
 ...	Q...	...
@@ -548155,7 +547945,7 @@ unha	Difs	un
 razón	Scfs	razón
 para	P	para
 estar	V0f000	estar
-cabreadas	A0fp	cabreado
+cabreadas	V0p0fp	cabrear
 ou	Cc	ou
 tristes	A0fp	triste
 ou	Cc	ou
@@ -549680,7 +549470,7 @@ tempo	Scms	tempo
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 veña	Y	veña
 ,	Q,	,
 avisa	V0m20s	avisar
@@ -549830,7 +549620,7 @@ ombros	Scmp	ombro
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 si	Wn	si
 que	Cs	que
 che	Rad2as	che
@@ -550305,7 +550095,7 @@ non	Wn	non
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 hai	Vpi30s	haber
 que	Cs	que
 ir	V0f000	ir
@@ -556737,7 +556527,7 @@ problema	Scms	problema
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 a	P	a
 min	Rtp1as	min
 menos	Wn	menos
@@ -558099,7 +557889,8 @@ porta	Scfs	porta
 de	P	de
 saída	Scfs	saída
 está	Vpi30s	estar
-por fronte de	P	por fronte de
+por fronte	Wn	por fronte
+de	P	de
 a	Ddfs	o
 que	Tnfs	que
 abriu	Vei30s	abrir
@@ -558549,7 +558340,7 @@ agardan	Vpi30p	agardar
 ,	Q,	,
 oen	Vpi30p	oír
 voces	Scfp	voz
-amortiguadas	A0fp	amortiguado
+amortiguadas	V0p0fp	amortiguar
 .	Q.	.
 
 logo	Wn	logo
@@ -562352,7 +562143,7 @@ que	Tnfs	que
 ergueu	Vei30s	erguer
 infalible	A0fs	infalible
 e	Cc	e
-cabreada	A0fs	cabreado
+cabreada	V0p0fs	cabrear
 cara	P	cara
 o	Ddms	o
 voo	Scms	voo
@@ -570228,7 +570019,7 @@ mar	Scms	mar
 e	Cc	e
 que	Gdfs	que
 cousa	Scfs	cousa
-ciscada	A0fs	ciscado
+ciscada	V0p0fs	ciscar
 se	Rao3aa	se
 lle	Rad3as	lle
 veu	Vei30s	vir
@@ -571156,7 +570947,7 @@ lenzo	Scms	lenzo
 .	Q.	.
 
 días	Scmp	día
-azoutados	A0mp	azoutado
+azoutados	V0p0mp	azoutar
 .	Q.	.
 
 chicotazos	Scmp	chicotazo
@@ -576061,10 +575852,7 @@ como	Wr	como
 nunca	Wn	nunca
 facía	Vii30s	facer
 ,	Q,	,
-con	P	con
-o	Ddms	o
-fin	Scms	fin
-de	P	de
+con o fin de	P	con o fin de
 pensar	V0f000	pensar
 en	P	en
 o	Ddms	o
@@ -579763,7 +579551,7 @@ para	P	para
 sempre	Wn	sempre
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 aconteceu	Vei30s	acontecer
 que	Cs	que
 ,	Q,	,
@@ -580516,9 +580304,7 @@ demais	Inmp	demais
 ficaron	Vei30p	ficar
 en	P	en
 o	Ddms	o
-patio	Scms	patio
-de	P	de
-butacas	Scfp	butaca
+patio de butacas	Scms	patio de butacas
 deleitando	V0x000	deleitar
 se	Rao3aa	se
 con	P	con
@@ -584514,7 +584300,7 @@ _	Q_	_
 que	Tnms	que
 dirían	Vci30p	dicir
 os	Ddmp	o
-añorados	A0mp	añorado
+añorados	V0p0mp	añorar
 vocalistas	Scmp	vocalista
 _	Q_	_
 La hiedra	Sp00	La hiedra
@@ -585299,7 +585085,7 @@ química	Scfs	química
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 pode	Vpi30s	poder
 ser	V0f000	ser
 _	Q_	_
@@ -585901,7 +585687,7 @@ nada	Inns	nada
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 si	Wn	si
 .	Q.	.
 
@@ -587045,7 +586831,7 @@ falangueiro	A0ms	falangueiro
 tiñan	Vii30p	ter
 música	Scfs	música
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 xa	Wn	xa
 vos	Raf2ap	vos
 podedes	Vpi20p	poder
@@ -588195,7 +587981,7 @@ soutos	Scmp	souto
 
 _	Q_	_
 castañas	Scfp	castaña
-asadas	A0fp	asado
+asadas	V0p0fp	asar
 .	Q.	.
 
 agora	Wn	agora
@@ -589264,7 +589050,7 @@ a	Ddfs	o
 noite	Scfs	noite
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 agora	Wn	agora
 ,	Q,	,
 camiño de	P	camiño de
@@ -589952,7 +589738,7 @@ anos	Scmp	ano
 despois	Wm	despois
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 eles	Rtn3mp	el
 así	Wn	así
 tal	Wn	tal
@@ -590554,7 +590340,7 @@ siciliano	A0ms	siciliano
 Fabrizio de Salina	Spm0	Fabrizio de Salina
 .	Q.	.
 
-brizados	V0p0mp	brizar
+brizados	A0mp	brizado
 por	P	por
 lo	Ddms	o
 viño	Scms	viño
@@ -590967,6 +590753,7 @@ a	P	a
 establecer	V0f000	establecer
 unha	Difs	un
 gradación	Scfs	gradación
+consonte	P	consonte
 consonte con	P	consonte con
 a	Ddfs	o
 atención	Scfs	atención
@@ -596768,7 +596555,7 @@ que	Tnms	que
 desprende	Vpi30s	desprender
 ese	Edms	ese
 cheiro	Scms	cheiro
-balorecido	A0ms	balorecido
+balorecido	V0p0ms	balorecer
 a	P	a
 podremia	Scfs	podremia
 ,	Q,	,
@@ -597508,7 +597295,7 @@ quedaba	Vii30s	quedar
 logo	Wn	logo
 ?	Q?	?
 
-pois	Wn	pois
+pois	Cs	pois
 escapar	V0f000	escapar
 .	Q.	.
 
@@ -599144,7 +598931,7 @@ xardín	Scms	xardín
 me	Rad1as	me
 pareceron	Vei30p	parecer
 tan	Wm	tanto
-cambiados	A0mp	cambiado
+cambiados	V0p0mp	cambiar
 aquel	Edms	aquel
 terrible	A0ms	terrible
 día	Scms	día
@@ -600642,7 +600429,7 @@ soldados	Scmp	soldado
 .	Q.	.
 
 marcharon	Vei30p	marchar
-cegados	A0mp	cegado
+cegados	V0p0mp	cegar
 con	P	con
 a	Ddfs	o
 ira	Scfs	ira
@@ -611457,7 +611244,7 @@ porque	Cs	porque
 estaba	Vii30s	estar
 lonxe	Wn	lonxe
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 entón	Wn	entón
 nós	Rtn1ap	nós
 non	Wn	non
@@ -613135,7 +612922,7 @@ a	Ddfs	o
 _	Q_	_
 escoita	V0m20s	escoitar
 ,	Q,	,
-cariño	Y	cariño
+cariño	Scms	cariño
 ,	Q,	,
 ti	Rtn2as	ti
 acabas	Vpi20s	acabar
@@ -613150,7 +612937,7 @@ non si	Wn	non si
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 claro	Wn	claro
 ,	Q,	,
 se	Cs	se
@@ -618809,7 +618596,7 @@ con	P	con
 mimo	Scms	mimo
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 sei	Vpi10s	saber
 qué	Gnaa	que
@@ -619507,7 +619294,7 @@ fose	Ves30sser	ser
 onte	Wn	onte
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 deu	Vei30s	dar
 nada	Inns	nada
@@ -619787,7 +619574,7 @@ para	Vpi30s	parar
 en seco	Wn	en seco
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 para	P	para
 min	Rtp1as	min
 que	Cs	que
@@ -620229,621 +620016,6 @@ a	Ddfs	o
 chuvia	Scfs	chuvia
 .	Q.	.
 
-cando	Wr	cando
-lle	Rad3as	lle
-pareceu	Vei30s	parecer
-,	Q,	,
-parou	Vei30s	parar
-.	Q.	.
-
-el	Rtn3ms	el
-mesmo	Inms	mesmo
-entrou	Vei30s	entrar
-en	P	en
-a	Ddfs	o
-paisaxe	Scfs	paisaxe
-,	Q,	,
-con	P	con
-a	Ddfs	o
-taleiga	Scfs	taleiga
-e	Cc	e
-o	Ddms	o
-caxato	Scms	caxato
-a	P	a
-o	Ddms	o
-lombo	Scms	lombo
-;	Q;	;
-
-dirixiu	Vei30s	dirixir
-se	Rao3aa	se
-a	P	a
-a	Ddfs	o
-camposa	Scfs	camposa
-.	Q.	.
-
-tomou	Vei30s	tomar
-algunhas	Idfp	algún
-froitas	Scfp	froita
-a	P	a
-o	Ddms	o
-cruzar	V0f000	cruzar
-un	Dims	un
-pomar	Scms	pomar
-con	P	con
-abundancia	Scfs	abundancia
-de	P	de
-mazás	Scfp	mazá
-,	Q,	,
-laranxas	Scfp	laranxa
-,	Q,	,
-nésperas	Scfp	néspera
-e	Cc	e
-cereixas	Scfp	cereixa
-.	Q.	.
-
-tamén	Wn	tamén
-recolleu	Vei30s	recoller
-castañas	Scfp	castaña
-,	Q,	,
-ananás	Scmp	ananás
-,	Q,	,
-uvas	Scfp	uva
-,	Q,	,
-e	Cc	e
-leituga	Scfs	leituga
-e	Cc	e
-tomate	Scms	tomate
-;	Q;	;
-
-en	P	en
-un	Dims	un
-recanto	Scms	recanto
-,	Q,	,
-ovos	Scmp	ovo
-de	P	de
-galiña	Scfs	galo
-recén	Wm	recén
-postos	V0p0mp	poñer
-.	Q.	.
-
-e	Cc	e
-de	P	de
-todo	Inms	todo
-se	Rao3aa	se
-alimentou	Vei30s	alimentar
-ata	P	ata
-fartar	V0f000	fartar
-se	Rao3aa	se
-.	Q.	.
-
-acendeu	Vei30s	acender
-un	Dims	un
-lume	Scms	lume
-con	P	con
-unhas	Difp	un
-pólas	Scfp	póla
-secas	A0fp	seco
-.	Q.	.
-
-remexendo	V0x000	remexer
-un pouco	Inms	un pouco
-,	Q,	,
-non	Wn	non
-lle	Rad3as	lle
-foi	Vei30sser	ser
-difícil	A0ms	difícil
-atopar	V0f000	atopar
-un	Dims	un
-cazo	Scms	cazo
-en	P	en
-o	Ddms	o
-fondo	Scms	fondo
-de	P	de
-a	Ddfs	o
-saqueta	Scfs	saqueta
-;	Q;	;
-
-preparou	Vei30s	preparar
-unha	Difs	un
-infusión	Scfs	infusión
-con	P	con
-herbas	Scfp	herba
-que	Tnfp	que
-só	Wm	só
-el	Rtn3ms	el
-coñecía	Vii30s	coñecer
-e	Cc	e
-bebeu	Vei30s	beber
-na	Raa3fs	o
-de vagar	Wn	de vagar
-.	Q.	.
-
-despois	Wn	despois
-deitou	Vei30s	deitar
-se	Rao3aa	se
-en	P	en
-a	Ddfs	o
-sombriña	Scfs	sombra
-de	P	de
-a	Ddfs	o
-devesa	Scfs	devesa
-,	Q,	,
-a a beira	Wn	a a beira
-de	P	de
-a	Ddfs	o
-fonte	Scfs	fonte
-e	Cc	e
-de	P	de
-a	Ddfs	o
-curiosa	A0fs	curioso
-coral	Scfs	coral
-avícola	A0fs	avícola
-.	Q.	.
-
-en	P	en
-o	Ddms	o
-ceo	Scms	ceo
-apareceron	Vei30p	aparecer
-acendidas	A0fp	acendido
-cores	Scfp	cor
-contra	P	contra
-a	Ddfs	o
-raia	Scfs	raia
-de	P	de
-o	Ddms	o
-horizonte	Scms	horizonte
-.	Q.	.
-
-o	Ddms	o
-viaxeiro	Scms	viaxeiro
-tapou	Vei30s	tapar
-se	Rao3aa	se
-con	P	con
-a	Ddfs	o
-manta	Scfs	manta
-e	Cc	e
-fechou	Vei30s	fechar
-os	Ddmp	o
-ollos	Scmp	ollo
-.	Q.	.
-
-fermosos	A0mp	fermoso
-soños	Scmp	soño
-,	Q,	,
-só	Wn	só
-reservados	V0p0mp	reservar
-a	P	a
-os	Ddmp	o
-homemundos	Scmp	homemundo
-en	P	en
-fase	Scfs	fase
-de	P	de
-descanso	Scms	descanso
-,	Q,	,
-viñeron	Vei30p	vir
-visitar	V0f000	visitar
-lo	Raa3ms	o
-para	P	para
-facer	V0f000	facer
-máis	Wm	máis
-pracenteira	A0fs	pracenteiro
-a	Ddfs	o
-súa	Md3sfs	seu
-noite	Scfs	noite
-.	Q.	.
-
-os	Ddmp	o
-paxaros	Scmp	paxaro
-calaran	Vli30p	calar
-e	Cc	e
-a	Ddfs	o
-fonte	Scfs	fonte
-gurgullaba	Vii30s	gurgullar
-máis	Wm	máis
-baixo	Wn	baixo
-e	Cc	e
-o	Ddms	o
-vento	Scms	vento
-sopraba	Vii30s	soprar
-maino	Wn	maino
-por	P	por
-non	Wn	non
-estorbar	V0f000	estorbar
-o	Ddms	o
-seu	Md3ams	seu
-repouso	Scms	repouso
-.	Q.	.
-
-e	Cc	e
-unha	Difs	un
-lúa	Scfs	lúa
-esplendorosa	A0fs	esplendoroso
-e	Cc	e
-magnífica	A0fs	magnífico
-saíu	Vei30s	saír
-aínda	Wn	aínda
-de	P	de
-o	Ddms	o
-saco	Scms	saco
-mal	Wn	mal
-cerrado	V0p0ms	cerrar
-e	Cc	e
-viaxou	Vei30s	viaxar
-por	P	por
-lo	Ddms	o
-firmamento	Scms	firmamento
-estrelado	A0ms	estrelado
-.	Q.	.
-
-por	P	por
-la	Ddfs	o
-mañá	Scfs	mañá
-,	Q,	,
-o	Ddms	o
-sol	Scms	sol
-tinxiu	Vei30s	tinxir
-o	Ddms	o
-ceo	Scms	ceo
-e	Cc	e
-a	Ddfs	o
-terra	Scfs	terra
-de	P	de
-todas	Idfp	todo
-as	Ddfp	o
-cores	Scfp	cor
-habidas	V0p0fp	haber
-e	Cc	e
-por	P	por
-haber	V0f000	haber
-.	Q.	.
-
-uns	Dimp	un
-raios	Scmp	raio
-tímidos	A0mp	tímido
-petaron	Vei30p	petar
-en	P	en
-as	Ddfp	o
-pálpebras	Scfp	pálpebra
-de	P	de
-o	Ddms	o
-viaxeiro	Scms	viaxeiro
-a	P	a
-o	Ddms	o
-tempo	Scms	tempo
-que	Tnms	que
-os	Ddmp	o
-paxaros	Scmp	paxaro
-cantores	A0mp	cantor
-,	Q,	,
-que	Tnmp	que
-velaran	Vli30p	velar
-toda	Idfs	todo
-a	Ddfs	o
-noite	Scfs	noite
-,	Q,	,
-reemprendían	Vii30p	reemprender
-o	Ddms	o
-interrompido	V0p0ms	interromper
-concerto	Scms	concerto
-con	P	con
-novos	A0mp	novo
-ares	Scmp	ar
-e	Cc	e
-a	Ddfs	o
-fonte	Scfs	fonte
-se	Rao3aa	se
-abría	Vii30s	abrir
-ledamente	Wn	ledamente
-e	Cc	e
-o	Ddms	o
-río	Scms	río
-e	Cc	e
-os	Ddmp	o
-animais	Scmp	animal
-e	Cc	e
-as	Ddfp	o
-árbores	Scfp	árbore
-nacían	Vii30p	nacer
-a	P	a
-o	Ddms	o
-día	Scms	día
-como	Cs	como
-por	P	por
-primeira	Nodfs	primeiro
-vez	Scfs	vez
-.	Q.	.
-
-o	Ddms	o
-viaxeiro	Scms	viaxeiro
-espertou	Vei30s	espertar
-con	P	con
-un	Dims	un
-sorriso	Scms	sorriso
-en	P	en
-toda	Idfs	todo
-a	Ddfs	o
-pel	Scfs	pel
-.	Q.	.
-
-ergueu	Vei30s	erguer
-se	Rao3aa	se
-;	Q;	;
-
-estricou	Vei30s	estricar
-cada	Idfs	cada
-parte	Scfs	parte
-de	P	de
-o	Ddms	o
-corpo	Scms	corpo
-e	Cc	e
-aspirou	Vei30s	aspirar
-con	P	con
-deleite	Scms	deleite
-o	Ddms	o
-ar	Scms	ar
-fresco	A0ms	fresco
-.	Q.	.
-
-recolleu	Vei30s	recoller
-a	Ddfs	o
-manta	Scfs	manta
-.	Q.	.
-
-bebeu	Vei30s	beber
-de	P	de
-a	Ddfs	o
-fonte	Scfs	fonte
-e	Cc	e
-comeu	Vei30s	comer
-de novo	Wn	de novo
-os	Ddmp	o
-saborosos	A0mp	saboroso
-froitos	Scmp	froito
-de	P	de
-o	Ddms	o
-seu	Md3sms	seu
-pomar	Scms	pomar
-de	P	de
-conto	Scms	conto
-.	Q.	.
-
-as	Ddfp	o
-ovellas	Scfp	ovella
-proporcionaron	Vei30p	proporcionar
-lle	Rad3as	lle
-leite	Scms	leite
-para	P	para
-completar	V0f000	completar
-o	Ddms	o
-almorzo	Scms	almorzo
-.	Q.	.
-
-o	Ddms	o
-lume	Scms	lume
-volveu	Vei30s	volver
-arder	V0f000	arder
-en	P	en
-a	Ddfs	o
-mañá	Scfs	mañá
-e	Cc	e
-teceu	Vei30s	tecer
-formas	Scfp	forma
-místicas	A0fp	místico
-que	Tnfp	que
-guiaron	Vei30p	guiar
-o	Ddms	o
-viaxeiro	Scms	viaxeiro
-durante	P	durante
-a	Ddfs	o
-súa	Md3sfs	seu
-primeira	Nodfs	primeiro
-meditación	Scfs	meditación
-.	Q.	.
-
-logo	Wn	logo
-,	Q,	,
-cando	Wr	cando
-se	Rao3aa	se
-sentiu	Vei30s	sentir
-preparado	A0ms	preparado
-,	Q,	,
-colleu	Vei30s	coller
-a	Ddfs	o
-taleiga	Scfs	taleiga
-e	Cc	e
-abriu	Vei30s	abrir
-na	Raa3fs	o
-.	Q.	.
-
-e	Cc	e
-comezou	Vei30s	comezar
-a	P	a
-recoller	V0f000	recoller
-as	Ddfp	o
-súas	Md3afp	seu
-cousas	Scfp	cousa
-antes	Wn	antes
-de	P	de
-continuar	V0f000	continuar
-a	Ddfs	o
-viaxe	Scfs	viaxe
-.	Q.	.
-
-así	Wn	así
-foi	Vei30sir	ir
-metendo	V0x000	meter
-dentro	Wn	dentro
-,	Q,	,
-outra	Idfs	outro
-volta	Scfs	volta
-en	P	en
-conmovedora	A0fs	conmovedor
-e	Cc	e
-desordenada	A0fs	desordenado
-procesión	Scfs	procesión
-,	Q,	,
-as	Ddfp	o
-árbores	Scfp	árbore
-,	Q,	,
-as	Ddfp	o
-montañas	Scfp	montaña
-,	Q,	,
-o	Ddms	o
-río	Scms	río
-,	Q,	,
-os	Ddmp	o
-animais	Scmp	animal
-,	Q,	,
-o	Ddms	o
-sol	Scms	sol
-e	Cc	e
-as	Ddfp	o
-nubes	Scfp	nube
-,	Q,	,
-os	Ddmp	o
-retallos	Scmp	retallo
-de	P	de
-paisaxe	Scfs	paisaxe
-,	Q,	,
-as	Ddfp	o
-flores	Scfp	flor
-con	P	con
-o	Ddms	o
-seu	Md3pms	seu
-cheiro	Scms	cheiro
-e	Cc	e
-o	Ddms	o
-seu	Md3pms	seu
-colorido	Scms	colorido
-,	Q,	,
-os	Ddmp	o
-paxaros	Scmp	paxaro
-con	P	con
-o	Ddms	o
-seu	Md3pms	seu
-cantar	Scms	cantar
-e	Cc	e
-o	Ddms	o
-seu	Md3pms	seu
-colorido	Scms	colorido
-,	Q,	,
-o	Ddms	o
-mar	Scms	mar
-,	Q,	,
-o	Ddms	o
-vento	Scms	vento
-,	Q,	,
-a	Ddfs	o
-noite	Scfs	noite
-...	Q...	...
-e	Cc	e
-todos	Idmp	todo
-os	Ddmp	o
-camiños	Scmp	camiño
-...	Q...	...
-
-finalmente	Wn	finalmente
-non	Wn	non
-quedaba	Vii30s	quedar
-cousa	Scfs	cousa
-ningunha	Infs	ningún
-en	P	en
-o	Ddms	o
-lugar	Scms	lugar
-.	Q.	.
-
-o	Ddms	o
-mar-deserto-nada	Scms	mar-deserto-nada
-volvía	Vii30s	volver
-ser	V0f000	ser
-o	Ddms	o
-que	Tnms	que
-sempre	Wn	sempre
-fora	Vli30sser	ser
-,	Q,	,
-unha	Difs	un
-turdia	A0fs	turdio
-soidade	Scfs	soidade
-desesperante	A0fs	desesperante
-e	Cc	e
-desesperada	A0fs	desesperado
-.	Q.	.
-
-o	Ddms	o
-homemundo	Scms	homemundo
-anoou	Vei30s	anoar
-ben	Wn	ben
-a	Ddfs	o
-taleiga	Scfs	taleiga
-e	Cc	e
-colgou	Vei30s	colgar
-na	Raa3fs	o
-,	Q,	,
-xunto con	P	xunto con
-a	Ddfs	o
-manta	Scfs	manta
-,	Q,	,
-a	P	a
-o	Ddms	o
-lombo	Scms	lombo
-.	Q.	.
-
-colocou	Vei30s	colocar
-o	Ddms	o
-chapeu	Scms	chapeu
-,	Q,	,
-apreixou	Vei30s	apreixar
-o	Ddms	o
-caxato	Scms	caxato
-con	P	con
-a	Ddfs	o
-man	Scfs	man
-dereita	A0fs	dereito
-e	Cc	e
-botou	Vei30s	botar
-se	Rao3aa	se
-a	P	a
-andar	V0f000	andar
-.	Q.	.
-
-cara a	P	cara a
-ningunha	Idfs	ningún
-parte	Scfs	parte
-.	Q.	.
-
-levaba	Viia0s	levar
-o	Ddms	o
-paso	Scms	paso
-vivo	A0ms	vivo
-despois	Wn	despois
-de	P	de
-o	Ddms	o
-descanso	Scms	descanso
-nocturno	A0ms	nocturno
-;	Q;	;
-
-os	Ddmp	o
-seus	Md3amp	seu
-ollos	Scmp	ollo
-imaxinaban	Vii30p	imaxinar
-calquera	Idfs	calquera
-rota	Scfs	rota
-a o chou	Wn	a o chou
-en	P	en
-aquela	Edfs	aquel
-vaciedade	Scfs	vaciedade
-,	Q,	,
-aquela	Edfs	aquel
-nada	Scfs	nada
-absoluta	A0fs	absoluto
-,	Q,	,
-aquel	Edms	aquel
-inimaxinábel	A0ms	inimaxinábel
-mar	Scms	mar
-de	P	de
-ausencias	Scfp	ausencia
-.	Q.	.
-
 a o pouco	Wn	a o pouco
 chegaba	Vii30s	chegar
 ela	Rtn3fs	el
@@ -620918,7 +620090,7 @@ la	Raa3fs	o
 entrar	V0f000	entrar
 ,	Q,	,
 ¡	Q¡	¡
-Deus	Y	Deus
+Deus	Sp00	Deus
 ,	Q,	,
 como	Wg	como
 amaba	Vii30s	amar
@@ -622856,7 +622028,7 @@ encontro	Scms	encontro
 .	Q.	.
 
 ¡	Q¡	¡
-Deus	Y	Deus
+Deus	Sp00	Deus
 ,	Q,	,
 como	Wg	como
 amaba	Viia0s	amar
@@ -622866,6 +622038,621 @@ de	P	de
 o	Ddms	o
 encontro	Scms	encontro
 !	Q!	!
+
+cando	Wr	cando
+lle	Rad3as	lle
+pareceu	Vei30s	parecer
+,	Q,	,
+parou	Vei30s	parar
+.	Q.	.
+
+el	Rtn3ms	el
+mesmo	Inms	mesmo
+entrou	Vei30s	entrar
+en	P	en
+a	Ddfs	o
+paisaxe	Scfs	paisaxe
+,	Q,	,
+con	P	con
+a	Ddfs	o
+taleiga	Scfs	taleiga
+e	Cc	e
+o	Ddms	o
+caxato	Scms	caxato
+a	P	a
+o	Ddms	o
+lombo	Scms	lombo
+;	Q;	;
+
+dirixiu	Vei30s	dirixir
+se	Rao3aa	se
+a	P	a
+a	Ddfs	o
+camposa	Scfs	camposa
+.	Q.	.
+
+tomou	Vei30s	tomar
+algunhas	Idfp	algún
+froitas	Scfp	froita
+a	P	a
+o	Ddms	o
+cruzar	V0f000	cruzar
+un	Dims	un
+pomar	Scms	pomar
+con	P	con
+abundancia	Scfs	abundancia
+de	P	de
+mazás	Scfp	mazá
+,	Q,	,
+laranxas	Scfp	laranxa
+,	Q,	,
+nésperas	Scfp	néspera
+e	Cc	e
+cereixas	Scfp	cereixa
+.	Q.	.
+
+tamén	Wn	tamén
+recolleu	Vei30s	recoller
+castañas	Scfp	castaña
+,	Q,	,
+ananás	Scmp	ananás
+,	Q,	,
+uvas	Scfp	uva
+,	Q,	,
+e	Cc	e
+leituga	Scfs	leituga
+e	Cc	e
+tomate	Scms	tomate
+;	Q;	;
+
+en	P	en
+un	Dims	un
+recanto	Scms	recanto
+,	Q,	,
+ovos	Scmp	ovo
+de	P	de
+galiña	Scfs	galo
+recén	Wm	recén
+postos	V0p0mp	poñer
+.	Q.	.
+
+e	Cc	e
+de	P	de
+todo	Inms	todo
+se	Rao3aa	se
+alimentou	Vei30s	alimentar
+ata	P	ata
+fartar	V0f000	fartar
+se	Rao3aa	se
+.	Q.	.
+
+acendeu	Vei30s	acender
+un	Dims	un
+lume	Scms	lume
+con	P	con
+unhas	Difp	un
+pólas	Scfp	póla
+secas	A0fp	seco
+.	Q.	.
+
+remexendo	V0x000	remexer
+un pouco	Inms	un pouco
+,	Q,	,
+non	Wn	non
+lle	Rad3as	lle
+foi	Vei30sser	ser
+difícil	A0ms	difícil
+atopar	V0f000	atopar
+un	Dims	un
+cazo	Scms	cazo
+en	P	en
+o	Ddms	o
+fondo	Scms	fondo
+de	P	de
+a	Ddfs	o
+saqueta	Scfs	saqueta
+;	Q;	;
+
+preparou	Vei30s	preparar
+unha	Difs	un
+infusión	Scfs	infusión
+con	P	con
+herbas	Scfp	herba
+que	Tnfp	que
+só	Wm	só
+el	Rtn3ms	el
+coñecía	Vii30s	coñecer
+e	Cc	e
+bebeu	Vei30s	beber
+na	Raa3fs	o
+de vagar	Wn	de vagar
+.	Q.	.
+
+despois	Wn	despois
+deitou	Vei30s	deitar
+se	Rao3aa	se
+en	P	en
+a	Ddfs	o
+sombriña	Scfs	sombra
+de	P	de
+a	Ddfs	o
+devesa	Scfs	devesa
+,	Q,	,
+a a beira	Wn	a a beira
+de	P	de
+a	Ddfs	o
+fonte	Scfs	fonte
+e	Cc	e
+de	P	de
+a	Ddfs	o
+curiosa	A0fs	curioso
+coral	Scfs	coral
+avícola	A0fs	avícola
+.	Q.	.
+
+en	P	en
+o	Ddms	o
+ceo	Scms	ceo
+apareceron	Vei30p	aparecer
+acendidas	A0fp	acendido
+cores	Scfp	cor
+contra	P	contra
+a	Ddfs	o
+raia	Scfs	raia
+de	P	de
+o	Ddms	o
+horizonte	Scms	horizonte
+.	Q.	.
+
+o	Ddms	o
+viaxeiro	Scms	viaxeiro
+tapou	Vei30s	tapar
+se	Rao3aa	se
+con	P	con
+a	Ddfs	o
+manta	Scfs	manta
+e	Cc	e
+fechou	Vei30s	fechar
+os	Ddmp	o
+ollos	Scmp	ollo
+.	Q.	.
+
+fermosos	A0mp	fermoso
+soños	Scmp	soño
+,	Q,	,
+só	Wn	só
+reservados	V0p0mp	reservar
+a	P	a
+os	Ddmp	o
+homemundos	Scmp	homemundo
+en	P	en
+fase	Scfs	fase
+de	P	de
+descanso	Scms	descanso
+,	Q,	,
+viñeron	Vei30p	vir
+visitar	V0f000	visitar
+lo	Raa3ms	o
+para	P	para
+facer	V0f000	facer
+máis	Wm	máis
+pracenteira	A0fs	pracenteiro
+a	Ddfs	o
+súa	Md3sfs	seu
+noite	Scfs	noite
+.	Q.	.
+
+os	Ddmp	o
+paxaros	Scmp	paxaro
+calaran	Vli30p	calar
+e	Cc	e
+a	Ddfs	o
+fonte	Scfs	fonte
+gurgullaba	Vii30s	gurgullar
+máis	Wm	máis
+baixo	Wn	baixo
+e	Cc	e
+o	Ddms	o
+vento	Scms	vento
+sopraba	Vii30s	soprar
+maino	Wn	maino
+por	P	por
+non	Wn	non
+estorbar	V0f000	estorbar
+o	Ddms	o
+seu	Md3ams	seu
+repouso	Scms	repouso
+.	Q.	.
+
+e	Cc	e
+unha	Difs	un
+lúa	Scfs	lúa
+esplendorosa	A0fs	esplendoroso
+e	Cc	e
+magnífica	A0fs	magnífico
+saíu	Vei30s	saír
+aínda	Wn	aínda
+de	P	de
+o	Ddms	o
+saco	Scms	saco
+mal	Wn	mal
+cerrado	V0p0ms	cerrar
+e	Cc	e
+viaxou	Vei30s	viaxar
+por	P	por
+lo	Ddms	o
+firmamento	Scms	firmamento
+estrelado	A0ms	estrelado
+.	Q.	.
+
+por	P	por
+la	Ddfs	o
+mañá	Scfs	mañá
+,	Q,	,
+o	Ddms	o
+sol	Scms	sol
+tinxiu	Vei30s	tinxir
+o	Ddms	o
+ceo	Scms	ceo
+e	Cc	e
+a	Ddfs	o
+terra	Scfs	terra
+de	P	de
+todas	Idfp	todo
+as	Ddfp	o
+cores	Scfp	cor
+habidas	V0p0fp	haber
+e	Cc	e
+por	P	por
+haber	V0f000	haber
+.	Q.	.
+
+uns	Dimp	un
+raios	Scmp	raio
+tímidos	A0mp	tímido
+petaron	Vei30p	petar
+en	P	en
+as	Ddfp	o
+pálpebras	Scfp	pálpebra
+de	P	de
+o	Ddms	o
+viaxeiro	Scms	viaxeiro
+a	P	a
+o	Ddms	o
+tempo	Scms	tempo
+que	Tnms	que
+os	Ddmp	o
+paxaros	Scmp	paxaro
+cantores	A0mp	cantor
+,	Q,	,
+que	Tnmp	que
+velaran	Vli30p	velar
+toda	Idfs	todo
+a	Ddfs	o
+noite	Scfs	noite
+,	Q,	,
+reemprendían	Vii30p	reemprender
+o	Ddms	o
+interrompido	V0p0ms	interromper
+concerto	Scms	concerto
+con	P	con
+novos	A0mp	novo
+ares	Scmp	ar
+e	Cc	e
+a	Ddfs	o
+fonte	Scfs	fonte
+se	Rao3aa	se
+abría	Vii30s	abrir
+ledamente	Wn	ledamente
+e	Cc	e
+o	Ddms	o
+río	Scms	río
+e	Cc	e
+os	Ddmp	o
+animais	Scmp	animal
+e	Cc	e
+as	Ddfp	o
+árbores	Scfp	árbore
+nacían	Vii30p	nacer
+a	P	a
+o	Ddms	o
+día	Scms	día
+como	Cs	como
+por	P	por
+primeira	Nodfs	primeiro
+vez	Scfs	vez
+.	Q.	.
+
+o	Ddms	o
+viaxeiro	Scms	viaxeiro
+espertou	Vei30s	espertar
+con	P	con
+un	Dims	un
+sorriso	Scms	sorriso
+en	P	en
+toda	Idfs	todo
+a	Ddfs	o
+pel	Scfs	pel
+.	Q.	.
+
+ergueu	Vei30s	erguer
+se	Rao3aa	se
+;	Q;	;
+
+estricou	Vei30s	estricar
+cada	Idfs	cada
+parte	Scfs	parte
+de	P	de
+o	Ddms	o
+corpo	Scms	corpo
+e	Cc	e
+aspirou	Vei30s	aspirar
+con	P	con
+deleite	Scms	deleite
+o	Ddms	o
+ar	Scms	ar
+fresco	A0ms	fresco
+.	Q.	.
+
+recolleu	Vei30s	recoller
+a	Ddfs	o
+manta	Scfs	manta
+.	Q.	.
+
+bebeu	Vei30s	beber
+de	P	de
+a	Ddfs	o
+fonte	Scfs	fonte
+e	Cc	e
+comeu	Vei30s	comer
+de novo	Wn	de novo
+os	Ddmp	o
+saborosos	A0mp	saboroso
+froitos	Scmp	froito
+de	P	de
+o	Ddms	o
+seu	Md3sms	seu
+pomar	Scms	pomar
+de	P	de
+conto	Scms	conto
+.	Q.	.
+
+as	Ddfp	o
+ovellas	Scfp	ovella
+proporcionaron	Vei30p	proporcionar
+lle	Rad3as	lle
+leite	Scms	leite
+para	P	para
+completar	V0f000	completar
+o	Ddms	o
+almorzo	Scms	almorzo
+.	Q.	.
+
+o	Ddms	o
+lume	Scms	lume
+volveu	Vei30s	volver
+arder	V0f000	arder
+en	P	en
+a	Ddfs	o
+mañá	Scfs	mañá
+e	Cc	e
+teceu	Vei30s	tecer
+formas	Scfp	forma
+místicas	A0fp	místico
+que	Tnfp	que
+guiaron	Vei30p	guiar
+o	Ddms	o
+viaxeiro	Scms	viaxeiro
+durante	P	durante
+a	Ddfs	o
+súa	Md3sfs	seu
+primeira	Nodfs	primeiro
+meditación	Scfs	meditación
+.	Q.	.
+
+logo	Wn	logo
+,	Q,	,
+cando	Wr	cando
+se	Rao3aa	se
+sentiu	Vei30s	sentir
+preparado	A0ms	preparado
+,	Q,	,
+colleu	Vei30s	coller
+a	Ddfs	o
+taleiga	Scfs	taleiga
+e	Cc	e
+abriu	Vei30s	abrir
+na	Raa3fs	o
+.	Q.	.
+
+e	Cc	e
+comezou	Vei30s	comezar
+a	P	a
+recoller	V0f000	recoller
+as	Ddfp	o
+súas	Md3afp	seu
+cousas	Scfp	cousa
+antes	Wn	antes
+de	P	de
+continuar	V0f000	continuar
+a	Ddfs	o
+viaxe	Scfs	viaxe
+.	Q.	.
+
+así	Wn	así
+foi	Vei30sir	ir
+metendo	V0x000	meter
+dentro	Wn	dentro
+,	Q,	,
+outra	Idfs	outro
+volta	Scfs	volta
+en	P	en
+conmovedora	A0fs	conmovedor
+e	Cc	e
+desordenada	A0fs	desordenado
+procesión	Scfs	procesión
+,	Q,	,
+as	Ddfp	o
+árbores	Scfp	árbore
+,	Q,	,
+as	Ddfp	o
+montañas	Scfp	montaña
+,	Q,	,
+o	Ddms	o
+río	Scms	río
+,	Q,	,
+os	Ddmp	o
+animais	Scmp	animal
+,	Q,	,
+o	Ddms	o
+sol	Scms	sol
+e	Cc	e
+as	Ddfp	o
+nubes	Scfp	nube
+,	Q,	,
+os	Ddmp	o
+retallos	Scmp	retallo
+de	P	de
+paisaxe	Scfs	paisaxe
+,	Q,	,
+as	Ddfp	o
+flores	Scfp	flor
+con	P	con
+o	Ddms	o
+seu	Md3pms	seu
+cheiro	Scms	cheiro
+e	Cc	e
+o	Ddms	o
+seu	Md3pms	seu
+colorido	Scms	colorido
+,	Q,	,
+os	Ddmp	o
+paxaros	Scmp	paxaro
+con	P	con
+o	Ddms	o
+seu	Md3pms	seu
+cantar	Scms	cantar
+e	Cc	e
+o	Ddms	o
+seu	Md3pms	seu
+colorido	Scms	colorido
+,	Q,	,
+o	Ddms	o
+mar	Scms	mar
+,	Q,	,
+o	Ddms	o
+vento	Scms	vento
+,	Q,	,
+a	Ddfs	o
+noite	Scfs	noite
+...	Q...	...
+e	Cc	e
+todos	Idmp	todo
+os	Ddmp	o
+camiños	Scmp	camiño
+...	Q...	...
+
+finalmente	Wn	finalmente
+non	Wn	non
+quedaba	Vii30s	quedar
+cousa	Scfs	cousa
+ningunha	Infs	ningún
+en	P	en
+o	Ddms	o
+lugar	Scms	lugar
+.	Q.	.
+
+o	Ddms	o
+mar-deserto-nada	Scms	mar-deserto-nada
+volvía	Vii30s	volver
+ser	V0f000	ser
+o	Ddms	o
+que	Tnms	que
+sempre	Wn	sempre
+fora	Vli30sser	ser
+,	Q,	,
+unha	Difs	un
+turdia	A0fs	turdio
+soidade	Scfs	soidade
+desesperante	A0fs	desesperante
+e	Cc	e
+desesperada	A0fs	desesperado
+.	Q.	.
+
+o	Ddms	o
+homemundo	Scms	homemundo
+anoou	Vei30s	anoar
+ben	Wn	ben
+a	Ddfs	o
+taleiga	Scfs	taleiga
+e	Cc	e
+colgou	Vei30s	colgar
+na	Raa3fs	o
+,	Q,	,
+xunto con	P	xunto con
+a	Ddfs	o
+manta	Scfs	manta
+,	Q,	,
+a	P	a
+o	Ddms	o
+lombo	Scms	lombo
+.	Q.	.
+
+colocou	Vei30s	colocar
+o	Ddms	o
+chapeu	Scms	chapeu
+,	Q,	,
+apreixou	Vei30s	apreixar
+o	Ddms	o
+caxato	Scms	caxato
+con	P	con
+a	Ddfs	o
+man	Scfs	man
+dereita	A0fs	dereito
+e	Cc	e
+botou	Vei30s	botar
+se	Rao3aa	se
+a	P	a
+andar	V0f000	andar
+.	Q.	.
+
+cara a	P	cara a
+ningunha	Idfs	ningún
+parte	Scfs	parte
+.	Q.	.
+
+levaba	Viia0s	levar
+o	Ddms	o
+paso	Scms	paso
+vivo	A0ms	vivo
+despois	Wn	despois
+de	P	de
+o	Ddms	o
+descanso	Scms	descanso
+nocturno	A0ms	nocturno
+;	Q;	;
+
+os	Ddmp	o
+seus	Md3amp	seu
+ollos	Scmp	ollo
+imaxinaban	Vii30p	imaxinar
+calquera	Idfs	calquera
+rota	Scfs	rota
+a o chou	Wn	a o chou
+en	P	en
+aquela	Edfs	aquel
+vaciedade	Scfs	vaciedade
+,	Q,	,
+aquela	Edfs	aquel
+nada	Scfs	nada
+absoluta	A0fs	absoluto
+,	Q,	,
+aquel	Edms	aquel
+inimaxinábel	A0ms	inimaxinábel
+mar	Scms	mar
+de	P	de
+ausencias	Scfp	ausencia
+.	Q.	.
 
 o	Ddms	o
 home	Scms	home
@@ -624321,7 +624108,7 @@ ollares	Scmp	ollar
 ,	Q,	,
 vagantes	A0mp	vagante
 entre	P	entre
-cortinóns	Scmp	cortinón
+cortinóns	Scmp	cortina
 de	P	de
 seda	Scfs	seda
 ,	Q,	,
@@ -625617,7 +625404,7 @@ que	Cs	que
 ser	V0f000	ser
 ...	Q...	...
 
-Deus	Y	Deus
+Deus	Sp00	Deus
 ,	Q,	,
 empezaba	Viia0s	empezar
 a	P	a
@@ -628556,7 +628343,7 @@ pequeno	Scms	pequeno
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 boa	A0fs	bo
 razón	Scfs	razón
 que	Tnfs	que
@@ -628772,7 +628559,7 @@ el	Rtp3ms	el
 !	Q!	!
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 claro	Wn	claro
 ,	Q,	,
 pobre	A0fs	pobre
@@ -650466,7 +650253,7 @@ normas	Scfp	norma
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 eu	Rtn1as	eu
 estou	Vpi10s	estar
 en	P	en
@@ -655898,7 +655685,7 @@ debo	Vpi10s	deber
 finalizar	V0f000	finalizar
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 a pesar de	P	a pesar de
 o	Ddms	o
 que	Tnms	que
@@ -667079,7 +666866,7 @@ ritual	Scms	ritual
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 leamos	Vps10p	ler
 ,	Q,	,
 ¿	Q¿	¿
@@ -667947,7 +667734,7 @@ non	Wn	non
 pararemos	Vfi10p	parar
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 mires	Vps20s	mirar
 ,	Q,	,
@@ -671043,7 +670830,7 @@ falaba	Vii30s	falar
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 con	P	con
 o	Ddms	o
 par	Scms	par
@@ -677394,8 +677181,11 @@ non	Wn	non
 teñen	Vpi30p	ter
 ,	Q,	,
 como	Wr	como
-na	Raa3fs	o
-calle de Arriba	Spfs	calle de Arriba
+en	P	en
+a	Ddfs	o
+calle	Scfs	calle
+de	P	de
+Arriba	Sp00	Arriba
 ,	Q,	,
 a	Ddfs	o
 Placiña	Spfs	Placiña
@@ -680448,6 +680238,81 @@ ordenador	Scms	ordenador
 choro	Vpi10s	chorar
 .	Q.	.
 
+volvo	Vpi10s	volver
+a	P	a
+a	Ddfs	o
+infancia	Scfs	infancia
+.	Q.	.
+
+leite	Scms	leite
+con	P	con
+pan	Scms	pan
+migado	V0p0ms	migar
+.	Q.	.
+
+agora	Wn	agora
+é	Vpi30s	ser
+desnatado	A0ms	desnatado
+e mais	Cc	e mais
+en	P	en
+pó	Scms	pó
+pero	Cs	pero
+non	Wn	non
+quero	Vpi10s	querer
+crer	V0f000	crer
+que	Cs	que
+sexa	Vps30s	ser
+un	Dims	un
+signo	Scms	signo
+de	P	de
+os	Ddmp	o
+tempos	Scmp	tempo
+:	Q:	:
+
+é	Vpi30s	ser
+só	Wn	só
+contención	Scfs	contención
+de	P	de
+enfermo	Scms	enfermo
+.	Q.	.
+
+perdín	Vei10s	perder
+algo	Inns	algo
+de	P	de
+saúde	Scfs	saúde
+e	Cc	e
+,	Q,	,
+sobre	P	sobre
+todo	Inms	todo
+,	Q,	,
+perdín	Vei10s	perder
+unha	Infs	un
+de	P	de
+as	Ddfp	o
+melloras	Scfp	mellora
+conseguidas	V0p0fp	conseguir
+cando	Wr	cando
+abandonei	Vei10s	abandonar
+a	Ddfs	o
+infancia	Scfs	infancia
+:	Q:	:
+un	Dims	un
+almorzo	Scms	almorzo
+con	P	con
+galletas	Scfp	galleta
+.	Q.	.
+
+outro	Idms	outro
+paso	Scms	paso
+atrás	Wm	atrás
+en	P	en
+as	Ddfp	o
+conquistas	Scfp	conquista
+de	P	de
+o	Ddms	o
+proletariado	Scms	proletariado
+.	Q.	.
+
 todos	Idmp	todo
 os	Ddmp	o
 anos	Scmp	ano
@@ -680547,81 +680412,6 @@ por	P	por
 dentro	Wn	dentro
 .	Q.	.
 
-volvo	Vpi10s	volver
-a	P	a
-a	Ddfs	o
-infancia	Scfs	infancia
-.	Q.	.
-
-leite	Scms	leite
-con	P	con
-pan	Scms	pan
-migado	V0p0ms	migar
-.	Q.	.
-
-agora	Wn	agora
-é	Vpi30s	ser
-desnatado	A0ms	desnatado
-e mais	Cc	e mais
-en	P	en
-pó	Scms	pó
-pero	Cs	pero
-non	Wn	non
-quero	Vpi10s	querer
-crer	V0f000	crer
-que	Cs	que
-sexa	Vps30s	ser
-un	Dims	un
-signo	Scms	signo
-de	P	de
-os	Ddmp	o
-tempos	Scmp	tempo
-:	Q:	:
-
-é	Vpi30s	ser
-só	Wn	só
-contención	Scfs	contención
-de	P	de
-enfermo	Scms	enfermo
-.	Q.	.
-
-perdín	Vei10s	perder
-algo	Inns	algo
-de	P	de
-saúde	Scfs	saúde
-e	Cc	e
-,	Q,	,
-sobre	P	sobre
-todo	Inms	todo
-,	Q,	,
-perdín	Vei10s	perder
-unha	Infs	un
-de	P	de
-as	Ddfp	o
-melloras	Scfp	mellora
-conseguidas	V0p0fp	conseguir
-cando	Wr	cando
-abandonei	Vei10s	abandonar
-a	Ddfs	o
-infancia	Scfs	infancia
-:	Q:	:
-un	Dims	un
-almorzo	Scms	almorzo
-con	P	con
-galletas	Scfp	galleta
-.	Q.	.
-
-outro	Idms	outro
-paso	Scms	paso
-atrás	Wm	atrás
-en	P	en
-as	Ddfp	o
-conquistas	Scfp	conquista
-de	P	de
-o	Ddms	o
-proletariado	Scms	proletariado
-.	Q.	.
-
 paso	Vpi10s	pasar
 o	Ddms	o
 tempo	Scms	tempo
@@ -680708,6 +680498,82 @@ anos	Scmp	ano
 sen	P	sen
 encontrar	V0f000	encontrar
 se	Rao3aa	se
+.	Q.	.
+
+non	Wn	non
+somos	Vpi10p	ser
+donos	Scmp	dono
+de	P	de
+o	Ddms	o
+noso	Md1pms	noso
+corpo	Scms	corpo
+.	Q.	.
+
+el	Rtn3ms	el
+forma	Vpi30s	formar
+parte	Scfs	parte
+de	P	de
+a	Ddfs	o
+natureza	Scfs	natureza
+e	Cc	e
+conserva	Vpi30s	conservar
+as	Ddfp	o
+súas	Md3sfp	seu
+normas	Scfp	norma
+.	Q.	.
+
+non	Wn	non
+durmo	Vpi10s	durmir
+ou	Cc	ou
+durmo	Vpi10s	durmir
+con	P	con
+sopor	Scms	sopor
+tenso	A0ms	tenso
+.	Q.	.
+
+chega	Vpi30s	chegar
+o	Ddms	o
+triunfo	Scms	triunfo
+farmacéutico	A0ms	farmacéutico
+e	Cc	e
+meten	Vpi30p	meter
+me	Rad1as	me
+en	P	en
+a	Ddfs	o
+boca	Scfs	boca
+un	Dims	un
+Orfidal	Spms	Orfidal
+.	Q.	.
+
+tampouco	Wn	tampouco
+durmo	Vpi10s	durmir
+pero	Cs	pero
+consigo	Vpi10s	conseguir
+cambiar	V0f000	cambiar
+de	P	de
+realidade	Scfs	realidade
+.	Q.	.
+
+o	Ddms	o
+oso	Scms	oso
+Yogui	Spms	Yogui
+saúda	Vpi30s	saudar
+me	Raa1as	me
+en	P	en
+tecnicolor	Scms	tecnicolor
+con	P	con
+gravata	Scfs	gravata
+e	Cc	e
+con	P	con
+un	Dims	un
+sorriso	Scms	sorriso
+contento	A0ms	contento
+desde	P	desde
+o	Ddms	o
+fondo	Scms	fondo
+de	P	de
+a	Ddfs	o
+cama	Scfs	cama
 .	Q.	.
 
 de	P	de
@@ -680831,82 +680697,6 @@ de	P	de
 enfermo	Scms	enfermo
 ben	Wn	ben
 suado	V0p0ms	suar
-.	Q.	.
-
-non	Wn	non
-somos	Vpi10p	ser
-donos	Scmp	dono
-de	P	de
-o	Ddms	o
-noso	Md1pms	noso
-corpo	Scms	corpo
-.	Q.	.
-
-el	Rtn3ms	el
-forma	Vpi30s	formar
-parte	Scfs	parte
-de	P	de
-a	Ddfs	o
-natureza	Scfs	natureza
-e	Cc	e
-conserva	Vpi30s	conservar
-as	Ddfp	o
-súas	Md3sfp	seu
-normas	Scfp	norma
-.	Q.	.
-
-non	Wn	non
-durmo	Vpi10s	durmir
-ou	Cc	ou
-durmo	Vpi10s	durmir
-con	P	con
-sopor	Scms	sopor
-tenso	A0ms	tenso
-.	Q.	.
-
-chega	Vpi30s	chegar
-o	Ddms	o
-triunfo	Scms	triunfo
-farmacéutico	A0ms	farmacéutico
-e	Cc	e
-meten	Vpi30p	meter
-me	Rad1as	me
-en	P	en
-a	Ddfs	o
-boca	Scfs	boca
-un	Dims	un
-Orfidal	Spms	Orfidal
-.	Q.	.
-
-tampouco	Wn	tampouco
-durmo	Vpi10s	durmir
-pero	Cs	pero
-consigo	Vpi10s	conseguir
-cambiar	V0f000	cambiar
-de	P	de
-realidade	Scfs	realidade
-.	Q.	.
-
-o	Ddms	o
-oso	Scms	oso
-Yogui	Spms	Yogui
-saúda	Vpi30s	saudar
-me	Raa1as	me
-en	P	en
-tecnicolor	Scms	tecnicolor
-con	P	con
-gravata	Scfs	gravata
-e	Cc	e
-con	P	con
-un	Dims	un
-sorriso	Scms	sorriso
-contento	A0ms	contento
-desde	P	desde
-o	Ddms	o
-fondo	Scms	fondo
-de	P	de
-a	Ddfs	o
-cama	Scfs	cama
 .	Q.	.
 
 que	Cs	que
@@ -684754,9 +684544,7 @@ meter	V0f000	meter
 medo	Scms	medo
 en	P	en
 o	Ddms	o
-patio	Scms	patio
-de	P	de
-butacas	Scfp	butaca
+patio de butacas	Scms	patio de butacas
 .	Q.	.
 
 el	Rtn3ms	el
@@ -685814,8 +685602,7 @@ o	Ddms	o
 tempo	Scms	tempo
 produce	Vpi30s	producir
 un	Dims	un
-non	Wm	non
-acabar	Scms	acabar
+non acabar	Scms	non acabar
 de	P	de
 fendas	Scfp	fenda
 lonxitudinais	A0fp	lonxitudinal
@@ -686776,14 +686563,14 @@ se	Rao3aa	se
 unha	Ncdfs	un
 palla	Scfs	palla
 ,	Q,	,
-mil	Ncdfp	mil
-pesetas	Scfp	peseta
+dez	Ncdmp	dez
+euros	Scmp	euro
 .	Q.	.
 
 unha	Ncdfs	un
 mamadiña	Scfs	mamada
 ,	Q,	,
-tres mil	Ncnap	tres mil
+vinte	Ncnap	vinte
 .	Q.	.
 
 buscaba	Viia0s	buscar
@@ -686850,14 +686637,14 @@ se	Rao3aa	se
 unha	Ncdfs	un
 palla	Scfs	palla
 ,	Q,	,
-dez	Ncdmp	dez
-euros	Scmp	euro
+mil	Ncdfp	mil
+pesetas	Scfp	peseta
 .	Q.	.
 
 unha	Ncdfs	un
 mamadiña	Scfs	mamada
 ,	Q,	,
-vinte	Ncnap	vinte
+tres mil	Ncnap	tres mil
 .	Q.	.
 
 convenceu	Vei30s	convencer
@@ -688852,7 +688639,7 @@ o	Ddms	o
 branco	Scms	branco
 de	P	de
 o	Ddms	o
-colariño	A0ms	colar
+colariño	Scms	colar
 sinalando	V0x000	sinalar
 que	Cs	que
 ,	Q,	,
@@ -693533,9 +693320,7 @@ a	Ddfs	o
 contaminación	Scfs	contaminación
 que	Tnfs	que
 padecen	Vpi30p	padecer
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 a	Ddfs	o
 lingua	Scfs	lingua
 dominante	A0fs	dominante
@@ -698687,7 +698472,7 @@ de	P	de
 flores	Scfp	flor
 e	Cc	e
 chambras	Scfp	chambra
-bordadas	A0fp	bordado
+bordadas	V0p0fp	bordar
 .	Q.	.
 
 comezaba	Vii30s	comezar
@@ -698809,7 +698594,7 @@ o	Ddms	o
 menú	Scms	menú
 ,	Q,	,
 patacas	Scfp	pataca
-cocidas	A0fp	cocido
+cocidas	V0p0fp	cocer
 con	P	con
 os	Ddmp	o
 ollos	Scmp	ollo
@@ -701380,7 +701165,7 @@ un	Dims	un
 pandeiro	Scms	pandeiro
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 o	Ddms	o
 cacique	Scms	cacique
 ,	Q,	,
@@ -701966,12 +701751,12 @@ positivo	A0ms	positivo
 .	Q.	.
 
 _	Q_	_
-cariño	Y	cariño
+cariño	Scms	cariño
 (	Q(	(
 algunhas	Idfp	algún
 mulleres	Scfp	muller
 din	Vpi30p	dicir
-cariño	Y	cariño
+cariño	Scms	cariño
 efectivamente	Wn	efectivamente
 )	Q)	)
 ,	Q,	,
@@ -702258,7 +702043,7 @@ vas	Vpi20s	ir
 facer	V0f000	facer
 nada	Inns	nada
 ,	Q,	,
-cariño	Y	cariño
+cariño	Scms	cariño
 ?	Q?	?
 
 él	Rtn3ms	él
@@ -705611,8 +705396,7 @@ Ana	Spf0	Ana
 Ana	Spf0	Ana
 .	Q.	.
 
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 nos	Rad1ap	nos
 custara	Vli30s	custar
 esforzo	Scms	esforzo
@@ -713635,8 +713419,7 @@ coidadosamente	Wn	coidadosamente
 as	Ddfp	o
 palabras	Scfp	palabra
 ,	Q,	,
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 nós	Rtn1mp	nós
 non	Wn	non
 nos	Raf1mp	nos
@@ -715170,8 +714953,7 @@ prometeu	Vei30s	prometer
 no	Raa3ms	o
 .	Q.	.
 
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 xa	Wn	xa
 o	Raa3ms	o
 lera	Vlia0s	ler
@@ -717316,7 +717098,7 @@ longo	A0ms	longo
 sostido	A0ms	sostido
 ,	Q,	,
 sonoro	A0ms	sonoro
-ooooooh	Y	ooooooh
+oh	Y	oh
 .	Q.	.
 
 o	Ddms	o
@@ -720586,7 +720368,7 @@ xurando	V0x000	xurar
 .	Q.	.
 
 o	Ddms	o
-chuleta	Scms	chuleta
+chuleta	A0ms	chuleta
 rempuxaba	Vii30s	rempuxar
 diante	Wn	diante
 de	P	de
@@ -725403,9 +725185,7 @@ manifestacións	Scfp	manifestación
 fracas	A0fp	fraco
 de	P	de
 protesta	Scfs	protesta
-por	P	por
-parte	Scfs	parte
-de	P	de
+por parte de	P	por parte de
 algúns	Inmp	algún
 que	Tnmp	que
 agardaban	Vii30p	agardar
@@ -726781,7 +726561,7 @@ que	Tnfs	que
 acompaña	Vpi30s	acompañar
 a	P	a
 o	Ddms	o
-consultado	Scms	consultar
+consultado	Scms	consultado
 ,	Q,	,
 e	Cc	e
 ,	Q,	,
@@ -728349,7 +728129,7 @@ e	Cc	e
 se	Cs	se
 está	Vpi30s	estar
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 tamén	Wn	tamén
 ...	Q...	...
 
@@ -730739,7 +730519,7 @@ ameazado	V0p0ms	ameazar
 
 _	Q_	_
 ¡	Q¡	¡
-Deus	Y	Deus
+Deus	Sp00	Deus
 !	Q!	!
 
 ¡	Q¡	¡
@@ -731055,7 +730835,7 @@ nós	Rtp1ap	nós
 e	Cc	e
 contemplaba	Vii30s	contemplar
 ,	Q,	,
-axeonllado	A0ms	axeonllado
+axeonllado	V0p0ms	axeonllar
 ,	Q,	,
 o	Ddms	o
 corpo	Scms	corpo
@@ -740330,7 +740110,7 @@ man	Scfs	man
 dereita	A0fs	dereito
 os	Ddmp	o
 debuxos	Scmp	debuxo
-labrados	A0mp	labrado
+labrados	W0p0mp	labrar
 en	P	en
 a	Ddfs	o
 madeira	Scfs	madeira
@@ -744391,7 +744171,7 @@ sempre	Wn	sempre
 o	Ddms	o
 repertorio	Scms	repertorio
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 tamén	Wn	tamén
 .	Q.	.
 
@@ -745950,7 +745730,7 @@ lo	Raa3ms	o
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 é	Vpi30s	ser
 boa	A0fs	bo
 verdade	Scfs	verdade
@@ -746012,7 +745792,7 @@ estamos	Vpi10p	estar
 Edreira	Spm0	Edreira
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 es	Vpi20s	ser
 lo	Ddms	o
@@ -746083,7 +745863,7 @@ peso	Scms	peso
 !	Q!	!
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 se	Cs	se
 eses	Enmp	ese
 non	Wn	non
@@ -747480,7 +747260,7 @@ toda	Infs	todo
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 eu	Rtn1as	eu
 vía	Vii10s	ver
 che	Rad2as	che
@@ -747802,7 +747582,7 @@ tempo	Scms	tempo
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 cacho	Scms	cacho
 festa	Scfs	festa
 que	Tnfs	que
@@ -748039,7 +747819,7 @@ pagar	V0f000	pagar
 la	Ddfs	o
 festa	Scfs	festa
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 imos	Vpi10p	ir
 nós	Rtn1ap	nós
 e	Cc	e
@@ -748195,7 +747975,7 @@ lonxe	Wn	lonxe
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 o	Ddms	o
 caso	Scms	caso
 ,	Q,	,
@@ -748662,7 +748442,7 @@ a o dereito	Wn	a o dereito
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 están	Vpi30p	estar
 balorecidas	V0p0fp	balorecer
 .	Q.	.
@@ -749548,7 +749328,7 @@ quen	Gnaa	quen
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 o	Ddms	o
 Rachas	Spms	Rachas
 ,	Q,	,
@@ -751029,7 +750809,7 @@ eso	Enns	ese
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 xa	Wn	xa
 vai	Vpi30s	ir
 para	P	para
@@ -751368,7 +751148,7 @@ de	P	de
 os	Ddmp	o
 Varela	Spmp	Varela
 ,	Q,	,
-pois	Wn	pois
+pois	Cs	pois
 dixemos	Vei10p	dicir
 lle	Rad3ms	lle
 que	Cs	que
@@ -753390,15 +753170,14 @@ seguir	V0f000	seguir
 la	Ddfs	o
 regra	Scfs	regra
 de	P	de
-ouros	Scmp	ouros
+ouros	Scmp	ouro
 ,	Q,	,
-copas	Scfp	copas
+copas	Scfp	copa
 ,	Q,	,
-bastos	Scmp	bastos
+bastos	Scmp	basto
 e	Cc	e
-espadas	Scfp	espadas
+espadas	Scfp	espada
 :	Q:	:
-
 os	Ddmp	o
 dous	Ncdmp	dous
 primeiros	Nonmp	primeiro
@@ -753411,7 +753190,6 @@ en	P	en
 a	Ddfs	o
 farra	Scfs	farra
 ;	Q;	;
-
 paos	Scmp	pao
 e	Cc	e
 aceiro	Scms	aceiro
@@ -753875,7 +753653,7 @@ mais	Cc	mais
 las	Ddfp	o
 vinte	Ncnfp	vinte
 en	P	en
-espadas	Scfp	espadas
+espadas	Scfp	espada
 ,	Q,	,
 e	Cc	e
 as	Ddfp	o
@@ -754251,7 +754029,7 @@ _	Q_	_
 ¡	Q¡	¡
 corenta	Ncnfp	corenta
 en	P	en
-copas	Scfp	copas
+copas	Scfp	copa
 ,	Q,	,
 me	Raf1as	me
 cago	Vpi10s	cagar
@@ -754488,13 +754266,13 @@ eterno	A0ms	eterno
 discorrer	Scms	discorrer
 circular	A0ms	circular
 de	P	de
-ouros	Scmp	ouros
+ouros	Scmp	ouro
 ,	Q,	,
-copas	Scfp	copas
+copas	Scfp	copa
 ,	Q,	,
-bastos	Scmp	bastos
+bastos	Scmp	basto
 e	Cc	e
-espadas	Scfp	espadas
+espadas	Scfp	espada
 .	Q.	.
 
 repartiu	Vei30s	repartir
@@ -754517,7 +754295,7 @@ inmóbil	A0ms	inmóbil
 
 _	Q_	_
 trunfan	Vpi30p	trunfar
-ouros	Scmp	ouros
+ouros	Scmp	ouro
 .	Q.	.
 
 a	P	a
@@ -754656,7 +754434,7 @@ falas	Vpi20s	falar
 ?	Q?	?
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 que	Cs	que
 non	Wn	non
 botaches	Vei20s	botar
@@ -754673,7 +754451,7 @@ tes	Vpi20s	ter
 lo	Ddms	o
 tres	Scms	tres
 de	P	de
-ouros	Scmp	ouros
+ouros	Scmp	ouro
 .	Q.	.
 
 ¿	Q¿	¿
@@ -755849,7 +755627,7 @@ Xuvenal	Spm0	Xuvenal
 _	Q_	_
 .	Q.	.
 
-pois	Wn	pois
+pois	Cs	pois
 non	Wn	non
 ,	Q,	,
 non	Wn	non
@@ -756093,7 +755871,8 @@ alumnos	Scmp	alumno
 que	Gdfs	que
 pena	Scfs	pena
 ,	Q,	,
-por Deus	Y	por Deus
+por	P	por
+Deus	Sp00	Deus
 !	Q!	!
 
 ¿	Q¿	¿
@@ -757441,7 +757220,8 @@ por	P	por
 que	Gnaa	que
 ...	Q...	...
 ,	Q,	,
-dálle	Y	dálle
+dá	Vpi30s	dá
+lle	Rad3as	lle
 con	P	con
 o	Ddms	o
 porqué	Scms	porqué
@@ -757712,8 +757492,7 @@ esa	Edfs	ese
 sala	Scfs	sala
 .	Q.	.
 
-e	Cc	e
-iso que	Cs	iso que
+e iso que	Cs	e iso que
 a	P	a
 Branca	Spf0	Branca
 sempre	Wn	sempre
@@ -760433,7 +760212,9 @@ que	Tnms	que
 eu	Rtn1as	eu
 lle	Rad3fs	lle
 destinara	Vli10s	destinar
-a o principio	Wn	a o principio
+a	P	a
+o	Ddms	o
+principio	Scms	principio
 e	Cc	e
 onde	Wr	onde
 non	Wn	non
@@ -767667,7 +767448,7 @@ queda	V0m20s	quedar
 !	Q!	!
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 veña	Y	veña
 ,	Q,	,
 vamos	V0m10p	ir
@@ -771187,7 +770968,7 @@ morrer	V0f000	morrer
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 nada	Inns	nada
 ,	Q,	,
 fillo	Scms	fillo
@@ -772199,7 +771980,11 @@ marido	Scms	marido
 _	Q_	_
 .	Q.	.
 
-ta, ta, ta	Y	ta, ta, ta
+ta	Y	ta
+,	Q,	,
+ta	Y	ta
+,	Q,	,
+ta	Y	ta
 .	Q.	.
 
 ¡	Q¡	¡
@@ -772559,7 +772344,7 @@ tan	Wm	tanto
 noviño	A0ms	novo
 !	Q!	!
 
-pois	Wn	pois
+pois	Cs	pois
 antes	Wn	antes
 de	P	de
 os	Raa3mp	o
@@ -772700,7 +772485,7 @@ boca	Scfs	boca
 .	Q.	.
 
 _	Q_	_
-pois	Wn	pois
+pois	Cs	pois
 si	Wn	si
 _	Q_	_
 continuou	Vei30s	continuar
@@ -775420,7 +775205,7 @@ unitarias	A0fp	unitario
 que	Tnfp	que
 non	Wn	non
 teñen	Vpi30p	ter
-catalogado	A0ms	catalogado
+catalogado	V0p0ms	catalogar
 un	Dims	un
 profesorado	Scms	profesorado
 especialista	A0ms	especialista
@@ -779976,7 +779761,7 @@ una	Infs	un
 de	P	de
 as	Ddfp	o
 consellas	Scfp	consella
-que	Tnfa	que
+que	Tnfp	que
 repetía	Vii30s	repetir
 Arturo Molina	Spm0	Arturo Molina
 .	Q.	.

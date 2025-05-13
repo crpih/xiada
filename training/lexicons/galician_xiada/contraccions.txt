@@ -299,6 +299,10 @@ dunhos	de	de	de	P	/	unhos	un	un	Inmp
 duns	de	de	de	P	/	uns	un	un	Dimp
 duns	de	de	de	P	/	uns	un	un	Inmp
 dxs	de	de	de	P	/	xs	o	o	Ddxp
+dél	de	de	de	P	/	él	él	el	Rtp3ms
+déla	de	de	de	P	/	éla	él	el	Rtp3fs
+délas	de	de	de	P	/	élas	él	el	Rtp3fp
+déles	de	de	de	P	/	éles	él	el	Rtp3mp
 el-Rei	el	el	el	Ddms	/	Rei	rei	rei	Scms
 el-rei	el	el	el	Ddms	/	rei	rei	rei	Scms
 entrambas	entre	entre	entre	P	/	ambas	ambos	ambos	Idfp
