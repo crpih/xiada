@@ -39,7 +39,7 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     process_acronym_abbreviation_contraction_stuff
-    first_to_lower unless proper_nouns_processor.force_proper_nouns
+    first_to_lower if proper_nouns_processor && !proper_nouns_processor.force_proper_nouns
   end
 
 
