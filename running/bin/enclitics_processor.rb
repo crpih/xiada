@@ -1,61 +1,51 @@
 # -*- coding: utf-8 -*-
-require_relative "../bin/database_wrapper.rb"
-require_relative "../../lib/string_utils.rb"
-require_relative "../bin/enclitics_processor_custom.rb"
+require_relative "../../lib/string_utils"
 
 class EncliticsProcessor
-  def initialize(sentence, dw, enclitics_hash)
-    @sentence = sentence
-    @dw = dw
+  def initialize(tagger_config, enclitics_hash)
+    @tagger_config = tagger_config
     @enclitics_hash = enclitics_hash
-    xiada_profile = ENV["XIADA_PROFILE"]
-    @enclitics_processor_custom = EncliticsProcessorCustom.new(@sentence, @dw, @enclitics_hash)
-    case xiada_profile
-    when "galician_xiada"
-      @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianXiada)
-    when "galician_eslora"
-      @enclitics_processor_custom.extend(EncliticsProcessorCustomGalicianEslora)
-    end
+    @rules = @tagger_config.enclitics_rules
   end
 
-  def process
-    token = @sentence.first_token.next
-    process_recursive(token, 1, false)
+  def process(sentence)
+    token = sentence.first_token.next
+    process_recursive(sentence, token, 1, false)
   end
 
   private
 
-  def process_recursive(token, way, inside_alternative) # modified ???
+  def process_recursive(sentence, token, way, inside_alternative) # modified ???
     #puts "processing token:#{token.text}, way:#{way}, type:#{token.token_type} tagged:#{token.tagged?}"
     if token.token_type != :end_sentence
       if token.token_type == :standard
         if !token.tagged?
-          try_enclitics(token, inside_alternative)
+          try_enclitics(sentence, token, inside_alternative)
         end
-        process_recursive(token.next, way, inside_alternative)
+        process_recursive(sentence, token.next, way, inside_alternative)
       elsif token.token_type == :begin_alternative
         # Follow all ways recursively
         way = 1
         token.nexts.keys.each do |token_aux|
-          process_recursive(token_aux, way, true)
+          process_recursive(sentence, token_aux, way, true)
           way = way + 1
         end
       elsif token.token_type == :end_alternative
         # Join alternatives an follow only one way
-        process_recursive(token.next, 1, false) if way == 1
+        process_recursive(sentence, token.next, 1, false) if way == 1
       elsif token.token_type == :begin_sentence
-        process_recursive(token.next, 1, inside_alternative)
+        process_recursive(sentence, token.next, 1, inside_alternative)
       end
     end
   end
 
-  def try_enclitics(token, inside_alternative)
+  def try_enclitics(sentence, token, inside_alternative)
     # STDERR.puts "try_enclitics(#{token.text})"
     some_valid = false
     prev_token = token.prev
     next_token = token.next
-    begin_alternative_token = Token.new(@sentence.text, nil, :begin_alternative, token.from, token.to)
-    end_alternative_token = Token.new(@sentence.text, nil, :end_alternative, token.from, token.to)
+    begin_alternative_token = Token.new(sentence.text, nil, :begin_alternative, token.from, token.to)
+    end_alternative_token = Token.new(sentence.text, nil, :end_alternative, token.from, token.to)
     begin_alternative_token.qualifying_info = token.qualifying_info.clone
     end_alternative_token.qualifying_info = token.qualifying_info.clone
     end_alternative_token.nexts_ignored = token.nexts_ignored.clone
@@ -64,10 +54,10 @@ class EncliticsProcessor
     (0..max_index).each do |index|
       left = word[0, index + 1]
       right = word[index + 1, max_index - index + 1]
-      left_tags = @dw.get_enclitic_verbs_roots_tags(left)
+      left_tags = @tagger_config.dw.get_enclitic_verbs_roots_tags(sentence.document_config, left)
       left_tags_string = left_tags.join(" ")
-      unless left_tags.empty? or !@dw.enclitic_combination_exists?(right)
-        result = validate_decomposition(left, left_tags_string, right)
+      unless left_tags.empty? or !@tagger_config.dw.enclitic_combination_exists?(right)
+        result = @rules.validate_decomposition(left, left_tags_string, right) { |e| syllable_count(e) }
         valid = result[0]
         verb_part = result[1]
         enclitic_part = result[2]
@@ -84,11 +74,11 @@ class EncliticsProcessor
           recovery = true
           relevant_verb_part_tokens = nil
           if recovery
-            relevant_verb_part_tokens = @enclitics_processor_custom.restore_source_form(verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
+            relevant_verb_part_tokens = restore_source_form(sentence, verb_part, verb_tags, enclitic_part, syllable_count(enclitic_part), begin_alternative_token, end_alternative_token, token.from, token.to, token)
           end
 
           # enclitic_part processing
-          enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, token.from, token.to, token)
+          enclitics_processing(sentence, verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, token.from, token.to, token)
           #if inside_alternative
           #  token_aux = next_token
           #  prev_tokens = end_alternative_token.prevs.keys
@@ -96,7 +86,7 @@ class EncliticsProcessor
           #    new_prev_tokens = Array.new
           #    prev_tokens.each do |prev_token|
           #      prev_token.reset_nexts
-          #      new_token = Token.new(@sentence.text, token_aux.text, token_aux.token_type, token_aux.from, token_aux.to)
+          #      new_token = Token.new(sentence.text, token_aux.text, token_aux.token_type, token_aux.from, token_aux.to)
           #      new_token.qualifying_info = token.qualifying_info.clone
           #      prev_token.add_next(new_token)
           #      new_token.add_prev(prev_token)
@@ -123,7 +113,7 @@ class EncliticsProcessor
 
   # Function which process the enclitic part and create necessary
   # tokens linked to de verb_part(s) one(s)
-  def enclitics_processing(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
+  def enclitics_processing(sentence, verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     #STDERR.puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
     end_alternative_token.reset_prevs
     relevant_verb_part_tokens.each do |relevant_verb_part_token|
@@ -135,7 +125,7 @@ class EncliticsProcessor
 
       new_token = nil
       enclitics_forms.each_index do |index|
-        result = filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
+        result = @rules.filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
         enclitic = result[0]
         tags = result[1]
         lemmas = result[2]
@@ -144,12 +134,12 @@ class EncliticsProcessor
         #STDERR.puts "enclitic: #{enclitic}"
         #STDERR.puts "tags: #{tags}"
         #STDERR.puts "lemmas: #{lemmas}"
-        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
+        infos = @tagger_config.dw.get_emissions_info(enclitic, tags.split(" "))
 
         # FIXME: Ugly hack to remove hyphen in enclitics for galician_xiada
         # These cases must be searched with the hyphen, but the token text must not have the hyphen.
-        enclitic.delete_prefix!('-')  if %w[-lo -la -los -las].include?(enclitic) && ENV["XIADA_PROFILE"] == "galician_xiada"
-        new_token = Token.new(@sentence.text, enclitic, :standard, from, to)
+        enclitic.delete_prefix!('-')  if %w[-lo -la -los -las].include?(enclitic) && @tagger_config.profile == "galician_xiada"
+        new_token = Token.new(sentence.text, enclitic, :standard, from, to)
         new_token.qualifying_info = token.qualifying_info.clone
         #STDERR.puts "getting info, enclitic:#{enclitic}, tags:#{tags}"
         infos.each do |info|
@@ -172,10 +162,11 @@ class EncliticsProcessor
 
   # Function which process the enclitic part and create necessary
   # tokens linked to de verb_part(s) one(s)
-  def enclitics_processing_orig(verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
+  def enclitics_processing_orig(sentence, verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     # puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
     #prev_tokens = end_alternative_token.prevs.keys
     prev_tokens = relevant_verb_part_tokens
+    enclitic_elements = split_elements(enclitic_part)
     #puts "enclitic_elements"
     #enclitic_elements.each do |element|
     #  puts "  --#{element}--"
@@ -200,7 +191,7 @@ class EncliticsProcessor
 
     new_token = nil
     enclitics_forms.each_index do |index|
-      result = filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
+      result = @rules.filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
       enclitic = result[0]
       tags = result[1]
       lemmas = result[2]
@@ -210,10 +201,10 @@ class EncliticsProcessor
         #puts "enclitic: #{enclitic}"
         #puts "tags: #{tags}"
         #puts "lemmas: #{lemmas}"
-        new_token = Token.new(@sentence.text, enclitic, :standard, from, to)
+        new_token = Token.new(sentence.text, enclitic, :standard, from, to)
         new_token.qualifying_info = token.qualifying_info.clone
         #puts "getting info, enclitic:#{enclitic}, tags:#{tags}"
-        infos = @dw.get_emissions_info(enclitic, tags.split(" "))
+        infos = @tagger_config.dw.get_emissions_info(enclitic, tags.split(" "))
         infos.each do |info|
           tag_value = info[0]
           lemma = info[1]
@@ -239,22 +230,6 @@ class EncliticsProcessor
     end
   end
 
-  # Function which determines if a verb_part/enclitic_part decomposition is valid
-  # It returns an array of four elements:
-  # 1) Boolean which indicates if it is a valid verb_part/enclitic_part decomposition
-  # 2) verb_part
-  # 3) enclitic_part
-  # 4) A string with space separated valid verb tags
-  def validate_decomposition(verb_part, verb_tags, enclitic_part) # to be replaced by compiler
-  end
-
-  # Function which filters the tags of an enclitic within a decomposition sequence
-  # It return an array of three elements:
-  # 1) The form of the enclitic, which could be changed.
-  # 2) A string with space separated valid enclitic tags
-  # 3) A string with space separated corresponding lemmas
-  def filter_tags_enclitic(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index) # to be replaced by compiler
-  end
 
   # Function which splits the enclitic into a sequence of valid parts
   def split_elements(enclitic_part)
@@ -313,7 +288,7 @@ class EncliticsProcessor
     # STDERR.puts "insert_enclitic_alternatives: token:#{token.text}, inside_alternative: #{inside_alternative}"
     preserve_source_token = false
 
-    results = @dw.get_emissions_info(token.text, nil)
+    results = @tagger_config.dw.get_emissions_info(token.text, nil)
     preserve_source_token = true unless results.empty?
     if begin_alternative_token.nexts.size == 1 and !preserve_source_token
       insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
@@ -381,6 +356,8 @@ class EncliticsProcessor
     end
   end
 
+  private
+
   def add_all_ways(begin_alternative_token, start_point_token, finish_point_token)
     begin_alternative_token.nexts.keys.each do |token|
       add_way(token, start_point_token, finish_point_token)
@@ -407,7 +384,7 @@ class EncliticsProcessor
   ##############################################################################
 
   def syllable_count(enclitic_part)
-    count = @dw.get_enclitics_number(enclitic_part)
+    count = @tagger_config.dw.get_enclitics_number(enclitic_part)
     return count
   end
 
@@ -423,5 +400,93 @@ class EncliticsProcessor
     if string.start_with?("#{character}")
       return string[1, string.length - 1]
     end
+  end
+
+  # This method was previously in EncliticsProcessorCustom
+  def restore_source_form(sentence, verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
+    #STDERR.puts "verb_part: #{verb_part}"
+    final_recovery_words = Hash.new
+    relevant_tokens = Array.new
+    infos = @tagger_config.dw.get_enclitic_verb_roots_info(sentence.document_config, verb_part, verb_tags.split(" "))
+    infos.each do |_root, tag_value, lemma, hiperlemma, extra|
+      results = @tagger_config.dw.get_recovery_info(sentence.document_config, verb_part, tag_value, lemma, true)
+      if results.empty?
+        results = @tagger_config.dw.get_recovery_info(sentence.document_config, verb_part, tag_value, lemma, false)
+      end
+      if results.empty?
+        STDERR.puts "WARNING: Reverse info for tag:#{tag_value} and lemma:#{lemma} not found. Searching for verb_part: #{verb_part}"
+      end
+      max_p_score = 0
+      final_recovery_word = String.new(verb_part)
+      final_recovery_tag = String.new(tag_value)
+      final_recovery_lemma = String.new(lemma)
+      final_recovery_hiperlemma = String.new(hiperlemma)
+      final_recovery_log_b = -100 # To be changed ??? TODO
+      # STDERR.puts "results.size: #{results.size}"
+      results.each do |result|
+        recovery_word = result[0]
+        recovery_tag = result[1]
+        recovery_lemma = result[2]
+        recovery_hiperlemma = result[3]
+        recovery_log_b = Float(result[4])
+        # If there are several entries for the same tag and lemma, we
+        # choose the word with the greater proximity score.
+        new_recovery_word = @rules.rule_matching(verb_part, tag_value, enclitic_part, enclitic_syllables_length, extra, recovery_word)
+        unless recovery_word == new_recovery_word
+          final_recovery_word = new_recovery_word
+          final_recovery_tag = recovery_tag
+          final_recovery_lemma = recovery_lemma
+          final_recovery_hiperlemma = recovery_hiperlemma
+          final_recovery_log_b = recovery_log_b
+          break
+        else
+          p_score = proximity_score(recovery_word, verb_part)
+          # STDERR.puts "recovery_word:#{recovery_word}"
+          # STDERR.puts "p_score:#{p_score}"
+          if p_score >= max_p_score
+            max_p_score = p_score
+            final_recovery_word = recovery_word
+            final_recovery_tag = recovery_tag
+            final_recovery_lemma = recovery_lemma
+            final_recovery_hiperlemma = recovery_hiperlemma
+            final_recovery_log_b = recovery_log_b
+          end
+        end
+      end
+      if final_recovery_words[final_recovery_word] == nil
+        new_token = Token.new(sentence.text, final_recovery_word, :standard, token_from, token_to)
+        new_token.qualifying_info = token.qualifying_info.clone
+        final_recovery_words[final_recovery_word] = new_token
+        #begin_alternative_token.add_next(new_token)
+        #new_token.add_prev(begin_alternative_token)
+        #new_token.add_next(end_alternative_token)
+        #end_alternative_token.add_prev(new_token)
+        relevant_tokens << new_token
+      end
+      final_recovery_words[final_recovery_word].add_tag_lemma_emission(final_recovery_tag, final_recovery_lemma, final_recovery_hiperlemma, final_recovery_log_b, false)
+    end
+    return relevant_tokens
+  end
+
+  def proximity_score(recovery_word, verb_part)
+    recovery_word_wt = StringUtils.without_tilde(recovery_word)
+    verb_part_wt = StringUtils.without_tilde(verb_part)
+    score = 0
+    (0..recovery_word.length - 1).each do |index|
+      recovery_word_letter = recovery_word[index]
+      recovery_word_letter_wt = recovery_word[index]
+      if index < verb_part.length
+        verb_part_letter = verb_part[index]
+        verb_part_letter_wt = verb_part_wt[index]
+        if recovery_word_letter == verb_part_letter
+          score = score + 2
+        elsif recovery_word_letter_wt == verb_part_letter_wt
+          score = score + 1
+        end
+      else
+        score = score - 1
+      end
+    end
+    return score
   end
 end

@@ -3,31 +3,22 @@ require "rubygems"
 require "dbi"
 require "sqlite3"
 require_relative "../../lib/sql_utils.rb"
-require_relative "../galician_xiada/lemmas/lemmatizer_corga.rb"
-require_relative "../spanish_eslora/lemmatizer"
-require_relative "../galician_eslora/lemmatizer"
-
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
   PROPER_NOUNS_MAX_NUM_COMPONENTS = 15
 
-  def initialize(db_name)
-    raise "Database not found: #{db_name}" unless File.exist?(db_name)
+  def initialize(tagger_config)
+    database_file = "training/databases/#{tagger_config.profile}/training_#{tagger_config.database}.db"
+    raise "Database not found: #{database_file}" unless File.exist?(database_file)
 
-    @db = SQLite3::Database.open(db_name)
-    @lemmatizer =
-      case ENV["XIADA_PROFILE"]
-      when "spanish_eslora" then LemmatizerSpanishEslora.new(self)
-      when "galician_eslora" then LemmatizerMultilingualEslora.new(self)
-      when "galician_xiada", "galician_palmed" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
-      when "galician_xiada_oral" then Lemmas::LemmatizerCorga.new(self, seseo: !ENV['XIADA_SESEO'].nil?)
-      end
+    @tagger_config = tagger_config
+    @db = SQLite3::Database.open(database_file)
   end
 
   def get_emissions_info(word, tags)
     # STDERR.puts "word:#{word}, tags:#{tags}"
     query_string = "select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}'"
-    query_string += " AND from_lexicon=1" if ENV['XIADA_ONLY_LEXICON'] == 'true' && word != '###'
+    query_string += " AND from_lexicon=1" if @tagger_config.only_lexicon && word != '###'
     if (tags == nil) or (tags.empty?)
       @db.execute(query_string)
     else
@@ -55,12 +46,12 @@ class DatabaseWrapper
     return get_emissions_info(word, tags)
   end
 
-  def get_tags_lemmas_emissions(word, tags)
+  def get_tags_lemmas_emissions(document_config, word, tags)
     # STDERR.puts "(get_tags_lemmas_emissions) word: #{word} tags:#{tags}"
     max_length = 0
     result = get_emissions_info(word, tags)
     if result.empty?
-      result = @lemmatizer.lemmatize(word, tags)
+      result = @tagger_config.lemmatizer.lemmatize(document_config, word, tags)
       # result = get_emissions_info(word, tags)
       # STDERR.puts "result.empty: next result: #{}"
       if result.empty?
@@ -410,16 +401,16 @@ class DatabaseWrapper
     return result
   end
 
-  def get_enclitic_verbs_roots_info(left_candidate)
-    get_enclitic_verb_roots_info(left_candidate, nil)
+  def get_enclitic_verbs_roots_info(document_config, left_candidate)
+    get_enclitic_verb_roots_info(document_config, left_candidate, nil)
   end
 
-  def get_enclitic_verbs_roots_tags(left_candidate)
-    get_enclitic_verbs_roots_info(left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag }
+  def get_enclitic_verbs_roots_tags(document_config, left_candidate)
+    get_enclitic_verbs_roots_info(document_config, left_candidate).map { |_root, tag, _lemma, _hiperlemma| tag }
   end
 
-  def get_enclitic_verb_roots_info(root, tags)
-    variants = @lemmatizer.lemmatize_verb_with_enclitics(root)
+  def get_enclitic_verb_roots_info(document_config, root, tags)
+    variants = @tagger_config.lemmatizer.lemmatize_verb_with_enclitics(document_config, root)
     if tags.nil? || tags.empty?
       variants.each_with_object([]) do |variant, result|
         query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
@@ -433,7 +424,7 @@ class DatabaseWrapper
     end
   end
 
-  def get_recovery_info(verb_part, tag, lemma, from_lexicon)
+  def get_recovery_info(document_config, verb_part, tag, lemma, from_lexicon)
     # STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
     from_lexicon_integer = 0
     from_lexicon_integer = 1 if from_lexicon
@@ -442,7 +433,7 @@ class DatabaseWrapper
       if verb_part =~ /gh/ && row[0] !~ /gh/
         row[0].gsub!("g", "gh")
       end
-      unless ENV['XIADA_SESEO'].nil?
+      unless document_config.seseo
         s_positions = verb_part.each_char.with_index.filter_map { |c, i| i if c == 's' }
         s_positions.each do |index|
           row[0][index] = 's' if row[0][index] == 'c'

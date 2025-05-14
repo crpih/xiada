@@ -1,35 +1,38 @@
 # -*- coding: utf-8 -*-
 require 'active_support/core_ext/object/blank'
-require_relative "token.rb"
-require_relative "contractions_processor.rb"
-require_relative "idioms_processor.rb"
-require_relative "numerals_processor.rb"
-require_relative "../#{ENV["XIADA_PROFILE"]}/enclitics_processor.rb"
-require_relative "../../lib/string_utils.rb"
+require_relative "token"
+require_relative "contractions_processor"
+require_relative "idioms_processor"
+require_relative "numerals_processor"
+require_relative "enclitics_processor"
+require_relative "../../lib/string_utils"
 
 class Sentence
   include Enumerable
 
+  attr_reader :tagger_config, :document_config
   attr_reader :first_token, :last_token, :text, :original_first_lower
 
-  def initialize(dw, acronyms, abbreviations, enclitics, proper_nouns_processor, text)
+  def initialize(tagger_config:, document_config:, acronyms:, abbreviations:, enclitics:, text:)
+    @tagger_config = tagger_config
+    @document_config = document_config
+
     Token.reset_class
     @first_token = nil
     @last_token = nil
     @text = text
-    @dw = dw
     @acronyms = acronyms
     @abbreviations = abbreviations
     @enclitics = enclitics
-    @peripheric_regexp = @dw.get_peripheric_regexp
+    @peripheric_regexp = @tagger_config.dw.get_peripheric_regexp
     @original_first_lower = false # Used by ProperNounsProcessor
     @first_token = Token.new(self.text, nil, :begin_sentence, -1, -1)
     @last_token = Token.new(self.text, nil, :end_sentence, -1, -1)
     @current_last_token = @first_token
     @current_text_offset = 0
 
-    if proper_nouns_processor
-      proper_nouns_processor.call(text).each do |segment|
+    if @tagger_config.proper_nouns_processor
+      @tagger_config.proper_nouns_processor.call(text).each do |segment|
         segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
       end
     else
@@ -39,7 +42,7 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     process_acronym_abbreviation_contraction_stuff
-    first_to_lower if proper_nouns_processor && !proper_nouns_processor.force_proper_nouns
+    first_to_lower if @tagger_config.proper_nouns_processor && !@tagger_config.proper_nouns_processor.force_proper_nouns
   end
 
 
@@ -228,7 +231,7 @@ class Sentence
       if last_token.text =~ /\.$/ and (@acronyms[last_token.text] != nil or @abbreviations[last_token.text] != nil)
         # STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
         last_token_without_end_point = last_token.text.gsub(/\.$/, "")
-        result = @dw.get_emissions_info(last_token_without_end_point, nil)
+        result = @tagger_config.dw.get_emissions_info(last_token_without_end_point, nil)
         lexicon_not_abbreviation = false
         result.each do |result_entry|
           tag = result_entry[0]
@@ -239,7 +242,7 @@ class Sentence
             break
           end
         end
-        result2 = @dw.get_contractions(last_token_without_end_point)
+        result2 = @tagger_config.dw.get_contractions(last_token_without_end_point)
         contraction = !result2.empty?
         # STDERR.puts "lexicon_not_abbreviation: #{lexicon_not_abbreviation}"
         # STDERR.puts "last_token_without_end_point:#{last_token_without_end_point}"
@@ -331,23 +334,23 @@ class Sentence
   end
 
   def contractions_processing
-    processor = ContractionsProcessor.new(self, @dw)
+    processor = ContractionsProcessor.new(self, @tagger_config.dw)
     processor.process
   end
 
   def idioms_processing
-    processor = IdiomsProcessor.new(self, @dw)
+    processor = IdiomsProcessor.new(self, @tagger_config.dw)
     processor.process
   end
 
   def numerals_processing
-    processor = NumeralsProcessor.new(self, @dw)
+    processor = NumeralsProcessor.new(self, @tagger_config.dw)
     processor.process
   end
 
   def enclitics_processing
-    processor = EncliticsProcessor.new(self, @dw, @enclitics)
-    processor.process
+    processor = EncliticsProcessor.new(@tagger_config, @enclitics)
+    processor.process(self)
   end
 
   def get_text(from, to)

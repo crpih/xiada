@@ -18,6 +18,8 @@ end
 
 set :default_content_type, :json
 
+# TODO: Read config from headers
+
 TAGGER = XiadaTagger.new
 
 post '/tagger/alternatives' do

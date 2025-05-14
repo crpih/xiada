@@ -3,24 +3,24 @@
     [
       "W",
       "solamente",
-      null,
-      -0.3622205621557423
+      "",
+      -7.742510522873774
     ]
   ],
   "dócilmente": [
     [
       "W",
       "dócilmente",
-      null,
-      -0.3622205621557423
+      "docilmente",
+      -0.36256308656395486
     ]
   ],
   "amabelmente": [
     [
       "W",
       "amabelmente",
-      null,
-      -0.3622205621557423
+      "amablemente",
+      -9.128804883993665
     ]
   ],
   "amabilísimo": [
@@ -29,6 +29,18 @@
       "amable",
       "amable",
       -9.645687854566217
+    ],
+    [
+      "AES",
+      "amable",
+      "amable",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "amable",
+      "amable",
+      -9.670230532062421
     ],
     [
       "AMS",
@@ -59,13 +71,43 @@
   ],
   "amabilísima": [
     [
+      "AAS",
+      "amable",
+      "amable",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "amable",
+      "amable",
+      -8.62622695244036
+    ],
+    [
       "AFS",
       "amable",
       "amable",
       -9.670230532062421
+    ],
+    [
+      "AMS",
+      "amable",
+      "amable",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "amable",
+      "amable",
+      -9.647627092407303
     ]
   ],
   "amabilísimas": [
+    [
+      "AEP",
+      "amable",
+      "amable",
+      -9.060447282401565
+    ],
     [
       "AFP",
       "amable",
@@ -225,6 +267,18 @@
       -9.645687854566217
     ],
     [
+      "AES",
+      "virtual",
+      "virtual",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "virtual",
+      "virtual",
+      -9.670230532062421
+    ],
+    [
       "AMS",
       "virtual",
       "virtual",
@@ -253,13 +307,43 @@
   ],
   "virtualísima": [
     [
+      "AAS",
+      "virtual",
+      "virtual",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "virtual",
+      "virtual",
+      -8.62622695244036
+    ],
+    [
       "AFS",
       "virtual",
       "virtual",
       -9.670230532062421
+    ],
+    [
+      "AMS",
+      "virtual",
+      "virtual",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "virtual",
+      "virtual",
+      -9.647627092407303
     ]
   ],
   "virtualísimas": [
+    [
+      "AEP",
+      "virtual",
+      "virtual",
+      -9.060447282401565
+    ],
     [
       "AFP",
       "virtual",
@@ -273,6 +357,24 @@
       "fácil",
       "fácil",
       -9.645687854566217
+    ],
+    [
+      "AES",
+      "fácil",
+      "fácil",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "fácil",
+      "fácil",
+      -9.670230532062421
+    ],
+    [
+      "AIS",
+      "fácil",
+      "",
+      -3.828641396489095
     ],
     [
       "AMS",
@@ -303,10 +405,40 @@
   ],
   "facilísima": [
     [
+      "AAS",
+      "fácil",
+      "fácil",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "fácil",
+      "fácil",
+      -8.62622695244036
+    ],
+    [
       "AFS",
       "fácil",
       "fácil",
       -9.670230532062421
+    ],
+    [
+      "AIS",
+      "fácil",
+      "",
+      -3.828641396489095
+    ],
+    [
+      "AMS",
+      "fácil",
+      "fácil",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "fácil",
+      "fácil",
+      -7.70171694335199
     ]
   ],
   "facilísimas": [
@@ -329,6 +461,42 @@
       "cool",
       "cool",
       -9.645687854566217
+    ],
+    [
+      "AEL",
+      "cool",
+      "cool",
+      -3.970291913552122
+    ],
+    [
+      "AEP",
+      "cool",
+      "cool",
+      -9.060447282401565
+    ],
+    [
+      "AES",
+      "cool",
+      "cool",
+      -8.62622695244036
+    ],
+    [
+      "AFL",
+      "cool",
+      "cool",
+      -3.970291913552122
+    ],
+    [
+      "AFP",
+      "cool",
+      "cool",
+      -9.834351813701266
+    ],
+    [
+      "AFS",
+      "cool",
+      "cool",
+      -9.670230532062421
     ],
     [
       "AMS",
@@ -401,6 +569,30 @@
   ],
   "coolísima": [
     [
+      "AAS",
+      "cool",
+      "cool",
+      -9.645687854566217
+    ],
+    [
+      "AEL",
+      "cool",
+      "cool",
+      -3.970291913552122
+    ],
+    [
+      "AEP",
+      "cool",
+      "cool",
+      -9.060447282401565
+    ],
+    [
+      "AES",
+      "cool",
+      "cool",
+      -8.62622695244036
+    ],
+    [
       "AFL",
       "cool",
       "cool",
@@ -417,6 +609,18 @@
       "cool",
       "cool",
       -9.670230532062421
+    ],
+    [
+      "AMS",
+      "cool",
+      "cool",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "cool",
+      "cool",
+      -9.647627092407303
     ]
   ],
   "coolísimas": [
@@ -483,6 +687,18 @@
       -9.645687854566217
     ],
     [
+      "AES",
+      "feroz",
+      "feroz",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "feroz",
+      "feroz",
+      -9.670230532062421
+    ],
+    [
       "AMS",
       "feroz",
       "feroz",
@@ -529,18 +745,66 @@
   ],
   "ferocísima": [
     [
+      "AAS",
+      "feroz",
+      "feroz",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "feroz",
+      "feroz",
+      -8.62622695244036
+    ],
+    [
       "AFS",
       "feroz",
       "feroz",
       -9.670230532062421
+    ],
+    [
+      "AMS",
+      "feroz",
+      "feroz",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "feroz",
+      "feroz",
+      -9.647627092407303
     ]
   ],
   "ferocísimas": [
     [
-      "AFP",
+      "AAS",
       "feroz",
       "feroz",
-      -9.834351813701266
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "feroz",
+      "feroz",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "feroz",
+      "feroz",
+      -9.670230532062421
+    ],
+    [
+      "AMS",
+      "feroz",
+      "feroz",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "feroz",
+      "feroz",
+      -9.647627092407303
     ]
   ],
   "docísimo": [
@@ -549,6 +813,18 @@
       "doce",
       "doce",
       -9.645687854566217
+    ],
+    [
+      "AES",
+      "doce",
+      "doce",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "doce",
+      "doce",
+      -9.670230532062421
     ],
     [
       "AMS",
@@ -561,6 +837,54 @@
       "doce",
       "doce",
       -9.647627092407303
+    ],
+    [
+      "DCEP",
+      "doce",
+      "doce",
+      -3.828641396489095
+    ],
+    [
+      "DCFP",
+      "doce",
+      "doce",
+      -5.784594117392615
+    ],
+    [
+      "DCMP",
+      "doce",
+      "doce",
+      -5.491001710377538
+    ],
+    [
+      "NCMS",
+      "doce",
+      "doce",
+      -9.28818065609452
+    ],
+    [
+      "PCEP",
+      "doce",
+      "doce",
+      -4.290459441148391
+    ],
+    [
+      "PCFP",
+      "doce",
+      "doce",
+      -6.0606796161294545
+    ],
+    [
+      "PCMP",
+      "doce",
+      "doce",
+      -6.486160788944089
+    ],
+    [
+      "PCMS",
+      "doce",
+      "doce",
+      -6.481577129276431
     ]
   ],
   "docísimos": [
@@ -585,18 +909,102 @@
   ],
   "docísima": [
     [
+      "AAS",
+      "doce",
+      "doce",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "doce",
+      "doce",
+      -8.62622695244036
+    ],
+    [
       "AFS",
       "doce",
       "doce",
       -9.670230532062421
+    ],
+    [
+      "AMS",
+      "doce",
+      "doce",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "doce",
+      "doce",
+      -9.647627092407303
+    ],
+    [
+      "DCEP",
+      "doce",
+      "doce",
+      -3.828641396489095
+    ],
+    [
+      "DCFP",
+      "doce",
+      "doce",
+      -5.784594117392615
+    ],
+    [
+      "DCMP",
+      "doce",
+      "doce",
+      -5.491001710377538
+    ],
+    [
+      "NCMS",
+      "doce",
+      "doce",
+      -9.28818065609452
+    ],
+    [
+      "PCEP",
+      "doce",
+      "doce",
+      -4.290459441148391
+    ],
+    [
+      "PCFP",
+      "doce",
+      "doce",
+      -6.0606796161294545
+    ],
+    [
+      "PCMP",
+      "doce",
+      "doce",
+      -6.486160788944089
+    ],
+    [
+      "PCMS",
+      "doce",
+      "doce",
+      -6.481577129276431
     ]
   ],
   "docísimas": [
+    [
+      "AEP",
+      "doce",
+      "doce",
+      -9.060447282401565
+    ],
     [
       "AFP",
       "doce",
       "doce",
       -9.834351813701266
+    ],
+    [
+      "NCMP",
+      "doce",
+      "doce",
+      -10.041291056683322
     ]
   ],
   "preparadísimo": [
@@ -617,6 +1025,32 @@
       "preparado",
       "preparado",
       -9.647627092407303
+    ],
+    [
+      "VPAS",
+      "preparar",
+      "preparar",
+      -8.918917979908679
+    ],
+    [
+      "VPMS",
+      "preparar",
+      "preparar",
+      -7.841361888621524
+    ],
+    [
+      "VPNS",
+      "preparar",
+      "preparar",
+      -8.917310693197807
+    ]
+  ],
+  "preparadísimos": [
+    [
+      "VPMP",
+      "preparar",
+      "preparar",
+      -8.920121751872404
     ]
   ],
   "preparadísima": [
@@ -625,6 +1059,12 @@
       "preparado",
       "preparado",
       -9.670230532062421
+    ],
+    [
+      "VPFS",
+      "preparar",
+      "preparar",
+      -8.9237243977064
     ]
   ],
   "preparadísimas": [
@@ -633,6 +1073,28 @@
       "preparado",
       "preparado",
       -9.834351813701266
+    ],
+    [
+      "VPFP",
+      "preparar",
+      "preparar",
+      -8.91811465947453
+    ]
+  ],
+  "convencidísimos": [
+    [
+      "VPMP",
+      "convencer",
+      "convencer",
+      -8.920121751872404
+    ]
+  ],
+  "extendidísima": [
+    [
+      "VPFS",
+      "extender",
+      "estender",
+      -8.9237243977064
     ]
   ],
   "listísimo": [
@@ -653,6 +1115,12 @@
       "listo",
       "listo",
       -9.647627092407303
+    ],
+    [
+      "VIP1S",
+      "listar",
+      "listar",
+      -8.997889450200717
     ]
   ],
   "listísima": [
@@ -661,6 +1129,24 @@
       "listo",
       "listo",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "lista",
+      "lista",
+      -9.966744002171144
+    ],
+    [
+      "VIP3S",
+      "listar",
+      "listar",
+      -9.091444217032327
+    ],
+    [
+      "VMP2S",
+      "listar",
+      "listar",
+      -8.902727664035522
     ]
   ],
   "listísimas": [
@@ -669,6 +1155,18 @@
       "listo",
       "listo",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "lista",
+      "lista",
+      -10.033330902684877
+    ],
+    [
+      "VIP2S",
+      "listar",
+      "listar",
+      -8.9758830607617
     ]
   ],
   "gravísimo": [
@@ -676,7 +1174,7 @@
       "AAS",
       "grave",
       "grave",
-      -8.547075565898107
+      -9.645687854566217
     ],
     [
       "AMS",
@@ -696,7 +1194,7 @@
       "AFS",
       "grave",
       "grave",
-      -8.57161824339431
+      -9.670230532062421
     ]
   ],
   "gravísimas": [
@@ -709,10 +1207,24 @@
   ],
   "auto-axudas": [
     [
+      "NCFP",
+      "auto-axuda",
+      "autoaxuda",
+      -10.033330902684877
+    ],
+    [
       "VIP2S",
       "auto-axudar",
       "autoaxudar",
       -8.9758830607617
+    ]
+  ],
+  "auto-organismos": [
+    [
+      "NCMP",
+      "auto-organismo",
+      "autoorganismo",
+      -8.942678768015213
     ]
   ],
   "autoxestión": [
@@ -731,12 +1243,28 @@
       -9.966744002171144
     ]
   ],
+  "autorganismos": [
+    [
+      "NCMP",
+      "autorganismo",
+      "autoorganismo",
+      -8.942678768015213
+    ]
+  ],
+  "autoorganismos": [
+    [
+      "NCMP",
+      "autoorganismo",
+      "autoorganismo",
+      -8.942678768015213
+    ]
+  ],
   "amiguiño": [
     [
       "NCMS",
       "amigo",
       "amigo",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "amiguiños": [
@@ -765,10 +1293,78 @@
   ],
   "enruguiñas": [
     [
-      "VIP2S",
-      "enrugar",
-      "enrugar",
-      -8.9758830607617
+      "NCFP",
+      "enruga",
+      "enruga",
+      -10.033330902684877
+    ]
+  ],
+  "albondiguiñas": [
+    [
+      "NCFP",
+      "albóndiga",
+      "albóndega",
+      -10.033330902684877
+    ]
+  ],
+  "estomaguiño": [
+    [
+      "NCMS",
+      "estómago",
+      "estómago",
+      -9.28818065609452
+    ]
+  ],
+  "estomaguiños": [
+    [
+      "NCMP",
+      "estómago",
+      "estómago",
+      -10.041291056683322
+    ]
+  ],
+  "solciño": [
+    [
+      "NCMS",
+      "sol",
+      "sol",
+      -9.981327836654465
+    ]
+  ],
+  "solciños": [
+    [
+      "NCFP",
+      "soles",
+      "soles",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "sol",
+      "sol",
+      -10.041291056683322
+    ]
+  ],
+  "solciña": [
+    [
+      "NCMS",
+      "sol",
+      "sol",
+      -9.981327836654465
+    ]
+  ],
+  "solciñas": [
+    [
+      "NCFP",
+      "soles",
+      "soles",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "sol",
+      "sol",
+      -10.041291056683322
     ]
   ],
   "animalciños": [
@@ -783,6 +1379,12 @@
       "animal",
       "animal",
       -9.834351813701266
+    ],
+    [
+      "NCMP",
+      "animal",
+      "animal",
+      -7.402233727068063
     ]
   ],
   "descalciña": [
@@ -791,12 +1393,6 @@
       "descalzo",
       "descalzo",
       -9.670230532062421
-    ],
-    [
-      "VIP3S",
-      "descalzar",
-      "descalzar",
-      -9.091444217032327
     ]
   ],
   "plaquiñas": [
@@ -809,26 +1405,76 @@
   ],
   "musiquiño": [
     [
-      "VIP1S",
-      "musicar",
-      "musicar",
-      -8.997889450200717
+      "AAS",
+      "músico",
+      "músico",
+      -9.645687854566217
+    ],
+    [
+      "AMS",
+      "músico",
+      "músico",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "músico",
+      "músico",
+      -9.647627092407303
+    ],
+    [
+      "NCMS",
+      "músico",
+      "músico",
+      -9.981327836654465
+    ]
+  ],
+  "musiquiños": [
+    [
+      "NCMP",
+      "músico",
+      "músico",
+      -10.041291056683322
     ]
   ],
   "musiquiña": [
     [
-      "VIP3S",
-      "musicar",
-      "musicar",
-      -9.091444217032327
+      "AFS",
+      "músico",
+      "músico",
+      -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "música",
+      "música",
+      -7.664158909177098
+    ],
+    [
+      "NCFS",
+      "músico",
+      "músico",
+      -7.664158909177098
     ]
   ],
   "musiquiñas": [
     [
-      "VIP2S",
-      "musicar",
-      "musicar",
-      -8.9758830607617
+      "AFP",
+      "músico",
+      "músico",
+      -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "música",
+      "música",
+      -9.340183722124932
+    ],
+    [
+      "NCFP",
+      "músico",
+      "músico",
+      -9.340183722124932
     ]
   ],
   "faisquiñas": [
@@ -839,27 +1485,63 @@
       -10.033330902684877
     ]
   ],
+  "periodiquiños": [
+    [
+      "NCMP",
+      "periódico",
+      "periódico",
+      -8.942678768015213
+    ]
+  ],
   "politiquiñas": [
     [
       "AFP",
       "político",
       "político",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "política",
+      "política",
+      -9.340183722124932
+    ],
+    [
+      "NCFP",
+      "político",
+      "político",
+      -9.340183722124932
     ]
   ],
-  "algodonciña": [
+  "bosquiños": [
+    [
+      "NCMP",
+      "bosque",
+      "bosque",
+      -10.041291056683322
+    ]
+  ],
+  "algodonciño": [
     [
       "NCMS",
       "algodón",
       "algodón",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
-  "algodonciñas": [
+  "algodonciños": [
     [
       "NCMP",
       "algodón",
       "algodón",
+      -10.041291056683322
+    ]
+  ],
+  "cartonciños": [
+    [
+      "NCMP",
+      "cartón",
+      "cartón",
       -10.041291056683322
     ]
   ],
@@ -873,34 +1555,112 @@
   ],
   "chaponciñas": [
     [
+      "AFP",
+      "chapón",
+      "chapón",
+      -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "chapón",
+      "chapón",
+      -10.033330902684877
+    ]
+  ],
+  "garavanciño": [
+    [
+      "NCMS",
+      "garavanzo",
+      "garavanzo",
+      -9.981327836654465
+    ]
+  ],
+  "garavanciños": [
+    [
       "NCMP",
-      "chapón",
-      "chapón",
+      "garavanzo",
+      "garavanzo",
       -10.041291056683322
+    ]
+  ],
+  "crianciñas": [
+    [
+      "NCFP",
+      "crianza",
+      "crianza",
+      -10.033330902684877
     ]
   ],
   "mazanciña": [
     [
-      "VIP3P",
-      "mazar",
-      "mazar",
-      -8.943114308091785
+      "NCFS",
+      "mazán",
+      "mazá",
+      -9.966744002171144
+    ]
+  ],
+  "vranciño": [
+    [
+      "NCMS",
+      "vran",
+      "verán",
+      -9.981327836654465
+    ]
+  ],
+  "vranciños": [
+    [
+      "NCMP",
+      "vran",
+      "verán",
+      -10.041291056683322
+    ]
+  ],
+  "vranciña": [
+    [
+      "NCMS",
+      "vran",
+      "verán",
+      -9.981327836654465
+    ]
+  ],
+  "vranciñas": [
+    [
+      "NCMP",
+      "vran",
+      "verán",
+      -10.041291056683322
     ]
   ],
   "trenciñas": [
     [
-      "VIP2S",
-      "trenzar",
-      "trenzar",
-      -8.9758830607617
+      "NCFP",
+      "trenza",
+      "trenza",
+      -10.033330902684877
+    ]
+  ],
+  "fervenciña": [
+    [
+      "NCFS",
+      "fervenza",
+      "fervenza",
+      -9.966744002171144
     ]
   ],
   "pinciñas": [
     [
-      "VIP2S",
-      "pinzar",
-      "pinzar",
-      -8.9758830607617
+      "NCFP",
+      "pinza",
+      "pinza",
+      -10.033330902684877
+    ]
+  ],
+  "xardinciños": [
+    [
+      "NCMP",
+      "xardín",
+      "xardín",
+      -10.041291056683322
     ]
   ],
   "segundiño": [
@@ -921,6 +1681,20 @@
       "segundo",
       "segundo",
       -9.647627092407303
+    ],
+    [
+      "NCMS",
+      "segundo",
+      "segundo",
+      -9.28818065609452
+    ]
+  ],
+  "segundiños": [
+    [
+      "NCMP",
+      "segundo",
+      "segundo",
+      -10.041291056683322
     ]
   ],
   "segundiña": [
@@ -939,12 +1713,12 @@
       -9.834351813701266
     ]
   ],
-  "brandiños": [
+  "pasandiño": [
     [
-      "VIP2S",
-      "brandir",
-      "brandir",
-      -8.9758830607617
+      "VGP",
+      "pasar",
+      "pasar",
+      -6.974478911025045
     ]
   ],
   "cogorciña": [
@@ -955,40 +1729,28 @@
       -9.966744002171144
     ]
   ],
+  "verciñas": [
+    [
+      "NCFP",
+      "verza",
+      "verza",
+      -10.033330902684877
+    ]
+  ],
   "almorciño": [
     [
       "NCMS",
       "almorzo",
       "almorzo",
-      -9.981235321158053
-    ],
-    [
-      "VIP1S",
-      "almorzar",
-      "almorzar",
-      -8.997889450200717
+      -9.981327836654465
     ]
   ],
-  "almorciña": [
+  "almorciños": [
     [
-      "VIP3S",
-      "almorzar",
-      "almorzar",
-      -9.091444217032327
-    ],
-    [
-      "VMP2S",
-      "almorzar",
-      "almorzar",
-      -8.902591637374087
-    ]
-  ],
-  "almorciñas": [
-    [
-      "VIP2S",
-      "almorzar",
-      "almorzar",
-      -8.9758830607617
+      "NCMP",
+      "almorzo",
+      "almorzo",
+      -10.041291056683322
     ]
   ],
   "calorciño": [
@@ -1002,7 +1764,21 @@
       "NCMS",
       "calor",
       "calor",
-      -8.03532517210274
+      -8.035417687599152
+    ]
+  ],
+  "calorciños": [
+    [
+      "NCFP",
+      "calor",
+      "calor",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "calor",
+      "calor",
+      -10.041291056683322
     ]
   ],
   "calorciña": [
@@ -1016,7 +1792,21 @@
       "NCMS",
       "calor",
       "calor",
-      -8.03532517210274
+      -8.035417687599152
+    ]
+  ],
+  "calorciñas": [
+    [
+      "NCFP",
+      "calor",
+      "calor",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "calor",
+      "calor",
+      -10.041291056683322
     ]
   ],
   "altarciño": [
@@ -1024,7 +1814,15 @@
       "NCMS",
       "altar",
       "altar",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "altarciños": [
+    [
+      "NCMP",
+      "altar",
+      "altar",
+      -10.041291056683322
     ]
   ],
   "altarciña": [
@@ -1032,7 +1830,15 @@
       "NCMS",
       "altar",
       "altar",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "altarciñas": [
+    [
+      "NCMP",
+      "altar",
+      "altar",
+      -10.041291056683322
     ]
   ],
   "amorciño": [
@@ -1040,7 +1846,15 @@
       "NCMS",
       "amor",
       "amor",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "amorciños": [
+    [
+      "NCMP",
+      "amor",
+      "amor",
+      -10.041291056683322
     ]
   ],
   "amorciña": [
@@ -1048,41 +1862,63 @@
       "NCMS",
       "amor",
       "amor",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "amorciñas": [
+    [
+      "NCMP",
+      "amor",
+      "amor",
+      -10.041291056683322
+    ]
+  ],
+  "calamarciños": [
+    [
+      "NCMP",
+      "calamar",
+      "calamar",
+      -10.041291056683322
+    ]
+  ],
+  "orfiños": [
+    [
+      "NCMP",
+      "orfo",
+      "orfo",
+      -10.041291056683322
     ]
   ],
   "demiños": [
     [
-      "VIS1P",
-      "dar",
-      "dar",
-      -8.892336539638013
-    ],
+      "NCMP",
+      "demo",
+      "demo",
+      -10.041291056683322
+    ]
+  ],
+  "oviños": [
     [
-      "VSP1P",
-      "dar",
-      "dar",
-      -8.883501584323207
+      "NCMP",
+      "ovo",
+      "ovo",
+      -10.041291056683322
+    ]
+  ],
+  "bruxiñas": [
+    [
+      "NCFP",
+      "bruxa",
+      "bruxa",
+      -10.033330902684877
     ]
   ],
   "debuxiños": [
     [
-      "VSP1S",
-      "debuxar",
-      "debuxar",
-      -8.88405606174246
-    ],
-    [
-      "VSP3S",
-      "debuxar",
-      "debuxar",
-      -8.894533135798554
-    ],
-    [
-      "VSP4S",
-      "debuxar",
-      "debuxar",
-      -8.884333185202733
+      "NCMP",
+      "debuxo",
+      "debuxo",
+      -10.041291056683322
     ]
   ],
   "xefiño": [
@@ -1090,7 +1926,7 @@
       "NCMS",
       "xefe",
       "xefe",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "xefiños": [
@@ -1098,7 +1934,7 @@
       "NCMS",
       "xefe",
       "xefe",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "xefiña": [
@@ -1111,10 +1947,10 @@
   ],
   "xefiñas": [
     [
-      "NCMS",
+      "NCFP",
       "xefe",
       "xefe",
-      -9.981235321158053
+      -10.033330902684877
     ]
   ],
   "lumiño": [
@@ -1122,7 +1958,7 @@
       "NCMS",
       "lume",
       "lume",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "lumiños": [
@@ -1130,7 +1966,7 @@
       "NCMS",
       "lume",
       "lume",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "lumiña": [
@@ -1138,7 +1974,7 @@
       "NCMS",
       "lume",
       "lume",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "lumiñas": [
@@ -1146,7 +1982,7 @@
       "NCMS",
       "lume",
       "lume",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "suaviñas": [
@@ -1186,25 +2022,15 @@
       "NCMS",
       "traxe",
       "traxe",
-      -9.981235321158053
-    ],
+      -9.981327836654465
+    ]
+  ],
+  "gatiños": [
     [
-      "VSP1S",
-      "traxar",
-      "traxar",
-      -8.88405606174246
-    ],
-    [
-      "VSP3S",
-      "traxar",
-      "traxar",
-      -8.894533135798554
-    ],
-    [
-      "VSP4S",
-      "traxar",
-      "traxar",
-      -8.884333185202733
+      "NCMP",
+      "gato",
+      "gato",
+      -8.431853144249223
     ]
   ],
   "azoutiña": [
@@ -1213,26 +2039,40 @@
       "azouta",
       "azouta",
       -9.966744002171144
-    ],
+    ]
+  ],
+  "tomatiños": [
     [
-      "VIP3S",
-      "azoutar",
-      "azoutar",
-      -9.091444217032327
-    ],
-    [
-      "VMP2S",
-      "azoutar",
-      "azoutar",
-      -8.902591637374087
+      "NCMP",
+      "tomate",
+      "tomate",
+      -9.348143876123377
     ]
   ],
   "amantiñas": [
     [
-      "VIP2S",
-      "amantar",
-      "amantar",
-      -8.9758830607617
+      "AEP",
+      "amante",
+      "amante",
+      -9.060447282401565
+    ],
+    [
+      "AFP",
+      "amante",
+      "amante",
+      -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "amante",
+      "amante",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "amante",
+      "amante",
+      -10.041291056683322
     ]
   ],
   "trapiño": [
@@ -1240,7 +2080,15 @@
       "NCMS",
       "trapo",
       "trapo",
-      -9.288088140598108
+      -9.28818065609452
+    ]
+  ],
+  "trapiños": [
+    [
+      "NCMP",
+      "trapo",
+      "trapo",
+      -10.041291056683322
     ]
   ],
   "trapiña": [
@@ -1251,12 +2099,26 @@
       -9.966744002171144
     ]
   ],
+  "trapiñas": [
+    [
+      "NCFP",
+      "trapa",
+      "trapa",
+      -10.033330902684877
+    ]
+  ],
   "castañiñas": [
     [
       "AFP",
       "castaño",
       "castaño",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "castaña",
+      "castaña",
+      -10.033330902684877
     ]
   ],
   "viñiño": [
@@ -1264,7 +2126,15 @@
       "NCMS",
       "viño",
       "viño",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "viñiños": [
+    [
+      "NCMP",
+      "viño",
+      "viño",
+      -10.041291056683322
     ]
   ],
   "viñiña": [
@@ -1273,32 +2143,14 @@
       "viña",
       "viña",
       -9.966744002171144
-    ],
-    [
-      "VII1S",
-      "vir",
-      "vir",
-      -8.906935339059165
-    ],
-    [
-      "VII3S",
-      "vir",
-      "vir",
-      -8.97322466309509
-    ],
-    [
-      "VII4S",
-      "vir",
-      "vir",
-      -8.894533135798554
     ]
   ],
   "viñiñas": [
     [
-      "VII2S",
-      "vir",
-      "vir",
-      -8.896724917497897
+      "NCFP",
+      "viña",
+      "viña",
+      -10.033330902684877
     ]
   ],
   "barbiña": [
@@ -1307,6 +2159,14 @@
       "barba",
       "barba",
       -9.966744002171144
+    ]
+  ],
+  "xoubiñas": [
+    [
+      "NCFP",
+      "xouba",
+      "xouba",
+      -10.033330902684877
     ]
   ],
   "nubiñas": [
@@ -1322,7 +2182,7 @@
       "NCMS",
       "estuche",
       "estuche",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "estuchiños": [
@@ -1330,7 +2190,7 @@
       "NCMS",
       "estuche",
       "estuche",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "estuchiña": [
@@ -1338,7 +2198,7 @@
       "NCMS",
       "estuche",
       "estuche",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "estuchiñas": [
@@ -1346,7 +2206,23 @@
       "NCMS",
       "estuche",
       "estuche",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "ovelliñas": [
+    [
+      "NCFP",
+      "ovella",
+      "ovella",
+      -10.033330902684877
+    ]
+  ],
+  "aforriños": [
+    [
+      "NCMP",
+      "aforro",
+      "aforro",
+      -10.041291056683322
     ]
   ],
   "churriñas": [
@@ -1355,6 +2231,12 @@
       "churro",
       "churro",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "churra",
+      "churra",
+      -10.033330902684877
     ]
   ],
   "amighiñas": [
@@ -1367,10 +2249,16 @@
   ],
   "cadradiños": [
     [
-      "VIP2P",
+      "NCMP",
+      "cadrado",
+      "cadrado",
+      -10.041291056683322
+    ],
+    [
+      "VPMP",
       "cadrar",
       "cadrar",
-      -8.887652690325586
+      -8.920121751872404
     ]
   ],
   "bigodiño": [
@@ -1378,7 +2266,15 @@
       "NCMS",
       "bigode",
       "bigote",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "bigodiños": [
+    [
+      "NCMP",
+      "bigode",
+      "bigote",
+      -10.041291056683322
     ]
   ],
   "bigodiña": [
@@ -1386,7 +2282,15 @@
       "NCMS",
       "bigode",
       "bigote",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "bigodiñas": [
+    [
+      "NCMP",
+      "bigode",
+      "bigote",
+      -10.041291056683322
     ]
   ],
   "humildiño": [
@@ -1430,7 +2334,7 @@
       "NCMS",
       "humilde",
       "humilde",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "humildiños": [
@@ -1445,6 +2349,18 @@
       "humilde",
       "humilde",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "humilde",
+      "humilde",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "humilde",
+      "humilde",
+      -10.041291056683322
     ]
   ],
   "humildiña": [
@@ -1488,7 +2404,7 @@
       "NCMS",
       "humilde",
       "humilde",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "humildiñas": [
@@ -1503,6 +2419,18 @@
       "humilde",
       "humilde",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "humilde",
+      "humilde",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "humilde",
+      "humilde",
+      -10.041291056683322
     ]
   ],
   "meirandiño": [
@@ -1602,7 +2530,15 @@
       "NCMS",
       "marqués",
       "marqués",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "marquesiños": [
+    [
+      "NCMP",
+      "marqués",
+      "marqués",
+      -10.041291056683322
     ]
   ],
   "marquesiña": [
@@ -1621,6 +2557,14 @@
       -10.033330902684877
     ]
   ],
+  "tesiños": [
+    [
+      "NCMP",
+      "teso",
+      "teso",
+      -10.041291056683322
+    ]
+  ],
   "raposiña": [
     [
       "AFS",
@@ -1633,6 +2577,14 @@
       "raposo",
       "raposo",
       -9.966744002171144
+    ]
+  ],
+  "camisiñas": [
+    [
+      "NCFP",
+      "camisa",
+      "camisa",
+      -10.033330902684877
     ]
   ],
   "tesiña": [
@@ -1649,12 +2601,22 @@
       "tose",
       "tose",
       -9.966744002171144
-    ],
+    ]
+  ],
+  "horiña": [
     [
-      "VIP3S",
-      "tusir",
-      "tusir",
-      -9.091444217032327
+      "NCFS",
+      "hora",
+      "hora",
+      -6.8757015488128275
+    ]
+  ],
+  "peliños": [
+    [
+      "NCMP",
+      "pelo",
+      "pelo",
+      -10.041291056683322
     ]
   ],
   "groliño": [
@@ -1662,7 +2624,15 @@
       "NCMS",
       "grolo",
       "grolo",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "groliños": [
+    [
+      "NCMP",
+      "grolo",
+      "grolo",
+      -10.041291056683322
     ]
   ],
   "groliña": [
@@ -1686,7 +2656,61 @@
       "NCMS",
       "ex-primeiro ministro",
       "ex primeiro ministro",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "ex-esposo": [
+    [
+      "NCMS",
+      "ex-esposo",
+      "exesposo",
+      -9.981327836654465
+    ]
+  ],
+  "ex-esposos": [
+    [
+      "NCMP",
+      "ex-esposo",
+      "exesposo",
+      -10.041291056683322
+    ]
+  ],
+  "ex-esposa": [
+    [
+      "NCFS",
+      "ex-esposo",
+      "exesposo",
+      -9.966744002171144
+    ]
+  ],
+  "ex-esposas": [
+    [
+      "NCFP",
+      "ex-esposas",
+      "exesposas",
+      -9.340183722124932
+    ],
+    [
+      "NCFP",
+      "ex-esposo",
+      "exesposo",
+      -9.340183722124932
+    ]
+  ],
+  "ex-alumnas": [
+    [
+      "NCFP",
+      "ex-alumno",
+      "exalumno",
+      -10.033330902684877
+    ]
+  ],
+  "ex-diputados": [
+    [
+      "NCMP",
+      "ex-diputado",
+      "exdeputado",
+      -10.041291056683322
     ]
   ],
   "ex-Alca": [
@@ -1711,6 +2735,38 @@
       "ex-Checoslovaquia",
       "",
       0.0
+    ]
+  ],
+  "ex-alumniño": [
+    [
+      "NCMS",
+      "ex-alumno",
+      "exalumno",
+      -9.981327836654465
+    ]
+  ],
+  "ex-alumniños": [
+    [
+      "NCMP",
+      "ex-alumno",
+      "exalumno",
+      -8.095380907628009
+    ]
+  ],
+  "ex-alumniña": [
+    [
+      "NCFS",
+      "ex-alumno",
+      "exalumno",
+      -9.966744002171144
+    ]
+  ],
+  "ex-alumniñas": [
+    [
+      "NCFP",
+      "ex-alumno",
+      "exalumno",
+      -10.033330902684877
     ]
   ],
   "meta-literario": [
@@ -1749,6 +2805,22 @@
       -9.834351813701266
     ]
   ],
+  "meta-relato": [
+    [
+      "NCMS",
+      "meta-relato",
+      "metarrelato",
+      -9.981327836654465
+    ]
+  ],
+  "meta-relatos": [
+    [
+      "NCMP",
+      "meta-relato",
+      "metarrelato",
+      -10.041291056683322
+    ]
+  ],
   "metaliterario": [
     [
       "AAS",
@@ -1785,12 +2857,74 @@
       -9.834351813701266
     ]
   ],
+  "metadatos": [
+    [
+      "NCMP",
+      "metadato",
+      "metadato",
+      -9.348143876123377
+    ]
+  ],
+  "metarrelato": [
+    [
+      "NCMS",
+      "metarrelato",
+      "metarrelato",
+      -9.981327836654465
+    ]
+  ],
+  "metarrelatos": [
+    [
+      "NCMP",
+      "metarrelato",
+      "metarrelato",
+      -10.041291056683322
+    ]
+  ],
+  "metanálise": [
+    [
+      "NCFS",
+      "metanálise",
+      "metaanálise",
+      -9.966744002171144
+    ]
+  ],
+  "metaanálise": [
+    [
+      "NCFS",
+      "metaanálise",
+      "metaanálise",
+      -9.966744002171144
+    ]
+  ],
+  "etno-nacionalismo": [
+    [
+      "NCMS",
+      "etno-nacionalismo",
+      "etnonacionalismo",
+      -9.981327836654465
+    ]
+  ],
+  "etno-nacionalismos": [
+    [
+      "NCMP",
+      "etno-nacionalismo",
+      "etnonacionalismo",
+      -10.041291056683322
+    ]
+  ],
   "etno-lingüísticas": [
     [
       "AFP",
       "etno-lingüístico",
       "etnolingüístico",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "etno-lingüística",
+      "etnolingüística",
+      -10.033330902684877
     ]
   ],
   "etno-relixiosa": [
@@ -1799,6 +2933,42 @@
       "etno-relixioso",
       "etnorrelixioso",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "etno-relixioso",
+      "etnorrelixioso",
+      -9.966744002171144
+    ]
+  ],
+  "etno-organismos": [
+    [
+      "NCMP",
+      "etno-organismo",
+      "etnoorganismo",
+      -8.942678768015213
+    ]
+  ],
+  "etnopaisaxe": [
+    [
+      "NCFS",
+      "etnopaisaxe",
+      "etnopaisaxe",
+      -9.966744002171144
+    ],
+    [
+      "NCMS",
+      "etnopaisaxe",
+      "etnopaisaxe",
+      -9.981327836654465
+    ]
+  ],
+  "etnotextos": [
+    [
+      "NCMP",
+      "etnotexto",
+      "etnotexto",
+      -10.041291056683322
     ]
   ],
   "etnorelixiosa": [
@@ -1807,14 +2977,50 @@
       "etnorelixioso",
       "etnorrelixioso",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "etnorelixioso",
+      "etnorrelixioso",
+      -9.966744002171144
+    ]
+  ],
+  "etnorganismos": [
+    [
+      "NCMP",
+      "etnorganismo",
+      "etnoorganismo",
+      -8.942678768015213
+    ]
+  ],
+  "etnoorganismos": [
+    [
+      "NCMP",
+      "etnoorganismo",
+      "etnoorganismo",
+      -8.942678768015213
     ]
   ],
   "macro-acordo": [
+    [
+      "NCMS",
+      "macro-acordo",
+      "macroacordo",
+      -9.981327836654465
+    ],
     [
       "VIP1S",
       "macro-acordar",
       "macroacordar",
       -8.997889450200717
+    ]
+  ],
+  "macro-acordos": [
+    [
+      "NCMP",
+      "macro-acordo",
+      "macroacordo",
+      -10.041291056683322
     ]
   ],
   "macro-acorda": [
@@ -1828,7 +3034,7 @@
       "VMP2S",
       "macro-acordar",
       "macroacordar",
-      -8.902591637374087
+      -8.902727664035522
     ]
   ],
   "macro-acordas": [
@@ -1845,9 +3051,21 @@
       "macro-lingüístico",
       "macrolingüístico",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "macro-lingüística",
+      "macrolingüística",
+      -10.033330902684877
     ]
   ],
   "macro-redada": [
+    [
+      "NCFS",
+      "macro-redada",
+      "macrorredada",
+      -9.966744002171144
+    ],
     [
       "VPFS",
       "macro-redar",
@@ -1855,7 +3073,37 @@
       -8.9237243977064
     ]
   ],
+  "macro-organigrama": [
+    [
+      "NCMS",
+      "macro-organigrama",
+      "macroorganigrama",
+      -9.981327836654465
+    ]
+  ],
+  "macroacontecemento": [
+    [
+      "NCMS",
+      "macroacontecemento",
+      "macroacontecemento",
+      -9.981327836654465
+    ]
+  ],
+  "macroacontecementos": [
+    [
+      "NCMP",
+      "macroacontecemento",
+      "macroacontecemento",
+      -10.041291056683322
+    ]
+  ],
   "macrorredada": [
+    [
+      "NCFS",
+      "macrorredada",
+      "macrorredada",
+      -9.966744002171144
+    ],
     [
       "VPFS",
       "macrorredar",
@@ -1863,7 +3111,37 @@
       -8.9237243977064
     ]
   ],
+  "macroperación": [
+    [
+      "NCFS",
+      "macroperación",
+      "macrooperación",
+      -8.868131713503033
+    ]
+  ],
+  "macrorganismos": [
+    [
+      "NCMP",
+      "macrorganismo",
+      "macroorganismo",
+      -8.942678768015213
+    ]
+  ],
+  "macroorganismos": [
+    [
+      "NCMP",
+      "macroorganismo",
+      "macroorganismo",
+      -8.942678768015213
+    ]
+  ],
   "macrorrede": [
+    [
+      "NCFS",
+      "macrorrede",
+      "macrorrede",
+      -9.966744002171144
+    ],
     [
       "VSP1S",
       "macrorredar",
@@ -1885,6 +3163,12 @@
   ],
   "micro-ficha": [
     [
+      "NCFS",
+      "micro-ficha",
+      "microficha",
+      -9.966744002171144
+    ],
+    [
       "VIP3S",
       "micro-fichar",
       "microfichar",
@@ -1894,7 +3178,23 @@
       "VMP2S",
       "micro-fichar",
       "microfichar",
-      -8.902591637374087
+      -8.902727664035522
+    ]
+  ],
+  "micro-relatos": [
+    [
+      "NCMP",
+      "micro-relato",
+      "microrrelato",
+      -10.041291056683322
+    ]
+  ],
+  "micro-organismos": [
+    [
+      "NCMP",
+      "micro-organismo",
+      "microorganismo",
+      -8.942678768015213
     ]
   ],
   "microinxectar": [
@@ -1967,6 +3267,14 @@
       -8.91811465947453
     ]
   ],
+  "microblog": [
+    [
+      "NCMS",
+      "microblog",
+      "microblog",
+      -9.981327836654465
+    ]
+  ],
   "microorganismos": [
     [
       "NCMP",
@@ -1975,12 +3283,42 @@
       -10.041291056683322
     ]
   ],
+  "microrepetidores": [
+    [
+      "NCMP",
+      "microrepetidor",
+      "microrrepetidor",
+      -10.041291056683322
+    ]
+  ],
   "microrredada": [
+    [
+      "NCFS",
+      "microrredada",
+      "microrredada",
+      -9.966744002171144
+    ],
     [
       "VPFS",
       "microrredar",
       "microrredar",
       -8.9237243977064
+    ]
+  ],
+  "microfibriña": [
+    [
+      "NCFS",
+      "microfibra",
+      "microfibra",
+      -9.966744002171144
+    ]
+  ],
+  "microrganismos": [
+    [
+      "NCMP",
+      "microrganismo",
+      "microorganismo",
+      -8.942678768015213
     ]
   ],
   "xeo-lingüístico": [
@@ -2009,6 +3347,12 @@
       "xeo-lingüístico",
       "xeolingüístico",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "xeo-lingüística",
+      "xeolingüística",
+      -9.966744002171144
     ]
   ],
   "xeo-lingüísticas": [
@@ -2017,6 +3361,28 @@
       "xeo-lingüístico",
       "xeolingüístico",
       -9.834351813701266
+    ],
+    [
+      "NCFP",
+      "xeo-lingüística",
+      "xeolingüística",
+      -10.033330902684877
+    ]
+  ],
+  "xeo-radar": [
+    [
+      "NCMS",
+      "xeo-radar",
+      "xeorradar",
+      -9.981327836654465
+    ]
+  ],
+  "xeo-organismos": [
+    [
+      "NCMP",
+      "xeo-organismo",
+      "xeoorganismo",
+      -8.942678768015213
     ]
   ],
   "xeobotánica": [
@@ -2025,6 +3391,18 @@
       "xeobotánico",
       "xeobotánico",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "xeobotánica",
+      "xeobotánica",
+      -9.273596821611198
+    ],
+    [
+      "NCFS",
+      "xeobotánico",
+      "xeobotánico",
+      -9.273596821611198
     ]
   ],
   "xeoreferenciadas": [
@@ -2040,7 +3418,23 @@
       "NCMS",
       "xeorradar",
       "xeorradar",
-      -9.981235321158053
+      -9.981327836654465
+    ]
+  ],
+  "xeorganismos": [
+    [
+      "NCMP",
+      "xeorganismo",
+      "xeoorganismo",
+      -8.942678768015213
+    ]
+  ],
+  "xeoorganismos": [
+    [
+      "NCMP",
+      "xeoorganismo",
+      "xeoorganismo",
+      -8.942678768015213
     ]
   ],
   "multi-xogador": [
@@ -2061,6 +3455,28 @@
       "multi-xogador",
       "multixogador",
       -9.647627092407303
+    ],
+    [
+      "NCMS",
+      "multi-xogador",
+      "multixogador",
+      -9.981327836654465
+    ]
+  ],
+  "multi-robot": [
+    [
+      "NCMS",
+      "multi-robot",
+      "multirrobot",
+      -9.981327836654465
+    ]
+  ],
+  "multi-idioma": [
+    [
+      "NCMS",
+      "multi-idioma",
+      "multiidioma",
+      -9.981327836654465
     ]
   ],
   "multi-relixiosa": [
@@ -2069,6 +3485,12 @@
       "multi-relixioso",
       "multirrelixioso",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "multi-relixioso",
+      "multirrelixioso",
+      -9.966744002171144
     ]
   ],
   "multicitar": [
@@ -2123,6 +3545,14 @@
       -8.884194633072273
     ]
   ],
+  "multianalitos": [
+    [
+      "NCMP",
+      "multianalito",
+      "multianalito",
+      -10.041291056683322
+    ]
+  ],
   "multiidioma": [
     [
       "AAS",
@@ -2169,14 +3599,46 @@
       "multirelixioso",
       "multirrelixioso",
       -9.670230532062421
+    ],
+    [
+      "NCFS",
+      "multirelixioso",
+      "multirrelixioso",
+      -9.966744002171144
     ]
   ],
   "multirradio": [
+    [
+      "NCFS",
+      "multirradio",
+      "multirradio",
+      -8.868131713503033
+    ],
+    [
+      "NCMS",
+      "multirradio",
+      "multirradio",
+      -9.981327836654465
+    ],
     [
       "VIP1S",
       "multirradiar",
       "multirradiar",
       -8.997889450200717
+    ]
+  ],
+  "multirradios": [
+    [
+      "NCFP",
+      "multirradio",
+      "multirradio",
+      -10.033330902684877
+    ],
+    [
+      "NCMP",
+      "multirradio",
+      "multirradio",
+      -10.041291056683322
     ]
   ],
   "multirradia": [
@@ -2190,7 +3652,7 @@
       "VMP2S",
       "multirradiar",
       "multirradiar",
-      -8.902591637374087
+      -8.902727664035522
     ]
   ],
   "multirradias": [
@@ -2201,12 +3663,120 @@
       -8.9758830607617
     ]
   ],
+  "multinstrumentista": [
+    [
+      "NCFS",
+      "multinstrumentista",
+      "multiinstrumentista",
+      -9.966744002171144
+    ],
+    [
+      "NCMS",
+      "multinstrumentista",
+      "multiinstrumentista",
+      -9.981327836654465
+    ]
+  ],
+  "tele-realidade": [
+    [
+      "NCFS",
+      "tele-realidade",
+      "telerrealidade",
+      -9.966744002171144
+    ]
+  ],
+  "tele-asistencia": [
+    [
+      "NCFS",
+      "tele-asistencia",
+      "teleasistencia",
+      -9.273596821611198
+    ]
+  ],
+  "tele-servicio": [
+    [
+      "NCMS",
+      "tele-servicio",
+      "teleservizo",
+      -8.189568367426409
+    ]
+  ],
+  "tele-servicios": [
+    [
+      "NCMP",
+      "tele-servicio",
+      "teleservizo",
+      -9.348143876123377
+    ]
+  ],
+  "telebanco": [
+    [
+      "NCMS",
+      "telebanco",
+      "telebanco",
+      -9.28818065609452
+    ]
+  ],
+  "telebancos": [
+    [
+      "NCMP",
+      "telebanco",
+      "telebanco",
+      -10.041291056683322
+    ]
+  ],
+  "telebanca": [
+    [
+      "NCFS",
+      "telebanca",
+      "telebanca",
+      -9.966744002171144
+    ]
+  ],
+  "telebancas": [
+    [
+      "NCFP",
+      "telebanca",
+      "telebanca",
+      -10.033330902684877
+    ]
+  ],
+  "teleconexións": [
+    [
+      "NCFP",
+      "teleconexión",
+      "teleconexión",
+      -10.033330902684877
+    ]
+  ],
+  "telerrealidade": [
+    [
+      "NCFS",
+      "telerrealidade",
+      "telerrealidade",
+      -9.966744002171144
+    ]
+  ],
   "teleensino": [
+    [
+      "NCMS",
+      "teleensino",
+      "teleensino",
+      -9.981327836654465
+    ],
     [
       "VIP1S",
       "teleensinar",
       "teleensinar",
       -8.997889450200717
+    ]
+  ],
+  "teleensinos": [
+    [
+      "NCMP",
+      "teleensino",
+      "teleensino",
+      -10.041291056683322
     ]
   ],
   "teleensina": [
@@ -2220,7 +3790,7 @@
       "VMP2S",
       "teleensinar",
       "teleensinar",
-      -8.902591637374087
+      -8.902727664035522
     ]
   ],
   "teleensinas": [
@@ -2233,10 +3803,24 @@
   ],
   "telensino": [
     [
+      "NCMS",
+      "telensino",
+      "teleensino",
+      -9.981327836654465
+    ],
+    [
       "VIP1S",
       "telensinar",
       "teleensinar",
       -8.997889450200717
+    ]
+  ],
+  "telensinos": [
+    [
+      "NCMP",
+      "telensino",
+      "teleensino",
+      -10.041291056683322
     ]
   ],
   "telensina": [
@@ -2250,7 +3834,7 @@
       "VMP2S",
       "telensinar",
       "teleensinar",
-      -8.902591637374087
+      -8.902727664035522
     ]
   ],
   "telensinas": [
@@ -2282,13 +3866,13 @@
       "DNMS",
       "ningún",
       "ningún",
-      -1.4816045409242156
+      -1.5040773967762742
     ],
     [
       "PNMS",
       "ningún",
       "ningún",
-      -4.59511985013459
+      -4.634728988229636
     ]
   ],
   "ghaliña": [
@@ -2312,33 +3896,21 @@
       "NCMS",
       "xantar",
       "xantar",
-      -9.981235321158053
+      -9.981327836654465
     ],
     [
-      "VSF1S",
+      "VNP",
       "xantar",
       "xantar",
-      -8.884194633072273
-    ],
-    [
-      "VSF3S",
-      "xantar",
-      "xantar",
-      -8.884194633072273
-    ],
-    [
-      "VSF4S",
-      "xantar",
-      "xantar",
-      -8.884194633072273
+      -9.046644279305394
     ]
   ],
   "xantarciños": [
     [
-      "VSF2S",
+      "NCMP",
       "xantar",
       "xantar",
-      -8.884333185202733
+      -10.041291056683322
     ]
   ],
   "xantarciña": [
@@ -2346,53 +3918,29 @@
       "NCMS",
       "xantar",
       "xantar",
-      -9.981235321158053
+      -9.981327836654465
     ],
     [
-      "VSF1S",
+      "VNP",
       "xantar",
       "xantar",
-      -8.884194633072273
-    ],
-    [
-      "VSF3S",
-      "xantar",
-      "xantar",
-      -8.884194633072273
-    ],
-    [
-      "VSF4S",
-      "xantar",
-      "xantar",
-      -8.884194633072273
+      -9.046644279305394
     ]
   ],
   "xantarciñas": [
     [
-      "VSF2S",
+      "NCMP",
       "xantar",
       "xantar",
-      -8.884333185202733
+      -10.041291056683322
     ]
   ],
   "multiliña": [
     [
-      "DAFS",
-      "multiel",
-      "",
-      -0.009766762389714537
-    ],
-    [
-      "PY3FSA",
-      "multilo",
-      "",
-      0.0
-    ],
-    [
-      "PY3FSW",
-      "multio",
-      "multio",
-      -1.6094379124341003
+      "NCFS",
+      "multiliña",
+      "multiliña",
+      -9.966744002171144
     ]
   ],
   "ghrande": [
@@ -2430,7 +3978,7 @@
       "NCMS",
       "grande",
       "grande",
-      -9.981235321158053
+      -9.981327836654465
     ]
   ],
   "ghrazas": [
@@ -2474,7 +4022,7 @@
       "C",
       "pois",
       "pois",
-      -8.430545384690566
+      -8.43076346341785
     ]
   ],
   "hoxe": [
@@ -2482,7 +4030,7 @@
       "W",
       "hoxe",
       "hoxe",
-      -9.127827950401718
+      -9.128804883993665
     ]
   ]
 }

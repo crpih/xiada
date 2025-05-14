@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-require_relative "../#{ENV["XIADA_PROFILE"]}/pruning_system.rb"
 require_relative "../../lib/string_utils.rb"
 
 class Viterbi
@@ -7,10 +6,10 @@ class Viterbi
   EMPTY_WORD = "###"
   WINDOW_SIZE = 5
 
-  def initialize(dw)
-    @dw = dw
+  def initialize(tagger_config, document_config)
+    @tagger_config = tagger_config
+    @document_config = document_config
     @tags = nil
-    @pruning_system = PruningSystem.new
     @without_suffixes_words = Hash.new
   end
 
@@ -54,7 +53,7 @@ class Viterbi
         lemma = "*"
         hiperlemma = "*"
       else
-        lemma = @dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
+        lemma = @tagger_config.dw.get_most_frequent_lemma(tag.token.text, tag.value, tag.lemmas.keys)
         hiperlemma = tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]
       end
 
@@ -113,7 +112,7 @@ class Viterbi
         if tag.lemmas.keys.empty?
           %w[* *]
         else
-          lemma = @dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys)
+          lemma = @tagger_config.dw.get_most_frequent_lemma(token.text, tag.value, tag.lemmas.keys)
           [lemma, tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]]
         end
       tag_lemmas << { tag: tag.value, selected: tag.selected?, lemma:, hiperlemma: }
@@ -180,10 +179,10 @@ class Viterbi
         #STDERR.puts "without_suffixes_words: #{@without_suffixes_words}"
         unless @without_suffixes_words[String.new(token.text)]
           #STDERR.puts "entra"
-          results = @dw.get_tags_lemmas_emissions(token.text, token.tags.keys)
+          results = @tagger_config.dw.get_tags_lemmas_emissions(@document_config, token.text, token.tags.keys)
         else
           #STDERR.puts "WARNING: token #{token.text} is getting open tags"
-          results = @dw.get_open_tags_lemmas_emissions(token.text)
+          results = @tagger_config.dw.get_open_tags_lemmas_emissions(token.text)
         end
         results.each do |result|
           tag_value = result[0]
@@ -211,7 +210,7 @@ class Viterbi
         #STDERR.puts "calling initialize_step_token 1 with next:#{token.next.text}"
         initialize_step_token(token.next, way)
       elsif (token.token_type == :begin_sentence) or (token.token_type == :end_sentence)
-        results = @dw.get_tags_lemmas_emissions(EMPTY_WORD, nil)
+        results = @tagger_config.dw.get_tags_lemmas_emissions(@document_config, EMPTY_WORD, nil)
         results.each do |result|
           tag_value = result[0]
           lemma = result[1]
@@ -221,7 +220,7 @@ class Viterbi
         end
         if token.token_type == :begin_sentence
           token.tags.values.each do |tag|
-            tag.add_or_replace_delta(tag.emission + @dw.get_bigram_probability(EMPTY_TAG, EMPTY_TAG) + tag.emission, nil, 1, EMPTY_TAG)
+            tag.add_or_replace_delta(tag.emission + @tagger_config.dw.get_bigram_probability(EMPTY_TAG, EMPTY_TAG) + tag.emission, nil, 1, EMPTY_TAG)
           end
           #STDERR.puts "calling initialize_step_token 2 with next:#{token.next.text}"
           initialize_step_token(token.next, 1)
@@ -272,17 +271,17 @@ class Viterbi
                   #puts "prev_prev_tag: #{prev_prev_tag.value}"
 
                   #puts "--- trigram:#{prev_prev_tag.value},#{prev_tag.value},#{tag.value}--"
-                  #if @pruning_system.process(prev_prev_tag.token.text, prev_prev_tag.value, prev_prev_tag.lemmas.keys,
+                  #if @tagger_config.pruning_system.process(prev_prev_tag.token.text, prev_prev_tag.value, prev_prev_tag.lemmas.keys,
                   #                           prev_tag.token.text, prev_tag.value, prev_tag.lemmas.keys,
                   #                           token.text, tag.value, tag.lemmas.keys)
                   current_delta = prev_delta.value +
-                                  @dw.get_trigram_probability(prev_prev_tag.value,
+                                  @tagger_config.dw.get_trigram_probability(prev_prev_tag.value,
                                                               prev_tag.value,
                                                               tag.value)
                   #puts "calculating trigram: #{prev_prev_tag.value} #{prev_tag.value} #{tag.value}"
                   normalized_current_delta = current_delta / Math.log(length + 1)
                   #puts "trigram:#{prev_prev_tag.value},#{prev_tag.value},#{tag.value}"
-                  #puts "probability:#{@dw.get_trigram_probability(prev_prev_tag.value,prev_tag.value,tag.value)}"
+                  #puts "probability:#{@tagger_config.dw.get_trigram_probability(prev_prev_tag.value,prev_tag.value,tag.value)}"
                   #puts "deltas_aux[#{length}]=#{deltas_aux[length]} prev_delta:#{prev_delta.value}"
                   if (deltas[prev_tag.value + prev_token.token_id.to_s()] == nil) or (normalized_current_delta > deltas[prev_tag.value + prev_token.token_id.to_s()].normalized_value)
                     deltas[prev_tag.value + prev_token.token_id.to_s()] = Delta.new(current_delta, prev_delta, length + 1, tag)
@@ -357,7 +356,7 @@ class Viterbi
 
     if prev_prev_tokens.empty?
       prev_prev_token = Token.new(@sentence.text, EMPTY_WORD, :artificial, -1, -1)
-      results = @dw.get_tags_lemmas_emissions(EMPTY_WORD, nil)
+      results = @tagger_config.dw.get_tags_lemmas_emissions(@document_config, EMPTY_WORD, nil)
       results.each do |result|
         tag_value = result[0]
         lemma = result[1]
@@ -406,7 +405,7 @@ class Viterbi
     # We do last calculation which use trigram "tag ### ###"
     deltas = Hash.new
     special_token = Token.new(@sentence.text, EMPTY_WORD, :artificial, -1, -1)
-    results = @dw.get_tags_lemmas_emissions(EMPTY_WORD, nil)
+    results = @tagger_config.dw.get_tags_lemmas_emissions(@document_config, EMPTY_WORD, nil)
     results.each do |result|
       tag_value = result[0]
       lemma = result[1]
@@ -425,7 +424,7 @@ class Viterbi
           prev_prev_tags = prev_prev_tags_calculation(prev_prev_token)
           prev_prev_tags.each do |prev_prev_tag|
             current_delta = prev_delta.value +
-                            @dw.get_trigram_probability(prev_prev_tag.value,
+                            @tagger_config.dw.get_trigram_probability(prev_prev_tag.value,
                                                         prev_tag.value,
                                                         tag.value)
             normalized_current_delta = current_delta / (length + 1)
@@ -512,7 +511,7 @@ class Viterbi
       window = convert_window_to_prunning_format(tags_window)
       #print_window(window)
       if pruning_rules_enabled
-        returning_index = @pruning_system.process(window)
+        returning_index = @tagger_config.pruning_system.process(window)
       else
         returning_index = 0
       end
@@ -564,7 +563,7 @@ class Viterbi
           full_window[full_window.size - WINDOW_SIZE..full_window.size].each do |element|
             # puts "analizing token: #{element[0].token.text}"
             if (element[0].token.token_type == :standard) and
-               (@dw.get_emissions_info(element[0].token.text, nil).empty?)
+               (@tagger_config.dw.get_emissions_info(element[0].token.text, nil).empty?)
               #puts "PROBLEMATIC TOKEN: #{element[0].token.text}"
               @without_suffixes_words[String.new(element[0].token.text)] = true
             end
