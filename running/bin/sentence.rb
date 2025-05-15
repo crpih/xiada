@@ -13,7 +13,7 @@ class Sentence
   attr_reader :tagger_config, :document_config
   attr_reader :first_token, :last_token, :text, :original_first_lower
 
-  def initialize(tagger_config:, document_config:, acronyms:, abbreviations:, enclitics:, text:)
+  def initialize(tagger_config:, document_config:, acronyms:, abbreviations:, enclitics:, proper_nouns_processor:, text:)
     @tagger_config = tagger_config
     @document_config = document_config
 
@@ -31,8 +31,8 @@ class Sentence
     @current_last_token = @first_token
     @current_text_offset = 0
 
-    if @tagger_config.proper_nouns_processor
-      @tagger_config.proper_nouns_processor.call(text).each do |segment|
+    if proper_nouns_processor
+      proper_nouns_processor.call(text).each do |segment|
         segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
       end
     else
@@ -42,7 +42,7 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     process_acronym_abbreviation_contraction_stuff
-    first_to_lower if @tagger_config.proper_nouns_processor && !@tagger_config.proper_nouns_processor.force_proper_nouns
+    first_to_lower if proper_nouns_processor && !proper_nouns_processor.force_proper_nouns
   end
 
 

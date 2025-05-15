@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
-require "optparse"
-require "rexml"
-require "csv"
 require_relative "sentence"
 require_relative "config"
 require_relative "viterbi"
 
 class XiadaTagger
+  delegate :profile, :database, :seseo, :only_lexicon, :force_proper_nouns, to: :@tagger_config
 
   class Exception < StandardError
     attr_reader :text
@@ -25,26 +23,27 @@ class XiadaTagger
   end
 
   def tag_texts(document_config, texts)
-    trained_proper_nouns = @tagger_config.proper_noun_processor&.with_trained(texts)
-    texts.map { |t| t.empty? ? [] : tag_text(document_config, t, trained_proper_nouns).best_way }
+    trained_proper_nouns = @tagger_config.proper_nouns_processor&.with_trained(texts)
+    texts.map { |t| t.empty? ? [] : tag_text(document_config, trained_proper_nouns, t).best_way }
   end
 
   def tag_texts_alternatives(document_config, texts)
-    trained_proper_nouns = @tagger_config.proper_noun_processor&.with_trained(texts)
-    texts.map { |t| t.empty? ? [] : tag_text(document_config, t, trained_proper_nouns).all_ways }
+    trained_proper_nouns = @tagger_config.proper_nouns_processor&.with_trained(texts)
+    texts.map { |t| t.empty? ? [] : tag_text(document_config, trained_proper_nouns, t).all_ways }
   end
 
-  def call(document_config, text) = tag_text(document_config, text)
+  def call(document_config, text) = tag_text(document_config, nil, text)
 
   private
 
-  def tag_text(document_config, text)
+  def tag_text(document_config, proper_nouns_processor, text)
     sentence = Sentence.new(
       tagger_config: @tagger_config,
       document_config:,
       acronyms: @acronyms,
       abbreviations: @abbreviations,
       enclitics: @enclitics,
+      proper_nouns_processor:,
       text:
     )
     sentence.contractions_processing

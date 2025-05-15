@@ -30,7 +30,8 @@ require_relative "../galician_palmed/enclitics_rules"
 
 module Config
   class Tagger
-    attr_reader :profile, :database, :seseo, :only_lexicon, :proper_nouns_processor, :dw, :lemmatizer, :pruning_system, :enclitics_rules
+    attr_reader :profile, :database, :seseo, :only_lexicon, :force_proper_nouns
+    attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system, :enclitics_rules
 
     def self.from_env
       new(profile: ENV["XIADA_PROFILE"],
@@ -68,6 +69,8 @@ module Config
       @pruning_system = "#{profile.camelize}::PruningSystem".constantize.new
       @enclitics_rules = "#{profile.camelize}::EncliticsRules".constantize.new
     end
+
+    def force_proper_nouns = @proper_nouns_processor&.force_proper_nouns
   end
 
   # Document tagging configuration created for each request
