@@ -14,7 +14,7 @@ describe	Vpi30s	describir	describir
 a	Ddfs	o	o
 cidade	Scfs	cidade	cidade
 de	P	de	de
-Santiago	Sp00	Santiago	""
+Santiago	Spm0	Santiago	""
 ,	Q,	,	,
 e	Cc	e	e
 outro	Inms	outro	outro
@@ -24,7 +24,7 @@ Keneth Frampton	Sp00	Keneth Frampton	""
 destacado	A0ms	destacado	destacado
 crítico	Scms	crítico	crítico
 ,	Q,	,	,
-titulado	A0ms	titulado	titulado
+titulado	V0p0ms	titular	titular
 '	Q'	'	'
 O	Zs00	O	""
 mago	Scms	mago	mago

@@ -9,9 +9,9 @@ Cádiz	Sp00	Cádiz	""
 para	P	para	para
 presentar	V0f000	presentar	presentar
 a	Ddfs	o	o
-XXV	Nodfs	*	*
-Marcha	Spfs	Marcha	""
-a	Ddfs	o	o
+XXV	Zgfs	*	*
+Marcha	Spm0	Marcha	""
+a	P	a	a
 rota	Scfs	rota	rota
 ,	Q,	,	,
 Javier Couso	Spm0	Javier Couso	""
@@ -70,7 +70,7 @@ o	Ddms	o	o
 Exército	Spms	Exército	""
 de	P	de	de
 os	Ddmp	o	o
-Estados Unidos	Spmp	Estados Unidos	""
+Estados Unidos	Sp00	Estados Unidos	""
 (	Q(	(	(
 EE.UU.	Zg00	EE.UU.	EE UU
 )	Q)	)	)

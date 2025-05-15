@@ -9,13 +9,13 @@ impasse	Scms	*	*
 fala-se	Scfs	*	*
 de	P	de	de
 unha	Difs	un	un
-Europa	Spfs	Europa	""
+Europa	Sp00	Europa	""
 de	P	de	de
-xeometria	Scfs	*	*
+xeometria	Scfs	xeometría	xeometría
 variábel	A0fs	variábel	variable
 ,	Q,	,	,
 que	Tnfs	que	que
-distinguiria	Vci30s	*	*
+distinguiria	Vci30s	distinguir	distinguir
 de	P	de	de
 a	Ddfs	o	o
 Europa	Spfs	Europa	""
@@ -63,4 +63,5 @@ industriais	A0fp	industrial	industrial
 ,	Q,	,	,
 sociais	A0fp	social	social
 ,	Q,	,	,
-etc.	Za00	etc.	""
+etc	Za00	etc	""
+.	Q.	.	.

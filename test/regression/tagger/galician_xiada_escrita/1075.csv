@@ -27,13 +27,11 @@ público	Scms	público	público
 e	Cc	e	e
 que	Tnms	que	que
 era	Vii30s	ser	ser
-""""	"Q"""	""""	""""
-Negrillo	Sp00	Negrillo	""
-""""	"Q"""	""""	""""
+"""Negrillo"""	Spm0	"""Negrillo"""	""
 ,	Q,	,	,
 e	Cc	e	e
-outro	Inms	outro	outro
-secreto	A0ms	secreto	secreto
+outro	Idms	outro	outro
+secreto	Scms	secreto	""
 ,	Q,	,	,
 que	Cs	que	que
 sóio	Wn	sóio	só
@@ -53,6 +51,7 @@ e	Cc	e	e
 que	Tnms	que	que
 era	Vii30s	ser	ser
 """"	"Q"""	""""	""""
-San Pablo	Sp00	San Pablo	""
+San	A0ms	santo	santo
+Pablo	Spm0	Pablo	""
 """"	"Q"""	""""	""""
 .	Q.	.	.

@@ -8,7 +8,7 @@ o	Ddms	o	o
 colesterol	Scms	colesterol	colesterol
 malo	A0ms	malo	malo
 (	Q(	(	(
-LDL-c	Sp00	LDL-c	""
+LDL-c	Zg00	*	*
 )	Q)	)	)
 de	P	de	de
 o	Ddms	o	o
@@ -19,6 +19,6 @@ conserva	Vpi30s	conservar	conservar
 o	Ddms	o	o
 bo	A0ms	bo	bo
 (	Q(	(	(
-HDL-c	Sp00	HDL-c	""
+HDL-c	Zg00	*	*
 )	Q)	)	)
 .	Q.	.	.

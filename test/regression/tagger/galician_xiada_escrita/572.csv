@@ -22,10 +22,7 @@ lados	Scmp	lado	lado
 de	P	de	de
 o	Ddms	o	o
 Atlántico	Spms	Atlántico	""
-con	P	con	con
-o	Ddms	o	o
-fin	Scms	fin	fin
-de	P	de	de
+con o fin de	P	con o fin de	con o fin de
 explorar	V0f000	explorar	explorar
 en	P	en	en
 profundidade	Scfs	profundidade	profundidade

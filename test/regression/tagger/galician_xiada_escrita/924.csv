@@ -22,9 +22,9 @@ que	Tnfs	que	que
 en	P	en	en
 1838	Ncnms	1838	""
 ,	Q,	,	,
-Antonio Casares	Sp00	Antonio Casares	""
+Antonio Casares	Spm0	Antonio Casares	""
 ,	Q,	,	,
-que	Tnfp	que	que
+que	Cs	que	que
 nada	Inns	nada	nada
 tiña	Vii30s	ter	ter
 que	Cs	que	que
@@ -64,5 +64,17 @@ a	Ddfs	o	o
 súa	Md3sfs	seu	seu
 limpeza	Scfs	limpeza	limpeza
 e	Cc	e	e
-reparación	Scfs	reparación	reparación
+reparación<referencia	Scfs	*	*
+_	Q_	_	_
+nota	Vpi30s	notar	notar
+referencia=	Scfs	*	*
+""""	"Q"""	""""	""""
+_	Q_	_	_
+_	Q_	_	_
+_	Q_	_	_
+1	Ncnms	1	""
+_	Q_	_	_
+52	Ncdfp	52	""
+""""	"Q"""	""""	""""
+/>	Scms	*	*
 .	Q.	.	.

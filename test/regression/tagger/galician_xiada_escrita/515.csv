@@ -8,7 +8,7 @@ española	A0fs	español	español
 de	P	de	de
 Cahiers	Sp00	Cahiers	""
 du	Vei30s	*	*
-cinéma	Wn	*	*
+cinéma	Scms	cinema	cinema
 fai	Vpi30s	facer	facer
 referencia	Scfs	referencia	referencia
 en	P	en	en
@@ -22,8 +22,8 @@ titular	Scms	titular	titular
 de	P	de	de
 Tiempos	Sp00	Tiempos	""
 de	P	de	de
-futuro.	Zams	*	*
-29	Ncnms	29	""
+futuro.	Za00	*	*
+29	Ncdfp	29	""
 miradas	Scfp	mirada	mirada
 al	A0ms	*	*
 cine	Scms	cine	cine
@@ -41,14 +41,11 @@ Pedro Almodóvar	Sp00	Pedro Almodóvar	""
 ,	Q,	,	,
 Montxo Armendáriz	Sp00	Montxo Armendáriz	""
 ,	Q,	,	,
-Icíar Bollaín	Sp00	Icíar Bollaín	""
+Icíar Bollaín	Spm0	Icíar Bollaín	""
 ,	Q,	,	,
-Guillermo	Sp00	Guillermo	""
-de	P	de	de
-el	Rtp3ms	el	el
-Toro	Sp00	Toro	""
+Guillermo del Toro	Spm0	Guillermo del Toro	""
 ou	Cc	ou	ou
-Arturo Ripstein	Sp00	Arturo Ripstein	""
+Arturo Ripstein	Spm0	Arturo Ripstein	""
 ofrecen	Vpi30p	ofrecer	ofrecer
 en	P	en	en
 o	Ddms	o	o

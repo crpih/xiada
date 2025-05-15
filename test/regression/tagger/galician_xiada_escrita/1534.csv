@@ -9,8 +9,8 @@ me	Rad1as	me	me
 un	Dims	un	un
 día	Scms	día	día
 que	Tnms	que	que
-a	Ddfs	o	o
-Medicina	Spfs	Medicina	""
+a	P	a	a
+Medicina	Sp00	Medicina	""
 é	Vpi30s	ser	ser
 """"	"Q"""	""""	""""
 Bioloxía	Sp00	Bioloxía	""
@@ -23,7 +23,8 @@ biolóxicas	A0fp	biolóxico	biolóxico
 e	Cc	e	e
 as	Ddfp	o	o
 """"	"Q"""	""""	""""
-Ciencias Médicas	Spfp	Ciencias Médicas	""
+Ciencias	Scfp	*	*
+Médicas	Sp00	Médicas	""
 """"	"Q"""	""""	""""
 non	Wn	non	non
 existen	Vpi30p	existir	existir

@@ -4,7 +4,7 @@ de	P	de	de
 o	Ddms	o	o
 sistema	Scms	sistema	sistema
 decimal	A0ms	decimal	decimal
-posicional	A0ms	*	*
+posicional	A0ms	posicional	posicional
 ,	Q,	,	,
 a	P	a	a
 o	Ddms	o	o

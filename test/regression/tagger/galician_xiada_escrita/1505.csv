@@ -5,7 +5,7 @@ maneiras	Scfp	maneira	maneira
 de	P	de	de
 mitigar	V0f000	mitigar	mitigar
 a	Ddfs	o	o
-eutrofización	Scfs	*	*
+eutrofización	Scfs	eutrofización	eutrofización
 e	Cc	e	e
 ,	Q,	,	,
 por lo tanto	Wn	por o tanto	por o tanto
@@ -36,8 +36,8 @@ formación	Scfs	formación	formación
 de	P	de	de
 gases	Scmp	gas	gas
 (	Q(	(	(
-N	Zs00	*	*
+N<subíndice>2</subíndice>	Zs00	*	*
 e	Cc	e	e
-CO	Zs00	CO	""
+CO<subíndice>2</subíndice>	Zs00	CO<subíndice>2</subíndice>	""
 )	Q)	)	)
 .	Q.	.	.

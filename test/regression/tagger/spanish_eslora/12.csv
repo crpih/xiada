@@ -17,5 +17,5 @@ algo	PNNS	algo	""
 setenta	PCMS	setenta	""
 sí	W	sí	""
 por ahí	W	por ahí	""
-será	VIH3S	ser	""
-<pausa_larga/>	ETQ_PAUSA	<pausa/>	""
+será	VIF3S	ser	""
+<pausa_larga/>	W	*	*

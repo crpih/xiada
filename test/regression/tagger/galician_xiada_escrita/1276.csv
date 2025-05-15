@@ -13,7 +13,7 @@ os	Ddmp	o	o
 0,01	Ncdmp	0,01	""
 moles	Scmp	mol	mol
 de	P	de	de
-H	Zs00	*	*
+H<superíndice>+</superíndice>	Scms	*	*
 será	Vfi30s	ser	ser
 pH	Scms	pH	pH
 =	Zs00	=	""
@@ -27,7 +27,7 @@ e	Cc	e	e
 a	Ddfs	o	o
 variación	Scfs	variación	variación
 foi	Vei30sser	ser	ser
-7-2	Ncnms	*	*
+7-2	Zgms	*	*
 =	Zs00	=	""
 5	Ncnmp	5	""
 ;	Q;	;	;

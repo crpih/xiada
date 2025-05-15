@@ -28,7 +28,19 @@ número	Scms	número	número
 de	P	de	de
 accións	Scfp	acción	acción
 que	Tnfp	que	que
-posúan	Vps30p	posuír	posuír
+posúan<referencia	Vpi30s	*	*
+_	Q_	_	_
+nota	Vpi30s	notar	notar
+referencia=	Scfs	*	*
+""""	"Q"""	""""	""""
+_	Q_	_	_
+_	Q_	_	_
+_	Q_	_	_
+12	Ncnms	12	""
+_	Q_	_	_
+2	Ncdfp	2	""
+""""	"Q"""	""""	""""
+/>	Zs00	*	*
 ;	Q;	;	;
 con todo	Wn	con todo	con todo
 ,	Q,	,	,

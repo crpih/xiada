@@ -14,6 +14,16 @@ herdado	V0p0ms	herdar	herdar
 por	P	por	por
 vía	Scfs	vía	vía
 materna	A0fs	materno	materno
+<non	Scfs	*	*
+_	Q_	_	_
+distinto	A0ms	distinto	distinto
+tipo=	Scms	*	*
+""""	"Q"""	""""	""""
+texto	Scms	texto	texto
+_	Q_	_	_
+unido	V0p0ms	unir	unir
+""""	"Q"""	""""	""""
+>	Zs00	>	""
 """"	"Q"""	""""	""""
 nena	Scfs	neno	neno
 ti	Rtn2as	ti	ti
@@ -22,4 +32,7 @@ es	Vpi20s	ser	ser
 tan	Wm	tanto	tanto
 tonta	A0fs	tonto	tonto
 """"	"Q"""	""""	""""
+</non	Wn	*	*
+_	Q_	_	_
+distinto>	Scma	*	*
 .	Q.	.	.

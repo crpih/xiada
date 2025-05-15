@@ -1,6 +1,6 @@
 pero	Cs	pero	pero
 ,	Q,	,	,
-como	Cs	como	como
+como	Wr	como	como
 a	Ddfs	o	o
 Constitución	Spfs	Constitución	""
 para	P	para	para
@@ -16,9 +16,9 @@ función	Scfs	función	función
 política	A0fs	político	político
 _	Q_	_	_
 entendida	V0p0fs	entender	entender
-esta	Enfs	este	este
+esta	Edfs	este	este
 como	Wr	como	como
-remédio	Scms	*	*
+remédio	Scms	remedio	remedio
 oportunista	A0ms	oportunista	oportunista
 para	P	para	para
 aqueles	Edmp	aquel	aquel
@@ -41,10 +41,10 @@ complicidade	Scfs	complicidade	complicidade
 de	P	de	de
 o	Ddms	o	o
 aiatolá	Scms	aiatolá	aiatolá
-Rojas-Marcos	Sp00	Rojas-Marcos	""
+Rojas-Marcos	Spm0	Rojas-Marcos	""
 e	Cc	e	e
 a	Ddfs	o	o
-complacéncia	Scfs	*	*
+complacéncia	Scfs	complacencia	compracencia
 de	P	de	de
 a	Ddfs	o	o
 Minoria Catalana	Spfs	Minoria Catalana	""
@@ -66,10 +66,10 @@ tencionando	V0x000	*	*
 de	P	de	de
 evitar	V0f000	evitar	evitar
 os	Ddmp	o	o
-costes	Scmp	coste	""
+costes	Scmp	coste	custo
 excesivos	A0mp	excesivo	excesivo
 que	Tnmp	que	que
-supoñeria	Vpi30s	*	*
+supoñeria	Vci30s	supoñer	supoñer
 recoñecer	V0f000	recoñecer	recoñecer
 os	Ddmp	o	o
 erros	Scmp	erro	erro
@@ -80,5 +80,5 @@ a	Ddfs	o	o
 lei	Scfs	lei	lei
 de	P	de	de
 o	Ddms	o	o
-referéndo	Scms	*	*
+referéndo	Scms	referendo	referendo
 .	Q.	.	.

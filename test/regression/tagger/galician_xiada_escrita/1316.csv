@@ -21,12 +21,10 @@ galegas	A0fp	galego	galego
 organizada	V0p0fs	organizar	organizar
 por	P	por	por
 lo	Ddms	o	o
-Centro de Transfusión de Galicia	Spms	Centro de Transfusión de Galicia	""
+Centro de Transfusión de Galicia	Sp00	Centro de Transfusión de Galicia	""
 ,	Q,	,	,
 dependente	A0ms	dependente	dependente
 de	P	de	de
 a	Ddfs	o	o
-Consellería de Sanidade	Spfs	Consellería de Sanidade	""
-e	Cc	e	e
-Servicios Sociais	Spm0	Servicios Sociais	""
+Consellería de Sanidade e Servicios Sociais	Spfs	Consellería de Sanidade e Servicios Sociais	""
 .	Q.	.	.

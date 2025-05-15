@@ -10,7 +10,7 @@ universidades	Scfp	universidade	universidade
 de	P	de	de
 Vigo	Sp00	Vigo	""
 ,	Q,	,	,
-Santiago	Sp00	Santiago	""
+Santiago	Spm0	Santiago	""
 e	Cc	e	e
 A Coruña	Sp00	A Coruña	""
 )	Q)	)	)
@@ -24,7 +24,8 @@ Politécnica de Cartagena	Sp00	Politécnica de Cartagena	""
 ,	Q,	,	,
 Campus Atlántico Tricontinental	Sp00	Campus Atlántico Tricontinental	""
 (	Q(	(	(
-Las Palmas	Sp00	Las Palmas	""
+Las	Wn	*	*
+Palmas	Spm0	Palmas	""
 e	Cc	e	e
 La Laguna	Sp00	La Laguna	""
 )	Q)	)	)

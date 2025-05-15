@@ -2,7 +2,7 @@ a	Ddfs	o	o
 Sociedade Galega	Spfs	Sociedade Galega	""
 de	P	de	de
 o	Ddms	o	o
-Medio Ambiente	Spms	Medio Ambiente	""
+Medio Ambiente	Sp00	Medio Ambiente	""
 (	Q(	(	(
 Sogama	Sp00	Sogama	""
 )	Q)	)	)
@@ -14,7 +14,7 @@ de	P	de	de
 a	Ddfs	o	o
 Consellería de Medio Ambiente	Spfs	Consellería de Medio Ambiente	""
 ,	Q,	,	,
-Territorio	Sp00	Territorio	""
+Territorio	Spm0	Territorio	""
 e	Cc	e	e
 Infraestruturas	Sp00	Infraestruturas	""
 ,	Q,	,	,
@@ -49,13 +49,15 @@ a	P	a	a
 o	Ddms	o	o
 medio	A0ms	medio	medio
 ambiente	Scms	ambiente	ambiente
-Life+	Spms	Life+	""
+Life	Spms	Life	""
++	Zs00	+	""
 ,	Q,	,	,
-dentro de	P	dentro de	dentro de
+dentro	Wn	dentro	dentro
+de	P	de	de
 a	Ddfs	o	o
 modalidade	Scfs	modalidade	modalidade
 de	P	de	de
 Información	Sp00	Información	""
 e	Cc	e	e
-Comunicación	Spm0	Comunicación	""
+Comunicación	Sp00	Comunicación	""
 .	Q.	.	.
