@@ -25,7 +25,21 @@ helpers do
     halt 400 unless texts.is_a?(Array)
 
     document_config = Config::Document.new(seseo: params['seseo'] == 'true', gheada: params['gheada'] == 'true')
-    yield(get_tagger, document_config, texts).to_json
+    tagger = get_tagger
+
+    # Fork to prevent memory leaks in long-running processes
+    rd, wr = IO.pipe
+    fork do
+      rd.close
+      wr.write yield(tagger, document_config, texts).to_json
+      wr.close
+    end
+    wr.close
+    result = rd.read
+    rd.close
+    Process.wait
+
+    result
 
   rescue JSON::ParserError
     halt 400
