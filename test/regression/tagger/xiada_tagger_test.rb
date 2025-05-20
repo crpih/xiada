@@ -17,8 +17,8 @@ def test_snapshots(tagger_config, document_config)
       end
 
       # Uncomment to save current results as expected
-      # FileUtils.mkdir_p("#{__dir__}/#{database_name}")
-      # File.write("#{__dir__}/#{database_name}/#{i}.csv", result)
+      # FileUtils.mkdir_p("#{__dir__}/#{tagger_config.database}")
+      # File.write("#{__dir__}/#{tagger_config.database}/#{i}.csv", result)
 
       expected = File.read("#{__dir__}/#{tagger_config.database}/#{i}.csv")
       assert_equal expected, result
