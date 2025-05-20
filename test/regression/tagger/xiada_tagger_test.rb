@@ -11,7 +11,7 @@ def test_snapshots(tagger_config, document_config)
       # We are removing unit positions to be able to compare the result with previous snapshots
       # TODO: Incorporate unit positions in the snapshots when the tagger is more stable
       result = CSV.generate(col_sep: "\t", encoding: 'utf-8') do |csv|
-        tagger.call(document_config, example).best_way.each do |token|
+        tagger.tag_texts(document_config, [example]).first.each do |token|
           csv << token.values_at(:token, :tag, :lemma, :hiperlemma)
         end
       end
