@@ -32,9 +32,9 @@ class XiadaTagger
     texts.map { |t| t.empty? ? [] : tag_text(document_config, trained_proper_nouns, t).all_ways }
   end
 
-  def call(document_config, text) = tag_text(document_config, nil, text)
-
   private
+
+  def call(document_config, text) = tag_text(document_config, nil, text)
 
   def tag_text(document_config, proper_nouns_processor, text)
     sentence = Sentence.new(
