@@ -70,7 +70,7 @@ module Config
       @enclitics_rules = "#{profile.camelize}::EncliticsRules".constantize.new
     end
 
-    def force_proper_nouns = @proper_nouns_processor&.force_proper_nouns
+    def force_proper_nouns = @proper_nouns_processor&.force_proper_nouns || false # Use false in case of nil
   end
 
   # Document tagging configuration created for each request
