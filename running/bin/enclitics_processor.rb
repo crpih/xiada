@@ -5,7 +5,9 @@ class EncliticsProcessor
   def initialize(tagger_config, enclitics_hash)
     @tagger_config = tagger_config
     @enclitics_hash = enclitics_hash
-    @rules = @tagger_config.enclitics_rules
+    @rule_matching = @tagger_config.enclitics_rule_matching
+    @validate_decomposition = @tagger_config.enclitics_validate_decomposition
+    @filter_tags = @tagger_config.enclitics_filter_tags
   end
 
   def process(sentence)
@@ -57,7 +59,7 @@ class EncliticsProcessor
       left_tags = @tagger_config.dw.get_enclitic_verbs_roots_tags(sentence.document_config, left)
       left_tags_string = left_tags.join(" ")
       unless left_tags.empty? or !@tagger_config.dw.enclitic_combination_exists?(right)
-        result = @rules.validate_decomposition(left, left_tags_string, right) { |e| syllable_count(e) }
+        result = @validate_decomposition.(left, left_tags_string, right) { |e| syllable_count(e) }
         valid = result[0]
         verb_part = result[1]
         enclitic_part = result[2]
@@ -125,7 +127,7 @@ class EncliticsProcessor
 
       new_token = nil
       enclitics_forms.each_index do |index|
-        result = @rules.filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
+        result = @filter_tags.(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
         enclitic = result[0]
         tags = result[1]
         lemmas = result[2]
@@ -191,7 +193,7 @@ class EncliticsProcessor
 
     new_token = nil
     enclitics_forms.each_index do |index|
-      result = @rules.filter_tags_enclitic(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
+      result = @filter_tags.(verb_part, enclitics_forms, enclitics_forms[index], enclitics_tags[index], enclitics_lemmas[index], index)
       enclitic = result[0]
       tags = result[1]
       lemmas = result[2]
@@ -431,7 +433,7 @@ class EncliticsProcessor
         recovery_log_b = Float(result[4])
         # If there are several entries for the same tag and lemma, we
         # choose the word with the greater proximity score.
-        new_recovery_word = @rules.rule_matching(verb_part, tag_value, enclitic_part, enclitic_syllables_length, extra, recovery_word)
+        new_recovery_word = @rule_matching.(verb_part, tag_value, enclitic_part, enclitic_syllables_length, extra, recovery_word)
         unless recovery_word == new_recovery_word
           final_recovery_word = new_recovery_word
           final_recovery_tag = recovery_tag

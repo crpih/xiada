@@ -6,32 +6,43 @@ require_relative "proper_nouns"
 # spanish_eslora profile
 require_relative "../spanish_eslora/lemmatizer"
 require_relative "../spanish_eslora/pruning_system"
-require_relative "../spanish_eslora/enclitics_rules"
+require_relative "../spanish_eslora/enclitics/rule_matching"
+require_relative "../spanish_eslora/enclitics/validate_decomposition"
+require_relative "../spanish_eslora/enclitics/filter_tags"
 
 # galician_eslora profile
 require_relative "../galician_eslora/lemmatizer"
 require_relative "../galician_eslora/pruning_system"
-require_relative "../galician_eslora/enclitics_rules"
+require_relative "../galician_eslora/enclitics/rule_matching"
+require_relative "../galician_eslora/enclitics/validate_decomposition"
+require_relative "../galician_eslora/enclitics/filter_tags"
 
 # galician_xiada profile
 require_relative "../galician_xiada/lemmatizer"
 require_relative "../galician_xiada/pruning_system"
-require_relative "../galician_xiada/enclitics_rules"
+require_relative "../galician_xiada/enclitics/rule_matching"
+require_relative "../galician_xiada/enclitics/validate_decomposition"
+require_relative "../galician_xiada/enclitics/filter_tags"
 
 # galician_xiada_oral profile
 require_relative "../galician_xiada_oral/lemmatizer"
 require_relative "../galician_xiada_oral/pruning_system"
-require_relative "../galician_xiada_oral/enclitics_rules"
+require_relative "../galician_xiada_oral/enclitics/rule_matching"
+require_relative "../galician_xiada_oral/enclitics/validate_decomposition"
+require_relative "../galician_xiada_oral/enclitics/filter_tags"
 
 # galician_palmed profile
 require_relative "../galician_palmed/lemmatizer"
 require_relative "../galician_palmed/pruning_system"
-require_relative "../galician_palmed/enclitics_rules"
+require_relative "../galician_palmed/enclitics/rule_matching"
+require_relative "../galician_palmed/enclitics/validate_decomposition"
+require_relative "../galician_palmed/enclitics/filter_tags"
 
 module Config
   class Tagger
     attr_reader :profile, :database, :seseo, :only_lexicon, :force_proper_nouns
-    attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system, :enclitics_rules
+    attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system
+    attr_reader :enclitics_rule_matching, :enclitics_filter_tags, :enclitics_validate_decomposition
 
     def self.from_env
       new(profile: ENV["XIADA_PROFILE"],
@@ -65,9 +76,12 @@ module Config
         end
 
       @dw = DatabaseWrapper.new(self)
-      @lemmatizer = "#{profile.camelize}::Lemmatizer".constantize.new(self)
-      @pruning_system = "#{profile.camelize}::PruningSystem".constantize.new
-      @enclitics_rules = "#{profile.camelize}::EncliticsRules".constantize.new
+      profile_module = profile.camelize
+      @lemmatizer = "#{profile_module}::Lemmatizer".constantize.new(self)
+      @pruning_system = "#{profile_module}::PruningSystem".constantize.new
+      @enclitics_rule_matching = "#{profile_module}::Enclitics::RuleMatching".constantize.new
+      @enclitics_filter_tags = "#{profile_module}::Enclitics::FilterTags".constantize.new
+      @enclitics_validate_decomposition = "#{profile_module}::Enclitics::ValidateDecomposition".constantize.new
     end
 
     def force_proper_nouns = @proper_nouns_processor&.force_proper_nouns || false # Use false in case of nil
