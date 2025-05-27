@@ -19,7 +19,7 @@ onte	Wn	onte	onte
 partidario	A0ms	partidario	partidario
 de	P	de	de
 transferir	V0f000	transferir	transferir
--las	Ddfp	o	o
+las	Ddfp	o	""
 competencias	Scfp	competencia	competencia
 en	P	en	en
 materia	Scfs	materia	materia
@@ -30,7 +30,7 @@ comunidades	Scfp	comunidade	comunidade
 autónomas	A0fp	autónomo	autónomo
 para	P	para	para
 mellorar	V0f000	mellorar	mellorar
--la	Ddfs	o	o
+la	Ddfs	o	""
 operatividade	Scfs	operatividade	operatividade
 de	P	de	de
 os	Ddmp	o	o

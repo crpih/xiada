@@ -62,7 +62,7 @@ meses	Scmp	mes	mes
 _	Q_	_	_
 ,	Q,	,	,
 adiantar	V0f000	adiantar	adiantar
--lo	Ddms	o	o
+lo	Ddms	o	""
 inicio	Scms	inicio	inicio
 de	P	de	de
 a	Ddfs	o	o
@@ -85,7 +85,7 @@ meses	Scmp	mes	mes
 _	Q_	_	_
 ,	Q,	,	,
 adaptar	V0f000	adaptar	adaptar
--lo	Ddms	o	o
+lo	Ddms	o	""
 calendario	Scms	calendario	calendario
 a	P	a	a
 as	Ddfp	o	o
@@ -100,7 +100,7 @@ vacinas	Scfp	vacina	vacina
 _	Q_	_	_
 e	Cc	e	e
 flexibilizar	V0f000	flexibilizar	flexibilizar
--las	Ddfp	o	o
+las	Ddfp	o	""
 opcións	Scfp	opción	opción
 de	P	de	de
 vacinación	Scfs	vacinación	vacinación
