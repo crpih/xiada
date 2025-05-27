@@ -390,20 +390,6 @@ class EncliticsProcessor
     return count
   end
 
-  ##############################################################################
-  # Private functions for enclitic_pronouns_rules_compiler generated function
-  ##############################################################################
-
-  def replace_form(new_form)
-    return (new_form)
-  end
-
-  def remove_initial_character(string, character)
-    if string.start_with?("#{character}")
-      return string[1, string.length - 1]
-    end
-  end
-
   # This method was previously in EncliticsProcessorCustom
   def restore_source_form(sentence, verb_part, verb_tags, enclitic_part, enclitic_syllables_length, begin_alternative_token, end_alternative_token, token_from, token_to, token)
     #STDERR.puts "verb_part: #{verb_part}"

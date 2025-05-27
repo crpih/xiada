@@ -1,7 +1,6 @@
 module GalicianEslora
   class PruningSystem
-    def initialize
-    end
+    def initialize; end
 
     def process(window)
       # RULE: el|un,D.FS,_,_,x	a*|á*|ha*,!NCFS,_,_
@@ -340,29 +339,23 @@ module GalicianEslora
       if (window[0][0] =~ /^(como)$/) and (window[1][3] =~ /^(.*mos)$/) and (window[2][0] =~ /^(me)$/) and (window[3][1] =~ /^(PY3.*)$/)
         return 4
       end
+
       return 0
     end
 
     private
 
-    def match_some_lemma (lemmas, string)
-      lemmas.each do |lemma|
-        if lemma =~ /^(#{string})$/
-          return true
+    def match_some_lemma (lemmas, string) = lemmas.any? { |l| l =~ /^(#{string})$/ }
+
+    def print_window(window)
+      window.each do |element|
+        if element != nil
+          STDERR.print "(#{element[0]}/#{element[1]}/#{element[2]}/#{element[3]})"
+        else
+          STDERR.print "(empty/empty/empty/empty)"
         end
       end
-      return false
+      STDERR.puts ""
     end
-  end
-
-  def print_window(window)
-    window.each do |element|
-      if element != nil
-        STDERR.print "(#{element[0]}/#{element[1]}/#{element[2]}/#{element[3]})"
-      else
-        STDERR.print "(empty/empty/empty/empty)"
-      end
-    end
-    STDERR.puts ""
   end
 end

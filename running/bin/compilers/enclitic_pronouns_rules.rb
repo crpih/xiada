@@ -1,4 +1,7 @@
 require 'rexml/document'
+require "stringio"
+require "active_support/core_ext/string/inflections"
+require "active_support/core_ext/string/indent"
 
 module Compilers
   module EncliticPronounsRules
@@ -6,7 +9,7 @@ module Compilers
       rule_count = 1
       enclitic_pronouns_rules_xml = REXML::Document.new(File.open(xml_rules_file_name))
 
-      output.puts "  def filter_tags_enclitic(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index)"
+      output.puts "  def call(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index)"
       # puts "    puts \"calling filter_tags_enclitics with verb_part:\#{verb_part} enclitic:\#{enclitic} enclitic_tags:\#{enclitic_tags} enclitic_lemmas:\#{enclitic_lemmas}\""
       enclitic_pronouns_rules_xml.elements.each("//rule") do |rule|
         output.puts "# RULE: #{rule_count}"
@@ -21,7 +24,7 @@ module Compilers
       output.puts "      result = [enclitic, enclitic_tags, enclitic_lemmas]"
       output.puts "    end"
       output.puts "    return result"
-      output.puts "  end # from def filter_tags_enclitic"
+      output.puts "  end"
     end
 
     private_class_method def self.filter_tags(filter, output)
@@ -191,7 +194,7 @@ module Compilers
             # Remove corresponding tags and call following condition
             filter_tags(filter, output)
           elsif action == "replace_form"
-            output.puts "    enclitic = replace_form(\"#{param}\")"
+            output.puts "    enclitic = \"#{param}\""
           elsif action == "remove_initial_character"
             output.puts "    enclitic = remove_initial_character(enclitic, \"#{param}\")"
           end
@@ -376,27 +379,20 @@ module Compilers
   end
 end
 
-# main
+if __FILE__ == $0
+  profile = ARGV[0]
+  method_output = StringIO.new
+  Compilers::EncliticPronounsRules.print_filter_tags_enclitic("#{__dir__}/../../#{profile}/enclitic_pronouns_rules.xml", method_output)
 
-# This script reads from STDIN and replaces validate_enclitics function.
-# In its normal operation, this scripts reads from STDIN the enclitic_verbs_rules_compiler.rb
-# output.
-
-if ARGV.size == 1
-  xml_rules_file_name = ARGV[0]
-  while line = STDIN.gets
-    line.chomp!
-    if line =~ /def filter_tags_enclitic/
-      line = STDIN.gets
-      print_filter_tags_enclitic(xml_rules_file_name)
-    else
-      puts line
+  module_content = <<~RUBY
+    module #{profile.camelize}
+      module Enclitics
+        class FilterTags
+    #{method_output.string.indent(4)}
+        end
+      end
     end
-  end
-else
-  puts "Usage:"
-  puts "  cat enclitics_processor.base.rb | ruby enclitic_verbs_rules_compiler.rb <enclitic_verbs_rules_xml_file> | ruby enclitic_pronouns_rules_compiler.rb <enclitic_pronouns_rules_xml_file>"
+  RUBY
+
+  File.write("#{__dir__}/../../#{profile}/enclitics/filter_tags.rb", module_content)
 end
-
-
-

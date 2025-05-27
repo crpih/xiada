@@ -1,11 +1,6 @@
 module GalicianEslora
   module Enclitics
     class FilterTags
-      # Function which filters the tags of an enclitic within a decomposition sequence
-      # It return an array of three elements:
-      # 1) The form of the enclitic, which could be changed.
-      # 2) A string with space separated valid enclitic tags
-      # 3) A string with space separated corresponding lemmas
       def call(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index)
         # RULE: 1
         # RULE: 1 DEPTH:1 CONDITION:1
@@ -34,7 +29,7 @@ module GalicianEslora
               enclitic_tags = new_enclitic_tags_array.join(" ")
               enclitic_lemmas = new_enclitic_lemmas_array.join(" ")
             end
-            enclitic = replace_form("lles")
+            enclitic = "lles"
           end
         end
         # RULE: 2
@@ -171,7 +166,7 @@ module GalicianEslora
               enclitic_tags = new_enclitic_tags_array.join(" ")
               enclitic_lemmas = new_enclitic_lemmas_array.join(" ")
             end
-            enclitic = replace_form("nos")
+            enclitic = "nos"
           end
         end
         # RULE: 7
@@ -180,7 +175,7 @@ module GalicianEslora
         if index < enclitics.length - 1 and enclitic =~ /^vo$/
           # RULE: 7 DEPTH:2 CONDITION:1
           if index < enclitics.length - 1 and enclitics[index + 1] =~ /^lo$|^la$|^los$|^las$|^-lo$|^-la$|^-los$|^-las$/
-            enclitic = replace_form("vos")
+            enclitic = "vos"
           end
         end
         # RULE: 8
@@ -245,6 +240,7 @@ module GalicianEslora
         end
         return result
       end
+
     end
   end
 end

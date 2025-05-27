@@ -1,4 +1,7 @@
 require 'rexml/document'
+require "stringio"
+require "active_support/core_ext/string/inflections"
+require "active_support/core_ext/string/indent"
 
 module Compilers
   module EncliticVerbsRules
@@ -6,7 +9,7 @@ module Compilers
       rule_count = 1
       enclitic_verbs_rules_xml = REXML::Document.new(File.open(xml_rules_file_name))
 
-      output.puts "  def validate_decomposition(verb_part, verb_tags, enclitic_part)"
+      output.puts "  def call(verb_part, verb_tags, enclitic_part, &syllable_count)"
       output.puts "  # validate_decomposition verb_part:\#{verb_part}, verb_tags:\#{verb_tags}, enclitic_part:\#{enclitic_part}"
 
       output.puts "    check_default = true"
@@ -24,7 +27,7 @@ module Compilers
         condition = rule.get_elements("condition")[0]
         output.puts "    if check_default"
         process_condition(condition, 1, rule_count, 1, output)
-        output.puts "    end # from default_rule"
+        output.puts "    end"
       end
       output.puts "    if verb_tags == nil or verb_tags.empty?"
       output.puts "      result = [false, nil, nil, nil]"
@@ -33,7 +36,7 @@ module Compilers
       output.puts "      result = [true, verb_part, enclitic_part, verb_tags]"
       output.puts "      return result"
       output.puts "    end"
-      output.puts "  end # from def validate_decomposition"
+      output.puts "  end"
     end
     def self.filter_tags(filter, output)
       # puts "filter:#{filter}"
@@ -237,7 +240,7 @@ module Compilers
         #  process_condition(next_condition, condition_number+1, rule_number)
         # end
       end
-      puts "    end" # unless action == "reject"
+      output.puts "    end" # unless action == "reject"
     end
 
     private_class_method def self.replace_wildcards(string) = string.gsub("?", ".").gsub("*", ".*")
@@ -377,7 +380,25 @@ module Compilers
     end
 
     private_class_method def self.process_evaluation_content_count(evaluation_count, output)
-      output.puts "    if syllable_count(enclitic_part) #{evaluation_count}"
+      output.puts "    if syllable_count.(enclitic_part) #{evaluation_count}"
     end
   end
+end
+
+if __FILE__ == $0
+  profile = ARGV[0]
+  method_output = StringIO.new
+  Compilers::EncliticVerbsRules.print_validate_decomposition("#{__dir__}/../../#{profile}/enclitic_verbs_rules.xml", method_output)
+
+  module_content = <<~RUBY
+    module #{profile.camelize}
+      module Enclitics
+        class ValidateDecomposition
+    #{method_output.string.indent(4)}
+        end
+      end
+    end
+  RUBY
+
+  File.write("#{__dir__}/../../#{profile}/enclitics/validate_decomposition.rb", module_content)
 end

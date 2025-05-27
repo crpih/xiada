@@ -1,11 +1,6 @@
 module GalicianXiada
   module Enclitics
     class FilterTags
-      # Function which filters the tags of an enclitic within a decomposition sequence
-      # It return an array of three elements:
-      # 1) The form of the enclitic, which could be changed.
-      # 2) A string with space separated valid enclitic tags
-      # 3) A string with space separated corresponding lemmas
       def call(verb_part, enclitics, enclitic, enclitic_tags, enclitic_lemmas, index)
         # RULE: 1
         # RULE: 1 DEPTH:1 CONDITION:1
@@ -245,6 +240,7 @@ module GalicianXiada
         end
         return result
       end
+
     end
   end
 end
