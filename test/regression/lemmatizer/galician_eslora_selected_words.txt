@@ -211,3 +211,14 @@ ghlobos
 # Regression tests for problems detected
 pois
 hoxe
+
+# Prefixes with parens
+(des)prezo
+(ex)muller
+(macro)acordo
+(micro)ficha
+(pre)campaña
+(re)construcións
+(semi)autónomo
+(sub)categoría
+

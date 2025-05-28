@@ -2,7 +2,11 @@
 require "rubygems"
 require "dbi"
 require "sqlite3"
-require_relative "../../lib/sql_utils.rb"
+require_relative "../../lib/sql_utils"
+
+# AutoRule is used in here as workaround
+require_relative "../galician_xiada/lemmas/prefix_vowel"
+
 class DatabaseWrapper
   CARDINALS_MAX_NUM_COMPONENTS = 4
   PROPER_NOUNS_MAX_NUM_COMPONENTS = 15
@@ -495,7 +499,7 @@ class DatabaseWrapper
   end
 
   def get_possible_tags(tags)
-    result = ""
+    result = +""
     tags.each do |tag|
       result << "," unless result.empty?
       if tag =~ /[\*\_]/
@@ -522,7 +526,7 @@ class DatabaseWrapper
   private
 
   def get_tags_from_regexp(tag_regexp)
-    result = ""
+    result = +""
     @db.execute("select distinct(tk) from unigram_frequencies where tk like '#{tag_regexp}'") do |row|
       tag = row[0]
       result << "," unless result.empty?
@@ -612,7 +616,7 @@ class DatabaseWrapper
     # This is a CORGA prefix rule, but it is the same as eslora one.
     # We use it in the common code by now.
     # Tags are irrelevant in this case, since the DB search was already done.
-    auto_rule = Lemmas::AutoRule.new([])
+    auto_rule = Lemmas::PrefixVowel::AutoRule.new([])
     result.map do |word, tag, lemma, hiperlemma, log_b|
       next [word, tag, lemma, hiperlemma, log_b] unless verb_part.start_with?('auto')
 

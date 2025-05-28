@@ -1,4 +1,4 @@
-FROM ruby:3.1.2-slim-buster
+FROM ruby:3.4.2-slim-buster
 
 ARG TRAIN=true
 

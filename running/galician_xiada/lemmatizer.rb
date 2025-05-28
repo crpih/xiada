@@ -1,20 +1,14 @@
 # frozen_string_literal: true
-require_relative '../bin/lemmas/query'
-require_relative '../bin/lemmas/result'
-require_relative '../bin/lemmas/utils'
-require_relative 'lemmas/auto_rule'
-require_relative 'lemmas/isimo_rule'
-require_relative 'lemmas/mente_rule'
-require_relative 'lemmas/inho_rule'
-require_relative 'lemmas/ex_rule'
-require_relative 'lemmas/ex_proper_rule'
-require_relative 'lemmas/meta_rule'
-require_relative 'lemmas/etno_rule'
-require_relative 'lemmas/macro_rule'
-require_relative 'lemmas/micro_rule'
-require_relative 'lemmas/xeo_rule'
-require_relative 'lemmas/multi_rule'
-require_relative 'lemmas/tele_rule'
+require_relative "../bin/lemmas/query"
+require_relative "../bin/lemmas/result"
+require_relative "../bin/lemmas/utils"
+require_relative "lemmas/isimo_rule"
+require_relative "lemmas/mente_rule"
+require_relative "lemmas/inho_rule"
+require_relative "lemmas/ex_rule"
+require_relative "lemmas/ex_proper_rule"
+require_relative "lemmas/prefix_vowel"
+require_relative "lemmas/prefix_parens"
 
 module GalicianXiada
   class Lemmatizer
@@ -22,21 +16,34 @@ module GalicianXiada
 
     def initialize(tagger_config)
       @tagger_config = tagger_config
-      @tags = @tagger_config.dw.get_possible_tags([ '*' ]).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
+      @tags = @tagger_config.dw.get_possible_tags([ "*" ]).split(",").map { |t| t.delete_prefix("'").delete_suffix("'") }
 
       @mente_rule = Lemmas::MenteRule.new(@tags)
-      @auto_rule = Lemmas::AutoRule.new(@tags)
       @isimo_rule = Lemmas::IsimoRule.new(@tags)
       @inho_rule = Lemmas::InhoRule.new(@tags)
-      @ex_rule = Lemmas::ExRule.new(@tags)
       @ex_proper_rule = Lemmas::ExProperRule.new(@tags)
-      @meta_rule = Lemmas::MetaRule.new(@tags)
-      @etno_rule = Lemmas::EtnoRule.new(@tags)
-      @macro_rule = Lemmas::MacroRule.new(@tags)
-      @micro_rule = Lemmas::MicroRule.new(@tags)
-      @xeo_rule = Lemmas::XeoRule.new(@tags)
-      @multi_rule = Lemmas::MultiRule.new(@tags)
-      @tele_rule = Lemmas::TeleRule.new(@tags)
+      @ex_rule = Lemmas::ExRule.new(@tags)
+
+      @prefix_rules = [
+        # Prefixes that end in a vowel
+        Lemmas::PrefixVowel::AutoRule.new(@tags),
+        Lemmas::PrefixVowel::MetaRule.new(@tags),
+        Lemmas::PrefixVowel::EtnoRule.new(@tags),
+        Lemmas::PrefixVowel::MacroRule.new(@tags),
+        Lemmas::PrefixVowel::MicroRule.new(@tags),
+        Lemmas::PrefixVowel::XeoRule.new(@tags),
+        Lemmas::PrefixVowel::MultiRule.new(@tags),
+        Lemmas::PrefixVowel::TeleRule.new(@tags),
+        # Prefixes with parens
+        Lemmas::PrefixParens::DesRule.new(@tags),
+        Lemmas::PrefixParens::ExRule.new(@tags),
+        Lemmas::PrefixParens::MacroRule.new(@tags),
+        Lemmas::PrefixParens::MicroRule.new(@tags),
+        Lemmas::PrefixParens::PreRule.new(@tags),
+        Lemmas::PrefixParens::ReRule.new(@tags),
+        Lemmas::PrefixParens::Semi.new(@tags),
+        Lemmas::PrefixParens::SubRule.new(@tags),
+      ]
     end
 
     def lemmatize(document_config, word, tags)
@@ -69,39 +76,7 @@ module GalicianXiada
             return literal_result if literal_result.any?
 
             # Try prefix and suffix first
-            prefix_suffix_result = [
-              *@auto_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@ex_proper_rule.(q) do |q|
-                proper_noun(q)
-              end,
-              *@ex_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@meta_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@etno_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@macro_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@micro_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@xeo_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@multi_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *@tele_rule.(q) do |q|
-                suffix_rules(q)
-              end,
-              *suffix_rules(q),
-            ]
+            prefix_suffix_result = prefix_suffix_rules(q)
             return prefix_suffix_result if prefix_suffix_result.any?
 
             # Try accented variants with all rules
@@ -116,9 +91,9 @@ module GalicianXiada
     # Simplified auto rule that only works with strings
     # Proper way to do it will be to use the same rules as in the lemmatizer, but this will require a huge refactor
     def enclitics_auto_rule(left_part)
-      return left_part.delete_prefix('autor') if left_part.start_with?('autorr')
-      return left_part.delete_prefix('auto-') if left_part.start_with?('auto-')
-      return left_part.delete_prefix('auto') if left_part.start_with?('auto')
+      return left_part.delete_prefix("autor") if left_part.start_with?("autorr")
+      return left_part.delete_prefix("auto-") if left_part.start_with?("auto-")
+      return left_part.delete_prefix("auto") if left_part.start_with?("auto")
 
       left_part
     end
@@ -149,16 +124,7 @@ module GalicianXiada
         literal_result = find(q)
         return literal_result if literal_result.any?
 
-        [
-          *@auto_rule.(q) { |q| accented_suffix_rules(q) },
-          *@meta_rule.(q) { |q| accented_suffix_rules(q) },
-          *@etno_rule.(q) { |q| accented_suffix_rules(q) },
-          *@macro_rule.(q) { |q| accented_suffix_rules(q) },
-          *@micro_rule.(q) { |q| accented_suffix_rules(q) },
-          *@xeo_rule.(q) { |q| accented_suffix_rules(q) },
-          *@multi_rule.(q) { |q| accented_suffix_rules(q) },
-          *@tele_rule.(q) { |q| accented_suffix_rules(q) },
-        ]
+        @prefix_rules.flat_map { |rule| rule.(q) { accented_suffix_rules(it) } }
       end
     end
 
@@ -173,12 +139,24 @@ module GalicianXiada
       ]
     end
 
+    def prefix_suffix_rules(query)
+      [
+        # Ex and ExProper are different to other prefix rules
+        *@ex_proper_rule.(query) { proper_noun(it) },
+        *@ex_rule.(query) { suffix_rules(it) },
+        # General prefix rules
+        *@prefix_rules.flat_map { |rule| rule.(query) { suffix_rules(it) } },
+        # Use only suffix rules as fallback if no prefix rule matches
+        *suffix_rules(query),
+      ]
+    end
+
     def suffix_rules(query)
       literal_result = find(query)
       return literal_result if literal_result.any?
 
       [
-        *@mente_rule.(query) { |qa| find_guesser('mente', qa) },
+        *@mente_rule.(query) { |qa| find_guesser("mente", qa) },
         *@isimo_rule.(query) { |qa| find(qa) },
         *@inho_rule.(query) { |qa| find(qa) },
       ]
@@ -195,7 +173,7 @@ module GalicianXiada
     end
 
     def proper_noun(query)
-      [ Lemmas::Result.new(query, nil, 'Sp00', query.word, query.word, 0.0) ]
+      [ Lemmas::Result.new(query, nil, "Sp00", query.word, query.word, 0.0) ]
     end
   end
 end

@@ -4032,5 +4032,181 @@
       "hoxe",
       -9.128804883993665
     ]
+  ],
+  "(des)prezo": [
+    [
+      "NCMS",
+      "(des)prezo",
+      "(des)prezo",
+      -9.981327836654465
+    ],
+    [
+      "VIP1S",
+      "(des)prezar",
+      "(des)prezar",
+      -8.997889450200717
+    ]
+  ],
+  "(des)prezos": [
+    [
+      "NCMP",
+      "(des)prezo",
+      "(des)prezo",
+      -10.041291056683322
+    ]
+  ],
+  "(des)preza": [
+    [
+      "VIP3S",
+      "(des)prezar",
+      "(des)prezar",
+      -9.091444217032327
+    ],
+    [
+      "VMP2S",
+      "(des)prezar",
+      "(des)prezar",
+      -8.902727664035522
+    ]
+  ],
+  "(des)prezas": [
+    [
+      "VIP2S",
+      "(des)prezar",
+      "(des)prezar",
+      -8.9758830607617
+    ]
+  ],
+  "(ex)muller": [
+    [
+      "NCFS",
+      "(ex)muller",
+      "(ex)muller",
+      -9.966744002171144
+    ]
+  ],
+  "(macro)acordo": [
+    [
+      "NCMS",
+      "(macro)acordo",
+      "(macro)acordo",
+      -9.981327836654465
+    ],
+    [
+      "VIP1S",
+      "(macro)acordar",
+      "(macro)acordar",
+      -8.997889450200717
+    ]
+  ],
+  "(macro)acordos": [
+    [
+      "NCMP",
+      "(macro)acordo",
+      "(macro)acordo",
+      -10.041291056683322
+    ]
+  ],
+  "(macro)acorda": [
+    [
+      "VIP3S",
+      "(macro)acordar",
+      "(macro)acordar",
+      -9.091444217032327
+    ],
+    [
+      "VMP2S",
+      "(macro)acordar",
+      "(macro)acordar",
+      -8.902727664035522
+    ]
+  ],
+  "(macro)acordas": [
+    [
+      "VIP2S",
+      "(macro)acordar",
+      "(macro)acordar",
+      -8.9758830607617
+    ]
+  ],
+  "(micro)ficha": [
+    [
+      "NCFS",
+      "(micro)ficha",
+      "(micro)ficha",
+      -9.966744002171144
+    ],
+    [
+      "VIP3S",
+      "(micro)fichar",
+      "(micro)fichar",
+      -9.091444217032327
+    ],
+    [
+      "VMP2S",
+      "(micro)fichar",
+      "(micro)fichar",
+      -8.902727664035522
+    ]
+  ],
+  "(pre)campaña": [
+    [
+      "NCFS",
+      "(pre)campaña",
+      "(pre)campaña",
+      -8.868131713503033
+    ]
+  ],
+  "(re)construcións": [
+    [
+      "NCFP",
+      "(re)construción",
+      "(re)construción",
+      -10.033330902684877
+    ]
+  ],
+  "(semi)autónomo": [
+    [
+      "AAS",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.645687854566217
+    ],
+    [
+      "AMS",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.647627092407303
+    ]
+  ],
+  "(semi)autónoma": [
+    [
+      "AFS",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.670230532062421
+    ]
+  ],
+  "(semi)autónomas": [
+    [
+      "AFP",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.834351813701266
+    ]
+  ],
+  "(sub)categoría": [
+    [
+      "NCFS",
+      "(sub)categoría",
+      "(sub)categoría",
+      -8.868131713503033
+    ]
   ]
 }

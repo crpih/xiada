@@ -3476,5 +3476,201 @@
       "amigo",
       -10.643780689153017
     ]
+  ],
+  "(des)prezo": [
+    [
+      "Scms",
+      "(des)prezo",
+      "(des)prezo",
+      -5.568910332098077
+    ],
+    [
+      "Vpi10s",
+      "(des)prezar",
+      "(des)prezar",
+      -9.190749722211178
+    ]
+  ],
+  "(des)prezos": [
+    [
+      "Scmp",
+      "(des)prezo",
+      "(des)prezo",
+      -5.016868550239797
+    ]
+  ],
+  "(des)preza": [
+    [
+      "V0m20s",
+      "(des)prezar",
+      "(des)prezar",
+      -8.95531908176395
+    ],
+    [
+      "Vpi30s",
+      "(des)prezar",
+      "(des)prezar",
+      -10.107081244605622
+    ]
+  ],
+  "(des)prezas": [
+    [
+      "Vpi20s",
+      "(des)prezar",
+      "(des)prezar",
+      -9.017847259860732
+    ]
+  ],
+  "(ex)muller": [
+    [
+      "Scfs",
+      "(ex)muller",
+      "(ex)muller",
+      -5.297686669166525
+    ]
+  ],
+  "(macro)acordo": [
+    [
+      "Scms",
+      "(macro)acordo",
+      "(macro)acordo",
+      -6.258262441689471
+    ],
+    [
+      "Vpi10s",
+      "(macro)acordar",
+      "(macro)acordar",
+      -7.111308180531343
+    ]
+  ],
+  "(macro)acordos": [
+    [
+      "Scmp",
+      "(macro)acordo",
+      "(macro)acordo",
+      -7.408249142016975
+    ]
+  ],
+  "(macro)acorda": [
+    [
+      "V0m20s",
+      "(macro)acordar",
+      "(macro)acordar",
+      -7.163559612535895
+    ],
+    [
+      "Vpi30s",
+      "(macro)acordar",
+      "(macro)acordar",
+      -8.027639702925786
+    ]
+  ],
+  "(macro)acordas": [
+    [
+      "Vpi20s",
+      "(macro)acordar",
+      "(macro)acordar",
+      -9.017847259860732
+    ]
+  ],
+  "(micro)ficha": [
+    [
+      "Scfs",
+      "(micro)ficha",
+      "(micro)ficha",
+      -10.436421965890096
+    ],
+    [
+      "V0m20s",
+      "(micro)fichar",
+      "(micro)fichar",
+      -8.95531908176395
+    ],
+    [
+      "Vpi30s",
+      "(micro)fichar",
+      "(micro)fichar",
+      -10.107081244605622
+    ]
+  ],
+  "(pre)campaña": [
+    [
+      "Scfs",
+      "(pre)campaña",
+      "(pre)campaña",
+      -6.524398960461951
+    ]
+  ],
+  "(re)construcións": [
+    [
+      "Scfp",
+      "(re)construción",
+      "(re)construción",
+      -8.34119559615897
+    ]
+  ],
+  "(semi)autónomo": [
+    [
+      "A0ms",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -8.474136559094566
+    ],
+    [
+      "Scms",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -10.447917183715896
+    ]
+  ],
+  "(semi)autónomos": [
+    [
+      "A0mp",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.170281974730198
+    ],
+    [
+      "Scmp",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -9.354159291072287
+    ]
+  ],
+  "(semi)autónoma": [
+    [
+      "A0fs",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -7.040179577522613
+    ],
+    [
+      "Scfs",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -11.129569146450041
+    ]
+  ],
+  "(semi)autónomas": [
+    [
+      "A0fp",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -6.256510264064493
+    ],
+    [
+      "Scfp",
+      "(semi)autónomo",
+      "(semi)autónomo",
+      -10.643780689153017
+    ]
+  ],
+  "(sub)categoría": [
+    [
+      "Scfs",
+      "(sub)categoría",
+      "(sub)categoría",
+      -8.564619788988505
+    ]
   ]
 }

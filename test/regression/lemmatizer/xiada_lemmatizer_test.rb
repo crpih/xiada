@@ -27,8 +27,8 @@ def test_snapshots(tagger_config, document_config)
   end
 
   # Uncomment to save current results as expected
-  FileUtils.mkdir_p("#{__dir__}/#{tagger_config.database}")
-  File.write("#{__dir__}/#{tagger_config.database}/selected.json", JSON.pretty_generate(current))
+  # FileUtils.mkdir_p("#{__dir__}/#{tagger_config.database}")
+  # File.write("#{__dir__}/#{tagger_config.database}/selected.json", JSON.pretty_generate(current))
 
   expected = JSON.parse(File.read("#{__dir__}/#{tagger_config.database}/selected.json"))
   words.each do |word|
