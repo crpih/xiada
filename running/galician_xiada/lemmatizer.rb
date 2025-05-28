@@ -5,8 +5,13 @@ require_relative "../bin/lemmas/utils"
 require_relative "lemmas/isimo_rule"
 require_relative "lemmas/mente_rule"
 require_relative "lemmas/inho_rule"
+require_relative "lemmas/dad_rule"
+require_relative "lemmas/da_rule"
+require_relative "lemmas/das_rule"
 require_relative "lemmas/ex_rule"
 require_relative "lemmas/ex_proper_rule"
+require_relative "lemmas/hiper_adjective_rule"
+require_relative "lemmas/hiper_rule"
 require_relative "lemmas/prefix_vowel"
 require_relative "lemmas/prefix_parens"
 
@@ -19,12 +24,19 @@ module GalicianXiada
       @tags = @tagger_config.dw.get_possible_tags([ "*" ]).split(",").map { |t| t.delete_prefix("'").delete_suffix("'") }
 
       @mente_rule = Lemmas::MenteRule.new(@tags)
-      @isimo_rule = Lemmas::IsimoRule.new(@tags)
-      @inho_rule = Lemmas::InhoRule.new(@tags)
-      @ex_proper_rule = Lemmas::ExProperRule.new(@tags)
-      @ex_rule = Lemmas::ExRule.new(@tags)
+      @suffix_rules = [
+        Lemmas::IsimoRule.new(@tags),
+        Lemmas::InhoRule.new(@tags),
+        Lemmas::DadRule.new(@tags),
+        Lemmas::DaRule.new(@tags),
+        Lemmas::DasRule.new(@tags),
+      ]
 
+      @ex_proper_rule = Lemmas::ExProperRule.new(@tags)
       @prefix_rules = [
+        Lemmas::ExRule.new(@tags),
+        Lemmas::HiperAdjectiveRule.new(@tags),
+        Lemmas::HiperRule.new(@tags),
         # Prefixes that end in a vowel
         Lemmas::PrefixVowel::AutoRule.new(@tags),
         Lemmas::PrefixVowel::MetaRule.new(@tags),
@@ -34,6 +46,16 @@ module GalicianXiada
         Lemmas::PrefixVowel::XeoRule.new(@tags),
         Lemmas::PrefixVowel::MultiRule.new(@tags),
         Lemmas::PrefixVowel::TeleRule.new(@tags),
+        Lemmas::PrefixVowel::NanoRule.new(@tags),
+        Lemmas::PrefixVowel::NarcoRule.new(@tags),
+        Lemmas::PrefixVowel::ExtraRule.new(@tags),
+        Lemmas::PrefixVowel::IntraRule.new(@tags),
+        Lemmas::PrefixVowel::InfraRule.new(@tags),
+        Lemmas::PrefixVowel::SupraRule.new(@tags),
+        Lemmas::PrefixVowel::ContraRule.new(@tags),
+        Lemmas::PrefixVowel::HeteroRule.new(@tags),
+        Lemmas::PrefixVowel::PaleoRule.new(@tags),
+        Lemmas::PrefixVowel::VideoRule.new(@tags),
         # Prefixes with parens
         Lemmas::PrefixParens::DesRule.new(@tags),
         Lemmas::PrefixParens::ExRule.new(@tags),
@@ -133,17 +155,13 @@ module GalicianXiada
       literal_result = find(query)
       return literal_result if literal_result.any?
 
-      [
-        *@isimo_rule.(query) { |qa| find(qa) },
-        *@inho_rule.(query) { |qa| find(qa) },
-      ]
+      @suffix_rules.flat_map { |rule| rule.(query) { find(it) } }
     end
 
     def prefix_suffix_rules(query)
       [
-        # Ex and ExProper are different to other prefix rules
+        # ExProper is different to other prefix rules
         *@ex_proper_rule.(query) { proper_noun(it) },
-        *@ex_rule.(query) { suffix_rules(it) },
         # General prefix rules
         *@prefix_rules.flat_map { |rule| rule.(query) { suffix_rules(it) } },
         # Use only suffix rules as fallback if no prefix rule matches
@@ -157,8 +175,8 @@ module GalicianXiada
 
       [
         *@mente_rule.(query) { |qa| find_guesser("mente", qa) },
-        *@isimo_rule.(query) { |qa| find(qa) },
-        *@inho_rule.(query) { |qa| find(qa) },
+        # General suffix rules
+        *@suffix_rules.flat_map { |rule| rule.(query) { find(it) } },
       ]
     end
 

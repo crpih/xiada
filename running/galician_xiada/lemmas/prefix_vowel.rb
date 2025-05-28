@@ -117,5 +117,65 @@ module Lemmas
         super(all_possible_tags, "xeo", adjective, noun_common, verb)
       end
     end
+
+    class NanoRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*")
+        super(all_possible_tags, "nano", adjective, noun_common)
+      end
+    end
+
+    class NarcoRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "narco", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class ExtraRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "extra", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class IntraRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "intra", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class InfraRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "infra", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class SupraRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "supra", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class ContraRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "contra", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class HeteroRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "hetero", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class PaleoRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "paleo", adjective, noun_common, verb, adverb)
+      end
+    end
+
+    class VideoRule < PrefixVowelRule
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "video", adjective, noun_common, verb, adverb)
+      end
+    end
   end
 end

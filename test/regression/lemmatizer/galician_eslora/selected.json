@@ -4208,5 +4208,257 @@
       "(sub)categoría",
       -8.868131713503033
     ]
+  ],
+  "actuacions": [
+    [
+      "NCFP",
+      "actuación",
+      "actuación",
+      -10.033330902684877
+    ]
+  ],
+  "povoacions": [
+    [
+      "NCFP",
+      "povoación",
+      "poboación",
+      -10.033330902684877
+    ]
+  ],
+  "ocasions": [
+    [
+      "NCFP",
+      "ocasión",
+      "ocasión",
+      -10.033330902684877
+    ]
+  ],
+  "conexions": [
+    [
+      "NCFP",
+      "conexión",
+      "conexión",
+      -10.033330902684877
+    ]
+  ],
+  "hiper-absurdo": [
+    [
+      "AAS",
+      "absurdo",
+      "absurdo",
+      -8.952540674006272
+    ],
+    [
+      "AMS",
+      "absurdo",
+      "absurdo",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "absurdo",
+      "absurdo",
+      -8.549014803739194
+    ]
+  ],
+  "hiper-absurdos": [
+    [
+      "NCMP",
+      "hiperabsurdo",
+      "",
+      -10.041291056683322
+    ]
+  ],
+  "hiper-absurda": [
+    [
+      "AFS",
+      "absurdo",
+      "absurdo",
+      -9.670230532062421
+    ]
+  ],
+  "hiper-absurdas": [
+    [
+      "AFP",
+      "absurdo",
+      "absurdo",
+      -9.834351813701266
+    ]
+  ],
+  "hiper-actuar": [
+    [
+      "VNP",
+      "hiperactuar",
+      "hiperactuar",
+      -8.353497098745448
+    ],
+    [
+      "VSF1S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ],
+    [
+      "VSF3S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ],
+    [
+      "VSF4S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ]
+  ],
+  "hiper-rexión": [
+    [
+      "NCFS",
+      "hiperrexión",
+      "hiperrexión",
+      -9.966744002171144
+    ]
+  ],
+  "hiperabsurdo": [
+    [
+      "AAS",
+      "absurdo",
+      "absurdo",
+      -8.952540674006272
+    ],
+    [
+      "AMS",
+      "absurdo",
+      "absurdo",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "absurdo",
+      "absurdo",
+      -8.549014803739194
+    ]
+  ],
+  "hiperabsurdos": [
+    [
+      "NCMP",
+      "hiperabsurdo",
+      "",
+      -10.041291056683322
+    ]
+  ],
+  "hiperabsurda": [
+    [
+      "AFS",
+      "absurdo",
+      "absurdo",
+      -9.670230532062421
+    ]
+  ],
+  "hiperabsurdas": [
+    [
+      "AFP",
+      "absurdo",
+      "absurdo",
+      -9.834351813701266
+    ]
+  ],
+  "hiperactuar": [
+    [
+      "VNP",
+      "hiperactuar",
+      "hiperactuar",
+      -8.353497098745448
+    ],
+    [
+      "VSF1S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ],
+    [
+      "VSF3S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ],
+    [
+      "VSF4S",
+      "hiperactuar",
+      "hiperactuar",
+      -8.884194633072273
+    ]
+  ],
+  "hiperrexión": [
+    [
+      "NCFS",
+      "hiperrexión",
+      "hiperrexión",
+      -9.966744002171144
+    ]
+  ],
+  "suprarrenal": [
+    [
+      "AAS",
+      "suprarrenal",
+      "suprarrenal",
+      -9.645687854566217
+    ],
+    [
+      "AES",
+      "suprarrenal",
+      "suprarrenal",
+      -8.62622695244036
+    ],
+    [
+      "AFS",
+      "suprarrenal",
+      "suprarrenal",
+      -9.670230532062421
+    ],
+    [
+      "AMS",
+      "suprarrenal",
+      "suprarrenal",
+      -9.656307423393677
+    ],
+    [
+      "ANS",
+      "suprarrenal",
+      "suprarrenal",
+      -9.647627092407303
+    ]
+  ],
+  "verdad": [
+    [
+      "NCFS",
+      "verdad",
+      "",
+      -6.41139594068173
+    ]
+  ],
+  "verdá": [
+    [
+      "NCFS",
+      "verdá",
+      "verdade",
+      -9.966744002171144
+    ]
+  ],
+  "andá": [
+    [
+      "VMP2P",
+      "andar",
+      "andar",
+      -8.89192414015454
+    ]
+  ],
+  "andás": [
+    [
+      "VIP2P",
+      "andar",
+      "andar",
+      -8.887652690325586
+    ]
   ]
 }
