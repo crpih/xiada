@@ -207,7 +207,7 @@ module GalicianXiada
       if (window[0][0] =~ /^(cara)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"cara")) and (window[1][0] =~ /^(a)$/) and (window[1][1] =~ /^(P)$/) and (window[2][3] =~ /^(ao|á|aos|ás|ó|ós)$/)
       return 3
       end
-      # RULE: para,Vpi30s,parar,_,x	_,Ra*,_,_	_,V0f*,_,_	
+      # RULE: para,Vpi30s,parar,_,x	_,Ra*,_,_	_,V0f*,_,_
       if (window[0][0] =~ /^(para)$/) and (window[0][1] =~ /^(Vpi30s)$/) and (match_some_lemma(window[0][2],"parar")) and (window[1][1] =~ /^(Ra.*)$/) and (window[2][1] =~ /^(V0f.*)$/)
       return 1
       end
@@ -318,6 +318,34 @@ module GalicianXiada
       # RULE: como,_,_,_,	_,_,_,*mos,	me,_,_,_	_,Raa3*,_,_,x
       if (window[0][0] =~ /^(como)$/) and (window[1][3] =~ /^(.*mos)$/) and (window[2][0] =~ /^(me)$/) and (window[3][1] =~ /^(Raa3.*)$/)
       return 4
+      end
+      # RULE: a fin de|con o fin de,P,a fin de|con o fin de,_,x	_,Sc*|D*,_,_
+      if (window[0][0] =~ /^(a fin de|con o fin de)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"a fin de|con o fin de")) and (window[1][1] =~ /^(Sc.*|D.*)$/)
+      return 1
+      end
+      # RULE: 0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncn*|Ncd?s,_,_,_,x	$,_,_,_
+      if (window[0][0] =~ /^(0.*|2.*|3.*|4.*|5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|13.*|14.*|15.*|16.*|17.*|18.*|19.*)$/) and (window[0][1] =~ /^(Ncn.*|Ncd.?s)$/) and (window[1][0] =~ /^($)$/)
+      return 1
+      end
+      # RULE: a,Ddfs|Scms,_,!á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos!nos!cós!prós,x	_,Rt*,_,_
+      if (window[0][0] =~ /^(a)$/) and (window[0][1] =~ /^(Ddfs|Scms)$/) and (window[0][3] !~ /^(á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos!nos!cós!prós)$/) and (window[1][1] =~ /^(Rt.*)$/)
+      return 1
+      end
+      # RULE: _,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
+      if (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] =~ /^(coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos)$/) and (window[1][1] =~ /^(V.i.*|V.s.*|V.m.*)$/)
+      return 2
+      end
+      # RULE: _,V*,dar,_	*ado|*ido,A0ms,_,_,x
+      if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"dar")) and (window[1][0] =~ /^(.*ado|.*ido)$/) and (window[1][1] =~ /^(A0ms)$/)
+      return 2
+      end
+      # RULE: menos|máis|,W.,_,_	_,S*|A0,_,_	con,P,con,ca,x
+      if (window[0][0] =~ /^(menos|máis|)$/) and (window[0][1] =~ /^(W.)$/) and (window[1][1] =~ /^(S.*|A0)$/) and (window[2][0] =~ /^(con)$/) and (window[2][1] =~ /^(P)$/) and (match_some_lemma(window[2][2],"con")) and (window[2][3] =~ /^(ca)$/)
+      return 3
+      end
+      # RULE: _,Dd*,o,_	que,Cs|Cc,_,_,x
+      if (window[0][1] =~ /^(Dd.*)$/) and (match_some_lemma(window[0][2],"o")) and (window[1][0] =~ /^(que)$/) and (window[1][1] =~ /^(Cs|Cc)$/)
+      return 2
       end
 
       return 0

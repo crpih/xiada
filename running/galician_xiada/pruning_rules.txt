@@ -94,7 +94,7 @@ a,P,_,_,x	_,V.i*|V.s*,_,_
 
 a,Ddfs,o,!á|!da|!coa|!na|!cá|!prá,x	_,D.ms|E.ms|M*ms|I.ms,_,_
 
-# (10) IMPORTE(S): Temos que diferenciar o substantivo da forma verbal e 
+# (10) IMPORTE(S): Temos que diferenciar o substantivo da forma verbal e
 # para iso estableceremos as seguintes regras:
 # a) como verbo non pode ir precedido nin seguido de adxectivo;
 # b) tampouco pode ir precedido de artigo nin determinante masculino e
@@ -220,7 +220,7 @@ cara,P,cara,_	a,P,_,_,	_,_,_,ao|á|aos|ás|ó|ós,x
 # (27) PARA. Na combinación "para + Rao3aa|Ra* + V0f*" non é do verbo
 # "parar" senón preposición:
 
-para,Vpi30s,parar,_,x	_,Ra*,_,_	_,V0f*,_,_	
+para,Vpi30s,parar,_,x	_,Ra*,_,_	_,V0f*,_,_
 
 # (28) Forma verbal con "mos" enclítico fronte á 1ª persoa de plural. Se
 # precede "non", "que" ou "se" é a 1ª de plural. O mesmo se segue
@@ -316,6 +316,40 @@ vir,_,_,vila|vilas,x	_,Raa3f.,_,_,	_,!V0f*,_,_
 cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	que|en,_,_,_
 cre,_,_,cremos,x	me,_,_,_,	_,Raa3*,_,_,	_,V0f*,_,_
 
-# (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes: 
+# (45) Así mesmo, non podemos ter forma verbal seguida de 'me + os', se está precedida de 'como'; ten que ser necesariamente forma verbal de 1ª do plural e non desagregar en 3 constituíntes:
 
 como,_,_,_,	_,_,_,*mos,	me,_,_,_	_,Raa3*,_,_,x
+
+# (46) 'a fin de' e 'co fin de' son preposición cando segue infinitivo ou conxunción 'que',
+#ou sexa, cando non segue determinante nin substantivo
+
+a fin de|con o fin de,P,a fin de|con o fin de,_,x	_,Sc*|D*,_,_
+
+# (47) as cifras que veñen antes do símbolo do euro ou do dólar non son singulares nin non determinantes
+#(a non ser que a cantidade sexa 1):
+0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncn*|Ncd?s,_,_,_,x	$,_,_,_
+
+# (48) 'a' non é artigo nin substantivo (a non ser que estea nunha contracción) se despois vén un pronome persoal tónico
+
+a,Ddfs|Scms,_,!á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos!nos!cós!prós,x	_,Rt*,_,_
+
+# (49) Se temos un artigo nunha contracción non ambigua, a continuación non pode vir unha forma verbal persoal
+
+_,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
+
+# (50) o verbo 'dar' seguido de '-ado' ou '-ido' constrúese con participio, non con adxectivo
+
+_,V*,dar,_	*ado|*ido,A0ms,_,_,x
+
+# (51) ca: mellorando a regra que xa temos, se antes está un adverbio comparador (máis, menos),
+# seguido de substantivo ou adxectivo en grao positivo, non é a contracción, senón a conxunción
+# (é preferible que nos casos de erros coma "fai falla unha sociedade máis cruel ca da miña infancia..."
+# o dea como conxunción comparativa, pois éo, inda que falte ó acento que caracterice a contracción
+# que debera estar aí):
+
+menos|máis|,W.,_,_	_,S*|A0,_,_	con,P,con,ca,x
+
+# (52) O 'que' que segue un artigo nunca pode ser conxunción, senón relativo (Fixo deterse ó condutor nunha aldea da outra banda do río,
+# na que ninguén podía recoñecelo.) ou interrogativo-exclamativo (¿Escribi-lo que?)
+
+_,Dd*,o,_	que,Cs|Cc,_,_,x
