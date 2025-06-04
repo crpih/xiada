@@ -335,7 +335,7 @@ a,Ddfs|Scms,_,!á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos
 
 # (49) Se temos un artigo nunha contracción non ambigua, a continuación non pode vir unha forma verbal persoal
 
-_,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
+_,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
 
 # (50) o verbo 'dar' seguido de '-ado' ou '-ido' constrúese con participio, non con adxectivo
 

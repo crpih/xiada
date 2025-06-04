@@ -140,7 +140,8 @@ class EncliticsProcessor
 
         # FIXME: Ugly hack to remove hyphen in enclitics for galician_xiada
         # These cases must be searched with the hyphen, but the token text must not have the hyphen.
-        enclitic.delete_prefix!('-')  if %w[-lo -la -los -las].include?(enclitic) && @tagger_config.profile == "galician_xiada"
+        # WARNING: Do not mutate the string, since it causes unpredictable output for unknown reasons.
+        enclitic = enclitic.delete_prefix('-')  if %w[-lo -la -los -las].include?(enclitic) && @tagger_config.profile == "galician_xiada"
         new_token = Token.new(sentence.text, enclitic, :standard, from, to)
         new_token.qualifying_info = token.qualifying_info.clone
         #STDERR.puts "getting info, enclitic:#{enclitic}, tags:#{tags}"

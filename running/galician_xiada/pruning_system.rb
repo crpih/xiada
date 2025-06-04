@@ -331,8 +331,8 @@ module GalicianXiada
       if (window[0][0] =~ /^(a)$/) and (window[0][1] =~ /^(Ddfs|Scms)$/) and (window[0][3] !~ /^(á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos!nos!cós!prós)$/) and (window[1][1] =~ /^(Rt.*)$/)
       return 1
       end
-      # RULE: _,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
-      if (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] =~ /^(coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|nos|cós|prós|pola|polas|polos)$/) and (window[1][1] =~ /^(V.i.*|V.s.*|V.m.*)$/)
+      # RULE: _,Dd*,_,coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|cós|prós|pola|polas|polos,	_,V.i*|V.s*|V.m*,_,_,x
+      if (window[0][1] =~ /^(Dd.*)$/) and (window[0][3] =~ /^(coa|na|cá|prá|ás|das|coas|nas|cás|prás|ós|aos|dos|cos|cós|prós|pola|polas|polos)$/) and (window[1][1] =~ /^(V.i.*|V.s.*|V.m.*)$/)
       return 2
       end
       # RULE: _,V*,dar,_	*ado|*ido,A0ms,_,_,x
