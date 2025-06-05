@@ -1,4 +1,7 @@
+require_relative "../../../lib/db_utils"
+
 class TagsInfo
+  include DbUtils
 
   def initialize(file_name)
     @file_name = file_name
@@ -13,16 +16,10 @@ class TagsInfo
   private
 
   def process_file(db)
-    id = 1
-    File.open(@file_name,"r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          category, category_class, name = line.split(/\t/)
-          db.execute("INSERT INTO tags_info (id, category, name, class) VALUES (?, ?, ?, ?)", [id, category, name, category_class])
-          id = id + 1
-        end
-      end
+    data = File.readlines(@file_name).map(&:chomp).reject(&:empty?).map.with_index do |line, i|
+      category, category_class, name = line.split("\t")
+      [i + 1, category, name, category_class]
     end
+    bulk_insert(db, "tags_info", %w[id category name class], data)
   end
 end

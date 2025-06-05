@@ -12,6 +12,8 @@ RUN gem install bundler
 
 WORKDIR /myapp
 
+COPY lib/xiada/version.rb /myapp/lib/xiada/version.rb
+COPY xiada.gemspec /myapp/xiada.gemspec
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
 RUN --mount=type=ssh bundle install

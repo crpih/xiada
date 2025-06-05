@@ -1,4 +1,7 @@
+require_relative "../../../lib/db_utils"
+
 class Acronyms
+  include DbUtils
 
   def initialize(file_name)
     @file_name = file_name
@@ -12,16 +15,10 @@ class Acronyms
   private
 
   def process_file(db)
-    File.open(@file_name,"r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          acronym, tag, lemma, hiperlemma = line.split(/\t/)
-          hiperlemma = lemma unless hiperlemma
-          db.execute("INSERT INTO acronyms (acronym, tag, lemma, hiperlemma) VALUES (?, ?, ?, ?)", [acronym, tag, lemma, hiperlemma])
-          db.execute(query)
-        end
-      end
+    data = File.readlines(@file_name).map do |line|
+      acronym, tag, lemma, hiperlemma = line.chomp.split("\t")
+      [acronym, tag, lemma, hiperlemma || lemma]
     end
+    bulk_insert(db, "acronyms", %w[acronym tag lemma hiperlemma], data)
   end
 end

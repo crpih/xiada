@@ -50,69 +50,23 @@ class Words
     @word_tag_lemma_count[[word, tag, lemma, normative].freeze] += 1
   end
 
-  def get_frequency(word, tag)
-    key = word + "&&&" + tag
-    if @frequencies[key] != nil
-      return @frequencies[key]
-    else
-      return 0
-    end
-  end
+  def get_frequency(word, tag) = @frequencies["#{word}&&&#{tag}"] || 0
 
-  def get_from_lexicon(word, tag)
-    key = word + "&&&" + tag
-    if @from_lexicon[key] != nil
-      return @from_lexicon[key]
-    else
-      return false
-    end
-  end
+  def get_from_lexicon(word, tag) = @from_lexicon["#{word}&&&#{tag}"] || false
 
-  def get_probability(word, tag)
-    key = word + "&&&" + tag
-    if @probabilities[key] != nil
-      return @probabilities[key]
-    else
-      return 0
-    end
-  end
+  def get_probability(word, tag) = @probabilities["#{word}&&&#{tag}"] || 0
 
-  def get_lemmas(word, tag)
-    key = word + "&&&" + tag
-    if @lemmas[key] != nil
-      return @lemmas[key]
-    else
-      return nil
-    end
-  end
+  def get_lemmas(word, tag) = @lemmas["#{word}&&&#{tag}"] || []
 
-  def get_word_frequency(word)
-    if @word_frequencies[word] != nil
-      return @word_frequencies[word]
-    else
-      return 0
-    end
-  end
+  def get_word_frequency(word) = @word_frequencies[word] || 0
 
-  def get_normative(word, tag, lemma)
-    @word_tag_lemma_count.key?([word, tag, lemma, true])
-  end
+  def get_normative(word, tag, lemma) = @word_tag_lemma_count.key?([word, tag, lemma, true])
 
   def calculate_probabilities
     @frequencies.each do |key, frequency|
-      @probabilities[key] = Math.log(Float(frequency) /
-                                     @tag_frequencies[get_tag_component(key)])
+      _word, tag = key.split("&&&")
+      @probabilities[key] = Math.log(Float(frequency) / @tag_frequencies[tag])
     end
-  end
-
-  def get_word_component(key)
-    word, tag = key.split(/&&&/)
-    return(word)
-  end
-
-  def get_tag_component(key)
-    word, tag = key.split(/&&&/)
-    return(tag)
   end
 
   def show_contents

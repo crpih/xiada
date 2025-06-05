@@ -52,10 +52,7 @@ class BasicSuffixes
     return @frequencies[length-1][key]
   end
 
-  def get_probability(length, suffix, tag)
-    key = suffix + "&&&" + tag
-    return @probabilities[length-1][key]
-  end
+  def get_probability(length, suffix, tag) = @probabilities[length - 1]["#{suffix}&&&#{tag}"]
 
   private
 
