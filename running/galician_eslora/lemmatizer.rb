@@ -18,7 +18,7 @@ module GalicianEslora
 
     def initialize(tagger_config)
       @tagger_config = tagger_config
-      @tags = @tagger_config.dw.get_possible_tags([ '*' ]).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
+      @tags = @tagger_config.dw.all_tags
 
       # CORGA rules adapted to ESLORA tags
       @mente_rule = Lemmas::MenteRule.new(@tags, adverb: 'W')

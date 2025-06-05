@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 require "rubygems"
 require "csv"
-require "dbi"
 require "sqlite3"
 require_relative "ngrams.rb"
 require_relative "words.rb"
 require_relative "basic_suffixes.rb"
-require_relative "../../lib/sql_utils.rb"
 
 class HMMTrainer
   EMPTY_TAG = "###"
@@ -138,7 +136,7 @@ class HMMTrainer
     @ngrams.unigrams.keys.each do |unigram|
       frequency = @ngrams.get_unigram_frequency(unigram)
       log_ak = @ngrams.get_unigram_a(unigram)
-      db.execute("insert into unigram_frequencies (tk, frequency, log_ak) values ('#{SQLUtils.escape_SQL(unigram)}',#{frequency},#{log_ak})")
+      db.execute("INSERT INTO unigram_frequencies (tk, frequency, log_ak) VALUES (?, ?, ?)", [unigram, frequency, log_ak])
     end
 
     puts "Building table bigram_frequencies..."
@@ -148,7 +146,7 @@ class HMMTrainer
       tk = @ngrams.get_second_component(bigram)
       frequency = @ngrams.get_bigram_frequency(tj, tk)
       log_ajk = @ngrams.get_bigram_a(tj, tk)
-      db.execute("insert into bigram_frequencies (tj, tk, frequency, log_ajk) values ('#{SQLUtils.escape_SQL(tj)}','#{SQLUtils.escape_SQL(tk)}',#{frequency},#{log_ajk})")
+      db.execute("INSERT INTO bigram_frequencies (tj, tk, frequency, log_ajk) VALUES (?, ?, ?, ?)", [tj, tk, frequency, log_ajk])
     end
 
     puts "Building table trigram_frequencies..."
@@ -159,7 +157,7 @@ class HMMTrainer
       tk = @ngrams.get_third_component(trigram)
       frequency = @ngrams.get_trigram_frequency(ti, tj, tk)
       log_aijk = @ngrams.get_trigram_a(ti, tj, tk)
-      db.execute("insert into trigram_frequencies (ti, tj, tk, frequency, log_aijk) values ('#{SQLUtils.escape_SQL(ti)}','#{SQLUtils.escape_SQL(tj)}','#{SQLUtils.escape_SQL(tk)}',#{frequency},#{log_aijk})")
+      db.execute("INSERT INTO trigram_frequencies (ti, tj, tk, frequency, log_aijk) VALUES (?, ?, ?, ?, ?)", [ti, tj, tk, frequency, log_aijk])
     end
 
     puts "Building table emission_frequencies..."
@@ -176,15 +174,14 @@ class HMMTrainer
       from_lexicon_integer = 0
       from_lexicon_integer = 1 if from_lexicon == true
       lemmas.each do |lemma, hiperlemma|
-        # STDERR.puts "word: #{word_component}, tag: #{tag_component}, lemma: #{lemma}, hiperlemma: #{hiperlemma}"
-        db.execute("insert into emission_frequencies (word, tag, lemma, hiperlemma, frequency, log_b, from_lexicon) values ('#{SQLUtils.escape_SQL(word_component)}','#{SQLUtils.escape_SQL(tag_component)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}',#{frequency},#{log_b},#{from_lexicon_integer})")
+        db.execute("INSERT INTO emission_frequencies (word, tag, lemma, hiperlemma, frequency, log_b, from_lexicon) VALUES (?, ?, ?, ?, ?, ?, ?)", [word_component, tag_component, lemma, hiperlemma, frequency, log_b, from_lexicon_integer])
       end
     end
 
     puts "Building table word_tag_lemma_frequencies..."
     db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, normative boolean, frequency integer, primary key(word,tag,lemma,normative))")
     @words.word_tag_lemma_count.each do |(word, tag, lemma, normative), count|
-      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, normative, frequency) VALUES (?, ?, ?, ?, ?)', word, tag, lemma, normative ? 1 : 0, count)
+      db.execute("INSERT INTO word_tag_lemma_frequencies (word, tag, lemma, normative, frequency) VALUES (?, ?, ?, ?, ?)", [word, tag, lemma, normative ? 1 : 0, count])
     end
 
     db.execute("create table integer_values (variable_name text, value integer)")
@@ -200,8 +197,7 @@ class HMMTrainer
         suffix_component = @suffixes.get_suffix_component(key)
         tag_component = @suffixes.get_tag_component(key)
         log_b = @suffixes.get_probability(length_index + 1, suffix_component, tag_component)
-        #puts "insert into guesser_frequencies (suffix, length, tag, frequency, log_b) values ('#{SQLUtils.escape_SQL(suffix_component)}',#{length_index+1},'#{SQLUtils.escape_SQL(tag_component)}',#{frequency},#{log_b})"
-        db.execute("insert into guesser_frequencies (suffix, length, tag, frequency, log_b) values ('#{SQLUtils.escape_SQL(suffix_component)}',#{length_index + 1},'#{SQLUtils.escape_SQL(tag_component)}',#{frequency},#{log_b})")
+        db.execute("INSERT INTO guesser_frequencies (suffix, length, tag, frequency, log_b) VALUES (?, ?, ?, ?, ?)", [suffix_component, length_index + 1, tag_component, frequency, log_b])
       end
     end
 

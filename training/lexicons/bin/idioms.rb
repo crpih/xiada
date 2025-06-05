@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
-
 class Idioms
 
   def initialize(sure_idioms_file_name, unsure_idioms_file_name)
@@ -23,8 +20,7 @@ class Idioms
         unless line.empty?
           idiom, tag, lemma, hiperlemma = line.split(/\t/)
           hiperlemma = lemma unless hiperlemma
-          query = "insert into idioms (idiom, tag, lemma, hiperlemma, sure) values ('#{SQLUtils.escape_SQL(idiom)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}',#{sure})"
-          db.execute(query)
+          @db.execute("INSERT INTO idioms (idiom, tag, lemma, hiperlemma, sure) VALUES (?, ?, ?, ?, ?)", [idiom, tag, lemma, hiperlemma, sure])
         end
       end
     end

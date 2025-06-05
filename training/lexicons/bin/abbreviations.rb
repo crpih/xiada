@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
-
 class Abbreviations
 
   def initialize(file_name)
@@ -21,8 +18,7 @@ class Abbreviations
         unless line.empty?
           abbreviation, tag, lemma, hiperlemma = line.split(/\t/)
           hiperlemma = lemma unless hiperlemma
-          query = "insert into abbreviations (abbreviation, tag, lemma, hiperlemma) values ('#{SQLUtils.escape_SQL(abbreviation)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}')"
-          db.execute(query)
+          db.execute("INSERT INTO abbreviations (abbreviation, tag, lemma, hiperlemma) VALUES (?, ?, ?, ?)", [abbreviation, tag, lemma, hiperlemma])
         end
       end
     end

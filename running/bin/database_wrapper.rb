@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 require "rubygems"
-require "dbi"
 require "sqlite3"
-require_relative "../../lib/sql_utils"
+require "active_support/core_ext/object/blank"
 
 # AutoRule is used in here as workaround
 require_relative "../galician_xiada/lemmas/prefix_vowel"
@@ -20,16 +19,15 @@ class DatabaseWrapper
   end
 
   def get_emissions_info(word, tags)
-    # STDERR.puts "word:#{word}, tags:#{tags}"
-    query_string = "select tag,lemma,hiperlemma,log_b from emission_frequencies where word='#{SQLUtils.escape_SQL(word)}'"
-    query_string += " AND from_lexicon=1" if @tagger_config.only_lexicon && word != '###'
-    if (tags == nil) or (tags.empty?)
-      @db.execute(query_string)
-    else
-      tag_string = get_possible_tags(tags)
-      query_string += " AND tag in (#{tag_string})"
-      @db.execute(query_string)
-    end
+    possible_tags = get_possible_tags(tags)
+    query = <<~SQL
+      SELECT tag, lemma, hiperlemma, log_b
+      FROM emission_frequencies
+      WHERE word = ?
+      #{"AND from_lexicon = 1" if @tagger_config.only_lexicon && word != '###'}
+      #{"AND tag IN (#{(['?'] * possible_tags.length).join(', ')})" if possible_tags&.any?}
+    SQL
+    @db.execute(query, [word, *possible_tags])
   end
 
   def get_emissions_info_variants(word, tags, variants)
@@ -60,8 +58,7 @@ class DatabaseWrapper
       # STDERR.puts "result.empty: next result: #{}"
       if result.empty?
         if (tags == nil) or (tags.empty?)
-          suffixes = get_possible_suffixes(word)
-          result = get_guesser_result(suffixes, nil, nil)
+          result = get_guesser_result(get_possible_suffixes(word), nil, nil)
           # STDERR.puts "suffixes: #{suffixes} result:#{result}"
           if (result == nil) or (result.empty?)
             query = "select tk,null,null,log_ak from unigram_frequencies"
@@ -79,11 +76,17 @@ class DatabaseWrapper
   end
 
   def get_guesser_result(suffixes, lemma, tags)
-    query = "select tag,log_b,length from guesser_frequencies where suffix in (#{suffixes})"
-    query << "and tag in (#{get_possible_tags(tags)})" if tags&.any?
-    query << "order by length desc"
+    # Skip tag filtering if all tags will be included
+    possible_tags = includes_all_tags?(tags) ? [] : get_possible_tags(tags)
+    query = <<~SQL
+      SELECT tag, log_b, length
+      FROM guesser_frequencies
+      WHERE suffix IN (#{(['?'] * suffixes.length).join(',')})
+      #{" AND tag IN (#{(['?'] * possible_tags.length).join(',')})" if possible_tags.any?}
+      ORDER BY length DESC
+    SQL
 
-    rows = @db.execute(query)
+    rows = @db.execute(query, [*suffixes, *possible_tags])
     return [] if rows.empty?
 
     max_length = rows.first.last
@@ -103,12 +106,7 @@ class DatabaseWrapper
   end
 
   def get_bigram_probability(tag_j, tag_k)
-    result = @db.get_first_value("select log_ajk from bigram_frequencies where tj='#{SQLUtils.escape_SQL(tag_j)}' and tk='#{SQLUtils.escape_SQL(tag_k)}'")
-    if result == nil
-      return Float(0.0)
-    else
-      return Float(result)
-    end
+    @db.get_first_value("select log_ajk from bigram_frequencies where tj=? and tk=?", [tag_j, tag_k]) || 0.0
   end
 
   TRIGRAM_MUTEX = Mutex.new
@@ -145,206 +143,125 @@ class DatabaseWrapper
   end
 
   def get_contractions(token_text)
-    result = Array.new
-
-    @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, first_component_hiperlemma,
-                 second_component_word, second_component_tag, second_component_lemma, second_component_hiperlemma,
-                 third_component_word, third_component_tag, third_component_lemma, third_component_hiperlemma
-                 from contractions where contraction = '#{SQLUtils.escape_SQL(token_text)}'") do |row|
-      result << row
-    end
-    return result
+    @db.execute <<~SQL, [token_text]
+      SELECT contraction,
+             first_component_word,
+             first_component_tag,
+             first_component_lemma,
+             first_component_hiperlemma,
+             second_component_word,
+             second_component_tag,
+             second_component_lemma,
+             second_component_hiperlemma,
+             third_component_word,
+             third_component_tag,
+             third_component_lemma,
+             third_component_hiperlemma
+      FROM contractions
+      WHERE contraction = ?
+    SQL
   end
 
   def get_idioms_match(substring)
-    result = Array.new
-
-    @db.execute("select idiom, tag, lemma, hiperlemma, sure
-                 from idioms where idiom like '#{SQLUtils.escape_SQL(substring)}%'") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom LIKE ?", ["#{substring}%"])
   end
 
   def get_idioms_full(idiom)
-    result = Array.new
-
-    @db.execute("select idiom, tag, lemma, hiperlemma, sure
-                 from idioms where idiom = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom = ?", [idiom])
   end
 
   def is_idiom_sure?(idiom)
-    result = @db.get_first_value("select sure from idioms where idiom = '#{SQLUtils.escape_SQL(idiom)}'")
-    if result == nil
-      return false
-    else
-      result == 1 ? true : false
-    end
+    !@db.get_first_value("SELECT 1 FROM idioms WHERE idiom = ? AND sure = 1", [idiom]).nil?
   end
 
   def get_multiword_match(substring)
-    result = Array.new
-
-    @db.execute("select idiom as word, tag, lemma, hiperlemma
-                 from idioms where word like '#{SQLUtils.escape_SQL(substring)}%'") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT idiom AS word, tag, lemma, hiperlemma FROM idioms WHERE word LIKE ?", ["#{substring}%"])
   end
 
   def get_multiword_full(idiom)
-    result = Array.new
-
-    @db.execute("select idiom as word, tag, lemma, hiperlemma
-                 from idioms where word = '#{SQLUtils.escape_SQL(idiom)}'") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT idiom as word, tag, lemma, hiperlemma FROM idioms WHERE word = ?", [idiom])
   end
 
   def get_proper_nouns_links
-    result = Array.new
-    @db.execute("select link from proper_nouns_links") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT link FROM proper_nouns_links")
   end
 
   def get_proper_nouns_candidate_tags
-    result = Array.new
-    @db.execute("select tag from proper_nouns_candidate_tags") do |row|
-      result << row[0]
-    end
-    return result
+    @db.execute("SELECT tag FROM proper_nouns_candidate_tags").map(&:first)
   end
 
   def get_proper_nouns_match(proper_noun_component, column_index, ids)
-    result = Array.new
-    unless column_index > PROPER_NOUNS_MAX_NUM_COMPONENTS
-      column_name = "c#{column_index}"
-      if ids == nil
-        query = "select id from proper_nouns where #{column_name} = '#{SQLUtils.escape_SQL(proper_noun_component)}'"
-      else
-        ids_string = get_possible_ids(ids)
-        query = "select id from proper_nouns where #{column_name} = '#{SQLUtils.escape_SQL(proper_noun_component)}' and id in (#{ids_string})"
-      end
-      @db.execute(query) do |row|
-        result << row[0]
-      end
-    end
-    return result
+    return [] if column_index > PROPER_NOUNS_MAX_NUM_COMPONENTS
+
+    query = <<~SQL
+      SELECT id
+      FROM proper_nouns
+      WHERE c#{column_index} = ?
+      #{"AND id IN (#{(['?'] * ids.length).join(',')})" if ids&.any?}
+    SQL
+    @db.execute(query, [proper_noun_component, *ids]).map(&:first)
   end
 
   def get_proper_noun_ids(proper_noun)
-    result = Array.new
-    @db.execute("select id from proper_nouns where proper_noun = '#{SQLUtils.escape_SQL(proper_noun)}'") do |row|
-      result << row[0]
-    end
-    return result
+    @db.execute("SELECT id FROM proper_nouns WHERE proper_noun = ?", [proper_noun]).map(&:first)
   end
 
   def get_proper_noun_info_by_ids(ids_array)
-    result = Array.new
-    ids_string = get_possible_ids(ids_array)
-    # puts "ids_string:#{ids_string}"
-    @db.execute("select proper_noun, tag, lemma, hiperlemma, from proper_nouns where id in (#{ids_string})") do |row|
-      result << row
-    end
-    return result
+    @db.execute <<~SQL, ids_array
+      SELECT proper_noun, tag, lemma, hiperlemma
+      FROM proper_nouns
+      WHERE id IN (#{(['?'] * ids_array.length).join(',')})
+    SQL
   end
 
   def get_proper_noun_tags_lemma_hiperlemma(proper_noun)
-    proper_noun_components = proper_noun.split(/ /)
-    result = Array.new
-    while result.empty?
-      proper_noun = proper_noun_components.join(" ")
-      @db.execute("select tag, lemma, hiperlemma from proper_nouns where proper_noun = '#{SQLUtils.escape_SQL(proper_noun)}'") do |row|
-        result << row
-      end
-      proper_noun_components.pop
-    end
-    return result
+    parts = proper_noun.split(" ")
+    combinations = (0..(parts.length - 1)).map { |i| parts[0..i].join(" ") }
+
+    @db.execute <<~SQL, combinations
+      SELECT tag, lemma, hiperlemma
+      FROM proper_nouns
+      WHERE proper_noun IN (#{(['?'] * combinations.length).join(',')})
+      ORDER BY LENGTH(proper_noun) DESC
+    SQL
   end
 
   def get_numerals_values
-    result = Array.new
-    @db.execute("select variable_name, value from numerals_values") do |row|
-      result << row
-    end
-    return result
+    @numerals_values ||= @db.execute("SELECT variable_name, value FROM numerals_values")
   end
 
   def get_cardinals_match(cardinal_component, column_index, ids)
-    result = Array.new
-    unless column_index > CARDINALS_MAX_NUM_COMPONENTS
-      column_name = "c#{column_index}"
-      if ids == nil
-        query = "select id from cardinals where #{column_name} = '#{SQLUtils.escape_SQL(cardinal_component)}'"
-      else
-        ids_string = get_possible_ids(ids)
-        query = "select id from cardinals where #{column_name} = '#{SQLUtils.escape_SQL(cardinal_component)}' and id in (#{ids_string})"
-      end
-      @db.execute(query) do |row|
-        result << row[0]
-      end
-    end
-    return result
+    return [] if column_index > PROPER_NOUNS_MAX_NUM_COMPONENTS
+
+    query = <<~SQL
+      SELECT id
+      FROM cardinals
+      WHERE c#{column_index} = ?
+      #{"AND id IN (#{(['?'] * ids.length).join(',')})" if ids&.any?}
+    SQL
+    @db.execute(query, [cardinal_component, *ids]).map(&:first)
   end
 
-  def get_cardinal_ids(cardinal)
-    result = Array.new
-    @db.execute("select id from cardinals where cardinal = '#{SQLUtils.escape_SQL(cardinal)}'") do |row|
-      result << row[0]
-    end
-    return result
-  end
+  def get_cardinal_ids(cardinal) = @db.execute("SELECT id FROM cardinals WHERE cardinal = ?", [cardinal]).map(&:first)
 
   def get_cardinal_tags_lemmas(cardinal)
-    result = Array.new
-    @db.execute("select tag, lemma, hiperlemma from cardinals where cardinal = '#{SQLUtils.escape_SQL(cardinal)}'") do |row|
-      result << row
-    end
-    return result
+    @db.execute("SELECT tag, lemma, hiperlemma FROM cardinals WHERE cardinal = ?", [cardinal])
   end
 
   def get_abbreviations
-    result = Array.new
-    @db.execute("select abbreviation, tag, lemma, hiperlemma from abbreviations") do |row|
-      result << row[0]
-    end
-    return result
+    @abbreviations ||= @db.execute("SELECT abbreviation, tag, lemma, hiperlemma FROM abbreviations")
   end
 
   def get_acronyms
-    result = Array.new
-    @db.execute("select acronym, tag, lemma, hiperlemma from acronyms") do |row|
-      result << row[0]
-    end
-    return result
+    @acronyms ||= @db.execute("SELECT acronym, tag, lemma, hiperlemma FROM acronyms")
   end
 
   def enclitic_combination_exists?(combination)
-    result = Array.new
-    @db.execute("select combination, length from enclitic_combinations where combination='#{SQLUtils.escape_SQL(combination)}'") do |row|
-      result << row
-    end
-    if result.empty?
-      return false
-    else
-      return true
-    end
+    !@db.get_first_value("SELECT 1 FROM enclitic_combinations WHERE combination=?", [combination]).nil?
   end
 
   def get_enclitics_number(combination)
-    result = @db.get_first_value("select length from enclitic_combinations where combination='#{SQLUtils.escape_SQL(combination)}'")
-    if result == nil
-      return 0
-    else
-      return Integer(result).to_i
-    end
+    @db.get_first_value("select length from enclitic_combinations where combination=?", [combination]) || 0
   end
 
   # It does not work for segmental ambiguity inside enclitic pronouns. It does not
@@ -418,12 +335,12 @@ class DatabaseWrapper
     if tags.nil? || tags.empty?
       variants.each_with_object([]) do |variant, result|
         query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
-        result.push(*@db.execute(query, variant))
+        result.push(*@db.execute(query, [variant]))
       end
     else
       variants.each_with_object([]) do |variant, result|
         query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
-        result.push(*@db.execute(query, variant, *tags))
+        result.push(*@db.execute(query, [variant, tags]))
       end
     end
   end
@@ -432,20 +349,23 @@ class DatabaseWrapper
     # STDERR.puts "(get_recovery_info) verb_part: #{verb_part}, tag #{tag}, lemma: #{lemma}"
     from_lexicon_integer = 0
     from_lexicon_integer = 1 if from_lexicon
-    result = Array.new
-    @db.execute("select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag='#{SQLUtils.escape_SQL(tag)}' and lemma='#{SQLUtils.escape_SQL(lemma)}' and from_lexicon = #{from_lexicon_integer}") do |row|
-      if verb_part =~ /gh/ && row[0] !~ /gh/
-        row[0].gsub!("g", "gh")
-      end
-      unless document_config.seseo
+    query = "select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag=? and lemma=? and from_lexicon = ?"
+    result = @db.execute(query, [tag, lemma, from_lexicon_integer]).map do |word, *rest|
+      # Replace gheada with gh if necessary
+      word = word.gsub("g", "gh") if document_config.gheada && verb_part =~ /gh/ && word !~ /gh/
+
+      if document_config.seseo
+        word = word.dup # Make word mutable
+        # Find all positions of 's' in the verb_part
         s_positions = verb_part.each_char.with_index.filter_map { |c, i| i if c == 's' }
-        s_positions.each do |index|
-          row[0][index] = 's' if row[0][index] == 'c'
-        end
+        # Replace 'c' with 's' in the word at those positions, this avoids replacing 'c' in the enclitic part
+        s_positions.each { |i| word[i] = 's' if word[i] == 'c' }
       end
-      result << row
+
+      [word, *rest]
     end
-    return restore_lemmatization(verb_part, result)
+
+    restore_lemmatization(verb_part, result)
   end
 
   def get_peripheric_regexp
@@ -498,17 +418,23 @@ class DatabaseWrapper
     return true
   end
 
+  def all_tags
+    @all_tags ||= @db.execute("SELECT DISTINCT(tk) FROM unigram_frequencies").map(&:first).sort
+  end
+
+  # Check if the tags array includes all possible tags.
+  # @return [Boolean]
+  # true
+  #  - if the tags array is nil (used to indicate all tags)
+  #  - if the tags array includes all possible tags
+  # false in case it cannot be determined.
+  def includes_all_tags?(tags) = tags.nil? || tags == all_tags || tags.sort.uniq == all_tags
+
   def get_possible_tags(tags)
-    result = +""
-    tags.each do |tag|
-      result << "," unless result.empty?
-      if tag =~ /[\*\_]/
-        result << get_tags_from_regexp(SQLUtils.escape_SQL_wildcards(tag))
-      else
-        result << "'#{SQLUtils.escape_SQL(tag)}'"
-      end
-    end
-    result
+    return all_tags if tags.blank? || includes_all_tags?(tags)
+
+    conditions, values = tags.map { |t| t.match?(/[*?]/) ? ["tk LIKE ?", t.tr("*?", "%_")] : ["tk = ?", t] }.transpose
+    @db.execute("SELECT DISTINCT(tk) FROM unigram_frequencies WHERE #{conditions.join(' OR ')}", values).map(&:first)
   end
 
   def get_most_frequent_lemma(word, tag, lemmas)
@@ -520,45 +446,12 @@ class DatabaseWrapper
       LIMIT 1
     SQL
     # If (word, tag, lemma) is not found, return the first lemma in the list
-    @db.execute(query, word, tag, *lemmas)&.first&.first || lemmas.first
+    @db.get_first_value(query, [word, tag, *lemmas]) || lemmas.first
   end
 
   private
 
-  def get_tags_from_regexp(tag_regexp)
-    result = +""
-    @db.execute("select distinct(tk) from unigram_frequencies where tk like '#{tag_regexp}'") do |row|
-      tag = row[0]
-      result << "," unless result.empty?
-      result << "'#{SQLUtils.escape_SQL(tag)}'"
-    end
-    result
-  end
-
-  def get_possible_suffixes(word)
-    result = nil
-    (1..word.length - 1).each do |suffix_length|
-      suffix = word[word.length - suffix_length, word.length]
-      if result == nil
-        result = "'#{SQLUtils.escape_SQL(suffix)}'"
-      else
-        result = result + ",'#{SQLUtils.escape_SQL(suffix)}'"
-      end
-    end
-    return result
-  end
-
-  def get_possible_ids(ids)
-    result = nil
-    ids.each do |id|
-      if result == nil
-        result = "'#{id}'"
-      else
-        result = result + ",'#{id}'"
-      end
-    end
-    return result
-  end
+  def get_possible_suffixes(word) = (1..(word.length - 1)).map { |i| word[i..] }
 
   def get_opened_category_regexp
     category_regexp = nil

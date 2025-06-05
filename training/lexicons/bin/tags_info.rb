@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
-
 class TagsInfo
 
   def initialize(file_name)
@@ -22,8 +19,7 @@ class TagsInfo
         line.chomp!
         unless line.empty?
           category, category_class, name = line.split(/\t/)
-          query = "insert into tags_info (id, category, name, class) values (#{id},'#{SQLUtils.escape_SQL(category)}', '#{name}', '#{category_class}')"
-          db.execute(query)
+          db.execute("INSERT INTO tags_info (id, category, name, class) VALUES (?, ?, ?, ?)", [id, category, name, category_class])
           id = id + 1
         end
       end

@@ -20,7 +20,7 @@ end
 
 def test_snapshots(tagger_config, document_config)
   words = read_words(tagger_config)
-  all_tags = tagger_config.dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
+  all_tags = tagger_config.dw.all_tags
   current = words.each_with_object({}) do |word, result|
     lemmas = tagger_config.lemmatizer.lemmatize(document_config, word, all_tags)
     result[word] = lemmas if lemmas&.any?

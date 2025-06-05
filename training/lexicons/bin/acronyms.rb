@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
-
 class Acronyms
 
   def initialize(file_name)
@@ -21,7 +18,7 @@ class Acronyms
         unless line.empty?
           acronym, tag, lemma, hiperlemma = line.split(/\t/)
           hiperlemma = lemma unless hiperlemma
-          query = "insert into acronyms (acronym, tag, lemma, hiperlemma) values ('#{SQLUtils.escape_SQL(acronym)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}')"
+          db.execute("INSERT INTO acronyms (acronym, tag, lemma, hiperlemma) VALUES (?, ?, ?, ?)", [acronym, tag, lemma, hiperlemma])
           db.execute(query)
         end
       end

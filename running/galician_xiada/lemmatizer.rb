@@ -21,7 +21,7 @@ module GalicianXiada
 
     def initialize(tagger_config)
       @tagger_config = tagger_config
-      @tags = @tagger_config.dw.get_possible_tags([ "*" ]).split(",").map { |t| t.delete_prefix("'").delete_suffix("'") }
+      @tags = @tagger_config.dw.all_tags
 
       @mente_rule = Lemmas::MenteRule.new(@tags)
       @suffix_rules = [
@@ -186,7 +186,7 @@ module GalicianXiada
     end
 
     def find_guesser(suffix, query)
-      @tagger_config.dw.get_guesser_result("'#{suffix}'", query.word, query.tags)
+      @tagger_config.dw.get_guesser_result([suffix], query.word, query.tags)
                     .map { |tag, lemma, hyperlemma, lob_b| Lemmas::Result.new(query, nil, tag, lemma, hyperlemma, lob_b) }
     end
 

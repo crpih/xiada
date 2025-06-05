@@ -4,12 +4,7 @@ module Lemmas
   module Utils
     # NOTE: This function breaks statistical model in some way
     def replace_tags(dw_result, search_exp, replace_exp)
-      result = Array.new
-      dw_result.each do |row|
-        row[0].gsub!(/#{search_exp}/,"#{replace_exp}")
-        result << row
-      end
-      return result
+      dw_result.map { |w, *r| [w.gsub(/#{search_exp}/,"#{replace_exp}"), *r] }
     end
 
     # NOTE: This function breaks statistical model in some way

@@ -401,7 +401,7 @@ module SpanishEslora
       end
 
       # mente suffix treatment
-      return @tagger_config.dw.get_guesser_result("'mente'", word, ['W']) if word =~ /mente$/ && tags.any? { |t| !t.match?(/^NP/) }
+      return @tagger_config.dw.get_guesser_result(["mente"], word, ['W']) if word =~ /mente$/ && tags.any? { |t| !t.match?(/^NP/) }
       []
 
     end

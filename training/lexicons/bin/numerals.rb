@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
-
 class Numerals
 
   MAX_NUM_COMPONENTS = 4
@@ -11,7 +8,7 @@ class Numerals
   end
 
   def save(db)
-  
+
     query = "create table cardinals (id integer, cardinal text, tag text, lemma text, hiperlemma text"
     (1..MAX_NUM_COMPONENTS).each do |cindex|
       column_name = "c"
@@ -47,17 +44,11 @@ class Numerals
             puts "exiting..."
             exit
           end
-          query = "insert into cardinals (id, cardinal, tag, lemma, hiperlemma"
-          query2 = " values (#{id},'#{SQLUtils.escape_SQL(cardinal)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}'"
-          (1..length).each do |cindex|
-            query = query + ", c#{cindex}"
-            query2 = query2 + ", '#{SQLUtils.escape_SQL(components[cindex-1])}'"
-          end
-          query = query + ")"
-          query2 = query2 + ")"
-          query = query + query2
-          #puts "query:#{query}"
-          db.execute(query)
+          db.execute <<-SQL, [id, cardinal, tag, lemma, hiperlemma, *components]
+            INSERT INTO cardinals (id, cardinal, tag, lemma, hiperlemma, #{(1..components.length).map { |i| "c#{i}" }.join(', ')})
+            VALUES (?, ?, ?, ?, ?, #{(['?'] * components.length).join(', ')})
+          SQL
+
           id = id + 1
         end
       end
@@ -88,5 +79,5 @@ class Numerals
       end
     end
   end
-  
+
 end

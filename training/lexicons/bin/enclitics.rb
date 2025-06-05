@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require_relative "../../../lib/sql_utils.rb"
-
 class Enclitics
   def initialize(enclitic_verbs_file_name, enclitics_file_name, enclitic_combinations_file_name)
     @enclitic_verbs_file_name = enclitic_verbs_file_name
