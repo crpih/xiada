@@ -156,16 +156,7 @@ class HMMTrainer
 
     puts "Building table emission_frequencies..."
     db.execute("create table emission_frequencies (word text, tag text, lemma text, hiperlemma text, frequency integer, log_b real, from_lexicon boolean, primary key(word,tag,lemma))")
-    emission_data = @words.frequencies.flat_map do |key, frequency|
-      word, tag = key.split("&&&")
-      lemmas = @words.get_lemmas(word, tag)
-      log_b = @words.get_probability(word, tag)
-      from_lexicon = @words.get_from_lexicon(word, tag)
-      lemmas.map do |lemma, hiperlemma|
-        [word, tag, lemma, hiperlemma, frequency, log_b, from_lexicon ? 1 : 0]
-      end
-    end
-    bulk_insert(db, "emission_frequencies", %w[word tag lemma hiperlemma frequency log_b from_lexicon], emission_data)
+    bulk_insert(db, "emission_frequencies", %w[word tag lemma hiperlemma frequency log_b from_lexicon], @words.emission_data)
 
     puts "Building table word_tag_lemma_frequencies..."
     db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, normative boolean, frequency integer, primary key(word,tag,lemma,normative))")
@@ -180,13 +171,7 @@ class HMMTrainer
 
     puts "Building table guesser_frequencies..."
     db.execute("create table guesser_frequencies (suffix text, length integer, tag text, frequency integer, log_b real, primary key(suffix, tag))")
-    guesser_data = @suffixes.frequencies.each_index.flat_map do |length_index|
-      @suffixes.frequencies[length_index].map do |key, frequency|
-        suffix, tag = key.split("&&&")
-        [suffix, length_index + 1, tag, frequency, @suffixes.get_probability(length_index + 1, suffix, tag)]
-      end
-    end
-    bulk_insert(db, "guesser_frequencies", %w[suffix length tag frequency log_b], guesser_data)
+    bulk_insert(db, "guesser_frequencies", %w[suffix length tag frequency log_b], @suffixes.data)
 
     # @suffixes.suffixes_tags_freqs.keys.each do |key|
     #  suffix_component = @suffixes.get_suffix_component(key)
