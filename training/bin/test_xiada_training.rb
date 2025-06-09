@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# Test if sum of emission probabilities is one.
-# ??? Move to a test unit
-
-require 'dbi'
 require 'sqlite3'
 
 def test_emission_frequencies(db)

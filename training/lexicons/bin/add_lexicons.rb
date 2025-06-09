@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-require 'rubygems'
-require 'dbi'
 require 'sqlite3'
 require_relative 'contractions.rb'
 require_relative 'idioms.rb'
