@@ -27,7 +27,6 @@ if ARGV.size == 15
   enclitic_combinations_file = ARGV[13]
   tags_info_file = ARGV[14]
   db = SQLite3::Database.open(training_database_file)
-  db.transaction
   puts "Including contractions..."
   contractions = Contractions.new(contractions_file)
   contractions.save(db)
@@ -49,7 +48,6 @@ if ARGV.size == 15
   puts "Including tags information..."
   tags_info = TagsInfo.new(tags_info_file)
   tags_info.save(db)
-  db.commit
   db.close
 else
   puts "Usage:"

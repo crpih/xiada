@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
+require_relative "../../../lib/db_utils"
 
 class Idioms
+  include DbUtils
 
   def initialize(sure_idioms_file_name, unsure_idioms_file_name)
     @sure_idioms_file_name = sure_idioms_file_name
@@ -17,16 +17,10 @@ class Idioms
   private
 
   def process_file(db, file_name, sure)
-    File.open(file_name,"r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          idiom, tag, lemma, hiperlemma = line.split(/\t/)
-          hiperlemma = lemma unless hiperlemma
-          query = "insert into idioms (idiom, tag, lemma, hiperlemma, sure) values ('#{SQLUtils.escape_SQL(idiom)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}',#{sure})"
-          db.execute(query)
-        end
-      end
+    data = File.readlines(file_name).map(&:chomp).reject(&:empty?).map do |line|
+      idiom, tag, lemma, hiperlemma = line.split("\t")
+      [idiom, tag, lemma, hiperlemma || lemma, sure]
     end
+    bulk_insert(db, "idioms", %w[idiom tag lemma hiperlemma sure], data)
   end
 end

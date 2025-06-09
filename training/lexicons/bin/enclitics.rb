@@ -1,7 +1,8 @@
-# -*- coding: utf-8 -*-
-require_relative "../../../lib/sql_utils.rb"
+require_relative "../../../lib/db_utils"
 
 class Enclitics
+  include DbUtils
+
   def initialize(enclitic_verbs_file_name, enclitics_file_name, enclitic_combinations_file_name)
     @enclitic_verbs_file_name = enclitic_verbs_file_name
     @enclitics_file_name = enclitics_file_name
@@ -26,26 +27,26 @@ class Enclitics
   private
 
   def process_enclitic_verbs_file(db)
-    File.readlines(@enclitic_verbs_file_name).map(&:chomp).reject(&:empty?).each do |line|
-      root, tag, lemma, hiperlemma, extra = line.split(/\t/)
-      hiperlemma = lemma unless hiperlemma
-      extra = extra ? "'#{extra}'" : "NULL"
-      db.execute("INSERT INTO enclitic_verbs_roots (root, tag, lemma, hiperlemma, extra) VALUES ('#{root}','#{tag}','#{lemma}','#{hiperlemma}', #{extra}) ON CONFLICT DO NOTHING")
+    data = File.readlines(@enclitic_verbs_file_name).map(&:chomp).reject(&:empty?).map do |line|
+      root, tag, lemma, hiperlemma, extra = line.split("\t")
+      [root, tag, lemma, hiperlemma || lemma, extra]
     end
+    bulk_insert(db, "enclitic_verbs_roots", %w[root tag lemma hiperlemma extra], data)
   end
 
   def process_enclitics_file(db)
-    File.readlines(@enclitics_file_name).map(&:chomp).reject(&:empty?).each do |line|
+    data = File.readlines(@enclitics_file_name).map(&:chomp).reject(&:empty?).map do |line|
       enclitic, tag, lemma, hiperlemma = line.split(/\t/)
-      hiperlemma = lemma unless hiperlemma
-      db.execute("INSERT INTO enclitics (enclitic, tag, lemma, hiperlemma) VALUES ('#{enclitic}','#{tag}','#{lemma}','#{hiperlemma}') ON CONFLICT DO NOTHING")
+      [enclitic, tag, lemma, hiperlemma || lemma]
     end
+    bulk_insert(db, "enclitics", %w[enclitic tag lemma hiperlemma], data)
   end
 
   def process_enclitic_combinations_file(db)
-    File.readlines(@enclitic_combinations_file_name).map(&:chomp).reject(&:empty?).each do |line|
-      combination, length = line.split(/\t/)
-      db.execute("INSERT INTO enclitic_combinations (combination, length) VALUES ('#{combination}',#{length})")
+    data = File.readlines(@enclitic_combinations_file_name).map(&:chomp).reject(&:empty?).map do |line|
+      combination, length = line.split("\t")
+      [combination, length.to_i]
     end
+    bulk_insert(db, "enclitic_combinations", %w[combination length], data)
   end
 end

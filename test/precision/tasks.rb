@@ -81,6 +81,11 @@ def parse_output_document(text)
   Nxml.build(rules, StringIO.new(text))[:document]
 end
 
+ResultToken = Struct.new(:form, :tag, :lemma) do
+  def category = tag[0]
+  def ==(other) = form == other.form
+end
+
 CORPUS.each do |corpus|
   file("test/precision/corpus/#{corpus}_training.sentences") { training_test_split(corpus) }
   file("test/precision/corpus/#{corpus}_training.tagged") { training_test_split(corpus) }
@@ -136,16 +141,6 @@ CORPUS.each do |corpus|
   ensure
     input.close
     input.unlink
-  end
-
-  ResultToken = Struct.new(:form, :tag, :lemma) do
-    def category
-      tag[0]
-    end
-
-    def ==(other)
-      form == other.form
-    end
   end
 
   file("test/precision/summary/#{corpus}.json" => %W[

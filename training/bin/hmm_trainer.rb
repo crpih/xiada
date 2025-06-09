@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
-require "rubygems"
 require "csv"
-require "dbi"
 require "sqlite3"
-require_relative "ngrams.rb"
-require_relative "words.rb"
-require_relative "basic_suffixes.rb"
-require_relative "../../lib/sql_utils.rb"
+require_relative "../../lib/db_utils"
+require_relative "ngrams"
+require_relative "words"
+require_relative "basic_suffixes"
 
 class HMMTrainer
+  include DbUtils
+
   EMPTY_TAG = "###"
   EMPTY_WORD = "###"
   MAX_SUFFIX_LENGTH = 10
@@ -132,60 +131,37 @@ class HMMTrainer
   def db_insert(db_name)
     db = SQLite3::Database.open(db_name)
 
-    db.transaction
     puts "Building table unigram_frequencies..."
     db.execute("create table unigram_frequencies (tk text primary key, frequency integer, log_ak real)")
-    @ngrams.unigrams.keys.each do |unigram|
-      frequency = @ngrams.get_unigram_frequency(unigram)
-      log_ak = @ngrams.get_unigram_a(unigram)
-      db.execute("insert into unigram_frequencies (tk, frequency, log_ak) values ('#{SQLUtils.escape_SQL(unigram)}',#{frequency},#{log_ak})")
-    end
+    unigram_data = @ngrams.unigrams.map { |u, f| [u, f, @ngrams.get_unigram_a(u)] }
+    bulk_insert(db, "unigram_frequencies", %w[tk frequency log_ak], unigram_data)
 
     puts "Building table bigram_frequencies..."
     db.execute("create table bigram_frequencies (tj text, tk text, frequency integer, log_ajk real, primary key(tj,tk))")
-    @ngrams.bigrams.keys.each do |bigram|
-      tj = @ngrams.get_first_component(bigram)
-      tk = @ngrams.get_second_component(bigram)
-      frequency = @ngrams.get_bigram_frequency(tj, tk)
+    bigram_data = @ngrams.bigrams.map do |bigram, frequency|
+      tj, tk = bigram.split("&")
       log_ajk = @ngrams.get_bigram_a(tj, tk)
-      db.execute("insert into bigram_frequencies (tj, tk, frequency, log_ajk) values ('#{SQLUtils.escape_SQL(tj)}','#{SQLUtils.escape_SQL(tk)}',#{frequency},#{log_ajk})")
+      [tj, tk, frequency, log_ajk]
     end
+    bulk_insert(db, "bigram_frequencies", %w[tj tk frequency log_ajk], bigram_data)
 
     puts "Building table trigram_frequencies..."
     db.execute("create table trigram_frequencies (ti text, tj text, tk text, frequency integer, log_aijk real, primary key(ti,tj,tk))")
-    @ngrams.trigrams.keys.each do |trigram|
-      ti = @ngrams.get_first_component(trigram)
-      tj = @ngrams.get_second_component(trigram)
-      tk = @ngrams.get_third_component(trigram)
-      frequency = @ngrams.get_trigram_frequency(ti, tj, tk)
+    trigram_data = @ngrams.trigrams.map do |trigram, frequency|
+      ti, tj, tk = trigram.split("&")
       log_aijk = @ngrams.get_trigram_a(ti, tj, tk)
-      db.execute("insert into trigram_frequencies (ti, tj, tk, frequency, log_aijk) values ('#{SQLUtils.escape_SQL(ti)}','#{SQLUtils.escape_SQL(tj)}','#{SQLUtils.escape_SQL(tk)}',#{frequency},#{log_aijk})")
+      [ti, tj, tk, frequency, log_aijk]
     end
+    bulk_insert(db, "trigram_frequencies", %w[ti tj tk frequency log_aijk], trigram_data)
 
     puts "Building table emission_frequencies..."
     db.execute("create table emission_frequencies (word text, tag text, lemma text, hiperlemma text, frequency integer, log_b real, from_lexicon boolean, primary key(word,tag,lemma))")
-    @words.frequencies.keys.each do |key|
-      # STDERR.puts "key:#{key}"
-      word_component = @words.get_word_component(key)
-      tag_component = @words.get_tag_component(key)
-      frequency = @words.get_frequency(word_component, tag_component)
-      lemmas = @words.get_lemmas(word_component, tag_component)
-      log_b = @words.get_probability(word_component, tag_component)
-      from_lexicon = @words.get_from_lexicon(word_component, tag_component)
-      # STDERR.puts "#{word_component}\t#{tag_component}\t#{frequency}\t#{lemmas}\t#{log_b}\t#{from_lexicon}"
-      from_lexicon_integer = 0
-      from_lexicon_integer = 1 if from_lexicon == true
-      lemmas.each do |lemma, hiperlemma|
-        # STDERR.puts "word: #{word_component}, tag: #{tag_component}, lemma: #{lemma}, hiperlemma: #{hiperlemma}"
-        db.execute("insert into emission_frequencies (word, tag, lemma, hiperlemma, frequency, log_b, from_lexicon) values ('#{SQLUtils.escape_SQL(word_component)}','#{SQLUtils.escape_SQL(tag_component)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}',#{frequency},#{log_b},#{from_lexicon_integer})")
-      end
-    end
+    bulk_insert(db, "emission_frequencies", %w[word tag lemma hiperlemma frequency log_b from_lexicon], @words.emission_data)
 
     puts "Building table word_tag_lemma_frequencies..."
     db.execute("create table word_tag_lemma_frequencies (word text, tag text, lemma text, normative boolean, frequency integer, primary key(word,tag,lemma,normative))")
-    @words.word_tag_lemma_count.each do |(word, tag, lemma, normative), count|
-      db.execute('insert into word_tag_lemma_frequencies (word, tag, lemma, normative, frequency) VALUES (?, ?, ?, ?, ?)', word, tag, lemma, normative ? 1 : 0, count)
-    end
+    word_tag_lemma_data = @words.word_tag_lemma_count.map { |(w, t, l, n), c| [w, t, l, n ? 1 : 0, c] }
+    bulk_insert(db, "word_tag_lemma_frequencies", %w[word tag lemma normative frequency], word_tag_lemma_data)
 
     db.execute("create table integer_values (variable_name text, value integer)")
     db.execute("insert into integer_values (variable_name, value) values ('corpus_size','#{@ngrams.corpus_size}')")
@@ -195,15 +171,7 @@ class HMMTrainer
 
     puts "Building table guesser_frequencies..."
     db.execute("create table guesser_frequencies (suffix text, length integer, tag text, frequency integer, log_b real, primary key(suffix, tag))")
-    @suffixes.frequencies.each_index do |length_index|
-      @suffixes.frequencies[length_index].each do |key, frequency|
-        suffix_component = @suffixes.get_suffix_component(key)
-        tag_component = @suffixes.get_tag_component(key)
-        log_b = @suffixes.get_probability(length_index + 1, suffix_component, tag_component)
-        #puts "insert into guesser_frequencies (suffix, length, tag, frequency, log_b) values ('#{SQLUtils.escape_SQL(suffix_component)}',#{length_index+1},'#{SQLUtils.escape_SQL(tag_component)}',#{frequency},#{log_b})"
-        db.execute("insert into guesser_frequencies (suffix, length, tag, frequency, log_b) values ('#{SQLUtils.escape_SQL(suffix_component)}',#{length_index + 1},'#{SQLUtils.escape_SQL(tag_component)}',#{frequency},#{log_b})")
-      end
-    end
+    bulk_insert(db, "guesser_frequencies", %w[suffix length tag frequency log_b], @suffixes.data)
 
     # @suffixes.suffixes_tags_freqs.keys.each do |key|
     #  suffix_component = @suffixes.get_suffix_component(key)
@@ -215,7 +183,6 @@ class HMMTrainer
 
     # create indexes to fast access ???
     # create indexes for primary key or unique ???
-    db.commit
 
     puts "Building indexes..."
     db.execute("create index emission_word_index on emission_frequencies(word)")

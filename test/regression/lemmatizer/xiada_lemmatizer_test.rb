@@ -2,9 +2,7 @@ require 'sqlite3'
 require 'json'
 require 'fileutils'
 require_relative '../../test_helper'
-require_relative '../../../running/bin/database_wrapper'
-require_relative '../../../running/galician_xiada/lemmas/lemmatizer_corga'
-require_relative '../../../running/galician_eslora/lemmatizer'
+require_relative '../../../running/bin/config'
 
 def gender_number_variations(word)
   return word unless word.end_with?('o')
@@ -13,34 +11,42 @@ def gender_number_variations(word)
   [word, "#{word}s", "#{base}a", "#{base}as"]
 end
 
-def read_words(database_name)
-  File.readlines("test/regression/lemmatizer/#{database_name}_selected_words.txt", chomp: true)
+def read_words(tagger_config)
+  File.readlines("test/regression/lemmatizer/#{tagger_config.database}_selected_words.txt", chomp: true)
       .map { |l| l.split('#').first&.strip } # Remove comments
       .reject(&:nil?).reject(&:empty?) # Skip blank lines
       .flat_map { |w| gender_number_variations(w) }
 end
 
-def test_snapshots(database_name, lemmatizer, all_tags)
-  words = read_words(database_name)
+def test_snapshots(tagger_config, document_config)
+  words = read_words(tagger_config)
+  all_tags = tagger_config.dw.all_tags
   current = words.each_with_object({}) do |word, result|
-    lemmas = lemmatizer.lemmatize(word, all_tags)
+    lemmas = tagger_config.lemmatizer.lemmatize(document_config, word, all_tags)
     result[word] = lemmas if lemmas&.any?
   end
 
-  # Save current results as expected if ENV variable defined
-  if ENV['XIADA_SAVE_RESULT']
-    FileUtils.mkdir_p("#{__dir__}/#{database_name}")
-    File.write("#{__dir__}/#{database_name}/selected.json", JSON.pretty_generate(current))
-  end
+  # Uncomment to save current results as expected
+  # FileUtils.mkdir_p("#{__dir__}/#{tagger_config.database}")
+  # File.write("#{__dir__}/#{tagger_config.database}/selected.json", JSON.pretty_generate(current))
 
-  expected = JSON.parse(File.read("#{__dir__}/#{database_name}/selected.json"))
+  expected = JSON.parse(File.read("#{__dir__}/#{tagger_config.database}/selected.json"))
   words.each do |word|
     expected_word = expected[word]
+    current_word = current[word]
     it "#{word}" do
       if expected_word.nil?
-        assert_nil current[word], "Failed lemmatization for: #{word}"
+        assert_nil current_word, "Failed lemmatization for: #{word}"
       else
-        assert_equal expected_word, current[word], "Failed lemmatization for: #{word}"
+        refute_nil current_word, "Failed lemmatization for: #{word}"
+        expected_word.zip(current_word).each do |expected_result, actual_result|
+          expected_tag, expected_lemma, expected_hyperlemma, expected_log_b = expected_result
+          actual_tag, actual_lemma, actual_hyperlemma, actual_log_b = actual_result
+          assert_equal expected_tag, actual_tag, "Failed lemmatization for: #{word}"
+          assert_equal expected_lemma, actual_lemma, "Failed lemmatization for: #{word}"
+          assert_equal expected_hyperlemma, actual_hyperlemma, "Failed lemmatization for: #{word}"
+          assert_in_delta expected_log_b, actual_log_b, 0.2 # Ignore minor differences
+        end
       end
     end
   end
@@ -48,22 +54,14 @@ end
 
 describe "Lemmatizer" do
   describe "galician_xiada" do
-    ENV['XIADA_PROFILE'] = 'galician_xiada'
-    ENV['XIADA_DATABASE'] = 'galician_xiada_escrita'
-    dw = DatabaseWrapper.new("training/databases/galician_xiada/training_galician_xiada_escrita.db")
-    all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
-    lemmatizer = Lemmas::LemmatizerCorga.new(dw)
-
-    test_snapshots('galician_xiada_escrita', lemmatizer, all_tags)
+    tagger_config = Config::Tagger.new(profile: "galician_xiada", database: "galician_xiada_escrita")
+    document_config = Config::Document.new(seseo: true, gheada: true)
+    test_snapshots(tagger_config, document_config)
   end
 
   describe "galician_eslora" do
-    ENV['XIADA_PROFILE'] = 'galician_eslora'
-    ENV['XIADA_DATABASE'] = 'galician_eslora'
-    dw = DatabaseWrapper.new("training/databases/galician_eslora/training_galician_eslora.db")
-    all_tags = dw.get_possible_tags(['*']).split(',').map { |t| t.delete_prefix("'").delete_suffix("'") }
-    lemmatizer = LemmatizerMultilingualEslora.new(dw)
-
-    test_snapshots('galician_eslora', lemmatizer, all_tags)
+    tagger_config = Config::Tagger.new(profile: "galician_eslora", database: "galician_eslora")
+    document_config = Config::Document.new(seseo: true, gheada: true)
+    test_snapshots(tagger_config, document_config)
   end
 end

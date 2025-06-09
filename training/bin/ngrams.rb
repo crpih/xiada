@@ -50,57 +50,17 @@ class Ngrams
     end
   end
 
-  def get_unigram_frequency(tag)
-    if @unigrams.key?(tag)
-      return @unigrams[tag]
-    else
-      return 0
-    end
-  end
+  def get_unigram_frequency(tag) = @unigrams[tag] || 0
 
-  def get_unigram_a(tag)
-    if @unigrams.key?(tag)
-      return @unigrams_a[tag]
-    else
-      return 0
-    end
-  end
+  def get_unigram_a(tag) = @unigrams_a[tag] || 0
 
-  def get_bigram_frequency(tag_prev, tag)
-    key = tag_prev+"&"+tag
-    if @bigrams.key?(key)
-      return @bigrams[key]
-    else
-      return 0
-    end
-  end
+  def get_bigram_frequency(tag_prev, tag) = @bigrams["#{tag_prev}&#{tag}"] || 0
 
-  def get_bigram_a(tag_prev, tag)
-    key = tag_prev+"&"+tag
-    if @bigrams_a.key?(key)
-      return @bigrams_a[key]
-    else
-      return 0
-    end
-  end
+  def get_bigram_a(tag_prev, tag) = @bigrams_a["#{tag_prev}&#{tag}"] || 0
 
-  def get_trigram_frequency(tag_prev_prev, tag_prev, tag)
-    key = tag_prev_prev+"&"+tag_prev+"&"+tag
-    if @trigrams.key?(key)
-      return @trigrams[key]
-    else
-      return 0
-    end
-  end
+  def get_trigram_frequency(tag_prev_prev, tag_prev, tag) = @trigrams["#{tag_prev_prev}&#{tag_prev}&#{tag}"] || 0
 
-  def get_trigram_a(tag_prev_prev, tag_prev, tag)
-    key = tag_prev_prev+"&"+tag_prev+"&"+tag
-    if @trigrams_a.key?(key)
-      return @trigrams_a[key]
-    else
-      return 0
-    end
-  end
+  def get_trigram_a(tag_prev_prev, tag_prev, tag) = @trigrams_a["#{tag_prev_prev}&#{tag_prev}&#{tag}"] || 0
 
   def calculate_lambdas
 

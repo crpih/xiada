@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
-require_relative '../../../lib/sql_utils.rb'
+require_relative "../../../lib/db_utils"
 
 class Abbreviations
+  include DbUtils
 
   def initialize(file_name)
     @file_name = file_name
@@ -15,16 +15,10 @@ class Abbreviations
   private
 
   def process_file(db)
-    File.open(@file_name,"r") do |file|
-      while line = file.gets
-        line.chomp!
-        unless line.empty?
-          abbreviation, tag, lemma, hiperlemma = line.split(/\t/)
-          hiperlemma = lemma unless hiperlemma
-          query = "insert into abbreviations (abbreviation, tag, lemma, hiperlemma) values ('#{SQLUtils.escape_SQL(abbreviation)}','#{SQLUtils.escape_SQL(tag)}','#{SQLUtils.escape_SQL(lemma)}','#{SQLUtils.escape_SQL(hiperlemma)}')"
-          db.execute(query)
-        end
-      end
+    data = File.readlines(@file_name).map do |line|
+      abbreviation, tag, lemma, hiperlemma = line.chomp.split("\t")
+      [abbreviation, tag, lemma, hiperlemma || lemma]
     end
+    bulk_insert(db, "abbreviations", %w[abbreviation tag lemma hiperlemma], data)
   end
 end
