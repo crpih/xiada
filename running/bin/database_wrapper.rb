@@ -232,7 +232,7 @@ class DatabaseWrapper
   end
 
   def get_cardinals_match(cardinal_component, column_index, ids)
-    return [] if column_index > PROPER_NOUNS_MAX_NUM_COMPONENTS
+    return [] if column_index > CARDINALS_MAX_NUM_COMPONENTS
 
     query = <<~SQL
       SELECT id
