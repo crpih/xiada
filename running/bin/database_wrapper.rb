@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-require "rubygems"
 require "sqlite3"
 require "active_support/core_ext/object/blank"
 
@@ -15,8 +13,11 @@ class DatabaseWrapper
     raise "Database not found: #{database_file}" unless File.exist?(database_file)
 
     @tagger_config = tagger_config
+    @database_file = database_file
     @db = SQLite3::Database.open(database_file)
   end
+
+  def close_database = @db.close
 
   def get_emissions_info(word, tags)
     possible_tags = get_possible_tags(tags)
@@ -27,7 +28,7 @@ class DatabaseWrapper
       #{"AND from_lexicon = 1" if @tagger_config.only_lexicon && word != '###'}
       #{"AND tag IN (#{(['?'] * possible_tags.length).join(', ')})" if possible_tags&.any?}
     SQL
-    @db.execute(query, [word, *possible_tags])
+    execute(query, [word, *possible_tags])
   end
 
   def get_emissions_info_variants(word, tags, variants)
@@ -64,7 +65,7 @@ class DatabaseWrapper
             query = "select tk,null,null,log_ak from unigram_frequencies"
             opened_category_regexp = get_opened_category_regexp
             # STDERR.puts "opened_category_regexp: #{opened_category_regexp}"
-            @db.execute(query) do |row|
+            execute(query) do |row|
               result << row if row[0] =~ /#{opened_category_regexp}/
             end
           end
@@ -86,7 +87,7 @@ class DatabaseWrapper
       ORDER BY length DESC
     SQL
 
-    rows = @db.execute(query, [*suffixes, *possible_tags])
+    rows = execute(query, [*suffixes, *possible_tags])
     return [] if rows.empty?
 
     max_length = rows.first.last
@@ -99,7 +100,7 @@ class DatabaseWrapper
     result = Array.new
     query = "select tk,null,null,log_ak from unigram_frequencies"
     opened_category_regexp = get_opened_category_regexp
-    @db.execute(query) do |row|
+    execute(query) do |row|
       result << row if row[0] =~ /#{opened_category_regexp}/
     end
     return result
@@ -143,7 +144,7 @@ class DatabaseWrapper
   end
 
   def get_contractions(token_text)
-    @db.execute <<~SQL, [token_text]
+    execute <<~SQL, [token_text]
       SELECT contraction,
              first_component_word,
              first_component_tag,
@@ -163,11 +164,11 @@ class DatabaseWrapper
   end
 
   def get_idioms_match(substring)
-    @db.execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom LIKE ?", ["#{substring}%"])
+    execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom LIKE ?", ["#{substring}%"])
   end
 
   def get_idioms_full(idiom)
-    @db.execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom = ?", [idiom])
+    execute("SELECT idiom, tag, lemma, hiperlemma, sure FROM idioms WHERE idiom = ?", [idiom])
   end
 
   def is_idiom_sure?(idiom)
@@ -175,19 +176,19 @@ class DatabaseWrapper
   end
 
   def get_multiword_match(substring)
-    @db.execute("SELECT idiom AS word, tag, lemma, hiperlemma FROM idioms WHERE word LIKE ?", ["#{substring}%"])
+    execute("SELECT idiom AS word, tag, lemma, hiperlemma FROM idioms WHERE word LIKE ?", ["#{substring}%"])
   end
 
   def get_multiword_full(idiom)
-    @db.execute("SELECT idiom as word, tag, lemma, hiperlemma FROM idioms WHERE word = ?", [idiom])
+    execute("SELECT idiom as word, tag, lemma, hiperlemma FROM idioms WHERE word = ?", [idiom])
   end
 
   def get_proper_nouns_links
-    @db.execute("SELECT link FROM proper_nouns_links")
+    execute("SELECT link FROM proper_nouns_links")
   end
 
   def get_proper_nouns_candidate_tags
-    @db.execute("SELECT tag FROM proper_nouns_candidate_tags").map(&:first)
+    execute("SELECT tag FROM proper_nouns_candidate_tags").map(&:first)
   end
 
   def get_proper_nouns_match(proper_noun_component, column_index, ids)
@@ -199,15 +200,15 @@ class DatabaseWrapper
       WHERE c#{column_index} = ?
       #{"AND id IN (#{(['?'] * ids.length).join(',')})" if ids&.any?}
     SQL
-    @db.execute(query, [proper_noun_component, *ids]).map(&:first)
+    execute(query, [proper_noun_component, *ids]).map(&:first)
   end
 
   def get_proper_noun_ids(proper_noun)
-    @db.execute("SELECT id FROM proper_nouns WHERE proper_noun = ?", [proper_noun]).map(&:first)
+    execute("SELECT id FROM proper_nouns WHERE proper_noun = ?", [proper_noun]).map(&:first)
   end
 
   def get_proper_noun_info_by_ids(ids_array)
-    @db.execute <<~SQL, ids_array
+    execute <<~SQL, ids_array
       SELECT proper_noun, tag, lemma, hiperlemma
       FROM proper_nouns
       WHERE id IN (#{(['?'] * ids_array.length).join(',')})
@@ -218,7 +219,7 @@ class DatabaseWrapper
     parts = proper_noun.split(" ")
     combinations = (0..(parts.length - 1)).map { |i| parts[0..i].join(" ") }
 
-    @db.execute <<~SQL, combinations
+    execute <<~SQL, combinations
       SELECT tag, lemma, hiperlemma
       FROM proper_nouns
       WHERE proper_noun IN (#{(['?'] * combinations.length).join(',')})
@@ -227,7 +228,7 @@ class DatabaseWrapper
   end
 
   def get_numerals_values
-    @numerals_values ||= @db.execute("SELECT variable_name, value FROM numerals_values")
+    @numerals_values ||= execute("SELECT variable_name, value FROM numerals_values")
   end
 
   def get_cardinals_match(cardinal_component, column_index, ids)
@@ -239,21 +240,21 @@ class DatabaseWrapper
       WHERE c#{column_index} = ?
       #{"AND id IN (#{(['?'] * ids.length).join(',')})" if ids&.any?}
     SQL
-    @db.execute(query, [cardinal_component, *ids]).map(&:first)
+    execute(query, [cardinal_component, *ids]).map(&:first)
   end
 
-  def get_cardinal_ids(cardinal) = @db.execute("SELECT id FROM cardinals WHERE cardinal = ?", [cardinal]).map(&:first)
+  def get_cardinal_ids(cardinal) = execute("SELECT id FROM cardinals WHERE cardinal = ?", [cardinal]).map(&:first)
 
   def get_cardinal_tags_lemmas(cardinal)
-    @db.execute("SELECT tag, lemma, hiperlemma FROM cardinals WHERE cardinal = ?", [cardinal])
+    execute("SELECT tag, lemma, hiperlemma FROM cardinals WHERE cardinal = ?", [cardinal])
   end
 
   def get_abbreviations
-    @abbreviations ||= @db.execute("SELECT abbreviation, tag, lemma, hiperlemma FROM abbreviations")
+    @abbreviations ||= execute("SELECT abbreviation, tag, lemma, hiperlemma FROM abbreviations")
   end
 
   def get_acronyms
-    @acronyms ||= @db.execute("SELECT acronym, tag, lemma, hiperlemma FROM acronyms")
+    @acronyms ||= execute("SELECT acronym, tag, lemma, hiperlemma FROM acronyms")
   end
 
   def enclitic_combination_exists?(combination)
@@ -297,7 +298,7 @@ class DatabaseWrapper
 
   def get_enclitics_info
     result = Hash.new
-    @db.execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
+    execute("select contraction, first_component_word, first_component_tag, first_component_lemma, second_component_word, second_component_tag, second_component_lemma from contractions") do |row|
       pronoun_category = @db.get_first_value("select category from tags_info where name='pronoun'")
       # STDERR.puts "\nrow:#{row}"
       if row[2] =~ /#{pronoun_category}/
@@ -312,7 +313,7 @@ class DatabaseWrapper
       end
     end
 
-    @db.execute("select enclitic, tag, lemma from enclitics") do |row|
+    execute("select enclitic, tag, lemma from enclitics") do |row|
       unless insert_word_tag_lemma(result, row[0], row[0], row[1], row[2], 1)
         puts "Insertion error for enclitic:#{row[0]}"
         exit(1)
@@ -335,12 +336,12 @@ class DatabaseWrapper
     if tags.nil? || tags.empty?
       variants.each_with_object([]) do |variant, result|
         query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
-        result.push(*@db.execute(query, [variant]))
+        result.push(*execute(query, [variant]))
       end
     else
       variants.each_with_object([]) do |variant, result|
         query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
-        result.push(*@db.execute(query, [variant, tags]))
+        result.push(*execute(query, [variant, tags]))
       end
     end
   end
@@ -350,7 +351,7 @@ class DatabaseWrapper
     from_lexicon_integer = 0
     from_lexicon_integer = 1 if from_lexicon
     query = "select word,tag,lemma,hiperlemma,log_b from emission_frequencies where tag=? and lemma=? and from_lexicon = ?"
-    result = @db.execute(query, [tag, lemma, from_lexicon_integer]).map do |word, *rest|
+    result = execute(query, [tag, lemma, from_lexicon_integer]).map do |word, *rest|
       # Replace gheada with gh if necessary
       word = word.gsub("g", "gh") if document_config.gheada && verb_part =~ /gh/ && word !~ /gh/
 
@@ -370,7 +371,7 @@ class DatabaseWrapper
 
   def get_peripheric_regexp
     category_regexp = nil
-    @db.execute("select category from tags_info where name='peripheric'") do |row|
+    execute("select category from tags_info where name='peripheric'") do |row|
       category = row[0]
       if category_regexp == nil
         category_regexp = "^#{category}"
@@ -419,7 +420,7 @@ class DatabaseWrapper
   end
 
   def all_tags
-    @all_tags ||= @db.execute("SELECT DISTINCT(tk) FROM unigram_frequencies").map(&:first).sort
+    @all_tags ||= execute("SELECT DISTINCT(tk) FROM unigram_frequencies").map(&:first).sort
   end
 
   # Check if the tags array includes all possible tags.
@@ -434,7 +435,7 @@ class DatabaseWrapper
     return all_tags if tags.blank? || includes_all_tags?(tags)
 
     conditions, values = tags.map { |t| t.match?(/[*?]/) ? ["tk LIKE ?", t.tr("*?", "%_")] : ["tk = ?", t] }.transpose
-    @db.execute("SELECT DISTINCT(tk) FROM unigram_frequencies WHERE #{conditions.join(' OR ')}", values).map(&:first)
+    execute("SELECT DISTINCT(tk) FROM unigram_frequencies WHERE #{conditions.join(' OR ')}", values).map(&:first)
   end
 
   def get_most_frequent_lemma(word, tag, lemmas)
@@ -451,11 +452,17 @@ class DatabaseWrapper
 
   private
 
+  def execute(sql, bind_vars = [], &block)
+    @db = SQLite3::Database.open(@database_file) if @db.nil? || @db.closed?
+    @db.execute(sql, bind_vars, &block)
+  end
+
+
   def get_possible_suffixes(word) = (1..(word.length - 1)).map { |i| word[i..] }
 
   def get_opened_category_regexp
     category_regexp = nil
-    @db.execute("select category from tags_info where class='opened'") do |row|
+    execute("select category from tags_info where class='opened'") do |row|
       category = row[0]
       if category_regexp == nil
         category_regexp = "^#{category}"
@@ -468,7 +475,7 @@ class DatabaseWrapper
 
   def get_closed_category_regexp
     category_regexp = nil
-    @db.execute("select category from tags_info where class='closed'") do |row|
+    execute("select category from tags_info where class='closed'") do |row|
       category = row[0]
       if category_regexp == nil
         category_regexp = "^#{category}"
@@ -481,7 +488,7 @@ class DatabaseWrapper
 
   def get_adverb_category_regexp
     category_regexp = nil
-    @db.execute("select category from tags_info where name='adverb'") do |row|
+    execute("select category from tags_info where name='adverb'") do |row|
       category = row[0]
       if category_regexp == nil
         category_regexp = "^#{category}"
@@ -494,7 +501,7 @@ class DatabaseWrapper
 
   def get_substantive_category_regexp
     category_regexp = nil
-    @db.execute("select category from tags_info where name='substantive'") do |row|
+    execute("select category from tags_info where name='substantive'") do |row|
       category = row[0]
       if category_regexp == nil
         category_regexp = "^#{category}"

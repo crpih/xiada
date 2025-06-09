@@ -12,6 +12,7 @@ TAGGERS = YAML.load_file("#{__dir__}/../../profiles.yml", symbolize_names: true)
   elapsed = Benchmark.measure do
     tagger_config = Config::Tagger.new(profile:, database:, only_lexicon:, force_proper_nouns:)
     tagger = XiadaTagger.new(tagger_config)
+    tagger_config.dw.close_database # Close the database before forking
   end
   puts "Loaded tagger with config #{params.inspect} in #{elapsed.real.round(2)} seconds"
   tagger
