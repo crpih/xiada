@@ -34,6 +34,9 @@ helpers do
       rd.close
       wr.write yield(tagger, document_config, texts).to_json
       wr.close
+    rescue => e
+      puts "Exception in child process: #{e.class} - #{e.message}"
+      puts e.backtrace
     end
     wr.close
     result = rd.read
