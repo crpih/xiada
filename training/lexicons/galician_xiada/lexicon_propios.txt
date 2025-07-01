@@ -4,7 +4,7 @@
 110 compromisos coa España que queres	Sp00	110 compromisos coa España que queres
 1492: a conquista do paraíso	Sp00	1492: a conquista do paraíso
 150 lugares para coñecer Galicia	Sp00	150 lugares para coñecer Galicia
-1936, La "Cruzada" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares	Sp00	1936, La "Cruzada" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares
+"1936, La ""Cruzada"" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares"	Sp00	"1936, La ""Cruzada"" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares"
 2 Viaxes	Sp00	2 Viaxes
 2001: A Space Odyssey	Sp00	2001: A Space Odyssey
 2001: Unha odisea do espazo	Sp00	2001: Unha odisea do espazo
@@ -430,8 +430,8 @@ A voz do trebón. Unha aproximación a Finnegan's Wake	Sp00	A voz do trebón. Un
 A xanela do maxín	Sp00	A xanela do maxín
 A xente da Barreira	Sp00	A xente da Barreira
 A xente e os seus vicios	Sp00	A xente e os seus vicios
-A xeracións "Nós". Galeguismo e relixión	Sp00	A xeracións "Nós". Galeguismo e relixión
-A xeracións "Nós"	Sp00	A xeracións "Nós"
+"A xeracións ""Nós"". Galeguismo e relixión"	Sp00	"A xeracións ""Nós"". Galeguismo e relixión"
+"A xeracións ""Nós"""	Sp00	"A xeracións ""Nós"""
 A xestión cultural en Galicia	Sp00	A xestión cultural en Galicia
 A xoia de Shanghai	Sp00	A xoia de Shanghai
 A xustiza pola man	Sp00	A xustiza pola man
@@ -2393,8 +2393,8 @@ Amazophrynella minuta	Snaa	Amazophrynella minuta	Amazophrynella minuta
 Ambassis jacksoniensis	Snaa	Ambassis jacksoniensis	Ambassis jacksoniensis
 Amberes	Sp00	Amberes
 Ambesa laetella	Snaa	Ambesa laetella	Ambesa laetella
+"Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la ""Guerra Civil"""	Sp00	"Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la ""Guerra Civil"""
 Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la 'guerra civil'	Sp00	Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la 'guerra civil'
-Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la "Guerra Civil"	Sp00	Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la "Guerra Civil"
 Ambiciono o equilibrio dos extremos	Sp00	Ambiciono o equilibrio dos extremos
 Ambiente polémico: Los países subdesarrollados se niegan a ser reducidos a parque de la tierra	Sp00	Ambiente polémico: Los países subdesarrollados se niegan a ser reducidos a parque de la tierra
 Ambisome	Sp00	Ambisome
@@ -2717,7 +2717,7 @@ Analgilasa 	Sp00	Analgilasa
 Analgiplus	Sp00	Analgiplus
 Analía López	Spf0	Analía López
 Analia Rosa	Spf0	Analia Rosa
-Analise d'un quadre: "Dona i Ocells" de Joan Miró	Sp00	Analise d'un quadre: "Dona i Ocells" de Joan Miró
+"Analise d'un quadre: ""Dona i Ocells"" de Joan Miró"	Sp00	"Analise d'un quadre: ""Dona i Ocells"" de Joan Miró"
 Análise sociolóxica da obra de Rosalía de Castro	Sp00	Análise sociolóxica da obra de Rosalía de Castro
 Análise sociolóxica de Rosalía de Castro	Sp00	Análise sociolóxica de Rosalía de Castro
 Análisis comparado de figuras para la agrupación de minifundios forestales	Sp00	Análisis comparado de figuras para la agrupación de minifundios forestales
@@ -5880,7 +5880,7 @@ Becozyme	Sp00	Becozyme
 Bécquer	Sp00	Bécquer
 Beecham	Sp00	Beecham
 Befaria resinosa	Snaa	Befaria resinosa	Befaria resinosa
-Before I die 	Sp00	Before I die 
+Before I die 	Sp00	Before I die
 Before night falls	Sp00	Before night falls
 Begiristáin	Sp00	Begiristáin
 Beglan	Sp00	Beglan
@@ -13530,7 +13530,7 @@ De l'origen des especes	Sp00	De l'origen des especes
 De mi tierra	Sp00	De mi tierra
 De monetaria galega. Galiza e a súa moeda dende a Antigüidade ata os nosos días	Sp00	De monetaria galega. Galiza e a súa moeda dende a Antigüidade ata os nosos días
 De monetaria galega	Sp00	De monetaria galega
-"De nación turca, de mediano cuerpo y peli negra": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII	Sp00	"De nación turca, de mediano cuerpo y peli negra": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII
+"""De nación turca, de mediano cuerpo y peli negra"": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII"	Sp00	"""De nación turca, de mediano cuerpo y peli negra"": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII"
 De não saber o que me espera-Homenaxe a Zeca Afonso	Sp00	De não saber o que me espera-Homenaxe a Zeca Afonso
 De Nós. Monografías con perspectiva galega	Sp00	De Nós. Monografías con perspectiva galega
 De Palacio	Sp00	De Palacio
@@ -15482,7 +15482,7 @@ El misterio de los sexos	Sp00	El misterio de los sexos
 El misterio entramado	Sp00	El misterio entramado
 El mito de la cultura	Sp00	El mito de la cultura
 El monasterio de San Esteban de Ribas de Sil	Sp00	El monasterio de San Esteban de Ribas de Sil
-"El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro	Sp00	"El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro
+"""El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro"	Sp00	"""El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro"
 El muerto y ser feliz	Sp00	El muerto y ser feliz
 El Mundo Digital	Spms	El Mundo Digital
 El nazi perfecto. El descubrimiento del secreto de mi abuelo y del modo en que Hitler sedujo a una generación	Sp00	El nazi perfecto. El descubrimiento del secreto de mi abuelo y del modo en que Hitler sedujo a una generación
@@ -16597,7 +16597,7 @@ Esquerda de Galicia	Sp00	Esquerda de Galicia
 Esquisse d'une psychologie du cinéma	Sp00	Esquisse d'une psychologie du cinéma
 Essai géographique d'analyse et d'interprétation d'un vieux complexe agraire	Sp00	Essai géographique d'analyse et d'interprétation d'un vieux complexe agraire
 Essai historique	Sp00	Essai historique
-Essais de philosophie critique 	Sp00	Essais de philosophie critique 
+Essais de philosophie critique 	Sp00	Essais de philosophie critique
 Esta historia	Sp00	Esta historia
 Esta noche cruzamos el Mississippi	Sp00	Esta noche cruzamos el Mississippi
 Estaçãou	Sp00	Estaçãou
@@ -19201,7 +19201,7 @@ Gran cantidade de simboloxía franquista permanece aínda intacta	Sp00	Gran cant
 Gran Guerra	Spfs	Gran Guerra
 Gran hermano	Sp00	Gran hermano
 Gran Walz fantástico	Sp00	Gran Walz fantástico
-Granada azul. La construcción de la "cultura de la Victoria" en el primer franquismo (1936-1951)	Sp00	Granada azul. La construcción de la "cultura de la Victoria" en el primer franquismo (1936-1951)
+"Granada azul. La construcción de la ""cultura de la Victoria"" en el primer franquismo (1936-1951)"	Sp00	"Granada azul. La construcción de la ""cultura de la Victoria"" en el primer franquismo (1936-1951)"
 Granada	Sp00	Granada
 Granata lyrata	Snaa	Granata lyrata	Granata lyrata
 Grandal	Sp00	Grandal
@@ -21405,7 +21405,7 @@ Infiltrados na universidade	Sp00	Infiltrados na universidade
 Influencias de la emigración al Brasil en tierras de Galicia	Sp00	Influencias de la emigración al Brasil en tierras de Galicia
 Infoempleo Adecco 2021: Oferta e demanda de emprego en España	Sp00	Infoempleo Adecco 2021: Oferta e demanda de emprego en España
 Informativos Telecinco	Sp00	Informativos Telecinco
-Informe 2010 de Amnistía Internacional: "El estado de los derechos humanos en el mundo"	Sp00	Informe 2010 de Amnistía Internacional: "El estado de los derechos humanos en el mundo"
+"Informe 2010 de Amnistía Internacional: ""El estado de los derechos humanos en el mundo"""	Sp00	"Informe 2010 de Amnistía Internacional: ""El estado de los derechos humanos en el mundo"""
 Informe anual de indicadores 2022	Sp00	Informe anual de indicadores 2022
 Informe de recursos humanos da enfermaría 2020	Sp00	Informe de recursos humanos da enfermaría 2020
 Informe económico financeiro do proxecto de orzamentos de 2021	Sp00	Informe económico financeiro do proxecto de orzamentos de 2021
@@ -22596,7 +22596,7 @@ La la land	Sp00	La la land
 La lengua	Sp00	La lengua
 La lentitud	Sp00	La lentitud
 La levadura	Sp00	La levadura
-¿La "ley de Huang" reemplazó de la "ley de Moore"?	Sp00	¿La "ley de Huang" reemplazó de la "ley de Moore"?
+"¿La ""ley de Huang"" reemplazó de la ""ley de Moore""?"	Sp00	"¿La ""ley de Huang"" reemplazó de la ""ley de Moore""?"
 La leyenda del beso	Sp00	La leyenda del beso
 La libertad es un bien muy preciado	Sp00	La libertad es un bien muy preciado
 La libertaire	Sp00	La libertaire
@@ -22642,7 +22642,7 @@ La mujer que soñaba con números	Sp00	La mujer que soñaba con números
 La música pensada. Sobre Eugenio trías	Sp00	La música pensada. Sobre Eugenio trías
 La música pensada. Sobre Eugenio Trías	Sp00	La música pensada. Sobre Eugenio Trías
 La música termina	Sp00	La música termina
-"La Nación y el speed", "... y el Prozac", "... y el Crystal Meth", "... y el Frenadol" ...	Sp00	"La Nación y el speed", "... y el Prozac", "... y el Crystal Meth", "... y el Frenadol" ...
+"""La Nación y el speed"", ""... y el Prozac"", ""... y el Crystal Meth"", ""... y el Frenadol"" ..."	Sp00	"""La Nación y el speed"", ""... y el Prozac"", ""... y el Crystal Meth"", ""... y el Frenadol"" ..."
 La niña de los ojos verdes	Sp00	La niña de los ojos verdes
 La niña de tus ojos	Sp00	La niña de tus ojos
 La noche americana	Sp00	La noche americana
@@ -23078,7 +23078,7 @@ L'Arbre de vies	Sp00	L'Arbre de vies
 Laredo	Sp00	Laredo
 Largactil	Sp00	Largactil
 Largatrex	Sp00	Largatrex
-L'argent de poche 	Sp00	L'argent de poche 
+L'argent de poche 	Sp00	L'argent de poche
 Larger than life	Sp00	Larger than life
 Lariam	Sp00	Lariam
 Larimichthys crocea	Snaa	Larimichthys crocea	Larimichthys crocea
@@ -23344,7 +23344,7 @@ Lecanicillium sp.	Snaa	Lecanicillium sp.	Lecanicillium sp.
 Lecanopteris mirabilis	Snaa	Lecanopteris mirabilis	Lecanopteris mirabilis
 Lección de arte	Sp00	Lección de arte
 Lección VIII. Conceptos indispensables sobre las llamadas enfermedades degenerativas que dan mayor contingente a la crenoterapia	Sp00	Lección VIII. Conceptos indispensables sobre las llamadas enfermedades degenerativas que dan mayor contingente a la crenoterapia
-Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 	Sp00	Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 
+Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 	Sp00	Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos.
 Leccións sobre a enfermidade do cólera morbo e o seu método curativo	Sp00	Leccións sobre a enfermidade do cólera morbo e o seu método curativo
 Lecer	Sp00	Lecer
 Lechriodus melanopyga	Snaa	Lechriodus melanopyga	Lechriodus melanopyga
@@ -24700,7 +24700,6 @@ Los demonios	Sp00	Los demonios
 Los días del pasado	Sp00	Los días del pasado
 Los días históricos de Galicia	Sp00	Los días históricos de Galicia
 Los dones de las tres hadas	Sp00	Los dones de las tres hadas
-Los dos antiguos "Portos" de Orense: el "Porto Auriense" y el "Porto Vello". Sus barcas, ermitas y caminos	Sp00	Los dos antiguos "Portos" de Orense: el "Porto Auriense" y el "Porto Vello". Sus barcas, ermitas y caminos
 "Los dos antiguos ""Portos"" de Orense: el ""Porto Auriense"" y el ""Porto Vello"". Sus barcas, ermitas y caminos"	Sp00	"Los dos antiguos ""Portos"" de Orense: el ""Porto Auriense"" y el ""Porto Vello"". Sus barcas, ermitas y caminos"
 Los espacios de reclusión franquistas en Galicia. Análisis de la población reclusa (1940-1950)	Sp00	Los espacios de reclusión franquistas en Galicia. Análisis de la población reclusa (1940-1950)
 Los espacios de reclusión franquistas en Galicia...	Sp00	Los espacios de reclusión franquistas en Galicia...
@@ -25621,7 +25620,7 @@ Manuela López Besteiro	Spf0	Manuela López Besteiro
 Manuela	Spf0	Manuela
 Manuel	Spm0	Manuel
 Manulea microphylla	Snaa	Manulea microphylla	Manulea microphylla
-Mañana. Conferencia "O alzamento en Galicia"	Sp00	Mañana. Conferencia "O alzamento en Galicia"
+"Mañana. Conferencia ""O alzamento en Galicia"""	Sp00	"Mañana. Conferencia ""O alzamento en Galicia"""
 Mañana en Boisaca (Santiago) homenaje a cinco fusilados en 1936	Sp00	Mañana en Boisaca (Santiago) homenaje a cinco fusilados en 1936
 Mapa crítico da Galiza	Sp00	Mapa crítico da Galiza
 Mapa da tenrura	Sp00	Mapa da tenrura
@@ -25919,7 +25918,7 @@ Matarte lentamente	Sp00	Matarte lentamente
 Matemática aplicada e bioinformática	Sp00	Matemática aplicada e bioinformática
 Matemática es nombre de mujer	Sp00	Matemática es nombre de mujer
 Mateo	Spm0	Mateo
-Materia médica y tratamientos crenoterápicos. 	Sp00	Materia médica y tratamientos crenoterápicos. 
+Materia médica y tratamientos crenoterápicos. 	Sp00	Materia médica y tratamientos crenoterápicos.
 Materiais para un arquivo da cultura submarina	Sp00	Materiais para un arquivo da cultura submarina
 Materno Infantil	Spms	Materno Infantil
 Maticora bivirgata	Snaa	Maticora bivirgata	Maticora bivirgata
@@ -28923,7 +28922,7 @@ Nomascus concolor	Snaa	Nomascus concolor	Nomascus concolor
 Nomascus gabriellae	Snaa	Nomascus gabriellae	Nomascus gabriellae
 Nomascus leucogenys	Snaa	Nomascus leucogenys	Nomascus leucogenys
 Nomes diferentes, mesmas oportunidades	Sp00	Nomes diferentes, mesmas oportunidades
-Nomes e voces: balance, preguntas e interpretaciones. Las huellas del golpe de Estado en Galicia"	Sp00	Nomes e voces: balance, preguntas e interpretaciones. Las huellas del golpe de Estado en Galicia"
+"Nomes e voces: balance, preguntas e interpretaciones. Las huellas del golpe de Estado en Galicia"""	Sp00	"Nomes e voces: balance, preguntas e interpretaciones. Las huellas del golpe de Estado en Galicia"""
 Nomonyx dominicus	Snaa	Nomonyx dominicus	Nomonyx dominicus
 Nomuraea rileyi	Snaa	Nomuraea rileyi	Nomuraea rileyi
 Non agardei por ninguén	Sp00	Non agardei por ninguén
@@ -28940,7 +28939,6 @@ Non matarás	Sp00	Non matarás
 Non me esquezas nunca	Sp00	Non me esquezas nunca
 Non quero ser Doris Day (2006)	Sp00	Non quero ser Doris Day (2006)
 Non si paga , non si paga 	Sp00	Non si paga , non si paga
-Non si paga , non si paga 	Sp00	Non si paga , non si paga 
 Non si paga, non si paga	Sp00	Non si paga, non si paga
 Non somos inocentes	Sp00	Non somos inocentes
 Non te amola!	Sp00	Non te amola!
@@ -34407,7 +34405,6 @@ Primeiro de Maio	Spms	Primeiro de Maio
 Primer y último amor	Sp00	Primer y último amor
 Primera rapsodia	Sp00	Primera rapsodia
 Primeras 15 horas de música pop Ciudad de Burgos 	Sp00	Primeras 15 horas de música pop Ciudad de Burgos
-Primeras 15 horas de música pop Ciudad de Burgos 	Sp00	Primeras 15 horas de música pop Ciudad de Burgos 
 Primero y último amor	Sp00	Primero y último amor
 Primolius maracana	Snaa	Primolius maracana	Primolius maracana
 Primolut	Sp00	Primolut
@@ -35562,7 +35559,7 @@ Quinientas personas rindieron homenaje a los diez republicanos fusilados en 1936
 Quinta Brigada de o Exército	Spfs	Quinta Brigada de o Exército
 Quintana Martelo	Sp00	Quintana Martelo
 Quintana	Sp00	Quintana
-Quintanilla Ulla: "Pediré la excedencia de forense" 	Sp00	Quintanilla Ulla: "Pediré la excedencia de forense" 
+"Quintanilla Ulla: ""Pediré la excedencia de forense"" "	Sp00	"Quintanilla Ulla: ""Pediré la excedencia de forense"""
 Quintanilla Ulla	Sp00	Quintanilla Ulla
 Quintanilla	Sp00	Quintanilla
 Quintela de Leirado	Sp00	Quintela de Leirado
@@ -38795,7 +38792,7 @@ Sobre as revolucións das esferas celestes	Sp00	Sobre as revolucións das esfera
 Sobre la gran abducción neoliberal	Sp00	Sobre la gran abducción neoliberal
 Sobre la violencia: seis reflexiones marginales	Sp00	Sobre la violencia: seis reflexiones marginales
 Sobre la violencia	Sp00	Sobre la violencia
-Sobre los orígenes de los proyectos agrarios en la España de la segunda mitad del siglo XVIII. "Ley Agraria" y "Sociedades de Agricultura". La idea inicial de Campomanes	Sp00	Sobre los orígenes de los proyectos agrarios en la España de la segunda mitad del siglo XVIII. "Ley Agraria" y "Sociedades de Agricultura". La idea inicial de Campomanes
+"Sobre los orígenes de los proyectos agrarios en la España de la segunda mitad del siglo XVIII. ""Ley Agraria"" y ""Sociedades de Agricultura"". La idea inicial de Campomanes"	Sp00	"Sobre los orígenes de los proyectos agrarios en la España de la segunda mitad del siglo XVIII. ""Ley Agraria"" y ""Sociedades de Agricultura"". La idea inicial de Campomanes"
 Sobre o tempo	Sp00	Sobre o tempo
 Sobredo: paz, xustiza e traballo	Sp00	Sobredo: paz, xustiza e traballo
 Sociedade Abolicionista de Julio Vizcarrondo	Sp00	Sociedade Abolicionista de Julio Vizcarrondo
