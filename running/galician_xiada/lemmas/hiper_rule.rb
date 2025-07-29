@@ -17,6 +17,7 @@ module Lemmas
       return unless query.word.match(/\Ahiper(-?)(.*)\z/)
 
       hyphen, base = Regexp.last_match.captures
+      return if base.length < 2 # Exclude empty or single character bases
 
       if hyphen.empty? && base.start_with?("rr")
         query.copy(base.delete_prefix("r"), tags)

@@ -21,6 +21,7 @@ module Lemmas
         return unless query.word.match(/\A#{@prefix}(-?)(.*)\z/)
 
         hyphen, base = Regexp.last_match.captures
+        return if base.length < 2 # Exclude empty or single character bases
 
         if hyphen.empty?
           if base.start_with?("rr")

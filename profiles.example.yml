@@ -5,7 +5,7 @@
 - profile: galician_xiada_oral
   database: galician_xiada_oral
   only_lexicon: false
-  force_proper_nouns: false
+  force_proper_nouns: true
 - profile: spanish_eslora
   database: spanish_eslora
   only_lexicon: false
