@@ -28,20 +28,25 @@ helpers do
     document_config = Config::Document.new(seseo: params['seseo'] == 'true', gheada: params['gheada'] == 'true')
     tagger = get_tagger
 
-    # Fork to prevent memory leaks in long-running processes
-    rd, wr = IO.pipe
-    fork do
-      rd.close
-      wr.write yield(tagger, document_config, texts).to_json
+    if ENV["DEBUGGER_HOST"]
+      # Do not fork if debugging, it causes the server to finish immediately after the first request
+      return yield(tagger, document_config, texts).to_json
+    else
+      # Fork to prevent memory leaks in long-running processes
+      rd, wr = IO.pipe
+      pid = fork do
+        rd.close
+        wr.write yield(tagger, document_config, texts).to_json
+        wr.close
+      rescue => e
+        puts "Exception in child process: #{e.class} - #{e.message}"
+        puts e.backtrace
+      end
       wr.close
-    rescue => e
-      puts "Exception in child process: #{e.class} - #{e.message}"
-      puts e.backtrace
+      result = rd.read
+      rd.close
+      Process.wait(pid)
     end
-    wr.close
-    result = rd.read
-    rd.close
-    Process.wait
 
     result
 
