@@ -175,8 +175,8 @@ class ProperNouns
     # If @force_proper_nouns is true then also consider uppercase letters at the beginning of the text
     candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && (@force_proper_nouns || !i.zero?) }
     ranges = candidate_starts.filter_map do |i|
-      any_wrapper_match = WRAPPERS.any? { |s, e, c| wrapped_proper_noun_range(i, text, s, e, c ) }
-      any_wrapper_match || unambiguous_proper_noun_range(i, text)
+      wrapper_result = WRAPPERS.filter_map { |s, e, c| wrapped_proper_noun_range(i, text, s, e, c ) }.first
+      wrapper_result || unambiguous_proper_noun_range(i, text)
     end
     ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort, false) }
   end
