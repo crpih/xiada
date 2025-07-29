@@ -1,0 +1,1 @@
+../galician_xiada/proper_nouns_links.txt

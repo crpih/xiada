@@ -1,0 +1,1 @@
+../galician_xiada/lexicon_propios.txt
