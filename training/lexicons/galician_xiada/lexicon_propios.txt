@@ -5880,7 +5880,7 @@ Becozyme	Sp00	Becozyme
 Bécquer	Sp00	Bécquer
 Beecham	Sp00	Beecham
 Befaria resinosa	Snaa	Befaria resinosa	Befaria resinosa
-Before I die 	Sp00	Before I die
+Before I die 	Sp00	Before I die 
 Before night falls	Sp00	Before night falls
 Begiristáin	Sp00	Begiristáin
 Beglan	Sp00	Beglan
@@ -16597,7 +16597,7 @@ Esquerda de Galicia	Sp00	Esquerda de Galicia
 Esquisse d'une psychologie du cinéma	Sp00	Esquisse d'une psychologie du cinéma
 Essai géographique d'analyse et d'interprétation d'un vieux complexe agraire	Sp00	Essai géographique d'analyse et d'interprétation d'un vieux complexe agraire
 Essai historique	Sp00	Essai historique
-Essais de philosophie critique 	Sp00	Essais de philosophie critique
+Essais de philosophie critique 	Sp00	Essais de philosophie critique 
 Esta historia	Sp00	Esta historia
 Esta noche cruzamos el Mississippi	Sp00	Esta noche cruzamos el Mississippi
 Estaçãou	Sp00	Estaçãou
@@ -23078,7 +23078,7 @@ L'Arbre de vies	Sp00	L'Arbre de vies
 Laredo	Sp00	Laredo
 Largactil	Sp00	Largactil
 Largatrex	Sp00	Largatrex
-L'argent de poche 	Sp00	L'argent de poche
+L'argent de poche 	Sp00	L'argent de poche 
 Larger than life	Sp00	Larger than life
 Lariam	Sp00	Lariam
 Larimichthys crocea	Snaa	Larimichthys crocea	Larimichthys crocea
@@ -23344,7 +23344,7 @@ Lecanicillium sp.	Snaa	Lecanicillium sp.	Lecanicillium sp.
 Lecanopteris mirabilis	Snaa	Lecanopteris mirabilis	Lecanopteris mirabilis
 Lección de arte	Sp00	Lección de arte
 Lección VIII. Conceptos indispensables sobre las llamadas enfermedades degenerativas que dan mayor contingente a la crenoterapia	Sp00	Lección VIII. Conceptos indispensables sobre las llamadas enfermedades degenerativas que dan mayor contingente a la crenoterapia
-Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 	Sp00	Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos.
+Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 	Sp00	Lecciones I y VII. Aguas mineromedicinales como agentes terapéuticos. Condiciones necesarias al Médico-Director para el mejor desempeño de su cargo. El estudio clínico del paciente e Materia médica y tratamientos crenoterápicos. 
 Leccións sobre a enfermidade do cólera morbo e o seu método curativo	Sp00	Leccións sobre a enfermidade do cólera morbo e o seu método curativo
 Lecer	Sp00	Lecer
 Lechriodus melanopyga	Snaa	Lechriodus melanopyga	Lechriodus melanopyga
@@ -24700,6 +24700,7 @@ Los demonios	Sp00	Los demonios
 Los días del pasado	Sp00	Los días del pasado
 Los días históricos de Galicia	Sp00	Los días históricos de Galicia
 Los dones de las tres hadas	Sp00	Los dones de las tres hadas
+"""Los dos antiguos """"Portos"""" de Orense: el """"Porto Auriense"""" y el """"Porto Vello"""". Sus barcas, ermitas y caminos"""	Sp00	"""Los dos antiguos """"Portos"""" de Orense: el """"Porto Auriense"""" y el """"Porto Vello"""". Sus barcas, ermitas y caminos"""
 "Los dos antiguos ""Portos"" de Orense: el ""Porto Auriense"" y el ""Porto Vello"". Sus barcas, ermitas y caminos"	Sp00	"Los dos antiguos ""Portos"" de Orense: el ""Porto Auriense"" y el ""Porto Vello"". Sus barcas, ermitas y caminos"
 Los espacios de reclusión franquistas en Galicia. Análisis de la población reclusa (1940-1950)	Sp00	Los espacios de reclusión franquistas en Galicia. Análisis de la población reclusa (1940-1950)
 Los espacios de reclusión franquistas en Galicia...	Sp00	Los espacios de reclusión franquistas en Galicia...
@@ -25918,7 +25919,7 @@ Matarte lentamente	Sp00	Matarte lentamente
 Matemática aplicada e bioinformática	Sp00	Matemática aplicada e bioinformática
 Matemática es nombre de mujer	Sp00	Matemática es nombre de mujer
 Mateo	Spm0	Mateo
-Materia médica y tratamientos crenoterápicos. 	Sp00	Materia médica y tratamientos crenoterápicos.
+Materia médica y tratamientos crenoterápicos. 	Sp00	Materia médica y tratamientos crenoterápicos. 
 Materiais para un arquivo da cultura submarina	Sp00	Materiais para un arquivo da cultura submarina
 Materno Infantil	Spms	Materno Infantil
 Maticora bivirgata	Snaa	Maticora bivirgata	Maticora bivirgata
@@ -28939,6 +28940,7 @@ Non matarás	Sp00	Non matarás
 Non me esquezas nunca	Sp00	Non me esquezas nunca
 Non quero ser Doris Day (2006)	Sp00	Non quero ser Doris Day (2006)
 Non si paga , non si paga 	Sp00	Non si paga , non si paga
+Non si paga , non si paga 	Sp00	Non si paga , non si paga 
 Non si paga, non si paga	Sp00	Non si paga, non si paga
 Non somos inocentes	Sp00	Non somos inocentes
 Non te amola!	Sp00	Non te amola!
@@ -34405,6 +34407,7 @@ Primeiro de Maio	Spms	Primeiro de Maio
 Primer y último amor	Sp00	Primer y último amor
 Primera rapsodia	Sp00	Primera rapsodia
 Primeras 15 horas de música pop Ciudad de Burgos 	Sp00	Primeras 15 horas de música pop Ciudad de Burgos
+Primeras 15 horas de música pop Ciudad de Burgos 	Sp00	Primeras 15 horas de música pop Ciudad de Burgos 
 Primero y último amor	Sp00	Primero y último amor
 Primolius maracana	Snaa	Primolius maracana	Primolius maracana
 Primolut	Sp00	Primolut
@@ -35559,7 +35562,7 @@ Quinientas personas rindieron homenaje a los diez republicanos fusilados en 1936
 Quinta Brigada de o Exército	Spfs	Quinta Brigada de o Exército
 Quintana Martelo	Sp00	Quintana Martelo
 Quintana	Sp00	Quintana
-"Quintanilla Ulla: ""Pediré la excedencia de forense"" "	Sp00	"Quintanilla Ulla: ""Pediré la excedencia de forense"""
+"Quintanilla Ulla: ""Pediré la excedencia de forense"" "	Sp00	"Quintanilla Ulla: ""Pediré la excedencia de forense"" "
 Quintanilla Ulla	Sp00	Quintanilla Ulla
 Quintanilla	Sp00	Quintanilla
 Quintela de Leirado	Sp00	Quintela de Leirado
@@ -37476,6 +37479,8 @@ Sarda australis	Snaa	Sarda australis	Sarda australis
 Sarda chiliensis	Snaa	Sarda chiliensis	Sarda chiliensis
 Sarda orientalis	Snaa	Sarda orientalis	Sarda orientalis
 Sarda sarda	Snaa	Sarda sarda	Sarda sarda
+Sardá	Spf0	Sardá
+Sardá	Spm0	Sardá
 Sardina pilchardus	Snaa	Sardina pilchardus	Sardina pilchardus
 Sardina pilchardus	Snaa	Sardina pilchardus	Sardina pilchardus	n
 Sardinella albella	Snaa	Sardinella albella	Sardinella albella

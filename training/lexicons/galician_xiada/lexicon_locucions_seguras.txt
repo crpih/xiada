@@ -1,3 +1,4 @@
+Deus ex machina	Scms	Deus ex machina	deus ex máchina	n
 Dies irae	Scms	Dies irae	dies irae	n
 Dios mío	Y	Dios mío	meu Deus	n
 In Memoriam	Wn	In Memoriam	in memóriam	n
@@ -173,6 +174,7 @@ a sensu contrario	Wn	a sensu contrario	a sensu contrario	n
 a soas	Wn	a soas	a soas	s
 a solas	Wn	a solas	a soas	n
 a son de	P	a son de	a son de	s
+a tenor de	P	a tenor de	a teor de	n
 a tentas	Wn	a tentas	a tentas	n
 a teor de	P	a teor de	a teor de	s
 a tergo	Wn	a tergo	a tergo	s
@@ -324,6 +326,7 @@ best sellers	A0fp	best seller	best-séller	n
 best sellers	A0mp	best seller	best-séller	n
 best sellers	Scmp	best seller	best-séller	n
 big bang	Scms	big bang	big-bang	n
+bisfenol A	Scms	bisfenol A	bisfenol A	s
 boca abaixo	Wn	boca abaixo	boca abaixo	s
 bossa nova	Scfs	bossa nova	bossa nova	s
 boy scout	Scms	boy scout	boy scout	n
@@ -475,6 +478,7 @@ cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo	s
 cuarto de baño	Scms	cuarto de baño	cuarto de baño	s
 cuarto de estar	Scms	cuarto de estar	cuarto de estar	s
 cuartos de final	Scmp	cuartos de final	cuartos de final	s
+culpa in vigilando	Scfs	culpa in vigilando	culpa in vigilando	s
 cum_laude	A0aa	cum_laude	cum_laude	s
 cum_laude	A0ap	cum_laude	cum_laude	s
 cum_laude	A0as	cum_laude	cum_laude	s
@@ -584,6 +588,8 @@ delírium tremens	Scmp	delírium tremens	delírium tremens	s
 delírium tremens	Scms	delírium tremens	delírium tremens	s
 dende logo	Wn	dende logo	dende logo	s
 desde logo	Wn	desde logo	desde logo	s
+deus ex machina	Scms	deus ex machina	deus ex máchina	n
+deus ex máchina	Scms	deus ex máchina	deus ex máchina	s
 dez mil	Ncdap	dez mil	dez mil	s
 dez mil	Ncdfp	dez mil	dez mil	s
 dez mil	Ncdmp	dez mil	dez mil	s
@@ -726,6 +732,7 @@ entre lusco e fusco	Wn	entre lusco e fusco	entre lusco e fusco	s
 escontra de	P	escontra de	contra de	s
 estricto sensu	Wn	estricto sensu	stricto sensu	n
 ex aequo	Wn	ex aequo	ex aequo	s
+ex ante	Wn	ex ante	ex ante	s
 ex cathedra	Wn	ex cathedra	ex cáthedra	s
 ex cátedra	Wn	ex cátedra	ex cáthedra	s
 ex cáthedra	Wn	ex cáthedra	ex cáthedra	s
@@ -735,11 +742,13 @@ ex libris	Scms	ex libris	ex libris	n
 ex libris	Scms	ex libris	ex libris	s
 ex nihilo	Wn	ex nihilo	ex nihilo	n
 ex novo	Wn	ex novo	ex novo	n
+ex post	Wn	ex post	ex post	s
 ex primeira ministra	Scfs	ex primeiro ministro	ex primeiro ministro	s
 ex primeiras ministras	Scfp	ex primeiro ministro	ex primeiro ministro	s
 ex primeiro ministro	Scms	ex primeiro ministro	ex primeiro ministro	s
 ex primeiros ministros	Scmp	ex primeiro ministro	ex primeiro ministro	s
 ex profeso	Wn	ex profeso	ex professo	s
+ex professo	Wn	ex professo	ex professo	s
 ex situ	Wn	ex situ	ex situ	s
 ex-Conselleiro	Scms	ex-conselleiro	exconselleiro	n
 ex-alto cargo	Scms	ex-alto cargo	ex-alto cargo	n
@@ -755,6 +764,9 @@ ex-secretaria xeral	Scfs	ex-secretario xeral	ex secretario xeral	n
 ex-secretarias xerais	Scfp	ex-secretario xeral	ex secretario xeral	n
 ex-secretario xeral	Scms	ex-secretario xeral	ex secretario xeral	n
 ex-secretarios xerais	Scmp	ex-secretario xeral	ex secretario xeral	n
+extra muros	Scma	extra muros	extra muros	n
+extra muros	Scmp	extra muros	extra muros	n
+extra muros	Scms	extra muros	extra muros	n
 extra muros	Wn	extra muros	extra muros	s
 extrema unción	Scfs	extrema unción	extremaunción	n
 fite a fite	Wn	fite a fite	fite a fite	s
@@ -878,6 +890,9 @@ in voce	Wn	in voce	in voce	n
 inda ben non	Cs	inda ben non	inda ben non	s
 inda que	Cs	inda que	aínda que	s
 inter nos	Wn	inter nos	inter nos	s
+intra muros	Scma	intra muros	intra muros	n
+intra muros	Scmp	intra muros	intra muros	n
+intra muros	Scms	intra muros	intra muros	n
 intra muros	Wn	intra muros	intra muros	s
 ipso facto	Wn	ipso facto	ipso facto	s
 ires e vires	Scmp	ir e vir	ir e vir	s
@@ -1155,6 +1170,7 @@ start up	Scfp	start up	start-up	n
 start up	Scfs	start up	start-up	n
 statu quo	Scms	statu quo	statu quo	n
 status quo	Scms	status quo	statu quo	n
+stop motion	Scfs	stop motion	stop-motion	n
 street art	Scms	street art	street art	s
 stricto sensu	Wn	stricto sensu	stricto sensu	s
 strictu senso	Wn	strictu senso	stricto sensu	n

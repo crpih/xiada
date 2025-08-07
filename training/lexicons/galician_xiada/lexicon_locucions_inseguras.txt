@@ -327,6 +327,7 @@ en tempo	Wn	en tempo	en tempo	s
 en teoría	Wn	en teoría	en teoría	s
 en todo caso	Wn	en todo caso	en todo caso	s
 en torno a	P	en torno a	en torno a	s
+en troca	Wn	en troca	en troca	s
 en van	Wn	en van	en van	s
 en vango	Wn	en vango	en vango	s
 en verdade	Wn	en verdade	en verdade	s
