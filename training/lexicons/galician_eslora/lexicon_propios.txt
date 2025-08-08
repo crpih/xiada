@@ -36,11 +36,13 @@ A Torre	NPEL	A Torre
 A Toxa	NPEL	A Toxa
 A Veiga	NPEL	A Veiga
 A-9	NPEL	A-9
+A.a.s.	NPEL	A.a.s.
 Abad Conde	NPEL	Abad Conde
 Abadín	NPEL	Abadín
 Abad	NPEL	Abad
 Abalde	NPEL	Abalde
 Abanca	NPEL	Abanca
+Abbottselsun	NPEL	Abbottselsun
 Abby Wambach	NPFL	Abby Wambach
 ABC digital	NPEL	ABC digital
 ABC	NPEL	ABC
@@ -48,11 +50,13 @@ Abdelhakim Ajimi	NPML	Abdelhakim Ajimi
 Abdelhakim	NPML	Abdelhakim
 Abdelkader	NPEL	Abdelkader
 Abderrazak Mounib	NPML	Abderrazak Mounib
+Abdominol	NPEL	Abdominol
 Abdón	NPML	Abdón
 Abed Rabbo	NPEL	Abed Rabbo
 Abel Caballero	NPML	Abel Caballero
 Abel Matutes	NPML	Abel Matutes
 Abelardo	NPML	Abelardo
+Abelcet	NPEL	Abelcet
 Abeledo	NPEL	Abeledo
 Abelló	NPEL	Abelló
 Abel	NPML	Abel
@@ -60,12 +64,15 @@ Aberri Eguna	NPEL	Aberri Eguna
 Abhisit	NPEL	Abhisit
 Abigail Lane	NPFL	Abigail Lane
 Abilia	NPFL	Abilia
+Abilify	NPEL	Abilify
 Aboi	NPEL	Aboi
 Aboy	NPEL	Aboy
 Abraham	NPML	Abraham
 Abrahán	NPML	Abrahán
 Abraldes	NPEL	Abraldes
 Abramovich	NPEL	Abramovich
+Abrasone	NPEL	Abrasone
+Absorlent	NPEL	Absorlent
 Abu Dhabi	NPEL	Abu Dhabi
 Abu Hamadiyah	NPML	Abu Hamadiyah
 Abu Hamza Muhayer	NPML	Abu Hamza Muhayer
@@ -77,26 +84,58 @@ Abú Yakub	NPML	Abú Yakub
 Abu Ziad	NPML	Abu Ziad
 Abu Zubaida	NPML	Abu Zubaida
 Abundio	NPML	Abundio
+Acabel	NPEL	Acabel
 Academia Galega de Seguridade	NPFS	Academia Galega de Seguridade
+Acalka	NPEL	Acalka
 ACB	NPFS	Asociación de Clubes de Baloncesto
 Acción Opositora	NPEL	Acción Opositora
+Accolate	NPEL	Accolate
 Acebes	NPEL	Acebes
+Acediur	NPEL	Acediur
+Aceoto	NPEL	Aceoto
+Acetensil	NPEL	Acetensil
+Acetilcisteina	NPEL	Acetilcisteina
 Acevin	NPEL	Acevin
+Acfol	NPEL	Acfol
+Aciclostad	NPEL	Aciclostad
+Aciclovir	NPEL	Aciclovir
+Acido	NPEL	Acido
 Acisclo Manzano	NPML	Acisclo Manzano
 Acisclo	NPML	Acisclo
+Acnemin	NPEL	Acnemin
 Acnur	NPEL	Acnur
 ACNUR	NPEL	ACNUR
 Acordos de Oslo	NPMP	Acordos de Oslo
+Acovil	NPEL	Acovil
+Acrel	NPEL	Acrel
 Acri	NPMS	Acri
 Acrisio	NPMS	Acrisio
+Actimag	NPEL	Actimag
 Actimel	NPEL	Actimel
+Actiq	NPEL	Actiq
+Actira	NPEL	Actira
+Actithiol	NPEL	Actithiol
 Activision	NPEL	Activision
+Actocortina	NPEL	Actocortina
+Actonel	NPEL	Actonel
+Actos 	NPEL	Actos
+Actrapid	NPEL	Actrapid
+Actron	NPEL	Actron
+Acubiron	NPEL	Acubiron
 Acuicultura	NPEL	Acuicultura
+Acular	NPEL	Acular
+Acuolens	NPEL	Acuolens
+Acuprel	NPEL	Acuprel
+Acuretic	NPEL	Acuretic
+Acydona 	NPEL	Acydona
+Acyflox	NPEL	Acyflox
+Adalat	NPEL	Adalat
 Adalberto	NPML	Adalberto
 Adam Cohen	NPML	Adam Cohen
 Adam Raga	NPML	Adam Raga
 Adam Smith	NPML	Adam Smith
 Adam Waczynski	NPML	Adam Waczynski
+Adamkiewicz	NPEL	Adamkiewicz
 Adam	NPML	Adam
 Adams	NPEL	Adams
 Adán	NPML	Adán
@@ -114,16 +153,21 @@ Adiante	NPFS	Adiante
 Adiesg	NPEL	Adiesg
 Adil Yukseloglu	NPML	Adil Yukseloglu
 Adiña	NPFL	Adiña
+Adiro	NPEL	Adiro
 Aditi	NPEL	Aditi
 Adjani	NPEL	Adjani
 Administración Penitenciaria	NPFS	Administración Penitenciaria
 Administración	NPFS	Administración
+Admon	NPEL	Admon
 ADN	NCMP	ácido desoxirribonucleico
 ADN	NCMS	ácido desoxirribonucleico
 Adobe Photoshop	NPEL	Adobe Photoshop
+Adofen	NPEL	Adofen
 Adolf Hitler	NPML	Adolf Hitler
 Adolfina	NPFL	Adolfina
 Adolfo	NPML	Adolfo
+Adolonta	NPEL	Adolonta
+Adolquir	NPEL	Adolquir
 Adoración	NPFL	Adoración
 Adrián Álvarez	NPML	Adrián Álvarez
 Adrián Dios	NPML	Adrián Dios
@@ -146,15 +190,25 @@ Adrián Vilas	NPML	Adrián Vilas
 Adriana	NPFL	Adriana
 Adrián	NPML	Adrián
 Adriático	NPMS	Adriático
+Adulax	NPEL	Adulax
 Adulhalim Demir	NPML	Adulhalim Demir
 Advanced Style	NPEL	Advanced Style
+Adventan	NPEL	Adventan
+Advil	NPEL	Advil
 Aebam	NPEL	Aebam
 Aed O Loiro	NPML	Aed O Loiro
 Aedenat	NPEL	Aedenat
 Aena	NPEL	Aena
+Aerius	NPEL	Aerius
+Aeroflat	NPEL	Aeroflat
+Aeronix	NPEL	Aeronix
+Aero	NPEL	Aero
+Aero-red	NPEL	Aero-red
 Afganistán	NPEL	Afganistán
+Afluon	NPEL	Afluon
 Afonso	NPML	Afonso
 África	NPEL	África
+Aftajuventus	NPEL	Aftajuventus
 Agadic	NPEL	Agadic
 Agamar	NPEL	Agamar
 Agamfec	NPEL	Agamfec
@@ -164,7 +218,11 @@ Agapito	NPML	Agapito
 Agasol	NPEL	Agasol
 Ágata	NPFS	Ágata
 Agatha Christie	NPFL	Agatha Christie
+Agenerase	NPEL	Agenerase
+Ageroplas	NPEL	Ageroplas
+Agerpen	NPEL	Agerpen
 Agestic	NPEL	Agestic
+Agiolax	NPEL	Agiolax
 Agnelli	NPEL	Agnelli
 Agnus Dei	NPML	Agnus Dei
 Agostini	NPEL	Agostini
@@ -174,6 +232,7 @@ Agricultura e Pesca	NPEL	Agricultura e Pesca
 Agricultura	NPEL	Agricultura
 Agroinvés	NPEL	Agroinvés
 Agrupación Astronómica de Madrid	NPFS	Agrupación Astronómica de Madrid
+Agrylin	NPEL	Agrylin
 Agua de granito	NPEL	Agua de granito
 Agua de granito	NPFS	Agua de granito
 Águeda	NPFL	Águeda
@@ -202,6 +261,7 @@ Ainhoa Murúa	NPFL	Ainhoa Murúa
 Ainhoa	NPFL	Ainhoa
 Air Europa	NPEL	Air Europa
 Airbus	NPEL	Airbus
+Airtal	NPEL	Airtal
 Airtel	NPEL	Airtel
 Aistech Space	NPEL	Aistech Space
 Ajzenberg	NPEL	Ajzenberg
@@ -209,6 +269,7 @@ Akhil Reed Amar	NPML	Akhil Reed Amar
 Aki Kaurismaki	NPML	Aki Kaurismaki
 Aki Kaurismäki	NPML	Aki Kaurismäki
 Âkil	NPEL	Âkil
+Akineton	NPEL	Akineton
 Aladdin Sane	NPEL	Aladdin Sane
 Alain Badiou	NPML	Alain Badiou
 Alain Belda	NPML	Alain Belda
@@ -227,6 +288,7 @@ Alan Sokal	NPML	Alan Sokal
 Alan Stern	NPML	Alan Stern
 Alanis Morissette	NPFL	Alanis Morissette
 Alanovic	NPEL	Alanovic
+Alapryl	NPEL	Alapryl
 Álava	NPEL	Álava
 Alawi	NPEL	Alawi
 Alba Pereiro	NPFS	Alba Pereiro
@@ -281,16 +343,28 @@ Alcatel	NPEL	Alcatel
 Alcatraz	NPEL	Alcatraz
 Alcibíades	NPML	Alcibíades
 Alcira	NPEL	Alcira
+Alcis	NPEL	Alcis
 Alcoa Inespal	NPEL	Alcoa Inespal
 Alcoa	NPEL	Alcoa
 Alcobaça	NPEL	Alcobaça
 Alda Facio	NPFL	Alda Facio
+Aldactacine	NPEL	Aldactacine
+Aldactone	NPEL	Aldactone
 Aldana	NPEL	Aldana
+Aldara	NPEL	Aldara
 Aldeamonde	NPMS	Aldeamonde
 Aldemio	NPML	Aldemio
 Aldo Ceccato	NPML	Aldo Ceccato
 Aldo Leopold 	NPML	Aldo Leopold
 Aldo Rossi	NPML	Aldo Rossi
+Aldo-asma	NPEL	Aldo-asma
+Aldobronquial	NPEL	Aldobronquial
+Aldocumar	NPEL	Aldocumar
+Aldoderma	NPEL	Aldoderma
+Aldoleo	NPEL	Aldoleo
+Aldomet 	NPEL	Aldomet
+Aldo	NPEL	Aldo
+Aldosomnil	NPEL	Aldosomnil
 Aldrey	NPEL	Aldrey
 Aleixandre	NPEL	Aleixandre
 Aleixo	NPML	Aleixo
@@ -310,7 +384,15 @@ Alemani	NPEL	Alemani
 Alemaña	NPEL	Alemaña
 Alemao	NPEL	Alemao
 Alen	NPEL	Alen
+Alercina	NPEL	Alercina
+Alerfrin	NPEL	Alerfrin
+Alergical	NPEL	Alergical
+Alergocrom	NPEL	Alergocrom
+Alergoliber	NPEL	Alergoliber
+Alerlisin	NPEL	Alerlisin
 Alessandro Baricco	NPML	Alessandro Baricco
+Aleudrina	NPEL	Aleudrina
+Aleve	NPEL	Aleve
 Álex Alonso	NPML	Álex Alonso
 Álex de la Iglesia	NPML	Álex de la Iglesia
 Álex Díez	NPML	Álex Díez
@@ -340,6 +422,7 @@ Alexis	NPML	Alexis
 Alex	NPML	Alex
 Álex	NPML	Álex
 Alfageme 	NPEL	Alfageme
+Alfaprost	NPEL	Alfaprost
 Alfaro	NPEL	Alfaro
 Alfonsín	NPEL	Alfonsín
 Alfonso Aguila	NPML	Alfonso Aguila
@@ -362,6 +445,12 @@ Alfredo	NPML	Alfredo
 Alfredo	NPMS	Alfredo
 Alfredson	NPEL	Alfredson
 Algernon Blackwood	NPML	Algernon Blackwood
+Algesal	NPEL	Algesal
+Algiasdin	NPEL	Algiasdin
+Algidol	NPEL	Algidol
+Algidrin	NPEL	Algidrin
+Algikey	NPEL	Algikey
+Algi	NPEL	Algi
 Alguersuari	NPEL	Alguersuari
 Alianza Atlántica	NPFS	Alianza Atlántica
 Alianza	NPEL	Alianza
@@ -375,29 +464,43 @@ Alieto Guadagni	NPML	Alieto Guadagni
 Ali	NPFS	Ali
 Alipio	NPML	Alipio
 Alito	NPFL	Alito
+Aliveg	NPEL	Aliveg
+Aliviosin	NPEL	Aliviosin
 Alix	NPEL	Alix
+Alka	NPEL	Alka
 Allariz	NPEL	Allariz
 Allen Johnson	NPML	Allen Johnson
 Allen Stewart Konigsberg	NPML	Allen Stewart Konigsberg
 Allen Toussain	NPML	Allen Toussain
 Allen	NPEL	Allen
+Allgrove	NPEL	Allgrove
 Almanzor	NPML	Almanzor
+Almax	NPEL	Almax
 Almeida Garrett	NPEL	Almeida Garrett
 Almeida	NPEL	Almeida
 Almería	NPEL	Almería
 Almodóvar	NPEL	Almodóvar
+Almogran	NPEL	Almogran
 Almudena Ariza	NPFL	Almudena Ariza
 Almudena Fernández Fariña	NPFL	Almudena Fernández Fariña
 Almudena Grandes	NPFL	Almudena Grandes
 Almudena Tabeada Castro	NPFL	Almudena Tabeada Castro
 Almudena	NPFL	Almudena
 Almunia	NPEL	Almunia
+Alofedina	NPEL	Alofedina
+Alogesia	NPEL	Alogesia
 Alok	NPEL	Alok
+Alomide	NPEL	Alomide
 Alonso Montero	NPEL	Alonso Montero
 Alonso Puerta	NPML	Alonso Puerta
 Alonso	NPML	Alonso
 Alonso	NPMS	Alonso
+Alopresin	NPEL	Alopresin
+Alopurinol	NPEL	Alopurinol
+Alphagan	NPEL	Alphagan
 Alphand	NPEL	Alphand
+Alprazolam	NPEL	Alprazolam
+Alquen	NPEL	Alquen
 Alsoswa	NPEL	Alsoswa
 Alta Comisaría de a ONU para os Refuxiados	NPEL	Alta Comisaría de a ONU para os Refuxiados
 Alta Comisaría de as Nacións Unidas para os Refuxiados	NPFS	Alta Comisaría de as Nacións Unidas para os Refuxiados
@@ -408,9 +511,14 @@ Alternativa de os Veciños	NPEL	Alternativa de os Veciños
 Althusser	NPEL	Althusser
 Altieri	NPEL	Altieri
 Altin Gün	NPEL	Altin Gün
+Altior	NPEL	Altior
+Altisben	NPEL	Altisben
 Altman	NPEL	Altman
 Alto Comisionado de a ONU para os refuxiados	NPMS	Alto Comisionado de a ONU para os refuxiados
 Alto Comisionado de as Nacións Unidas para os Refuxiados	NPMS	Alto Comisionado de as Nacións Unidas para os Refuxiados
+Alubifar	NPEL	Alubifar
+Alucol	NPEL	Alucol
+Alugel	NPEL	Alugel
 Alúmina Aluminio	NPEL	Alúmina Aluminio
 Aluminum Company of America	NPEL	Aluminum Company of America
 Alvarez e Barreras	NPEL	Alvarez e Barreras
@@ -426,6 +534,7 @@ Alvedro	NPEL	Alvedro
 Alves	NPEL	Alves
 Alxeria	NPEL	Alxeria
 Alys	NPFL	Alys
+Alzheimer	NPEL	Alzheimer
 Amadeo de Saboya	NPML	Amadeo de Saboya
 Amadeo Fernández Sánchez	NPML	Amadeo Fernández Sánchez
 Amadeo Varela	NPML	Amadeo Varela
@@ -438,16 +547,22 @@ Amancio Landín	NPML	Amancio Landín
 Amancio Prada	NPML	Amancio Prada
 Amancio	NPML	Amancio
 Amandi	NPEL	Amandi
+Amantadina	NPEL	Amantadina
 Amao	NPML	Amao
 Amaral	NPEL	Amaral
 Amara	NPFL	Amara
 Amaranta	NPFL	Amaranta
 Amarilys	NPFL	Amarilys
+Amaryl	NPEL	Amaryl
 Amavisca	NPEL	Amavisca
 Amberes	NPEL	Amberes
+Ambisome	NPEL	Ambisome
+Ambrolitic	NPEL	Ambrolitic
 Ambrosio de Morales	NPML	Ambrosio de Morales
 Ambrosio Manuel	NPML	Ambrosio Manuel
 Ambrosio	NPML	Ambrosio
+Ambroxol	NPEL	Ambroxol
+Amchafibrin	NPEL	Amchafibrin
 Amedo	NPEL	Amedo
 Ameijeiras	NPEL	Ameijeiras
 Ameixedo	NPEL	Ameixedo
@@ -461,16 +576,28 @@ America Online	NPEL	America Online
 American History X	NPEL	American History X
 América	NPEL	América
 Américo	NPML	Américo
+Ameride	NPEL	Ameride
 Ames	NPEL	Ames
+Amicrobin	NPEL	Amicrobin
+Amidrin	NPEL	Amidrin
+Amignul	NPEL	Amignul
+Amikacina	NPEL	Amikacina
 Amin Maalouf	NPML	Amin Maalouf
 Aminetu Haidar	NPML	Aminetu Haidar
 Amio	NPEL	Amio
+Amlodipino	NPEL	Amlodipino
+Amlor	NPEL	Amlor
 AM	NCFP	amplitude modulation
 AM	NCFS	amplitude modulation
 Amnesia	NPEL	Amnesia
 Amnistía Internacional	NPEL	Amnistía Internacional
+Amoclave	NPEL	Amoclave
 Amoeiro	NPEL	Amoeiro
 Amorín	NPEL	Amorín
+Amoxaren	NPEL	Amoxaren
+Amoxibacter	NPEL	Amoxibacter
+Amoxicilina	NPEL	Amoxicilina
+Amoxi	NPEL	Amoxi
 Amparo	NPFL	Amparo
 Amparo	NPFS	Amparo
 Amsterdam	NPEL	Amsterdam
@@ -487,9 +614,15 @@ Ana Elisa	NPFS	Ana Elisa
 Ana Isabel	NPFS	Ana Isabel
 Ana Sánchez	NPFL	Ana Sánchez
 Anabam	NPEL	Anabam
+Anacervix	NPEL	Anacervix
 Anacleto Jiménez	NPML	Anacleto Jiménez
 Anacleto	NPML	Anacleto
+Anaclosil	NPEL	Anaclosil
+Anafranil	NPEL	Anafranil
+Anagastra	NPEL	Anagastra
 Anaiansi	NPFL	Anaiansi
+Analgilasa 	NPEL	Analgilasa
+Analgiplus	NPEL	Analgiplus
 Analía López	NPFL	Analía López
 Analia Rosa	NPFL	Analia Rosa
 Anamari Castillo Maldonado	NPFS	Anamari Castillo Maldonado
@@ -499,13 +632,17 @@ Ana	NPFL	Ana
 Ana	NPFS	Ana
 Anari	NPML	Anari
 Anasagasti	NPEL	Anasagasti
+Anasma	NPEL	Anasma
 Anastasia Steele	NPFL	Anastasia Steele
 Anastasia	NPFS	Anastasia
 Anastasio	NPML	Anastasio
 Anastas	NPEL	Anastas
+Anatac 	NPEL	Anatac
 Anatel	NPEL	Anatel
 Anatomía de Grey	NPEL	Anatomía de Grey
+Ancivin	NPEL	Ancivin
 Ancla de Oro	NPFS	Ancla de Oro
+Ancotil	NPEL	Ancotil
 Andalucía	NPEL	Andalucía
 Ander Iturriotz	NPML	Ander Iturriotz
 Ander	NPML	Ander
@@ -555,6 +692,8 @@ Andrew Strong	NPML	Andrew Strong
 Andrew	NPML	Andrew
 Andrews	NPML	Andrews
 Andrius Pojavis	NPML	Andrius Pojavis
+Androcur	NPEL	Androcur
+Androderm	NPEL	Androderm
 Andrómeda	NPEL	Andrómeda
 Andrzej Zaniewski	NPML	Andrzej Zaniewski
 Andy Christie	NPML	Andy Christie
@@ -563,6 +702,7 @@ Andy Samberg	NPML	Andy Samberg
 Andy Schleck	NPML	Andy Schleck
 Ane	NPFS	Ane
 Anestesia	NPEL	Anestesia
+Aneurol	NPEL	Aneurol
 Anfaco	NPEL	Anfaco
 Ángel Acebes	NPML	Ángel Acebes
 Ángel Alkalde Linares	NPML	Ángel Alkalde Linares
@@ -626,6 +766,8 @@ Angels Barceló	NPFL	Angels Barceló
 Ángels Barceló	NPFL	Ángels Barceló
 Àngels Barceló	NPFL	Àngels Barceló
 Angers	NPEL	Angers
+Angileptol	NPEL	Angileptol
+Angiodrox	NPEL	Angiodrox
 Angola	NPEL	Angola
 Angrois	NPEL	Angrois
 Anguita	NPEL	Anguita
@@ -666,17 +808,31 @@ Ano Santo Compostelán	NPMS	Ano Santo Compostelán
 Ano	NPMS	Ano
 Anouk Grinberg	NPFL	Anouk Grinberg
 Anouk	NPFL	Anouk
+Ansatipin	NPEL	Ansatipin
 Anselmo	NPML	Anselmo
+Ansium	NPEL	Ansium
 Ansoney	NPEL	Ansoney
+Anso	NPEL	Anso
 Ansuátegui	NPEL	Ansuátegui
+Antabus	NPEL	Antabus
+Antalgin	NPEL	Antalgin
+Antaxone	NPEL	Antaxone
 Antealtares	NPEL	Antealtares
 Antelo	NPEL	Antelo
 Antena 3	NPEL	Antena 3
 Antena tres	NPEL	Antena tres
+Anticatarral	NPEL	Anticatarral
 Antic	NPEL	Antic
+Anticongestiva	NPEL	Anticongestiva
+Antidol	NPEL	Antidol
 Antígona	NPFL	Antígona
+Antigrietun	NPEL	Antigrietun
 Antiguo Oeste	NPMS	Antiguo Oeste
+Antihemorroidal	NPEL	Antihemorroidal
+Antihistaminico	NPEL	Antihistaminico
 Antinori	NPEL	Antinori
+Anti	NPEL	Anti
+Antirrinum	NPEL	Antirrinum
 Antoine Lahad	NPML	Antoine Lahad
 Antolín Alcántara	NPML	Antolín Alcántara
 Antolín López Peláez	NPML	Antolín López Peláez
@@ -738,7 +894,14 @@ Anxo Louzao	NPML	Anxo Louzao
 Anxo	NPML	Anxo
 Anxo	NPMS	Anxo
 Anxos	NPFL	Anxos
+Apamox	NPEL	Apamox
+Apiretal	NPEL	Apiretal
+Apocard	NPEL	Apocard
+Apo	NPEL	Apo
 Aproin	NPEL	Aproin
+Aprovel	NPEL	Aprovel
+Aqucilina 	NPEL	Aqucilina
+Aquiles	NPEL	Aquiles
 Aquilino	NPML	Aquilino
 Aquilino	NPMS	Aquilino
 Aquitania	NPEL	Aquitania
@@ -755,18 +918,26 @@ Arafat	NPEL	Arafat
 Aragón	NPEL	Aragón
 Arana	NPEL	Arana
 Aranda de Duero	NPEL	Aranda de Duero
+Aranesp	NPEL	Aranesp
 Aranga	NPEL	Aranga
 Arango	NPEL	Arango
 Araujo	NPEL	Araujo
+Arava	NPEL	Arava
 Arbilla	NPEL	Arbilla
 Arcade	NPEL	Arcade
+Arcalion	NPEL	Arcalion
 Arcelia Ramírez	NPFL	Arcelia Ramírez
+Arcental	NPEL	Arcental
 Arctic Monkeys	NPEL	Arctic Monkeys
 Ardanza	NPEL	Ardanza
 Ardellastres	NPEL	Ardellastres
+Ardineclav	NPEL	Ardineclav
+Ardine	NPEL	Ardine
+Ardoral	NPEL	Ardoral
 Área de Inmunoloxía	NPFS	Área de Inmunoloxía
 Área Metropolitana	NPFS	Área Metropolitana
 Aregio	NPEL	Aregio
+Aremis	NPEL	Aremis
 Arena en la calle	NPEL	Arena en la calle
 Arenal	NPEL	Arenal
 Arenas	NPEL	Arenas
@@ -786,16 +957,20 @@ Arias Cañete	NPEL	Arias Cañete
 Arias Navarro	NPEL	Arias Navarro
 Arias Salgado	NPEL	Arias Salgado
 Arias-Salgado	NPEL	Arias-Salgado
+Aricept	NPEL	Aricept
 Ariel Pink	NPML	Ariel Pink
 Ariel Sharon	NPML	Ariel Sharon
 Ariel	NPEL	Ariel
 Ariel	NPML	Ariel
 Arija	NPEL	Arija
+Arimidex	NPEL	Arimidex
 Arion	NPEL	Arion
 Aristóteles	NPEL	Aristóteles
 Aritz Aduriz	NPML	Aritz Aduriz
 Aritz López Garai	NPML	Aritz López Garai
+Arixtra 	NPEL	Arixtra
 Arizona	NPEL	Arizona
+Arkocapsulas	NPEL	Arkocapsulas
 Arlecchino	NPML	Arlecchino
 Arlequín	NPML	Arlequín
 Armada	NPFS	Armada
@@ -806,6 +981,7 @@ Armand	NPML	Armand
 Armando	NPML	Armando
 Armani	NPEL	Armani
 Armaxedón	NPEL	Armaxedón
+Armaya	NPEL	Armaya
 Armstrong	NPEL	Armstrong
 Arnáiz	NPEL	Arnáiz
 Arnaldo de San Martín	NPML	Arnaldo de San Martín
@@ -820,6 +996,7 @@ ARN	NCMP	ácido ribonucleico
 ARN	NCMS	ácido ribonucleico
 Arnó	NPEL	Arnó
 Arnulfo Arias	NPML	Arnulfo Arias
+Aromasil	NPEL	Aromasil
 Arón	NPML	Arón
 Arosa	NPEL	Arosa
 Arousa	NPEL	Arousa
@@ -843,13 +1020,23 @@ Arsenal de Ferrol	NPMS	Arsenal de Ferrol
 Arsenio Fernández de Mesa	NPML	Arsenio Fernández de Mesa
 Arsenio	NPML	Arsenio
 Arsuaga	NPEL	Arsuaga
+Artane	NPEL	Artane
 Artaud	NPEL	Artaud
+Artedil	NPEL	Artedil
 Arteixo Telecom	NPEL	Arteixo Telecom
 Arteixo	NPEL	Arteixo
+Arteolol	NPEL	Arteolol
 Arteta	NPEL	Arteta
+Arthus	NPEL	Arthus
+Artific	NPEL	Artific
+Artrinovo	NPEL	Artrinovo
+Artrocaptin	NPEL	Artrocaptin
+Artrodesmol	NPEL	Artrodesmol
+Artrotec	NPEL	Artrotec
 Arturo	NPML	Arturo
 Arturo	NPMS	Arturo
 Artús	NPML	Artús
+Arudel	NPEL	Arudel
 Arundhati Roy	NPFL	Arundhati Roy
 Arxentina	NPEL	Arxentina
 Arzallus	NPEL	Arzallus
@@ -865,6 +1052,7 @@ As Pontes	NPEL	As Pontes
 As Travesas	NPEL	As Travesas
 Asad	NPEL	Asad
 Asaja	NPEL	Asaja
+Ascal	NPEL	Ascal
 Ascensión	NPFL	Ascensión
 Aschwin Wildeboer	NPML	Aschwin Wildeboer
 Asemblea de Direccións de Institutos de Ensino Secundario de Galicia	NPFS	Asemblea de Direccións de Institutos de Ensino Secundario de Galicia
@@ -883,6 +1071,8 @@ Asier Mendizabal	NPML	Asier Mendizabal
 Asier Riesgo	NPML	Asier Riesgo
 Asier	NPML	Asier
 Asired	NPEL	Asired
+Askenin	NPEL	Askenin
+Asl	NPEL	Asl
 Asociación de Actores , Directores e Técnicos de Escena de Galicia	NPFS	Asociación de Actores , Directores e Técnicos de Escena de Galicia
 Asociación de Afectados por Erros Médicos	NPFS	Asociación de Afectados por Erros Médicos
 Asociación de Amigos de Otero Pedrayo	NPFS	Asociación de Amigos de Otero Pedrayo
@@ -897,6 +1087,9 @@ Asociación Galega de Neuroloxía	NPFS	Asociación Galega de Neuroloxía
 Asociación Nacional de Fabricantes de Conservas	NPFS	Asociación Nacional de Fabricantes de Conservas
 Asociación Nacional de Nacementos Múltiples de México	NPFS	Asociación Nacional de Nacementos Múltiples de México
 Asorey	NPEL	Asorey
+Asperger	NPEL	Asperger
+Aspirina	NPEL	Aspirina
+Aspitopic	NPEL	Aspitopic
 Assumpció Forcada	NPFL	Assumpció Forcada
 Assunção	NPFS	Assunção
 Astarot	NPEL	Astarot
@@ -905,24 +1098,36 @@ Astérix	NPEL	Astérix
 Astiberri	NPEL	Astiberri
 Astiz	NPEL	Astiz
 Aston Martin	NPEL	Aston Martin
+Astonin	NPEL	Astonin
 Astray	NPEL	Astray
+Astudal	NPEL	Astudal
 Asturias	NPEL	Asturias
 Asunción	NPFL	Asunción
 Asun	NPFS	Asun
 Asuntos Exteriores	NPEL	Asuntos Exteriores
 Asus	NPEL	Asus
+Atacand	NPEL	Atacand
 Atapuerca	NPEL	Atapuerca
+Atarax	NPEL	Atarax
 Atelier Van Lieshout	NPML	Atelier Van Lieshout
 Atenágoras	NPEL	Atenágoras
 Atención Primaria	NPEL	Atención Primaria
 Atención Primaria	NPFS	Atención Primaria
+Atenolol	NPEL	Atenolol
+Aterina	NPEL	Aterina
+Aterkey	NPEL	Aterkey
 Atilano	NPML	Atilano
+Atiramin	NPEL	Atiramin
 Atlanta	NPEL	Atlanta
 Atlántico	NPMS	Atlántico
 Atlas	NPML	Atlas
 Atocha	NPEL	Atocha
 Atom Egoyan	NPML	Atom Egoyan
+Atriscal	NPEL	Atriscal
+Atropina	NPEL	Atropina
+Atrovent	NPEL	Atrovent
 Audasa	NPEL	Audasa
+Audazol	NPEL	Audazol
 Audiencia de Pontevedra	NPFS	Audiencia de Pontevedra
 Audiencia Nacional	NPEL	Audiencia Nacional
 Audiencia Nacional	NPFS	Audiencia Nacional
@@ -936,12 +1141,14 @@ Auditorio Torrente Ballester	NPMS	Auditorio Torrente Ballester
 Audrey Tautou	NPFL	Audrey Tautou
 Audrey	NPFL	Audrey
 Audri Murfhi	NPML	Audri Murfhi
+Augmentine	NPEL	Augmentine
 Augusta	NPFS	Augusta
 Augusto César Lendoiro	NPML	Augusto César Lendoiro
 Augusto Pinochet	NPML	Augusto Pinochet
 Augusto Santaló	NPML	Augusto Santaló
 Augusto	NPML	Augusto
 Aula de Cultura de Caixa Galicia	NPFS	Aula de Cultura de Caixa Galicia
+Aulcer	NPEL	Aulcer
 Aulet Barros	NPEL	Aulet Barros
 Aureli Argemí	NPML	Aureli Argemí
 Aurelia García	NPFL	Aurelia García
@@ -970,7 +1177,10 @@ Autopistas de el Atlántico	NPEL	Autopistas de el Atlántico
 Autopistas	NPEL	Autopistas
 Autoridade Portuaria	NPFS	Autoridade Portuaria
 Autoservicios Familia	NPEL	Autoservicios Familia
+Auxina	NPEL	Auxina
 Ávalon	NPEL	Ávalon
+Avandamet	NPEL	Avandamet
+Avandia	NPEL	Avandia
 Avelina Manuela Fontán Solla	NPFL	Avelina Manuela Fontán Solla
 Avelino	NPML	Avelino
 Avelinos	NPMP	Avelino
@@ -978,33 +1188,48 @@ Avencio	NPML	Avencio
 Avenida de Castelao	NPEL	Avenida de Castelao
 Avenida	NPEL	Avenida
 Aviaco	NPEL	Aviaco
+Avidart	NPEL	Avidart
 Avignon	NPEL	Avignon
 Ávila	NPEL	Ávila
 Avilés	NPEL	Avilés
 Avión	NPEL	Avión
+Avonex	NPEL	Avonex
 Axel Munthe	NPML	Axel Munthe
 Axencia Municipal de Emprego	NPFS	Axencia Municipal de Emprego
 Axencia Tributaria	NPFS	Axencia Tributaria
 Axenda 2000	NPFS	Axenda 2000
+Axiago	NPEL	Axiago
+Axura	NPEL	Axura
 Ayash	NPEL	Ayash
 Aydin Ors	NPML	Aydin Ors
+Aydolid	NPEL	Aydolid
 Aymerich	NPEL	Aymerich
 Ayoze	NPEL	Ayoze
 Ayuntamiento	NPMS	Ayuntamiento
 Azaña	NPEL	Azaña
 Azcárate	NPEL	Azcárate
 Azevedo	NPEL	Azevedo
+Azitromicina	NPEL	Azitromicina
 Azkarate	NPEL	Azkarate
 Azkárate	NPEL	Azkárate
 Aznalcóllar	NPEL	Aznalcóllar
 Aznar	NPEL	Aznar
+Azopt	NPEL	Azopt
 Azorín	NPEL	Azorín
+Aztreonam	NPEL	Aztreonam
+Azulina	NPEL	Azulina
 B. Iglesias	NPEL	B. Iglesias
 Baamonde	NPEL	Baamonde
+Babinski	NPEL	Babinski
+Babypiril	NPEL	Babypiril
+Baccidal	NPEL	Baccidal
 Bachao	NPMS	Bachao
 Bachelet	NPEL	Bachelet
 Bach	NPEL	Bach
+Bacisporin	NPEL	Bacisporin
 Baco	NPML	Baco
+Bactil	NPEL	Bactil
+Bactroban	NPEL	Bactroban
 Badajoz	NPEL	Badajoz
 Badaxoz	NPEL	Badaxoz
 Badiola	NPEL	Badiola
@@ -1039,19 +1264,24 @@ Baleares	NPEL	Baleares
 Baleares	NPFP	Baleares
 Baleira	NPEL	Baleira
 Ballester	NPEL	Ballester
+Ballooning	NPEL	Ballooning
 Balseiro	NPEL	Balseiro
+Balsoprim	NPEL	Balsoprim
 Baltar Jr.	NPEL	Baltar Jr.
 Baltar	NPEL	Baltar
 Baltasar	NPML	Baltasar
 Balza	NPEL	Balza
+Bambec	NPEL	Bambec
 Bancaja	NPEL	Bancaja
 Banco Central	NPMS	Banco Central
 Banco de Bilbao Vizcaya	NPMS	Banco de Bilbao Vizcaya
 Banco del Pobre	NPMS	Banco del Pobre
 Bandeira Verde de Galicia 1999	NPEL	Bandeira Verde de Galicia 1999
 Bando	NPEL	Bando
+Banedif	NPEL	Banedif
 Banegas	NPEL	Banegas
 Bangkok	NPEL	Bangkok
+Bankart	NPEL	Bankart
 Bankinter	NPEL	Bankinter
 Bansky	NPML	Bansky
 Baquía	NPEL	Baquía
@@ -1083,26 +1313,34 @@ Barea	NPEL	Barea
 Barein	NPEL	Barein
 Bargalló	NPEL	Bargalló
 Bargnani	NPEL	Bargnani
+Barigraf	NPEL	Barigraf
 Barings	NPEL	Barings
 Bari	NPEL	Bari
+Baripril	NPEL	Baripril
 Barja	NPEL	Barja
 Barkley	NPEL	Barkley
+Barlow	NPEL	Barlow
 Barma	NPEL	Barma
 Barnier	NPEL	Barnier
 Barnum	NPEL	Barnum
 Baroja	NPEL	Baroja
 Barral	NPMS	Barral
 Barreiro Rivas	NPEL	Barreiro Rivas
+Barré	NPEL	Barré
 Barreto	NPEL	Barreto
+Barrett	NPEL	Barrett
 Barrientos	NPEL	Barrientos
 Barri	NPMS	Barri
 Barrionuevo	NPEL	Barrionuevo
+Barr	NPEL	Barr
 Barroso	NPMS	Barroso
 Barry Hodge	NPML	Barry Hodge
 Barry Richard	NPML	Barry Richard
 Barrymore	NPEL	Barrymore
 Barshefsky	NPEL	Barshefsky
 Bart Davenport	NPML	Bart Davenport
+Barthel	NPEL	Barthel
+Bartholin	NPEL	Bartholin
 Bartolo Fuentes	NPML	Bartolo Fuentes
 Bartolomé Clavero	NPML	Bartolomé Clavero
 Bartolomé de las Casas	NPML	Bartolomé de las Casas
@@ -1115,16 +1353,23 @@ Barzin	NPEL	Barzin
 Basagoiti	NPEL	Basagoiti
 Basayev	NPEL	Basayev
 Bascuas	NPMP	Bascuas
+Basedow	NPEL	Basedow
 Basilio	NPML	Basilio
 Basquiños	NPMP	Basquiños
 Bassat	NPEL	Bassat
+Bassini	NPEL	Bassini
 Basso	NPEL	Basso
 Batman	NPML	Batman
+Batmen	NPEL	Batmen
+Batrafen	NPEL	Batrafen
 Baudelaire	NPEL	Baudelaire
 Bautista	NPML	Bautista
+Baycip	NPEL	Baycip
 Bayer Munich	NPEL	Bayer Munich
 Bayern Múnic	NPEL	Bayern Múnic
 Bayern	NPEL	Bayern
+Baypresol	NPEL	Baypresol
+Bazalin	NPEL	Bazalin
 Bazán	NPEL	Bazán
 Baztarrika	NPEL	Baztarrika
 BBVA	NPMS	Banco de Bilbao Vizcaya
@@ -1144,11 +1389,22 @@ Beccaría	NPEL	Beccaría
 Becerreá	NPEL	Becerreá
 Becerril Gómez	NPEL	Becerril Gómez
 Becerril	NPEL	Becerril
+Becker	NPEL	Becker
 Beckett	NPEL	Beckett
 Beckhoff	NPEL	Beckhoff
 Beck	NPEL	Beck
+Becloenema	NPEL	Becloenema
+Becloforte	NPEL	Becloforte
+Beclomet	NPEL	Beclomet
+Beclo	NPEL	Beclo
+Beclosona	NPEL	Beclosona
+Beconase	NPEL	Beconase
+Becotide	NPEL	Becotide
+Becozyme	NPEL	Becozyme
 Bécquer	NPEL	Bécquer
+Beecham	NPEL	Beecham
 Begiristáin	NPEL	Begiristáin
+Beglan	NPEL	Beglan
 Bego	NPFS	Bego
 Begoña Caamaño	NPFL	Begoña Caamaño
 Begoña Errazti	NPFL	Begoña Errazti
@@ -1156,6 +1412,7 @@ Begoña Lasagabaster	NPFL	Begoña Lasagabaster
 Begoña Rubio	NPFL	Begoña Rubio
 Begoña Vila	NPFL	Begoña Vila
 Begoña	NPFS	Begoña
+Behçet 	NPEL	Behçet
 Beijing	NPEL	Beijing
 Beiras	NPEL	Beiras
 Beirut	NPEL	Beirut
@@ -1180,19 +1437,33 @@ Bello	NPEL	Bello
 Bellot	NPEL	Bellot
 Bellow	NPEL	Bellow
 Bellucci	NPEL	Bellucci
+Belmacina 	NPEL	Belmacina
+Belmalip	NPEL	Belmalip
+Belmazol	NPEL	Belmazol
 Belmonte	NPEL	Belmonte
 Belmont	NPEL	Belmont
+Beloken	NPEL	Beloken
 Beloki	NPEL	Beloki
 Beltrán	NPEL	Beltrán
 Belvis	NPEL	Belvis
 Bélxica	NPEL	Bélxica
 Bembibre	NPEL	Bembibre
+Bemolan	NPEL	Bemolan
+Benadon	NPEL	Benadon
+Benadryl	NPEL	Benadryl
 Benavente	NPEL	Benavente
 Benavente	NPMP	Benavente
+Bence-Jones	NPEL	Bence-Jones
+Bence	NPEL	Bence
 Benedetti	NPEL	Benedetti
 Benedicto	NPML	Benedicto
 Benedicto	NPMS	Benedicto
+Beneflur	NPEL	Beneflur
 BENEGÁ	NPMS	Bloque Nacionalista Galego
+Benemid	NPEL	Benemid
+Benerva	NPEL	Benerva
+Benestan	NPEL	Benestan
+Benexol	NPEL	Benexol
 Beniamin Netaniahu	NPML	Beniamin Netaniahu
 Benidorm	NPEL	Benidorm
 Benigna	NPFL	Benigna
@@ -1212,6 +1483,8 @@ Benlloch	NPEL	Benlloch
 Bennati	NPEL	Bennati
 Bennett Greenspan	NPML	Bennett Greenspan
 Bennett Miller	NPML	Bennett Miller
+Bennett	NPEL	Bennett
+Benoral	NPEL	Benoral
 Be	NPFS	Be
 Bens	NPEL	Bens
 Bent Christensen	NPML	Bent Christensen
@@ -1219,6 +1492,8 @@ Bentley Mulsanne Speed	NPEL	Bentley Mulsanne Speed
 Bentley	NPEL	Bentley
 Bent	NPML	Bent
 Benxamín	NPML	Benxamín
+Benzetacil	NPEL	Benzetacil
+Bepanthene	NPEL	Bepanthene
 Beramendi	NPEL	Beramendi
 Berceo	NPEL	Berceo
 Bereijo	NPEL	Bereijo
@@ -1282,12 +1557,26 @@ Berto	NPML	Berto
 Berto	NPMS	Alberto
 Berto	NPMS	Berto
 Bertrand Russell	NPML	Bertrand Russell
+Besitran	NPEL	Besitran
+Besnier	NPEL	Besnier
+Bester	NPEL	Bester
+Betadine	NPEL	Betadine
+Betaferon	NPEL	Betaferon
+Betagan	NPEL	Betagan
 Betagarri	NPEL	Betagarri
+Betamican	NPEL	Betamican
 Betancourt de Liska	NPEL	Betancourt de Liska
 Beta	NPEL	Beta
 Betanzos	NPEL	Betanzos
+Betatul	NPEL	Betatul
+Bethlem	NPEL	Bethlem
 Beti	NPFL	Beti
+Betnovate	NPEL	Betnovate
+Betoptic	NPEL	Betoptic
+Bettamousse	NPEL	Bettamousse
 Betti Solleiro	NPFL	Betti Solleiro
+Bexatus	NPEL	Bexatus
+Bexidermil	NPEL	Bexidermil
 Beyoncé	NPFL	Beyoncé
 Beyuki	NPEL	Beyuki
 Bezsonoff	NPEL	Bezsonoff
@@ -1297,14 +1586,22 @@ Bianca Cid Bouzas	NPFL	Bianca Cid Bouzas
 Bianca Cid	NPFL	Bianca Cid
 Bianca	NPFL	Bianca
 Bibi Aisha	NPFL	Bibi Aisha
+Bicarbonato 	NPEL	Bicarbonato
+Bicetil	NPEL	Bicetil
+Biclin 	NPEL	Biclin
+Bidrolar	NPEL	Bidrolar
 Biduido	NPEL	Biduido
 Bieito Lobeira	NPML	Bieito Lobeira
 Bieito Romero	NPML	Bieito Romero
 Bieito	NPML	Bieito
 Bielorrusia	NPEL	Bielorrusia
+Bielschowsky	NPEL	Bielschowsky
+Bifokey	NPEL	Bifokey
 Big Soul	NPEL	Big Soul
 Bilbao	NPEL	Bilbao
 Bildarratz	NPEL	Bildarratz
+Bilicanta	NPEL	Bilicanta
+Bilina 	NPEL	Bilina
 Bill Bratton	NPML	Bill Bratton
 Bill Clinton	NPML	Bill Clinton
 Bill Collins	NPML	Bill Collins
@@ -1314,6 +1611,7 @@ Bill Milner	NPML	Bill Milner
 Billie Holiday	NPFL	Billie Holiday
 Billig	NPEL	Billig
 Bill	NPML	Bill
+Billroth	NPEL	Billroth
 Billy Bob Thornton	NPML	Billy Bob Thornton
 Billy Frolic	NPML	Billy Frolic
 Billy Gates	NPML	Billy Gates
@@ -1321,12 +1619,29 @@ Billy King	NPML	Billy King
 Billy Ray	NPML	Billy Ray
 Billy Squier	NPML	Billy Squier
 Billy	NPML	Billy
+Biltricide	NPEL	Biltricide
 Bin Laden	NPEL	Bin Laden
+Binet	NPEL	Binet
 Binyamin Netanyahu	NPML	Binyamin Netanyahu
+Biocef	NPEL	Biocef
+Biocoryl	NPEL	Biocoryl
+Biodramina	NPEL	Biodramina
+Biolid	NPEL	Biolid
 Bioloxía Molecular e Celular	NPEL	Bioloxía Molecular e Celular
+Biominol	NPEL	Biominol
+Bioplak	NPEL	Bioplak
+Bioralsuero	NPEL	Bioralsuero
+Bioselenium	NPEL	Bioselenium
+Bipreterax	NPEL	Bipreterax
 Birmania	NPEL	Birmania
 Biscaia	NPEL	Biscaia
 Biscet	NPEL	Biscet
+Bishop	NPEL	Bishop
+Bismuth	NPEL	Bismuth
+Bisoltus	NPEL	Bisoltus
+Bisolvon	NPEL	Bisolvon
+Bisoprolol	NPEL	Bisoprolol
+Bitensil	NPEL	Bitensil
 Bizet	NPEL	Bizet
 Bjelica	NPEL	Bjelica
 Bjork	NPEL	Bjork
@@ -1341,14 +1656,18 @@ Blanco	NPEL	Blanco
 Blanco	NPMS	Blanco
 Blas	NPML	Blas
 Blas	NPMS	Blas
+Blastoestimulina	NPEL	Blastoestimulina
+Blaston	NPEL	Blaston
 Blatter	NPEL	Blatter
 Blay	NPEL	Blay
 Blázquez	NPEL	Blázquez
 Bliorest	NPEL	Bliorest
+Blokium	NPEL	Blokium
 Bloom	NPEL	Bloom
 Bloque Nacionalista Galego	NPEL	Bloque Nacionalista Galego
 Bloque Nacionalista Galego	NPMS	Bloque Nacionalista Galego
 Bloque	NPMS	Bloque
+Blumberg	NPEL	Blumberg
 Blunkett	NPEL	Blunkett
 BNG	NPMS	Bloque Nacionalista Galego
 Boadella	NPEL	Boadella
@@ -1359,6 +1678,8 @@ Boccaccio	NPEL	Boccaccio
 Boeing	NPEL	Boeing
 Bogarde	NPEL	Bogarde
 Bogotá	NPEL	Bogotá
+Böhler	NPEL	Böhler
+Boi	NPEL	Boi
 Boiro	NPEL	Boiro
 Bojic	NPEL	Bojic
 Bojkov	NPEL	Bojkov
@@ -1366,8 +1687,12 @@ Boletín de Caixa Galicia	NPMS	Boletín de Caixa Galicia
 Bolonia	NPEL	Bolonia
 Boloña	NPEL	Boloña
 Bolsa	NPEL	Bolsa
+Bolsas	NPEL	Bolsas
+Boltin	NPEL	Boltin
 Bolt	NPEL	Bolt
+Bonalfa	NPEL	Bonalfa
 Bonaval	NPEL	Bonaval
+Bonefos	NPEL	Bonefos
 Bonifacio Borreiros	NPML	Bonifacio Borreiros
 Bonilla	NPEL	Bonilla
 Bonin	NPEL	Bonin
@@ -1376,6 +1701,9 @@ Bonn	NPEL	Bonn
 Bono	NPEL	Bono
 Bonxe	NPEL	Bonxe
 Boqueixón	NPEL	Boqueixón
+Boraline	NPEL	Boraline
+Borbalan 	NPEL	Borbalan
+Borea	NPEL	Borea
 Borel	NPEL	Borel
 Borgen	NPEL	Borgen
 Borges	NPEL	Borges
@@ -1405,6 +1733,7 @@ Bosko Jankovic	NPML	Bosko Jankovic
 Bosnia Herzogovina	NPEL	Bosnia Herzogovina
 Bosnia-Herzegovina	NPEL	Bosnia-Herzegovina
 Bosnia	NPEL	Bosnia
+Bosporon	NPEL	Bosporon
 Boston	NPEL	Boston
 Botafume	NPEL	Botafume
 Boubeta	NPEL	Boubeta
@@ -1412,6 +1741,7 @@ Bouchet	NPEL	Bouchet
 Boulez	NPEL	Boulez
 Bourges	NPEL	Bourges
 Bóveda	NPEL	Bóveda
+Bowen	NPEL	Bowen
 Boyer	NPEL	Boyer
 Bozzo	NPEL	Bozzo
 Brad Barnett	NPML	Brad Barnett
@@ -1422,11 +1752,14 @@ Brad Pitt	NPML	Brad Pitt
 Bradford	NPEL	Bradford
 Bradley Cooper	NPML	Bradley Cooper
 Bradley Smith	NPML	Bradley Smith
+Bragard	NPEL	Bragard
 Brahim Beryaz	NPML	Brahim Beryaz
+Brainal	NPEL	Brainal
 Brajkovic	NPEL	Brajkovic
 Brancaflor	NPFL	Brancaflor
 Brancaneves	NPFL	Brancaneves
 Brandariz	NPEL	Brandariz
+Brandes	NPEL	Brandes
 Brandon	NPMS	Brandon
 Brasil	NPEL	Brasil
 Bratman	NPEL	Bratman
@@ -1436,17 +1769,21 @@ Braulio	NPML	Braulio
 Bravo	NPEL	Bravo
 Bread and Roses	NPEL	Bread and Roses
 Breixo	NPMS	Breixo
+Bremon	NPEL	Bremon
 Brendan Curran	NPML	Brendan Curran
+Brentan	NPEL	Brentan
 Breogán Autolux	NPML	Breogán Autolux
 Breogán Cachaldora Vidal	NPML	Breogán Cachaldora Vidal
 Breogán Cohen	NPML	Breogán Cohen
 Breogán Ocasión	NPEL	Breogán Ocasión
 Brescia	NPEL	Brescia
+Breslow	NPEL	Breslow
 Brest	NPEL	Brest
 Bret Easton Ellis	NPEL	Bret Easton Ellis
 Bretaña	NPEL	Bretaña
 Breton	NPEL	Breton
 Brett Fravre	NPML	Brett Fravre
+Brexinil	NPEL	Brexinil
 Brezhnev	NPEL	Brezhnev
 Brian Berkeley	NPML	Brian Berkeley
 Brian Cusworth	NPML	Brian Cusworth
@@ -1458,6 +1795,7 @@ Brian Tobin	NPML	Brian Tobin
 Brian W. Aldiss	NPML	Brian W. Aldiss
 Brian	NPML	Brian
 Brick Lane	NPEL	Brick Lane
+Bricker	NPEL	Bricker
 Bridget Jones	NPFL	Bridget Jones
 Briga	NPFL	Briga
 Brigantia de San Roque	NPFL	Brigantia de San Roque
@@ -1467,12 +1805,27 @@ Brigantium	NPFL	Brigantium
 Brigantium	NPML	Brigantium
 Brigitte	NPFL	Brigitte
 Briguitte Yague	NPFL	Briguitte Yague
+Brionil	NPEL	Brionil
 Brión	NPEL	Brión
+Brisair	NPEL	Brisair
+Brisoral	NPEL	Brisoral
+Bristaciclina	NPEL	Bristaciclina
+Bristacol	NPEL	Bristacol
 Bristol	NPEL	Bristol
+Britamox	NPEL	Britamox
+Britapen	NPEL	Britapen
 Britney	NPFL	Britney
 Brixton	NPEL	Brixton
 Brnovic	NPEL	Brnovic
 Brock van der Bogaerde	NPML	Brock van der Bogaerde
+Brolene	NPEL	Brolene
+Broncimucil	NPEL	Broncimucil
+Broncoformo	NPEL	Broncoformo
+Bronco	NPEL	Bronco
+Broncoral	NPEL	Broncoral
+Broncovir 	NPEL	Broncovir
+Bronquidiazina	NPEL	Bronquidiazina
+Bronsema	NPEL	Bronsema
 Bror Lindegren	NPML	Bror Lindegren
 Brown	NPEL	Brown
 Bruce Ismay	NPML	Bruce Ismay
@@ -1481,6 +1834,8 @@ Bruce Naumann	NPML	Bruce Naumann
 Bruce Springsteen	NPML	Bruce Springsteen
 Bruce Willis	NPML	Bruce Willis
 Bruce	NPML	Bruce
+Brudzinski	NPEL	Brudzinski
+Brugada	NPEL	Brugada
 Bruni	NPEL	Bruni
 Bruno	NPMS	Bruno
 Bruselas	NPEL	Bruselas
@@ -1492,6 +1847,9 @@ Bucaramanga	NPEL	Bucaramanga
 Bucarest	NPEL	Bucarest
 Buchwitz	NPEL	Buchwitz
 Budapest	NPEL	Budapest
+Budd-Chiari	NPEL	Budd-Chiari
+Budd	NPEL	Budd
+Budesonida	NPEL	Budesonida
 Budiño	NPEL	Budiño
 Buenaventura Durruti	NPEL	Buenaventura Durruti
 Buenaventura Núñez Outón	NPML	Buenaventura Núñez Outón
@@ -1503,24 +1861,38 @@ Bugui Bugui	NPEL	Bugui Bugui
 Bugui Bugui	NPMS	Bugui Bugui
 Bulent Sam	NPML	Bulent Sam
 Bulgaria	NPEL	Bulgaria
+Bumper	NPEL	Bumper
+Bunnell	NPEL	Bunnell
 Buño	NPEL	Buño
 BUP	NPEL	Bachillerato Unificado Polivalente
+Buprex	NPEL	Buprex
+Burch	NPEL	Burch
 Burela	NPEL	Burela
 Burgo de as Nacións	NPFS	Burgo de as Nacións
 Burgos	NPEL	Burgos
+Buried	NPEL	Buried
 Burke	NPEL	Burke
+Burkitt	NPEL	Burkitt
+Burmicin 	NPEL	Burmicin
+Burnetii	NPEL	Burnetii
 Burt Lancaster	NPML	Burt Lancaster
 Burton	NPEL	Burton
 Buruaga	NPEL	Buruaga
 Burundi	NPEL	Burundi
 Busard	NPEL	Busard
 Buscapé	NPML	Buscapé
+Buscapina	NPEL	Buscapina
+Buspar	NPEL	Buspar
 Busquets	NPEL	Busquets
 Busquin	NPEL	Busquin
 Bustabad	NPEL	Bustabad
 Buster Keaton	NPML	Buster Keaton
+Busulfan	NPEL	Busulfan
 Butaca Especial	NPEL	Butaca Especial
+Butazolidina	NPEL	Butazolidina
 Buteflika	NPEL	Buteflika
+Buto	NPEL	Buto
+Butosol	NPEL	Butosol
 Buzard	NPEL	Buzard
 Buzzetti	NPEL	Buzzetti
 Byron	NPEL	Byron
@@ -1546,6 +1918,11 @@ Cáceres	NPEL	Cáceres
 Cacharro Pardo	NPEL	Cacharro Pardo
 Cáchira	NPEL	Cáchira
 Cádiz	NPEL	Cádiz
+Cadwell-Luc	NPEL	Cadwell-Luc
+Cadwell	NPEL	Cadwell
+Cafergot	NPEL	Cafergot
+Cafiaspirina	NPEL	Cafiaspirina
+Cafinitrina 	NPEL	Cafinitrina
 Caixa de Aforros de Vigo , Ourense e Pontevedra	NPEL	Caixa de Aforros de Vigo , Ourense e Pontevedra
 Caixa de Pontevedra	NPEL	Caixa de Pontevedra
 Caixa Galicia	NPEL	Caixa Galicia
@@ -1568,6 +1945,11 @@ Cajapontevedra	NPEL	Cajapontevedra
 Cajide Rodríguez, Roxelio	NPML	Cajide Rodríguez, Roxelio
 Calabria	NPEL	Calabria
 Calafat	NPEL	Calafat
+Calcial	NPEL	Calcial
+Calcijex	NPEL	Calcijex
+Calcio	NPEL	Calcio
+Calcitonina	NPEL	Calcitonina
+Calcium 	NPEL	Calcium
 Calcuta	NPEL	Calcuta
 Caldas de Reis	NPEL	Caldas de Reis
 Caldeira	NPFS	Caldeira
@@ -1583,8 +1965,11 @@ calle Bellavista	NPEL	calle Bellavista
 calle del Cuco	NPEL	calle del Cuco
 Calle Providencia	NPEL	Calle Providencia
 Calleja	NPFS	Calleja
+Calmatel	NPEL	Calmatel
+Calnit	NPEL	Calnit
 Calo	NPEL	Calo
 Calros Solla	NPML	Calros Solla
+Calsynar	NPEL	Calsynar
 Calvet	NPEL	Calvet
 Calviño	NPEL	Calviño
 Calvo	NPMS	Calvo
@@ -1621,11 +2006,13 @@ Campaña Verán-99	NPEL	Campaña Verán-99
 Campbell Field	NPEL	Campbell Field
 Campbell	NPEL	Campbell
 Campos	NPEL	Campos
+Campral	NPEL	Campral
 Campsa	NPEL	Campsa
 Camus	NPEL	Camus
 Canadá	NPEL	Canadá
 Cánada	NPEL	Cánada
 Canadell	NPEL	Canadell
+Canadiol 	NPEL	Canadiol
 Canal BBV	NPEL	Canal BBV
 Canal Satélite Digital	NPEL	Canal Satélite Digital
 Canal Satélite	NPEL	Canal Satélite
@@ -1643,33 +2030,54 @@ Cándido	NPML	Cándido
 Caneda Aguiar	NPEL	Caneda Aguiar
 Caneda	NPEL	Caneda
 Canel González, Daniel	NPML	Canel González, Daniel
+Canesten	NPEL	Canesten
 Cangas	NPEL	Cangas
 Cannes	NPEL	Cannes
 Cánovas	NPEL	Cánovas
 Cantabria	NPEL	Cantabria
 Cañete	NPEL	Cañete
+Caosina	NPEL	Caosina
 Caparrós	NPEL	Caparrós
 Capela Sixtina	NPFS	Capela Sixtina
 Capello	NPEL	Capello
 Caplan	NPEL	Caplan
 Capón	NPEL	Capón
+Capoten	NPEL	Capoten
 Capriati	NPEL	Capriati
 Capricho	NPMS	Capricho
+Caproamin 	NPEL	Caproamin
+Caprofides 	NPEL	Caprofides
+Capsicin	NPEL	Capsicin
+Capsidol	NPEL	Capsidol
+Captopril 	NPEL	Captopril
+Captosina	NPEL	Captosina
 Carabén	NPEL	Carabén
 Caracas	NPEL	Caracas
 Caramiñas	NPEL	Caramiñas
 Caramoniña	NPEL	Caramoniña
 Carandell	NPEL	Carandell
+Carasel	NPEL	Carasel
 Carballal	NPEL	Carballal
 Carballedo	NPEL	Carballedo
 Carballido	NPEL	Carballido
 Carballo	NPEL	Carballo
 Carballudo González, Xosé	NPML	Carballudo González, Xosé
+Carbamazepina	NPEL	Carbamazepina
 Carbia	NPFS	Carbia
+Carbicalcin 	NPEL	Carbicalcin
+Carbidopa	NPEL	Carbidopa
+Carbocal	NPEL	Carbocal
 Carbonell	NPEL	Carbonell
 Carbonel	NPEL	Carbonel
+Cardem	NPEL	Cardem
 Cardiff	NPEL	Cardiff
+Cardionil	NPEL	Cardionil
+Cardiovas 	NPEL	Cardiovas
+Cardiser	NPEL	Cardiser
+Carduran 	NPEL	Carduran
+Cardyl	NPEL	Cardyl
 Carey	NPEL	Carey
+Cariban 	NPEL	Cariban
 Caribe	NPEL	Caribe
 Caride Ogando	NPEL	Caride Ogando
 Caride	NPEL	Caride
@@ -1721,6 +2129,7 @@ Carmen	NPFL	Carmen
 Carmen	NPFS	Carmen
 Carme	NPFL	Carme
 Carmiña	NPFL	Carmiña
+Carnicor	NPEL	Carnicor
 Carnota	NPEL	Carnota
 Car	NPMS	Car
 Carol Bouquet	NPFL	Carol Bouquet
@@ -1737,6 +2146,7 @@ Carral	NPEL	Carral
 Carrasco	NPMS	Carrasco
 Carré Aldao	NPEL	Carré Aldao
 Carrefour	NPEL	Carrefour
+Carreldon 	NPEL	Carreldon
 Carreño Tato	NPEL	Carreño Tato
 Carreño	NPEL	Carreño
 Carrera Pásaro	NPEL	Carrera Pásaro
@@ -1754,7 +2164,9 @@ Carta Magna	NPFS	Carta Magna
 Cartaxena	NPEL	Cartaxena
 Cartelle	NPEL	Cartelle
 Carter	NPEL	Carter
+Cartisorb	NPEL	Cartisorb
 Cartlin Moran	NPFL	Cartlin Moran
+Carvedilol 	NPEL	Carvedilol
 Casa Branca	NPFS	Casa Branca
 Casa de Láncara	NPFS	Casa de Láncara
 Casa de o Príncipe	NPFS	Casa de o Príncipe
@@ -1762,13 +2174,16 @@ Casa Hamlet	NPEL	Casa Hamlet
 Casanova	NPEL	Casanova
 Casas	NPEL	Casas
 Casas	NPFP	Casas
+Casbol	NPEL	Casbol
 Caselas	NPEL	Caselas
+Casenfilus	NPEL	Casenfilus
 Casey Blanton	NPML	Casey Blanton
 Casey Stoner	NPML	Casey Stoner
 Cash y Carry	NPEL	Cash y Carry
 Casillas	NPEL	Casillas
 Casim	NPML	Casim
 Casiopea	NPEL	Casiopea
+Casodex	NPEL	Casodex
 Cassez	NPEL	Cassez
 Cassier	NPEL	Cassier
 Castela e León	NPEL	Castela e León
@@ -1791,8 +2206,10 @@ Castrillo	NPEL	Castrillo
 Castro	NPEL	Castro
 Castroviejo	NPEL	Castroviejo
 Cataluña	NPEL	Cataluña
+Catapresan	NPEL	Catapresan
 Catarina	NPFL	Catarina
 Catedral	NPFS	Catedral
+Catex	NPEL	Catex
 Catharine A. MacKinnon	NPFL	Catharine A. MacKinnon
 Catharine Belsey	NPFL	Catharine Belsey
 Catharine Deneuve	NPFL	Catharine Deneuve
@@ -1809,6 +2226,7 @@ Cáucaso	NPEL	Cáucaso
 Cavalcanti	NPEL	Cavalcanti
 Cavallero	NPEL	Cavallero
 Cavanna	NPEL	Cavanna
+Caverject	NPEL	Caverject
 Cazorla	NPEL	Cazorla
 CD	NCMP	compact disc
 CD	NCMS	compact Disc
@@ -1817,31 +2235,51 @@ CD-ROM	NCMS	compact disc-read only memory
 CDU	NPMS	Christlich-Demokratische Union Deutschlands
 Ceapa	NPEL	Ceapa
 Ceballos	NPEL	Ceballos
+Cebion 	NPEL	Cebion
 Cebreiro	NPEL	Cebreiro
 Cebrián	NPEL	Cebrián
 Cecap	NPEL	Cecap
 Cecilia Attias	NPFL	Cecilia Attias
 Cecilia	NPFS	Cecilia
 Cecilio	NPML	Cecilio
+Ceclor 	NPEL	Ceclor
+Cedax	NPEL	Cedax
 Cédric Jimenez	NPML	Cédric Jimenez
 Cedrón	NPEL	Cedrón
 Cee	NPEL	Cee
 Cée	NPEL	Cée
+Cefaclor	NPEL	Cefaclor
+Cefadroxilo	NPEL	Cefadroxilo
+Cefalexgobens	NPEL	Cefalexgobens
+Cefalotina 	NPEL	Cefalotina
 Ceferino	NPML	Ceferino
+Cefixima	NPEL	Cefixima
+Cefonicida 	NPEL	Cefonicida
 Cegrane	NPEL	Cegrane
 Celama	NPEL	Celama
 Celanova	NPEL	Celanova
 Celavella	NPEL	Celavella
+Celebrex	NPEL	Celebrex
+Celesemine	NPEL	Celesemine
 Celes	NPML	Celes
 Celestina	NPFL	Celestina
 Celestino	NPML	Celestino
+Celestoderm	NPEL	Celestoderm
+Celestone	NPEL	Celestone
 Celia Villalobos	NPFL	Celia Villalobos
 Celia	NPFL	Celia
 Celina	NPFL	Celina
+Cellcept	NPEL	Cellcept
+Cellufresh	NPEL	Cellufresh
+Celluvisc	NPEL	Celluvisc
 Celso Currás	NPML	Celso Currás
 Celso	NPML	Celso
+Celupan	NPEL	Celupan
+Cemidon	NPEL	Cemidon
 Cenalmor	NPEL	Cenalmor
+Cenat 	NPEL	Cenat
 Cendán Rivas, Xesús	NPML	Cendán Rivas, Xesús
+Ceneo	NPEL	Ceneo
 Cen	NPMS	Cen
 Central Park	NPMS	Central Park
 Central	NPFS	Central
@@ -1857,18 +2295,25 @@ Centro Empresarial de o Tambre	NPMS	Centro Empresarial de o Tambre
 Centro Oncolóxico de Galicia	NPMS	Centro Oncolóxico de Galicia
 Centroamérica	NPEL	Centroamérica
 Centros	NPEL	Centros
+Ceprandal	NPEL	Ceprandal
 Cerceda	NPEL	Cerceda
 Cerdedo	NPEL	Cerdedo
 Cerdeña	NPEL	Cerdeña
 Cereixido	NPEL	Cereixido
 Cerezo	NPEL	Cerezo
 Cerf	NPEL	Cerf
+Certican 	NPEL	Certican
 Cervantes	NPEL	Cervantes
 Cervo	NPEL	Cervo
+Cervoxan	NPEL	Cervoxan
 César Milstein	NPML	César Milstein
 Cesáreo	NPML	Cesáreo
 César	NPML	César
 César	NPMS	César
+Cesplon	NPEL	Cesplon
+Cetimil	NPEL	Cetimil
+Cetirizina 	NPEL	Cetirizina
+Cetraxal	NPEL	Cetraxal
 Ceuta	NPEL	Ceuta
 Ch. Baudelaire	NPEL	Ch. Baudelaire
 Chabeli	NPFL	Chabeli
@@ -1887,6 +2332,7 @@ Chantada	NPEL	Chantada
 Chapela	NPEL	Chapela
 Chaplin	NPEL	Chaplin
 Chapman	NPEL	Chapman
+Charcot	NPEL	Charcot
 Charing Cros	NPEL	Charing Cros
 Chari	NPFS	Chari
 Chari	NPFS	Charo
@@ -1908,6 +2354,7 @@ Charo Sánchez	NPFL	Charo Sánchez
 Charo	NPFL	Charo
 Charo	NPFS	Charo
 Chateaubriend	NPML	Chateaubriend
+Chauffard	NPEL	Chauffard
 Chavarri	NPEL	Chavarri
 Chávarri	NPEL	Chávarri
 Chavela Vargas	NPFL	Chavela Vargas
@@ -1926,6 +2373,7 @@ Chelo Mera	NPFL	Chelo Mera
 Chelo Suárez	NPFL	Chelo Suárez
 Chelo	NPFL	Chelo
 Chelo	NPFS	Chelo
+Chemicetina	NPEL	Chemicetina
 Cheney	NPEL	Cheney
 Chenoa	NPFL	Chenoa
 Cherie Blair	NPFL	Cherie Blair
@@ -1939,12 +2387,18 @@ Chete Pazo	NPML	Chete Pazo
 Chete	NPMS	Chete
 Cheung	NPEL	Cheung
 Chevrolet	NPEL	Chevrolet
+Chevron	NPEL	Chevron
+Cheyne	NPEL	Cheyne
 Chiapa	NPEL	Chiapa
 Chiappucci	NPEL	Chiappucci
+Chiari	NPEL	Chiari
+Chibroxin	NPEL	Chibroxin
 Chicísimo.com	NPEL	Chicísimo.com
 Chick Corea	NPML	Chick Corea
+Chilaiditi	NPEL	Chilaiditi
 Chilam Balam	NPEL	Chilam Balam
 Chilam Balam	NPML	Chilam Balam
+Child	NPEL	Child
 Chile	NPEL	Chile
 China	NPEL	China
 Chipman	NPEL	Chipman
@@ -1952,8 +2406,10 @@ Chiqui Barros	NPML	Chiqui Barros
 Chiqui García	NPML	Chiqui García
 Chirac	NPEL	Chirac
 Chirri	NPMS	Chirri
+Chloromycetin	NPEL	Chloromycetin
 Chomsky	NPEL	Chomsky
 Chon	NPFS	Chon
+Chopard	NPEL	Chopard
 Chopin	NPEL	Chopin
 Chris Bell	NPML	Chris Bell
 Chris Brown	NPML	Chris Brown
@@ -1998,12 +2454,21 @@ Chuck Wald	NPML	Chuck Wald
 Chukri	NPEL	Chukri
 Chunta Aragonesista	NPEL	Chunta Aragonesista
 Churchill	NPEL	Churchill
+Churg	NPEL	Churg
+Churg-Strauss	NPEL	Churg-Strauss
 Chus Aranguren	NPML	Chus Aranguren
 Chus Baleato	NPML	Chus Baleato
 Chus Gutiérrez	NPFL	Chus Gutiérrez
 Chus Lago	NPFL	Chus Lago
 Chus Pato	NPFL	Chus Pato
 Chus Prol	NPFL	Chus Prol
+Cialis	NPEL	Cialis
+Cibacen 	NPEL	Cibacen
+Cicatral 	NPEL	Cicatral
+Ciclochem	NPEL	Ciclochem
+Ciclofalina	NPEL	Ciclofalina
+Cicloplejico	NPEL	Cicloplejico
+Cidine	NPEL	Cidine
 Ciemar	NPMS	Ciemat
 CIEMAT	NPMS	Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
 Ciemat	NPMS	Ciemat
@@ -2024,10 +2489,21 @@ Cigarrán	NPEL	Cigarrán
 CIG-Ensino	NPEL	CIG-Ensino
 CIG-Ensino	NPFS	CIG-Ensino
 Cilenis	NPEL	Cilenis
+Cimascal 	NPEL	Cimascal
+Cinarizina	NPEL	Cinarizina
+Cincofarm	NPEL	Cincofarm
+Cinfamar	NPEL	Cinfamar
+Cinfatos	NPEL	Cinfatos
 Cipollini	NPEL	Cipollini
+Cipralex	NPEL	Cipralex
+Ciprenit	NPEL	Ciprenit
 Cipriá Ciscar	NPML	Cipriá Ciscar
+Ciproxina	NPEL	Ciproxina
 Ciscar	NPEL	Ciscar
+Cisordinol	NPEL	Cisordinol
+Citalopram	NPEL	Citalopram
 Cité de Solèil	NPEL	Cité de Solèil
+Citorsal	NPEL	Citorsal
 Citroën C4 Aircross	NPEL	Citroën C4 Aircross
 Citroën C4 Grand Picasso	NPEL	Citroën C4 Grand Picasso
 Citroën C4 Picasso	NPEL	Citroën C4 Picasso
@@ -2045,16 +2521,25 @@ Citroën Tubik	NPEL	Citroën Tubik
 Citroën Wild Rubis	NPEL	Citroën Wild Rubis
 Citroén	NPEL	Citroén
 Citroën	NPEL	Citroën
+Citrovit	NPEL	Citrovit
 Ciudad Juárez	NPEL	Ciudad Juárez
+Civeran	NPEL	Civeran
 Claes	NPEL	Claes
+Claforan 	NPEL	Claforan
 Claire Randall	NPFL	Claire Randall
+Clamoxyl	NPEL	Clamoxyl
+Clanzoflat	NPEL	Clanzoflat
+Claral	NPEL	Claral
 Clara	NPFL	Clara
 Clarins	NPEL	Clarins
 Claris Charles	NPFL	Claris Charles
 Clarita	NPFS	Clara
 Clarita	NPFS	Clarita
+Claritromicina	NPEL	Claritromicina
+Clarityne	NPEL	Clarityne
 Clark Kent	NPML	Clark Kent
 Clark	NPEL	Clark
+Clarvisan	NPEL	Clarvisan
 Claudette	NPFL	Claudette
 Claudia	NPFS	Claudia
 Claudio Magris	NPML	Claudio Magris
@@ -2066,7 +2551,12 @@ Claudio	NPMS	Claudio
 Clau	NPFS	Clau
 Claustro de Profesores	NPMS	Claustro de Profesores
 Claustro	NPMS	Claustro
+Clavepen	NPEL	Clavepen
+Claversal	NPEL	Claversal
+Clavucid	NPEL	Clavucid
+Clavumox	NPEL	Clavumox
 Clayton	NPEL	Clayton
+Cleboril	NPEL	Cleboril
 Clément Rosset	NPML	Clément Rosset
 Clemente Jesús Muñiz Guardado	NPML	Clemente Jesús Muñiz Guardado
 Clemente	NPML	Clemente
@@ -2075,32 +2565,63 @@ Clements	NPML	Clements
 Cleostrata	NPFL	Cleostrata
 Cleóstrata	NPFL	Cleóstrata
 Clesa	NPEL	Clesa
+Clexane	NPEL	Clexane
 Cliff Evans	NPML	Cliff Evans
 Cliff	NPML	Cliff
+Climen	NPEL	Climen
+Clinadil	NPEL	Clinadil
 Clint Eastwood	NPML	Clint Eastwood
 Clint	NPML	Clint
 Clinton-Eltsin	NPEL	Clinton-Eltsin
 Clinton	NPEL	Clinton
+Clinwas	NPEL	Clinwas
+Cliogan	NPEL	Cliogan
+Clipto	NPEL	Clipto
+Clisin	NPEL	Clisin
 Clive Owen	NPML	Clive Owen
 Clodio	NPML	Clodio
+Clomifen	NPEL	Clomifen
 Clooney	NPEL	Clooney
+Clopixol	NPEL	Clopixol
+Cloquet	NPEL	Cloquet
+Cloran	NPEL	Cloran
+Cloretilo	NPEL	Cloretilo
+Clorina	NPEL	Clorina
+Clorxil	NPEL	Clorxil
 Clos	NPEL	Clos
+Clotrasone	NPEL	Clotrasone
+Clotrimazol	NPEL	Clotrimazol
+Clovate	NPEL	Clovate
+Cloxacilina	NPEL	Cloxacilina
 Club Financeiro de Vigo	NPMS	Club Financeiro de Vigo
 Club Miladies	NPEL	Club Miladies
 Club Miladies	NPMS	Club Miladies
 Club	NPMS	Club
 CNMV	NPFS	Comisión Nacional del Mercado de Valores
 Coalición Canaria	NPEL	Coalición Canaria
+Co-amoxin	NPEL	Co-amoxin
+Coaprovel	NPEL	Coaprovel
 Cobián	NPEL	Cobián
 Coby	NPEL	Coby
 Cochón	NPEL	Cochón
+Codeisan 	NPEL	Codeisan
+Coderol	NPEL	Coderol
 Código de Conducta Política	NPMS	Código de Conducta Política
+Co-diovan	NPEL	Co-diovan
+Cod	NPEL	Cod
 Coedo	NPEL	Coedo
 Cofaga	NPFS	Cofaga
+Co-fluocin	NPEL	Co-fluocin
 Cohan	NPEL	Cohan
 Cohen	NPEL	Cohen
+Cohortan 	NPEL	Cohortan
 Coimbra	NPEL	Coimbra
+Colchicine	NPEL	Colchicine
+Colchimax	NPEL	Colchimax
 Colegio Universitario de Vigo	NPEL	Colegio Universitario de Vigo
+Colemin	NPEL	Colemin
+Colestid	NPEL	Colestid
+Colesvir	NPEL	Colesvir
 Colette	NPFL	Colette
 Colexio de Educación Secundaria de San Román de Cervantes	NPMS	Colexio de Educación Secundaria de San Román de Cervantes
 Colexio Maior Fonseca	NPMS	Colexio Maior Fonseca
@@ -2111,9 +2632,12 @@ Colin Arthur	NPML	Colin Arthur
 Colin Blunstone	NPML	Colin Blunstone
 Colin Powell	NPML	Colin Powell
 Coliseo	NPMS	Coliseo
+Colistimetato	NPEL	Colistimetato
+Colles	NPEL	Colles
 Coll	NPEL	Coll
 Colmenar	NPEL	Colmenar
 Colmenero	NPEL	Colmenero
+Colme	NPEL	Colme
 Coloccini	NPEL	Coloccini
 Colombani	NPEL	Colombani
 Colombia	NPEL	Colombia
@@ -2121,8 +2645,11 @@ Colom	NPEL	Colom
 Colonia	NPEL	Colonia
 Colón	NPEL	Colón
 Colotto	NPEL	Colotto
+Colpotrofin	NPEL	Colpotrofin
 Comba Campoy	NPFL	Comba Campoy
 Comba	NPFL	Comba
+Combivent	NPEL	Combivent
+Combivir	NPEL	Combivir
 Comercio	NPEL	Comercio
 Comesaña	NPEL	Comesaña
 Comisión de Agricultura	NPFS	Comisión de Agricultura
@@ -2155,6 +2682,7 @@ Compay	NPML	Compay
 Complexo Hospitalario Universitario de Santiago de Compostela	NPMS	Complexo Hospitalario Universitario de Santiago de Compostela
 Complexo	NPMS	Complexo
 Compostela	NPEL	Compostela
+Comtan	NPEL	Comtan
 Comunicación	NPEL	Comunicación
 Comunidade Autónoma Basca	NPFS	Comunidade Autónoma Basca
 Comunidade Autónoma de Galicia	NPFS	Comunidade Autónoma de Galicia
@@ -2172,6 +2700,7 @@ Concello de Pontevedra	NPMS	Concello de Pontevedra
 Concello de Vigo	NPMS	Concello de Vigo
 Concello	NPMS	Concello
 Concepción	NPFL	Concepción
+Concerta	NPEL	Concerta
 Concha Blanco	NPFL	Concha Blanco
 Concha Costas	NPFL	Concha Costas
 Concha Couso Vázquez	NPFL	Concha Couso Vázquez
@@ -2184,7 +2713,10 @@ Conchi	NPFL	Conchi
 Concilio de Trento	NPMS	Concilio de Trento
 Condoleezza Rice	NPFL	Condoleezza Rice
 Condoleezza	NPFL	Condoleezza
+Condro-san 	NPEL	Condro-san
+Condrosulf	NPEL	Condrosulf
 Conducción Segura	NPEL	Conducción Segura
+Conductasa	NPEL	Conductasa
 Confapa-Galicia	NPEL	Confapa-Galicia
 Confapa	NPEL	Confapa
 Confederación de Empresarios de Pontevedra	NPFS	Confederación de Empresarios de Pontevedra
@@ -2197,6 +2729,7 @@ Confederación Intersindical Galega	NPFS	Confederación Intersindical Galega
 Confederación Nacional de Autoescolas	NPFS	Confederación Nacional de Autoescolas
 Confederation of North, Central American and Caribbean Association Football	NPFS	Confederation of North, Central American and Caribbean Association Football
 Conferencia de Madrid	NPFS	Conferencia de Madrid
+Confobos	NPEL	Confobos
 Congelados Coronado	NPEL	Congelados Coronado
 Congregación de Jesús	NPEL	Congregación de Jesús
 Congregación de Jesús	NPFS	Congregación de Jesús
@@ -2273,6 +2806,8 @@ Constitucional	NPMS	Constitucional
 Constitución	NPFS	Constitución
 Consum	NPEL	Consum
 Contigo	NPMS	Contigo
+Controlvas	NPEL	Controlvas
+Contumax	NPEL	Contumax
 Convención de Xenebra	NPFS	Convención de Xenebra
 Convergencia i Unió	NPEL	Convergencia i Unió
 Conway	NPEL	Conway
@@ -2284,16 +2819,25 @@ Cooperativa	NPFS	Cooperativa
 Coordinación e Avaliación Asistencial	NPEL	Coordinación e Avaliación Asistencial
 Coordinación	NPEL	Coordinación
 Copa de Europa	NPFS	Copa de Europa
+Copaxone	NPEL	Copaxone
+Copegus	NPEL	Copegus
 Copena	NPEL	Copena
 Copenhagen Dreams	NPEL	Copenhagen Dreams
 Copernicus	NPEL	Copernicus
+Copinal	NPEL	Copinal
 Coppini	NPEL	Coppini
 Coppola	NPEL	Coppola
+Coralen	NPEL	Coralen
+Cordiplast 	NPEL	Cordiplast
 Córdoba	NPEL	Córdoba
 Cordovani	NPEL	Cordovani
 Córdova	NPEL	Córdova
 Coremain	NPEL	Coremain
+Co-renitec	NPEL	Co-renitec
+Coricidin 	NPEL	Coricidin
 Coridón	NPEL	Coridón
+Corifina	NPEL	Corifina
+Corilisina	NPEL	Corilisina
 Corín Tellado	NPFL	Corín Tellado
 Corina Porro	NPFL	Corina Porro
 Corina	NPFL	Corina
@@ -2305,29 +2849,46 @@ Cornelia	NPFL	Cornelia
 Cornell University Medical	NPFS	Cornell University Medical
 Cornellà	NPEL	Cornellà
 Cornell	NPEL	Cornell
+Corolater 	NPEL	Corolater
+Coronur	NPEL	Coronur
+Coropres	NPEL	Coropres
+Corpea	NPEL	Corpea
 Corpo de Xestión	NPMS	Corpo de Xestión
 Corpo Nacional de Policía	NPMS	Corpo Nacional de Policía
+Corprilor	NPEL	Corprilor
 Corral	NPEL	Corral
 Correlingua	NPEL	Correlingua
 Correos	NPMP	Correos
 Cortázar	NPEL	Cortázar
 Corte Suprema	NPFS	Corte Suprema
 Cortegada	NPEL	Cortegada
+Cortenema	NPEL	Cortenema
 Cortes Xerais	NPFP	Cortes Xerais
+Cortiespec	NPEL	Cortiespec
+Cortisdin	NPEL	Cortisdin
+Cortison	NPEL	Cortison
 Coruña	NPEL	Coruña
 Cosculluela	NPEL	Cosculluela
+Coslan	NPEL	Coslan
 Cosmers Kemboi	NPML	Cosmers Kemboi
+Cosopt	NPEL	Cosopt
 Cospedal	NPEL	Cospedal
 Cospeito	NPEL	Cospeito
 Costa de a Morte	NPFS	Costa de a Morte
 Cotogrande	NPEL	Cotogrande
 Couceiro	NPEL	Couceiro
+Couldina 	NPEL	Couldina
+Coulergin	NPEL	Coulergin
 COU	NPEL	Curso de Orientación Universitaria
 Covadonga Berdiñas	NPFL	Covadonga Berdiñas
 Covadonga	NPEL	Covadonga
+Co-vals	NPEL	Co-vals
 Covelo	NPEL	Covelo
+Coversyl	NPEL	Coversyl
+Covitasa	NPEL	Covitasa
 Coward	NPEL	Coward
 Cox	NPEL	Cox
+Cozaar	NPEL	Cozaar
 Craig Newmark	NPML	Craig Newmark
 Craig Patterson	NPML	Craig Patterson
 Craig Werner	NPML	Craig Werner
@@ -2336,10 +2897,18 @@ Craviotto	NPEL	Craviotto
 Crawlersout	NPEL	Crawlersout
 Craxi	NPEL	Craxi
 Crebinsky	NPEL	Crebinsky
+Cremsol	NPEL	Cremsol
 Creonte	NPML	Creonte
 Crespo	NPMS	Crespo
 Creus	NPEL	Creus
+Creutzfeld-Jakob	NPEL	Creutzfeld-Jakob
+Creutzfeld	NPEL	Creutzfeld
+Crinoren	NPEL	Crinoren
+Crinoretic	NPEL	Crinoretic
+Crislaxo	NPEL	Crislaxo
 Cris	NPFS	Cris
+Crisomet	NPEL	Crisomet
+Cristalmina	NPEL	Cristalmina
 Cristina García Orcoyen	NPFL	Cristina García Orcoyen
 Cristina Gutiérrez	NPFL	Cristina Gutiérrez
 Cristina Serrano Díez	NPFS	Cristina Serrano Díez
@@ -2349,8 +2918,16 @@ Cristi	NPFL	Cristi
 Cristóbal	NPML	Cristóbal
 Cristo	NPML	Cristo
 Crivillé	NPEL	Crivillé
+Crixivan	NPEL	Crixivan
 Crnac	NPEL	Crnac
 Croacia	NPEL	Croacia
+Crohn	NPEL	Crohn
+Cromatombic	NPEL	Cromatombic
+Cromoglicato	NPEL	Cromoglicato
+Cronodine	NPEL	Cronodine
+Cronol	NPEL	Cronol
+Cronwall	NPEL	Cronwall
+Crosti	NPEL	Crosti
 Cruceiro do do Galo	NPEL	Cruceiro do do Galo
 Crucero del Gallo	NPEL	Crucero del Gallo
 Cruces	NPEL	Cruces
@@ -2364,6 +2941,7 @@ Cuace Arriba	NPEL	Cuace Arriba
 Cualedro	NPEL	Cualedro
 Cuartel Supremo Aliado	NPMS	Cuartel Supremo Aliado
 Cuarto de o Comandante	NPEL	Cuarto de o Comandante
+Cuatroderm 	NPEL	Cuatroderm
 Cuba	NPEL	Cuba
 Cuco Pérez	NPML	Cuco Pérez
 Cudeiro	NPEL	Cudeiro
@@ -2379,8 +2957,10 @@ Culleredo	NPEL	Culleredo
 Cultura	NPEL	Cultura
 Cumberbatch	NPEL	Cumberbatch
 Cumio de Berlín	NPMS	Cumio de Berlín
+Cunesin	NPEL	Cunesin
 Cunqueiro	NPEL	Cunqueiro
 Cuntis	NPEL	Cuntis
+Cupripen 	NPEL	Cupripen
 Curdistán	NPEL	Curdistán
 Curiel	NPEL	Curiel
 Curran	NPEL	Curran
@@ -2391,13 +2971,38 @@ Curros Enríquez	NPEL	Curros Enríquez
 Curros Enríquez	NPMS	Curros Enríquez
 Curros	NPEL	Curros
 Curtis	NPEL	Curtis
+Cushing	NPEL	Cushing
+Cusicrom 	NPEL	Cusicrom
+Cusimolol	NPEL	Cusimolol
+Cutanit	NPEL	Cutanit
 CV 1D Cumial-Salgueiros	NPEL	CV 1D Cumial-Salgueiros
+Cyater	NPEL	Cyater
+Cycladol	NPEL	Cycladol
+Cymevene	NPEL	Cymevene
+Cystagon	NPEL	Cystagon
+Cytotec	NPEL	Cytotec
 D. Beaumont	NPEL	D. Beaumont
 D3	NPMS	D3
+Dabonal	NPEL	Dabonal
+Dacortin	NPEL	Dacortin
+Dacrolux	NPEL	Dacrolux
 Dadik	NPML	Dadik
+Daflon	NPEL	Daflon
+Dagan	NPEL	Dagan
+Daivobet	NPEL	Daivobet
+Daivonex	NPEL	Daivonex
+Daktarin	NPEL	Daktarin
+Dalacin	NPEL	Dalacin
+Dalamon	NPEL	Dalamon
+Dalgen	NPEL	Dalgen
+Dalparan	NPEL	Dalparan
+Dalsy	NPEL	Dalsy
 Damián Villalaín	NPML	Damián Villalaín
 Damián	NPML	Damián
 Dan Johnson	NPMS	Dan Johnson
+Danatrol	NPEL	Danatrol
+Dandy	NPEL	Dandy
+Dandy-Walker	NPEL	Dandy-Walker
 Daniel Hermida	NPMS	Daniel Hermida
 Daniela	NPFS	Daniela
 Daniele Da Volterra	NPML	Daniele Da Volterra
@@ -2405,16 +3010,23 @@ Daniel	NPML	Daniel
 Daniel	NPMS	Daniel
 Danilo Manera	NPML	Danilo Manera
 Danilo Martuccelli	NPML	Danilo Martuccelli
+Danilon	NPEL	Danilon
 Dani	NPMS	Dani
 Dan	NPML	Dan
 Dan	NPMS	Dan
 Dá	NPFS	Dá
+Daonil	NPEL	Daonil
+Daraprim	NPEL	Daraprim
 Dario Fo	NPML	Dario Fo
 Darío Villanueva	NPML	Darío Villanueva
 Dario Xohán Cabana	NPML	Dario Xohán Cabana
 Darío	NPML	Darío
 Darío	NPMS	Darío
+Darrach	NPEL	Darrach
+Darstin	NPEL	Darstin
 Das ausencias I	NPEL	Das ausencias I
+Dastosin	NPEL	Dastosin
+Datolan	NPEL	Datolan
 David Boies	NPML	David Boies
 David Ferrer Valeiras	NPML	David Ferrer Valeiras
 David Leavy	NPML	David Leavy
@@ -2424,13 +3036,21 @@ David Trimble	NPML	David Trimble
 David	NPML	David
 David	NPMS	David
 Dávila	NPMS	Dávila
+Dayamineral	NPEL	Dayamineral
 De la Cerda	NPEL	De la Cerda
 De Palacio	NPEL	De Palacio
 DEA	NPFS	Drug Enforcement Administration
 DEA	NPMS	Diploma de Estudios Avanzados
+Deanxit	NPEL	Deanxit
 Debate sobre o Estado de a Nación	NPMS	Debate sobre o Estado de a Nación
+Decapeptil	NPEL	Decapeptil
+Decasona	NPEL	Decasona
 Decena de a Música	NPFS	Decena de a Música
+Decentan	NPEL	Decentan
+Decipar	NPEL	Decipar
 Declaración de Canarias	NPFS	Declaración de Canarias
+Decloban	NPEL	Decloban
+Decresco	NPEL	Decresco
 Decreto 12/1994	NPMS	Decreto 12/1994
 Decreto 42/1998	NPMS	Decreto 42/1998
 Decreto 89/1997	NPMS	Decreto 89/1997
@@ -2438,6 +3058,8 @@ Dédalo	NPEL	Dédalo
 Defensa Civil	NPFS	Defensa Civil
 Defensa	NPEL	Defensa
 Defensor de el Pueblo	NPMS	Defensor de el Pueblo
+Deflazacort 	NPEL	Deflazacort
+Deflox	NPEL	Deflox
 Delaware	NPEL	Delaware
 Delegación Provincial de a Consellería de Educación	NPFS	Delegación Provincial de a Consellería de Educación
 Delegación Provincial	NPFS	Delegación Provincial
@@ -2445,12 +3067,22 @@ Delegación	NPFS	Delegación
 Delia	NPFL	Delia
 Delio	NPML	Delio
 Delmiro	NPML	Delmiro
+Delorme	NPEL	Delorme
 Delta	NPEL	Delta
 Demetrio	NPML	Demetrio
 Democracia Galega	NPEL	Democracia Galega
 Demonte	NPMS	Demonte
 Demoscopia	NPEL	Demoscopia
+Demotest	NPEL	Demotest
+Denaxpren	NPEL	Denaxpren
 Denís	NPML	Denís
+Densical	NPEL	Densical
+Dentomicin	NPEL	Dentomicin
+Denubil	NPEL	Denubil
+Denulcer	NPEL	Denulcer
+Denvar	NPEL	Denvar
+Depakine 	NPEL	Depakine
+Depamide	NPEL	Depamide
 Departamento de Actividades e Servicios de Cruz Vermella Española	NPMS	Departamento de Actividades e Servicios de Cruz Vermella Española
 Departamento de Dereito Romano	NPEL	Departamento de Dereito Romano
 Departamento de Literatura Española	NPMS	Departamento de Literatura Española
@@ -2458,22 +3090,50 @@ Departamento de Microbioloxía e Parasitoloxía	NPMS	Departamento de Microbiolox
 Departamento de Xustiza	NPMS	Departamento de Xustiza
 Departamento Electoral	NPMS	Departamento Electoral
 Departamento Xurídico de o Ministerio español de Exterior	NPMS	Departamento Xurídico de o Ministerio español de Exterior
+Deprancol	NPEL	Deprancol
+Deprax	NPEL	Deprax
+Deprelio	NPEL	Deprelio
 Deputación de a Coruña	NPFS	Deputación de a Coruña
 Deputación de Araba	NPFS	Deputación de Araba
 Deputación de Cáceres	NPFS	Deputación de Cáceres
 Deputación Provincial de Ourense	NPFS	Deputación Provincial de Ourense
 Deputación Provincial	NPFS	Deputación Provincial
 Deputación	NPFS	Deputación
+Deratin	NPEL	Deratin
+Dercutane	NPEL	Dercutane
 Derecho	NPEL	Derecho
 Dereito	NPEL	Dereito
 Dereitos Humanos	NPMP	Dereitos Humanos
 Derek van der Bogaerde	NPML	Derek van der Bogaerde
+Dereme	NPEL	Dereme
+Deripil	NPEL	Deripil
+Dermaren	NPEL	Dermaren
+Dermatrans	NPEL	Dermatrans
+Dermestril	NPEL	Dermestril
+Dermisone 	NPEL	Dermisone
+Dermofix	NPEL	Dermofix
+Dermomycose	NPEL	Dermomycose
+Dermosa 	NPEL	Dermosa
+Dermovagisil	NPEL	Dermovagisil
 Derry	NPEL	Derry
+Dertrase	NPEL	Dertrase
+Desarrol	NPEL	Desarrol
+Desconex	NPEL	Desconex
+Desenfriol	NPEL	Desenfriol
 Desiderio	NPML	Desiderio
+Desmopresina	NPEL	Desmopresina
 Despedida de solteiro	NPEL	Despedida de solteiro
+Detraine	NPEL	Detraine
 Detroit	NPEL	Detroit
+Detrusitol	NPEL	Detrusitol
 Deus	NPML	Deus
 Deutsches Institut für Normung	NPMS	Deutsches Institut für Normung
+Devincal	NPEL	Devincal
+Dexametasona	NPEL	Dexametasona
+Dexa	NPEL	Dexa
+Dexide	NPEL	Dexide
+Dexnon	NPEL	Dexnon
+Dezacor	NPEL	Dezacor
 Día de a Santa Cruz	NPMS	Día de a Santa Cruz
 Día de as Letras Galegas	NPEL	Día de as Letras Galegas
 Día de as Letras Galegas	NPMS	Día de as Letras Galegas
@@ -2482,13 +3142,20 @@ Día de o Traballo	NPMS	Día de o Traballo
 Día Internacional de o Traballador	NPMS	Día Internacional de o Traballador
 Día mundial sen tabaco	NPMS	Día mundial sen tabaco
 Día sen Televisión	NPMS	Día sen Televisión
+Diabinese	NPEL	Diabinese
+Diafusor	NPEL	Diafusor
 Diagnóstico	NPEL	Diagnóstico
 Diamantina	NPFL	Diamantina
 Diamantino	NPML	Diamantino
+Diamicron	NPEL	Diamicron
 Diana	NPFL	Diana
+Dianben	NPEL	Dianben
 Diario Oficial de Galicia	NPEL	Diario Oficial de Galicia
 Diario Oficial de Galicia	NPMS	Diario Oficial de Galicia
 Diario Oficial	NPEL	Diario Oficial
+Diastabol	NPEL	Diastabol
+Diatin	NPEL	Diatin
+Diatracin	NPEL	Diatracin
 Díaz Barreto	NPEL	Díaz Barreto
 Díaz Castañeiro	NPEL	Díaz Castañeiro
 Díaz Castro	NPEL	Díaz Castro
@@ -2508,8 +3175,15 @@ Díaz Porleir, Xohán	NPML	Díaz Porleir, Xohán
 Díaz Raña	NPEL	Díaz Raña
 Díaz Tezanos	NPEL	Díaz Tezanos
 Díaz Usabiaga	NPEL	Díaz Usabiaga
+Diazepam	NPEL	Diazepam
 Díaz	NPEL	Díaz
+Dibenyline	NPEL	Dibenyline
 Dick Bogarde	NPML	Dick Bogarde
+Diclamina	NPEL	Diclamina
+Dicloderm 	NPEL	Dicloderm
+Diclofenaco	NPEL	Diclofenaco
+Dicorvin	NPEL	Dicorvin
+Dicorynan	NPEL	Dicorynan
 Die Woche	NPEL	Die Woche
 Diego Bernal	NPML	Diego Bernal
 Diego Méndez	NPMS	Diego Méndez
@@ -2519,17 +3193,48 @@ Diego	NPML	Diego
 Diego	NPMS	Diego
 Diéguez Fernández, Xosé	NPML	Diéguez Fernández, Xosé
 Diéguez	NPEL	Diéguez
+Diemil 	NPEL	Diemil
+Diertine	NPEL	Diertine
 Dieste	NPEL	Dieste
+Dieulafoy	NPEL	Dieulafoy
 Díez Alegría	NPEL	Díez Alegría
 Díez Usabiaga	NPEL	Díez Usabiaga
 Díez	NPEL	Díez
 Díez	NPMS	Díez
+Difaterol	NPEL	Difaterol
+Differine	NPEL	Differine
+Diflucan	NPEL	Diflucan
+Dif	NPEL	Dif
+Difosfen	NPEL	Difosfen
+Difur	NPEL	Difur
+Digaril	NPEL	Digaril
+Digestomen 	NPEL	Digestomen
+Digoxina 	NPEL	Digoxina
+Digton	NPEL	Digton
+Dihydergot	NPEL	Dihydergot
+Dilabar	NPEL	Dilabar
+Dilaclan	NPEL	Dilaclan
+Dilcor	NPEL	Dilcor
+Diltiazem	NPEL	Diltiazem
+Diltiwas	NPEL	Diltiwas
+Diltix	NPEL	Diltix
+Dilutol	NPEL	Dilutol
 Dimitris Reppas	NPML	Dimitris Reppas
 Dinamarca	NPEL	Dinamarca
+Dinamogen	NPEL	Dinamogen
+Dinisor	NPEL	Dinisor
 Dinkic	NPEL	Dinkic
 DIN	NPMS	Deutsches Institut für Normung
+Dinobroxol	NPEL	Dinobroxol
+Di	NPEL	Di
+Diopine	NPEL	Diopine
 Dios ke te crew	NPEL	Dios ke te crew
 Dios	NPMS	Dios
+Diotul	NPEL	Diotul
+Diovan	NPEL	Diovan
+Diproderm	NPEL	Diproderm
+Diprogenta	NPEL	Diprogenta
+Diprosalic	NPEL	Diprosalic
 Dirección Xeral de Estructuras Pesqueiras	NPFS	Dirección Xeral de Estructuras Pesqueiras
 Dirección Xeral de Persoal	NPFS	Dirección Xeral de Persoal
 Dirección Xeral de Tráfico	NPFS	Dirección Xeral de Tráfico
@@ -2537,7 +3242,21 @@ Dirección Xeral de Turismo	NPFS	Dirección Xeral de Turismo
 Dirección Xeral XIV de Pesca de a UE	NPFS	Dirección Xeral XIV de Pesca de a UE
 Direction de la Surveillance du Territoire	NPMS	Direction de la Surveillance du Territoire
 Dirk Bogarde	NPML	Dirk Bogarde
+Disdolen	NPEL	Disdolen
+Disgren 	NPEL	Disgren
+Disnal	NPEL	Disnal
+Disneumon	NPEL	Disneumon
+Disofrol	NPEL	Disofrol
+Disperbarium	NPEL	Disperbarium
+Distaxid	NPEL	Distaxid
+Distensan	NPEL	Distensan
+Distraneurine	NPEL	Distraneurine
 Distro e de o outro	NPEL	Distro e de o outro
+Ditenside	NPEL	Ditenside
+Ditensor	NPEL	Ditensor
+Ditropan	NPEL	Ditropan
+Diurex	NPEL	Diurex
+Diuzine	NPEL	Diuzine
 Divinas Palabras	NPEL	Divinas Palabras
 División Territorial de Caixa Galicia	NPFS	División Territorial de Caixa Galicia
 Djakovica	NPEL	Djakovica
@@ -2546,16 +3265,43 @@ DNA	NCMP	deoxyribonucleic acid
 DNA	NCMS	deoxyribonucleic acid
 DNI	NCMP	documento nacional de identidad
 DNI	NCMS	documento nacional de identidad
+Doblexan	NPEL	Doblexan
+Dobriciclin	NPEL	Dobriciclin
+Dobupal	NPEL	Dobupal
 Docampo	NPEL	Docampo
+Doclis	NPEL	Doclis
+Doctofril	NPEL	Doctofril
+Doctril	NPEL	Doctril
 Dodro	NPEL	Dodro
 Doenza máxica	NPEL	Doenza máxica
 Doenza máxica	NPFS	Doenza máxica
+Dogmatil	NPEL	Dogmatil
+Dolak	NPEL	Dolak
+Dolalgial	NPEL	Dolalgial
+Dolantina	NPEL	Dolantina
+Dolbufen	NPEL	Dolbufen
 Dolce&Gabbana	NPEL	Dolce&Gabbanna
+Dolcopin	NPEL	Dolcopin
+Dolgesic	NPEL	Dolgesic
+Dolintol	NPEL	Dolintol
+Dolmen	NPEL	Dolmen
+Dolmitin	NPEL	Dolmitin
+Dolodens	NPEL	Dolodens
+Dolodol	NPEL	Dolodol
+Dolofarma 	NPEL	Dolofarma
+Dolokey 	NPEL	Dolokey
+Dolomedil	NPEL	Dolomedil
+Dolo-nervobion	NPEL	Dolo-nervobion
 Dolor mágico	NPEL	Dolor mágico
 Dolor mágico	NPMS	Dolor mágico
+Dolorac	NPEL	Dolorac
 Dolores Rodríguez Núñez	NPFL	Dolores Rodríguez Núñez
 Dolores Villarino	NPFL	Dolores Villarino
 Dolores	NPFS	Dolores
+Dolostop	NPEL	Dolostop
+Dolotren	NPEL	Dolotren
+Dolo-voltaren 	NPEL	Dolo-voltaren
+Dolquine	NPEL	Dolquine
 Dominga	NPFL	Dominga
 Domingo Docampo	NPML	Domingo Docampo
 Domínguez Carmona, Manuel	NPML	Domínguez Carmona, Manuel
@@ -2566,6 +3312,7 @@ Domínguez	NPEL	Domínguez
 Dominique Strauss-Kahn	NPML	Dominique Strauss-Kahn
 Dominó de o Camiño de Santiago	NPMS	Dominó de o Camiño de Santiago
 Dominó de o Camiño	NPMS	Dominó de o Camiño
+Domperidona	NPEL	Domperidona
 Donald Dewar	NPML	Donald Dewar
 Donald Pleasance	NPML	Donald Pleasance
 Donald Rumsfeld	NPML	Donald Rumsfeld
@@ -2574,35 +3321,78 @@ Donald Trump	NPML	Donald Trump
 Donatiño	NPML	Donatiño
 Donato	NPML	Donato
 Doncela guerreira	NPFS	Doncela guerreira
+Doneka	NPEL	Doneka
+Donix	NPEL	Donix
 Doñana	NPEL	Doñana
+Dopergin	NPEL	Dopergin
+Doppler	NPEL	Doppler
 Dores	NPFL	Dores
+Doriman	NPEL	Doriman
 Dorinda	NPFL	Dorinda
+Dorival	NPEL	Dorival
+Dorken	NPEL	Dorken
+Dormicum	NPEL	Dormicum
+Dormidina	NPEL	Dormidina
+Dormodor 	NPEL	Dormodor
 Dorotea	NPFL	Dorotea
 Dorotea	NPFS	Dorotea
+Dosil 	NPEL	Dosil
 Dosinda	NPFL	Dosinda
 Dositeo Rodríguez	NPML	Dositeo Rodríguez
+Dostinex 	NPEL	Dostinex
 Dostoievski	NPML	Dostoievski
 Douglas Hofstadter	NPMS	Douglas Hofstadter
+Douglas	NPEL	Douglas
 Doutor TNT	NPMS	Doutor TNT
 Downing Street	NPEL	Downing Street
+Down	NPEL	Down
+Doxatensa	NPEL	Doxatensa
+Doxazosina	NPEL	Doxazosina
+Doxiciclina	NPEL	Doxiciclina
+Doxiclat	NPEL	Doxiclat
+Doxicrisol	NPEL	Doxicrisol
+Doxinate	NPEL	Doxinate
+Doxiten	NPEL	Doxiten
+Doxium 	NPEL	Doxium
 Dragana Dimic	NPFL	Dragana Dimic
+Dressler	NPEL	Dressler
+Droal	NPEL	Droal
 Drug Enforcement Administration	NPFS	Drug Enforcement Administration
+Drummond	NPEL	Drummond
 DST	NPMS	Direction de la Surveillance du Territoire
 Duarte	NPML	Duarte
 Dublín	NPEL	Dublín
+Dukes	NPEL	Dukes
+Dulco	NPEL	Dulco
 Dulutz	NPEL	Dulutz
 Duma	NPFS	Duma
 Dumia	NPFL	Dumia
+Dumirox	NPEL	Dumirox
+Duna	NPEL	Duna
+Duonasa	NPEL	Duonasa
+Duorol	NPEL	Duorol
+Duphalac	NPEL	Duphalac
+Dupuytren	NPEL	Dupuytren
+Duracef	NPEL	Duracef
 Durango	NPEL	Durango
+Durogesic	NPEL	Durogesic
 Durres	NPEL	Durres
+Durvitan	NPEL	Durvitan
 Dusan Matkovic	NPML	Dusan Matkovic
+Duspatalin	NPEL	Duspatalin
 Dusseldorf	NPEL	Dusseldorf
 DVD	NCMP	digital versatil disc
 DVD	NCMP	digital video disc
 DVD	NCMS	digital versatil disc
 DVD	NCMS	digital video disc
+Dysport	NPEL	Dysport
 E. Wilson	NPEL	E. Wilson
 EA	NPMS	Eusko Alkartasuna
+Ebastel	NPEL	Ebastel
+Ebernet	NPEL	Ebernet
+Ebixa	NPEL	Ebixa
+Ecadiu	NPEL	Ecadiu
+Ecazide 	NPEL	Ecazide
 Ecequiel	NPML	Ecequiel
 Echávarri	NPEL	Echávarri
 Echegaray	NPEL	Echegaray
@@ -2612,15 +3402,19 @@ Ecoloxistas en Acción	NPEL	Ecoloxistas en Acción
 Economía	NPEL	Economía
 Económicas	NPEL	Económicas
 Ecovidro	NPEL	Ecovidro
+Ectren	NPEL	Ectren
 Ecuador	NPEL	Ecuador
 Eddy Merckx	NPML	Eddy Merckx
 Edelmiro	NPML	Edelmiro
 Edelmiro	NPMS	Edelmiro
+Edemox	NPEL	Edemox
 Edgar Morin	NPML	Edgar Morin
+Edifaringen	NPEL	Edifaringen
 Edimburgo	NPEL	Edimburgo
 Edite	NPFL	Edite
 Editorial Galaxia	NPEL	Editorial Galaxia
 Edmundo	NPML	Edmundo
+Edta	NPEL	Edta
 Eduardo Serra	NPML	Eduardo Serra
 Eduardo Zaplana	NPML	Eduardo Zaplana
 Eduardo	NPML	Eduardo
@@ -2630,9 +3424,16 @@ Educación e Cultura	NPEL	Educación e Cultura
 Educación e Ordenación Universitaria	NPEL	Educación e Ordenación Universitaria
 Educación Infantil	NPEL	Educación Infantil
 Educación	NPEL	Educación
+Eduprim	NPEL	Eduprim
+Edwards	NPEL	Edwards
 Efe	NPEL	Efe
+Efensol	NPEL	Efensol
+Efferalgan	NPEL	Efferalgan
+Efortil 	NPEL	Efortil
+Efudix	NPEL	Efudix
 Egibar	NPEL	Egibar
 EH	NPMS	Euskal Herritarrok
+Ehrlich	NPEL	Ehrlich
 Ehud Barak	NPEL	Ehud Barak
 Ehud Barak	NPML	Ehud Barak
 Einstein	NPEL	Einstein
@@ -2663,20 +3464,29 @@ El Pulpo	NPEL	El Pulpo
 El rincón del Sarela	NPEL	El rincón del Sarela
 Eladio Capón	NPML	Eladio Capón
 Eladio	NPML	Eladio
+Elcatonina	NPEL	Elcatonina
 Eleazar	NPML	Eleazar
+Elebloc	NPEL	Elebloc
 Elena Pisonera	NPFL	Elena Pisonera
 Elena	NPFL	Elena
 Elena	NPFS	Elena
 Ele	NPFS	Ele
 Eleuterio	NPML	Eleuterio
+Elgam 	NPEL	Elgam
 Elías	NPML	Elías
+Elica	NPEL	Elica
+Elidel	NPEL	Elidel
 Elisa Fernández de la Vega	NPFL	Elisa Fernández de la Vega
 Elisa	NPFL	Elisa
 Elisa	NPFS	Elisa
 Eliseo	NPML	Eliseo
 Eliseu	NPML	Eliseu
+Elixifilin	NPEL	Elixifilin
 Elliot	NPEL	Elliot
+Elmiron	NPEL	Elmiron
+Elocom	NPEL	Elocom
 Eloi	NPML	Eloi
+Elorgan	NPEL	Elorgan
 Eloy Cambón	NPML	Eloy Cambón
 Eloy Domínguez Serén	NPML	Eloy Domínguez Serén
 Eloy Domínguez	NPML	Eloy Domínguez
@@ -2694,8 +3504,12 @@ Eltsin	NPFS	Eltsin
 Elviña	NPEL	Elviña
 Elvira	NPFL	Elvira
 Elvis	NPML	Elvis
+Emadine	NPEL	Emadine
 Embaixada de Australia	NPFS	Embaixada de Australia
 Embaixada	NPFS	Embaixada
+Emconcor	NPEL	Emconcor
+Emcoretic	NPEL	Emcoretic
+Emeproton	NPEL	Emeproton
 Emigración a a fin de o mundo	NPEL	Emigración a a fin de o mundo
 Emiliano Navajas	NPML	Emiliano Navajas
 Emilia	NPFL	Emilia
@@ -2705,17 +3519,30 @@ Emilio Cagio	NPML	Emilio Cagio
 Emilio Pérez Touriño	NPML	Emilio Pérez Touriño
 Emilio	NPML	Emilio
 Emilio	NPMS	Emilio
+Emla	NPEL	Emla
+Emovate	NPEL	Emovate
+Emportal 	NPEL	Emportal
 Emprego	NPEL	Emprego
 Empresa Nacional Bazán	NPFS	Empresa Nacional Bazán
 Empresa Nacional de Electricidad , SA	NPFS	Empresa Nacional de Electricidad , SA
 Empresariales	NPEL	Empresariales
 Empresas	NPEL	Empresas
+Emtriva	NPEL	Emtriva
+Emuliquen	NPEL	Emuliquen
 En clave de folk	NPEL	En clave de folk
+Enalapril	NPEL	Enalapril
+Enangel	NPEL	Enangel
+Enantyum	NPEL	Enantyum
+Enbrel	NPEL	Enbrel
 Encarna Otero	NPFL	Encarna Otero
 Encarnación	NPFS	Encarnación
 Encarna	NPFS	Encarna
 Endesa	NPEL	Endesa
+Endomina	NPEL	Endomina
+Eneas	NPEL	Eneas
+Enema	NPEL	Enema
 Engels	NPEL	Engels
+Enit	NPEL	Enit
 Enmoga	NPFS	Enmoga
 Enoloxía	NPEL	Enoloxía
 E	NPMS	E
@@ -2733,18 +3560,33 @@ Enríquez Rodríguez	NPEL	Enríquez Rodríguez
 Enríquez	NPEL	Enríquez
 Enseñanza Secundaria Obligatoria	NPMS	Enseñanza Secundaria Obligatoria
 Ensino Secundario Obrigatorio	NPEL	Ensino Secundario Obrigatorio
+Entocord	NPEL	Entocord
 Entrerrúas	NPEL	Entrerrúas
 Enud Gol	NPML	Enud Gol
 Enud Golp	NPML	Enud Golp
 Enxeñería Química	NPEL	Enxeñería Química
+Eosina	NPEL	Eosina
+Epanutin	NPEL	Epanutin
+Ephynal	NPEL	Ephynal
+Epilantin 	NPEL	Epilantin
+Epinitril	NPEL	Epinitril
 Episodio 1 . A ameaza fantasma	NPEL	Episodio 1 . A ameaza fantasma
 Episodio 1	NPEL	Episodio 1
+Epivir	NPEL	Epivir
+Epopen	NPEL	Epopen
+Eprex 	NPEL	Eprex
+Epstein-Barr	NPEL	Epstein-Barr
+Epstein	NPEL	Epstein
+Equin	NPEL	Equin
 Equipamento	NPEL	Equipamento
 Equipo A	NPMS	Equipo A
 Erasmus	NPEL	Erasmus
 Erdmann	NPEL	Erdmann
+Ergamisol	NPEL	Ergamisol
 Erias	NPEL	Erias
 Erik Asbrink	NPML	Erik Asbrink
+Eritrogobens	NPEL	Eritrogobens
+Eritromicina	NPEL	Eritromicina
 Ermesinda	NPFL	Ermesinda
 Ernestina Marelli	NPFL	Ernestina Marelli
 Ernesto Augusto de Hannover	NPML	Ernesto Augusto de Hannover
@@ -2752,10 +3594,13 @@ Ernesto de Aguiar	NPML	Ernesto de Aguiar
 Ernesto Gómez	NPML	Ernesto Gómez
 Ernesto	NPML	Ernesto
 Ernesto	NPMS	Ernesto
+Ernodasa 	NPEL	Ernodasa
 Ero	NPML	Ero
 Eros Ramazzotti	NPML	Eros Ramazzotti
 Eroski	NPEL	Eroski
 Ertzaintza	NPFS	Ertzaintza
+Esberiven 	NPEL	Esberiven
+Esclebin	NPEL	Esclebin
 Escobar	NPEL	Escobar
 Escocia	NPEL	Escocia
 Escola de Artes e Imaxe	NPFS	Escola de Artes e Imaxe
@@ -2766,12 +3611,19 @@ Escola Superior de Hostelería	NPFS	Escola Superior de Hostelería
 Escola Técnica Superior de Arquitectura	NPFS	Escola Técnica Superior de Arquitectura
 Escola Universitaria de Arquitectos Técnicos	NPFS	Escola Universitaria de Arquitectos Técnicos
 Escravitude	NPFL	Escravitude
+Esertia	NPEL	Esertia
+Esidrex	NPEL	Esidrex
+Eskazine	NPEL	Eskazine
+Eskazole	NPEL	Eskazole
 Esmelle	NPEL	Esmelle
 ESO	NPMS	Enseñanza Secundaria Obligatoria
 España	NPEL	España
+Espeden	NPEL	Espeden
 Espe	NPFS	Espe
 Espí Martínez	NPEL	Espí Martínez
+Espidifen	NPEL	Espidifen
 Espí	NPEL	Espí
+Espironolactona	NPEL	Espironolactona
 Esquerda de Galicia	NPEL	Esquerda de Galicia
 Estaçãou	NPEL	Estaçãou
 Estación Depuradora de San Vicente de o Mar	NPFS	Estación Depuradora de San Vicente de o Mar
@@ -2781,10 +3633,12 @@ Estado de Israel	NPMS	Estado de Israel
 Estado Maior de a Armada	NPMS	Estado Maior de a Armada
 Estado	NPMS	Estado
 Estados Unidos	NPEL	Estados Unidos
+Estalis	NPEL	Estalis
 Estanislao	NPML	Estanislao
 Estatuto de Gernika	NPMS	Estatuto de Gernika
 Esteban Beltrán	NPML	Esteban Beltrán
 Esteban	NPML	Esteban
+Estecina	NPEL	Estecina
 Estefanía	NPFL	Estefanía
 Esteiro	NPEL	Esteiro
 Ester	NPFL	Ester
@@ -2793,20 +3647,41 @@ Estévez	NPMS	Estévez
 Estevo	NPML	Estevo
 Esther Arcas	NPFL	Esther Arcas
 Esther	NPFL	Esther
+Estilsona	NPEL	Estilsona
+Estomil	NPEL	Estomil
+Estracomb	NPEL	Estracomb
+Estracyt	NPEL	Estracyt
+Estraderm	NPEL	Estraderm
+Estradiol 	NPEL	Estradiol
+Estradot	NPEL	Estradot
 Estrasburgo	NPEL	Estrasburgo
 Estrela	NPFL	Estrela
 Estrella Rodríguez	NPFL	Estrella Rodríguez
 Estrella	NPFS	Estrella
 Estremadura	NPEL	Estremadura
+Estreptomicina	NPEL	Estreptomicina
+Estroffik	NPEL	Estroffik
+Etalpha	NPEL	Etalpha
 ETA	NPMS	Euskadi Ta Askatasuna
 Etelvina	NPFL	Etelvina
 Etelvino	NPML	Etelvino
 Etiopía	NPEL	Etiopía
+Etoposido	NPEL	Etoposido
+Etosuximida	NPEL	Etosuximida
+Etumina	NPEL	Etumina
 Eugenia	NPFS	Eugenia
 Eugenio Riobó	NPML	Eugenio Riobó
+Euglucon	NPEL	Euglucon
 Eulalia	NPFL	Eulalia
 Eulalia	NPFS	Eulalia
+Eulexin 	NPEL	Eulexin
+Eulitop	NPEL	Eulitop
 Euloxio	NPML	Euloxio
+Eupeclanic	NPEL	Eupeclanic
+Eupen	NPEL	Eupen
+Eupnol	NPEL	Eupnol
+Euradal 	NPEL	Euradal
+Euraxil	NPEL	Euraxil
 Euro Disney	NPEL	Euro Disney
 Eurocámara	NPFS	Eurocámara
 Euro-Efecto 2000	NPEL	Euro-Efecto 2000
@@ -2824,28 +3699,44 @@ Euskal Herria	NPEL	Euskal Herria
 Euskal Herría	NPEL	Euskal Herría
 Euskal Herritarrok	NPEL	Euskal Herritarrok
 Euskal Herritarrok	NPMS	Euskal Herritarrok
+Euskin	NPEL	Euskin
 Eusko Alkartasuna	NPMS	Eusko Alkartasuna
+Eustaquio	NPEL	Eustaquio
 Eutimio Arias	NPML	Eutimio Arias
+Eutirox	NPEL	Eutirox
 Euxenia	NPFL	Euxenia
 Euxenio	NPML	Euxenio
 Eva María	NPFL	Eva María
+Evacuante	NPEL	Evacuante
+Evacuol	NPEL	Evacuol
 Eva	NPFL	Eva
 Eva	NPFS	Eva
 Evans Mayoyo	NPML	Evans Mayoyo
 Evaristo	NPML	Evaristo
 Everett	NPMS	Everett
 Evgueni Primakov	NPML	Evgueni Primakov
+Eviantrina	NPEL	Eviantrina
+Evista	NPEL	Evista
+Evitex	NPEL	Evitex
+Evopad	NPEL	Evopad
+ex-Checoslovaquia	NPFS	ex-Checoslovaquia
 Executiva Federal	NPFS	Executiva Federal
 Executiva	NPFS	Executiva
 Executivo	NPMS	Executivo
+Exelon	NPEL	Exelon
 Exército de Liberación de Kósovo	NPMS	Exército de Liberación de Kósovo
 Exército de o Aire	NPMS	Exército de o Aire
 Exército de o Sur de o Líbano	NPMS	Exército de o Sur de o Líbano
 Exército Republicano Irlandés	NPMS	Exército Republicano Irlandés
 Exército	NPMS	Exército
 Exipto	NPEL	Exipto
+ex-Iugoslavia	NPFS	ex-Iugoslavia
+Exocin	NPEL	Exocin
 Explorer	NPMS	Explorer
 Exteriores	NPEL	Exteriores
+Extraplus	NPEL	Extraplus
+Extur	NPEL	Extur
+Ezetrol	NPEL	Ezetrol
 Ezra Furman	NPML	Ezra Furman
 Ezra Moreno	NPML	Ezra Moreno
 Ezra Pound	NPML	Ezra Pound
@@ -2856,6 +3747,7 @@ Fabiola Olivieri	NPFL	Fabiola Olivieri
 Fabiola Sotelo Blanco	NPFL	Fabiola Sotelo Blanco
 Fabiola Sotelo	NPFL	Fabiola Sotelo
 Fábrica de Tabacos	NPFS	Fábrica de Tabacos
+Fabroven 	NPEL	Fabroven
 Facebook	NPEL	Facebook
 Facenda	NPEL	Facenda
 Facenda	NPFS	Facenda
@@ -2867,20 +3759,36 @@ Facultade de Educación	NPFS	Facultade de Educación
 Facultade de Humanidades	NPFS	Facultade de Humanidades
 Facultade de Medicina e Odontoloxía	NPFS	Facultade de Medicina e Odontoloxía
 Facultade de Medicina	NPFS	Facultade de Medicina
+Fagastril	NPEL	Fagastril
+Fageström	NPEL	Fageström
+Falcol	NPEL	Falcol
+Falopio	NPEL	Falopio
 Familia , Muller e Xuventude	NPEL	Familia , Muller e Xuventude
 Familia	NPEL	Familia
 Familia	NPMS	Familia
+Famokey	NPEL	Famokey
+Famotidina	NPEL	Famotidina
+Famulcer	NPEL	Famulcer
+Famvir	NPEL	Famvir
+Fanconi	NPEL	Fanconi
 Fandiño	NPEL	Fandiño
 Fandiño	NPML	Fandiño
+Fansidar	NPEL	Fansidar
 Fanto	NPML	Fanto
 FAO	NPFS	FAO
+Fareston	NPEL	Fareston
+Farlutal	NPEL	Farlutal
+Farmaproina	NPEL	Farmaproina
 Farruco	NPML	Farruco
 Farruquiño	NPEL	Farruquiño
 Farto	NPEL	Farto
+Faslodex	NPEL	Faslodex
+Fastum	NPEL	Fastum
 Faustino	NPML	Faustino
 FBI	NPMS	Federal Bureau of Intelligence
 Fdez. Ordóñez	NPEL	Fdez. Ordóñez
 Feáns	NPEL	Feáns
+Febrectal	NPEL	Febrectal
 Federación de Industrias Afíns	NPFS	Federación de Industrias Afíns
 Federación Galega de Autoescolas	NPFS	Federación Galega de Autoescolas
 Federación Galega de Parques Empresariais	NPFS	Federación Galega de Parques Empresariais
@@ -2909,15 +3817,24 @@ Feiras e Festas de Galicia	NPEL	Feiras e Festas de Galicia
 Feixó	NPEL	Feixó
 Feixoo	NPEL	Feixoo
 Feixóo	NPEL	Feixóo
+Feldegel	NPEL	Feldegel
+Feldene	NPEL	Feldene
 Feliciano	NPML	Feliciano
 Felipe González	NPML	Felipe González
 Felipe Ruiz	NPML	Felipe Ruiz
 Felipe	NPML	Felipe
 Felisa	NPFL	Felisa
 Félix Ormazábal	NPML	Félix Ormazábal
+Felixene	NPEL	Felixene
 Félix	NPML	Félix
 Félix	NPMS	Félix
+Felodipino	NPEL	Felodipino
+Femara	NPEL	Femara
+Feminalin 	NPEL	Feminalin
+Fenergan 	NPEL	Fenergan
+Fenilefrina	NPEL	Fenilefrina
 Fé	NPFS	Fé
+Fensel	NPEL	Fensel
 FEOGA-Garantía	NPEL	FEOGA-Garantía
 Fermín Díaz	NPML	Fermín Díaz
 Fermín	NPML	Fermín
@@ -2940,22 +3857,32 @@ Fernando Rodríguez	NPML	Fernando Rodríguez
 Fernando Villalonga	NPML	Fernando Villalonga
 Fernando	NPML	Fernando
 Fernando	NPMS	Fernando
+Fer	NPEL	Fer
+Fero	NPEL	Fero
+Ferplex	NPEL	Ferplex
 Ferrán Adriá	NPML	Ferrán Adriá
 Ferrán Martínez	NPML	Ferrán Martínez
 Ferrán Pujol	NPML	Ferrán Pujol
 Ferreira	NPMS	Ferreira
 Ferreiro	NPEL	Ferreiro
+Ferrocur	NPEL	Ferrocur
 Ferrol-Betanzos	NPEL	Ferrol-Betanzos
 Ferrol	NPEL	Ferrol
 Ferrolterra	NPEL	Ferrolterra
 Ferro	NPEL	Ferro
+Ferroprotina	NPEL	Ferroprotina
+Ferrum 	NPEL	Ferrum
 Festa de o Capón	NPFS	Festa de o Capón
+Fiacin	NPEL	Fiacin
 FIA-Pontevedra	NPEL	FIA-Pontevedra
 Fiatex	NPEL	Fiatex
 Fiatex	NPMS	Fiatex
 Fiatyr	NPEL	Fiatyr
+Fibraguar	NPEL	Fibraguar
 Fidalgo	NPMS	Fidalgo
 Fidel Castro	NPML	Fidel Castro
+Fidium	NPEL	Fidium
+Fiedreich	NPEL	Fiedreich
 FIFA	NPFS	Fédération Internationale de Football Association
 Figueira	NPEL	Figueira
 Figueiras	NPEL	Figueiras
@@ -2971,19 +3898,39 @@ Filócrates	NPML	Filócrates
 Filología	NPEL	Filología
 Filomena	NPFL	Filomena
 Filosofía	NPEL	Filosofía
+Finalgon 	NPEL	Finalgon
 Fina	NPFL	Fina
 Finanzas	NPEL	Finanzas
 Finlandia	NPEL	Finlandia
+Fiorinal	NPEL	Fiorinal
 Firmino	NPML	Firmino
 Fiscalía Anticorrupción	NPFS	Fiscalía Anticorrupción
 Fiscalía	NPFS	Fiscalía
+Fisher	NPEL	Fisher
 Físicas	NPEL	Físicas
+Fisifax	NPEL	Fisifax
+Fisiobil	NPEL	Fisiobil
 Fisioloxía	NPEL	Fisioloxía
 Fisterra	NPEL	Fisterra
 Fito	NPMS	Fito
+Flagyl	NPEL	Flagyl
+Flammazine	NPEL	Flammazine
+Flatoril	NPEL	Flatoril
 Flavia Moreira	NPFS	Flavia Moreira
 Flavia	NPFS	Flavia
+Flebogamma	NPEL	Flebogamma
+Flebostasin	NPEL	Flebostasin
+Fleisher	NPEL	Fleisher
+Flerudin	NPEL	Flerudin
+Flexresan	NPEL	Flexresan
+Flezol	NPEL	Flezol
+Flixonase	NPEL	Flixonase
+Flixotide	NPEL	Flixotide
 FLN	NPMS	Frente Nacional de Liberación
+Flodermol	NPEL	Flodermol
+Flogoprofen	NPEL	Flogoprofen
+Flogoter	NPEL	Flogoter
+Flolan 	NPEL	Flolan
 Flora	NPFL	Flora
 Florencia	NPEL	Florencia
 Florencia	NPMS	Florencia
@@ -2993,42 +3940,92 @@ Florentina	NPFL	Florentina
 Florentino	NPML	Florentino
 Florida	NPEL	Florida
 Florisel	NPML	Florisel
+Flubason	NPEL	Flubason
+Flubiotic	NPEL	Flubiotic
+Fluconazol	NPEL	Fluconazol
+Fludan	NPEL	Fludan
+Flugen	NPEL	Flugen
+Fluidasa	NPEL	Fluidasa
+Fluidin 	NPEL	Fluidin
+Fluimucil	NPEL	Fluimucil
+Fluinol 	NPEL	Fluinol
+Flumil	NPEL	Flumil
+Fluocid	NPEL	Fluocid
+Fluoxetina	NPEL	Fluoxetina
+Flurpax	NPEL	Flurpax
+Flusemide 	NPEL	Flusemide
+Flusolgen	NPEL	Flusolgen
+Flusonal 	NPEL	Flusonal
+Flusporan	NPEL	Flusporan
+Flutamida	NPEL	Flutamida
+Flutandrona	NPEL	Flutandrona
+Fluteden	NPEL	Fluteden
+Flutenal	NPEL	Flutenal
+Flutox	NPEL	Flutox
+Fluvoxamina 	NPEL	Fluvoxamina
+Fml	NPEL	Fml
 FM	NCFP	frecuencia modulada
 FM	NCFS	frecuencia modulada
 Fogar de Pepe	NPEL	Fogar de Pepe
+Fogarty	NPEL	Fogarty
 Fogón	NPMS	Fogón
+Folaxin	NPEL	Folaxin
 Folchi	NPEL	Folchi
+Foley	NPEL	Foley
 Folgoso	NPEL	Folgoso
+Foliferron	NPEL	Foliferron
+Foli	NPEL	Foli
+Folstein	NPEL	Folstein
 Fomento	NPEL	Fomento
 Fondo Monetario Internacional	NPMS	Fondo Monetario Internacional
 Fondo Social Europeo	NPMS	Fondo Social Europeo
 Fonseca	NPEL	Fonseca
 Fonso	NPML	Fonso
 Fontana de Trevi	NPFS	Fontana de Trevi
+Fontan	NPEL	Fontan
 Fontecarmoa	NPEL	Fontecarmoa
 Fontiñas	NPEL	Fontiñas
+Foradil	NPEL	Foradil
+Forcemil	NPEL	Forcemil
 Ford España	NPEL	Ford España
 Ford Madox Ford	NPEL	Ford Madox Ford
+Fordiuran	NPEL	Fordiuran
 Ford	NPEL	Ford
+Forestier	NPEL	Forestier
 Formación Profesional	NPFS	Formación Profesional
 Formación	NPEL	Formación
+Formoterol	NPEL	Formoterol
 Fornelos de Montes	NPEL	Fornelos de Montes
 Foro de Ermua	NPMS	Foro de Ermua
 Foro Universitario	NPMS	Foro Universitario
+Forrest	NPEL	Forrest
+Förster	NPEL	Förster
+Fortasec	NPEL	Fortasec
+Fortecortin	NPEL	Fortecortin
 Forteza Vila	NPEL	Forteza Vila
 Forteza	NPEL	Forteza
+Fortovase	NPEL	Fortovase
+Fortzaar	NPEL	Fortzaar
+Forvey	NPEL	Forvey
 Forza Aérea	NPFS	Forza Aérea
 Forzas Aéreas de Israel	NPFP	Forzas Aéreas de Israel
 Forzas Armadas	NPFP	Forzas Armadas
 Forzas de Seguridade de o Estado	NPFP	Forzas de Seguridade de o Estado
+Fosamax	NPEL	Fosamax
+Foscavir	NPEL	Foscavir
+Fosfocina	NPEL	Fosfocina
+Fositens	NPEL	Fositens
 Foster's Hollywood	NPMS	Foster's Hollywood
 Foster's	NPMS	Foster's
+Fournier	NPEL	Fournier
+Fowler	NPEL	Fowler
 Fox	NPFS	Fox
 Foz de Morcín	NPEL	Foz de Morcín
 Foz	NPEL	Foz
 FP	NPEL	FP
 Fr. Buenaventura Tellado	NPEL	Fr. Buenaventura Tellado
 Fraga	NPEL	Fraga
+Fragmin	NPEL	Fragmin
 Fran Aller	NPML	Fran Aller
 Fran Alonso	NPML	Fran Alonso
 Fran Cortegoso	NPML	Fran Cortegoso
@@ -3087,6 +4084,7 @@ Frankfurt	NPEL	Frankfurt
 Frank	NPML	Frank
 Fran	NPML	Fran
 Fran	NPMS	Fran
+Fraxiparina	NPEL	Fraxiparina
 Fred Astaire	NPML	Fred Astaire
 Fred Eckhard	NPML	Fred Eckhard
 Fred Martins	NPML	Fred Martins
@@ -3095,21 +4093,37 @@ Fred Vargas	NPML	Fred Vargas
 Freitag	NPEL	Freitag
 Freixanes	NPEL	Freixanes
 Freixo	NPEL	Freixo
+Fremet	NPEL	Fremet
+Frenal	NPEL	Frenal
+Frenatus	NPEL	Frenatus
 Frente Nacional de Liberación	NPMS	Frente Nacional de Liberación
 Freytag	NPEL	Freytag
+Friedreich	NPEL	Friedreich
+Friedrich	NPEL	Friedrich
 Friends	NPEL	Friends
 Frigoal	NPEL	Frigoal
+Frinova	NPEL	Frinova
 Frisia	NPEL	Frisia
+Froben	NPEL	Froben
 Froilán	NPML	Froilán
 Froiz	NPEL	Froiz
 Fronte Popular Galega	NPFS	Fronte Popular Galega
+Frosinor	NPEL	Frosinor
+Fucibet	NPEL	Fucibet
+Fucidine	NPEL	Fucidine
+Fucithalmic	NPEL	Fucithalmic
 Fuel Vía	NPMS	Fuel Vía
 Fuenlabrada	NPEL	Fuenlabrada
 Fuentes Bardají	NPEL	Fuentes Bardají
 Fuentes Quintana	NPEL	Fuentes Quintana
 Fuentes	NPEL	Fuentes
 Fuertes	NPEL	Fuertes
+Fuhrman	NPEL	Fuhrman
+Fujimoto	NPEL	Fujimoto
+Fulcin	NPEL	Fulcin
+Fulgium	NPEL	Fulgium
 Fulxencio	NPML	Fulxencio
+Funcenal	NPEL	Funcenal
 Función Pública	NPFS	Función Pública
 Fundación Caixa Galicia	NPFS	Fundación Caixa Galicia
 Fundación Dr. Vidal Ríos	NPFS	Fundación Dr. Vidal Ríos
@@ -3118,23 +4132,42 @@ Fundación Luis Tilve	NPFS	Fundación Luis Tilve
 Fundación Pública Escola Galega de Administración Sanitaria	NPFS	Fundación Pública Escola Galega de Administración Sanitaria
 Fundación Regino Giráldez Boo e María de el Carmen Groba Varela	NPFS	Fundación Regino Giráldez Boo e María de el Carmen Groba Varela
 Fundación Xoán Piñeiro	NPFS	Fundación Xoán Piñeiro
+Fungarest	NPEL	Fungarest
+Fungisdin	NPEL	Fungisdin
+Fungizona	NPEL	Fungizona
+Fungo	NPEL	Fungo
+Fungowas	NPEL	Fungowas
+Fungusol	NPEL	Fungusol
 Fuquiño	NPML	Fuquiño
+Furacin	NPEL	Furacin
+Furantoina	NPEL	Furantoina
+Furlong	NPEL	Furlong
+Furobactina	NPEL	Furobactina
+Furosemida	NPEL	Furosemida
+Fusaloyos	NPEL	Fusaloyos
 Fuster	NPEL	Fuster
+Futuran	NPEL	Futuran
 Fuxan os Ventos	NPEL	Fuxan os Ventos
+Fuzeon	NPEL	Fuzeon
 G. Cabrera Infante	NPEL	G. Cabrera Infante
 G. Tosar	NPEL	G. Tosar
 G-8	NPMS	G-8
+Gabamerck	NPEL	Gabamerck
+Gabapentina	NPEL	Gabapentina
+Gabatur	NPEL	Gabatur
 Gabinete de a Presidencia	NPMS	Gabinete de a Presidencia
 Gabinete de Prensa de a Consellería de Sanidade	NPMS	Gabinete de Prensa de a Consellería de Sanidade
 Gabinete Técnico de Apoio a o téxtil	NPMS	Gabinete Técnico de Apoio a o téxtil
 Gabinete Técnico de Apoio a o Téxtil	NPMS	Gabinete Técnico de Apoio a o Téxtil
 Gabi	NPMS	Gabi
+Gabitril	NPEL	Gabitril
 Gabriela	NPFS	Gabriela
 Gabriel	NPML	Gabriel
 Gabriel	NPMS	Gabriel
 Gadisa	NPEL	Gadisa
 Gadis	NPEL	Gadis
 Galaad	NPML	Galaad
+Galaxdar	NPEL	Galaxdar
 Galaxias	NPFP	Galaxias
 Galelec	NPEL	Galelec
 Gale	NPEL	Gale
@@ -3151,8 +4184,11 @@ Galisindo	NPML	Galisindo
 Galiza	NPEL	Galiza
 Gallardón	NPEL	Gallardón
 Gallego Fernández	NPEL	Gallego Fernández
+Galusan	NPEL	Galusan
 Galway	NPEL	Galway
+Gammaglobulina	NPEL	Gammaglobulina
 Gandhi	NPEL	Gandhi
+Garanil	NPEL	Garanil
 Garantía Social	NPFS	Garantía Social
 García Alix	NPEL	García Alix
 García Leira	NPEL	García Leira
@@ -3161,9 +4197,22 @@ García Sánchez	NPEL	García Sánchez
 García-Bobadilla	NPEL	García-Bobadilla
 García	NPEL	García
 Garda Civil	NPFS	Garda Civil
+Gardenal	NPEL	Gardenal
 Gaspar	NPML	Gaspar
+Gastral	NPEL	Gastral
+Gastrimut	NPEL	Gastrimut
+Gastrion	NPEL	Gastrion
+Gastrodenol	NPEL	Gastrodenol
+Gastrodomina	NPEL	Gastrodomina
+Gastromol	NPEL	Gastromol
 Gaza	NPEL	Gaza
 GBU-28	NPEL	GBU-28
+Gelcen	NPEL	Gelcen
+Gelidina	NPEL	Gelidina
+Gelocatil	NPEL	Gelocatil
+Gelodrox	NPEL	Gelodrox
+Gelofeno	NPEL	Gelofeno
+Gemfibrozilo 	NPEL	Gemfibrozilo
 Genaro Borrás	NPML	Genaro Borrás
 Genaro Martínez Sánchez	NPML	Genaro Martínez Sánchez
 Genaro Martínez	NPML	Genaro Martínez
@@ -3173,7 +4222,10 @@ Generalitat Valenciana	NPEL	Generalitat Valenciana
 Generalitat	NPFS	Generalitat
 Geni	NPFS	Geni
 Génova	NPEL	Génova
+Genoxal	NPEL	Genoxal
 Ge	NPEL	Ge
+Genprol 	NPEL	Genprol
+Genta	NPEL	Genta
 GEO	NPMP	Grupo Especial de Operación
 George Lucas	NPML	George Lucas
 George	NPMS	George
@@ -3183,10 +4235,12 @@ Gerardo Gayoso	NPML	Gerardo Gayoso
 Gerardo Muguruza Artola	NPMS	Gerardo Muguruza Artola
 Gerardo	NPML	Gerardo
 Gerardo	NPMS	Gerardo
+Gerbin	NPEL	Gerbin
 Gerês-Xurés	NPEL	Gerês-Xurés
 Gerhard Schroder	NPML	Gerhard Schroder
 Gerhard Schroeder	NPML	Gerhard Schroeder
 Gerhard Schroeder	NPMS	Gerhard Schroeder
+Gericin	NPEL	Gericin
 Germán Adrande	NPMS	Germán Adrande
 Germán Ancochea	NPML	Germán Ancochea
 Germán Antúnez	NPML	Germán Antúnez
@@ -3204,26 +4258,54 @@ Germán Rodríguez	NPML	Germán Rodríguez
 Germán	NPML	Germán
 Germán	NPMS	Germán
 Gerry Adams	NPML	Gerry Adams
+Gestamater	NPEL	Gestamater
 Gestha de Xestión de Facenda	NPEL	Gestha de Xestión de Facenda
+Gevramycin	NPEL	Gevramycin
 Ghibli	NPEL	Ghibli
+Gianotti-Crosti	NPEL	Gianotti-Crosti
+Gianotti	NPEL	Gianotti
 Gibson	NPEL	Gibson
 Gilbert Keith Chesterton	NPML	Gilbert Keith Chesterton
 Gil	NPML	Gil
+Ginecrin	NPEL	Ginecrin
+Ginedermofix	NPEL	Ginedermofix
+Gine	NPEL	Gine
 Ginobili	NPEL	Ginobili
 Gipuzko Buru Batzar	NPMS	Gipuzko Buru Batzar
+Girdlestone	NPEL	Girdlestone
+Gittelman	NPEL	Gittelman
 Giuliani	NPEL	Giuliani
 Giuseppe	NPMS	Giuseppe
 G.K. Chesterson	NPEL	G.K. Chesterson
 Glasgow	NPEL	Glasgow
+Glasson	NPEL	Glasson
+Glauconide	NPEL	Glauconide
+Gleason	NPEL	Gleason
 Glenda Jackson	NPFL	Glenda Jackson
 Glenn Gould	NPML	Glenn Gould
 Glenn Miller	NPML	Glenn Miller
+Glivec	NPEL	Glivec
+Glizolan	NPEL	Glizolan
+Globuce	NPEL	Globuce
 Gloria	NPFL	Gloria
 Gloria	NPFS	Gloria
+Glotone	NPEL	Glotone
+Glucagen	NPEL	Glucagen
+Glucantime	NPEL	Glucantime
+Glucobay	NPEL	Glucobay
+Glucolon	NPEL	Glucolon
+Glumida	NPEL	Glumida
+Glurenor	NPEL	Glurenor
+Glutaferro	NPEL	Glutaferro
+Glutasey	NPEL	Glutasey
+Gobanal	NPEL	Gobanal
 Gobelas	NPEL	Gobelas
+Gobemicina	NPEL	Gobemicina
+Gobens	NPEL	Gobens
 Goberno de Pequín	NPMS	Goberno de Pequín
 Goberno	NPEL	Goberno
 Goberno	NPMS	Goberno
+Godabion	NPEL	Godabion
 Gödel, Escher, Bach	NPEL	Gödel, Escher, Bach
 Goethe	NPEL	Goethe
 Goián	NPEL	Goián
@@ -3243,15 +4325,20 @@ Gonzalo Rodríguez Tenreiro	NPML	Gonzalo Rodríguez Tenreiro
 Gonzalo Rodríguez	NPML	Gonzalo Rodríguez
 Gonzalo Uriarte	NPML	Gonzalo Uriarte
 Gonzalo	NPML	Gonzalo
+Goodge	NPEL	Goodge
 Google	NPEL	Google
+Gopten	NPEL	Gopten
 Goran Aleksic	NPML	Goran Aleksic
 Gordon Brown	NPML	Gordon Brown
 Gore	NPEL	Gore
 Goretti Sanmartín Rei	NPFL	Goretti Sanmartín Rei
 Goretti Sanmartín	NPFL	Goretti Sanmartín
+Goxil	NPEL	Goxil
 Goytisolo	NPEL	Goytisolo
 Grace Kelly	NPFL	Grace Kelly
 Grace	NPEL	Grace
+Gradin 	NPEL	Gradin
+Graham	NPEL	Graham
 Gran Bretaña	NPEL	Gran Bretaña
 Gran Canaria	NPEL	Gran Canaria
 Gran Guerra	NPFS	Gran Guerra
@@ -3259,12 +4346,15 @@ Gran Hotel de La Toja	NPMS	Gran Hotel de La Toja
 Granada	NPEL	Granada
 Grandal	NPEL	Grandal
 Gran	NPEL	Gran Bretaña
+Grasping	NPEL	Grasping
+Gratusminal	NPEL	Gratusminal
 Grdulica	NPEL	Grdulica
 Grecia	NPEL	Grecia
 Greco	NPML	Greco
 Gregorio	NPML	Gregorio
 Grimaldi	NPEL	Grimaldi
 Griñán	NPEL	Griñán
+Grisetin	NPEL	Grisetin
 Grixoa	NPEL	Grixoa
 Grupo Cable Galego	NPMS	Grupo Cable Galego
 Grupo Correo Gallego	NPMS	Grupo Correo Gallego
@@ -3280,9 +4370,13 @@ Grupo	NPMS	Grupo
 Guadagni	NPEL	Guadagni
 Guadalaxara	NPEL	Guadalaxara
 Guadalupe	NPFL	Guadalupe
+Guastil	NPEL	Guastil
 Guennadi Ziugánov	NPML	Guennadi Ziugánov
 Guerra de o Golfo	NPFS	Guerra de o Golfo
 Guerra y Paz	NPEL	Guerra y Paz
+Guidant	NPEL	Guidant
+Guillain-Barré	NPEL	Guillain-Barré
+Guillain	NPEL	Guillain
 Guillén	NPML	Guillén
 Guillerme Vázquez	NPML	Guillerme Vázquez
 Guillerme	NPML	Guillerme
@@ -3300,9 +4394,12 @@ Guitiriz	NPEL	Guitiriz
 Guivati	NPEL	Guivati
 Gumersinda	NPFL	Gumersinda
 Gumersindo	NPML	Gumersindo
+Gumprecht	NPEL	Gumprecht
 Guntiñas	NPEL	Guntiñas
 Gustavo Losada	NPML	Gustavo Losada
 Gustavo	NPML	Gustavo
+Gustilo	NPEL	Gustilo
+Gutalax	NPEL	Gutalax
 Gutiérrez Aragón	NPEL	Gutiérrez Aragón
 Gutiérrez de Vera	NPEL	Gutiérrez de Vera
 Gutiérrez Lara	NPEL	Gutiérrez Lara
@@ -3317,23 +4414,38 @@ Guy Delisle	NPML	Guy Delisle
 Guy Pearce	NPML	Guy Pearce
 Guy	NPML	Guy
 Guzmán	NPEL	Guzmán
+Gyno	NPEL	Gyno
+Haag	NPEL	Haag
 Habana	NPEL	Habana
 Hacienda	NPEL	Hacienda
 Hacienda	NPES	Hacienda
+Hacketal	NPEL	Hacketal
+Hadensa	NPEL	Hadensa
+Hagelund	NPEL	Hagelund
 Haia	NPFS	Haia
+Halcion	NPEL	Halcion
 Hall	NPEL	Hall
+Halogedol	NPEL	Halogedol
+Halog	NPEL	Halog
+Haloperidol	NPEL	Haloperidol
 Hamallaj	NPEL	Hamallaj
 Hamás	NPEL	Hamás
 Hamilton Leithauser	NPEL	Hamilton Leithauser
 Hamilton	NPEL	Hamilton
 Handke	NPEL	Handke
 Hans Eichel	NPML	Hans Eichel
+Hansen	NPEL	Hansen
 Hanzhou	NPEL	Hanzhou
+Harmonet	NPEL	Harmonet
 Harold	NPML	Harold
 Harrier AV-8B	NPMS	Harrier AV-8B
 Harrier	NPMS	Harrier
+Hartman	NPEL	Hartman
 Hashim Taci	NPML	Hashim Taci
+Hashimoto	NPEL	Hashimoto
 Hassan II	NPML	Hassan II
+Hasson	NPEL	Hasson
+Hautman	NPEL	Hautman
 Hawai	NPEL	Hawai
 Hawking	NPEL	Hawking
 HB	NPMS	Herri Batasuna
@@ -3349,8 +4461,18 @@ Hélène	NPFS	Hélène
 Hellen KermisIngrid	NPFL	Hellen KermisIngrid
 Helms Burton	NPEL	Helms Burton
 Helsinki	NPEL	Helsinki
+Hemicraneal	NPEL	Hemicraneal
+Hemoal	NPEL	Hemoal
+Hemo	NPEL	Hemo
+Hemorrane	NPEL	Hemorrane
+Hemovas	NPEL	Hemovas
+Henderson	NPEL	Henderson
 Henrique	NPML	Henrique
+Heparina	NPEL	Heparina
+Hepatect	NPEL	Hepatect
 Hepburn	NPEL	Hepburn
+Hepsera	NPEL	Hepsera
+Hepuman	NPEL	Hepuman
 Hércules	NPML	Hércules
 Hermenexilda	NPFL	Hermenexilda
 Hermexildo	NPML	Hermexildo
@@ -3362,11 +4484,26 @@ Herrero de Miñón	NPEL	Herrero de Miñón
 Herrero	NPEL	Herrero
 Herri Batasuna	NPEL	Herri Batasuna
 Herri Batasuna	NPMS	Herri Batasuna
+Herten	NPEL	Herten
 Hervás	NPMS	Hervás
+Hespercorbin	NPEL	Hespercorbin
 Hesperia	NPFS	Hesperia
+Hexomedin	NPEL	Hexomedin
+Hibitane	NPEL	Hibitane
+Hibor	NPEL	Hibor
+Hickmann	NPEL	Hickmann
+Hickman	NPEL	Hickman
 Hidalgo	NPMS	Hidalgo
+Hidroaltesona	NPEL	Hidroaltesona
+Hidrocisdin	NPEL	Hidrocisdin
+Hidroclorotiazida	NPEL	Hidroclorotiazida
+Hidroferol	NPEL	Hidroferol
+Hidropolivit	NPEL	Hidropolivit
+Hidrosaluretil	NPEL	Hidrosaluretil
+Hidroxil	NPEL	Hidroxil
 Hierro	NPEL	Hierro
 Highet	NPMS	Highet
+Higrotona	NPEL	Higrotona
 Hilario Álvarez	NPML	Hilario Álvarez
 Hilario Cabana	NPML	Hilario Cabana
 Hilario Lanza	NPML	Hilario Lanza
@@ -3376,28 +4513,50 @@ Hilary Clinton	NPFL	Hilary Clinton
 Hilary Swank	NPFL	Hilary Swank
 Hilary	NPFL	Hilary
 Hillary Clinton	NPFL	Hillary Clinton
+Hill	NPEL	Hill
+Hill-Sachs	NPEL	Hill-Sachs
+Hiperico	NPEL	Hiperico
+Hiperlex	NPEL	Hiperlex
+Hipoartel	NPEL	Hipoartel
 Hipólito G. Navarro	NPML	Hipólito G. Navarro
 Hipólito López Gómez	NPML	Hipólito López Gómez
 Hipólito López	NPML	Hipólito López
+Hippel-Landau	NPEL	Hippel-Landau
+Hippel	NPEL	Hippel
+Hirshprung	NPEL	Hirshprung
 Hispania	NPEL	Hispania
 Hispanoamérica	NPEL	Hispanoamérica
+Histafilin	NPEL	Histafilin
+Histaverin	NPEL	Histaverin
+Histop	NPEL	Histop
 Historia 16	NPEL	Historia 16
 Historia Moderna	NPEL	Historia Moderna
 Historia	NPEL	Historia
+Hivid	NPEL	Hivid
 HIV	NCMP	human immunodeficiency virus
 HIV	NCMS	human immunodeficiency virus
 Hizbulá	NPEL	Hizbulá
 Hizbulá	NPMS	Hizbulá
+Hodernal	NPEL	Hodernal
+Hodgkin	NPEL	Hodgkin
+Hoehn	NPEL	Hoehn
+Hoehn-Yahr	NPEL	Hoehn-Yahr
+Hoffman	NPEL	Hoffman
 Holanda	NPEL	Holanda
 Holger Cáceres	NPML	Holger Cáceres
 Hollywood	NPEL	Hollywood
+Homans	NPEL	Homans
 Hong Kong	NPEL	Hong Kong
+Hongoseril	NPEL	Hongoseril
 Honorina	NPFL	Honorina
 Honoris Causa	NPEL	Honoris Causa
 Hoover	NPEL	Hoover
 Horacio Gómez	NPML	Horacio Gómez
 Horacio	NPML	Horacio
+Horner	NPEL	Horner
 Hortensia	NPFL	Hortensia
+Horton	NPEL	Horton
+Hosboral	NPEL	Hosboral
 Hospital de Conxo	NPMS	Hospital de Conxo
 Hospital de o Meixoeiro	NPMS	Hospital de o Meixoeiro
 Hospital Materno Infantil Teresa Herrera	NPMS	Hospital Materno Infantil Teresa Herrera
@@ -3409,6 +4568,9 @@ Hotel Almirante	NPMS	Hotel Almirante
 Hotel Marmatino	NPMS	Hotel Marmatino
 Hotel Villanueva	NPEL	Hotel Villanueva
 Hotel Villanueva	NPMS	Hotel Villanueva
+Hubber	NPEL	Hubber
+Huberdoxina	NPEL	Huberdoxina
+Huberplex	NPEL	Huberplex
 Huelva	NPEL	Huelva
 Huérfanas	NPFP	Huérfanas
 Huertas	NPEL	Huertas
@@ -3416,11 +4578,23 @@ Huesca	NPEL	Huesca
 Huesca	NPFS	Huesca
 Hugo	NPMS	Hugo
 Huguet	NPEL	Huguet
+Humalog	NPEL	Humalog
 Humanidades	NPEL	Humanidades
+Humaplus	NPEL	Humaplus
+Humatin	NPEL	Humatin
 Humberto Fernández	NPML	Humberto Fernández
 Humberto Hernández Reinoso	NPML	Humberto Hernández Reinoso
+Humira	NPEL	Humira
+Humulina	NPEL	Humulina
 Hungría	NPEL	Hungría
+Hunter	NPEL	Hunter
+Huntington	NPEL	Huntington
+Hunt	NPEL	Hunt
 Hurtado	NPEL	Hurtado
+Hydergina	NPEL	Hydergina
+Hydrapres	NPEL	Hydrapres
+Hydrea	NPEL	Hydrea
+Hypo	NPEL	Hypo
 I Congreso Nacional de a Sociedade Española de Cirurxía Bucal	NPMS	I Congreso Nacional de a Sociedade Española de Cirurxía Bucal
 I congreso nacional de cirurxía bucal	NPMS	I congreso nacional de cirurxía bucal
 IAC-80	NPEL	IAC-80
@@ -3429,13 +4603,25 @@ Iago	NPMS	Iago
 Ibáñez	NPEL	Ibáñez
 Ibarra	NPEL	Ibarra
 Ibarretxe	NPEL	Ibarretxe
+Ibercal	NPEL	Ibercal
 Iberia 6402 Madrid-México	NPEL	Iberia 6402 Madrid-México
 Iberia	NPEL	Iberia
 Iberoamérica	NPEL	Iberoamérica
 Ibiza	NPEL	Ibiza
 Ibrahim Rugova	NPML	Ibrahim Rugova
+Ibubex	NPEL	Ibubex
+Ibufen	NPEL	Ibufen
+Ibumac	NPEL	Ibumac
+Ibuprofeno	NPEL	Ibuprofeno
+Ibuprox	NPEL	Ibuprox
 Iceta	NPEL	Iceta
 Icía	NPFL	Icía
+Idalprem	NPEL	Idalprem
+Idaptan	NPEL	Idaptan
+Idasal	NPEL	Idasal
+Ideos	NPEL	Ideos
+Idulanex	NPEL	Idulanex
+Iecatec	NPEL	Iecatec
 Ifixenia	NPFL	Ifixenia
 Iglesias, Antonio	NPML	Iglesias, Antonio
 Iglesias Chouzas	NPEL	Iglesias Chouzas
@@ -3454,11 +4640,29 @@ Ilduara	NPFL	Ilduara
 Illa Couto	NPEL	Illa Couto
 Illa de a Toxa	NPFS	Illa de a Toxa
 Illas Canarias	NPEL	Illas Canarias
+Ilomedin	NPEL	Ilomedin
+Ilvico	NPEL	Ilvico
+Ilvinax	NPEL	Ilvinax
+Ilvitus	NPEL	Ilvitus
+Imigran	NPEL	Imigran
+Imodium	NPEL	Imodium
 Imprenta Vázquez	NPEL	Imprenta Vázquez
 Imprenta Vázquez	NPFS	Imprenta Vázquez
+Improntal	NPEL	Improntal
+Imukin	NPEL	Imukin
+Imurel	NPEL	Imurel
+Inacid	NPEL	Inacid
+Inalacor	NPEL	Inalacor
+Inaladuo	NPEL	Inaladuo
+Inaspir	NPEL	Inaspir
+Indapamida	NPEL	Indapamida
 Indar	NPEL	Indar
 India	NPEL	India
 Índice Manpower	NPEL	Índice Manpower
+Indocaf	NPEL	Indocaf
+Indolgina	NPEL	Indolgina
+Indonilo	NPEL	Indonilo
+Indurgan	NPEL	Indurgan
 Industria , Comercio e Minería	NPEL	Industria , Comercio e Minería
 Industria e Comercio	NPEL	Industria e Comercio
 Industria	NPEL	Industria
@@ -3466,18 +4670,26 @@ Inés	NPFL	Inés
 Inés	NPFS	Inés
 Inespal	NPEL	Inespal
 Informativos Telecinco	NPEL	Informativos Telecinco
+Ingastri	NPEL	Ingastri
 Inglaterra	NPEL	Inglaterra
 Inglés en a rede	NPEL	Inglés en a rede
 Ingrid Bergman	NPFL	Ingrid Bergman
 Ingrid Betancourt	NPFL	Ingrid Betancourt
 Ingrid Lupatsch	NPFL	Ingrid Lupatsch
+Inhibace	NPEL	Inhibace
 Iniciativa Comunitaria ADAPT-Bis	NPFS	Iniciativa Comunitaria ADAPT-Bis
 Iniciativa per Catalunya-Verds	NPEL	Iniciativa per Catalunya-Verds
+Iniston	NPEL	Iniston
 Inmaculada	NPFL	Inmaculada
 Inmaculada	NPFS	Inmaculada
 Inma	NPFS	Inma
+Inmunoferon	NPEL	Inmunoferon
+Innohep	NPEL	Innohep
+Inocar	NPEL	Inocar
 Inocencia	NPFL	Inocencia
 Inocencio	NPML	Inocencio
+Inspra	NPEL	Inspra
+Instana	NPEL	Instana
 Instituto de Astrofísica	NPMS	Instituto de Astrofísica
 Instituto de Investigacións Políticas	NPMS	Instituto de Investigacións Políticas
 Instituto Galego de Artes Escénicas e Musicais	NPMS	Instituto Galego de Artes Escénicas e Musicais
@@ -3485,6 +4697,8 @@ Instituto Galego de Estatística	NPMS	Instituto Galego de Estatística
 Instituto Nacional de Estatística	NPMS	Instituto Nacional de Estatística
 Instituto Stella Maris	NPMS	Instituto Stella Maris
 Instituto Tecnológico Geominero de España	NPMS	Instituto Tecnológico Geominero de España
+Insulatard	NPEL	Insulatard
+Insup	NPEL	Insup
 Intendente Mercantil	NPEL	Intendente Mercantil
 Intendente Mercantil	NPMS	Intendente Mercantil
 Intercampus	NPEL	Intercampus
@@ -3496,7 +4710,12 @@ Internet Explorer	NPMS	Internet Explorer
 Internet	NPEL	Internet
 Internet	NPES	Internet
 Interreg III	NPEL	Interreg III
+Introna	NPEL	Introna
 Investigación e Técnicas de Mercado	NPEL	Investigación e Técnicas de Mercado
+Invigan	NPEL	Invigan
+Invirase	NPEL	Invirase
+Inyesprin	NPEL	Inyesprin
+Inzitan	NPEL	Inzitan
 Iñaki Anasagasti	NPML	Iñaki Anasagasti
 Iñaki Beaumont	NPML	Iñaki Beaumont
 Iñaki de Juana Chaos	NPML	Iñaki de Juana Chaos
@@ -3509,22 +4728,27 @@ Iñaki Sanz	NPML	Iñaki Sanz
 Iñaki Urdangarín	NPML	Iñaki Urdangarín
 Iñaki	NPML	Iñaki
 Íñigo	NPMS	Íñigo
+Iopimax	NPEL	Iopimax
 iPad	NPEL	iPad
 iPhone	NPEL	iPhone
 Irán	NPEL	Irán
 IRA	NPMS	Ejército Republicano Irlandés
 Iraq	NPEL	Iraq
 Irene	NPFS	Irene
+Irenor	NPEL	Irenor
 Ire	NPFS	Ire
 Ire	NPFS	Irene
 Iria	NPFL	Iria
+Iricil	NPEL	Iricil
 Irimia	NPFL	Irimia
 Irlanda de o Norte	NPEL	Irlanda de o Norte
 Irlanda	NPEL	Irlanda
 Irmandade de Centros Galegos en Euscadi	NPFS	Irmandade de Centros Galegos en Euscadi
 IRPF	NCMP	informe sobre de la renta de las personas físicas
 IRPF	NCMS	informe sobre de la renta de las personas físicas
+Irritos	NPEL	Irritos
 Irún	NPEL	Irún
+Iruxol	NPEL	Iruxol
 Isaac	NPML	Isaac
 Isaac	NPMS	Isaac
 Isaaquito	NPMS	Isaaquito
@@ -3542,18 +4766,31 @@ Isa	NPFS	Isabel
 Isaura	NPFS	Isaura
 ISBN	NCMP	international standard book number
 ISBN	NCMS	international standard book number
+Iscover	NPEL	Iscover
+Isdiben	NPEL	Isdiben
+Isdibudol	NPEL	Isdibudol
+Isdinium	NPEL	Isdinium
+Isdol	NPEL	Isdol
 Isidro	NPML	Isidro
 Islandia	NPEL	Islandia
 Ismael	NPMS	Ismael
 Isma	NPMS	Isma
+Isodiur	NPEL	Isodiur
+Isoglaucon	NPEL	Isoglaucon
+Iso-lacer	NPEL	Iso-lacer
 Isolina	NPFL	Isolina
+Isonitril	NPEL	Isonitril
 ISO	NPFP	International Standard Organization
 ISO	NPFS	International Standard Organization
+Isopto	NPEL	Isopto
+Isotretinoina	NPEL	Isotretinoina
+Isovorin	NPEL	Isovorin
 Israel	NPEL	Israel
 ISSN	NCMP	international standard series number
 ISSN	NCMS	international standard series number
 Istambul	NPEL	Istambul
 Italia	NPEL	Italia
+Itraconazol	NPEL	Itraconazol
 Iugoslavia	NPEL	Iugoslavia
 IU	NPMS	Izquierda Unida
 Iván Marcos	NPML	Iván Marcos
@@ -3561,6 +4798,7 @@ IVA	NCMP	impuesto sobre el valor añadido
 IVA	NCMS	impuesto sobre el valor añadido
 Iván	NPML	Iván
 Ivanov	NPEL	Ivanov
+Ixia	NPEL	Ixia
 Izquierda Andaluza	NPEL	Izquierda Andaluza
 Izquierda Unida	NPEL	Izquierda Unida
 Izquierda Unida	NPMS	Izquierda Unida
@@ -3578,6 +4816,8 @@ Jacinto	NPML	Jacinto
 Jack Straw	NPML	Jack Straw
 Jack	NPML	Jack
 Jackson	NPEL	Jackson
+Jacob	NPEL	Jacob
+Jacobson	NPEL	Jacobson
 Jácome	NPEL	Jácome
 Jacques Antoine Canavaggio	NPML	Jacques Antoine Canavaggio
 Jaén	NPEL	Jaén
@@ -3586,6 +4826,7 @@ Jaime López Cosío	NPML	Jaime López Cosío
 Jaime Mayor Oreja	NPML	Jaime Mayor Oreja
 Jaime Sacristán	NPMS	Jaime Sacristán
 Jaime	NPMS	Jaime
+Jakob	NPEL	Jakob
 James Baker	NPML	James Baker
 James Blake	NPML	James Blake
 James Bond	NPML	James Bond
@@ -3710,8 +4951,10 @@ John Elliot	NPML	John Elliot
 John Taylor	NPML	John Taylor
 John	NPML	John
 Johnny Michael	NPMS	Johnny Michael
+Johnson	NPEL	Johnson
 Joma	NPMS	Joma
 Jonas Folger	NPML	Jonas Folger
+Jones	NPEL	Jones
 Jo	NPMS	Jo
 Jorcano	NPEL	Jorcano
 Jordi Pujol	NPML	Jordi Pujol
@@ -3773,6 +5016,7 @@ Jorge Volpi	NPML	Jorge Volpi
 Jorge Wagensberg	NPML	Jorge Wagensberg
 Jorge	NPML	Jorge
 Jorge	NPMS	Jorge
+Josamina	NPEL	Josamina
 Joschka Fischer	NPML	Joschka Fischer
 Jose Afonso	NPML	Jose Afonso
 José Alberto Piñeiro	NPML	José Alberto Piñeiro
@@ -3836,6 +5080,7 @@ José Manuel Yebra-Pimentel	NPML	José Manuel Yebra-Pimentel
 Jose Manuel	NPMS	Jose Manuel
 José Manuel	NPMS	José Manuel
 Jose Mari Aznar	NPML	Jose Mari Aznar
+José María Aznar 	NPML	José María Aznar
 José María Aznar	NPFS	José María Aznar
 José María Aznar	NPML	José María Aznar
 Jose María Castroviejo	NPML	Jose María Castroviejo
@@ -3953,39 +5198,97 @@ Julio Fernández Gayoso	NPML	Julio Fernández Gayoso
 Julio Fernández	NPML	Julio Fernández
 Julio	NPML	Julio
 Julio	NPMS	Julio
+Junifen	NPEL	Junifen
 Ju	NPMS	Ju
 Junta Aragonesista	NPFS	Junta Aragonesista
 Juste	NPEL	Juste
 Justo de Benito	NPML	Justo de Benito
 K. Raikkonen	NPEL	K. Raikkonen
+Kalamina	NPEL	Kalamina
+Kaletra	NPEL	Kaletra
+Kalpress	NPEL	Kalpress
+Kalten	NPEL	Kalten
 Kamandi	NPEL	Kamandi
 Kane	NPEL	Kane
+Kaposi	NPEL	Kaposi
 Karen Owen	NPFL	Karen Owen
 Karl Lagerfeld	NPML	Karl Lagerfeld
 Karl Malone	NPML	Karl Malone
 Karl Maria von Weber	NPML	Karl Maria von Weber
 Karl Soares	NPML	Karl Soares
 Karl	NPML	Karl
+Karnofsky	NPEL	Karnofsky
 Karpov	NPEL	Karpov
+Karvea	NPEL	Karvea
+Karvezide	NPEL	Karvezide
 Kasparov	NPEL	Kasparov
+Katrum	NPEL	Katrum
 Katty	NPFL	Katty
+Kawasaki	NPEL	Kawasaki
 Kay Kendall	NPFL	Kay Kendall
+Kayser-Fleisher	NPEL	Kayser-Fleisher
+Kayser	NPEL	Kayser
+Kefloridina	NPEL	Kefloridina
+Kefol	NPEL	Kefol
+Kehr	NPEL	Kehr
+Kellegren	NPEL	Kellegren
+Keller-Brandes	NPEL	Keller-Brandes
+Keller	NPEL	Keller
+Kellikian	NPEL	Kellikian
+Kelly	NPEL	Kelly
+Kelsopen	NPEL	Kelsopen
+Kemadren	NPEL	Kemadren
+Kenesil	NPEL	Kenesil
+Keppra	NPEL	Keppra
+Kerley	NPEL	Kerley
+Kerning	NPEL	Kerning
+Ketek	NPEL	Ketek
+Ketesgel	NPEL	Ketesgel
+Ketesse	NPEL	Ketesse
+Ketoconazol	NPEL	Ketoconazol
+Ketoisdin	NPEL	Ketoisdin
+Ketoprofeno	NPEL	Ketoprofeno
+Ketosolan	NPEL	Ketosolan
+Kiesselbach	NPEL	Kiesselbach
+Kikuchi-Fujimoto	NPEL	Kikuchi-Fujimoto
+Kikuchi	NPEL	Kikuchi
+Kilian	NPEL	Kilian
+Killip	NPEL	Killip
+Kilor	NPEL	Kilor
 Kimi Raikkonen	NPML	Kimi Raikkonen
+Kineret	NPEL	Kineret
 King's	NPES	King's
 Kiñas	NPEL	Kiñas
 Kiriat Shemoná	NPEL	Kiriat Shemoná
+Kirschner	NPEL	Kirschner
+Kivexa	NPEL	Kivexa
+Klacid	NPEL	Klacid
+Klatskin	NPEL	Klatskin
+Kocher	NPEL	Kocher
+Koebner	NPEL	Koebner
+Kofron	NPEL	Kofron
+Kogenate	NPEL	Kogenate
 Kohler	NPEL	Kohler
+Konakion	NPEL	Konakion
 Konrad Freytag	NPML	Konrad Freytag
 Kopas	NPMS	Kopas
+Korsakoff	NPEL	Korsakoff
+Korsakow	NPEL	Korsakow
 Kosava	NPEL	Kosava
 Kosovo	NPEL	Kosovo
 Kósovo	NPEL	Kósovo
 Kotenkov	NPEL	Kotenkov
 Kraljevo	NPEL	Kraljevo
 Kremlin	NPMS	Kremlin
+Kreon	NPEL	Kreon
+Krukenberg	NPEL	Krukenberg
 Krusik	NPMS	Krusik
 Kukes	NPEL	Kukes
+Küntscher	NPEL	Küntscher
+Kurgan	NPEL	Kurgan
+Kussmaul	NPEL	Kussmaul
 Kyrie	NPMS	Kyrie
+Kytril	NPEL	Kytril
 L. Hamilton	NPEL	L. Hamilton
 L. Rekarte	NPEL	L. Rekarte
 La Algalia	NPEL	La Algalia
@@ -4034,12 +5337,24 @@ La voz de Galicia	NPEL	La voz de Galicia
 La Voz de Galicia	NPFS	La Voz de Galicia
 La voz dormida	NPEL	La voz dormida
 Labacolla	NPEL	Labacolla
+Labileno	NPEL	Labileno
 Lab	NPEL	Lab
+Labopal	NPEL	Labopal
 Laboratorio de Sanidade Exterior de Vigo	NPMS	Laboratorio de Sanidade Exterior de Vigo
+Lacerol	NPEL	Lacerol
+Lacimen	NPEL	Lacimen
+Lacipil	NPEL	Lacipil
+Lacrilube	NPEL	Lacrilube
+Lacryvisc	NPEL	Lacryvisc
+Lactisona	NPEL	Lactisona
+Lactoferrina	NPEL	Lactoferrina
+Lactofilus	NPEL	Lactofilus
+Lactulosa	NPEL	Lactulosa
 Lage Tuñas	NPEL	Lage Tuñas
 Lage	NPEL	Lage
 Lago	NPMS	Lago
 Laíño	NPEL	Laíño
+Lake	NPEL	Lake
 Lalín-A Estrada	NPEL	Lalín-A Estrada
 Lalín	NPEL	Lalín
 Lalín	NPMS	Lalín
@@ -4050,10 +5365,20 @@ Lalo Gutiérrez	NPML	Lalo Gutiérrez
 Lalo	NPML	Lalo
 Lamas	NPEL	Lamas
 Lameiro	NPMS	Lameiro
+Lamictal	NPEL	Lamictal
+Lamisil	NPEL	Lamisil
+Lamman	NPEL	Lamman
+Lampren	NPEL	Lampren
+Lanacordin	NPEL	Lanacordin
 Láncara	NPEL	Láncara
 Lancelot	NPML	Lancelot
+Landau	NPEL	Landau
 Landín	NPEL	Landín
+Lanirapid	NPEL	Lanirapid
 La	NPFS	La
+Lansoprazol	NPEL	Lansoprazol
+Lantanon	NPEL	Lantanon
+Lantus	NPEL	Lantus
 Lanzarote	NPEL	Lanzarote
 Lapurdi	NPEL	Lapurdi
 Lara	NPFL	Lara
@@ -4061,14 +5386,25 @@ Lara	NPFS	Lara
 Laraño	NPEL	Laraño
 Laraño	NPMS	Laraño
 Laredo	NPEL	Laredo
+Largactil	NPEL	Largactil
+Largatrex	NPEL	Largatrex
+Lariam	NPEL	Lariam
+Larrey	NPEL	Larrey
 Las Cancelas	NPEL	Las Cancelas
 Las Cancelas	NPFP	Las Cancelas
+Lasain	NPEL	Lasain
+Lasa	NPEL	Lasa
+Lasègue	NPEL	Lasègue
 laSexta	NPEL	laSexta
+Lastet	NPEL	Lastet
+Laudano	NPEL	Laudano
 Laura	NPFL	Laura
 Laura	NPFS	Laura
 Laureano Oubiña	NPML	Laureano Oubiña
 Laureano	NPML	Laureano
 Laureano	NPMS	Laureano
+Lauren	NPEL	Lauren
+Laurimic	NPEL	Laurimic
 Lavacolla	NPEL	Lavacolla
 Laza	NPEL	Laza
 Lázaro Fernández	NPML	Lázaro Fernández
@@ -4079,8 +5415,12 @@ Le Monde	NPEL	Le Monde
 League of Legends	NPES	League of Legends
 Leandro	NPML	Leandro
 Leavy	NPEL	Leavy
+Lebopride	NPEL	Lebopride
 Lebrú	NPML	Lebrú
 Lecer	NPEL	Lecer
+Lecibral	NPEL	Lecibral
+Lecimar	NPEL	Lecimar
+Lederfolin	NPEL	Lederfolin
 Leeds	NPEL	Leeds
 Lei 11/1992	NPFS	Lei 11/1992
 Lei de Edificación	NPFS	Lei de Edificación
@@ -4091,7 +5431,10 @@ Leiceaga	NPEL	Leiceaga
 Leicester	NPEL	Leicester
 Leira	NPEL	Leira
 Leis Fidalgo	NPEL	Leis Fidalgo
+Lelievre	NPEL	Lelievre
+Lema	NPEL	Lema
 Lendoiro	NPEL	Lendoiro
+Lentoquine	NPEL	Lentoquine
 Leo DiCaprio	NPMS	Leo DiCaprio
 Leonardo da Vinci	NPMS	Leonardo da Vinci
 Leonardo di Caprio	NPML	Leonardo di Caprio
@@ -4106,47 +5449,93 @@ Leo	NPMS	Leo
 Leopoldina	NPFL	Leopoldina
 Leopoldo	NPML	Leopoldo
 Leopoldo	NPMS	Leopoldo
+Leplat	NPEL	Leplat
+Leponex	NPEL	Leponex
+Lercadip	NPEL	Lercadip
+Lercel	NPEL	Lercel
+Lergocil	NPEL	Lergocil
+Leriche	NPEL	Leriche
 Lerma	NPEL	Lerma
+Lerzam	NPEL	Lerzam
 Lesa	NPEL	Lesa
+Lescol	NPEL	Lescol
 Leticia Costas	NPFL	Leticia Costas
 Leticia	NPFS	Leticia
 Letitia	NPFS	Letitia
 Letizia	NPFL	Letizia
+Leukeran	NPEL	Leukeran
 Levante	NPEL	Levante
+Levelina	NPEL	Levelina
+Levemir	NPEL	Levemir
+Levodopa	NPEL	Levodopa
+Levothroid	NPEL	Levothroid
+Levotuss	NPEL	Levotuss
 Lewis Coser	NPML	Lewis Coser
 Lewis Gomourean	NPML	Lewis Gomourean
 Lewis Hamilton	NPML	Lewis Hamilton
+Lewy	NPEL	Lewy
+Lexatin	NPEL	Lexatin
+Lexxema	NPEL	Lexxema
 Ley Helmes-Burton	NPFS	Ley Helmes-Burton
+Leyden	NPEL	Leyden
+Leydig	NPEL	Leydig
 Leyma-Lactaria	NPMS	Leyma-Lactaria
 Leyma	NPEL	Leyma
 Líbano	NPEL	Líbano
+Libradin	NPEL	Libradin
 Libro Branco de Enerxía	NPMS	Libro Branco de Enerxía
 Libro de Oro de a Cámara de Santiago	NPMS	Libro de Oro de a Cámara de Santiago
 Libros	NPMS	Libros
+Lichtenstein	NPEL	Lichtenstein
+Lidaltrin	NPEL	Lidaltrin
 Lidia Taboada	NPFS	Lidia Taboada
 Lidia	NPFL	Lidia
 Lidia	NPFS	Lidia
 Limia	NPEL	Limia
+Limovan	NPEL	Limovan
 Limpiezas Torre	NPEL	Limpiezas Torre
 Limpiezas Torre	NPFS	Limpiezas Torre
+Lincil	NPEL	Lincil
 Lindín	NPEL	Lindín
 Lindsay Kemp	NPML	Lindsay Kemp
+Linitul	NPEL	Linitul
 Lino	NPML	Lino
+Lioresal	NPEL	Lioresal
+Liparison	NPEL	Liparison
+Lipemol	NPEL	Lipemol
+Liplat	NPEL	Liplat
+Lipociden	NPEL	Lipociden
+Lipolac	NPEL	Lipolac
+Liposcler	NPEL	Liposcler
+Liposit	NPEL	Liposit
+Liquifilm	NPEL	Liquifilm
+Liquipom	NPEL	Liquipom
 Lisa	NPFS	Lisa
 Lisardo	NPMS	Lisardo
 Lisboa	NPEL	Lisboa
+Lisinopril	NPEL	Lisinopril
+Listran	NPEL	Listran
 Liverpool	NPEL	Liverpool
+Livocab	NPEL	Livocab
 Livorno	NPEL	Livorno
+Lixacol	NPEL	Lixacol
 Lizarra	NPEL	Lizarra
 Llamazares	NPEL	Llamazares
 Lleida	NPEL	Lleida
 Lluch	NPEL	Lluch
 Lo que el viento se llevó	NPEL	Lo que el viento se llevó
 Lobeira	NPEL	Lobeira
+Lobivon	NPEL	Lobivon
 Lobos Brancos	NPEL	Lobos Brancos
+Lobre	NPEL	Lobre
+Locetar	NPEL	Locetar
 Lode	NPEL	Lode
+Loderm	NPEL	Loderm
+Lofton	NPEL	Lofton
+Logimax	NPEL	Logimax
 Lois Pérez Castrillo	NPML	Lois Pérez Castrillo
 Lois	NPML	Lois
+Loitin	NPEL	Loitin
 Lojane	NPEL	Lojane
 Lola Baldrich	NPFL	Lola Baldrich
 Lola Beccaria	NPFL	Lola Beccaria
@@ -4166,9 +5555,15 @@ Loli	NPFS	Loli
 Lolita	NPFS	Lola
 Lolita	NPFS	Lolita
 LOL	NPMS	LOL
+Lomexin	NPEL	Lomexin
+Lomper	NPEL	Lomper
 Londres	NPEL	Londres
+Loniten	NPEL	Loniten
 Lo	NPMS	Lo
 Lópe	NPEL	Lópe
+Loperamida	NPEL	Loperamida
+Loperan	NPEL	Loperan
+Loperkey	NPEL	Loperkey
 López Abella	NPEL	López Abella
 López Aguilar	NPEL	López Aguilar
 López Alegría	NPEL	López Alegría
@@ -4225,9 +5620,15 @@ López White	NPEL	López White
 López Zubero	NPEL	López Zubero
 López	NPEL	López
 López	NPMS	López
+Lopid	NPEL	Lopid
+Lopresor	NPEL	Lopresor
+Loramet	NPEL	Loramet
+Lorazepam	NPEL	Lorazepam
 Lorca	NPEL	Lorca
 Lorena	NPFS	Lorena
 Lorenzo	NPML	Lorenzo
+Lormetazepam	NPEL	Lormetazepam
+Lorraine	NPEL	Lorraine
 Los Angeles Daily News	NPMS	Los Angeles Daily News
 Los cuentos de Canterbury	NPEL	Los cuentos de Canterbury
 Los juegos de el hambre	NPEL	Los juegos de el hambre
@@ -4237,7 +5638,10 @@ Los miserables	NPEL	Los miserables
 Los Verdes-Las Izquierdas de los Pueblos	NPEL	Los Verdes-Las Izquierdas de los Pueblos
 Los Verdes	NPMP	Los Verdes
 Losada	NPEL	Losada
+Losalen	NPEL	Losalen
+Losec	NPEL	Losec
 Losey	NPEL	Losey
+Losferron	NPEL	Losferron
 Louis Gentile	NPML	Louis Gentile
 Louis	NPML	Louis
 Lourdes Díaz	NPFL	Lourdes Díaz
@@ -4249,13 +5653,21 @@ Lourdes Muñoz Santamaría	NPFL	Lourdes Muñoz Santamaría
 Lourdes	NPFS	Lourdes
 Lourenzo	NPML	Lourenzo
 Lourizán	NPEL	Lourizán
+Lovastatina	NPEL	Lovastatina
+Loven	NPEL	Loven
+Löwenstein	NPEL	Löwenstein
 Loxse	NPFS	Loxse
 Loyola de Palacio	NPEL	Loyola de Palacio
 LP	NCMP	long play
 LP	NCMS	long play
 Luar en a Lubre	NPEL	Luar en a Lubre
 Luar	NPEL	Luar
+Luase	NPEL	Luase
+Lubricante	NPEL	Lubricante
+Lubrifilm	NPEL	Lubrifilm
+Lubrilax	NPEL	Lubrilax
 Lucas	NPML	Lucas
+Lucenfal	NPEL	Lucenfal
 Lucha	NPFS	Lucha
 Luchino Visconti	NPML	Luchino Visconti
 Luciana	NPFS	Luciana
@@ -4265,6 +5677,8 @@ Lucía	NPFS	Lucía
 Lucinda	NPFL	Lucinda
 Luci	NPFS	Luci
 Lucí	NPFS	Lucí
+Luc	NPEL	Luc
+Ludiomil	NPEL	Ludiomil
 Ludolfo Paramio	NPML	Ludolfo Paramio
 Lugo	NPEL	Lugo
 Lugo	NPMS	Lugo
@@ -4285,26 +5699,44 @@ Luisito	NPML	Luisito
 Luis	NPML	Luis
 Luís	NPML	Luís
 Luis	NPMS	Luis
+Lumigan	NPEL	Lumigan
+Luminaletas	NPEL	Luminaletas
+Luminal	NPEL	Luminal
+Lundiran	NPEL	Lundiran
+Lupidon	NPEL	Lupidon
+Luramon	NPEL	Luramon
 Lustres Rivas	NPEL	Lustres Rivas
 Luton	NPEL	Luton
 Luxemburgo	NPEL	Luxemburgo
 Luzane	NPEL	Luzane
 Luzani	NPEL	Luzani
 Luz	NPFS	Luz
+Luzone	NPEL	Luzone
 Lydia	NPFS	Lydia
+Lymetel	NPEL	Lymetel
+Lyrica	NPEL	Lyrica
 M. Bartoli	NPEL	M. Bartoli
 M. Rivas	NPEL	M. Rivas
 M. Santalices	NPEL	M. Santalices
 M. Webber	NPEL	M. Webber
 M. X. Queizán	NPEL	M. X. Queizán
+Maalox	NPEL	Maalox
 Mabel Lozano	NPFL	Mabel Lozano
 Mabel Pérez	NPFL	Mabel Pérez
 Mabel Rivera	NPFL	Mabel Rivera
+Mabogastrol	NPEL	Mabogastrol
 Maca	NPFS	Maca
 Macario	NPML	Macario
+MacBurney	NPEL	MacBurney
+Macdonald	NPEL	Macdonald
 Maceda	NPEL	Maceda
 Macedonia	NPEL	Macedonia
 Maceiras	NPMS	Maceiras
+Macrosil	NPEL	Macrosil
+Madden	NPEL	Madden
+Maddrey	NPEL	Maddrey
+Madelung	NPEL	Madelung
+Madopar	NPEL	Madopar
 Madras	NPEL	Madras
 Madrid-autonomías	NPEL	Madrid-autonomías
 Madrid	NPEL	Madrid
@@ -4312,7 +5744,15 @@ Madrid	NPMS	Madrid
 Magariños	NPEL	Magariños
 Magdalena	NPEL	Magdalena
 Maghreb Arab Press	NPFS	Maghreb Arab Press
+Magill	NPEL	Magill
+Magion	NPEL	Magion
 Magisterio	NPEL	Magisterio
+Magnay	NPEL	Magnay
+Magnesia	NPEL	Magnesia
+Magnesioboi	NPEL	Magnesioboi
+Magnesium	NPEL	Magnesium
+Magnogene	NPEL	Magnogene
+Magnurol	NPEL	Magnurol
 Mahía	NPEL	Mahía
 Maia	NPFS	Maia
 Maica	NPFS	Maica
@@ -4320,15 +5760,21 @@ Mailoc	NPML	Mailoc
 Maira	NPFS	Maira
 Maitechu	NPFS	Maitechu
 Maite	NPFS	Maite
+Majeptil	NPEL	Majeptil
 Málaga	NPEL	Málaga
+Malarone	NPEL	Malarone
 Maldo	NPMS	Maldo
 Malina Mala	NPEL	Malina Mala
 Mallorca	NPEL	Mallorca
+Mallory	NPEL	Mallory
+Mallory-Weiss	NPEL	Mallory-Weiss
 Malta	NPEL	Malta
 Mamadou Kane	NPML	Mamadou Kane
 Manchester	NPEL	Manchester
 Mandela	NPEL	Mandela
+Manerix	NPEL	Manerix
 Manhattan	NPEL	Manhattan
+Manidon	NPEL	Manidon
 Manoel	NPML	Manoel
 Manolo de Viaño	NPMS	Manolo de Viaño
 Manolo	NPML	Manolo
@@ -4336,6 +5782,7 @@ Manolo	NPMS	Manolo
 Ma	NPFS	Ma
 Mans Unidas de Santiago	NPEL	Mans Unidas de Santiago
 Mans Unidas	NPEL	Mans Unidas
+Mantoux	NPEL	Mantoux
 Manu González	NPMS	Manu González
 Manuel Abeledo	NPML	Manuel Abeledo
 Manuel Cabezas	NPML	Manuel Cabezas
@@ -4371,6 +5818,8 @@ Marca digital	NPMS	Marca digital
 Marcela	NPFS	Marcela
 Marcelina	NPFL	Marcelina
 Marcelino	NPML	Marcelino
+Marcen	NPEL	Marcen
+Marchetti	NPEL	Marchetti
 Marcial Magdalena Torres	NPML	Marcial Magdalena Torres
 Marcial Magdalena	NPML	Marcial Magdalena
 Marcial	NPML	Marcial
@@ -4381,6 +5830,7 @@ Marcos Aguilera Gómez	NPMS	Marcos Aguilera Gómez
 Marcos Budiño López	NPMS	Marcos Budiño López
 Marcos	NPML	Marcos
 Marcos	NPMS	Marcos
+Marfan	NPEL	Marfan
 Marga Alborés	NPFL	Marga Alborés
 Marga Massanet	NPFL	Marga Massanet
 Marga Miguens	NPFL	Marga Miguens
@@ -4482,6 +5932,9 @@ Marquitos	NPMS	Marquitos
 Marrocos	NPEL	Marrocos
 Marrozos	NPEL	Marrozos
 Marrozos	NPMS	Marrozos
+Marshall-Marchetti	NPEL	Marshall-Marchetti
+Marshall	NPEL	Marshall
+Marsilid	NPEL	Marsilid
 Marta Diéguez Rodríguez	NPFL	Marta Diéguez Rodríguez
 Marta González Manchón	NPFL	Marta González Manchón
 Marta González	NPFL	Marta González
@@ -4521,11 +5974,13 @@ Maruxa	NPFS	Maruxa
 Maruxiña	NPFL	Maruxiña
 Mary Robinson	NPFL	Mary Robinson
 Mary	NPFL	Mary
+Masdil	NPEL	Masdil
 Maside	NPEL	Maside
 Masma	NPEL	Masma
 Masó	NPEL	Masó
 Massimo DÁlema	NPML	Massimo DÁlema
 Máster de Administración Financeira e Tributaria	NPMS	Máster de Administración Financeira e Tributaria
+Mastical	NPEL	Mastical
 Matán Vilnaí	NPEL	Matán Vilnaí
 Matanzas	NPEL	Matanzas
 Mateo Coiro	NPMS	Mateo Coiro
@@ -4535,21 +5990,35 @@ Materiales Rianxo	NPEL	Materiales Rianxo
 Materiales Rianxo	NPMS	Materiales Rianxo
 Materno Infantil	NPMS	Materno Infantil
 Matilde	NPFL	Matilde
+Matti	NPEL	Matti
+Matti-Russe	NPEL	Matti-Russe
 Matusa	NPFS	Matusa
 Matutes	NPEL	Matutes
 Mau	NPMS	Mau
 Mauricio	NPML	Mauricio
 Mauro	NPML	Mauro
 Mauro	NPMS	Mauro
+Maxalt	NPEL	Maxalt
+Maxidex	NPEL	Maxidex
 Maximinio Zumalave	NPML	Maximinio Zumalave
 Maximino	NPML	Maximino
 Máximo García	NPML	Máximo García
+Maxitrol	NPEL	Maxitrol
 Max	NPML	Max
+Maygace	NPEL	Maygace
+Maynar	NPEL	Maynar
 Mayor Oreja	NPEL	Mayor Oreja
 Mayor Zaragoza	NPEL	Mayor Zaragoza
 Mayor	NPEL	Mayor
 Mayoyo	NPEL	Mayoyo
+McBurney	NPEL	McBurney
+Mcfarland	NPEL	Mcfarland
 McLaren	NPEL	McLaren
+Mebendan	NPEL	Mebendan
+Meckel	NPEL	Meckel
+Mectizan	NPEL	Mectizan
+Medenorex	NPEL	Medenorex
+Mederreumol	NPEL	Mederreumol
 Medicina	NPEL	Medicina
 Médicos de o Mundo	NPEL	Médicos de o Mundo
 Médicos Internos Residentes	NPMP	Médicos Internos Residentes
@@ -4559,18 +6028,31 @@ Medio Ambiente	NPEL	Medio Ambiente
 Mediterráneo	NPMS	Mediterráneo
 Medosevac	NPEL	Medosevac
 Medtec	NPMS	Medtec
+Megamilbedoce	NPEL	Megamilbedoce
+Megefren	NPEL	Megefren
+Meiact	NPEL	Meiact
+Meigs	NPEL	Meigs
 Meira	NPEL	Meira
 Meixide Prado	NPEL	Meixide Prado
 Meixoeiro	NPMS	Meixoeiro
+Mejoral	NPEL	Mejoral
 Mejuto Leis, Vicente	NPML	Mejuto Leis, Vicente
 Mejuto	NPEL	Mejuto
 Melchor	NPML	Melchor
+Meleril	NPEL	Meleril
+Melfalan	NPEL	Melfalan
 Melgaso	NPEL	Melgaso
+Meliane	NPEL	Meliane
 Meliá	NPFS	Meliá
 Melide	NPEL	Melide
 Melilla	NPEL	Melilla
 Melón	NPEL	Melón
+Meloxicam	NPEL	Meloxicam
 Memento	NPEL	Memento
+Menaderm	NPEL	Menaderm
+Menalgil	NPEL	Menalgil
+Menaven	NPEL	Menaven
+Mencalisvit	NPEL	Mencalisvit
 Menchu Lamas	NPFL	Menchu Lamas
 Menchu	NPFL	Menchu
 Menchu	NPFS	Menchu
@@ -4580,16 +6062,24 @@ Menéndez Flores	NPEL	Menéndez Flores
 Menéndez Pidal	NPEL	Menéndez Pidal
 Menéndez Valdés	NPEL	Menéndez Valdés
 Menéndez	NPEL	Menéndez
+Ménière	NPEL	Ménière
+Mentis	NPEL	Mentis
+Mepacrine	NPEL	Mepacrine
 Mercado Común del Sur	NPMS	Mercado Común del Sur
+Mercaptopurina	NPEL	Mercaptopurina
 Mercash Sar	NPEL	Mercash Sar
 Mercedes Peón	NPFL	Mercedes Peón
 Mercedes	NPFL	Mercedes
 Mercé	NPFL	Mercé
 Merche	NPFS	Merche
+Merck	NPEL	Merck
 Mercosur	NPMS	Mercado Común del Sur
 Mérida	NPEL	Mérida
+Meriestra	NPEL	Meriestra
+Merigest	NPEL	Merigest
 Merino	NPEL	Merino
 Merlín	NPML	Merlín
+Meronem	NPEL	Meronem
 Merrill Lynch	NPEL	Merrill Lynch
 Mes de a Cultura	NPMS	Mes de a Cultura
 Mesa de a Cámara	NPFS	Mesa de a Cámara
@@ -4597,11 +6087,30 @@ Mesa por a Normalización Lingüística	NPFS	Mesa por a Normalización Lingüís
 Mesa Sectorial de o Ensino	NPFS	Mesa Sectorial de o Ensino
 Mesonero	NPEL	Mesonero
 Mesoneros	NPEL	Mesoneros
+Mestinon	NPEL	Mestinon
+Metadona	NPEL	Metadona
+Metamizol	NPEL	Metamizol
+Metamucil	NPEL	Metamucil
+Metasedin	NPEL	Metasedin
+Meteoril	NPEL	Meteoril
+Metformina	NPEL	Metformina
+Methergin	NPEL	Methergin
 Métodos de estatística e de investigación operativa	NPMS	Métodos de estatística e de investigación operativa
+Metopirone	NPEL	Metopirone
+Metotrexato	NPEL	Metotrexato
+Metronidazol	NPEL	Metronidazol
+Mevacor	NPEL	Mevacor
+Mevasterol	NPEL	Mevasterol
 México	NPEL	México
+Mexitil	NPEL	Mexitil
+Meyerson	NPEL	Meyerson
 Mi gran boda gitana	NPEL	Mi gran boda gitana
 Mi lucha	NPEL	Mi lucha
+Miacalcic	NPEL	Miacalcic
 Miami	NPEL	Miami
+Micardis	NPEL	Micardis
+Micardisplus	NPEL	Micardisplus
+Micetal	NPEL	Micetal
 Michael Atiyah	NPML	Michael Atiyah
 Michael Ballack	NPML	Michael Ballack
 Michael Caine	NPML	Michael Caine
@@ -4652,8 +6161,15 @@ Michel Odent	NPML	Michel Odent
 Michel Platini	NPML	Michel Platini
 Michel	NPML	Michel
 Míchel	NPML	Míchel
+Micoespec	NPEL	Micoespec
+Micosona	NPEL	Micosona
+Micoticum	NPEL	Micoticum
+Micralax	NPEL	Micralax
 Microsoft	NPEL	Microsoft
+Midacina	NPEL	Midacina
+Miflonide	NPEL	Miflonide
 Mig	NPEL	Mig
+Migraleve	NPEL	Migraleve
 Miguel Ángel Capón	NPML	Miguel Ángel Capón
 Miguel Ángel	NPML	Miguel Ángel
 Miguel Chana Martín	NPML	Miguel Chana Martín
@@ -4680,7 +6196,9 @@ Mikel González González de Heredia	NPML	Mikel González González de Heredia
 Mikel Ibarquen Argala	NPML	Mikel Ibarquen Argala
 Mikel Prieto	NPML	Mikel Prieto
 Mikel Sueskun	NPML	Mikel Sueskun
+Mikelan	NPEL	Mikelan
 Mike	NPML	Mike
+Mikulicz	NPEL	Mikulicz
 Mil nueve	NPEL	Mil nueve
 Miladies	NPEL	Miladies
 Miladies	NPFP	Miladies
@@ -4688,13 +6206,20 @@ Milán	NPEL	Milán
 Mila	NPFS	Mila
 Milladoiro	NPEL	Milladoiro
 Milladoiro	NPMS	Milladoiro
+Miller	NPEL	Miller
+Milles	NPEL	Milles
+Milligan-Morgan	NPEL	Milligan-Morgan
+Milligan	NPEL	Milligan
 Milo Taboada	NPML	Milo Taboada
 Milosevic	NPEL	Milosevic
+Milrosina	NPEL	Milrosina
 Milstein	NPEL	Milstein
 Milucha	NPFL	Milucha
+Mingazzini	NPEL	Mingazzini
 Mingo	NPEL	Mingo
 Minguiños	NPML	Minguiños
 Minia	NPFL	Minia
+Minipres	NPEL	Minipres
 Ministerio de Administracións Públicas	NPMS	Ministerio de Administracións Públicas
 Ministerio de Agricultura	NPMS	Ministerio de Agricultura
 Ministerio de Economía	NPMS	Ministerio de Economía
@@ -4707,34 +6232,59 @@ Ministerio de Sanidade	NPMS	Ministerio de Sanidade
 Ministerio Federal de Asuntos Exteriores	NPMS	Ministerio Federal de Asuntos Exteriores
 Ministerio para as Administracións Públicas	NPMS	Ministerio para as Administracións Públicas
 Ministerio	NPMS	Ministerio
+Minitran	NPEL	Minitran
+Minkowski-Chauffard	NPEL	Minkowski-Chauffard
+Minkowski	NPEL	Minkowski
 Minnesotta	NPEL	Minnesotta
+Minocin	NPEL	Minocin
+Minodiab	NPEL	Minodiab
+Minoton	NPEL	Minoton
+Minurin	NPEL	Minurin
 Miño	NPMS	Miño
 Mio Cid	NPEL	Mio Cid
+Miocrin	NPEL	Miocrin
+Miol	NPEL	Miol
+Mio-relax	NPEL	Mio-relax
 Miquel Iceta	NPML	Miquel Iceta
 Mira Lema	NPFL	Mira Lema
 Miranda	NPEL	Miranda
+Mirapexin	NPEL	Mirapexin
 Miras	NPEL	Miras
+Mirazul	NPEL	Mirazul
 Mireya Moscoso	NPFL	Mireya Moscoso
+Mirizzi	NPEL	Mirizzi
 MIR	NCMP	médico interno residente
 MIR	NCMS	médico interno residente
 Mir	NPMS	Mir
+Mirtazapina	NPEL	Mirtazapina
 Missa Salisburgensis	NPEL	Missa Salisburgensis
 Mitch	NPMS	Mitch
+Miten	NPEL	Miten
 Mitrovica	NPEL	Mitrovica
 Mitsubishi Evo Nueve	NPMS	Mitsubishi Evo Nueve
+Mixtard	NPEL	Mixtard
+Mizolen	NPEL	Mizolen
 Mladjan Dinkic	NPML	Mladjan Dinkic
 Mme. Bovary	NPFL	Mme. Bovary
 Moaña	NPEL	Moaña
+Modane	NPEL	Modane
 Modesto	NPML	Modesto
 Modesto	NPMS	Modesto
+Modiodal	NPEL	Modiodal
+Modus	NPEL	Modus
 Moimenta	NPFS	Moimenta
 Moisés	NPML	Moisés
 Mokasin	NPEL	Mokasin
 Molina	NPEL	Molina
 Molina	NPFS	Molina
+Molsidain	NPEL	Molsidain
+Momen	NPEL	Momen
+Momentol	NPEL	Momentol
+Momicine	NPEL	Momicine
 Momo	NPML	Momo
 Mónaco	NPEL	Mónaco
 Moncho	NPML	Moncho
+Mönckeberg	NPEL	Mönckeberg
 Moncloa	NPEL	Moncloa
 Mondoñedo	NPEL	Mondoñedo
 Mondragón	NPEL	Mondragón
@@ -4744,6 +6294,11 @@ Monforte	NPMS	Monforte
 Mónica Ridruejo	NPFL	Mónica Ridruejo
 Mónica	NPFL	Mónica
 Mónica	NPFS	Mónica
+Monocid	NPEL	Monocid
+Monolitum	NPEL	Monolitum
+Mononitrato	NPEL	Mononitrato
+Monospot	NPEL	Monospot
+Monotard	NPEL	Monotard
 Monsanto	NPEL	Monsanto
 Monserrat	NPFL	Monserrat
 Montalbán	NPMS	Montalbán
@@ -4764,38 +6319,65 @@ Montero	NPEL	Montero
 Monterrei	NPEL	Monterrei
 Monterroso	NPEL	Monterroso
 Montevideo	NPEL	Montevideo
+Montgomery	NPEL	Montgomery
 Montilla	NPEL	Montilla
 Montoro	NPEL	Montoro
 Montoya	NPMS	Montoya
 Montse	NPFS	Montse
+Monurol	NPEL	Monurol
 Moore	NPEL	Moore
 Morán	NPEL	Morán
 Moreiras	NPEL	Moreiras
+Morgagni	NPEL	Morgagni
+Morgan	NPEL	Morgan
 Morina	NPEL	Morina
+Morison	NPEL	Morison
+Morrison	NPEL	Morrison
 Morte en Venecia	NPEL	Morte en Venecia
+Morton	NPEL	Morton
 Moscoca	NPEL	Moscoca
 Moscoso	NPEL	Moscoso
 Moscova	NPEL	Moscova
+Mosegor	NPEL	Mosegor
 Mos	NPEL	Mos
 Mosquera Pazos	NPEL	Mosquera Pazos
 Mosquera Rey	NPEL	Mosquera Rey
 Mosquera	NPEL	Mosquera
+Motens	NPEL	Motens
+Motilium	NPEL	Motilium
+Motivan	NPEL	Motivan
+Motosol	NPEL	Motosol
 Mourente	NPEL	Mourente
+Movalis	NPEL	Movalis
 Movemento de Solidariedade con Cuba	NPMS	Movemento de Solidariedade con Cuba
 Movemento por a Paz , o Desarmamento e a Liberdade	NPMS	Movemento por a Paz , o Desarmamento e a Liberdade
+Movicol	NPEL	Movicol
 Movimiento por la Paz, el Desarme y la Libertad	NPMS	Movimiento por la Paz, el Desarme y la Libertad
+Moxon	NPEL	Moxon
 Mozart	NPEL	Mozart
 MPDL	NPMS	Movimiento por la Paz, el Desarme y la Libertad
 Mrcajevci	NPEL	Mrcajevci
 MS T	NPEL	MS T
+Mst	NPEL	Mst
 M.T.F.	NPEL	M.T.F.
+Mucibron	NPEL	Mucibron
+Muciplasma	NPEL	Muciplasma
+Mucoaliv	NPEL	Mucoaliv
+Mucofluid	NPEL	Mucofluid
+Mucolibex	NPEL	Mucolibex
+Mucosan	NPEL	Mucosan
+Mucovital	NPEL	Mucovital
 Muebles Galicia	NPEL	Muebles Galicia
 Múgica Herzog	NPEL	Múgica Herzog
 Múgica	NPEL	Múgica
 Muguruza	NPMS	Muguruza
 Muíños	NPEL	Muíños
+Muir-Torre	NPEL	Muir-Torre
 Mujeres y Hombres	NPEL	Mujeres y Hombres
+Multibionta	NPEL	Multibionta
+Multi	NPEL	Multi
 Mu	NPMS	Mu
+Muntel	NPEL	Muntel
 Muñiz	NPEL	Muñiz
 Muñoz Medina	NPEL	Muñoz Medina
 Muñoz Oya	NPEL	Muñoz Oya
@@ -4805,14 +6387,26 @@ Muras	NPEL	Muras
 Murcia	NPEL	Murcia
 Murguía	NPMS	Murguía
 Muriel	NPFS	Muriel
+Murode	NPEL	Murode
 Muros-Noia	NPEL	Muros-Noia
 Muros	NPEL	Muros
 Muros	NPMS	Muros
+Murphy	NPEL	Murphy
 Museo de as Peregrinacións	NPMS	Museo de as Peregrinacións
 Museo de o Prado	NPMS	Museo de o Prado
 Museo Masó	NPML	Museo Masó
+Musken	NPEL	Musken
+Musshof	NPEL	Musshof
+Mutabase	NPEL	Mutabase
 Mutti	NPEL	Mutti
 Muxía	NPEL	Muxía
+Myambutol	NPEL	Myambutol
+Mycospor	NPEL	Mycospor
+Mycostatin	NPEL	Mycostatin
+Myfortic	NPEL	Myfortic
+Myolastan	NPEL	Myolastan
+Myoxam	NPEL	Myoxam
+Mysoline	NPEL	Mysoline
 MySpace	NPEL	MySpace
 N. Abbot	NPEL	N. Abbot
 N-634	NPFS	N-634
@@ -4821,8 +6415,10 @@ Nacional Center For Simulation	NPFS	Nacional Center For Simulation
 Nación	NPFS	Nación
 Nacións Unidas	NPEL	Nacións Unidas
 Nacións Unidas	NPFP	Nacións Unidas
+Nacor	NPEL	Nacor
 Nadie debería morir	NPEL	Nadie debería morir
 Nalini T. Suthenthiraja	NPFL	Nalini T. Suthenthiraja
+Nalion	NPEL	Nalion
 Namibia	NPEL	Namibia
 Nancho Novo	NPML	Nancho Novo
 Nancy	NPFS	Nancy
@@ -4833,6 +6429,11 @@ Naomi Klein	NPFL	Naomi Klein
 Naomi Watts	NPFL	Naomi Watts
 Napoleón	NPML	Napoleón
 Nápoles	NPEL	Nápoles
+Naprilene	NPEL	Naprilene
+Naprosyn	NPEL	Naprosyn
+Naproval	NPEL	Naproval
+Naproxeno	NPEL	Naproxeno
+Naramig	NPEL	Naramig
 Naranjo	NPMS	Naranjo
 Naran	NPMS	Naran
 Narci	NPFS	Narci
@@ -4840,10 +6441,18 @@ Narci	NPMS	Narci
 Narciso Ferreira	NPMS	Narciso Ferreira
 Narciso	NPML	Narciso
 Narciso	NPMS	Narciso
+Nardil	NPEL	Nardil
+Narine	NPEL	Narine
+Nasacort	NPEL	Nasacort
 NASA	NPFS	National Aeronautics and Space Administration
+Nasolina	NPEL	Nasolina
+Nasonex	NPEL	Nasonex
 Natalia	NPFL	Natalia
+Natecal	NPEL	Natecal
 National Aeronautics and Space Administration	NPFS	National Aeronautics and Space Administration
 National Basketball Association	NPFS	National Basketball Association
+Natulan	NPEL	Natulan
+Natusan	NPEL	Natusan
 Navajas	NPEL	Navajas
 Navarra	NPEL	Navarra
 Navegación	NPEL	Navegación
@@ -4851,13 +6460,44 @@ Navia de Suarna	NPEL	Navia de Suarna
 Navidades	NPFP	Navidad
 Navidad	NPEL	Navidad
 Navidad	NPFS	Navidad
+Navixen	NPEL	Navixen
+Navoban	NPEL	Navoban
+Naxpa	NPEL	Naxpa
 Nazaret López	NPFL	Nazaret López
 Nazim Shtino	NPML	Nazim Shtino
 NBA	NPFS	National Basketball Association
+Nealorin	NPEL	Nealorin
+Neatenol	NPEL	Neatenol
+Neblik	NPEL	Neblik
+Nebulcrom	NPEL	Nebulcrom
+Nebulicina	NPEL	Nebulicina
+Necopen	NPEL	Necopen
 Negreira	NPEL	Negreira
+Neisseria	NPEL	Neisseria
 Nelson Mandela	NPML	Nelson Mandela
+Nemactil	NPEL	Nemactil
 Nemesio	NPML	Nemesio
+Neo-analsona	NPEL	Neo-analsona
+Neo-bacitrin	NPEL	Neo-bacitrin
+Neobrufen	NPEL	Neobrufen
+Neocibalena	NPEL	Neocibalena
+Neocolan	NPEL	Neocolan
+Neo-hubber	NPEL	Neo-hubber
+Neo-melubrina	NPEL	Neo-melubrina
+Neomicina	NPEL	Neomicina
+Neopenyl	NPEL	Neopenyl
+Neorecormon	NPEL	Neorecormon
+Neo-rinactive	NPEL	Neo-rinactive
+Neosidantoina	NPEL	Neosidantoina
+Neotensin	NPEL	Neotensin
+Neotigason	NPEL	Neotigason
+Neo-tomizol	NPEL	Neo-tomizol
+Neo-urgenin	NPEL	Neo-urgenin
+Nerdipina	NPEL	Nerdipina
 Nerea	NPFS	Nerea
+Nergadan	NPEL	Nergadan
+Nervinex	NPEL	Nervinex
+Nervobion	NPEL	Nervobion
 Néstor Armesto	NPML	Néstor Armesto
 Néstor Kirchner	NPML	Néstor Kirchner
 Néstor Luján	NPML	Néstor Luján
@@ -4866,11 +6506,17 @@ Néstor Valcárcel	NPML	Néstor Valcárcel
 Néstor	NPML	Néstor
 Netanyahu	NPEL	Netanyahu
 Netscape	NPEL	Netscape
+Neulasta	NPEL	Neulasta
+Neupogen	NPEL	Neupogen
 Neuroloxía	NPEL	Neuroloxía
+Neuromade	NPEL	Neuromade
+Neurontin	NPEL	Neurontin
 New York Daily News	NPMS	New York Daily News
 Newry	NPEL	Newry
 News	NPEL	News
+Nexium	NPEL	Nexium
 Nicanor	NPML	Nicanor
+Nicardipino	NPEL	Nicardipino
 Nick Cave	NPML	Nick Cave
 Nick Clegg	NPML	Nick Clegg
 Nick Ray	NPML	Nick Ray
@@ -4879,6 +6525,8 @@ Nick Waterhouse	NPML	Nick Waterhouse
 Nicolao	NPML	Nicolao
 Nicolás Redondo	NPML	Nicolás Redondo
 Nicolás	NPML	Nicolás
+Nico	NPEL	Nico
+Nielsen	NPEL	Nielsen
 Nietsche	NPEL	Nietsche
 Nieves Cuellar	NPFL	Nieves Cuellar
 Nieves Domínguez	NPFL	Nieves Domínguez
@@ -4886,31 +6534,69 @@ Nieves Herrero	NPFL	Nieves Herrero
 Nieves Lagares	NPFL	Nieves Lagares
 Nieves Vázquez	NPFL	Nieves Vázquez
 Nieves	NPFL	Nieves
+Nifedipino	NPEL	Nifedipino
+Niflactol	NPEL	Niflactol
 NIF	NCMP	número de identificación fiscal
 NIF	NCMS	número de identificación fiscal
 Nigrán	NPEL	Nigrán
 Nikolái Aksenenko	NPML	Nikolái Aksenenko
+Nikolsky	NPEL	Nikolsky
 Nila	NPFS	Nila
+Nimodipino	NPEL	Nimodipino
+Nimotop	NPEL	Nimotop
 Ni	NPMS	Ni
 Niñodaguia	NPEL	Niñodaguia
+Niprina	NPEL	Niprina
 Nis	NPEL	Nis
+Nissen	NPEL	Nissen
+Nissen-Rosseti	NPEL	Nissen-Rosseti
+Nitradisc	NPEL	Nitradisc
+Nitrendipino	NPEL	Nitrendipino
+Nitroderm	NPEL	Nitroderm
+Nitro-dur	NPEL	Nitro-dur
+Nitroplast	NPEL	Nitroplast
+Nivador	NPEL	Nivador
 Nivardo	NPML	Nivardo
 Nixon	NPEL	Nixon
 Noa	NPFS	Noa
+Nobritol	NPEL	Nobritol
 Noceda	NPMS	Noceda
 Nochebuenas	NPFP	Nochebuena
+Noctamid	NPEL	Noctamid
+Nodepe	NPEL	Nodepe
+Nodolfen	NPEL	Nodolfen
 Noelia López	NPFL	Noelia López
 Noelia	NPFL	Noelia
 Noelia	NPFS	Noelia
 Noemí	NPFS	Noemí
 Noé	NPML	Noé
 Nogueira	NPEL	Nogueira
+Noiafren	NPEL	Noiafren
 Noia	NPEL	Noia
+Nolotil	NPEL	Nolotil
+Nolvadex	NPEL	Nolvadex
+Nootropil	NPEL	Nootropil
+Norebox	NPEL	Norebox
+Norfenazin	NPEL	Norfenazin
+Norflok	NPEL	Norflok
+Norfloxacino	NPEL	Norfloxacino
+Norglicem	NPEL	Norglicem
 Noriega Varela	NPEL	Noriega Varela
 Noriega	NPEL	Noriega
+Norlevo	NPEL	Norlevo
 Norma Caballero	NPFS	Norma Caballero
 Norma	NPFS	Norma
+Normicina	NPEL	Normicina
+Normopresil	NPEL	Normopresil
+Normovite	NPEL	Normovite
+Normulen	NPEL	Normulen
+Noroxin	NPEL	Noroxin
+Norpramin	NPEL	Norpramin
+Norprolac	NPEL	Norprolac
 Noruega	NPEL	Noruega
+Norvas	NPEL	Norvas
+Norvectan	NPEL	Norvectan
+Norvir	NPEL	Norvir
 Nosa Señora de a Concepción	NPFL	Nosa Señora de a Concepción
 Nós	NPEL	Nós
 Nostián	NPEL	Nostián
@@ -4918,13 +6604,24 @@ Nota	NPFS	Nota
 Nova Caixa Galicia Banco	NPEL	Nova Caixa Galicia Banco
 Nova Galicia Banco	NPEL	Nova Galicia Banco
 Nova York	NPEL	Nova York
+Novag	NPEL	Novag
 Novas Xeracións de o PP de Galicia	NPFP	Novas Xeracións de o PP de Galicia
+Novek	NPEL	Novek
+Novomix	NPEL	Novomix
 Novoneyra	NPEL	Novoneyra
+Novonorm	NPEL	Novonorm
+Novo	NPEL	Novo
+Novorapid	NPEL	Novorapid
+Novoter	NPEL	Novoter
 Noya	NPEL	Noya
 Núcleo Vello	NPMS	Núcleo Vello
+Nucleo	NPEL	Nucleo
+Nuclosina	NPEL	Nuclosina
 Nuestra Señora de la Esperanza	NPFS	Nuestra Señora de la Esperanza
 Nueva Izquierda	NPEL	Nueva Izquierda
 Nueva Nación	NPEL	Nueva Nación
+Nulacin	NPEL	Nulacin
+Nulcerin	NPEL	Nulcerin
 Núñez Morgades	NPEL	Núñez Morgades
 Núñez	NPEL	Núñez
 Nuria Amat	NPFL	Nuria Amat
@@ -4942,8 +6639,11 @@ Nuria Rodríguez	NPFL	Nuria Rodríguez
 Nuria Varela Portas	NPFL	Nuria Varela Portas
 Nuria	NPFL	Nuria
 Nuria	NPFS	Nuria
+Nuril	NPEL	Nuril
 Nuri	NPFS	Nuri
+Nurofen	NPEL	Nurofen
 N-VI	NPFS	N-VI
+Nyolol	NPEL	Nyolol
 O Barco de Valdeorras	NPEL	O Barco de Valdeorras
 O Barco	NPEL	O Barco
 O Bolo	NPEL	O Bolo
@@ -4983,6 +6683,7 @@ Obras Públicas	NPEL	Obras Públicas
 Observatorio Astrofísico Especial	NPMS	Observatorio Astrofísico Especial
 Observatorio de Kitt Peak	NPMS	Observatorio de Kitt Peak
 Observatorio de o Teide	NPMS	Observatorio de o Teide
+Ocacin	NPEL	Ocacin
 Occidente	NPEL	Occidente
 OCDE	NPFS	Organización para la Cooperación y el Desarrollo Económico
 Ochoa Ledesma	NPEL	Ochoa Ledesma
@@ -4992,8 +6693,14 @@ Octavio Paz	NPML	Octavio Paz
 Octavio San Martín	NPML	Octavio San Martín
 Octavio Vázquez	NPML	Octavio Vázquez
 Octavio	NPML	Octavio
+Octegra	NPEL	Octegra
+Ocubrax 	NPEL	Ocubrax
+Ocuflur	NPEL	Ocuflur
+Oculotect	NPEL	Oculotect
 Oda	NPFS	Oda
+Oddi	NPEL	Oddi
 Oded Ben Ami	NPML	Oded Ben Ami
+Odenil	NPEL	Odenil
 Odontología	NPEL	Odontología
 OEA	NPFS	Organización de Estados Americanos
 Oeste	NPMS	Oeste
@@ -5003,8 +6710,17 @@ Oficina de Presuposto	NPFS	Oficina de Presuposto
 Oficina de Xustificación de a Difusión	NPFS	Oficina de Xustificación de a Difusión
 Oficina Internacional del Trabajo	NPFS	Oficina Internacional del Trabajo
 Oficina Municipal de Atención a o Rural	NPFS	Oficina Municipal de Atención a o Rural
+Oflovir	NPEL	Oflovir
+Ofloxacino 	NPEL	Ofloxacino
 OFM	NPFS	Orden de frailes menores
+Oft 	NPEL	Oft
+Oftacilox	NPEL	Oftacilox
+Oftalar	NPEL	Oftalar
+Oftalmotrim	NPEL	Oftalmotrim
+Oftalmowell 	NPEL	Oftalmowell
+Oftinal	NPEL	Oftinal
 Ogata	NPEL	Ogata
+Ogilvie	NPEL	Ogilvie
 Ohio	NPEL	Ohio
 OIT	NPFS	Oficina Internacional del Trabajo
 Olaia Baleato	NPEL	Olaia Baleato
@@ -5014,6 +6730,7 @@ Olegaria	NPFL	Olegaria
 Olegario	NPML	Olegario
 Oleiros	NPEL	Oleiros
 Olé	NPEL	Olé
+Olfex	NPEL	Olfex
 Olga Fontán	NPFL	Olga Fontán
 Olga Guirao	NPFL	Olga Guirao
 Olga Novo	NPFL	Olga Novo
@@ -5023,6 +6740,9 @@ Olga Varela	NPFL	Olga Varela
 Olga Vilar	NPFL	Olga Vilar
 Olga	NPFL	Olga
 Oliver	NPML	Oliver
+Olmetec	NPEL	Olmetec
+Olmoran 	NPEL	Olmoran
+Omapren	NPEL	Omapren
 Omar Bravo	NPML	Omar Bravo
 Omar Khayyam	NPML	Omar Khayyam
 Omar Moalim	NPML	Omar Moalim
@@ -5030,21 +6750,42 @@ Omar Moussabampi	NPML	Omar Moussabampi
 Omar Reygadas Rojas	NPML	Omar Reygadas Rojas
 Omar Torrijos	NPML	Omar Torrijos
 Omar	NPML	Omar
+Omifin	NPEL	Omifin
+Omnalio	NPEL	Omnalio
 OM	NCFP	onda media
 OM	NCFS	onda media
 Omni, alarma nuclear	NPEL	Omni, alarma nuclear
+Omnic	NPEL	Omnic
+Ompranyt	NPEL	Ompranyt
 OMS	NPFS	Organización Mundial de la Salud
 ONCE	NPFS	Organización Nacional de Ciegos de España
+Onco	NPEL	Onco
+Oncosal	NPEL	Oncosal
 ONG	NCFP	organización no gubernamental
 ONG	NCFS	organización no gubernamental
 ONGS	NCFP	organización no gubernamental
 O	NPMS	O
+Onsenal	NPEL	Onsenal
 ONU	NPFS	Organización de las Naciones Unidas
 OPA	NCFP	oferta pública de adquisición de acciones
 OPA	NCFS	oferta pública de adquisición de acciones
+Opatanol	NPEL	Opatanol
+Openvas	NPEL	Openvas
 OPEP	NPFS	Organización de Países Exportadores de Petróleo
+Opiren 	NPEL	Opiren
 OP	NPFS	Orden de predicadores
+Opobyl	NPEL	Opobyl
+Oponaf	NPEL	Oponaf
+Optalidon	NPEL	Optalidon
+Optovite	NPEL	Optovite
+Optrex	NPEL	Optrex
+Optruma	NPEL	Optruma
+Oraldine	NPEL	Oraldine
+Oralsone 	NPEL	Oralsone
+Oralsuero	NPEL	Oralsuero
+Orap	NPEL	Orap
 Orballo de media noite	NPEL	Orballo de media noite
+Orbenin 	NPEL	Orbenin
 Orde de Santiago	NPFS	Orde de Santiago
 Orden de frailes menores	NPFS	Orden de frailes menores
 Orden de predicadores	NPFS	Orden de predicadores
@@ -5054,6 +6795,8 @@ Ordes	NPEL	Ordes
 Ordóñez	NPEL	Ordóñez
 Orense	NPEL	Orense
 Orestes Suárez	NPML	Orestes Suárez
+Orfidal	NPEL	Orfidal
+Orgametril	NPEL	Orgametril
 Organización de as Nacións Unidas para a Educación a Ciencia e a Cultura	NPFS	Organización de as Nacións Unidas para a Educación a Ciencia e a Cultura
 Organización de Estados Americanos	NPFS	Organización de Estados Americanos
 Organización de las Naciones Unidas	NPFS	Organización de las Naciones Unidas
@@ -5070,6 +6813,7 @@ Organización para a Seguridade e Cooperación Europea	NPFS	Organización para a
 Organización para la Cooperación y el Desarrollo Económico	NPFS	Organización para la Cooperación y el Desarrollo Económico
 Organización	NPEL	Organización
 Orientación	NPEL	Orientación
+Orimeten	NPEL	Orimeten
 Orlandiño	NPML	Orlando
 Orljane	NPEL	Orljane
 Ornella Mutti	NPFL	Ornella Mutti
@@ -5082,6 +6826,8 @@ Ortega y Gasset	NPEL	Ortega y Gasset
 Ortega	NPEL	Ortega
 Ortigueira	NPEL	Ortigueira
 Ortodisca	NPEL	Ortodisca
+Ortolani	NPEL	Ortolani
+Orudis	NPEL	Orudis
 Orzamentos Xerais de o Estado	NPMP	Orzamentos Xerais de o Estado
 Orzán	NPEL	Orzán
 Os Ánxeles	NPEL	Os Ánxeles
@@ -5094,14 +6840,33 @@ OSA	NPFS	Orden de San Agustín
 Oscar	NPMS	Oscar
 Óscar	NPMS	Óscar
 Oseira	NPEL	Oseira
+Oseototal	NPEL	Oseototal
+Osler	NPEL	Osler
 Oslo	NPEL	Oslo
+Ospor 	NPEL	Ospor
+Osserman	NPEL	Osserman
+Ossopan	NPEL	Ossopan
+Osteobion	NPEL	Osteobion
+Osteomerck	NPEL	Osteomerck
+Osteopor	NPEL	Osteopor
+Ostetan	NPEL	Ostetan
+Osteum	NPEL	Osteum
+Ostine 	NPEL	Ostine
+Ostram	NPEL	Ostram
+Osvical	NPEL	Osvical
 OTAN	NPFS	Organización del Tratado del Atlántico Norte
 Otegi	NPEL	Otegi
 Otero Pedrayo	NPEL	Otero Pedrayo
 Otero	NPEL	Otero
 Otilia	NPFL	Otilia
 OTI	NPFS	Organización de Televisiones Iberoamericanas
+Otix	NPEL	Otix
 OT	NPEL	OT
+Otocerum	NPEL	Otocerum
+Otociprin 	NPEL	Otociprin
+Otosporin	NPEL	Otosporin
+Otreon	NPEL	Otreon
+Otrivin	NPEL	Otrivin
 Oubiña	NPEL	Oubiña
 Ourense-Lubiá	NPEL	Ourense-Lubiá
 Ourense	NPEL	Ourense
@@ -5109,6 +6874,12 @@ Ourense-Santiago	NPEL	Ourense-Santiago
 Outeiro	NPMS	Outeiro
 Ovidio	NPML	Ovidio
 Oviedo	NPEL	Oviedo
+Ovodon	NPEL	Ovodon
+Oxatokey	NPEL	Oxatokey
+Oximetolona	NPEL	Oximetolona
+Oxis 	NPEL	Oxis
+Oxsoralen	NPEL	Oxsoralen
+Oxycontin	NPEL	Oxycontin
 Oza	NPEL	Oza
 P. T. Anderson	NPEL	P. T. Anderson
 Pablo González Moreiras	NPML	Pablo González Moreiras
@@ -5119,6 +6890,7 @@ Pablo Vaamonde	NPML	Pablo Vaamonde
 Pablo	NPML	Pablo
 Pablo	NPMS	Pablo
 Pacífico	NPEL	Pacífico
+Pacium	NPEL	Pacium
 Paco de Cuba	NPMS	Paco de Cuba
 Paco Vázquez	NPML	Paco Vázquez
 Pacón	NPMS	Pacón
@@ -5133,6 +6905,9 @@ Paderne de Allariz	NPEL	Paderne de Allariz
 Padornelo	NPEL	Padornelo
 Padrón	NPEL	Padrón
 Páez	NPMS	Páez
+Paget	NPEL	Paget
+Paidofebril	NPEL	Paidofebril
+Paidolax	NPEL	Paidolax
 Paio	NPML	Paio
 País Basco	NPEL	País Basco
 Palacio de Congresos de Madrid	NPMS	Palacio de Congresos de Madrid
@@ -5156,26 +6931,41 @@ Paloma San Basilio	NPFL	Paloma San Basilio
 Paloma	NPFL	Paloma
 Paloma	NPFS	Paloma
 Palo	NPMS	Palo
+Paludrine	NPEL	Paludrine
 Pamela	NPFL	Pamela
 Pampín	NPEL	Pampín
 Pamplona	NPEL	Pamplona
+Panadol	NPEL	Panadol
 Panamá	NPEL	Panamá
 Panasonic Toyota	NPEL	Panasonic Toyota
 Panasonic	NPEL	Panasonic
 Pancho	NPMS	Pancho
+Pancoast	NPEL	Pancoast
+Pancrease	NPEL	Pancrease
+Panfungol	NPEL	Panfungol
+Pankreoflat	NPEL	Pankreoflat
 PAN	NPMS	Partido de Acción Nacional
 Pa	NPMS	Pa
+Pantecta	NPEL	Pantecta
 Pantera	NPFS	Pantera
+Pantocarm	NPEL	Pantocarm
+Pantodrin	NPEL	Pantodrin
+Pantok	NPEL	Pantok
+Pantomicina	NPEL	Pantomicina
 Pantón	NPEL	Pantón
 Papantoniu	NPEL	Papantoniu
 Paquiño	NPML	Paquiño
 Paquita	NPFS	Paquita
+Paracetamol	NPEL	Paracetamol
+Paracodina	NPEL	Paracodina
 Parada de Sil	NPEL	Parada de Sil
 Paradela	NPEL	Paradela
 Paradiso	NPMS	Paradiso
 Parador Nacional de Baiona	NPMS	Parador Nacional de Baiona
 Paradores de Turismo	NPEL	Paradores de Turismo
 Paradores	NPEL	Paradores
+Parafludeten	NPEL	Parafludeten
+Parapres	NPEL	Parapres
 Pardo Argüeso, Andrés	NPML	Pardo Argüeso, Andrés
 Pardo Bazán	NPEL	Pardo Bazán
 Pardo de Castro, Antonio	NPML	Pardo de Castro, Antonio
@@ -5187,15 +6977,24 @@ Pardo	NPMS	Pardo
 Paredes	NPMS	Paredes
 Parga Pondal	NPEL	Parga Pondal
 Parga	NPEL	Parga
+Pariet	NPEL	Pariet
 París	NPEL	París
+Parizac	NPEL	Parizac
 Parker	NPEL	Parker
+Párkinson	NPEL	Párkinson
 Parlamento de Cataluña	NPMS	Parlamento de Cataluña
 Parlamento de Galicia	NPMS	Parlamento de Galicia
 Parlamento Europeo	NPMS	Parlamento Europeo
 Parlamento	NPMS	Parlamento
+Parlatos	NPEL	Parlatos
+Parlodel	NPEL	Parlodel
 Parmalat	NPEL	Parmalat
+Parocin	NPEL	Parocin
+Paroxetina 	NPEL	Paroxetina
 Parque Europa	NPMS	Parque Europa
 Parra	NPMS	Parra
+Parsonage	NPEL	Parsonage
+Parsonage-Turner	NPEL	Parsonage-Turner
 Partido Comunista	NPMS	Partido Comunista
 Partido de Acción Nacional	NPMS	Partido de Acción Nacional
 Partido de Deus	NPEL	Partido de Deus
@@ -5218,8 +7017,10 @@ Pascual Llorens	NPEL	Pascual Llorens
 Pascuala	NPFL	Pascuala
 Pascual	NPEL	Pascual
 Pascual	NPML	Pascual
+Pasedon	NPEL	Pasedon
 Paseo de a Castellana	NPMS	Paseo de a Castellana
 Paseo de Estremadura	NPMS	Paseo de Estremadura
+Pasta	NPEL	Pasta
 Patria	NPFS	Patria
 Patricia	NPFL	Patricia
 Patxi López	NPML	Patxi López
@@ -5268,11 +7069,15 @@ Paul Woods	NPML	Paul Woods
 Paula Guedini	NPFL	Paula Guedini
 Paula	NPFL	Paula
 Paula	NPFS	Paula
+Paul-Bunnell	NPEL	Paul-Bunnell
 Pauliña	NPFS	Paula
 Pauliña	NPFS	Pauliña
+Paul	NPEL	Paul
 Paul	NPML	Paul
 Paulo	NPML	Paulo
+Pausedal	NPEL	Pausedal
 Pavillón de o Gatañal	NPMS	Pavillón de o Gatañal
+Paxtibi	NPEL	Paxtibi
 Paz	NPFL	Paz
 Paz	NPFS	Paz
 Pazo de Fonseca	NPMS	Pazo de Fonseca
@@ -5285,6 +7090,7 @@ PC	NCMP	personal computer
 PC	NCMS	personal computer
 Pearce	NPEL	Pearce
 Pec	NPEL	Pec
+Pectox	NPEL	Pectox
 Pedro Alfonso Ocho Ledesma	NPML	Pedro Alfonso Ocho Ledesma
 Pedro álvarez Osorio	NPML	Pedro álvarez Osorio
 Pedro e mais o lobo	NPEL	Pedro e mais o lobo
@@ -5300,28 +7106,44 @@ Pedro	NPMS	Pedro
 Pedrosa	NPEL	Pedrosa
 Pedroso	NPEL	Pedroso
 Pegaso	NPEL	Pegaso
+Pegasys	NPEL	Pegasys
+Pegintron	NPEL	Pegintron
 Peinador	NPEL	Peinador
+Peitel	NPEL	Peitel
+Peledox	NPEL	Peledox
 Peleteiro	NPEL	Peleteiro
 Pellegrini	NPEL	Pellegrini
 Peluquería Laura	NPEL	Peluquería Laura
 Pemán	NPEL	Pemán
 Penélope Cruz	NPFL	Penélope Cruz
 Penélope	NPFL	Penélope
+Penilevel	NPEL	Penilevel
 pe	NPMS	pe
+Penrose	NPEL	Penrose
+Pentacarinat	NPEL	Pentacarinat
 Pentágono	NPMS	Pentágono
+Pentamidina	NPEL	Pentamidina
+Pentasa	NPEL	Pentasa
+Pentazocina	NPEL	Pentazocina
 Pentium	NPEL	Pentium
+Pentoxifilina	NPEL	Pentoxifilina
 Pepa	NPFL	Pepa
 Pepa	NPFS	Pepa
+Pepcid	NPEL	Pepcid
 Pepe	NPML	Pepe
 Pepe	NPMS	Pepe
 Pepiño	NPML	Pepiño
 Pepito Campos	NPMS	Pepito Campos
 Pepito	NPMS	Pepe
 Pepito	NPMS	Pepito
+Pepsamar	NPEL	Pepsamar
 Pepsa	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
+Pepticum	NPEL	Pepticum
 Pequín	NPEL	Pequín
+Perbilen	NPEL	Perbilen
 Percival	NPML	Percival
 Percy Bisshe Shelley	NPML	Percy Bisshe Shelley
+Perduretas 	NPEL	Perduretas
 Peregrinacións	NPEL	Peregrinacións
 Pereiras-A Venda de o Río	NPEL	Pereiras-A Venda de o Río
 Pereiro de Aguiar	NPEL	Pereiro de Aguiar
@@ -5371,11 +7193,19 @@ Pérez Vidal	NPEL	Pérez Vidal
 Pérez Villamil	NPEL	Pérez Villamil
 Pérez	NPEL	Pérez
 Perfecto	NPML	Perfecto
+Perfudal	NPEL	Perfudal
+Periactin	NPEL	Periactin
 Periodismo	NPEL	Periodismo
+Permanganato 	NPEL	Permanganato
+Permetrina	NPEL	Permetrina
+Permixon	NPEL	Permixon
 Perpetua	NPFL	Perpetua
 Perro muerto a medianoche	NPEL	Perro muerto a medianoche
 Perry	NPEL	Perry
+Persantin	NPEL	Persantin
 Persoal	NPEL	Persoal
+Pertensal	NPEL	Pertensal
+Pertil 	NPEL	Pertil
 Perú	NPEL	Perú
 Pesadilla antes de Navidad	NPEL	Pesadilla antes de Navidad
 Pesca I	NPEL	Pesca I
@@ -5384,60 +7214,92 @@ Pete	NPML	Pete
 Peter Handke	NPML	Peter Handke
 Peterberg	NPEL	Peterberg
 Peter	NPMS	Peter
+Pethema	NPEL	Pethema
+Pevaryl	NPEL	Pevaryl
+Peyronie	NPEL	Peyronie
+Pfannestiel	NPEL	Pfannestiel
+Pharken	NPEL	Pharken
+Pharmaton	NPEL	Pharmaton
 Philarmonía Orchestra	NPEL	Philarmonía Orchestra
 Phillips-Morris	NPEL	Phillips-Morris
 Phoenix	NPEL	Phoenix
+Phonal	NPEL	Phonal
 Photoshop	NPEL	Photoshop
 PIB	NCMP	producto interior bruto
 PIB	NCMS	producto interior bruto
 Picacho	NPEL	Picacho
 Picacho	NPMS	Picacho
+Pickwick	NPEL	Pickwick
 Pilar Farjas	NPFL	Pilar Farjas
 Pilar García Negro	NPFL	Pilar García Negro
 Pilar	NPFL	Pilar
 Pilar	NPFS	Pilar
+Pilder	NPEL	Pilder
 Pili	NPFS	Pilar
 Pili	NPFS	Pili
 Pimentel	NPEL	Pimentel
 Pineda	NPFS	Pineda
+Pinkus	NPEL	Pinkus
 Pinochet	NPEL	Pinochet
 Piñeiro	NPEL	Piñeiro
 Piñeiro	NPMS	Piñeiro
 Pío doce	NPEL	Pío doce
 Pío doce	NPMS	Pío doce
+Piprol	NPEL	Piprol
 Piqué	NPEL	Piqué
+Pirazinamida	NPEL	Pirazinamida
+Pirexin	NPEL	Pirexin
 Pirineo	NPMS	Pirineo
+Piroxicam	NPEL	Piroxicam
 Pita	NPEL	Pita
+Placinoral	NPEL	Placinoral
 Plan de Autoprotección	NPMS	Plan de Autoprotección
 Plan de Emprego Xuvenil	NPMS	Plan de Emprego Xuvenil
 Plan de Informatización Integral de a Administración Xudicial	NPMS	Plan de Informatización Integral de a Administración Xudicial
 Plan Marshall	NPMS	Plan Marshall
 Plan xeral de ordenación urbana	NPML	Plan xeral de ordenación urbana
 Plan	NPMS	Plan
+Plantaben	NPEL	Plantaben
+Plantago	NPEL	Plantago
+Plantaguar	NPEL	Plantaguar
+Plaquenil	NPEL	Plaquenil
+Plasimine 	NPEL	Plasimine
+Plaskine	NPEL	Plaskine
 Plataforma Antipeaxe	NPFS	Plataforma Antipeaxe
 Plataforma Cívica Segura Limpio	NPFS	Plataforma Cívica Segura Limpio
 Plataforma contra a Peaxe	NPFS	Plataforma contra a Peaxe
 Plataforma	NPFS	Plataforma
+Plavix	NPEL	Plavix
 Plaza del Obradoiro	NPFS	Plaza del Obradoiro
+Plendil	NPEL	Plendil
 Pleno de o Congreso de os Deputados	NPMS	Pleno de o Congreso de os Deputados
 Pleno de o Congreso	NPMS	Pleno de o Congreso
 Pleno de o Consello Xeral de o Poder Xudicial	NPMS	Pleno de o Consello Xeral de o Poder Xudicial
 Pleno de o Parlamento	NPMS	Pleno de o Parlamento
 Pleno de o Senado	NPMS	Pleno de o Senado
+Plenolyt	NPEL	Plenolyt
 Pleno	NPMS	Pleno
+Plenur	NPEL	Plenur
+Plumarol	NPEL	Plumarol
+Plurimen	NPEL	Plurimen
+Plusvent	NPEL	Plusvent
 PMA	NPMS	Programa Mundial de Alimentos
 PNV	NPMS	Partido Nacionalista Vasco
 Poboacións Estelares	NPEL	Poboacións Estelares
+Podertonic	NPEL	Podertonic
 Podgorica	NPEL	Podgorica
 POD	NPMS	Plan de Organización Docente
 Podujevo	NPEL	Podujevo
 Poema	NPMS	Poema
+Poland	NPEL	Poland
+Polaramine	NPEL	Polaramine
 Policía Autónoma Basca	NPFS	Policía Autónoma Basca
 Policía Autónoma	NPFS	Policía Autónoma
 Policía Local	NPFS	Policía Local
 Policía Nacional	NPEL	Policía Nacional
 Policía Nacional	NPFS	Policía Nacional
 Policía	NPFS	Policía
+Poli	NPEL	Poli
 Política Agraria Comunitaria	NPFS	Política Agraria Comunitaria
 Política Educativa	NPEL	Política Educativa
 Política Municipal	NPEL	Política Municipal
@@ -5447,7 +7309,10 @@ Política Territorial	NPEL	Política Territorial
 Políticas	NPEL	Políticas
 Politur	NPEL	Politur
 Polonia	NPEL	Polonia
+Poly-pred	NPEL	Poly-pred
+Pomada	NPEL	Pomada
 Pombal	NPEL	Pombal
+Pomeroy	NPEL	Pomeroy
 Pons	NPEL	Pons
 Ponteareas	NPEL	Ponteareas
 Pontedeume	NPEL	Pontedeume
@@ -5466,14 +7331,26 @@ Porto-Rial	NPEL	Porto-Rial
 Portosín	NPEL	Portosín
 Portugal	NPEL	Portugal
 Posada	NPEL	Posada
+Positon	NPEL	Positon
+Postinor	NPEL	Postinor
+Potasion	NPEL	Potasion
+Potenciator	NPEL	Potenciator
 Poupard	NPEL	Poupard
 Powerpoint	NPMS	Powerpoint
 PP	NPMS	Partido Popular
 Pradera	NPEL	Pradera
 Prado	NPMS	Prado
+Prandin	NPEL	Prandin
+Pranzo	NPEL	Pranzo
+Prareduct	NPEL	Prareduct
 Praterías	NPEL	Praterías
 Prats	NPEL	Prats
+Pravastatina	NPEL	Pravastatina
+Praxilene	NPEL	Praxilene
 PRD	NPMS	Partido de la Revolución Democrática
+Prednisona	NPEL	Prednisona
+Pred	NPEL	Pred
+Premarin	NPEL	Premarin
 Premier	NPEL	Premier
 Premio de Composición Andrés Gaos	NPMS	Premio de Composición Andrés Gaos
 Premio Eixo Atlántico de Narrativa Galega e Portuguesa	NPMS	Premio Eixo Atlántico de Narrativa Galega e Portuguesa
@@ -5483,42 +7360,92 @@ Premio Miguel de Cervantes	NPMS	Premio Miguel de Cervantes
 Premio Nobel de Medicina e de Fisioloxía	NPEL	Premio Nobel de Medicina e de Fisioloxía
 Premio Nobel de Medicina e de Fisioloxía	NPMS	Premio Nobel de Medicina e de Fisioloxía
 Premio Príncipe de Asturias de Ciencias Sociais	NPMS	Premio Príncipe de Asturias de Ciencias Sociais
+Prescaina	NPEL	Prescaina
 Presentación	NPFL	Presentación
 Presidencia de o Goberno	NPFS	Presidencia de o Goberno
 Presidencia Federal	NPFS	Presidencia Federal
 Presidencia	NPFS	Presidencia
+Pressitan	NPEL	Pressitan
 Presupostos Xerais de o Estado	NPMP	Presupostos Xerais de o Estado
+Preterax	NPEL	Preterax
+Prevencor	NPEL	Prevencor
+Pridio	NPEL	Pridio
 Priego	NPMS	Priego
 Prieto	NPEL	Prieto
 Prieto	NPMS	Prieto
 Primakov	NPEL	Primakov
+Primaquine	NPEL	Primaquine
 Primaria	NPEL	Primaria
 Primeira Cegoña de Ouro	NPFS	Primeira Cegoña de Ouro
 Primeiro de Maio	NPMS	Primeiro de Maio
+Primolut	NPEL	Primolut
+Primperan	NPEL	Primperan
 Principado de Asturias	NPEL	Principado de Asturias
 Principado de Mónaco	NPEL	Principado de Mónaco
 Principado	NPEL	Principado
 Príncipe	NPEL	Príncipe
+Prinivil	NPEL	Prinivil
 PRI	NPMS	Partido Revolucionario Institucional
+Prinzmetal	NPEL	Prinzmetal
 Prisciliano	NPMS	Prisciliano
+Prisdal	NPEL	Prisdal
 Pristina	NPEL	Pristina
+Pritadol	NPEL	Pritadol
+Pritor	NPEL	Pritor
 Prizren	NPEL	Prizren
+Procrin	NPEL	Procrin
+Proctium	NPEL	Proctium
+Proctolog	NPEL	Proctolog
+Proctosteroid	NPEL	Proctosteroid
+Prodamox	NPEL	Prodamox
+Proderma	NPEL	Proderma
 Producto Nacional Bruto	NPMS	Producto Nacional Bruto
+Profer	NPEL	Profer
 Profesorado Mercantil Privado	NPEL	Profesorado Mercantil Privado
+Proflox	NPEL	Proflox
+Progandol	NPEL	Progandol
+Progeffik	NPEL	Progeffik
+Progevera	NPEL	Progevera
+Prograf	NPEL	Prograf
 Programa de Actuación Conxunta	NPEL	Programa de Actuación Conxunta
 Programa Experimental de Prescripción de Estupefacientes de Andalucía	NPMS	Programa Experimental de Prescripción de Estupefacientes de Andalucía
 Programa Mundial de Alimentos	NPMS	Programa Mundial de Alimentos
 Programa Padre	NPMS	Programa Padre
 Programas Industriais e Infraestructuras Tecnolóxicas	NPEL	Programas Industriais e Infraestructuras Tecnolóxicas
+Progyluton	NPEL	Progyluton
+Progynona	NPEL	Progynona
+Prolastina	NPEL	Prolastina
+Promectan	NPEL	Promectan
+Prometax	NPEL	Prometax
+Pronitol	NPEL	Pronitol
+Pro	NPEL	Pro
+Propalgina	NPEL	Propalgina
+Propecia	NPEL	Propecia
+Propycil	NPEL	Propycil
+Propylthiouracil	NPEL	Propylthiouracil
 Pro-Río	NPEL	Pro-Río
+Proscar	NPEL	Proscar
+Prostacur	NPEL	Prostacur
+Prostaglandina	NPEL	Prostaglandina
 Protección de o Patrimonio Cultural	NPEL	Protección de o Patrimonio Cultural
+Protector	NPEL	Protector
+Protelos	NPEL	Protelos
+Proteus	NPEL	Proteus
+Prothiaden	NPEL	Prothiaden
+Protopic	NPEL	Protopic
+Protovit	NPEL	Protovit
 Provence	NPEL	Provence
 Providencia	NPFS	Providencia
+Proviron	NPEL	Proviron
 Proxecto de lei de ordenación de a edificación	NPMS	Proxecto de lei de ordenación de a edificación
 Proxecto Fiatex	NPMS	Proxecto Fiatex
 Proyecto Hombre	NPEL	Proyecto Hombre
 Proyecto Hombre	NPMS	Proyecto Hombre
+Prozac	NPEL	Prozac
 Prudencio	NPML	Prudencio
+Pruina 	NPEL	Pruina
+Prysma	NPEL	Prysma
+Psicocen	NPEL	Psicocen
 Psicoloxía de o traballo e de as Organizacións	NPEL	Psicoloxía de o traballo e de as Organizacións
 Psicopedagoxía	NPEL	Psicopedagoxía
 PSOE	NPMS	Partido Socialista Obrero Español
@@ -5529,18 +7456,32 @@ Puerta	NPEL	Puerta
 Puerto de la Cruz	NPEL	Puerto de la Cruz
 Pujol	NPEL	Pujol
 Puleva	NPEL	Puleva
+Pulmeno 	NPEL	Pulmeno
+Pulmicort	NPEL	Pulmicort
+Pulmictan	NPEL	Pulmictan
+Pulmo	NPEL	Pulmo
+Pulmozyme	NPEL	Pulmozyme
 Pulpo	NPEL	Pulpo
 Punta Arnela	NPEL	Punta Arnela
+Puntualex	NPEL	Puntualex
+Puntual	NPEL	Puntual
 Purificación	NPFL	Purificación
 Puri	NPFS	Puri
+Pursenid	NPEL	Pursenid
 Putin	NPEL	Putin
 Puxeiros	NPEL	Puxeiros
 Puy Lecumberri	NPEL	Puy Lecumberri
 Puy	NPEL	Puy
+Pylorid	NPEL	Pylorid
 PYME	NCFP	pequeña y mediana empresa
 PYME	NCFS	pequeña y mediana empresa
+Quantor	NPEL	Quantor
 Queizán	NPEL	Queizán
+Quenobilan	NPEL	Quenobilan
+Quetzal	NPEL	Quetzal
 Quico	NPML	Quico
+Quiedorm	NPEL	Quiedorm
+Quinapril	NPEL	Quinapril
 Quince	NPMP	Quince
 Quindós	NPEL	Quindós
 Quinta Brigada de o Exército	NPFS	Quinta Brigada de o Exército
@@ -5552,12 +7493,15 @@ Quintanilla	NPEL	Quintanilla
 Quintáns	NPMS	Quintáns
 Quintela de Leirado	NPEL	Quintela de Leirado
 Quintiliana	NPFL	Quintiliana
+Quipro	NPEL	Quipro
 Quique	NPML	Quique
+Quiralam	NPEL	Quiralam
 Quiroga	NPEL	Quiroga
 Quiroga	NPMS	Quiroga
 R. Ceñal	NPEL	R. Ceñal
 R. Guerrini	NPEL	R. Guerrini
 Rábade	NPEL	Rábade
+Radanil	NPEL	Radanil
 Radio Galega	NPFS	Radio Galega
 Radio Obradoiro	NPEL	Radio Obradoiro
 Radio Televisión de Galicia	NPFS	Radio Televisión de Galicia
@@ -5592,6 +7536,7 @@ Rajiv Gandhi	NPML	Rajiv Gandhi
 Rajoy	NPEL	Rajoy
 Ramallosa	NPFS	Ramallosa
 Rambouillet	NPEL	Rambouillet
+Ramipril	NPEL	Ramipril
 Ramiráns	NPEL	Ramiráns
 Ramírez	NPEL	Ramírez
 Ramiro	NPML	Ramiro
@@ -5611,11 +7556,20 @@ Ramona	NPFL	Ramona
 Ramón	NPML	Ramón
 Ramón	NPMS	Ramón
 Ramos	NPMS	Ramos
+Ramsay-Hunt	NPEL	Ramsay-Hunt
+Ramsay	NPEL	Ramsay
 Ramsés Pérez	NPML	Ramsés Pérez
 Ramstein	NPEL	Ramstein
 Rande	NPEL	Rande
+Ranidin	NPEL	Ranidin
+Ranitidina	NPEL	Ranitidina
+Ran	NPEL	Ran
 Ra	NPMS	Ra
+Ranson	NPEL	Ranson
+Ranuber	NPEL	Ranuber
 Rapa da Folla	NPEL	Rapa da Folla
+Rapamune	NPEL	Rapamune
+Rapidal	NPEL	Rapidal
 Raposo	NPMS	Raposo
 Raquel	NPFL	Raquel
 Rarís	NPMS	Rarís
@@ -5629,14 +7583,21 @@ Ray Bradbury	NPML	Ray Bradbury
 Ray Loriga	NPML	Ray Loriga
 Ray Stevenson	NPML	Ray Stevenson
 Rayment	NPEL	Rayment
+Raynaud	NPEL	Raynaud
 RDC	NPFS	República Democrática del Congo
+Reactine 	NPEL	Reactine
 Real Academia de Medicina e Cirurxía de Galicia	NPFS	Real Academia de Medicina e Cirurxía de Galicia
 Real Academia Galega	NPFS	Real Academia Galega
 Real Decreto 63/95	NPMS	Real Decreto 63/95
 Real Decreto	NPMS	Real Decreto
 Real Filharmonía de Galicia	NPEL	Real Filharmonía de Galicia
 Real Filharmonía de Galicia	NPFS	Real Filharmonía de Galicia
+Rebetol	NPEL	Rebetol
+Rebif	NPEL	Rebif
+Reca	NPEL	Reca
 Recinto Feiral de a Coruña	NPMS	Recinto Feiral de a Coruña
+Rectamigdol	NPEL	Rectamigdol
+Recto	NPEL	Recto
 Rectorado	NPMS	Rectorado
 Rede de Información Xuvenil	NPFS	Rede de Información Xuvenil
 Rede Española de Aerobioloxía	NPFS	Rede Española de Aerobioloxía
@@ -5645,39 +7606,85 @@ Redes	NPFP	Redes
 Redondela-Guillarei	NPEL	Redondela-Guillarei
 Redondela	NPEL	Redondela
 Redondo	NPEL	Redondo
+Redoxon	NPEL	Redoxon
+Reductil	NPEL	Reductil
+Redutona	NPEL	Redutona
+Regender	NPEL	Regender
 Regino Giráldez Boo	NPML	Regino Giráldez Boo
+Regulaten	NPEL	Regulaten
 Reimundo	NPML	Reimundo
 Reinaldo	NPML	Reinaldo
+Reinke	NPEL	Reinke
 Reino Unido	NPEL	Reino Unido
 Rekarte	NPEL	Rekarte
 Relacións con os Medios	NPEL	Relacións con os Medios
 Relacións de pais alcólicos con os fillos	NPFP	Relacións de pais alcólicos con os fillos
+Relapaz	NPEL	Relapaz
+Relaxibys	NPEL	Relaxibys
+Relenza	NPEL	Relenza
+Relif	NPEL	Relif
+Relpax	NPEL	Relpax
 Rembrandt	NPEL	Rembrandt
 Remedios	NPFL	Remedios
 Reme	NPFS	Reme
 Reme	NPMS	Reme
+Reminyl	NPEL	Reminyl
+Remisan	NPEL	Remisan
+Remodulin	NPEL	Remodulin
+Remontal	NPEL	Remontal
+Renagel	NPEL	Renagel
 Renda de integración social de Galicia	NPFS	Renda de integración social de Galicia
+Rendu	NPEL	Rendu
+Reneuron	NPEL	Reneuron
 Renfe-Fomento	NPEL	Renfe-Fomento
 Renfe	NPEL	Renfe
+Renitecmax	NPEL	Renitecmax
+Renitec	NPEL	Renitec
+Rennie	NPEL	Rennie
+Renocil	NPEL	Renocil
+Renormax	NPEL	Renormax
+Renpress	NPEL	Renpress
 Rentería	NPEL	Rentería
+Rentrop	NPEL	Rentrop
 Reppas	NPEL	Reppas
 República Árabe Saharaui Democrática	NPFS	República Árabe Saharaui Democrática
 República de Kósovo	NPEL	República de Kósovo
 República Democrática del Congo	NPFS	República Democrática del Congo
 República Federal de Iugoslavia	NPEL	República Federal de Iugoslavia
 República Iugoslava	NPFS	República Iugoslava
+Requip	NPEL	Requip
+Rescriptor	NPEL	Rescriptor
 Residencia Escolar de Colmenar	NPFS	Residencia Escolar de Colmenar
+Resincalcio	NPEL	Resincalcio
+Resincolestiramina	NPEL	Resincolestiramina
+Resinsodio	NPEL	Resinsodio
+Resochin	NPEL	Resochin
+Respibien	NPEL	Respibien
+Respir	NPEL	Respir
+Respiroma	NPEL	Respiroma
 Restaurante A Porta	NPEL	Restaurante A Porta
+Retens	NPEL	Retens
 Retevisión	NPEL	Retevisión
+Retimax	NPEL	Retimax
 Retrato de Quevedo	NPMS	Retrato de Quevedo
+Retrovir	NPEL	Retrovir
+Reusin	NPEL	Reusin
+Reutenox	NPEL	Reutenox
 Reventós	NPEL	Reventós
+Revia	NPEL	Revia
+Rexer	NPEL	Rexer
+Rexilen	NPEL	Rexilen
 Rexina	NPFL	Rexina
 Rexistro Xeral de a Universidade	NPMS	Rexistro Xeral de a Universidade
 Rey Nóvoa	NPEL	Rey Nóvoa
 Rey Pichel	NPEL	Rey Pichel
 Rey Rodríguez	NPEL	Rey Rodríguez
+Reyataz	NPEL	Reyataz
 Reynolds	NPEL	Reynolds
 Rey	NPEL	Rey
+Rhinocort	NPEL	Rhinocort
+Rhodogil	NPEL	Rhodogil
+Rhonal 	NPEL	Rhonal
 Rialsa	NPEL	Rialsa
 Rianxo	NPEL	Rianxo
 Riazor	NPEL	Riazor
@@ -5686,6 +7693,7 @@ Ribas	NPMS	Ribas
 Ribeira	NPEL	Ribeira
 Ribeira	NPFS	Ribeira
 Ribó	NPEL	Ribó
+Ribujet	NPEL	Ribujet
 Ricardo	NPML	Ricardo
 Ricardo	NPMS	Ricardo
 Richard Attias	NPML	Richard Attias
@@ -5717,14 +7725,34 @@ Richards	NPEL	Richards
 Ricky Martin	NPML	Ricky Martin
 Ricky Rubio	NPML	Ricky Rubio
 Ricky	NPML	Ricky
+Ridaura	NPEL	Ridaura
 Ridruejo	NPEL	Ridruejo
 Riego, Paco del	NPML	Riego, Paco del
+Rifaldin	NPEL	Rifaldin
+Rifater	NPEL	Rifater
+Rifinah	NPEL	Rifinah
+Rigoran	NPEL	Rigoran
 Riki	NPML	Riki
+Rilast	NPEL	Rilast
 Riley	NPEL	Riley
+Rilutek	NPEL	Rilutek
+Rimactan	NPEL	Rimactan
+Rimactazid	NPEL	Rimactazid
+Rimstar	NPEL	Rimstar
 Rincón del Sarela	NPEL	Rincón del Sarela
+Rinelon	NPEL	Rinelon
+Ringer	NPEL	Ringer
+Rinobactil	NPEL	Rinobactil
+Rinobanedif	NPEL	Rinobanedif
+Rinofrenal	NPEL	Rinofrenal
+Rinomax	NPEL	Rinomax
+Rino	NPEL	Rino
+Rinosone	NPEL	Rinosone
 Río Segura	NPEL	Río Segura
 Ríos	NPEL	Ríos
 Risga	NPEL	Risga
+Risperdal	NPEL	Risperdal
+Risperidona	NPEL	Risperidona
 Rita	NPFL	Rita
 Rita	NPFS	Rita
 Rivas Fontán	NPEL	Rivas Fontán
@@ -5732,9 +7760,15 @@ Rivas Fontenla	NPEL	Rivas Fontenla
 Rivas Negreira	NPEL	Rivas Negreira
 Rivas Villanueva	NPEL	Rivas Villanueva
 Rivas	NPEL	Rivas
+Rivotril	NPEL	Rivotril
+Rizan	NPEL	Rizan
 RNA	NCMP	ribonucleic acid
 RNA	NCMS	ribonucleic acid
 R	NPEL	R
+Roacutan	NPEL	Roacutan
+Robaxin	NPEL	Robaxin
+Robaxisal	NPEL	Robaxisal
+Robbins	NPEL	Robbins
 Rober	NPMS	Rober
 Robert	NPMS	Robert
 Roberto Blanco Torres	NPML	Roberto Blanco Torres
@@ -5742,11 +7776,18 @@ Roberto García Calvo	NPML	Roberto García Calvo
 Roberto Iglesias Domínguez	NPML	Roberto Iglesias Domínguez
 Roberto	NPML	Roberto
 Roberto	NPMS	Roberto
+Robin	NPEL	Robin
+Robitussin	NPEL	Robitussin
 Robles	NPMS	Robles
 Robustiano	NPML	Robustiano
+Rocaltrol	NPEL	Rocaltrol
+Rocefalin	NPEL	Rocefalin
+Rochagan	NPEL	Rochagan
+Rochevit	NPEL	Rochevit
 Rocío	NPFL	Rocío
 Rocío	NPFS	Rocío
 Rock Hudson	NPML	Rock Hudson
+Rockall	NPEL	Rockall
 Rodolfo Villaverde	NPMS	Rodolfo Villaverde
 Rodolfo	NPML	Rodolfo
 Rodrigo Rato	NPML	Rodrigo Rato
@@ -5754,6 +7795,9 @@ Rodrigo	NPML	Rodrigo
 Rodríguez Cadarso	NPEL	Rodríguez Cadarso
 Rodríguez Lamas	NPEL	Rodríguez Lamas
 Rodríguez	NPEL	Rodríguez
+Roferon	NPEL	Roferon
+Rohipnol	NPEL	Rohipnol
+Roidhemo	NPEL	Roidhemo
 Rojos	NPMP	Rojos
 Rolda de noite	NPFS	Rolda de noite
 Rolda de Toledo	NPEL	Rolda de Toledo
@@ -5769,6 +7813,9 @@ Roma	NPEL	Roma
 Romario	NPML	Romario
 Romay Beccaría	NPEL	Romay Beccaría
 Romay	NPEL	Romay
+Romberg	NPEL	Romberg
+Romilar	NPEL	Romilar
+Roname	NPEL	Roname
 Roosevelt	NPEL	Roosevelt
 Roque	NPML	Roque
 Rosa Conde	NPFL	Rosa Conde
@@ -5778,6 +7825,7 @@ Rosa García	NPFL	Rosa García
 Rosa María	NPFS	Rosa María
 Rosa Miguélez	NPFL	Rosa Miguélez
 Rosai	NPEL	Rosai
+Rosalgin	NPEL	Rosalgin
 Rosalía de Castro	NPFL	Rosalía de Castro
 Rosalía	NPFL	Rosalía
 Rosalía	NPFS	Rosalía
@@ -5791,30 +7839,47 @@ Rosendo Salvado	NPML	Rosendo Salvado
 Rosendo	NPML	Rosendo
 Rosi	NPFS	Rosi
 Rosón	NPEL	Rosón
+Rosseti	NPEL	Rosseti
 Rostropovich	NPEL	Rostropovich
 Rota	NPEL	Rota
+Rotramin	NPEL	Rotramin
+Rovamycine	NPEL	Rovamycine
+Rovsing	NPEL	Rovsing
 Roxelio	NPML	Roxelio
+Roxitromicina	NPEL	Roxitromicina
 Roxos	NPEL	Roxos
 Royal	NPMS	Royal
+Royen	NPEL	Royen
+Rozex	NPEL	Rozex
 Rúa de Lisboa	NPEL	Rúa de Lisboa
 Rúa de Mallou	NPEL	Rúa de Mallou
 Rúa del Villar	NPEL	Rúa del Villar
 Rúa de	NPEL	Rúa de
 Rúa Travesa	NPEL	Rúa Travesa
+Rubacina	NPEL	Rubacina
 Rubalcaba	NPEL	Rubalcaba
 Rubén Sanz	NPML	Rubén Sanz
 Rubén	NPML	Rubén
 Rubén	NPMS	Rubén
 Rube	NPMS	Rube
+Rubifen	NPEL	Rubifen
 Rubio	NPMS	Rubio
+Rubiulcer	NPEL	Rubiulcer
 Rudesinda	NPFL	Rudesinda
 Rugova	NPEL	Rugova
 Ruibs	NPMS	Ruibs
 Ruiz Gallardón	NPEL	Ruiz Gallardón
+Rulide	NPEL	Rulide
 Rumanía	NPEL	Rumanía
+Rupafin	NPEL	Rupafin
+Ruscus	NPEL	Ruscus
 Rusia	NPEL	Rusia
+Russell	NPEL	Russell
+Russe	NPEL	Russe
 Ruta de la Plata	NPEL	Ruta de la Plata
 Ruta Xacobea	NPEL	Ruta Xacobea
+Rutkow	NPEL	Rutkow
+Rytmonorm	NPEL	Rytmonorm
 S. Vettel	NPEL	S. Vettel
 Saavedra	NPMS	Saavedra
 Sabela	NPFL	Sabela
@@ -5827,7 +7892,9 @@ Sabino Fernández Campo	NPML	Sabino Fernández Campo
 Sabino López	NPML	Sabino López
 Sabino Torres	NPML	Sabino Torres
 Sabino	NPML	Sabino
+Sabrilex	NPEL	Sabrilex
 Sabrina	NPFL	Sabrina
+Sachs	NPEL	Sachs
 Sacristán	NPMS	Sacristán
 Sadako Ogata	NPFL	Sadako Ogata
 Sada-Oleiros-Betanzos	NPEL	Sada-Oleiros-Betanzos
@@ -5835,6 +7902,7 @@ SAE	NPFS	Sociedad Anónima Española
 Sáenz Cosculluela	NPEL	Sáenz Cosculluela
 Sáenz de Santamaría	NPEL	Sáenz de Santamaría
 Sáenz	NPEL	Sáenz
+Saetil	NPEL	Saetil
 Sáez Ponte	NPEL	Sáez Ponte
 Sáez	NPEL	Sáez
 Sagrada Familia	NPFS	Sagrada Familia
@@ -5842,15 +7910,20 @@ Sagrario	NPFL	Sagrario
 Sáinz de la Maza	NPEL	Sáinz de la Maza
 Sainz	NPEL	Sainz
 Sáinz	NPEL	Sáinz
+Salagen	NPEL	Salagen
 Salamanca	NPEL	Salamanca
 Salas de Goberno	NPFP	Salas de Goberno
 Salas deGoberno	NPFP	Salas de Goberno
 Salazar	NPEL	Salazar
+Salazopyrina	NPEL	Salazopyrina
+Salbutamol	NPEL	Salbutamol
 Salcedo	NPEL	Salcedo
+Saldeva	NPEL	Saldeva
 Salduba	NPFS	Salduba
 Salem	NPMS	Salem
 Saleta	NPFL	Saleta
 Salgueiriños	NPMP	Salgueiriños
+Salidur	NPEL	Salidur
 Salimat 99	NPEL	Salimat 99
 Salimat	NPEL	Salimat
 Salinas	NPEL	Salinas
@@ -5860,8 +7933,12 @@ Salón de Alimentación de o Atlántico	NPMS	Salón de Alimentación de o Atlán
 Salón Internacional de o Turismo de Cataluña	NPMS	Salón Internacional de o Turismo de Cataluña
 Salón Nobre de Fonseca	NPMS	Salón Nobre de Fonseca
 Salón Principal	NPMS	Salón Principal
+Salongo	NPEL	Salongo
 Salón	NPMS	Salón
+Salvacolina	NPEL	Salvacolina
 Salvador	NPML	Salvador
+Salvapen	NPEL	Salvapen
+Salvarina	NPEL	Salvarina
 Samos	NPEL	Samos
 Sampaio	NPEL	Sampaio
 Samsung Electronics	NPEL	Samsung Electronics
@@ -5895,11 +7972,15 @@ San Tomé	NPEL	San Tomé
 San Vicente de o Mar	NPEL	San Vicente de o Mar
 San Vicente	NPEL	San Vicente
 San Xoán de Vista Alegre	NPEL	San Xoán de Vista Alegre
+Sanamidol	NPEL	Sanamidol
 Sánchez Arévalo	NPEL	Sánchez Arévalo
 Sánchez de León	NPEL	Sánchez de León
 Sánchez	NPEL	Sánchez
 Sancristóbal	NPEL	Sancristóbal
 Sanctus	NPMS	Sanctus
+Sandimmun	NPEL	Sandimmun
+Sandomigran	NPEL	Sandomigran
+Sandostatin	NPEL	Sandostatin
 Sandra Barral	NPFL	Sandra Barral
 Sandra Blanco	NPFL	Sandra Blanco
 Sandra Carrasco	NPFL	Sandra Carrasco
@@ -5919,6 +8000,8 @@ Sanidade	NPEL	Sanidade
 Sanjurjo Badía	NPEL	Sanjurjo Badía
 Sanjurjo	NPEL	Sanjurjo
 Sanmartín	NPEL	Sanmartín
+Sanodin	NPEL	Sanodin
+Sanoyodo	NPEL	Sanoyodo
 Santa Bárbara	NPEL	Santa Bárbara
 Santa Comba	NPEL	Santa Comba
 Santa Com	NPEL	Santa Com
@@ -5945,6 +8028,7 @@ Santiso	NPMS	Santiso
 Santo Adrián de Cobres	NPEL	Santo Adrián de Cobres
 Santo Domingo	NPEL	Santo Domingo
 Santo Sava	NPEL	Santo Sava
+Santorini	NPEL	Santorini
 Sao Paulo	NPEL	Sao Paulo
 São Paulo	NPES	São Paulo
 sarada	NPFS	sarada
@@ -5959,12 +8043,20 @@ Sarah	NPFL	Sarah
 Sara	NPFL	Sara
 Sara	NPFS	Sara
 Saraxevo	NPEL	Saraxevo
+Sarcop	NPEL	Sarcop
+Sardá	NPFL	Sardá
+Sardá	NPML	Sardá
+Sargenor	NPEL	Sargenor
+Sargisthene	NPEL	Sargisthene
+Saridon	NPEL	Saridon
 Sarille	NPMS	Sarille
 Sarita	NPFS	Sara
 Sarita	NPFS	Sarita
 Sarmiento	NPEL	Sarmiento
+Saronil	NPEL	Saronil
 Sarria	NPEL	Sarria
 Sartre	NPEL	Sartre
+Sasulen	NPEL	Sasulen
 Saúde Pública	NPEL	Saúde Pública
 Saúde	NPEL	Saúde
 Saul Takahashi	NPML	Saul Takahashi
@@ -5973,6 +8065,13 @@ Saúl	NPML	Saúl
 Savater	NPEL	Savater
 Savine Vode	NPEL	Savine Vode
 Scarlett Johansson	NPFL	Scarlett Johansson
+Schatzky	NPEL	Schatzky
+Schericur	NPEL	Schericur
+Scheripoct	NPEL	Scheripoct
+Schiller	NPEL	Schiller
+Schirmer	NPEL	Schirmer
+Schmorn	NPEL	Schmorn
+Schneider	NPEL	Schneider
 SCH	NPMS	Santander Central Hispano
 School of Rock	NPEL	School of Rock
 Schopenhauer	NPEL	Schopenhauer
@@ -5980,6 +8079,7 @@ Schroeder	NPEL	Schroeder
 Schubert	NPML	Schubert
 Schumacher	NPEL	Schumacher
 Schuman	NPEL	Schuman
+Scopinaro	NPEL	Scopinaro
 Scorsese	NPEL	Scorsese
 Scotland Yard	NPEL	Scotland Yard
 Scott Black	NPML	Scott Black
@@ -6003,13 +8103,19 @@ Seattle	NPEL	Seattle
 Sebas	NPMS	Sebas
 Sebastiana	NPFL	Sebastiana
 Sebastián	NPML	Sebastián
+Secabiol	NPEL	Secabiol
+Secalip	NPEL	Secalip
 Seco	NPEL	Seco
 Secretaría de Estado de Asuntos Penitenciarios	NPFS	Secretaría de Estado de Asuntos Penitenciarios
 Secretaría de Estado de Comercio , Turismo e Pemes	NPFS	Secretaría de Estado de Comercio , Turismo e Pemes
 Secretaría Xeral de o Sergas	NPFS	Secretaría Xeral de o Sergas
+Secubar	NPEL	Secubar
 Secundaria	NPEL	Secundaria
 Secundina	NPFL	Secundina
 Secundino	NPML	Secundino
+Sedergine	NPEL	Sedergine
+Sedicepan	NPEL	Sedicepan
+Sedotime	NPEL	Sedotime
 Segorbe	NPMS	Segorbe
 Segovia	NPEL	Segovia
 Segunda Guerra Mundial	NPFS	Segunda Guerra Mundial
@@ -6018,7 +8124,11 @@ Segura Vivo	NPEL	Segura Vivo
 Segura	NPMS	Segura
 Seguridade Social	NPFS	Seguridade Social
 Seguridade	NPEL	Seguridade
+Seguril	NPEL	Seguril
+Sekisan	NPEL	Sekisan
+Selan	NPEL	Selan
 Sela	NPEL	Sela
+Selegilina	NPEL	Selegilina
 Selenia	NPFL	Selenia
 Semana de Promoción Turística de Galicia en Madrid	NPFS	Semana de Promoción Turística de Galicia en Madrid
 Semana de Promoción Turística de Galicia	NPFS	Semana de Promoción Turística de Galicia
@@ -6032,16 +8142,25 @@ Senén Barro	NPML	Senén Barro
 Senén Bernárdez	NPML	Senén Bernárdez
 Senén	NPMS	Senén
 Senín	NPMS	Senín
+Senro	NPEL	Senro
 Sensor Proximity-FZU-39/B	NPEL	Sensor Proximity-FZU-39/B
 señor Manuel	NPMS	Manuel
 señor Manuel	NPMS	señor Manuel
 señora Angustias	NPFS	Angustias
 señora Angustias	NPFS	señora Angustias
+Sepcen	NPEL	Sepcen
 Sepla	NPEL	Sepla
 Sepla	NPMS	Sepla
+Septocipro	NPEL	Septocipro
+Septrin	NPEL	Septrin
+Seractil	NPEL	Seractil
 Serafín	NPML	Serafín
 Serantes	NPEL	Serantes
 Serbia	NPEL	Serbia
+Serc	NPEL	Serc
+Sereprostat	NPEL	Sereprostat
+Seretide	NPEL	Seretide
+Serevent	NPEL	Serevent
 Sergas	NPMS	Sergas
 SERGAS	NPMS	Servicio Gallego de Salud
 Sergi	NPML	Sergi
@@ -6051,9 +8170,14 @@ Serguéi Markov	NPMS	Serguéi Markov
 Serguei Stepashin	NPML	Serguei Stepashin
 Serguéi Stepashin	NPML	Serguéi Stepashin
 Serguéi Stepashin	NPMS	Serguéi Stepashin
+Sermion	NPEL	Sermion
 SER	NPEL	SER
+Seropram	NPEL	Seropram
+Seroquel	NPEL	Seroquel
+Seroxat	NPEL	Seroxat
 Serra	NPEL	Serra
 Serra	NPMS	Serra
+Sertralina	NPEL	Sertralina
 Servicio de Busca e Salvamento	NPMS	Servicio de Busca e Salvamento
 Servicio de Enfermidades Infecciosas	NPMS	Servicio de Enfermidades Infecciosas
 Servicio de Residencias	NPMS	Servicio de Residencias
@@ -6067,20 +8191,31 @@ Severino Somoza	NPML	Severino Somoza
 Severino	NPML	Severino
 Sevilla-Barcelona	NPEL	Sevilla-Barcelona
 Sevilla	NPEL	Sevilla
+Sevredol	NPEL	Sevredol
 Sexta	NPFS	Sexta
 Shakespeare	NPML	Shakespeare
 Shaúl Mofaz	NPML	Shaúl Mofaz
 Shea	NPEL	Shea
+Sheehan	NPEL	Sheehan
 Shehu	NPEL	Shehu
 Shinkai Zahine Karokhail	NPFL	Shinkai Zahine Karokhail
+Siaten	NPEL	Siaten
+Sibelium	NPEL	Sibelium
+Siccafluid	NPEL	Siccafluid
+Sicorten	NPEL	Sicorten
 Sigüeiro	NPEL	Sigüeiro
 Sigüenza	NPEL	Sigüenza
 Silencio , Santiago de Compostela existe ...	NPEL	Silencio , Santiago de Compostela existe ...
 Silicom Graphics	NPEL	Silicom Graphics
+Silidermil	NPEL	Silidermil
+Silkis	NPEL	Silkis
 Silleda	NPEL	Silleda
 Sil	NPEL	Sil
+Silostar	NPEL	Silostar
 Silva	NPEL	Silva
+Silvederma	NPEL	Silvederma
 Silvia	NPFL	Silvia
+Silvio	NPEL	Silvio
 Silvio	NPML	Silvio
 Simeón	NPML	Simeón
 Simon Fortuyn	NPML	Simon Fortuyn
@@ -6088,7 +8223,10 @@ Simon Peres	NPML	Simon Peres
 Simone Cristicchi	NPFL	Simone Cristicchi
 Simone de Beauvoir	NPFL	Simone de Beauvoir
 Simón	NPML	Simón
+Simpson	NPEL	Simpson
 Simulador de Navegación de o Camiño de Santiago	NPMS	Simulador de Navegación de o Camiño de Santiago
+Simulect	NPEL	Simulect
+Simvastatina	NPEL	Simvastatina
 Sinbad	NPML	Sinbad
 SI	NCMP	sistema internacional de unidades
 SI	NCMS	sistema internacional de unidades
@@ -6096,8 +8234,18 @@ Sindicato Interino de o Ensino Galego	NPMS	Sindicato Interino de o Ensino Galego
 Sindicato UXT	NPMS	Sindicato UXT
 Sindo	NPML	Sindo
 Sineiro	NPEL	Sineiro
+Sinemet	NPEL	Sinemet
+Sinequan	NPEL	Sinequan
+Sinergina	NPEL	Sinergina
+Singulair	NPEL	Singulair
+Sinmol	NPEL	Sinmol
 Sinn Fein	NPMS	Sinn Fein
+Sinogan	NPEL	Sinogan
 SI	NPFS	Societatis Iesu
+Sintonal	NPEL	Sintonal
+Sintrom	NPEL	Sintrom
+Sinus	NPEL	Sinus
+Sirdalud	NPEL	Sirdalud
 Siria	NPEL	Siria
 Sistema Cantábrico	NPMS	Sistema Cantábrico
 Sistema MIR	NPMS	Sistema MIR
@@ -6105,6 +8253,11 @@ Sistema Nacional de Saúde	NPMS	Sistema Nacional de Saúde
 Sitiña	NPFL	Sitiña
 Sixtina	NPFS	Sixtina
 SJ	NPFS	Societatis Iesu
+Sjögren	NPEL	Sjögren
+Skelid	NPEL	Skelid
+Skenan	NPEL	Skenan
+Skilax	NPEL	Skilax
+Skinoren	NPEL	Skinoren
 Skip	NPEL	Skip
 Skopje	NPEL	Skopje
 Slobodan Milosevic	NPML	Slobodan Milosevic
@@ -6126,10 +8279,20 @@ Sofía	NPFL	Sofía
 Sofía	NPFS	Sofía
 Sof	NPFS	Sof
 Sogama	NPEL	Sogama
+Sogilen	NPEL	Sogilen
 Solana	NPEL	Solana
 Solbes	NPEL	Solbes
 Soledad	NPFS	Soledad
 Soler	NPEL	Soler
+Solgol	NPEL	Solgol
+Solinitrina	NPEL	Solinitrina
+Solmucol	NPEL	Solmucol
+Solufilina	NPEL	Solufilina
+Solu	NPEL	Solu
+Solvium	NPEL	Solvium
+Somatulina	NPEL	Somatulina
+Somazina	NPEL	Somazina
+Somnovit	NPEL	Somnovit
 Somoza	NPEL	Somoza
 Somozas	NPEL	Somozas
 Sonia Barreiro	NPFL	Sonia Barreiro
@@ -6150,20 +8313,34 @@ Sonia Valladares Lago	NPFL	Sonia Valladares Lago
 Sonia Valladares	NPFL	Sonia Valladares
 Sonia	NPFL	Sonia
 Sonia	NPFS	Sonia
+Sonicur	NPEL	Sonicur
+Soñodor	NPEL	Soñodor
+Sorbenor	NPEL	Sorbenor
 Soria	NPEL	Soria
 SOS Familia	NPFS	SOS Familia
+Sosegon	NPEL	Sosegon
+Sotapor	NPEL	Sotapor
 Sotillos	NPEL	Sotillos
 Soutomaior	NPEL	Soutomaior
 Souto	NPMS	Souto
 Sozialdemokratische Partei Deutschlands	NPMS	Sozialdemokratische Partei Deutschlands
 Spanair	NPEL	Spanair
+Spasmoctyl	NPEL	Spasmoctyl
 SPD	NPMS	Sozialdemokratische Partei Deutschlands
+Spencer	NPEL	Spencer
+Spiegel	NPEL	Spiegel
 Spielber	NPEL	Spielber
+Spiraxin	NPEL	Spiraxin
+Spiriva	NPEL	Spiriva
+Sporanox	NPEL	Sporanox
 Sri Lanka	NPEL	Sri Lanka
 Sriperumbudur	NPEL	Sriperumbudur
+Stalevo	NPEL	Stalevo
 Stalin	NPEL	Stalin
 Stan	NPML	Stan
+Starlix	NPEL	Starlix
 Staro Gradsko	NPEL	Staro Gradsko
+Staticum	NPEL	Staticum
 Stavropol	NPEL	Stavropol
 Stefan Morling	NPML	Stefan Morling
 Stefan Schneider	NPML	Stefan Schneider
@@ -6171,15 +8348,25 @@ Stefan Stefanov	NPML	Stefan Stefanov
 Stefan Zweig	NPML	Stefan Zweig
 Stefano Longo	NPML	Stefano Longo
 Stepashin	NPEL	Stepashin
+Sterimar	NPEL	Sterimar
+Stesolid	NPEL	Stesolid
 Steven Aftergood	NPML	Steven Aftergood
 Steven Berkeley	NPML	Steven Berkeley
 Steven González	NPML	Steven González
 Steven Seagal	NPML	Steven Seagal
 Steven Spielberg	NPML	Steven Spielberg
 Steven Tyler	NPML	Steven Tyler
+Steven	NPEL	Steven
+Steward	NPEL	Steward
 Stewart Brand	NPML	Stewart Brand
 Stewart Home	NPML	Stewart Home
+Stilnox	NPEL	Stilnox
+Stimol	NPEL	Stimol
+Stokes	NPEL	Stokes
+Stolina	NPEL	Stolina
 Stormont	NPEL	Stormont
+Strasberg	NPEL	Strasberg
+Strauss	NPEL	Strauss
 Stravinsky	NPEL	Stravinsky
 Straw	NPEL	Straw
 Strobe Talbott	NPML	Strobe Talbott
@@ -6187,15 +8374,36 @@ Stuart Gordon	NPML	Stuart Gordon
 Stuart Mill	NPML	Stuart Mill
 Stuart Murdoch	NPML	Stuart Murdoch
 Studio B	NPFS	Studio B
+Stugeron	NPEL	Stugeron
 Suárez Canal	NPEL	Suárez Canal
 Suárez Quintanilla	NPEL	Suárez Quintanilla
 Subcomisión de Asuntos Monetarios	NPFS	Subcomisión de Asuntos Monetarios
+Sub-tensín	NPEL	Sub-tensín
 Sudáfrica	NPEL	Sudáfrica
 Suecia	NPEL	Suecia
+Sueroral	NPEL	Sueroral
+Sugiran	NPEL	Sugiran
 Suiza	NPEL	Suiza
 Suíza	NPEL	Suíza
+Sular	NPEL	Sular
+Sulfadiazina	NPEL	Sulfadiazina
+Sulfil	NPEL	Sulfil
+Sulfintestin	NPEL	Sulfintestin
+Sulfona	NPEL	Sulfona
+Sulindal	NPEL	Sulindal
+Sulmetin	NPEL	Sulmetin
+Sulquipen	NPEL	Sulquipen
+Sumial	NPEL	Sumial
+Suniderma	NPEL	Suniderma
+Supo	NPEL	Supo
+Supraalox	NPEL	Supraalox
+Suprefact	NPEL	Suprefact
 Supremo	NPMS	Supremo
 Surcin	NPEL	Surcin
+Surmenalit	NPEL	Surmenalit
+Surmontil	NPEL	Surmontil
+Surnox	NPEL	Surnox
+Susac	NPEL	Susac
 Susan George	NPFL	Susan George
 Susan Philipsz	NPFL	Susan Philipsz
 Susan Sarandon	NPFL	Susan Sarandon
@@ -6206,20 +8414,39 @@ Susanita	NPFS	Susanita
 Susi	NPFS	Susi
 Suso	NPML	Suso
 Suso	NPMS	Suso
+Sustiva	NPEL	Sustiva
+Sutif	NPEL	Sutif
+Sutril	NPEL	Sutril
+Suxidina	NPEL	Suxidina
 Suzaane	NPFS	Suzaane
+Swan	NPEL	Swan
+Sweet	NPEL	Sweet
+Sydenham	NPEL	Sydenham
 Sylvain	NPEL	Sylvain
 Sylvia Plath	NPFL	Sylvia Plath
+Symbicort	NPEL	Symbicort
+Symbion	NPEL	Symbion
+Synalar	NPEL	Synalar
+Synalotic	NPEL	Synalotic
+Synarel	NPEL	Synarel
+Syscor	NPEL	Syscor
 Tabacalera	NPEL	Tabacalera
 Tabad	NPMS	Tabad
 Taboadadela	NPEL	Taboadadela
 Taboada	NPEL	Taboada
 TAC	NCMP	tomografía axial computarizada
 TAC	NCMS	tomografía axial computarizada
+Tacron	NPEL	Tacron
 TAE	NCFP	tasa anual equivalente
 TAE	NCFS	tasa anual equivalente
 Taft Armandroff	NPML	Taft Armandroff
+Tagamet	NPEL	Tagamet
+Taguinol	NPEL	Taguinol
+Tairal	NPEL	Tairal
+Takayasu	NPEL	Takayasu
 Talbott	NPEL	Talbott
 Tallada	NPEL	Tallada
+Talquistina	NPEL	Talquistina
 Tamara Abalde	NPFL	Tamara Abalde
 Tamara Arroyo	NPFL	Tamara Arroyo
 Tamara Feijóo	NPFL	Tamara Feijóo
@@ -6228,37 +8455,81 @@ Tamara	NPFL	Tamara
 Tamara	NPFS	Tamara
 Tambourine	NPEL	Tambourine
 Tamil Nadu	NPEL	Tamil Nadu
+Tamin	NPEL	Tamin
+Tam	NPEL	Tam
+Tamoxifeno	NPEL	Tamoxifeno
+Tanagel	NPEL	Tanagel
+Tanakene	NPEL	Tanakene
 Tania	NPFL	Tania
 Tania	NPFS	Tania
+Tanidina	NPEL	Tanidina
 Tanjug	NPEL	Tanjug
 Tanjug	NPFS	Tanjug
 Ta	NPMS	Ta
+Tanser	NPEL	Tanser
+Tantum	NPEL	Tantum
 Tapia	NPFS	Tapia
+Taponoto	NPEL	Taponoto
+Tardyferon	NPEL	Tardyferon
 Tareixa	NPFL	Tareixa
+Targocid	NPEL	Targocid
+Tarka	NPEL	Tarka
+Tarlov	NPEL	Tarlov
 Tarragona	NPEL	Tarragona
 Tarzán	NPML	Tarzán
+Tasep	NPEL	Tasep
 Tatiana Aristárjova	NPFS	Tatiana Aristárjova
+Taucor	NPEL	Taucor
+Tavanic	NPEL	Tavanic
+Tavegil	NPEL	Tavegil
 Taylor	NPEL	Taylor
+Tazocel	NPEL	Tazocel
 Te Deum	NPMS	Te Deum
+Tears	NPEL	Tears
 Teatro Colón	NPMS	Teatro Colón
+Tebetane	NPEL	Tebetane
+Tedicumar	NPEL	Tedicumar
+Tediprima	NPEL	Tediprima
+Tedipulmo	NPEL	Tedipulmo
+Tegretol	NPEL	Tegretol
+Teichholz	NPEL	Teichholz
 Teis	NPEL	Teis
 Teis-Puxeiros	NPEL	Teis-Puxeiros
 Tejero	NPEL	Tejero
+Tejuntivo	NPEL	Tejuntivo
 Telecinco	NPEL	Telecinco
 Telemadrid	NPEL	Telemadrid
 Telespectadores Asociados de Cataluña	NPEL	Telespectadores Asociados de Cataluña
 Televisión de Galicia	NPEL	Televisión de Galicia
 Televisión de Galicia	NPFS	Televisión de Galicia
 Televisión sen Fronteiras	NPEL	Televisión sen Fronteiras
+Telfast	NPEL	Telfast
 Telmo	NPML	Telmo
+Telo	NPEL	Telo
+Temodal	NPEL	Temodal
+Tenckhoff	NPEL	Tenckhoff
 Tenerife	NPEL	Tenerife
+Tenoretic	NPEL	Tenoretic
+Tenormin	NPEL	Tenormin
 Te	NPMS	Te
+Tensikey	NPEL	Tensikey
+Tensiocomplet	NPEL	Tensiocomplet
+Tensogradal	NPEL	Tensogradal
+Tenso	NPEL	Tenso
+Tensoprel	NPEL	Tensoprel
 Teodomiro	NPML	Teodomiro
 Teodora	NPFL	Teodora
 Teodoro	NPML	Teodoro
+Teofilina	NPEL	Teofilina
 Teolinda	NPFL	Teolinda
 Teo	NPEL	Teo
 Teoría de a Literatura	NPEL	Teoría de a Literatura
+Tepavil	NPEL	Tepavil
+Tepazepan	NPEL	Tepazepan
+Tepox	NPEL	Tepox
+Teraumon	NPEL	Teraumon
+Terazosina	NPEL	Terazosina
+Terbasmin	NPEL	Terbasmin
 Terceiro Ciclo	NPEL	Terceiro Ciclo
 Tere López Ameijeiras	NPFL	Tere López Ameijeiras
 Terelu Campos	NPFL	Terelu Campos
@@ -6271,42 +8542,88 @@ Teresa	NPFL	Teresa
 Teresa	NPFS	Teresa
 Teresita	NPFS	Teresa
 Teresita	NPFS	Teresita
+Termalgin	NPEL	Termalgin
 Terminator	NPEL	Terminator
+Teromol	NPEL	Teromol
+Terposen	NPEL	Terposen
+Terramicina	NPEL	Terramicina
+Terra	NPEL	Terra
 Terras de Amoeiro	NPEL	Terras de Amoeiro
+Tertensif	NPEL	Tertensif
 Teruel	NPEL	Teruel
 Tesourería	NPFS	Tesourería
+Testogel	NPEL	Testogel
+Tetra	NPEL	Tetra
+Tevetens	NPEL	Tevetens
 Textilive	NPEL	Textilive
+Thalidomide	NPEL	Thalidomide
 The Blackouts	NPEL	The Blackouts
 The Blackouts	NPMP	The Blackouts
 The Kiddy's Class	NPEL	The Kiddy's Class
 The Scottish Ballet	NPEL	The Scottish Ballet
+Theo-dur	NPEL	Theo-dur
+Theolair	NPEL	Theolair
+Theoplus	NPEL	Theoplus
 Thereza Zabell	NPFL	Thereza Zabell
+Thiomucase	NPEL	Thiomucase
 Thomas Peinfield Jackson	NPML	Thomas Peinfield Jackson
 Thomas Rosemberg	NPML	Thomas Rosemberg
+Thomas	NPEL	Thomas
+Thompson	NPEL	Thompson
+Thrombocid	NPEL	Thrombocid
+Tiadipona	NPEL	Tiadipona
 Tiago Pérez	NPML	Tiago Pérez
 Tiago	NPML	Tiago
+Tiaprizal	NPEL	Tiaprizal
+Ticlodone	NPEL	Ticlodone
+Ticlopidina	NPEL	Ticlopidina
 Tiempo de juego	NPEL	Tiempo de juego
+Tienam	NPEL	Tienam
 Tierra de fuego	NPEL	Tierra de fuego
 Tierra de Fuego	NPEL	Tierra de fuego
+Tiffeneau	NPEL	Tiffeneau
 Tigres de Liberación de a Patria Tamil	NPEL	Tigres de Liberación de a Patria Tamil
 Tigres	NPMP	Tigres
+Tiklid	NPEL	Tiklid
+Tilad	NPEL	Tilad
+Tilavist	NPEL	Tilavist
+Tilker	NPEL	Tilker
 Tim Burton	NPML	Tim Burton
+Timoftol	NPEL	Timoftol
+Timogel	NPEL	Timogel
+Timolol	NPEL	Timolol
 Tin Tin en el Tibet	NPEL	Tin Tin en el Tibet
 Tin Tin	NPML	Tin Tin
+Tinel	NPEL	Tinel
+Tioguanina	NPEL	Tioguanina
+Tioner	NPEL	Tioner
+Tiorfar	NPEL	Tiorfar
+Tipodex	NPEL	Tipodex
 Tirana	NPEL	Tirana
 Tiresias	NPML	Tiresias
 TIR	NPMP	Transport International Routier
 TIR	NPMS	Transport International Routier
+Tirodril	NPEL	Tirodril
 Tiruleque	NPML	Tiruleque
+Tisobrif	NPEL	Tisobrif
+Tisuderma	NPEL	Tisuderma
 Tito	NPML	Tito
+Tivitis	NPEL	Tivitis
 Tiziana Domínguez	NPFL	Tiziana Domínguez
 Tiziano Ferro	NPML	Tiziano Ferro
 TNT	NPFS	Turner Network Television
+Tobi	NPEL	Tobi
+Tobrabact	NPEL	Tobrabact
+Tobradex	NPEL	Tobradex
+Tobramicina	NPEL	Tobramicina
+Tobrex	NPEL	Tobrex
 Tocino	NPEL	Tocino
 Todd McCarthy	NPML	Todd McCarthy
 Todos los días de mi vida	NPEL	Todos los días de mi vida
+Tofranil	NPEL	Tofranil
 Tojeiro	NPEL	Tojeiro
 Toledo	NPEL	Toledo
+Tolodina	NPEL	Tolodina
 Tom Avery	NPML	Tom Avery
 Tom Berninger	NPML	Tom Berninger
 Tom Bosley	NPML	Tom Bosley
@@ -6322,8 +8639,10 @@ Tom Waits	NPML	Tom Waits
 Tomás	NPML	Tomás
 Toni	NPML	Toni
 Toni	NPMS	Toni
+Tonopan	NPEL	Tonopan
 Tonucha Piñeiro	NPFS	Tonucha Piñeiro
 Tonucha	NPFS	Tonucha
+Tonum	NPEL	Tonum
 Tony Blair	NPML	Tony Blair
 Tony Blayr	NPML	Tony Blayr
 Tony Curtis	NPML	Tony Curtis
@@ -6337,13 +8656,23 @@ Tony Salhoub	NPML	Tony Salhoub
 Tony Soprano	NPML	Tony Soprano
 Tony Tcheca	NPML	Tony Tcheca
 Toño	NPMS	Toño
+Topamax	NPEL	Topamax
+Topionic	NPEL	Topionic
 Toques	NPEL	Toques
 Toquio	NPEL	Toquio
+Toradol	NPEL	Toradol
+Torasemida	NPEL	Torasemida
+Toraseptol	NPEL	Toraseptol
+Torecan	NPEL	Torecan
+Toriol	NPEL	Toriol
+Torlasporin	NPEL	Torlasporin
 Torras	NPEL	Torras
 Torre de la Berenguela	NPFS	Torre de la Berenguela
+Torre	NPEL	Torre
 Torres de os Andrade	NPFP	Torres de os Andrade
 Torricelli	NPEL	Torricelli
 Tosar	NPEL	Tosar
+Toseina	NPEL	Toseina
 Toubes	NPMS	Toubes
 Toulouse	NPEL	Toulouse
 Toural	NPEL	Toural
@@ -6352,15 +8681,34 @@ Trabada	NPEL	Trabada
 Traballo e Asuntos Sociais	NPEL	Traballo
 Traballo e Asuntos Sociais	NPEL	Traballo e Asuntos Sociais
 Traballo	NPEL	Traballo
+Tracher	NPEL	Tracher
+Tracleer	NPEL	Tracleer
+Tradonal	NPEL	Tradonal
 Tragobe	NPEL	Tragobe
+Tralgiol	NPEL	Tralgiol
+Tramadol	NPEL	Tramadol
+Trandate	NPEL	Trandate
+Trangorex	NPEL	Trangorex
+Trankimazin	NPEL	Trankimazin
 Transport International Routier	NPMP	Transport International Routier
 Transport International Routier	NPMS	Transport International Routier
 Transportes	NPEL	Transportes
+Transtec	NPEL	Transtec
+Tranxilium	NPEL	Tranxilium
 Trasalba	NPEL	Trasalba
+Trasicor	NPEL	Trasicor
+Trasitensin	NPEL	Trasitensin
+Trasylol	NPEL	Trasylol
 Tratado de Ámsterdan	NPMS	Tratado de Ámsterdan
+Travatan	NPEL	Travatan
 Travesía da Roda	NPEL	Travesía da Roda
+Treitz	NPEL	Treitz
+Trendelemburg	NPEL	Trendelemburg
 Tres Poetas	NPEL	Tres Poetas
 Triacastela	NPEL	Triacastela
+Trialmin	NPEL	Trialmin
+Trialona	NPEL	Trialona
+Triasox	NPEL	Triasox
 Tribunais Superiores de Xustiza	NPMP	Tribunais Superiores de Xustiza
 Tribunal Constitucional	NPMS	Tribunal Constitucional
 Tribunal de o Xurado	NPMS	Tribunal de o Xurado
@@ -6371,39 +8719,73 @@ Tribunal Superior de Xustiza de Galicia	NPMS	Tribunal Superior de Xustiza de Gal
 Tribunal Superior de Xustiza	NPMS	Tribunal Superior de Xustiza
 Tribunal Supremo	NPMS	Tribunal Supremo
 Tribunal	NPMS	Tribunal
+Tricen	NPEL	Tricen
+Tricolam	NPEL	Tricolam
+Tricowas	NPEL	Tricowas
+Triflusal	NPEL	Triflusal
+Trigon	NPEL	Trigon
+Trileptal	NPEL	Trileptal
+Trilombrim	NPEL	Trilombrim
 Trimble	NPEL	Trimble
+Trimetabol	NPEL	Trimetabol
+Trimetazidina	NPEL	Trimetazidina
+Trinipatch	NPEL	Trinipatch
+Trinispray	NPEL	Trinispray
 Trip	NPFS	Trip
 Trisca	NPFS	Trisca
 Tristán	NPML	Tristán
+Trizivir	NPEL	Trizivir
+Troforex	NPEL	Troforex
 Troia	NPEL	Troia
 Trois-Frères	NPEL	Trois-Frères
 Troitiño	NPEL	Troitiño
+Tromalyt	NPEL	Tromalyt
+Tropargal	NPEL	Tropargal
 Trópico	NPMS	Trópico
 Trópi	NPMS	Trópi
+Trosid	NPEL	Trosid
+Trosseau	NPEL	Trosseau
+Truelove	NPEL	Truelove
 Trufiño	NPML	Trufiño
+Trumsal	NPEL	Trumsal
+Trusopt	NPEL	Trusopt
+Tryptizol	NPEL	Tryptizol
 Tucho	NPML	Tucho
 Tucor	NPMS	Tucor
 Tucorpito	NPMS	Tucorpito
 Tui	NPEL	Tui
+Tulgrasum	NPEL	Tulgrasum
 Tupi	NPMS	Tupi
 Tupito	NPMS	Tupito
 Turespaña	NPEL	Turespaña
 Turgalicia	NPEL	Turgalicia
 Turismo	NPEL	Turismo
 Turner Network Television	NPFS	Turner Network Television
+Turner	NPEL	Turner
 Turpín	NPML	Turpín
 Turquía	NPEL	Turquía
+Tusorama	NPEL	Tusorama
+Tussidrill	NPEL	Tussidrill
+Tuzanil	NPEL	Tuzanil
 Txurdinaga	NPEL	Txurdinaga
+Tylenol	NPEL	Tylenol
 U2	NPEL	U2
 UCI	NCFP	unidad de cuidados intensivos
 UCI	NCFS	unidad de cuidados intensivos
 UE	NPFS	Unión Europea
 UFO	NCMP	unidentified flying object
 UFO	NCMS	unidentified flying object
+Uft	NPEL	Uft
 UGT Galicia	NPEL	UGT Galicia
 UGT	NPMS	Unión General de Trabajadores
 UHF	NCFP	ultra high frequency
 UHF	NCFS	ultra high frequency
+Ulceral	NPEL	Ulceral
+Ulcesep	NPEL	Ulcesep
+Ulcetrax	NPEL	Ulcetrax
+Ulcometion	NPEL	Ulcometion
+Ulcotenal	NPEL	Ulcotenal
+Ulgarine	NPEL	Ulgarine
 Ulises	NPML	Ulises
 Ulla	NPEL	Ulla
 Ullá	NPEL	Ullá
@@ -6411,6 +8793,9 @@ Ulrich Cartellieri	NPML	Ulrich Cartellieri
 Ulrich Engel	NPML	Ulrich Engel
 Ulster	NPEL	Ulster
 Úlster	NPEL	Úlster
+Ultiva	NPEL	Ultiva
+Ultralan	NPEL	Ultralan
+Ultratard	NPEL	Ultratard
 Ultratur Andalucía	NPFS	Ultratur Andalucía
 Ultratur Portugal-Viajes y Turismo	NPFS	Ultratur Portugal-Viajes y Turismo
 Ultratur Viajes	NPEL	Ultratur Viajes
@@ -6421,14 +8806,19 @@ Umberto Eco	NPML	Umberto Eco
 Umberto Lima	NPML	Umberto Lima
 Un eterno y grácil bucle	NPEL	Un eterno y grácil bucle
 Un país para comérselo	NPEL	Un país para comérselo
+Underacid	NPEL	Underacid
 Unesco	NPEL	Unesco
 Unesco	NPFS	Unesco
 UNESCO	NPFS	United Nations Educational, Scientific and Cultural Organization
+Unibenestan	NPEL	Unibenestan
 UNICEF	NPFS	United Nations International Children's Emergency Fund
 Unidade de Alcoloxía	NPFS	Unidade de Alcoloxía
 Unidade de Trastornos Alimentarios	NPFS	Unidade de Trastornos Alimentarios
 Unidade de Trastornos de a Alimentación	NPFS	Unidade de Trastornos de a Alimentación
 Unidade de Trastornos en a Alimentación	NPFS	Unidade de Trastornos en a Alimentación
+Unidor	NPEL	Unidor
+Uniket	NPEL	Uniket
+Uni	NPEL	Uni
 Unión de el Pueblo Navarro	NPEL	Unión de el Pueblo Navarro
 Unión Europea	NPEL	Unión Europea
 Unión Europea	NPFS	Unión Europea
@@ -6456,13 +8846,32 @@ Universidade de Western Oritario	NPFS	Universidade de Western Oritario
 Universidade Nacional de Educación a Distancia	NPEL	Universidade Nacional de Educación a Distancia
 Universidade	NPFS	Universidade
 University Medical Center	NPMS	University Medical Center
+Uprima	NPEL	Uprima
+Uralyt	NPEL	Uralyt
+Uraplex	NPEL	Uraplex
+Urbal	NPEL	Urbal
+Urbason	NPEL	Urbason
+Urgenin	NPEL	Urgenin
+Urinorm	NPEL	Urinorm
+Urisan	NPEL	Urisan
 Urkullu	NPEL	Urkullu
+Uroctal	NPEL	Uroctal
+Urolosin	NPEL	Urolosin
+Uromitexan	NPEL	Uromitexan
+Uronid	NPEL	Uronid
+Urotrol	NPEL	Urotrol
 Urraca	NPFL	Urraca
 Urrusolo	NPEL	Urrusolo
+Ursobilane	NPEL	Ursobilane
+Ursochol	NPEL	Ursochol
 URSS	NPFS	Unión de Repúblicas Socialistas Soviéticas
+Urtenberger	NPEL	Urtenberger
 Uruguai	NPEL	Uruguai
 USA	NPMS	United States of America
 USC	NPFS	Universidad de Santiago de Compostela
+Utabon	NPEL	Utabon
+Utefos	NPEL	Utefos
+Utrogestan	NPEL	Utrogestan
 UVI	NCFP	unidad de vigilancia intensiva
 UVI	NCFS	unidad de vigilancia intensiva
 Uxía Blanco	NPFL	Uxía Blanco
@@ -6472,7 +8881,11 @@ Uxío	NPML	Uxío
 V. Aleixandre	NPEL	V. Aleixandre
 V. Hachinski	NPEL	V. Hachinski
 Vaamonde	NPEL	Vaamonde
+Vaditon	NPEL	Vaditon
+Vagifem	NPEL	Vagifem
 Val do Dubra	NPEL	Val do Dubra
+Valcyte	NPEL	Valcyte
+Valdispert	NPEL	Valdispert
 Valdoviño	NPEL	Valdoviño
 Valencia	NPEL	Valencia
 Valensa	NPEL	Valensa
@@ -6483,6 +8896,8 @@ Valentín	NPML	Valentín
 Valeria Fuenteseca	NPFL	Valeria Fuenteseca
 Valery	NPEL	Valery
 Valga	NPEL	Valga
+Valherpes	NPEL	Valherpes
+Valium	NPEL	Valium
 Valjevo	NPEL	Valjevo
 Valladares González	NPML	Valladares González
 Valladolid	NPEL	Valladolid
@@ -6493,8 +8908,14 @@ Valle Riestra	NPML	Valle Riestra
 Vallejo Cobo	NPMS	Vallejo Cobo
 Vallejo	NPMS	Vallejo
 Valle	NPML	Valle
+Valsalva	NPEL	Valsalva
+Vals	NPEL	Vals
+Valtrex	NPEL	Valtrex
+Vancomicina	NPEL	Vancomicina
+Vandral	NPEL	Vandral
 Vanesa	NPFS	Vanesa
 Vanessa	NPFS	Vanessa
+Vaniqa	NPEL	Vaniqa
 Varadeiro	NPEL	Varadeiro
 Varela Buxán	NPML	Varela Buxán
 Varela Cabo	NPML	Varela Cabo
@@ -6509,12 +8930,22 @@ Varela Vázquez	NPML	Varela Vázquez
 Varela Zapata	NPML	Varela Zapata
 Varela	NPML	Varela
 Varèse	NPEL	Varèse
+Varidasa	NPEL	Varidasa
 Variety	NPEL	Variety
+Varson	NPEL	Varson
+Vaselina	NPEL	Vaselina
+Vasodexa	NPEL	Vasodexa
+Vasonase	NPEL	Vasonase
+Vaspit	NPEL	Vaspit
+Vastat	NPEL	Vastat
+Vastensium	NPEL	Vastensium
 Vaticano	NPMS	Vaticano
 Vázquez Chaves	NPEL	Vázquez Chaves
 Vazquez Pintor	NPML	Vazquez Pintor
 Vázquez	NPEL	Vázquez
 Vazquez	NPML	Vazquez
+Vectarion	NPEL	Vectarion
+Vectavir	NPEL	Vectavir
 Vegalsa	NPEL	Vegalsa
 Vega	NPEL	Vega
 Vego Supermercados	NPEL	Vego Supermercados
@@ -6522,22 +8953,41 @@ Vegonsa	NPEL	Vegonsa
 Veinticuatro horas	NPEL	Veinticuatro horas
 Velasco	NPEL	Velasco
 Velázquez	NPEL	Velázquez
+Velmonit	NPEL	Velmonit
+Velocef	NPEL	Velocef
+Velodan	NPEL	Velodan
 Veloso	NPML	Veloso
 Venceslau	NPML	Venceslau
 Venecia	NPEL	Venecia
 Veneranda	NPFL	Veneranda
 Venezuela	NPEL	Venezuela
 Ven	NPMS	Ven
+Venofer	NPEL	Venofer
+Venofit	NPEL	Venofit
+Venolep	NPEL	Venolep
+Venoruton	NPEL	Venoruton
+Venosmil	NPEL	Venosmil
 Venres Santo	NPEL	Venres Santo
 Venres Santo	NPMS	Venres Santo
+Ventadur	NPEL	Ventadur
+Ventavis	NPEL	Ventavis
+Ventolin	NPEL	Ventolin
 Ventura	NPML	Ventura
+Vepesid	NPEL	Vepesid
 Vera Drake	NPFL	Vera Drake
 Vera	NPEL	Vera
 Verdes	NPMP	Verdes
 Verea	NPEL	Verea
 Verín	NPEL	Verín
+Veriscal	NPEL	Veriscal
+Vernies	NPEL	Vernies
+Verolax	NPEL	Verolax
 Very Large Telescope	NPMS	Very Large Telescope
+Vesanoid	NPEL	Vesanoid
+Vesicare	NPEL	Vesicare
 Vettel	NPML	Vettel
+Vexol	NPEL	Vexol
+Vfend	NPEL	Vfend
 VHF	NCFP	very high frequency
 VHF	NCFS	very high frequency
 VHS	NCMP	video home system
@@ -6545,12 +8995,15 @@ VHS	NCMS	video home system
 VI Convenio Colectivo	NPMS	VI Convenio Colectivo
 Vía Digital	NPEL	Vía Digital
 Vía Láctea	NPFS	Vía Láctea
+Viagra	NPEL	Viagra
 Viajando con Chester	NPEL	Viajando con Chester
 Viajes Amado	NPFS	Viajes Amado
 Viajes Politur	NPEL	Viajes Politur
 Viajes Politur	NPFS	Viajes Politur
 Viajes Vincit	NPFS	Viajes Vincit
 Viana	NPEL	Viana
+Viberol	NPEL	Viberol
+Vibracina	NPEL	Vibracina
 Vicente Quindós	NPML	Vicente Quindós
 Vicente Sánchez de León	NPML	Vicente Sánchez de León
 Vicente	NPML	Vicente
@@ -6575,12 +9028,14 @@ Vidal Sassoon	NPML	Vidal Sassoon
 Vidal Suárez	NPML	Vidal Suárez
 Vidal	NPML	Vidal
 Vidán	NPMS	Vidán
+Videx	NPEL	Videx
 Vieites	NPEL	Vieites
 Viejo	NPMS	Viejo
 Viena	NPEL	Viena
 VIESA	NPMS	VIESA
 Vietnam	NPEL	Vietnam
 Vietnan	NPEL	Vietnan
+Vigencial	NPEL	Vigencial
 Vigo-Cangas	NPEL	Vigo-Cangas
 Vigo	NPEL	Vigo
 Vigo-Ourense	NPEL	Vigo-Ourense
@@ -6624,9 +9079,21 @@ Vincent Connare	NPML	Vincent Connare
 Vincent Sarich	NPML	Vincent Sarich
 Vincent Weafer	NPML	Vincent Weafer
 Vincent	NPML	Vincent
+Vincidol	NPEL	Vincidol
+Vincigrip	NPEL	Vincigrip
+Vincitos	NPEL	Vincitos
+Vincosedan	NPEL	Vincosedan
+Vinpocetina	NPEL	Vinpocetina
+Vinzam	NPEL	Vinzam
 Violante	NPFL	Violante
 VIP	NCMP	very important person
 VIP	NCMS	very important person
+Vipres	NPEL	Vipres
+Viracept	NPEL	Viracept
+Viramune	NPEL	Viramune
+Virchow	NPEL	Virchow
+Virchow-Robin	NPEL	Virchow-Robin
+Viread	NPEL	Viread
 Virginia Acebes	NPFL	Virginia Acebes
 Virginia Johnson	NPFL	Virginia Johnson
 Virginia M. Axline	NPFL	Virginia M. Axline
@@ -6635,11 +9102,26 @@ Virginia Torralba	NPFL	Virginia Torralba
 Virginia Woolf	NPFL	Virginia Woolf
 Virginia	NPFL	Virginia
 Virginia	NPFS	Virginia
+Virherpes	NPEL	Virherpes
+Virlix	NPEL	Virlix
+Virmen	NPEL	Virmen
+Viromidin	NPEL	Viromidin
+Viruderm	NPEL	Viruderm
 Virxinia	NPEL	Virxinia
+Visadron	NPEL	Visadron
+Viscofresh	NPEL	Viscofresh
+Viscotears	NPEL	Viscotears
+Viscoteina	NPEL	Viscoteina
 Visitación	NPFL	Visitación
 Vista Alegre	NPEL	Vista Alegre
+Vistafrin	NPEL	Vistafrin
+Vistide	NPEL	Vistide
 Visto en Facebook	NPEL	Visto en Facebook
+Vitaber	NPEL	Vitaber
+Vitamina	NPEL	Vitamina
+Vitaxicam	NPEL	Vitaxicam
 Vite	NPEL	Vite
+Viternum	NPEL	Viternum
 Vitoria	NPEL	Vitoria
 Viva Tours	NPEL	Viva Tours
 Viveiro	NPEL	Viveiro
@@ -6652,28 +9134,51 @@ Vladímir Putin	NPML	Vladímir Putin
 VLT	NPMS	Very Large Telescope
 V	NPMS	V
 Volta do Castro	NPEL	Volta do Castro
+Voltaren	NPEL	Voltaren
 Vuelvamañana	NPEL	Vuelvamañana
 W. Allen	NPEL	W. Allen
 W. C. Williams	NPEL	W. C. Williams
 W. Christopher	NPEL	W. Christopher
+Wagner	NPEL	Wagner
+Waldenström	NPEL	Waldenström
 Wald	NPEL	Wald
+Walker	NPEL	Walker
 Wall Street	NPEL	Wall Street
+Wallenberg	NPEL	Wallenberg
 Walter Jertz	NPML	Walter Jertz
 Walter	NPML	Walter
+Wartec	NPEL	Wartec
+Wartenberg	NPEL	Wartenberg
+Warthin	NPEL	Warthin
 Washington	NPEL	Washington
+Wasting	NPEL	Wasting
+Watzlawick	NPEL	Watzlawick
 Webber	NPEL	Webber
+Weber	NPEL	Weber
+Wegener	NPEL	Wegener
+Weiss	NPEL	Weiss
+Welander	NPEL	Welander
 Weller	NPEL	Weller
+Wellvone	NPEL	Wellvone
 Wenceslao	NPML	Wenceslao
+Wenckebach	NPEL	Wenckebach
 Wentworth Estate	NPEL	Wentworth Estate
+Werner	NPEL	Werner
+Wernicke-Korsakoff	NPEL	Wernicke-Korsakoff
+Wernicke	NPEL	Wernicke
+Werthein	NPEL	Werthein
 Westendorp	NPEL	Westendorp
+Wharton	NPEL	Wharton
 WhatsApp	NPEL	WhatsApp
 White Wolfs	NPEL	White Wolfs
 Wilheim Conrad Röntgen	NPML	Wilheim Conrad Röntgen
 Wilhelm Reich	NPML	Wilhelm Reich
 Wilkens	NPEL	Wilkens
 Wilkie Collins	NPML	Wilkie Collins
+Wilkins	NPEL	Wilkins
 Will Oldham	NPML	Will Oldham
 Willard O. Quine	NPML	Willard O. Quine
+Willebrand	NPEL	Willebrand
 Willem Elbers	NPML	Willem Elbers
 William Barr	NPML	William Barr
 William Blake	NPML	William Blake
@@ -6700,6 +9205,7 @@ Williamson	NPEL	Williamson
 Willian A. Haseltine	NPML	Willian A. Haseltine
 Willibald I. Holzer	NPML	Willibald I. Holzer
 Willi	NPML	Willi
+Willis	NPEL	Willis
 Will	NPML	Will
 Willy Claes	NPML	Willy Claes
 Willy Loman	NPML	Willy Loman
@@ -6723,7 +9229,11 @@ Windows	NPMS	Windows
 Winehouse	NPEL	Winehouse
 Winner	NPEL	Winner
 Winston Churchill	NPML	Winston Churchill
+Winstrol	NPEL	Winstrol
+Winter	NPEL	Winter
+Winton 	NPEL	Winton
 Wipp	NPEL	Wipp
+Wirsung	NPEL	Wirsung
 Wisawa Szymborska	NPFL	Wisawa Szymborska
 Witold Gombrowicz	NPML	Witold Gombrowicz
 Wittgenstein	NPEL	Wittgenstein
@@ -6751,17 +9261,23 @@ Xaime Pita	NPML	Xaime Pita
 Xaime Quessada	NPML	Xaime Quessada
 Xaime Rodríguez Arana	NPML	Xaime Rodríguez Arana
 Xaime	NPML	Xaime
+Xalacom	NPEL	Xalacom
+Xalatan	NPEL	Xalatan
 Xan	NPML	Xan
 Xapón	NPEL	Xapón
 Xaquín	NPML	Xaquín
+Xasmun	NPEL	Xasmun
 Xavier de Paz	NPML	Xavier de Paz
 Xavier	NPML	Xavier
 Xavi	NPML	Xavi
+Xazal	NPEL	Xazal
 Xefatura de Servicio de Desenvolvemento Rural de a Coruña	NPFS	Xefatura de Servicio de Desenvolvemento Rural de a Coruña
 Xefatura Superior de Policía	NPFS	Xefatura Superior de Policía
 Xelmírez	NPML	Xelmírez
+Xeloda	NPEL	Xeloda
 Xenaro	NPML	Xenaro
 Xenebra	NPFL	Xenebra
+Xenical	NPEL	Xenical
 Xerardo Estévez	NPML	Xerardo Estévez
 Xerardo Fernández Albor	NPML	Xerardo Fernández Albor
 Xerardo	NPML	Xerardo
@@ -6783,10 +9299,12 @@ Xesús Pérez Varela	NPML	Xesús Pérez Varela
 Xesús Vega	NPML	Xesús Vega
 Xesusa	NPFL	Xesusa
 Xesús	NPML	Xesús
+Xetin	NPEL	Xetin
 XI Congreso Nacional de a Sociedade Española de Neu	NPMS	XI Congreso Nacional de a Sociedade Española de Neu
 XI Congreso Nacional de Formación non Regrada	NPMS	XI Congreso Nacional de Formación non Regrada
 Xiana	NPFS	Xiana
 Xian	NPEL	Xian
+Xicil	NPEL	Xicil
 XIII Congreso nacional de titulados mercantís e empresariais	NPMS	XIII Congreso nacional de titulados mercantís e empresariais
 Xil	NPML	Xil
 Ximonde	NPEL	Ximonde
@@ -6832,11 +9350,13 @@ Xosefa	NPFL	Xosefa
 Xose	NPML	Xose
 Xosé	NPML	Xosé
 Xosé	NPMS	Xosé
+X-prep	NPEL	X-prep
 Xudas	NPML	Xudas
 Xulgado de Instrucción	NPMS	Xulgado de Instrucción
 Xulgado número 9 de Instrucción	NPMS	Xulgado número 9 de Instrucción
 Xulián	NPML	Xulián
 Xulio	NPML	Xulio
+Xumadol 	NPEL	Xumadol
 Xunta de Galicia	NPFS	Xunta de Galicia
 Xunta de Goberno	NPFS	Xunta de Goberno
 Xunta de Municipios	NPFS	Xunta de Municipios
@@ -6852,15 +9372,20 @@ Xustiza	NPEL	Xustiza
 Xustiza	NPFS	Xustiza
 Xusto	NPML	Xusto
 XVIII Congreso Nacional de a Sociedade Española de o Xeonllo	NPMS	XVIII Congreso Nacional de a Sociedade Española de o Xeonllo
+Xylocaina	NPEL	Xylocaina
 Y punto	NPEL	Y punto
 Yábloko	NPEL	Yábloko
+Yacutin	NPEL	Yacutin
 Yahoo España	NPEL	Yahoo España
+Yahr	NPEL	Yahr
 Yakovica	NPEL	Yakovica
 Yanet	NPFS	Yanet
 Yannos Papantoniu	NPML	Yannos Papantoniu
+Yatrox	NPEL	Yatrox
 Yebra	NPEL	Yebra
 Yebra-Pimentel	NPEL	Yebra-Pimentel
 Yevgueni Primakov	NPML	Yevgueni Primakov
+Yewett	NPEL	Yewett
 Ynestrillas	NPEL	Ynestrillas
 Yogures Nestlé	NPEL	Yogures Nestlé
 Yoko Ono	NPFL	Yoko Ono
@@ -6878,26 +9403,75 @@ Yolanda Pérez	NPFL	Yolanda Pérez
 Yolanda Romero	NPFL	Yolanda Romero
 Yolanda Valcárcel	NPFL	Yolanda Valcárcel
 Yolanda	NPFL	Yolanda
+Yomesan	NPEL	Yomesan
 YouTube	NPEL	YouTube
 Yuri Luzhkov	NPML	Yuri Luzhkov
 Zabell	NPEL	Zabell
 Zacarías	NPML	Zacarías
+Zaditen	NPEL	Zaditen
+Zalain	NPEL	Zalain
+Zaldiar	NPEL	Zaldiar
+Zamene	NPEL	Zamene
 Zamora	NPEL	Zamora
 Zamora	NPFS	Zamora
+Zanidip	NPEL	Zanidip
 Za	NPMS	Za
+Zantac	NPEL	Zantac
 Zapatero	NPEL	Zapatero
 Zaplana	NPEL	Zaplana
 Zaragoza	NPEL	Zaragoza
+Zarator	NPEL	Zarator
+Zarocs	NPEL	Zarocs
+Zarontin	NPEL	Zarontin
+Zasten	NPEL	Zasten
+Zavedos	NPEL	Zavedos
+Zaxine	NPEL	Zaxine
+Zayasel	NPEL	Zayasel
+Zeffix	NPEL	Zeffix
+Zeldox	NPEL	Zeldox
+Zeliderm	NPEL	Zeliderm
+Zenavan	NPEL	Zenavan
+Zenckel	NPEL	Zenckel
+Zentavion	NPEL	Zentavion
+Zerit	NPEL	Zerit
+Zestoretic	NPEL	Zestoretic
+Zestril	NPEL	Zestril
+Zhiel	NPEL	Zhiel
 Zhu Bangzao	NPML	Zhu Bangzao
+Ziagen	NPEL	Ziagen
 Zidane	NPEL	Zidane
+Zidovudina	NPEL	Zidovudina
+Zielh-Nielsen	NPEL	Zielh-Nielsen
 Zies	NPMP	Zies
+Zimadoce	NPEL	Zimadoce
+Zimor	NPEL	Zimor
+Zinc	NPEL	Zinc
+Zinnat 	NPEL	Zinnat
+Zitromax	NPEL	Zitromax
 Zivkovic	NPEL	Zivkovic
 Zlugánov	NPEL	Zlugánov
+Zocor	NPEL	Zocor
+Zofran	NPEL	Zofran
+Zoladex	NPEL	Zoladex
+Zolico	NPEL	Zolico
+Zolina	NPEL	Zolina
+Zolistan	NPEL	Zolistan
+Zolpidem	NPEL	Zolpidem
+Zomig	NPEL	Zomig
 Zona Franca	NPFS	Zona Franca
 Zona Vella	NPFS	Zona Vella
 Zonas Industriais Espontáneas	NPEL	Zonas Industriais Espontáneas
+Zopicalma	NPEL	Zopicalma
+Zorac	NPEL	Zorac
 Zoraida	NPFL	Zoraida
 Zoran Matkovic	NPML	Zoran Matkovic
 Zoran Zivkovic	NPML	Zoran Zivkovic
+Zovirax	NPEL	Zovirax
 Zuberoa	NPEL	Zuberoa
+Zulex	NPEL	Zulex
 Zutabe	NPEL	Zutabe
+Zyloric	NPEL	Zyloric
+Zyprexa	NPEL	Zyprexa
+Zyrtec	NPEL	Zyrtec
+Zytram	NPEL	Zytram
+Zyvoxid	NPEL	Zyvoxid

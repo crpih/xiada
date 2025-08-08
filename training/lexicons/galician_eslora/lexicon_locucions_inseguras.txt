@@ -1,32 +1,43 @@
 a a beira de	X	a a beira de	a a beira de	s
 a a beira	W	a a beira	a a beira	s
 a a ceavoga	W	a a ceavoga	a a ceavoga	s
+a a desesperada	W	a a desesperada	a a desesperada	n
 a a fin e a o cabo	W	a a fin e a o cabo	a a fin e a o cabo	s
 a a fin	W	a a fin	a a fin	s
 a a forza	W	a a forza	a a forza	s
+a a fronte	W	a a fronte	a a fronte	s
 a a longa	W	a a longa	a a longa	n
+a a man	W	a a man	a a man	s
 a a marxe	W	a a marxe	a a marxe	s
 a a medida	W	a a medida	a a medida	s
 a a parte	W	a a parte	a a parte	s
+a a par	W	a a par	a a par	s
 a a présa	W	a a présa	a a présa	s
 a as avesas	W	a as avesas	a as avesas	s
+a as caladas	W	a as caladas	a as caladas	s
 a as carreiras	W	a as carreiras	a as carreiras	s
 a as cegas	W	a as cegas	a as cegas	s
+a as claras	W	a as claras	a as claras	s
+a as dereitas	W	a as dereitas	a dereitas	n
+a as desesperadas	W	a as desesperadas	a a desesperada	n
 a as escuras	W	a as escuras	a as escuras	s
+a as miñas anchas	W	a as miñas anchas	a as miñas anchas	n
+a as presas	W	a as presas	a as présas	n
 a as présas	W	a as présas	a as présas	s
 a as rapadas	W	a as rapadas	a as rapadas	s
+a as súas anchas	W	a as súas anchas	a as súas anchas	n
 a as veces	W	a as veces	a as veces	s
 a base de	X	a base de	a base de	s
 a berros	W	a berros	a berros	s
 a cabalo	W	a cabalo	a cabalo	s
 a cada canto	W	a cada canto	a cada canto	s
 a cada pouco	W	a cada pouco	a cada pouco	s
-a cambio	W	a cambio	a cambio	s
 a canchaperna	W	a canchaperna	a cachapernas	s
 a capela	W	a capela	a capela	s
 a catro patas	W	a catro patas	a catro patas	s
 a causa de	X	a causa de	a causa de	s
 a cegas	W	a cegas	a as cegas	n
+a cerca de	X	a cerca de	acerca de	n
 a chupe	W	a chupe	a chupe	s
 a consecuencia de	X	a consecuencia de	a consecuencia de	s
 a conta de	X	a conta de	a a conta de	n
@@ -41,21 +52,23 @@ a diario	W	a diario	a diario	s
 a diferencia de	X	a diferencia de	a diferenza de	n
 a diferenza de	X	a diferenza de	a diferenza de	s
 a duras penas	W	a duras penas	a duras penas	s
+a escuras	W	a escuras	a as escuras	n
 a escuso	W	a escuso	a escuso	s
 a excepción de	X	a excepción de	a excepción de	s
 a feito	W	a feito	a feito	s
-a fin de contas	W	a fin de contas	a fin de contas	s
 a fin de	X	a fin de	a fin de	s
 a fondo	W	a fondo	a fondo	s
 a forza de	X	a forza de	a forza de	s
 a gusto	W	a gusto	a gusto	s
 a maiores	W	a maiores	a maiores	s
 a mais	C	a mais	e mais	s
+a máis	W	a máis	ademais	n
+a man	W	a man	a a man	n
 a medida que	C	a medida que	a medida que	s
 a menos que	C	a menos que	a menos que	s
 a modo	W	a modo	amodo	n
 a nada que	C	a nada que	a nada que	s
-a nado	W	a nado	a nado	s
+a o axexo	W	a o axexo	a o axexo	s
 a o azar	W	a o azar	a o azar	s
 a o bordo de	X	a o bordo de	a o bordo de	s
 a o cabo	W	a o cabo	a o cabo	s
@@ -66,16 +79,18 @@ a o dereito	W	a o dereito	a o dereito	s
 a o descuberto	W	a o descuberto	a o descuberto	s
 a o fin e a o cabo	W	a o fin e a o cabo	a a fin e a o cabo	s
 a o fin	W	a o fin	a o fin	s
+a o grande	W	a o grande	a o grande	s
 a o lado	W	a o lado	a o lado	s
 a o longo de	X	a o longo de	a o longo de	s
-a o lonxe	W	a o lonxe	a o lonxe	s
 a o mellor	W	a o mellor	a o mellor	s
 a o menos	W	a o menos	a o menos	s
+a o millor	W	a o millor	a o mellor	n
 a o momentiño	W	a o momento	a o momento	s
 a o momento	W	a o momento	a o momento	s
 a o par de	X	a o par de	a o par de	s
 a o parecer	W	a o parecer	a o parecer	s
 a o par	W	a o par	a o par	s
+a o pe de	X	a o pe de	a o pé de	n
 a o pé de	X	a o pé de	a o pé de	s
 a o pé	W	a o pé	a o pé	s
 a o pouco	W	a o pouco	a o pouco	s
@@ -85,16 +100,21 @@ a o raro	W	a o raro	a o raro	s
 a o redor de	X	a o redor de	a o redor de	s
 a o respecto de	X	a o respecto de	a respecto de	n
 a o respecto	W	a o respecto	a o respecto	s
-a o revés	W	a o revés	a o revés	s
 a o tanto	W	a o tanto	a o tanto	s
+a o voo	W	a o voo	a o voo	n
+a o vó	W	a o vó	a o voo	n
+a o xeito de	X	a o xeito de	a xeito de	n
 a o xeito	W	a o xeito	a o xeito	s
 a os poucos	W	a os poucos	a os poucos	s
 a os pouquiños	W	a os poucos	a os poucos	s
 a par de	X	a par de	a par de	s
+a parte	W	a parte	a a parte	n
 a penas	C	a penas	apenas	n
 a penas	W	a penas	apenas	n
 a pé	W	a pé	a pé	s
 a pouco que	C	a pouco que	a pouco que	s
+a presa	W	a presa	a a présa	n
+a présa	W	a présa	a a présa	n
 a pre	W	a pre	a pre	s
 a propósito	W	a propósito	a propósito	s
 a punto de	X	a punto de	a punto de	s
@@ -107,6 +127,7 @@ a rente de	X	a rente de	a rentes de	s
 a respecto de	X	a respecto de	a respecto de	s
 a respeito de	X	a respeito de	a respecto de	n
 a rolos	W	a rolos	a rolos	s
+a seguir	W	a seguir	a seguir	s
 a son	W	a son	a son	s
 a tal hora	W	a tal hora	a tal hora	s
 a tempo	W	a tempo	a tempo	s
@@ -115,10 +136,16 @@ a través	W	a través	a través	s
 a un tempo	W	a un tempo	a un tempo	s
 acto seguido	W	acto seguido	acto seguido	s
 agora ben	C	agora ben	agora ben	s
+agora ben	W	agora ben	agora ben	s
 agora que	C	agora que	agora que	s
+ainda que	C	ainda que	aínda que	n
 alto o fogo	NCMS	alto o fogo	alto o fogo	s
+arco da vella	NCFS	arco da vella	arco da vella	s
+arcos da vella	NCFP	arco da vella	arco da vella	s
 arredor de	X	arredor de	arredor de	s
+as veces	W	as veces	a as veces	n
 así a todo	W	así a todo	así e todo	n
+asi como	C	asi como	así como	n
 así como	C	así como	así como	s
 así e todo	W	así e todo	así e todo	s
 así mesmo	W	así mesmo	así mesmo	s
@@ -134,6 +161,13 @@ boca a boca	W	boca a boca	boca a boca	s
 cabalo de batalla	NCMS	cabalo de batalla	cabalo de batalla	s
 cabalos de batalla	NCMP	cabalo de batalla	cabalo de batalla	s
 cabo de	X	cabo de	cabo de	s
+cadela de o abade	NCFS	cadela de o abade	cadela de o abade	s
+caixa china	NCFS	caixa china	caixa chinesa	n
+caixa chinesa	NCFS	caixa chinesa	caixa chinesa	s
+caixa forte	NCFS	caixa forte	caixa forte	s
+caixas chinas	NCFP	caixa china	caixa chinesa	n
+caixas chinesas	NCFP	caixa chinesa	caixa chinesa	s
+caixas fortes	NCFP	caixa forte	caixa forte	s
 camiño de	X	camiño de	camiño de	s
 cando menos	W	cando menos	cando menos	n
 cando queira que	C	cando queira que	cando queira que	s
@@ -144,6 +178,7 @@ catar se	C	catar se	catar se	s
 coches de línea	NCMP	coche de línea	coches de liña	n
 como mínimo	W	como mínimo	como mínimo	s
 como queira que	C	como queira que	como queira que	s
+con o fin de	X	con o fin de	con o fin de	s
 con respecto a	X	con respecto a	con respecto a	s
 con respeito a	X	con respeito a	con respecto a	n
 con segundas	W	con segundas	con segundas	s
@@ -151,9 +186,10 @@ con tal de que	C	con tal de que	con tal de que	s
 con tal que	C	con tal que	con tal que	s
 con todo	W	con todo	con todo	s
 conforme a	X	conforme a	conforme a	s
+contra corrente	W	contra corrente	contracorrente	n
 contra de	X	contra de	contra de	s
 contra reloxo	NCFS	contra reloxo	contrarreloxo	n
-cuarta feira	NCFS	cuarta feira	corta feira	s
+cuarta feira	NCFS	cuarta feira	cuarta feira	s
 cuartas feiras	NCFP	cuarta feira	corta feira	s
 dacordo con	X	dacordo con	de acordo con	n
 dado que	C	dado que	dado que	s
@@ -173,6 +209,7 @@ de cara a	X	de cara a	de cara a	s
 de certo	W	de certo	de certo	s
 de contadiño	W	de contado	decontado	n
 de contado	W	de contado	decontado	n
+de continuo	W	de continuo	de continuo	n
 de cor	W	de cor	de cor	s
 de emprestado	W	de emprestado	de emprestado	s
 de face	W	de face	de face	s
@@ -183,12 +220,20 @@ de inmediato	W	de inmediato	de inmediato	s
 de lado	W	de lado	de lado	s
 de longo	W	de longo	de longo	s
 de máis	W	de máis	de máis	s
+de marras	AAS	de marras	de marras	s
+de marras	AEL	de marras	de marras	s
+de marras	AEP	de marras	de marras	s
+de marras	AES	de marras	de marras	s
+de marras	AFL	de marras	de marras	s
+de marras	AFP	de marras	de marras	s
+de marras	AFS	de marras	de marras	s
+de marras	AMS	de marras	de marras	s
+de marras	ANS	de marras	de marras	s
 de menos	W	de menos	de menos	s
 de momento	W	de momento	de momento	s
 de non ser que	C	de non ser que	de non ser que	s
 de non ser se	C	de non ser se	de non ser se	s
 de novo	W	de novo	de novo	s
-de o revés	W	de o revés	de o revés	s
 de paisano	AAS	de paisano	de paisano	s
 de paisano	AEL	de paisano	de paisano	s
 de paisano	AEP	de paisano	de paisano	s
@@ -204,7 +249,7 @@ de paso	W	de paso	de paso	s
 de pé	W	de pé	de pé	s
 de plano	W	de plano	de plano	s
 de por vida	W	de por vida	de por vida	s
-de présa	W	de présa	a a présa	n
+de présa	W	de présa	de présa	s
 de prestado	W	de prestado	de prestado	n
 de pronto	W	de pronto	de pronto	s
 de propósito	W	de propósito	de propósito	s
@@ -234,6 +279,8 @@ deica un pouco	W	deica un pouco	deica un pouco	s
 dentro de	X	dentro de	dentro de	s
 derredor de	X	derredor de	derredor de	s
 deseguida que	C	deseguida que	deseguida que	s
+dis que	W	dis que	disque	n
+e eso que	C	e eso que	e iso que	n
 e iso que	C	e iso que	e iso que	s
 e listo	W	e listo	e listo	s
 e mais	C	e mais	e mais	s
@@ -243,6 +290,7 @@ en alto	W	en alto	en alto	s
 en base a	X	en base a	en base a	n
 en breve	W	en breve	en breve	s
 en broma	W	en broma	en broma	s
+en cámbeo	W	en cámbeo	en cambio	n
 en cambio	W	en cambio	en cambio	s
 en canto a	X	en canto a	en canto a	s
 en canto	C	en canto	en canto	s
@@ -258,7 +306,6 @@ en fin	W	en fin	en fin	s
 en firme	W	en firme	en firme	n
 en frío	W	en frío	en frío	s
 en fronte de	X	en fronte de	en fronte de	s
-en fronte	W	en fronte	en fronte	s
 en liña	W	en liña	en liña	s
 en orde a	X	en orde a	en orde a	n
 en orde	W	en orde	en orde	s
@@ -280,20 +327,26 @@ en tempo	W	en tempo	en tempo	s
 en teoría	W	en teoría	en teoría	s
 en todo caso	W	en todo caso	en todo caso	s
 en torno a	X	en torno a	en torno a	s
+en troca	W	en troca	en troca	s
 en vango	W	en vango	en vango	s
 en van	W	en van	en van	s
 en verdade	W	en verdade	en verdade	s
+en xaque	W	en xaque	en xaque	s
+en xeneral	W	en xeneral	en xeral	n
 encefalopatía esponxiforme	NCFS	encefalopatía esponxiforme	encefalopatía esponxiforme	n
 ende ben	C	ende ben	ende ben	s
 ende mal	C	ende mal	ende mal	s
 entre tanto	C	entre tanto	entre tanto	s
+eso que	C	eso que	e iso que	n
 fóra de	X	fóra de	fóra de	s
 frente a	X	frente a	fronte a	n
-fronte a	X	fronte a	fronte a	s
 fronte por fronte	W	fronte por fronte	fronte por fronte	s
 gracias a	X	gracias a	grazas a	n
 grazas a	X	grazas a	grazas a	s
+ir e vir	NCMS	ir e vir	ir e vir	s
+iso que	C	iso que	e iso que	s
 logo que	C	logo que	logo que	s
+máis alá	NCMS	máis alá	máis alá	s
 máis ben	W	máis ben	máis ben	n
 mal como	C	mal como	mal como	s
 mal que	C	mal que	mal que	s
@@ -303,11 +356,15 @@ mentras que	C	mentras que	mentres	n
 mentres que	C	mentres que	mentres	s
 mentres tanto	C	mentres tanto	mentres	s
 mentres tanto	W	mentres tanto	mentres tanto	s
+mesa de noite	NCFS	mesa de noite	mesa de noite	s
+mesas de noite	NCFP	mesa de noite	mesa de noite	s
+mesiñas de noite	NCFP	mesa de noite	mesa de noite	s
 mesmo que	C	mesmo que	mesmo que	s
 meu Deus	I	meu Deus	meu Deus	s
 moitas gracias	I	moitas gracias	grazas	n
 moitas grazas	I	moitas grazas	grazas	s
 nin que	C	nin que	nin que	s
+non acabar	NCMS	non acabar	non acabar	s
 non ben	W	non ben	non ben	s
 o outro antonte	W	o outro antonte	o outro antonte	s
 off line	W	off line	off line	n
@@ -337,6 +394,7 @@ por escrito	W	por escrito	por escrito	s
 por exemplo	W	por exemplo	por exemplo	s
 por fin	W	por fin	por fin	s
 por fortuna	W	por fortuna	por fortuna	s
+por fronte	W	por fronte	por fronte	n
 por igual	W	por igual	por igual	s
 por la contra	W	por a contra	por a contra	s
 por las boas	W	por as boas	por as boas	s
@@ -363,6 +421,7 @@ por suposto	W	por suposto	por suposto	s
 por tanto	C	por tanto	por o tanto	s
 por tanto	W	por tanto	por tanto	s
 por veces	W	por veces	por veces	s
+por xunto	W	por xunto	por xunto	s
 posto que	C	posto que	posto que	s
 pouco a pouco	W	pouco a pouco	pouco e pouco	s
 pouco e pouco	W	pouco e pouco	pouco e pouco	s
@@ -376,7 +435,7 @@ respecto a	X	respecto a	respecto a	s
 respecto de	X	respecto de	respecto de	s
 respeito a	X	respeito a	respecto a	n
 respeito de	X	respeito de	respecto de	n
-se ben	C	se ben	se ben	n
+se ben	C	se ben	se ben	s
 se cadra	W	se cadra	se cadra	s
 se callar	W	se callar	se callar	s
 segunda feira	NCFS	segunda feira	segunda feira	s
@@ -410,7 +469,7 @@ uns cantos	DNMP	un canto	un canto	s
 uns cantos	PNMP	un canto	un canto	s
 verbo de	X	verbo de	verbo de	s
 visto que	C	visto que	visto que	s
-xa que logo	C	xa que logo	xa que logo	s
+xa que logo	W	xa que logo	xa que logo	s
 xa que	C	xa que	xa que	s
 xunto a	X	xunto a	xunto a	s
 xunto con	X	xunto con	xunto con	n
