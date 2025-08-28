@@ -18418,6 +18418,7 @@ Gazella subgutturosa	Snaa	Gazella subgutturosa	Gazella subgutturosa
 Gazella thomsonii	Snaa	Gazella thomsonii	Gazella thomsonii
 Gazza minuta	Snaa	Gazza minuta	Gazza minuta
 GBU-28	Sp00	GBU-28
+GCiencia	Sp00	GCiencia
 Géants des profondeurs	Sp00	Géants des profondeurs
 Gebia africana	Snaa	Gebia africana	Gebia africana
 Gebia major	Snaa	Gebia major	Gebia major
