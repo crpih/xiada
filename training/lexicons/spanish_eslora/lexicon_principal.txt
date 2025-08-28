@@ -508439,8 +508439,8 @@ pausado	VPNS	pausar
 pausad	VMP2P	pausar
 <pausa/>	ETQ_PAUSA	<pausa/>
 pausáis	VIP2P	pausar
-<pausalarga/>	ETQ_PAUSA	<pausalarga/>
-<pausalarga></pausalarga>	ETQ_PAUSA	<pausalarga></pausalarga>
+<pausa_larga/>	ETQ_PAUSA	<pausa_larga/>
+<pausa_larga></pausa_larga>	ETQ_PAUSA	<pausa_larga></pausa_larga>
 pausamos	VIT1P	pausar
 pausa	NCFS	pausa
 pausando	VGP	pausar
