@@ -9279,13 +9279,6 @@ E.D.I.	Zg00	E.D.I.		s
 E.D.I.	Zgms	E.D.I.		s
 E.D.T.	Zg00	E.D.T.		s
 E.D.T.	Zgfs	E.D.T.		s
-E.E.	Zg00	E.E.		s
-E.E.	Zgfa	E.E.		s
-E.E.	Zgfp	E.E.		s
-E.E.	Zgfs	E.E.		s
-E.E.	Zgma	E.E.		s
-E.E.	Zgmp	E.E.		s
-E.E.	Zgms	E.E.		s
 E.E. .U.U.	Zg00	E.E. .U.U.	EE. UU.	n
 E.E.B.	Zg00	E.E.B.		s
 E.E.B.	Zgfs	E.E.B.		s
@@ -9777,13 +9770,6 @@ EDI	Zg00	EDI		s
 EDI	Zgms	EDI		s
 EDT	Zg00	EDT		s
 EDT	Zgfs	EDT		s
-EE	Zg00	EE		s
-EE	Zgfa	EE		s
-EE	Zgfp	EE		s
-EE	Zgfs	EE		s
-EE	Zgma	EE		s
-EE	Zgmp	EE		s
-EE	Zgms	EE		s
 EE LL	Zg00	EE LL		s
 EE LL	Zgfp	EE LL		s
 EE RR	Zg00	EE RR		s
