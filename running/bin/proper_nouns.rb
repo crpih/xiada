@@ -1,18 +1,9 @@
 require 'set'
 require 'csv'
 require 'active_support/core_ext/range/overlap'
-require 'active_support/core_ext/range/overlap'
 require 'active_support/core_ext/module/delegation'
 
 class ProperNouns
-
-  WRAPPERS = [
-    ["\"", "\"", true].freeze,
-    ["'", "'", true].freeze,
-    ["(", ")", false].freeze
-  ].freeze
-  START_WRAPPERS = WRAPPERS.map { |s, _, _| s }.freeze
-  END_WRAPPERS = WRAPPERS.map { |s, _, _| s }.freeze
 
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
@@ -175,28 +166,22 @@ class ProperNouns
     # If @force_proper_nouns is true then also consider uppercase letters at the beginning of the text
     candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && (@force_proper_nouns || !i.zero?) }
     ranges = candidate_starts.filter_map do |i|
-      wrapper_result = WRAPPERS.filter_map { |s, e, c| wrapped_proper_noun_range(i, text, s, e, c ) }.first
-      wrapper_result || unambiguous_proper_noun_range(i, text)
+      wrapped_proper_noun_range(i, text, '"', '"', true) ||
+        wrapped_proper_noun_range(i, text, '\'', '\'', true) ||
+        wrapped_proper_noun_range(i, text, '(', ')', false) ||
+        unambiguous_proper_noun_range(i, text)
     end
     ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort, false) }
   end
 
-  # TODO: WRAPPER detection may cause false positives since it allows to detect proper noun with a single wrapper at the
-  #   beginning or end, assuming that the proper noun range generated will be merged with the next or previous and the
-  #   matching wrapper will be present and correct.
   def unambiguous_proper_noun_range(i, text)
-    # If the previous character is a potential wrapper, adjust the offset to skip the wrapper
-    potential_start_wrapper_offset = START_WRAPPERS.include?(text[i - 1]) ? 1 : 0
-    # Skip if previous characters are not "!?.)" followed by a separator
-    # This excludes cases where Uppercase letters do not indicate a proper noun because they are preceded by closing punctuation.
-    return unless text[(i - 2 - potential_start_wrapper_offset)..].match?(/\A[^!?.)]\p{Z}/)
+    starts_with_wrapper = %w[" ' (].include?(text[i - 1])
+    return unless text[(i - 2 - (starts_with_wrapper ? 1 : 0))..].match?(/\A[^!?.)]\p{Z}/)
 
     match_data = match_proper_noun(text[i..])
     return unless match_data && match_data[1].size > 1
 
-    # If the next character is a potential wrapper, adjust the end offset to include it
-    potential_end_wrapper_offset = END_WRAPPERS.include?(text[i + match_data[1].size]) ? 1 : 0
-    (i - potential_start_wrapper_offset)...(i + match_data[1].size + potential_end_wrapper_offset)
+    i...(i + match_data[1].size)
   end
 
   def wrapped_proper_noun_range(i, text, start_char, end_char, include_wrappers)

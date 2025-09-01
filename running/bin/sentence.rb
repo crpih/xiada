@@ -76,7 +76,8 @@ class Sentence
     # followed by ) or "
     local_text.gsub!(/([a-zñA-ZÑáéíóúÁÉÍÓÚ])\.([)"])$/, '\1 . \2')
 
-    tokens = local_text.split(/ |([;¡!¿\?"\[\]_])/)
+    # Special case for ', and ",
+    tokens = local_text.split(/ |([;¡!¿\?"\[\]_])|(['"])(,)/).reject(&:empty?)
 
     # ESLORA workaround
     tokens = merge_pausa_larga(tokens)

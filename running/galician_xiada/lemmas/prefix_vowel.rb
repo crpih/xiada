@@ -120,8 +120,8 @@ module Lemmas
     end
 
     class NanoRule < PrefixVowelRule
-      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*")
-        super(all_possible_tags, "nano", adjective, noun_common)
+      def initialize(all_possible_tags, adjective: "A.*", noun_common: "Sc.*", verb: "V.*", adverb: "W.*")
+        super(all_possible_tags, "nano", adjective, noun_common, verb, adverb)
       end
     end
 
