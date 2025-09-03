@@ -165,12 +165,7 @@ class ProperNouns
     # Candidate proper noun positions are uppercase letters that are not at the beginning of the text
     # If @force_proper_nouns is true then also consider uppercase letters at the beginning of the text
     candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && (@force_proper_nouns || !i.zero?) }
-    ranges = candidate_starts.filter_map do |i|
-      wrapped_proper_noun_range(i, text, '"', '"', true) ||
-        wrapped_proper_noun_range(i, text, '\'', '\'', true) ||
-        wrapped_proper_noun_range(i, text, '(', ')', false) ||
-        unambiguous_proper_noun_range(i, text)
-    end
+    ranges = candidate_starts.filter_map { |i| unambiguous_proper_noun_range(i, text) }
     ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort, false) }
   end
 
