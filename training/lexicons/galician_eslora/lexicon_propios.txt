@@ -4207,6 +4207,7 @@ Gastrodomina	NPEL	Gastrodomina
 Gastromol	NPEL	Gastromol
 Gaza	NPEL	Gaza
 GBU-28	NPEL	GBU-28
+GCiencia	NPEL	GCiencia
 Gelcen	NPEL	Gelcen
 Gelidina	NPEL	Gelidina
 Gelocatil	NPEL	Gelocatil
