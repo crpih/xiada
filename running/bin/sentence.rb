@@ -47,25 +47,15 @@ class Sentence
 
 
   def add_chunk(text)
-    return if text.blank?
-
     build_sentence_tokens(tokenize(text), text)
   end
 
   def empty?
-    if @text =~ /^[ ]*$/
-      return true
-    else
-      return false
-    end
+    @text.strip.empty?
   end
 
   def tokenize(text)
     local_text = String.new(text)
-    # STDERR.puts "local_text: #{local_text}, removed_info: #{removed_info}"
-    # Remove several spaces due to tag removing inside text
-    local_text.gsub!(/ +/, " ")
-    local_text.gsub(/^ +/, "")
 
     # Dots are separated from previous and next words
     local_text.gsub!(/([^ ])(\.\.\.)/, '\1 \2')
