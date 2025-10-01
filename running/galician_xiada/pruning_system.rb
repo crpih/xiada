@@ -347,6 +347,22 @@ module GalicianXiada
       if (window[0][1] =~ /^(Dd.*)$/) and (match_some_lemma(window[0][2],"o")) and (window[1][0] =~ /^(que)$/) and (window[1][1] =~ /^(Cs|Cc)$/)
       return 2
       end
+      # RULE: _,V*,dar,_	_,Ra*,_,_,	conta,V*,_,_,x
+      if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"dar")) and (window[1][1] =~ /^(Ra.*)$/) and (window[2][0] =~ /^(conta)$/) and (window[2][1] =~ /^(V.*)$/)
+      return 3
+      end
+      # RULE: _,V*,dar,_	conta,V*,_,_,x
+      if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"dar")) and (window[1][0] =~ /^(conta)$/) and (window[1][1] =~ /^(V.*)$/)
+      return 2
+      end
+      # RULE: _,V*,ter,_	en,_,_,_,	conta,V*,_,_,x
+      if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"ter")) and (window[1][0] =~ /^(en)$/) and (window[2][0] =~ /^(conta)$/) and (window[2][1] =~ /^(V.*)$/)
+      return 3
+      end
+      # RULE: _,V*,ter,_	_,Ra*,_,_,	en,_,_,_,	conta,V*,_,_,x
+      if (window[0][1] =~ /^(V.*)$/) and (match_some_lemma(window[0][2],"ter")) and (window[1][1] =~ /^(Ra.*)$/) and (window[2][0] =~ /^(en)$/) and (window[3][0] =~ /^(conta)$/) and (window[3][1] =~ /^(V.*)$/)
+      return 4
+      end
 
       return 0
     end
