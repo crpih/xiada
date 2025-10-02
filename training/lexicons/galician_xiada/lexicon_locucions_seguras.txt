@@ -832,6 +832,9 @@ graxas polisaturadas	Scfp	graxa polisaturada	graxa polisaturada	s
 graxas saturadas	Scfp	graxa saturada	graxa saturada	s
 graxas trans	Scfp	graxa trans	graxa trans	s
 grosso modo	Wn	grosso modo	grosso modo	s
+habeas corpus	Scma	habeas corpus	hábeas corpus	n
+habeas corpus	Scmp	habeas corpus	hábeas corpus	n
+habeas corpus	Scms	habeas corpus	hábeas corpus	n
 hat trick	Scms	hat trick	hat trick	n
 herba abelleira	Scfs	herba abelleira	herba abelleira	s
 herba luísa	Scfs	herba luísa	herba luísa	s
