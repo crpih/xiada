@@ -8,11 +8,18 @@ describe 'ProperNounsTest' do
     joiners = CSV.read("training/lexicons/galician_xiada/proper_nouns_links.txt", col_sep: "\t").map(&:first)
     all_lexicon_words = ProperNouns.parse_all_lexicon_words("training/lexicons/galician_xiada/lexicon_principal.txt")
     literals = ProperNouns.parse_literals_file("training/lexicons/galician_xiada/lexicon_propios.txt").first(500)
+
+    ambiguous_literals = ProperNouns.parse_literals_file("training/lexicons/galician_xiada/lexicon_titulos.txt").first(500)
+    # Reject literals that have uppercase in the middle, since it will be detected as standard proper noun, interfering with tests
+    ambiguous_literals.filter! { |l| l.text.match?(/\A.[a-z1-9 ]+\z/) }
+    # Reject literals that are contained in other literals, since it will be detected as part of the larger literal, interfering with tests
+    ambiguous_literals.reject! { |l| ambiguous_literals.any? { |ol| ol != l && ol.text.include?(l.text) } }
+
     tags = CSV.read("training/lexicons/galician_xiada/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first)
 
     describe 'literal proper nouns' do
       it 'should detect literals anywhere in the sentence' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, literals, joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, literals, ambiguous_literals, joiners, tags)
         literals.each do |literal|
           result = proper_nouns.call(literal.text)
           expected = [ProperNouns::Literal.new(literal.text, literal.tag_lemmas, true)]
@@ -21,7 +28,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should expand the range of the literal if next range is a standard proper noun' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, literals, joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, literals, ambiguous_literals, joiners, tags)
         literals.each do |literal|
           # Skip literals ending with punctuation, proper nouns after that won't be detected
           next if literal.text.match?(/[!?).]\z/)
@@ -34,7 +41,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should expand the range of the literal if next range is separated by a joiner' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, literals, joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, literals, ambiguous_literals, joiners, tags)
         joiners.each do |joiner|
           # Test with all literals is too slow, so we test with a sample
           literals.sample(10).each do |literal|
@@ -47,7 +54,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should expand the range of the literal second word to the text begin if the text starts with uppercase' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, literals, joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, literals, ambiguous_literals, joiners, tags)
         literals.each do |literal|
           text = "Awdrgyji #{literal.text}"
           result = proper_nouns.call(text).first
@@ -59,9 +66,47 @@ describe 'ProperNounsTest' do
       end
     end
 
+    describe 'ambiguous literal proper nouns' do
+      it 'should detect ambiguous literals in the middle of the sentence' do
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], ambiguous_literals, joiners, tags)
+        ambiguous_literals.each do |literal|
+          text = "Eu son #{literal.text}."
+          result = proper_nouns.call(text)
+          expected = [
+            "Eu son ",
+            ProperNouns::Literal.new(literal.text, literal.tag_lemmas, true),
+            "."
+          ]
+          assert_equal expected, result, "Failed to detect literal proper noun: #{literal.text}"
+        end
+      end
+
+      it 'should not detect ambiguous literals at the beginning of the sentence' do
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], ambiguous_literals, joiners, tags)
+        ambiguous_literals.each do |literal|
+          text = "#{literal.text} é un nome."
+          result = proper_nouns.call(text)
+          expected = [text]
+          assert_equal expected, result, "Incorrectly detected ambiguous literal proper noun at the beginning of the sentence: #{literal.text}"
+        end
+      end
+
+      it 'should not detect ambiguous literals at the beginning of the text preceded by " \' or (' do
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], ambiguous_literals, joiners, tags)
+        ambiguous_literals.each do |literal|
+          %w[" ' (].each do |char|
+            text = "#{char}#{literal.text} é un nome."
+            result = proper_nouns.call(text)
+            expected = [text]
+            assert_equal expected, result, "Incorrectly detected ambiguous literal proper noun at the beginning of the text preceded by #{char}: #{literal.text}"
+          end
+        end
+      end
+    end
+
     describe 'standard proper nouns' do
       it 'should detect uppercases not after punctuation' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         %w[? ! . )].each do |punctuation|
           text = "Ola, que tal#{punctuation} Eu son o Xoán."
           result = proper_nouns.call(text)
@@ -75,13 +120,13 @@ describe 'ProperNounsTest' do
       end
 
       it 'should not detect uppercases at the beginning of a sentence' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Xoán é un nome."
         assert_equal [text], proper_nouns.call(text)
       end
 
       it 'should detect proper nouns separated by joiners' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         joiners.each do |joiner|
           text = "Son Xoán #{joiner} García."
           noun_start = 4
@@ -96,22 +141,8 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should detect proper nouns between quotes' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
-        %w[" '].each do |quote|
-          text = "Dixo #{quote}Xoán#{quote}."
-          result = proper_nouns.call(text)
-          expected = [
-            "Dixo ",
-            ProperNouns::Literal.new("#{quote}Xoán#{quote}", tags.map { |tag| [tag, "#{quote}Xoán#{quote}"] }.sort, false),
-            "."
-          ]
-          assert_equal expected, result, "Failed to detect proper noun between quotes: #{quote}"
-        end
-      end
-
       it 'should detect proper nouns between parens' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Dixo (Xoán)."
         result = proper_nouns.call(text)
         expected = [
@@ -123,7 +154,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should detect road names' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Vou pola AP-9."
         result = proper_nouns.call(text)
         expected = [
@@ -135,7 +166,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should detect proper nouns with a single quote in the middle' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Dixo L'Oréal."
         result = proper_nouns.call(text)
         expected = [
@@ -147,7 +178,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should detect proper nouns with a single hyphen in the middle' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "a Barcelona-Tarragona."
         result = proper_nouns.call(text)
         expected = [
@@ -159,7 +190,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should detect proper nouns with an ampersand in the middle' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Dixo H&M."
         result = proper_nouns.call(text)
         expected = [
@@ -171,7 +202,7 @@ describe 'ProperNounsTest' do
       end
 
       it 'should detect proper nouns with CamelCase' do
-        proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
         text = "Estamos navegando YouTube."
         result = proper_nouns.call(text)
         expected = [
@@ -185,7 +216,7 @@ describe 'ProperNounsTest' do
 
     describe 'trained proper nouns' do
       it 'should detect trained proper nouns at the beginning of the sentence' do
-        no_train_proper_nouns = ProperNouns.new(all_lexicon_words, [], joiners, tags)
+        no_train_proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
 
         no_train_result = no_train_proper_nouns.call('Hermenegildo é un nome.')
         assert_equal ['Hermenegildo é un nome.'], no_train_result

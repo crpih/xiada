@@ -7,6 +7,8 @@ class ProperNouns
 
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
+  WRAPPER_START_CHARS = %w[" ' (].freeze
+
   class Segment
     attr_reader :range, :text, :tag_lemmas, :lexicon
     delegate :begin, :end, :size, to: :range
@@ -78,9 +80,10 @@ class ProperNouns
 
   attr_reader :force_proper_nouns
 
-  def initialize(all_lexicon_words, literal_proper_nouns, joiners, tags, force_proper_nouns: false)
+  def initialize(all_lexicon_words, literal_proper_nouns, ambiguous_literal_proper_nouns, joiners, tags, force_proper_nouns: false)
     @all_lexicon_words = Set.new(all_lexicon_words)
     @literal_proper_nouns = literal_proper_nouns
+    @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
     @joiners = joiners
     @joiners_regex = /\A\p{Z}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
     @tags = tags
@@ -91,13 +94,14 @@ class ProperNouns
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t).filter { |segment| segment.is_a?(Literal) } }
     literal_proper_nouns = [*@literal_proper_nouns, *trained_proper_nouns].uniq
-    self.class.new(@all_lexicon_words, literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
+    self.class.new(@all_lexicon_words, literal_proper_nouns, @ambiguous_literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
   end
 
   def call(text)
     literal_segments = literal_proper_nouns(text, @literal_proper_nouns)
+    ambiguous_segments = ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns)
     standard_segments = standard_proper_nouns(text)
-    candidate_segments = [*literal_segments, *standard_segments]
+    candidate_segments = [*literal_segments, *ambiguous_segments, *standard_segments]
     noun_ranges = join_proper_nouns(text, candidate_segments)
     split_text_by_proper_nouns(text, noun_ranges)
   end
@@ -148,16 +152,31 @@ class ProperNouns
   end
 
   def literal_proper_nouns(text, literals)
+    each_literal_in_text(text, literals) { |r, l| Segment.new(r, text[r], l.tag_lemmas, l.lexicon) }
+  end
+
+  def ambiguous_literal_proper_nouns(text, literals)
+    each_literal_in_text(text, literals) do |range, literal|
+      # Skip if the literal is at the beginning of the text or is preceded by a wrapper start char
+      next if range.begin == 0
+      next if range.begin == 1 && WRAPPER_START_CHARS.include?(text[0])
+
+      Segment.new(range, text[range], literal.tag_lemmas, literal.lexicon)
+    end
+  end
+
+  def each_literal_in_text(text, literals)
     literals.filter_map do |literal|
       start_index = text.index(literal.text)
       next if start_index.nil?
-      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}/)
+      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}/) # Ensure not part of a larger word
 
       end_index = start_index + literal.text.size
-      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}/)
+      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}/) # Ensure not part of a larger word
 
       range = start_index...end_index
-      Segment.new(range, text[range], literal.tag_lemmas, literal.lexicon)
+
+      yield range, literal
     end
   end
 
@@ -170,7 +189,9 @@ class ProperNouns
   end
 
   def unambiguous_proper_noun_range(i, text)
-    starts_with_wrapper = %w[" ' (].include?(text[i - 1])
+    starts_with_wrapper = WRAPPER_START_CHARS.include?(text[i - 1])
+    # Unambiguous proper nouns are preceded by punctuation followed by a separator (space usually).
+    # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
     return unless text[(i - 2 - (starts_with_wrapper ? 1 : 0))..].match?(/\A[^!?.)]\p{Z}/)
 
     match_data = match_proper_noun(text[i..])
