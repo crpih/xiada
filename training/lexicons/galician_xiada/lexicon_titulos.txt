@@ -1,4 +1,3 @@
-Toys on Fire	Sp00	Toys on Fire
 """De nación turca, de mediano cuerpo y peli negra"": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII"	Sp00	"""De nación turca, de mediano cuerpo y peli negra"": la esclavitud entre la nobleza gallega durante los siglos XVI y XVII"
 """El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro"	Sp00	"""El movimiento social por la recuperación de la memoria histórica: Entre el pasado y el futuro"
 """La Nación y el speed"", ""... y el Prozac"", ""... y el Crystal Meth"", ""... y el Frenadol"" ..."	Sp00	"""La Nación y el speed"", ""... y el Prozac"", ""... y el Crystal Meth"", ""... y el Frenadol"" ..."
@@ -11,32 +10,19 @@ Toys on Fire	Sp00	Toys on Fire
 (Re)admirando a condición	Sp00	(Re)admirando a condición
 +Mocidade por un país novo	Sp00	+Mocidade por un país novo
 0'7% Molotov	Sp00	0'7% Molotov
-10 anos	Sp00	10 anos
 10 milles per veure unha bona armadura	Sp00	10 milles per veure unha bona armadura
-100 anos do día de Galicia	Sp00	100 anos do día de Galicia
-110 compromisos coa España que queres	Sp00	110 compromisos coa España que queres
 13 avisos. Historias para escoitar na noite	Sp00	13 avisos. Historias para escoitar na noite
 1492: a conquista do paraíso	Sp00	1492: a conquista do paraíso
-150 lugares para coñecer Galicia	Sp00	150 lugares para coñecer Galicia
 "1936, La ""Cruzada"" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares"	Sp00	"1936, La ""Cruzada"" en Compostela. La guerra civil y la represión franquista en los documentos policiales y militares"
 1973-2023. 50 anos de resistência cultural	Sp00	1973-2023. 50 anos de resistência cultural
-2 Viaxes	Sp00	2 Viaxes
-2 viaxes	Sp00	2 viaxes
 2001: A Space Odyssey	Sp00	2001: A Space Odyssey
 2001: Unha odisea do espazo	Sp00	2001: Unha odisea do espazo
 2018: El resurgir del pasado en España. Fosas, víctimas y confesiones de verdugos	Sp00	2018: El resurgir del pasado en España. Fosas, víctimas y confesiones de verdugos
-21 días co galego e +	Sp00	21 días co galego e +
 22 Documentos do feminismo galego	Sp00	22 Documentos do feminismo galego
 25 de abril de 1974, Golpe de Estado ou Revolución	Sp00	25 de abril de 1974, Golpe de Estado ou Revolución
-30 castelos e torres galegas para descubrir un reino	Sp00	30 castelos e torres galegas para descubrir un reino
-305 horas	Sp00	305 horas
 3128. O comezo dunha era	Sp00	3128. O comezo dunha era
 3D electron-beam writing at sub-15 nm resolution using spider silk as a resist	Sp00	3D electron-beam writing at sub-15 nm resolution using spider silk as a resist
-40 anos da moda en Galicia	Sp00	40 anos da moda en Galicia
-47 trocitos	Sp00	47 trocitos
-50 sombras	Sp00	50 sombras
 50 sombras de Grey	Sp00	50 sombras de Grey
-67 graos Ourense	Sp00	67 graos Ourense
 8 apellidos vascos	Sp00	8 apellidos vascos
 8-M no somos víctimas	Sp00	8-M no somos víctimas
 80 anos. Santiago, 1936. Memoria da exposición	Sp00	80 anos. Santiago, 1936. Memoria da exposición
@@ -56,13 +42,8 @@ A Coruña, o puntal roto da República	Sp00	A Coruña, o puntal roto da Repúbli
 A Escritora na súa terra	Sp00	A Escritora na súa terra
 A Farewell to Arms	Sp00	A Farewell to Arms
 A Galicia Semanal. Revista Universal de este Reino	Sp00	A Galicia Semanal. Revista Universal de este Reino
-A Galicia castrexa	Sp00	A Galicia castrexa
-A Galicia posible	Sp00	A Galicia posible
-A Galicia urbana	Sp00	A Galicia urbana
-A Gallaecia na que naceron as cantigas	Sp00	A Gallaecia na que naceron as cantigas
 A Guarda sella la Guerra Civil con un monumento a los asturianos fusilados	Sp00	A Guarda sella la Guerra Civil con un monumento a los asturianos fusilados
 A LEGO película	Sp00	A LEGO película
-A Lingua das bolboretas	Sp00	A Lingua das bolboretas
 A Lingua resiste no estómago dun agricultor morto	Sp00	A Lingua resiste no estómago dun agricultor morto
 A Lume lento	Sp00	A Lume lento
 A Mesa pola normalización lingüística	Sp00	A Mesa pola normalización lingüística
@@ -73,13 +54,6 @@ A Room Of One's Own	Sp00	A Room Of One's Own
 A Serpe galáctica	Sp00	A Serpe galáctica
 A Terra pola noite	Sp00	A Terra pola noite
 A Transición, a pé de rúa	Sp00	A Transición, a pé de rúa
-A aldea galega no seu decorrer histórico	Sp00	A aldea galega no seu decorrer histórico
-A alegría do descubrimento	Sp00	A alegría do descubrimento
-A alimentación e o consumidor	Sp00	A alimentación e o consumidor
-A antesala luminosa	Sp00	A antesala luminosa
-A apertura	Sp00	A apertura
-A arbre	Sp00	A arbre
-A area do crime	Sp00	A area do crime
 A aristocracia imposible. O discurso político de Nietzsche	Sp00	A aristocracia imposible. O discurso político de Nietzsche
 A arrogancia do unicornio	Sp00	A arrogancia do unicornio
 A arte como linguagem	Sp00	A arte como linguagem
@@ -506,7 +480,7 @@ Alguén anda por aí	Sp00	Alguén anda por aí
 Alguén que respira	Sp00	Alguén que respira
 Alguén que respira. Os 21 do 21	Sp00	Alguén que respira. Os 21 do 21
 Alianzas e ameazas	Sp00	Alianzas e ameazas
-Alice doesn' t: Feminism, Semiotics, Cinema	Sp00	Alice doesn' t: Feminism, Semiotics, Cinema
+Alice doesn't: Feminism, Semiotics, Cinema	Sp00	Alice doesn't: Feminism, Semiotics, Cinema
 Alimentación, consumo e saúde	Sp00	Alimentación, consumo e saúde
 All about Eve	Sp00	All about Eve
 All day and all the night	Sp00	All day and all the night
@@ -823,7 +797,6 @@ Beans and garlic	Sp00	Beans and garlic
 Bearn y la casa de muñecas	Sp00	Bearn y la casa de muñecas
 Because the night	Sp00	Because the night
 Before I die	Sp00	Before I die
-Before I die 	Sp00	Before I die 
 Before night falls	Sp00	Before night falls
 Beiras, vivir 2 veces	Sp00	Beiras, vivir 2 veces
 Bela e a Besta	Sp00	Bela e a Besta
@@ -4839,6 +4812,7 @@ Torres e castelos de Galicia	Sp00	Torres e castelos de Galicia
 Touporroutou da lúa e do sol	Sp00	Touporroutou da lúa e do sol
 Toutes les nuits	Sp00	Toutes les nuits
 Toxos e froles 109 anos cantando	Sp00	Toxos e froles 109 anos cantando
+Toys on Fire	Sp00	Toys on Fire
 Traballando pola mellora do patrimonio natural	Sp00	Traballando pola mellora do patrimonio natural
 Trafegando ronseis	Sp00	Trafegando ronseis
 Traité sur la tolérance	Sp00	Traité sur la tolérance
@@ -5023,7 +4997,6 @@ VI Xornadas de Divulgación do Patrimonio Arqueolóxico. A moeda en Galicia	Sp00
 Vacaciones en la guerra	Sp00	Vacaciones en la guerra
 Vaccination glossary	Sp00	Vaccination glossary
 Vaise adecentar o cemiterio civil	Sp00	Vaise adecentar o cemiterio civil
-Vaites...vaites!	Sp00	Vaites...vaites!
 Valor seguro	Sp00	Valor seguro
 Valoración de la escuela y la educación física y su relación con la práctica de actividad física de los escolares	Sp00	Valoración de la escuela y la educación física y su relación con la práctica de actividad física de los escolares
 Valorar a auga	Sp00	Valorar a auga
