@@ -85,7 +85,7 @@ class ProperNouns
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
     @joiners = joiners
-    @joiners_regex = /\A\p{Z}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
+    @joiners_regex = /\A\p{Z}\z|\A\p{Pd}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
     @tags = tags
     # If true, uppercase words at the start of the text are also considered proper noun candidates
     @force_proper_nouns = force_proper_nouns
@@ -194,10 +194,10 @@ class ProperNouns
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
     return unless text[(i - 2 - (starts_with_wrapper ? 1 : 0))..].match?(/\A[^!?.)]\p{Z}/)
 
-    match_data = match_proper_noun(text[i..])
-    return unless match_data && match_data[1].size > 1
+    match = match_proper_noun(text[i..])
+    return unless match
 
-    i...(i + match_data[1].size)
+    i...(i + match.size)
   end
 
   def wrapped_proper_noun_range(i, text, start_char, end_char, include_wrappers)
@@ -212,20 +212,22 @@ class ProperNouns
 
   def match_proper_noun(text)
     text.match(/
-      \A(
+      \A(?:
         # Camel case (YouTube)
-        \p{Upper}\p{Lower}+(?:\p{Upper}\p{Lower}+)+ |
+        (\p{Upper}\p{Lower}+(?:\p{Upper}\p{Lower}+)+) |
         # Separated by one hyphen (Barcelona-Tarragona)
-        \p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+ |
+        (\p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+) |
         # With & in the middle (H&M)
-        \p{Upper}\p{Lower}*&\p{Upper}\p{Lower}* |
+        (\p{Upper}\p{Lower}*&\p{Upper}\p{Lower}*) |
         # With ' in the middle (L'Oréal)
-        \p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+ |
+        (\p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+) |
         # Road names (C-31)
-        \p{Upper}+-\d+ |
+        (\p{Upper}+-\d+) |
         # Regular proper noun
-        \p{Upper}\p{Lower}+
+        (\p{Upper}\p{Lower}+) |
+        # ADEGA-Coruña, CIG-Saúde, etc.
+        (\p{Upper}{2,})(?>-\p{Upper}\p{Lower})
       )
-    /x)
+    /x)&.captures&.compact&.first
   end
 end
