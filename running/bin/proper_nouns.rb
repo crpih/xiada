@@ -223,10 +223,14 @@ class ProperNouns
         (\p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+) |
         # Road names (C-31)
         (\p{Upper}+-\d+) |
-        # Regular proper noun
-        (\p{Upper}\p{Lower}+) |
         # ADEGA-Coruña, CIG-Saúde, etc.
-        (\p{Upper}{2,})(?>-\p{Upper}\p{Lower})
+        (\p{Upper}{2,})(?>-\p{Upper}\p{Lower}) |
+        # Xosé A.
+        (\p{Upper}\p{Lower}+\s\p{Upper}\.) |
+        # A. Dominguez
+        (\p{Upper}\.\s\p{Upper}\p{Lower}+) |
+        # Regular proper noun
+        (\p{Upper}\p{Lower}+)
       )
     /x)&.captures&.compact&.first
   end

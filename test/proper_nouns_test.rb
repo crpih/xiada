@@ -53,6 +53,29 @@ describe 'ProperNounsTest' do
         end
       end
 
+      it 'should not detect literals that are part of a larger word' do
+        literal = ProperNouns::Literal.new("Xosé", [], true)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [literal], [], joiners, tags)
+
+        # Case: literal is a suffix
+        begin
+          text = "Awe#{literal.text}"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected literal proper noun as suffix of a larger word: #{literal.text}"
+        end
+
+        # Case: literal is a prefix
+        begin
+          text = "#{literal.text}wef"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected literal proper noun as prefix of a larger word: #{literal.text}"
+        end
+
+        # Case: literal is in the middle
+        begin
+          text = "Awe#{literal.text}wef"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected literal proper noun in the middle of a larger word: #{literal.text}"
+        end
+      end
+
       it 'should expand the range of the literal second word to the text begin if the text starts with uppercase' do
         proper_nouns = ProperNouns.new(all_lexicon_words, literals, ambiguous_literals, joiners, tags)
         literals.each do |literal|
@@ -100,6 +123,29 @@ describe 'ProperNounsTest' do
             expected = [text]
             assert_equal expected, result, "Incorrectly detected ambiguous literal proper noun at the beginning of the text preceded by #{char}: #{literal.text}"
           end
+        end
+      end
+
+      it 'should not detect ambiguous literals that are part of a larger word' do
+        literal = ProperNouns::Literal.new("Título", [], true)
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [literal], joiners, tags)
+
+        # Case: literal is a suffix
+        begin
+          text = "Awe#{literal.text}"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected ambiguous literal proper noun as suffix of a larger word: #{literal.text}"
+        end
+
+        # Case: literal is a prefix
+        begin
+          text = "#{literal.text}wef"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected ambiguous literal proper noun as prefix of a larger word: #{literal.text}"
+        end
+
+        # Case: literal is in the middle
+        begin
+          text = "Awe#{literal.text}wef"
+          assert_equal [text], proper_nouns.call(text), "Incorrectly detected ambiguous literal proper noun in the middle of a larger word: #{literal.text}"
         end
       end
     end
@@ -211,6 +257,30 @@ describe 'ProperNounsTest' do
           "."
         ]
         assert_equal expected, result, "Failed to detect proper noun with CamelCase: #{text}"
+      end
+
+      it 'should detect abbreviated proper nouns before a proper noun' do
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
+        text = "O D. Xoán é un nome."
+        result = proper_nouns.call(text)
+        expected = [
+          "O ",
+          ProperNouns::Literal.new("D. Xoán", tags.map { |tag| [tag, "D. Xoán"] }.sort, false),
+          " é un nome."
+        ]
+        assert_equal expected, result, "Failed to detect abbreviated proper noun before a proper noun: #{text}"
+      end
+
+      it 'should detect abbreviated proper after a proper noun' do
+        proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
+        text = "O Xoán D. é un nome."
+        result = proper_nouns.call(text)
+        expected = [
+          "O ",
+          ProperNouns::Literal.new("Xoán D.", tags.map { |tag| [tag, "Xoán D."] }.sort, false),
+          " é un nome."
+        ]
+        assert_equal expected, result, "Failed to detect abbreviated proper noun after a proper noun: #{text}"
       end
     end
 
