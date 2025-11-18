@@ -299,6 +299,15 @@ describe 'ProperNounsTest' do
         ]
         assert_equal expected, result
       end
+
+      it 'should not detect previously trained proper nouns if they appear in a composite word' do
+        no_train_proper_nouns = ProperNouns.new(all_lexicon_words, [], [], joiners, tags)
+
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Rei'])
+        result = trained_proper_nouns.call('pero el-Rei cumprira.')
+        expected = ['pero el-Rei cumprira.']
+        assert_equal expected, result
+      end
     end
   end
 end

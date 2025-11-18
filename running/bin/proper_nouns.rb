@@ -169,10 +169,10 @@ class ProperNouns
     literals.filter_map do |literal|
       start_index = text.index(literal.text)
       next if start_index.nil?
-      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}/) # Ensure not part of a larger word
+      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
 
       end_index = start_index + literal.text.size
-      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}/) # Ensure not part of a larger word
+      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
 
       range = start_index...end_index
 
