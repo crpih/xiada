@@ -27,7 +27,8 @@ de	P	de	de
 publicar	V0f000	publicar	publicar
 obras	Scfp	obra	obra
 poéticas	A0fp	poético	poético
-(Acoitelado	Sp00	(Acoitelado	""
+(	Q(	(	(
+Acoitelado	Sp00	Acoitelado	""
 en	P	en	en
 a	Ddfs	o	o
 espera	Scfs	espera	espera
@@ -35,7 +36,8 @@ espera	Scfs	espera	espera
 e	Cc	e	e
 novelas	Scfp	novela	novela
 curtas	A0fp	curto	curto
-(Un	Sp00	(Un	""
+(	Q(	(	(
+Un	Sp00	Un	""
 hombre	Y	hombre	home
 llega	Scms	*	*
 al	A0ms	*	*

@@ -12,7 +12,8 @@ que	Tnms	que	que
 a	P	a	a
 Medicina	Sp00	Medicina	""
 é	Vpi30s	ser	ser
-"""Bioloxía"	Sp00	"""Bioloxía"	""
+""""	"Q"""	""""	""""
+Bioloxía	Sp00	Bioloxía	""
 práctica	Scfs	práctica	práctica
 """"	"Q"""	""""	""""
 ,	Q,	,	,
@@ -21,7 +22,9 @@ biolóxicas	A0fp	biolóxico	biolóxico
 ,	Q,	,	,
 e	Cc	e	e
 as	Ddfp	o	o
-"""Ciencias Médicas"""	Spfp	"""Ciencias Médicas"""	""
+""""	"Q"""	""""	""""
+Ciencias Médicas	Spfp	Ciencias Médicas	""
+""""	"Q"""	""""	""""
 non	Wn	non	non
 existen	Vpi30p	existir	existir
 .	Q.	.	.

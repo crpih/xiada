@@ -5,4 +5,4 @@ cajero	NCMS	cajero	""
 durante	X	durante	""
 diecisiete	DCMP	diecisiete	""
 años	NCMP	año	""
-<pausa_larga/>	W	*	*
+<pausa_larga/>	ETQ_PAUSA	<pausa_larga/>	""
