@@ -530,8 +530,8 @@ class Viterbi
       else
         # A rule rejected this way. We must choose another way from
         # the point of error.
-        STDERR.puts "FULL WINDOW BEFORE RECTIFICATION"
-        print_full_window(full_window)
+        # STDERR.puts "FULL WINDOW BEFORE RECTIFICATION"
+        # print_full_window(full_window)
 
         (2..returning_index).each do |index|
           STDERR.puts "index"
@@ -539,8 +539,8 @@ class Viterbi
         end
         problematic_element = full_window[-returning_index]
 
-        STDERR.puts "FULL WINDOW AFTER RECTIFICATION"
-        print_full_window(full_window)
+        # STDERR.puts "FULL WINDOW AFTER RECTIFICATION"
+        # print_full_window(full_window)
         #tags_window = update_window(full_window)
         #window = convert_window_to_prunning_format(tags_window)
         #puts "ordered_deltas_size: #{full_window[full_window.size-2][0].ordered_deltas.size}"
@@ -573,7 +573,7 @@ class Viterbi
           #   end
           # end
 
-          STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
+          # STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
           @without_suffixes_words[problematic_element[0].token.text] = true
           return nil
         end
