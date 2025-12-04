@@ -2,6 +2,7 @@ require 'set'
 require 'csv'
 require 'active_support/core_ext/range/overlap'
 require 'active_support/core_ext/module/delegation'
+require 'active_support/core_ext/enumerable'
 
 class ProperNouns
 
@@ -74,14 +75,14 @@ class ProperNouns
     end
   end
 
-  def self.parse_all_lexicon_words(file_path)
-    CSV.read(file_path, col_sep: "\t").map(&:first)
+  def self.parse_main_lexicon(file_path)
+    parse_literals_file(file_path).index_by(&:text)
   end
 
   attr_reader :force_proper_nouns
 
-  def initialize(all_lexicon_words, literal_proper_nouns, ambiguous_literal_proper_nouns, joiners, tags, force_proper_nouns: false)
-    @all_lexicon_words = Set.new(all_lexicon_words)
+  def initialize(main_lexicon, literal_proper_nouns, ambiguous_literal_proper_nouns, joiners, tags, force_proper_nouns: false)
+    @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
     @joiners = joiners
@@ -92,18 +93,20 @@ class ProperNouns
   end
 
   def with_trained(texts)
-    trained_proper_nouns = texts.flat_map { |t| call(t).filter { |segment| segment.is_a?(Literal) } }
+    trained_proper_nouns = texts.flat_map { |t| call(t, training: true).filter { |segment| segment.is_a?(Literal) } }
     literal_proper_nouns = [*@literal_proper_nouns, *trained_proper_nouns].uniq
-    self.class.new(@all_lexicon_words, literal_proper_nouns, @ambiguous_literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
+    self.class.new(@main_lexicon, literal_proper_nouns, @ambiguous_literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
   end
 
-  def call(text)
+  def call(text, training: false)
     literal_segments = literal_proper_nouns(text, @literal_proper_nouns)
     ambiguous_segments = ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns)
     standard_segments = standard_proper_nouns(text)
     candidate_segments = [*literal_segments, *ambiguous_segments, *standard_segments]
     noun_ranges = join_proper_nouns(text, candidate_segments)
-    split_text_by_proper_nouns(text, noun_ranges)
+    result = split_text_by_proper_nouns(text, noun_ranges)
+    add_main_lexicon_tags_to_first_proper_noun!(result) unless training
+    result
   end
 
   private
@@ -115,7 +118,7 @@ class ProperNouns
     # Expand first segment if it is the second word and the first word starts with uppercase
     proper_noun_is_second_word = current_segment.begin > 0 && !text[...current_segment.begin - 1].include?(" ")
     text_begins_with_upper = text.match?(/\A\p{Upper}/)
-    text_beginning_is_unknown_word = !@all_lexicon_words.include?(text[0...current_segment.begin].downcase.strip)
+    text_beginning_is_unknown_word = !@main_lexicon.include?(text[0...current_segment.begin].downcase.strip)
     if proper_noun_is_second_word && text_begins_with_upper && text_beginning_is_unknown_word
       with_start = text[0...current_segment.end]
       tag_lemmas = current_segment.tag_lemmas.map { |t, _| [t, with_start] }
@@ -149,6 +152,15 @@ class ProperNouns
     end
     all_ranges << text[last_pos...text.size] if last_pos < text.size
     all_ranges
+  end
+
+  def add_main_lexicon_tags_to_first_proper_noun!(segmented_text)
+    first_element = segmented_text.first
+    return unless first_element.is_a?(Literal)
+
+    word = first_element.text
+    word_first_lowercase = "#{word[0].downcase}#{word[1..]}"
+    first_element.tag_lemmas = [first_element, @main_lexicon[word], @main_lexicon[word_first_lowercase]].compact.flat_map(&:tag_lemmas).uniq
   end
 
   def literal_proper_nouns(text, literals)

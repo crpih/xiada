@@ -66,7 +66,7 @@ module Config
       @proper_nouns_processor =
         if File.exist?(proper_nouns_file)
           ProperNouns.new(
-            ProperNouns.parse_all_lexicon_words("training/lexicons/#{profile}/lexicon_principal.txt"),
+            ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt"),
             ProperNouns.parse_literals_file(proper_nouns_file),
             File.exist?(ambiguous_proper_nouns_file) ? ProperNouns.parse_literals_file(ambiguous_proper_nouns_file) : [],
             CSV.read("training/lexicons/#{profile}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
