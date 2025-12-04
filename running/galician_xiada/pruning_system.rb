@@ -323,8 +323,8 @@ module GalicianXiada
       if (window[0][0] =~ /^(a fin de|con o fin de)$/) and (window[0][1] =~ /^(P)$/) and (match_some_lemma(window[0][2],"a fin de|con o fin de")) and (window[1][1] =~ /^(Sc.*|D.*)$/)
       return 1
       end
-      # RULE: 0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncn*|Ncd?s,_,_,_,x	$,_,_,_
-      if (window[0][0] =~ /^(0.*|2.*|3.*|4.*|5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|13.*|14.*|15.*|16.*|17.*|18.*|19.*)$/) and (window[0][1] =~ /^(Ncn.*|Ncd.?s)$/) and (window[1][0] =~ /^($)$/)
+      # RULE: 0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncnms|Ncd?s,_,_,_,x	€|$,_,_,_
+      if (window[0][0] =~ /^(0.*|2.*|3.*|4.*|5.*|6.*|7.*|8.*|9.*|10.*|11.*|12.*|13.*|14.*|15.*|16.*|17.*|18.*|19.*)$/) and (window[0][1] =~ /^(Ncnms|Ncd.?s)$/) and (window[1][0] =~ /^(€|\$)$/)
       return 1
       end
       # RULE: a,Ddfs|Scms,_,!á!da!coa!na!cá!prá!ás!das!coas!nas!cás!prás!ós!aos!dos!cos!nos!cós!prós,x	_,Rt*,_,_

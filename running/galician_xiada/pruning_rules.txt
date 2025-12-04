@@ -328,7 +328,7 @@ a fin de|con o fin de,P,a fin de|con o fin de,_,x	_,Sc*|D*,_,_
 
 # (47) as cifras que veñen antes do símbolo do euro ou do dólar non son singulares nin non determinantes
 #(a non ser que a cantidade sexa 1):
-0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncn*|Ncd?s,_,_,_,x	$,_,_,_
+0*|2*|3*|4*|5*|6*|7*|8*|9*|10*|11*|12*|13*|14*|15*|16*|17*|18*|19*,Ncnms|Ncd?s,_,_,_,x	€|$,_,_,_
 
 # (48) 'a' non é artigo nin substantivo (a non ser que estea nunha contracción) se despois vén un pronome persoal tónico
 

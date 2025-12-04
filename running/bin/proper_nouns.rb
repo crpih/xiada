@@ -64,6 +64,7 @@ class ProperNouns
       elsif other.range.cover?(range)
         other.tag_lemmas
       else
+        # TODO: first try intersection, in case of empty do union
         [*tag_lemmas, *other.tag_lemmas].map(&:first).uniq.sort.map { |t| [t, merge_text] }
       end
     end
@@ -71,7 +72,7 @@ class ProperNouns
 
   def self.parse_literals_file(file_path)
     CSV.read(file_path, col_sep: "\t").to_a.group_by(&:first).map do |text, elements|
-      Literal.new(text, elements.map { |_, tag, lemma| [tag, lemma] }, true)
+      Literal.new(text, elements.map { |_, tag, lemma| [tag, lemma] }.uniq, true)
     end
   end
 

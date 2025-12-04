@@ -53,7 +53,7 @@ module Compilers
       output.puts "end"
     end
 
-    private_class_method def self.adapt_word_or_lemma(word_or_lemma) = word_or_lemma.gsub("*", ".*").gsub("?", ".?")
+    private_class_method def self.adapt_word_or_lemma(word_or_lemma) = word_or_lemma.gsub("*", ".*").gsub("?", ".?").gsub("$", "\\$")
 
     private_class_method def self.get_condition_string(value)
       return if value == "_"
