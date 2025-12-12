@@ -250,11 +250,11 @@ class DatabaseWrapper
   end
 
   def get_abbreviations
-    @abbreviations ||= execute("SELECT abbreviation, tag, lemma, hiperlemma FROM abbreviations")
+    @abbreviations ||= Set.new(execute("SELECT DISTINCT abbreviation FROM abbreviations").map(&:first))
   end
 
   def get_acronyms
-    @acronyms ||= execute("SELECT acronym, tag, lemma, hiperlemma FROM acronyms")
+    @acronyms ||= Set.new(execute("SELECT DISTINCT acronym FROM acronyms").map(&:first))
   end
 
   def enclitic_combination_exists?(combination)

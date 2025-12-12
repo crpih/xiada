@@ -26,7 +26,7 @@ class ProperNouns
     def overlaps?(other) = range.overlaps?(other.range)
 
     def merge(source_text, other)
-      merged_range = [range.begin, other.begin].min...[range.end, other.end].max
+      merged_range = [ range.begin, other.begin ].min...[ range.end, other.end ].max
       merge_text = source_text[merged_range]
       Segment.new(merged_range, merge_text, merge_tag_lemmas(other, merge_text), lexicon? || other.lexicon?)
     end
@@ -50,11 +50,12 @@ class ProperNouns
       elsif lexicon? && range.cover?(other.range)
         tag_lemmas
       elsif lexicon?
-        tag_lemmas.map { |t, _| [t, merge_text] }
+        tag_lemmas.map { |t, _| [ t, merge_text ] }
       elsif other.lexicon? && other.range.cover?(range)
         other.tag_lemmas
-      else # other.lexicon?
-        other.tag_lemmas.map { |t, _| [t, merge_text] }
+      else
+        # other.lexicon?
+        other.tag_lemmas.map { |t, _| [ t, merge_text ] }
       end
     end
 
@@ -65,14 +66,14 @@ class ProperNouns
         other.tag_lemmas
       else
         # TODO: first try intersection, in case of empty do union
-        [*tag_lemmas, *other.tag_lemmas].map(&:first).uniq.sort.map { |t| [t, merge_text] }
+        [ *tag_lemmas, *other.tag_lemmas ].map(&:first).uniq.sort.map { |t| [ t, merge_text ] }
       end
     end
   end
 
   def self.parse_literals_file(file_path)
     CSV.read(file_path, col_sep: "\t").to_a.group_by(&:first).map do |text, elements|
-      Literal.new(text, elements.map { |_, tag, lemma| [tag, lemma] }.uniq, true)
+      Literal.new(text, elements.map { |_, tag, lemma| [ tag, lemma ] }.uniq, true)
     end
   end
 
@@ -82,20 +83,30 @@ class ProperNouns
 
   attr_reader :force_proper_nouns
 
-  def initialize(main_lexicon, literal_proper_nouns, ambiguous_literal_proper_nouns, joiners, tags, force_proper_nouns: false)
+  def initialize(
+    main_lexicon,
+    literal_proper_nouns,
+    ambiguous_literal_proper_nouns,
+    joiners,
+    tags,
+    acronyms: Set.new,
+    abbreviations: Set.new,
+    force_proper_nouns: false)
     @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
     @joiners = joiners
     @joiners_regex = /\A\p{Z}\z|\A\p{Pd}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
     @tags = tags
+    @acronyms = acronyms
+    @abbreviations = abbreviations
     # If true, uppercase words at the start of the text are also considered proper noun candidates
     @force_proper_nouns = force_proper_nouns
   end
 
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t, training: true).filter { |segment| segment.is_a?(Literal) } }
-    literal_proper_nouns = [*@literal_proper_nouns, *trained_proper_nouns].uniq
+    literal_proper_nouns = [ *@literal_proper_nouns, *trained_proper_nouns ].uniq
     self.class.new(@main_lexicon, literal_proper_nouns, @ambiguous_literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
   end
 
@@ -103,7 +114,7 @@ class ProperNouns
     literal_segments = literal_proper_nouns(text, @literal_proper_nouns)
     ambiguous_segments = ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns)
     standard_segments = standard_proper_nouns(text)
-    candidate_segments = [*literal_segments, *ambiguous_segments, *standard_segments]
+    candidate_segments = [ *literal_segments, *ambiguous_segments, *standard_segments ]
     noun_ranges = join_proper_nouns(text, candidate_segments)
     result = split_text_by_proper_nouns(text, noun_ranges)
     add_main_lexicon_tags_to_first_proper_noun!(result) unless training
@@ -113,7 +124,7 @@ class ProperNouns
   private
 
   def join_proper_nouns(text, segments)
-    current_segment, *rest = segments.sort_by { |r| [r.begin, r.size] }
+    current_segment, *rest = segments.sort_by { |r| [ r.begin, r.size ] }
     return [] if current_segment.nil?
 
     # Expand first segment if it is the second word and the first word starts with uppercase
@@ -122,7 +133,7 @@ class ProperNouns
     text_beginning_is_unknown_word = !@main_lexicon.include?(text[0...current_segment.begin].downcase.strip)
     if proper_noun_is_second_word && text_begins_with_upper && text_beginning_is_unknown_word
       with_start = text[0...current_segment.end]
-      tag_lemmas = current_segment.tag_lemmas.map { |t, _| [t, with_start] }
+      tag_lemmas = current_segment.tag_lemmas.map { |t, _| [ t, with_start ] }
       current_segment = Segment.new(0...current_segment.end, with_start, tag_lemmas, current_segment.lexicon)
     end
 
@@ -144,12 +155,12 @@ class ProperNouns
   end
 
   def split_text_by_proper_nouns(text, segments)
-    return [text] if segments.empty?
+    return [ text ] if segments.empty?
 
-    last_pos, all_ranges = segments.inject([0, []]) do |(i, result), segment|
+    last_pos, all_ranges = segments.inject([ 0, [] ]) do |(i, result), segment|
       result << text[i...segment.begin] if i < segment.begin
       result << segment.to_literal
-      [segment.end, result]
+      [ segment.end, result ]
     end
     all_ranges << text[last_pos...text.size] if last_pos < text.size
     all_ranges
@@ -161,7 +172,7 @@ class ProperNouns
 
     word = first_element.text
     word_first_lowercase = "#{word[0].downcase}#{word[1..]}"
-    first_element.tag_lemmas = [first_element, @main_lexicon[word], @main_lexicon[word_first_lowercase]].compact.flat_map(&:tag_lemmas).uniq
+    first_element.tag_lemmas = [ first_element, @main_lexicon[word], @main_lexicon[word_first_lowercase] ].compact.flat_map(&:tag_lemmas).uniq
   end
 
   def literal_proper_nouns(text, literals)
@@ -198,7 +209,7 @@ class ProperNouns
     # If @force_proper_nouns is true then also consider uppercase letters at the beginning of the text
     candidate_starts = text.each_char.each_with_index.filter_map { |c, i| i if c.match?(/\p{Upper}/) && (@force_proper_nouns || !i.zero?) }
     ranges = candidate_starts.filter_map { |i| unambiguous_proper_noun_range(i, text) }
-    ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [t, text[r]] }.sort, false) }
+    ranges.map { |r| Segment.new(r, text[r], @tags.map { |t| [ t, text[r] ] }.sort, false) }
   end
 
   def unambiguous_proper_noun_range(i, text)
@@ -241,10 +252,18 @@ class ProperNouns
         # Xosé A.
         (\p{Upper}\p{Lower}+\s\p{Upper}\.) |
         # A. Dominguez
-        (\p{Upper}\.\s\p{Upper}\p{Lower}+) |
-        # Regular proper noun
-        (\p{Upper}\p{Lower}+)
-      )
-    /x)&.captures&.compact&.first
+        (\p{Upper}\.\s\p{Upper}\p{Lower}+)
+      )(?:[^\p{L}|\p{N}]|\z) # Ensure not part of a larger word
+    /x)&.captures&.compact&.first || simple_proper_noun(text)
+  end
+
+  # Regular proper noun
+  def simple_proper_noun(text)
+    match = text.match(/\A(\p{Upper}\p{Lower}+)(?:[^\p{L}|\p{N}]|\z)/)&.captures&.compact&.first
+    with_dot = "#{match}."
+    # If the match is followed by a dot in the original text and is an acronym or abbreviation, is not a proper noun
+    return if text.start_with?(with_dot) && (@acronyms.include?(with_dot) || @abbreviations.include?(with_dot))
+
+    match
   end
 end

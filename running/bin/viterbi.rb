@@ -534,7 +534,7 @@ class Viterbi
         # print_full_window(full_window)
 
         (2..returning_index).each do |index|
-          STDERR.puts "index"
+          # STDERR.puts "index"
           full_window.pop
         end
         problematic_element = full_window[-returning_index]

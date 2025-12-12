@@ -153,8 +153,10 @@ class Sentence
       end
     end
     tokens = tokens_new
-    if tokens.last =~ /([^\.]+)\.$/
-      tokens[tokens.length - 1] = $1
+
+    # Segment last dot in chunk if something followed by single dot and not abbreviation or acronym
+    if tokens.last.match?(/[^\.]\.\z/) && !@abbreviations.include?(tokens.last) && !@acronyms.include?(tokens.last)
+      tokens.last.delete_suffix!(".")
       tokens << "."
     end
     # STDERR.puts "token.size: #{tokens.size}"
@@ -220,7 +222,7 @@ class Sentence
       # If last token is an acronym or abbreviation, we check if it is a contraction
       # or it is included in the lexicon to build the alternatives.
 
-      if last_token.text =~ /\.$/ and (@acronyms[last_token.text] != nil or @abbreviations[last_token.text] != nil)
+      if last_token.text =~ /\.$/ and (@acronyms.include?(last_token.text) or @abbreviations.include?(last_token.text))
         # STDERR.puts "last token is acronym or abbreviation and last_tokens ends with dot"
         last_token_without_end_point = last_token.text.gsub(/\.$/, "")
         result = @tagger_config.dw.get_emissions_info(last_token_without_end_point, nil)
@@ -367,9 +369,8 @@ class Sentence
     #  !first_words_in_lexicon))
     if (token.token_type == :standard) &&
       (token.text.length == 1 || (
-        token.text.length > 1 &&
-          @acronyms[token.text] == nil &&
-          @abbreviations[token.text] == nil &&
+          !@acronyms.include?(token.text) &&
+          !@abbreviations.include?(token.text) &&
           !token.proper_noun)
       )
       token.replace_text(StringUtils.first_to_lower(token.text))
