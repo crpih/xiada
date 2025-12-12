@@ -107,7 +107,16 @@ class ProperNouns
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| call(t, training: true).filter { |segment| segment.is_a?(Literal) } }
     literal_proper_nouns = [ *@literal_proper_nouns, *trained_proper_nouns ].uniq
-    self.class.new(@main_lexicon, literal_proper_nouns, @ambiguous_literal_proper_nouns, @joiners, @tags, force_proper_nouns: @force_proper_nouns)
+    self.class.new(
+      @main_lexicon,
+      literal_proper_nouns,
+      @ambiguous_literal_proper_nouns,
+      @joiners,
+      @tags,
+      acronyms: @acronyms,
+      abbreviations: @abbreviations,
+      force_proper_nouns: @force_proper_nouns
+    )
   end
 
   def call(text, training: false)
@@ -214,9 +223,21 @@ class ProperNouns
 
   def unambiguous_proper_noun_range(i, text)
     starts_with_wrapper = WRAPPER_START_CHARS.include?(text[i - 1])
-    # Unambiguous proper nouns are preceded by punctuation followed by a separator (space usually).
+    # Unambiguous proper nouns are not preceded by punctuation (dot is special case) followed by a separator (space usually).
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
-    return unless text[(i - 2 - (starts_with_wrapper ? 1 : 0))..].match?(/\A[^!?.)]\p{Z}/)
+    previous_two_positions = i - 2 - (starts_with_wrapper ? 1 : 0)
+    return unless text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
+
+    # If previous separator is dot + separator
+    if text[previous_two_positions..].match?(/\A\.\p{Z}/)
+      previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
+      # If dot is the previous punctuation, but no previous word to check, then position is ambiguous
+      return unless previous_separator_position
+
+      # If the previous word is an acronym or abbreviation the position is not ambiguous we can continue with regex detection.
+      previous_word = text[(previous_separator_position + 1)..previous_two_positions]
+      return if !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
+    end
 
     match = match_proper_noun(text[i..])
     return unless match

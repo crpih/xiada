@@ -60,6 +60,7 @@ module Config
       @profile = profile
       @database = database
       @only_lexicon = only_lexicon
+      @dw = DatabaseWrapper.new(self) # Warning: circular dependency
 
       proper_nouns_file = "training/lexicons/#{profile}/lexicon_propios.txt"
       ambiguous_proper_nouns_file = "training/lexicons/#{profile}/lexicon_titulos.txt"
@@ -71,13 +72,14 @@ module Config
             File.exist?(ambiguous_proper_nouns_file) ? ProperNouns.parse_literals_file(ambiguous_proper_nouns_file) : [],
             CSV.read("training/lexicons/#{profile}/proper_nouns_links.txt", col_sep: "\t").map(&:first),
             CSV.read("training/lexicons/#{profile}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first),
+            acronyms: @dw.get_acronyms,
+            abbreviations: @dw.get_abbreviations,
             force_proper_nouns:
           )
         else
           nil
         end
 
-      @dw = DatabaseWrapper.new(self)
       profile_module = profile.camelize
       @lemmatizer = "#{profile_module}::Lemmatizer".constantize.new(self)
       @pruning_system = "#{profile_module}::PruningSystem".constantize.new
