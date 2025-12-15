@@ -190,7 +190,7 @@ contra corrente	W	contra corrente	contracorrente	n
 contra de	X	contra de	contra de	s
 contra reloxo	NCFS	contra reloxo	contrarreloxo	n
 cuarta feira	NCFS	cuarta feira	cuarta feira	s
-cuartas feiras	NCFP	cuarta feira	corta feira	s
+cuartas feiras	NCFP	cuarta feira	cuarta feira	s
 dacordo con	X	dacordo con	de acordo con	n
 dado que	C	dado que	dado que	s
 de a cabalo	W	de a cabalo	de a cabalo	s
@@ -340,6 +340,7 @@ entre tanto	C	entre tanto	entre tanto	s
 eso que	C	eso que	e iso que	n
 fóra de	X	fóra de	fóra de	s
 frente a	X	frente a	fronte a	n
+fronte a	X	fronte a	fronte a	s
 fronte por fronte	W	fronte por fronte	fronte por fronte	s
 gracias a	X	gracias a	grazas a	n
 grazas a	X	grazas a	grazas a	s

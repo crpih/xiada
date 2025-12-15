@@ -491,7 +491,7 @@ córpore insepulto	W	córpore insepulto	córpore insepulto	s
 correo electrónico	NCMS	correo electrónico	correo electrónico	s
 correos electrónicos	NCMP	correo electrónico	correo electrónico	s
 corta feira	NCFS	corta feira	cuarta feira	s
-cortas feiras	NCFP	corta feira	corta feira	s
+cortas feiras	NCFP	corta feira	cuarta feira	s
 couto redondo	NCMS	couto redondo	couto redondo	s
 coutos redondos	NCMP	couto redondo	couto redondo	s
 cuarto de aseo	NCMS	cuarto de aseo	cuarto de aseo	s
@@ -803,7 +803,6 @@ focas da mitra	NCFP	foca da mitra	foca de mitra	s
 focas de capelo	NCFP	foca de capelo	foca de capelo	s
 focas mediterráneas	NCFP	foca mediterránea	foca mediterránea	s
 folla de lata	NCFS	folla de lata	folla de lata	s
-fronte a	X	fronte a	fronte a	s
 fútbol sala	NCMS	fútbol sala	fútbol sala	s
 garda civil	NCFS	garda civil	garda civil	s
 garda civil	NCMS	garda civil	garda civil	s
@@ -850,7 +849,9 @@ graxas polisaturadas	NCFP	graxa polisaturada	graxa polisaturada	s
 graxas saturadas	NCFP	graxa saturada	graxa saturada	s
 graxas trans	NCFP	graxa trans	graxa trans	s
 grosso modo	W	grosso modo	grosso modo	s
+habeas corpus	NCMP	habeas corpus	hábeas corpus	n
 hábeas corpus	NCMP	hábeas corpus	hábeas corpus	s
+habeas corpus	NCMS	habeas corpus	hábeas corpus	n
 hábeas corpus	NCMS	hábeas corpus	hábeas corpus	s
 hat trick	NCMS	hat trick	hat trick	n
 herba abelleira	NCFS	herba abelleira	herba abelleira	s
