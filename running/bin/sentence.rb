@@ -155,7 +155,7 @@ class Sentence
     tokens = tokens_new
 
     # Segment last dot in chunk if something followed by single dot and not abbreviation or acronym
-    if tokens.last.match?(/[^\.]\.\z/) && !@abbreviations.include?(tokens.last) && !@acronyms.include?(tokens.last)
+    if tokens.last&.match?(/[^\.]\.\z/) && !@abbreviations.include?(tokens.last) && !@acronyms.include?(tokens.last)
       tokens.last.delete_suffix!(".")
       tokens << "."
     end
