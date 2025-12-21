@@ -1432,7 +1432,7 @@ Polonia	Sp00	Polonia
 .	Q.	.
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 sindicalista	Scms	sindicalista
 ,	Q,	,
 hoxe	Wn	hoxe
@@ -3563,7 +3563,7 @@ non	Wn	non
 quería	Vii30s	querer
 que	Cs	que
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 alcalde	Scms	alcalde
 controlase	Ves30s	controlar
 a	Ddfs	o
@@ -3595,7 +3595,7 @@ o	Ddms	o
 que	Tnms	que
 aspira	Vpi30s	aspirar
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 alcalde	Scms	alcalde
 vigués	A0ms	vigués
 .	Q.	.
@@ -12747,7 +12747,7 @@ que	Tnfp	que
 condensou	Vei30s	condensar
 Paulo González Mariñas	Spm0	Paulo González Mariñas
 ,	Q,	,
-ex	A0ms	ex
+ex	Zx00	ex
 conselleiro	Scms	conselleiro
 de	P	de
 Presidencia	Sp00	Presidencia
@@ -30558,7 +30558,7 @@ tensa	A0fs	tenso
 .	Q.	.
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 presidente	Scms	presidente
 Fernando Henrique Cardoso	Spm0	Fernando Henrique Cardoso
 di	Vpi30s	dicir
@@ -32626,7 +32626,7 @@ de	P	de
 Agricultura	Sp00	Agricultura
 con	P	con
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 guerrilleiro	Scms	guerrilleiro
 José Mujica	Spm0	José Mujica
 ,	Q,	,
@@ -56874,7 +56874,7 @@ BNG	Zgms	BNG
 .	Q.	.
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 alcalde	Scms	alcalde
 Francisco Vázquez	Spm0	Francisco Vázquez
 a	P	a
@@ -69405,7 +69405,7 @@ El Temps	Sp00	El Temps
 
 Josep María Sala	Spm0	Josep María Sala
 ,	Q,	,
-ex	A0ms	ex
+ex	Zx00	ex
 senador	Scms	senador
 socialista	A0ms	socialista
 condenado	V0p0ms	condenar
@@ -79289,7 +79289,7 @@ sublime	A0ms	sublime
 .	Q.	.
 
 a	Ddfs	o
-ex	A0fs	ex
+ex	Zx00	ex
 candidata	Scfs	candidato
 presidencial	A0fs	presidencial
 colombiana	A0fs	colombiano
@@ -91302,7 +91302,7 @@ súa	Md3sfs	seu
 muller	Scfs	muller
 ,	Q,	,
 a	Ddfs	o
-ex	A0fs	ex
+ex	Zx00	ex
 soldado	Scfs	soldado
 Tessy Anthony	Spf0	Tessy Anthony
 .	Q.	.
@@ -97032,7 +97032,7 @@ políticos	Scmp	político
 .	Q.	.
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 futbolista	Scms	futbolista
 romanés	A0ms	romanés
 Gica Craioveanu	Spm0	Gica Craioveanu
@@ -103353,7 +103353,7 @@ máis	Wm	máis
 sobre	P	sobre
 a	Ddfs	o
 súa	Md3sfs	seu
-ex	A0fs	ex
+ex	Zx00	ex
 empregada	Scfs	empregado
 de	P	de
 o	Ddms	o
@@ -103483,7 +103483,7 @@ laborais	A0fp	laboral
 con	P	con
 a	Ddfs	o
 súa	Md3sfs	seu
-ex	A0fs	ex
+ex	Zx00	ex
 empregada	Scfs	empregado
 de	P	de
 o	Ddms	o
@@ -104104,7 +104104,7 @@ situación	Scfs	situación
 de	P	de
 a	Ddfs	o
 súa	Md3sfs	seu
-ex	A0fs	ex
+ex	Zx00	ex
 empregada	Scfs	empregado
 de	P	de
 o	Ddms	o
@@ -105040,7 +105040,7 @@ pasado	A0ms	pasado
 e	Cc	e
 que	Tnms	que
 foi	Vei30sser	ser
-ex	A0ms	ex
+ex	Zx00	ex
 conselleiro	Scms	conselleiro
 en	P	en
 o	Ddms	o
@@ -105049,10 +105049,10 @@ tripartito	A0ms	tripartito
 de	P	de
 Fernando González Laxe	Spm0	Fernando González Laxe
 ,	Q,	,
-ex	A0ms	ex
+ex	Zx00	ex
 deputado	Scms	deputado
 e	Cc	e
-ex	A0ms	ex
+ex	Zx00	ex
 candidato	Scms	candidato
 de	P	de
 o	Ddms	o
@@ -105227,7 +105227,7 @@ Partido Galeguista	Spms	Partido Galeguista
 ;	Q;	;
 Bautista Álvarez	Spm0	Bautista Álvarez
 ,	Q,	,
-ex	A0ms	ex
+ex	Zx00	ex
 parlamentario	Scms	parlamentario
 de	P	de
 o	Ddms	o
@@ -115920,7 +115920,7 @@ Iraq	Sp00	Iraq
 entre	P	entre
 eles	Rtp3mp	el
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 presidente	Scms	presidente
 de	P	de
 o	Ddms	o
@@ -118828,7 +118828,7 @@ repetidos	A0mp	repetido
 avisos	Scmp	aviso
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 inspector	Scms	inspector
 de	P	de
 Nacións Unidas	Sp00	Nacións Unidas
@@ -132088,7 +132088,7 @@ Da	Sp00	Da
 ,	Q,	,
 gañou	Vei30s	gañar
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 Tachenko	Spms	Tachenko
 Ricardo Vicente	Spm0	Ricardo Vicente
 ,	Q,	,
@@ -144181,7 +144181,7 @@ pensións	Scfp	pensión
 conxeladas	A0fp	conxelado
 para	P	para
 os	Ddmp	o
-ex	A0mp	ex
+ex	Zx00	ex
 combatentes	Scmp	combatente
 de	P	de
 as	Ddfp	o
@@ -144408,7 +144408,7 @@ musa	Scfs	musa
 de	P	de
 Luis Buñuel	Spm0	Luis Buñuel
 e	Cc	e
-ex	A0fs	ex
+ex	Zx00	ex
 moza	Scfs	mozo
 Bond	Sp00	Bond
 ,	Q,	,
@@ -147276,7 +147276,7 @@ de	P	de
 eurodeputado	Scms	eurodeputado
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 xefe	Scms	xefe
 de	P	de
 a	Ddfs	o
@@ -147323,7 +147323,7 @@ lle	Rad3ms	lle
 onte	Wn	onte
 a	P	a
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 director	Scms	director
 xeral	A0ms	xeral
 de	P	de
@@ -148203,7 +148203,7 @@ a	P	a
 Amedo	Sp00	Amedo
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 secretario	Scms	secretario
 de	P	de
 Estado para a Seguridade	Sp00	Estado para a Seguridade
@@ -148234,7 +148234,7 @@ as	Ddfp	o
 mulleres	Scfp	muller
 de	P	de
 os	Ddmp	o
-ex	A0mp	ex
+ex	Zx00	ex
 policías	Scmp	policía
 José Amedo	Spm0	José Amedo
 e	Cc	e
@@ -152046,7 +152046,7 @@ novo	A0ms	novo
 inimigo	Scms	inimigo
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 futbolista	Scms	futbolista
 Maradona	Sp00	Maradona
 
@@ -152107,7 +152107,7 @@ admitiu	Vei30s	admitir
 onte	Wn	onte
 que	Cs	que
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 futbolista	Scms	futbolista
 ,	Q,	,
 afectado	V0p0ms	afectar
@@ -152744,7 +152744,7 @@ o	Ddms	o
 seu	Md3sms	seu
 lugar	Scms	lugar
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 xogador	Scms	xogador
 de	P	de
 o	Ddms	o
@@ -175705,7 +175705,7 @@ galego	Scms	galego
 porque	Cs	porque
 incluso	Wn	incluso
 os	Ddmp	o
-ex	A0mp	ex
+ex	Zx00	ex
 franquistas	Scmp	franquista
 se	Rao3aa	se
 poñían	Vii30p	poñer
@@ -182169,7 +182169,7 @@ de	P	de
 este	Edms	este
 enorme	A0ms	enorme
 país	Scms	país
-ex	A0ms	ex
+ex	Zx00	ex
 soviético	A0ms	soviético
 esixiu	Vei30s	esixir
 francotiradores	Scmp	francotirador
@@ -182554,7 +182554,7 @@ acto	Scms	acto
 homenaxe	Scfs	homenaxe
 a	P	a
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 preso	Scms	preso
 ,	Q,	,
 en	P	en
@@ -182661,7 +182661,7 @@ remitida	V0p0fs	remitir
 por	P	por
 lo	Ddms	o
 propio	Idms	propio
-ex	A0ms	ex
+ex	Zx00	ex
 preso	Scms	preso
 etarra	A0ms	etarra
 ,	Q,	,
@@ -182896,7 +182896,7 @@ mesma	Infs	mesmo
 en	P	en
 ela	Rtp3fs	el
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 preso	Scms	preso
 de	P	de
 ETA	Zg00	ETA
@@ -183045,7 +183045,7 @@ o	Ddms	o
 que	Tnms	que
 faga	Vps30s	facer
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 preso	Scms	preso
 etarra	A0ms	etarra
 Iñaki de Juana Chaos	Spm0	Iñaki de Juana Chaos
@@ -191981,7 +191981,7 @@ de	P	de
 quilómetros	Scmp	quilómetro
 respecto de	P	respecto de
 a	Ddfs	o
-ex	A0fs	ex
+ex	Zx00	ex
 colonia	Scfs	colonia
 británica	A0fs	británico
 ,	Q,	,
@@ -205025,6 +205025,20 @@ bater	V0f000	bater
 que	Gdaa	que
 superchoromicas	Asaa	choromicas
 !	Q!	!
+
+sen	P	sen
+atlas	Scma	atlas
+que	Tnma	que
+revisar	V0f000	revisar
+hoxe	Wn	hoxe
+.	Q.	.
+
+sen	P	sen
+saltasebes	Scfa	saltasebes
+que	Tnfa	que
+observar	V0f000	observar
+hoxe	Wn	hoxe
+.	Q.	.
 
 foche	Vei20sir	ir
 

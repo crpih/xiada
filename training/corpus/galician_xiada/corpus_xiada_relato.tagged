@@ -240877,7 +240877,7 @@ lles	Rad3fp	lle
 pasaban	Vii30p	pasar
 os	Ddmp	o
 seus	Md3pmp	seu
-ex	A0mp	ex
+ex	Zx00	ex
 maridos	Scmp	marido
 para	P	para
 atender	V0f000	atender
@@ -252113,7 +252113,7 @@ camiño	Scms	camiño
 cruza	Vpi30s	cruzar
 se	Rao3aa	se
 un	Dims	un
-ex	A0ms	ex
+ex	Zx00	ex
 concelleiro	Scms	concelleiro
 independente	A0ms	independente
 que	Tnms	que
@@ -340240,6 +340240,20 @@ bater	V0f000	bater
 que	Gdaa	que
 superchoromicas	Asaa	choromicas
 !	Q!	!
+
+sen	P	sen
+atlas	Scma	atlas
+que	Tnma	que
+revisar	V0f000	revisar
+hoxe	Wn	hoxe
+.	Q.	.
+
+sen	P	sen
+saltasebes	Scfa	saltasebes
+que	Tnfa	que
+observar	V0f000	observar
+hoxe	Wn	hoxe
+.	Q.	.
 
 foche	Vei20sir	ir
 

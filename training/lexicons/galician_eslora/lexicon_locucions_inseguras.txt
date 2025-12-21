@@ -1,17 +1,17 @@
-a a beira de	X	a a beira de	a a beira de	s
 a a beira	W	a a beira	a a beira	s
+a a beira de	X	a a beira de	a a beira de	s
 a a ceavoga	W	a a ceavoga	a a ceavoga	s
 a a desesperada	W	a a desesperada	a a desesperada	n
-a a fin e a o cabo	W	a a fin e a o cabo	a a fin e a o cabo	s
 a a fin	W	a a fin	a a fin	s
+a a fin e a o cabo	W	a a fin e a o cabo	a a fin e a o cabo	s
 a a forza	W	a a forza	a a forza	s
 a a fronte	W	a a fronte	a a fronte	s
 a a longa	W	a a longa	a a longa	n
 a a man	W	a a man	a a man	s
 a a marxe	W	a a marxe	a a marxe	s
 a a medida	W	a a medida	a a medida	s
-a a parte	W	a a parte	a a parte	s
 a a par	W	a a par	a a par	s
+a a parte	W	a a parte	a a parte	s
 a a présa	W	a a présa	a a présa	s
 a as avesas	W	a as avesas	a as avesas	s
 a as caladas	W	a as caladas	a as caladas	s
@@ -77,8 +77,8 @@ a o contrario	W	a o contrario	a o contrario	s
 a o cuberto	W	a o cuberto	a cuberto	s
 a o dereito	W	a o dereito	a o dereito	s
 a o descuberto	W	a o descuberto	a o descuberto	s
-a o fin e a o cabo	W	a o fin e a o cabo	a a fin e a o cabo	s
 a o fin	W	a o fin	a o fin	s
+a o fin e a o cabo	W	a o fin e a o cabo	a a fin e a o cabo	s
 a o grande	W	a o grande	a o grande	s
 a o lado	W	a o lado	a o lado	s
 a o longo de	X	a o longo de	a o longo de	s
@@ -87,38 +87,38 @@ a o menos	W	a o menos	a o menos	s
 a o millor	W	a o millor	a o mellor	n
 a o momentiño	W	a o momento	a o momento	s
 a o momento	W	a o momento	a o momento	s
+a o par	W	a o par	a o par	s
 a o par de	X	a o par de	a o par de	s
 a o parecer	W	a o parecer	a o parecer	s
-a o par	W	a o par	a o par	s
+a o pé	W	a o pé	a o pé	s
 a o pe de	X	a o pe de	a o pé de	n
 a o pé de	X	a o pé de	a o pé de	s
-a o pé	W	a o pé	a o pé	s
 a o pouco	W	a o pouco	a o pouco	s
 a o primeiro	W	a o primeiro	a o primeiro	s
 a o quite	W	a o quite	a o quite	s
 a o raro	W	a o raro	a o raro	s
 a o redor de	X	a o redor de	a o redor de	s
-a o respecto de	X	a o respecto de	a respecto de	n
 a o respecto	W	a o respecto	a o respecto	s
+a o respecto de	X	a o respecto de	a respecto de	n
 a o tanto	W	a o tanto	a o tanto	s
-a o voo	W	a o voo	a o voo	n
 a o vó	W	a o vó	a o voo	n
-a o xeito de	X	a o xeito de	a xeito de	n
+a o voo	W	a o voo	a o voo	n
 a o xeito	W	a o xeito	a o xeito	s
+a o xeito de	X	a o xeito de	a xeito de	n
 a os poucos	W	a os poucos	a os poucos	s
 a os pouquiños	W	a os poucos	a os poucos	s
 a par de	X	a par de	a par de	s
 a parte	W	a parte	a a parte	n
+a pé	W	a pé	a pé	s
 a penas	C	a penas	apenas	n
 a penas	W	a penas	apenas	n
-a pé	W	a pé	a pé	s
 a pouco que	C	a pouco que	a pouco que	s
+a pre	W	a pre	a pre	s
 a presa	W	a presa	a a présa	n
 a présa	W	a présa	a a présa	n
-a pre	W	a pre	a pre	s
 a propósito	W	a propósito	a propósito	s
-a punto de	X	a punto de	a punto de	s
 a punto	W	a punto	a punto	s
+a punto de	X	a punto de	a punto de	s
 a raíz de	X	a raíz de	a raíz de	s
 a rastro	W	a rastro	a rastro	s
 a razón de	X	a razón de	a razón de	s
@@ -171,8 +171,8 @@ caixas fortes	NCFP	caixa forte	caixa forte	s
 camiño de	X	camiño de	camiño de	s
 cando menos	W	cando menos	cando menos	n
 cando queira que	C	cando queira que	cando queira que	s
-canto antes	W	canto antes	canto antes	s
 canto a	X	canto a	canto a	s
+canto antes	W	canto antes	canto antes	s
 cara a	X	cara a	cara a	s
 catar se	C	catar se	catar se	s
 coches de línea	NCMP	coche de línea	coches de liña	n
@@ -264,8 +264,8 @@ de segundas	W	de segundas	de segundas	s
 de seguro	W	de seguro	de seguro	s
 de tempo en tempo	W	de tempo en tempo	de tempo en tempo	s
 de todo	W	de todo	de todo	s
-de través de	X	de través de	de través de	s
 de través	W	de través	de través	s
+de través de	X	de través de	de través de	s
 de unha tirada	W	de unha tirada	de unha tirada	s
 de vagar	W	de vagar	devagar	n
 de verdade	W	de verdade	de verdade	s
@@ -292,8 +292,8 @@ en breve	W	en breve	en breve	s
 en broma	W	en broma	en broma	s
 en cámbeo	W	en cámbeo	en cambio	n
 en cambio	W	en cambio	en cambio	s
-en canto a	X	en canto a	en canto a	s
 en canto	C	en canto	en canto	s
+en canto a	X	en canto a	en canto a	s
 en común	W	en común	en común	s
 en conciencia	W	en conciencia	en conciencia	s
 en concreto	W	en concreto	en concreto	s
@@ -307,8 +307,8 @@ en firme	W	en firme	en firme	n
 en frío	W	en frío	en frío	s
 en fronte de	X	en fronte de	en fronte de	s
 en liña	W	en liña	en liña	s
-en orde a	X	en orde a	en orde a	n
 en orde	W	en orde	en orde	s
+en orde a	X	en orde a	en orde a	n
 en par de	X	en par de	en par de	s
 en parte	W	en parte	en parte	s
 en particular	W	en particular	en particular	s
@@ -328,8 +328,8 @@ en teoría	W	en teoría	en teoría	s
 en todo caso	W	en todo caso	en todo caso	s
 en torno a	X	en torno a	en torno a	s
 en troca	W	en troca	en troca	s
-en vango	W	en vango	en vango	s
 en van	W	en van	en van	s
+en vango	W	en vango	en vango	s
 en verdade	W	en verdade	en verdade	s
 en xaque	W	en xaque	en xaque	s
 en xeneral	W	en xeneral	en xeral	n
@@ -463,15 +463,15 @@ tras de	X	tras de	tras de	s
 un canto	DNMS	un canto	un canto	s
 un canto	PNMS	un canto	un canto	s
 un tanto	W	un tanto	un tanto	s
-unha vez que	C	unha vez que	unha vez	n
 unha vez	C	unha vez	unha vez	s
 unha vez	W	unha vez	unha vez	s
+unha vez que	C	unha vez que	unha vez	n
 uns cantos	DNMP	un canto	un canto	s
 uns cantos	PNMP	un canto	un canto	s
 verbo de	X	verbo de	verbo de	s
 visto que	C	visto que	visto que	s
-xa que logo	W	xa que logo	xa que logo	s
 xa que	C	xa que	xa que	s
+xa que logo	W	xa que logo	xa que logo	s
 xunto a	X	xunto a	xunto a	s
 xunto con	X	xunto con	xunto con	n
 xunto de	X	xunto de	xunto de	s

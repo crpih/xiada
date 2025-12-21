@@ -814,6 +814,7 @@ sin.	Za00	sin.		s
 sing.	Za00	sing.		s
 sl.	Za00	sl.		s
 soc.	Za00	soc.		s
+sr.	Zams	sr.	Sr.	s
 ss.	Zaap	s.		s
 ss.	Zafp	s.		s
 ss.	Zamp	s.		s

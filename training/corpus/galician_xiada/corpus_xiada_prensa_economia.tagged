@@ -22578,7 +22578,7 @@ os	Ddmp	o
 negocios	Scmp	negocio
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 financeiro	Scms	financeiro
 .	Q.	.
 
@@ -22861,7 +22861,7 @@ que	Cs	que
 pertencesen	Ves30p	pertencer
 a	P	a
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 presidente	Scms	presidente
 de	P	de
 a	Ddfs	o
@@ -29178,7 +29178,7 @@ as	Ddfp	o
 críticas	Scfp	crítica
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 ministro	Scms	ministro
 de	P	de
 Economía	Sp00	Economía
@@ -38890,7 +38890,7 @@ con	P	con
 a	Ddfs	o
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 secretario	Scms	secretario
 de	P	de
 Defensa	Sp00	Defensa
@@ -60467,7 +60467,7 @@ unha	Difs	un
 denuncia	Scfs	denuncia
 de	P	de
 un	Dims	un
-ex	A0ms	ex
+ex	Zx00	ex
 empregado	Scms	empregado
 ,	Q,	,
 que	Tnfs	que
@@ -68159,7 +68159,7 @@ doutor	Scms	doutor
 en	P	en
 Ciencias Económicas e Empresariais	Sp00	Ciencias Económicas e Empresariais
 e	Cc	e
-ex	A0ms	ex
+ex	Zx00	ex
 director	Scms	director
 de	P	de
 a	Ddfs	o
@@ -76470,7 +76470,7 @@ de	P	de
 mercado	Scms	mercado
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 director	Scms	director
 de	P	de
 a	Ddfs	o
@@ -76576,7 +76576,7 @@ paro	Scms	paro
 
 José Barea Tejeiro	Spm0	José Barea Tejeiro
 ,	Q,	,
-ex	A0ms	ex
+ex	Zx00	ex
 director	Scms	director
 de	P	de
 a	Ddfs	o
@@ -124010,7 +124010,7 @@ común	A0fs	común
 ,	Q,	,
 afirmou	Vei30s	afirmar
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 ministro	Scms	ministro
 brasileiro	A0ms	brasileiro
 de	P	de
@@ -157637,7 +157637,7 @@ intervir	V0f000	intervir
 Gescartera	Sp00	Gescartera
 
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 secretario	Scms	secretario
 de	P	de
 o	Ddms	o
@@ -157876,7 +157876,7 @@ con	P	con
 as	Ddfp	o
 de	P	de
 a	Ddfs	o
-ex	A0fs	ex
+ex	Zx00	ex
 presidenta	Scfs	presidente
 de	P	de
 a	Ddfs	o
@@ -157886,7 +157886,7 @@ e	Cc	e
 as	Ddfp	o
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 vicepresidente	Scms	vicepresidente
 Luis Ramallo	Spms	Luis Ramallo
 ,	Q,	,
@@ -157929,7 +157929,7 @@ admitiu	Vei30s	admitir
 onte	Wn	onte
 que	Cs	que
 a	Ddfs	o
-ex	A0fs	ex
+ex	Zx00	ex
 presidenta	Scfs	presidente
 de	P	de
 a	Ddfs	o
@@ -157945,7 +157945,7 @@ as	Ddfp	o
 xestións	Scfp	xestión
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 secretario	Scms	secretario
 de	P	de
 Estado	Sp00	Estado
@@ -183347,7 +183347,7 @@ xa	Wm	xa
 coñecida	A0fs	coñecido
 de	P	de
 o	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 conselleiro	Scms	conselleiro
 delegado	A0ms	delegado
 de	P	de
@@ -194759,7 +194759,7 @@ foron	Vei30pser	ser
 impostas	V0p0fp	impoñer
 por	P	por
 lo	Ddms	o
-ex	A0ms	ex
+ex	Zx00	ex
 ministro	Scms	ministro
 de	P	de
 Economía	Sp00	Economía
@@ -249669,6 +249669,20 @@ bater	V0f000	bater
 que	Gdaa	que
 superchoromicas	Asaa	choromicas
 !	Q!	!
+
+sen	P	sen
+atlas	Scma	atlas
+que	Tnma	que
+revisar	V0f000	revisar
+hoxe	Wn	hoxe
+.	Q.	.
+
+sen	P	sen
+saltasebes	Scfa	saltasebes
+que	Tnfa	que
+observar	V0f000	observar
+hoxe	Wn	hoxe
+.	Q.	.
 
 foche	Vei20sir	ir
 

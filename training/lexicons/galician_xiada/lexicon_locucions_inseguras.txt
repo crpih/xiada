@@ -190,7 +190,7 @@ contra corrente	Wn	contra corrente	contracorrente	n
 contra de	P	contra de	contra de	s
 contra reloxo	Scfs	contra reloxo	contrarreloxo	n
 cuarta feira	Scfs	cuarta feira	cuarta feira	s
-cuartas feiras	Scfp	cuarta feira	corta feira	s
+cuartas feiras	Scfp	cuarta feira	cuarta feira	s
 dacordo con	P	dacordo con	de acordo con	n
 dado que	Cs	dado que	dado que	s
 de a cabalo	Wn	de a cabalo	de a cabalo	s
@@ -339,6 +339,7 @@ ende mal	Cs	ende mal	ende mal	s
 entre tanto	Cs	entre tanto	entre tanto	s
 eso que	Cs	eso que	e iso que	n
 frente a	P	frente a	fronte a	n
+fronte a	P	fronte a	fronte a	s
 fronte por fronte	Wn	fronte por fronte	fronte por fronte	s
 fóra de	P	fóra de	fóra de	s
 gracias a	P	gracias a	grazas a	n

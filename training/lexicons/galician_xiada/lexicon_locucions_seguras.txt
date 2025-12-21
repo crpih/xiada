@@ -471,7 +471,7 @@ corpore insepulto	Wn	corpore insepulto	corpore insepulto	s
 correo electrónico	Scms	correo electrónico	correo electrónico	s
 correos electrónicos	Scmp	correo electrónico	correo electrónico	s
 corta feira	Scfs	corta feira	cuarta feira	s
-cortas feiras	Scfp	corta feira	corta feira	s
+cortas feiras	Scfp	corta feira	cuarta feira	s
 couto redondo	Scms	couto redondo	couto redondo	s
 coutos redondos	Scmp	couto redondo	couto redondo	s
 cuarto de aseo	Scms	cuarto de aseo	cuarto de aseo	s
@@ -783,7 +783,6 @@ focas da mitra	Scfp	foca da mitra	foca de mitra	s
 focas de capelo	Scfp	foca de capelo	foca de capelo	s
 focas mediterráneas	Scfp	foca mediterránea	foca mediterránea	s
 folla de lata	Scfs	folla de lata	folla de lata	s
-fronte a	P	fronte a	fronte a	s
 fútbol sala	Scms	fútbol sala	fútbol sala	s
 garda civil	Scas	garda civil	garda civil	s
 garda civil	Scfs	garda civil	garda civil	s
