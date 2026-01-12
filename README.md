@@ -22,84 +22,61 @@ galician_xiada corpora and configurations come from [CORGA](http://corpus.cirp.g
 
 http://corpus.cirp.gal/xiada
 
-## INSTALL
+## Usage
 
-1. Install ruby (> 2.5.0 version):
-
-    Our preferred way is through [rbenv](https://github.com/rbenv/rbenv)/[ruby-build](https://github.com/rbenv/ruby-build).
-
-1. Intall bundler
-
-        gem install bundler
-
-1. Install sqlite3:
-
-    In Debian stable:
-
-        sudo apt-get install libsqlite3-0 libsqlite3-dev sqlite3 sqlite3-dev
-
-1. Clone the repo:
-
-        git clone git@github.com:crpih/xiada.git
-
-1. Install required gems:
-
-    Enter repo root directory (from now on `repo_root_directory`) and run:
-
-        bundle install
-
-## TRAIN
-
-  The tagger can be trained entering `repo_root_directory` and then run:
-
-### for Galician XIADA...
-
-    cd training/bin
-    make galician_xiada
-
-### for Spanish ESLORA...
-
-    cd training/bin
-    make spanish_eslora
-
-This command will generate different training databases in `repo_root_directory/training/databases` (it will take several minutes to finish).
-
-## CHECK
-
-To check that all is working fine, from `repo_root_directory` run:
-
-    bundle exec rake test
-
-## RUN
-
-
-
-## Build docker image
-
-./build.sh
-
-Tagger is trained and generated databases are copied inside the image.
-Por 4000 is exposed.
-
-`XIADA_PROFILE` and `XIADA_DATABASE` must be defined to run the container. 
-
-### Running the server
+Build docker image and start service
 
 ```bash
-docker run -e XIADA_PROFILE=galician_xiada -e XIADA_DATABASE=galician_xiada_escrita -p 4000:4000 xiada_tagger
+bin/build
+cp profiles.example.yml profiles.yml # copy default profiles. You can edit and remove the ones you don't need for faster startup.
+docker compose up -d
 ```
 
-### Tag a simple text
+Building may take a while since it trains the tagger.
+
+## Configuration
+
+Relevant environment variables for tagger configuration:
+
+- XIADA_PROFILE: Name of the profile to use.
+- XIADA_DATABASE: Name of the database to use.
+- XIADA_ONLY_LEXICON: If true, only lexicon will be used to tag the text.
+- XIADA_FORCE_PROPER_NOUNS: If true, all capitalized words will be tagged as proper nouns.
+
+Supported combinations of these variables are defined in `profiles.yml` file.
+
+### API requests
+
+Then you can send requests like:
 
 ```bash
-docker run -ti -e XIADA_PROFILE=galician_xiada -e XIADA_DATABASE=galician_xiada_escrita xiada_tagger ruby running/bin/xiada_tagger.rb
+curl --request POST \
+  --url 'http://localhost:4000/tagger?profile=galician_xiada&database=galician_xiada_escrita&only_lexicon=false&force_proper_nouns=false' \
+  --header 'Content-Type: application/json' \
+  --data '[
+	"Texto de proba."
+]'
 ```
+
+Configuration parameters are passed as URL query parameters.
+
+### Interactive usage
+
+```bash
+docker compose exec -e XIADA_PROFILE=galician_xiada -e XIADA_DATABASE=galician_xiada_escrita tagger ruby running/bin/xiada_tagger.rb
+```
+
+Then write text and press enter to get tagged output. Configuration parameters are passed as environment variables.
 
 ## Testing
+
+Ruby and some native libraries are required to run tests. Check the Dockerfile for reference about required packages and ruby version.
 
 ### Execute all tests
 
 ```bash
+bundle # Install dependencies
+bin/build-host-train # Build image training in local machine
 bundle exec rake test
 ```
 
@@ -119,4 +96,4 @@ bundle exec ruby -I"lib:test" test/regression/tagger/xiada_tagger_test.rb --name
 
 ### Save tests results for reference
 
-Define the environment variable `XIADA_SAVE_RESULT=1` and execute tests.
+Uncomment relevant line in regression tests to save current results as reference.

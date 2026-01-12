@@ -1,8 +1,3 @@
 #!/bin/bash
 
 DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger:latest .
-
-# Legacy tags
-DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora-spanish:latest .
-DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-eslora-galician:latest .
-DOCKER_BUILDKIT=1 docker build --ssh default -t xiada_tagger-corga:latest .

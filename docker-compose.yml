@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  tagger:
+    image: xiada_tagger
+    restart: always
+    volumes:
+      - ./profiles.yml:/myapp/profiles.yml:ro
+    environment:
+      WEB_CONCURRENCY: 12
+    ports:
+      - "4000:4000"
