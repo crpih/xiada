@@ -21,7 +21,7 @@ class Viterbi
       # sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
-      #sentence.print(STDERR)
+      # sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
@@ -537,7 +537,9 @@ class Viterbi
           # STDERR.puts "index"
           full_window.pop
         end
-        problematic_element = full_window[-returning_index]
+        # Invert index since full_window is in reverse order
+        # Subtract 1 since returned index is 1-based and 0 used for success code
+        problematic_element = full_window[-(returning_index - 1)]
 
         # STDERR.puts "FULL WINDOW AFTER RECTIFICATION"
         # print_full_window(full_window)

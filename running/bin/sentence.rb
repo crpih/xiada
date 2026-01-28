@@ -32,11 +32,11 @@ class Sentence
     @current_text_offset = 0
 
     if proper_nouns_processor
-      proper_nouns_processor.call(text).each do |segment|
-        segment.is_a?(String) ? add_chunk(segment) : add_proper_noun(segment.text, segment.tag_lemmas)
+      proper_nouns_processor.call(text).each_with_index do |segment, i|
+        segment.is_a?(String) ? add_chunk(segment, i.zero?) : add_proper_noun(segment.text, segment.tag_lemmas)
       end
     else
-      add_chunk(text)
+      add_chunk(text, true)
     end
 
     @current_last_token.add_next(@last_token)
@@ -47,15 +47,15 @@ class Sentence
   end
 
 
-  def add_chunk(text)
-    build_sentence_tokens(tokenize(text), text)
+  def add_chunk(text, first_chunk)
+    build_sentence_tokens(tokenize(text, first_chunk), text)
   end
 
   def empty?
     @text.strip.empty?
   end
 
-  def tokenize(text)
+  def tokenize(text, first_chunk)
     local_text = String.new(text)
 
     # Dots are separated from previous and next words
@@ -80,7 +80,7 @@ class Sentence
       token = tokens[index]
       # STDERR.puts "token_src: #{token} index:#{index}"
       # identifiers at the beginning of the sentence
-      if index == 0 and token =~ /^[0-9A-Za-z]+\)/
+      if index == 0 and token =~ /^[0-9A-Za-z]+\)/ and first_chunk
         tokens_new << token
         # if a number ends with dot or comma, we separate this dot in a new token.
         # it occurs in identifiers at the begining of the sentence
@@ -318,6 +318,7 @@ class Sentence
       end
     end
   end
+
   def full_ignored?
     token = @first_token
     while token
@@ -351,11 +352,148 @@ class Sentence
     return (@text[from..to])
   end
 
+  def print(fd)
+    fd.puts "PRINTING SENTENCE"
+    print_recursive(fd, @first_token, 1, 1)
+  end
+
   private
 
-  def peripheric?(tag)
-    result = tag =~ /#{@peripheric_regexp}/
-    return result
+  def print_recursive(fd, token, way, ways)
+    return nil unless token
+    if token.token_type == :standard
+      print_token(fd, token)
+      print_recursive(fd, token.next, way, ways)
+    elsif token.token_type == :begin_alternative
+      print_token(fd, token)
+      # Follow all ways recursively
+      way = 1
+      ways = token.size_nexts
+      token.nexts.keys.each do |token_aux|
+        fd.puts "<alternative>"
+        print_recursive(fd, token_aux, way, ways)
+        way = way + 1
+      end
+    elsif token.token_type == :end_alternative
+      # Join alternatives and follow only one way
+      fd.puts "</alternative>"
+      if way == ways
+        print_token(fd, token)
+        print_recursive(fd, token.next, 1, 1)
+      end
+    elsif token.token_type == :begin_sentence
+      print_token(fd, token)
+      print_recursive(fd, token.next, 1, 1)
+    elsif token.token_type == :end_sentence
+      print_token(fd, token)
+    end
+  end
+
+  def print_recursive_reverse(token, way, ways)
+    if token.token_type == :standard
+      print_token(STDOUT, token)
+      print_recursive_reverse(token.prev, way, ways)
+    elsif token.token_type == :end_alternative
+      print_token(STDOUT, token)
+      # Follow all ways recursively
+      way = 1
+      ways = token.size_prevs
+      token.prevs.keys.each do |token_aux|
+        puts "<alternative>"
+        print_recursive_reverse(token_aux, way, ways)
+        way = way + 1
+      end
+    elsif token.token_type == :begin_alternative
+      # Join alternatives and follow only one way
+      puts "</alternative>"
+      if way == ways
+        print_token(STDOUT, token)
+        print_recursive_reverse(token.prev, 1, 1)
+      end
+    elsif token.token_type == :begin_sentence
+      print_token(STDOUT, token)
+    elsif token.token_type == :end_sentence
+      print_token(STDOUT, token)
+      print_recursive_reverse(token.prev, 1, 1)
+    end
+  end
+
+  def print_token(fd, token)
+    return nil unless token
+    if token.token_type == :standard
+      text = token.text
+      text = "nil" if text == nil
+      fd.puts "token:#{text}\ttype=#{token.token_type}\tfrom=#{token.from}\tto=#{token.to}\ttoken_object=#{token}\tchunk_entity_exclude_transform:#{token.chunk_entity_exclude_transform}"
+      token.tags.values.each do |tag_object|
+        fd.puts "\ttag=#{tag_object.value}\temission=#{tag_object.emission}\tselected=#{tag_object.selected?}\ttag_object=#{tag_object}\ttoken_object_from_tag=#{tag_object.token}"
+        tag_object.lemmas.keys.each do |lemma|
+          fd.print "\tlemma=#{lemma}"
+          fd.print "/hiperlemma=#{tag_object.hiperlemmas[lemma]}" if tag_object.hiperlemmas[lemma]
+          fd.puts ""
+        end
+        tag_object.deltas.each do |prev_tag, delta|
+          fd.puts "\t\tdelta=#{delta.value}, prev_tag=#{prev_tag}"
+          fd.puts "\t\tdelta.normalized=#{delta.normalized_value}, prev_tag=#{prev_tag}"
+        end
+      end
+      unless token.nexts_ignored.empty?
+        fd.print "ignored tokens (standard):\n"
+        token.nexts_ignored.each do |ignored_token|
+          fd.print " #{ignored_token.text}"
+          ignored_token.qualifying_info.keys.each do |info|
+            fd.print " <qual>#{info}</qual>"
+          end
+          fd.puts ""
+        end
+      end
+      fd.print "infos:"
+      token.qualifying_info.each do |info|
+        fd.print " <qual>#{info}</qual>"
+      end
+      fd.puts ""
+    elsif token.token_type == :begin_alternative
+      fd.puts "<alternatives> nexts:#{token.nexts.size}"
+    elsif token.token_type == :end_alternative
+      unless token.nexts_ignored.empty?
+        fd.print "ignored tokens (end_alternative):\n"
+        token.nexts_ignored.each do |ignored_token|
+          fd.print " #{ignored_token.text}"
+          ignored_token.qualifying_info.keys.each do |info|
+            fd.print " <qual>#{info}</qual>"
+          end
+          fd.puts ""
+        end
+      end
+      fd.puts "</alternatives> prevs:#{token.prevs.size}"
+    elsif token.token_type == :begin_sentence
+      fd.puts "<sentence>"
+      unless token.nexts_ignored.empty?
+        fd.print "ignored tokens:"
+        token.nexts_ignored.each do |ignored_token|
+          fd.print " #{ignored_token.text}"
+          ignored_token.qualifying_info.keys.each do |info|
+            fd.print " <qual>#{info}</qual>"
+          end
+        end
+      end
+      fd.print "infos:"
+      token.qualifying_info.keys.each do |info|
+        fd.print " <qual>#{info}</qual>"
+      end
+      fd.puts ""
+    elsif token.token_type == :end_sentence
+      fd.puts "</sentence>"
+    end
+  end
+
+  def is_original_first_lower?
+    all_lower = false
+    token = @first_token.next
+    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+      token = token.next
+    end
+    all_lower = StringUtils.all_lower?(token.text) if (token.token_type == :standard)
+    return all_lower
   end
 
   def first_to_lower
