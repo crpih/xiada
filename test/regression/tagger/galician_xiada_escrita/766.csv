@@ -35,8 +35,8 @@ despegar	V0f000	despegar	despegar
 en	P	en	en
 un	Dims	un	un
 lanzador	A0ms	lanzador	lanzador
-Soyuz TMA-1	Sp00	Soyuz TMA-1	""
-M	Zgms	M	""
+Soyuz	Sp00	Soyuz	""
+TMA-1M	Zgms	*	*
 desde	P	desde	desde
 o	Ddms	o	o
 cosmódromo	Scms	cosmódromo	cosmódromo

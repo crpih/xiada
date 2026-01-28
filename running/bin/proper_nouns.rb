@@ -269,7 +269,7 @@ class ProperNouns
         # Road names (C-31)
         (\p{Upper}+-\d+) |
         # ADEGA-Coruña, CIG-Saúde, etc.
-        (\p{Upper}{2,})(?>-\p{Upper}\p{Lower}) |
+        (\p{Upper}{2,}-\p{Upper}\p{Lower}+) |
         # Xosé A.
         (\p{Upper}\p{Lower}+\s\p{Upper}\.) |
         # A. Dominguez
