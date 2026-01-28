@@ -258,8 +258,8 @@ class ProperNouns
   def match_proper_noun(text)
     text.match(/
       \A(?:
-        # Camel case (YouTube)
-        (\p{Upper}\p{Lower}+(?:\p{Upper}\p{Lower}+)+) |
+        # Camel case (YouTube, UVigo)
+        (\p{Upper}\p{Lower}*(?:\p{Upper}\p{Lower}+)+) |
         # Separated by one hyphen (Barcelona-Tarragona)
         (\p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+) |
         # With & in the middle (H&M)
