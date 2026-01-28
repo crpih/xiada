@@ -11,11 +11,15 @@
       <condition>
         <target>enclitic_part</target>
         <content>
-          <evaluation at="next_enclitic">lo OR la OR los OR las OR -lo OR -la OR -los OR -las</evaluation>
+          <evaluation at="next_enclitic">
+            lo OR la OR los OR las OR -lo OR -la OR -los OR -las OR
+            l@ OR       l@s OR        -l@ OR        -l@s OR
+            lx OR       lxs OR        -lx OR        -lxs
+          </evaluation>
         </content>
         <action>filter_tags</action>
         <action param="lles">replace_form</action>
-        <filter>Rad3as OR Rad3ms OR Rad3fs</filter>
+        <filter>Rad3as OR Rad3ms OR Rad3fs OR Rad3xs</filter>
       </condition>
     </condition>
   </rule>
@@ -29,10 +33,14 @@
       <condition>
         <target>enclitic_part</target>
         <content>
-          <evaluation at="next_enclitic">NOT lo AND NOT la AND NOT los AND NOT las AND NOT -lo AND NOT -la AND NOT -los AND NOT -las</evaluation>
+          <evaluation at="next_enclitic">
+            NOT lo AND NOT la AND NOT los AND NOT las AND NOT -lo AND NOT -la AND NOT -los AND NOT -las AND NOT
+                l@ AND NOT            l@s AND NOT             -l@ AND NOT             -l@s AND NOT
+                lx AND NOT            lxs AND NOT             -lx AND NOT             -lxs
+          </evaluation>
         </content>
         <action>filter_tags</action>
-        <filter>Rad3ap OR Rad3mp OR Rad3fp</filter>
+        <filter>Rad3ap OR Rad3mp OR Rad3fp OR Rad3xp</filter>
       </condition>
     </condition>
   </rule>

@@ -814,7 +814,7 @@
         <condition>
           <target>enclitic_part</target>
           <content>
-            <evaluation at="first">-lo OR -la OR -los OR -las OR lo OR la OR los OR las</evaluation>
+            <evaluation at="first">-lo OR -la OR -los OR -las OR lo OR la OR los OR las OR -l@ OR -l@s OR l@ OR l@s OR -lx OR -lxs OR lx OR lxs</evaluation>
           </content>
           <action>filter_tags</action>??[^m]2?s
           <check_default>no</check_default>
@@ -832,7 +832,7 @@
         <condition>
           <target>enclitic_part</target>
           <content>
-            <evaluation at="first">NOT -lo AND NOT -la AND NOT lo AND NOT la AND NOT -los AND NOT -las AND NOT los AND NOT las AND NOT nos AND NOT no</evaluation>
+            <evaluation at="first">NOT -lo AND NOT -la AND NOT lo AND NOT la AND NOT -los AND NOT -las AND NOT los AND NOT las AND NOT nos AND NOT no AND NOT -l@ AND NOT l@ AND NOT -l@s AND NOT l@s AND NOT n@s AND NOT n@ AND NOT -lx AND NOT lx AND NOT -lxs AND NOT lxs AND NOT nxs AND NOT nx</evaluation>
           </content>
           <action>filter_tags</action>
           <filter>V0f10s OR V0f30s OR Vfs10s OR Vfs30s OR Vfsa0s OR V0f000 OR ???2?s OR ???2?p OR ???1?p AND NOT V0m20s AND NOT V0m20p AND NOT Vei20s</filter>

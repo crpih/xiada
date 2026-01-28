@@ -7,7 +7,7 @@ module GalicianXiada
         # Not OR nor AND expressions
         if index < enclitics.length - 1 and enclitic =~ /^lle$/
           # RULE: 1 DEPTH:2 CONDITION:1
-          if index < enclitics.length - 1 and enclitics[index + 1] =~ /^lo$|^la$|^los$|^las$|^-lo$|^-la$|^-los$|^-las$/
+          if index < enclitics.length - 1 and enclitics[index + 1] =~ /^lo$|^la$|^los$|^las$|^-lo$|^-la$|^-los$|^-las$|^l@$|^l@s$|^-l@$|^-l@s$|^lx$|^lxs$|^-lx$|^-lxs$/
             enclitic_tags_array = enclitic_tags.split(/ /)
             enclitic_lemmas_array = enclitic_lemmas.split(/ /)
             new_enclitic_tags_array = Array.new
@@ -15,7 +15,7 @@ module GalicianXiada
             enclitic_tags_array.each_index do |index_aux|
               enclitic_tag = enclitic_tags_array[index_aux]
               enclitic_lemma = enclitic_lemmas_array[index_aux]
-              if enclitic_tag =~ /Rad3as|Rad3ms|Rad3fs/
+              if enclitic_tag =~ /Rad3as|Rad3ms|Rad3fs|Rad3xs/
                 # tag removing
               else
                 new_enclitic_tags_array << enclitic_tag
@@ -37,7 +37,7 @@ module GalicianXiada
         # Not OR nor AND expressions
         if index < enclitics.length - 1 and enclitic =~ /^lle$/
           # RULE: 2 DEPTH:2 CONDITION:1
-          if index < enclitics.length - 1 and enclitics[index + 1] !~ /^lo$/ and enclitics[index + 1] !~ /^la$/ and enclitics[index + 1] !~ /^los$/ and enclitics[index + 1] !~ /^las$/ and enclitics[index + 1] !~ /^-lo$/ and enclitics[index + 1] !~ /^-la$/ and enclitics[index + 1] !~ /^-los$/ and enclitics[index + 1] !~ /^-las$/
+          if index < enclitics.length - 1 and enclitics[index + 1] !~ /^lo$/ and enclitics[index + 1] !~ /^la$/ and enclitics[index + 1] !~ /^los$/ and enclitics[index + 1] !~ /^las$/ and enclitics[index + 1] !~ /^-lo$/ and enclitics[index + 1] !~ /^-la$/ and enclitics[index + 1] !~ /^-los$/ and enclitics[index + 1] !~ /^-las$/ and enclitics[index + 1] !~ /^l@$/ and enclitics[index + 1] !~ /^l@s$/ and enclitics[index + 1] !~ /^-l@$/ and enclitics[index + 1] !~ /^-l@s$/ and enclitics[index + 1] !~ /^lx$/ and enclitics[index + 1] !~ /^lxs$/ and enclitics[index + 1] !~ /^-lx$/ and enclitics[index + 1] !~ /^-lxs$/
             enclitic_tags_array = enclitic_tags.split(/ /)
             enclitic_lemmas_array = enclitic_lemmas.split(/ /)
             new_enclitic_tags_array = Array.new
@@ -45,7 +45,7 @@ module GalicianXiada
             enclitic_tags_array.each_index do |index_aux|
               enclitic_tag = enclitic_tags_array[index_aux]
               enclitic_lemma = enclitic_lemmas_array[index_aux]
-              if enclitic_tag =~ /Rad3ap|Rad3mp|Rad3fp/
+              if enclitic_tag =~ /Rad3ap|Rad3mp|Rad3fp|Rad3xp/
                 # tag removing
               else
                 new_enclitic_tags_array << enclitic_tag
@@ -234,9 +234,9 @@ module GalicianXiada
           end
         end
         if enclitic_tags == nil or enclitic_tags.empty?
-          result = [ nil, nil ]
+          result = [nil, nil]
         else
-          result = [ enclitic, enclitic_tags, enclitic_lemmas ]
+          result = [enclitic, enclitic_tags, enclitic_lemmas]
         end
         return result
       end

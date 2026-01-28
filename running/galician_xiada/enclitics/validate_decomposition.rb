@@ -427,7 +427,7 @@ module GalicianXiada
           # RULE: 22 DEPTH:2 CONDITION:8
           if verb_part !~ /s$/ and verb_part !~ /r$/
             # RULE: 22 DEPTH:3 CONDITION:1
-            if enclitic_part =~ /^-lo|^-la|^-los|^-las|^lo|^la|^los|^las/
+            if enclitic_part =~ /^-lo|^-la|^-los|^-las|^lo|^la|^los|^las|^-l@|^-l@s|^l@|^l@s|^-lx|^-lxs|^lx|^lxs/
               check_default = false
               if verb_tags != nil
                 verb_tags_array = verb_tags.split(/ /)
@@ -450,7 +450,7 @@ module GalicianXiada
           # RULE: 22 DEPTH:2 CONDITION:9
           if verb_part !~ /s$/ and verb_part !~ /r$/
             # RULE: 22 DEPTH:3 CONDITION:1
-            if enclitic_part !~ /^-lo/ and enclitic_part !~ /^-la/ and enclitic_part !~ /^lo/ and enclitic_part !~ /^la/ and enclitic_part !~ /^-los/ and enclitic_part !~ /^-las/ and enclitic_part !~ /^los/ and enclitic_part !~ /^las/ and enclitic_part !~ /^nos/ and enclitic_part !~ /^no/
+            if enclitic_part !~ /^-lo/ and enclitic_part !~ /^-la/ and enclitic_part !~ /^lo/ and enclitic_part !~ /^la/ and enclitic_part !~ /^-los/ and enclitic_part !~ /^-las/ and enclitic_part !~ /^los/ and enclitic_part !~ /^las/ and enclitic_part !~ /^nos/ and enclitic_part !~ /^no/ and enclitic_part !~ /^-l@/ and enclitic_part !~ /^l@/ and enclitic_part !~ /^-l@s/ and enclitic_part !~ /^l@s/ and enclitic_part !~ /^n@s/ and enclitic_part !~ /^n@/ and enclitic_part !~ /^-lx/ and enclitic_part !~ /^lx/ and enclitic_part !~ /^-lxs/ and enclitic_part !~ /^lxs/ and enclitic_part !~ /^nxs/ and enclitic_part !~ /^nx/
               if verb_tags != nil
                 verb_tags_array = verb_tags.split(/ /)
                 new_verb_tags_array = Array.new
