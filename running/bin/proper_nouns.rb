@@ -185,11 +185,11 @@ class ProperNouns
   end
 
   def literal_proper_nouns(text, literals)
-    each_literal_in_text(text, literals) { |r, l| Segment.new(r, text[r], l.tag_lemmas, l.lexicon) }
+    literals_in_text(text, literals) { |r, l| Segment.new(r, text[r], l.tag_lemmas, l.lexicon) }
   end
 
   def ambiguous_literal_proper_nouns(text, literals)
-    each_literal_in_text(text, literals) do |range, literal|
+    literals_in_text(text, literals) do |range, literal|
       # Skip if the literal is at the beginning of the text or is preceded by a wrapper start char
       next if range.begin == 0
       next if range.begin == 1 && WRAPPER_START_CHARS.include?(text[0])
@@ -198,19 +198,22 @@ class ProperNouns
     end
   end
 
-  def each_literal_in_text(text, literals)
-    literals.filter_map do |literal|
-      start_index = text.index(literal.text)
-      next if start_index.nil?
-      next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
+  def literals_in_text(text, literals)
+    result = []
+    literals.each do |literal|
+      each_substring_index(text, literal.text) do |start_index|
+        next if start_index.nil?
+        next if start_index > 0 && text[start_index - 1].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
 
-      end_index = start_index + literal.text.size
-      next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
+        end_index = start_index + literal.text.size
+        next if end_index < text.size && text[end_index].match?(/\p{L}|\p{N}|-/) # Ensure not part of a larger word
 
-      range = start_index...end_index
+        range = start_index...end_index
 
-      yield range, literal
+        result << yield(range, literal)
+      end
     end
+    result
   end
 
   def standard_proper_nouns(text)
@@ -286,5 +289,10 @@ class ProperNouns
     return if text.start_with?(with_dot) && (@acronyms.include?(with_dot) || @abbreviations.include?(with_dot))
 
     match
+  end
+
+  def each_substring_index(string, substring)
+    pos = -1
+    yield pos while (pos = string.index(substring, pos + 1))
   end
 end
