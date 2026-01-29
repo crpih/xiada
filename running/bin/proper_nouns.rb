@@ -210,7 +210,8 @@ class ProperNouns
 
         range = start_index...end_index
 
-        result << yield(range, literal)
+        segment = yield(range, literal)
+        result << segment unless segment.nil?
       end
     end
     result

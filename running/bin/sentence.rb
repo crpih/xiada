@@ -230,7 +230,7 @@ class Sentence
         result.each do |result_entry|
           tag = result_entry[0]
           #puts "tag:#{tag}"
-          if !peripheric?(tag)
+          if @peripheric_regexp.match?(tag)
             # last_token is in lexicon also
             lexicon_not_abbreviation = true
             break
