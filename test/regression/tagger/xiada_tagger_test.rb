@@ -6,7 +6,7 @@ require_relative '../../../running/bin/xiada_tagger'
 
 def test_snapshots(tagger_config, document_config, cases_filename)
   tagger = XiadaTagger.new(tagger_config)
-  CSV.foreach("#{__dir__}/#{cases_filename}.csv", col_sep: "\t", skip_lines: /^#/).map(&:first).each_with_index do |example, i|
+  CSV.foreach("#{__dir__}/#{cases_filename}.csv", col_sep: "\t", skip_lines: /^#/, skip_blanks: true).map(&:first).each_with_index do |example, i|
     it "#{i}.csv #{example}" do
       # We are removing unit positions to be able to compare the result with previous snapshots
       # TODO: Incorporate unit positions in the snapshots when the tagger is more stable
