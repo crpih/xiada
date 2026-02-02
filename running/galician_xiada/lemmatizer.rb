@@ -76,8 +76,9 @@ module GalicianXiada
     # Function which is called before accessing emission frequencies for verbs with enclitics pronouns.
     # All enclitics processing needs a refactor to work well with the new lemmatizer.
     def lemmatize_verb_with_enclitics(document_config, left_part)
-      gheada_variants(left_part).flat_map do |gh_variant|
-        ss_variants = seseo_variants(gh_variant)
+      gh_variants = document_config.gheada ? gheada_variants(left_part) : [left_part]
+      gh_variants.flat_map do |gh_variant|
+        ss_variants = document_config.seseo ? seseo_variants(gh_variant) : [gh_variant]
         # Keep only the literal word (first) unless seseo
         ss_variants = ss_variants.take(1) unless document_config.seseo
         ss_variants.map { |s| enclitics_auto_rule(s) }
