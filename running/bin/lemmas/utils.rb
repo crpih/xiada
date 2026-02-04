@@ -33,51 +33,7 @@ module Lemmas
       return result
     end
 
-    MAX_VARIANTS = 1_000
-    GHEADA_REPLACEMENTS = {
-      'gha' => 'ga',
-      'ghá' => 'gá',
-      'ghe' => 'gue',
-      'ghé' => 'gué',
-      'ghi' => 'gui',
-      'ghí' => 'guí',
-      'gho' => 'go',
-      'ghó' => 'gó',
-      'ghu' => 'gu',
-      'ghú' => 'gú',
-      'ghra' => 'gra',
-      'ghrá' => 'grá',
-      'ghre' => 'gre',
-      'ghré' => 'gré',
-      'ghri' => 'gri',
-      'ghrí' => 'grí',
-      'ghro' => 'gro',
-      'ghró' => 'gró',
-      'ghru' => 'gru',
-      'ghrú' => 'grú',
-      'ghla' => 'gla',
-      'ghlá' => 'glá',
-      'ghle' => 'gle',
-      'ghlé' => 'glé',
-      'ghli' => 'gli',
-      'ghlí' => 'glí',
-      'ghlo' => 'glo',
-      'ghló' => 'gló',
-      'ghlu' => 'glu',
-      'ghlú' => 'glú',
-    }.freeze
-    SESEO_REPLACEMENTS = {
-      'sa' => 'za',
-      'sá' => 'zá',
-      'se' => 'ce',
-      'sé' => 'cé',
-      'si' => 'ci',
-      'sí' => 'cí',
-      'so' => 'zo',
-      'só' => 'zó',
-      'su' => 'zu',
-      'sú' => 'zú',
-    }.freeze
+    MAX_VARIANTS = 4_000
 
     def unaccented_variants(word)
       unaccented = word.tr('áéíóúüÁÉÍÓÚÜ', 'aeiouuAEIOUU')
