@@ -80,7 +80,7 @@ class Sentence
       token = tokens[index]
       # STDERR.puts "token_src: #{token} index:#{index}"
       # identifiers at the beginning of the sentence
-      if index == 0 and token =~ /^[0-9A-Za-z]+\)/ and first_chunk
+      if index == 0 and token =~ /^[0-9A-Za-z]{,4}\)/ and first_chunk
         tokens_new << token
         # if a number ends with dot or comma, we separate this dot in a new token.
         # it occurs in identifiers at the begining of the sentence

@@ -41,7 +41,7 @@ require_relative "../galician_palmed/enclitics/filter_tags"
 module Config
   class Tagger
     attr_reader :profile, :database, :seseo, :only_lexicon, :force_proper_nouns
-    attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system
+    attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system, :main_lexicon
     attr_reader :enclitics_rule_matching, :enclitics_filter_tags, :enclitics_validate_decomposition
 
     def self.from_env
@@ -61,13 +61,14 @@ module Config
       @database = database
       @only_lexicon = only_lexicon
       @dw = DatabaseWrapper.new(self) # Warning: circular dependency
+      @main_lexicon = ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt")
 
       proper_nouns_file = "training/lexicons/#{profile}/lexicon_propios.txt"
       ambiguous_proper_nouns_file = "training/lexicons/#{profile}/lexicon_titulos.txt"
       @proper_nouns_processor =
         if File.exist?(proper_nouns_file)
           ProperNouns.new(
-            ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt"),
+            @main_lexicon,
             ProperNouns.parse_literals_file(proper_nouns_file),
             File.exist?(ambiguous_proper_nouns_file) ? ProperNouns.parse_literals_file(ambiguous_proper_nouns_file) : [],
             CSV.read("training/lexicons/#{profile}/proper_nouns_links.txt", col_sep: "\t").map(&:first),

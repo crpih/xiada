@@ -65,7 +65,11 @@ class ProperNouns
       elsif other.range.cover?(range)
         other.tag_lemmas
       else
-        # TODO: first try intersection, in case of empty do union
+        # TODO: Union
+        # - keep only tags with gender and number
+        # - if empty, keep only gender
+        # - if still empty, keep only number
+        # - if still empty, keep all tags
         [ *tag_lemmas, *other.tag_lemmas ].map(&:first).uniq.sort.map { |t| [ t, merge_text ] }
       end
     end
@@ -226,14 +230,19 @@ class ProperNouns
   end
 
   def unambiguous_proper_noun_range(i, text)
+    # If all previous text before the candidate is punctuation and spaces, is a false positive
+    return if text[...i].match?(/\A[\p{P}\p{Z}]+\z/)
+    # If there is a letter before the candidate is a false positive (GZMúsica, position 1 "M")
+    return if text[i - 1].match?(/\p{L}/)
+
     starts_with_wrapper = WRAPPER_START_CHARS.include?(text[i - 1])
     # Unambiguous proper nouns are not preceded by punctuation (dot is special case) followed by a separator (space usually).
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
     previous_two_positions = i - 2 - (starts_with_wrapper ? 1 : 0)
-    return unless text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
+    return if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
 
     # If previous separator is dot + separator
-    if text[previous_two_positions..].match?(/\A\.\p{Z}/)
+    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
       previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
       # If dot is the previous punctuation, but no previous word to check, then position is ambiguous
       return unless previous_separator_position
