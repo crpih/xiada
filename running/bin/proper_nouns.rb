@@ -25,10 +25,10 @@ class ProperNouns
 
     def overlaps?(other) = range.overlaps?(other.range)
 
-    def merge(source_text, other)
+    def merge(proper_nouns_config, source_text, other)
       merged_range = [ range.begin, other.begin ].min...[ range.end, other.end ].max
       merge_text = source_text[merged_range]
-      Segment.new(merged_range, merge_text, merge_tag_lemmas(other, merge_text), lexicon? || other.lexicon?)
+      Segment.new(merged_range, merge_text, merge_tag_lemmas(proper_nouns_config, other, merge_text), lexicon? || other.lexicon?)
     end
 
     def to_literal = Literal.new(text, tag_lemmas, @lexicon)
@@ -59,19 +59,28 @@ class ProperNouns
       end
     end
 
-    def merge_tags_tie(other, merge_text)
+    def merge_tags_tie(proper_nouns_config, other, merge_text)
       if range.cover?(other.range)
         tag_lemmas
       elsif other.range.cover?(range)
         other.tag_lemmas
       else
-        # TODO: Union
-        # - keep only tags with gender and number
-        # - if empty, keep only gender
-        # - if still empty, keep only number
-        # - if still empty, keep all tags
-        [ *tag_lemmas, *other.tag_lemmas ].map(&:first).uniq.sort.map { |t| [ t, merge_text ] }
+        all_tags = [*tag_lemmas, *other.tag_lemmas].map(&:first).uniq
+        most_specific_tags(proper_nouns_config, all_tags).map { |t| [ t, merge_text ] }
       end
+    end
+
+    def most_specific_tags(proper_nouns_config, all_tags)
+      only_gender_and_number = all_tags.filter { |t| proper_nouns_config.tag_has_gender?(t) && proper_nouns_config.tag_has_number?(t) }
+      return only_gender_and_number unless only_gender_and_number.empty?
+
+      only_gender = all_tags.filter { |t| proper_nouns_config.tag_has_gender?(t) }
+      return only_gender unless only_gender.empty?
+
+      only_number = all_tags.filter { |t| proper_nouns_config.tag_has_number?(t) }
+      return only_number unless only_number.empty?
+
+      all_tags
     end
   end
 
@@ -88,6 +97,7 @@ class ProperNouns
   attr_reader :force_proper_nouns
 
   def initialize(
+    proper_nouns_config,
     main_lexicon,
     literal_proper_nouns,
     ambiguous_literal_proper_nouns,
@@ -96,6 +106,7 @@ class ProperNouns
     acronyms: Set.new,
     abbreviations: Set.new,
     force_proper_nouns: false)
+    @proper_nouns_config = proper_nouns_config
     @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
@@ -156,7 +167,7 @@ class ProperNouns
         current_segment.end == segment.begin ||
         text[current_segment.end...segment.begin].match?(@joiners_regex)
         # Merge overlapping, adjacent and ranges separated by a joiner
-        current_segment = current_segment.merge(text, segment)
+        current_segment = current_segment.merge(@proper_nouns_config, text, segment)
       else
         # No more ranges to merge, add current range to result and start a new one
         result << current_segment

@@ -6,6 +6,7 @@ require_relative "proper_nouns"
 # spanish_eslora profile
 require_relative "../spanish_eslora/lemmatizer"
 require_relative "../spanish_eslora/pruning_system"
+require_relative
 require_relative "../spanish_eslora/enclitics/rule_matching"
 require_relative "../spanish_eslora/enclitics/validate_decomposition"
 require_relative "../spanish_eslora/enclitics/filter_tags"
@@ -61,13 +62,16 @@ module Config
       @database = database
       @only_lexicon = only_lexicon
       @dw = DatabaseWrapper.new(self) # Warning: circular dependency
-      @main_lexicon = ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt")
+      @main_lexicon = ::ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt")
 
+      profile_module = profile.camelize
+      proper_nouns_config = "#{profile_module}::ProperNouns".constantize
       proper_nouns_file = "training/lexicons/#{profile}/lexicon_propios.txt"
       ambiguous_proper_nouns_file = "training/lexicons/#{profile}/lexicon_titulos.txt"
       @proper_nouns_processor =
         if File.exist?(proper_nouns_file)
-          ProperNouns.new(
+          ::ProperNouns.new(
+            proper_nouns_config,
             @main_lexicon,
             ProperNouns.parse_literals_file(proper_nouns_file),
             File.exist?(ambiguous_proper_nouns_file) ? ProperNouns.parse_literals_file(ambiguous_proper_nouns_file) : [],
@@ -81,7 +85,6 @@ module Config
           nil
         end
 
-      profile_module = profile.camelize
       @lemmatizer = "#{profile_module}::Lemmatizer".constantize.new(self)
       @pruning_system = "#{profile_module}::PruningSystem".constantize.new
       @enclitics_rule_matching = "#{profile_module}::Enclitics::RuleMatching".constantize.new
@@ -102,5 +105,17 @@ module Config
       @seseo = seseo
       @gheada = gheada
     end
+  end
+
+  class ProperNouns
+    def initialize(tag_has_gender:, tag_has_number:, generic_proper_noun_tag:)
+      @tag_has_gender = tag_has_gender
+      @tag_has_number = tag_has_number
+      @generic_proper_noun_tag = generic_proper_noun_tag
+    end
+
+    def tag_has_gender?(tag) = @tag_has_gender.(tag)
+    def tag_has_number?(tag) = @tag_has_number.(tag)
+    def generic_proper_noun_tag = @generic_proper_noun_tag
   end
 end
