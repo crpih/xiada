@@ -45,7 +45,7 @@ class Tag
     # for one tag). This is related with alternativas and prunning
     # rules (see cara a pruning rules as examples).
 
-    delta_object = Delta.new(delta_value, prev_delta, length, self, prev_tag_value)
+    delta_object = Delta.new(delta_value, prev_delta, length, self)
     #puts "add_or_replace_delta delta_object prev_tag_value:#{prev_tag_value} value:#{delta_object.value}, normalized:#{delta_object.normalized_value} length:#{delta_object.length}"
     @deltas[prev_tag_value] = delta_object
 

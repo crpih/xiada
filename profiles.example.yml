@@ -2,14 +2,19 @@
   database: galician_xiada_escrita
   only_lexicon: false
   force_proper_nouns: false
+  keep_uppercase_tokens_for: "^(?:Z|Sp)"
+
 - profile: galician_xiada_oral
   database: galician_xiada_oral
   only_lexicon: false
   force_proper_nouns: true
+  keep_uppercase_tokens_for: "^(?:Z|Sp)"
+
 - profile: spanish_eslora
   database: spanish_eslora
   only_lexicon: false
   force_proper_nouns: true
+
 - profile: galician_eslora
   database: galician_eslora
   only_lexicon: true
