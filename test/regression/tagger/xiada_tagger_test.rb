@@ -27,20 +27,24 @@ def test_snapshots(tagger_config, document_config, cases_filename)
 end
 
 describe 'XiadaTagger' do
+  profiles = YAML.load_file("#{__dir__}/../../../profiles.yml", symbolize_names: true)
+  galician_xiada_params = profiles.find { it[:profile] == "galician_xiada" }
+  spanish_eslora_params = profiles.find { it[:profile] == "spanish_eslora" }
+
   describe 'galician_xiada reference' do
-    tagger_config = Config::Tagger.new(profile: "galician_xiada", database: "galician_xiada_escrita")
+    tagger_config = Config::Tagger.new(**galician_xiada_params)
     document_config = Config::Document.new(seseo: true, gheada: true)
     test_snapshots(tagger_config, document_config, 'galician_xiada_escrita')
   end
 
   describe 'galician_xiada regressions manually selected' do
-    tagger_config = Config::Tagger.new(profile: "galician_xiada", database: "galician_xiada_escrita")
+    tagger_config = Config::Tagger.new(**galician_xiada_params)
     document_config = Config::Document.new(seseo: true, gheada: true)
     test_snapshots(tagger_config, document_config, 'galician_xiada_escrita_manual_cases')
   end
 
   describe 'spanish_eslora' do
-    tagger_config = Config::Tagger.new(profile: "spanish_eslora", database: "spanish_eslora")
+    tagger_config = Config::Tagger.new(**spanish_eslora_params)
     document_config = Config::Document.new(seseo: false, gheada: false)
     test_snapshots(tagger_config, document_config, 'spanish_eslora')
   end

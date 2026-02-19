@@ -7,10 +7,10 @@ require_relative "xiada_tagger"
 
 # Preload all taggers
 TAGGERS = YAML.load_file("#{__dir__}/../../profiles.yml", symbolize_names: true).map do |params|
-  params => { profile:, database:, only_lexicon:, force_proper_nouns: }
+  params => { profile:, database:, only_lexicon:, force_proper_nouns:, keep_uppercase_tokens_for: }
   tagger = nil
   elapsed = Benchmark.measure do
-    tagger_config = Config::Tagger.new(profile:, database:, only_lexicon:, force_proper_nouns:)
+    tagger_config = Config::Tagger.new(profile:, database:, only_lexicon:, force_proper_nouns:, keep_uppercase_tokens_for:)
     tagger = XiadaTagger.new(tagger_config)
     tagger_config.dw.close_database # Close the database before forking
   end

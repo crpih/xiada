@@ -57,7 +57,8 @@ class Viterbi
         hiperlemma = tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]
       end
 
-      { token: tag.token.text, tag: tag.value, lemma:, hiperlemma:, start: tag.token.from, finish: tag.token.to }
+      token_text = lower_token(tag.token.text, tag.value)
+      { token: token_text, tag: tag.value, lemma:, hiperlemma:, start: tag.token.from, finish: tag.token.to }
     end
   end
 
@@ -118,7 +119,17 @@ class Viterbi
       tag_lemmas << { tag: tag.value, selected: tag.selected?, lemma:, hiperlemma: }
     end
 
-    { token: token.text, tag_lemmas: tag_lemmas.uniq, start: token.from, finish: token.to }
+
+    token_text = lower_token(token.text, tag_lemmas.first[:tag])
+    { token: token_text, tag_lemmas: tag_lemmas.uniq, start: token.from, finish: token.to }
+  end
+
+  def lower_token(token_text, tag_value)
+    if tag_value.match?(@tagger_config.keep_uppercase_tokens_for)
+      token_text
+    else
+      StringUtils.first_to_lower(token_text)
+    end
   end
 
   def reset_viterbi(sentence)

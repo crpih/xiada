@@ -40,7 +40,7 @@ require_relative "../galician_palmed/enclitics/filter_tags"
 
 module Config
   class Tagger
-    attr_reader :profile, :database, :seseo, :only_lexicon, :force_proper_nouns
+    attr_reader :profile, :database, :seseo, :only_lexicon, :force_proper_nouns, :keep_uppercase_tokens_for
     attr_reader :proper_nouns_processor, :dw, :lemmatizer, :pruning_system, :main_lexicon
     attr_reader :enclitics_rule_matching, :enclitics_filter_tags, :enclitics_validate_decomposition
 
@@ -55,11 +55,13 @@ module Config
       profile:,
       database:,
       only_lexicon: false,
-      force_proper_nouns: false
+      force_proper_nouns: false,
+      keep_uppercase_tokens_for: //
     )
       @profile = profile
       @database = database
       @only_lexicon = only_lexicon
+      @keep_uppercase_tokens_for = Regexp.new(keep_uppercase_tokens_for)
       @dw = DatabaseWrapper.new(self) # Warning: circular dependency
       @main_lexicon = ProperNouns.parse_main_lexicon("training/lexicons/#{profile}/lexicon_principal.txt")
 

@@ -93,12 +93,14 @@ class ProperNouns
     ambiguous_literal_proper_nouns,
     joiners,
     tags,
+    trained_proper_nouns: [],
     acronyms: Set.new,
     abbreviations: Set.new,
     force_proper_nouns: false)
     @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
+    @trained_proper_nouns = trained_proper_nouns
     @joiners = joiners
     @joiners_regex = /\A\p{Z}\z|\A\p{Pd}\z|\A\p{Z}?(?:#{joiners.map { |joiner| Regexp.escape(joiner) }.join('|')})\p{Z}?\z/
     @tags = tags
@@ -108,29 +110,32 @@ class ProperNouns
     @force_proper_nouns = force_proper_nouns
   end
 
+  # Create a new ProperNouns instance with the trained proper nouns from the given texts.
+  # The trained proper nouns are the standard proper nouns detected in the texts that are not ambiguous.
   def with_trained(texts)
-    trained_proper_nouns = texts.flat_map { |t| call(t, training: true).filter { |segment| segment.is_a?(Literal) } }
-    literal_proper_nouns = [ *@literal_proper_nouns, *trained_proper_nouns ].uniq
+    trained_proper_nouns = texts.flat_map { |t| standard_proper_nouns(t).map(&:to_literal) }.uniq
     self.class.new(
       @main_lexicon,
-      literal_proper_nouns,
+      @literal_proper_nouns,
       @ambiguous_literal_proper_nouns,
       @joiners,
       @tags,
+      trained_proper_nouns:,
       acronyms: @acronyms,
       abbreviations: @abbreviations,
       force_proper_nouns: @force_proper_nouns
     )
   end
 
-  def call(text, training: false)
+  def call(text)
     literal_segments = literal_proper_nouns(text, @literal_proper_nouns)
     ambiguous_segments = ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns)
     standard_segments = standard_proper_nouns(text)
-    candidate_segments = [ *literal_segments, *ambiguous_segments, *standard_segments ]
+    trained_segments = trained_proper_nouns(text)
+    candidate_segments = [ *literal_segments, *ambiguous_segments, *standard_segments, *trained_segments ]
     noun_ranges = join_proper_nouns(text, candidate_segments)
     result = split_text_by_proper_nouns(text, noun_ranges)
-    add_main_lexicon_tags_to_first_proper_noun!(result) unless training
+    add_main_lexicon_tags_to_first_proper_noun!(result)
     result
   end
 
@@ -140,7 +145,7 @@ class ProperNouns
     current_segment, *rest = segments.sort_by { |r| [ r.begin, r.size ] }
     return [] if current_segment.nil?
 
-    # Expand first segment if it is the second word and the first word starts with uppercase
+    # Expand the first segment if it is the second word and the first word starts with uppercase
     proper_noun_is_second_word = current_segment.begin > 0 && !text[...current_segment.begin - 1].include?(" ")
     text_begins_with_upper = text.match?(/\A\p{Upper}/)
     text_beginning_is_unknown_word = !@main_lexicon.include?(text[0...current_segment.begin].downcase.strip)
@@ -202,6 +207,19 @@ class ProperNouns
     end
   end
 
+  # Trained proper nouns can only be detected at the beginning of the text even if they are preceded by a wrapper char.
+  def trained_proper_nouns(text)
+    result = []
+    start_position = WRAPPER_START_CHARS.any? { text.start_with?(it) } ? 1 : 0
+    @trained_proper_nouns.each do |trained|
+      next unless text[start_position..].start_with?(trained.text)
+
+      range = start_position...(start_position + trained.text.size)
+      result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
+    end
+    result
+  end
+
   def literals_in_text(text, literals)
     result = []
     literals.each do |literal|
@@ -254,6 +272,11 @@ class ProperNouns
 
     match = match_proper_noun(text[i..])
     return unless match
+
+    # If:
+    # - the match text is after a wrapper char or is at the beginning of the text
+    # - and lowercase match is in the main lexicon, is a false positive (e.g. "Non")
+    return if (starts_with_wrapper || i.zero?) && @main_lexicon.include?(match.downcase.strip)
 
     i...(i + match.size)
   end
