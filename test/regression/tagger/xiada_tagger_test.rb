@@ -27,7 +27,7 @@ def test_snapshots(tagger_config, document_config, cases_filename)
 end
 
 describe 'XiadaTagger' do
-  profiles = YAML.load_file("#{__dir__}/../../../profiles.yml", symbolize_names: true)
+  profiles = YAML.load_file("#{__dir__}/../../../profiles.example.yml", symbolize_names: true)
   galician_xiada_params = profiles.find { it[:profile] == "galician_xiada" }
   spanish_eslora_params = profiles.find { it[:profile] == "spanish_eslora" }
 

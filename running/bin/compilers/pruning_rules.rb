@@ -48,7 +48,7 @@ module Compilers
         exit 1
       end
       output.print "\n"
-      # puts "STDERR.puts \"rejected by RULE #{line}\"" # Important line for debugging
+      output.puts "STDERR.puts \"rejected by RULE #{line}\"" # Important line for debugging
       output.puts "return #{index_breaking_point}"
       output.puts "end"
     end

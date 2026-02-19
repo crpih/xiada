@@ -586,7 +586,7 @@ class Viterbi
           #   end
           # end
 
-          # STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
+          STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
           @without_suffixes_words[problematic_element[0].token.text] = true
           return nil
         end
