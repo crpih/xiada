@@ -117,7 +117,6 @@ class EncliticsProcessor
   # tokens linked to de verb_part(s) one(s)
   def enclitics_processing(sentence, verb_part, relevant_verb_part_tokens, enclitic_part, begin_alternative_token, end_alternative_token, from, to, token)
     #STDERR.puts "enclitics_processing verb_part: #{verb_part}, enclitic_part: #{enclitic_part}"
-    end_alternative_token.reset_prevs
     relevant_verb_part_tokens.each do |relevant_verb_part_token|
       begin_alternative_token.add_next(relevant_verb_part_token)
       relevant_verb_part_token.add_prev(begin_alternative_token)
@@ -150,7 +149,7 @@ class EncliticsProcessor
           lemma = info[1]
           hiperlemma = info[2]
           log_b = Float(info[3])
-          #puts "adding tag:#{tag_value}"
+          # STDERR.puts "adding tag:#{tag_value}"
           new_token.add_tag_lemma_emission(tag_value, lemma, hiperlemma, log_b, false)
         end
         prev_token.reset_nexts
@@ -296,7 +295,7 @@ class EncliticsProcessor
     if begin_alternative_token.nexts.size == 1 and !preserve_source_token
       insert_enclitic_alternatives_basic(token, inside_alternative, begin_alternative_token, end_alternative_token)
     elsif inside_alternative
-      #puts "inside_alternative"
+      # STDERR.puts "inside_alternative"
       start_point_token = token
       before_start_point = token
       while start_point_token.token_type != :begin_alternative
@@ -317,9 +316,9 @@ class EncliticsProcessor
         start_point_token.remove_next(before_start_point)
         finish_point_token.remove_prev(before_finish_point)
       end
-      #puts "adding all ways"
+      # STDERR.puts "adding all ways"
       add_all_ways(begin_alternative_token, start_point_token, finish_point_token)
-      #puts "end adding all ways"
+      # STDERR.puts "end adding all ways"
       begin_alternative_token.reset_nexts
       end_alternative_token.reset_prevs
     else

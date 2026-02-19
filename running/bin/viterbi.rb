@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require 'dbg-rb'
 require_relative "../../lib/string_utils.rb"
 
 class Viterbi
@@ -17,11 +18,12 @@ class Viterbi
     @sentence = sentence
     @tags = nil
     while @tags == nil
+      sentence.print(STDERR)
       initialize_step(sentence)
-      # sentence.print(STDERR)
+      sentence.print(STDERR)
       recurrence_step(sentence)
       last_delta = finalize_step(sentence)
-      # sentence.print(STDERR)
+      sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
@@ -192,7 +194,7 @@ class Viterbi
           #STDERR.puts "entra"
           results = @tagger_config.dw.get_tags_lemmas_emissions(@document_config, token.text, token.tags.keys)
         else
-          #STDERR.puts "WARNING: token #{token.text} is getting open tags"
+          STDERR.puts "WARNING: token #{token.text} is getting open tags"
           results = @tagger_config.dw.get_open_tags_lemmas_emissions(token.text)
         end
         results.each do |result|
@@ -295,7 +297,7 @@ class Viterbi
                   #puts "probability:#{@tagger_config.dw.get_trigram_probability(prev_prev_tag.value,prev_tag.value,tag.value)}"
                   #puts "deltas_aux[#{length}]=#{deltas_aux[length]} prev_delta:#{prev_delta.value}"
                   if (deltas[prev_tag.value + prev_token.token_id.to_s()] == nil) or (normalized_current_delta > deltas[prev_tag.value + prev_token.token_id.to_s()].normalized_value)
-                    deltas[prev_tag.value + prev_token.token_id.to_s()] = Delta.new(current_delta, prev_delta, length + 1, tag)
+                    deltas[prev_tag.value + prev_token.token_id.to_s()] = Delta.new(current_delta, prev_delta, length + 1, tag, prev_tag.value)
                     #puts "delta max-[#{length+1}]:#{deltas[length+1].value}, tag:#{tag.value}, prev_delta:#{deltas[length+1].prev_delta.value}, prev_tag:#{deltas[length+1].prev_delta.tag.value}"
                   end
                   #else
@@ -440,7 +442,7 @@ class Viterbi
                                                         tag.value)
             normalized_current_delta = current_delta / (length + 1)
             if (deltas[prev_tag] == nil) or (normalized_current_delta > deltas[prev_tag].normalized_value)
-              deltas[prev_tag] = Delta.new(current_delta, prev_delta, length + 1, tag)
+              deltas[prev_tag] = Delta.new(current_delta, prev_delta, length + 1, tag, prev_tag.value)
             end
           end
         end
@@ -467,7 +469,7 @@ class Viterbi
 
   def print_full_window(window)
     window.each do |element|
-      STDERR.print "#{element[0].token.text}/#{element[0].value}\t"
+      STDERR.print "#{element[0].token.text}/#{element[0].value}/#{element[1]}\t"
     end
     STDERR.puts ""
   end
@@ -517,10 +519,11 @@ class Viterbi
     full_window << element # We store current tag and source delta index
 
     while current_delta != nil
-      # STDERR.puts "current_delta_tag: #{current_delta.tag.value}"
+      STDERR.puts "current_delta_tag: #{current_delta.tag.value}"
       tags_window = update_window(full_window)
       window = convert_window_to_prunning_format(tags_window)
-      #print_window(window)
+      print_full_window(full_window)
+      print_window(window)
       if pruning_rules_enabled
         returning_index = @tagger_config.pruning_system.process(window)
       else
@@ -541,35 +544,35 @@ class Viterbi
       else
         # A rule rejected this way. We must choose another way from
         # the point of error.
-        # STDERR.puts "FULL WINDOW BEFORE RECTIFICATION"
-        # print_full_window(full_window)
+        STDERR.puts "FULL WINDOW BEFORE RECTIFICATION"
+        print_full_window(full_window)
 
-        (2..returning_index).each do |index|
-          # STDERR.puts "index"
-          full_window.pop
-        end
         # Invert index since full_window is in reverse order
-        # Subtract 1 since returned index is 1-based and 0 used for success code
-        problematic_element = full_window[-(returning_index - 1)]
+        problematic_element = full_window[-returning_index]
+        STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
 
-        # STDERR.puts "FULL WINDOW AFTER RECTIFICATION"
-        # print_full_window(full_window)
+        returning_index.times { full_window.pop }
+
+
+        STDERR.puts "FULL WINDOW AFTER RECTIFICATION"
+        print_full_window(full_window)
         #tags_window = update_window(full_window)
         #window = convert_window_to_prunning_format(tags_window)
         #puts "ordered_deltas_size: #{full_window[full_window.size-2][0].ordered_deltas.size}"
         #puts "index:#{full_window[full_window.size-1][1]+1}"
-        prev_ordered_deltas = full_window[full_window.size - 2][0].ordered_deltas
-        prev_ordered_deltas_new_index = full_window[full_window.size - 1][1] + 1
-        if (prev_ordered_deltas[prev_ordered_deltas_new_index] != nil)
+
+        # From most probable delta in the last element of full_window (ordered_deltas.first)
+        # we get the assigned tag to try in order (index increased in each iteration) their ordered_deltas.
+        
+        last_tag = full_window.last[0]
+        # For each ordered delta, we return to the last element of the window and access its deltas using the prev_tag_value.
+        prev_deltas_to_try = last_tag.ordered_deltas.map { last_tag.deltas[it.prev_tag_value] }
+        full_window.last[1] += 1 # Increase index to try next delta
+
+        # Check if there is another delta to try
+        if prev_deltas_to_try[full_window.last[1]] != nil
           # STDERR.puts "There is another delta"
-          new_delta_for_problematic_tag = full_window[full_window.size - 2][0].ordered_deltas[full_window[full_window.size - 1][1] + 1].prev_delta
-          element = Array.new
-          element << new_delta_for_problematic_tag.tag
-          element << full_window[full_window.size - 1][1] + 1
-          #STDERR.puts "New element from delta"
-          full_window[full_window.size - 1] = element
-          #tags_window = update_window(full_window)
-          current_delta = new_delta_for_problematic_tag
+          current_delta = prev_deltas_to_try[full_window.last[1]]
           current_tag = current_delta.tag
         else
           # There is no valid way
@@ -586,7 +589,7 @@ class Viterbi
           #   end
           # end
 
-          # STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
+          STDERR.puts "BLOCKED TOKEN: #{problematic_element[0].token.text}"
           @without_suffixes_words[problematic_element[0].token.text] = true
           return nil
         end
