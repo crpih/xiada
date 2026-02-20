@@ -208,12 +208,12 @@ class ProperNouns
     end
   end
 
-  # Trained proper nouns can only be detected at the beginning of the text even if they are preceded by a wrapper char.
   def trained_proper_nouns(text)
     result = []
     @trained_proper_nouns.each do |trained|
       each_substring_index(text, trained.text) do |start_index|
         next if start_index.nil?
+        return if ambiguous_position?(text, start_index) && @main_lexicon.include?(text.downcase.strip)
 
         range = start_index...(start_index + trained.text.size)
         result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
@@ -254,23 +254,7 @@ class ProperNouns
     return if text[...i].match?(/\A[\p{P}\p{Z}]+\z/)
     # If there is a letter before the candidate is a false positive (GZMúsica, position 1 "M")
     return if text[i - 1].match?(/\p{L}/)
-
-    starts_with_wrapper = WRAPPER_START_CHARS.include?(text[i - 1])
-    # Unambiguous proper nouns are not preceded by punctuation (dot is special case) followed by a separator (space usually).
-    # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
-    previous_two_positions = i - 2 - (starts_with_wrapper ? 1 : 0)
-    return if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
-
-    # If previous separator is dot + separator
-    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
-      previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
-      # If dot is the previous punctuation, but no previous word to check, then position is ambiguous
-      return unless previous_separator_position
-
-      # If the previous word is an acronym or abbreviation the position is not ambiguous we can continue with regex detection.
-      previous_word = text[(previous_separator_position + 1)..previous_two_positions]
-      return if !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
-    end
+    return if ambiguous_position?(text, i)
 
     match = match_proper_noun(text[i..])
     return unless match
@@ -278,19 +262,9 @@ class ProperNouns
     # If:
     # - the match text is after a wrapper char or is at the beginning of the text
     # - and lowercase match is in the main lexicon, is a false positive (e.g. "Non")
-    return if (starts_with_wrapper || i.zero?) && @main_lexicon.include?(match.downcase.strip)
+    return if (starts_with_wrapper?(text, i) || i.zero?) && @main_lexicon.include?(match.downcase.strip)
 
     i...(i + match.size)
-  end
-
-  def wrapped_proper_noun_range(i, text, start_char, end_char, include_wrappers)
-    return if i == 1 || text[i - 1] != start_char
-
-    match_data = match_proper_noun(text[i..])
-    return unless match_data && match_data[1].size > 1 && text[i + match_data[1].size] == end_char
-
-    offset = include_wrappers ? 1 : 0
-    (i - offset)...(i + match_data[1].size + offset)
   end
 
   def match_proper_noun(text)
@@ -329,5 +303,27 @@ class ProperNouns
   def each_substring_index(string, substring)
     pos = -1
     yield pos while (pos = string.index(substring, pos + 1))
+  end
+
+  def starts_with_wrapper?(text, i) = i > 0 && WRAPPER_START_CHARS.include?(text[i - 1])
+
+  def ambiguous_position?(text, i)
+    # Unambiguous proper nouns are not preceded by punctuation (dot is special case) followed by a separator (space usually).
+    # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
+    previous_two_positions = i - 2 - (starts_with_wrapper?(text, i) ? 1 : 0)
+    return true if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
+
+    # If previous separator is dot + separator
+    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
+      previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
+      # If dot is the previous punctuation, but no previous word to check, then position is ambiguous
+      return true unless previous_separator_position
+
+      # If the previous word is an acronym or abbreviation the position is not ambiguous we can continue with regex detection.
+      previous_word = text[(previous_separator_position + 1)..previous_two_positions]
+      return true if !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
+    end
+
+    false
   end
 end
