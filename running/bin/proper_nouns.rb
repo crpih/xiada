@@ -111,9 +111,10 @@ class ProperNouns
   end
 
   # Create a new ProperNouns instance with the trained proper nouns from the given texts.
-  # The trained proper nouns are the standard proper nouns detected in the texts that are not ambiguous.
+  # The trained proper nouns are the standard proper nouns detected in the texts that are not ambiguous and not in lexicon.
   def with_trained(texts)
-    trained_proper_nouns = texts.flat_map { |t| standard_proper_nouns(t).map(&:to_literal) }.uniq
+    trained_proper_nouns = texts.flat_map { |t| standard_proper_nouns(t).map(&:to_literal) }
+                                .uniq.reject { @main_lexicon.include?(it.text) }
     self.class.new(
       @main_lexicon,
       @literal_proper_nouns,
@@ -210,12 +211,13 @@ class ProperNouns
   # Trained proper nouns can only be detected at the beginning of the text even if they are preceded by a wrapper char.
   def trained_proper_nouns(text)
     result = []
-    start_position = WRAPPER_START_CHARS.any? { text.start_with?(it) } ? 1 : 0
     @trained_proper_nouns.each do |trained|
-      next unless text[start_position..].start_with?(trained.text)
+      each_substring_index(text, trained.text) do |start_index|
+        next if start_index.nil?
 
-      range = start_position...(start_position + trained.text.size)
-      result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
+        range = start_index...(start_index + trained.text.size)
+        result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
+      end
     end
     result
   end
