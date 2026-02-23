@@ -137,6 +137,9 @@ a o rente	Wn	a o rente	a rentes	n
 a o revés	Wn	a o revés	a o revés	s
 a o rivés	Wn	a o rivés	a o revés	n
 a o tacho	Wn	a o tacho	a o tacho	n
+a través	Wn	a través	a través	s
+de través	Wn	de través	de través	s
+de través de	P	de través de	de través de	s
 a o través	Wn	a o través	a o través	s
 a os boleiróns	Wn	a os boleiróns	a os boleiróns	s
 a os emborcallóns	Wn	a os emborcallóns	a os envorcallóns	n

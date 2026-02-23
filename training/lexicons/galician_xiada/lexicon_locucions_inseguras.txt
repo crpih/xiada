@@ -132,7 +132,6 @@ a son	Wn	a son	a son	s
 a tal hora	Wn	a tal hora	a tal hora	s
 a tempo	Wn	a tempo	a tempo	s
 a toda costa	Wn	a toda costa	a toda costa	n
-a través	Wn	a través	a través	s
 a un tempo	Wn	a un tempo	a un tempo	s
 acto seguido	Wn	acto seguido	acto seguido	s
 agora ben	Cs	agora ben	agora ben	s
@@ -264,8 +263,6 @@ de segundas	Wn	de segundas	de segundas	s
 de seguro	Wn	de seguro	de seguro	s
 de tempo en tempo	Wn	de tempo en tempo	de tempo en tempo	s
 de todo	Wn	de todo	de todo	s
-de través	Wn	de través	de través	s
-de través de	P	de través de	de través de	s
 de unha tirada	Wn	de unha tirada	de unha tirada	s
 de vagar	Wn	de vagar	devagar	n
 de verdade	Wn	de verdade	de verdade	s
