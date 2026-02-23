@@ -114,7 +114,7 @@ class ProperNouns
   # The trained proper nouns are the standard proper nouns detected in the texts that are not ambiguous and not in lexicon.
   def with_trained(texts)
     trained_proper_nouns = texts.flat_map { |t| standard_proper_nouns(t).map(&:to_literal) }
-                                .uniq.reject { @main_lexicon.include?(it.text) }
+                                .uniq.reject { @main_lexicon.include?(it.text.downcase) }
     self.class.new(
       @main_lexicon,
       @literal_proper_nouns,
@@ -213,7 +213,6 @@ class ProperNouns
     @trained_proper_nouns.each do |trained|
       each_substring_index(text, trained.text) do |start_index|
         next if start_index.nil?
-        return if ambiguous_position?(text, start_index) && @main_lexicon.include?(text.downcase.strip)
 
         range = start_index...(start_index + trained.text.size)
         result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
