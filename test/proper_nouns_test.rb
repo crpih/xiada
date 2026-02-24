@@ -286,6 +286,41 @@ describe 'ProperNounsTest' do
         ]
         assert_equal expected, result, "Failed to detect abbreviated proper noun after a proper noun: #{text}"
       end
+
+      it 'should NOT detect proper noun when preceded only by date and separators' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        # Casos donde SOLO hay fecha + separadores (sin texto real)
+        [
+          '1977: Un',           # Año con dos puntos
+          '(1345- Cando',       # Año en paréntesis con guion
+          '(1977) Un',          # Año entre paréntesis
+          '12345 Un',           # 5 dígitos (cantidad)
+        ].each do |text|
+          result = proper_nouns.call(text)
+          proper_noun_literals = result.select { |r| r.is_a?(ProperNouns::Literal) }
+          assert_empty proper_noun_literals,
+            "Should NOT detect proper noun in: #{text.inspect}"
+        end
+      end
+
+      it 'should detect proper noun when preceded by text before date' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        # Casos donde hay texto real antes del año
+        {
+          'No ano 1977: Un día' => 'Un',
+          'En 2024: Ana naceu' => 'Ana',
+        }.each do |text, expected_noun|
+          result = proper_nouns.call(text)
+          proper_noun_literals = result.select { |r| r.is_a?(ProperNouns::Literal) }
+
+          refute_empty proper_noun_literals,
+            "Should detect '#{expected_noun}' in: #{text.inspect}"
+          assert_equal expected_noun, proper_noun_literals.first.text,
+            "Expected '#{expected_noun}' but got '#{proper_noun_literals.first&.text}'"
+        end
+      end
     end
 
     describe 'trained proper nouns' do
@@ -311,6 +346,328 @@ describe 'ProperNounsTest' do
         result = trained_proper_nouns.call('pero el-Rei cumprira.')
         expected = ['pero el-Rei cumprira.']
         assert_equal expected, result
+      end
+
+      # GROUP A: Detection in multiple positions, wrapper chars, multiple occurrences
+      describe 'trained detection in multiple positions' do
+        it 'should detect trained proper nouns in the middle of a sentence' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          result = trained_proper_nouns.call('Falei con Ana onte.')
+          expected = [
+            'Falei con ',
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            ' onte.'
+          ]
+          assert_equal expected, result
+        end
+
+        it 'should detect trained proper nouns at the end of a sentence' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          result = trained_proper_nouns.call('Ola, Ana.')
+          expected = [
+            'Ola, ',
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            '.'
+          ]
+          assert_equal expected, result
+        end
+
+        it 'should detect trained proper nouns after wrapper characters' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Xiana.'])
+
+          %w[" ' (].each do |wrapper|
+            text = "Dixo #{wrapper}Xiana é un nome."
+            result = trained_proper_nouns.call(text)
+            expected = [
+              "Dixo #{wrapper}",
+              ProperNouns::Literal.new('Xiana', tags.map { |tag| [tag, 'Xiana'] }.sort, false),
+              ' é un nome.'
+            ]
+            assert_equal expected, result, "Failed to detect trained proper noun after wrapper: #{wrapper}"
+          end
+        end
+
+        it 'should detect multiple occurrences of the same trained proper noun' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          result = trained_proper_nouns.call('Ana chamou a Ana.')
+          expected = [
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            ' chamou a ',
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            '.'
+          ]
+          assert_equal expected, result
+        end
+      end
+
+      # GROUP B: Training filters (lexicon exclusions, ambiguous positions)
+      describe 'training filters' do
+        it 'should not train proper nouns that exist in main lexicon (case-insensitive)' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          # "non" exists in lexicon as lowercase, so "Non" should not be trained
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Non é un nome.'])
+
+          # Should not detect "Non" as trained proper noun
+          result = trained_proper_nouns.call('Non é un nome.')
+          expected = ['Non é un nome.']
+          assert_equal expected, result
+        end
+
+        it 'should not train proper nouns from ambiguous positions (sentence start)' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          # "Pedro" at sentence start is ambiguous, should not be trained
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Pedro é un nome.'])
+
+          # Should not detect "Pedro" as trained from ambiguous position
+          # Disable standard detection to avoid regex matching "Pedro"
+          result = trained_proper_nouns.call('Falei con Pedro.', standard: false)
+          expected = ['Falei con Pedro.']
+          assert_equal expected, result
+        end
+
+        it 'should not train proper nouns after wrapper characters at text start' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          # "Luis" after wrapper at text start is ambiguous
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['"Luis é un nome.'])
+
+          # Should not detect "Luis" as trained from ambiguous position
+          # Disable standard detection to avoid regex matching "Luis"
+          result = trained_proper_nouns.call('Falei con Luis.', standard: false)
+          expected = ['Falei con Luis.']
+          assert_equal expected, result
+        end
+      end
+
+      # GROUP C: New marker rules (chapter/list markers, punctuation-only, road names)
+      # The purpose of training is to detect proper nouns in ambiguous positions
+      describe 'trained proper nouns in ambiguous positions' do
+        it 'should detect trained proper nouns after chapter markers' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # Chapter markers like "1. ", "a) ", etc. are ambiguous positions
+          # But trained proper nouns SHOULD be detected there
+          result = trained_proper_nouns.call('1. Ana é un capítulo.')
+          expected = [
+            '1. ',
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            ' é un capítulo.'
+          ]
+          assert_equal expected, result
+        end
+
+        it 'should detect trained proper nouns after list markers' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Xiana.'])
+
+          # List markers like "- ", "* ", "• " are ambiguous positions
+          # But trained proper nouns SHOULD be detected there
+          result = trained_proper_nouns.call('- Xiana é unha lista.')
+          expected = [
+            '- ',
+            ProperNouns::Literal.new('Xiana', tags.map { |tag| [tag, 'Xiana'] }.sort, false),
+            ' é unha lista.'
+          ]
+          assert_equal expected, result
+        end
+
+        it 'should detect trained proper nouns after punctuation-only text' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # Punctuation-only preceding text is an ambiguous position
+          # But trained proper nouns SHOULD be detected there
+          result = trained_proper_nouns.call('...Ana é un nome.')
+          expected = [
+            '...',
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            ' é un nome.'
+          ]
+          assert_equal expected, result
+        end
+
+        it 'should detect trained road names with uppercase and hyphen' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Vou pola AP-9.'])
+
+          result = trained_proper_nouns.call('A AP-9 está cortada.')
+          # Road names are detected as standard proper nouns (by regex)
+          expected = [
+            'A ',
+            ProperNouns::Literal.new('AP-9', tags.map { |tag| [tag, 'AP-9'] }.sort, false),
+            ' está cortada.'
+          ]
+          assert_equal expected, result
+        end
+      end
+
+      # GROUP D: Boundary validation (substring/hyphen adjacency)
+      # Use lowercase words to avoid standard proper noun detection by regex
+      describe 'trained proper noun boundary validation' do
+        it 'should NOT detect trained proper nouns as substring in larger words (suffix)' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # "Ana" should not match inside "anabel" (lowercase to avoid regex detection)
+          result = trained_proper_nouns.call('Falei con anabel.')
+          expected = ['Falei con anabel.']
+          assert_equal expected, result, "Incorrectly detected 'Ana' inside 'anabel'"
+        end
+
+        it 'should NOT detect trained proper nouns as substring in larger words (prefix)' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Sol.'])
+
+          # "Sol" should not match inside "soledad" (lowercase to avoid regex detection)
+          result = trained_proper_nouns.call('Falei con soledad.')
+          expected = ['Falei con soledad.']
+          assert_equal expected, result, "Incorrectly detected 'Sol' inside 'soledad'"
+        end
+
+        it 'should NOT detect trained proper nouns adjacent to hyphen (composite words)' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # "Ana" should not match in "casa-Ana" (hyphen-separated)
+          result = trained_proper_nouns.call('Falei da casa-Ana.')
+          expected = ['Falei da casa-Ana.']
+          assert_equal expected, result, "Incorrectly detected 'Ana' adjacent to hyphen in 'casa-Ana'"
+        end
+
+        it 'should NOT detect trained proper nouns with letter immediately before' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Hermenegildo.'])
+
+          # "Hermenegildo" should not match in "xhermenegildo" (lowercase)
+          result = trained_proper_nouns.call('Falei con xhermenegildo.')
+          expected = ['Falei con xhermenegildo.']
+          assert_equal expected, result, "Incorrectly detected 'Hermenegildo' with letter immediately before"
+        end
+
+        it 'should NOT detect trained proper nouns with letter immediately after' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # "Ana" should not match in "anax" (lowercase)
+          result = trained_proper_nouns.call('Falei con anax.')
+          expected = ['Falei con anax.']
+          assert_equal expected, result, "Incorrectly detected 'Ana' with letter immediately after"
+        end
+
+        it 'should NOT detect trained proper nouns with digit immediately before' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # "Ana" should not match in "3ana" (lowercase)
+          result = trained_proper_nouns.call('Falei con 3ana.')
+          expected = ['Falei con 3ana.']
+          assert_equal expected, result, "Incorrectly detected 'Ana' with digit immediately before"
+        end
+
+        it 'should NOT detect trained proper nouns with digit immediately after' do
+          no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+          trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+          # "Ana" should not match in "ana3" (lowercase)
+          result = trained_proper_nouns.call('Falei con ana3.')
+          expected = ['Falei con ana3.']
+          assert_equal expected, result, "Incorrectly detected 'Ana' with digit immediately after"
+        end
+      end
+    end
+
+    describe 'proper noun joining rules' do
+      it 'should NOT join first word with proper noun if first word contains punctuation' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+        # "Ola," (with comma) should NOT be joined with "Ana"
+        result = trained_proper_nouns.call('Ola, Ana.')
+        expected = [
+          'Ola, ',
+          ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+          '.'
+        ]
+        assert_equal expected, result, "Incorrectly joined 'Ola,' with 'Ana' despite punctuation"
+      end
+
+      it 'should NOT join first word with proper noun if first word contains symbols' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+        # Test with various symbols
+        ['#Hashtag', '@Usuario', '$Dolar', '%Porcentaxe'].each do |prefix|
+          text = "#{prefix} Ana."
+          result = trained_proper_nouns.call(text)
+          expected = [
+            "#{prefix} ",
+            ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+            '.'
+          ]
+          assert_equal expected, result, "Incorrectly joined '#{prefix}' with 'Ana' despite symbol"
+        end
+      end
+
+      it 'should join first word with proper noun if first word is unknown without punctuation' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son García.'])
+
+        # "Zulmira" (unknown word without punctuation) SHOULD be joined with "García"
+        result = trained_proper_nouns.call('Zulmira García.')
+        expected = [
+          ProperNouns::Literal.new('Zulmira García', tags.map { |tag| [tag, 'Zulmira García'] }.sort, false),
+          '.'
+        ]
+        assert_equal expected, result, "Failed to join unknown first word 'Zulmira' with detected 'García'"
+      end
+
+      it 'should NOT join first word with proper noun if first word is known in lexicon' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son García.'])
+
+        # "Casa" (known word in lexicon) should NOT be joined with "García"
+        result = trained_proper_nouns.call('Casa García.')
+        expected = [
+          'Casa ',
+          ProperNouns::Literal.new('García', tags.map { |tag| [tag, 'García'] }.sort, false),
+          '.'
+        ]
+        assert_equal expected, result, "Incorrectly joined known word 'Casa' with 'García'"
+      end
+
+      it 'should NOT join first word with proper noun if first word contains colon' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+        # "Nota:" (with colon) should NOT be joined with "Ana"
+        result = trained_proper_nouns.call('Nota: Ana.')
+        expected = [
+          'Nota: ',
+          ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+          '.'
+        ]
+        assert_equal expected, result, "Incorrectly joined 'Nota:' with 'Ana' despite colon"
+      end
+
+      it 'should NOT join first word with proper noun if first word contains semicolon' do
+        no_train_proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = no_train_proper_nouns.with_trained(['Eu son Ana.'])
+
+        # "Ola;" (with semicolon) should NOT be joined with "Ana"
+        result = trained_proper_nouns.call('Ola; Ana.')
+        expected = [
+          'Ola; ',
+          ProperNouns::Literal.new('Ana', tags.map { |tag| [tag, 'Ana'] }.sort, false),
+          '.'
+        ]
+        assert_equal expected, result, "Incorrectly joined 'Ola;' with 'Ana' despite semicolon"
       end
     end
   end

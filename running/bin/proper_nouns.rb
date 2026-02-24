@@ -128,11 +128,11 @@ class ProperNouns
     )
   end
 
-  def call(text)
-    literal_segments = literal_proper_nouns(text, @literal_proper_nouns)
-    ambiguous_segments = ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns)
-    standard_segments = standard_proper_nouns(text)
-    trained_segments = trained_proper_nouns(text)
+  def call(text, literal: true, ambiguous_literal: true, standard: true, trained: true)
+    literal_segments = literal ? literal_proper_nouns(text, @literal_proper_nouns) : []
+    ambiguous_segments = ambiguous_literal ? ambiguous_literal_proper_nouns(text, @ambiguous_literal_proper_nouns) : []
+    standard_segments = standard ? standard_proper_nouns(text) : []
+    trained_segments = trained ? trained_proper_nouns(text) : []
     candidate_segments = [ *literal_segments, *ambiguous_segments, *standard_segments, *trained_segments ]
     noun_ranges = join_proper_nouns(text, candidate_segments)
     result = split_text_by_proper_nouns(text, noun_ranges)
@@ -149,8 +149,9 @@ class ProperNouns
     # Expand the first segment if it is the second word and the first word starts with uppercase
     proper_noun_is_second_word = current_segment.begin > 0 && !text[...current_segment.begin - 1].include?(" ")
     text_begins_with_upper = text.match?(/\A\p{Upper}/)
+    text_beginning_has_punctuation = text[...current_segment.begin].match?(/[\p{P}\p{S}\p{Lo}]+/)
     text_beginning_is_unknown_word = !@main_lexicon.include?(text[0...current_segment.begin].downcase.strip)
-    if proper_noun_is_second_word && text_begins_with_upper && text_beginning_is_unknown_word
+    if !text_beginning_has_punctuation && proper_noun_is_second_word && text_begins_with_upper && text_beginning_is_unknown_word
       with_start = text[0...current_segment.end]
       tag_lemmas = current_segment.tag_lemmas.map { |t, _| [ t, with_start ] }
       current_segment = Segment.new(0...current_segment.end, with_start, tag_lemmas, current_segment.lexicon)
@@ -209,16 +210,9 @@ class ProperNouns
   end
 
   def trained_proper_nouns(text)
-    result = []
-    @trained_proper_nouns.each do |trained|
-      each_substring_index(text, trained.text) do |start_index|
-        next if start_index.nil?
-
-        range = start_index...(start_index + trained.text.size)
-        result << Segment.new(range, text[range], trained.tag_lemmas, trained.lexicon)
-      end
+    literals_in_text(text, @trained_proper_nouns) do |range, literal|
+      Segment.new(range, text[range], literal.tag_lemmas, literal.lexicon)
     end
-    result
   end
 
   def literals_in_text(text, literals)
@@ -250,7 +244,11 @@ class ProperNouns
 
   def unambiguous_proper_noun_range(i, text)
     # If all previous text before the candidate is punctuation and spaces, is a false positive
-    return if text[...i].match?(/\A[\p{P}\p{Z}]+\z/)
+    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{Lo}]+\z/)
+    # If there is a single letter followed by punctuation, it means chapter marker, false positive
+    return if text[...i].match?(/\A\p{L}?[\p{P}\p{Lo}]+\p{Z}\z/)
+    # If all previous text consists only of dates/numbers (4+ digits total) and separators, is a false positive
+    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{Lo}]*\d{4,}[\p{P}\p{S}\p{Z}\p{Lo}]*\z/)
     # If there is a letter before the candidate is a false positive (GZMúsica, position 1 "M")
     return if text[i - 1].match?(/\p{L}/)
     return if ambiguous_position?(text, i)
