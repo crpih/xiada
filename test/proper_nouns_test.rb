@@ -287,6 +287,26 @@ describe 'ProperNounsTest' do
         assert_equal expected, result, "Failed to detect abbreviated proper noun after a proper noun: #{text}"
       end
 
+      it 'should NOT detect proper noun when preceded only by numbers, puctuation or symbols' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        [
+          '2.3.2 Un',
+          '5._ Un',
+          '20: Un',
+          '2º._ Un',
+          '1 Un',
+          '1: Un',
+          '11.3._ Cando',
+          '4º Cando'
+        ].each do |text|
+          result = proper_nouns.call(text)
+          proper_noun_literals = result.select { |r| r.is_a?(ProperNouns::Literal) }
+          assert_empty proper_noun_literals,
+            "Should NOT detect proper noun in: #{text.inspect}"
+        end
+      end
+
       it 'should NOT detect proper noun when preceded only by date and separators' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 

@@ -244,7 +244,7 @@ class ProperNouns
 
   def unambiguous_proper_noun_range(i, text)
     # If all previous text before the candidate is punctuation and spaces, is a false positive
-    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{Lo}]+\z/)
+    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{N}\p{Lo}]+\z/)
     # If there is a single letter followed by punctuation, it means chapter marker, false positive
     return if text[...i].match?(/\A\p{L}?[\p{P}\p{Lo}]+\p{Z}\z/)
     # If all previous text consists only of dates/numbers (4+ digits total) and separators, is a false positive
