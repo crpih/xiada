@@ -20643,8 +20643,10 @@ Galeus murinus	Snaa	Galeus murinus	Galeus murinus	n
 Galeus spp	Snaa	Galeus spp	Galeus spp
 Galicia e a residencia teatral	Sp00	Galicia e a residencia teatral
 Galicia... flash	Sp00	Galicia... flash
+Galicia Spfs	Galicia
 Galicia-Norte de Portugal	Sp00	Galicia-Norte de Portugal
 Galicia	Sp00	Galicia
+Galicia	Spms	Galicia
 Galictis vittata	Snaa	Galictis vittata	Galictis vittata
 Galidia elegans	Snaa	Galidia elegans	Galidia elegans
 Galidictis fasciata	Snaa	Galidictis fasciata	Galidictis fasciata
