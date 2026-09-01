@@ -54,3 +54,9 @@ build-iPhoneSimulator/
 
 .idea
 profiles.yml
+
+# AI related
+AGENTS.md
+docs
+*.canvas
+.agents
