@@ -7,7 +7,7 @@ require_relative '../../../running/bin/xiada_tagger'
 def test_snapshots(tagger_config, document_config, cases_filename)
   tagger = XiadaTagger.new(tagger_config)
   CSV.foreach("#{__dir__}/#{cases_filename}.csv", col_sep: "\t", skip_lines: /^#/, skip_blanks: true).map(&:first).each_with_index do |example, i|
-    it "#{i}.csv #{example}" do
+    it "#{cases_filename}/#{i}.csv #{example}" do
       # We are removing unit positions to be able to compare the result with previous snapshots
       # TODO: Incorporate unit positions in the snapshots when the tagger is more stable
       result = CSV.generate(col_sep: "\t", encoding: 'utf-8') do |csv|
@@ -16,9 +16,10 @@ def test_snapshots(tagger_config, document_config, cases_filename)
         end
       end
 
-      # # Uncomment to save current results as expected
-      # FileUtils.mkdir_p("#{__dir__}/#{cases_filename}")
-      # File.write("#{__dir__}/#{cases_filename}/#{i}.csv", result)
+      if ENV["UPDATE_SNAPSHOTS"] == "1" && cases_filename == "corga_4_2"
+        FileUtils.mkdir_p("#{__dir__}/#{cases_filename}")
+        File.write("#{__dir__}/#{cases_filename}/#{i}.csv", result)
+      end
 
       expected = File.read("#{__dir__}/#{cases_filename}/#{i}.csv")
       assert_equal expected, result
@@ -41,6 +42,12 @@ describe 'XiadaTagger' do
     tagger_config = Config::Tagger.new(**galician_xiada_params)
     document_config = Config::Document.new(seseo: true, gheada: true)
     test_snapshots(tagger_config, document_config, 'galician_xiada_escrita_manual_cases')
+  end
+
+  describe 'galician_xiada CORGA 4.2 baseline' do
+    tagger_config = Config::Tagger.new(**galician_xiada_params)
+    document_config = Config::Document.new(seseo: true, gheada: true)
+    test_snapshots(tagger_config, document_config, 'corga_4_2')
   end
 
   describe 'spanish_eslora' do
