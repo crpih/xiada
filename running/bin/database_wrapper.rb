@@ -1,5 +1,6 @@
 require "sqlite3"
 require "active_support/core_ext/object/blank"
+require_relative "../../lib/string_utils"
 
 # AutoRule is used in here as workaround
 require_relative "../galician_xiada/lemmas/prefix_vowel"
@@ -20,33 +21,26 @@ class DatabaseWrapper
   def close_database = @db.close
 
   def get_emissions_info(word, tags)
-    possible_tags = get_possible_tags(tags)
-    query = <<~SQL
-      SELECT tag, lemma, hiperlemma, log_b
-      FROM emission_frequencies
-      WHERE word = ?
-      #{"AND from_lexicon = 1" if @tagger_config.only_lexicon && word != '###'}
-      #{"AND tag IN (#{(['?'] * possible_tags.length).join(', ')})" if possible_tags&.any?}
-    SQL
-    execute(query, [word, *possible_tags])
+    get_emissions_info_variants(word, tags, [capitalized_lowercase_variant(word)])
   end
 
   def get_emissions_info_variants(word, tags, variants)
-    result = get_emissions_info(word, tags)
-    if result.empty?
-      variants.each do |variant|
-        if variant
-          result = get_emissions_info(variant, tags)
-          return result unless result.empty?
-        end
-      end
+    result = get_exact_emissions_info(word, tags)
+    return result unless result.empty?
+
+    variants.each do |variant|
+      next if variant.nil? || variant == word
+
+      result = get_exact_emissions_info(variant, tags)
+      return result unless result.empty?
     end
-    return result
+
+    result
   end
 
   def get_tags_lemmas_emissions_strict(word, tags)
     # this function doen't check for suffix analysis nor open tags.
-    return get_emissions_info(word, tags)
+    get_exact_emissions_info(word, tags)
   end
 
   def get_tags_lemmas_emissions(document_config, word, tags)
@@ -333,16 +327,8 @@ class DatabaseWrapper
 
   def get_enclitic_verb_roots_info(document_config, root, tags)
     variants = @tagger_config.lemmatizer.lemmatize_verb_with_enclitics(document_config, root)
-    if tags.nil? || tags.empty?
-      variants.each_with_object([]) do |variant, result|
-        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?"
-        result.push(*execute(query, [variant]))
-      end
-    else
-      variants.each_with_object([]) do |variant, result|
-        query = "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})"
-        result.push(*execute(query, [variant, tags]))
-      end
+    variants.each_with_object([]) do |variant, result|
+      result.push(*get_enclitic_verb_roots_info_for(variant, tags))
     end
   end
 
@@ -451,6 +437,49 @@ class DatabaseWrapper
   end
 
   private
+
+  def get_exact_emissions_info(word, tags)
+    possible_tags = get_possible_tags(tags)
+    query = <<~SQL
+      SELECT tag, lemma, hiperlemma, log_b
+      FROM emission_frequencies
+      WHERE word = ?
+      #{"AND from_lexicon = 1" if @tagger_config.only_lexicon && word != '###'}
+      #{"AND tag IN (#{(['?'] * possible_tags.length).join(', ')})" if possible_tags&.any?}
+    SQL
+    execute(query, [word, *possible_tags])
+  end
+
+  def capitalized_lowercase_variant(word)
+    lowercase_variant = StringUtils.first_to_lower(word)
+    lowercase_variant unless lowercase_variant == word
+  end
+
+  def get_enclitic_verb_roots_info_for(variant, tags)
+    query, bind_vars = enclitic_verb_roots_query(variant, tags)
+    result = execute(query, bind_vars)
+    return result unless result.empty?
+
+    lowercase_variant = capitalized_lowercase_variant(variant)
+    return result unless lowercase_variant
+
+    query, bind_vars = enclitic_verb_roots_query(lowercase_variant, tags)
+    execute(query, bind_vars)
+  end
+
+  def enclitic_verb_roots_query(variant, tags)
+    if tags.nil? || tags.empty?
+      [
+        "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ?",
+        [variant]
+      ]
+    else
+      [
+        "SELECT root, tag, lemma, hiperlemma, extra FROM enclitic_verbs_roots WHERE root = ? AND tag IN (#{(['?'] * tags.length).join(',')})",
+        [variant, *tags]
+      ]
+    end
+  end
 
   def execute(sql, bind_vars = [], &block)
     @db = SQLite3::Database.open(@database_file) if @db.nil? || @db.closed?
