@@ -203,6 +203,37 @@ describe 'ProperNounsTest' do
         assert_equal expected, result, "Failed to detect proper noun between parens: #{text}"
       end
 
+      it 'should detect proper nouns after an internal point and mixed wrappers' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        {
+          'Dixo. Xoán.' => ['Xoán'],
+          'Dixo _Hannah Montana_.' => ['Hannah Montana'],
+          'Dixo _"Xoán".' => ['Xoán']
+        }.each do |text, expected_literals|
+          result = proper_nouns.call(text)
+          actual_literals = result.filter_map { |segment| segment.text if segment.is_a?(ProperNouns::Literal) }
+
+          assert_equal expected_literals, actual_literals, "Failed to detect proper noun in: #{text}"
+        end
+      end
+
+      it 'should keep capitalized common words out of proper noun segments after punctuation' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        [
+          'Desde Erguer. Estudantes da Galiza',
+          'ABSE (Asociación para a Banca Social)',
+          '_¡Avante, avante! _berrou Smollett alporizado_, ¡Atácannos!'
+        ].each do |text|
+          result = proper_nouns.call(text)
+          proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
+
+          refute proper_noun_literals.any? { |segment| %w[Estudantes Asociación Atácannos].include?(segment.text) },
+            "Should not promote a common word to a proper noun in: #{text}"
+        end
+      end
+
       it 'should detect road names' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Vou pola AP-9."

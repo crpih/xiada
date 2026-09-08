@@ -7,7 +7,7 @@ class CapitalizationTest < Minitest::Test
   CASES = {
     7 => 'Estudantes',
     8 => 'The',
-    9 => 'Hannah',
+    9 => 'Hannah Montana',
     10 => 'Asociación',
     11 => 'Atacan'
   }.freeze

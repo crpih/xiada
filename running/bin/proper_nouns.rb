@@ -8,7 +8,7 @@ class ProperNouns
 
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
-  WRAPPER_START_CHARS = %w[" ' (].freeze
+  WRAPPER_START_CHARS = %w[" ' ( _].freeze
 
   class Segment
     attr_reader :range, :text, :tag_lemmas, :lexicon
@@ -257,9 +257,10 @@ class ProperNouns
     return unless match
 
     # If:
-    # - the match text is after a wrapper char or is at the beginning of the text
+    # - the match text is after a wrapper char, after an internal point or at the beginning of the text
     # - and lowercase match is in the main lexicon, is a false positive (e.g. "Non")
-    return if (starts_with_wrapper?(text, i) || i.zero?) && @main_lexicon.include?(match.downcase.strip)
+    return if (starts_with_wrapper?(text, i) || after_non_abbreviation_point?(text, i) || i.zero?) &&
+      @main_lexicon.include?(match.downcase.strip)
 
     i...(i + match.size)
   end
@@ -291,8 +292,9 @@ class ProperNouns
   def simple_proper_noun(text)
     match = text.match(/\A(\p{Upper}\p{Lower}+)(?:[^\p{L}|\p{N}]|\z)/)&.captures&.compact&.first
     with_dot = "#{match}."
-    # If the match is followed by a dot in the original text and is an acronym or abbreviation, is not a proper noun
-    return if text.start_with?(with_dot) && (@acronyms.include?(with_dot) || @abbreviations.include?(with_dot))
+    # If the match is followed by a dot in the original text and is an acronym, abbreviation or lexical entry, is not a proper noun
+    return if text.start_with?(with_dot) &&
+      (@acronyms.include?(with_dot) || @abbreviations.include?(with_dot) || @main_lexicon.include?(with_dot.downcase))
 
     match
   end
@@ -302,23 +304,45 @@ class ProperNouns
     yield pos while (pos = string.index(substring, pos + 1))
   end
 
-  def starts_with_wrapper?(text, i) = i > 0 && WRAPPER_START_CHARS.include?(text[i - 1])
+  def starts_with_wrapper?(text, i) = wrapper_start_count(text, i).positive?
+
+  def wrapper_start_count(text, i)
+    position = i - 1
+    count = 0
+    while position >= 0 && WRAPPER_START_CHARS.include?(text[position])
+      count += 1
+      position -= 1
+    end
+    count
+  end
+
+  def short_abbreviation?(text) = text.match?(/\A\p{Upper}\p{Lower}{0,1}\.\z/)
+
+  def after_non_abbreviation_point?(text, i)
+    return false unless text[i - 2] == "."
+
+    previous_separator_position = text[..i - 2].rindex(/\p{Z}/)
+    return true unless previous_separator_position
+
+    previous_word = text[(previous_separator_position + 1)..i - 2]
+    !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word) && !short_abbreviation?(previous_word)
+  end
 
   def ambiguous_position?(text, i)
-    # Unambiguous proper nouns are not preceded by punctuation (dot is special case) followed by a separator (space usually).
+    # Unambiguous proper nouns are not preceded by punctuation followed by a separator (space usually).
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
-    previous_two_positions = i - 2 - (starts_with_wrapper?(text, i) ? 1 : 0)
+    wrapper_count = wrapper_start_count(text, i)
+    return true if wrapper_count > 1 && text[(i - wrapper_count)...i].include?("(")
+
+    previous_two_positions = i - 2 - wrapper_count
     return true if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
 
-    # If previous separator is dot + separator
+    # Keep the token after a short, dotted abbreviation in the lexical path.
     if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
       previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
-      # If dot is the previous punctuation, but no previous word to check, then position is ambiguous
-      return true unless previous_separator_position
-
-      # If the previous word is an acronym or abbreviation the position is not ambiguous we can continue with regex detection.
-      previous_word = text[(previous_separator_position + 1)..previous_two_positions]
-      return true if !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
+      previous_word = text[(previous_separator_position + 1)..previous_two_positions] if previous_separator_position
+      return true if short_abbreviation?(previous_word.to_s) &&
+        !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
     end
 
     false
