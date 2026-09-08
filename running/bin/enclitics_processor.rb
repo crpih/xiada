@@ -441,6 +441,7 @@ class EncliticsProcessor
           end
         end
       end
+      final_recovery_word = preserve_initial_capitalization(verb_part, final_recovery_word)
       if final_recovery_words[final_recovery_word] == nil
         new_token = Token.new(sentence.text, final_recovery_word, :standard, token_from, token_to)
         new_token.qualifying_info = token.qualifying_info.clone
@@ -476,5 +477,13 @@ class EncliticsProcessor
       end
     end
     return score
+  end
+
+  def preserve_initial_capitalization(source_word, recovered_word)
+    return recovered_word unless source_word.match?(/\A\p{Lu}/)
+
+    return StringUtils.to_upper(recovered_word) if source_word == source_word.upcase
+
+    StringUtils.first_to_upper(recovered_word)
   end
 end

@@ -45,6 +45,15 @@ Relevant environment variables for tagger configuration:
 
 Supported combinations of these variables are defined in `profiles.yml` file.
 
+### Initial capitalization
+
+The tagger handles the first lexical token in two stages:
+
+- During analysis, `Sentence` may use a lowercase internal form so processors such as contractions can recognize forms like `Neste` as `en` + `este`. This form is used to analyze the sentence.
+- After Viterbi selects the final path, `Postprocessor` decides the output form. It lowercases the first lexical token unless the selected analysis is a proper noun, acronym, or abbreviation. Later tokens are not normalized by this rule.
+
+Future output rules that depend on the selected analysis belong in `Postprocessor`.
+
 ### API requests
 
 Then you can send requests like:

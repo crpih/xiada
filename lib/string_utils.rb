@@ -107,6 +107,10 @@ class StringUtils
     end
   end
 
+  def self.initial_ignorable_token?(str)
+    numbers_beginner?(str) || str.match?(/\A[\p{P}\p{S}]+\z/u)
+  end
+
   def self.punctuation_beginner?(str)
     if str =~ /^[¿¡_\(\["'_]$/ or str == "\.\.\."
       return true

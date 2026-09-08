@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require_relative "../../lib/string_utils.rb"
+require_relative "postprocessor"
 
 class Viterbi
   EMPTY_TAG = "###"
@@ -40,6 +40,7 @@ class Viterbi
       last_delta = finalize_step(sentence)
       @tags = back_way_build(last_delta, false)
     end
+    Postprocessor.new(@sentence, @tagger_config).call(@tags)
     @some_info = some_info?
   end
 
@@ -57,8 +58,7 @@ class Viterbi
         hiperlemma = tag.hiperlemmas[lemma].blank? ? '' : tag.hiperlemmas[lemma]
       end
 
-      token_text = lower_token(tag.token.text, tag.value)
-      { token: token_text, tag: tag.value, lemma:, hiperlemma:, start: tag.token.from, finish: tag.token.to }
+      { token: tag.token.text, tag: tag.value, lemma:, hiperlemma:, start: tag.token.from, finish: tag.token.to }
     end
   end
 
@@ -120,16 +120,7 @@ class Viterbi
     end
 
 
-    token_text = lower_token(token.text, tag_lemmas.first[:tag])
-    { token: token_text, tag_lemmas: tag_lemmas.uniq, start: token.from, finish: token.to }
-  end
-
-  def lower_token(token_text, tag_value)
-    if tag_value.match?(@tagger_config.keep_uppercase_tokens_for)
-      token_text
-    else
-      StringUtils.first_to_lower(token_text)
-    end
+    { token: token.text, tag_lemmas: tag_lemmas.uniq, start: token.from, finish: token.to }
   end
 
   def reset_viterbi(sentence)

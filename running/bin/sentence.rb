@@ -42,7 +42,8 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     process_acronym_abbreviation_contraction_stuff
-    # TODO: do not lower if first word is in lexicon
+    # This is an analysis form, not the final output rule. Processors such as
+    # contractions need the initial word in lowercase (e.g. Neste -> en + este).
     first_to_lower if proper_nouns_processor && !proper_nouns_processor.force_proper_nouns
   end
 
@@ -53,6 +54,10 @@ class Sentence
 
   def empty?
     @text.strip.empty?
+  end
+
+  def acronym_or_abbreviation?(text)
+    @acronyms.include?(text) || @abbreviations.include?(text)
   end
 
   def tokenize(text, first_chunk)
@@ -489,7 +494,7 @@ class Sentence
   def is_original_first_lower?
     all_lower = false
     token = @first_token.next
-    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+    while (token.token_type == :standard) and StringUtils.initial_ignorable_token?(token.text)
       token = token.next
     end
     all_lower = StringUtils.all_lower?(token.text) if (token.token_type == :standard)
@@ -498,7 +503,7 @@ class Sentence
 
   def first_to_lower
     token = @first_token.next
-    while (token.token_type == :standard) and (StringUtils.punctuation_beginner?(token.text) or StringUtils.numbers_beginner?(token.text))
+    while (token.token_type == :standard) and StringUtils.initial_ignorable_token?(token.text)
       token = token.next
     end
     #STDERR.puts "first token: #{token.text}"
