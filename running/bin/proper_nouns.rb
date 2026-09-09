@@ -280,6 +280,8 @@ class ProperNouns
         (\p{Upper}+-\d+) |
         # ADEGA-Coruña, CIG-Saúde, etc.
         (\p{Upper}{2,}-\p{Upper}\p{Lower}+) |
+        # St. John, St. Elizabeth
+        (St\.\s\p{Upper}\p{Lower}+) |
         # Xosé A.
         (\p{Upper}\p{Lower}+\s\p{Upper}\.) |
         # A. Dominguez

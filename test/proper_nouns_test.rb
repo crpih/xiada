@@ -318,6 +318,42 @@ describe 'ProperNounsTest' do
         assert_equal expected, result, "Failed to detect abbreviated proper noun after a proper noun: #{text}"
       end
 
+      it 'should detect St. before proper nouns' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = "O hospital St. John e St. Elizabeth."
+        expected = [
+          "O hospital ",
+          ProperNouns::Literal.new("St. John", tags.map { |tag| [tag, "St. John"] }.sort, false),
+          " e ",
+          ProperNouns::Literal.new("St. Elizabeth", tags.map { |tag| [tag, "St. Elizabeth"] }.sort, false),
+          "."
+        ]
+
+        assert_equal expected, proper_nouns.call(text), "Failed to detect St. before proper nouns in: #{text}"
+      end
+
+      it 'should detect each St. proper noun in isolation' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        ["St. John", "St. Elizabeth"].each do |name|
+          text = "O #{name}."
+          expected = [
+            "O ",
+            ProperNouns::Literal.new(name, tags.map { |tag| [tag, name] }.sort, false),
+            "."
+          ]
+
+          assert_equal expected, proper_nouns.call(text), "Failed to detect St. proper noun in: #{text}"
+        end
+      end
+
+      it 'should not treat an ordinary capitalized word before a full stop as an abbreviation' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = "Dixo Madrid. Galicia."
+
+        assert_equal ["Dixo ", ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false), ". ", ProperNouns::Literal.new("Galicia", tags.map { |tag| [tag, "Galicia"] }.sort, false), "."], proper_nouns.call(text)
+      end
+
       it 'should NOT detect proper noun when preceded only by numbers, puctuation or symbols' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
