@@ -40,6 +40,13 @@ module GalicianXiada
           return recovery_word.gsub(/éi$/, "ei")
         end
 
+        # Se a parte esquerda remata en -ái e é a terceira persoa do presente
+        # de indicativo, a vogal tónica é unha marca da forma con máis dunha
+        # sílaba e non pertence á raíz recuperada: vái-se-me => vai + se + me.
+        if verb_part =~ /ái$/ and tag_value =~ /Vpi30s/ and enclitic_syllables_length > 1
+          return recovery_word.gsub(/ái$/, "ai")
+        end
+
         # Se na parte esquerda a forma verbal, unha vez eliminada a parte dereita correspondente ós clíticos ou clíticos e artigo remata en -éi, e a etiqueta é de 1a persoa singular do pretérito de indicativo (Vei10s), e se na parte dereita hai 1 ou 2 clíticos pero que constitúen unha única silába, reconstrúe a forma verbal para -éi. Isto reconstruiría "acheguéime" para "acheguéi", o que sería o correcto atendendo ó que está no texto. Neste momento non o recoñece porque non están metidas estas desinencias na conxugación con clíticos.
 
         # => Isto xa o fai por defecto.
