@@ -270,6 +270,42 @@ describe 'ProperNounsTest' do
         assert_equal expected, result, "Failed to detect proper noun with single hyphen in the middle: #{text}"
       end
 
+      it 'should detect proper nouns with a lowercase second component after a hyphen' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = "Era o cativo Bas-cul, o animoso vixía."
+        expected = [
+          "Era o cativo ",
+          ProperNouns::Literal.new("Bas-cul", tags.map { |tag| [tag, "Bas-cul"] }.sort, false),
+          ", o animoso vixía."
+        ]
+
+        assert_equal expected, proper_nouns.call(text), "Failed to detect mixed-case proper noun: #{text}"
+      end
+
+      it 'should detect a lexical word with a lowercase hyphenated component' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = "Dixo Casa-longa."
+        expected = [
+          "Dixo ",
+          ProperNouns::Literal.new("Casa-longa", tags.map { |tag| [tag, "Casa-longa"] }.sort, false),
+          "."
+        ]
+
+        assert_equal expected, proper_nouns.call(text)
+      end
+
+      it 'should detect uppercase acronym compounds with a lowercase component' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = "O sindicato CIG-Saúde."
+        expected = [
+          "O sindicato ",
+          ProperNouns::Literal.new("CIG-Saúde", tags.map { |tag| [tag, "CIG-Saúde"] }.sort, false),
+          "."
+        ]
+
+        assert_equal expected, proper_nouns.call(text)
+      end
+
       it 'should detect proper nouns with an ampersand in the middle' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo H&M."

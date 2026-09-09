@@ -266,28 +266,35 @@ class ProperNouns
   end
 
   def match_proper_noun(text)
-    text.match(/
+    match_data = text.match(/
       \A(?:
         # Camel case (YouTube, UVigo)
-        (\p{Upper}\p{Lower}*(?:\p{Upper}\p{Lower}+)+) |
+        (?<camel_case>\p{Upper}\p{Lower}*(?:\p{Upper}\p{Lower}+)+) |
         # Separated by one hyphen (Barcelona-Tarragona)
-        (\p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+) |
+        (?<upper_case_hyphen>\p{Upper}\p{Lower}+-\p{Upper}\p{Lower}+) |
+        # Mixed case separated by one hyphen (Bas-cul)
+        (?<mixed_case_hyphen>\p{Upper}\p{Lower}+-\p{Lower}+) |
         # With & in the middle (H&M)
-        (\p{Upper}\p{Lower}*&\p{Upper}\p{Lower}*) |
+        (?<ampersand>\p{Upper}\p{Lower}*&\p{Upper}\p{Lower}*) |
         # With ' in the middle (L'Oréal)
-        (\p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+) |
+        (?<apostrophe>\p{Upper}\p{Lower}*'\p{Upper}\p{Lower}+) |
         # Road names (C-31)
-        (\p{Upper}+-\d+) |
+        (?<road_name>\p{Upper}+-\d+) |
         # ADEGA-Coruña, CIG-Saúde, etc.
-        (\p{Upper}{2,}-\p{Upper}\p{Lower}+) |
+        (?<acronym_hyphen>\p{Upper}{2,}-\p{Upper}\p{Lower}+) |
         # St. John, St. Elizabeth
-        (St\.\s\p{Upper}\p{Lower}+) |
+        (?<saint_name>St\.\s\p{Upper}\p{Lower}+) |
         # Xosé A.
-        (\p{Upper}\p{Lower}+\s\p{Upper}\.) |
+        (?<name_with_initial>\p{Upper}\p{Lower}+\s\p{Upper}\.) |
         # A. Dominguez
-        (\p{Upper}\.\s\p{Upper}\p{Lower}+)
+        (?<initial_name>\p{Upper}\.\s\p{Upper}\p{Lower}+)
       )(?:[^\p{L}|\p{N}]|\z) # Ensure not part of a larger word
-    /x)&.captures&.compact&.first || simple_proper_noun(text)
+    /x)
+
+    named_captures = match_data&.named_captures
+    match = named_captures&.values&.compact&.first
+
+    match || simple_proper_noun(text)
   end
 
   # Regular proper noun
