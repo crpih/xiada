@@ -9,6 +9,8 @@ class ProperNouns
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
   WRAPPER_START_CHARS = %w[" ' ( _].freeze
+  NOT_SEGMENT_CONTENT_TAGS = %w[subíndice superíndice].freeze
+  NOT_SEGMENT_CONTENT_OPENING_TAG = /<(?:#{NOT_SEGMENT_CONTENT_TAGS.join('|')})(?:\s[^>]*)?>/
 
   class Segment
     attr_reader :range, :text, :tag_lemmas, :lexicon
@@ -243,6 +245,11 @@ class ProperNouns
   end
 
   def unambiguous_proper_noun_range(i, text)
+    # XML subscript and superscript marks are part of the surrounding unit.
+    # Do not let the capitalized chemical symbol before the mark become a
+    # proper noun candidate and split the unit before Sentence#tokenize sees it.
+    return if starts_not_segment_content?(text[i..])
+
     # If all previous text before the candidate is punctuation and spaces, is a false positive
     return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{N}\p{Lo}]+\z/)
     # If there is a single letter followed by punctuation, it means chapter marker, false positive
@@ -311,6 +318,10 @@ class ProperNouns
   def each_substring_index(string, substring)
     pos = -1
     yield pos while (pos = string.index(substring, pos + 1))
+  end
+
+  def starts_not_segment_content?(text)
+    text.match?(/\A\p{Upper}\p{Lower}*#{NOT_SEGMENT_CONTENT_OPENING_TAG}/)
   end
 
   def starts_with_wrapper?(text, i) = wrapper_start_count(text, i).positive?

@@ -383,6 +383,28 @@ describe 'ProperNounsTest' do
         end
       end
 
+      it 'should keep subscript and superscript units together' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        %w[subíndice superíndice].each do |mark|
+          formula = "Al<#{mark}>2</#{mark}>O"
+          text = "Falei de #{formula}."
+
+          assert_equal [text], proper_nouns.call(text), "Failed to keep XML formula unit together: #{text}"
+        end
+      end
+
+      it 'should not apply the formula rule to unrelated XML' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        text = 'Falei Al<marca>2</marca>.'
+
+        assert_equal [
+          'Falei ',
+          ProperNouns::Literal.new('Al', tags.map { |tag| [tag, 'Al'] }.sort, false),
+          '<marca>2</marca>.'
+        ], proper_nouns.call(text)
+      end
+
       it 'should not treat an ordinary capitalized word before a full stop as an abbreviation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo Madrid. Galicia."

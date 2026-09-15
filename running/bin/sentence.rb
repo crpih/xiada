@@ -10,6 +10,10 @@ require_relative "../../lib/string_utils"
 class Sentence
   include Enumerable
 
+  SYMBOL_TAG = "Zs00"
+  FORMULA_MARK_OPENING_TAG = /<(?:subíndice|superíndice)(?:\s[^>]*)?>/
+  FORMULA_MARK_CLOSING_TAG = /<\/(?:subíndice|superíndice)>/
+
   attr_reader :tagger_config, :document_config
   attr_reader :first_token, :last_token, :text, :original_first_lower
 
@@ -196,6 +200,7 @@ class Sentence
       from = text.index(token_text, offset)
       to = from + token_text.length - 1
       token = Token.new(self.text, String.new(token_text), :standard, from + @current_text_offset, to + @current_text_offset)
+      token.add_tag_lemma_emission(SYMBOL_TAG, nil, nil, 0.0, false) if chemical_formula_unit?(token_text)
       #STDERR.puts "Building token: #{token.text}, from:#{token.from}, to:#{token.to}, chunk_entity_exclude_transform:#{token.chunk_entity_exclude_transform}"
       offset = to + 1
       token.add_prev(prev_token)
@@ -204,6 +209,13 @@ class Sentence
     end
     @current_last_token = prev_token
     @current_text_offset += text.length
+  end
+
+  def chemical_formula_unit?(text)
+    return false unless text.match?(FORMULA_MARK_OPENING_TAG)
+
+    text.match?(/#{FORMULA_MARK_CLOSING_TAG}\p{Upper}/) ||
+      text.match?(/\A\p{Upper}{2,}#{FORMULA_MARK_OPENING_TAG}/)
   end
 
   def add_proper_noun(text, tag_lemmas)
