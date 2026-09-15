@@ -35,6 +35,16 @@ class Tag
     @hiperlemmas[lemma] = hiperlemma
   end
 
+  def replace_value(value)
+    previous_value = @value
+    @value = value
+    if @token.tags[previous_value].equal?(self)
+      @token.tags.delete(previous_value)
+      @token.tags[value] = self
+    end
+    self
+  end
+
   def ordered_deltas = @deltas.values.sort_by(&:normalized_value).reverse
 
   def add_or_replace_delta(delta_value, prev_delta, length, prev_tag_value)
