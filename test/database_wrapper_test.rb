@@ -17,12 +17,12 @@ class DatabaseWrapperTest < Minitest::Test
   def test_exact_emission_has_priority_over_lowercase_fallback
     wrapper = build_wrapper(
       emissions: {
-        "Infraestructuras" => [["Sp00", "exact", "", 1.0]],
-        "infraestructuras" => [["Scfp", "infraestrutura", "", 2.0]],
+        "Infraestructuras" => [["Sp00", "exact", "exact-hyperlemma", 1.0]],
+        "infraestructuras" => [["Scfp", "infraestrutura", "fallback-hyperlemma", 2.0]],
       }
     )
 
-    assert_equal [["Sp00", "exact", "", 1.0]], wrapper.get_emissions_info("Infraestructuras", nil)
+    assert_equal [["Sp00", "exact", "exact-hyperlemma", 1.0]], wrapper.get_emissions_info("Infraestructuras", nil)
   end
 
   def test_capitalized_emission_falls_back_without_mutating_the_input
@@ -94,6 +94,28 @@ class DatabaseWrapperTest < Minitest::Test
 
     assert_equal [["Canto", "Vpi10s", "exact", "", "Vc1"]],
                  wrapper.get_enclitic_verb_roots_info(Object.new, "Canto", ["Vpi10s"])
+  end
+
+  def test_most_frequent_lemma_uses_lowercase_frequency_rows_for_fallback
+    wrapper = build_wrapper
+    db = SQLite3::Database.new(":memory:")
+    db.execute <<~SQL
+      CREATE TABLE word_tag_lemma_frequencies (
+        word text,
+        tag text,
+        lemma text,
+        normative boolean,
+        frequency integer
+      )
+    SQL
+    db.execute("INSERT INTO word_tag_lemma_frequencies VALUES (?, ?, ?, ?, ?)", ["ametralladora", "Scfs", "ametralladora", 1, 1])
+    db.execute("INSERT INTO word_tag_lemma_frequencies VALUES (?, ?, ?, ?, ?)", ["ametralladora", "Scfs", "ametrallador", 1, 2])
+    wrapper.instance_variable_set(:@db, db)
+
+    assert_equal "ametrallador",
+                 wrapper.get_most_frequent_lemma("Ametralladora", "Scfs", ["ametralladora", "ametrallador"])
+  ensure
+    db&.close
   end
 
   private

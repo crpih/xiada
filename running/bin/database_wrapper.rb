@@ -432,8 +432,18 @@ class DatabaseWrapper
       ORDER BY normative DESC, frequency DESC
       LIMIT 1
     SQL
+
+    result = @db.get_first_value(query, [word, tag, *lemmas])
+    return result if result
+
+    lowercase_variant = capitalized_lowercase_variant(word)
+    if lowercase_variant
+      result = @db.get_first_value(query, [lowercase_variant, tag, *lemmas])
+      return result if result
+    end
+
     # If (word, tag, lemma) is not found, return the first lemma in the list
-    @db.get_first_value(query, [word, tag, *lemmas]) || lemmas.first
+    lemmas.first
   end
 
   private

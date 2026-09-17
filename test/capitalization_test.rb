@@ -71,6 +71,16 @@ class CapitalizationTest < Minitest::Test
     assert_equal ['(', '...', ')', 'conseguir'], result.first(4).map { |token| token[:token] }
   end
 
+  def test_corga_fallback_preserves_the_hyperlemma_in_the_complete_sentence
+    text = @examples.fetch(0)
+    token = @tagger.tag_texts(@document_config, [text]).first.find { |entry| entry[:token] == 'Infraestructuras' }
+
+    assert_equal({ token: 'Infraestructuras', tag: 'Scfp', lemma: 'infraestructura', hiperlemma: 'infraestrutura' },
+                 token.slice(:token, :tag, :lemma, :hiperlemma))
+    assert_equal text.index('Infraestructuras'), token[:start]
+    assert_equal token[:start] + token[:token].length - 1, token[:finish]
+  end
+
   private
 
   def selected_all_way_tokens(entries)
