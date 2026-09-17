@@ -41,18 +41,32 @@ describe 'Postprocessor' do
     ], output('as Coruña')
   end
 
-  it 'does not override a proper noun with a conflicting known gender' do
+  it 'overrides a proper noun with a conflicting known gender' do
     assert_equal [
       ['unha', 'Difs', 'un', 'un'],
-      ['Pedro', 'Spm0', 'Pedro', '']
+      ['Pedro', 'Spfs', 'Pedro', '']
     ], output('unha Pedro')
   end
 
-  it 'does not override a proper noun whose gender and number are complete' do
+  it 'overrides a proper noun whose gender and number contradict the context' do
     assert_equal [
       ['unha', 'Difs', 'un', 'un'],
-      ['Acordos de Oslo', 'Spmp', 'Acordos de Oslo', '']
+      ['Acordos de Oslo', 'Spfs', 'Acordos de Oslo', '']
     ], output('unha Acordos de Oslo')
+  end
+
+  it 'overrides a known feminine proper noun in a masculine plural context' do
+    assert_equal [
+      ['os', 'Ddmp', 'o', 'o'],
+      ['Ana', 'Spmp', 'Ana', '']
+    ], output('os Ana')
+  end
+
+  it 'keeps the form and lemma when correcting a specified analysis' do
+    assert_equal [
+      ['as', 'Ddfp', 'o', 'o'],
+      ['Madrid', 'Spfp', 'Madrid', '']
+    ], output('as Madrid')
   end
 
   it 'does not force agreement without a sufficient determiner context' do
@@ -62,7 +76,35 @@ describe 'Postprocessor' do
     ], output('con Galicia')
   end
 
+  it 'does not carry agreement across a coordination' do
+    assert_equal [
+      ['unha', 'Difs', 'un', 'un'],
+      ['Ana', 'Spfs', 'Ana', ''],
+      ['e', 'Cc', 'e', 'e'],
+      ['Pedro', 'Spm0', 'Pedro', '']
+    ], output('unha Ana e Pedro')
+  end
+
+  it 'does not carry agreement across punctuation' do
+    assert_equal [
+      ['unha', 'Difs', 'un', 'un'],
+      ['Ana', 'Spfs', 'Ana', ''],
+      [',', 'Q,', ',', ','],
+      ['Pedro', 'Spm0', 'Pedro', '']
+    ], output('unha Ana, Pedro')
+  end
+
+  it 'does not carry agreement across an intervening preposition' do
+    assert_equal [
+      ['unha', 'Difs', 'un', 'un'],
+      ['casa', 'Scfs', 'casa', 'casa'],
+      ['de', 'P', 'de', 'de'],
+      ['Galicia', 'Sp00', 'Galicia', '']
+    ], output('unha casa de Galicia')
+  end
+
   it 'keeps the token tag index synchronized when replacing a tag value' do
+    Token.reset_class
     token = Token.new('Galicia', 'Galicia', :standard, 0, 6)
     token.add_tag_lemma_emission('Sp00', 'Galicia', '', 0.0, false)
     tag = token.tags.fetch('Sp00')

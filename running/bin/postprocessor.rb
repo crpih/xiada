@@ -40,16 +40,18 @@ class Postprocessor
 
   def agreement_tag(match, gender, number)
     current_gender, current_number = match.captures
-    return if current_gender != "0" && current_number != "0"
-    return if current_gender != "0" && current_gender != gender
-    return if current_number != "0" && current_number != number
+    return if current_gender == gender && current_number == number
 
-    "Sp#{current_gender == "0" ? gender : current_gender}#{current_number == "0" ? number : current_number}"
+    "Sp#{gender}#{number}"
   end
 
   def preceding_agreement(tags, index)
-    previous_tag = tags[0...index].reverse.find { |tag| tag.token.token_type == :standard }
+    # Concordance is deliberately local. Looking farther back would let an
+    # article leak through punctuation, coordination, or an intervening
+    # preposition and manufacture an agreement for an unrelated proper noun.
+    previous_tag = tags[index - 1]
     return unless previous_tag
+    return unless previous_tag.token.token_type == :standard
 
     match = previous_tag.value.match(AGREEMENT_TAG)
     match && match.captures
