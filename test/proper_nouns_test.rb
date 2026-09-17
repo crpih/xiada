@@ -405,6 +405,16 @@ describe 'ProperNounsTest' do
         ], proper_nouns.call(text)
       end
 
+      it 'should not detect capitalized text immediately before subscript or superscript content' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+
+        %w[subíndice superíndice].each do |mark|
+          text = "Falei McDonald<#{mark}>2</#{mark}>."
+
+          assert_equal [text], proper_nouns.call(text)
+        end
+      end
+
       it 'should not treat an ordinary capitalized word before a full stop as an abbreviation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo Madrid. Galicia."

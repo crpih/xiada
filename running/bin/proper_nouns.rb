@@ -246,9 +246,8 @@ class ProperNouns
 
   def unambiguous_proper_noun_range(i, text)
     # XML subscript and superscript marks are part of the surrounding unit.
-    # Do not let the capitalized chemical symbol before the mark become a
-    # proper noun candidate and split the unit before Sentence#tokenize sees it.
-    return if starts_not_segment_content?(text[i..])
+    # Do not let the capitalized text before the mark become a proper noun
+    # candidate and split the unit before Sentence#tokenize sees it.
 
     # If all previous text before the candidate is punctuation and spaces, is a false positive
     return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{N}\p{Lo}]+\z/)
@@ -262,6 +261,7 @@ class ProperNouns
 
     match = match_proper_noun(text[i..])
     return unless match
+    return if text[(i + match.size)..].to_s.match?(/\A#{NOT_SEGMENT_CONTENT_OPENING_TAG}/)
 
     # If:
     # - the match text is after a wrapper char, after an internal point or at the beginning of the text
@@ -318,10 +318,6 @@ class ProperNouns
   def each_substring_index(string, substring)
     pos = -1
     yield pos while (pos = string.index(substring, pos + 1))
-  end
-
-  def starts_not_segment_content?(text)
-    text.match?(/\A\p{Upper}\p{Lower}*#{NOT_SEGMENT_CONTENT_OPENING_TAG}/)
   end
 
   def starts_with_wrapper?(text, i) = wrapper_start_count(text, i).positive?
