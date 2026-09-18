@@ -415,6 +415,17 @@ describe 'ProperNounsTest' do
         end
       end
 
+      it 'should not apply trained proper nouns immediately before subscript or superscript content' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        trained_proper_nouns = proper_nouns.with_trained(['Eu vin Al e logo Al.'])
+
+        %w[subíndice superíndice].each do |mark|
+          text = "Al<#{mark}>5</#{mark}>Y<#{mark}>3</#{mark}>O<#{mark}>12</#{mark}>"
+
+          assert_equal [text], trained_proper_nouns.call(text)
+        end
+      end
+
       it 'should not treat an ordinary capitalized word before a full stop as an abbreviation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo Madrid. Galicia."
