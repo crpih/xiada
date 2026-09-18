@@ -28,15 +28,15 @@ class DatabaseWrapperTest < Minitest::Test
   def test_capitalized_emission_falls_back_without_mutating_the_input
     wrapper = build_wrapper(
       emissions: {
-        "infraestructuras" => [["Scfp", "infraestrutura", "", 2.0]],
+        "infraestruturas" => [["Scfp", "infraestrutura", "infraestrutura", 2.0]],
       }
     )
-    word = "Infraestructuras"
+    word = "Infraestruturas"
 
     result = wrapper.get_emissions_info(word, nil)
 
-    assert_equal [["Scfp", "infraestrutura", "", 2.0]], result
-    assert_equal "Infraestructuras", word
+    assert_equal [["Scfp", "infraestrutura", "infraestrutura", 2.0]], result
+    assert_equal "Infraestruturas", word
   end
 
   def test_fallback_is_used_by_the_full_emission_lookup_before_lemmatization

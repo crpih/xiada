@@ -81,6 +81,16 @@ class CapitalizationTest < Minitest::Test
     assert_equal token[:start] + token[:token].length - 1, token[:finish]
   end
 
+  def test_galician_corga_fallback_preserves_the_hyperlemma
+    text = @examples.fetch(1)
+    token = @tagger.tag_texts(@document_config, [text]).first.find { |entry| entry[:token] == 'Infraestruturas' }
+
+    assert_equal({ token: 'Infraestruturas', tag: 'Scfp', lemma: 'infraestrutura', hiperlemma: 'infraestrutura' },
+                 token.slice(:token, :tag, :lemma, :hiperlemma))
+    assert_equal text.index('Infraestruturas'), token[:start]
+    assert_equal token[:start] + token[:token].length - 1, token[:finish]
+  end
+
   private
 
   def selected_all_way_tokens(entries)

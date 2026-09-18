@@ -32,7 +32,13 @@ class Tag
 
   def add_lemma(lemma, hiperlemma)
     @lemmas[lemma] = true
-    @hiperlemmas[lemma] = hiperlemma
+    # Keep a hyperlemma already recovered from a lexical emission. Some
+    # alternative analyses for the same lemma carry a blank hyperlemma; they
+    # must not erase the useful value stored by the capitalization fallback.
+    current_hiperlemma = @hiperlemmas[lemma]
+    if current_hiperlemma.nil? || current_hiperlemma.empty?
+      @hiperlemmas[lemma] = hiperlemma
+    end
   end
 
   def replace_value(value)
