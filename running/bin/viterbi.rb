@@ -497,6 +497,62 @@ class Viterbi
     return window.reverse
   end
 
+  def next_backtracking_delta(full_window, problematic_token)
+    # Each element after a tag stores the ordered delta index used to reach
+    # that tag. If the closest predecessor has no suitable alternatives,
+    # continue towards the beginning of the path and rebuild from an earlier
+    # one. This is needed when alternative token branches only converge
+    # several positions later.
+    local_candidate = nil
+    preferred_candidate = nil
+    nearest_candidate_index = full_window.size - 2
+    earliest_candidate_index = [nearest_candidate_index - WINDOW_SIZE, 0].max
+    nearest_candidate_index.downto(earliest_candidate_index) do |candidate_index|
+      delta_index = full_window[candidate_index + 1][1]
+      next_delta_index = delta_index + 1
+      next_delta = full_window[candidate_index][0].ordered_deltas[next_delta_index]
+      next if next_delta == nil
+
+      previous_delta = next_delta.prev_delta
+      unless previous_delta == nil
+        different_token = !previous_delta.tag.token.equal?(full_window[candidate_index + 1][0].token)
+        candidate_data = [candidate_index, next_delta, next_delta_index, previous_delta, different_token]
+        local_candidate = candidate_data if candidate_index == nearest_candidate_index
+      end
+
+      next if preferred_candidate != nil
+      while (next_delta = full_window[candidate_index][0].ordered_deltas[next_delta_index]) != nil
+        previous_delta = next_delta.prev_delta
+        if previous_delta != nil &&
+           !previous_delta.tag.token.equal?(full_window[candidate_index + 1][0].token) &&
+           delta_path_contains_unsegmented_span?(previous_delta, problematic_token)
+          preferred_candidate = [candidate_index, next_delta, next_delta_index, previous_delta, true]
+          break
+        end
+        next_delta_index += 1
+      end
+    end
+
+    candidate = local_candidate || preferred_candidate
+    return nil if candidate == nil
+
+    candidate_index, next_delta, next_delta_index, previous_delta, = candidate
+    full_window.slice!(candidate_index + 1, full_window.size)
+    full_window << [previous_delta.tag, next_delta_index]
+    previous_delta
+  end
+
+  def delta_path_contains_unsegmented_span?(delta, token)
+    while delta != nil
+      candidate_token = delta.tag.token
+      same_span = candidate_token.from == token.from && candidate_token.to == token.to
+      unsegmented = candidate_token.text == candidate_token.get_unit
+      return true if candidate_token != token && same_span && unsegmented
+      delta = delta.prev_delta
+    end
+    false
+  end
+
   def back_way_build(last_delta, pruning_rules_enabled)
     full_window = Array.new
     element = Array.new
@@ -549,17 +605,8 @@ class Viterbi
         #window = convert_window_to_prunning_format(tags_window)
         #puts "ordered_deltas_size: #{full_window[full_window.size-2][0].ordered_deltas.size}"
         #puts "index:#{full_window[full_window.size-1][1]+1}"
-        prev_ordered_deltas = full_window[full_window.size - 2][0].ordered_deltas
-        prev_ordered_deltas_new_index = full_window[full_window.size - 1][1] + 1
-        if (prev_ordered_deltas[prev_ordered_deltas_new_index] != nil)
-          # STDERR.puts "There is another delta"
-          new_delta_for_problematic_tag = full_window[full_window.size - 2][0].ordered_deltas[full_window[full_window.size - 1][1] + 1].prev_delta
-          element = Array.new
-          element << new_delta_for_problematic_tag.tag
-          element << full_window[full_window.size - 1][1] + 1
-          #STDERR.puts "New element from delta"
-          full_window[full_window.size - 1] = element
-          #tags_window = update_window(full_window)
+        new_delta_for_problematic_tag = next_backtracking_delta(full_window, problematic_element[0].token)
+        if new_delta_for_problematic_tag != nil
           current_delta = new_delta_for_problematic_tag
           current_tag = current_delta.tag
         else
