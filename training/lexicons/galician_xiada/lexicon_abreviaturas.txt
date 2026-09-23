@@ -564,6 +564,7 @@ fec.	Za00	fec.		s
 fem.	Za00	fem.		s
 fest.	Za00	fest.		s
 fig.	Za00	fig.		s
+fig.	Zafs	fig.	fig.	s
 fon.	Za00	fon.		s
 fonol.	Za00	fonol.		s
 fr.	Za00	fr.		s
@@ -830,7 +831,7 @@ séc.	Za00	séc.		s
 símb.	Za00	símb.		s
 t.	Za00	t.		s
 t/	Za00	t/		s
-tel.	Za00	tel.		s
+tel.	Zams	tel.	telf.	s
 telfno.	Za00	telfno.		s
 teléf.	Za00	teléf.		s
 test.	Za00	test.		s
@@ -867,7 +868,8 @@ vers.	Za00	vers.		s
 vid.	Za00	vid.		s
 voc.	Za00	voc.		s
 vol.	Za00	vol.		s
-vs.	Za00	vs.		s
+vs	Za00	vs	vs.	n
+vs.	Za00	vs.	vs.	s
 vulg.	Za00	vulg.		s
 x.	Za00	x.		s
 x. p.	Za00	x. p.		s

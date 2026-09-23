@@ -41,6 +41,8 @@ A. A. A.	Zg00	A. A. A.		s
 A. A. A.	Zgma	A. A. A.		s
 A. A. A.	Zgmp	A. A. A.		s
 A. A. A.	Zgms	A. A. A.		s
+A. A. A. G.	Zg00	A. A. A. G.	AAAG	s
+A. A. A. G.	Zgfs	A. A. A. G.	AAAG	s
 A. A. E.	Zg00	A. A. E.		s
 A. A. E.	Zgma	A. A. E.		s
 A. A. E.	Zgmp	A. A. E.		s
@@ -86,6 +88,8 @@ A. B.	Zgfs	A. B.		s
 A. B.	Zgma	A. B.		s
 A. B.	Zgmp	A. B.		s
 A. B.	Zgms	A. B.		s
+A. B. A. V.	Zg00	A. B. A. V.	ABAV	s
+A. B. A. V.	Zgfs	A. B. A. V.	ABAV	s
 A. B. C.	Zg00	A. B. C.		s
 A. B. C.	Zgfp	A. B. C.		s
 A. B. C.	Zgfs	A. B. C.		s
@@ -111,6 +115,8 @@ A. B. S.	Zg00	A. B. S.		s
 A. B. S.	Zgma	A. B. S.		s
 A. B. S.	Zgmp	A. B. S.		s
 A. B. S.	Zgms	A. B. S.		s
+A. B. S. E.	Zg00	A. B. S. E.	ABSE	s
+A. B. S. E.	Zgfs	A. B. S. E.	ABSE	s
 A. B. T.	Zg00	A. B. T.		s
 A. B. T.	Zgma	A. B. T.		s
 A. B. T.	Zgmp	A. B. T.		s
@@ -345,6 +351,8 @@ A. E. S.	Zg00	A. E. S.		s
 A. E. S.	Zgms	A. E. S.		s
 A. E. T.	Zg00	A. E. T.		s
 A. E. T.	Zgfs	A. E. T.		s
+A. E. T. G.	Zg00	A. E. T. G.	AETG	s
+A. E. T. G.	Zgfs	A. E. T. G.	AETG	s
 A. E. T. I. N. A. P. E.	Zg00	A. E. T. I. N. A. P. E.		s
 A. E. T. I. N. A. P. E.	Zgfs	A. E. T. I. N. A. P. E.		s
 A. E. U. E.	Zg00	A. E. U. E.		s
@@ -416,12 +424,16 @@ A. G. A. L.	Zg00	A. G. A. L.		s
 A. G. A. L.	Zgfs	A. G. A. L.		s
 A. G. A. P. I.	Zg00	A. G. A. P. I.		s
 A. G. A. P. I.	Zgfs	A. G. A. P. I.		s
+A. G. A. S. O. L.	Zg00	A. G. A. S. O. L.	AGASOL	s
+A. G. A. S. O. L.	Zgfs	A. G. A. S. O. L.	AGASOL	s
 A. G. A. V.	Zg00	A. G. A. V.		s
 A. G. A. V.	Zgfs	A. G. A. V.		s
 A. G. C. E.	Zg00	A. G. C. E.		s
 A. G. C. E.	Zgfs	A. G. C. E.		s
 A. G. C. R.	Zg00	A. G. C. R.		s
 A. G. C. R.	Zgfs	A. G. C. R.		s
+A. G. E.	Zg00	A. G. E.	AGE	s
+A. G. E.	Zgfs	A. G. E.	AGE	s
 A. G. H.	Zg00	A. G. H.		s
 A. G. H.	Zgfs	A. G. H.		s
 A. G. I. P.	Zg00	A. G. I. P.		s
@@ -567,6 +579,8 @@ A. M. S.	Zgfp	A. M. S.		s
 A. M. S.	Zgfs	A. M. S.		s
 A. M. T. E. G. A.	Zg00	A. M. T. E. G. A.	AMTEGA	s
 A. M. T. E. G. A.	Zgfs	A. M. T. E. G. A.	AMTEGA	s
+A. M. T. I.	Zg00	A. M. T. I.	AMTI	s
+A. M. T. I.	Zgfs	A. M. T. I.	AMTI	s
 A. N. -. P. G.	Zg00	A. N. -. P. G.	AN-PG	s
 A. N. -. P. G.	Zgfs	A. N. -. P. G.	AN-PG	s
 A. N. A.	Zg00	A. N. A.		s
@@ -659,6 +673,8 @@ A. P. E. C.	Zg00	A. P. E. C.		s
 A. P. E. C.	Zgfs	A. P. E. C.		s
 A. P. E. T. I.	Zg00	A. P. E. T. I.		s
 A. P. E. T. I.	Zgfs	A. P. E. T. I.		s
+A. P. G.	Zg00	A. P. G.	APG	s
+A. P. G.	Zgfs	A. P. G.	APG	s
 A. P. I.	Zg00	A. P. I.		s
 A. P. I.	Zgaa	A. P. I.		s
 A. P. I.	Zgap	A. P. I.		s
@@ -954,6 +970,8 @@ A.A.A.	Zg00	A.A.A.		s
 A.A.A.	Zgma	A.A.A.		s
 A.A.A.	Zgmp	A.A.A.		s
 A.A.A.	Zgms	A.A.A.		s
+A.A.A.G.	Zg00	A.A.A.G.	AAAG	s
+A.A.A.G.	Zgfs	A.A.A.G.	AAAG	s
 A.A.E.	Zg00	A.A.E.		s
 A.A.E.	Zgma	A.A.E.		s
 A.A.E.	Zgmp	A.A.E.		s
@@ -999,6 +1017,8 @@ A.B.	Zgfs	A.B.		s
 A.B.	Zgma	A.B.		s
 A.B.	Zgmp	A.B.		s
 A.B.	Zgms	A.B.		s
+A.B.A.V.	Zg00	A.B.A.V.	ABAV	s
+A.B.A.V.	Zgfs	A.B.A.V.	ABAV	s
 A.B.C.	Zg00	A.B.C.		s
 A.B.C.	Zgfp	A.B.C.		s
 A.B.C.	Zgfs	A.B.C.		s
@@ -1024,6 +1044,8 @@ A.B.S.	Zg00	A.B.S.		s
 A.B.S.	Zgma	A.B.S.		s
 A.B.S.	Zgmp	A.B.S.		s
 A.B.S.	Zgms	A.B.S.		s
+A.B.S.E.	Zg00	A.B.S.E.	ABSE	s
+A.B.S.E.	Zgfs	A.B.S.E.	ABSE	s
 A.B.T.	Zg00	A.B.T.		s
 A.B.T.	Zgma	A.B.T.		s
 A.B.T.	Zgmp	A.B.T.		s
@@ -1258,6 +1280,8 @@ A.E.S.	Zg00	A.E.S.		s
 A.E.S.	Zgms	A.E.S.		s
 A.E.T.	Zg00	A.E.T.		s
 A.E.T.	Zgfs	A.E.T.		s
+A.E.T.G.	Zg00	A.E.T.G.	AETG	s
+A.E.T.G.	Zgfs	A.E.T.G.	AETG	s
 A.E.T.I.N.A.P.E.	Zg00	A.E.T.I.N.A.P.E.		s
 A.E.T.I.N.A.P.E.	Zgfs	A.E.T.I.N.A.P.E.		s
 A.E.U.E.	Zg00	A.E.U.E.		s
@@ -1329,12 +1353,16 @@ A.G.A.L.	Zg00	A.G.A.L.		s
 A.G.A.L.	Zgfs	A.G.A.L.		s
 A.G.A.P.I.	Zg00	A.G.A.P.I.		s
 A.G.A.P.I.	Zgfs	A.G.A.P.I.		s
+A.G.A.S.O.L.	Zg00	A.G.A.S.O.L.	AGASOL	s
+A.G.A.S.O.L.	Zgfs	A.G.A.S.O.L.	AGASOL	s
 A.G.A.V.	Zg00	A.G.A.V.		s
 A.G.A.V.	Zgfs	A.G.A.V.		s
 A.G.C.E.	Zg00	A.G.C.E.		s
 A.G.C.E.	Zgfs	A.G.C.E.		s
 A.G.C.R.	Zg00	A.G.C.R.		s
 A.G.C.R.	Zgfs	A.G.C.R.		s
+A.G.E.	Zg00	A.G.E.	AGE	s
+A.G.E.	Zgfs	A.G.E.	AGE	s
 A.G.H.	Zg00	A.G.H.		s
 A.G.H.	Zgfs	A.G.H.		s
 A.G.I.P.	Zg00	A.G.I.P.		s
@@ -1480,6 +1508,8 @@ A.M.S.	Zgfp	A.M.S.		s
 A.M.S.	Zgfs	A.M.S.		s
 A.M.T.E.G.A.	Zg00	A.M.T.E.G.A.	AMTEGA	s
 A.M.T.E.G.A.	Zgfs	A.M.T.E.G.A.	AMTEGA	s
+A.M.T.I.	Zg00	A.M.T.I.	AMTI	s
+A.M.T.I.	Zgfs	A.M.T.I.	AMTI	s
 A.N.-.P.G.	Zg00	A.N.-.P.G.	AN-PG	s
 A.N.-.P.G.	Zgfs	A.N.-.P.G.	AN-PG	s
 A.N.A.	Zg00	A.N.A.		s
@@ -1572,6 +1602,8 @@ A.P.E.C.	Zg00	A.P.E.C.		s
 A.P.E.C.	Zgfs	A.P.E.C.		s
 A.P.E.T.I.	Zg00	A.P.E.T.I.		s
 A.P.E.T.I.	Zgfs	A.P.E.T.I.		s
+A.P.G.	Zg00	A.P.G.	APG	s
+A.P.G.	Zgfs	A.P.G.	APG	s
 A.P.I.	Zg00	A.P.I.		s
 A.P.I.	Zgaa	A.P.I.		s
 A.P.I.	Zgap	A.P.I.		s
@@ -1869,6 +1901,8 @@ AAA	Zg00	AAA		s
 AAA	Zgma	AAA		s
 AAA	Zgmp	AAA		s
 AAA	Zgms	AAA		s
+AAAG	Zg00	AAAG	AAAG	s
+AAAG	Zgfs	AAAG	AAAG	s
 AAE	Zg00	AAE		s
 AAE	Zgma	AAE		s
 AAE	Zgmp	AAE		s
@@ -1918,6 +1952,8 @@ AB	Zgfs	AB		s
 AB	Zgma	AB		s
 AB	Zgmp	AB		s
 AB	Zgms	AB		s
+ABAV	Zg00	ABAV	ABAV	s
+ABAV	Zgfs	ABAV	ABAV	s
 ABC	Zg00	ABC		s
 ABC	Zgfp	ABC		s
 ABC	Zgfs	ABC		s
@@ -1943,6 +1979,8 @@ ABS	Zg00	ABS		s
 ABS	Zgma	ABS		s
 ABS	Zgmp	ABS		s
 ABS	Zgms	ABS		s
+ABSE	Zg00	ABSE	ABSE	s
+ABSE	Zgfs	ABSE	ABSE	s
 ABT	Zg00	ABT		s
 ABT	Zgma	ABT		s
 ABT	Zgmp	ABT		s
@@ -2177,6 +2215,8 @@ AES	Zg00	AES		s
 AES	Zgms	AES		s
 AET	Zg00	AET		s
 AET	Zgfs	AET		s
+AETG	Zg00	AETG	AETG	s
+AETG	Zgfs	AETG	AETG	s
 AETINAPE	Zg00	AETINAPE		s
 AETINAPE	Zgfs	AETINAPE		s
 AEUE	Zg00	AEUE		s
@@ -2248,12 +2288,16 @@ AGAL	Zg00	AGAL		s
 AGAL	Zgfs	AGAL		s
 AGAPI	Zg00	AGAPI		s
 AGAPI	Zgfs	AGAPI		s
+AGASOL	Zg00	AGASOL	AGASOL	s
+AGASOL	Zgfs	AGASOL	AGASOL	s
 AGAV	Zg00	AGAV		s
 AGAV	Zgfs	AGAV		s
 AGCE	Zg00	AGCE		s
 AGCE	Zgfs	AGCE		s
 AGCR	Zg00	AGCR		s
 AGCR	Zgfs	AGCR		s
+AGE	Zg00	AGE	AGE	s
+AGE	Zgfs	AGE	AGE	s
 AGH	Zg00	AGH		s
 AGH	Zgfs	AGH		s
 AGIP	Zg00	AGIP		s
@@ -2399,6 +2443,8 @@ AMS	Zgfp	AMS		s
 AMS	Zgfs	AMS		s
 AMTEGA	Zg00	AMTEGA	AMTEGA	s
 AMTEGA	Zgfs	AMTEGA	AMTEGA	s
+AMTI	Zg00	AMTI	AMTI	s
+AMTI	Zgfs	AMTI	AMTI	s
 AN-PG	Zg00	AN-PG	AN-PG	s
 AN-PG	Zgfs	AN-PG	AN-PG	s
 ANA	Zg00	ANA		s
@@ -2491,6 +2537,8 @@ APEC	Zg00	APEC		s
 APEC	Zgfs	APEC		s
 APETI	Zg00	APETI		s
 APETI	Zgfs	APETI		s
+APG	Zg00	APG	APG	s
+APG	Zgfs	APG	APG	s
 API	Zg00	API		s
 API	Zgaa	API		s
 API	Zgap	API		s
@@ -4250,6 +4298,8 @@ C. C. I.	Zgfs	C. C. I.		s
 C. C. I.	Zgms	C. C. I.		s
 C. C. I. T. T.	Zg00	C. C. I. T. T.		s
 C. C. I. T. T.	Zgms	C. C. I. T. T.		s
+C. C. N.	Zg00	C. C. N.	CCN	s
+C. C. N.	Zgms	C. C. N.	CCN	s
 C. C. N. U.	Zg00	C. C. N. U.		s
 C. C. N. U.	Zgfa	C. C. N. U.		s
 C. C. N. U.	Zgfp	C. C. N. U.		s
@@ -4317,6 +4367,8 @@ C. D. S. -. U. C.	Zg00	C. D. S. -. U. C.		s
 C. D. S. -. U. C.	Zgms	C. D. S. -. U. C.		s
 C. D. T.	Zg00	C. D. T.		s
 C. D. T.	Zgfs	C. D. T.		s
+C. D. T. I.	Zg00	C. D. T. I.	CDTI	s
+C. D. T. I.	Zgms	C. D. T. I.	CDTI	s
 C. D. U.	Zg00	C. D. U.		s
 C. D. U.	Zgfs	C. D. U.		s
 C. D. U.	Zgma	C. D. U.		s
@@ -4417,6 +4469,12 @@ C. E. N. I. D. E.	Zg00	C. E. N. I. D. E.		s
 C. E. N. I. D. E.	Zgms	C. E. N. I. D. E.		s
 C. E. N. I. M.	Zg00	C. E. N. I. M.		s
 C. E. N. I. M.	Zgms	C. E. N. I. M.		s
+C. E. O.	Zg00	C. E. O.	CEO	n
+C. E. O.	Zg00	C. E. O.	CEO	s
+C. E. O.	Zgas	C. E. O.	CEO	n
+C. E. O.	Zgfs	C. E. O.	CEO	n
+C. E. O.	Zgfs	C. E. O.	CEO	s
+C. E. O.	Zgms	C. E. O.	CEO	n
 C. E. O. E.	Zg00	C. E. O. E.		s
 C. E. O. E.	Zgfs	C. E. O. E.		s
 C. E. O. T. M. A.	Zg00	C. E. O. T. M. A.		s
@@ -4438,6 +4496,8 @@ C. E. R.	Zg00	C. E. R.		s
 C. E. R.	Zgfa	C. E. R.		s
 C. E. R.	Zgfp	C. E. R.		s
 C. E. R.	Zgfs	C. E. R.		s
+C. E. R. A.	Zg00	C. E. R. A.	CERA	s
+C. E. R. A.	Zgms	C. E. R. A.	CERA	s
 C. E. R. M. I.	Zg00	C. E. R. M. I.		s
 C. E. R. M. I.	Zgms	C. E. R. M. I.		s
 C. E. R. N.	Zg00	C. E. R. N.		s
@@ -4531,6 +4591,8 @@ C. H. O. P.	Zgfs	C. H. O. P.		s
 C. H. O. P.	Zgms	C. H. O. P.		s
 C. H. O. U.	Zg00	C. H. O. U.		s
 C. H. O. U.	Zgms	C. H. O. U.		s
+C. H. U. A. C.	Zg00	C. H. U. A. C.	CHUAC	s
+C. H. U. A. C.	Zgms	C. H. U. A. C.	CHUAC	s
 C. H. U. S.	Zg00	C. H. U. S.		s
 C. H. U. S.	Zgms	C. H. U. S.		s
 C. H. U. V. I.	Zg00	C. H. U. V. I.		s
@@ -4628,6 +4690,8 @@ C. I. M. A.	Zg00	C. I. M. A.		s
 C. I. M. A.	Zgfs	C. I. M. A.		s
 C. I. M. E.	Zg00	C. I. M. E.		s
 C. I. M. E.	Zgms	C. I. M. E.		s
+C. I. M. U. S.	Zg00	C. I. M. U. S.	CiMUS	s
+C. I. M. U. S.	Zgms	C. I. M. U. S.	CiMUS	s
 C. I. N.	Zg00	C. I. N.		s
 C. I. N.	Zgma	C. I. N.		s
 C. I. N.	Zgmp	C. I. N.		s
@@ -4665,11 +4729,15 @@ C. I. S. L.	Zg00	C. I. S. L.		s
 C. I. S. L.	Zgfs	C. I. S. L.		s
 C. I. S. N. A. L.	Zg00	C. I. S. N. A. L.		s
 C. I. S. N. A. L.	Zgfs	C. I. S. N. A. L.		s
+C. I. S. N. S.	Zg00	C. I. S. N. S.	CISNS	s
+C. I. S. N. S.	Zgms	C. I. S. N. S.	CISNS	s
 C. I. T. E.	Zg00	C. I. T. E.		s
 C. I. T. E.	Zgms	C. I. T. E.		s
 C. I. T. E. M. A.	Zg00	C. I. T. E. M. A.		s
 C. I. T. E. M. A.	Zgms	C. I. T. E. M. A.		s
 C. I. T. E. S. A.	Zg00	C. I. T. E. S. A.		s
+C. I. T. I. C.	Zg00	C. I. T. I. C.	CITIC	s
+C. I. T. I. C.	Zgms	C. I. T. I. C.	CITIC	s
 C. I. T. T.	Zg00	C. I. T. T.		s
 C. I. T. T.	Zgms	C. I. T. T.		s
 C. I. U. G.	Zg00	C. I. U. G.		s
@@ -4748,6 +4816,11 @@ C. N. I.	Zg00	C. N. I.		s
 C. N. I.	Zgms	C. N. I.		s
 C. N. I. O.	Zg00	C. N. I. O.		s
 C. N. I. O.	Zgms	C. N. I. O.		s
+C. N. L.	Zg00	C. N. L.	CNL	s
+C. N. L.	Zgfs	C. N. L.	CNL	s
+C. N. L.	Zgms	C. N. L.	CNL	s
+C. N. M. C.	Zg00	C. N. M. C.	CNMC	s
+C. N. M. C.	Zgfs	C. N. M. C.	CNMC	s
 C. N. M. T.	Zg00	C. N. M. T.		s
 C. N. M. T.	Zgfs	C. N. M. T.		s
 C. N. M. V.	Zg00	C. N. M. V.		s
@@ -4793,6 +4866,8 @@ C. O. D. E. C. A.	Zgfs	C. O. D. E. C. A.		s
 C. O. E.	Zg00	C. O. E.		s
 C. O. E.	Zgfp	C. O. E.		s
 C. O. E.	Zgms	C. O. E.		s
+C. O. E. T. G.	Zg00	C. O. E. T. G.	COETG	s
+C. O. E. T. G.	Zgms	C. O. E. T. G.	COETG	s
 C. O. G. A. M. I.	Zg00	C. O. G. A. M. I.		s
 C. O. G. A. M. I.	Zgfs	C. O. G. A. M. I.		s
 C. O. G. E. C. A.	Zg00	C. O. G. E. C. A.		s
@@ -4848,6 +4923,8 @@ C. O. T. O. P. V.	Zg00	C. O. T. O. P. V.		s
 C. O. T. O. P. V.	Zgfs	C. O. T. O. P. V.		s
 C. O. U.	Zg00	C. O. U.		s
 C. O. U.	Zgms	C. O. U.		s
+C. O. V. I. D. -. 1. 9.	Zg00	C. O. V. I. D. -. 1. 9.	covid	s
+C. O. V. I. D. -. 1. 9.	Zgfs	C. O. V. I. D. -. 1. 9.	covid	s
 C. P.	Zg00	C. P.		s
 C. P.	Zgma	C. P.		s
 C. P.	Zgmp	C. P.		s
@@ -4876,6 +4953,10 @@ C. P. E.	Zgfs	C. P. E.		s
 C. P. E.	Zgma	C. P. E.		s
 C. P. E.	Zgmp	C. P. E.		s
 C. P. E.	Zgms	C. P. E.		s
+C. P. E. I. G.	Zg00	C. P. E. I. G.	CPEIG	s
+C. P. E. I. G.	Zgms	C. P. E. I. G.	CPEIG	s
+C. P. E. T. I. G.	Zg00	C. P. E. T. I. G.	CPETIG	s
+C. P. E. T. I. G.	Zgms	C. P. E. T. I. G.	CPETIG	s
 C. P. G.	Zg00	C. P. G.		s
 C. P. G.	Zgfs	C. P. G.		s
 C. P. I.	Zg00	C. P. I.		s
@@ -4945,6 +5026,9 @@ C. R. E. S. T.	Zg00	C. R. E. S. T.		s
 C. R. E. S. T.	Zgfa	C. R. E. S. T.		s
 C. R. E. S. T.	Zgfp	C. R. E. S. T.		s
 C. R. E. S. T.	Zgfs	C. R. E. S. T.		s
+C. R. G.	Zg00	C. R. G.	CRG	s
+C. R. G.	Zgfs	C. R. G.	CRG	s
+C. R. G.	Zgms	C. R. G.	CRG	s
 C. R. M.	Zg00	C. R. M.		s
 C. R. M.	Zgfa	C. R. M.		s
 C. R. M.	Zgfp	C. R. M.		s
@@ -5069,6 +5153,14 @@ C. T. X.	Zg00	C. T. X.		s
 C. T. X.	Zgfa	C. T. X.		s
 C. T. X.	Zgfp	C. T. X.		s
 C. T. X.	Zgfs	C. T. X.		s
+C. U. B.	Zg00	C. U. B.	CUB	s
+C. U. B.	Zgma	C. U. B.	CUB	s
+C. U. B.	Zgmp	C. U. B.	CUB	s
+C. U. B.	Zgms	C. U. B.	CUB	s
+C. U. C.	Zg00	C. U. C.	CUC	s
+C. U. C.	Zgma	C. U. C.	CUC	s
+C. U. C.	Zgmp	C. U. C.	CUC	s
+C. U. C.	Zgms	C. U. C.	CUC	s
 C. U. M.	Zg00	C. U. M.		s
 C. U. M.	Zgfa	C. U. M.		s
 C. U. M.	Zgfp	C. U. M.		s
@@ -5077,6 +5169,10 @@ C. U. M. S.	Zg00	C. U. M. S.		s
 C. U. M. S.	Zgfa	C. U. M. S.		s
 C. U. M. S.	Zgfp	C. U. M. S.		s
 C. U. M. S.	Zgfs	C. U. M. S.		s
+C. U. P.	Zg00	C. U. P.	CUP	s
+C. U. P.	Zgfa	C. U. P.	CUP	s
+C. U. P.	Zgfp	C. U. P.	CUP	s
+C. U. P.	Zgfs	C. U. P.	CUP	s
 C. U. T.	Zg00	C. U. T.		s
 C. U. T.	Zgfs	C. U. T.		s
 C. V.	Zg00	C. V.		s
@@ -5132,6 +5228,10 @@ C. a. C. U.	Zg00	C. a. C. U.		s
 C. a. C. U.	Zgma	C. a. C. U.		s
 C. a. C. U.	Zgmp	C. a. C. U.		s
 C. a. C. U.	Zgms	C. a. C. U.		s
+C. e. M. I. T.	Zg00	C. e. M. I. T.	CeMIT	s
+C. e. M. I. T.	Zgma	C. e. M. I. T.	CeMIT	s
+C. e. M. I. T.	Zgmp	C. e. M. I. T.	CeMIT	s
+C. e. M. I. T.	Zgms	C. e. M. I. T.	CeMIT	s
 C. e. O.	Zg00	C. e. O.		s
 C. e. O.	Zgaa	C. e. O.		s
 C. e. O.	Zgap	C. e. O.		s
@@ -5150,6 +5250,10 @@ C. e. n. d. a. r.	Zg00	C. e. n. d. a. r.		s
 C. e. n. d. a. r.	Zgms	C. e. n. d. a. r.		s
 C. e. r. m. i.	Zg00	C. e. r. m. i.		s
 C. e. r. m. i.	Zgms	C. e. r. m. i.		s
+C. i. M. U. S.	Zg00	C. i. M. U. S.	CiMUS	s
+C. i. M. U. S.	Zgms	C. i. M. U. S.	CiMUS	s
+C. i. Q. U. S.	Zg00	C. i. Q. U. S.	CiQUS	s
+C. i. Q. U. S.	Zgms	C. i. Q. U. S.	CiQUS	s
 C. i. U.	Zg00	C. i. U.		s
 C. o. n. c. a. p. a.	Zg00	C. o. n. c. a. p. a.		s
 C. o. n. f. a. p. a.	Zg00	C. o. n. f. a. p. a.		s
@@ -5159,11 +5263,14 @@ C. r. P.	Zg00	C. r. P.		s
 C. r. P.	Zgfa	C. r. P.		s
 C. r. P.	Zgfp	C. r. P.		s
 C. r. P.	Zgfs	C. r. P.		s
+C. r. a. e. g. a.	Zg00	C. r. a. e. g. a.	Craega	s
+C. r. a. e. g. a.	Zgms	C. r. a. e. g. a.	Craega	s
 C. s. A.	Zg00	C. s. A.		s
 C. s. A.	Zgfa	C. s. A.		s
 C. s. A.	Zgfp	C. s. A.		s
 C. s. A.	Zgfs	C. s. A.		s
 C. s. c.	Zg00	C. s. c.		s
+C. x. G.	Zg00	C. x. G.	CxG	s
 C.A.	Zg00	C.A.		s
 C.A.	Zgfa	C.A.		s
 C.A.	Zgfp	C.A.		s
@@ -5300,6 +5407,8 @@ C.C.I.	Zgfs	C.C.I.		s
 C.C.I.	Zgms	C.C.I.		s
 C.C.I.T.T.	Zg00	C.C.I.T.T.		s
 C.C.I.T.T.	Zgms	C.C.I.T.T.		s
+C.C.N.	Zg00	C.C.N.	CCN	s
+C.C.N.	Zgms	C.C.N.	CCN	s
 C.C.N.U.	Zg00	C.C.N.U.		s
 C.C.N.U.	Zgfa	C.C.N.U.		s
 C.C.N.U.	Zgfp	C.C.N.U.		s
@@ -5367,6 +5476,8 @@ C.D.S.-.U.C.	Zg00	C.D.S.-.U.C.		s
 C.D.S.-.U.C.	Zgms	C.D.S.-.U.C.		s
 C.D.T.	Zg00	C.D.T.		s
 C.D.T.	Zgfs	C.D.T.		s
+C.D.T.I.	Zg00	C.D.T.I.	CDTI	s
+C.D.T.I.	Zgms	C.D.T.I.	CDTI	s
 C.D.U.	Zg00	C.D.U.		s
 C.D.U.	Zgfs	C.D.U.		s
 C.D.U.	Zgma	C.D.U.		s
@@ -5467,6 +5578,12 @@ C.E.N.I.D.E.	Zg00	C.E.N.I.D.E.		s
 C.E.N.I.D.E.	Zgms	C.E.N.I.D.E.		s
 C.E.N.I.M.	Zg00	C.E.N.I.M.		s
 C.E.N.I.M.	Zgms	C.E.N.I.M.		s
+C.E.O.	Zg00	C.E.O.	CEO	n
+C.E.O.	Zg00	C.E.O.	CEO	s
+C.E.O.	Zgas	C.E.O.	CEO	n
+C.E.O.	Zgfs	C.E.O.	CEO	n
+C.E.O.	Zgfs	C.E.O.	CEO	s
+C.E.O.	Zgms	C.E.O.	CEO	n
 C.E.O.E.	Zg00	C.E.O.E.		s
 C.E.O.E.	Zgfs	C.E.O.E.		s
 C.E.O.T.M.A.	Zg00	C.E.O.T.M.A.		s
@@ -5488,6 +5605,8 @@ C.E.R.	Zg00	C.E.R.		s
 C.E.R.	Zgfa	C.E.R.		s
 C.E.R.	Zgfp	C.E.R.		s
 C.E.R.	Zgfs	C.E.R.		s
+C.E.R.A.	Zg00	C.E.R.A.	CERA	s
+C.E.R.A.	Zgms	C.E.R.A.	CERA	s
 C.E.R.M.I.	Zg00	C.E.R.M.I.		s
 C.E.R.M.I.	Zgms	C.E.R.M.I.		s
 C.E.R.N.	Zg00	C.E.R.N.		s
@@ -5581,6 +5700,8 @@ C.H.O.P.	Zgfs	C.H.O.P.		s
 C.H.O.P.	Zgms	C.H.O.P.		s
 C.H.O.U.	Zg00	C.H.O.U.		s
 C.H.O.U.	Zgms	C.H.O.U.		s
+C.H.U.A.C.	Zg00	C.H.U.A.C.	CHUAC	s
+C.H.U.A.C.	Zgms	C.H.U.A.C.	CHUAC	s
 C.H.U.S.	Zg00	C.H.U.S.		s
 C.H.U.S.	Zgms	C.H.U.S.		s
 C.H.U.V.I.	Zg00	C.H.U.V.I.		s
@@ -5678,6 +5799,8 @@ C.I.M.A.	Zg00	C.I.M.A.		s
 C.I.M.A.	Zgfs	C.I.M.A.		s
 C.I.M.E.	Zg00	C.I.M.E.		s
 C.I.M.E.	Zgms	C.I.M.E.		s
+C.I.M.U.S.	Zg00	C.I.M.U.S.	CiMUS	s
+C.I.M.U.S.	Zgms	C.I.M.U.S.	CiMUS	s
 C.I.N.	Zg00	C.I.N.		s
 C.I.N.	Zgma	C.I.N.		s
 C.I.N.	Zgmp	C.I.N.		s
@@ -5715,11 +5838,15 @@ C.I.S.L.	Zg00	C.I.S.L.		s
 C.I.S.L.	Zgfs	C.I.S.L.		s
 C.I.S.N.A.L.	Zg00	C.I.S.N.A.L.		s
 C.I.S.N.A.L.	Zgfs	C.I.S.N.A.L.		s
+C.I.S.N.S.	Zg00	C.I.S.N.S.	CISNS	s
+C.I.S.N.S.	Zgms	C.I.S.N.S.	CISNS	s
 C.I.T.E.	Zg00	C.I.T.E.		s
 C.I.T.E.	Zgms	C.I.T.E.		s
 C.I.T.E.M.A.	Zg00	C.I.T.E.M.A.		s
 C.I.T.E.M.A.	Zgms	C.I.T.E.M.A.		s
 C.I.T.E.S.A.	Zg00	C.I.T.E.S.A.		s
+C.I.T.I.C.	Zg00	C.I.T.I.C.	CITIC	s
+C.I.T.I.C.	Zgms	C.I.T.I.C.	CITIC	s
 C.I.T.T.	Zg00	C.I.T.T.		s
 C.I.T.T.	Zgms	C.I.T.T.		s
 C.I.U.G.	Zg00	C.I.U.G.		s
@@ -5798,6 +5925,11 @@ C.N.I.	Zg00	C.N.I.		s
 C.N.I.	Zgms	C.N.I.		s
 C.N.I.O.	Zg00	C.N.I.O.		s
 C.N.I.O.	Zgms	C.N.I.O.		s
+C.N.L.	Zg00	C.N.L.	CNL	s
+C.N.L.	Zgfs	C.N.L.	CNL	s
+C.N.L.	Zgms	C.N.L.	CNL	s
+C.N.M.C.	Zg00	C.N.M.C.	CNMC	s
+C.N.M.C.	Zgfs	C.N.M.C.	CNMC	s
 C.N.M.T.	Zg00	C.N.M.T.		s
 C.N.M.T.	Zgfs	C.N.M.T.		s
 C.N.M.V.	Zg00	C.N.M.V.		s
@@ -5843,6 +5975,8 @@ C.O.D.E.C.A.	Zgfs	C.O.D.E.C.A.		s
 C.O.E.	Zg00	C.O.E.		s
 C.O.E.	Zgfp	C.O.E.		s
 C.O.E.	Zgms	C.O.E.		s
+C.O.E.T.G.	Zg00	C.O.E.T.G.	COETG	s
+C.O.E.T.G.	Zgms	C.O.E.T.G.	COETG	s
 C.O.G.A.M.I.	Zg00	C.O.G.A.M.I.		s
 C.O.G.A.M.I.	Zgfs	C.O.G.A.M.I.		s
 C.O.G.E.C.A.	Zg00	C.O.G.E.C.A.		s
@@ -5898,6 +6032,8 @@ C.O.T.O.P.V.	Zg00	C.O.T.O.P.V.		s
 C.O.T.O.P.V.	Zgfs	C.O.T.O.P.V.		s
 C.O.U.	Zg00	C.O.U.		s
 C.O.U.	Zgms	C.O.U.		s
+C.O.V.I.D.-.1.9.	Zg00	C.O.V.I.D.-.1.9.	covid	s
+C.O.V.I.D.-.1.9.	Zgfs	C.O.V.I.D.-.1.9.	covid	s
 C.P.	Zg00	C.P.		s
 C.P.	Zgma	C.P.		s
 C.P.	Zgmp	C.P.		s
@@ -5926,6 +6062,10 @@ C.P.E.	Zgfs	C.P.E.		s
 C.P.E.	Zgma	C.P.E.		s
 C.P.E.	Zgmp	C.P.E.		s
 C.P.E.	Zgms	C.P.E.		s
+C.P.E.I.G.	Zg00	C.P.E.I.G.	CPEIG	s
+C.P.E.I.G.	Zgms	C.P.E.I.G.	CPEIG	s
+C.P.E.T.I.G.	Zg00	C.P.E.T.I.G.	CPETIG	s
+C.P.E.T.I.G.	Zgms	C.P.E.T.I.G.	CPETIG	s
 C.P.G.	Zg00	C.P.G.		s
 C.P.G.	Zgfs	C.P.G.		s
 C.P.I.	Zg00	C.P.I.		s
@@ -5995,6 +6135,9 @@ C.R.E.S.T.	Zg00	C.R.E.S.T.		s
 C.R.E.S.T.	Zgfa	C.R.E.S.T.		s
 C.R.E.S.T.	Zgfp	C.R.E.S.T.		s
 C.R.E.S.T.	Zgfs	C.R.E.S.T.		s
+C.R.G.	Zg00	C.R.G.	CRG	s
+C.R.G.	Zgfs	C.R.G.	CRG	s
+C.R.G.	Zgms	C.R.G.	CRG	s
 C.R.M.	Zg00	C.R.M.		s
 C.R.M.	Zgfa	C.R.M.		s
 C.R.M.	Zgfp	C.R.M.		s
@@ -6119,6 +6262,14 @@ C.T.X.	Zg00	C.T.X.		s
 C.T.X.	Zgfa	C.T.X.		s
 C.T.X.	Zgfp	C.T.X.		s
 C.T.X.	Zgfs	C.T.X.		s
+C.U.B.	Zg00	C.U.B.	CUB	s
+C.U.B.	Zgma	C.U.B.	CUB	s
+C.U.B.	Zgmp	C.U.B.	CUB	s
+C.U.B.	Zgms	C.U.B.	CUB	s
+C.U.C.	Zg00	C.U.C.	CUC	s
+C.U.C.	Zgma	C.U.C.	CUC	s
+C.U.C.	Zgmp	C.U.C.	CUC	s
+C.U.C.	Zgms	C.U.C.	CUC	s
 C.U.M.	Zg00	C.U.M.		s
 C.U.M.	Zgfa	C.U.M.		s
 C.U.M.	Zgfp	C.U.M.		s
@@ -6127,6 +6278,10 @@ C.U.M.S.	Zg00	C.U.M.S.		s
 C.U.M.S.	Zgfa	C.U.M.S.		s
 C.U.M.S.	Zgfp	C.U.M.S.		s
 C.U.M.S.	Zgfs	C.U.M.S.		s
+C.U.P.	Zg00	C.U.P.	CUP	s
+C.U.P.	Zgfa	C.U.P.	CUP	s
+C.U.P.	Zgfp	C.U.P.	CUP	s
+C.U.P.	Zgfs	C.U.P.	CUP	s
 C.U.T.	Zg00	C.U.T.		s
 C.U.T.	Zgfs	C.U.T.		s
 C.V.	Zg00	C.V.		s
@@ -6182,6 +6337,10 @@ C.a.C.U.	Zg00	C.a.C.U.		s
 C.a.C.U.	Zgma	C.a.C.U.		s
 C.a.C.U.	Zgmp	C.a.C.U.		s
 C.a.C.U.	Zgms	C.a.C.U.		s
+C.e.M.I.T.	Zg00	C.e.M.I.T.	CeMIT	s
+C.e.M.I.T.	Zgma	C.e.M.I.T.	CeMIT	s
+C.e.M.I.T.	Zgmp	C.e.M.I.T.	CeMIT	s
+C.e.M.I.T.	Zgms	C.e.M.I.T.	CeMIT	s
 C.e.O.	Zg00	C.e.O.		s
 C.e.O.	Zgaa	C.e.O.		s
 C.e.O.	Zgap	C.e.O.		s
@@ -6200,6 +6359,10 @@ C.e.n.d.a.r.	Zg00	C.e.n.d.a.r.		s
 C.e.n.d.a.r.	Zgms	C.e.n.d.a.r.		s
 C.e.r.m.i.	Zg00	C.e.r.m.i.		s
 C.e.r.m.i.	Zgms	C.e.r.m.i.		s
+C.i.M.U.S.	Zg00	C.i.M.U.S.	CiMUS	s
+C.i.M.U.S.	Zgms	C.i.M.U.S.	CiMUS	s
+C.i.Q.U.S.	Zg00	C.i.Q.U.S.	CiQUS	s
+C.i.Q.U.S.	Zgms	C.i.Q.U.S.	CiQUS	s
 C.i.U.	Zg00	C.i.U.		s
 C.o.n.c.a.p.a.	Zg00	C.o.n.c.a.p.a.		s
 C.o.n.f.a.p.a.	Zg00	C.o.n.f.a.p.a.		s
@@ -6209,11 +6372,14 @@ C.r.P.	Zg00	C.r.P.		s
 C.r.P.	Zgfa	C.r.P.		s
 C.r.P.	Zgfp	C.r.P.		s
 C.r.P.	Zgfs	C.r.P.		s
+C.r.a.e.g.a.	Zg00	C.r.a.e.g.a.	Craega	s
+C.r.a.e.g.a.	Zgms	C.r.a.e.g.a.	Craega	s
 C.s.A.	Zg00	C.s.A.		s
 C.s.A.	Zgfa	C.s.A.		s
 C.s.A.	Zgfp	C.s.A.		s
 C.s.A.	Zgfs	C.s.A.		s
 C.s.c.	Zg00	C.s.c.		s
+C.x.G.	Zg00	C.x.G.	CxG	s
 CA	Zg00	CA		s
 CA	Zgfa	CA		s
 CA	Zgfp	CA		s
@@ -6380,6 +6546,8 @@ CCLL	Zg00	CCLL		s
 CCLL	Zgfp	CCLL		s
 CCMM	Zg00	CCMM		s
 CCMM	Zgfp	CCMM		s
+CCN	Zg00	CCN	CCN	s
+CCN	Zgms	CCN	CCN	s
 CCNU	Zg00	CCNU		s
 CCNU	Zgfa	CCNU		s
 CCNU	Zgfp	CCNU		s
@@ -6449,6 +6617,8 @@ CDS-UC	Zg00	CDS-UC		s
 CDS-UC	Zgms	CDS-UC		s
 CDT	Zg00	CDT		s
 CDT	Zgfs	CDT		s
+CDTI	Zg00	CDTI	CDTI	s
+CDTI	Zgms	CDTI	CDTI	s
 CDU	Zg00	CDU		s
 CDU	Zgfs	CDU		s
 CDU	Zgma	CDU		s
@@ -6549,6 +6719,12 @@ CENIDE	Zg00	CENIDE		s
 CENIDE	Zgms	CENIDE		s
 CENIM	Zg00	CENIM		s
 CENIM	Zgms	CENIM		s
+CEO	Zg00	CEO	CEO	n
+CEO	Zg00	CEO	CEO	s
+CEO	Zgas	CEO	CEO	n
+CEO	Zgfs	CEO	CEO	n
+CEO	Zgfs	CEO	CEO	s
+CEO	Zgms	CEO	CEO	n
 CEOE	Zg00	CEOE		s
 CEOE	Zgfs	CEOE		s
 CEOTMA	Zg00	CEOTMA		s
@@ -6570,6 +6746,8 @@ CER	Zg00	CER		s
 CER	Zgfa	CER		s
 CER	Zgfp	CER		s
 CER	Zgfs	CER		s
+CERA	Zg00	CERA	CERA	s
+CERA	Zgms	CERA	CERA	s
 CERMI	Zg00	CERMI		s
 CERMI	Zgms	CERMI		s
 CERN	Zg00	CERN		s
@@ -6663,6 +6841,8 @@ CHOP	Zgfs	CHOP		s
 CHOP	Zgms	CHOP		s
 CHOU	Zg00	CHOU		s
 CHOU	Zgms	CHOU		s
+CHUAC	Zg00	CHUAC	CHUAC	s
+CHUAC	Zgms	CHUAC	CHUAC	s
 CHUS	Zg00	CHUS		s
 CHUS	Zgms	CHUS		s
 CHUVI	Zg00	CHUVI		s
@@ -6760,6 +6940,8 @@ CIMA	Zg00	CIMA		s
 CIMA	Zgfs	CIMA		s
 CIME	Zg00	CIME		s
 CIME	Zgms	CIME		s
+CIMUS	Zg00	CIMUS	CiMUS	s
+CIMUS	Zgms	CIMUS	CiMUS	s
 CIN	Zg00	CIN		s
 CIN	Zgma	CIN		s
 CIN	Zgmp	CIN		s
@@ -6797,11 +6979,15 @@ CISL	Zg00	CISL		s
 CISL	Zgfs	CISL		s
 CISNAL	Zg00	CISNAL		s
 CISNAL	Zgfs	CISNAL		s
+CISNS	Zg00	CISNS	CISNS	s
+CISNS	Zgms	CISNS	CISNS	s
 CITE	Zg00	CITE		s
 CITE	Zgms	CITE		s
 CITEMA	Zg00	CITEMA		s
 CITEMA	Zgms	CITEMA		s
 CITESA	Zg00	CITESA		s
+CITIC	Zg00	CITIC	CITIC	s
+CITIC	Zgms	CITIC	CITIC	s
 CITT	Zg00	CITT		s
 CITT	Zgms	CITT		s
 CIUG	Zg00	CIUG		s
@@ -6880,6 +7066,11 @@ CNI	Zg00	CNI		s
 CNI	Zgms	CNI		s
 CNIO	Zg00	CNIO		s
 CNIO	Zgms	CNIO		s
+CNL	Zg00	CNL	CNL	s
+CNL	Zgfs	CNL	CNL	s
+CNL	Zgms	CNL	CNL	s
+CNMC	Zg00	CNMC	CNMC	s
+CNMC	Zgfs	CNMC	CNMC	s
 CNMT	Zg00	CNMT		s
 CNMT	Zgfs	CNMT		s
 CNMV	Zg00	CNMV		s
@@ -6925,6 +7116,8 @@ CODECA	Zgfs	CODECA		s
 COE	Zg00	COE		s
 COE	Zgfp	COE		s
 COE	Zgms	COE		s
+COETG	Zg00	COETG	COETG	s
+COETG	Zgms	COETG	COETG	s
 COGAMI	Zg00	COGAMI		s
 COGAMI	Zgfs	COGAMI		s
 COGECA	Zg00	COGECA		s
@@ -6980,6 +7173,8 @@ COTOPV	Zg00	COTOPV		s
 COTOPV	Zgfs	COTOPV		s
 COU	Zg00	COU		s
 COU	Zgms	COU		s
+COVID-19	Zg00	COVID-19	covid	s
+COVID-19	Zgfs	COVID-19	covid	s
 CP	Zg00	CP		s
 CP	Zgma	CP		s
 CP	Zgmp	CP		s
@@ -7008,6 +7203,10 @@ CPE	Zgfs	CPE		s
 CPE	Zgma	CPE		s
 CPE	Zgmp	CPE		s
 CPE	Zgms	CPE		s
+CPEIG	Zg00	CPEIG	CPEIG	s
+CPEIG	Zgms	CPEIG	CPEIG	s
+CPETIG	Zg00	CPETIG	CPETIG	s
+CPETIG	Zgms	CPETIG	CPETIG	s
 CPG	Zg00	CPG		s
 CPG	Zgfs	CPG		s
 CPI	Zg00	CPI		s
@@ -7077,6 +7276,9 @@ CREST	Zg00	CREST		s
 CREST	Zgfa	CREST		s
 CREST	Zgfp	CREST		s
 CREST	Zgfs	CREST		s
+CRG	Zg00	CRG	CRG	s
+CRG	Zgfs	CRG	CRG	s
+CRG	Zgms	CRG	CRG	s
 CRM	Zg00	CRM		s
 CRM	Zgfa	CRM		s
 CRM	Zgfp	CRM		s
@@ -7201,6 +7403,14 @@ CTX	Zg00	CTX		s
 CTX	Zgfa	CTX		s
 CTX	Zgfp	CTX		s
 CTX	Zgfs	CTX		s
+CUB	Zg00	CUB	CUB	s
+CUB	Zgma	CUB	CUB	s
+CUB	Zgmp	CUB	CUB	s
+CUB	Zgms	CUB	CUB	s
+CUC	Zg00	CUC	CUC	s
+CUC	Zgma	CUC	CUC	s
+CUC	Zgmp	CUC	CUC	s
+CUC	Zgms	CUC	CUC	s
 CUM	Zg00	CUM		s
 CUM	Zgfa	CUM		s
 CUM	Zgfp	CUM		s
@@ -7209,6 +7419,10 @@ CUMS	Zg00	CUMS		s
 CUMS	Zgfa	CUMS		s
 CUMS	Zgfp	CUMS		s
 CUMS	Zgfs	CUMS		s
+CUP	Zg00	CUP	CUP	s
+CUP	Zgfa	CUP	CUP	s
+CUP	Zgfp	CUP	CUP	s
+CUP	Zgfs	CUP	CUP	s
 CUT	Zg00	CUT		s
 CUT	Zgfs	CUT		s
 CV	Zg00	CV		s
@@ -7264,6 +7478,10 @@ CaCU	Zg00	CaCU		s
 CaCU	Zgma	CaCU		s
 CaCU	Zgmp	CaCU		s
 CaCU	Zgms	CaCU		s
+CeMIT	Zg00	CeMIT	CeMIT	s
+CeMIT	Zgma	CeMIT	CeMIT	s
+CeMIT	Zgmp	CeMIT	CeMIT	s
+CeMIT	Zgms	CeMIT	CeMIT	s
 CeO	Zg00	CeO		s
 CeO	Zgaa	CeO		s
 CeO	Zgap	CeO		s
@@ -7282,6 +7500,10 @@ Cendar	Zg00	Cendar		s
 Cendar	Zgms	Cendar		s
 Cermi	Zg00	Cermi		s
 Cermi	Zgms	Cermi		s
+CiMUS	Zg00	CiMUS	CiMUS	s
+CiMUS	Zgms	CiMUS	CiMUS	s
+CiQUS	Zg00	CiQUS	CiQUS	s
+CiQUS	Zgms	CiQUS	CiQUS	s
 CiU	Zg00	CiU		s
 Concapa	Zg00	Concapa		s
 Confapa	Zg00	Confapa		s
@@ -7291,11 +7513,14 @@ CrP	Zg00	CrP		s
 CrP	Zgfa	CrP		s
 CrP	Zgfp	CrP		s
 CrP	Zgfs	CrP		s
+Craega	Zg00	Craega	Craega	s
+Craega	Zgms	Craega	Craega	s
 CsA	Zg00	CsA		s
 CsA	Zgfa	CsA		s
 CsA	Zgfp	CsA		s
 CsA	Zgfs	CsA		s
 Csc	Zg00	Csc		s
+CxG	Zg00	CxG	CxG	s
 D. /. A.	Zg00	D. /. A.		s
 D. /. A.	Zgfa	D. /. A.		s
 D. /. A.	Zgfp	D. /. A.		s
@@ -7508,6 +7733,7 @@ D. I. X.	Zgfs	D. I. X.		s
 D. I. X.	Zgma	D. I. X.		s
 D. I. X.	Zgmp	D. I. X.		s
 D. I. X.	Zgms	D. I. X.		s
+D. I. Y.	Zg00	D. I. Y.	DIY	s
 D. J.	Zg00	D. J.		n
 D. J.	Zgma	D. J.		n
 D. J.	Zgmp	D. J.		n
@@ -7620,6 +7846,8 @@ D. O. P. A.	Zgmp	D. O. P. A.		s
 D. O. P. A.	Zgms	D. O. P. A.		s
 D. O. S.	Zg00	D. O. S.		s
 D. O. S.	Zgms	D. O. S.		s
+D. O. T.	Zg00	D. O. T.	DOT	s
+D. O. T.	Zgfp	D. O. T.	DOT	s
 D. P.	Zg00	D. P.		s
 D. P.	Zgfa	D. P.		s
 D. P.	Zgfp	D. P.		s
@@ -7966,6 +8194,7 @@ D.I.X.	Zgfs	D.I.X.		s
 D.I.X.	Zgma	D.I.X.		s
 D.I.X.	Zgmp	D.I.X.		s
 D.I.X.	Zgms	D.I.X.		s
+D.I.Y.	Zg00	D.I.Y.	DIY	s
 D.J.	Zg00	D.J.		n
 D.J.	Zgma	D.J.		n
 D.J.	Zgmp	D.J.		n
@@ -8078,6 +8307,8 @@ D.O.P.A.	Zgmp	D.O.P.A.		s
 D.O.P.A.	Zgms	D.O.P.A.		s
 D.O.S.	Zg00	D.O.S.		s
 D.O.S.	Zgms	D.O.S.		s
+D.O.T.	Zg00	D.O.T.	DOT	s
+D.O.T.	Zgfp	D.O.T.	DOT	s
 D.P.	Zg00	D.P.		s
 D.P.	Zgfa	D.P.		s
 D.P.	Zgfp	D.P.		s
@@ -8424,6 +8655,7 @@ DIX	Zgfs	DIX		s
 DIX	Zgma	DIX		s
 DIX	Zgmp	DIX		s
 DIX	Zgms	DIX		s
+DIY	Zg00	DIY	DIY	s
 DJ	Zg00	DJ		n
 DJ	Zgma	DJ		n
 DJ	Zgmp	DJ		n
@@ -8536,6 +8768,8 @@ DOPA	Zgmp	DOPA		s
 DOPA	Zgms	DOPA		s
 DOS	Zg00	DOS		s
 DOS	Zgms	DOS		s
+DOT	Zg00	DOT	DOT	s
+DOT	Zgfp	DOT	DOT	s
 DP	Zg00	DP		s
 DP	Zgfa	DP		s
 DP	Zgfp	DP		s
@@ -8775,6 +9009,10 @@ E. C. V.	Zg00	E. C. V.		s
 E. C. V.	Zgfa	E. C. V.		s
 E. C. V.	Zgfp	E. C. V.		s
 E. C. V.	Zgfs	E. C. V.		s
+E. D. A. R.	Zg00	E. D. A. R.	EDAR	s
+E. D. A. R.	Zgfa	E. D. A. R.	EDAR	s
+E. D. A. R.	Zgfp	E. D. A. R.	EDAR	s
+E. D. A. R.	Zgfs	E. D. A. R.	EDAR	s
 E. D. C.	Zg00	E. D. C.		s
 E. D. C.	Zgfs	E. D. C.		s
 E. D. I.	Zg00	E. D. I.		s
@@ -8920,6 +9158,8 @@ E. M.	Zgfs	E. M.		s
 E. M.	Zgma	E. M.		s
 E. M.	Zgmp	E. M.		s
 E. M.	Zgms	E. M.		s
+E. M. A.	Zg00	E. M. A.	EMA	s
+E. M. A.	Zgfs	E. M. A.	EMA	s
 E. M. G.	Zg00	E. M. G.		s
 E. M. G.	Zgfa	E. M. G.		s
 E. M. G.	Zgfp	E. M. G.		s
@@ -8944,6 +9184,7 @@ E. M. U. V. I. S. S. A.	Zg00	E. M. U. V. I. S. S. A.		s
 E. M. U. V. I. S. S. A.	Zgfs	E. M. U. V. I. S. S. A.		s
 E. M. V.	Zg00	E. M. V.		s
 E. M. V.	Zgfs	E. M. V.		s
+E. N.	Zg00	E. N.	EN	s
 E. N. -. M.	Zg00	E. N. -. M.		s
 E. N. -. M.	Zgfs	E. N. -. M.		s
 E. N. A.	Zg00	E. N. A.		s
@@ -9037,8 +9278,8 @@ E. R. E.	Zgmp	E. R. E.		s
 E. R. E.	Zgms	E. R. E.		s
 E. R. E. S.	Zg00	E. R. E.	ERE	n
 E. R. E. S.	Zgmp	E. R. E.	ERE	n
-E. R. E. s.	Zg00	E. R. E.	ERE	n
-E. R. E. s.	Zgmp	E. R. E.	ERE	n
+E. R. E. s.	Zg00	E. R. E.	ERE	s
+E. R. E. s.	Zgmp	E. R. E.	ERE	s
 E. R. G. A.	Zg00	E. R. G. A.		s
 E. R. G. A.	Zgmp	E. R. G. A.		s
 E. R. T. E.	Zg00	E. R. T. E.	ERTE	s
@@ -9064,6 +9305,8 @@ E. S. I. F.	Zg00	E. S. I. F.		s
 E. S. I. F.	Zgfs	E. S. I. F.		s
 E. S. O.	Zg00	E. S. O.		s
 E. S. O.	Zgfs	E. S. O.		s
+E. S. P.	Zg00	E. S. P.	ESP	s
+E. S. P.	Zgms	E. S. P.	ESP	s
 E. S. T.	Zg00	E. S. T.		s
 E. S. T.	Zgfs	E. S. T.		s
 E. S. V.	Zg00	E. S. V.		s
@@ -9074,6 +9317,10 @@ E. T.	Zg00	E. T.		s
 E. T.	Zgms	E. T.		s
 E. T. A.	Zg00	E. T. A.		s
 E. T. A.	Zgfs	E. T. A.		s
+E. T. A. P.	Zg00	E. T. A. P.	ETAP	s
+E. T. A. P.	Zgfa	E. T. A. P.	ETAP	s
+E. T. A. P.	Zgfp	E. T. A. P.	ETAP	s
+E. T. A. P.	Zgfs	E. T. A. P.	ETAP	s
 E. T. B.	Zg00	E. T. B.		s
 E. T. B.	Zgfs	E. T. B.		s
 E. T. B.	Zgma	E. T. B.		s
@@ -9174,6 +9421,7 @@ E. c. o. f. i. n.	Zg00	E. c. o. f. i. n.		s
 E. c. o. f. i. n.	Zgms	E. c. o. f. i. n.		s
 E. c. o. f. í. n.	Zg00	E. c. o. f. í. n.		s
 E. c. o. f. í. n.	Zgms	E. c. o. f. í. n.		s
+E. d. e. G.	Zg00	E. d. e. G.	EdeG	s
 E. g. a. n. e. t.	Zg00	E. g. a. n. e. t.		s
 E. l. n. o. s. a.	Zg00	E. l. n. o. s. a.		s
 E. n. c. e.	Zg00	E. n. c. e.		s
@@ -9273,6 +9521,10 @@ E.C.V.	Zg00	E.C.V.		s
 E.C.V.	Zgfa	E.C.V.		s
 E.C.V.	Zgfp	E.C.V.		s
 E.C.V.	Zgfs	E.C.V.		s
+E.D.A.R.	Zg00	E.D.A.R.	EDAR	s
+E.D.A.R.	Zgfa	E.D.A.R.	EDAR	s
+E.D.A.R.	Zgfp	E.D.A.R.	EDAR	s
+E.D.A.R.	Zgfs	E.D.A.R.	EDAR	s
 E.D.C.	Zg00	E.D.C.		s
 E.D.C.	Zgfs	E.D.C.		s
 E.D.I.	Zg00	E.D.I.		s
@@ -9411,6 +9663,8 @@ E.M.	Zgfs	E.M.		s
 E.M.	Zgma	E.M.		s
 E.M.	Zgmp	E.M.		s
 E.M.	Zgms	E.M.		s
+E.M.A.	Zg00	E.M.A.	EMA	s
+E.M.A.	Zgfs	E.M.A.	EMA	s
 E.M.G.	Zg00	E.M.G.		s
 E.M.G.	Zgfa	E.M.G.		s
 E.M.G.	Zgfp	E.M.G.		s
@@ -9435,6 +9689,7 @@ E.M.U.V.I.S.S.A.	Zg00	E.M.U.V.I.S.S.A.		s
 E.M.U.V.I.S.S.A.	Zgfs	E.M.U.V.I.S.S.A.		s
 E.M.V.	Zg00	E.M.V.		s
 E.M.V.	Zgfs	E.M.V.		s
+E.N.	Zg00	E.N.	EN	s
 E.N.-.M.	Zg00	E.N.-.M.		s
 E.N.-.M.	Zgfs	E.N.-.M.		s
 E.N.A.	Zg00	E.N.A.		s
@@ -9528,8 +9783,8 @@ E.R.E.	Zgmp	E.R.E.		s
 E.R.E.	Zgms	E.R.E.		s
 E.R.E.S.	Zg00	E.R.E.	ERE	n
 E.R.E.S.	Zgmp	E.R.E.	ERE	n
-E.R.E.s.	Zg00	E.R.E.	ERE	n
-E.R.E.s.	Zgmp	E.R.E.	ERE	n
+E.R.E.s.	Zg00	E.R.E.	ERE	s
+E.R.E.s.	Zgmp	E.R.E.	ERE	s
 E.R.G.A.	Zg00	E.R.G.A.		s
 E.R.G.A.	Zgmp	E.R.G.A.		s
 E.R.T.E.	Zg00	E.R.T.E.	ERTE	s
@@ -9555,6 +9810,8 @@ E.S.I.F.	Zg00	E.S.I.F.		s
 E.S.I.F.	Zgfs	E.S.I.F.		s
 E.S.O.	Zg00	E.S.O.		s
 E.S.O.	Zgfs	E.S.O.		s
+E.S.P.	Zg00	E.S.P.	ESP	s
+E.S.P.	Zgms	E.S.P.	ESP	s
 E.S.T.	Zg00	E.S.T.		s
 E.S.T.	Zgfs	E.S.T.		s
 E.S.V.	Zg00	E.S.V.		s
@@ -9565,6 +9822,10 @@ E.T.	Zg00	E.T.		s
 E.T.	Zgms	E.T.		s
 E.T.A.	Zg00	E.T.A.		s
 E.T.A.	Zgfs	E.T.A.		s
+E.T.A.P.	Zg00	E.T.A.P.	ETAP	s
+E.T.A.P.	Zgfa	E.T.A.P.	ETAP	s
+E.T.A.P.	Zgfp	E.T.A.P.	ETAP	s
+E.T.A.P.	Zgfs	E.T.A.P.	ETAP	s
 E.T.B.	Zg00	E.T.B.		s
 E.T.B.	Zgfs	E.T.B.		s
 E.T.B.	Zgma	E.T.B.		s
@@ -9665,6 +9926,7 @@ E.c.o.f.i.n.	Zg00	E.c.o.f.i.n.		s
 E.c.o.f.i.n.	Zgms	E.c.o.f.i.n.		s
 E.c.o.f.í.n.	Zg00	E.c.o.f.í.n.		s
 E.c.o.f.í.n.	Zgms	E.c.o.f.í.n.		s
+E.d.e.G.	Zg00	E.d.e.G.	EdeG	s
 E.g.a.n.e.t.	Zg00	E.g.a.n.e.t.		s
 E.l.n.o.s.a.	Zg00	E.l.n.o.s.a.		s
 E.n.c.e.	Zg00	E.n.c.e.		s
@@ -9764,6 +10026,10 @@ ECV	Zg00	ECV		s
 ECV	Zgfa	ECV		s
 ECV	Zgfp	ECV		s
 ECV	Zgfs	ECV		s
+EDAR	Zg00	EDAR	EDAR	s
+EDAR	Zgfa	EDAR	EDAR	s
+EDAR	Zgfp	EDAR	EDAR	s
+EDAR	Zgfs	EDAR	EDAR	s
 EDC	Zg00	EDC		s
 EDC	Zgfs	EDC		s
 EDI	Zg00	EDI		s
@@ -9922,6 +10188,8 @@ EM	Zgfs	EM		s
 EM	Zgma	EM		s
 EM	Zgmp	EM		s
 EM	Zgms	EM		s
+EMA	Zg00	EMA	EMA	s
+EMA	Zgfs	EMA	EMA	s
 EMG	Zg00	EMG		s
 EMG	Zgfa	EMG		s
 EMG	Zgfp	EMG		s
@@ -9946,6 +10214,7 @@ EMUVISSA	Zg00	EMUVISSA		s
 EMUVISSA	Zgfs	EMUVISSA		s
 EMV	Zg00	EMV		s
 EMV	Zgfs	EMV		s
+EN	Zg00	EN	EN	s
 EN-M	Zg00	EN-M		s
 EN-M	Zgfs	EN-M		s
 ENA	Zg00	ENA		s
@@ -10039,8 +10308,8 @@ ERE	Zgmp	ERE		s
 ERE	Zgms	ERE		s
 ERES	Zg00	ERE	ERE	n
 ERES	Zgmp	ERE	ERE	n
-EREs	Zg00	ERE	ERE	n
-EREs	Zgmp	ERE	ERE	n
+EREs	Zg00	ERE	ERE	s
+EREs	Zgmp	ERE	ERE	s
 ERGA	Zg00	ERGA		s
 ERGA	Zgmp	ERGA		s
 ERTE	Zg00	ERTE	ERTE	s
@@ -10066,6 +10335,8 @@ ESIF	Zg00	ESIF		s
 ESIF	Zgfs	ESIF		s
 ESO	Zg00	ESO		s
 ESO	Zgfs	ESO		s
+ESP	Zg00	ESP	ESP	s
+ESP	Zgms	ESP	ESP	s
 EST	Zg00	EST		s
 EST	Zgfs	EST		s
 ESV	Zg00	ESV		s
@@ -10076,6 +10347,10 @@ ET	Zg00	ET		s
 ET	Zgms	ET		s
 ETA	Zg00	ETA		s
 ETA	Zgfs	ETA		s
+ETAP	Zg00	ETAP	ETAP	s
+ETAP	Zgfa	ETAP	ETAP	s
+ETAP	Zgfp	ETAP	ETAP	s
+ETAP	Zgfs	ETAP	ETAP	s
 ETB	Zg00	ETB		s
 ETB	Zgfs	ETB		s
 ETB	Zgma	ETB		s
@@ -10178,6 +10453,7 @@ Ecofin	Zg00	Ecofin		s
 Ecofin	Zgms	Ecofin		s
 Ecofín	Zg00	Ecofín		s
 Ecofín	Zgms	Ecofín		s
+EdeG	Zg00	EdeG	EdeG	s
 Eganet	Zg00	Eganet		s
 Elnosa	Zg00	Elnosa		s
 Ence	Zg00	Ence		s
@@ -10217,6 +10493,8 @@ F. A. C. U. A.	Zg00	F. A. C. U. A.		s
 F. A. C. U. A.	Zgfs	F. A. C. U. A.		s
 F. A. D. E. M. G. A.	Zg00	F. A. D. E. M. G. A.		s
 F. A. D. E. M. G. A.	Zgfs	F. A. D. E. M. G. A.		s
+F. A. E. S.	Zg00	F. A. E. S.	FAES	s
+F. A. E. S.	Zgfs	F. A. E. S.	FAES	s
 F. A. G.	Zg00	F. A. G.		s
 F. A. G.	Zgfa	F. A. G.		s
 F. A. G.	Zgfp	F. A. G.		s
@@ -10325,6 +10603,9 @@ F. E. F.	Zgmp	F. E. F.		s
 F. E. F.	Zgms	F. E. F.		s
 F. E. F. N.	Zg00	F. E. F. N.		s
 F. E. F. N.	Zgfs	F. E. F. N.		s
+F. E. G.	Zg00	F. E. G.	FEG	s
+F. E. G.	Zgfs	F. E. G.	FEG	s
+F. E. G.	Zgms	F. E. G.	FEG	s
 F. E. G. A.	Zg00	F. E. G. A.		s
 F. E. G. A.	Zgms	F. E. G. A.		s
 F. E. G. A. E. X.	Zg00	F. E. G. A. E. X.		s
@@ -10375,6 +10656,8 @@ F. H.	Zgmp	F. H.		s
 F. H.	Zgms	F. H.		s
 F. H. E.	Zg00	F. H. E.		s
 F. H. E.	Zgfs	F. H. E.		s
+F. I. A.	Zg00	F. I. A.	FIA	s
+F. I. A.	Zgfs	F. I. A.	FIA	s
 F. I. A. A.	Zg00	F. I. A. A.		s
 F. I. A. A.	Zgfs	F. I. A. A.		s
 F. I. A. B.	Zg00	F. I. A. B.		s
@@ -10423,6 +10706,8 @@ F. I. N. S. A.	Zg00	F. I. N. S. A.		s
 F. I. N. S. A.	Zgfs	F. I. N. S. A.		s
 F. I. N. U. L.	Zg00	F. I. N. U. L.		s
 F. I. N. U. L.	Zgfs	F. I. N. U. L.		s
+F. I. O. T.	Zg00	F. I. O. T.	FIOT	s
+F. I. O. T.	Zgms	F. I. O. T.	FIOT	s
 F. I. P.	Zg00	F. I. P.		s
 F. I. P.	Zgms	F. I. P.		s
 F. I. R.	Zg00	F. I. R.		s
@@ -10619,12 +10904,16 @@ F. R. I.	Zg00	F. R. I.		s
 F. R. I.	Zgfa	F. R. I.		s
 F. R. I.	Zgfp	F. R. I.		s
 F. R. I.	Zgfs	F. R. I.		s
+F. R. O. B.	Zg00	F. R. O. B.	FROB	s
+F. R. O. B.	Zgms	F. R. O. B.	FROB	s
 F. R. O. L. I. N. A. T.	Zg00	F. R. O. L. I. N. A. T.		s
 F. R. O. L. I. N. A. T.	Zgfs	F. R. O. L. I. N. A. T.		s
 F. R. O. M.	Zg00	F. R. O. M.		s
 F. R. O. M.	Zgms	F. R. O. M.		s
 F. R. S.	Zg00	F. R. S.		s
 F. R. S.	Zgms	F. R. S.		s
+F. R. U. G. A.	Zg00	F. R. U. G. A.	FRUGA	s
+F. R. U. G. A.	Zgfs	F. R. U. G. A.	FRUGA	s
 F. S. C.	Zg00	F. S. C.		s
 F. S. C.	Zgfa	F. S. C.		s
 F. S. C.	Zgfp	F. S. C.		s
@@ -10735,6 +11024,8 @@ F.A.C.U.A.	Zg00	F.A.C.U.A.		s
 F.A.C.U.A.	Zgfs	F.A.C.U.A.		s
 F.A.D.E.M.G.A.	Zg00	F.A.D.E.M.G.A.		s
 F.A.D.E.M.G.A.	Zgfs	F.A.D.E.M.G.A.		s
+F.A.E.S.	Zg00	F.A.E.S.	FAES	s
+F.A.E.S.	Zgfs	F.A.E.S.	FAES	s
 F.A.G.	Zg00	F.A.G.		s
 F.A.G.	Zgfa	F.A.G.		s
 F.A.G.	Zgfp	F.A.G.		s
@@ -10843,6 +11134,9 @@ F.E.F.	Zgmp	F.E.F.		s
 F.E.F.	Zgms	F.E.F.		s
 F.E.F.N.	Zg00	F.E.F.N.		s
 F.E.F.N.	Zgfs	F.E.F.N.		s
+F.E.G.	Zg00	F.E.G.	FEG	s
+F.E.G.	Zgfs	F.E.G.	FEG	s
+F.E.G.	Zgms	F.E.G.	FEG	s
 F.E.G.A.	Zg00	F.E.G.A.		s
 F.E.G.A.	Zgms	F.E.G.A.		s
 F.E.G.A.E.X.	Zg00	F.E.G.A.E.X.		s
@@ -10893,6 +11187,8 @@ F.H.	Zgmp	F.H.		s
 F.H.	Zgms	F.H.		s
 F.H.E.	Zg00	F.H.E.		s
 F.H.E.	Zgfs	F.H.E.		s
+F.I.A.	Zg00	F.I.A.	FIA	s
+F.I.A.	Zgfs	F.I.A.	FIA	s
 F.I.A.A.	Zg00	F.I.A.A.		s
 F.I.A.A.	Zgfs	F.I.A.A.		s
 F.I.A.B.	Zg00	F.I.A.B.		s
@@ -10941,6 +11237,8 @@ F.I.N.S.A.	Zg00	F.I.N.S.A.		s
 F.I.N.S.A.	Zgfs	F.I.N.S.A.		s
 F.I.N.U.L.	Zg00	F.I.N.U.L.		s
 F.I.N.U.L.	Zgfs	F.I.N.U.L.		s
+F.I.O.T.	Zg00	F.I.O.T.	FIOT	s
+F.I.O.T.	Zgms	F.I.O.T.	FIOT	s
 F.I.P.	Zg00	F.I.P.		s
 F.I.P.	Zgms	F.I.P.		s
 F.I.R.	Zg00	F.I.R.		s
@@ -11137,12 +11435,16 @@ F.R.I.	Zg00	F.R.I.		s
 F.R.I.	Zgfa	F.R.I.		s
 F.R.I.	Zgfp	F.R.I.		s
 F.R.I.	Zgfs	F.R.I.		s
+F.R.O.B.	Zg00	F.R.O.B.	FROB	s
+F.R.O.B.	Zgms	F.R.O.B.	FROB	s
 F.R.O.L.I.N.A.T.	Zg00	F.R.O.L.I.N.A.T.		s
 F.R.O.L.I.N.A.T.	Zgfs	F.R.O.L.I.N.A.T.		s
 F.R.O.M.	Zg00	F.R.O.M.		s
 F.R.O.M.	Zgms	F.R.O.M.		s
 F.R.S.	Zg00	F.R.S.		s
 F.R.S.	Zgms	F.R.S.		s
+F.R.U.G.A.	Zg00	F.R.U.G.A.	FRUGA	s
+F.R.U.G.A.	Zgfs	F.R.U.G.A.	FRUGA	s
 F.S.C.	Zg00	F.S.C.		s
 F.S.C.	Zgfa	F.S.C.		s
 F.S.C.	Zgfp	F.S.C.		s
@@ -11253,6 +11555,8 @@ FACUA	Zg00	FACUA		s
 FACUA	Zgfs	FACUA		s
 FADEMGA	Zg00	FADEMGA		s
 FADEMGA	Zgfs	FADEMGA		s
+FAES	Zg00	FAES	FAES	s
+FAES	Zgfs	FAES	FAES	s
 FAG	Zg00	FAG		s
 FAG	Zgfa	FAG		s
 FAG	Zgfp	FAG		s
@@ -11361,6 +11665,9 @@ FEF	Zgmp	FEF		s
 FEF	Zgms	FEF		s
 FEFN	Zg00	FEFN		s
 FEFN	Zgfs	FEFN		s
+FEG	Zg00	FEG	FEG	s
+FEG	Zgfs	FEG	FEG	s
+FEG	Zgms	FEG	FEG	s
 FEGA	Zg00	FEGA		s
 FEGA	Zgms	FEGA		s
 FEGAEX	Zg00	FEGAEX		s
@@ -11435,6 +11742,8 @@ FH	Zgmp	FH		s
 FH	Zgms	FH		s
 FHE	Zg00	FHE		s
 FHE	Zgfs	FHE		s
+FIA	Zg00	FIA	FIA	s
+FIA	Zgfs	FIA	FIA	s
 FIAA	Zg00	FIAA		s
 FIAA	Zgfs	FIAA		s
 FIAB	Zg00	FIAB		s
@@ -11483,6 +11792,8 @@ FINSA	Zg00	FINSA		s
 FINSA	Zgfs	FINSA		s
 FINUL	Zg00	FINUL		s
 FINUL	Zgfs	FINUL		s
+FIOT	Zg00	FIOT	FIOT	s
+FIOT	Zgms	FIOT	FIOT	s
 FIP	Zg00	FIP		s
 FIP	Zgms	FIP		s
 FIR	Zg00	FIR		s
@@ -11679,12 +11990,16 @@ FRI	Zg00	FRI		s
 FRI	Zgfa	FRI		s
 FRI	Zgfp	FRI		s
 FRI	Zgfs	FRI		s
+FROB	Zg00	FROB	FROB	s
+FROB	Zgms	FROB	FROB	s
 FROLINAT	Zg00	FROLINAT		s
 FROLINAT	Zgfs	FROLINAT		s
 FROM	Zg00	FROM		s
 FROM	Zgms	FROM		s
 FRS	Zg00	FRS		s
 FRS	Zgms	FRS		s
+FRUGA	Zg00	FRUGA	FRUGA	s
+FRUGA	Zgfs	FRUGA	FRUGA	s
 FSC	Zg00	FSC		s
 FSC	Zgfa	FSC		s
 FSC	Zgfp	FSC		s
@@ -11822,6 +12137,8 @@ G. A. B. A.	Zgmp	G. A. B. A.		s
 G. A. B. A.	Zgms	G. A. B. A.		s
 G. A. E. I. G.	Zg00	G. A. E. I. G.		s
 G. A. E. I. G.	Zgfs	G. A. E. I. G.		s
+G. A. I. N.	Zg00	G. A. I. N.	GAIN	s
+G. A. I. N.	Zgfs	G. A. I. N.	GAIN	s
 G. A. L.	Zg00	G. A. L.		s
 G. A. L.	Zgmp	G. A. L.		s
 G. A. L. I. X.	Zg00	G. A. L. I. X.		s
@@ -11847,6 +12164,7 @@ G. B.	Zgfs	G. B.		s
 G. B.	Zgma	G. B.		s
 G. B.	Zgmp	G. B.		s
 G. B.	Zgms	G. B.		s
+G. C.	Zg00	G. C.	GC	s
 G. C. S.	Zg00	G. C. S.		s
 G. C. S.	Zgfa	G. C. S.		s
 G. C. S.	Zgfp	G. C. S.		s
@@ -12038,6 +12356,8 @@ G.A.B.A.	Zgmp	G.A.B.A.		s
 G.A.B.A.	Zgms	G.A.B.A.		s
 G.A.E.I.G.	Zg00	G.A.E.I.G.		s
 G.A.E.I.G.	Zgfs	G.A.E.I.G.		s
+G.A.I.N.	Zg00	G.A.I.N.	GAIN	s
+G.A.I.N.	Zgfs	G.A.I.N.	GAIN	s
 G.A.L.	Zg00	G.A.L.		s
 G.A.L.	Zgmp	G.A.L.		s
 G.A.L.I.X.	Zg00	G.A.L.I.X.		s
@@ -12063,6 +12383,7 @@ G.B.	Zgfs	G.B.		s
 G.B.	Zgma	G.B.		s
 G.B.	Zgmp	G.B.		s
 G.B.	Zgms	G.B.		s
+G.C.	Zg00	G.C.	GC	s
 G.C.S.	Zg00	G.C.S.		s
 G.C.S.	Zgfa	G.C.S.		s
 G.C.S.	Zgfp	G.C.S.		s
@@ -12244,6 +12565,8 @@ GABA	Zgmp	GABA		s
 GABA	Zgms	GABA		s
 GAEIG	Zg00	GAEIG		s
 GAEIG	Zgfs	GAEIG		s
+GAIN	Zg00	GAIN	GAIN	s
+GAIN	Zgfs	GAIN	GAIN	s
 GAL	Zg00	GAL		s
 GAL	Zgmp	GAL		s
 GALIX	Zg00	GALIX		s
@@ -12269,6 +12592,7 @@ GB	Zgfs	GB		s
 GB	Zgma	GB		s
 GB	Zgmp	GB		s
 GB	Zgms	GB		s
+GC	Zg00	GC	GC	s
 GCS	Zg00	GCS		s
 GCS	Zgfa	GCS		s
 GCS	Zgfp	GCS		s
@@ -12575,6 +12899,10 @@ H. D. L. -. C.	Zg00	H. D. L. -. C.		s
 H. D. L. -. C.	Zgma	H. D. L. -. C.		s
 H. D. L. -. C.	Zgmp	H. D. L. -. C.		s
 H. D. L. -. C.	Zgms	H. D. L. -. C.		s
+H. D. M. I.	Zg00	H. D. M. I.	HDMI	s
+H. D. M. I.	Zgas	H. D. M. I.	HDMI	s
+H. D. M. I.	Zgfs	H. D. M. I.	HDMI	s
+H. D. M. I.	Zgms	H. D. M. I.	HDMI	s
 H. D. T. V.	Zg00	H. D. T. V.		s
 H. D. T. V.	Zgfs	H. D. T. V.		s
 H. D. V. S.	Zg00	H. D. V. S.		s
@@ -12655,6 +12983,8 @@ H. P. B.	Zg00	H. P. B.		s
 H. P. B.	Zgfa	H. P. B.		s
 H. P. B.	Zgfp	H. P. B.		s
 H. P. B.	Zgfs	H. P. B.		s
+H. P. C.	Zg00	H. P. C.	HPC	s
+H. P. C.	Zgfs	H. P. C.	HPC	s
 H. P. E.	Zg00	H. P. E.		s
 H. P. E.	Zgma	H. P. E.		s
 H. P. E.	Zgmp	H. P. E.		s
@@ -12919,6 +13249,10 @@ H.D.L.-.C.	Zg00	H.D.L.-.C.		s
 H.D.L.-.C.	Zgma	H.D.L.-.C.		s
 H.D.L.-.C.	Zgmp	H.D.L.-.C.		s
 H.D.L.-.C.	Zgms	H.D.L.-.C.		s
+H.D.M.I.	Zg00	H.D.M.I.	HDMI	s
+H.D.M.I.	Zgas	H.D.M.I.	HDMI	s
+H.D.M.I.	Zgfs	H.D.M.I.	HDMI	s
+H.D.M.I.	Zgms	H.D.M.I.	HDMI	s
 H.D.T.V.	Zg00	H.D.T.V.		s
 H.D.T.V.	Zgfs	H.D.T.V.		s
 H.D.V.S.	Zg00	H.D.V.S.		s
@@ -12999,6 +13333,8 @@ H.P.B.	Zg00	H.P.B.		s
 H.P.B.	Zgfa	H.P.B.		s
 H.P.B.	Zgfp	H.P.B.		s
 H.P.B.	Zgfs	H.P.B.		s
+H.P.C.	Zg00	H.P.C.	HPC	s
+H.P.C.	Zgfs	H.P.C.	HPC	s
 H.P.E.	Zg00	H.P.E.		s
 H.P.E.	Zgma	H.P.E.		s
 H.P.E.	Zgmp	H.P.E.		s
@@ -13263,6 +13599,10 @@ HDL-C	Zg00	HDL-C		s
 HDL-C	Zgma	HDL-C		s
 HDL-C	Zgmp	HDL-C		s
 HDL-C	Zgms	HDL-C		s
+HDMI	Zg00	HDMI	HDMI	s
+HDMI	Zgas	HDMI	HDMI	s
+HDMI	Zgfs	HDMI	HDMI	s
+HDMI	Zgms	HDMI	HDMI	s
 HDTV	Zg00	HDTV		s
 HDTV	Zgfs	HDTV		s
 HDVS	Zg00	HDVS		s
@@ -13343,6 +13683,8 @@ HPB	Zg00	HPB		s
 HPB	Zgfa	HPB		s
 HPB	Zgfp	HPB		s
 HPB	Zgfs	HPB		s
+HPC	Zg00	HPC	HPC	s
+HPC	Zgfs	HPC	HPC	s
 HPE	Zg00	HPE		s
 HPE	Zgma	HPE		s
 HPE	Zgmp	HPE		s
@@ -13594,6 +13936,10 @@ I. C. R.	Zg00	I. C. R.		s
 I. C. R.	Zgms	I. C. R.		s
 I. C. T.	Zg00	I. C. T.		s
 I. C. T.	Zgms	I. C. T.		s
+I. C. T. S.	Zg00	I. C. T. S.	ICTS	s
+I. C. T. S.	Zgfa	I. C. T. S.	ICTS	s
+I. C. T. S.	Zgfp	I. C. T. S.	ICTS	s
+I. C. T. S.	Zgfs	I. C. T. S.	ICTS	s
 I. C. V.	Zg00	I. C. V.		s
 I. C. V.	Zgfa	I. C. V.		s
 I. C. V.	Zgfp	I. C. V.		s
@@ -13618,6 +13964,8 @@ I. D. E. G. A.	Zg00	I. D. E. G. A.		s
 I. D. E. G. A.	Zgms	I. D. E. G. A.		s
 I. D. I.	Zg00	I. D. I.		s
 I. D. I.	Zgms	I. D. I.		s
+I. D. I. S.	Zg00	I. D. I. S.	IDIS	s
+I. D. I. S.	Zgms	I. D. I. S.	IDIS	s
 I. D. O.	Zg00	I. D. O.		s
 I. D. O.	Zgms	I. D. O.		s
 I. D. V. C.	Zg00	I. D. V. C.		s
@@ -13686,6 +14034,8 @@ I. F. N.	Zgmp	I. F. N.		s
 I. F. N.	Zgms	I. F. N.		s
 I. F. O. P.	Zg00	I. F. O. P.		s
 I. F. O. P.	Zgms	I. F. O. P.		s
+I. F. O. R.	Zg00	I. F. O. R.	IFOR	s
+I. F. O. R.	Zgfs	I. F. O. R.	IFOR	s
 I. F. P.	Zg00	I. F. P.		s
 I. F. P.	Zgfa	I. F. P.		s
 I. F. P.	Zgfp	I. F. P.		s
@@ -13721,6 +14071,8 @@ I. G. F. -. 2.	Zg00	I. G. F. -. 2.		s
 I. G. F. -. 2.	Zgma	I. G. F. -. 2.		s
 I. G. F. -. 2.	Zgmp	I. G. F. -. 2.		s
 I. G. F. -. 2.	Zgms	I. G. F. -. 2.		s
+I. G. F. A. E.	Zg00	I. G. F. A. E.	IGFAE	s
+I. G. F. A. E.	Zgms	I. G. F. A. E.	IGFAE	s
 I. G. I. C.	Zg00	I. G. I. C.		s
 I. G. I. C.	Zgms	I. G. I. C.		s
 I. G. N.	Zg00	I. G. N.		s
@@ -13743,6 +14095,8 @@ I. I. C. A.	Zg00	I. I. C. A.		s
 I. I. C. A.	Zgms	I. I. C. A.		s
 I. I. E.	Zg00	I. I. E.		s
 I. I. E.	Zgms	I. I. E.		s
+I. I. M.	Zg00	I. I. M.	IIM	s
+I. I. M.	Zgms	I. I. M.	IIM	s
 I. I. P.	Zg00	I. I. P.		s
 I. I. P.	Zgms	I. I. P.		s
 I. J. F.	Zg00	I. J. F.		s
@@ -13758,10 +14112,16 @@ I. L. A.	Zg00	I. L. A.		s
 I. L. A.	Zgfs	I. L. A.		s
 I. L. A. G.	Zg00	I. L. A. G.		s
 I. L. A. G.	Zgms	I. L. A. G.		s
+I. L. E.	Zg00	I. L. E.	ILE	s
+I. L. E.	Zgfs	I. L. E.	ILE	s
 I. L. G.	Zg00	I. L. G.		s
 I. L. G.	Zgms	I. L. G.		s
 I. L. G. G.	Zg00	I. L. G. G.		s
 I. L. G. G.	Zgms	I. L. G. G.		s
+I. L. P.	Zg00	I. L. P.	ILP	s
+I. L. P.	Zgfa	I. L. P.	ILP	s
+I. L. P.	Zgfp	I. L. P.	ILP	s
+I. L. P.	Zgfs	I. L. P.	ILP	s
 I. L. T.	Zg00	I. L. T.		s
 I. L. T.	Zgfa	I. L. T.		s
 I. L. T.	Zgfp	I. L. T.		s
@@ -13814,6 +14174,8 @@ I. N. C.	Zg00	I. N. C.		s
 I. N. C.	Zgms	I. N. C.		s
 I. N. C. E.	Zg00	I. N. C. E.		s
 I. N. C. E.	Zgms	I. N. C. E.		s
+I. N. C. I. B. E.	Zg00	I. N. C. I. B. E.	INCIBE	s
+I. N. C. I. B. E.	Zgms	I. N. C. I. B. E.	INCIBE	s
 I. N. C. O. L. S. A.	Zg00	I. N. C. O. L. S. A.		s
 I. N. C. O. T. E. R. M.	Zg00	I. N. C. O. T. E. R. M.		s
 I. N. C. O. T. E. R. M.	Zgms	I. N. C. O. T. E. R. M.		s
@@ -13923,6 +14285,8 @@ I. P. C.	Zg00	I. P. C.		s
 I. P. C.	Zgms	I. P. C.		s
 I. P. C. A.	Zg00	I. P. C. A.		s
 I. P. C. A.	Zgms	I. P. C. A.		s
+I. P. C. C.	Zg00	I. P. C. C.	IPCC	s
+I. P. C. C.	Zgms	I. P. C. C.	IPCC	s
 I. P. C. E.	Zg00	I. P. C. E.		s
 I. P. C. E.	Zgms	I. P. C. E.		s
 I. P. C. H.	Zg00	I. P. C. H.		s
@@ -13939,6 +14303,8 @@ I. P. P. V.	Zgfa	I. P. P. V.		s
 I. P. P. V.	Zgfp	I. P. P. V.		s
 I. P. P. V.	Zgfs	I. P. P. V.		s
 I. P. P. V.	Zgms	I. P. P. V.		s
+I. P. R. E. M.	Zg00	I. P. R. E. M.	IPREM	s
+I. P. R. E. M.	Zgms	I. P. R. E. M.	IPREM	s
 I. P. R. I.	Zg00	I. P. R. I.		s
 I. P. R. I.	Zgms	I. P. R. I.		s
 I. P. S.	Zg00	I. P. S.		s
@@ -13958,9 +14324,11 @@ I. R. B. M.	Zgma	I. R. B. M.		s
 I. R. B. M.	Zgmp	I. R. B. M.		s
 I. R. B. M.	Zgms	I. R. B. M.		s
 I. R. C.	Zg00	I. R. C.		s
+I. R. C.	Zg00	I. R. C.	IRC	s
 I. R. C.	Zgfa	I. R. C.		s
 I. R. C.	Zgfp	I. R. C.		s
 I. R. C.	Zgfs	I. R. C.		s
+I. R. C.	Zgms	I. R. C.	IRC	s
 I. R. E. S. C. O.	Zg00	I. R. E. S. C. O.		s
 I. R. E. S. C. O.	Zgms	I. R. E. S. C. O.		s
 I. R. I. S.	Zg00	I. R. I. S.		s
@@ -14048,6 +14416,7 @@ I. U.	Zg00	I. U.		s
 I. U.	Zgfa	I. U.		s
 I. U.	Zgfp	I. U.		s
 I. U.	Zgfs	I. U.		s
+I. U. -. E. B.	Zg00	I. U. -. E. B.	IU-EB	s
 I. U. E.	Zg00	I. U. E.		s
 I. U. E.	Zgfa	I. U. E.		s
 I. U. E.	Zgfp	I. U. E.		s
@@ -14104,10 +14473,17 @@ I. g. a. p. e.	Zg00	I. g. a. p. e.		s
 I. g. a. p. e.	Zgms	I. g. a. p. e.		s
 I. m. s. e. r. s. o.	Zg00	I. m. s. e. r. s. o.		s
 I. m. s. e. r. s. o.	Zgms	I. m. s. e. r. s. o.		s
+I. n. c. i. b. e.	Zg00	I. n. c. i. b. e.	INCIBE	s
+I. n. c. i. b. e.	Zgms	I. n. c. i. b. e.	INCIBE	s
 I. n. e. g. a.	Zg00	I. n. e. g. a.		s
 I. n. e. g. a.	Zgms	I. n. e. g. a.		s
 I. n. v. e. r. c. o.	Zg00	I. n. v. e. r. c. o.		s
 I. n. v. e. r. c. o.	Zgfs	I. n. v. e. r. c. o.		s
+I. n. v. o. l. c. a. n.	Zg00	I. n. v. o. l. c. a. n.	Involcan	s
+I. n. v. o. l. c. a. n.	Zgms	I. n. v. o. l. c. a. n.	Involcan	s
+I. p. r. e. m.	Zg00	I. p. r. e. m.	IPREM	s
+I. p. r. e. m.	Zgms	I. p. r. e. m.	IPREM	s
+I. z. C. a.	Zg00	I. z. C. a.	IzCa	s
 I.+.D.	Zg00	I.+.D.		s
 I.+.D.	Zgms	I.+.D.		s
 I.+.D.+.I.	Zg00	I.+.D.+.I.		s
@@ -14224,6 +14600,10 @@ I.C.R.	Zg00	I.C.R.		s
 I.C.R.	Zgms	I.C.R.		s
 I.C.T.	Zg00	I.C.T.		s
 I.C.T.	Zgms	I.C.T.		s
+I.C.T.S.	Zg00	I.C.T.S.	ICTS	s
+I.C.T.S.	Zgfa	I.C.T.S.	ICTS	s
+I.C.T.S.	Zgfp	I.C.T.S.	ICTS	s
+I.C.T.S.	Zgfs	I.C.T.S.	ICTS	s
 I.C.V.	Zg00	I.C.V.		s
 I.C.V.	Zgfa	I.C.V.		s
 I.C.V.	Zgfp	I.C.V.		s
@@ -14248,6 +14628,8 @@ I.D.E.G.A.	Zg00	I.D.E.G.A.		s
 I.D.E.G.A.	Zgms	I.D.E.G.A.		s
 I.D.I.	Zg00	I.D.I.		s
 I.D.I.	Zgms	I.D.I.		s
+I.D.I.S.	Zg00	I.D.I.S.	IDIS	s
+I.D.I.S.	Zgms	I.D.I.S.	IDIS	s
 I.D.O.	Zg00	I.D.O.		s
 I.D.O.	Zgms	I.D.O.		s
 I.D.V.C.	Zg00	I.D.V.C.		s
@@ -14316,6 +14698,8 @@ I.F.N.	Zgmp	I.F.N.		s
 I.F.N.	Zgms	I.F.N.		s
 I.F.O.P.	Zg00	I.F.O.P.		s
 I.F.O.P.	Zgms	I.F.O.P.		s
+I.F.O.R.	Zg00	I.F.O.R.	IFOR	s
+I.F.O.R.	Zgfs	I.F.O.R.	IFOR	s
 I.F.P.	Zg00	I.F.P.		s
 I.F.P.	Zgfa	I.F.P.		s
 I.F.P.	Zgfp	I.F.P.		s
@@ -14351,6 +14735,8 @@ I.G.F.-.2.	Zg00	I.G.F.-.2.		s
 I.G.F.-.2.	Zgma	I.G.F.-.2.		s
 I.G.F.-.2.	Zgmp	I.G.F.-.2.		s
 I.G.F.-.2.	Zgms	I.G.F.-.2.		s
+I.G.F.A.E.	Zg00	I.G.F.A.E.	IGFAE	s
+I.G.F.A.E.	Zgms	I.G.F.A.E.	IGFAE	s
 I.G.I.C.	Zg00	I.G.I.C.		s
 I.G.I.C.	Zgms	I.G.I.C.		s
 I.G.N.	Zg00	I.G.N.		s
@@ -14373,6 +14759,8 @@ I.I.C.A.	Zg00	I.I.C.A.		s
 I.I.C.A.	Zgms	I.I.C.A.		s
 I.I.E.	Zg00	I.I.E.		s
 I.I.E.	Zgms	I.I.E.		s
+I.I.M.	Zg00	I.I.M.	IIM	s
+I.I.M.	Zgms	I.I.M.	IIM	s
 I.I.P.	Zg00	I.I.P.		s
 I.I.P.	Zgms	I.I.P.		s
 I.J.F.	Zg00	I.J.F.		s
@@ -14388,10 +14776,16 @@ I.L.A.	Zg00	I.L.A.		s
 I.L.A.	Zgfs	I.L.A.		s
 I.L.A.G.	Zg00	I.L.A.G.		s
 I.L.A.G.	Zgms	I.L.A.G.		s
+I.L.E.	Zg00	I.L.E.	ILE	s
+I.L.E.	Zgfs	I.L.E.	ILE	s
 I.L.G.	Zg00	I.L.G.		s
 I.L.G.	Zgms	I.L.G.		s
 I.L.G.G.	Zg00	I.L.G.G.		s
 I.L.G.G.	Zgms	I.L.G.G.		s
+I.L.P.	Zg00	I.L.P.	ILP	s
+I.L.P.	Zgfa	I.L.P.	ILP	s
+I.L.P.	Zgfp	I.L.P.	ILP	s
+I.L.P.	Zgfs	I.L.P.	ILP	s
 I.L.T.	Zg00	I.L.T.		s
 I.L.T.	Zgfa	I.L.T.		s
 I.L.T.	Zgfp	I.L.T.		s
@@ -14444,6 +14838,8 @@ I.N.C.	Zg00	I.N.C.		s
 I.N.C.	Zgms	I.N.C.		s
 I.N.C.E.	Zg00	I.N.C.E.		s
 I.N.C.E.	Zgms	I.N.C.E.		s
+I.N.C.I.B.E.	Zg00	I.N.C.I.B.E.	INCIBE	s
+I.N.C.I.B.E.	Zgms	I.N.C.I.B.E.	INCIBE	s
 I.N.C.O.L.S.A.	Zg00	I.N.C.O.L.S.A.		s
 I.N.C.O.T.E.R.M.	Zg00	I.N.C.O.T.E.R.M.		s
 I.N.C.O.T.E.R.M.	Zgms	I.N.C.O.T.E.R.M.		s
@@ -14553,6 +14949,8 @@ I.P.C.	Zg00	I.P.C.		s
 I.P.C.	Zgms	I.P.C.		s
 I.P.C.A.	Zg00	I.P.C.A.		s
 I.P.C.A.	Zgms	I.P.C.A.		s
+I.P.C.C.	Zg00	I.P.C.C.	IPCC	s
+I.P.C.C.	Zgms	I.P.C.C.	IPCC	s
 I.P.C.E.	Zg00	I.P.C.E.		s
 I.P.C.E.	Zgms	I.P.C.E.		s
 I.P.C.H.	Zg00	I.P.C.H.		s
@@ -14569,6 +14967,8 @@ I.P.P.V.	Zgfa	I.P.P.V.		s
 I.P.P.V.	Zgfp	I.P.P.V.		s
 I.P.P.V.	Zgfs	I.P.P.V.		s
 I.P.P.V.	Zgms	I.P.P.V.		s
+I.P.R.E.M.	Zg00	I.P.R.E.M.	IPREM	s
+I.P.R.E.M.	Zgms	I.P.R.E.M.	IPREM	s
 I.P.R.I.	Zg00	I.P.R.I.		s
 I.P.R.I.	Zgms	I.P.R.I.		s
 I.P.S.	Zg00	I.P.S.		s
@@ -14588,9 +14988,11 @@ I.R.B.M.	Zgma	I.R.B.M.		s
 I.R.B.M.	Zgmp	I.R.B.M.		s
 I.R.B.M.	Zgms	I.R.B.M.		s
 I.R.C.	Zg00	I.R.C.		s
+I.R.C.	Zg00	I.R.C.	IRC	s
 I.R.C.	Zgfa	I.R.C.		s
 I.R.C.	Zgfp	I.R.C.		s
 I.R.C.	Zgfs	I.R.C.		s
+I.R.C.	Zgms	I.R.C.	IRC	s
 I.R.E.S.C.O.	Zg00	I.R.E.S.C.O.		s
 I.R.E.S.C.O.	Zgms	I.R.E.S.C.O.		s
 I.R.I.S.	Zg00	I.R.I.S.		s
@@ -14678,6 +15080,7 @@ I.U.	Zg00	I.U.		s
 I.U.	Zgfa	I.U.		s
 I.U.	Zgfp	I.U.		s
 I.U.	Zgfs	I.U.		s
+I.U.-.E.B.	Zg00	I.U.-.E.B.	IU-EB	s
 I.U.E.	Zg00	I.U.E.		s
 I.U.E.	Zgfa	I.U.E.		s
 I.U.E.	Zgfp	I.U.E.		s
@@ -14734,10 +15137,17 @@ I.g.a.p.e.	Zg00	I.g.a.p.e.		s
 I.g.a.p.e.	Zgms	I.g.a.p.e.		s
 I.m.s.e.r.s.o.	Zg00	I.m.s.e.r.s.o.		s
 I.m.s.e.r.s.o.	Zgms	I.m.s.e.r.s.o.		s
+I.n.c.i.b.e.	Zg00	I.n.c.i.b.e.	INCIBE	s
+I.n.c.i.b.e.	Zgms	I.n.c.i.b.e.	INCIBE	s
 I.n.e.g.a.	Zg00	I.n.e.g.a.		s
 I.n.e.g.a.	Zgms	I.n.e.g.a.		s
 I.n.v.e.r.c.o.	Zg00	I.n.v.e.r.c.o.		s
 I.n.v.e.r.c.o.	Zgfs	I.n.v.e.r.c.o.		s
+I.n.v.o.l.c.a.n.	Zg00	I.n.v.o.l.c.a.n.	Involcan	s
+I.n.v.o.l.c.a.n.	Zgms	I.n.v.o.l.c.a.n.	Involcan	s
+I.p.r.e.m.	Zg00	I.p.r.e.m.	IPREM	s
+I.p.r.e.m.	Zgms	I.p.r.e.m.	IPREM	s
+I.z.C.a.	Zg00	I.z.C.a.	IzCa	s
 I/O	Zg00	I/O		s
 I/O	Zgfs	I/O		s
 IA	Zg00	IA		s
@@ -14848,6 +15258,10 @@ ICR	Zg00	ICR		s
 ICR	Zgms	ICR		s
 ICT	Zg00	ICT		s
 ICT	Zgms	ICT		s
+ICTS	Zg00	ICTS	ICTS	s
+ICTS	Zgfa	ICTS	ICTS	s
+ICTS	Zgfp	ICTS	ICTS	s
+ICTS	Zgfs	ICTS	ICTS	s
 ICV	Zg00	ICV		s
 ICV	Zgfa	ICV		s
 ICV	Zgfp	ICV		s
@@ -14872,6 +15286,8 @@ IDEGA	Zg00	IDEGA		s
 IDEGA	Zgms	IDEGA		s
 IDI	Zg00	IDI		s
 IDI	Zgms	IDI		s
+IDIS	Zg00	IDIS	IDIS	s
+IDIS	Zgms	IDIS	IDIS	s
 IDO	Zg00	IDO		s
 IDO	Zgms	IDO		s
 IDVC	Zg00	IDVC		s
@@ -14940,6 +15356,8 @@ IFN	Zgmp	IFN		s
 IFN	Zgms	IFN		s
 IFOP	Zg00	IFOP		s
 IFOP	Zgms	IFOP		s
+IFOR	Zg00	IFOR	IFOR	s
+IFOR	Zgfs	IFOR	IFOR	s
 IFP	Zg00	IFP		s
 IFP	Zgfa	IFP		s
 IFP	Zgfp	IFP		s
@@ -14975,6 +15393,8 @@ IGF-2	Zg00	IGF-2		s
 IGF-2	Zgma	IGF-2		s
 IGF-2	Zgmp	IGF-2		s
 IGF-2	Zgms	IGF-2		s
+IGFAE	Zg00	IGFAE	IGFAE	s
+IGFAE	Zgms	IGFAE	IGFAE	s
 IGIC	Zg00	IGIC		s
 IGIC	Zgms	IGIC		s
 IGN	Zg00	IGN		s
@@ -14997,6 +15417,8 @@ IICA	Zg00	IICA		s
 IICA	Zgms	IICA		s
 IIE	Zg00	IIE		s
 IIE	Zgms	IIE		s
+IIM	Zg00	IIM	IIM	s
+IIM	Zgms	IIM	IIM	s
 IIP	Zg00	IIP		s
 IIP	Zgms	IIP		s
 IJF	Zg00	IJF		s
@@ -15012,10 +15434,16 @@ ILA	Zg00	ILA		s
 ILA	Zgfs	ILA		s
 ILAG	Zg00	ILAG		s
 ILAG	Zgms	ILAG		s
+ILE	Zg00	ILE	ILE	s
+ILE	Zgfs	ILE	ILE	s
 ILG	Zg00	ILG		s
 ILG	Zgms	ILG		s
 ILGG	Zg00	ILGG		s
 ILGG	Zgms	ILGG		s
+ILP	Zg00	ILP	ILP	s
+ILP	Zgfa	ILP	ILP	s
+ILP	Zgfp	ILP	ILP	s
+ILP	Zgfs	ILP	ILP	s
 ILT	Zg00	ILT		s
 ILT	Zgfa	ILT		s
 ILT	Zgfp	ILT		s
@@ -15068,6 +15496,8 @@ INC	Zg00	INC		s
 INC	Zgms	INC		s
 INCE	Zg00	INCE		s
 INCE	Zgms	INCE		s
+INCIBE	Zg00	INCIBE	INCIBE	s
+INCIBE	Zgms	INCIBE	INCIBE	s
 INCOLSA	Zg00	INCOLSA		s
 INCOTERM	Zg00	INCOTERM		s
 INCOTERM	Zgms	INCOTERM		s
@@ -15177,6 +15607,8 @@ IPC	Zg00	IPC		s
 IPC	Zgms	IPC		s
 IPCA	Zg00	IPCA		s
 IPCA	Zgms	IPCA		s
+IPCC	Zg00	IPCC	IPCC	s
+IPCC	Zgms	IPCC	IPCC	s
 IPCE	Zg00	IPCE		s
 IPCE	Zgms	IPCE		s
 IPCH	Zg00	IPCH		s
@@ -15193,6 +15625,8 @@ IPPV	Zgfa	IPPV		s
 IPPV	Zgfp	IPPV		s
 IPPV	Zgfs	IPPV		s
 IPPV	Zgms	IPPV		s
+IPREM	Zg00	IPREM	IPREM	s
+IPREM	Zgms	IPREM	IPREM	s
 IPRI	Zg00	IPRI		s
 IPRI	Zgms	IPRI		s
 IPS	Zg00	IPS		s
@@ -15212,9 +15646,11 @@ IRBM	Zgma	IRBM		s
 IRBM	Zgmp	IRBM		s
 IRBM	Zgms	IRBM		s
 IRC	Zg00	IRC		s
+IRC	Zg00	IRC	IRC	s
 IRC	Zgfa	IRC		s
 IRC	Zgfp	IRC		s
 IRC	Zgfs	IRC		s
+IRC	Zgms	IRC	IRC	s
 IRESCO	Zg00	IRESCO		s
 IRESCO	Zgms	IRESCO		s
 IRIS	Zg00	IRIS		s
@@ -15302,6 +15738,7 @@ IU	Zg00	IU		s
 IU	Zgfa	IU		s
 IU	Zgfp	IU		s
 IU	Zgfs	IU		s
+IU-EB	Zg00	IU-EB	IU-EB	s
 IUE	Zg00	IUE		s
 IUE	Zgfa	IUE		s
 IUE	Zgfp	IUE		s
@@ -15358,14 +15795,27 @@ Igape	Zg00	Igape		s
 Igape	Zgms	Igape		s
 Imserso	Zg00	Imserso		s
 Imserso	Zgms	Imserso		s
+Incibe	Zg00	Incibe	INCIBE	s
+Incibe	Zgms	Incibe	INCIBE	s
 Inega	Zg00	Inega		s
 Inega	Zgms	Inega		s
 Inverco	Zg00	Inverco		s
 Inverco	Zgfs	Inverco		s
+Involcan	Zg00	Involcan	Involcan	s
+Involcan	Zgms	Involcan	Involcan	s
+Iprem	Zg00	Iprem	IPREM	s
+Iprem	Zgms	Iprem	IPREM	s
+IzCa	Zg00	IzCa	IzCa	s
+J. A. E.	Zg00	J. A. E.	JAE	s
+J. A. E.	Zgfs	J. A. E.	JAE	s
+J. A. I.	Zg00	J. A. I.	JAI	s
+J. A. I.	Zgfp	J. A. I.	JAI	s
 J. C.	Zg00	J. C.		s
 J. C.	Zgma	J. C.		s
 J. C.	Zgmp	J. C.		s
 J. C.	Zgms	J. C.		s
+J. E. D. N.	Zg00	J. E. D. N.	JEDN	n
+J. E. D. N.	Zgms	J. E. D. N.	JEDN	n
 J. E. M. S. A.	Zg00	J. E. M. S. A.		s
 J. E. N.	Zg00	J. E. N.		s
 J. E. N.	Zgfs	J. E. N.		s
@@ -15375,10 +15825,16 @@ J. O. N. S.	Zg00	J. O. N. S.		s
 J. O. N. S.	Zgfp	J. O. N. S.		s
 J. S. E.	Zg00	J. S. E.		s
 J. S. E.	Zgfp	J. S. E.		s
+J.A.E.	Zg00	J.A.E.	JAE	s
+J.A.E.	Zgfs	J.A.E.	JAE	s
+J.A.I.	Zg00	J.A.I.	JAI	s
+J.A.I.	Zgfp	J.A.I.	JAI	s
 J.C.	Zg00	J.C.		s
 J.C.	Zgma	J.C.		s
 J.C.	Zgmp	J.C.		s
 J.C.	Zgms	J.C.		s
+J.E.D.N.	Zg00	J.E.D.N.	JEDN	n
+J.E.D.N.	Zgms	J.E.D.N.	JEDN	n
 J.E.M.S.A.	Zg00	J.E.M.S.A.		s
 J.E.N.	Zg00	J.E.N.		s
 J.E.N.	Zgfs	J.E.N.		s
@@ -15388,10 +15844,16 @@ J.O.N.S.	Zg00	J.O.N.S.		s
 J.O.N.S.	Zgfp	J.O.N.S.		s
 J.S.E.	Zg00	J.S.E.		s
 J.S.E.	Zgfp	J.S.E.		s
+JAE	Zg00	JAE	JAE	s
+JAE	Zgfs	JAE	JAE	s
+JAI	Zg00	JAI	JAI	s
+JAI	Zgfp	JAI	JAI	s
 JC	Zg00	JC		s
 JC	Zgma	JC		s
 JC	Zgmp	JC		s
 JC	Zgms	JC		s
+JEDN	Zg00	JEDN	JEDN	n
+JEDN	Zgms	JEDN	JEDN	n
 JEMSA	Zg00	JEMSA		s
 JEN	Zg00	JEN		s
 JEN	Zgfs	JEN		s
@@ -15426,6 +15888,7 @@ K. K. K.	Zg00	K. K. K.		s
 K. K. K.	Zgms	K. K. K.		s
 K. P. A.	Zg00	K. P. A.		s
 K. P. A.	Zgfs	K. P. A.		s
+K. S. A.	Zg00	K. S. A.	KSA	s
 K.A.S.	Zg00	K.A.S.		s
 K.A.S.	Zgfs	K.A.S.		s
 K.C.O.	Zg00	K.C.O.		s
@@ -15443,6 +15906,7 @@ K.K.K.	Zg00	K.K.K.		s
 K.K.K.	Zgms	K.K.K.		s
 K.P.A.	Zg00	K.P.A.		s
 K.P.A.	Zgfs	K.P.A.		s
+K.S.A.	Zg00	K.S.A.	KSA	s
 KAS	Zg00	KAS		s
 KAS	Zgfs	KAS		s
 KCO	Zg00	KCO		s
@@ -15460,6 +15924,7 @@ KKK	Zg00	KKK		s
 KKK	Zgms	KKK		s
 KPA	Zg00	KPA		s
 KPA	Zgfs	KPA		s
+KSA	Zg00	KSA	KSA	s
 L	Zg00	L		s
 L	Zgaa	L		s
 L	Zgap	L		s
@@ -15667,10 +16132,16 @@ L. H.	Zg00	L. H.		s
 L. H.	Zgfa	L. H.		s
 L. H.	Zgfp	L. H.		s
 L. H.	Zgfs	L. H.		s
+L. H. C.	Zg00	L. H. C.	LHC	s
+L. H. C.	Zgms	L. H. C.	LHC	s
 L. H. R. H.	Zg00	L. H. R. H.		s
 L. H. R. H.	Zgfa	L. H. R. H.		s
 L. H. R. H.	Zgfp	L. H. R. H.		s
 L. H. R. H.	Zgfs	L. H. R. H.		s
+L. I. A.	Zg00	L. I. A.	LIA	s
+L. I. A.	Zgfa	L. I. A.	LIA	s
+L. I. A.	Zgfp	L. I. A.	LIA	s
+L. I. A.	Zgfs	L. I. A.	LIA	s
 L. I. B. O. R.	Zg00	L. I. B. O. R.		s
 L. I. B. O. R.	Zgms	L. I. B. O. R.		s
 L. I. C.	Zg00	L. I. C.		s
@@ -15754,6 +16225,8 @@ L. O. H. A. P. A.	Zg00	L. O. H. A. P. A.		s
 L. O. H. A. P. A.	Zgfs	L. O. H. A. P. A.		s
 L. O. L. S.	Zg00	L. O. L. S.		s
 L. O. L. S.	Zgfs	L. O. L. S.		s
+L. O. M. C. E.	Zg00	L. O. M. C. E.	LOMCE	s
+L. O. M. C. E.	Zgfs	L. O. M. C. E.	LOMCE	s
 L. O. M. G.	Zg00	L. O. M. G.		s
 L. O. M. G.	Zgms	L. O. M. G.		s
 L. O. P. S.	Zg00	L. O. P. S.		s
@@ -15762,6 +16235,8 @@ L. O. P. X.	Zg00	L. O. P. X.		s
 L. O. P. X.	Zgfs	L. O. P. X.		s
 L. O. S. G. A.	Zg00	L. O. S. G. A.		s
 L. O. S. G. A.	Zgfs	L. O. S. G. A.		s
+L. O. S. U.	Zg00	L. O. S. U.	LOSU	s
+L. O. S. U.	Zgfs	L. O. S. U.	LOSU	s
 L. O. T.	Zg00	L. O. T.		s
 L. O. T.	Zgfs	L. O. T.		s
 L. O. T. C.	Zg00	L. O. T. C.		s
@@ -15796,6 +16271,8 @@ L. P. E. C.	Zg00	L. P. E. C.		s
 L. P. E. C.	Zgfs	L. P. E. C.		s
 L. P. H. E.	Zg00	L. P. H. E.		s
 L. P. H. E.	Zgfs	L. P. H. E.		s
+L. P. I.	Zg00	L. P. I.	LPI	s
+L. P. I.	Zgfs	L. P. I.	LPI	s
 L. P. M.	Zg00	L. P. M.		s
 L. P. M.	Zgmp	L. P. M.		s
 L. P. N. I.	Zg00	L. P. N. I.		s
@@ -16039,10 +16516,16 @@ L.H.	Zg00	L.H.		s
 L.H.	Zgfa	L.H.		s
 L.H.	Zgfp	L.H.		s
 L.H.	Zgfs	L.H.		s
+L.H.C.	Zg00	L.H.C.	LHC	s
+L.H.C.	Zgms	L.H.C.	LHC	s
 L.H.R.H.	Zg00	L.H.R.H.		s
 L.H.R.H.	Zgfa	L.H.R.H.		s
 L.H.R.H.	Zgfp	L.H.R.H.		s
 L.H.R.H.	Zgfs	L.H.R.H.		s
+L.I.A.	Zg00	L.I.A.	LIA	s
+L.I.A.	Zgfa	L.I.A.	LIA	s
+L.I.A.	Zgfp	L.I.A.	LIA	s
+L.I.A.	Zgfs	L.I.A.	LIA	s
 L.I.B.O.R.	Zg00	L.I.B.O.R.		s
 L.I.B.O.R.	Zgms	L.I.B.O.R.		s
 L.I.C.	Zg00	L.I.C.		s
@@ -16126,6 +16609,8 @@ L.O.H.A.P.A.	Zg00	L.O.H.A.P.A.		s
 L.O.H.A.P.A.	Zgfs	L.O.H.A.P.A.		s
 L.O.L.S.	Zg00	L.O.L.S.		s
 L.O.L.S.	Zgfs	L.O.L.S.		s
+L.O.M.C.E.	Zg00	L.O.M.C.E.	LOMCE	s
+L.O.M.C.E.	Zgfs	L.O.M.C.E.	LOMCE	s
 L.O.M.G.	Zg00	L.O.M.G.		s
 L.O.M.G.	Zgms	L.O.M.G.		s
 L.O.P.S.	Zg00	L.O.P.S.		s
@@ -16134,6 +16619,8 @@ L.O.P.X.	Zg00	L.O.P.X.		s
 L.O.P.X.	Zgfs	L.O.P.X.		s
 L.O.S.G.A.	Zg00	L.O.S.G.A.		s
 L.O.S.G.A.	Zgfs	L.O.S.G.A.		s
+L.O.S.U.	Zg00	L.O.S.U.	LOSU	s
+L.O.S.U.	Zgfs	L.O.S.U.	LOSU	s
 L.O.T.	Zg00	L.O.T.		s
 L.O.T.	Zgfs	L.O.T.		s
 L.O.T.C.	Zg00	L.O.T.C.		s
@@ -16168,6 +16655,8 @@ L.P.E.C.	Zg00	L.P.E.C.		s
 L.P.E.C.	Zgfs	L.P.E.C.		s
 L.P.H.E.	Zg00	L.P.H.E.		s
 L.P.H.E.	Zgfs	L.P.H.E.		s
+L.P.I.	Zg00	L.P.I.	LPI	s
+L.P.I.	Zgfs	L.P.I.	LPI	s
 L.P.M.	Zg00	L.P.M.		s
 L.P.M.	Zgmp	L.P.M.		s
 L.P.N.I.	Zg00	L.P.N.I.		s
@@ -16407,10 +16896,16 @@ LH	Zg00	LH		s
 LH	Zgfa	LH		s
 LH	Zgfp	LH		s
 LH	Zgfs	LH		s
+LHC	Zg00	LHC	LHC	s
+LHC	Zgms	LHC	LHC	s
 LHRH	Zg00	LHRH		s
 LHRH	Zgfa	LHRH		s
 LHRH	Zgfp	LHRH		s
 LHRH	Zgfs	LHRH		s
+LIA	Zg00	LIA	LIA	s
+LIA	Zgfa	LIA	LIA	s
+LIA	Zgfp	LIA	LIA	s
+LIA	Zgfs	LIA	LIA	s
 LIBOR	Zg00	LIBOR		s
 LIBOR	Zgms	LIBOR		s
 LIC	Zg00	LIC		s
@@ -16494,6 +16989,8 @@ LOHAPA	Zg00	LOHAPA		s
 LOHAPA	Zgfs	LOHAPA		s
 LOLS	Zg00	LOLS		s
 LOLS	Zgfs	LOLS		s
+LOMCE	Zg00	LOMCE	LOMCE	s
+LOMCE	Zgfs	LOMCE	LOMCE	s
 LOMG	Zg00	LOMG		s
 LOMG	Zgms	LOMG		s
 LOPS	Zg00	LOPS		s
@@ -16502,6 +16999,8 @@ LOPX	Zg00	LOPX		s
 LOPX	Zgfs	LOPX		s
 LOSGA	Zg00	LOSGA		s
 LOSGA	Zgfs	LOSGA		s
+LOSU	Zg00	LOSU	LOSU	s
+LOSU	Zgfs	LOSU	LOSU	s
 LOT	Zg00	LOT		s
 LOT	Zgfs	LOT		s
 LOTC	Zg00	LOTC		s
@@ -16536,6 +17035,8 @@ LPEC	Zg00	LPEC		s
 LPEC	Zgfs	LPEC		s
 LPHE	Zg00	LPHE		s
 LPHE	Zgfs	LPHE		s
+LPI	Zg00	LPI	LPI	s
+LPI	Zgfs	LPI	LPI	s
 LPM	Zg00	LPM		s
 LPM	Zgmp	LPM		s
 LPNI	Zg00	LPNI		s
@@ -16644,6 +17145,8 @@ M. A. P.	Zgfs	M. A. P.		s
 M. A. P.	Zgma	M. A. P.		s
 M. A. P.	Zgmp	M. A. P.		s
 M. A. P.	Zgms	M. A. P.		s
+M. A. P. A.	Zg00	M. A. P. A.	MAPA	s
+M. A. P. A.	Zgms	M. A. P. A.	MAPA	s
 M. A. P. A. I.	Zg00	M. A. P. A. I.		s
 M. A. P. A. I.	Zgms	M. A. P. A. I.		s
 M. A. P. A. M.	Zg00	M. A. P. A. M.		s
@@ -16805,6 +17308,8 @@ M. G.	Zgfs	M. G.		s
 M. G.	Zgma	M. G.		s
 M. G.	Zgmp	M. G.		s
 M. G.	Zgms	M. G.		s
+M. G. S. M.	Zg00	M. G. S. M.	MGSM	s
+M. G. S. M.	Zgms	M. G. S. M.	MGSM	s
 M. H.	Zg00	M. H.		s
 M. H.	Zgfa	M. H.		s
 M. H.	Zgfp	M. H.		s
@@ -16891,6 +17396,10 @@ M. M. R. B. M.	Zg00	M. M. R. B. M.		s
 M. M. R. B. M.	Zgma	M. M. R. B. M.		s
 M. M. R. B. M.	Zgmp	M. M. R. B. M.		s
 M. M. R. B. M.	Zgms	M. M. R. B. M.		s
+M. M. S.	Zg00	M. M. S.	MMS	s
+M. M. S.	Zgma	M. M. S.	MMS	s
+M. M. S.	Zgmp	M. M. S.	MMS	s
+M. M. S.	Zgms	M. M. S.	MMS	s
 M. M. S. E.	Zg00	M. M. S. E.		s
 M. M. S. E.	Zgmp	M. M. S. E.		s
 M. M. S. S.	Zg00	M. M. S. S.		s
@@ -17018,6 +17527,8 @@ M. T. S.	Zg00	M. T. S.		s
 M. T. S.	Zgfa	M. T. S.		s
 M. T. S.	Zgfp	M. T. S.		s
 M. T. S.	Zgfs	M. T. S.		s
+M. T. V.	Zg00	M. T. V.	MTV	s
+M. T. V.	Zgfs	M. T. V.	MTV	s
 M. T. X.	Zg00	M. T. X.		s
 M. T. X.	Zgfa	M. T. X.		s
 M. T. X.	Zgfp	M. T. X.		s
@@ -17063,6 +17574,8 @@ M. e. r. c. o. s. u. r.	Zg00	M. e. r. c. o. s. u. r.		s
 M. e. r. c. o. s. u. r.	Zgms	M. e. r. c. o. s. u. r.		s
 M. i. b. o. r.	Zg00	M. i. b. o. r.		s
 M. i. b. o. r.	Zgms	M. i. b. o. r.		s
+M. i. t. e. c. o.	Zg00	M. i. t. e. c. o.	Miteco	s
+M. i. t. e. c. o.	Zgms	M. i. t. e. c. o.	Miteco	s
 M. í. b. o. r.	Zg00	M. í. b. o. r.		s
 M. í. b. o. r.	Zgms	M. í. b. o. r.		s
 M.A.A.F.	Zg00	M.A.A.F.		s
@@ -17099,6 +17612,8 @@ M.A.P.	Zgfs	M.A.P.		s
 M.A.P.	Zgma	M.A.P.		s
 M.A.P.	Zgmp	M.A.P.		s
 M.A.P.	Zgms	M.A.P.		s
+M.A.P.A.	Zg00	M.A.P.A.	MAPA	s
+M.A.P.A.	Zgms	M.A.P.A.	MAPA	s
 M.A.P.A.I.	Zg00	M.A.P.A.I.		s
 M.A.P.A.I.	Zgms	M.A.P.A.I.		s
 M.A.P.A.M.	Zg00	M.A.P.A.M.		s
@@ -17260,6 +17775,8 @@ M.G.	Zgfs	M.G.		s
 M.G.	Zgma	M.G.		s
 M.G.	Zgmp	M.G.		s
 M.G.	Zgms	M.G.		s
+M.G.S.M.	Zg00	M.G.S.M.	MGSM	s
+M.G.S.M.	Zgms	M.G.S.M.	MGSM	s
 M.H.	Zg00	M.H.		s
 M.H.	Zgfa	M.H.		s
 M.H.	Zgfp	M.H.		s
@@ -17346,6 +17863,10 @@ M.M.R.B.M.	Zg00	M.M.R.B.M.		s
 M.M.R.B.M.	Zgma	M.M.R.B.M.		s
 M.M.R.B.M.	Zgmp	M.M.R.B.M.		s
 M.M.R.B.M.	Zgms	M.M.R.B.M.		s
+M.M.S.	Zg00	M.M.S.	MMS	s
+M.M.S.	Zgma	M.M.S.	MMS	s
+M.M.S.	Zgmp	M.M.S.	MMS	s
+M.M.S.	Zgms	M.M.S.	MMS	s
 M.M.S.E.	Zg00	M.M.S.E.		s
 M.M.S.E.	Zgmp	M.M.S.E.		s
 M.M.S.S.	Zg00	M.M.S.S.		s
@@ -17473,6 +17994,8 @@ M.T.S.	Zg00	M.T.S.		s
 M.T.S.	Zgfa	M.T.S.		s
 M.T.S.	Zgfp	M.T.S.		s
 M.T.S.	Zgfs	M.T.S.		s
+M.T.V.	Zg00	M.T.V.	MTV	s
+M.T.V.	Zgfs	M.T.V.	MTV	s
 M.T.X.	Zg00	M.T.X.		s
 M.T.X.	Zgfa	M.T.X.		s
 M.T.X.	Zgfp	M.T.X.		s
@@ -17518,6 +18041,8 @@ M.e.r.c.o.s.u.r.	Zg00	M.e.r.c.o.s.u.r.		s
 M.e.r.c.o.s.u.r.	Zgms	M.e.r.c.o.s.u.r.		s
 M.i.b.o.r.	Zg00	M.i.b.o.r.		s
 M.i.b.o.r.	Zgms	M.i.b.o.r.		s
+M.i.t.e.c.o.	Zg00	M.i.t.e.c.o.	Miteco	s
+M.i.t.e.c.o.	Zgms	M.i.t.e.c.o.	Miteco	s
 M.í.b.o.r.	Zg00	M.í.b.o.r.		s
 M.í.b.o.r.	Zgms	M.í.b.o.r.		s
 MAAF	Zg00	MAAF		s
@@ -17554,6 +18079,8 @@ MAP	Zgfs	MAP		s
 MAP	Zgma	MAP		s
 MAP	Zgmp	MAP		s
 MAP	Zgms	MAP		s
+MAPA	Zg00	MAPA	MAPA	s
+MAPA	Zgms	MAPA	MAPA	s
 MAPAI	Zg00	MAPAI		s
 MAPAI	Zgms	MAPAI		s
 MAPAM	Zg00	MAPAM		s
@@ -17715,6 +18242,8 @@ MG	Zgfs	MG		s
 MG	Zgma	MG		s
 MG	Zgmp	MG		s
 MG	Zgms	MG		s
+MGSM	Zg00	MGSM	MGSM	s
+MGSM	Zgms	MGSM	MGSM	s
 MH	Zg00	MH		s
 MH	Zgfa	MH		s
 MH	Zgfp	MH		s
@@ -17801,6 +18330,10 @@ MMRBM	Zg00	MMRBM		s
 MMRBM	Zgma	MMRBM		s
 MMRBM	Zgmp	MMRBM		s
 MMRBM	Zgms	MMRBM		s
+MMS	Zg00	MMS	MMS	s
+MMS	Zgma	MMS	MMS	s
+MMS	Zgmp	MMS	MMS	s
+MMS	Zgms	MMS	MMS	s
 MMSE	Zg00	MMSE		s
 MMSE	Zgmp	MMSE		s
 MMSS	Zg00	MMSS		s
@@ -17928,6 +18461,8 @@ MTS	Zg00	MTS		s
 MTS	Zgfa	MTS		s
 MTS	Zgfp	MTS		s
 MTS	Zgfs	MTS		s
+MTV	Zg00	MTV	MTV	s
+MTV	Zgfs	MTV	MTV	s
 MTX	Zg00	MTX		s
 MTX	Zgfa	MTX		s
 MTX	Zgfp	MTX		s
@@ -17973,6 +18508,8 @@ Mercosur	Zg00	Mercosur		s
 Mercosur	Zgms	Mercosur		s
 Mibor	Zg00	Mibor		s
 Mibor	Zgms	Mibor		s
+Miteco	Zg00	Miteco	Miteco	s
+Miteco	Zgms	Miteco	Miteco	s
 Míbor	Zg00	Míbor		s
 Míbor	Zgms	Míbor		s
 N	Zg00	N		s
@@ -18000,6 +18537,7 @@ N. A.	Zg00	N. A.		s
 N. A.	Zgfa	N. A.		s
 N. A.	Zgfp	N. A.		s
 N. A.	Zgfs	N. A.		s
+N. A. C. C. E.	Zg00	N. A. C. C. E.	NACCE	s
 N. A. D.	Zg00	N. A. D.		s
 N. A. D.	Zgfa	N. A. D.		s
 N. A. D.	Zgfp	N. A. D.		s
@@ -18198,6 +18736,7 @@ N.A.	Zg00	N.A.		s
 N.A.	Zgfa	N.A.		s
 N.A.	Zgfp	N.A.		s
 N.A.	Zgfs	N.A.		s
+N.A.C.C.E.	Zg00	N.A.C.C.E.	NACCE	s
 N.A.D.	Zg00	N.A.D.		s
 N.A.D.	Zgfa	N.A.D.		s
 N.A.D.	Zgfp	N.A.D.		s
@@ -18396,6 +18935,7 @@ NA	Zg00	NA		s
 NA	Zgfa	NA		s
 NA	Zgfp	NA		s
 NA	Zgfs	NA		s
+NACCE	Zg00	NACCE	NACCE	s
 NAD	Zg00	NAD		s
 NAD	Zgfa	NAD		s
 NAD	Zgfp	NAD		s
@@ -18678,6 +19218,11 @@ O. D. I.	Zg00	O. D. I.		s
 O. D. I.	Zgfs	O. D. I.		s
 O. D. I. T.	Zg00	O. D. I. T.		s
 O. D. I. T.	Zgfs	O. D. I. T.		s
+O. D. S.	Zg00	O. D. S.	ODS	s
+O. D. S.	Zgfs	O. D. S.	ODS	s
+O. D. S.	Zgma	O. D. S.	ODS	s
+O. D. S.	Zgmp	O. D. S.	ODS	s
+O. D. S.	Zgms	O. D. S.	ODS	s
 O. E.	Zg00	O. E.		s
 O. E.	Zgfa	O. E.		s
 O. E.	Zgfp	O. E.		s
@@ -18825,6 +19370,8 @@ O. R.	Zgmp	O. R.		s
 O. R.	Zgms	O. R.		s
 O. R. A.	Zg00	O. R. A.		s
 O. R. A.	Zgfs	O. R. A.		s
+O. R. G. A.	Zg00	O. R. G. A.	ORGA	s
+O. R. G. A.	Zgfs	O. R. G. A.	ORGA	s
 O. R. L.	Zg00	O. R. L.		s
 O. R. T.	Zg00	O. R. T.		s
 O. R. T.	Zgfs	O. R. T.		s
@@ -18853,6 +19400,8 @@ O. V. N. I.	Zg00	O. V. N. I.		s
 O. V. N. I.	Zgms	O. V. N. I.		s
 O. X. D.	Zg00	O. X. D.		s
 O. X. D.	Zgfs	O. X. D.		s
+O. X. E.	Zg00	O. X. E.	OXE	s
+O. X. E.	Zgmp	O. X. E.	OXE	s
 O. X. M.	Zg00	O. X. M.		s
 O. X. M.	Zgmp	O. X. M.		s
 O. p. m. e. g. a.	Zg00	O. p. m. e. g. a.		s
@@ -18937,6 +19486,11 @@ O.D.I.	Zg00	O.D.I.		s
 O.D.I.	Zgfs	O.D.I.		s
 O.D.I.T.	Zg00	O.D.I.T.		s
 O.D.I.T.	Zgfs	O.D.I.T.		s
+O.D.S.	Zg00	O.D.S.	ODS	s
+O.D.S.	Zgfs	O.D.S.	ODS	s
+O.D.S.	Zgma	O.D.S.	ODS	s
+O.D.S.	Zgmp	O.D.S.	ODS	s
+O.D.S.	Zgms	O.D.S.	ODS	s
 O.E.	Zg00	O.E.		s
 O.E.	Zgfa	O.E.		s
 O.E.	Zgfp	O.E.		s
@@ -19084,6 +19638,8 @@ O.R.	Zgmp	O.R.		s
 O.R.	Zgms	O.R.		s
 O.R.A.	Zg00	O.R.A.		s
 O.R.A.	Zgfs	O.R.A.		s
+O.R.G.A.	Zg00	O.R.G.A.	ORGA	s
+O.R.G.A.	Zgfs	O.R.G.A.	ORGA	s
 O.R.L.	Zg00	O.R.L.		s
 O.R.T.	Zg00	O.R.T.		s
 O.R.T.	Zgfs	O.R.T.		s
@@ -19112,6 +19668,8 @@ O.V.N.I.	Zg00	O.V.N.I.		s
 O.V.N.I.	Zgms	O.V.N.I.		s
 O.X.D.	Zg00	O.X.D.		s
 O.X.D.	Zgfs	O.X.D.		s
+O.X.E.	Zg00	O.X.E.	OXE	s
+O.X.E.	Zgmp	O.X.E.	OXE	s
 O.X.M.	Zg00	O.X.M.		s
 O.X.M.	Zgmp	O.X.M.		s
 O.p.m.e.g.a.	Zg00	O.p.m.e.g.a.		s
@@ -19196,6 +19754,11 @@ ODI	Zg00	ODI		s
 ODI	Zgfs	ODI		s
 ODIT	Zg00	ODIT		s
 ODIT	Zgfs	ODIT		s
+ODS	Zg00	ODS	ODS	s
+ODS	Zgfs	ODS	ODS	s
+ODS	Zgma	ODS	ODS	s
+ODS	Zgmp	ODS	ODS	s
+ODS	Zgms	ODS	ODS	s
 OE	Zg00	OE		s
 OE	Zgfa	OE		s
 OE	Zgfp	OE		s
@@ -19384,6 +19947,8 @@ OR	Zgmp	OR		s
 OR	Zgms	OR		s
 ORA	Zg00	ORA		s
 ORA	Zgfs	ORA		s
+ORGA	Zg00	ORGA	ORGA	s
+ORGA	Zgfs	ORGA	ORGA	s
 ORL	Zg00	ORL		s
 ORT	Zg00	ORT		s
 ORT	Zgfs	ORT		s
@@ -19412,6 +19977,8 @@ OVNI	Zg00	OVNI		s
 OVNI	Zgms	OVNI		s
 OXD	Zg00	OXD		s
 OXD	Zgfs	OXD		s
+OXE	Zg00	OXE	OXE	s
+OXE	Zgmp	OXE	OXE	s
 OXM	Zg00	OXM		s
 OXM	Zgmp	OXM		s
 Opmega	Zg00	Opmega		s
@@ -19423,6 +19990,16 @@ P.	Zg00	P.		s
 P.	Zgma	P.		s
 P.	Zgmp	P.		s
 P.	Zgms	P.		s
+P. 2. P.	Zg00	P. 2. P.	P2P	s
+P. 2. P.	Zgaa	P. 2. P.	P2P	s
+P. 2. P.	Zgap	P. 2. P.	P2P	s
+P. 2. P.	Zgas	P. 2. P.	P2P	s
+P. 2. P.	Zgfa	P. 2. P.	P2P	s
+P. 2. P.	Zgfp	P. 2. P.	P2P	s
+P. 2. P.	Zgfs	P. 2. P.	P2P	s
+P. 2. P.	Zgma	P. 2. P.	P2P	s
+P. 2. P.	Zgmp	P. 2. P.	P2P	s
+P. 2. P.	Zgms	P. 2. P.	P2P	s
 P. A.	Zg00	P. A.		s
 P. A.	Zgms	P. A.		s
 P. A. A. F.	Zg00	P. A. A. F.		s
@@ -19647,6 +20224,8 @@ P. E. F. V.	Zg00	P. E. F. V.		s
 P. E. F. V.	Zgma	P. E. F. V.		s
 P. E. F. V.	Zgmp	P. E. F. V.		s
 P. E. F. V.	Zgms	P. E. F. V.		s
+P. E. I. T.	Zg00	P. E. I. T.	PEIT	s
+P. E. I. T.	Zgms	P. E. I. T.	PEIT	s
 P. E. M. E.	Zg00	P. E. M. E.	peme	s
 P. E. M. E.	Zgfa	P. E. M. E.	peme	s
 P. E. M. E.	Zgfp	P. E. M. E.	peme	s
@@ -19719,6 +20298,8 @@ P. G.	Zgfs	P. G.		s
 P. G.	Zgms	P. G.		s
 P. G. E.	Zg00	P. G. E.		s
 P. G. E.	Zgms	P. G. E.		s
+P. G. S. D.	Zg00	P. G. S. D.	PGSD	s
+P. G. S. D.	Zgms	P. G. S. D.	PGSD	s
 P. H.	Zg00	P. H.		s
 P. H.	Zgaa	P. H.		s
 P. H.	Zgap	P. H.		s
@@ -19771,6 +20352,8 @@ P. I. U.	Zg00	P. I. U.		s
 P. I. U.	Zgfa	P. I. U.		s
 P. I. U.	Zgfp	P. I. U.		s
 P. I. U.	Zgfs	P. I. U.		s
+P. K. K.	Zg00	P. K. K.	PKK	s
+P. K. K.	Zgms	P. K. K.	PKK	s
 P. L.	Zg00	P. L.		s
 P. L.	Zgfa	P. L.		s
 P. L.	Zgfp	P. L.		s
@@ -19870,6 +20453,8 @@ P. P. D.	Zg00	P. P. D.		s
 P. P. D.	Zgma	P. P. D.		s
 P. P. D.	Zgmp	P. P. D.		s
 P. P. D.	Zgms	P. P. D.		s
+P. P. G.	Zg00	P. P. G.	PPG	s
+P. P. G.	Zgms	P. P. G.	PPG	s
 P. P. L.	Zg00	P. P. L.		s
 P. P. L.	Zgfa	P. P. L.		s
 P. P. L.	Zgfp	P. P. L.		s
@@ -19972,8 +20557,8 @@ P. S. V.	Zg00	P. S. V.		s
 P. S. V.	Zgms	P. S. V.		s
 P. S. d. G. -. P. S. O. E.	Zg00	P. S. d. G. -. P. S. O. E.		s
 P. S. d. G. -. P. S. O. E.	Zgms	P. S. d. G. -. P. S. O. E.		s
-P. S. d. e. G.	Zg00	P. S. d. e. G.		s
-P. S. d. e. G.	Zgms	P. S. d. e. G.		s
+P. S. d. e. G.	Zg00	P. S. d. e. G.	PSdeG	s
+P. S. d. e. G.	Zgms	P. S. d. e. G.	PSdeG	s
 P. S. d. e. G. -. P. S. O. E.	Zg00	P. S. d. e. G. -. P. S. O. E.		s
 P. S. d. e. G. -. P. S. O. E.	Zgms	P. S. d. e. G. -. P. S. O. E.		s
 P. T.	Zg00	P. T.		s
@@ -20101,6 +20686,16 @@ P. e. p. r. i.	Zgma	P. e. p. r. i.		s
 P. e. p. r. i.	Zgmp	P. e. p. r. i.		s
 P. e. p. r. i.	Zgms	P. e. p. r. i.		s
 P. r. o. p. o. l. o.	Zg00	P. r. o. p. o. l. o.		s
+P.2.P.	Zg00	P.2.P.	P2P	s
+P.2.P.	Zgaa	P.2.P.	P2P	s
+P.2.P.	Zgap	P.2.P.	P2P	s
+P.2.P.	Zgas	P.2.P.	P2P	s
+P.2.P.	Zgfa	P.2.P.	P2P	s
+P.2.P.	Zgfp	P.2.P.	P2P	s
+P.2.P.	Zgfs	P.2.P.	P2P	s
+P.2.P.	Zgma	P.2.P.	P2P	s
+P.2.P.	Zgmp	P.2.P.	P2P	s
+P.2.P.	Zgms	P.2.P.	P2P	s
 P.A.	Zg00	P.A.		s
 P.A.	Zgms	P.A.		s
 P.A.A.F.	Zg00	P.A.A.F.		s
@@ -20325,6 +20920,8 @@ P.E.F.V.	Zg00	P.E.F.V.		s
 P.E.F.V.	Zgma	P.E.F.V.		s
 P.E.F.V.	Zgmp	P.E.F.V.		s
 P.E.F.V.	Zgms	P.E.F.V.		s
+P.E.I.T.	Zg00	P.E.I.T.	PEIT	s
+P.E.I.T.	Zgms	P.E.I.T.	PEIT	s
 P.E.M.E.	Zg00	P.E.M.E.	peme	s
 P.E.M.E.	Zgfa	P.E.M.E.	peme	s
 P.E.M.E.	Zgfp	P.E.M.E.	peme	s
@@ -20397,6 +20994,8 @@ P.G.	Zgfs	P.G.		s
 P.G.	Zgms	P.G.		s
 P.G.E.	Zg00	P.G.E.		s
 P.G.E.	Zgms	P.G.E.		s
+P.G.S.D.	Zg00	P.G.S.D.	PGSD	s
+P.G.S.D.	Zgms	P.G.S.D.	PGSD	s
 P.H.	Zg00	P.H.		s
 P.H.	Zgaa	P.H.		s
 P.H.	Zgap	P.H.		s
@@ -20449,6 +21048,8 @@ P.I.U.	Zg00	P.I.U.		s
 P.I.U.	Zgfa	P.I.U.		s
 P.I.U.	Zgfp	P.I.U.		s
 P.I.U.	Zgfs	P.I.U.		s
+P.K.K.	Zg00	P.K.K.	PKK	s
+P.K.K.	Zgms	P.K.K.	PKK	s
 P.L.	Zg00	P.L.		s
 P.L.	Zgfa	P.L.		s
 P.L.	Zgfp	P.L.		s
@@ -20548,6 +21149,8 @@ P.P.D.	Zg00	P.P.D.		s
 P.P.D.	Zgma	P.P.D.		s
 P.P.D.	Zgmp	P.P.D.		s
 P.P.D.	Zgms	P.P.D.		s
+P.P.G.	Zg00	P.P.G.	PPG	s
+P.P.G.	Zgms	P.P.G.	PPG	s
 P.P.L.	Zg00	P.P.L.		s
 P.P.L.	Zgfa	P.P.L.		s
 P.P.L.	Zgfp	P.P.L.		s
@@ -20650,8 +21253,8 @@ P.S.V.	Zg00	P.S.V.		s
 P.S.V.	Zgms	P.S.V.		s
 P.S.d.G.-.P.S.O.E.	Zg00	P.S.d.G.-.P.S.O.E.		s
 P.S.d.G.-.P.S.O.E.	Zgms	P.S.d.G.-.P.S.O.E.		s
-P.S.d.e.G.	Zg00	P.S.d.e.G.		s
-P.S.d.e.G.	Zgms	P.S.d.e.G.		s
+P.S.d.e.G.	Zg00	P.S.d.e.G.	PSdeG	s
+P.S.d.e.G.	Zgms	P.S.d.e.G.	PSdeG	s
 P.S.d.e.G.-.P.S.O.E.	Zg00	P.S.d.e.G.-.P.S.O.E.		s
 P.S.d.e.G.-.P.S.O.E.	Zgms	P.S.d.e.G.-.P.S.O.E.		s
 P.T.	Zg00	P.T.		s
@@ -20779,6 +21382,16 @@ P.e.p.r.i.	Zgma	P.e.p.r.i.		s
 P.e.p.r.i.	Zgmp	P.e.p.r.i.		s
 P.e.p.r.i.	Zgms	P.e.p.r.i.		s
 P.r.o.p.o.l.o.	Zg00	P.r.o.p.o.l.o.		s
+P2P	Zg00	P2P	P2P	s
+P2P	Zgaa	P2P	P2P	s
+P2P	Zgap	P2P	P2P	s
+P2P	Zgas	P2P	P2P	s
+P2P	Zgfa	P2P	P2P	s
+P2P	Zgfp	P2P	P2P	s
+P2P	Zgfs	P2P	P2P	s
+P2P	Zgma	P2P	P2P	s
+P2P	Zgmp	P2P	P2P	s
+P2P	Zgms	P2P	P2P	s
 PA	Zg00	PA		s
 PA	Zgms	PA		s
 PAAF	Zg00	PAAF		s
@@ -21003,6 +21616,8 @@ PEFV	Zg00	PEFV		s
 PEFV	Zgma	PEFV		s
 PEFV	Zgmp	PEFV		s
 PEFV	Zgms	PEFV		s
+PEIT	Zg00	PEIT	PEIT	s
+PEIT	Zgms	PEIT	PEIT	s
 PEME	Zg00	PEME	peme	s
 PEME	Zgfa	PEME	peme	s
 PEME	Zgfp	PEME	peme	s
@@ -21075,6 +21690,8 @@ PG	Zgfs	PG		s
 PG	Zgms	PG		s
 PGE	Zg00	PGE		s
 PGE	Zgms	PGE		s
+PGSD	Zg00	PGSD	PGSD	s
+PGSD	Zgms	PGSD	PGSD	s
 PH	Zg00	PH		s
 PH	Zgaa	PH		s
 PH	Zgap	PH		s
@@ -21127,6 +21744,8 @@ PIU	Zg00	PIU		s
 PIU	Zgfa	PIU		s
 PIU	Zgfp	PIU		s
 PIU	Zgfs	PIU		s
+PKK	Zg00	PKK	PKK	s
+PKK	Zgms	PKK	PKK	s
 PL	Zg00	PL		s
 PL	Zgfa	PL		s
 PL	Zgfp	PL		s
@@ -21226,6 +21845,8 @@ PPD	Zg00	PPD		s
 PPD	Zgma	PPD		s
 PPD	Zgmp	PPD		s
 PPD	Zgms	PPD		s
+PPG	Zg00	PPG	PPG	s
+PPG	Zgms	PPG	PPG	s
 PPL	Zg00	PPL		s
 PPL	Zgfa	PPL		s
 PPL	Zgfp	PPL		s
@@ -21328,8 +21949,8 @@ PSV	Zg00	PSV		s
 PSV	Zgms	PSV		s
 PSdG-PSOE	Zg00	PSdG-PSOE		s
 PSdG-PSOE	Zgms	PSdG-PSOE		s
-PSdeG	Zg00	PSdeG		s
-PSdeG	Zgms	PSdeG		s
+PSdeG	Zg00	PSdeG	PSdeG	s
+PSdeG	Zgms	PSdeG	PSdeG	s
 PSdeG-PSOE	Zg00	PSdeG-PSOE		s
 PSdeG-PSOE	Zgms	PSdeG-PSOE		s
 PT	Zg00	PT		s
@@ -21573,6 +22194,8 @@ R. A. F.	Zgfp	R. A. F.		s
 R. A. F.	Zgms	R. A. F.		s
 R. A. G.	Zg00	R. A. G.		s
 R. A. G.	Zgfs	R. A. G.		s
+R. A. G. C.	Zg00	R. A. G. C.	RAGC	s
+R. A. G. C.	Zgfs	R. A. G. C.	RAGC	s
 R. A. H.	Zg00	R. A. H.		s
 R. A. H.	Zgfs	R. A. H.		s
 R. A. I.	Zg00	R. A. I.		s
@@ -21582,6 +22205,8 @@ R. A. M.	Zg00	R. A. M.		s
 R. A. M.	Zgfa	R. A. M.		s
 R. A. M.	Zgfp	R. A. M.		s
 R. A. M.	Zgfs	R. A. M.		s
+R. A. S. D.	Zg00	R. A. S. D.	RASD	s
+R. A. S. D.	Zgfs	R. A. S. D.	RASD	s
 R. A. S. T.	Zg00	R. A. S. T.		s
 R. A. S. T.	Zgfa	R. A. S. T.		s
 R. A. S. T.	Zgfp	R. A. S. T.		s
@@ -21680,6 +22305,8 @@ R. F. E.	Zg00	R. F. E.		s
 R. F. E.	Zgfs	R. F. E.		s
 R. F. E. F.	Zg00	R. F. E. F.		s
 R. F. E. F.	Zgfs	R. F. E. F.		s
+R. F. G. F.	Zg00	R. F. G. F.	RFGF	s
+R. F. G. F.	Zgfs	R. F. G. F.	RFGF	s
 R. G.	Zg00	R. G.		s
 R. G.	Zgfs	R. G.		s
 R. G. E.	Zg00	R. G. E.		s
@@ -21767,6 +22394,10 @@ R. O. I.	Zg00	R. O. I.		s
 R. O. I.	Zgfs	R. O. I.		s
 R. O. M.	Zg00	R. O. M.		s
 R. O. M.	Zgfs	R. O. M.		s
+R. O. S.	Zg00	R. O. S.	ROS	s
+R. O. S.	Zgfa	R. O. S.	ROS	s
+R. O. S.	Zgfp	R. O. S.	ROS	s
+R. O. S.	Zgfs	R. O. S.	ROS	s
 R. O. S. S.	Zg00	R. O. S. S.		s
 R. O. S. S.	Zgfa	R. O. S. S.		s
 R. O. S. S.	Zgfp	R. O. S. S.		s
@@ -21813,6 +22444,8 @@ R. S.	Zgma	R. S.		s
 R. S.	Zgmp	R. S.		s
 R. S.	Zgms	R. S.		s
 R. S. S.	Zg00	R. S. S.		s
+R. S. U.	Zg00	R. S. U.	RSU	s
+R. S. U.	Zgmp	R. S. U.	RSU	s
 R. T.	Zg00	R. T.		s
 R. T.	Zgfa	R. T.		s
 R. T.	Zgfp	R. T.		s
@@ -21860,6 +22493,8 @@ R.A.F.	Zgfp	R.A.F.		s
 R.A.F.	Zgms	R.A.F.		s
 R.A.G.	Zg00	R.A.G.		s
 R.A.G.	Zgfs	R.A.G.		s
+R.A.G.C.	Zg00	R.A.G.C.	RAGC	s
+R.A.G.C.	Zgfs	R.A.G.C.	RAGC	s
 R.A.H.	Zg00	R.A.H.		s
 R.A.H.	Zgfs	R.A.H.		s
 R.A.I.	Zg00	R.A.I.		s
@@ -21869,6 +22504,8 @@ R.A.M.	Zg00	R.A.M.		s
 R.A.M.	Zgfa	R.A.M.		s
 R.A.M.	Zgfp	R.A.M.		s
 R.A.M.	Zgfs	R.A.M.		s
+R.A.S.D.	Zg00	R.A.S.D.	RASD	s
+R.A.S.D.	Zgfs	R.A.S.D.	RASD	s
 R.A.S.T.	Zg00	R.A.S.T.		s
 R.A.S.T.	Zgfa	R.A.S.T.		s
 R.A.S.T.	Zgfp	R.A.S.T.		s
@@ -21967,6 +22604,8 @@ R.F.E.	Zg00	R.F.E.		s
 R.F.E.	Zgfs	R.F.E.		s
 R.F.E.F.	Zg00	R.F.E.F.		s
 R.F.E.F.	Zgfs	R.F.E.F.		s
+R.F.G.F.	Zg00	R.F.G.F.	RFGF	s
+R.F.G.F.	Zgfs	R.F.G.F.	RFGF	s
 R.G.	Zg00	R.G.		s
 R.G.	Zgfs	R.G.		s
 R.G.E.	Zg00	R.G.E.		s
@@ -22054,6 +22693,10 @@ R.O.I.	Zg00	R.O.I.		s
 R.O.I.	Zgfs	R.O.I.		s
 R.O.M.	Zg00	R.O.M.		s
 R.O.M.	Zgfs	R.O.M.		s
+R.O.S.	Zg00	R.O.S.	ROS	s
+R.O.S.	Zgfa	R.O.S.	ROS	s
+R.O.S.	Zgfp	R.O.S.	ROS	s
+R.O.S.	Zgfs	R.O.S.	ROS	s
 R.O.S.S.	Zg00	R.O.S.S.		s
 R.O.S.S.	Zgfa	R.O.S.S.		s
 R.O.S.S.	Zgfp	R.O.S.S.		s
@@ -22100,6 +22743,8 @@ R.S.	Zgma	R.S.		s
 R.S.	Zgmp	R.S.		s
 R.S.	Zgms	R.S.		s
 R.S.S.	Zg00	R.S.S.		s
+R.S.U.	Zg00	R.S.U.	RSU	s
+R.S.U.	Zgmp	R.S.U.	RSU	s
 R.T.	Zg00	R.T.		s
 R.T.	Zgfa	R.T.		s
 R.T.	Zgfp	R.T.		s
@@ -22147,6 +22792,8 @@ RAF	Zgfp	RAF		s
 RAF	Zgms	RAF		s
 RAG	Zg00	RAG		s
 RAG	Zgfs	RAG		s
+RAGC	Zg00	RAGC	RAGC	s
+RAGC	Zgfs	RAGC	RAGC	s
 RAH	Zg00	RAH		s
 RAH	Zgfs	RAH		s
 RAI	Zg00	RAI		s
@@ -22156,6 +22803,8 @@ RAM	Zg00	RAM		s
 RAM	Zgfa	RAM		s
 RAM	Zgfp	RAM		s
 RAM	Zgfs	RAM		s
+RASD	Zg00	RASD	RASD	s
+RASD	Zgfs	RASD	RASD	s
 RAST	Zg00	RAST		s
 RAST	Zgfa	RAST		s
 RAST	Zgfp	RAST		s
@@ -22254,6 +22903,8 @@ RFE	Zg00	RFE		s
 RFE	Zgfs	RFE		s
 RFEF	Zg00	RFEF		s
 RFEF	Zgfs	RFEF		s
+RFGF	Zg00	RFGF	RFGF	s
+RFGF	Zgfs	RFGF	RFGF	s
 RG	Zg00	RG		s
 RG	Zgfs	RG		s
 RGE	Zg00	RGE		s
@@ -22341,6 +22992,10 @@ ROI	Zg00	ROI		s
 ROI	Zgfs	ROI		s
 ROM	Zg00	ROM		s
 ROM	Zgfs	ROM		s
+ROS	Zg00	ROS	ROS	s
+ROS	Zgfa	ROS	ROS	s
+ROS	Zgfp	ROS	ROS	s
+ROS	Zgfs	ROS	ROS	s
 ROSS	Zg00	ROSS		s
 ROSS	Zgfa	ROSS		s
 ROSS	Zgfp	ROSS		s
@@ -22403,6 +23058,8 @@ RS	Zgma	RS		s
 RS	Zgmp	RS		s
 RS	Zgms	RS		s
 RSS	Zg00	RSS		s
+RSU	Zg00	RSU	RSU	s
+RSU	Zgmp	RSU	RSU	s
 RT	Zg00	RT		s
 RT	Zgfa	RT		s
 RT	Zgfp	RT		s
@@ -22590,6 +23247,8 @@ S. E. C. U. S.	Zg00	S. E. C. U. S.		s
 S. E. C. U. S.	Zgms	S. E. C. U. S.		s
 S. E. D. I. C.	Zg00	S. E. D. I. C.		s
 S. E. D. I. C.	Zgfs	S. E. D. I. C.		s
+S. E. G.	Zg00	S. E. G.	SEG	s
+S. E. G.	Zgms	S. E. G.	SEG	s
 S. E. I. N.	Zg00	S. E. I. N.		s
 S. E. I. N.	Zgmp	S. E. I. N.		s
 S. E. L. A.	Zg00	S. E. L. A.		s
@@ -22823,6 +23482,10 @@ S. M. I.	Zgfs	S. M. I.		s
 S. M. I.	Zgms	S. M. I.		s
 S. M. I. G.	Zg00	S. M. I. G.		s
 S. M. I. G.	Zgms	S. M. I. G.		s
+S. M. S.	Zg00	S. M. S.	SMS	s
+S. M. S.	Zgma	S. M. S.	SMS	s
+S. M. S.	Zgmp	S. M. S.	SMS	s
+S. M. S.	Zgms	S. M. S.	SMS	s
 S. M. T.	Zg00	S. M. T.		s
 S. M. T.	Zgfa	S. M. T.		s
 S. M. T.	Zgfp	S. M. T.		s
@@ -23194,6 +23857,8 @@ S.E.C.U.S.	Zg00	S.E.C.U.S.		s
 S.E.C.U.S.	Zgms	S.E.C.U.S.		s
 S.E.D.I.C.	Zg00	S.E.D.I.C.		s
 S.E.D.I.C.	Zgfs	S.E.D.I.C.		s
+S.E.G.	Zg00	S.E.G.	SEG	s
+S.E.G.	Zgms	S.E.G.	SEG	s
 S.E.I.N.	Zg00	S.E.I.N.		s
 S.E.I.N.	Zgmp	S.E.I.N.		s
 S.E.L.A.	Zg00	S.E.L.A.		s
@@ -23427,6 +24092,10 @@ S.M.I.	Zgfs	S.M.I.		s
 S.M.I.	Zgms	S.M.I.		s
 S.M.I.G.	Zg00	S.M.I.G.		s
 S.M.I.G.	Zgms	S.M.I.G.		s
+S.M.S.	Zg00	S.M.S.	SMS	s
+S.M.S.	Zgma	S.M.S.	SMS	s
+S.M.S.	Zgmp	S.M.S.	SMS	s
+S.M.S.	Zgms	S.M.S.	SMS	s
 S.M.T.	Zg00	S.M.T.		s
 S.M.T.	Zgfa	S.M.T.		s
 S.M.T.	Zgfp	S.M.T.		s
@@ -23798,6 +24467,8 @@ SECUS	Zg00	SECUS		s
 SECUS	Zgms	SECUS		s
 SEDIC	Zg00	SEDIC		s
 SEDIC	Zgfs	SEDIC		s
+SEG	Zg00	SEG	SEG	s
+SEG	Zgms	SEG	SEG	s
 SEIN	Zg00	SEIN		s
 SEIN	Zgmp	SEIN		s
 SELA	Zg00	SELA		s
@@ -24031,6 +24702,10 @@ SMI	Zgfs	SMI		s
 SMI	Zgms	SMI		s
 SMIG	Zg00	SMIG		s
 SMIG	Zgms	SMIG		s
+SMS	Zg00	SMS	SMS	s
+SMS	Zgma	SMS	SMS	s
+SMS	Zgmp	SMS	SMS	s
+SMS	Zgms	SMS	SMS	s
 SMT	Zg00	SMT		s
 SMT	Zgfa	SMT		s
 SMT	Zgfp	SMT		s
@@ -24416,6 +25091,7 @@ T. D. A. H.	Zgmp	T. D. A. H.		s
 T. D. A. H.	Zgms	T. D. A. H.		s
 T. D. C.	Zg00	T. D. C.		s
 T. D. C.	Zgms	T. D. C.		s
+T. D. I.	Zg00	T. D. I.	TDI	s
 T. D. T.	Zg00	T. D. T.		s
 T. D. T.	Zgfs	T. D. T.		s
 T. E. A. S.	Zg00	T. E. A. S.		s
@@ -24567,6 +25243,10 @@ T. N. S.	Zgfp	T. N. S.		s
 T. N. S.	Zgfs	T. N. S.		s
 T. N. T.	Zg00	T. N. T.		s
 T. N. T.	Zgms	T. N. T.		s
+T. O. C.	Zg00	T. O. C.	TOC	s
+T. O. C.	Zgma	T. O. C.	TOC	s
+T. O. C.	Zgmp	T. O. C.	TOC	s
+T. O. C.	Zgms	T. O. C.	TOC	s
 T. O. D.	Zg00	T. O. D.		s
 T. O. D.	Zgma	T. O. D.		s
 T. O. D.	Zgmp	T. O. D.		s
@@ -24642,6 +25322,8 @@ T. R. H.	Zg00	T. R. H.		s
 T. R. H.	Zgfa	T. R. H.		s
 T. R. H.	Zgfp	T. R. H.		s
 T. R. H.	Zgfs	T. R. H.		s
+T. R. L. P. I.	Zg00	T. R. L. P. I.	TRLPI	s
+T. R. L. P. I.	Zgms	T. R. L. P. I.	TRLPI	s
 T. R. N.	Zg00	T. R. N.		s
 T. R. N.	Zgfs	T. R. N.		s
 T. R. S.	Zg00	T. R. S.		s
@@ -24689,6 +25371,8 @@ T. T.	Zgfs	T. T.		s
 T. T.	Zgma	T. T.		s
 T. T.	Zgmp	T. T.		s
 T. T.	Zgms	T. T.		s
+T. T. I. P.	Zg00	T. T. I. P.	TTIP	s
+T. T. I. P.	Zgms	T. T. I. P.	TTIP	s
 T. T. O.	Zg00	T. T. O.		s
 T. T. O.	Zgma	T. T. O.		s
 T. T. O.	Zgmp	T. T. O.		s
@@ -24865,6 +25549,7 @@ T.D.A.H.	Zgmp	T.D.A.H.		s
 T.D.A.H.	Zgms	T.D.A.H.		s
 T.D.C.	Zg00	T.D.C.		s
 T.D.C.	Zgms	T.D.C.		s
+T.D.I.	Zg00	T.D.I.	TDI	s
 T.D.T.	Zg00	T.D.T.		s
 T.D.T.	Zgfs	T.D.T.		s
 T.E.A.S.	Zg00	T.E.A.S.		s
@@ -25016,6 +25701,10 @@ T.N.S.	Zgfp	T.N.S.		s
 T.N.S.	Zgfs	T.N.S.		s
 T.N.T.	Zg00	T.N.T.		s
 T.N.T.	Zgms	T.N.T.		s
+T.O.C.	Zg00	T.O.C.	TOC	s
+T.O.C.	Zgma	T.O.C.	TOC	s
+T.O.C.	Zgmp	T.O.C.	TOC	s
+T.O.C.	Zgms	T.O.C.	TOC	s
 T.O.D.	Zg00	T.O.D.		s
 T.O.D.	Zgma	T.O.D.		s
 T.O.D.	Zgmp	T.O.D.		s
@@ -25091,6 +25780,8 @@ T.R.H.	Zg00	T.R.H.		s
 T.R.H.	Zgfa	T.R.H.		s
 T.R.H.	Zgfp	T.R.H.		s
 T.R.H.	Zgfs	T.R.H.		s
+T.R.L.P.I.	Zg00	T.R.L.P.I.	TRLPI	s
+T.R.L.P.I.	Zgms	T.R.L.P.I.	TRLPI	s
 T.R.N.	Zg00	T.R.N.		s
 T.R.N.	Zgfs	T.R.N.		s
 T.R.S.	Zg00	T.R.S.		s
@@ -25138,6 +25829,8 @@ T.T.	Zgfs	T.T.		s
 T.T.	Zgma	T.T.		s
 T.T.	Zgmp	T.T.		s
 T.T.	Zgms	T.T.		s
+T.T.I.P.	Zg00	T.T.I.P.	TTIP	s
+T.T.I.P.	Zgms	T.T.I.P.	TTIP	s
 T.T.O.	Zg00	T.T.O.		s
 T.T.O.	Zgma	T.T.O.		s
 T.T.O.	Zgmp	T.T.O.		s
@@ -25314,6 +26007,7 @@ TDAH	Zgmp	TDAH		s
 TDAH	Zgms	TDAH		s
 TDC	Zg00	TDC		s
 TDC	Zgms	TDC		s
+TDI	Zg00	TDI	TDI	s
 TDT	Zg00	TDT		s
 TDT	Zgfs	TDT		s
 TEAS	Zg00	TEAS		s
@@ -25465,6 +26159,10 @@ TNS	Zgfp	TNS		s
 TNS	Zgfs	TNS		s
 TNT	Zg00	TNT		s
 TNT	Zgms	TNT		s
+TOC	Zg00	TOC	TOC	s
+TOC	Zgma	TOC	TOC	s
+TOC	Zgmp	TOC	TOC	s
+TOC	Zgms	TOC	TOC	s
 TOD	Zg00	TOD		s
 TOD	Zgma	TOD		s
 TOD	Zgmp	TOD		s
@@ -25540,6 +26238,8 @@ TRH	Zg00	TRH		s
 TRH	Zgfa	TRH		s
 TRH	Zgfp	TRH		s
 TRH	Zgfs	TRH		s
+TRLPI	Zg00	TRLPI	TRLPI	s
+TRLPI	Zgms	TRLPI	TRLPI	s
 TRN	Zg00	TRN		s
 TRN	Zgfs	TRN		s
 TRS	Zg00	TRS		s
@@ -25587,6 +26287,8 @@ TT	Zgfs	TT		s
 TT	Zgma	TT		s
 TT	Zgmp	TT		s
 TT	Zgms	TT		s
+TTIP	Zg00	TTIP	TTIP	s
+TTIP	Zgms	TTIP	TTIP	s
 TTO	Zg00	TTO		s
 TTO	Zgma	TTO		s
 TTO	Zgmp	TTO		s
@@ -25654,6 +26356,10 @@ U.	Zgfs	U.		s
 U.	Zgma	U.		s
 U.	Zgmp	U.		s
 U.	Zgms	U.		s
+U. A.	Zg00	U. A.	UA	s
+U. A.	Zgfa	U. A.	UA	s
+U. A.	Zgfp	U. A.	UA	s
+U. A.	Zgfs	U. A.	UA	s
 U. A. B.	Zg00	U. A. B.		s
 U. A. B.	Zgfs	U. A. B.		s
 U. A. H.	Zg00	U. A. H.		s
@@ -25841,6 +26547,8 @@ U. M. C. E.	Zg00	U. M. C. E.		s
 U. M. C. E.	Zgfa	U. M. C. E.		s
 U. M. C. E.	Zgfp	U. M. C. E.		s
 U. M. C. E.	Zgfs	U. M. C. E.		s
+U. M. D.	Zg00	U. M. D.	UMD	s
+U. M. D.	Zgfs	U. M. D.	UMD	s
 U. M. E.	Zg00	U. M. E.		s
 U. M. E.	Zgfs	U. M. E.		s
 U. M. G.	Zg00	U. M. G.		s
@@ -25940,6 +26648,7 @@ U. P. V.	Zg00	U. P. V.		s
 U. P. V.	Zgfs	U. P. V.		s
 U. P. V. A.	Zg00	U. P. V. A.		s
 U. P. V. A.	Zgfs	U. P. V. A.		s
+U. P. y. D.	Zg00	U. P. y. D.	UPyD	s
 U. R.	Zg00	U. R.		s
 U. R.	Zgfa	U. R.		s
 U. R.	Zgfp	U. R.		s
@@ -25965,6 +26674,8 @@ U. S. A. I. D.	Zg00	U. S. A. I. D.		s
 U. S. A. I. D.	Zgfs	U. S. A. I. D.		s
 U. S. A. L.	Zg00	U. S. A. L.		s
 U. S. A. L.	Zgfs	U. S. A. L.		s
+U. S. B.	Zg00	U. S. B.	USB	s
+U. S. B.	Zgms	U. S. B.	USB	s
 U. S. C.	Zg00	U. S. C.		s
 U. S. C.	Zgfs	U. S. C.		s
 U. S. E.	Zg00	U. S. E.		s
@@ -26035,6 +26746,10 @@ U. X. T. -. G. a. l. i. c. i. a.	Zg00	U. X. T. -. G. a. l. i. c. i. a.		s
 U. Z. A.	Zg00	U. Z. A.		s
 U. Z. A.	Zgfs	U. Z. A.		s
 U. f. i. n. s. a.	Zg00	U. f. i. n. s. a.		s
+U.A.	Zg00	U.A.	UA	s
+U.A.	Zgfa	U.A.	UA	s
+U.A.	Zgfp	U.A.	UA	s
+U.A.	Zgfs	U.A.	UA	s
 U.A.B.	Zg00	U.A.B.		s
 U.A.B.	Zgfs	U.A.B.		s
 U.A.H.	Zg00	U.A.H.		s
@@ -26222,6 +26937,8 @@ U.M.C.E.	Zg00	U.M.C.E.		s
 U.M.C.E.	Zgfa	U.M.C.E.		s
 U.M.C.E.	Zgfp	U.M.C.E.		s
 U.M.C.E.	Zgfs	U.M.C.E.		s
+U.M.D.	Zg00	U.M.D.	UMD	s
+U.M.D.	Zgfs	U.M.D.	UMD	s
 U.M.E.	Zg00	U.M.E.		s
 U.M.E.	Zgfs	U.M.E.		s
 U.M.G.	Zg00	U.M.G.		s
@@ -26321,6 +27038,7 @@ U.P.V.	Zg00	U.P.V.		s
 U.P.V.	Zgfs	U.P.V.		s
 U.P.V.A.	Zg00	U.P.V.A.		s
 U.P.V.A.	Zgfs	U.P.V.A.		s
+U.P.y.D.	Zg00	U.P.y.D.	UPyD	s
 U.R.	Zg00	U.R.		s
 U.R.	Zgfa	U.R.		s
 U.R.	Zgfp	U.R.		s
@@ -26346,6 +27064,8 @@ U.S.A.I.D.	Zg00	U.S.A.I.D.		s
 U.S.A.I.D.	Zgfs	U.S.A.I.D.		s
 U.S.A.L.	Zg00	U.S.A.L.		s
 U.S.A.L.	Zgfs	U.S.A.L.		s
+U.S.B.	Zg00	U.S.B.	USB	s
+U.S.B.	Zgms	U.S.B.	USB	s
 U.S.C.	Zg00	U.S.C.		s
 U.S.C.	Zgfs	U.S.C.		s
 U.S.E.	Zg00	U.S.E.		s
@@ -26416,6 +27136,10 @@ U.X.T.-.G.a.l.i.c.i.a.	Zg00	U.X.T.-.G.a.l.i.c.i.a.		s
 U.Z.A.	Zg00	U.Z.A.		s
 U.Z.A.	Zgfs	U.Z.A.		s
 U.f.i.n.s.a.	Zg00	U.f.i.n.s.a.		s
+UA	Zg00	UA	UA	s
+UA	Zgfa	UA	UA	s
+UA	Zgfp	UA	UA	s
+UA	Zgfs	UA	UA	s
 UAB	Zg00	UAB		s
 UAB	Zgfs	UAB		s
 UAH	Zg00	UAH		s
@@ -26603,6 +27327,8 @@ UMCE	Zg00	UMCE		s
 UMCE	Zgfa	UMCE		s
 UMCE	Zgfp	UMCE		s
 UMCE	Zgfs	UMCE		s
+UMD	Zg00	UMD	UMD	s
+UMD	Zgfs	UMD	UMD	s
 UME	Zg00	UME		s
 UME	Zgfs	UME		s
 UMG	Zg00	UMG		s
@@ -26702,6 +27428,7 @@ UPV	Zg00	UPV		s
 UPV	Zgfs	UPV		s
 UPVA	Zg00	UPVA		s
 UPVA	Zgfs	UPVA		s
+UPyD	Zg00	UPyD	UPyD	s
 UR	Zg00	UR		s
 UR	Zgfa	UR		s
 UR	Zgfp	UR		s
@@ -26727,6 +27454,8 @@ USAID	Zg00	USAID		s
 USAID	Zgfs	USAID		s
 USAL	Zg00	USAL		s
 USAL	Zgfs	USAL		s
+USB	Zg00	USB	USB	s
+USB	Zgms	USB	USB	s
 USC	Zg00	USC		s
 USC	Zgfs	USC		s
 USE	Zg00	USE		s
@@ -27761,6 +28490,7 @@ X. D. x.	Zgma	X. D. x.		s
 X. D. x.	Zgmp	X. D. x.		s
 X. D. x.	Zgms	X. D. x.		s
 X. E. N.	Zg00	X. E. N.		s
+X. G. N.	Zg00	X. G. N.	XGN	s
 X. I. N.	Zg00	X. I. N.		s
 X. L.	Zg00	X. L.		s
 X. M.	Zg00	X. M.		s
@@ -27802,6 +28532,7 @@ X.D.x.	Zgma	X.D.x.		s
 X.D.x.	Zgmp	X.D.x.		s
 X.D.x.	Zgms	X.D.x.		s
 X.E.N.	Zg00	X.E.N.		s
+X.G.N.	Zg00	X.G.N.	XGN	s
 X.I.N.	Zg00	X.I.N.		s
 X.L.	Zg00	X.L.		s
 X.M.	Zg00	X.M.		s
@@ -27843,6 +28574,7 @@ XDx	Zgma	XDx		s
 XDx	Zgmp	XDx		s
 XDx	Zgms	XDx		s
 XEN	Zg00	XEN		s
+XGN	Zg00	XGN	XGN	s
 XIN	Zg00	XIN		s
 XL	Zg00	XL		s
 XM	Zg00	XM		s
@@ -27917,8 +28649,13 @@ Z. A. P. U.	Zg00	Z. A. P. U.		s
 Z. A. P. U.	Zgfs	Z. A. P. U.		s
 Z. E.	Zg00	Z. E.		s
 Z. E.	Zgfs	Z. E.		s
+Z. E. C.	Zg00	Z. E. C.	ZEC	s
 Z. E. E.	Zg00	Z. E. E.		s
 Z. E. E.	Zgfs	Z. E. E.		s
+Z. E. P. V. N.	Zg00	Z. E. P. V. N.	ZEPVN	s
+Z. E. P. V. N.	Zgfa	Z. E. P. V. N.	ZEPVN	s
+Z. E. P. V. N.	Zgfp	Z. E. P. V. N.	ZEPVN	s
+Z. E. P. V. N.	Zgfs	Z. E. P. V. N.	ZEPVN	s
 Z. I. D.	Zg00	Z. I. D.		s
 Z. I. D.	Zgfs	Z. I. D.		s
 Z. N.	Zg00	Z. N.		s
@@ -27937,8 +28674,13 @@ Z.A.P.U.	Zg00	Z.A.P.U.		s
 Z.A.P.U.	Zgfs	Z.A.P.U.		s
 Z.E.	Zg00	Z.E.		s
 Z.E.	Zgfs	Z.E.		s
+Z.E.C.	Zg00	Z.E.C.	ZEC	s
 Z.E.E.	Zg00	Z.E.E.		s
 Z.E.E.	Zgfs	Z.E.E.		s
+Z.E.P.V.N.	Zg00	Z.E.P.V.N.	ZEPVN	s
+Z.E.P.V.N.	Zgfa	Z.E.P.V.N.	ZEPVN	s
+Z.E.P.V.N.	Zgfp	Z.E.P.V.N.	ZEPVN	s
+Z.E.P.V.N.	Zgfs	Z.E.P.V.N.	ZEPVN	s
 Z.I.D.	Zg00	Z.I.D.		s
 Z.I.D.	Zgfs	Z.I.D.		s
 Z.N.	Zg00	Z.N.		s
@@ -27957,8 +28699,13 @@ ZAPU	Zg00	ZAPU		s
 ZAPU	Zgfs	ZAPU		s
 ZE	Zg00	ZE		s
 ZE	Zgfs	ZE		s
+ZEC	Zg00	ZEC	ZEC	s
 ZEE	Zg00	ZEE		s
 ZEE	Zgfs	ZEE		s
+ZEPVN	Zg00	ZEPVN	ZEPVN	s
+ZEPVN	Zgfa	ZEPVN	ZEPVN	s
+ZEPVN	Zgfp	ZEPVN	ZEPVN	s
+ZEPVN	Zgfs	ZEPVN	ZEPVN	s
 ZID	Zg00	ZID		s
 ZID	Zgfs	ZID		s
 ZN	Zg00	ZN		s

@@ -58136,7 +58136,7 @@ Administracións Públicas	Sp00	Administracións Públicas
 mediante	P	mediante
 140	Ncdmp	140
 programas	Scmp	programa
-analizados	A0mp	analizado
+analizados	V0p0mp	analizar
 en	P	en
 350	Ncdfp	350
 medidas	Scfp	medida
@@ -470453,7 +470453,7 @@ ela	Rtn3fs	el
 foi	Vei30sir	ir
 as	Ddfp	o
 "	Q"	"
-américas	Scfp	américas
+américas	Spfp	América
 "	Q"	"
 ,	Q,	,
 pero	Cs	pero
@@ -766982,8 +766982,8 @@ unan	Vps30p	unir
 ?	Q?	?
 
 canto	Wr	canto
-máis	Wn	máis
-variados	V0p0mp	variar
+máis	Wm	máis
+variados	A0mp	variado
 sexamos	Vps10p	ser
 ,	Q,	,
 as	Ddfp	o
