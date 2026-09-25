@@ -47,8 +47,8 @@ coas	con	con	con	P	/	as	o	o	Ddfp
 coas/cos	con	con	con	P	/	as/os	o	o	Ddxp
 coel	con	con	con	P	/	el	el	el	Rtp3ms
 coela	con	con	con	P	/	ela	el	el	Rtp3fs
-coelas	con	con	con	P	/	elas	el	el	Rtpfp
-coeles	con	con	con	P	/	eles	el	el	Rtpmp
+coelas	con	con	con	P	/	elas	el	el	Rtp3fp
+coeles	con	con	con	P	/	eles	el	el	Rtp3mp
 coelo	con	con	con	P	/	elo	el	el	Rtp3ns
 coil	con	con	con	P	/	il	il	el	Rtp3ms
 coiles	con	con	con	P	/	iles	il	el	Rtp3mp
