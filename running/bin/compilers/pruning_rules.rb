@@ -49,6 +49,7 @@ module Compilers
       end
       output.print "\n"
       output.puts "STDERR.puts \"rejected by RULE #{line}\"" # Important line for debugging
+      output.puts 'STDERR.puts "matched words: " + window.each_with_index.map { |element, index| [index, element ? element[0] : "<empty>"].inspect }.join(", ")'
       output.puts "return #{index_breaking_point}"
       output.puts "end"
     end
