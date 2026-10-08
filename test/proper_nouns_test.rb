@@ -191,25 +191,19 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should detect proper nouns between parens' do
+      it 'should keep exact-case lexical entries out of proper noun segments between parens' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo (Xoán)."
-        result = proper_nouns.call(text)
-        expected = [
-          "Dixo (",
-          ProperNouns::Literal.new("Xoán", tags.map { |tag| [tag, "Xoán"] }.sort, false),
-          ")."
-        ]
-        assert_equal expected, result, "Failed to detect proper noun between parens: #{text}"
+        assert_equal [text], proper_nouns.call(text)
       end
 
-      it 'should detect proper nouns after an internal point and mixed wrappers' do
+      it 'should apply the exact-case guard after an internal point and wrappers' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
         {
-          'Dixo. Xoán.' => ['Xoán'],
+          'Dixo. Xoán.' => [],
           'Dixo _Hannah Montana_.' => ['Hannah Montana'],
-          'Dixo _"Xoán".' => ['Xoán']
+          'Dixo _"Xoán".' => []
         }.each do |text, expected_literals|
           result = proper_nouns.call(text)
           actual_literals = result.filter_map { |segment| segment.text if segment.is_a?(ProperNouns::Literal) }
@@ -218,7 +212,7 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should keep capitalized common words out of proper noun segments after punctuation' do
+      it 'should allow lowercase-only lexical words as proper nouns after punctuation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
         [
@@ -229,8 +223,13 @@ describe 'ProperNounsTest' do
           result = proper_nouns.call(text)
           proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
 
-          refute proper_noun_literals.any? { |segment| %w[Estudantes Asociación Atácannos].include?(segment.text) },
-            "Should not promote a common word to a proper noun in: #{text}"
+          if text.include?('Atácannos')
+            refute proper_noun_literals.any? { |segment| segment.text == 'Atácannos' },
+              'The existing ambiguity guard should remain unchanged after punctuation and a wrapper'
+          else
+            assert proper_noun_literals.any? { |segment| %w[Estudantes Asociación].include?(segment.text) },
+              "Expected lowercase-only lexical word to be promoted in: #{text}"
+          end
         end
       end
 
@@ -430,7 +429,7 @@ describe 'ProperNounsTest' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo Madrid. Galicia."
 
-        assert_equal ["Dixo ", ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false), ". ", ProperNouns::Literal.new("Galicia", tags.map { |tag| [tag, "Galicia"] }.sort, false), "."], proper_nouns.call(text)
+        assert_equal ["Dixo ", ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false), ". Galicia."], proper_nouns.call(text)
       end
 
       it 'should NOT detect proper noun when preceded only by numbers, puctuation or symbols' do
@@ -467,6 +466,34 @@ describe 'ProperNounsTest' do
           proper_noun_literals = result.select { |r| r.is_a?(ProperNouns::Literal) }
           assert_empty proper_noun_literals,
             "Should NOT detect proper noun in: #{text.inspect}"
+        end
+      end
+
+      it 'matches guarded proper nouns against exact-case lexicon entries' do
+        lowercase_lexicon = %w[non babilonia].to_h do |word|
+          [word, ProperNouns::Literal.new(word, [['Scms', word]], true)]
+        end
+        lowercase_proper_nouns = ProperNouns.new(lowercase_lexicon, [], [], joiners, tags)
+
+        {
+          'Dixo "Non".' => 'Non',
+          'Dixo (Babilonia).' => 'Babilonia',
+          'Dixo. Non.' => 'Non'
+        }.each do |text, noun|
+          result = lowercase_proper_nouns.call(text)
+          literal = result.find { |segment| segment.is_a?(ProperNouns::Literal) }
+          expected_tag_lemmas = tags.map { |tag| [tag, noun] }.sort
+          assert_equal ProperNouns::Literal.new(noun, expected_tag_lemmas, false), literal,
+            "Expected lowercase-only lexicon entry to permit #{noun} in #{text.inspect}"
+        end
+
+        capitalized_lexicon = %w[Non Babilonia Saccharomyces].to_h do |word|
+          [word, ProperNouns::Literal.new(word, [['Scms', word]], true)]
+        end
+        capitalized_proper_nouns = ProperNouns.new(capitalized_lexicon, [], [], joiners, tags)
+        ['Dixo "Non".', 'Dixo. Babilonia.', 'Dixo (Saccharomyces).'].each do |text|
+          assert_equal [text], capitalized_proper_nouns.call(text),
+            "Should not promote exact-case lexicon entry in #{text.inspect}"
         end
       end
 

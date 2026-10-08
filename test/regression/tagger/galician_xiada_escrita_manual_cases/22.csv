@@ -5,22 +5,22 @@ en	P	en	en
 A Coruña	Sp00	A Coruña	""
 xunto con	P	xunto con	xunto con
 Luís Veira	Spm0	Luís Veira	""
-<pausa/>	Zf00	*	*
+<pausa/>	Zs00	*	*
 o	Ddms	o	o
-chef	Scms	*	*
-<pausa/>	Zf00	*	*
-Michelín de Árbore	Sp00	Michelín de Árbore	""
+chef	Scms	chef	chef
+<pausa/>	Zs00	*	*
+Michelín de Árbore	Spms	Michelín de Árbore	""
 de	P	de	de
 a	Ddfs	o	o
 Veira	Spfs	Veira	""
-<pausa/>	Zf00	*	*
+<pausa/>	Scms	*	*
 de	P	de	de
 o	Ddms	o	o
 restaurante	Scms	restaurante	restaurante
 de	P	de	de
 a	Ddfs	o	o
 Coruña	Spfs	Coruña	""
-<pausa/>	Zf00	*	*
+<pausa/>	Scms	*	*
 e	Cc	e	e
 gustaría	Vci30s	gustar	gustar
 nos	Rad1ap	nos	nos

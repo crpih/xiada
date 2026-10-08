@@ -268,9 +268,9 @@ class ProperNouns
 
     # If:
     # - the match text is after a wrapper char, after an internal point or at the beginning of the text
-    # - and lowercase match is in the main lexicon, is a false positive (e.g. "Non")
+    # - the exact-case match is in the main lexicon, it is a lexical item rather than a proper noun
     return if (starts_with_wrapper?(text, i) || after_non_abbreviation_point?(text, i) || i.zero?) &&
-      @main_lexicon.include?(match.downcase.strip)
+      @main_lexicon.include?(match.strip)
 
     i...(i + match.size)
   end

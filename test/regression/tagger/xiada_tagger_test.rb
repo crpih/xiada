@@ -16,10 +16,11 @@ def test_snapshots(tagger_config, document_config, cases_filename)
         end
       end
 
-      if ENV["UPDATE_SNAPSHOTS"] == "1" && cases_filename == "corga_4_2"
-        FileUtils.mkdir_p("#{__dir__}/#{cases_filename}")
-        File.write("#{__dir__}/#{cases_filename}/#{i}.csv", result)
-      end
+      # Keep regression runs read-only; update snapshots explicitly outside this test.
+      # if ENV["UPDATE_SNAPSHOTS"] == "1"
+      #   FileUtils.mkdir_p("#{__dir__}/#{cases_filename}")
+      #   File.write("#{__dir__}/#{cases_filename}/#{i}.csv", result)
+      # end
 
       expected = File.read("#{__dir__}/#{cases_filename}/#{i}.csv")
       assert_equal expected, result

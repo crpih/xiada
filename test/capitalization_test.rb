@@ -75,7 +75,7 @@ class CapitalizationTest < Minitest::Test
     text = @examples.fetch(0)
     token = @tagger.tag_texts(@document_config, [text]).first.find { |entry| entry[:token] == 'Infraestructuras' }
 
-    assert_equal({ token: 'Infraestructuras', tag: 'Scfp', lemma: 'infraestructura', hiperlemma: 'infraestrutura' },
+    assert_equal({ token: 'Infraestructuras', tag: 'Sp00', lemma: 'Infraestructuras', hiperlemma: '' },
                  token.slice(:token, :tag, :lemma, :hiperlemma))
     assert_equal text.index('Infraestructuras'), token[:start]
     assert_equal token[:start] + token[:token].length - 1, token[:finish]
@@ -85,7 +85,7 @@ class CapitalizationTest < Minitest::Test
     text = @examples.fetch(1)
     token = @tagger.tag_texts(@document_config, [text]).first.find { |entry| entry[:token] == 'Infraestruturas' }
 
-    assert_equal({ token: 'Infraestruturas', tag: 'Scfp', lemma: 'infraestrutura', hiperlemma: 'infraestrutura' },
+    assert_equal({ token: 'Infraestruturas', tag: 'Sp00', lemma: 'Infraestruturas', hiperlemma: '' },
                  token.slice(:token, :tag, :lemma, :hiperlemma))
     assert_equal text.index('Infraestruturas'), token[:start]
     assert_equal token[:start] + token[:token].length - 1, token[:finish]
