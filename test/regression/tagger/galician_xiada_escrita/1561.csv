@@ -1,6 +1,6 @@
 coeficientes	Scmp	coeficiente	coeficiente
 (	Q(	(	(
-<fórmula/>	Zf00	<fórmula/>	""
+<fórmula/>	Zs00	*	*
 erro	Scms	erro	erro
 estandar	Scms	estandar	estándar
 )	Q)	)	)
@@ -24,7 +24,7 @@ a	P	a	a
 )	Q)	)	)
 ,	Q,	,	,
 en	P	en	en
-<fórmula/>	Zf00	<fórmula/>	""
+<fórmula/>	Scms	*	*
 ,	Q,	,	,
 en	P	en	en
 as	Ddfp	o	o

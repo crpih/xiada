@@ -44,7 +44,7 @@ os	Ddmp	o	o
 grupos	Scmp	grupo	grupo
 de	P	de	de
 a	Ddfs	o	o
-FEG	Zgfs	*	*
+FEG	Zgfs	FEG	FEG
 a	P	a	a
 involucrar	V0f000	involucrar	involucrar
 se	Rao3aa	se	se
@@ -81,9 +81,9 @@ baixo	P	baixo	baixo
 o	Ddms	o	o
 nome	Scms	nome	nome
 de	P	de	de
-ABSE	Zg00	*	*
+ABSE	Zg00	ABSE	ABSE
 (	Q(	(	(
-Asociación	Scfs	asociación	asociación
+Asociación	Sp00	Asociación	""
 para	P	para	para
 a	Ddfs	o	o
 Banca Social	Spfs	Banca Social	""
