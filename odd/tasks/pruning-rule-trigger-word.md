@@ -44,4 +44,4 @@ The Galician Xiada pruning system already reports the rule pattern when it prune
 - No full suite or database-dependent tests run.
 - Jira task created: [COR-257](https://nlpgo.atlassian.net/browse/COR-257), type Task, Medium priority. Board `CORGA/XIADA` (ID 17) is Kanban and has no backlog; the issue is visible on the board in status BACKLOG. Explicit backlog-assignment API attempt was rejected because the Kanban board has no backlog.
 - Implementation work-unit commit: `c12cd31` (`[COR-257] feat: log matched pruning words`).
-- Merge to `dev` is authorized and pending.
+- Merged into `dev` with merge commit `935a8dd7ead70fa5dc1e9f8946f0196d3bbf70e9`.
