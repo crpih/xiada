@@ -64,3 +64,8 @@ docs
 worktrees/
 .kanvas-loop/
 docs/**/loop/*
+# Local Pi runtime state
+.atl/
+
+# Keep local ODD task artifacts out of Git
+odd/

@@ -1,0 +1,974 @@
+[
+  {
+    "id": "C1-01",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) diminución de a produtividade en o bentos",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) diminución de a produtividade en o bentos`"
+  },
+  {
+    "id": "C1-02",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) industrialización",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) industrialización`"
+  },
+  {
+    "id": "C1-03",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) mercurio en lamas de a Ría",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) mercurio en lamas de a Ría`"
+  },
+  {
+    "id": "C1-04",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) servicios comúns",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) servicios comúns`"
+  },
+  {
+    "id": "C1-05",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) aspeitos socio-relixiosos",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) aspeitos socio-relixiosos`"
+  },
+  {
+    "id": "C1-06",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) Andorra._",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) Andorra._`"
+  },
+  {
+    "id": "C1-07",
+    "source": "p027",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "d) repoboación forestal",
+    "focus": "d)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `d)` coa etiqueta `Zo00` e o lema `d)`; conservar o resto do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "d)",
+      "tag": "Zo00",
+      "lemma": "d)",
+      "preserve_context": true
+    },
+    "document_example": "`d) repoboación forestal`"
+  },
+  {
+    "id": "C1-08",
+    "source": "p029",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "D)",
+    "focus": "D)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer a entrada `D)` con `Zo00` e lema `D)`; control da forma con maiúscula.",
+    "expectation": {
+      "type": "unit",
+      "surface": "D)",
+      "tag": "Zo00",
+      "lemma": "D)"
+    },
+    "document_example": "`D)`"
+  },
+  {
+    "id": "C1-09",
+    "source": "texto §1",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "e)",
+    "focus": "e)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer `e)` segundo a entrada de periféricas; etiqueta e lema exactos pendentes de consulta.",
+    "expectation": {
+      "type": "incomplete",
+      "reason": "The client requests the lexical entry for e), but its exact tag and lemma are explicitly unconfirmed in the report."
+    },
+    "document_example": "`e)`"
+  },
+  {
+    "id": "C1-10",
+    "source": "texto §1",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "€",
+    "focus": "€",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer o símbolo `€` segundo a súa entrada; análise exacta pendente de consulta.",
+    "expectation": {
+      "type": "unit",
+      "surface": "€",
+      "tag": "Zs00",
+      "lemma": "€",
+      "evidence": "training/lexicons/galician_xiada/lexicon_principal.txt:1218953"
+    },
+    "document_example": "`€`"
+  },
+  {
+    "id": "C1-11",
+    "source": "texto §1",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "ahum",
+    "focus": "ahum",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Recoñecer a interxección `ahum` segundo a súa entrada; análise exacta pendente de consulta.",
+    "expectation": {
+      "type": "unit",
+      "surface": "ahum",
+      "tag": "Y",
+      "lemma": "ahum",
+      "evidence": "training/lexicons/galician_xiada/lexicon_principal.txt:124473"
+    },
+    "document_example": "`ahum`"
+  },
+  {
+    "id": "C1-13",
+    "source": "texto §1",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "%,",
+    "focus": "%",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.1. Entradas periféricas sen análise léxica",
+    "expected_description": "Separar `%` e a coma en dous tokens; este caso non fixa as etiquetas nin os lemas.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "%"
+        },
+        {
+          "type": "unit",
+          "surface": ","
+        }
+      ]
+    },
+    "document_example": "`%,`"
+  },
+  {
+    "id": "C1-12",
+    "source": "texto §1",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "de través",
+    "focus": "de través",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "1. Formas recollidas no lexicón sen recoñecer",
+    "subsection": "1.2. Recoñecemento da locución «de través»",
+    "expected_description": "Recoñecer a locución `de través` e o seu lema; non probar só `través` fóra do contexto.",
+    "expectation": {
+      "type": "unit",
+      "surface": "de través",
+      "tag": "Wn",
+      "lemma": "de través",
+      "evidence": "training/lexicons/galician_xiada/lexicon_locucions_inseguras.txt:267"
+    },
+    "document_example": "`de través`"
+  },
+  {
+    "id": "C2-01",
+    "source": "p032",
+    "kind": "tagger",
+    "profile": "galician_xiada_oral",
+    "input": "son baixa <pausa/> Risti^^^c <pausa/> Luca de la Torre e Óscar Mingueza por lesión",
+    "focus": "Risti^^^c",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "2. Representación dos caracteres estraños",
+    "subsection": "2.1. Carácter codificado nunha fonte oral",
+    "expected_description": "Determinar o carácter representado por `^^^c` e conservar as pausas. Conversión exacta pendente.",
+    "expectation": {
+      "type": "incomplete",
+      "reason": "The source character represented by ^^^c and its conversion are undefined; preserving the current code is not acceptance."
+    },
+    "document_example": "`son baixa <pausa/> Risti^^^c <pausa/> Luca de la Torre e Óscar Mingueza por lesión`"
+  },
+  {
+    "id": "C2-02",
+    "source": "p033",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Outros exemplos de economías alternativas son as moedas sociais como a Sabia e a ^^G1 ou \"Juna\".",
+    "focus": "^^G1",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "2. Representación dos caracteres estraños",
+    "subsection": "2.2. Símbolo codificado nunha fonte escrita",
+    "expected_description": "Determinar o símbolo representado por `^^G1` e a súa análise; non caracterizalo arbitrariamente como número.",
+    "expectation": {
+      "type": "incomplete",
+      "reason": "The source symbol represented by ^^G1 and its analysis are undefined; do not invent a Unicode replacement or numeric category."
+    },
+    "document_example": "`Outros exemplos de economías alternativas son as moedas sociais como a Sabia e a ^^G1 ou \"Juna\".`"
+  },
+  {
+    "id": "C4-04",
+    "source": "p046",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "palabra. Levo os dedos aos beizos",
+    "focus": "palabra. Levo",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.2. Punto pegado á palabra e análise da seguinte forma",
+    "expected_description": "Separar `palabra` e o punto; recoñecer `Levo` como verbo neste contexto.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "palabra"
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": "Levo",
+          "tag_prefix": "V",
+          "lemma": "levar",
+          "ignore_case": true
+        }
+      ]
+    },
+    "document_example": "`palabra. Levo os dedos aos beizos`"
+  },
+  {
+    "id": "C4-05",
+    "source": "p046",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "dubitativa. Opto polo que realmente pensei",
+    "focus": "dubitativa. Opto",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.2. Punto pegado á palabra e análise da seguinte forma",
+    "expected_description": "Separar `dubitativa` e o punto; recoñecer `Opto` como verbo neste contexto.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "dubitativa"
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": "Opto",
+          "tag_prefix": "V",
+          "ignore_case": true
+        }
+      ]
+    },
+    "document_example": "`dubitativa. Opto polo que realmente pensei`"
+  },
+  {
+    "id": "C4-12",
+    "source": "p050",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+    "focus": "Alcolismo",
+    "scope": "Oración completa transcrita da captura orixinal p050; conserva o texto previo aos títulos.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer `Alcolismo` como nome propio (`Sp*`), non como substantivo común.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Alcolismo",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\")` — foco `Alcolismo`"
+  },
+  {
+    "id": "C4-13",
+    "source": "p050",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+    "focus": "Tabaquismo",
+    "scope": "Oración completa transcrita da captura orixinal p050; conserva o texto previo aos títulos.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer `Tabaquismo` como nome propio (`Sp*`), non como substantivo común.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Tabaquismo",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\")` — foco `Tabaquismo`"
+  },
+  {
+    "id": "C4-14",
+    "source": "p050",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+    "focus": "Aspeitos actuáis da imunidade",
+    "scope": "Oración completa transcrita da captura orixinal p050; conserva o texto previo aos títulos.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer só o segmento propio `Aspeitos`; non se esixe o título completo se non figura en `lexicon_titulos`.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Aspeitos",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\")`"
+  },
+  {
+    "id": "C4-18",
+    "source": "p051",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "ERGA (Estudantes Revolucionarios Galegos)",
+    "focus": "Estudantes Revolucionarios Galegos",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer `Estudantes Revolucionarios Galegos` como unidade propia (`Sp*`).",
+    "expectation": {
+      "type": "unit",
+      "surface": "Estudantes Revolucionarios Galegos",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`ERGA (Estudantes Revolucionarios Galegos)`"
+  },
+  {
+    "id": "C4-19",
+    "source": "p052",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "O libro (\"Las PYMES y el mercado único\")",
+    "focus": "Las PYMES y el mercado único",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer só o segmento propio `Las`; non se esixe a sigla `PYMES` nin o título completo se non figura en `lexicon_titulos`.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Las",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`O libro (\"Las PYMES y el mercado único\")`"
+  },
+  {
+    "id": "C4-20",
+    "source": "p053",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Un novo crédito (\"Mex está interpretado por Tosh Carillo.\")",
+    "focus": "Mex",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.3. Títulos e propios tras comiñas e parénteses",
+    "expected_description": "Recoñecer `Mex` como nome propio (`Sp*`), non como adxectivo con lema `meo`.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Mex",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`Un novo crédito (\"Mex está interpretado por Tosh Carillo.\")`"
+  },
+  {
+    "id": "C4-21",
+    "source": "p056, p058",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "1992 (\"Notas Pteridológicas de Galicia - IV\", \"Acta Botánica Malacitana nº 17\"), recollía",
+    "focus": "Notas Pteridológicas de Galicia - IV",
+    "scope": "Contexto ampliado achegado polo usuario; conserva a grafía Botánica e os dous títulos.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.4. Comparación histórica de títulos propios",
+    "expected_description": "Recoñecer o segmento propio `Pteridológicas de Galicia`; `Notas` mantén a súa análise léxica común e non se esixe o título completo sen entrada en `lexicon_titulos`.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Pteridológicas de Galicia",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "`(\"Notas Pteridológicas de Galicia - IV\", ...)`"
+  },
+  {
+    "id": "C4-22",
+    "source": "texto §4",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "1992 (\"Notas Pteridológicas de Galicia - IV\", \"Acta Botánica Malacitana nº 17\"), recollía",
+    "focus": "Acta Botánica Malacitana nº 17",
+    "scope": "Contexto ampliado achegado polo usuario; conserva a grafía Botánica e os dous títulos.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.4. Comparación histórica de títulos propios",
+    "expected_description": "Conservar a análise propia do título; revisar o límite coa abreviatura e o número.",
+    "expectation": {
+      "type": "proper_prefix",
+      "surface": "Acta Botánica Malacitana"
+    },
+    "document_example": "`\"Acta Botanica Malacitana nº 17\"`"
+  },
+  {
+    "id": "C4-23",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "cousa podería facer_ de textos por todos tan coñecidos como \"Os límites de o crecimento\" ou \" O manifesto para a supervivencia\".",
+    "focus": "O manifesto para a supervivencia",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O manifesto para a supervivencia\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-24",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "din Vdes. _estou a lér o informe técnico de Celulosas_ \" O problema de os ulidos de unha fábrica de pasta \"Kraft\" é particularmente difícil de resolver debido a o",
+    "focus": "O problema de os ulidos de unha fábrica de pasta",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O problema de os ulidos de unha fábrica de pasta\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-25",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "de o C.S.I.C. en Madrid, sendo Profesor agregado de este Centro e logo Xefe de Seción de Química Analítica de o Patronato \"Alfonso O Sabio\" de a Facultade de Ciencias galega;",
+    "focus": "Alfonso O Sabio",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"Alfonso O Sabio\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-26",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "ten publicados diferentes traballos de a súa especialidade entre os que destacan \" O cangrexo de río\" publicado por lo SNPEC, \"Cultivos de moluscos\" editado por la Dirección Xeneral de Pesca, etc.",
+    "focus": "O cangrexo de río",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O cangrexo de río\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-27",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "a obra de Ellis, en especial \" O arte e a ciencia de o amor\", é paradigmática.",
+    "focus": "O arte e a ciencia de o amor",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O arte e a ciencia de o amor\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-28",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "ista ambigüedade temática e de contido sosténse xa en os títuos, por exemplo, \" O erotismo de as Mil e Unha noites\", a \"Mitoloxía de o seno\", a \"Técnica",
+    "focus": "O erotismo de as Mil e Unha noites",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O erotismo de as Mil e Unha noites\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-29",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "noites\", a \"Mitoloxía de o seno\", a \"Técnica de o erotismo\", \" O erotismo en o cine\", \"O simbolismo sexual\", etc., etc.",
+    "focus": "O erotismo en o cine",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O erotismo en o cine\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-30",
+    "source": "p061",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "noites\", a \"Mitoloxía de o seno\", a \"Técnica de o erotismo\", \" O erotismo en o cine\", \"O simbolismo sexual\", etc., etc.",
+    "focus": "O simbolismo sexual",
+    "scope": "Contexto visible da captura p061, sen os marcadores de truncamento da interface; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.5. Análise de «O» nos contextos mostrados",
+    "expected_description": "Analizar `O` como artigo (`Ddms`), non como substantivo común; esta proba non impón a agrupación do título completo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "O",
+      "tag": "Ddms",
+      "ignore_case": true
+    },
+    "document_example": "`\"O simbolismo sexual\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-31",
+    "source": "p062",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "de 1974 esta mensaxe foi en parte rectificada por outra lanzada por lo propio Club desde Berlín, intitulada \" A humanidade en un intre decisivo\".",
+    "focus": "A humanidade en un intre decisivo",
+    "scope": "Contexto orixinal recuperado da captura p062/p069; C4-34/35 usan a oración completa p050 correspondente. document_example conserva separadamente a transcrición da táboa; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "A",
+      "tag": "Ddfs",
+      "ignore_case": true
+    },
+    "document_example": "`\"A humanidade en un intre decisivo\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-32",
+    "source": "p062",
+    "kind": "manual",
+    "reason": "Texto orixinal parcialmente tapado; non hai unha entrada exacta para executar.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo. Recuperar o texto tapado antes de executar a proba.",
+    "expectation": {
+      "type": "incomplete",
+      "reason": "Exact input is unavailable: the original OCDE title is partially hidden. Recover it before claiming an article test was executed."
+    },
+    "document_example": "Título da OCDE rematado en `pastas de papel` (texto parcialmente tapado)"
+  },
+  {
+    "id": "C4-33",
+    "source": "p062",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "se desvirtúa con o publicado por la mesma Empresa o pasado día 11 de febreiro en o xornal local \" A Rexión\".",
+    "focus": "A Rexión",
+    "scope": "Contexto orixinal recuperado da captura p062/p069; C4-34/35 usan a oración completa p050 correspondente. document_example conserva separadamente a transcrición da táboa; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "A",
+      "tag": "Ddfs",
+      "ignore_case": true
+    },
+    "document_example": "`\"A Rexión\"`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-34",
+    "source": "p062",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+    "focus": "A infeción hospitalaria",
+    "scope": "Contexto orixinal recuperado da captura p062/p069; C4-34/35 usan a oración completa p050 correspondente. document_example conserva separadamente a transcrición da táboa; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "A",
+      "tag": "Ddfs",
+      "ignore_case": true
+    },
+    "document_example": "`\"A infecion hospitalaria\"` no resultado da busca",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-35",
+    "source": "p062",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+    "focus": "A fame no mundo",
+    "scope": "Contexto orixinal recuperado da captura p062/p069; C4-34/35 usan a oración completa p050 correspondente. document_example conserva separadamente a transcrición da táboa; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "A",
+      "tag": "Ddfs",
+      "ignore_case": true
+    },
+    "document_example": "`\"A fame en o mundo\"` no resultado da busca",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-36",
+    "source": "p062",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "que o perímetro de a dita zona sería en \"principio\" o de a parte de o Axuntamento de Abegondo ( A Cruña) pertencente a a parroquia de San Miguel de Figueroa",
+    "focus": "A Cruña",
+    "scope": "Contexto orixinal recuperado da captura p062/p069; C4-34/35 usan a oración completa p050 correspondente. document_example conserva separadamente a transcrición da táboa; non se inventou texto oculto.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.6. Análise de «A» nos contextos mostrados",
+    "expected_description": "Analizar `A` como artigo (`Ddfs`), non como categoría periférica ou símbolo.",
+    "expectation": {
+      "type": "unit",
+      "surface": "A",
+      "tag": "Ddfs",
+      "ignore_case": true
+    },
+    "document_example": "`(A Cruña)`",
+    "acceptance": {
+      "status": "deferred",
+      "reason": "This title is not an exact entry in lexicon_titulos. Adding source title entries is outside this task; retain the case as documented evidence but defer its article-analysis acceptance until the title is registered."
+    }
+  },
+  {
+    "id": "C4-37",
+    "source": "p065",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "Colaboramos coa Asociación para a Banca Social.",
+    "focus": "Asociación",
+    "scope": "Comprobación local documentada, non unha consulta remota CORGA.",
+    "section": "4. Maiúsculas no interior de secuencia",
+    "subsection": "4.7. Recoñecemento medial de «Asociación»",
+    "expected_description": "Recoñecer `Asociación` con maiúscula en posición medial como nome propio (`Sp*`), aínda que exista `asociación` no lexicón común.",
+    "expectation": {
+      "type": "unit",
+      "surface": "Asociación",
+      "tag_prefix": "Sp"
+    },
+    "document_example": "Proba local: `Colaboramos coa Asociación para a Banca Social.`"
+  },
+  {
+    "id": "C7-01",
+    "source": "p110",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "organización alemá.]",
+    "focus": "alemá.]",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "7. Signo de puntuación punto",
+    "subsection": "7.1. Punto final antes dun corchete de peche",
+    "expected_description": "Forma léxica `alemá`, punto e corchete; non sigla `Zg00`.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "alemá",
+          "forbidden_tag_prefix": "Z"
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": "]",
+          "tag": "Q]"
+        }
+      ]
+    },
+    "document_example": "`organización alemá.]`"
+  },
+  {
+    "id": "C7-02",
+    "source": "p111",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "e son máis feliz ca ti, porque amo o meu propio amor.\"6.",
+    "focus": "amor.",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "7. Signo de puntuación punto",
+    "subsection": "7.2. Punto final antes de comiña e chamada de nota",
+    "expected_description": "Substantivo común `amor`, punto e comiña; non abreviatura `Za00`. Confirmar e conservar a chamada de nota.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "amor",
+          "tag_prefix": "Sc"
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": "\"",
+          "tag_prefix": "Q"
+        }
+      ],
+      "preserve_after": "6."
+    },
+    "document_example": "`e son máis feliz ca ti, porque amo o meu propio amor.\"6.`"
+  },
+  {
+    "id": "C7-03",
+    "source": "p112",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "(segundo modelo do anexo.)",
+    "focus": "anexo.)",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "7. Signo de puntuación punto",
+    "subsection": "7.3. Punto final antes dunha paréntese de peche",
+    "expected_description": "Substantivo común `anexo`, punto e paréntese; non sigla `Zgms`.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "anexo",
+          "tag_prefix": "Sc"
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": ")",
+          "tag": "Q)"
+        }
+      ]
+    },
+    "document_example": "`(segundo modelo do anexo.)`"
+  },
+  {
+    "id": "C7-04",
+    "source": "p113",
+    "kind": "tagger",
+    "profile": "galician_xiada",
+    "input": "(Cantarolando.)",
+    "focus": "Cantarolando.",
+    "scope": "Texto local da táboa; pode ser un fragmento, non a oración completa do corpus.",
+    "section": "7. Signo de puntuación punto",
+    "subsection": "7.3. Punto final antes dunha paréntese de peche",
+    "expected_description": "Análise verbal de xerundio para `Cantarolando`, máis puntuación; non abreviatura `Zams`.",
+    "expectation": {
+      "type": "sequence",
+      "items": [
+        {
+          "type": "unit",
+          "surface": "Cantarolando",
+          "tag": "V0x000",
+          "lemma": "cantarolar",
+          "ignore_case": true
+        },
+        {
+          "type": "unit",
+          "surface": ".",
+          "tag": "Q."
+        },
+        {
+          "type": "unit",
+          "surface": ")",
+          "tag": "Q)"
+        }
+      ]
+    },
+    "document_example": "`(Cantarolando.)`"
+  }
+]

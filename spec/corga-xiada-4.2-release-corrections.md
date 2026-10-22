@@ -1,0 +1,1 @@
+../../ncs_rails_corga/spec/corga-xiada-4.2-release-corrections.md

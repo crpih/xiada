@@ -351,18 +351,12 @@ class ProperNouns
     # Unambiguous proper nouns are not preceded by punctuation followed by a separator (space usually).
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
     wrapper_count = wrapper_start_count(text, i)
-    return true if wrapper_count > 1 && text[(i - wrapper_count)...i].include?("(")
-
     previous_two_positions = i - 2 - wrapper_count
     return true if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
 
-    # Keep the token after a short, dotted abbreviation in the lexical path.
-    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
-      previous_separator_position = text[..previous_two_positions].rindex(/\p{Z}/)
-      previous_word = text[(previous_separator_position + 1)..previous_two_positions] if previous_separator_position
-      return true if short_abbreviation?(previous_word.to_s) &&
-        !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word)
-    end
+    # A capitalized lexical form after a point is not promoted to a proper noun.
+    # Proper names in this position must be listed in the proper-noun lexicon.
+    return true if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
 
     false
   end

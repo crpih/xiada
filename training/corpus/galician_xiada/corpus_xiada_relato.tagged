@@ -60182,7 +60182,7 @@ de	P	de
 premio	Scms	premio
 ,	Q,	,
 cinco	Ncnap	cinco
--	Zs00	-
+-	Q-	-
 seis	Ncnap	seis
 ,	Q,	,
 segundo	P	segundo
@@ -69833,7 +69833,7 @@ como	Cs	como
 Asador Reses Bravas	Sp00	Asador Reses Bravas
 
 A Grova	Sp00	A Grova
--	Zs00	-
+-	Q-	-
 Baiona	Sp00	Baiona
 (	Q(	(
 Pontevedra	Sp00	Pontevedra
@@ -232109,7 +232109,7 @@ penalti	Scms	penalti
 en	P	en
 o	Ddms	o
 Madrid	Spms	Madrid
--	Zs00	-
+-	Q-	-
 Barcelona	Spms	Barcelona
 de	P	de
 o	Ddms	o
@@ -256553,21 +256553,21 @@ exclusivos	A0mp	exclusivo
 .	Q.	.
 
 músico	Scms	músico
--	Zs00	-
+-	Q-	-
 bedel	Scms	bedel
 ,	Q,	,
 peón	Scms	peón
--	Zs00	-
+-	Q-	-
 debuxante	Scms	debuxante
 ,	Q,	,
 psicóloga	Scfs	psicólogo
--	Zs00	-
+-	Q-	-
 dependenta	Scfs	dependente
 ,	Q,	,
 pintor	Scms	pintor
--	Zs00	-
+-	Q-	-
 taberneiro	Scms	taberneiro
--	Zs00	-
+-	Q-	-
 marmorista	Scms	marmorista
 .	Q.	.
 

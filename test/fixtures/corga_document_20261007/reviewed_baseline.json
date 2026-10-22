@@ -1,0 +1,7682 @@
+{
+  "profiles": {
+    "galician_xiada": {
+      "profile": "galician_xiada",
+      "database": "galician_xiada_escrita",
+      "only_lexicon": false,
+      "force_proper_nouns": false,
+      "keep_uppercase_tokens_for": "^(?:Z|Sp)"
+    },
+    "galician_xiada_oral": {
+      "profile": "galician_xiada_oral",
+      "database": "galician_xiada_oral",
+      "only_lexicon": false,
+      "force_proper_nouns": true,
+      "keep_uppercase_tokens_for": "^(?:Z|Sp)"
+    }
+  },
+  "document": {
+    "seseo": true,
+    "gheada": true
+  },
+  "cases": {
+    "C1-01": {
+      "status": "tagged",
+      "input": "d) diminución de a produtividade en o bentos",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "diminución",
+          "tag": "Scfs",
+          "lemma": "diminución",
+          "hiperlemma": "diminución",
+          "start": 3,
+          "finish": 12
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 14,
+          "finish": 15
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 17,
+          "finish": 17
+        },
+        {
+          "token": "produtividade",
+          "tag": "Scfs",
+          "lemma": "produtividade",
+          "hiperlemma": "produtividade",
+          "start": 19,
+          "finish": 31
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 33,
+          "finish": 34
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 36,
+          "finish": 36
+        },
+        {
+          "token": "bentos",
+          "tag": "Scms",
+          "lemma": "bentos",
+          "hiperlemma": "bentos",
+          "start": 38,
+          "finish": 43
+        }
+      ]
+    },
+    "C1-02": {
+      "status": "tagged",
+      "input": "d) industrialización",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "industrialización",
+          "tag": "Scfs",
+          "lemma": "industrialización",
+          "hiperlemma": "industrialización",
+          "start": 3,
+          "finish": 19
+        }
+      ]
+    },
+    "C1-03": {
+      "status": "tagged",
+      "input": "d) mercurio en lamas de a Ría",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "mercurio",
+          "tag": "Scms",
+          "lemma": "mercurio",
+          "hiperlemma": "mercurio",
+          "start": 3,
+          "finish": 10
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 12,
+          "finish": 13
+        },
+        {
+          "token": "lamas",
+          "tag": "Scfp",
+          "lemma": "lama",
+          "hiperlemma": "lama",
+          "start": 15,
+          "finish": 19
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 21,
+          "finish": 22
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 24,
+          "finish": 24
+        },
+        {
+          "token": "Ría",
+          "tag": "Spfs",
+          "lemma": "Ría",
+          "hiperlemma": "",
+          "start": 26,
+          "finish": 28
+        }
+      ]
+    },
+    "C1-04": {
+      "status": "tagged",
+      "input": "d) servicios comúns",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "servicios",
+          "tag": "Scmp",
+          "lemma": "servicio",
+          "hiperlemma": "servizo",
+          "start": 3,
+          "finish": 11
+        },
+        {
+          "token": "comúns",
+          "tag": "A0mp",
+          "lemma": "común",
+          "hiperlemma": "común",
+          "start": 13,
+          "finish": 18
+        }
+      ]
+    },
+    "C1-05": {
+      "status": "tagged",
+      "input": "d) aspeitos socio-relixiosos",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "aspeitos",
+          "tag": "Scmp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 3,
+          "finish": 10
+        },
+        {
+          "token": "socio-relixiosos",
+          "tag": "A0mp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 12,
+          "finish": 27
+        }
+      ]
+    },
+    "C1-06": {
+      "status": "tagged",
+      "input": "d) Andorra._",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "Andorra",
+          "tag": "Sp00",
+          "lemma": "Andorra",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 9
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "_",
+          "tag": "Q_",
+          "lemma": "_",
+          "hiperlemma": "_",
+          "start": 11,
+          "finish": 11
+        }
+      ]
+    },
+    "C1-07": {
+      "status": "tagged",
+      "input": "d) repoboación forestal",
+      "tokens": [
+        {
+          "token": "d)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "repoboación",
+          "tag": "Scfs",
+          "lemma": "repoboación",
+          "hiperlemma": "repoboación",
+          "start": 3,
+          "finish": 13
+        },
+        {
+          "token": "forestal",
+          "tag": "A0fs",
+          "lemma": "forestal",
+          "hiperlemma": "forestal",
+          "start": 15,
+          "finish": 22
+        }
+      ]
+    },
+    "C1-08": {
+      "status": "tagged",
+      "input": "D)",
+      "tokens": [
+        {
+          "token": "D)",
+          "tag": "Zo00",
+          "lemma": "D)",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 1
+        }
+      ]
+    },
+    "C1-09": {
+      "status": "tagged",
+      "input": "e)",
+      "tokens": [
+        {
+          "token": "e)",
+          "tag": "Zo00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        }
+      ]
+    },
+    "C1-10": {
+      "status": "tagged",
+      "input": "€",
+      "tokens": [
+        {
+          "token": "€",
+          "tag": "Zs00",
+          "lemma": "€",
+          "hiperlemma": "€",
+          "start": 0,
+          "finish": 0
+        }
+      ]
+    },
+    "C1-11": {
+      "status": "tagged",
+      "input": "ahum",
+      "tokens": [
+        {
+          "token": "ahum",
+          "tag": "Y",
+          "lemma": "ahum",
+          "hiperlemma": "ahum",
+          "start": 0,
+          "finish": 3
+        }
+      ]
+    },
+    "C1-13": {
+      "status": "tagged",
+      "input": "%,",
+      "tokens": [
+        {
+          "token": "%,",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        }
+      ]
+    },
+    "C1-12": {
+      "status": "tagged",
+      "input": "de través",
+      "tokens": [
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "través",
+          "tag": "Wn",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 3,
+          "finish": 8
+        }
+      ]
+    },
+    "C2-01": {
+      "status": "tagged",
+      "input": "son baixa <pausa/> Risti^^^c <pausa/> Luca de la Torre e Óscar Mingueza por lesión",
+      "tokens": [
+        {
+          "token": "son",
+          "tag": "Vpi30p",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "baixa",
+          "tag": "Scfs",
+          "lemma": "baixa",
+          "hiperlemma": "baixa",
+          "start": 4,
+          "finish": 8
+        },
+        {
+          "token": "<pausa/>",
+          "tag": "Qp",
+          "lemma": "<pausa/>",
+          "hiperlemma": "",
+          "start": 10,
+          "finish": 17
+        },
+        {
+          "token": "Risti",
+          "tag": "Sp00",
+          "lemma": "Risti",
+          "hiperlemma": "",
+          "start": 19,
+          "finish": 23
+        },
+        {
+          "token": "^^^c",
+          "tag": "Wn",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 24,
+          "finish": 27
+        },
+        {
+          "token": "<pausa/>",
+          "tag": "Qp",
+          "lemma": "<pausa/>",
+          "hiperlemma": "",
+          "start": 29,
+          "finish": 36
+        },
+        {
+          "token": "Luca de la Torre",
+          "tag": "Sp00",
+          "lemma": "Luca de la Torre",
+          "hiperlemma": "",
+          "start": 38,
+          "finish": 53
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 55,
+          "finish": 55
+        },
+        {
+          "token": "Óscar Mingueza",
+          "tag": "Spm0",
+          "lemma": "Óscar Mingueza",
+          "hiperlemma": "",
+          "start": 57,
+          "finish": 70
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 72,
+          "finish": 74
+        },
+        {
+          "token": "lesión",
+          "tag": "Scfs",
+          "lemma": "lesión",
+          "hiperlemma": "lesión",
+          "start": 76,
+          "finish": 81
+        }
+      ]
+    },
+    "C2-02": {
+      "status": "tagged",
+      "input": "Outros exemplos de economías alternativas son as moedas sociais como a Sabia e a ^^G1 ou \"Juna\".",
+      "tokens": [
+        {
+          "token": "outros",
+          "tag": "Idmp",
+          "lemma": "outro",
+          "hiperlemma": "outro",
+          "start": 0,
+          "finish": 5
+        },
+        {
+          "token": "exemplos",
+          "tag": "Scmp",
+          "lemma": "exemplo",
+          "hiperlemma": "exemplo",
+          "start": 7,
+          "finish": 14
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 16,
+          "finish": 17
+        },
+        {
+          "token": "economías",
+          "tag": "Scfp",
+          "lemma": "economía",
+          "hiperlemma": "economía",
+          "start": 19,
+          "finish": 27
+        },
+        {
+          "token": "alternativas",
+          "tag": "A0fp",
+          "lemma": "alternativo",
+          "hiperlemma": "alternativo",
+          "start": 29,
+          "finish": 40
+        },
+        {
+          "token": "son",
+          "tag": "Vpi30p",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 42,
+          "finish": 44
+        },
+        {
+          "token": "as",
+          "tag": "Ddfp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 46,
+          "finish": 47
+        },
+        {
+          "token": "moedas",
+          "tag": "Scfp",
+          "lemma": "moeda",
+          "hiperlemma": "moeda",
+          "start": 49,
+          "finish": 54
+        },
+        {
+          "token": "sociais",
+          "tag": "A0fp",
+          "lemma": "social",
+          "hiperlemma": "social",
+          "start": 56,
+          "finish": 62
+        },
+        {
+          "token": "como",
+          "tag": "Cs",
+          "lemma": "como",
+          "hiperlemma": "como",
+          "start": 64,
+          "finish": 67
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 69,
+          "finish": 69
+        },
+        {
+          "token": "Sabia",
+          "tag": "Spfs",
+          "lemma": "Sabia",
+          "hiperlemma": "",
+          "start": 71,
+          "finish": 75
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 77,
+          "finish": 77
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 79,
+          "finish": 79
+        },
+        {
+          "token": "^^G1",
+          "tag": "Ncnms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 81,
+          "finish": 84
+        },
+        {
+          "token": "ou",
+          "tag": "Cc",
+          "lemma": "ou",
+          "hiperlemma": "ou",
+          "start": 86,
+          "finish": 87
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 89,
+          "finish": 89
+        },
+        {
+          "token": "Juna",
+          "tag": "Sp00",
+          "lemma": "Juna",
+          "hiperlemma": "",
+          "start": 90,
+          "finish": 93
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 94,
+          "finish": 94
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 95,
+          "finish": 95
+        }
+      ]
+    },
+    "C3-01": {
+      "status": "tagged",
+      "input": "(x -3)<superíndice>2</superíndice> = 0",
+      "tokens": [
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "x",
+          "tag": "Zs00",
+          "lemma": "x",
+          "hiperlemma": "",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "-3",
+          "tag": "Ncnmp",
+          "lemma": "-3",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 4
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 5,
+          "finish": 5
+        },
+        {
+          "token": "<superíndice>2</superíndice>",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 6,
+          "finish": 33
+        },
+        {
+          "token": "=",
+          "tag": "Zs00",
+          "lemma": "=",
+          "hiperlemma": "",
+          "start": 35,
+          "finish": 35
+        },
+        {
+          "token": "0",
+          "tag": "Ncdmp",
+          "lemma": "0",
+          "hiperlemma": "",
+          "start": 37,
+          "finish": 37
+        }
+      ]
+    },
+    "C3-04": {
+      "status": "tagged",
+      "input": "12 m<superíndice>2</superíndice>",
+      "tokens": [
+        {
+          "token": "12",
+          "tag": "Ncnms",
+          "lemma": "12",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "m<superíndice>2</superíndice>",
+          "tag": "Zs00",
+          "lemma": "m<superíndice>2</superíndice>",
+          "hiperlemma": "m<superíndice>2</superíndice>",
+          "start": 3,
+          "finish": 31
+        }
+      ]
+    },
+    "C4-04": {
+      "status": "tagged",
+      "input": "palabra. Levo os dedos aos beizos",
+      "tokens": [
+        {
+          "token": "palabra",
+          "tag": "Scfs",
+          "lemma": "palabra",
+          "hiperlemma": "palabra",
+          "start": 0,
+          "finish": 6
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 7,
+          "finish": 7
+        },
+        {
+          "token": "Levo",
+          "tag": "Sp00",
+          "lemma": "Levo",
+          "hiperlemma": "",
+          "start": 9,
+          "finish": 12
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 14,
+          "finish": 15
+        },
+        {
+          "token": "dedos",
+          "tag": "Scmp",
+          "lemma": "dedo",
+          "hiperlemma": "dedo",
+          "start": 17,
+          "finish": 21
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 23,
+          "finish": 25
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 23,
+          "finish": 25
+        },
+        {
+          "token": "beizos",
+          "tag": "Scmp",
+          "lemma": "beizo",
+          "hiperlemma": "beizo",
+          "start": 27,
+          "finish": 32
+        }
+      ]
+    },
+    "C4-05": {
+      "status": "tagged",
+      "input": "dubitativa. Opto polo que realmente pensei",
+      "tokens": [
+        {
+          "token": "dubitativa",
+          "tag": "A0fs",
+          "lemma": "dubitativo",
+          "hiperlemma": "dubitativo",
+          "start": 0,
+          "finish": 9
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "Opto",
+          "tag": "Sp00",
+          "lemma": "Opto",
+          "hiperlemma": "",
+          "start": 12,
+          "finish": 15
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 17,
+          "finish": 20
+        },
+        {
+          "token": "lo",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 17,
+          "finish": 20
+        },
+        {
+          "token": "que",
+          "tag": "Tnms",
+          "lemma": "que",
+          "hiperlemma": "que",
+          "start": 22,
+          "finish": 24
+        },
+        {
+          "token": "realmente",
+          "tag": "Wn",
+          "lemma": "realmente",
+          "hiperlemma": "realmente",
+          "start": 26,
+          "finish": 34
+        },
+        {
+          "token": "pensei",
+          "tag": "Vei10s",
+          "lemma": "pensar",
+          "hiperlemma": "pensar",
+          "start": 36,
+          "finish": 41
+        }
+      ]
+    },
+    "C4-12": {
+      "status": "tagged",
+      "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+      "tokens": [
+        {
+          "token": "ten",
+          "tag": "Vpi30s",
+          "lemma": "ter",
+          "hiperlemma": "ter",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "publicado",
+          "tag": "V0p0ms",
+          "lemma": "publicar",
+          "hiperlemma": "publicar",
+          "start": 4,
+          "finish": 12
+        },
+        {
+          "token": "moitos",
+          "tag": "Idmp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 14,
+          "finish": 19
+        },
+        {
+          "token": "traballos",
+          "tag": "Scmp",
+          "lemma": "traballo",
+          "hiperlemma": "traballo",
+          "start": 21,
+          "finish": 29
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "súa",
+          "tag": "Md3sfs",
+          "lemma": "seu",
+          "hiperlemma": "seu",
+          "start": 34,
+          "finish": 36
+        },
+        {
+          "token": "especialidade",
+          "tag": "Scfs",
+          "lemma": "especialidade",
+          "hiperlemma": "especialidade",
+          "start": 38,
+          "finish": 50
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 51,
+          "finish": 51
+        },
+        {
+          "token": "dirixido",
+          "tag": "V0p0ms",
+          "lemma": "dirixir",
+          "hiperlemma": "dirixir",
+          "start": 53,
+          "finish": 60
+        },
+        {
+          "token": "Seminarios",
+          "tag": "Sp00",
+          "lemma": "Seminarios",
+          "hiperlemma": "",
+          "start": 62,
+          "finish": 71
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 73,
+          "finish": 73
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 74,
+          "finish": 74
+        },
+        {
+          "token": "Medicina Social",
+          "tag": "Sp00",
+          "lemma": "Medicina Social",
+          "hiperlemma": "",
+          "start": 75,
+          "finish": 89
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 90,
+          "finish": 90
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 91,
+          "finish": 91
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 93,
+          "finish": 93
+        },
+        {
+          "token": "Alcolismo",
+          "tag": "Sp00",
+          "lemma": "Alcolismo",
+          "hiperlemma": "",
+          "start": 94,
+          "finish": 102
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 103,
+          "finish": 103
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 104,
+          "finish": 104
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": "Tabaquismo",
+          "tag": "Sp00",
+          "lemma": "Tabaquismo",
+          "hiperlemma": "",
+          "start": 107,
+          "finish": 116
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 117,
+          "finish": 117
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 118,
+          "finish": 118
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 119,
+          "finish": 119
+        },
+        {
+          "token": "dictado",
+          "tag": "V0p0ms",
+          "lemma": "dictar",
+          "hiperlemma": "ditar",
+          "start": 121,
+          "finish": 127
+        },
+        {
+          "token": "numerosas",
+          "tag": "A0fp",
+          "lemma": "numeroso",
+          "hiperlemma": "numeroso",
+          "start": 129,
+          "finish": 137
+        },
+        {
+          "token": "conferencias",
+          "tag": "Scfp",
+          "lemma": "conferencia",
+          "hiperlemma": "conferencia",
+          "start": 139,
+          "finish": 150
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 152,
+          "finish": 152
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 153,
+          "finish": 153
+        },
+        {
+          "token": "Aspeitos",
+          "tag": "Scmp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 154,
+          "finish": 161
+        },
+        {
+          "token": "actuáis",
+          "tag": "A0mp",
+          "lemma": "actual",
+          "hiperlemma": "actual",
+          "start": 163,
+          "finish": 169
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "imunidade",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 174,
+          "finish": 182
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 183,
+          "finish": 183
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 184,
+          "finish": 184
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 186,
+          "finish": 186
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 187,
+          "finish": 187
+        },
+        {
+          "token": "infeción",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 189,
+          "finish": 196
+        },
+        {
+          "token": "hospitalaria",
+          "tag": "A0fs",
+          "lemma": "hospitalario",
+          "hiperlemma": "hospitalario",
+          "start": 198,
+          "finish": 209
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 210,
+          "finish": 210
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 211,
+          "finish": 211
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 213,
+          "finish": 213
+        },
+        {
+          "token": "participado",
+          "tag": "V0p0ms",
+          "lemma": "participar",
+          "hiperlemma": "participar",
+          "start": 215,
+          "finish": 225
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 227,
+          "finish": 228
+        },
+        {
+          "token": "moitas",
+          "tag": "Idfp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 230,
+          "finish": 235
+        },
+        {
+          "token": "Mesas",
+          "tag": "Spfp",
+          "lemma": "Mesas",
+          "hiperlemma": "",
+          "start": 237,
+          "finish": 241
+        },
+        {
+          "token": "redondas",
+          "tag": "A0fp",
+          "lemma": "redondo",
+          "hiperlemma": "redondo",
+          "start": 243,
+          "finish": 250
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 252,
+          "finish": 252
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 253,
+          "finish": 253
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 254,
+          "finish": 254
+        },
+        {
+          "token": "fame",
+          "tag": "Scfs",
+          "lemma": "fame",
+          "hiperlemma": "fame",
+          "start": 256,
+          "finish": 259
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "mundo",
+          "tag": "Scms",
+          "lemma": "mundo",
+          "hiperlemma": "mundo",
+          "start": 264,
+          "finish": 268
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 269,
+          "finish": 269
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 270,
+          "finish": 270
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 272,
+          "finish": 272
+        },
+        {
+          "token": "Povoación",
+          "tag": "Sp00",
+          "lemma": "Povoación",
+          "hiperlemma": "",
+          "start": 273,
+          "finish": 281
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 282,
+          "finish": 282
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 283,
+          "finish": 283
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 285,
+          "finish": 288
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 289,
+          "finish": 289
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 290,
+          "finish": 290
+        }
+      ]
+    },
+    "C4-13": {
+      "status": "tagged",
+      "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+      "tokens": [
+        {
+          "token": "ten",
+          "tag": "Vpi30s",
+          "lemma": "ter",
+          "hiperlemma": "ter",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "publicado",
+          "tag": "V0p0ms",
+          "lemma": "publicar",
+          "hiperlemma": "publicar",
+          "start": 4,
+          "finish": 12
+        },
+        {
+          "token": "moitos",
+          "tag": "Idmp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 14,
+          "finish": 19
+        },
+        {
+          "token": "traballos",
+          "tag": "Scmp",
+          "lemma": "traballo",
+          "hiperlemma": "traballo",
+          "start": 21,
+          "finish": 29
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "súa",
+          "tag": "Md3sfs",
+          "lemma": "seu",
+          "hiperlemma": "seu",
+          "start": 34,
+          "finish": 36
+        },
+        {
+          "token": "especialidade",
+          "tag": "Scfs",
+          "lemma": "especialidade",
+          "hiperlemma": "especialidade",
+          "start": 38,
+          "finish": 50
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 51,
+          "finish": 51
+        },
+        {
+          "token": "dirixido",
+          "tag": "V0p0ms",
+          "lemma": "dirixir",
+          "hiperlemma": "dirixir",
+          "start": 53,
+          "finish": 60
+        },
+        {
+          "token": "Seminarios",
+          "tag": "Sp00",
+          "lemma": "Seminarios",
+          "hiperlemma": "",
+          "start": 62,
+          "finish": 71
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 73,
+          "finish": 73
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 74,
+          "finish": 74
+        },
+        {
+          "token": "Medicina Social",
+          "tag": "Sp00",
+          "lemma": "Medicina Social",
+          "hiperlemma": "",
+          "start": 75,
+          "finish": 89
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 90,
+          "finish": 90
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 91,
+          "finish": 91
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 93,
+          "finish": 93
+        },
+        {
+          "token": "Alcolismo",
+          "tag": "Sp00",
+          "lemma": "Alcolismo",
+          "hiperlemma": "",
+          "start": 94,
+          "finish": 102
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 103,
+          "finish": 103
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 104,
+          "finish": 104
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": "Tabaquismo",
+          "tag": "Sp00",
+          "lemma": "Tabaquismo",
+          "hiperlemma": "",
+          "start": 107,
+          "finish": 116
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 117,
+          "finish": 117
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 118,
+          "finish": 118
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 119,
+          "finish": 119
+        },
+        {
+          "token": "dictado",
+          "tag": "V0p0ms",
+          "lemma": "dictar",
+          "hiperlemma": "ditar",
+          "start": 121,
+          "finish": 127
+        },
+        {
+          "token": "numerosas",
+          "tag": "A0fp",
+          "lemma": "numeroso",
+          "hiperlemma": "numeroso",
+          "start": 129,
+          "finish": 137
+        },
+        {
+          "token": "conferencias",
+          "tag": "Scfp",
+          "lemma": "conferencia",
+          "hiperlemma": "conferencia",
+          "start": 139,
+          "finish": 150
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 152,
+          "finish": 152
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 153,
+          "finish": 153
+        },
+        {
+          "token": "Aspeitos",
+          "tag": "Scmp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 154,
+          "finish": 161
+        },
+        {
+          "token": "actuáis",
+          "tag": "A0mp",
+          "lemma": "actual",
+          "hiperlemma": "actual",
+          "start": 163,
+          "finish": 169
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "imunidade",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 174,
+          "finish": 182
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 183,
+          "finish": 183
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 184,
+          "finish": 184
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 186,
+          "finish": 186
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 187,
+          "finish": 187
+        },
+        {
+          "token": "infeción",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 189,
+          "finish": 196
+        },
+        {
+          "token": "hospitalaria",
+          "tag": "A0fs",
+          "lemma": "hospitalario",
+          "hiperlemma": "hospitalario",
+          "start": 198,
+          "finish": 209
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 210,
+          "finish": 210
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 211,
+          "finish": 211
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 213,
+          "finish": 213
+        },
+        {
+          "token": "participado",
+          "tag": "V0p0ms",
+          "lemma": "participar",
+          "hiperlemma": "participar",
+          "start": 215,
+          "finish": 225
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 227,
+          "finish": 228
+        },
+        {
+          "token": "moitas",
+          "tag": "Idfp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 230,
+          "finish": 235
+        },
+        {
+          "token": "Mesas",
+          "tag": "Spfp",
+          "lemma": "Mesas",
+          "hiperlemma": "",
+          "start": 237,
+          "finish": 241
+        },
+        {
+          "token": "redondas",
+          "tag": "A0fp",
+          "lemma": "redondo",
+          "hiperlemma": "redondo",
+          "start": 243,
+          "finish": 250
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 252,
+          "finish": 252
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 253,
+          "finish": 253
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 254,
+          "finish": 254
+        },
+        {
+          "token": "fame",
+          "tag": "Scfs",
+          "lemma": "fame",
+          "hiperlemma": "fame",
+          "start": 256,
+          "finish": 259
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "mundo",
+          "tag": "Scms",
+          "lemma": "mundo",
+          "hiperlemma": "mundo",
+          "start": 264,
+          "finish": 268
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 269,
+          "finish": 269
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 270,
+          "finish": 270
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 272,
+          "finish": 272
+        },
+        {
+          "token": "Povoación",
+          "tag": "Sp00",
+          "lemma": "Povoación",
+          "hiperlemma": "",
+          "start": 273,
+          "finish": 281
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 282,
+          "finish": 282
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 283,
+          "finish": 283
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 285,
+          "finish": 288
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 289,
+          "finish": 289
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 290,
+          "finish": 290
+        }
+      ]
+    },
+    "C4-14": {
+      "status": "tagged",
+      "input": "Ten publicado moitos traballos da súa especialidade, dirixido Seminarios (\"Medicina Social\", \"Alcolismo\", \"Tabaquismo\"), dictado numerosas conferencias (\"Aspeitos actuáis da imunidade\", \"A infeción hospitalaria\") e participado en moitas Mesas redondas (\"A fame no mundo\", \"Povoación\", etc.).",
+      "tokens": [
+        {
+          "token": "ten",
+          "tag": "Vpi30s",
+          "lemma": "ter",
+          "hiperlemma": "ter",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "publicado",
+          "tag": "V0p0ms",
+          "lemma": "publicar",
+          "hiperlemma": "publicar",
+          "start": 4,
+          "finish": 12
+        },
+        {
+          "token": "moitos",
+          "tag": "Idmp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 14,
+          "finish": 19
+        },
+        {
+          "token": "traballos",
+          "tag": "Scmp",
+          "lemma": "traballo",
+          "hiperlemma": "traballo",
+          "start": 21,
+          "finish": 29
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 31,
+          "finish": 32
+        },
+        {
+          "token": "súa",
+          "tag": "Md3sfs",
+          "lemma": "seu",
+          "hiperlemma": "seu",
+          "start": 34,
+          "finish": 36
+        },
+        {
+          "token": "especialidade",
+          "tag": "Scfs",
+          "lemma": "especialidade",
+          "hiperlemma": "especialidade",
+          "start": 38,
+          "finish": 50
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 51,
+          "finish": 51
+        },
+        {
+          "token": "dirixido",
+          "tag": "V0p0ms",
+          "lemma": "dirixir",
+          "hiperlemma": "dirixir",
+          "start": 53,
+          "finish": 60
+        },
+        {
+          "token": "Seminarios",
+          "tag": "Sp00",
+          "lemma": "Seminarios",
+          "hiperlemma": "",
+          "start": 62,
+          "finish": 71
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 73,
+          "finish": 73
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 74,
+          "finish": 74
+        },
+        {
+          "token": "Medicina Social",
+          "tag": "Sp00",
+          "lemma": "Medicina Social",
+          "hiperlemma": "",
+          "start": 75,
+          "finish": 89
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 90,
+          "finish": 90
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 91,
+          "finish": 91
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 93,
+          "finish": 93
+        },
+        {
+          "token": "Alcolismo",
+          "tag": "Sp00",
+          "lemma": "Alcolismo",
+          "hiperlemma": "",
+          "start": 94,
+          "finish": 102
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 103,
+          "finish": 103
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 104,
+          "finish": 104
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": "Tabaquismo",
+          "tag": "Sp00",
+          "lemma": "Tabaquismo",
+          "hiperlemma": "",
+          "start": 107,
+          "finish": 116
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 117,
+          "finish": 117
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 118,
+          "finish": 118
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 119,
+          "finish": 119
+        },
+        {
+          "token": "dictado",
+          "tag": "V0p0ms",
+          "lemma": "dictar",
+          "hiperlemma": "ditar",
+          "start": 121,
+          "finish": 127
+        },
+        {
+          "token": "numerosas",
+          "tag": "A0fp",
+          "lemma": "numeroso",
+          "hiperlemma": "numeroso",
+          "start": 129,
+          "finish": 137
+        },
+        {
+          "token": "conferencias",
+          "tag": "Scfp",
+          "lemma": "conferencia",
+          "hiperlemma": "conferencia",
+          "start": 139,
+          "finish": 150
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 152,
+          "finish": 152
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 153,
+          "finish": 153
+        },
+        {
+          "token": "Aspeitos",
+          "tag": "Scmp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 154,
+          "finish": 161
+        },
+        {
+          "token": "actuáis",
+          "tag": "A0mp",
+          "lemma": "actual",
+          "hiperlemma": "actual",
+          "start": 163,
+          "finish": 169
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 171,
+          "finish": 172
+        },
+        {
+          "token": "imunidade",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 174,
+          "finish": 182
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 183,
+          "finish": 183
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 184,
+          "finish": 184
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 186,
+          "finish": 186
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 187,
+          "finish": 187
+        },
+        {
+          "token": "infeción",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 189,
+          "finish": 196
+        },
+        {
+          "token": "hospitalaria",
+          "tag": "A0fs",
+          "lemma": "hospitalario",
+          "hiperlemma": "hospitalario",
+          "start": 198,
+          "finish": 209
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 210,
+          "finish": 210
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 211,
+          "finish": 211
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 213,
+          "finish": 213
+        },
+        {
+          "token": "participado",
+          "tag": "V0p0ms",
+          "lemma": "participar",
+          "hiperlemma": "participar",
+          "start": 215,
+          "finish": 225
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 227,
+          "finish": 228
+        },
+        {
+          "token": "moitas",
+          "tag": "Idfp",
+          "lemma": "moito",
+          "hiperlemma": "moito",
+          "start": 230,
+          "finish": 235
+        },
+        {
+          "token": "Mesas",
+          "tag": "Spfp",
+          "lemma": "Mesas",
+          "hiperlemma": "",
+          "start": 237,
+          "finish": 241
+        },
+        {
+          "token": "redondas",
+          "tag": "A0fp",
+          "lemma": "redondo",
+          "hiperlemma": "redondo",
+          "start": 243,
+          "finish": 250
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 252,
+          "finish": 252
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 253,
+          "finish": 253
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 254,
+          "finish": 254
+        },
+        {
+          "token": "fame",
+          "tag": "Scfs",
+          "lemma": "fame",
+          "hiperlemma": "fame",
+          "start": 256,
+          "finish": 259
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 261,
+          "finish": 262
+        },
+        {
+          "token": "mundo",
+          "tag": "Scms",
+          "lemma": "mundo",
+          "hiperlemma": "mundo",
+          "start": 264,
+          "finish": 268
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 269,
+          "finish": 269
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 270,
+          "finish": 270
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 272,
+          "finish": 272
+        },
+        {
+          "token": "Povoación",
+          "tag": "Sp00",
+          "lemma": "Povoación",
+          "hiperlemma": "",
+          "start": 273,
+          "finish": 281
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 282,
+          "finish": 282
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 283,
+          "finish": 283
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 285,
+          "finish": 288
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 289,
+          "finish": 289
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 290,
+          "finish": 290
+        }
+      ]
+    },
+    "C4-18": {
+      "status": "tagged",
+      "input": "ERGA (Estudantes Revolucionarios Galegos)",
+      "tokens": [
+        {
+          "token": "ERGA",
+          "tag": "Zg00",
+          "lemma": "ERGA",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 3
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 5,
+          "finish": 5
+        },
+        {
+          "token": "Estudantes Revolucionarios Galegos",
+          "tag": "Sp00",
+          "lemma": "Estudantes Revolucionarios Galegos",
+          "hiperlemma": "",
+          "start": 6,
+          "finish": 39
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 40,
+          "finish": 40
+        }
+      ]
+    },
+    "C4-19": {
+      "status": "tagged",
+      "input": "O libro (\"Las PYMES y el mercado único\")",
+      "tokens": [
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "libro",
+          "tag": "Scms",
+          "lemma": "libro",
+          "hiperlemma": "libro",
+          "start": 2,
+          "finish": 6
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 8,
+          "finish": 8
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 9,
+          "finish": 9
+        },
+        {
+          "token": "Las",
+          "tag": "Ddfp",
+          "lemma": "o",
+          "hiperlemma": "",
+          "start": 10,
+          "finish": 12
+        },
+        {
+          "token": "PYMES",
+          "tag": "Zgfp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 14,
+          "finish": 18
+        },
+        {
+          "token": "y",
+          "tag": "Cc",
+          "lemma": "y",
+          "hiperlemma": "e",
+          "start": 20,
+          "finish": 20
+        },
+        {
+          "token": "el",
+          "tag": "Rtn3ms",
+          "lemma": "el",
+          "hiperlemma": "el",
+          "start": 22,
+          "finish": 23
+        },
+        {
+          "token": "mercado",
+          "tag": "Scms",
+          "lemma": "mercado",
+          "hiperlemma": "mercado",
+          "start": 25,
+          "finish": 31
+        },
+        {
+          "token": "único",
+          "tag": "A0ms",
+          "lemma": "único",
+          "hiperlemma": "único",
+          "start": 33,
+          "finish": 37
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 38,
+          "finish": 38
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 39,
+          "finish": 39
+        }
+      ]
+    },
+    "C4-20": {
+      "status": "tagged",
+      "input": "Un novo crédito (\"Mex está interpretado por Tosh Carillo.\")",
+      "tokens": [
+        {
+          "token": "un",
+          "tag": "Dims",
+          "lemma": "un",
+          "hiperlemma": "un",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "novo",
+          "tag": "A0ms",
+          "lemma": "novo",
+          "hiperlemma": "novo",
+          "start": 3,
+          "finish": 6
+        },
+        {
+          "token": "crédito",
+          "tag": "Scms",
+          "lemma": "crédito",
+          "hiperlemma": "crédito",
+          "start": 8,
+          "finish": 14
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 16,
+          "finish": 16
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 17,
+          "finish": 17
+        },
+        {
+          "token": "Mex",
+          "tag": "A0xs",
+          "lemma": "meo",
+          "hiperlemma": "medio",
+          "start": 18,
+          "finish": 20
+        },
+        {
+          "token": "está",
+          "tag": "Vpi30s",
+          "lemma": "estar",
+          "hiperlemma": "estar",
+          "start": 22,
+          "finish": 25
+        },
+        {
+          "token": "interpretado",
+          "tag": "V0p0ms",
+          "lemma": "interpretar",
+          "hiperlemma": "interpretar",
+          "start": 27,
+          "finish": 38
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 40,
+          "finish": 42
+        },
+        {
+          "token": "Tosh Carillo",
+          "tag": "Sp00",
+          "lemma": "Tosh Carillo",
+          "hiperlemma": "",
+          "start": 44,
+          "finish": 55
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 56,
+          "finish": 56
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 57,
+          "finish": 57
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 58,
+          "finish": 58
+        }
+      ]
+    },
+    "C4-21": {
+      "status": "tagged",
+      "input": "1992 (\"Notas Pteridológicas de Galicia - IV\", \"Acta Botánica Malacitana nº 17\"), recollía",
+      "tokens": [
+        {
+          "token": "1992",
+          "tag": "Ncnms",
+          "lemma": "1992",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 3
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 5,
+          "finish": 5
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": "notas",
+          "tag": "Scfp",
+          "lemma": "nota",
+          "hiperlemma": "nota",
+          "start": 7,
+          "finish": 11
+        },
+        {
+          "token": "Pteridológicas de Galicia",
+          "tag": "Sp00",
+          "lemma": "Pteridológicas de Galicia",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 37
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 39,
+          "finish": 39
+        },
+        {
+          "token": "IV",
+          "tag": "Ncnas",
+          "lemma": "IV",
+          "hiperlemma": "",
+          "start": 41,
+          "finish": 42
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 43,
+          "finish": 43
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 44,
+          "finish": 44
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 46,
+          "finish": 46
+        },
+        {
+          "token": "Acta Botánica Malacitana",
+          "tag": "Sp00",
+          "lemma": "Acta Botánica Malacitana",
+          "hiperlemma": "",
+          "start": 47,
+          "finish": 70
+        },
+        {
+          "token": "nº",
+          "tag": "Zams",
+          "lemma": "nº",
+          "hiperlemma": "",
+          "start": 72,
+          "finish": 73
+        },
+        {
+          "token": "17",
+          "tag": "Ncnms",
+          "lemma": "17",
+          "hiperlemma": "",
+          "start": 75,
+          "finish": 76
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 77,
+          "finish": 77
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 78,
+          "finish": 78
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 79,
+          "finish": 79
+        },
+        {
+          "token": "recollía",
+          "tag": "Vii30s",
+          "lemma": "recoller",
+          "hiperlemma": "recoller",
+          "start": 81,
+          "finish": 88
+        }
+      ]
+    },
+    "C4-22": {
+      "status": "tagged",
+      "input": "1992 (\"Notas Pteridológicas de Galicia - IV\", \"Acta Botánica Malacitana nº 17\"), recollía",
+      "tokens": [
+        {
+          "token": "1992",
+          "tag": "Ncnms",
+          "lemma": "1992",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 3
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 5,
+          "finish": 5
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": "notas",
+          "tag": "Scfp",
+          "lemma": "nota",
+          "hiperlemma": "nota",
+          "start": 7,
+          "finish": 11
+        },
+        {
+          "token": "Pteridológicas de Galicia",
+          "tag": "Sp00",
+          "lemma": "Pteridológicas de Galicia",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 37
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 39,
+          "finish": 39
+        },
+        {
+          "token": "IV",
+          "tag": "Ncnas",
+          "lemma": "IV",
+          "hiperlemma": "",
+          "start": 41,
+          "finish": 42
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 43,
+          "finish": 43
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 44,
+          "finish": 44
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 46,
+          "finish": 46
+        },
+        {
+          "token": "Acta Botánica Malacitana",
+          "tag": "Sp00",
+          "lemma": "Acta Botánica Malacitana",
+          "hiperlemma": "",
+          "start": 47,
+          "finish": 70
+        },
+        {
+          "token": "nº",
+          "tag": "Zams",
+          "lemma": "nº",
+          "hiperlemma": "",
+          "start": 72,
+          "finish": 73
+        },
+        {
+          "token": "17",
+          "tag": "Ncnms",
+          "lemma": "17",
+          "hiperlemma": "",
+          "start": 75,
+          "finish": 76
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 77,
+          "finish": 77
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 78,
+          "finish": 78
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 79,
+          "finish": 79
+        },
+        {
+          "token": "recollía",
+          "tag": "Vii30s",
+          "lemma": "recoller",
+          "hiperlemma": "recoller",
+          "start": 81,
+          "finish": 88
+        }
+      ]
+    },
+    "C4-23": {
+      "status": "tagged",
+      "input": "cousa podería facer_ de textos por todos tan coñecidos como \"Os límites de o crecimento\" ou \" O manifesto para a supervivencia\".",
+      "tokens": [
+        {
+          "token": "cousa",
+          "tag": "Scfs",
+          "lemma": "cousa",
+          "hiperlemma": "cousa",
+          "start": 0,
+          "finish": 4
+        },
+        {
+          "token": "podería",
+          "tag": "Vci30s",
+          "lemma": "poder",
+          "hiperlemma": "poder",
+          "start": 6,
+          "finish": 12
+        },
+        {
+          "token": "facer",
+          "tag": "V0f000",
+          "lemma": "facer",
+          "hiperlemma": "facer",
+          "start": 14,
+          "finish": 18
+        },
+        {
+          "token": "_",
+          "tag": "Q_",
+          "lemma": "_",
+          "hiperlemma": "_",
+          "start": 19,
+          "finish": 19
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 21,
+          "finish": 22
+        },
+        {
+          "token": "textos",
+          "tag": "Scmp",
+          "lemma": "texto",
+          "hiperlemma": "texto",
+          "start": 24,
+          "finish": 29
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 31,
+          "finish": 33
+        },
+        {
+          "token": "todos",
+          "tag": "Idmp",
+          "lemma": "todo",
+          "hiperlemma": "todo",
+          "start": 35,
+          "finish": 39
+        },
+        {
+          "token": "tan",
+          "tag": "Wm",
+          "lemma": "tanto",
+          "hiperlemma": "tanto",
+          "start": 41,
+          "finish": 43
+        },
+        {
+          "token": "coñecidos",
+          "tag": "Scmp",
+          "lemma": "coñecido",
+          "hiperlemma": "coñecido",
+          "start": 45,
+          "finish": 53
+        },
+        {
+          "token": "como",
+          "tag": "Cs",
+          "lemma": "como",
+          "hiperlemma": "como",
+          "start": 55,
+          "finish": 58
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 60,
+          "finish": 60
+        },
+        {
+          "token": "Os",
+          "tag": "Zs00",
+          "lemma": "Os",
+          "hiperlemma": "",
+          "start": 61,
+          "finish": 62
+        },
+        {
+          "token": "límites",
+          "tag": "Scmp",
+          "lemma": "límite",
+          "hiperlemma": "límite",
+          "start": 64,
+          "finish": 70
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 72,
+          "finish": 73
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 75,
+          "finish": 75
+        },
+        {
+          "token": "crecimento",
+          "tag": "Scms",
+          "lemma": "crecimento",
+          "hiperlemma": "crecemento",
+          "start": 77,
+          "finish": 86
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 87,
+          "finish": 87
+        },
+        {
+          "token": "ou",
+          "tag": "Cc",
+          "lemma": "ou",
+          "hiperlemma": "ou",
+          "start": 89,
+          "finish": 90
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 92,
+          "finish": 92
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 94,
+          "finish": 94
+        },
+        {
+          "token": "manifesto",
+          "tag": "A0ms",
+          "lemma": "manifesto",
+          "hiperlemma": "manifesto",
+          "start": 96,
+          "finish": 104
+        },
+        {
+          "token": "para",
+          "tag": "P",
+          "lemma": "para",
+          "hiperlemma": "para",
+          "start": 106,
+          "finish": 109
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 111,
+          "finish": 111
+        },
+        {
+          "token": "supervivencia",
+          "tag": "Scfs",
+          "lemma": "supervivencia",
+          "hiperlemma": "supervivencia",
+          "start": 113,
+          "finish": 125
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 126,
+          "finish": 126
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 127,
+          "finish": 127
+        }
+      ]
+    },
+    "C4-24": {
+      "status": "tagged",
+      "input": "din Vdes. _estou a lér o informe técnico de Celulosas_ \" O problema de os ulidos de unha fábrica de pasta \"Kraft\" é particularmente difícil de resolver debido a o",
+      "tokens": [
+        {
+          "token": "din",
+          "tag": "Vpi30p",
+          "lemma": "dicir",
+          "hiperlemma": "dicir",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "Vdes.",
+          "tag": "Zaap",
+          "lemma": "Vde.",
+          "hiperlemma": "",
+          "start": 4,
+          "finish": 8
+        },
+        {
+          "token": "_",
+          "tag": "Q_",
+          "lemma": "_",
+          "hiperlemma": "_",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "estou",
+          "tag": "Vpi10s",
+          "lemma": "estar",
+          "hiperlemma": "estar",
+          "start": 11,
+          "finish": 15
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 17,
+          "finish": 17
+        },
+        {
+          "token": "lér",
+          "tag": "V0f000",
+          "lemma": "ler",
+          "hiperlemma": "ler",
+          "start": 19,
+          "finish": 21
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 23,
+          "finish": 23
+        },
+        {
+          "token": "informe",
+          "tag": "Scms",
+          "lemma": "informe",
+          "hiperlemma": "informe",
+          "start": 25,
+          "finish": 31
+        },
+        {
+          "token": "técnico",
+          "tag": "A0ms",
+          "lemma": "técnico",
+          "hiperlemma": "técnico",
+          "start": 33,
+          "finish": 39
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 41,
+          "finish": 42
+        },
+        {
+          "token": "Celulosas",
+          "tag": "Sp00",
+          "lemma": "Celulosas",
+          "hiperlemma": "",
+          "start": 44,
+          "finish": 52
+        },
+        {
+          "token": "_",
+          "tag": "Q_",
+          "lemma": "_",
+          "hiperlemma": "_",
+          "start": 53,
+          "finish": 53
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 55,
+          "finish": 55
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 57,
+          "finish": 57
+        },
+        {
+          "token": "problema",
+          "tag": "Scms",
+          "lemma": "problema",
+          "hiperlemma": "problema",
+          "start": 59,
+          "finish": 66
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 68,
+          "finish": 69
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 71,
+          "finish": 72
+        },
+        {
+          "token": "ulidos",
+          "tag": "Scmp",
+          "lemma": "ulido",
+          "hiperlemma": "ulido",
+          "start": 74,
+          "finish": 79
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 81,
+          "finish": 82
+        },
+        {
+          "token": "unha",
+          "tag": "Difs",
+          "lemma": "un",
+          "hiperlemma": "un",
+          "start": 84,
+          "finish": 87
+        },
+        {
+          "token": "fábrica",
+          "tag": "Scfs",
+          "lemma": "fábrica",
+          "hiperlemma": "fábrica",
+          "start": 89,
+          "finish": 95
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 97,
+          "finish": 98
+        },
+        {
+          "token": "pasta",
+          "tag": "Scfs",
+          "lemma": "pasta",
+          "hiperlemma": "pasta",
+          "start": 100,
+          "finish": 104
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": "Kraft",
+          "tag": "Sp00",
+          "lemma": "Kraft",
+          "hiperlemma": "",
+          "start": 107,
+          "finish": 111
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 112,
+          "finish": 112
+        },
+        {
+          "token": "é",
+          "tag": "Vpi30s",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 114,
+          "finish": 114
+        },
+        {
+          "token": "particularmente",
+          "tag": "Wm",
+          "lemma": "particularmente",
+          "hiperlemma": "particularmente",
+          "start": 116,
+          "finish": 130
+        },
+        {
+          "token": "difícil",
+          "tag": "A0ms",
+          "lemma": "difícil",
+          "hiperlemma": "difícil",
+          "start": 132,
+          "finish": 138
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 140,
+          "finish": 141
+        },
+        {
+          "token": "resolver",
+          "tag": "V0f000",
+          "lemma": "resolver",
+          "hiperlemma": "resolver",
+          "start": 143,
+          "finish": 150
+        },
+        {
+          "token": "debido",
+          "tag": "V0p0ms",
+          "lemma": "deber",
+          "hiperlemma": "deber",
+          "start": 152,
+          "finish": 157
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 159,
+          "finish": 159
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 161,
+          "finish": 161
+        }
+      ]
+    },
+    "C4-25": {
+      "status": "tagged",
+      "input": "de o C.S.I.C. en Madrid, sendo Profesor agregado de este Centro e logo Xefe de Seción de Química Analítica de o Patronato \"Alfonso O Sabio\" de a Facultade de Ciencias galega;",
+      "tokens": [
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 3,
+          "finish": 3
+        },
+        {
+          "token": "C.S.I.C.",
+          "tag": "Zgms",
+          "lemma": "C.S.I.C.",
+          "hiperlemma": "",
+          "start": 5,
+          "finish": 12
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 14,
+          "finish": 15
+        },
+        {
+          "token": "Madrid",
+          "tag": "Sp00",
+          "lemma": "Madrid",
+          "hiperlemma": "",
+          "start": 17,
+          "finish": 22
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 23,
+          "finish": 23
+        },
+        {
+          "token": "sendo",
+          "tag": "V0x000",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 25,
+          "finish": 29
+        },
+        {
+          "token": "Profesor",
+          "tag": "Sp00",
+          "lemma": "Profesor",
+          "hiperlemma": "",
+          "start": 31,
+          "finish": 38
+        },
+        {
+          "token": "agregado",
+          "tag": "Scms",
+          "lemma": "agregado",
+          "hiperlemma": "agregado",
+          "start": 40,
+          "finish": 47
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 49,
+          "finish": 50
+        },
+        {
+          "token": "este",
+          "tag": "Edms",
+          "lemma": "este",
+          "hiperlemma": "este",
+          "start": 52,
+          "finish": 55
+        },
+        {
+          "token": "Centro",
+          "tag": "Spms",
+          "lemma": "Centro",
+          "hiperlemma": "",
+          "start": 57,
+          "finish": 62
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 64,
+          "finish": 64
+        },
+        {
+          "token": "logo",
+          "tag": "Wn",
+          "lemma": "logo",
+          "hiperlemma": "logo",
+          "start": 66,
+          "finish": 69
+        },
+        {
+          "token": "Xefe de Seción de Química Analítica",
+          "tag": "Sp00",
+          "lemma": "Xefe de Seción de Química Analítica",
+          "hiperlemma": "",
+          "start": 71,
+          "finish": 105
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 107,
+          "finish": 108
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 110,
+          "finish": 110
+        },
+        {
+          "token": "Patronato",
+          "tag": "Spms",
+          "lemma": "Patronato",
+          "hiperlemma": "",
+          "start": 112,
+          "finish": 120
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 122,
+          "finish": 122
+        },
+        {
+          "token": "Alfonso",
+          "tag": "Spm0",
+          "lemma": "Alfonso",
+          "hiperlemma": "",
+          "start": 123,
+          "finish": 129
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 131,
+          "finish": 131
+        },
+        {
+          "token": "Sabio",
+          "tag": "Sp00",
+          "lemma": "Sabio",
+          "hiperlemma": "",
+          "start": 133,
+          "finish": 137
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 138,
+          "finish": 138
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 140,
+          "finish": 141
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 143,
+          "finish": 143
+        },
+        {
+          "token": "Facultade de Ciencias",
+          "tag": "Spfs",
+          "lemma": "Facultade de Ciencias",
+          "hiperlemma": "",
+          "start": 145,
+          "finish": 165
+        },
+        {
+          "token": "galega",
+          "tag": "A0fs",
+          "lemma": "galego",
+          "hiperlemma": "galego",
+          "start": 167,
+          "finish": 172
+        },
+        {
+          "token": ";",
+          "tag": "Q;",
+          "lemma": ";",
+          "hiperlemma": ";",
+          "start": 173,
+          "finish": 173
+        }
+      ]
+    },
+    "C4-26": {
+      "status": "tagged",
+      "input": "ten publicados diferentes traballos de a súa especialidade entre os que destacan \" O cangrexo de río\" publicado por lo SNPEC, \"Cultivos de moluscos\" editado por la Dirección Xeneral de Pesca, etc.",
+      "tokens": [
+        {
+          "token": "ten",
+          "tag": "Vpi30s",
+          "lemma": "ter",
+          "hiperlemma": "ter",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "publicados",
+          "tag": "V0p0mp",
+          "lemma": "publicar",
+          "hiperlemma": "publicar",
+          "start": 4,
+          "finish": 13
+        },
+        {
+          "token": "diferentes",
+          "tag": "A0mp",
+          "lemma": "diferente",
+          "hiperlemma": "diferente",
+          "start": 15,
+          "finish": 24
+        },
+        {
+          "token": "traballos",
+          "tag": "Scmp",
+          "lemma": "traballo",
+          "hiperlemma": "traballo",
+          "start": 26,
+          "finish": 34
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 36,
+          "finish": 37
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 39,
+          "finish": 39
+        },
+        {
+          "token": "súa",
+          "tag": "Md3sfs",
+          "lemma": "seu",
+          "hiperlemma": "seu",
+          "start": 41,
+          "finish": 43
+        },
+        {
+          "token": "especialidade",
+          "tag": "Scfs",
+          "lemma": "especialidade",
+          "hiperlemma": "especialidade",
+          "start": 45,
+          "finish": 57
+        },
+        {
+          "token": "entre",
+          "tag": "P",
+          "lemma": "entre",
+          "hiperlemma": "entre",
+          "start": 59,
+          "finish": 63
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 65,
+          "finish": 66
+        },
+        {
+          "token": "que",
+          "tag": "Tnmp",
+          "lemma": "que",
+          "hiperlemma": "que",
+          "start": 68,
+          "finish": 70
+        },
+        {
+          "token": "destacan",
+          "tag": "Vpi30p",
+          "lemma": "destacar",
+          "hiperlemma": "destacar",
+          "start": 72,
+          "finish": 79
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 81,
+          "finish": 81
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 83,
+          "finish": 83
+        },
+        {
+          "token": "cangrexo",
+          "tag": "Scms",
+          "lemma": "cangrexo",
+          "hiperlemma": "cangrexo",
+          "start": 85,
+          "finish": 92
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 94,
+          "finish": 95
+        },
+        {
+          "token": "río",
+          "tag": "Scms",
+          "lemma": "río",
+          "hiperlemma": "río",
+          "start": 97,
+          "finish": 99
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 100,
+          "finish": 100
+        },
+        {
+          "token": "publicado",
+          "tag": "V0p0ms",
+          "lemma": "publicar",
+          "hiperlemma": "publicar",
+          "start": 102,
+          "finish": 110
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 112,
+          "finish": 114
+        },
+        {
+          "token": "lo",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "",
+          "start": 116,
+          "finish": 117
+        },
+        {
+          "token": "SNPEC",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 119,
+          "finish": 123
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 124,
+          "finish": 124
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 126,
+          "finish": 126
+        },
+        {
+          "token": "Cultivos",
+          "tag": "Sp00",
+          "lemma": "Cultivos",
+          "hiperlemma": "",
+          "start": 127,
+          "finish": 134
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 136,
+          "finish": 137
+        },
+        {
+          "token": "moluscos",
+          "tag": "Scmp",
+          "lemma": "molusco",
+          "hiperlemma": "molusco",
+          "start": 139,
+          "finish": 146
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 147,
+          "finish": 147
+        },
+        {
+          "token": "editado",
+          "tag": "V0p0ms",
+          "lemma": "editar",
+          "hiperlemma": "editar",
+          "start": 149,
+          "finish": 155
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 157,
+          "finish": 159
+        },
+        {
+          "token": "la",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "",
+          "start": 161,
+          "finish": 162
+        },
+        {
+          "token": "Dirección Xeneral de Pesca",
+          "tag": "Spfs",
+          "lemma": "Dirección Xeneral de Pesca",
+          "hiperlemma": "",
+          "start": 164,
+          "finish": 189
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 190,
+          "finish": 190
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 192,
+          "finish": 195
+        }
+      ]
+    },
+    "C4-27": {
+      "status": "tagged",
+      "input": "a obra de Ellis, en especial \" O arte e a ciencia de o amor\", é paradigmática.",
+      "tokens": [
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "obra",
+          "tag": "Scfs",
+          "lemma": "obra",
+          "hiperlemma": "obra",
+          "start": 2,
+          "finish": 5
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 7,
+          "finish": 8
+        },
+        {
+          "token": "Ellis",
+          "tag": "Sp00",
+          "lemma": "Ellis",
+          "hiperlemma": "",
+          "start": 10,
+          "finish": 14
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 15,
+          "finish": 15
+        },
+        {
+          "token": "en especial",
+          "tag": "Wn",
+          "lemma": "en especial",
+          "hiperlemma": "en especial",
+          "start": 17,
+          "finish": 27
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 29,
+          "finish": 29
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 31,
+          "finish": 31
+        },
+        {
+          "token": "arte",
+          "tag": "Scfs",
+          "lemma": "arte",
+          "hiperlemma": "arte",
+          "start": 33,
+          "finish": 36
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 38,
+          "finish": 38
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 40,
+          "finish": 40
+        },
+        {
+          "token": "ciencia",
+          "tag": "Scfs",
+          "lemma": "ciencia",
+          "hiperlemma": "ciencia",
+          "start": 42,
+          "finish": 48
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 50,
+          "finish": 51
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 53,
+          "finish": 53
+        },
+        {
+          "token": "amor",
+          "tag": "Scms",
+          "lemma": "amor",
+          "hiperlemma": "amor",
+          "start": 55,
+          "finish": 58
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 59,
+          "finish": 59
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 60,
+          "finish": 60
+        },
+        {
+          "token": "é",
+          "tag": "Vpi30s",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 62,
+          "finish": 62
+        },
+        {
+          "token": "paradigmática",
+          "tag": "A0fs",
+          "lemma": "paradigmático",
+          "hiperlemma": "paradigmático",
+          "start": 64,
+          "finish": 76
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 77,
+          "finish": 77
+        }
+      ]
+    },
+    "C4-28": {
+      "status": "tagged",
+      "input": "ista ambigüedade temática e de contido sosténse xa en os títuos, por exemplo, \" O erotismo de as Mil e Unha noites\", a \"Mitoloxía de o seno\", a \"Técnica",
+      "tokens": [
+        {
+          "token": "ista",
+          "tag": "Edfs",
+          "lemma": "iste",
+          "hiperlemma": "este",
+          "start": 0,
+          "finish": 3
+        },
+        {
+          "token": "ambigüedade",
+          "tag": "Scfs",
+          "lemma": "ambigüedade",
+          "hiperlemma": "ambigüidade",
+          "start": 5,
+          "finish": 15
+        },
+        {
+          "token": "temática",
+          "tag": "A0fs",
+          "lemma": "temático",
+          "hiperlemma": "temático",
+          "start": 17,
+          "finish": 24
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 26,
+          "finish": 26
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 28,
+          "finish": 29
+        },
+        {
+          "token": "contido",
+          "tag": "Scms",
+          "lemma": "contido",
+          "hiperlemma": "contido",
+          "start": 31,
+          "finish": 37
+        },
+        {
+          "token": "sosténse",
+          "tag": "A0ms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 39,
+          "finish": 46
+        },
+        {
+          "token": "xa",
+          "tag": "Wn",
+          "lemma": "xa",
+          "hiperlemma": "xa",
+          "start": 48,
+          "finish": 49
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 51,
+          "finish": 52
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 54,
+          "finish": 55
+        },
+        {
+          "token": "títuos",
+          "tag": "A0mp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 57,
+          "finish": 62
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 63,
+          "finish": 63
+        },
+        {
+          "token": "por exemplo",
+          "tag": "Wn",
+          "lemma": "por exemplo",
+          "hiperlemma": "por exemplo",
+          "start": 65,
+          "finish": 75
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 76,
+          "finish": 76
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 78,
+          "finish": 78
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 80,
+          "finish": 80
+        },
+        {
+          "token": "erotismo",
+          "tag": "Scms",
+          "lemma": "erotismo",
+          "hiperlemma": "erotismo",
+          "start": 82,
+          "finish": 89
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 91,
+          "finish": 92
+        },
+        {
+          "token": "as",
+          "tag": "Ddfp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 94,
+          "finish": 95
+        },
+        {
+          "token": "Mil",
+          "tag": "Spfp",
+          "lemma": "Mil",
+          "hiperlemma": "",
+          "start": 97,
+          "finish": 99
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 101,
+          "finish": 101
+        },
+        {
+          "token": "Unha",
+          "tag": "Sp00",
+          "lemma": "Unha",
+          "hiperlemma": "",
+          "start": 103,
+          "finish": 106
+        },
+        {
+          "token": "noites",
+          "tag": "Scfp",
+          "lemma": "noite",
+          "hiperlemma": "noite",
+          "start": 108,
+          "finish": 113
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 114,
+          "finish": 114
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 115,
+          "finish": 115
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 117,
+          "finish": 117
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 119,
+          "finish": 119
+        },
+        {
+          "token": "Mitoloxía",
+          "tag": "Spfs",
+          "lemma": "Mitoloxía",
+          "hiperlemma": "",
+          "start": 120,
+          "finish": 128
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 130,
+          "finish": 131
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 133,
+          "finish": 133
+        },
+        {
+          "token": "seno",
+          "tag": "Scms",
+          "lemma": "seno",
+          "hiperlemma": "seno",
+          "start": 135,
+          "finish": 138
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 139,
+          "finish": 139
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 140,
+          "finish": 140
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 142,
+          "finish": 142
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 144,
+          "finish": 144
+        },
+        {
+          "token": "Técnica",
+          "tag": "Sp00",
+          "lemma": "Técnica",
+          "hiperlemma": "",
+          "start": 145,
+          "finish": 151
+        }
+      ]
+    },
+    "C4-29": {
+      "status": "tagged",
+      "input": "noites\", a \"Mitoloxía de o seno\", a \"Técnica de o erotismo\", \" O erotismo en o cine\", \"O simbolismo sexual\", etc., etc.",
+      "tokens": [
+        {
+          "token": "noites",
+          "tag": "Scfp",
+          "lemma": "noite",
+          "hiperlemma": "noite",
+          "start": 0,
+          "finish": 5
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 7,
+          "finish": 7
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 9,
+          "finish": 9
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "Mitoloxía",
+          "tag": "Spfs",
+          "lemma": "Mitoloxía",
+          "hiperlemma": "",
+          "start": 12,
+          "finish": 20
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 22,
+          "finish": 23
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 25,
+          "finish": 25
+        },
+        {
+          "token": "seno",
+          "tag": "Scms",
+          "lemma": "seno",
+          "hiperlemma": "seno",
+          "start": 27,
+          "finish": 30
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 31,
+          "finish": 31
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 32,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 34,
+          "finish": 34
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 36,
+          "finish": 36
+        },
+        {
+          "token": "Técnica",
+          "tag": "Spfs",
+          "lemma": "Técnica",
+          "hiperlemma": "",
+          "start": 37,
+          "finish": 43
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 45,
+          "finish": 46
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 48,
+          "finish": 48
+        },
+        {
+          "token": "erotismo",
+          "tag": "Scms",
+          "lemma": "erotismo",
+          "hiperlemma": "erotismo",
+          "start": 50,
+          "finish": 57
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 58,
+          "finish": 58
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 59,
+          "finish": 59
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 61,
+          "finish": 61
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 63,
+          "finish": 63
+        },
+        {
+          "token": "erotismo",
+          "tag": "Scms",
+          "lemma": "erotismo",
+          "hiperlemma": "erotismo",
+          "start": 65,
+          "finish": 72
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 74,
+          "finish": 75
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 77,
+          "finish": 77
+        },
+        {
+          "token": "cine",
+          "tag": "Scms",
+          "lemma": "cine",
+          "hiperlemma": "cine",
+          "start": 79,
+          "finish": 82
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 83,
+          "finish": 83
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 84,
+          "finish": 84
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 86,
+          "finish": 86
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 87,
+          "finish": 87
+        },
+        {
+          "token": "simbolismo",
+          "tag": "Scms",
+          "lemma": "simbolismo",
+          "hiperlemma": "simbolismo",
+          "start": 89,
+          "finish": 98
+        },
+        {
+          "token": "sexual",
+          "tag": "A0ms",
+          "lemma": "sexual",
+          "hiperlemma": "sexual",
+          "start": 100,
+          "finish": 105
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 107,
+          "finish": 107
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 109,
+          "finish": 112
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 113,
+          "finish": 113
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 115,
+          "finish": 118
+        }
+      ]
+    },
+    "C4-30": {
+      "status": "tagged",
+      "input": "noites\", a \"Mitoloxía de o seno\", a \"Técnica de o erotismo\", \" O erotismo en o cine\", \"O simbolismo sexual\", etc., etc.",
+      "tokens": [
+        {
+          "token": "noites",
+          "tag": "Scfp",
+          "lemma": "noite",
+          "hiperlemma": "noite",
+          "start": 0,
+          "finish": 5
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 7,
+          "finish": 7
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 9,
+          "finish": 9
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "Mitoloxía",
+          "tag": "Spfs",
+          "lemma": "Mitoloxía",
+          "hiperlemma": "",
+          "start": 12,
+          "finish": 20
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 22,
+          "finish": 23
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 25,
+          "finish": 25
+        },
+        {
+          "token": "seno",
+          "tag": "Scms",
+          "lemma": "seno",
+          "hiperlemma": "seno",
+          "start": 27,
+          "finish": 30
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 31,
+          "finish": 31
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 32,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 34,
+          "finish": 34
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 36,
+          "finish": 36
+        },
+        {
+          "token": "Técnica",
+          "tag": "Spfs",
+          "lemma": "Técnica",
+          "hiperlemma": "",
+          "start": 37,
+          "finish": 43
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 45,
+          "finish": 46
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 48,
+          "finish": 48
+        },
+        {
+          "token": "erotismo",
+          "tag": "Scms",
+          "lemma": "erotismo",
+          "hiperlemma": "erotismo",
+          "start": 50,
+          "finish": 57
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 58,
+          "finish": 58
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 59,
+          "finish": 59
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 61,
+          "finish": 61
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 63,
+          "finish": 63
+        },
+        {
+          "token": "erotismo",
+          "tag": "Scms",
+          "lemma": "erotismo",
+          "hiperlemma": "erotismo",
+          "start": 65,
+          "finish": 72
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 74,
+          "finish": 75
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 77,
+          "finish": 77
+        },
+        {
+          "token": "cine",
+          "tag": "Scms",
+          "lemma": "cine",
+          "hiperlemma": "cine",
+          "start": 79,
+          "finish": 82
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 83,
+          "finish": 83
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 84,
+          "finish": 84
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 86,
+          "finish": 86
+        },
+        {
+          "token": "O",
+          "tag": "Scms",
+          "lemma": "O",
+          "hiperlemma": "",
+          "start": 87,
+          "finish": 87
+        },
+        {
+          "token": "simbolismo",
+          "tag": "Scms",
+          "lemma": "simbolismo",
+          "hiperlemma": "simbolismo",
+          "start": 89,
+          "finish": 98
+        },
+        {
+          "token": "sexual",
+          "tag": "A0ms",
+          "lemma": "sexual",
+          "hiperlemma": "sexual",
+          "start": 100,
+          "finish": 105
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 106,
+          "finish": 106
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 107,
+          "finish": 107
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 109,
+          "finish": 112
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 113,
+          "finish": 113
+        },
+        {
+          "token": "etc.",
+          "tag": "Za00",
+          "lemma": "etc.",
+          "hiperlemma": "",
+          "start": 115,
+          "finish": 118
+        }
+      ]
+    },
+    "C4-31": {
+      "status": "tagged",
+      "input": "\"A humanidade en un intre decisivo\"",
+      "tokens": [
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "humanidade",
+          "tag": "Scfs",
+          "lemma": "humanidade",
+          "hiperlemma": "humanidade",
+          "start": 3,
+          "finish": 12
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 14,
+          "finish": 15
+        },
+        {
+          "token": "un",
+          "tag": "Dims",
+          "lemma": "un",
+          "hiperlemma": "un",
+          "start": 17,
+          "finish": 18
+        },
+        {
+          "token": "intre",
+          "tag": "Scms",
+          "lemma": "intre",
+          "hiperlemma": "intre",
+          "start": 20,
+          "finish": 24
+        },
+        {
+          "token": "decisivo",
+          "tag": "A0ms",
+          "lemma": "decisivo",
+          "hiperlemma": "decisivo",
+          "start": 26,
+          "finish": 33
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 34,
+          "finish": 34
+        }
+      ]
+    },
+    "C4-32": {
+      "status": "manual",
+      "reason": "Texto orixinal parcialmente tapado; non hai unha entrada exacta para executar."
+    },
+    "C4-33": {
+      "status": "tagged",
+      "input": "\"A Rexión\"",
+      "tokens": [
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "Rexión",
+          "tag": "Spfs",
+          "lemma": "Rexión",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 8
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 9,
+          "finish": 9
+        }
+      ]
+    },
+    "C4-34": {
+      "status": "tagged",
+      "input": "\"A infecion hospitalaria\"",
+      "tokens": [
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "infecion",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 3,
+          "finish": 10
+        },
+        {
+          "token": "hospitalaria",
+          "tag": "A0fs",
+          "lemma": "hospitalario",
+          "hiperlemma": "hospitalario",
+          "start": 12,
+          "finish": 23
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 24,
+          "finish": 24
+        }
+      ]
+    },
+    "C4-35": {
+      "status": "tagged",
+      "input": "\"A fame en o mundo\"",
+      "tokens": [
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "fame",
+          "tag": "Scfs",
+          "lemma": "fame",
+          "hiperlemma": "fame",
+          "start": 3,
+          "finish": 6
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 8,
+          "finish": 9
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "mundo",
+          "tag": "Scms",
+          "lemma": "mundo",
+          "hiperlemma": "mundo",
+          "start": 13,
+          "finish": 17
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 18,
+          "finish": 18
+        }
+      ]
+    },
+    "C4-36": {
+      "status": "tagged",
+      "input": "(A Cruña)",
+      "tokens": [
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "Cruña",
+          "tag": "Spfs",
+          "lemma": "Cruña",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 7
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 8,
+          "finish": 8
+        }
+      ]
+    },
+    "C4-37": {
+      "status": "tagged",
+      "input": "Colaboramos coa Asociación para a Banca Social.",
+      "tokens": [
+        {
+          "token": "colaboramos",
+          "tag": "Vpi10p",
+          "lemma": "colaborar",
+          "hiperlemma": "colaborar",
+          "start": 0,
+          "finish": 10
+        },
+        {
+          "token": "con",
+          "tag": "P",
+          "lemma": "con",
+          "hiperlemma": "con",
+          "start": 12,
+          "finish": 14
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 12,
+          "finish": 14
+        },
+        {
+          "token": "Asociación",
+          "tag": "Spfs",
+          "lemma": "Asociación",
+          "hiperlemma": "",
+          "start": 16,
+          "finish": 25
+        },
+        {
+          "token": "para",
+          "tag": "P",
+          "lemma": "para",
+          "hiperlemma": "para",
+          "start": 27,
+          "finish": 30
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 32,
+          "finish": 32
+        },
+        {
+          "token": "Banca Social",
+          "tag": "Spfs",
+          "lemma": "Banca Social",
+          "hiperlemma": "",
+          "start": 34,
+          "finish": 45
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 46,
+          "finish": 46
+        }
+      ]
+    },
+    "C5-01": {
+      "status": "tagged",
+      "input": "Al(NO<subíndice>3</subíndice>)<subíndice>3</subíndice>",
+      "tokens": [
+        {
+          "token": "al",
+          "tag": "A0fs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 2,
+          "finish": 2
+        },
+        {
+          "token": "NO<subíndice>3</subíndice>",
+          "tag": "Zs00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 3,
+          "finish": 28
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 29,
+          "finish": 29
+        },
+        {
+          "token": "<subíndice>3</subíndice>",
+          "tag": "Zs00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 30,
+          "finish": 53
+        }
+      ]
+    },
+    "C6-01": {
+      "status": "tagged",
+      "input": "Bas-cul",
+      "tokens": [
+        {
+          "token": "bas-cul",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 6
+        }
+      ]
+    },
+    "C6-02": {
+      "status": "tagged",
+      "input": "Eduardo Blanco-Amor",
+      "tokens": [
+        {
+          "token": "Eduardo Blanco-Amor",
+          "tag": "Spm0",
+          "lemma": "Eduardo Blanco-Amor",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 18
+        }
+      ]
+    },
+    "C6-03": {
+      "status": "tagged",
+      "input": "A esmorga de Eduardo Blanco-Almor",
+      "tokens": [
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "esmorga",
+          "tag": "Scfs",
+          "lemma": "esmorga",
+          "hiperlemma": "esmorga",
+          "start": 2,
+          "finish": 8
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 10,
+          "finish": 11
+        },
+        {
+          "token": "Eduardo Blanco-Almor",
+          "tag": "Spm0",
+          "lemma": "Eduardo Blanco-Almor",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 32
+        }
+      ]
+    },
+    "C6-04": {
+      "status": "tagged",
+      "input": "Dinamarca-Francia-Alemaña-Suecia",
+      "tokens": [
+        {
+          "token": "Dinamarca-Francia-Alemaña-Suecia",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 31
+        }
+      ]
+    },
+    "C6-05": {
+      "status": "tagged",
+      "input": "A Port-aux-Basques chégase por mar.",
+      "tokens": [
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "Port-aux",
+          "tag": "Spfs",
+          "lemma": "Port-aux",
+          "hiperlemma": "",
+          "start": 2,
+          "finish": 9
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "Basques",
+          "tag": "Vps20s",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 11,
+          "finish": 17
+        },
+        {
+          "token": "chega",
+          "tag": "Vpi30s",
+          "lemma": "chegar",
+          "hiperlemma": "chegar",
+          "start": 19,
+          "finish": 25
+        },
+        {
+          "token": "se",
+          "tag": "Rao3aa",
+          "lemma": "se",
+          "hiperlemma": "se",
+          "start": 19,
+          "finish": 25
+        },
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 27,
+          "finish": 29
+        },
+        {
+          "token": "mar.",
+          "tag": "Za00",
+          "lemma": "mar.",
+          "hiperlemma": "",
+          "start": 31,
+          "finish": 34
+        }
+      ]
+    },
+    "C6-34": {
+      "status": "tagged",
+      "input": "Blanco-Amor",
+      "tokens": [
+        {
+          "token": "Blanco-Amor",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 10
+        }
+      ]
+    },
+    "C6-06": {
+      "status": "tagged",
+      "input": "chega o Full-HD da música",
+      "tokens": [
+        {
+          "token": "chega",
+          "tag": "Vpi30s",
+          "lemma": "chegar",
+          "hiperlemma": "chegar",
+          "start": 0,
+          "finish": 4
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": "Full",
+          "tag": "Spms",
+          "lemma": "Full",
+          "hiperlemma": "",
+          "start": 8,
+          "finish": 11
+        },
+        {
+          "token": "-",
+          "tag": "Q-",
+          "lemma": "-",
+          "hiperlemma": "-",
+          "start": 12,
+          "finish": 12
+        },
+        {
+          "token": "HD",
+          "tag": "Zg00",
+          "lemma": "HD",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 14
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 16,
+          "finish": 17
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 16,
+          "finish": 17
+        },
+        {
+          "token": "música",
+          "tag": "Scfs",
+          "lemma": "música",
+          "hiperlemma": "música",
+          "start": 19,
+          "finish": 24
+        }
+      ]
+    },
+    "C6-07": {
+      "status": "tagged",
+      "input": "6. Apocalypse now - Francis Ford Coppola (1979)",
+      "tokens": [
+        {
+          "token": "6",
+          "tag": "Ncnms",
+          "lemma": "6",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "apocalypse",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 3,
+          "finish": 12
+        },
+        {
+          "token": "now",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 14,
+          "finish": 16
+        },
+        {
+          "token": "-",
+          "tag": "Q-",
+          "lemma": "-",
+          "hiperlemma": "-",
+          "start": 18,
+          "finish": 18
+        },
+        {
+          "token": "Francis Ford Coppola",
+          "tag": "Sp00",
+          "lemma": "Francis Ford Coppola",
+          "hiperlemma": "",
+          "start": 20,
+          "finish": 39
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 41,
+          "finish": 41
+        },
+        {
+          "token": "1979",
+          "tag": "Ncnms",
+          "lemma": "1979",
+          "hiperlemma": "",
+          "start": 42,
+          "finish": 45
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 46,
+          "finish": 46
+        }
+      ]
+    },
+    "C6-08": {
+      "status": "tagged",
+      "input": "7. O padriño - Francis Ford Coppola (1972)",
+      "tokens": [
+        {
+          "token": "7",
+          "tag": "Ncnms",
+          "lemma": "7",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "O padriño",
+          "tag": "Sp00",
+          "lemma": "O padriño",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 11
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 13
+        },
+        {
+          "token": "Francis Ford Coppola",
+          "tag": "Sp00",
+          "lemma": "Francis Ford Coppola",
+          "hiperlemma": "",
+          "start": 15,
+          "finish": 34
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 36,
+          "finish": 36
+        },
+        {
+          "token": "1972",
+          "tag": "Ncnms",
+          "lemma": "1972",
+          "hiperlemma": "",
+          "start": 37,
+          "finish": 40
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 41,
+          "finish": 41
+        }
+      ]
+    },
+    "C6-09": {
+      "status": "tagged",
+      "input": "7. Vértigo - Alfred Hitchcock (1958)",
+      "tokens": [
+        {
+          "token": "7",
+          "tag": "Ncnms",
+          "lemma": "7",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "vértigo",
+          "tag": "Scms",
+          "lemma": "vértigo",
+          "hiperlemma": "vertixe",
+          "start": 3,
+          "finish": 9
+        },
+        {
+          "token": "-",
+          "tag": "Q-",
+          "lemma": "-",
+          "hiperlemma": "-",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "Alfred Hitchcock",
+          "tag": "Spm0",
+          "lemma": "Alfred Hitchcock",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 28
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 30,
+          "finish": 30
+        },
+        {
+          "token": "1958",
+          "tag": "Ncnms",
+          "lemma": "1958",
+          "hiperlemma": "",
+          "start": 31,
+          "finish": 34
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 35,
+          "finish": 35
+        }
+      ]
+    },
+    "C6-10": {
+      "status": "tagged",
+      "input": "9. O espello - Andrei Tarkovsky (1974)",
+      "tokens": [
+        {
+          "token": "9",
+          "tag": "Ncnms",
+          "lemma": "9",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 1,
+          "finish": 1
+        },
+        {
+          "token": "O espello",
+          "tag": "Sp00",
+          "lemma": "O espello",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 11
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 13
+        },
+        {
+          "token": "Andrei Tarkovsky",
+          "tag": "Sp00",
+          "lemma": "Andrei Tarkovsky",
+          "hiperlemma": "",
+          "start": 15,
+          "finish": 30
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 32,
+          "finish": 32
+        },
+        {
+          "token": "1974",
+          "tag": "Ncnmp",
+          "lemma": "1974",
+          "hiperlemma": "",
+          "start": 33,
+          "finish": 36
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 37,
+          "finish": 37
+        }
+      ]
+    },
+    "C6-11": {
+      "status": "tagged",
+      "input": "10. O ladrón de bicicletas - Vittorio De Sica (1949)",
+      "tokens": [
+        {
+          "token": "10",
+          "tag": "Ncnms",
+          "lemma": "10",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 2,
+          "finish": 2
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 4,
+          "finish": 4
+        },
+        {
+          "token": "ladrón",
+          "tag": "Scms",
+          "lemma": "ladrón",
+          "hiperlemma": "ladrón",
+          "start": 6,
+          "finish": 11
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 13,
+          "finish": 14
+        },
+        {
+          "token": "bicicletas",
+          "tag": "Scfp",
+          "lemma": "bicicleta",
+          "hiperlemma": "bicicleta",
+          "start": 16,
+          "finish": 25
+        },
+        {
+          "token": "-",
+          "tag": "Q-",
+          "lemma": "-",
+          "hiperlemma": "-",
+          "start": 27,
+          "finish": 27
+        },
+        {
+          "token": "Vittorio De Sica",
+          "tag": "Sp00",
+          "lemma": "Vittorio De Sica",
+          "hiperlemma": "",
+          "start": 29,
+          "finish": 44
+        },
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 46,
+          "finish": 46
+        },
+        {
+          "token": "1949",
+          "tag": "Ncnmp",
+          "lemma": "1949",
+          "hiperlemma": "",
+          "start": 47,
+          "finish": 50
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 51,
+          "finish": 51
+        }
+      ]
+    },
+    "C6-15": {
+      "status": "tagged",
+      "input": "nomes de lugar actuais terminados en -bre",
+      "tokens": [
+        {
+          "token": "nomes",
+          "tag": "Scmp",
+          "lemma": "nome",
+          "hiperlemma": "nome",
+          "start": 0,
+          "finish": 4
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 6,
+          "finish": 7
+        },
+        {
+          "token": "lugar",
+          "tag": "Scms",
+          "lemma": "lugar",
+          "hiperlemma": "lugar",
+          "start": 9,
+          "finish": 13
+        },
+        {
+          "token": "actuais",
+          "tag": "A0mp",
+          "lemma": "actual",
+          "hiperlemma": "actual",
+          "start": 15,
+          "finish": 21
+        },
+        {
+          "token": "terminados",
+          "tag": "V0p0mp",
+          "lemma": "terminar",
+          "hiperlemma": "terminar",
+          "start": 23,
+          "finish": 32
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 34,
+          "finish": 35
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 37,
+          "finish": 37
+        },
+        {
+          "token": "bre",
+          "tag": "A0as",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 38,
+          "finish": 40
+        }
+      ]
+    },
+    "C6-18": {
+      "status": "tagged",
+      "input": "-8.800",
+      "tokens": [
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "8.800",
+          "tag": "Ncnmp",
+          "lemma": "8.800",
+          "hiperlemma": "",
+          "start": 1,
+          "finish": 5
+        }
+      ]
+    },
+    "C6-19": {
+      "status": "tagged",
+      "input": "-3 por cento",
+      "tokens": [
+        {
+          "token": "-",
+          "tag": "Q-",
+          "lemma": "-",
+          "hiperlemma": "-",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "3",
+          "tag": "Ncnms",
+          "lemma": "3",
+          "hiperlemma": "",
+          "start": 1,
+          "finish": 11
+        },
+        {
+          "token": "por cento",
+          "tag": "Wn",
+          "lemma": "por cento",
+          "hiperlemma": "por cento",
+          "start": 1,
+          "finish": 11
+        }
+      ]
+    },
+    "C6-20": {
+      "status": "tagged",
+      "input": "-10%",
+      "tokens": [
+        {
+          "token": "-10",
+          "tag": "Ncnms",
+          "lemma": "-10",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 3
+        },
+        {
+          "token": "%",
+          "tag": "Zs00",
+          "lemma": "%",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 3
+        }
+      ]
+    },
+    "C6-21": {
+      "status": "tagged",
+      "input": "2-1",
+      "tokens": [
+        {
+          "token": "2-1",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 2
+        }
+      ]
+    },
+    "C6-22": {
+      "status": "tagged",
+      "input": "por 6-3 e 6-4",
+      "tokens": [
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "6-3",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 4,
+          "finish": 6
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 8,
+          "finish": 8
+        },
+        {
+          "token": "6-4",
+          "tag": "Ncnms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 10,
+          "finish": 12
+        }
+      ]
+    },
+    "C6-23": {
+      "status": "tagged",
+      "input": "por 6-3 e 6-4",
+      "tokens": [
+        {
+          "token": "por",
+          "tag": "P",
+          "lemma": "por",
+          "hiperlemma": "por",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": "6-3",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 4,
+          "finish": 6
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 8,
+          "finish": 8
+        },
+        {
+          "token": "6-4",
+          "tag": "Ncnms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 10,
+          "finish": 12
+        }
+      ]
+    },
+    "C6-24": {
+      "status": "tagged",
+      "input": "Comentamos o Madrid-Barcelona do día anterior.",
+      "tokens": [
+        {
+          "token": "comentamos",
+          "tag": "Vpi10p",
+          "lemma": "comentar",
+          "hiperlemma": "comentar",
+          "start": 0,
+          "finish": 9
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "Madrid-Barcelona",
+          "tag": "Spms",
+          "lemma": "Madrid-Barcelona",
+          "hiperlemma": "",
+          "start": 13,
+          "finish": 28
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 30,
+          "finish": 31
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 30,
+          "finish": 31
+        },
+        {
+          "token": "día",
+          "tag": "Scms",
+          "lemma": "día",
+          "hiperlemma": "día",
+          "start": 33,
+          "finish": 35
+        },
+        {
+          "token": "anterior",
+          "tag": "A0ms",
+          "lemma": "anterior",
+          "hiperlemma": "anterior",
+          "start": 37,
+          "finish": 44
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 45,
+          "finish": 45
+        }
+      ]
+    },
+    "C6-25": {
+      "status": "tagged",
+      "input": "Contamos cinco-seis persoas.",
+      "tokens": [
+        {
+          "token": "contamos",
+          "tag": "Vei10p",
+          "lemma": "contar",
+          "hiperlemma": "contar",
+          "start": 0,
+          "finish": 7
+        },
+        {
+          "token": "cinco-seis",
+          "tag": "Ncdfp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 9,
+          "finish": 18
+        },
+        {
+          "token": "persoas",
+          "tag": "Scfp",
+          "lemma": "persoa",
+          "hiperlemma": "persoa",
+          "start": 20,
+          "finish": 26
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 27,
+          "finish": 27
+        }
+      ]
+    },
+    "C6-26": {
+      "status": "tagged",
+      "input": "Visitamos A Grova-Baiona.",
+      "tokens": [
+        {
+          "token": "visitamos",
+          "tag": "Vpi10p",
+          "lemma": "visitar",
+          "hiperlemma": "visitar",
+          "start": 0,
+          "finish": 8
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "Grova-Baiona",
+          "tag": "Sp00",
+          "lemma": "Grova-Baiona",
+          "hiperlemma": "",
+          "start": 12,
+          "finish": 23
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 24,
+          "finish": 24
+        }
+      ]
+    },
+    "C6-27": {
+      "status": "tagged",
+      "input": "Traballa como bedel-pintor.",
+      "tokens": [
+        {
+          "token": "traballa",
+          "tag": "Vpi30s",
+          "lemma": "traballar",
+          "hiperlemma": "traballar",
+          "start": 0,
+          "finish": 7
+        },
+        {
+          "token": "como",
+          "tag": "Wr",
+          "lemma": "como",
+          "hiperlemma": "como",
+          "start": 9,
+          "finish": 12
+        },
+        {
+          "token": "bedel-pintor",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 14,
+          "finish": 25
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 26,
+          "finish": 26
+        }
+      ]
+    },
+    "C6-28": {
+      "status": "tagged",
+      "input": "E variou a dualidade rural-cidade ?",
+      "tokens": [
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "variou",
+          "tag": "Vei30s",
+          "lemma": "variar",
+          "hiperlemma": "variar",
+          "start": 2,
+          "finish": 7
+        },
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 9,
+          "finish": 9
+        },
+        {
+          "token": "dualidade",
+          "tag": "Scfs",
+          "lemma": "dualidade",
+          "hiperlemma": "dualidade",
+          "start": 11,
+          "finish": 19
+        },
+        {
+          "token": "rural-cidade",
+          "tag": "Scfs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 21,
+          "finish": 32
+        },
+        {
+          "token": "?",
+          "tag": "Q?",
+          "lemma": "?",
+          "hiperlemma": "?",
+          "start": 34,
+          "finish": 34
+        }
+      ]
+    },
+    "C6-29": {
+      "status": "tagged",
+      "input": "Seguimos o Ciclismo-Giro de Italia.",
+      "tokens": [
+        {
+          "token": "seguimos",
+          "tag": "Vpi10p",
+          "lemma": "seguir",
+          "hiperlemma": "seguir",
+          "start": 0,
+          "finish": 7
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 9,
+          "finish": 9
+        },
+        {
+          "token": "Ciclismo-Giro de Italia",
+          "tag": "Spms",
+          "lemma": "Ciclismo-Giro de Italia",
+          "hiperlemma": "",
+          "start": 11,
+          "finish": 33
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 34,
+          "finish": 34
+        }
+      ]
+    },
+    "C6-30": {
+      "status": "tagged",
+      "input": "A súa vida transcorreu entre Ourense 1887-Madrid 1963.",
+      "tokens": [
+        {
+          "token": "a",
+          "tag": "Ddfs",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "súa",
+          "tag": "Md3sfs",
+          "lemma": "seu",
+          "hiperlemma": "seu",
+          "start": 2,
+          "finish": 4
+        },
+        {
+          "token": "vida",
+          "tag": "Scfs",
+          "lemma": "vida",
+          "hiperlemma": "vida",
+          "start": 6,
+          "finish": 9
+        },
+        {
+          "token": "transcorreu",
+          "tag": "Vei30s",
+          "lemma": "transcorrer",
+          "hiperlemma": "transcorrer",
+          "start": 11,
+          "finish": 21
+        },
+        {
+          "token": "entre",
+          "tag": "P",
+          "lemma": "entre",
+          "hiperlemma": "entre",
+          "start": 23,
+          "finish": 27
+        },
+        {
+          "token": "Ourense",
+          "tag": "Sp00",
+          "lemma": "Ourense",
+          "hiperlemma": "",
+          "start": 29,
+          "finish": 35
+        },
+        {
+          "token": "1887-Madrid",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 37,
+          "finish": 47
+        },
+        {
+          "token": "1963",
+          "tag": "Ncnms",
+          "lemma": "1963",
+          "hiperlemma": "",
+          "start": 49,
+          "finish": 52
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 53,
+          "finish": 53
+        }
+      ]
+    },
+    "C6-31": {
+      "status": "tagged",
+      "input": "Co impacto e o susto boteime-caín ó chan",
+      "tokens": [
+        {
+          "token": "con",
+          "tag": "P",
+          "lemma": "con",
+          "hiperlemma": "con",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "impacto",
+          "tag": "Scms",
+          "lemma": "impacto",
+          "hiperlemma": "impacto",
+          "start": 3,
+          "finish": 9
+        },
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 11,
+          "finish": 11
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 13,
+          "finish": 13
+        },
+        {
+          "token": "susto",
+          "tag": "Scms",
+          "lemma": "susto",
+          "hiperlemma": "susto",
+          "start": 15,
+          "finish": 19
+        },
+        {
+          "token": "boteime-caín",
+          "tag": "Vei10s",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 21,
+          "finish": 32
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 34,
+          "finish": 34
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 34,
+          "finish": 34
+        },
+        {
+          "token": "chan",
+          "tag": "Scms",
+          "lemma": "chan",
+          "hiperlemma": "chan",
+          "start": 36,
+          "finish": 39
+        }
+      ]
+    },
+    "C6-32": {
+      "status": "tagged",
+      "input": "Valoramos a acidez-volume-amargor final.",
+      "tokens": [
+        {
+          "token": "valoramos",
+          "tag": "Vpi10p",
+          "lemma": "valorar",
+          "hiperlemma": "valorar",
+          "start": 0,
+          "finish": 8
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 10,
+          "finish": 10
+        },
+        {
+          "token": "acidez-volume-amargor",
+          "tag": "Scms",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 12,
+          "finish": 32
+        },
+        {
+          "token": "final",
+          "tag": "A0ms",
+          "lemma": "final",
+          "hiperlemma": "final",
+          "start": 34,
+          "finish": 38
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 39,
+          "finish": 39
+        }
+      ]
+    },
+    "C6-36": {
+      "status": "tagged",
+      "input": "albano-kosovares",
+      "tokens": [
+        {
+          "token": "albano-kosovares",
+          "tag": "Scmp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 15
+        }
+      ]
+    },
+    "C6-37": {
+      "status": "tagged",
+      "input": "amarelo-verdosa",
+      "tokens": [
+        {
+          "token": "amarelo-verdosa",
+          "tag": "A0fs",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 14
+        }
+      ]
+    },
+    "C6-38": {
+      "status": "tagged",
+      "input": "Seguen a buscar o \"príncipe azul\" nos mozos cos que manteñen relacións afectivo-sexuais.",
+      "tokens": [
+        {
+          "token": "seguen",
+          "tag": "Vpi30p",
+          "lemma": "seguir",
+          "hiperlemma": "seguir",
+          "start": 0,
+          "finish": 5
+        },
+        {
+          "token": "a",
+          "tag": "P",
+          "lemma": "a",
+          "hiperlemma": "a",
+          "start": 7,
+          "finish": 7
+        },
+        {
+          "token": "buscar",
+          "tag": "V0f000",
+          "lemma": "buscar",
+          "hiperlemma": "buscar",
+          "start": 9,
+          "finish": 14
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 16,
+          "finish": 16
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 18,
+          "finish": 18
+        },
+        {
+          "token": "príncipe",
+          "tag": "Scms",
+          "lemma": "príncipe",
+          "hiperlemma": "príncipe",
+          "start": 19,
+          "finish": 26
+        },
+        {
+          "token": "azul",
+          "tag": "A0ms",
+          "lemma": "azul",
+          "hiperlemma": "azul",
+          "start": 28,
+          "finish": 31
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 32,
+          "finish": 32
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 34,
+          "finish": 36
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 34,
+          "finish": 36
+        },
+        {
+          "token": "mozos",
+          "tag": "Scmp",
+          "lemma": "mozo",
+          "hiperlemma": "mozo",
+          "start": 38,
+          "finish": 42
+        },
+        {
+          "token": "con",
+          "tag": "P",
+          "lemma": "con",
+          "hiperlemma": "con",
+          "start": 44,
+          "finish": 46
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 44,
+          "finish": 46
+        },
+        {
+          "token": "que",
+          "tag": "Tnmp",
+          "lemma": "que",
+          "hiperlemma": "que",
+          "start": 48,
+          "finish": 50
+        },
+        {
+          "token": "manteñen",
+          "tag": "Vpi30p",
+          "lemma": "manter",
+          "hiperlemma": "manter",
+          "start": 52,
+          "finish": 59
+        },
+        {
+          "token": "relacións",
+          "tag": "Scfp",
+          "lemma": "relación",
+          "hiperlemma": "relación",
+          "start": 61,
+          "finish": 69
+        },
+        {
+          "token": "afectivo-sexuais",
+          "tag": "A0fp",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 71,
+          "finish": 86
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 87,
+          "finish": 87
+        }
+      ]
+    },
+    "C6-33": {
+      "status": "tagged",
+      "input": "A Coruña-Ferrol moven 23 dos 30 millóns de toneladas do tráfico portuario galego.",
+      "tokens": [
+        {
+          "token": "A Coruña-Ferrol",
+          "tag": "Sp00",
+          "lemma": "A Coruña-Ferrol",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 14
+        },
+        {
+          "token": "moven",
+          "tag": "Vpi30p",
+          "lemma": "mover",
+          "hiperlemma": "mover",
+          "start": 16,
+          "finish": 20
+        },
+        {
+          "token": "23",
+          "tag": "Ncnmp",
+          "lemma": "23",
+          "hiperlemma": "",
+          "start": 22,
+          "finish": 23
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 25,
+          "finish": 27
+        },
+        {
+          "token": "os",
+          "tag": "Ddmp",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 25,
+          "finish": 27
+        },
+        {
+          "token": "30",
+          "tag": "Ncdmp",
+          "lemma": "30",
+          "hiperlemma": "",
+          "start": 29,
+          "finish": 30
+        },
+        {
+          "token": "millóns",
+          "tag": "Scmp",
+          "lemma": "millón",
+          "hiperlemma": "millón",
+          "start": 32,
+          "finish": 38
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 40,
+          "finish": 41
+        },
+        {
+          "token": "toneladas",
+          "tag": "Scfp",
+          "lemma": "tonelada",
+          "hiperlemma": "tonelada",
+          "start": 43,
+          "finish": 51
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 53,
+          "finish": 54
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 53,
+          "finish": 54
+        },
+        {
+          "token": "tráfico",
+          "tag": "Scms",
+          "lemma": "tráfico",
+          "hiperlemma": "tráfico",
+          "start": 56,
+          "finish": 62
+        },
+        {
+          "token": "portuario",
+          "tag": "A0ms",
+          "lemma": "portuario",
+          "hiperlemma": "portuario",
+          "start": 64,
+          "finish": 72
+        },
+        {
+          "token": "galego",
+          "tag": "A0ms",
+          "lemma": "galego",
+          "hiperlemma": "galego",
+          "start": 74,
+          "finish": 79
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 80,
+          "finish": 80
+        }
+      ]
+    },
+    "C6-39": {
+      "status": "tagged",
+      "input": "Borrell asegura 125 quilómetros de autovía Lugo-A Coruña no 96",
+      "tokens": [
+        {
+          "token": "Borrell",
+          "tag": "Sp00",
+          "lemma": "Borrell",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 6
+        },
+        {
+          "token": "asegura",
+          "tag": "Vpi30s",
+          "lemma": "asegurar",
+          "hiperlemma": "asegurar",
+          "start": 8,
+          "finish": 14
+        },
+        {
+          "token": "125",
+          "tag": "Ncdmp",
+          "lemma": "125",
+          "hiperlemma": "",
+          "start": 16,
+          "finish": 18
+        },
+        {
+          "token": "quilómetros",
+          "tag": "Scmp",
+          "lemma": "quilómetro",
+          "hiperlemma": "quilómetro",
+          "start": 20,
+          "finish": 30
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 32,
+          "finish": 33
+        },
+        {
+          "token": "autovía",
+          "tag": "Scfs",
+          "lemma": "autovía",
+          "hiperlemma": "autovía",
+          "start": 35,
+          "finish": 41
+        },
+        {
+          "token": "Lugo",
+          "tag": "Sp00",
+          "lemma": "Lugo",
+          "hiperlemma": "",
+          "start": 43,
+          "finish": 46
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 47,
+          "finish": 47
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 48,
+          "finish": 48
+        },
+        {
+          "token": "Coruña",
+          "tag": "Sp00",
+          "lemma": "Coruña",
+          "hiperlemma": "",
+          "start": 50,
+          "finish": 55
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 57,
+          "finish": 58
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 57,
+          "finish": 58
+        },
+        {
+          "token": "96",
+          "tag": "Ncnms",
+          "lemma": "96",
+          "hiperlemma": "",
+          "start": 60,
+          "finish": 61
+        }
+      ]
+    },
+    "C6-40": {
+      "status": "tagged",
+      "input": "Borrell asegura 125 quilómetros de autovía Lugo-A Coruña no 96",
+      "tokens": [
+        {
+          "token": "Borrell",
+          "tag": "Sp00",
+          "lemma": "Borrell",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 6
+        },
+        {
+          "token": "asegura",
+          "tag": "Vpi30s",
+          "lemma": "asegurar",
+          "hiperlemma": "asegurar",
+          "start": 8,
+          "finish": 14
+        },
+        {
+          "token": "125",
+          "tag": "Ncdmp",
+          "lemma": "125",
+          "hiperlemma": "",
+          "start": 16,
+          "finish": 18
+        },
+        {
+          "token": "quilómetros",
+          "tag": "Scmp",
+          "lemma": "quilómetro",
+          "hiperlemma": "quilómetro",
+          "start": 20,
+          "finish": 30
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 32,
+          "finish": 33
+        },
+        {
+          "token": "autovía",
+          "tag": "Scfs",
+          "lemma": "autovía",
+          "hiperlemma": "autovía",
+          "start": 35,
+          "finish": 41
+        },
+        {
+          "token": "Lugo",
+          "tag": "Sp00",
+          "lemma": "Lugo",
+          "hiperlemma": "",
+          "start": 43,
+          "finish": 46
+        },
+        {
+          "token": "-",
+          "tag": "Zs00",
+          "lemma": "-",
+          "hiperlemma": "",
+          "start": 47,
+          "finish": 47
+        },
+        {
+          "token": "A",
+          "tag": "Zs00",
+          "lemma": "A",
+          "hiperlemma": "",
+          "start": 48,
+          "finish": 48
+        },
+        {
+          "token": "Coruña",
+          "tag": "Sp00",
+          "lemma": "Coruña",
+          "hiperlemma": "",
+          "start": 50,
+          "finish": 55
+        },
+        {
+          "token": "en",
+          "tag": "P",
+          "lemma": "en",
+          "hiperlemma": "en",
+          "start": 57,
+          "finish": 58
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 57,
+          "finish": 58
+        },
+        {
+          "token": "96",
+          "tag": "Ncnms",
+          "lemma": "96",
+          "hiperlemma": "",
+          "start": 60,
+          "finish": 61
+        }
+      ]
+    },
+    "C7-01": {
+      "status": "tagged",
+      "input": "organización alemá.]",
+      "tokens": [
+        {
+          "token": "organización",
+          "tag": "Scfs",
+          "lemma": "organización",
+          "hiperlemma": "organización",
+          "start": 0,
+          "finish": 11
+        },
+        {
+          "token": "alemá.",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 13,
+          "finish": 18
+        },
+        {
+          "token": "]",
+          "tag": "Q]",
+          "lemma": "]",
+          "hiperlemma": "]",
+          "start": 19,
+          "finish": 19
+        }
+      ]
+    },
+    "C7-02": {
+      "status": "tagged",
+      "input": "e son máis feliz ca ti, porque amo o meu propio amor.\"6.",
+      "tokens": [
+        {
+          "token": "e",
+          "tag": "Cc",
+          "lemma": "e",
+          "hiperlemma": "e",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "son",
+          "tag": "Vpi30p",
+          "lemma": "ser",
+          "hiperlemma": "ser",
+          "start": 2,
+          "finish": 4
+        },
+        {
+          "token": "máis",
+          "tag": "Wm",
+          "lemma": "máis",
+          "hiperlemma": "máis",
+          "start": 6,
+          "finish": 9
+        },
+        {
+          "token": "feliz",
+          "tag": "A0ms",
+          "lemma": "feliz",
+          "hiperlemma": "feliz",
+          "start": 11,
+          "finish": 15
+        },
+        {
+          "token": "ca",
+          "tag": "Cs",
+          "lemma": "ca",
+          "hiperlemma": "ca",
+          "start": 17,
+          "finish": 18
+        },
+        {
+          "token": "ti",
+          "tag": "Rtp2ms",
+          "lemma": "ti",
+          "hiperlemma": "ti",
+          "start": 20,
+          "finish": 21
+        },
+        {
+          "token": ",",
+          "tag": "Q,",
+          "lemma": ",",
+          "hiperlemma": ",",
+          "start": 22,
+          "finish": 22
+        },
+        {
+          "token": "porque",
+          "tag": "Cs",
+          "lemma": "porque",
+          "hiperlemma": "porque",
+          "start": 24,
+          "finish": 29
+        },
+        {
+          "token": "amo",
+          "tag": "Vpi10s",
+          "lemma": "amar",
+          "hiperlemma": "amar",
+          "start": 31,
+          "finish": 33
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 35,
+          "finish": 35
+        },
+        {
+          "token": "meu",
+          "tag": "Md1sms",
+          "lemma": "meu",
+          "hiperlemma": "meu",
+          "start": 37,
+          "finish": 39
+        },
+        {
+          "token": "propio",
+          "tag": "Idms",
+          "lemma": "propio",
+          "hiperlemma": "propio",
+          "start": 41,
+          "finish": 46
+        },
+        {
+          "token": "amor.",
+          "tag": "Za00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 48,
+          "finish": 52
+        },
+        {
+          "token": "\"",
+          "tag": "Q\"",
+          "lemma": "\"",
+          "hiperlemma": "\"",
+          "start": 53,
+          "finish": 53
+        },
+        {
+          "token": "6",
+          "tag": "Ncnms",
+          "lemma": "6",
+          "hiperlemma": "",
+          "start": 54,
+          "finish": 54
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 55,
+          "finish": 55
+        }
+      ]
+    },
+    "C7-03": {
+      "status": "tagged",
+      "input": "(segundo modelo do anexo.)",
+      "tokens": [
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "segundo",
+          "tag": "P",
+          "lemma": "segundo",
+          "hiperlemma": "segundo",
+          "start": 1,
+          "finish": 7
+        },
+        {
+          "token": "modelo",
+          "tag": "Scms",
+          "lemma": "modelo",
+          "hiperlemma": "modelo",
+          "start": 9,
+          "finish": 14
+        },
+        {
+          "token": "de",
+          "tag": "P",
+          "lemma": "de",
+          "hiperlemma": "de",
+          "start": 16,
+          "finish": 17
+        },
+        {
+          "token": "o",
+          "tag": "Ddms",
+          "lemma": "o",
+          "hiperlemma": "o",
+          "start": 16,
+          "finish": 17
+        },
+        {
+          "token": "anexo",
+          "tag": "Scms",
+          "lemma": "anexo",
+          "hiperlemma": "anexo",
+          "start": 19,
+          "finish": 23
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 24,
+          "finish": 24
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 25,
+          "finish": 25
+        }
+      ]
+    },
+    "C7-04": {
+      "status": "tagged",
+      "input": "(Cantarolando.)",
+      "tokens": [
+        {
+          "token": "(",
+          "tag": "Q(",
+          "lemma": "(",
+          "hiperlemma": "(",
+          "start": 0,
+          "finish": 0
+        },
+        {
+          "token": "cantarolando",
+          "tag": "V0x000",
+          "lemma": "cantarolar",
+          "hiperlemma": "cantarolar",
+          "start": 1,
+          "finish": 12
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 13,
+          "finish": 13
+        },
+        {
+          "token": ")",
+          "tag": "Q)",
+          "lemma": ")",
+          "hiperlemma": ")",
+          "start": 14,
+          "finish": 14
+        }
+      ]
+    },
+    "C8-16": {
+      "status": "tagged",
+      "input": "a. C.",
+      "tokens": [
+        {
+          "token": "a.",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "c",
+          "tag": "Scmp",
+          "lemma": "c",
+          "hiperlemma": "c",
+          "start": 3,
+          "finish": 3
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 4,
+          "finish": 4
+        }
+      ]
+    },
+    "C8-17": {
+      "status": "tagged",
+      "input": "a. d. C.",
+      "tokens": [
+        {
+          "token": "a.",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 1
+        },
+        {
+          "token": "d.",
+          "tag": "Za00",
+          "lemma": "d.",
+          "hiperlemma": "",
+          "start": 3,
+          "finish": 4
+        },
+        {
+          "token": "c",
+          "tag": "Zs00",
+          "lemma": "c",
+          "hiperlemma": "",
+          "start": 6,
+          "finish": 6
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 7,
+          "finish": 7
+        }
+      ]
+    },
+    "C8-18": {
+      "status": "tagged",
+      "input": "a.d.C.",
+      "tokens": [
+        {
+          "token": "a.d.C",
+          "tag": "Zg00",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 4
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 5,
+          "finish": 5
+        }
+      ]
+    },
+    "C8-19": {
+      "status": "tagged",
+      "input": "a. m.",
+      "tokens": [
+        {
+          "token": "a. m.",
+          "tag": "Za00",
+          "lemma": "a. m.",
+          "hiperlemma": "",
+          "start": 0,
+          "finish": 4
+        }
+      ]
+    },
+    "C8-20": {
+      "status": "tagged",
+      "input": "a.m.",
+      "tokens": [
+        {
+          "token": "a.m",
+          "tag": "Y",
+          "lemma": "*",
+          "hiperlemma": "*",
+          "start": 0,
+          "finish": 2
+        },
+        {
+          "token": ".",
+          "tag": "Q.",
+          "lemma": ".",
+          "hiperlemma": ".",
+          "start": 3,
+          "finish": 3
+        }
+      ]
+    }
+  }
+}

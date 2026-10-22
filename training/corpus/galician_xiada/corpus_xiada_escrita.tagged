@@ -326521,7 +326521,7 @@ en	P	en
 Balaídos	Sp00	Balaídos
 (	Q(	(
 1	Ncnms	1
--	Zs00	-
+-	Q-	-
 2	Ncnmp	2
 )	Q)	)
 ,	Q,	,
@@ -326876,7 +326876,7 @@ o	Ddms	o
 Gran Peña	Spms	Gran Peña
 por	P	por
 0	Ncnms	0
--	Zs00	-
+-	Q-	-
 1	Ncnms	1
 e	Cc	e
 confirmar	V0f000	confirmar
@@ -328629,13 +328629,13 @@ os	Ddmp	o
 Warriors	Spmp	Warriors
 (	Q(	(
 115	Ncnmp	115
--	Zs00	-
+-	Q-	-
 101	Ncnmp	101
 )	Q)	)
 e	Cc	e
 vencen	Vpi30p	vencer
 3	Ncnmp	3
--	Zs00	-
+-	Q-	-
 1	Ncnms	1
 en	P	en
 a	Ddfs	o
@@ -328650,7 +328650,7 @@ os	Ddmp	o
 Bulls	Spmp	Bulls
 (	Q(	(
 102	Ncnmp	102
--	Zs00	-
+-	Q-	-
 87	Ncnmp	87
 )	Q)	)
 ,	Q,	,
@@ -328659,7 +328659,7 @@ manteñen	Vpi30p	manter
 vantaxe	Scfs	vantaxe
 (	Q(	(
 3	Ncnmp	3
--	Zs00	-
+-	Q-	-
 1	Ncnms	1
 )	Q)	)
 .	Q.	.
@@ -395768,11 +395768,11 @@ español	A0ms	español
 Rafael Nadal	Spm0	Rafael Nadal
 por	P	por
 6	Ncnmp	6
--	Zs00	-
+-	Q-	-
 3	Ncnmp	3
 e	Cc	e
 6	Ncnmp	6
--	Zs00	-
+-	Q-	-
 4	Ncnmp	4
 .	Q.	.
 
@@ -395875,7 +395875,7 @@ se	Rao3aa	se
 con	P	con
 un	Dims	un
 3	Ncnmp	3
--	Zs00	-
+-	Q-	-
 1	Ncnms	1
 a	P	a
 o	Ddms	o
@@ -395904,7 +395904,7 @@ primeira	Nodfs	primeiro
 manga	Scfs	manga
 por	P	por
 6	Ncnmp	6
--	Zs00	-
+-	Q-	-
 3	Ncnmp	3
 .	Q.	.
 
@@ -395933,7 +395933,7 @@ e	Cc	e
 con	P	con
 o	Ddms	o
 1	Ncnms	1
--	Zs00	-
+-	Q-	-
 1	Ncnms	1
 en	P	en
 o	Ddms	o
@@ -395975,7 +395975,7 @@ puxo	Vei30s	poñer
 se	Rao3aa	se
 con	P	con
 4	Ncnmp	4
--	Zs00	-
+-	Q-	-
 2	Ncnmp	2
 en	P	en
 o	Ddms	o
@@ -396023,7 +396023,7 @@ segundo	Nodms	segundo
 set	Scms	set
 por	P	por
 6	Ncnmp	6
--	Zs00	-
+-	Q-	-
 4	Ncnmp	4
 .	Q.	.
 
@@ -396051,7 +396051,7 @@ estadounidense	A0ms	estadounidense
 Andy Roddick	Spm0	Andy Roddick
 por	P	por
 5	Ncnmp	5
--	Zs00	-
+-	Q-	-
 3	Ncnmp	3
 e	Cc	e
 abandono	Scms	abandono
@@ -397386,7 +397386,7 @@ en	P	en
 Tarragona	Sp00	Tarragona
 (	Q(	(
 77	Ncnmp	77
--	Zs00	-
+-	Q-	-
 58	Ncnmp	58
 )	Q)	)
 deixou	Vei30s	deixar
@@ -431549,7 +431549,7 @@ vitoria	Scfs	vitoria
 ,	Q,	,
 por	P	por
 2	Ncnmp	2
--	Zs00	-
+-	Q-	-
 0	Ncnms	0
 ,	Q,	,
 ante	P	ante
@@ -431582,7 +431582,7 @@ a	Ddfs	o
 vitoria	Scfs	vitoria
 por	P	por
 2	Ncnmp	2
--	Zs00	-
+-	Q-	-
 0	Ncnms	0
 de	P	de
 o	Ddms	o
@@ -432204,7 +432204,7 @@ xira	Scfs	xira
 estadounidense	A0fs	estadounidense
 (	Q(	(
 1	Ncnms	1
--	Zs00	-
+-	Q-	-
 4	Ncnmp	4
 )	Q)	)
 ,	Q,	,
@@ -500836,7 +500836,7 @@ de	P	de
 premio	Scms	premio
 ,	Q,	,
 cinco	Ncnap	cinco
--	Zs00	-
+-	Q-	-
 seis	Ncnap	seis
 ,	Q,	,
 segundo	P	segundo
@@ -510487,7 +510487,7 @@ como	Cs	como
 Asador Reses Bravas	Sp00	Asador Reses Bravas
 
 A Grova	Sp00	A Grova
--	Zs00	-
+-	Q-	-
 Baiona	Sp00	Baiona
 (	Q(	(
 Pontevedra	Sp00	Pontevedra
@@ -672763,7 +672763,7 @@ penalti	Scms	penalti
 en	P	en
 o	Ddms	o
 Madrid	Spms	Madrid
--	Zs00	-
+-	Q-	-
 Barcelona	Spms	Barcelona
 de	P	de
 o	Ddms	o
@@ -697207,21 +697207,21 @@ exclusivos	A0mp	exclusivo
 .	Q.	.
 
 músico	Scms	músico
--	Zs00	-
+-	Q-	-
 bedel	Scms	bedel
 ,	Q,	,
 peón	Scms	peón
--	Zs00	-
+-	Q-	-
 debuxante	Scms	debuxante
 ,	Q,	,
 psicóloga	Scfs	psicólogo
--	Zs00	-
+-	Q-	-
 dependenta	Scfs	dependente
 ,	Q,	,
 pintor	Scms	pintor
--	Zs00	-
+-	Q-	-
 taberneiro	Scms	taberneiro
--	Zs00	-
+-	Q-	-
 marmorista	Scms	marmorista
 .	Q.	.
 

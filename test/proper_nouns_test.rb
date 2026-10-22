@@ -1,4 +1,5 @@
 require 'csv'
+require 'json'
 require_relative './test_helper'
 require_relative '../running/bin/proper_nouns'
 
@@ -197,6 +198,30 @@ describe 'ProperNounsTest' do
         assert_equal [text], proper_nouns.call(text)
       end
 
+      it 'should recognize the reviewed proper-name fragments in title contexts' do
+        expected_fragments = {
+          'C4-12' => 'Alcolismo',
+          'C4-13' => 'Tabaquismo',
+          'C4-14' => 'Aspeitos',
+          'C4-18' => 'Estudantes Revolucionarios Galegos',
+          'C4-19' => 'Las',
+          'C4-20' => 'Mex',
+          'C4-21' => 'Pteridológicas de Galicia',
+          'C4-22' => 'Acta Botánica Malacitana'
+        }
+        fixture_path = 'test/fixtures/corga_document_20261007/cases.json'
+        cases = JSON.parse(File.read(fixture_path)).to_h { |example| [example.fetch('id'), example] }
+        proper_nouns = ProperNouns.new(main_lexicon, literals, ambiguous_literals, joiners, tags)
+
+        expected_fragments.each do |case_id, expected|
+          text = cases.fetch(case_id).fetch('input')
+          detected = proper_nouns.call(text).filter_map do |segment|
+            segment.text if segment.is_a?(ProperNouns::Literal)
+          end
+          assert_includes detected, expected, case_id
+        end
+      end
+
       it 'should apply the exact-case guard after an internal point and wrappers' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
@@ -212,25 +237,35 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should allow lowercase-only lexical words as proper nouns after punctuation' do
+      it 'should not promote lexical words to proper nouns after a point' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
-        [
-          'Desde Erguer. Estudantes da Galiza',
-          'ABSE (Asociación para a Banca Social)',
-          '_¡Avante, avante! _berrou Smollett alporizado_, ¡Atácannos!'
-        ].each do |text|
+        {
+          'Desde Erguer. Estudantes da Galiza' => 'Estudantes',
+          'palabra. Levo os dedos aos beizos' => 'Levo'
+        }.each do |text, word|
           result = proper_nouns.call(text)
           proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
 
-          if text.include?('Atácannos')
-            refute proper_noun_literals.any? { |segment| segment.text == 'Atácannos' },
-              'The existing ambiguity guard should remain unchanged after punctuation and a wrapper'
-          else
-            assert proper_noun_literals.any? { |segment| %w[Estudantes Asociación].include?(segment.text) },
-              "Expected lowercase-only lexical word to be promoted in: #{text}"
-          end
+          refute proper_noun_literals.any? { |segment| segment.text.include?(word) },
+            "Did not expect #{word} to be promoted to a proper noun in: #{text}"
         end
+      end
+
+      it 'should recognize lowercase-only lexical words as proper nouns in wrappers' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        result = proper_nouns.call('ABSE (Asociación para a Banca Social)')
+        proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
+
+        assert proper_noun_literals.any? { |segment| segment.text == 'Asociación' }
+      end
+
+      it 'should preserve the ambiguity guard after punctuation and a wrapper' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        result = proper_nouns.call('_¡Avante, avante! _berrou Smollett alporizado_, ¡Atácannos!')
+        proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
+
+        refute proper_noun_literals.any? { |segment| segment.text == 'Atácannos' }
       end
 
       it 'should detect road names' do
@@ -477,8 +512,7 @@ describe 'ProperNounsTest' do
 
         {
           'Dixo "Non".' => 'Non',
-          'Dixo (Babilonia).' => 'Babilonia',
-          'Dixo. Non.' => 'Non'
+          'Dixo (Babilonia).' => 'Babilonia'
         }.each do |text, noun|
           result = lowercase_proper_nouns.call(text)
           literal = result.find { |segment| segment.is_a?(ProperNouns::Literal) }

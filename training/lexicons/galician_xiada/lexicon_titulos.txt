@@ -54,6 +54,7 @@ A Pegada das Mulleres Científicas en Pontevedra	Sp00	A Pegada das Mulleres Cien
 A Room Of One's Own	Sp00	A Room Of One's Own
 A Serpe galáctica	Sp00	A Serpe galáctica
 A Terra pola noite	Sp00	A Terra pola noite
+A Trabe de ouro	Sp00	A Trabe de ouro
 A Transición, a pé de rúa	Sp00	A Transición, a pé de rúa
 A Virxe de Montetorán	Sp00	A Virxe de Montetorán
 A aristocracia imposible. O discurso político de Nietzsche	Sp00	A aristocracia imposible. O discurso político de Nietzsche
@@ -63,6 +64,7 @@ A arte da fuga	Sp00	A arte da fuga
 A arte da guerra	Sp00	A arte da guerra
 A arte do fracaso	Sp00	A arte do fracaso
 A arte expresa o Espírito da Historia	Sp00	A arte expresa o Espírito da Historia
+A arte inexistente	Sp00	A arte inexistente
 A ascensión ao Empíreo	Sp00	A ascensión ao Empíreo
 A autonomía galega en 1978	Sp00	A autonomía galega en 1978
 A aventura da banda de lunares	Sp00	A aventura da banda de lunares
@@ -70,6 +72,7 @@ A balada dos unicornios	Sp00	A balada dos unicornios
 A banda da Loba	Sp00	A banda da Loba
 A barca do inferno	Sp00	A barca do inferno
 A batalla cultural dana as artistas: posicionamento das artistas e a súa creación	Sp00	A batalla cultural dana as artistas: posicionamento das artistas e a súa creación
+A batalla de Montevideo (Os agravios lingüísticos denunciados na UNESCO en 1954)	Sp00	A batalla de Montevideo (Os agravios lingüísticos denunciados na UNESCO en 1954)
 A batalla polas pensións	Sp00	A batalla polas pensións
 A biblioteca ideal	Sp00	A biblioteca ideal
 A biblioteca imaxinaria	Sp00	A biblioteca imaxinaria
@@ -99,6 +102,7 @@ A casa torta	Sp00	A casa torta
 A cazola de Lola	Sp00	A cazola de Lola
 A caída	Sp00	A caída
 A cero	Sp00	A cero
+A cero.5	Sp00	A cero.5
 A chamada da selva	Sp00	A chamada da selva
 A cicatriz branca	Sp00	A cicatriz branca
 A cidade	Sp00	A cidade
@@ -136,6 +140,7 @@ A economía galega. Informe 2019/2020	Sp00	A economía galega. Informe 2019/2020
 A economía social transformadora, compromiso e cambio social	Sp00	A economía social transformadora, compromiso e cambio social
 A elegancia do ourizo	Sp00	A elegancia do ourizo
 A emigración galega en Cataluña	Sp00	A emigración galega en Cataluña
+A enerxía eólica en Galiza. Problemas de hoxe e alternativas para o futuro	Sp00	A enerxía eólica en Galiza. Problemas de hoxe e alternativas para o futuro
 A era do baleiro	Sp00	A era do baleiro
 A escafandra e a bolboreta	Sp00	A escafandra e a bolboreta
 A escola rural e o desenvolvemento persoal: a competencia de aprender a aprender na contorna natural	Sp00	A escola rural e o desenvolvemento persoal: a competencia de aprender a aprender na contorna natural
@@ -162,6 +167,7 @@ A festa da palabra silenciada	Sp00	A festa da palabra silenciada
 A festa da patrona de Tabeirón	Sp00	A festa da patrona de Tabeirón
 A festa popular en Galicia	Sp00	A festa popular en Galicia
 A fiestra valdeira	Sp00	A fiestra valdeira
+A filla de Vercinxetórix	Sp00	A filla de Vercinxetórix
 A filla de Woody Allen	Sp00	A filla de Woody Allen
 A filla do rei	Sp00	A filla do rei
 A fin da Historia e o último home	Sp00	A fin da Historia e o último home
@@ -190,6 +196,7 @@ A grande ilusión e outros contos	Sp00	A grande ilusión e outros contos
 A grande noite de Fiz	Sp00	A grande noite de Fiz
 A grande transformación	Sp00	A grande transformación
 A gratitude infinita	Sp00	A gratitude infinita
+A gruta da Torre	Sp00	A gruta da Torre
 A gruta da torre	Sp00	A gruta da torre
 A gueixa no bosque de bambú	Sp00	A gueixa no bosque de bambú
 A guerra da fin do mundo	Sp00	A guerra da fin do mundo
@@ -305,6 +312,7 @@ A noite dos mortos viventes	Sp00	A noite dos mortos viventes
 A noite enriba	Sp00	A noite enriba
 A noite estrelada	Sp00	A noite estrelada
 A noite que deixou de chover	Sp00	A noite que deixou de chover
+A noite vai coma un río	Sp00	A noite vai coma un río
 A nosa cinza	Sp00	A nosa cinza
 A nosa lingua é a nosa identidade	Sp00	A nosa lingua é a nosa identidade
 A nosa nai Galiza	Sp00	A nosa nai Galiza
@@ -485,13 +493,16 @@ Adiós al colegio	Sp00	Adiós al colegio
 Adiós ríos, adiós fontes	Sp00	Adiós ríos, adiós fontes
 Adiós val de Vimianzo	Sp00	Adiós val de Vimianzo
 Adiós, madre, cuídate	Sp00	Adiós, madre, cuídate
+Adjectifs qualificatifs et adjectifs relationnels: étude sémantique et approche pragmatique	Sp00	Adjectifs qualificatifs et adjectifs relationnels: étude sémantique et approche pragmatique
 Adria aviva 360 DK	Sp00	Adria aviva 360 DK
 Afogamento de rapaza	Sp00	Afogamento de rapaza
 Agardando o mencer	Sp00	Agardando o mencer
 Agente especial	Sp00	Agente especial
 Agosto de memoria e morte	Sp00	Agosto de memoria e morte
 Agra aberta	Sp00	Agra aberta
+Agricultura y Capitalismo. Análisis de la pequeña producción campesina	Sp00	Agricultura y Capitalismo. Análisis de la pequeña producción campesina
 Agriculture and fishery statistics	Sp00	Agriculture and fishery statistics
+Agrobioloxía Ambiental. Calidade de Chans e Plantas	Sp00	Agrobioloxía Ambiental. Calidade de Chans e Plantas
 Agrupémonos todas	Sp00	Agrupémonos todas
 Ahí ven o maio	Sp00	Ahí ven o maio
 Ai do Allo, ai do Allo...	Sp00	Ai do Allo, ai do Allo...
@@ -509,6 +520,7 @@ Alalás do camiño	Sp00	Alalás do camiño
 Alalás encadeados	Sp00	Alalás encadeados
 Alba de beiramar	Sp00	Alba de beiramar
 Aldara: A lenda do cervo branco	Sp00	Aldara: A lenda do cervo branco
+Alemania. Impresiones de un español	Sp00	Alemania. Impresiones de un español
 Alfonsina y el mar	Sp00	Alfonsina y el mar
 Alfonso X y las cuatro cantigas	Sp00	Alfonso X y las cuatro cantigas
 Algo más sobre Colón	Sp00	Algo más sobre Colón
@@ -548,12 +560,14 @@ Ambiciono o equilibrio dos extremos	Sp00	Ambiciono o equilibrio dos extremos
 "Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la ""Guerra Civil"""	Sp00	"Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la ""Guerra Civil"""
 Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la 'guerra civil'	Sp00	Ambición de saber, factores limitantes y necesidad de un nuevo relato sobre la 'guerra civil'
 Ambiente polémico: Los países subdesarrollados se niegan a ser reducidos a parque de la tierra	Sp00	Ambiente polémico: Los países subdesarrollados se niegan a ser reducidos a parque de la tierra
+American Math. Montly	Sp00	American Math. Montly
 Amics per sempre	Sp00	Amics per sempre
 Amigos de nunca	Sp00	Amigos de nunca
 Amigos para siempre	Sp00	Amigos para siempre
 Amor baixo o espiño branco	Sp00	Amor baixo o espiño branco
 Amor cobarde	Sp00	Amor cobarde
 Amor de pé	Sp00	Amor de pé
+Amor e tempo liso	Sp00	Amor e tempo liso
 Amor en alpargatas	Sp00	Amor en alpargatas
 Amor enxebre	Sp00	Amor enxebre
 Amor no deserto	Sp00	Amor no deserto
@@ -602,6 +616,7 @@ Antiquité de la nation et de la langue des celtes autrement appelés gaules	Sp0
 Antología del cante flamenco heterodoxo	Sp00	Antología del cante flamenco heterodoxo
 Antoloxía dos novísimos poetas galegos	Sp00	Antoloxía dos novísimos poetas galegos
 Antoloxía poética	Sp00	Antoloxía poética
+Antoni Tàpies. Unha antolóxica 1959-1995	Sp00	Antoni Tàpies. Unha antolóxica 1959-1995
 Antonio Fraguas Fraguas. Letras Galegas 2019	Sp00	Antonio Fraguas Fraguas. Letras Galegas 2019
 Antonio Fraguas, Memoria dun soño	Sp00	Antonio Fraguas, Memoria dun soño
 Antonio Fraguas. Mestre da memoria	Sp00	Antonio Fraguas. Mestre da memoria
@@ -618,6 +633,7 @@ Análise, datos e recomendacións para o recoñecemento da diversidade na Galiza
 Análisis comparado de figuras para la agrupación de minifundios forestales	Sp00	Análisis comparado de figuras para la agrupación de minifundios forestales
 Análisis comparativo del fomento de la eco-innovación empresarial en las Comunidades Autónomas	Sp00	Análisis comparativo del fomento de la eco-innovación empresarial en las Comunidades Autónomas
 Análisis matemático de algunos modelos en ciencias aplicadas. Su utilización en simulación y el control de procesos metalúrgicos	Sp00	Análisis matemático de algunos modelos en ciencias aplicadas. Su utilización en simulación y el control de procesos metalúrgicos
+Aníbal Otero. Lingüística e política en España na Guerra Civil e no franquismo	Sp00	Aníbal Otero. Lingüística e política en España na Guerra Civil e no franquismo
 Ao final da escaleira	Sp00	Ao final da escaleira
 Ao sur da liberdade	Sp00	Ao sur da liberdade
 Apaga a luz no seu primeiro voo	Sp00	Apaga a luz no seu primeiro voo
@@ -667,6 +683,7 @@ Arte e memoria, centenario Conde Corbal	Sp00	Arte e memoria, centenario Conde Co
 Arte rupestre	Sp00	Arte rupestre
 Arte. Diccionario ilustrado	Sp00	Arte. Diccionario ilustrado
 Artesanía popular española	Sp00	Artesanía popular española
+Artistas. Proxectos de visibilización	Sp00	Artistas. Proxectos de visibilización
 Arts i oficis	Sp00	Arts i oficis
 As 13 rosas	Sp00	As 13 rosas
 As 7 e 7. Hora de falar	Sp00	As 7 e 7. Hora de falar
@@ -697,6 +714,7 @@ As cruces de Pedra na Galiza	Sp00	As cruces de Pedra na Galiza
 As cruces de pedra na Bretaña	Sp00	As cruces de pedra na Bretaña
 As cruces de pedra na Galiza	Sp00	As cruces de pedra na Galiza
 As crónicas	Sp00	As crónicas
+As crónicas do sochantre	Sp00	As crónicas do sochantre
 As damas de Ferrol	Sp00	As damas de Ferrol
 As do peixe	Sp00	As do peixe
 As emisións en catalán e éuscaro na BBC	Sp00	As emisións en catalán e éuscaro na BBC
@@ -719,8 +737,10 @@ As historias de Pepe de Xan Baña	Sp00	As historias de Pepe de Xan Baña
 As idades perdidas	Sp00	As idades perdidas
 As illas de Aran	Sp00	As illas de Aran
 As imaxes da intimidade	Sp00	As imaxes da intimidade
+As labradoras do mar	Sp00	As labradoras do mar
 As leis de Celavella	Sp00	As leis de Celavella
 As liñas descontinuas	Sp00	As liñas descontinuas
+As loucuras de Piñeiro	Sp00	As loucuras de Piñeiro
 As lêndas dá Fonte Pormás	Sp00	As lêndas dá Fonte Pormás
 As malas mulleres	Sp00	As malas mulleres
 As mans	Sp00	As mans
@@ -738,6 +758,7 @@ As noites interiores	Sp00	As noites interiores
 As nosas letras de Muller a Muller	Sp00	As nosas letras de Muller a Muller
 As oliveiras da xeada	Sp00	As oliveiras da xeada
 As palabras do mar	Sp00	As palabras do mar
+As palabras no exilio. Biografía intelectual de Luís Seoane	Sp00	As palabras no exilio. Biografía intelectual de Luís Seoane
 As pantasmas do mar	Sp00	As pantasmas do mar
 As pedras que facían viño	Sp00	As pedras que facían viño
 As pedras verdes	Sp00	As pedras verdes
@@ -774,6 +795,7 @@ As zapatillas vermellas	Sp00	As zapatillas vermellas
 As últimas galerías	Sp00	As últimas galerías
 As, os, @s	Sp00	As, os, @s
 Ascensión e caída da cidade de Mahagonny	Sp00	Ascensión e caída da cidade de Mahagonny
+Ascensión, apoteose e caídas de Piñeiro	Sp00	Ascensión, apoteose e caídas de Piñeiro
 Asgard and the gods	Sp00	Asgard and the gods
 Asghar Farhadi. A beirarrúa	Sp00	Asghar Farhadi. A beirarrúa
 Asignatura aprobada	Sp00	Asignatura aprobada
@@ -787,7 +809,9 @@ Aspirinas contra o despoboamento	Sp00	Aspirinas contra o despoboamento
 Association générale des Conservateurs des collections publiques	Sp00	Association générale des Conservateurs des collections publiques
 Astronomía a ollo ceibe	Sp00	Astronomía a ollo ceibe
 Astronomía a simple vista	Sp00	Astronomía a simple vista
+Astérix e o Grifón	Sp00	Astérix e o Grifón
 Astérix e os pictos	Sp00	Astérix e os pictos
+Astérix en Italia	Sp00	Astérix en Italia
 Así es Galicia	Sp00	Así es Galicia
 Así falamos, así sentimos	Sp00	Así falamos, así sentimos
 Así falan os galegos	Sp00	Así falan os galegos
@@ -798,6 +822,7 @@ Así gañamos as eleccións	Sp00	Así gañamos as eleccións
 Así se manipula al consumidor	Sp00	Así se manipula al consumidor
 Atila en Galiza	Sp00	Atila en Galiza
 Atlas de las ciudades perdidas	Sp00	Atlas de las ciudades perdidas
+Atranco no banco	Sp00	Atranco no banco
 Atrapa la bandera	Sp00	Atrapa la bandera
 Atrapados na penumbra	Sp00	Atrapados na penumbra
 Atravesa-lo fantasma	Sp00	Atravesa-lo fantasma
@@ -847,6 +872,7 @@ Balada de amor ao vento	Sp00	Balada de amor ao vento
 Balada de los mares del norte	Sp00	Balada de los mares del norte
 Balada de verán	Sp00	Balada de verán
 Balada gallega	Sp00	Balada gallega
+Balance e inventario da nosa literatura	Sp00	Balance e inventario da nosa literatura
 Balance matrimonial	Sp00	Balance matrimonial
 Baleas e baleas	Sp00	Baleas e baleas
 Balor na acción dunha cadeira	Sp00	Balor na acción dunha cadeira
@@ -888,6 +914,7 @@ Bicefalus interruptus	Sp00	Bicefalus interruptus
 Bichos e demais parentes	Sp00	Bichos e demais parentes
 Bicos con lingua	Sp00	Bicos con lingua
 Big little lies	Sp00	Big little lies
+Bilingüismo e autotradución na obra de Álvaro Cunqueiro	Sp00	Bilingüismo e autotradución na obra de Álvaro Cunqueiro
 Biografía de Iglesias Alvariño	Sp00	Biografía de Iglesias Alvariño
 Biología y Patología Gemelar en sus relaciones con los problemas hereditarios	Sp00	Biología y Patología Gemelar en sus relaciones con los problemas hereditarios
 Bioloxía molecular e do desenvolvemento en acuicultura	Sp00	Bioloxía molecular e do desenvolvemento en acuicultura
@@ -929,6 +956,7 @@ Business as usual	Sp00	Business as usual
 CIE Génerale des eaux	Sp00	CIE Génerale des eaux
 CO CO CO CO U	Sp00	CO CO CO CO U
 CO CO CO U	Sp00	CO CO CO U
+Cabalgada na brétema	Sp00	Cabalgada na brétema
 Cabalgata das valquirias	Sp00	Cabalgata das valquirias
 Caballos hacia la noche	Sp00	Caballos hacia la noche
 Cabalos e lobos	Sp00	Cabalos e lobos
@@ -963,6 +991,7 @@ Camiños da vida	Sp00	Camiños da vida
 Camiños de coñecemento e experiencia. Proxecto de democratización do Coñecemento	Sp00	Camiños de coñecemento e experiencia. Proxecto de democratización do Coñecemento
 Camiños do bosque	Sp00	Camiños do bosque
 Camiños estreitos de Oku	Sp00	Camiños estreitos de Oku
+Camiños na auga	Sp00	Camiños na auga
 Campagnes du Capitaine Marcel du 69e de ligne en Espagne et en Portugal	Sp00	Campagnes du Capitaine Marcel du 69e de ligne en Espagne et en Portugal
 Campo de sementes 2	Sp00	Campo de sementes 2
 Campo sur	Sp00	Campo sur
@@ -992,9 +1021,11 @@ Canle. Órgano dos militantes da Unión do Pobo Galego	Sp00	Canle. Órgano dos m
 Cans e Gatos, os teus mellores amigos	Sp00	Cans e Gatos, os teus mellores amigos
 Cansaço, tédio, desassossego	Sp00	Cansaço, tédio, desassossego
 Canta bichería	Sp00	Canta bichería
+Canta de cerca a morte	Sp00	Canta de cerca a morte
 Canta la hierba	Sp00	Canta la hierba
 Cantares gallegos	Sp00	Cantares gallegos
 Cantiga do neno da tenda	Sp00	Cantiga do neno da tenda
+Cantiga nova que se chama riveira	Sp00	Cantiga nova que se chama riveira
 Cantigas de amigo e outros poemas	Sp00	Cantigas de amigo e outros poemas
 Cantigueiro Popular da Limia baixa	Sp00	Cantigueiro Popular da Limia baixa
 Canto conto ten Chuches Amil	Sp00	Canto conto ten Chuches Amil
@@ -1007,6 +1038,7 @@ Cantos de sol a sol	Sp00	Cantos de sol a sol
 Cantos de sola sol	Sp00	Cantos de sola sol
 Cantos na Maré	Sp00	Cantos na Maré
 Cantos, Coplas e Romances de Cego	Sp00	Cantos, Coplas e Romances de Cego
+Cançon das lavandeiras	Sp00	Cançon das lavandeiras
 Capitalism and development of agricultura	Sp00	Capitalism and development of agricultura
 Capitalisme Negrier: La marche des paysans vers le proletariat	Sp00	Capitalisme Negrier: La marche des paysans vers le proletariat
 Cara a Crimea	Sp00	Cara a Crimea
@@ -1056,6 +1088,7 @@ Casi artista	Sp00	Casi artista
 Casiña de bonecas	Sp00	Casiña de bonecas
 Cast away	Sp00	Cast away
 Castelao en Cotobade	Sp00	Castelao en Cotobade
+Castelao na Unión Soviética en 1938. Filocomunismo e prosovietismo de Castelao nos anos da Guerra Civil	Sp00	Castelao na Unión Soviética en 1938. Filocomunismo e prosovietismo de Castelao nos anos da Guerra Civil
 Castelao na arte europea	Sp00	Castelao na arte europea
 Castellio contra Calvino	Sp00	Castellio contra Calvino
 Castro Caldelas y su comarca	Sp00	Castro Caldelas y su comarca
@@ -1130,6 +1163,7 @@ Cifras cruentas. Las víctimas mortales de la violencia sociopolítica en la Seg
 Cifras cruentas...	Sp00	Cifras cruentas...
 Cinco minutiños máis	Sp00	Cinco minutiños máis
 Cinco minutos de paz	Sp00	Cinco minutos de paz
+Cinco semanas en globo	Sp00	Cinco semanas en globo
 Cincuenta anos de normalización lingüística	Sp00	Cincuenta anos de normalización lingüística
 Cincuenta décimas contra don Diego Zernadas	Sp00	Cincuenta décimas contra don Diego Zernadas
 Cincuenta sombras	Sp00	Cincuenta sombras
@@ -1170,6 +1204,7 @@ Comadreja enamorada	Sp00	Comadreja enamorada
 Comando Igualdade. A mocidade facendo a revolución feminista nas aulas!	Sp00	Comando Igualdade. A mocidade facendo a revolución feminista nas aulas!
 Come e fala	Sp00	Come e fala
 Come, reza, ama	Sp00	Come, reza, ama
+Comedia bífida	Sp00	Comedia bífida
 Comentarios á guerra das Galias	Sp00	Comentarios á guerra das Galias
 Comercio colonial y crisis del Antiguo Régimen en Galicia	Sp00	Comercio colonial y crisis del Antiguo Régimen en Galicia
 Comida rápida, barata y saluadable	Sp00	Comida rápida, barata y saluadable
@@ -1217,6 +1252,7 @@ Confederación de Empresarios da provincia de Pontevedra	Sp00	Confederación de 
 Conferencia Mundial para o exame e a avaliación dos logros do decenio das Nación Unidas para a Muller	Sp00	Conferencia Mundial para o exame e a avaliación dos logros do decenio das Nación Unidas para a Muller
 Conferencia dada por don ... . ... . ... . ... . ... en la Lliga de Catalunya	Sp00	Conferencia dada por don ... . ... . ... . ... . ... en la Lliga de Catalunya
 Confessions of an Advertising Man	Sp00	Confessions of an Advertising Man
+Conflicto lingüístico e ideoloxía en Galicia	Sp00	Conflicto lingüístico e ideoloxía en Galicia
 Conflito lingüístico e ideoloxía na Galiza. A situación do galego como síntoma	Sp00	Conflito lingüístico e ideoloxía na Galiza. A situación do galego como síntoma
 Confédération générale du travail	Sp00	Confédération générale du travail
 Conjuro de todos los tiempos	Sp00	Conjuro de todos los tiempos
@@ -1282,6 +1318,7 @@ Corriere della sera	Sp00	Corriere della sera
 Corsi per corrispondenza	Sp00	Corsi per corrispondenza
 Cortes de memoria	Sp00	Cortes de memoria
 Coruña corre!	Sp00	Coruña corre!
+Corvo mariño	Sp00	Corvo mariño
 Cosmopolitas domésticos	Sp00	Cosmopolitas domésticos
 Costa da Morte, un país de sueños y naufragios	Sp00	Costa da Morte, un país de sueños y naufragios
 Costa da Morte. Historia y anecdotario de sus naufragios	Sp00	Costa da Morte. Historia y anecdotario de sus naufragios
@@ -1323,6 +1360,7 @@ Crónica de pedra	Sp00	Crónica de pedra
 Crónica dun peregrino singular	Sp00	Crónica dun peregrino singular
 Crónica dun pobo	Sp00	Crónica dun pobo
 Crónica sentimental de España	Sp00	Crónica sentimental de España
+Crónicas da represión lingüística	Sp00	Crónicas da represión lingüística
 Crónicas de un Bohemio	Sp00	Crónicas de un Bohemio
 Crónicas de un pueblo	Sp00	Crónicas de un pueblo
 Cuaderno de campo	Sp00	Cuaderno de campo
@@ -1346,6 +1384,7 @@ Cultivo una rosa blanca	Sp00	Cultivo una rosa blanca
 Cultura contra a barbarie	Sp00	Cultura contra a barbarie
 Cultura e política na España de entreguerras	Sp00	Cultura e política na España de entreguerras
 Cumpleaños lejos de casa	Sp00	Cumpleaños lejos de casa
+Cunqueiro, Mar ao norde	Sp00	Cunqueiro, Mar ao norde
 Cupido ameazador	Sp00	Cupido ameazador
 Cuéntame cómo pasó	Sp00	Cuéntame cómo pasó
 Cámara subjetiva	Sp00	Cámara subjetiva
@@ -1360,8 +1399,10 @@ Cómo salir de ésta	Sp00	Cómo salir de ésta
 Cómpre mencionar Galicia encantada	Sp00	Cómpre mencionar Galicia encantada
 Cóntame contos. Contos na aula hospitalaria	Sp00	Cóntame contos. Contos na aula hospitalaria
 D'o ermo	Sp00	D'o ermo
+Da Cunha, matemático, poeta y hereje	Sp00	Da Cunha, matemático, poeta y hereje
 Da estrela e da fouce	Sp00	Da estrela e da fouce
 Da investigación á creación biográfica	Sp00	Da investigación á creación biográfica
+Da terra asoballada	Sp00	Da terra asoballada
 Da túa man	Sp00	Da túa man
 Da vergoña ao amor	Sp00	Da vergoña ao amor
 Da xenealoxía da moral	Sp00	Da xenealoxía da moral
@@ -1520,7 +1561,9 @@ Diccionario geográfico	Sp00	Diccionario geográfico
 Diccionario geográfico-estadístico de España y Portugal	Sp00	Diccionario geográfico-estadístico de España y Portugal
 Diccionario geográfico-estadístico-histórico de España y sus posesiones de Ultramar	Sp00	Diccionario geográfico-estadístico-histórico de España y sus posesiones de Ultramar
 Diccionario geográfico-estadístico-histórico de España y sus posesiones de ultramar	Sp00	Diccionario geográfico-estadístico-histórico de España y sus posesiones de ultramar
+Dicionario Xerais da Lingua	Sp00	Dicionario Xerais da Lingua
 Dicionario de apelidos galegos	Sp00	Dicionario de apelidos galegos
+Dicionario de pronuncia da lingua galega	Sp00	Dicionario de pronuncia da lingua galega
 Dicionario do demo	Sp00	Dicionario do demo
 Dicionario fraseolóxico galego	Sp00	Dicionario fraseolóxico galego
 Dicíamos onte	Sp00	Dicíamos onte
@@ -1586,6 +1629,7 @@ Domicilio conyugal	Sp00	Domicilio conyugal
 Dominando os mares	Sp00	Dominando os mares
 Domingo de bica	Sp00	Domingo de bica
 Don Quijote de la Mancha	Sp00	Don Quijote de la Mancha
+Dona do corpo delgado	Sp00	Dona do corpo delgado
 Donde estábamos, estamos	Sp00	Donde estábamos, estamos
 Donde todo termina abre las alas	Sp00	Donde todo termina abre las alas
 Dorothè na vila	Sp00	Dorothè na vila
@@ -1597,6 +1641,7 @@ Dos días escuros	Sp00	Dos días escuros
 Dos en la carretera	Sp00	Dos en la carretera
 Dos islas	Sp00	Dos islas
 Dos muiñeiras	Sp00	Dos muiñeiras
+Dos signos de Stendhal aos imaxinarios de Musil (As matemáticas da literatura)	Sp00	Dos signos de Stendhal aos imaxinarios de Musil (As matemáticas da literatura)
 Dos soños teimosos	Sp00	Dos soños teimosos
 Dous camiños cara á democracia: o español e o polaco	Sp00	Dous camiños cara á democracia: o español e o polaco
 Dous escritos sobre a felicidade	Sp00	Dous escritos sobre a felicidade
@@ -1936,6 +1981,7 @@ El viaje del joven Tobías	Sp00	El viaje del joven Tobías
 El viaje entretenido	Sp00	El viaje entretenido
 El viejo topo	Sp00	El viejo topo
 El visitador del preso	Sp00	El visitador del preso
+"El vuelo de la gaviota. Primera biografía del pionero de la aviación española, José Piñeiro González ""el hombre-pájaro gallego"""	Sp00	"El vuelo de la gaviota. Primera biografía del pionero de la aviación española, José Piñeiro González ""el hombre-pájaro gallego"""
 El árbol de la ciencia	Sp00	El árbol de la ciencia
 El árbol y la raíz	Sp00	El árbol y la raíz
 El último Orbit: examinatio, diagnosis, microsurgery and pathology	Sp00	El último Orbit: examinatio, diagnosis, microsurgery and pathology
@@ -1947,6 +1993,7 @@ El último secreto de Frida K.	Sp00	El último secreto de Frida K.
 Ela está enfadada	Sp00	Ela está enfadada
 Ela está furiosa	Sp00	Ela está furiosa
 Elas e o paraugas totalizador. Escritoras, xénero e nacion	Sp00	Elas e o paraugas totalizador. Escritoras, xénero e nacion
+Elas fan tech	Sp00	Elas fan tech
 Elas son artistas	Sp00	Elas son artistas
 Elas tamén pintan	Sp00	Elas tamén pintan
 Elas. Antoloxía poética	Sp00	Elas. Antoloxía poética
@@ -1984,6 +2031,8 @@ En defensa do noso mar	Sp00	En defensa do noso mar
 En el Barranco del Lobo	Sp00	En el Barranco del Lobo
 En el balcón vacío	Sp00	En el balcón vacío
 En el presente de la pulsación	Sp00	En el presente de la pulsación
+En galego 24/7. Da minoración ao neofalantismo	Sp00	En galego 24/7. Da minoración ao neofalantismo
+En galego por que non?	Sp00	En galego por que non?
 En la ciudad sin límites	Sp00	En la ciudad sin límites
 En la inauguración del teléfono en Bayo	Sp00	En la inauguración del teléfono en Bayo
 En las orillas del Sar	Sp00	En las orillas del Sar
@@ -2004,6 +2053,8 @@ Encontro internacional de gaiteiros	Sp00	Encontro internacional de gaiteiros
 Encontros para a normalización lingüística	Sp00	Encontros para a normalización lingüística
 Encontros para normalización lingüística	Sp00	Encontros para normalización lingüística
 Encuentros cercanos	Sp00	Encuentros cercanos
+Encuesta mundial sobre la lengua y la cultura gallega y otras áreas conflictivas. Cataluña, Puerto Rico...	Sp00	Encuesta mundial sobre la lengua y la cultura gallega y otras áreas conflictivas. Cataluña, Puerto Rico...
+Encuesta mundial sobre la lengua y la cultura gallegas	Sp00	Encuesta mundial sobre la lengua y la cultura gallegas
 Enfeitizados. O príncipe e a princesa que viaxaron ao noso tempo	Sp00	Enfeitizados. O príncipe e a princesa que viaxaron ao noso tempo
 Enfermeiras eventuais en loita	Sp00	Enfermeiras eventuais en loita
 Enfermidades parasitarias I	Sp00	Enfermidades parasitarias I
@@ -2011,6 +2062,7 @@ Enfermidades parasitarias II	Sp00	Enfermidades parasitarias II
 Enfoques dietéticos para deter a hipertensión	Sp00	Enfoques dietéticos para deter a hipertensión
 Engaging the Atlantic	Sp00	Engaging the Atlantic
 Enhancing HNS preparedness through training and exercising	Sp00	Enhancing HNS preparedness through training and exercising
+Enquisa de condicións de vida	Sp00	Enquisa de condicións de vida
 Ensaio encol do amor castelán	Sp00	Ensaio encol do amor castelán
 Ensaio encol do amor castelán, á moda de Stendhal	Sp00	Ensaio encol do amor castelán, á moda de Stendhal
 Ensaio histórico sobre a cultura galega	Sp00	Ensaio histórico sobre a cultura galega
@@ -2111,6 +2163,7 @@ Estampas de la vida y de la muerte del emperador Carlos I	Sp00	Estampas de la vi
 Este mundo é un conflito	Sp00	Este mundo é un conflito
 Estela Canto, un amor de Borges	Sp00	Estela Canto, un amor de Borges
 Estilo de la juventud nueva	Sp00	Estilo de la juventud nueva
+Estilística da lingua galega	Sp00	Estilística da lingua galega
 Estimates of dietary exposure of Spanish population to packaging contaminants from cereal based foods contained in plastic materials	Sp00	Estimates of dietary exposure of Spanish population to packaging contaminants from cereal based foods contained in plastic materials
 Esto es lo que hay	Sp00	Esto es lo que hay
 Esto es normal	Sp00	Esto es normal
@@ -2153,6 +2206,7 @@ Evening land	Sp00	Evening land
 Everyhting but the Squeal	Sp00	Everyhting but the Squeal
 Everyone Should Think of Their Final Breath	Sp00	Everyone Should Think of Their Final Breath
 Everything happens to me	Sp00	Everything happens to me
+Evolución histórica da lingua galega nos últimos trinta anos, de 2020 a 2050. Antecedentes e causas da situación actual	Sp00	Evolución histórica da lingua galega nos últimos trinta anos, de 2020 a 2050. Antecedentes e causas da situación actual
 Evolution of dance	Sp00	Evolution of dance
 Evolutionary regime transitions in strutured populations	Sp00	Evolutionary regime transitions in strutured populations
 Evolutión de la estructure agraire dans la campagne de Neubourg	Sp00	Evolutión de la estructure agraire dans la campagne de Neubourg
@@ -2204,6 +2258,8 @@ Feliz idade	Sp00	Feliz idade
 Feminicide: The politics of woman killing	Sp00	Feminicide: The politics of woman killing
 Feminicido. El asesinato de mujeres por ser mujeres	Sp00	Feminicido. El asesinato de mujeres por ser mujeres
 Feminismo para principiantes	Sp00	Feminismo para principiantes
+Fendas abertas. Seis ensaios sobre a cuestión nacional	Sp00	Fendas abertas. Seis ensaios sobre a cuestión nacional
+Fendas na caverna	Sp00	Fendas na caverna
 Fentos no mar	Sp00	Fentos no mar
 Fernando Alsina e o seu Diario de guerra	Sp00	Fernando Alsina e o seu Diario de guerra
 Fernando Pereira, gravado en pedra	Sp00	Fernando Pereira, gravado en pedra
@@ -2220,6 +2276,7 @@ Ficcioness para una autobiografía	Sp00	Ficcioness para una autobiografía
 Fiestas Minervales y aclamacion perpetua de las Musas á la inmortal memoria de el Ilustrissimo y Excelentissimo Señor D. Alonso de Fonseca, no que se conteñen nove romances en galego	Sp00	Fiestas Minervales y aclamacion perpetua de las Musas á la inmortal memoria de el Ilustrissimo y Excelentissimo Señor D. Alonso de Fonseca, no que se conteñen nove romances en galego
 Figuras de finitude	Sp00	Figuras de finitude
 Figuras do limiar	Sp00	Figuras do limiar
+Figuras masculinas a meio-corpo	Sp00	Figuras masculinas a meio-corpo
 Filhas do lume	Sp00	Filhas do lume
 Fin de un milenio. Antología de la poesía gallega última	Sp00	Fin de un milenio. Antología de la poesía gallega última
 Fisuras na vitrinas	Sp00	Fisuras na vitrinas
@@ -2241,6 +2298,7 @@ Foliada... por ir á festa ás Pereiras	Sp00	Foliada... por ir á festa ás Pere
 Folla do luns	Sp00	Folla do luns
 Follas Novas	Sp00	Follas Novas
 Follas Novas 7, Manuel Murguía	Sp00	Follas Novas 7, Manuel Murguía
+Follas Novas. Revista de Estudos Rosalianos	Sp00	Follas Novas. Revista de Estudos Rosalianos
 Follas novas	Sp00	Follas novas
 Follas soltas	Sp00	Follas soltas
 Fonte envolvida	Sp00	Fonte envolvida
@@ -2249,6 +2307,7 @@ Formas breves	Sp00	Formas breves
 Formazioni comunista armata	Sp00	Formazioni comunista armata
 Formigas nos pés	Sp00	Formigas nos pés
 Forza para avanzar	Sp00	Forza para avanzar
+Fotobiografía sonora de Álvaro Cunqueiro	Sp00	Fotobiografía sonora de Álvaro Cunqueiro
 Fotógrafa detida polo atentado incendiario na estación do Castro	Sp00	Fotógrafa detida polo atentado incendiario na estación do Castro
 Fragments to dominate the silence	Sp00	Fragments to dominate the silence
 Francine se desarregla	Sp00	Francine se desarregla
@@ -2264,6 +2323,8 @@ Fred Quincalla, o nómade do mar	Sp00	Fred Quincalla, o nómade do mar
 Fred Quincalla, o nómade do mar (Unha historia de Leopolda Diéguez)	Sp00	Fred Quincalla, o nómade do mar (Unha historia de Leopolda Diéguez)
 Frente de Madrid/Carmen fra i rossi	Sp00	Frente de Madrid/Carmen fra i rossi
 Friso das feridas	Sp00	Friso das feridas
+From Global Lusophonia to Holistic Galegophonia, and viceversa	Sp00	From Global Lusophonia to Holistic Galegophonia, and viceversa
+From new and traditional speakers to laughspeakers: a holistic approach	Sp00	From new and traditional speakers to laughspeakers: a holistic approach
 Frágil equilibrio	Sp00	Frágil equilibrio
 Fu-fu and soup	Sp00	Fu-fu and soup
 Fuera de clase	Sp00	Fuera de clase
@@ -2279,6 +2340,7 @@ Funeral pola raíña Margarida	Sp00	Funeral pola raíña Margarida
 Fury over Spain	Sp00	Fury over Spain
 Fusiles y claveles	Sp00	Fusiles y claveles
 Futuro condicional	Sp00	Futuro condicional
+Futuro e presente das nosas rías	Sp00	Futuro e presente das nosas rías
 Fuxidos. Memorias de un republicano gallego perseguido por el franquismo	Sp00	Fuxidos. Memorias de un republicano gallego perseguido por el franquismo
 Fábrica íntima	Sp00	Fábrica íntima
 Fábulas contadas	Sp00	Fábulas contadas
@@ -2342,6 +2404,7 @@ Gallaecia regnum	Sp00	Gallaecia regnum
 Gallaecia, Regnum, descripta a F. Fer. Ojea Ord. Praed. et postmodum multis in locis emendata et aucta	Sp00	Gallaecia, Regnum, descripta a F. Fer. Ojea Ord. Praed. et postmodum multis in locis emendata et aucta
 Gallegos de mierda	Sp00	Gallegos de mierda
 Galleguismos de Colón	Sp00	Galleguismos de Colón
+Galván en Saor	Sp00	Galván en Saor
 Garabato e Tinta	Sp00	Garabato e Tinta
 Garabato e tinta	Sp00	Garabato e tinta
 Garde cette fleur	Sp00	Garde cette fleur
@@ -2349,10 +2412,12 @@ Gary Coooper que estás en los cielos	Sp00	Gary Coooper que estás en los cielos
 Gaza mon amour	Sp00	Gaza mon amour
 Geissel der Welt	Sp00	Geissel der Welt
 Generación docentes	Sp00	Generación docentes
+Generosas y fuertes	Sp00	Generosas y fuertes
 Genie in a bottle	Sp00	Genie in a bottle
 Gente hablando	Sp00	Gente hablando
 Gentlemen prefer blondes	Sp00	Gentlemen prefer blondes
 Geografía del Reino de Galicia	Sp00	Geografía del Reino de Galicia
+Geográfico-Estadístico-Histórico de España y sus posesiones de Ultramar	Sp00	Geográfico-Estadístico-Histórico de España y sus posesiones de Ultramar
 George Steiner en The New Yorker	Sp00	George Steiner en The New Yorker
 Georgi e as bolboretas	Sp00	Georgi e as bolboretas
 Gesammelte Aufsätze zur religionssoziologie	Sp00	Gesammelte Aufsätze zur religionssoziologie
@@ -2368,7 +2433,11 @@ Go let it out	Sp00	Go let it out
 God save the Queen	Sp00	God save the Queen
 Gonzalo González y González. Benefactor de la ciudad de Betanzos	Sp00	Gonzalo González y González. Benefactor de la ciudad de Betanzos
 Good night London	Sp00	Good night London
+Gramática da Lingua Galega	Sp00	Gramática da Lingua Galega
+Gramática da Real Academia Galega	Sp00	Gramática da Real Academia Galega
 Gramática elemental del gallego común	Sp00	Gramática elemental del gallego común
+Gramática galega	Sp00	Gramática galega
+Gran Dicionario Xerais da Lingua	Sp00	Gran Dicionario Xerais da Lingua
 Gran Walz fantástico	Sp00	Gran Walz fantástico
 Gran canción dos peregrinos de Santiago	Sp00	Gran canción dos peregrinos de Santiago
 Gran cantidade de simboloxía franquista permanece aínda intacta	Sp00	Gran cantidade de simboloxía franquista permanece aínda intacta
@@ -2379,6 +2448,7 @@ Grandi non immerito	Sp00	Grandi non immerito
 Grapefuit book	Sp00	Grapefuit book
 Grazas, rexeitamos a violencia de xénero	Sp00	Grazas, rexeitamos a violencia de xénero
 Green Hills of Africa	Sp00	Green Hills of Africa
+Grial. Revista galega de cultura	Sp00	Grial. Revista galega de cultura
 Grito nocturno	Sp00	Grito nocturno
 Gritos en la noche	Sp00	Gritos en la noche
 Gru, mi villano favorito	Sp00	Gru, mi villano favorito
@@ -2395,6 +2465,7 @@ Guerras xustas e inxustas	Sp00	Guerras xustas e inxustas
 Guitarras y bandurrias	Sp00	Guitarras y bandurrias
 Guncina González volens ire Iherusalem	Sp00	Guncina González volens ire Iherusalem
 Gure hezkuntza sistema propioa eraiki dezagun	Sp00	Gure hezkuntza sistema propioa eraiki dezagun
+Guía ABE. Infeccións en Pediatría. Guía rápida para a selección do tratamento antimicrobiano empírico	Sp00	Guía ABE. Infeccións en Pediatría. Guía rápida para a selección do tratamento antimicrobiano empírico
 Guía das aves de Galicia	Sp00	Guía das aves de Galicia
 Guía de fuentes sobre el Camino de Santiago, existentes en el Archivo Histórico del Reino de Galicia	Sp00	Guía de fuentes sobre el Camino de Santiago, existentes en el Archivo Histórico del Reino de Galicia
 Guía de la posmodernidad	Sp00	Guía de la posmodernidad
@@ -2464,6 +2535,7 @@ Historia da literatura galega contemporánea	Sp00	Historia da literatura galega 
 Historia das crenzas e das ideas relixiosas	Sp00	Historia das crenzas e das ideas relixiosas
 Historia das historias de Galicia	Sp00	Historia das historias de Galicia
 Historia das letras	Sp00	Historia das letras
+Historia das nosas mulleres	Sp00	Historia das nosas mulleres
 Historia de España contada para escépticos	Sp00	Historia de España contada para escépticos
 Historia de Galicia ilustrada	Sp00	Historia de Galicia ilustrada
 Historia de Santiago de Compostela.	Sp00	Historia de Santiago de Compostela.
@@ -2550,6 +2622,7 @@ I Say A Little Prayer	Sp00	I Say A Little Prayer
 I fall in love too easily	Sp00	I fall in love too easily
 I fought the law	Sp00	I fought the law
 I wanna dance with somebody	Sp00	I wanna dance with somebody
+I want to be an architect	Sp00	I want to be an architect
 I want your sex	Sp00	I want your sex
 I will die	Sp00	I will die
 I you'd love me someday	Sp00	I you'd love me someday
@@ -2569,6 +2642,7 @@ Iconografía sacra e profana non Concello de Silleda	Sp00	Iconografía sacra e p
 Id you'd love me someday	Sp00	Id you'd love me someday
 Ideas de un hombre de la calle	Sp00	Ideas de un hombre de la calle
 Ideoloxía e distorsión	Sp00	Ideoloxía e distorsión
+Idioma e sociedade. Sobre normalización e planificación da lingua galega	Sp00	Idioma e sociedade. Sobre normalización e planificación da lingua galega
 If you'd love me someday	Sp00	If you'd love me someday
 Igualdade de xénero no eido dixital, ciberacoso, violencia de xénero e micromachismos	Sp00	Igualdade de xénero no eido dixital, ciberacoso, violencia de xénero e micromachismos
 Il ballo dei gobbi	Sp00	Il ballo dei gobbi
@@ -2603,6 +2677,7 @@ Infanticidio, Aborto, artigos 336 ao 340 do Código Penal	Sp00	Infanticidio, Abo
 Infiltrados na universidade	Sp00	Infiltrados na universidade
 Influencias de la emigración al Brasil en tierras de Galicia	Sp00	Influencias de la emigración al Brasil en tierras de Galicia
 Infoempleo Adecco 2021: Oferta e demanda de emprego en España	Sp00	Infoempleo Adecco 2021: Oferta e demanda de emprego en España
+Informe -dramático- sobre la lengua gallega	Sp00	Informe -dramático- sobre la lengua gallega
 "Informe 2010 de Amnistía Internacional: ""El estado de los derechos humanos en el mundo"""	Sp00	"Informe 2010 de Amnistía Internacional: ""El estado de los derechos humanos en el mundo"""
 Informe anual de indicadores 2022	Sp00	Informe anual de indicadores 2022
 Informe de actuacións de prevención, evitación e/ou reparación	Sp00	Informe de actuacións de prevención, evitación e/ou reparación
@@ -2617,6 +2692,7 @@ Informe sobre a estrutura da carreira xudicial	Sp00	Informe sobre a estrutura da
 Informe sobre a información	Sp00	Informe sobre a información
 Informe sobre o proxecto para a implantación dunha industria de fibra téxtil a base de celulosa e as súas infraestruturas asociadas	Sp00	Informe sobre o proxecto para a implantación dunha industria de fibra téxtil a base de celulosa e as súas infraestruturas asociadas
 Informe sobre un delicado conflito: la homosexualidad	Sp00	Informe sobre un delicado conflito: la homosexualidad
+Informe(s) sobre a lingua galega	Sp00	Informe(s) sobre a lingua galega
 Iniciación a la filosofía para los no filósofos	Sp00	Iniciación a la filosofía para los no filósofos
 Iniciación a la industria musical	Sp00	Iniciación a la industria musical
 Iniciativa Queremos audiovisual en galego	Sp00	Iniciativa Queremos audiovisual en galego
@@ -2632,7 +2708,9 @@ Instinto básico	Sp00	Instinto básico
 Instituciones y poder local en el Nuevo Estado	Sp00	Instituciones y poder local en el Nuevo Estado
 Instrucciones para salvar el mundo	Sp00	Instrucciones para salvar el mundo
 Instrucións para parecer galego I	Sp00	Instrucións para parecer galego I
+Instrucións para tomar café	Sp00	Instrucións para tomar café
 Integraciones diferenciadas: migraciones en Cataluña, Galicia e Andalucía	Sp00	Integraciones diferenciadas: migraciones en Cataluña, Galicia e Andalucía
+Intelectuais marxistas e militantes comunistas en Galicia (1926-2006)	Sp00	Intelectuais marxistas e militantes comunistas en Galicia (1926-2006)
 Intelixencia Artificial: o noso último invento	Sp00	Intelixencia Artificial: o noso último invento
 Intelixencia emocional	Sp00	Intelixencia emocional
 Intento de entender unha aldea de Galicia	Sp00	Intento de entender unha aldea de Galicia
@@ -2887,6 +2965,7 @@ La la land	Sp00	La la land
 La lengua	Sp00	La lengua
 La lengua de Colón	Sp00	La lengua de Colón
 La lengua de Cristóbal Colón	Sp00	La lengua de Cristóbal Colón
+La lengua oculta	Sp00	La lengua oculta
 La lentitud	Sp00	La lentitud
 La levadura	Sp00	La levadura
 La leyenda del beso	Sp00	La leyenda del beso
@@ -2968,6 +3047,7 @@ La que se avecina	Sp00	La que se avecina
 La rabia	Sp00	La rabia
 La racionalidad del misterio de la creación y su necesidad deducida de la insuficiencia del materialismo para explicar el origen y la naturaleza de los seres	Sp00	La racionalidad del misterio de la creación y su necesidad deducida de la insuficiencia del materialismo para explicar el origen y la naturaleza de los seres
 La radicalidad del amor	Sp00	La radicalidad del amor
+La rana viajera	Sp00	La rana viajera
 La rebeldía sexual de la juventud	Sp00	La rebeldía sexual de la juventud
 La rebelión de las masas	Sp00	La rebelión de las masas
 La redención de las provincias	Sp00	La redención de las provincias
@@ -3041,6 +3121,7 @@ Land of a thousand dances	Sp00	Land of a thousand dances
 Landschaft in der Provence	Sp00	Landschaft in der Provence
 Lar de cinzas	Sp00	Lar de cinzas
 Larger than life	Sp00	Larger than life
+Las Españas vencidas del siglo XVIII	Sp00	Las Españas vencidas del siglo XVIII
 Las Leyes de desarrollo básico de los Estatutos de Autonomía	Sp00	Las Leyes de desarrollo básico de los Estatutos de Autonomía
 Las Románticas. Women writers and subjectivity in Spain	Sp00	Las Románticas. Women writers and subjectivity in Spain
 Las actitudes sociales ante el Golpe. La 'intermediación' a través del caso de Bueu (Pontevedra)	Sp00	Las actitudes sociales ante el Golpe. La 'intermediación' a través del caso de Bueu (Pontevedra)
@@ -3216,8 +3297,11 @@ Limits to Growth	Sp00	Limits to Growth
 Limpeza creativa. Produtos de limpeza e cosméticos naturais feitos por ti	Sp00	Limpeza creativa. Produtos de limpeza e cosméticos naturais feitos por ti
 Limpezas ecolóxicas na Coruña. Praias e ríos sen plásticos	Sp00	Limpezas ecolóxicas na Coruña. Praias e ríos sen plásticos
 Linda and Freddy, ilusionistas	Sp00	Linda and Freddy, ilusionistas
+Lingua de calidade	Sp00	Lingua de calidade
 Lingua e identidade na fronteira galego-portuguesa	Sp00	Lingua e identidade na fronteira galego-portuguesa
+Lingua galega: normalidade e conflito	Sp00	Lingua galega: normalidade e conflito
 Lingua proletaria do meu pobo	Sp00	Lingua proletaria do meu pobo
+Lingua, nación e identidade	Sp00	Lingua, nación e identidade
 Linguae navarrorun museum	Sp00	Linguae navarrorun museum
 Linguas que se iluminan mutuamente	Sp00	Linguas que se iluminan mutuamente
 Lingüística de corpus	Sp00	Lingüística de corpus
@@ -3373,6 +3457,7 @@ Luva negra, luva branca	Sp00	Luva negra, luva branca
 Luz de gas	Sp00	Luz de gas
 Luz extinta	Sp00	Luz extinta
 Luz, oscuridad, luz	Sp00	Luz, oscuridad, luz
+Luís Pimentel: biografía da súa poesía	Sp00	Luís Pimentel: biografía da súa poesía
 Lágrimas en la lluvia	Sp00	Lágrimas en la lluvia
 Léxico. Terra, plantas e árbores	Sp00	Léxico. Terra, plantas e árbores
 Límites, Corpo Colectivo Transfronteirizo	Sp00	Límites, Corpo Colectivo Transfronteirizo
@@ -3403,6 +3488,7 @@ Manifesto comunista	Sp00	Manifesto comunista
 "Manifesto de oposición a unha macro-celulosa en Galicia (""Altri non"") desde a comunidade científica"	Sp00	"Manifesto de oposición a unha macro-celulosa en Galicia (""Altri non"") desde a comunidade científica"
 Manifesto para cyborgs	Sp00	Manifesto para cyborgs
 Manifesto por un novo teatro	Sp00	Manifesto por un novo teatro
+Manifiesto por una lengua común	Sp00	Manifiesto por una lengua común
 Mano Negra en Colombia. Un tren de hielo y fuego	Sp00	Mano Negra en Colombia. Un tren de hielo y fuego
 Manolo y Benito corporeision	Sp00	Manolo y Benito corporeision
 Manos a la obra	Sp00	Manos a la obra
@@ -3418,6 +3504,7 @@ Manuel Murguía: o patriarca	Sp00	Manuel Murguía: o patriarca
 Manuel complet des fabrican de chapeaux en tous genres	Sp00	Manuel complet des fabrican de chapeaux en tous genres
 Manuel d'Archéologie préhistorique, celtique et galo-romain	Sp00	Manuel d'Archéologie préhistorique, celtique et galo-romain
 Manuel de la Cuesta	Sp00	Manuel de la Cuesta
+Manuscritos matemáticos	Sp00	Manuscritos matemáticos
 Manías y melomanías, mismamente	Sp00	Manías y melomanías, mismamente
 Mapa crítico da Galiza	Sp00	Mapa crítico da Galiza
 Mapa da tenrura	Sp00	Mapa da tenrura
@@ -3443,6 +3530,7 @@ Margot Sponer. Do galego antigo ás fronteiras da resistencia	Sp00	Margot Sponer
 Maribolhèras precárias	Sp00	Maribolhèras precárias
 Martes de entroido	Sp00	Martes de entroido
 Marxes e centros. Para unha socioloxía do campo cultural	Sp00	Marxes e centros. Para unha socioloxía do campo cultural
+Marxes e mapas	Sp00	Marxes e mapas
 María Casares, a muller que viviu mil vidas	Sp00	María Casares, a muller que viviu mil vidas
 María Francisca de Isla y Losada (1734 ?1808). Una conexión literaria en la Compostela de la Ilustración	Sp00	María Francisca de Isla y Losada (1734 ?1808). Una conexión literaria en la Compostela de la Ilustración
 María bonita	Sp00	María bonita
@@ -3457,6 +3545,7 @@ Mataron al chivo	Sp00	Mataron al chivo
 Matarte lentamente	Sp00	Matarte lentamente
 Matemática aplicada e bioinformática	Sp00	Matemática aplicada e bioinformática
 Matemática es nombre de mujer	Sp00	Matemática es nombre de mujer
+Matemáticas: placer, poder, a veces dolor	Sp00	Matemáticas: placer, poder, a veces dolor
 Materia médica y tratamientos crenoterápicos. 	Sp00	Materia médica y tratamientos crenoterápicos. 
 Materiais para un arquivo da cultura submarina	Sp00	Materiais para un arquivo da cultura submarina
 Matrix reloaded	Sp00	Matrix reloaded
@@ -3469,6 +3558,7 @@ Medición de deformacións de fuselaxes de aeronaves empregando sistemas de esca
 Medidas de prevención, hixiene e promoción da saúde fronte a COVID-19 para centros universitarios no curso 2020-2021	Sp00	Medidas de prevención, hixiene e promoción da saúde fronte a COVID-19 para centros universitarios no curso 2020-2021
 Medidas de seguridade	Sp00	Medidas de seguridade
 Medo político e control social na retagarda franquista	Sp00	Medo político e control social na retagarda franquista
+Medra a lua	Sp00	Medra a lua
 Meigas dentro!	Sp00	Meigas dentro!
 Mellora do parque etnográfico	Sp00	Mellora do parque etnográfico
 Mellora xenética da resistencia e mecanismos de defensa do millo fronte a factores bióticos	Sp00	Mellora xenética da resistencia e mecanismos de defensa do millo fronte a factores bióticos
@@ -3507,6 +3597,7 @@ Mentira a quanto obrigas	Sp00	Mentira a quanto obrigas
 Mentres Nova York durme	Sp00	Mentres Nova York durme
 Mentres agonizo	Sp00	Mentres agonizo
 Menu do día	Sp00	Menu do día
+Menú de enganos	Sp00	Menú de enganos
 Mercado de Caranza, Plan de urbanismo, muralla del Parque y sumario de Yolanda González, temas del Pleno de mañana	Sp00	Mercado de Caranza, Plan de urbanismo, muralla del Parque y sumario de Yolanda González, temas del Pleno de mañana
 Mercedes mais eu	Sp00	Mercedes mais eu
 Merendas teatrais	Sp00	Merendas teatrais
@@ -3515,6 +3606,7 @@ Mesa de trabajo sobre organización de archivos municipales. Archivos municipale
 Mestras e mestres pontevedreses depurados polo franquismo. Primeiras accións represivas e estudo por concellos no sur da provincia (1936-1942)	Sp00	Mestras e mestres pontevedreses depurados polo franquismo. Primeiras accións represivas e estudo por concellos no sur da provincia (1936-1942)
 Metabolitos secundarios en Brassicaceae: implicacións na mellora xenética e resistencia vexetal de brassicas hortícolas	Sp00	Metabolitos secundarios en Brassicaceae: implicacións na mellora xenética e resistencia vexetal de brassicas hortícolas
 Metafísica da ausencia	Sp00	Metafísica da ausencia
+Metamodelos e modelos	Sp00	Metamodelos e modelos
 Metodologías cualitativas en ciencias sociales	Sp00	Metodologías cualitativas en ciencias sociales
 Metrological comparison of Lidar and photogrammetric systems for deformation monitoring of aerospace parts	Sp00	Metrological comparison of Lidar and photogrammetric systems for deformation monitoring of aerospace parts
 Metáfora da metáfora	Sp00	Metáfora da metáfora
@@ -3564,6 +3656,7 @@ Mondariz-Vigo-Santiago. A brief history of Galicia's Edwardian tourist boom	Sp00
 Mondo cane	Sp00	Mondo cane
 Money for nothing	Sp00	Money for nothing
 Monitorización de variantes do SARS-CoV-2 en augas residuais da Coruña: CovidBens	Sp00	Monitorización de variantes do SARS-CoV-2 en augas residuais da Coruña: CovidBens
+Monte de rei	Sp00	Monte de rei
 Monólogo do calígrafo	Sp00	Monólogo do calígrafo
 Moonlight serenade	Sp00	Moonlight serenade
 Morderse la lengua. Corrección política y posverdad	Sp00	Morderse la lengua. Corrección política y posverdad
@@ -3649,6 +3742,7 @@ Música no ar	Sp00	Música no ar
 Música reservada	Sp00	Música reservada
 N'hai millor vida qu'a do labrego	Sp00	N'hai millor vida qu'a do labrego
 Na Biblioteca de Galicia lese poesía	Sp00	Na Biblioteca de Galicia lese poesía
+Na Brétema Sant-Iago	Sp00	Na Brétema Sant-Iago
 Na Universidade... onde queiras, pero coa lingua	Sp00	Na Universidade... onde queiras, pero coa lingua
 Na canella infinita	Sp00	Na canella infinita
 Na cela	Sp00	Na cela
@@ -3710,6 +3804,7 @@ Nikatse nkwa	Sp00	Nikatse nkwa
 Nin barco nin ostias	Sp00	Nin barco nin ostias
 Nin me abandonarás nunca	Sp00	Nin me abandonarás nunca
 Ninfa atacada por un alacrán	Sp00	Ninfa atacada por un alacrán
+Ninguén dorme	Sp00	Ninguén dorme
 Ninguén queda	Sp00	Ninguén queda
 Ninguén vive aquí	Sp00	Ninguén vive aquí
 Ningún cisne	Sp00	Ningún cisne
@@ -3746,6 +3841,7 @@ Noises in the blood	Sp00	Noises in the blood
 Noite compostelá	Sp00	Noite compostelá
 Noite de San Daniel	Sp00	Noite de San Daniel
 Noite de reis	Sp00	Noite de reis
+Noite de temporal	Sp00	Noite de temporal
 Noite e néboa	Sp00	Noite e néboa
 Nom estamos quedrades	Sp00	Nom estamos quedrades
 Nomes diferentes, mesmas oportunidades	Sp00	Nomes diferentes, mesmas oportunidades
@@ -3785,9 +3881,11 @@ Nos dieron las diez	Sp00	Nos dieron las diez
 Nos dominios da urxencia. Arte e sociedade na Coruña da Transición (1973-1986)	Sp00	Nos dominios da urxencia. Arte e sociedade na Coruña da Transición (1973-1986)
 Nos días encantados de agosto. Unha biografía de José Gil	Sp00	Nos días encantados de agosto. Unha biografía de José Gil
 Nos quedamos. Arqueología en la Sierra de Ávila	Sp00	Nos quedamos. Arqueología en la Sierra de Ávila
+Nos-outras. Pintoras, poetas e orgullo de ser muller	Sp00	Nos-outras. Pintoras, poetas e orgullo de ser muller
 Noso ideal ardente	Sp00	Noso ideal ardente
 Nostalxia do absoluto	Sp00	Nostalxia do absoluto
 Notación gráfica na música contemporánea	Sp00	Notación gráfica na música contemporánea
+Notas para una antropología del hombre gallego	Sp00	Notas para una antropología del hombre gallego
 Notas para una geografía botánica de Galicia	Sp00	Notas para una geografía botánica de Galicia
 Notas sobre a habilitade na Barca	Sp00	Notas sobre a habilitade na Barca
 Notas sobre a violencia	Sp00	Notas sobre a violencia
@@ -3858,6 +3956,7 @@ O Traxe popular galego	Sp00	O Traxe popular galego
 O Tío Marcos d'a Portela	Sp00	O Tío Marcos d'a Portela
 O abecedario	Sp00	O abecedario
 O abrigo	Sp00	O abrigo
+O achado do castro	Sp00	O achado do castro
 O acto do día 30 de outono en Tui	Sp00	O acto do día 30 de outono en Tui
 O acto fotográfico. Da Representación á Recepción	Sp00	O acto fotográfico. Da Representación á Recepción
 O afundimento	Sp00	O afundimento
@@ -3912,11 +4011,13 @@ O capital	Sp00	O capital
 O capital como talismán	Sp00	O capital como talismán
 O carro triunfal do antimonio	Sp00	O carro triunfal do antimonio
 O caso Wagner	Sp00	O caso Wagner
+O caso das lavandeiras	Sp00	O caso das lavandeiras
 O caso de Horacio Silveira	Sp00	O caso de Horacio Silveira
 O castelo da carta cifrada	Sp00	O castelo da carta cifrada
 O castelo de Pambre	Sp00	O castelo de Pambre
 O castro de Soutolongo (Lalín)	Sp00	O castro de Soutolongo (Lalín)
 O centro do labirinto	Sp00	O centro do labirinto
+O cervo na torre	Sp00	O cervo na torre
 O charco de Ulises	Sp00	O charco de Ulises
 O choque das barbaries	Sp00	O choque das barbaries
 O ciclo da serpe	Sp00	O ciclo da serpe
@@ -3925,6 +4026,7 @@ O cidadán no mes	Sp00	O cidadán no mes
 O cinema do 25 de Abril	Sp00	O cinema do 25 de Abril
 O cinema e os cines en Santiago	Sp00	O cinema e os cines en Santiago
 O circo das pulgas	Sp00	O circo das pulgas
+O clamor da rebeldía. Rosalía de Castro: ensaio e feminismo	Sp00	O clamor da rebeldía. Rosalía de Castro: ensaio e feminismo
 O clan dos impostores	Sp00	O clan dos impostores
 O club da calceta	Sp00	O club da calceta
 O club da loita	Sp00	O club da loita
@@ -3961,6 +4063,7 @@ O demo no corpo	Sp00	O demo no corpo
 O derradeiro dos mohicanos	Sp00	O derradeiro dos mohicanos
 O derradeiro libro de Emma Olsen	Sp00	O derradeiro libro de Emma Olsen
 O derradeiro libro de Emmma Olsen	Sp00	O derradeiro libro de Emmma Olsen
+O desastre de Annual	Sp00	O desastre de Annual
 O descoñecido	Sp00	O descoñecido
 O deserto	Sp00	O deserto
 O devalar da idea	Sp00	O devalar da idea
@@ -4038,17 +4141,20 @@ O home que falaba Vegliota	Sp00	O home que falaba Vegliota
 O home que matou a Antía Morgade	Sp00	O home que matou a Antía Morgade
 O home que matou a Don Quixote	Sp00	O home que matou a Don Quixote
 O home que puido reinar	Sp00	O home que puido reinar
+O home sen calidades	Sp00	O home sen calidades
 O home tranquilo	Sp00	O home tranquilo
 O home: os dualismos mentalista e ambientalista e o adualismo materialista	Sp00	O home: os dualismos mentalista e ambientalista e o adualismo materialista
 O homem do caminho	Sp00	O homem do caminho
 O humor en cadriños	Sp00	O humor en cadriños
 O hábitat xogábel	Sp00	O hábitat xogábel
+O idioma dos animás	Sp00	O idioma dos animás
 O idioma galego na nosa vida e na nosa cultura	Sp00	O idioma galego na nosa vida e na nosa cultura
 O idiota	Sp00	O idiota
 O imaxinario galego ao poder. Os once carteis do Estatuto de Galicia (1936)	Sp00	O imaxinario galego ao poder. Os once carteis do Estatuto de Galicia (1936)
 O impacto da crise nas cidades galegas: o reaxuste do tecido produtivo	Sp00	O impacto da crise nas cidades galegas: o reaxuste do tecido produtivo
 O impacto de Facebook no marketing	Sp00	O impacto de Facebook no marketing
 O incerto señor Don Hamlet	Sp00	O incerto señor Don Hamlet
+O incerto señor don Hamlet, príncipe de Dinamarca	Sp00	O incerto señor don Hamlet, príncipe de Dinamarca
 O infinito nun xunco	Sp00	O infinito nun xunco
 O informe do Ministerio de Facenda sobre a distribución territorial do investimento do sector público de 2021	Sp00	O informe do Ministerio de Facenda sobre a distribución territorial do investimento do sector público de 2021
 O infortunio da soidade	Sp00	O infortunio da soidade
@@ -4056,6 +4162,7 @@ O inicio do procedemento forense informático: adquisición de evidencias en PC,
 O inimigo coñece o sistema	Sp00	O inimigo coñece o sistema
 O inimigo público mundial número 1	Sp00	O inimigo público mundial número 1
 O innomeábel	Sp00	O innomeábel
+O insigne aviador Piñeiro	Sp00	O insigne aviador Piñeiro
 O intercambio das mulleres	Sp00	O intercambio das mulleres
 O inverno das almas desterradas	Sp00	O inverno das almas desterradas
 O inverno do lobo	Sp00	O inverno do lobo
@@ -4063,6 +4170,7 @@ O lago dos cisnes	Sp00	O lago dos cisnes
 O lapis do carpinteiro	Sp00	O lapis do carpinteiro
 O lar de Clara	Sp00	O lar de Clara
 O latexo da vida e da conciencia	Sp00	O latexo da vida e da conciencia
+O libro O exilio galego: un mapa de cicatrices	Sp00	O libro O exilio galego: un mapa de cicatrices
 O libro da risa e o esquecemento	Sp00	O libro da risa e o esquecemento
 O libro das viaxes imaxinarias	Sp00	O libro das viaxes imaxinarias
 O libro dos abanos (Palabras no aire)	Sp00	O libro dos abanos (Palabras no aire)
@@ -4086,6 +4194,7 @@ O medo é libre. Os mecanismos do medo na literatura de tradición oral	Sp00	O m
 O mel non caduca	Sp00	O mel non caduca
 O mellor de cada casa	Sp00	O mellor de cada casa
 O merdeiro. Personaxe da ribeira	Sp00	O merdeiro. Personaxe da ribeira
+O mesón dos ermos	Sp00	O mesón dos ermos
 O meu mellor inimigo	Sp00	O meu mellor inimigo
 O meu nome é Ninguén	Sp00	O meu nome é Ninguén
 O meu nome, o meu mundo	Sp00	O meu nome, o meu mundo
@@ -4159,6 +4268,7 @@ O puño e a letra	Sp00	O puño e a letra
 O péndulo de Foucault	Sp00	O péndulo de Foucault
 O que arde	Sp00	O que arde
 O que custou o AVE a piques de rematar	Sp00	O que custou o AVE a piques de rematar
+O que cómpre saber da lingua galega	Sp00	O que cómpre saber da lingua galega
 O que fica fóra	Sp00	O que fica fóra
 O que fixemos en Galicia. Ensaio sobre o concepto de práctica xenocida	Sp00	O que fixemos en Galicia. Ensaio sobre o concepto de práctica xenocida
 O que me quedaba por dicirche	Sp00	O que me quedaba por dicirche
@@ -4176,6 +4286,7 @@ O rastro que deixamos	Sp00	O rastro que deixamos
 O ratiño presumido	Sp00	O ratiño presumido
 O reencontro dos galegos	Sp00	O reencontro dos galegos
 O refuxio	Sp00	O refuxio
+O rei do aire	Sp00	O rei do aire
 O reino medieval de Galicia	Sp00	O reino medieval de Galicia
 O representante	Sp00	O representante
 O resplandor	Sp00	O resplandor
@@ -4192,6 +4303,7 @@ O samurai e a lúa	Sp00	O samurai e a lúa
 O sarcoma día a día	Sp00	O sarcoma día a día
 O sector pesqueiro galego e a eólica mariña. Un debate necesario.	Sp00	O sector pesqueiro galego e a eólica mariña. Un debate necesario.
 O segredo de Caaveiro	Sp00	O segredo de Caaveiro
+O segredo do humor	Sp00	O segredo do humor
 O segundo sexo	Sp00	O segundo sexo
 O selecto exterminio dos presos	Sp00	O selecto exterminio dos presos
 O sentido da ollada	Sp00	O sentido da ollada
@@ -4259,6 +4371,7 @@ O xardín dos deuses	Sp00	O xardín dos deuses
 O xardín secreto	Sp00	O xardín secreto
 O xastriño valente	Sp00	O xastriño valente
 O xeque	Sp00	O xeque
+O xerife das Guedellas	Sp00	O xerife das Guedellas
 O xogo das cadeiras	Sp00	O xogo das cadeiras
 O xogo de Escher	Sp00	O xogo de Escher
 O xogo serio	Sp00	O xogo serio
@@ -4287,6 +4400,7 @@ Oito días sen Eva Cortés	Sp00	Oito días sen Eva Cortés
 Oito mártires de Chicago	Sp00	Oito mártires de Chicago
 Oku non Hosomichi	Sp00	Oku non Hosomichi
 Oligarquía y caciquismo	Sp00	Oligarquía y caciquismo
+Ollada encol da lírica galega contemporánea	Sp00	Ollada encol da lírica galega contemporánea
 Olladas de muller	Sp00	Olladas de muller
 Olladas paralelas	Sp00	Olladas paralelas
 Ollo de vidro	Sp00	Ollo de vidro
@@ -4300,6 +4414,7 @@ Onde máis doe	Sp00	Onde máis doe
 Onde só queda alguén para aguantar dos nomes	Sp00	Onde só queda alguén para aguantar dos nomes
 One and Three Chairs	Sp00	One and Three Chairs
 Onomástica nacida da terra	Sp00	Onomástica nacida da terra
+Onomástico etimológico de la lengua gallega	Sp00	Onomástico etimológico de la lengua gallega
 Ons soa	Sp00	Ons soa
 Ophelia: As aparencias enganan	Sp00	Ophelia: As aparencias enganan
 Oportunidades de negocio fóra da Terra	Sp00	Oportunidades de negocio fóra da Terra
@@ -4348,6 +4463,7 @@ Os contos da leiteira	Sp00	Os contos da leiteira
 Os corenta e oito nomes do inimigo	Sp00	Os corenta e oito nomes do inimigo
 Os corredoiras	Sp00	Os corredoiras
 Os corsarios de Corcubión (séculos XVIII-XIX)	Sp00	Os corsarios de Corcubión (séculos XVIII-XIX)
+Os corvos, a figueira e a fouce de ouro	Sp00	Os corvos, a figueira e a fouce de ouro
 Os crimes da rúa Morgue	Sp00	Os crimes da rúa Morgue
 Os curtos	Sp00	Os curtos
 Os cárceres de Piranessi	Sp00	Os cárceres de Piranessi
@@ -4376,6 +4492,7 @@ Os labregos galegos diante da loita de liberación nacional	Sp00	Os labregos gal
 Os libros arden mal	Sp00	Os libros arden mal
 Os libros que hai en min	Sp00	Os libros que hai en min
 Os luns ao sol	Sp00	Os luns ao sol
+Os marcadores discursivos	Sp00	Os marcadores discursivos
 Os mil e un días	Sp00	Os mil e un días
 Os milagres de Cristamar	Sp00	Os milagres de Cristamar
 Os monifates	Sp00	Os monifates
@@ -4392,8 +4509,10 @@ Os outros Feirantes	Sp00	Os outros Feirantes
 Os outros feirantes	Sp00	Os outros feirantes
 Os papeis póstumos do club Pickwick	Sp00	Os papeis póstumos do club Pickwick
 Os peixes	Sp00	Os peixes
+Os piratas do aire	Sp00	Os piratas do aire
 Os poetas de Vigo cantan en homenaxe á súa cidade	Sp00	Os poetas de Vigo cantan en homenaxe á súa cidade
 Os poetas de Vigo con Galicia. Nunca Máis	Sp00	Os poetas de Vigo con Galicia. Nunca Máis
+Os poetas galegos e Franco	Sp00	Os poetas galegos e Franco
 Os precursores	Sp00	Os precursores
 Os primeiros días. Historia oral de Vigo, Betanzos, A Guarda, Ribeira, Seixalbo e Ourense	Sp00	Os primeiros días. Historia oral de Vigo, Betanzos, A Guarda, Ribeira, Seixalbo e Ourense
 Os principais sectores represores	Sp00	Os principais sectores represores
@@ -4408,6 +4527,7 @@ Os sentidos da palavra	Sp00	Os sentidos da palavra
 Os sentinelas da lúa carmesí	Sp00	Os sentinelas da lúa carmesí
 Os seres queridos	Sp00	Os seres queridos
 Os servizos técnicos para as artes escénicas profesionais na Galiza: diagnose, actualidade e retos de futuro	Sp00	Os servizos técnicos para as artes escénicas profesionais na Galiza: diagnose, actualidade e retos de futuro
+Os sons da lingua	Sp00	Os sons da lingua
 Os sons esquecidos	Sp00	Os sons esquecidos
 Os soños na gaiola	Sp00	Os soños na gaiola
 Os sublimes e máxicos cantores	Sp00	Os sublimes e máxicos cantores
@@ -4416,6 +4536,7 @@ Os séculos da lúa	Sp00	Os séculos da lúa
 Os sólidos platónicos de Nogueillón	Sp00	Os sólidos platónicos de Nogueillón
 Os teus dedos na miña braga con regra	Sp00	Os teus dedos na miña braga con regra
 Os trasnos da lanterna	Sp00	Os trasnos da lanterna
+Os trobadores de Occitania	Sp00	Os trobadores de Occitania
 Os tumbos	Sp00	Os tumbos
 Os vellos non deben de namorarse	Sp00	Os vellos non deben de namorarse
 Os versos da madeira	Sp00	Os versos da madeira
@@ -4484,6 +4605,7 @@ Pasos (Actividade física, sedentarismo e obesidade na mocidade española)	Sp00	
 Pastillas contra a dor allea	Sp00	Pastillas contra a dor allea
 Pastorale d'été	Sp00	Pastorale d'été
 Patito feo	Sp00	Patito feo
+Patria do mar	Sp00	Patria do mar
 Paus de cego	Sp00	Paus de cego
 Paxaros no cabo	Sp00	Paxaros no cabo
 Paxaros que cantan	Sp00	Paxaros que cantan
@@ -4500,6 +4622,7 @@ Pensar con orgullo 4	Sp00	Pensar con orgullo 4
 Pepe o inglés	Sp00	Pepe o inglés
 Pepper soup	Sp00	Pepper soup
 Pequena compañía de nenos enormes e Blues do País	Sp00	Pequena compañía de nenos enormes e Blues do País
+Pequeno Diccionario Xerais da lingua	Sp00	Pequeno Diccionario Xerais da lingua
 Pequeno azul e pequeno amarelo	Sp00	Pequeno azul e pequeno amarelo
 Pequeno entretemento con ar de marcha	Sp00	Pequeno entretemento con ar de marcha
 Pequenos Actos Pseudorrevolucionarios que non serven para cambiar o mundo pero fan que quedemos máis tranquilos	Sp00	Pequenos Actos Pseudorrevolucionarios que non serven para cambiar o mundo pero fan que quedemos máis tranquilos
@@ -4550,10 +4673,12 @@ Plan des travaux sciéntifiques necesaires pour reorganiser la société	Sp00	Pl
 Plan para a protección da saúde contra as pseudoterapias	Sp00	Plan para a protección da saúde contra as pseudoterapias
 Plan xeral de normalización da lingua galega	Sp00	Plan xeral de normalización da lingua galega
 Plan xeral de ordenación do territorio	Sp00	Plan xeral de ordenación do territorio
+Planificación estratéxica	Sp00	Planificación estratéxica
 Plataforma Casalonga limpa de residuos	Sp00	Plataforma Casalonga limpa de residuos
 Plataforma de afectados pola destilería de Contimunde	Sp00	Plataforma de afectados pola destilería de Contimunde
 Plataforma de afectados polo vertedoiro de Miramontes	Sp00	Plataforma de afectados polo vertedoiro de Miramontes
 Plataforma veciñal Mina Touro-O Pino Non	Sp00	Plataforma veciñal Mina Touro-O Pino Non
+Playas, ciudades y montañas	Sp00	Playas, ciudades y montañas
 Plurilingüismo: liberdade, igualdade e democracia	Sp00	Plurilingüismo: liberdade, igualdade e democracia
 Población y desarrollo económico en Galicia	Sp00	Población y desarrollo económico en Galicia
 Pode a tecnoloxía axudar a protexer os nosos dereitos e optimizar o funcionamento da Xustiza?	Sp00	Pode a tecnoloxía axudar a protexer os nosos dereitos e optimizar o funcionamento da Xustiza?
@@ -4562,8 +4687,10 @@ Poderes de la palabra	Sp00	Poderes de la palabra
 Poema de los dones	Sp00	Poema de los dones
 Poemas del verbo amar	Sp00	Poemas del verbo amar
 Poemas do carricanto	Sp00	Poemas do carricanto
+Poemas do si e non	Sp00	Poemas do si e non
 Poemas gallegos	Sp00	Poemas gallegos
 Poemas pendurados dun cabelo	Sp00	Poemas pendurados dun cabelo
+Poemas possíbeis	Sp00	Poemas possíbeis
 Poemas póstumos	Sp00	Poemas póstumos
 Poesia a la Barcelona dels anys 50	Sp00	Poesia a la Barcelona dels anys 50
 Poesía (materiais para montar unha escena de cama)	Sp00	Poesía (materiais para montar unha escena de cama)
@@ -4761,6 +4888,7 @@ Radiovoces del mundo	Sp00	Radiovoces del mundo
 Rafael Dieste. O libre pensamento	Sp00	Rafael Dieste. O libre pensamento
 Rainforest Alliance certified Cocoa	Sp00	Rainforest Alliance certified Cocoa
 Ramón Cabanillas, Cambados e o mar da Arousa	Sp00	Ramón Cabanillas, Cambados e o mar da Arousa
+Ramón Piñeiro ou a reinvención da cultura galega	Sp00	Ramón Piñeiro ou a reinvención da cultura galega
 Rant n' rave with the Stray Cats	Sp00	Rant n' rave with the Stray Cats
 Rapaciñ@s: a tecnoloxía ben segura	Sp00	Rapaciñ@s: a tecnoloxía ben segura
 Rapazinho de carvão	Sp00	Rapazinho de carvão
@@ -4774,6 +4902,7 @@ Raíces cristiás de Europa	Sp00	Raíces cristiás de Europa
 Ready for the floor	Sp00	Ready for the floor
 Real humans	Sp00	Real humans
 Realidade virtual, interacción natural e motores de videoxogo. Tendencias en visualización interactiva de arquitectura	Sp00	Realidade virtual, interacción natural e motores de videoxogo. Tendencias en visualización interactiva de arquitectura
+Realismo y conciencia crítica en la literatura gallega	Sp00	Realismo y conciencia crítica en la literatura gallega
 Rebel, rebel	Sp00	Rebel, rebel
 Rebeldía galega contra a inxustiza	Sp00	Rebeldía galega contra a inxustiza
 Reboiras, acción e corazón	Sp00	Reboiras, acción e corazón
@@ -4863,6 +4992,7 @@ Ritmos e visões	Sp00	Ritmos e visões
 Ritualista protectora, obxectos curativos e uso de amuletos na cultura popular galega	Sp00	Ritualista protectora, obxectos curativos e uso de amuletos na cultura popular galega
 Robin Hood, o magnífico	Sp00	Robin Hood, o magnífico
 Robin Hood, príncipe dos ladróns	Sp00	Robin Hood, príncipe dos ladróns
+Robur o conquistador	Sp00	Robur o conquistador
 Rock and roll star	Sp00	Rock and roll star
 Rockeando con Ramona Pequena	Sp00	Rockeando con Ramona Pequena
 Roi e os seus amigos	Sp00	Roi e os seus amigos
@@ -4903,6 +5033,7 @@ Sabela Domínguez é unha das intérpretes da obra.	Sp00	Sabela Domínguez é un
 Sabela e o paxaro máxico	Sp00	Sabela e o paxaro máxico
 Saber é positivo: 30 anos de colectivo gai en Compostela	Sp00	Saber é positivo: 30 anos de colectivo gai en Compostela
 Sabor de lo dulce	Sp00	Sabor de lo dulce
+Sacar a lingua é de mala educación	Sp00	Sacar a lingua é de mala educación
 Sad walk	Sp00	Sad walk
 Sae da túa terra. O apóstolo Santiago espérate	Sp00	Sae da túa terra. O apóstolo Santiago espérate
 Sagas empresariais de Santiago	Sp00	Sagas empresariais de Santiago
@@ -4925,6 +5056,7 @@ Save it for a rainy day	Sp00	Save it for a rainy day
 Saínza. A punkiereteira	Sp00	Saínza. A punkiereteira
 Se a miña biblioteca ardese esta noite	Sp00	Se a miña biblioteca ardese esta noite
 Se han cumplido todos los objetivos militares	Sp00	Se han cumplido todos los objetivos militares
+Se o vello Sinbad volvese ás illas	Sp00	Se o vello Sinbad volvese ás illas
 Se puides falar disto non faría isto	Sp00	Se puides falar disto non faría isto
 Se te trata mal, maltrátate. Podemos axudarte a superar o teu medo	Sp00	Se te trata mal, maltrátate. Podemos axudarte a superar o teu medo
 Se é fertimón é bon	Sp00	Se é fertimón é bon
@@ -5020,6 +5152,7 @@ Sobre a eternidade do mundo	Sp00	Sobre a eternidade do mundo
 Sobre a liberdade da intelixencia	Sp00	Sobre a liberdade da intelixencia
 Sobre a vida e a morte	Sp00	Sobre a vida e a morte
 Sobre as revolucións das esferas celestes	Sp00	Sobre as revolucións das esferas celestes
+Sobre casi nada	Sp00	Sobre casi nada
 Sobre la gran abducción neoliberal	Sp00	Sobre la gran abducción neoliberal
 Sobre la violencia	Sp00	Sobre la violencia
 Sobre la violencia: seis reflexiones marginales	Sp00	Sobre la violencia: seis reflexiones marginales
@@ -5194,6 +5327,7 @@ Teño unha peza no Museo do Pobo Galego	Sp00	Teño unha peza no Museo do Pobo Ga
 Teño uns pés perfectos	Sp00	Teño uns pés perfectos
 Thank you Next	Sp00	Thank you Next
 The Best Care Possible: A Physician's Quest to Transform Care Through the End of Life	Sp00	The Best Care Possible: A Physician's Quest to Transform Care Through the End of Life
+The Changing Mind: A Neuroscientist's Guide to Aging Well	Sp00	The Changing Mind: A Neuroscientist's Guide to Aging Well
 The Heroine's Text: Readings in the French and English Novel	Sp00	The Heroine's Text: Readings in the French and English Novel
 The Heroine's Text: Readings in the French and English Novel, 1722-1782	Sp00	The Heroine's Text: Readings in the French and English Novel, 1722-1782
 The Old Man and the Sea	Sp00	The Old Man and the Sea
@@ -5273,6 +5407,7 @@ Toys on Fire	Sp00	Toys on Fire
 Traballando pola mellora do patrimonio natural	Sp00	Traballando pola mellora do patrimonio natural
 Trafegando ronseis	Sp00	Trafegando ronseis
 Traficantes de sueños. Mapas	Sp00	Traficantes de sueños. Mapas
+Tragados por el abismo. La historieta de aventuras en España	Sp00	Tragados por el abismo. La historieta de aventuras en España
 Traité des poisons ou toxicologie générale	Sp00	Traité des poisons ou toxicologie générale
 Traité sur la tolérance	Sp00	Traité sur la tolérance
 Trajectos filosóficos	Sp00	Trajectos filosóficos
@@ -5308,6 +5443,7 @@ Tribulaciones de una chica decente	Sp00	Tribulaciones de una chica decente
 Tribuna de academia.gal	Sp00	Tribuna de academia.gal
 Trilogía federal	Sp00	Trilogía federal
 Tristecentos versos	Sp00	Tristecentos versos
+Tristeza en Barcelona	Sp00	Tristeza en Barcelona
 Triángulos rosas	Sp00	Triángulos rosas
 Troitas bravas	Sp00	Troitas bravas
 Trona, o merlo	Sp00	Trona, o merlo
@@ -5334,10 +5470,12 @@ Un animal chamado Néboa	Sp00	Un animal chamado Néboa
 Un animal chamado néboa	Sp00	Un animal chamado néboa
 Un ano e un día	Sp00	Un ano e un día
 Un ano pechados, Rescate xa!	Sp00	Un ano pechados, Rescate xa!
+Un año en el otro mundo	Sp00	Un año en el otro mundo
 Un barquito de cáscara de nuez	Sp00	Un barquito de cáscara de nuez
 Un beduíno no Caribe	Sp00	Un beduíno no Caribe
 Un bo final	Sp00	Un bo final
 Un bosque de música	Sp00	Un bosque de música
+Un capitán de quince anos	Sp00	Un capitán de quince anos
 Un certain regard	Sp00	Un certain regard
 Un cesto de mazás	Sp00	Un cesto de mazás
 Un chien andalou	Sp00	Un chien andalou
@@ -5359,6 +5497,7 @@ Un galleguismo de Colón	Sp00	Un galleguismo de Colón
 Un grupo de socios de O Galo de Santiago manifestan su desacuerdo con el homenaje a Castelao	Sp00	Un grupo de socios de O Galo de Santiago manifestan su desacuerdo con el homenaje a Castelao
 Un heroe	Sp00	Un heroe
 Un heroe do pobo	Sp00	Un heroe do pobo
+Un hombre que se parecía a Orestes	Sp00	Un hombre que se parecía a Orestes
 Un home e unha muller	Sp00	Un home e unha muller
 Un home estraño	Sp00	Un home estraño
 Un libro definidor	Sp00	Un libro definidor
@@ -5421,6 +5560,7 @@ Unha casa no camposanto	Sp00	Unha casa no camposanto
 Unha certa mirada	Sp00	Unha certa mirada
 Unha científica en cada cole	Sp00	Unha científica en cada cole
 Unha corrente salvaxe	Sp00	Unha corrente salvaxe
+Unha descuberta prodixiosa	Sp00	Unha descuberta prodixiosa
 Unha ducia de galegos	Sp00	Unha ducia de galegos
 Unha estrela no vento	Sp00	Unha estrela no vento
 Unha etapa estelar e conflitiva do reino de Galiza (a segunda metade do século XIV). Tomo I A relevancia do reino medieval galego	Sp00	Unha etapa estelar e conflitiva do reino de Galiza (a segunda metade do século XIV). Tomo I A relevancia do reino medieval galego
@@ -5517,9 +5657,13 @@ Viajes por los montes y chimeneas de Galicia	Sp00	Viajes por los montes y chimen
 Viaxar para pintar. Sorolla en Galiza	Sp00	Viaxar para pintar. Sorolla en Galiza
 Viaxe ao centro da Terra	Sp00	Viaxe ao centro da Terra
 Viaxe ao corazón do océano	Sp00	Viaxe ao corazón do océano
+Viaxe ao país dos ananos	Sp00	Viaxe ao país dos ananos
 Viaxe arredor do meu cuarto	Sp00	Viaxe arredor do meu cuarto
+Viaxe submarina de Nemo	Sp00	Viaxe submarina de Nemo
+Viaxe á lúa	Sp00	Viaxe á lúa
 Viaxes e vagancias de Manuel da Paderna	Sp00	Viaxes e vagancias de Manuel da Paderna
 Viaxes sacros. A Antropoloxía da Peregrinación	Sp00	Viaxes sacros. A Antropoloxía da Peregrinación
+Viaxes sen Lee	Sp00	Viaxes sen Lee
 Viceversa. Revista galega de tradución	Sp00	Viceversa. Revista galega de tradución
 Vicky Cristina Barcelona	Sp00	Vicky Cristina Barcelona
 Victory for the comic muse	Sp00	Victory for the comic muse
@@ -5540,6 +5684,7 @@ Vigo, Capital, Lisboa	Sp00	Vigo, Capital, Lisboa
 Vindicación, vida e milagros de Pepe de Xan Baña	Sp00	Vindicación, vida e milagros de Pepe de Xan Baña
 Vinte diferenzas que teño co uribismo	Sp00	Vinte diferenzas que teño co uribismo
 Vinte mil días na Terra	Sp00	Vinte mil días na Terra
+Vinte mil leguas baixo os mares	Sp00	Vinte mil leguas baixo os mares
 Violadas o muertas	Sp00	Violadas o muertas
 Violencia deliberada	Sp00	Violencia deliberada
 Violencias (in)visibles. Intervenciones feministas frente a la violencia patriarcal	Sp00	Violencias (in)visibles. Intervenciones feministas frente a la violencia patriarcal
@@ -5663,6 +5808,7 @@ Xornalismo inmersivo en Europa: usabilidade das aplicacións e proposta de mello
 Xosé Chao Rego: renacer galego	Sp00	Xosé Chao Rego: renacer galego
 Xosé Filgueira Valverde. Biografía intelectual	Sp00	Xosé Filgueira Valverde. Biografía intelectual
 Xosé María Álvarez Blázquez. 1915-1985	Sp00	Xosé María Álvarez Blázquez. 1915-1985
+Xosé Piñeiro Gonzalez. Un aviador ferrolán	Sp00	Xosé Piñeiro Gonzalez. Un aviador ferrolán
 Xoves de folións	Sp00	Xoves de folións
 Xullo de 1936 en Tui	Sp00	Xullo de 1936 en Tui
 Xungla de cristal	Sp00	Xungla de cristal
@@ -5733,9 +5879,14 @@ pAlA-brAs brAncAs	Sp00	pAlA-brAs brAncAs
 Á procura da estrela	Sp00	Á procura da estrela
 Á sombra dos bonsais	Sp00	Á sombra dos bonsais
 Álbum de mulleres	Sp00	Álbum de mulleres
+Álvaro Cunqueiro e as amizades catalás	Sp00	Álvaro Cunqueiro e as amizades catalás
+Álvaro Cunqueiro: unha poética da recreación	Sp00	Álvaro Cunqueiro: unha poética da recreación
+Álvaro Siza. Obras e proxectos	Sp00	Álvaro Siza. Obras e proxectos
 Ámote vermella	Sp00	Ámote vermella
 Ánxel Casal e o libro galego	Sp00	Ánxel Casal e o libro galego
 Ánxel Casal e o libro galego e Presencia de Vigo na industria do libro e nas publicacións periódicas	Sp00	Ánxel Casal e o libro galego e Presencia de Vigo na industria do libro e nas publicacións periódicas
+Ánxel Fole. Obra galega completa	Sp00	Ánxel Fole. Obra galega completa
+Ánxel Fole. Vida e obra	Sp00	Ánxel Fole. Vida e obra
 Árbores e formacións senlleiras de Galicia	Sp00	Árbores e formacións senlleiras de Galicia
 Ás de mosca para Anxo	Sp00	Ás de mosca para Anxo
 É vostede, por casualidade, o asasino?	Sp00	É vostede, por casualidade, o asasino?
