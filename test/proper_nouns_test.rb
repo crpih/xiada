@@ -467,6 +467,25 @@ describe 'ProperNounsTest' do
         assert_equal ["Dixo ", ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false), ". Galicia."], proper_nouns.call(text)
       end
 
+      it 'should detect proper nouns after the dot of a registered acronym' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, acronyms: Set['C.C.'])
+        text = 'O centro C.C. Solpor abriu.'
+
+        assert_equal [
+          'O centro C.C. ',
+          ProperNouns::Literal.new('Solpor', tags.map { |tag| [tag, 'Solpor'] }.sort, false),
+          ' abriu.'
+        ], proper_nouns.call(text)
+      end
+
+      it 'should keep dotted unregistered forms ambiguous without inferring initials' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, acronyms: Set['C.C.'])
+
+        ['O centro X.X. Solpor abriu.', 'O detido R.Ch. Ch chegou.'].each do |text|
+          assert_equal [text], proper_nouns.call(text)
+        end
+      end
+
       it 'should NOT detect proper noun when preceded only by numbers, puctuation or symbols' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 

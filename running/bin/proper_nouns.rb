@@ -354,9 +354,12 @@ class ProperNouns
     previous_two_positions = i - 2 - wrapper_count
     return true if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
 
-    # A capitalized lexical form after a point is not promoted to a proper noun.
-    # Proper names in this position must be listed in the proper-noun lexicon.
-    return true if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
+    # A registered acronym's dot does not make the following name ambiguous.
+    # Ordinary full stops still require a name listed in the proper-noun lexicon.
+    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
+      previous_word = text[..previous_two_positions].split(/\p{Z}+/).last
+      return true unless @acronyms.include?(previous_word)
+    end
 
     false
   end

@@ -54,6 +54,10 @@ The tagger handles the first lexical token in two stages:
 
 Future output rules that depend on the selected analysis belong in `Postprocessor`.
 
+A dot belonging to a registered acronym does not make the following proper-name
+candidate sentence-initial. Ordinary full stops and unregistered dotted forms
+keep their existing ambiguity rules; no initial-sequence inference is applied.
+
 ### Abbreviation spacing
 
 Registered abbreviations also accept optional spaces between their components:
