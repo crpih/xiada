@@ -46,6 +46,7 @@ class Sentence
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
     merge_abbreviation_tokens
+    split_lexical_word_final_dots
     process_acronym_abbreviation_contraction_stuff
     # This is an analysis form, not the final output rule. Processors such as
     # contractions need the initial word in lowercase (e.g. Neste -> en + este).
@@ -208,6 +209,36 @@ class Sentence
         token = joined
       end
       token = token.next
+    end
+  end
+
+  # An ordinary lexical word must not become an unknown dotted form just
+  # because it occurs inside a chunk instead of at its end. Single-letter
+  # units retain their existing handling.
+  def split_lexical_word_final_dots
+    return unless @peripheric_regexp
+
+    token = @first_token.next
+    while token != @last_token
+      following = token.next
+      if !token.proper_noun && token.text.match?(/\A\p{L}{2,}\.\z/) &&
+          !acronym_or_abbreviation?(token.text) &&
+          @tagger_config.dw.get_emissions_info(token.text, nil).empty?
+        word = token.text.delete_suffix('.')
+        analyses = @tagger_config.dw.get_tags_lemmas_emissions_strict(word, nil)
+        if analyses.any? { |analysis| !analysis[0].match?(@peripheric_regexp) }
+          token.replace_text(word)
+          token.to -= 1
+          point = Token.new(@text, '.', :standard, token.to + 1, token.to + 1)
+          token.reset_nexts
+          token.add_next(point)
+          point.add_prev(token)
+          point.add_next(following)
+          following.reset_prevs
+          following.add_prev(point)
+        end
+      end
+      token = following
     end
   end
 

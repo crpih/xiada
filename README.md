@@ -58,6 +58,20 @@ A dot belonging to a registered acronym does not make the following proper-name
 candidate sentence-initial. Ordinary full stops and unregistered dotted forms
 keep their existing ambiguity rules; no initial-sequence inference is applied.
 
+### Internal full stops
+
+Before statistical tagging, an internal multi-letter alphabetic word followed
+by a full stop is split into word and punctuation only when the whole form has
+no direct lexical analysis, including existing initial-capital fallbacks, and
+the undotted word has at least one direct non-peripheral analysis. A symbol or
+abbreviation analysis alone does not justify splitting. This runs after
+registered abbreviations have been joined, preserving spelling and positions.
+Proper-name units, registered acronyms/abbreviations and recognized whole forms
+are preserved. Neither lookup uses guessing for this decision; single-letter
+units, initials, numeric punctuation and URLs keep their existing handling.
+Profiles without peripheral-category metadata retain their previous handling;
+this optional split is not applied without that classification.
+
 ### Abbreviation spacing
 
 Registered abbreviations also accept optional spaces between their components:
