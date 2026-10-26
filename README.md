@@ -54,6 +54,18 @@ The tagger handles the first lexical token in two stages:
 
 Future output rules that depend on the selected analysis belong in `Postprocessor`.
 
+### Abbreviation spacing
+
+Registered abbreviations also accept optional spaces between their components:
+`a. m.` and `a.m.` retain the lexical analysis of `a. m.`. Mixed spacing is
+accepted for abbreviations with more components, such as `A.M. D.G.`.
+The output keeps the input spelling and source positions. If a spelling is
+already registered, its own analysis takes priority over generated variants.
+Single-component abbreviations, acronyms and idiom matching are not expanded.
+Variants reuse the model's existing abbreviation analyses; resource entries
+without a compatible model analysis keep their previous behavior.
+No database rebuild is required.
+
 ### API requests
 
 Then you can send requests like:

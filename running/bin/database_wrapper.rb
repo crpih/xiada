@@ -1,6 +1,7 @@
 require "sqlite3"
 require "active_support/core_ext/object/blank"
 require_relative "../../lib/string_utils"
+require_relative "../../lib/abbreviation_variants"
 
 # AutoRule is used in here as workaround
 require_relative "../galician_xiada/lemmas/prefix_vowel"
@@ -26,6 +27,16 @@ class DatabaseWrapper
 
   def get_emissions_info_variants(word, tags, variants)
     result = get_exact_emissions_info(word, tags)
+    return result unless result.empty?
+
+    # Generated spellings inherit only abbreviation analyses, never unrelated
+    # analyses of the source word. Exact registered spellings keep priority.
+    sources = abbreviation_sources.fetch(word, [])
+    result = sources.reject { |source| source == word }.flat_map do |source|
+      get_exact_emissions_info(source, tags).select do |row|
+        @abbreviation_tags.fetch(source).include?(row.first)
+      end
+    end.uniq
     return result unless result.empty?
 
     variants.each do |variant|
@@ -244,7 +255,29 @@ class DatabaseWrapper
   end
 
   def get_abbreviations
-    @abbreviations ||= Set.new(execute("SELECT DISTINCT abbreviation FROM abbreviations").map(&:first))
+    @abbreviations ||= Set.new(abbreviation_sources.keys)
+  end
+
+  def abbreviation_sources
+    @abbreviation_sources ||= begin
+      @abbreviation_tags = execute('SELECT DISTINCT abbreviation, tag FROM abbreviations')
+        .group_by(&:first).transform_values { |rows| rows.map(&:last) }
+      registered = @abbreviation_tags.keys.to_set
+      supported = execute(<<~SQL).map(&:first).to_set
+        SELECT DISTINCT a.abbreviation
+        FROM abbreviations a
+        JOIN emission_frequencies e ON e.word = a.abbreviation AND e.tag = a.tag
+      SQL
+      sources = registered.to_h { |form| [form, supported.include?(form) ? [form] : []] }
+      supported.each do |form|
+        AbbreviationVariants.each(form) do |variant|
+          next if registered.include?(variant)
+
+          (sources[variant] ||= []) << form
+        end
+      end
+      sources
+    end
   end
 
   def get_acronyms

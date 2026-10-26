@@ -45,6 +45,7 @@ class Sentence
 
     @current_last_token.add_next(@last_token)
     @last_token.add_prev(@current_last_token)
+    merge_abbreviation_tokens
     process_acronym_abbreviation_contraction_stuff
     # This is an analysis form, not the final output rule. Processors such as
     # contractions need the initial word in lowercase (e.g. Neste -> en + este).
@@ -172,6 +173,42 @@ class Sentence
     # STDERR.puts "(tokenize) tokens (final):#{tokens}"
 
     return tokens
+  end
+
+  # Join after all chunks are built: a proper-name chunk may otherwise split
+  # a multi-component abbreviation. The original text supplies spelling/offsets.
+  def merge_abbreviation_tokens
+    sources = @tagger_config.dw.abbreviation_sources
+    max_tokens = @abbreviations.map { |form, _| form.count(' ') + 2 }.max || 1
+    token = @first_token.next
+    while token != @last_token
+      last_match = nil
+      finish = token
+      max_tokens.times do
+        candidate = @text[token.from..finish.to]
+        if sources.fetch(candidate, []).any? { |source| AbbreviationVariants.each(source).take(2).length > 1 }
+          # Leave exact single-token analyses (including proper names) alone.
+          if finish != token || sources.fetch(candidate).none? { |source| source == candidate }
+            last_match = finish
+          end
+        end
+        finish = finish.next
+        break if finish == @last_token
+      end
+      if last_match
+        joined = Token.new(@text, @text[token.from..last_match.to], :standard, token.from, last_match.to)
+        before = token.prev
+        after = last_match.next
+        before.reset_nexts
+        before.add_next(joined)
+        joined.add_prev(before)
+        after.reset_prevs
+        after.add_prev(joined)
+        joined.add_next(after)
+        token = joined
+      end
+      token = token.next
+    end
   end
 
   def merge_pausa_larga(tokens)
