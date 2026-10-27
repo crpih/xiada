@@ -1,7 +1,6 @@
 require "json"
 require "yaml"
 require "benchmark"
-require "time"
 require "sinatra"
 require_relative "database_wrapper"
 require_relative "xiada_tagger"
@@ -29,40 +28,7 @@ helpers do
     document_config = Config::Document.new(seseo: params['seseo'] == 'true', gheada: params['gheada'] == 'true')
     tagger = get_tagger
 
-    if ENV["DEBUGGER_HOST"]
-      # Do not fork if debugging, it causes the server to finish immediately after the first request
-      return yield(tagger, document_config, texts).to_json
-    else
-      # Fork to prevent memory leaks in long-running processes
-      rd, wr = IO.pipe
-      parent_pid = Process.pid
-      started = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-      path = request.path
-      pid = fork do
-        rd.close
-        result = yield(tagger, document_config, texts).to_json
-        begin
-          wr.write result
-        rescue Errno::EPIPE
-          elapsed_ms = ((Process.clock_gettime(Process::CLOCK_MONOTONIC) - started) * 1000).round
-          puts "Tagger pipe closed: timestamp=#{Time.now.utc.iso8601(3)} parent_pid=#{parent_pid} current_ppid=#{Process.ppid} child_pid=#{Process.pid} " \
-               "path=#{path} profile=#{tagger.profile} database=#{tagger.database} " \
-               "texts=#{texts.length} result_bytes=#{result.bytesize} elapsed_ms=#{elapsed_ms}"
-          $stdout.flush
-          raise
-        end
-        wr.close
-      rescue => e
-        puts "Exception in child process: #{e.class} - #{e.message}"
-        puts e.backtrace
-      end
-      wr.close
-      result = rd.read
-      rd.close
-      Process.wait(pid)
-    end
-
-    result
+    yield(tagger, document_config, texts).to_json
 
   rescue JSON::ParserError
     halt 400
