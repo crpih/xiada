@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+require "json"
 require_relative "postprocessor"
 
 class Viterbi
@@ -15,6 +16,7 @@ class Viterbi
 
   def run(sentence)
     @sentence = sentence
+    @pruning_failures = []
     @tags = nil
     while @tags == nil
       initialize_step(sentence)
@@ -23,6 +25,7 @@ class Viterbi
       last_delta = finalize_step(sentence)
       # sentence.print(STDERR)
       without_suffixes_words_size = @without_suffixes_words.keys.size
+      @attempt_rejections = []
       @tags = back_way_build(last_delta, true)
       without_suffixes_words_new_size = @without_suffixes_words.keys.size
       break if without_suffixes_words_size == without_suffixes_words_new_size
@@ -33,7 +36,7 @@ class Viterbi
       # 2) There is an error in a word but this error match a valid lexicon word
       # So, we show a warning and analice the sentence with pruning_rules disabled
       @without_suffixes_words = Hash.new
-      STDERR.puts "WARNING: Sentence -- #{sentence.text} -- had to be analized without prunning rules"
+      STDERR.puts({ event: "pruning_fallback", sentence: sentence.text, failures: @pruning_failures }.to_json)
       reset_viterbi(sentence)
       initialize_step(sentence)
       recurrence_step(sentence)
@@ -568,8 +571,10 @@ class Viterbi
       tags_window = update_window(full_window)
       window = convert_window_to_prunning_format(tags_window)
       #print_window(window)
+      rule = nil
       if pruning_rules_enabled
-        returning_index = @tagger_config.pruning_system.process(window)
+        returning_index = @tagger_config.pruning_system.process(window) { |matched_rule| rule = matched_rule }
+        @attempt_rejections << { rule: rule, window: window } if rule
       else
         returning_index = 0
       end
@@ -624,7 +629,8 @@ class Viterbi
           #   end
           # end
 
-          STDERR.puts "PROBLEMATIC TOKEN: #{problematic_element[0].token.text}"
+          @pruning_failures << { token: problematic_element[0].token.text, rule: rule, window: window,
+                                 rejections: @attempt_rejections }
           @without_suffixes_words[problematic_element[0].token.text] = true
           return nil
         end

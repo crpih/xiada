@@ -99,6 +99,14 @@ curl --request POST \
 
 Configuration parameters are passed as URL query parameters.
 
+### Diagnostics
+
+When no valid analysis can be found with pruning rules enabled, the tagger emits
+a `pruning_fallback` JSON event to standard error before retrying without rules.
+It includes the sentence, problematic tokens, and all rule rejections from failed
+attempts in order, including repeated matches. Routine rule rejections are not
+logged. Logs can contain corpus text and should be protected accordingly.
+
 ### Interactive usage
 
 ```bash

@@ -2,19 +2,30 @@ require_relative './test_helper'
 require_relative '../running/galician_xiada/pruning_system'
 
 describe GalicianXiada::PruningSystem do
-  it 'logs indexed actual words for the matched window alongside the rule' do
+  it 'reports matching rules to the caller without printing routine rejections' do
     window = [
       ['con', 'P', ['con'], 'con'],
       ['a', 'Ddfs', ['o'], 'a'],
       ['xylophone', 'S.m.', ['xylophone'], 'xylophone'],
       nil
     ]
+    rules = []
+    stdout, stderr = capture_subprocess_io do
+      assert_equal 2, GalicianXiada::PruningSystem.new.process(window) { |rule| rules << rule }
+    end
 
+    assert_empty stdout
+    assert_empty stderr
+    assert_includes rules.first, 'con,P,con,_'
+    assert_equal 1, rules.length
+  end
+
+  it 'preserves the return value when no diagnostics are requested' do
+    window = [['con', 'P', ['con'], 'con'], ['a', 'Ddfs', ['o'], 'a'],
+              ['xylophone', 'S.m.', ['xylophone'], 'xylophone'], nil]
     _stdout, stderr = capture_subprocess_io do
       assert_equal 2, GalicianXiada::PruningSystem.new.process(window)
     end
-
-    assert_includes stderr, 'rejected by RULE con,P,con,_'
-    assert_includes stderr, 'matched words: [0, "con"], [1, "a"], [2, "xylophone"], [3, "<empty>"]'
+    assert_empty stderr
   end
 end
