@@ -43,6 +43,7 @@ GEM
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     json (2.18.1)
+    memory_profiler (1.1.0)
     mini_portile2 (2.8.7)
     minitest (5.25.5)
     mustermann (3.0.0)
@@ -85,6 +86,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (>= 2.2.10)
   dbg-rb (~> 0.4.0)
+  memory_profiler (~> 1.1)
   minitest (~> 5.0)
   nxml!
   rake (~> 13.0)

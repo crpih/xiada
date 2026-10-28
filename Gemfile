@@ -6,3 +6,5 @@ gemspec
 gem 'nxml', git: 'git@bitbucket.org:nlpgo/nxml.git', branch: 'dev'
 
 gem "dbg-rb", "~> 0.4.0"
+
+gem "memory_profiler", "~> 1.1", :groups => [:development, :test]

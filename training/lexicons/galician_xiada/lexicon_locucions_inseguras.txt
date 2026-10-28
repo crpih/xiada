@@ -32,7 +32,6 @@ a berros	Wn	a berros	a berros	s
 a cabalo	Wn	a cabalo	a cabalo	s
 a cada canto	Wn	a cada canto	a cada canto	s
 a cada pouco	Wn	a cada pouco	a cada pouco	s
-a canchaperna	Wn	a canchaperna	a cachapernas	s
 a capela	Wn	a capela	a capela	s
 a catro patas	Wn	a catro patas	a catro patas	s
 a causa de	P	a causa de	a causa de	s
@@ -265,7 +264,6 @@ de seguro	Wn	de seguro	de seguro	s
 de tempo en tempo	Wn	de tempo en tempo	de tempo en tempo	s
 de todo	Wn	de todo	de todo	s
 de través	Wn	de través	de través	s
-de través de	P	de través de	de través de	s
 de unha tirada	Wn	de unha tirada	de unha tirada	s
 de vagar	Wn	de vagar	devagar	n
 de verdade	Wn	de verdade	de verdade	s
@@ -329,13 +327,10 @@ en todo caso	Wn	en todo caso	en todo caso	s
 en torno a	P	en torno a	en torno a	s
 en troca	Wn	en troca	en troca	s
 en van	Wn	en van	en van	s
-en vango	Wn	en vango	en vango	s
 en verdade	Wn	en verdade	en verdade	s
 en xaque	Wn	en xaque	en xaque	s
 en xeneral	Wn	en xeneral	en xeral	n
 encefalopatía esponxiforme	Scfs	encefalopatía esponxiforme	encefalopatía esponxiforme	n
-ende ben	Cs	ende ben	ende ben	s
-ende mal	Cs	ende mal	ende mal	s
 entre tanto	Cs	entre tanto	entre tanto	s
 eso que	Cs	eso que	e iso que	n
 frente a	P	frente a	fronte a	n
@@ -369,7 +364,7 @@ nin que	Cs	nin que	nin que	s
 non acabar	Scms	non acabar	non acabar	s
 non ben	Wn	non ben	non ben	s
 o outro antonte	Wn	o outro antonte	o outro antonte	s
-off line	Wn	off line	off line	n
+o través	Wn	o través	a o través	n
 onda non	Cs	onda non	onda non	s
 onde queira	Wn	onde queira	onde queira	s
 ora ben	Cs	ora ben	ora ben	s

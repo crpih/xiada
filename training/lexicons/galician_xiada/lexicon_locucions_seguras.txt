@@ -54,6 +54,7 @@ a cachapernas	Wn	a cachapernas	a cachapernas	s
 a cachón	Wn	a cachón	a cachón	s
 a cal e canto	Wn	a cal e canto	a cal e canto	n
 a cambio	Wn	a cambio	a cambio	s
+a canchaperna	Wn	a canchaperna	a cachapernas	s
 a canchapernas	Wn	a canchapernas	a cachapernas	s
 a capella	Wn	a capella	a capela	n
 a cappella	Wn	a cappella	a capela	n
@@ -556,6 +557,7 @@ de moca	Wn	de moca	de moca	s
 de modo que	Cs	de modo que	de modo que	s
 de o revés	Wn	de o revés	de o revés	s
 de o rivés	Wn	de o rivés	de o revés	n
+de o través	Wn	de o través	de o través	s
 de o trinque	Wn	de o trinque	de o trinque	s
 de oídas	Wn	de oídas	de oídas	s
 de par en par	Wn	de par en par	de par en par	s
@@ -596,6 +598,7 @@ de socato	Wn	de socato	de socate	s
 de sotaque	Wn	de sotaque	de socate	n
 de sócato	Wn	de sócato	de socate	n
 de súpeto	Wn	de súpeto	de súpeto	s
+de través de	P	de través de	de través de	s
 de un tirón	Wn	de un tirón	de un tirón	s
 de unha tacada	Wn	de unha tacada	de unha tacada	s
 de vagariño	Wn	de vagar	devagar	n
@@ -750,6 +753,7 @@ en suma	Wn	en suma	en suma	s
 en tanto que	Cs	en tanto que	en tanto	s
 en troques	Wn	en troques	en troques	s
 en un santiamén	Wn	en un santiamén	en un santiamén	s
+en vango	Wn	en vango	en vango	s
 en vez de	P	en vez de	en vez de	s
 en vilo	Wn	en vilo	en vilo	n
 en virtude de	P	en virtude de	en virtude de	s
@@ -757,6 +761,8 @@ en vivo	Wn	en vivo	en vivo	s
 en xeral	Wn	en xeral	en xeral	s
 encefalopatía esponxiforme bovina	Scfs	encefalopatía esponxiforme bovina	encefalopatía esponxiforme bovina	n
 encol de	P	encol de	encol de	s
+ende ben	Cs	ende ben	ende ben	s
+ende mal	Cs	ende mal	ende mal	s
 endoutro día	Wn	endoutro día	endoutro día	s
 entre horas	Wn	entre horas	entre horas	s
 entre lusco e fusco	Wn	entre lusco e fusco	entre lusco e fusco	s
@@ -1068,6 +1074,7 @@ nouveau roman	Scms	nouveau roman	nouveau roman	s
 nucleus accumbens	Scms	nucleus accumbens	nucleus accumbens	n
 o fin de contas	Wn	o fin de contas	a fin de contas	n
 o pé da letra	Wn	o pé da letra	a o pé da letra	n
+off line	Wn	off line	off line	n
 on line	Wn	on line	en liña	n
 onde quer	Wn	onde quer	onde queira	n
 open source	Scms	open source	open source	n

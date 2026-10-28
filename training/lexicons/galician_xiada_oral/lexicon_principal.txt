@@ -361490,6 +361490,7 @@ deostos	Scmp	deosto	deosto	s
 deostóu	Vei30s	deostar	deostar	n
 deostou	Vei30s	deostar	deostar	s
 deosto	Vpi10s	deostar	deostar	s
+de o través	Wn	de o través	de o través	s
 de o trinque	Wn	de o trinque	de o trinque	s
 deoxicorticosterona	Scfs	deoxicorticosterona	deoxicorticosterona	s
 deoxicorticosteronas	Scfp	deoxicorticosterona	deoxicorticosterona	s
@@ -782437,7 +782438,6 @@ leirou	Vei30s	leirar	leirar	s
 leiro	Vpi10s	leirar	leirar	s
 lei	Scfs	lei	lei	s
 lei	Scmp	leu	leu	s
-lei	Scms	lei	lei	s
 Leishmania amazonensis	Snaa	Leishmania amazonensis	Leishmania amazonensis
 Leishmania braziliensis	Snaa	Leishmania braziliensis	Leishmania braziliensis
 Leishmania chagasi	Snaa	Leishmania chagasi	Leishmania chagasi
@@ -782456,7 +782456,6 @@ Leishmania tropica	Snaa	Leishmania tropica	Leishmania tropica
 leishmaniose	Scfs	leishmaniose	leishmaniose	s
 leishmanioses	Scfp	leishmaniose	leishmaniose	s
 leis	Scfp	lei	lei	s
-leis	Scmp	lei	lei	s
 Leistes bellicosus	Snaa	Leistes bellicosus	Leistes bellicosus
 Leistes militaris	Snaa	Leistes militaris	Leistes militaris
 Leistus ferrugineus	Snaa	Leistus ferrugineus	Leistus ferrugineus
@@ -790133,6 +790132,8 @@ linearidades	Scfp	linearidade	linearidade	s
 lineás	A0ap	lineal	lineal	n
 lineás	A0fp	lineal	lineal	n
 lineás	A0mp	lineal	lineal	n
+línea	Scfs	línea	liña	n
+líneas	Scfp	línea	liña	n
 liñeir*	A0xs	liñeiro	liñeiro	n
 liñeir@	A0xs	liñeiro	liñeiro	n
 liñeira	A0fs	liñeiro	liñeiro	s
@@ -885943,6 +885944,7 @@ otras	Idfp	otro	outro	n
 otras	Infp	otro	outro	n
 otras/os	Idxp	otro	outro	n
 otras/os	Inxp	otro	outro	n
+o través	Wn	o través	a o través	n
 Otreon	Sp00	Otreon
 otr*	Idxs	otro	outro	n
 otr@	Idxs	otro	outro	n
@@ -934914,8 +934916,8 @@ poliomielíticxs	A0xp	poliomielítico	poliomielítico	n
 Polioptila caerulea	Snaa	Polioptila caerulea	Polioptila caerulea
 Polioptila californica	Snaa	Polioptila californica	Polioptila californica
 Polioptila melanura	Snaa	Polioptila melanura	Polioptila melanura
-polio	Scfs	polio	polio	s
-polios	Scfp	polio	polio	s
+polio	Scfs	polio	poliomielite	s
+polios	Scfp	polio	poliomielite	s
 Poliothyrsis sinensis	Snaa	Poliothyrsis sinensis	Poliothyrsis sinensis
 polipad*	A0xs	polipado	polipado	n
 polipad@	A0xs	polipado	polipado	n
@@ -1157797,6 +1157799,7 @@ traveseir*s	A0xp	traveseiro	traveseiro	n
 traveseir@s	A0xp	traveseiro	traveseiro	n
 traveseirx	A0xs	traveseiro	traveseiro	n
 traveseirxs	A0xp	traveseiro	traveseiro	n
+traveses	Scmp	través	través	s
 travesí*	A0xs	travesío	travesío	n
 travesí@	A0xs	travesío	travesío	n
 travesía	A0fs	travesío	travesío	s
@@ -1157823,6 +1157826,7 @@ traveso	Scms	traveso	traveso	s
 travesos	Scmp	traveso	traveso	s
 traves*s	A0xp	traveso	traveso	n
 traves@s	A0xp	traveso	traveso	n
+través	Scms	través	través	s
 traves*	Scxs	traveso	traveso	n
 traves@	Scxs	traveso	traveso	n
 traves*s	Scxp	traveso	traveso	n
