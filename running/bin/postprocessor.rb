@@ -7,6 +7,7 @@ require_relative "../../lib/string_utils"
 class Postprocessor
   PROPER_NOUN_TAG = /\ASp([mf0])([sp0])\z/
   AGREEMENT_TAG = /\A(?:A|D|E|I|M|N).*([mf])([sp])\z/
+  CLOSING_CONTEXT_WRAPPERS = %w[" ' ( _].freeze
 
   def initialize(sentence, tagger_config)
     @sentence = sentence
@@ -16,6 +17,7 @@ class Postprocessor
   def call(tags)
     infer_proper_noun_agreement(tags)
     normalize_initial_token(tags)
+    normalize_after_closing_punctuation(tags)
     tags
   end
 
@@ -60,7 +62,7 @@ class Postprocessor
   def normalize_initial_token(tags)
     first_tag = tags.find { |tag| first_lexical_token?(tag.token) }
     return unless first_tag
-    return if preserve_initial_capitalization?(first_tag)
+    return if preserve_token_capitalization?(first_tag)
 
     first_tag.token.replace_text(StringUtils.first_to_lower(first_tag.token.text))
   end
@@ -71,8 +73,37 @@ class Postprocessor
     !StringUtils.initial_ignorable_token?(token.text)
   end
 
-  def preserve_initial_capitalization?(tag)
+  def normalize_after_closing_punctuation(tags)
+    tags.each_with_index do |tag, index|
+      next if index.zero?
+
+      next unless closing_punctuation_before?(tags, index)
+      next unless first_lexical_token?(tag.token)
+      next if preserve_token_capitalization?(tag)
+
+      tag.token.replace_text(StringUtils.first_to_lower(tag.token.text))
+    end
+  end
+
+  def closing_punctuation_before?(tags, index)
+    previous_index = index - 1
+    while previous_index >= 0 && CLOSING_CONTEXT_WRAPPERS.include?(tags[previous_index].token.text)
+      previous_index -= 1
+    end
+
+    previous_tag = tags[previous_index]
+    previous_tag && previous_tag.token.token_type == :standard && %w[? !].include?(previous_tag.token.text)
+  end
+
+  def preserve_token_capitalization?(tag)
     tag.value.match?(@tagger_config.keep_uppercase_tokens_for) ||
-      @sentence.acronym_or_abbreviation?(tag.token.text)
+      @sentence.acronym_or_abbreviation?(tag.token.text) ||
+      oral_forced_proper_noun?(tag)
+  end
+
+  def oral_forced_proper_noun?(tag)
+    @tagger_config.profile == 'galician_xiada_oral' &&
+      @tagger_config.force_proper_nouns &&
+      tag.token.proper_noun
   end
 end

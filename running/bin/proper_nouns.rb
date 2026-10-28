@@ -9,6 +9,7 @@ class ProperNouns
   Literal = Struct.new(:text, :tag_lemmas, :lexicon)
 
   WRAPPER_START_CHARS = %w[" ' ( _].freeze
+  FORCED_INITIAL_POSITION_PREFIX = /\A[\p{Z}"'(_¿¡]+\z/
   NOT_SEGMENT_CONTENT_TAGS = %w[subíndice superíndice].freeze
   NOT_SEGMENT_CONTENT_OPENING_TAG = /<(?:#{NOT_SEGMENT_CONTENT_TAGS.join('|')})(?:\s[^>]*)?>/
 
@@ -99,6 +100,7 @@ class ProperNouns
     acronyms: Set.new,
     abbreviations: Set.new,
     force_proper_nouns: false,
+    force_ambiguous_proper_nouns: false,
     conditional_initial_articles: [])
     @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
@@ -111,6 +113,7 @@ class ProperNouns
     @abbreviations = abbreviations
     # If true, uppercase words at the start of the text are also considered proper noun candidates
     @force_proper_nouns = force_proper_nouns
+    @force_ambiguous_proper_nouns = force_ambiguous_proper_nouns
     @conditional_initial_articles = conditional_initial_articles
   end
 
@@ -129,6 +132,7 @@ class ProperNouns
       acronyms: @acronyms,
       abbreviations: @abbreviations,
       force_proper_nouns: @force_proper_nouns,
+      force_ambiguous_proper_nouns: @force_ambiguous_proper_nouns,
       conditional_initial_articles: @conditional_initial_articles
     )
   end
@@ -235,6 +239,7 @@ class ProperNouns
   def add_main_lexicon_tags_to_first_proper_noun!(segmented_text)
     first_element = segmented_text.first
     return unless first_element.is_a?(Literal)
+    return if @force_ambiguous_proper_nouns && !first_element.lexicon
 
     word = first_element.text
     word_first_lowercase = "#{word[0].downcase}#{word[1..]}"
@@ -296,15 +301,18 @@ class ProperNouns
     # Do not let the capitalized text before the mark become a proper noun
     # candidate and split the unit before Sentence#tokenize sees it.
 
+    forced_initial_position = forced_initial_position?(text, i)
     # If all previous text before the candidate is punctuation and spaces, is a false positive
-    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{N}\p{Lo}]+\z/)
+    return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{N}\p{Lo}]+\z/) && !forced_initial_position
     # If there is a single letter followed by punctuation, it means chapter marker, false positive
-    return if text[...i].match?(/\A\p{L}?[\p{P}\p{Lo}]+\p{Z}\z/)
+    return if text[...i].match?(/\A\p{L}?[\p{P}\p{Lo}]+\p{Z}\z/) && !forced_initial_position
     # If all previous text consists only of dates/numbers (4+ digits total) and separators, is a false positive
     return if text[...i].match?(/\A[\p{P}\p{S}\p{Z}\p{Lo}]*\d{4,}[\p{P}\p{S}\p{Z}\p{Lo}]*\z/)
+    # Preserve the existing start guard for other forced profiles; oral force overrides it.
+    return if i.zero? && !@force_ambiguous_proper_nouns && text[-1].match?(/\p{L}/)
     # If there is a letter before the candidate is a false positive (GZMúsica, position 1 "M")
-    return if text[i - 1].match?(/\p{L}/)
-    return if ambiguous_position?(text, i)
+    return if i.positive? && text[i - 1].match?(/\p{L}/)
+    return if ambiguous_position?(text, i) && !@force_ambiguous_proper_nouns
 
     match = match_proper_noun(text[i..])
     return unless match
@@ -312,7 +320,7 @@ class ProperNouns
 
     # If the match text is after a wrapper char or at the beginning of the text,
     # an exact-case main-lexicon match is a lexical item rather than a proper noun.
-    return if (starts_with_wrapper?(text, i) || i.zero?) && @main_lexicon.include?(match.strip)
+    return if (starts_with_wrapper?(text, i) || i.zero?) && @main_lexicon.include?(match.strip) && !@force_ambiguous_proper_nouns
 
     i...(i + match.size)
   end
@@ -376,6 +384,11 @@ class ProperNouns
       position -= 1
     end
     count
+  end
+
+  def forced_initial_position?(text, i)
+    @force_ambiguous_proper_nouns &&
+      (i.zero? || text[...i].match?(FORCED_INITIAL_POSITION_PREFIX))
   end
 
   def ambiguous_position?(text, i)

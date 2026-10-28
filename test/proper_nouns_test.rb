@@ -224,6 +224,22 @@ describe 'ProperNounsTest' do
         assert_equal [text], proper_nouns.call(text)
       end
 
+      it 'forces ambiguous candidates as proper nouns at the start and after closing punctuation' do
+        forced_main_lexicon = {
+          'Casa' => ProperNouns::Literal.new('Casa', [['Scfs', 'casa']], true)
+        }
+        proper_nouns = ProperNouns.new(forced_main_lexicon, [], [], joiners, ['Sp00'],
+          force_proper_nouns: true, force_ambiguous_proper_nouns: true)
+
+        ['Casa', 'Dixo? Casa', 'Dixo! Casa', '¿Casa', '¡Casa'].each do |text|
+          literal = proper_nouns.with_trained([text]).call(text)
+            .find { |segment| segment.is_a?(ProperNouns::Literal) && segment.text == 'Casa' }
+
+          refute_nil literal, "Expected Casa to be a proper noun in #{text.inspect}"
+          assert_equal [['Sp00', 'Casa']], literal.tag_lemmas, "Forced initial analysis should not retain common-lexicon tags in #{text.inspect}"
+        end
+      end
+
       it 'should detect proper nouns separated by joiners' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         joiners.each do |joiner|

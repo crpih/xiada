@@ -78,6 +78,7 @@ module Config
             acronyms: @dw.get_acronyms,
             abbreviations: @dw.get_abbreviations,
             force_proper_nouns:,
+            force_ambiguous_proper_nouns: profile == "galician_xiada_oral" && force_proper_nouns,
             conditional_initial_articles: load_conditional_initial_articles(profile)
           )
         else
