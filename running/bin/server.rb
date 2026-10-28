@@ -18,6 +18,9 @@ TAGGERS = YAML.load_file("#{__dir__}/../../profiles.yml", symbolize_names: true)
   tagger
 end
 
+# Reclaim preload-only allocations before Puma forks its workers.
+GC.start(full_mark: true, immediate_sweep: true)
+
 helpers do
   def handle_tagger_request
     halt 400 if request.body.eof?
@@ -53,6 +56,10 @@ helpers do
 end
 
 set :default_content_type, :json
+
+after do
+  GC.start(full_mark: true, immediate_sweep: true)
+end
 
 post '/tagger/alternatives' do
   handle_tagger_request { |tagger, document_config, texts| tagger.tag_texts_alternatives(document_config, texts) }
