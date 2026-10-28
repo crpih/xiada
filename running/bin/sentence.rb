@@ -187,9 +187,13 @@ class Sentence
       finish = token
       max_tokens.times do
         candidate = @text[token.from..finish.to]
-        if sources.fetch(candidate, []).any? { |source| AbbreviationVariants.each(source).take(2).length > 1 }
+        candidate_sources = sources[candidate] || sources[candidate.downcase] || []
+        abbreviation_match = candidate_sources.any? do |source|
+          source.casecmp?(candidate) || AbbreviationVariants.each(source).take(2).length > 1
+        end
+        if abbreviation_match
           # Leave exact single-token analyses (including proper names) alone.
-          if finish != token || sources.fetch(candidate).none? { |source| source == candidate }
+          if finish != token || candidate_sources.none? { |source| source.casecmp?(candidate) }
             last_match = finish
           end
         end

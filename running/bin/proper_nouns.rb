@@ -98,7 +98,8 @@ class ProperNouns
     trained_proper_nouns: [],
     acronyms: Set.new,
     abbreviations: Set.new,
-    force_proper_nouns: false)
+    force_proper_nouns: false,
+    conditional_initial_articles: [])
     @main_lexicon = main_lexicon
     @literal_proper_nouns = literal_proper_nouns
     @ambiguous_literal_proper_nouns = ambiguous_literal_proper_nouns
@@ -110,6 +111,7 @@ class ProperNouns
     @abbreviations = abbreviations
     # If true, uppercase words at the start of the text are also considered proper noun candidates
     @force_proper_nouns = force_proper_nouns
+    @conditional_initial_articles = conditional_initial_articles
   end
 
   # Create a new ProperNouns instance with the trained proper nouns from the given texts.
@@ -126,7 +128,8 @@ class ProperNouns
       trained_proper_nouns:,
       acronyms: @acronyms,
       abbreviations: @abbreviations,
-      force_proper_nouns: @force_proper_nouns
+      force_proper_nouns: @force_proper_nouns,
+      conditional_initial_articles: @conditional_initial_articles
     )
   end
 
@@ -136,6 +139,7 @@ class ProperNouns
     standard_segments = standard ? standard_proper_nouns(text) : []
     trained_segments = trained ? trained_proper_nouns(text) : []
     candidate_segments = [ *literal_segments, *ambiguous_segments, *standard_segments, *trained_segments ]
+    candidate_segments = extend_candidates_with_initial_articles(text, candidate_segments)
     noun_ranges = join_proper_nouns(text, candidate_segments)
     result = split_text_by_proper_nouns(text, noun_ranges)
     add_main_lexicon_tags_to_first_proper_noun!(result)
@@ -143,6 +147,46 @@ class ProperNouns
   end
 
   private
+
+  def extend_candidates_with_initial_articles(text, segments)
+    return segments if @conditional_initial_articles.empty?
+
+    segments.map do |segment|
+      next segment unless segment.tag_lemmas.any? { |tag, _| tag.start_with?("Sp") }
+
+      article_start = preceding_initial_article_start(text, segment.begin)
+      next segment if article_start.nil?
+
+      range = article_start...segment.end
+      merged_text = text[range]
+      tag_lemmas = segment.tag_lemmas.map { |tag, _| [ tag, merged_text ] }
+      Segment.new(range, merged_text, tag_lemmas, segment.lexicon)
+    end
+  end
+
+  def preceding_initial_article_start(text, candidate_start)
+    prefix = text[...candidate_start]
+    article_pattern = Regexp.union(@conditional_initial_articles)
+    match = prefix.match(/(?<article>#{article_pattern})\p{Z}+\z/)
+    return if match.nil?
+
+    article_start = match.begin(:article)
+    return unless initial_article_boundary?(prefix, article_start)
+
+    article_start
+  end
+
+  def initial_article_boundary?(prefix, article_start)
+    return true if article_start.zero?
+
+    previous_char = prefix[article_start - 1]
+    return true if previous_char.match?(/\p{Z}/) || %w[" ( _].include?(previous_char)
+    return false unless previous_char == "'"
+    return true if article_start == 1
+
+    char_before_quote = prefix[article_start - 2]
+    char_before_quote.match?(/\p{Z}/) || %w[" ( _].include?(char_before_quote)
+  end
 
   def join_proper_nouns(text, segments)
     current_segment, *rest = segments.sort_by { |r| [ r.begin, r.size ] }

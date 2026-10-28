@@ -77,7 +77,8 @@ module Config
             CSV.read("training/lexicons/#{profile}/proper_nouns_candidate_tags.txt", col_sep: "\t").map(&:first),
             acronyms: @dw.get_acronyms,
             abbreviations: @dw.get_abbreviations,
-            force_proper_nouns:
+            force_proper_nouns:,
+            conditional_initial_articles: load_conditional_initial_articles(profile)
           )
         else
           nil
@@ -92,6 +93,15 @@ module Config
     end
 
     def force_proper_nouns = @proper_nouns_processor&.force_proper_nouns || false # Use false in case of nil
+
+    private
+
+    def load_conditional_initial_articles(profile)
+      path = "training/lexicons/#{profile}/proper_nouns_initial_articles.txt"
+      return [] unless File.exist?(path)
+
+      File.readlines(path, chomp: true).map(&:strip).reject(&:empty?)
+    end
   end
 
   # Document tagging configuration created for each request

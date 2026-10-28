@@ -155,6 +155,53 @@ describe 'ProperNounsTest' do
       end
     end
 
+    describe 'conditional initial articles' do
+      it 'includes configured O and A only when a proper noun candidate follows' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, conditional_initial_articles: %w[O A])
+
+        { 'O Galo' => 'O Galo', 'A Coruña' => 'A Coruña' }.each do |text, expected_text|
+          result = proper_nouns.call(text)
+          assert_equal 1, result.length
+          assert_instance_of ProperNouns::Literal, result.first
+          assert_equal expected_text, result.first.text
+          assert_equal tags.sort, result.first.tag_lemmas.map(&:first).uniq.sort
+          assert_equal Array.new(tags.length, expected_text), result.first.tag_lemmas.map(&:last)
+        end
+      end
+
+      it 'does not make isolated articles or lowercase forms proper nouns' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, conditional_initial_articles: %w[O A])
+
+        [ 'O', 'A', 'O palabra', 'A palabra' ].each do |text|
+          assert_equal [ text ], proper_nouns.call(text), "Unexpected proper noun in: #{text}"
+        end
+
+        lowercase = proper_nouns.call('a Galo')
+        assert_equal 'a ', lowercase.first
+        assert_equal 'Galo', lowercase.last.text
+
+        joined_word = proper_nouns.call('prefix FooO Galo')
+        assert_equal 'prefix FooO ', joined_word.first
+        assert_equal 'Galo', joined_word.last.text
+      end
+
+      it 'does not detach an article inside an apostrophe contraction' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, conditional_initial_articles: %w[O A])
+        result = proper_nouns.call("d'A Nosa Terra")
+
+        assert_equal "d'A ", result.first
+        assert_equal 'Nosa Terra', result.last.text
+      end
+
+      it 'keeps the existing behavior when no conditional articles are configured' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
+        result = proper_nouns.call('O Galo')
+
+        assert_equal 'O ', result.first
+        assert_equal 'Galo', result.last.text
+      end
+    end
+
     describe 'standard proper nouns' do
       it 'should detect uppercases not after punctuation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
