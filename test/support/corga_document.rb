@@ -39,9 +39,23 @@ module CorgaDocument
     @configs[profile] ||= Config::Tagger.new(**profile_settings(profile).transform_keys(&:to_sym))
     @taggers[profile] ||= XiadaTagger.new(@configs.fetch(profile))
     document = Config::Document.new(seseo: true, gheada: true)
-    @taggers.fetch(profile).tag_texts(document, [example.fetch('input')]).first.map do |token|
-      # Keep every field exposed by best_way, including source positions.
-      token.transform_keys(&:to_s)
+    source = example.fetch('input')
+    texts = example.fetch('input_sentences', [source])
+    tagged_texts = @taggers.fetch(profile).tag_texts(document, texts)
+    position = 0
+
+    tagged_texts.zip(texts).flat_map do |tokens, text|
+      offset = source.index(text, position)
+      raise "Segment is not present in source after offset #{position}: #{text.inspect}" unless offset
+
+      position = offset + text.length
+      tokens.map do |token|
+        # Keep every field exposed by best_way, translating per-sentence offsets back to the source.
+        token = token.transform_keys(&:to_s)
+        token['start'] += offset
+        token['finish'] += offset
+        token
+      end
     end
   end
 

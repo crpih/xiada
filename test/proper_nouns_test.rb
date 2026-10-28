@@ -203,17 +203,18 @@ describe 'ProperNounsTest' do
     end
 
     describe 'standard proper nouns' do
-      it 'should detect uppercases not after punctuation' do
+      it 'should recognize capitalized words after a full stop, not other punctuation' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         %w[? ! . )].each do |punctuation|
           text = "Ola, que tal#{punctuation} Eu son o Xoán."
           result = proper_nouns.call(text)
-          expected = [
-            "Ola, que tal#{punctuation} Eu son o ",
-            ProperNouns::Literal.new("Xoán", tags.map { |tag| [tag, "Xoán"] }.sort, false),
-            "."
-          ]
-          assert_equal expected, result, "Failed to detect proper noun not after punctuation: #{punctuation}"
+          proper_noun = ->(word) { ProperNouns::Literal.new(word, tags.map { |tag| [tag, word] }.sort, false) }
+          expected = if punctuation == '.'
+            ["Ola, que tal. ", proper_noun.call('Eu'), " son o ", proper_noun.call('Xoán'), "."]
+          else
+            ["Ola, que tal#{punctuation} Eu son o ", proper_noun.call('Xoán'), "."]
+          end
+          assert_equal expected, result, "Unexpected proper-noun detection after punctuation: #{punctuation}"
         end
       end
 
@@ -269,11 +270,11 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should apply the exact-case guard after an internal point and wrappers' do
+      it 'should bypass the exact-case guard after a point but retain it for wrappers' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
         {
-          'Dixo. Xoán.' => [],
+          'Dixo. Xoán.' => ['Xoán'],
           'Dixo _Hannah Montana_.' => ['Hannah Montana'],
           'Dixo _"Xoán".' => []
         }.each do |text, expected_literals|
@@ -284,7 +285,7 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should not promote lexical words to proper nouns after a point' do
+      it 'should promote capitalized lexical words to proper nouns after a point' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
 
         {
@@ -294,8 +295,8 @@ describe 'ProperNounsTest' do
           result = proper_nouns.call(text)
           proper_noun_literals = result.select { |segment| segment.is_a?(ProperNouns::Literal) }
 
-          refute proper_noun_literals.any? { |segment| segment.text.include?(word) },
-            "Did not expect #{word} to be promoted to a proper noun in: #{text}"
+          assert proper_noun_literals.any? { |segment| segment.text.include?(word) },
+            "Expected #{word} to be promoted to a proper noun after a point in: #{text}"
         end
       end
 
@@ -507,11 +508,17 @@ describe 'ProperNounsTest' do
         end
       end
 
-      it 'should not treat an ordinary capitalized word before a full stop as an abbreviation' do
+      it 'should detect a proper noun after an ordinary full stop' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags)
         text = "Dixo Madrid. Galicia."
 
-        assert_equal ["Dixo ", ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false), ". Galicia."], proper_nouns.call(text)
+        assert_equal [
+          "Dixo ",
+          ProperNouns::Literal.new("Madrid", tags.map { |tag| [tag, "Madrid"] }.sort, false),
+          ". ",
+          ProperNouns::Literal.new("Galicia", tags.map { |tag| [tag, "Galicia"] }.sort, false),
+          "."
+        ], proper_nouns.call(text)
       end
 
       it 'should detect proper nouns after the dot of a registered acronym' do
@@ -525,11 +532,27 @@ describe 'ProperNounsTest' do
         ], proper_nouns.call(text)
       end
 
-      it 'should keep dotted unregistered forms ambiguous without inferring initials' do
+      it 'should preserve a registered abbreviation as the current token' do
+        proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, abbreviations: Set['Dr.'])
+        text = 'Viu o Dr. Solpor.'
+
+        assert_equal [
+          'Viu o Dr. ',
+          ProperNouns::Literal.new('Solpor', tags.map { |tag| [tag, 'Solpor'] }.sort, false),
+          '.'
+        ], proper_nouns.call(text)
+      end
+
+      it 'should recognize proper nouns after dots in unregistered dotted forms' do
         proper_nouns = ProperNouns.new(main_lexicon, [], [], joiners, tags, acronyms: Set['C.C.'])
 
-        ['O centro X.X. Solpor abriu.', 'O detido R.Ch. Ch chegou.'].each do |text|
-          assert_equal [text], proper_nouns.call(text)
+        {
+          'O centro X.X. Solpor abriu.' => ['Solpor'],
+          'O detido R.Ch. Ch chegou.' => ['Ch']
+        }.each do |text, expected_literals|
+          result = proper_nouns.call(text)
+          actual_literals = result.filter_map { |segment| segment.text if segment.is_a?(ProperNouns::Literal) }
+          assert_equal expected_literals, actual_literals
         end
       end
 
@@ -591,9 +614,15 @@ describe 'ProperNounsTest' do
           [word, ProperNouns::Literal.new(word, [['Scms', word]], true)]
         end
         capitalized_proper_nouns = ProperNouns.new(capitalized_lexicon, [], [], joiners, tags)
-        ['Dixo "Non".', 'Dixo. Babilonia.', 'Dixo (Saccharomyces).'].each do |text|
-          assert_equal [text], capitalized_proper_nouns.call(text),
-            "Should not promote exact-case lexicon entry in #{text.inspect}"
+        {
+          'Dixo "Non".' => [],
+          'Dixo. Babilonia.' => ['Babilonia'],
+          'Dixo (Saccharomyces).' => []
+        }.each do |text, expected_literals|
+          result = capitalized_proper_nouns.call(text)
+          actual_literals = result.filter_map { |segment| segment.text if segment.is_a?(ProperNouns::Literal) }
+          assert_equal expected_literals, actual_literals,
+            "Unexpected exact-case handling in #{text.inspect}"
         end
       end
 

@@ -3,7 +3,7 @@
 `test/corga_document_test.rb` tests the **client's expectations**, not whether the
 tagger reproduces a recorded error. `cases.json` preserves 44 documented cases;
 31 are active acceptance cases. The nested section/subsection names follow
-`odd/tasks/corga-xiada-20261007.md`, excluding non-testable cases C3-01/C3-04,
+`odd/tasks/corga-xiada-client-annotation-cases.md`, excluding non-testable cases C3-01/C3-04,
 C5-01, and sections 6 and 8. Thirteen O/A article-in-title cases remain
 documented but deferred: their exact titles are absent from `lexicon_titulos`,
 and adding those source entries is outside this task.
@@ -72,7 +72,13 @@ text is invented.
   registered in `lexicon_titulos`; the title entries are not maintained by this task.
 - Ordinary periods have a legacy tokenization behavior: a period can remain
   attached to the preceding word (`palabra.`, `dubitativa.`). This is documented
-  for a future correction; no tokenizer change is included now.
+  for a future correction; no tokenizer change is included now. T19 changes only
+  proper-noun recognition after the point.
+- C4-04/C4-05 keep their original source `input` and use `input_sentences` to
+  model the upstream sentence boundary. The test helper tags those already
+  segmented strings and maps token offsets back to the original input; it does
+  not implement production sentence segmentation. A single combined input is
+  covered by the ProperNouns unit tests and follows T19's proper-noun rule.
 - C4-12/13/14 retain the full p050 sentence; C4-23–30 retain visible p061 context.
   Preceding text for A is recovered from p062; C4-34/35 use their corresponding
   full p050 sentence. Original source `infeción`/`no mundo` differs from the

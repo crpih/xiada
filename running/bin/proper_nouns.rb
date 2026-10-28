@@ -310,11 +310,9 @@ class ProperNouns
     return unless match
     return if text[(i + match.size)..].to_s.match?(/\A#{NOT_SEGMENT_CONTENT_OPENING_TAG}/)
 
-    # If:
-    # - the match text is after a wrapper char, after an internal point or at the beginning of the text
-    # - the exact-case match is in the main lexicon, it is a lexical item rather than a proper noun
-    return if (starts_with_wrapper?(text, i) || after_non_abbreviation_point?(text, i) || i.zero?) &&
-      @main_lexicon.include?(match.strip)
+    # If the match text is after a wrapper char or at the beginning of the text,
+    # an exact-case main-lexicon match is a lexical item rather than a proper noun.
+    return if (starts_with_wrapper?(text, i) || i.zero?) && @main_lexicon.include?(match.strip)
 
     i...(i + match.size)
   end
@@ -355,7 +353,8 @@ class ProperNouns
   def simple_proper_noun(text)
     match = text.match(/\A(\p{Upper}\p{Lower}+)(?:[^\p{L}|\p{N}]|\z)/)&.captures&.compact&.first
     with_dot = "#{match}."
-    # If the match is followed by a dot in the original text and is an acronym, abbreviation or lexical entry, is not a proper noun
+    # Keep a token ending in a dot from being recognized as a proper noun when it is an acronym, abbreviation or lexical entry.
+    # This does not affect a capitalized candidate following the dot.
     return if text.start_with?(with_dot) &&
       (@acronyms.include?(with_dot) || @abbreviations.include?(with_dot) || @main_lexicon.include?(with_dot.downcase))
 
@@ -379,31 +378,12 @@ class ProperNouns
     count
   end
 
-  def short_abbreviation?(text) = text.match?(/\A\p{Upper}\p{Lower}{0,1}\.\z/)
-
-  def after_non_abbreviation_point?(text, i)
-    return false unless text[i - 2] == "."
-
-    previous_separator_position = text[..i - 2].rindex(/\p{Z}/)
-    return true unless previous_separator_position
-
-    previous_word = text[(previous_separator_position + 1)..i - 2]
-    !@acronyms.include?(previous_word) && !@abbreviations.include?(previous_word) && !short_abbreviation?(previous_word)
-  end
-
   def ambiguous_position?(text, i)
     # Unambiguous proper nouns are not preceded by punctuation followed by a separator (space usually).
     # If there is a wrapper char before the uppercase letter, then check the char before the wrapper.
     wrapper_count = wrapper_start_count(text, i)
     previous_two_positions = i - 2 - wrapper_count
     return true if previous_two_positions.positive? && !text[previous_two_positions..].match?(/\A[^!?)]\p{Z}/)
-
-    # A registered acronym's dot does not make the following name ambiguous.
-    # Ordinary full stops still require a name listed in the proper-noun lexicon.
-    if previous_two_positions.positive? && text[previous_two_positions..].match?(/\A\.\p{Z}/)
-      previous_word = text[..previous_two_positions].split(/\p{Z}+/).last
-      return true unless @acronyms.include?(previous_word)
-    end
 
     false
   end
